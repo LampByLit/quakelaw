@@ -1,38 +1,4 @@
-/*
-    Bounce Back ~ A boomerang roguelike for JS13k
-    Copyright (C) 2019 Frank Force
 
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; either version 2 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details. 
-*/
-/*
-    Javascript Game Engine
-    By Frank Force 2019
-
-    Engine Features
-    - Engine is separate from game code, I kept it super simple.
-    - Object oriented system with base class game object.
-    - Base class object handles physics, collision, rendering, shadows, etc.
-    - Objects collide with level tiles and can bounce off.
-    - Engine helper classes and functions like Vector2, Color, and Timer.
-    - Level is composed of a grid of tiles that can optionally have objects on them (bushes/rocks)
-    - Automatically tiles level based on what is there.
-    - Level & ground is cached to offscreen buffer, so all the level, trees, blood splats is only 1 draw call.
-    - Sound effects audio with my tiny sound lib zzfx.
-    - Input processing system.
-    - A simple particle effect system.
-*/
-
-"use strict"; // strict mode
-///////////////////////////////////////////////////////////////////////////////
-// config
 
 let godMode = 0;
 let debug = 0;
@@ -344,11 +310,40 @@ function EngineUpdate()
 
 let gameObjects = [];
 function ClearGameObjects()  { gameObjects = []; }
-function UpdateGameObjects() { gameObjects.forEach(o=>o.Update()); }
+function UpdateGameObjects() 
+{ 
+    gameObjects.forEach(o=>
+    {
+        // When inside an interior, only update interior objects (player, furniture, boomerangs)
+        if (typeof currentInterior !== 'undefined' && currentInterior)
+        {
+            // Skip exterior objects when inside
+            // Buildings, stores, enemies, store items, pickups, and level exits are exterior-only
+            if (o.isBuilding || o.isStore || o.isEnemy || 
+                (o.owner && o.owner.isStore) || // StoreItem
+                (o.isSmallPickup !== undefined) || // Pickup
+                (o.closeTimer !== undefined)) // LevelExit
+                return;
+        }
+        o.Update();
+    });
+}
 function RenderGameObjects()
 { 
     gameObjects.forEach(o=>
     {
+        // When inside an interior, only render interior objects (player, furniture, boomerangs)
+        if (typeof currentInterior !== 'undefined' && currentInterior)
+        {
+            // Skip exterior objects when inside
+            // Buildings, stores, enemies, store items, pickups, and level exits are exterior-only
+            if (o.isBuilding || o.isStore || o.isEnemy || 
+                (o.owner && o.owner.isStore) || // StoreItem
+                (o.isSmallPickup !== undefined) || // Pickup
+                (o.closeTimer !== undefined)) // LevelExit
+                return;
+        }
+        
         o.Render();
         if (!shadowRenderPass)
         {
@@ -629,6 +624,13 @@ class Level
                     else if (!dd) r = 2;
                     else if (!dl) r = 3;
                 }
+            }
+            
+            // Shift solid tiles (type 0) to avoid using tileX 0-4 at tileY 0
+            // Tiles 0-4 at row 0 have been repurposed
+            if (dt == 0)
+            {
+                t += 5; // Shift solid tiles from 0-5 to 5-10
             }
 
             d.tile = t;

@@ -20,6 +20,11 @@ let levelColor = new Color();
 let levelFrame;
 let playerHomePos;
 let buildingSprites = {};
+let currentInterior = null;
+let exteriorLevel = null;
+let playerExteriorPos = null;
+let tileImage2 = null; // tiles2.png for furniture
+let interiorExitCooldown = new Timer();
 
 let boss;
 let player;
@@ -190,7 +195,15 @@ function PreRender()
     mainCanvasContext.fillRect(0,0,mainCanvasSize.x, mainCanvasSize.y);
     
     // draw the level (bottom layer)
-    level.Render();
+    if (currentInterior)
+    {
+        // Render interior with tint
+        currentInterior.Render();
+    }
+    else
+    {
+        level.Render();
+    }
 }
 
 function PostRender()
@@ -547,6 +560,36 @@ class Player extends MyGameObject
         // update walk if not throwing or dashing
         if (this.throwTimer.Elapsed() && !this.IsDashing())
            this.UpdateWalk();
+        
+        // Check for building entry/exit
+        if (currentInterior)
+        {
+            // Check for exit (middle of bottom edge)
+            ExitInterior();
+        }
+        else
+        {
+            // Check for building entry (touch south face)
+            // Don't allow entry if we just exited (cooldown period)
+            if (interiorExitCooldown.Elapsed())
+            {
+                gameObjects.forEach(obj => {
+                    if (obj.isBuilding)
+                    {
+                        let southEdge = obj.pos.y + obj.size.y;
+                        let buildingWidth = obj.size.x;
+                        
+                        // Check if player is touching south face
+                        if (this.pos.y >= southEdge - 0.3 && 
+                            this.pos.y <= southEdge + 0.5 &&
+                            Math.abs(this.pos.x - obj.pos.x) < buildingWidth)
+                        {
+                            EnterInterior(obj);
+                        }
+                    }
+                });
+            }
+        }
         
         super.Update();
     }
@@ -1578,6 +1621,756 @@ class LevelExit extends MyGameObject
 }
 
 ///////////////////////////////////////////////////////////////////////////////
+// interior system
+
+class Furniture extends MyGameObject
+{
+    constructor(pos, spriteIndex, size, tilesetImage)
+    {
+        // size is in tiles (1 = 16px, 2 = 32px)
+        let tileSize = size * 0.5; // Convert to world units (0.5 = 1 tile)
+        super(pos, 0, 0, tileSize, tileSize * 0.9); // Collision slightly smaller than visual
+        this.spriteIndex = spriteIndex;
+        this.tilesetImage = tilesetImage;
+        this.furnitureSize = size; // Store tile size
+        this.isFurniture = 1;
+    }
+    
+    Render()
+    {
+        if (shadowRenderPass)
+            return;
+        
+        // Custom rendering for furniture from tiles2.png
+        mainCanvasContext.save();
+        let drawPos = this.pos.Clone();
+        drawPos.y -= this.height;
+        drawPos.Subtract(cameraPos).Multiply(tileSize*cameraScale);
+        drawPos.Add(mainCanvasSize.Clone(.5));
+        mainCanvasContext.translate(drawPos.x|0, drawPos.y|0);
+        
+        let s = this.furnitureSize * tileSize * cameraScale;
+        
+        if (this.tilesetImage)
+        {
+            if (this.isEndtable)
+            {
+                // Endtable uses tiles.png with tile index system
+                let tileX = this.spriteIndex % 8;
+                let tileY = Math.floor(this.spriteIndex / 8);
+                mainCanvasContext.drawImage(
+                    this.tilesetImage,
+                    tileX * tileSize, tileY * tileSize,
+                    tileSize, tileSize,
+                    -s, -s,
+                    s * 2, s * 2
+                );
+            }
+            else
+            {
+                // Draw from tiles2.png - sprite index determines which sprite
+                let spriteSize = this.furnitureSize * 16; // 16px per tile
+                mainCanvasContext.drawImage(
+                    this.tilesetImage,
+                    this.spriteIndex * spriteSize, 0, // Source position
+                    spriteSize, spriteSize, // Source size
+                    -s, -s, // Destination position
+                    s * 2, s * 2 // Destination size
+                );
+            }
+        }
+        else
+        {
+            // Placeholder
+            mainCanvasContext.fillStyle = '#642';
+            mainCanvasContext.fillRect(-s, -s, s * 2, s * 2);
+        }
+        
+        mainCanvasContext.restore();
+    }
+}
+
+class Interior
+{
+    constructor(size, floorTint)
+    {
+        // size is in tiles (8x8)
+        this.size = size;
+        this.floorTint = floorTint; // Dark brown color
+        this.furniture = [];
+        this.exitPoint = new Vector2(size / 2, size - 0.5); // Middle of bottom edge (entry/exit point)
+        
+        // Create interior level with custom size
+        this.interiorSize = size;
+    }
+    
+    CreateLevel()
+    {
+        // levelSize should already be set to interiorSize before calling this
+        // Create new level (uses current levelSize)
+        this.level = new Level();
+    }
+    
+    // Furniture pool definitions
+    static GetFurniturePool(includeBed = true)
+    {
+        let pool = [
+            // From tiles2.png (32px, size 2)
+            {name: 'dresser', spriteIndex: 0, size: 2, tilesetImage: tileImage2, isEndtable: false},
+            {name: 'storeshelf', spriteIndex: 2, size: 2, tilesetImage: tileImage2, isEndtable: false},
+            {name: 'shopshelf', spriteIndex: 3, size: 2, tilesetImage: tileImage2, isEndtable: false},
+            {name: 'desk', spriteIndex: 4, size: 2, tilesetImage: tileImage2, isEndtable: false},
+            {name: 'cabinet', spriteIndex: 5, size: 2, tilesetImage: tileImage2, isEndtable: false},
+            // From tiles.png (16px, size 1)
+            {name: 'endtable', spriteIndex: 0, size: 1, tilesetImage: tileImage, isEndtable: true},
+            {name: 'plant', spriteIndex: 1, size: 1, tilesetImage: tileImage, isEndtable: true},
+            {name: 'stool', spriteIndex: 2, size: 1, tilesetImage: tileImage, isEndtable: true},
+            {name: 'blueplant', spriteIndex: 3, size: 1, tilesetImage: tileImage, isEndtable: true}
+        ];
+        
+        if (includeBed)
+        {
+            pool.push({name: 'bed', spriteIndex: 1, size: 2, tilesetImage: tileImage2, isEndtable: false});
+        }
+        
+        return pool;
+    }
+    
+    // Shuffle array and pick N unique items
+    static SelectRandomFurniture(pool, count)
+    {
+        // Shuffle the pool
+        let shuffled = pool.slice(); // Copy array
+        for(let i = shuffled.length - 1; i > 0; i--)
+        {
+            let j = RandInt(i + 1);
+            let temp = shuffled[i];
+            shuffled[i] = shuffled[j];
+            shuffled[j] = temp;
+        }
+        
+        // Pick first N items
+        return shuffled.slice(0, count);
+    }
+    
+    // Place a single furniture piece
+    PlaceFurniture(furnitureDef, furniturePlaced)
+    {
+        let pos = this.FindFurniturePosition(furnitureDef.size, furniturePlaced);
+        if (pos)
+        {
+            let furniture = new Furniture(pos, furnitureDef.spriteIndex, furnitureDef.size, furnitureDef.tilesetImage);
+            if (furnitureDef.isEndtable)
+                furniture.isEndtable = true;
+            
+            furniturePlaced.push({pos: pos, size: furnitureDef.size});
+            this.furniture.push(furniture);
+            
+            // Make furniture area solid (impassable)
+            let furnitureSize = furnitureDef.size;
+            this.level.FillCircleCallback(pos, furnitureSize * 0.5 * 0.9, (data) => {
+                data.type = 0; // solid
+            });
+            return true;
+        }
+        return false;
+    }
+    
+    GenerateHome()
+    {
+        // levelSize should already be set to interiorSize before calling this
+        // Create the level (uses current levelSize)
+        this.CreateLevel();
+        
+        // Fill entire interior with floor tiles (type 1 = grass, will be tinted)
+        for(let x = 0; x < this.interiorSize; x++)
+        for(let y = 0; y < this.interiorSize; y++)
+        {
+            this.level.GetData(x, y).type = 1; // Grass tile (will be tinted brown)
+        }
+        
+        // Ensure exit area (bottom center) is clear and walkable
+        let exitX = this.size / 2;
+        let exitY = this.size - 0.5;
+        this.level.FillCircleType(new Vector2(exitX, exitY), 1.0, 1); // Clear exit area (1 tile radius)
+        
+        // Place furniture: 1 bed + 2 random pieces
+        let furniturePlaced = [];
+        
+        // Always place bed first
+        let bedDef = {name: 'bed', spriteIndex: 1, size: 2, tilesetImage: tileImage2, isEndtable: false};
+        this.PlaceFurniture(bedDef, furniturePlaced);
+        
+        // Get pool without bed and select 2 random pieces
+        let pool = Interior.GetFurniturePool(false); // Exclude bed
+        let randomFurniture = Interior.SelectRandomFurniture(pool, 2);
+        
+        // Place the 2 random pieces
+        for(let furnitureDef of randomFurniture)
+        {
+            this.PlaceFurniture(furnitureDef, furniturePlaced);
+        }
+        
+        // Apply tiling and redraw
+        // (levelSize should still be set to interiorSize at this point)
+        this.level.ApplyTiling();
+        this.level.Redraw();
+    }
+    
+    GenerateHouse()
+    {
+        // levelSize should already be set to interiorSize before calling this
+        // Create the level (uses current levelSize)
+        this.CreateLevel();
+        
+        // Fill entire interior with floor tiles (type 1 = grass, will be tinted)
+        for(let x = 0; x < this.interiorSize; x++)
+        for(let y = 0; y < this.interiorSize; y++)
+        {
+            this.level.GetData(x, y).type = 1; // Grass tile (will be tinted brown)
+        }
+        
+        // Ensure exit area (bottom center) is clear and walkable
+        let exitX = this.size / 2;
+        let exitY = this.size - 0.5;
+        this.level.FillCircleType(new Vector2(exitX, exitY), 1.0, 1); // Clear exit area (1 tile radius)
+        
+        // Place furniture: 1 bed + 2 random pieces
+        let furniturePlaced = [];
+        
+        // Always place bed first
+        let bedDef = {name: 'bed', spriteIndex: 1, size: 2, tilesetImage: tileImage2, isEndtable: false};
+        this.PlaceFurniture(bedDef, furniturePlaced);
+        
+        // Get pool without bed and select 2 random pieces
+        let pool = Interior.GetFurniturePool(false); // Exclude bed
+        let randomFurniture = Interior.SelectRandomFurniture(pool, 2);
+        
+        // Place the 2 random pieces
+        for(let furnitureDef of randomFurniture)
+        {
+            this.PlaceFurniture(furnitureDef, furniturePlaced);
+        }
+        
+        // Apply tiling and redraw
+        // (levelSize should still be set to interiorSize at this point)
+        this.level.ApplyTiling();
+        this.level.Redraw();
+    }
+    
+    GenerateShop()
+    {
+        // levelSize should already be set to interiorSize before calling this
+        // Create the level (uses current levelSize)
+        this.CreateLevel();
+        
+        // Fill entire interior with floor tiles (type 1 = grass, will be tinted)
+        for(let x = 0; x < this.interiorSize; x++)
+        for(let y = 0; y < this.interiorSize; y++)
+        {
+            this.level.GetData(x, y).type = 1; // Grass tile (will be tinted blue)
+        }
+        
+        // Ensure exit area (bottom center) is clear and walkable
+        let exitX = this.size / 2;
+        let exitY = this.size - 0.5;
+        this.level.FillCircleType(new Vector2(exitX, exitY), 1.0, 1); // Clear exit area (1 tile radius)
+        
+        // Place furniture: 4 random pieces (no bed)
+        let furniturePlaced = [];
+        
+        // Get pool without bed and select 4 random pieces
+        let pool = Interior.GetFurniturePool(false); // Exclude bed
+        let randomFurniture = Interior.SelectRandomFurniture(pool, 4);
+        
+        // Place the 4 random pieces
+        for(let furnitureDef of randomFurniture)
+        {
+            this.PlaceFurniture(furnitureDef, furniturePlaced);
+        }
+        
+        // Apply tiling and redraw
+        // (levelSize should still be set to interiorSize at this point)
+        this.level.ApplyTiling();
+        this.level.Redraw();
+    }
+    
+    GenerateStore()
+    {
+        // levelSize should already be set to interiorSize before calling this
+        // Create the level (uses current levelSize)
+        this.CreateLevel();
+        
+        // Fill entire interior with floor tiles (type 1 = grass, will be tinted)
+        for(let x = 0; x < this.interiorSize; x++)
+        for(let y = 0; y < this.interiorSize; y++)
+        {
+            this.level.GetData(x, y).type = 1; // Grass tile (will be tinted pink)
+        }
+        
+        // Ensure exit area (bottom center) is clear and walkable
+        let exitX = this.size / 2;
+        let exitY = this.size - 0.5;
+        this.level.FillCircleType(new Vector2(exitX, exitY), 1.0, 1); // Clear exit area (1 tile radius)
+        
+        // Place furniture: 4 random pieces (no bed)
+        let furniturePlaced = [];
+        
+        // Get pool without bed and select 4 random pieces
+        let pool = Interior.GetFurniturePool(false); // Exclude bed
+        let randomFurniture = Interior.SelectRandomFurniture(pool, 4);
+        
+        // Place the 4 random pieces
+        for(let furnitureDef of randomFurniture)
+        {
+            this.PlaceFurniture(furnitureDef, furniturePlaced);
+        }
+        
+        // Apply tiling and redraw
+        // (levelSize should still be set to interiorSize at this point)
+        this.level.ApplyTiling();
+        this.level.Redraw();
+    }
+    
+    GenerateFirm()
+    {
+        // levelSize should already be set to interiorSize before calling this
+        // Create the level (uses current levelSize)
+        this.CreateLevel();
+        
+        // Fill entire interior with floor tiles (type 1 = grass, will be tinted)
+        for(let x = 0; x < this.interiorSize; x++)
+        for(let y = 0; y < this.interiorSize; y++)
+        {
+            this.level.GetData(x, y).type = 1; // Grass tile (will be tinted yellow/gold)
+        }
+        
+        // Ensure exit area (bottom center) is clear and walkable
+        let exitX = this.size / 2;
+        let exitY = this.size - 0.5;
+        this.level.FillCircleType(new Vector2(exitX, exitY), 1.0, 1); // Clear exit area (1 tile radius)
+        
+        // Place furniture: 4 random pieces (no bed)
+        let furniturePlaced = [];
+        
+        // Get pool without bed and select 4 random pieces
+        let pool = Interior.GetFurniturePool(false); // Exclude bed
+        let randomFurniture = Interior.SelectRandomFurniture(pool, 4);
+        
+        // Place the 4 random pieces
+        for(let furnitureDef of randomFurniture)
+        {
+            this.PlaceFurniture(furnitureDef, furniturePlaced);
+        }
+        
+        // Apply tiling and redraw
+        // (levelSize should still be set to interiorSize at this point)
+        this.level.ApplyTiling();
+        this.level.Redraw();
+    }
+    
+    GenerateCourthouse()
+    {
+        // levelSize should already be set to interiorSize before calling this
+        // Create the level (uses current levelSize)
+        this.CreateLevel();
+        
+        // Fill entire interior with floor tiles (type 1 = grass, will be tinted)
+        for(let x = 0; x < this.interiorSize; x++)
+        for(let y = 0; y < this.interiorSize; y++)
+        {
+            this.level.GetData(x, y).type = 1; // Grass tile (will be tinted purple)
+        }
+        
+        // Ensure exit area (bottom center) is clear and walkable
+        let exitX = this.size / 2;
+        let exitY = this.size - 0.5;
+        this.level.FillCircleType(new Vector2(exitX, exitY), 1.0, 1); // Clear exit area (1 tile radius)
+        
+        // Place furniture: ALL pieces except bed
+        let furniturePlaced = [];
+        
+        // Get pool without bed - place all of them
+        let pool = Interior.GetFurniturePool(false); // Exclude bed
+        
+        // Place all furniture pieces
+        for(let furnitureDef of pool)
+        {
+            this.PlaceFurniture(furnitureDef, furniturePlaced);
+        }
+        
+        // Apply tiling and redraw
+        // (levelSize should still be set to interiorSize at this point)
+        this.level.ApplyTiling();
+        this.level.Redraw();
+    }
+    
+    FindFurniturePosition(furnitureSize, existingFurniture)
+    {
+        // Find a random position that doesn't overlap with existing furniture or exit area
+        let exitX = this.size / 2; // Exit is at middle of bottom edge
+        let exitY = this.size - 0.5;
+        let exitClearance = 1.5; // Keep furniture at least 1.5 tiles away from exit
+        
+        for(let attempt = 0; attempt < 50; attempt++)
+        {
+            let margin = 0.5; // Keep furniture away from walls
+            let x = RandBetween(margin, this.size - margin - furnitureSize);
+            let y = RandBetween(margin, this.size - margin - furnitureSize);
+            let pos = new Vector2(x, y);
+            
+            // Don't place furniture near the exit (bottom center)
+            let distToExit = pos.Distance(new Vector2(exitX, exitY));
+            if (distToExit < exitClearance)
+                continue; // Too close to exit, try again
+            
+            // Check if it overlaps with existing furniture
+            let overlaps = false;
+            for(let f of existingFurniture)
+            {
+                let dist = pos.Distance(f.pos);
+                if (dist < (furnitureSize + f.size) / 2 + 0.3) // 0.3 tile buffer
+                {
+                    overlaps = true;
+                    break;
+                }
+            }
+            
+            if (!overlaps)
+                return pos;
+        }
+        
+        // Fallback: place in corner if can't find space (but not near exit)
+        return new Vector2(1, 1);
+    }
+    
+    Render()
+    {
+        // Render the level with dark brown tint
+        if (!this.level)
+            return; // Level not ready yet
+        
+        // Level uses the global levelCanvas, so we can use that
+        // But we need to make sure the level has been redrawn
+        mainCanvasContext.save();
+        
+        // Draw the level first (Level.Render() handles the canvas drawing)
+        // We'll call the level's render method, then apply tint
+        let pos = cameraPos.Clone(-cameraScale*tileSize).Add(mainCanvasSize.Clone(.5));
+        
+        // Draw the level canvas
+        if (levelCanvas && levelCanvas.width > 0)
+        {
+            mainCanvasContext.drawImage(
+                levelCanvas, 
+                pos.x|0, pos.y|0,
+                cameraScale*levelCanvas.width|0, 
+                cameraScale*levelCanvas.height|0
+            );
+            
+            // Apply dark brown tint overlay
+            mainCanvasContext.globalCompositeOperation = 'multiply';
+            mainCanvasContext.fillStyle = this.floorTint.RGBA();
+            mainCanvasContext.fillRect(
+                pos.x|0, pos.y|0,
+                cameraScale*levelCanvas.width|0, 
+                cameraScale*levelCanvas.height|0
+            );
+            mainCanvasContext.globalCompositeOperation = 'source-over';
+        }
+        
+        mainCanvasContext.restore();
+    }
+}
+
+function EnterInterior(building)
+{
+    if (currentInterior)
+        return; // Already in an interior
+    
+    // Store exterior state
+    exteriorLevel = level;
+    playerExteriorPos = player.pos.Clone();
+    
+    // Check if this building already has an interior (persisted from previous visit)
+    if (building.interior)
+    {
+        // Reuse existing interior
+        currentInterior = building.interior;
+        
+        // Set level size to match interior size
+        levelSize = currentInterior.size;
+        
+        // Resize levelCanvas to match interior level size
+        levelCanvas.width = levelCanvas.height = levelSize * tileSize;
+        
+        // Switch to interior level
+        level = currentInterior.level;
+        
+        // Redraw the level to the canvas (canvas was cleared when resized)
+        // The level data (tiles, edge sprites) is already correct, just need to redraw
+        if (level)
+        {
+            level.Redraw();
+        }
+        
+        // Remove any existing furniture first (safety check in case of duplicates)
+        gameObjects = gameObjects.filter(o => !o.isFurniture);
+        
+        // Add furniture to game objects (recreate from stored positions)
+        for(let f of currentInterior.furniture)
+        {
+            gameObjects.push(f);
+        }
+        
+        // Position player at entrance (bottom center, but slightly inside to avoid immediate exit)
+        player.pos.Set(currentInterior.size / 2, currentInterior.size - 1.5); // Bottom center, 1 tile inside
+        player.rotation = 3; // Facing north (into room)
+        
+        // Set a brief cooldown to prevent immediate exit after entering
+        interiorExitCooldown.Set(0.2);
+    }
+    else
+    {
+        // Create new interior based on building type
+        if (building.buildingType === 'home')
+        {
+            // Set level size BEFORE creating interior (Level constructor uses levelSize)
+            levelSize = 8;
+            
+            currentInterior = new Interior(8, new Color(0.4, 0.25, 0.15)); // Dark brown
+            currentInterior.GenerateHome();
+            
+            // Store interior on building for persistence
+            building.interior = currentInterior;
+            
+            // Switch to interior level
+            level = currentInterior.level;
+            
+            // Remove any existing furniture first (safety check in case of duplicates)
+            gameObjects = gameObjects.filter(o => !o.isFurniture);
+            
+            // Add furniture to game objects
+            for(let f of currentInterior.furniture)
+            {
+                gameObjects.push(f);
+            }
+            
+            // Position player at entrance (bottom center, but slightly inside to avoid immediate exit)
+            // Place player 1 tile inside from the bottom edge to prevent instant exit
+            player.pos.Set(currentInterior.size / 2, currentInterior.size - 1.5); // Bottom center, 1 tile inside
+            player.rotation = 3; // Facing north (into room)
+            
+            // Set a brief cooldown to prevent immediate exit after entering
+            interiorExitCooldown.Set(0.2);
+        }
+        else if (building.buildingType === 'house')
+        {
+            // Set level size BEFORE creating interior (Level constructor uses levelSize)
+            levelSize = 16;
+            
+            currentInterior = new Interior(16, new Color(0.4, 0.25, 0.15)); // Dark brown
+            currentInterior.GenerateHouse();
+            
+            // Store interior on building for persistence
+            building.interior = currentInterior;
+            
+            // Switch to interior level
+            level = currentInterior.level;
+            
+            // Remove any existing furniture first (safety check in case of duplicates)
+            gameObjects = gameObjects.filter(o => !o.isFurniture);
+            
+            // Add furniture to game objects
+            for(let f of currentInterior.furniture)
+            {
+                gameObjects.push(f);
+            }
+            
+            // Position player at entrance (bottom center, but slightly inside to avoid immediate exit)
+            // Place player 1 tile inside from the bottom edge to prevent instant exit
+            player.pos.Set(currentInterior.size / 2, currentInterior.size - 1.5); // Bottom center, 1 tile inside
+            player.rotation = 3; // Facing north (into room)
+            
+            // Set a brief cooldown to prevent immediate exit after entering
+            interiorExitCooldown.Set(0.2);
+        }
+        else if (building.buildingType === 'shop')
+        {
+            // Set level size BEFORE creating interior (Level constructor uses levelSize)
+            levelSize = 16;
+            
+            currentInterior = new Interior(16, new Color(0.2, 0.4, 0.8)); // Blue
+            currentInterior.GenerateShop();
+            
+            // Store interior on building for persistence
+            building.interior = currentInterior;
+            
+            // Switch to interior level
+            level = currentInterior.level;
+            
+            // Remove any existing furniture first (safety check in case of duplicates)
+            gameObjects = gameObjects.filter(o => !o.isFurniture);
+            
+            // Add furniture to game objects
+            for(let f of currentInterior.furniture)
+            {
+                gameObjects.push(f);
+            }
+            
+            // Position player at entrance (bottom center, but slightly inside to avoid immediate exit)
+            player.pos.Set(currentInterior.size / 2, currentInterior.size - 1.5); // Bottom center, 1 tile inside
+            player.rotation = 3; // Facing north (into room)
+            
+            // Set a brief cooldown to prevent immediate exit after entering
+            interiorExitCooldown.Set(0.2);
+        }
+        else if (building.buildingType === 'store')
+        {
+            // Set level size BEFORE creating interior (Level constructor uses levelSize)
+            levelSize = 16;
+            
+            currentInterior = new Interior(16, new Color(0.8, 0.4, 0.6)); // Pink
+            currentInterior.GenerateStore();
+            
+            // Store interior on building for persistence
+            building.interior = currentInterior;
+            
+            // Switch to interior level
+            level = currentInterior.level;
+            
+            // Remove any existing furniture first (safety check in case of duplicates)
+            gameObjects = gameObjects.filter(o => !o.isFurniture);
+            
+            // Add furniture to game objects
+            for(let f of currentInterior.furniture)
+            {
+                gameObjects.push(f);
+            }
+            
+            // Position player at entrance (bottom center, but slightly inside to avoid immediate exit)
+            player.pos.Set(currentInterior.size / 2, currentInterior.size - 1.5); // Bottom center, 1 tile inside
+            player.rotation = 3; // Facing north (into room)
+            
+            // Set a brief cooldown to prevent immediate exit after entering
+            interiorExitCooldown.Set(0.2);
+        }
+        else if (building.buildingType === 'firm')
+        {
+            // Set level size BEFORE creating interior (Level constructor uses levelSize)
+            levelSize = 16;
+            
+            currentInterior = new Interior(16, new Color(0.6, 0.5, 0.2)); // Yellow/Gold
+            currentInterior.GenerateFirm();
+            
+            // Store interior on building for persistence
+            building.interior = currentInterior;
+            
+            // Switch to interior level
+            level = currentInterior.level;
+            
+            // Remove any existing furniture first (safety check in case of duplicates)
+            gameObjects = gameObjects.filter(o => !o.isFurniture);
+            
+            // Add furniture to game objects
+            for(let f of currentInterior.furniture)
+            {
+                gameObjects.push(f);
+            }
+            
+            // Position player at entrance (bottom center, but slightly inside to avoid immediate exit)
+            player.pos.Set(currentInterior.size / 2, currentInterior.size - 1.5); // Bottom center, 1 tile inside
+            player.rotation = 3; // Facing north (into room)
+            
+            // Set a brief cooldown to prevent immediate exit after entering
+            interiorExitCooldown.Set(0.2);
+        }
+        else if (building.buildingType === 'court')
+        {
+            // Set level size BEFORE creating interior (Level constructor uses levelSize)
+            levelSize = 16;
+            
+            currentInterior = new Interior(16, new Color(0.5, 0.3, 0.7)); // Purple
+            currentInterior.GenerateCourthouse();
+            
+            // Store interior on building for persistence
+            building.interior = currentInterior;
+            
+            // Switch to interior level
+            level = currentInterior.level;
+            
+            // Remove any existing furniture first (safety check in case of duplicates)
+            gameObjects = gameObjects.filter(o => !o.isFurniture);
+            
+            // Add furniture to game objects
+            for(let f of currentInterior.furniture)
+            {
+                gameObjects.push(f);
+            }
+            
+            // Position player at entrance (bottom center, but slightly inside to avoid immediate exit)
+            player.pos.Set(currentInterior.size / 2, currentInterior.size - 1.5); // Bottom center, 1 tile inside
+            player.rotation = 3; // Facing north (into room)
+            
+            // Set a brief cooldown to prevent immediate exit after entering
+            interiorExitCooldown.Set(0.2);
+        }
+    }
+}
+
+function ExitInterior()
+{
+    if (!currentInterior)
+        return;
+    
+    // Don't allow exit immediately after entering (cooldown period)
+    if (!interiorExitCooldown.Elapsed())
+        return;
+    
+    // Check if player is at exit point (middle of bottom edge)
+    let exitDist = player.pos.Distance(currentInterior.exitPoint);
+    if (exitDist < 0.5) // Within 0.5 tiles of exit
+    {
+        // Remove ALL furniture from game objects (filter by isFurniture to catch any duplicates)
+        gameObjects = gameObjects.filter(o => !o.isFurniture);
+        
+        // Restore exterior level size FIRST (before restoring level)
+        levelSize = 64;
+        
+        // Resize levelCanvas to match exterior level size
+        // (The interior Level constructor resized it to 8*16=128, need to restore to 64*16=1024)
+        levelCanvas.width = levelCanvas.height = levelSize * tileSize;
+        
+        // Restore exterior level
+        level = exteriorLevel;
+        
+        // Redraw the exterior level to the canvas (it was drawn at interior canvas size)
+        if (level)
+        {
+            level.Redraw();
+        }
+        
+        // Position player back outside building (south of building)
+        // Move player slightly further south to avoid immediate re-entry
+        if (playerExteriorPos)
+        {
+            player.pos.Copy(playerExteriorPos);
+            // Push player further south by 0.5 tiles to avoid entry detection zone
+            player.pos.y += 0.5;
+        }
+        
+        // Set cooldown to prevent immediate re-entry (0.3 seconds)
+        interiorExitCooldown.Set(0.3);
+        
+        // Clear current interior reference (but keep it stored on the building for persistence)
+        // The interior is still stored in building.interior, so it will be reused on next entry
+        currentInterior = null;
+        exteriorLevel = null;
+        playerExteriorPos = null;
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////
 // building system
 
 function LoadBuildingSprites(callback)
@@ -1615,6 +2408,12 @@ class Building extends MyGameObject
         this.spriteFile = spriteFile;
         this.sprite = buildingSprites[spriteFile];
         this.isBuilding = 1;
+        
+        // Create unique ID based on position (rounded to avoid floating point issues)
+        this.id = `building_${Math.round(pos.x * 100)}_${Math.round(pos.y * 100)}`;
+        
+        // Store interior for persistence (will be created on first entry)
+        this.interior = null;
         
         // Clear area around building and make it solid
         level.FillCircleType(pos, size * 1.2, 1); // grass
@@ -1877,7 +2676,16 @@ function GenerateTown()
         }
     }
     
-    // Generate trees and bushes randomly
+    // Clear any existing object type 1 (bushes/plants) from the entire map first
+    for(let x = 0; x < levelSize; x++)
+    for(let y = 0; y < levelSize; y++)
+    {
+        let data = level.GetData(x, y);
+        if (data.object == 1) // Remove any existing bushes/plants
+            data.object = 0;
+    }
+    
+    // Generate rocks randomly (no bushes/plants)
     for(let i = 0; i < 200; i++)
     {
         let pos = new Vector2(RandBetween(2, levelSize - 2), RandBetween(2, levelSize - 2));
@@ -1904,11 +2712,8 @@ function GenerateTown()
         if (tooClose)
             continue;
         
-        // Place bush or rock randomly
-        if (Rand() < 0.7)
-            level.FillCircleObject(pos, RandBetween(0.5, 1.5), 1); // bush
-        else
-            level.FillCircleObject(pos, RandBetween(0.3, 1), 2); // rock
+        // Place rock only (bushes/plants removed to avoid confusion with houseplant furniture)
+        level.FillCircleObject(pos, RandBetween(0.3, 1), 2); // rock
     }
     
     // Draw the level
@@ -2403,10 +3208,34 @@ function PlaySound(sound, p=0)
 
 // load texture and building sprites, then kick off init!
 let tileImage = new Image();
+let tilesLoaded = 0;
+let totalTilesToLoad = 2;
+let tilesLoadedCallback = null;
+
 tileImage.onload = () => {
-    // After tiles load, load building sprites, then init
+    tilesLoaded++;
+    if (tilesLoaded >= totalTilesToLoad && tilesLoadedCallback)
+    {
+        tilesLoadedCallback();
+    }
+};
+tileImage.src = 'tiles.png';
+
+// Load tiles2.png for furniture
+tileImage2 = new Image();
+tileImage2.onload = () => {
+    tilesLoaded++;
+    if (tilesLoaded >= totalTilesToLoad && tilesLoadedCallback)
+    {
+        tilesLoadedCallback();
+    }
+};
+tileImage2.src = 'tiles2.png';
+
+// Set up callback after both tiles load
+tilesLoadedCallback = () => {
+    // After all tiles load, load building sprites, then init
     LoadBuildingSprites(() => {
         Init();
     });
 };
-tileImage.src = 'tiles.png';

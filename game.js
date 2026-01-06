@@ -43,6 +43,7 @@ let timePaused = 0;
 let baseLevelColor = new Color(.1, .3, .1); // Base town color for day/night cycle
 let sleepFadeTimer = new Timer();
 let sleepFadeActive = 0;
+let resetButtonHover = 0;
 
 class GameTime
 {
@@ -54,8 +55,9 @@ class GameTime
         this.month = 1; // 1=January, 2=February, ..., 12=December
         this.dayOfMonth = 1; // Day within current month (1-28)
         this.realTimeStart = 0; // Real time when current day started
-        this.realTimePerGameDay = 600; // 10 minutes = 600 seconds (real time)
-        this.gameHoursPerRealSecond = 24.0 / this.realTimePerGameDay; // Hours of game time per real second
+        this.realTimePerGameHour = 25; // 1 game hour = 25 seconds real time
+        this.gameHoursPerRealSecond = 1.0 / this.realTimePerGameHour; // Hours of game time per real second
+        this.realTimePerGameDay = this.realTimePerGameHour * 24; // 24 game hours = 600 seconds (10 minutes)
         this.daysPerMonth = 28; // Each month has 28 days (4 weeks)
     }
     
@@ -65,10 +67,10 @@ class GameTime
         if (timePaused && !currentInterior)
             return;
         
-        // Calculate elapsed real time since day started
-        let realTimeElapsed = (time - this.realTimeStart) * timeDelta;
+        // Calculate elapsed real time since day started (time is already in seconds)
+        let realTimeElapsed = time - this.realTimeStart;
         
-        // Convert to game hours (10 min real = 24 hours game)
+        // Convert to game hours (1 game hour = 25 real seconds)
         this.gameHour = 7.0 + (realTimeElapsed * this.gameHoursPerRealSecond);
         
         // Check for day rollover at midnight (24:00)
@@ -215,6 +217,33 @@ function Reset()
     }
 }
 
+function FullReset()
+{
+    // Reset frame and time (from gameEngine.js)
+    frame = 0;
+    time = 1;
+    
+    // Reset speed run time
+    speedRunTime = 0;
+    
+    // Reset game state variables
+    winTimer.UnSet();
+    sleepFadeActive = 0;
+    sleepFadeTimer.UnSet();
+    currentInterior = null;
+    exteriorLevel = null;
+    playerExteriorPos = null;
+    interiorExitCooldown.UnSet();
+    
+    // Clear all game state from localStorage
+    delete localStorage.kbap_coins;
+    delete localStorage.lawyer_gameState;
+    
+    // Reset game state
+    Reset();
+    InitTown();
+}
+
 function InitTown()
 {
     levelFrame = 0;
@@ -339,7 +368,25 @@ function Update()
     {
         Reset();
         InitTown();
-    } 
+    }
+    
+    // Check for reset button hover and click
+    {
+        let buttonX = mainCanvasSize.x - 100;
+        let buttonY = 20;
+        let buttonWidth = 80;
+        let buttonHeight = 24;
+        
+        // Check if mouse is hovering over button
+        resetButtonHover = (mousePos.x >= buttonX - buttonWidth/2 && mousePos.x <= buttonX + buttonWidth/2 &&
+                           mousePos.y >= buttonY - buttonHeight/2 && mousePos.y <= buttonY + buttonHeight/2);
+        
+        // Check for reset button click
+        if (MouseWasPressed() && resetButtonHover)
+        {
+            FullReset();
+        }
+    }
         
 }
 
@@ -393,11 +440,44 @@ function PostRender()
 {  
     UpdateTransiton();
     
-    // Display time and date (top-left)
+    // Display calendar-style time and date (top-left, center-aligned)
     if (gameTime)
     {
-        let timeText = gameTime.FormatDate() + ' ' + gameTime.FormatTime();
-        DrawText(timeText, 10, 20, 16, 'left', 1, '#FFF', '#000');
+        let x = 40; // Fixed left position
+        let y = 10; // Start from top
+        
+        // Time at top (small) - center-aligned with other elements
+        DrawText(gameTime.FormatTime(), x, y, 10, 'center', 1, '#FFF', '#000');
+        
+        // Month below time (medium) - center-aligned with other elements
+        DrawText(gameTime.GetMonthName().toUpperCase(), x, y + 18, 12, 'center', 1, '#FFF', '#000');
+        
+        // Date number in middle (large) - center-aligned
+        DrawText(gameTime.dayOfMonth.toString(), x, y + 42, 28, 'center', 1, '#FFF', '#000');
+        
+        // Day of week at bottom (medium) - same distance from date as month, center-aligned
+        DrawText(gameTime.GetDayName().toUpperCase(), x, y + 66, 12, 'center', 1, '#FFF', '#000');
+    }
+    
+    // Reset button (top-right)
+    {
+        let buttonX = mainCanvasSize.x - 100;
+        let buttonY = 20;
+        let buttonWidth = 80;
+        let buttonHeight = 24;
+        
+        // Draw button background (hover state is set in Update())
+        let bgColor = resetButtonHover ? '#F44' : '#844';
+        mainCanvasContext.fillStyle = bgColor;
+        mainCanvasContext.fillRect(buttonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
+        
+        // Draw button border
+        mainCanvasContext.strokeStyle = '#FFF';
+        mainCanvasContext.lineWidth = 2;
+        mainCanvasContext.strokeRect(buttonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
+        
+        // Draw button text
+        DrawText('RESET', buttonX, buttonY, 12, 'center', 1, '#FFF', '#000');
     }
     
     // centered hud text
@@ -411,51 +491,16 @@ function PostRender()
         bigText = 'Game Over!'
         DrawText('Press Escape',mainCanvasSize.x/2, mainCanvasSize.y/2+80, 42);
     }  
-    DrawText(bigText,mainCanvasSize.x/2, mainCanvasSize.y/2-80, 72, 'center', 2);
+    DrawText(bigText,mainCanvasSize.x/2, mainCanvasSize.y/2-80, 72, 'center', 2, '#FFF');
    
+    if (speedRunMode)
     {
-        // hud - positioned below time display
-        let iconSize = 16;
-        let y = 45; // Start below time display (time is at y=20, font size 16, so start at ~45)
-
-        for(let i=0;i<player.healthMax;i++)
-        {
-            let t = 1;
-            let s = iconSize;
-            if (healthWarning.Get() < .5)
-                s *= 1+Math.sin(2*PI*healthWarning.Get()/.5)*.2;
-            if (player.health > i)
-                t = player.health-i>=1?3:2;
-            DrawScreenTile(iconSize+2*iconSize*i,y,s,t,5);
-        }
-    
-        y += 2*iconSize;
-        //if (playerData.boomerangs)
-        {
-            DrawScreenTile(iconSize,y,iconSize,0,5);
-            DrawText(playerData.boomerangs, 34, y+2, 32, 'left');
-        }
-        if (playerData.bigBoomerangs)
-        {
-            DrawScreenTile(iconSize+60,y,iconSize,7,5);
-            DrawText(playerData.bigBoomerangs, 34+60, y+2, 32, 'left');
-        }
-        //if (playerData.coins)
-        {
-            y += 2*iconSize;
-            DrawScreenTile(iconSize,5*iconSize,iconSize,5,5);
-            DrawText(playerData.coins, 34, y+2, 32, 'left');
-        }
-        
-        if (speedRunMode)
-        {
-            // show time if speed run mode is activated
-            let c = (player.IsDead() || winTimer.IsSet())? '#F00' : '#000';
-            DrawText(FormatTime(speedRunTime), mainCanvas.width/2, 28, 40, 'center',1,c);
-        }
-
-        RenderMap();
+        // show time if speed run mode is activated
+        let c = (player.IsDead() || winTimer.IsSet())? '#F00' : '#000';
+        DrawText(FormatTime(speedRunTime), mainCanvas.width/2, 28, 40, 'center',1,c);
     }
+
+    RenderMap();
     
     // mouse cursor
     mainCanvas.style.cursor='none'; 
@@ -2721,7 +2766,7 @@ function LoadBuildingSprites(callback)
 
 class Building extends MyGameObject
 {
-    constructor(pos, type, spriteFile, size = 1.5)
+    constructor(pos, type, spriteFile, size = 1.5, address = null)
     {
         // Use placeholder tile for now until sprites load
         super(pos, 0, 0, size, size * 0.8);
@@ -2729,6 +2774,7 @@ class Building extends MyGameObject
         this.spriteFile = spriteFile;
         this.sprite = buildingSprites[spriteFile];
         this.isBuilding = 1;
+        this.address = address; // Building address number for scheduling/NPC systems
         
         // Create unique ID based on position (rounded to avoid floating point issues)
         this.id = `building_${Math.round(pos.x * 100)}_${Math.round(pos.y * 100)}`;
@@ -2780,6 +2826,14 @@ class Building extends MyGameObject
             mainCanvasContext.strokeStyle = '#000';
             mainCanvasContext.lineWidth = 2;
             mainCanvasContext.strokeRect(-s.x, -s.y, s.x * 2, s.y * 2);
+        }
+        
+        // Draw building address number on the sprite (small black text)
+        if (this.address !== null && this.address !== undefined)
+        {
+            // Position address at bottom-center of building, scaled with camera
+            let addressSize = 8 * cameraScale; // Small text that scales with zoom
+            DrawText(String(this.address), 0, s.y * 0.65, addressSize, 'center', 0, '#000', '#000', mainCanvasContext);
         }
         
         mainCanvasContext.restore();
@@ -2879,6 +2933,7 @@ function GenerateTown()
     let buildingsInCurrentCell = 0;
     let maxBuildingsPerCell = 2; // Allow 2 buildings per cell
     let homeBuilding = null; // Track the home building for player spawn
+    let buildingAddressCounter = 1; // Counter for assigning sequential addresses to buildings
     
     // Place all buildings
     for(let buildingType of buildingsToPlace)
@@ -2958,7 +3013,8 @@ function GenerateTown()
             // Special handling for player home (first building)
             if (buildingType.type === 'home' && i === 0)
             {
-                let building = new Building(pos, buildingType.type, buildingType.file, buildingType.size);
+                let building = new Building(pos, buildingType.type, buildingType.file, buildingType.size, buildingAddressCounter);
+                buildingAddressCounter++;
                 homeBuilding = building;
                 buildings.push(building);
                 
@@ -2986,7 +3042,9 @@ function GenerateTown()
             }
             else
             {
-                buildings.push(new Building(pos, buildingType.type, buildingType.file, buildingType.size));
+                let building = new Building(pos, buildingType.type, buildingType.file, buildingType.size, buildingAddressCounter);
+                buildingAddressCounter++;
+                buildings.push(building);
             }
             
             buildingsInCurrentCell++;

@@ -472,20 +472,14 @@ function DrawTile(pos,size,tileX,tileY,angle=0,mirror=0,height=0)
     mainCanvasContext.globalAlpha = 1;   
 }
 
-function DrawText(text, x, y, size,textAlign='center',lineWidth=1,color='#000',strokeColor='#FFF',context=mainCanvasContext)
+function DrawText(text, x, y, size,textAlign='center',lineWidth=0,color='#000',strokeColor='#FFF',context=mainCanvasContext)
 {
     context.fillStyle=color;
     context.font = `900 ${size}px "Press Start 2P"`
     context.textAlign=textAlign;
     context.textBaseline='middle';
-    const upperText = text.toUpperCase();
+    const upperText = String(text).toUpperCase();
     context.fillText(upperText,x,y);
-    if (lineWidth)
-    {
-        context.lineWidth=lineWidth;
-        context.strokeStyle=strokeColor;
-        context.strokeText(upperText,x,y);
-    }
 }
 
 ///////////////////////////////////////////////////////////////////////////////

@@ -1,3 +1,164 @@
 ---
 alwaysApply: true
 ---
+
+# Lawyer Simulator Game - Conceptual Overview
+
+## Core Game Concept
+A lawyer simulator game based around a scheduling mechanic. The player plays as a lawyer who must manage their time, build cases, and present evidence in court. The game uses a calendar/time progression system where each day is 10 minutes of real time.
+
+## Time & Calendar System
+
+### Day Cycle
+- **Day Length**: 10 minutes of real time = 24 hours in-game (00:00 to 00:00)
+- **Start Time**: Each day begins at 07:00
+- **Day Progression**: Time advances continuously from 07:00 through the day, evening, and night until 00:00 (midnight). Days are divided by midnights, however the player always wakes up at 07:00.
+- **Next Day**: At 00:00, the day resets and the player wakes up at their bed at 07:00 the next day. The player can also trigger a new day before 07:00 by going to bed. 
+
+### Week Structure
+- **Sunday**: Game starts on Sunday
+- **Monday**: Player has a mandatory meeting at law firm QLAW, receives a new case
+- **Friday**: Player has a mandatory meeting at the courthouse to present evidence and make a statement to the judge
+- **Weekend**: Saturday and Sunday are free days (no mandatory meetings)
+
+## Mood System
+
+### Mood States
+The player can enter different moods based on their sleep/wake cycle:
+
+1. **Normal Mood** (default)
+   - Player is well-rested
+   - Player is well-fed
+
+2. **Tired Mood**
+   - Triggered when player is awake for more than 18 consecutive hours
+   - Adds an effect that munltiplies the player's speed by 0.5
+   - Lasts until player sleeps in bed.
+
+3. **Crazy Mood**
+   - Triggered when player is awake for more than 48 consecutive hours
+   - Adds an effect that munltiplies the player's speed by 0.5 
+   - Lasts until player sleeps in bed.
+
+4. **Hungry Mood** 
+   - Triggered when player hasn't eaten for more than 18 consecutive hours. 
+   - Adds an effect that munltiplies the player's speed by 0.5
+   - Lasts until player consumes food. 
+
+2. **Happy Mood**
+   - Triggered when player has not entered a tired or crazy or hungry mood in more than 18 consecutive hours.
+   - Adds an effect that munltiplies the player's speed by 1.5
+
+3. **Drunk Mood**
+   - Triggered when player consumes alcohol and has the Drunk effect.
+   - Adds an effect that munltiplies the player's speed by 0.5
+   - Adds subtle screen wobble effect. 
+
+   3. **Wired Mood**
+   - Triggered when player consumes crack and has the Wired effect.
+   - Adds an effect that munltiplies the player's speed by 3.
+
+### Sleep Mechanics
+- Player must return to their bed to sleep
+- Sleeping begins the next calandar day at 07:00.
+- If player has not slept for more than 18 in game hours, they become Tired. After 48 hours, they become crazy. 
+
+## World & Map
+
+### Town Structure
+- **Large town map** with at least 20 buildings
+- **At least 25 NPCs** inhabiting the town
+- NPCs have their own houses and schedules
+- Buildings can be entered (interiors)
+
+### Key Locations
+- **Player's Bed/Home**: Starting location each day at 07:00
+- **QLAW Law Firm**: Monday meeting location where cases are assigned
+- **Courthouse**: Friday meeting location where evidence is presented
+- **Other Buildings**: Various locations for gathering evidence, meeting NPCs, etc.
+
+## NPC System
+
+### NPC Behavior
+- NPCs have their own houses
+- NPCs follow their own schedules throughout the day
+- NPCs move around the town according to their schedules
+- NPCs can be interacted with (dialogue, information gathering, etc.)
+
+## Case System
+
+### Weekly Case Cycle
+1. **Monday Morning**: Player attends meeting inside Current Firm (default is QLAW, located in QLAW building)
+   - Receives a new case assignment
+   - Case details provided
+
+2. **Monday-Friday**: Player must build their case
+   - Gather evidence
+   - Interview witnesses/NPCs
+   - Research case details
+   - Schedule meetings
+   - Complete tasks related to the case
+
+3. **Friday**: Player attends meeting at courthouse
+   - Presents all gathered evidence
+   - Makes a statement to the judge
+   - Judge makes decision (using AI - DeepSeek API)
+
+### Case Sources
+- Cases are based on real cases gathered from the internet
+- Cases provide the narrative framework for each week
+
+## AI Integration
+
+### DeepSeek API Usage
+- **Judge Decisions**: AI simulates the judge's decision based on:
+  - Evidence presented
+  - Player's statement
+  - Case details
+- **Other Mechanics**: AI may be used for other game mechanics (TBD)
+
+## Gameplay Mechanics (Current State)
+
+### Retained from Original Game
+- **Boomerang**: Player retains boomerang mechanics (for now)
+- **Health System**: Health mechanics remain
+- **Enemies**: Enemy system exists but enemies are removed from levels for now
+
+### Core Activities
+- **Scheduling**: Player must manage their time and schedule meetings
+- **Task Completion**: Complete various tasks throughout the day
+- **Evidence Gathering**: Collect evidence for cases
+- **NPC Interaction**: Talk to NPCs, gather information
+- **Time Management**: Balance sleep, work, and case preparation
+
+## Technical Architecture
+
+### Engine Foundation
+- Built on existing game engine (gameEngine.js)
+- Uses GameObject system for entities
+- Tile-based level system (repurposed for town/building layout)
+- Physics and collision system
+- Rendering pipeline with shadows
+
+### Game State
+- Day/time tracking
+- Calendar system (day of week, date)
+- Mood state tracking
+- Case progress tracking
+- Evidence inventory
+- NPC schedules and states
+
+## Development Philosophy
+- **Simplest is best**: Keep implementations simple and straightforward
+- **Methodical approach**: Build one piece at a time
+- **Iterative development**: Add features incrementally
+- **Maintain existing systems**: Keep working systems (boomerang, health) until replacement is ready
+
+## Future Considerations
+- Remove combat mechanics when scheduling/interaction systems are complete
+- Replace procedural maze generation with town layout
+- Expand mood system effects
+- Add more NPC interaction depth
+- Expand case variety and complexity
+- Add more buildings and locations
+- Enhance AI integration for more dynamic gameplay

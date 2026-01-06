@@ -1,37 +1,5 @@
 /*
-    Bounce Back ~ A boomerang roguelike for JS13k
-    Copyright (C) 2019 Frank Force
 
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; either version 2 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details. 
-*/
-/*
-    Bounce Back Javascript Game
-    By Frank Force 2019
-
-    Game Features
-    - Boomerang physics & dash ability
-    - Procedural level generation
-    - 3 Enemy types
-    - 7 types of pickups
-    - Giant and invisible enemy variants
-    - Final boss battle
-    - Saves gems earned and max level reached
-    - Shop system for buying items
-    - Minimap
-    - Footsteps, blood, and persistant effects system
-    - 16 Different sound effects with zzfx
-    - Procedurally generated music
-    - Speed run mode doesn't effect normal save
-    - Low health warning system
-    - Level transition effect
 */
 
 "use strict"; // strict mode
@@ -47,21 +15,11 @@
 ///////////////////////////////////////////////////////////////////////////////
 // init
 
-let startLevel=0;
 let level;
-let levelNumber;
-let nextLevel;
-let warpLevel=0;
-let isFinalLevel;
-let isStartLevel;
-let levelTimer = new Timer();
-let endLevelTimer = new Timer();
-let levelExit;
-let loadNextLevel;
-let levelMaze = [];
-let levelMazeSize = 4;
 let levelColor = new Color();
 let levelFrame;
+let playerHomePos;
+let buildingSprites = {};
 
 let boss;
 let player;
@@ -97,7 +55,7 @@ function Init()
     mainCanvasContext.fillRect(0,0,mainCanvasSize.x, mainCanvasSize.y);
 
     Reset();
-    NextLevel();
+    InitTown();
     EngineUpdate();
 }
 
@@ -107,43 +65,12 @@ function Reset()
     playerData = new PlayerData();
     if (localStorage.kbap_coins)
         playerData.coins = parseInt(localStorage.kbap_coins, 10);
-    if (localStorage.kbap_warp)
-        warpLevel = parseInt(localStorage.kbap_warp, 10);
-    if (localStorage.kbap_bestTime)
-        speedRunBestTime = parseInt(localStorage.kbap_bestTime, 10);
-    nextLevel = startLevel;
 }
 
-function NextLevel()
+function InitTown()
 {
-    // go to next level
     levelFrame = 0;
-    levelNumber = nextLevel;
-    nextLevel = (nextLevel+1)%11;
-    
-    // track highest level reached
-    if (!speedRunMode && levelNumber>warpLevel)
-        warpLevel = levelNumber;
-    localStorage.kbap_warp = warpLevel;
-    
-    // check if is special level
-    isFinalLevel = levelNumber==10;
-    isStartLevel = !levelNumber;
-    if (isStartLevel)
-        speedRunMode = 0; // reset speed run on start level
-    
-    InitLevel();
-}
-
-function InitLevel()
-{
-    // reset level stuff
-    levelTimer.Set();
-    winTimer.UnSet();
-    endLevelTimer.UnSet();
-    cameraScale=2;
-    levelExit = 0;
-    boss = 0;
+    cameraScale = 2;
     
     // clear everything
     StartTransiton();
@@ -151,18 +78,13 @@ function InitLevel()
     
     // prevent player being stuck with no boomerangs
     if (!playerData.boomerangs && !playerData.bigBoomerangs)
-        playerData.boomerangs=1;
+        playerData.boomerangs = 1;
     
-    // create the level and player
-    GenerateLevel();
-    player = new Player(playerStartPos);
-    
-    // spawn debug objects
-    //new Pickup(new Vector2(13,10),0);
-    //new SlimeEnemy(new Vector2(8,10),3);
-    //new JumpingEnemy(new Vector2(10,10));
-    //new ShieldEnemy(new Vector2(12,10));
-    //SpawnPickups(playerStartPos.Clone().AddXY(3,-6),1,100);
+    // create the town and player
+    GenerateTown();
+    player = new Player(playerHomePos);
+    // Set player to face south
+    player.rotation = 1;
 }
 
 function SpawnPickups(pos, chance=1, count=1)
@@ -251,35 +173,11 @@ function Update()
     
     // restart if dead or won
     if ((player.IsDead() || winTimer.IsSet()) && KeyWasPressed(27))
-        loadNextLevel = 2;
-        
-    // load next level when ready
-    if (endLevelTimer.IsSet() && endLevelTimer.Elapsed())
-        loadNextLevel = 1;
-    
-    // debug key N to load next level
-    if (debug && KeyWasPressed(78))
-        loadNextLevel = 1;
-        
-    // zoom out on final level
-    if (isFinalLevel)
-        cameraScale = Max(cameraScale-.001,1); 
-        
-    if (isStartLevel)
     {
-        // title screen
-        let pos = new Vector2(8,3.7);
-        let t = levelTimer.Get();
-        let p = Percent(t,0,3.3)
-        let b = Math.abs(3-4*p)/1.7;
-        let c1 =`hsla(${t*99},99%,50%)`;
-        level.DrawText('BOUNCE',   pos.Clone().AddXY(0,-b), 33*p,'center',2,'#000',c1);
-        level.DrawText('BACK',     pos.Clone().AddXY(0,b+1.2), 33*p,'center',2,'#000',c1);
-        if (levelFrame==200)
-            level.DrawText('A JS13k 2019 Game',   new Vector2(8,9.5), 14);
-        if (levelFrame==260)
-            level.DrawText('By Frank Force',   new Vector2(8,10.5), 14);
-    }
+        Reset();
+        InitTown();
+    } 
+        
 }
 
 function PreRender()
@@ -291,29 +189,12 @@ function PreRender()
     mainCanvasContext.fillStyle=levelColor.RGBA();
     mainCanvasContext.fillRect(0,0,mainCanvasSize.x, mainCanvasSize.y);
     
-    if (isStartLevel)
-    {
-        // background starfield in start level
-        mainCanvasContext.fillStyle='#999';
-        for(let i=2e3;i--;)
-            mainCanvasContext.fillRect((Math.sin(i)*1e9-time*(i+1e3)/50)%(mainCanvas.width+9)-9,i*9%mainCanvas.height,i%7,i%7);
-    }
-        
     // draw the level (bottom layer)
     level.Render();
 }
 
 function PostRender()
 {  
-    if (loadNextLevel)
-    {
-        // hook to load next level is here so transition effects work!
-        if (loadNextLevel==2)
-            Reset();
-        loadNextLevel = 0;
-        NextLevel();
-    }
-    
     UpdateTransiton();
     
     // centered hud text
@@ -396,8 +277,8 @@ function MazeDataPos(pos)
 
 function RenderMap()
 {
-    if ((isStartLevel || isFinalLevel) && !debug)
-        return;
+    // Minimap disabled for now - can re-enable later with town-specific logic
+    return;
 
     let iconSize = 16;
     let y = iconSize;
@@ -406,8 +287,6 @@ function RenderMap()
 
     // show level number
     y += 2*iconSize;
-    if (!isStartLevel)
-        DrawText('L-'+ levelNumber, o-10, 24, 32,'right');
 
     // mark room player is in as visited
     if (levelMaze[MazeDataPos(player.pos)])
@@ -568,13 +447,13 @@ class Player extends MyGameObject
             return super.CollideLevel(data, pos);
     }
     
-    IsIntro() { return (levelTimer.Get() < 1.5) }
+    IsIntro() { return false; }
     
     Update() 
     {
         // keep player data updated
         playerData.health = this.health;
-        if (this.IsDead() || endLevelTimer.IsSet() || this.IsIntro())
+        if (this.IsDead() || this.IsIntro())
         {
             // stop and do no more
             return;
@@ -674,10 +553,8 @@ class Player extends MyGameObject
     
     Render()
     {
-        if (endLevelTimer.IsSet())
-            return;
     
-        if (this.IsDead() || this.IsIntro() && isStartLevel)
+        if (this.IsDead() || this.IsIntro())
         {
             // set to dead tile
             this.tileX = 7;
@@ -763,7 +640,7 @@ class Player extends MyGameObject
             return 0;
     
         // prepvent damage during intro/outro
-        if (godMode || endLevelTimer.IsSet() || this.IsIntro() || winTimer.IsSet())
+        if (godMode || this.IsIntro() || winTimer.IsSet())
             return 0;
     
         // try to apply damage
@@ -840,8 +717,6 @@ class Boomerang  extends MyGameObject
         }
         else
         {
-            if (endLevelTimer.IsSet())
-                endLevelTimer.Set(1); // wait for boomerang to end level
         
             // apply throw acceleration
             let a = this.GetLifeTime();
@@ -898,8 +773,7 @@ class Boomerang  extends MyGameObject
                     else if (o.Damage(1+this.isBig))
                     {
                         // apply damage
-                        if (!isStartLevel) // dont push in hub
-                            o.velocity.Add(this.velocity.Clone(.5));
+                        o.velocity.Add(this.velocity.Clone(.5));
                         this.damageTimer.Set();
                     }
                 }
@@ -1047,7 +921,7 @@ class Enemy extends MyGameObject
         super.Kill();
         
         // spawn portal if no enemies left
-        if (!levelExit && !isFinalLevel && !player.IsDead())
+        if (!levelExit && !player.IsDead())
         {
             if (!gameObjects.some(o=>o.isEnemy))
             {
@@ -1240,7 +1114,7 @@ class ShieldEnemy extends Enemy
         else
             this.bloodColor = new Color(.3,1,0,.5);
             
-        this.bossIntro = this.type && !isStartLevel;
+        this.bossIntro = 0;
     }
     
     ReflectDamage(direction)
@@ -1286,7 +1160,7 @@ class ShieldEnemy extends Enemy
         let isOnSand = !this.type && this.IsOnSand();
         let playerDistance = player.pos.Distance(this.pos);
         
-        if (this.type && isStartLevel)
+        if (false && this.type) // disabled
         {
             // title screen - run towards the level exit
             let d = this.pos.x - levelExit.pos.x;
@@ -1344,7 +1218,7 @@ class ShieldEnemy extends Enemy
         if (!this.dashTimer.Elapsed())
             moveAccel.Multiply((this.dashTimer.Get() < -1)?0:2);
         
-        if (this.type && isStartLevel)
+        if (false && this.type) // disabled
         {
             // title screen 
             if (playerDistance > 10.5)
@@ -1422,7 +1296,7 @@ class ShieldEnemy extends Enemy
         if (this.type)
         {
             boss = 0;
-            if (isFinalLevel)
+            if (false) // disabled
             {
                 // player win
                 new Pickup(this.pos, 2);
@@ -1452,20 +1326,15 @@ class Store extends MyGameObject
         super(pos,7,1,.5,.5);
         
         // spawn random items
-        this.count = isStartLevel||isFinalLevel?3:2 + RandInt(2);
+        this.count = 2 + RandInt(2);
         let o = 1-this.count;
         for(let i=this.count;i--;)
         {
             let item = RandInt(4);
-            if (isStartLevel || isFinalLevel)
-                item = i+1;
-            else
-            {
-                if (i==0)
-                    item = RandIntBetween(0,1);
-                else if (i==1)
-                    item = RandIntBetween(2,3);
-            }
+            if (i==0)
+                item = RandIntBetween(0,1);
+            else if (i==1)
+                item = RandIntBetween(2,3);
             new StoreItem(pos.Clone().AddXY(i*2+o,0),item,this);
         }
             
@@ -1539,8 +1408,7 @@ class StoreItem extends MyGameObject
         }
     
         // randomize cost
-        if (!isStartLevel)
-            this.cost *= RandBetween(.5,1.5);
+        this.cost *= RandBetween(.5,1.5);
         this.cost = Clamp(this.cost, 1, 99);
         this.cost |= 0;
     }
@@ -1649,7 +1517,7 @@ class LevelExit extends MyGameObject
             if (playerDistance < .5)
             {
                 // player entered portal
-                if (isStartLevel && this.type == 3)
+                if (false && this.type == 3) // disabled
                 {
                     // speed run portal
                     speedRunMode = 1;
@@ -1662,7 +1530,6 @@ class LevelExit extends MyGameObject
                     nextLevel = warpLevel; 
                 }
                 PlaySound(13);
-                endLevelTimer.Set(1);
                 this.closeTimer.Set(1);
             }
             else
@@ -1711,7 +1578,339 @@ class LevelExit extends MyGameObject
 }
 
 ///////////////////////////////////////////////////////////////////////////////
-// level builder
+// building system
+
+function LoadBuildingSprites(callback)
+{
+    // Load all building sprite images
+    let spriteFiles = ['home.png', 'house.png', 'court.png', 'firm.png', 'shop.png', 'store.png'];
+    let loaded = 0;
+    let total = spriteFiles.length;
+    
+    spriteFiles.forEach(file => {
+        let img = new Image();
+        img.onload = () => {
+            buildingSprites[file] = img;
+            loaded++;
+            if (loaded === total && callback)
+                callback();
+        };
+        img.onerror = () => {
+            // If sprite fails to load, still count it and proceed
+            loaded++;
+            if (loaded === total && callback)
+                callback();
+        };
+        img.src = file;
+    });
+}
+
+class Building extends MyGameObject
+{
+    constructor(pos, type, spriteFile, size = 1.5)
+    {
+        // Use placeholder tile for now until sprites load
+        super(pos, 0, 0, size, size * 0.8);
+        this.buildingType = type;
+        this.spriteFile = spriteFile;
+        this.sprite = buildingSprites[spriteFile];
+        this.isBuilding = 1;
+        
+        // Clear area around building and make it solid
+        level.FillCircleType(pos, size * 1.2, 1); // grass
+        level.FillCircleObject(pos, size * 1.5, 0); // clear objects
+        
+        // Make building area solid (impassable)
+        level.FillCircleCallback(pos, size * 0.9, (data) => {
+            if (!data.road) // Don't make roads solid
+                data.type = 0; // solid
+        });
+    }
+    
+    Render()
+    {
+        // Buildings don't cast shadows - skip shadow render pass
+        if (shadowRenderPass)
+            return;
+        
+        // Check for sprite dynamically (in case it loads after building is created)
+        let sprite = buildingSprites[this.spriteFile];
+        
+        // Custom transform for buildings - no skewing, only proportional scaling
+        mainCanvasContext.save();
+        let drawPos = this.pos.Clone();
+        drawPos.y -= this.height; // Apply height offset
+        drawPos.Subtract(cameraPos).Multiply(tileSize*cameraScale);
+        drawPos.Add(mainCanvasSize.Clone(.5));
+        mainCanvasContext.translate(drawPos.x|0, drawPos.y|0);
+        
+        // Proportional scaling only (no skew)
+        let s = this.size.Clone(tileSize * cameraScale);
+        
+        if (sprite)
+        {
+            // Draw custom sprite with proportional scaling
+            mainCanvasContext.drawImage(sprite, -s.x, -s.y, s.x * 2, s.y * 2);
+        }
+        else
+        {
+            // Draw placeholder (brown rectangle)
+            mainCanvasContext.fillStyle = '#842';
+            mainCanvasContext.fillRect(-s.x, -s.y, s.x * 2, s.y * 2);
+            mainCanvasContext.strokeStyle = '#000';
+            mainCanvasContext.lineWidth = 2;
+            mainCanvasContext.strokeRect(-s.x, -s.y, s.x * 2, s.y * 2);
+        }
+        
+        mainCanvasContext.restore();
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// town generation
+
+function GenerateTown()
+{
+    levelColor = new Color(.1, .3, .1); // greenish town color
+    level = new Level();
+    ClearGameObjects();
+    
+    // Fill entire map with grass
+    for(let x = 0; x < levelSize; x++)
+    for(let y = 0; y < levelSize; y++)
+    {
+        level.GetData(x, y).type = 1; // grass
+    }
+    
+    // Create road network (4x4 grid system)
+    let cellSize = levelSize / 4; // 16 tiles per cell
+    let roadWidth = 2;
+    
+    // Horizontal roads
+    for(let i = 1; i < 4; i++)
+    {
+        let y = i * cellSize;
+        for(let x = 0; x < levelSize; x++)
+        {
+            for(let w = -roadWidth/2; w <= roadWidth/2; w++)
+            {
+                let data = level.GetData(x, y + w);
+                if (data)
+                {
+                    data.road = 1;
+                    data.object = 0; // clear objects on roads
+                }
+            }
+        }
+    }
+    
+    // Vertical roads
+    for(let i = 1; i < 4; i++)
+    {
+        let x = i * cellSize;
+        for(let y = 0; y < levelSize; y++)
+        {
+            for(let w = -roadWidth/2; w <= roadWidth/2; w++)
+            {
+                let data = level.GetData(x + w, y);
+                if (data)
+                {
+                    data.road = 1;
+                    data.object = 0; // clear objects on roads
+                }
+            }
+        }
+    }
+    
+    // Place buildings in grid cells
+    let buildings = [];
+    let cellPositions = [];
+    
+    // Generate positions for each cell
+    for(let cx = 0; cx < 4; cx++)
+    for(let cy = 0; cy < 4; cy++)
+    {
+        let cellX = cx * cellSize + cellSize / 2;
+        let cellY = cy * cellSize + cellSize / 2;
+        cellPositions.push(new Vector2(cellX, cellY));
+    }
+    
+    // Shuffle cell positions for random placement
+    for(let i = cellPositions.length - 1; i > 0; i--)
+    {
+        let j = RandInt(i + 1);
+        let temp = cellPositions[i];
+        cellPositions[i] = cellPositions[j];
+        cellPositions[j] = temp;
+    }
+    
+    // Building list to place: 1 home, 1 courthouse, 3 firms, 3 shops, 3 stores, 16 houses = 27 total
+    let buildingsToPlace = [
+        {type: 'home', file: 'home.png', size: 2, count: 1},
+        {type: 'court', file: 'court.png', size: 2.5, count: 1},
+        {type: 'firm', file: 'firm.png', size: 2, count: 3},
+        {type: 'shop', file: 'shop.png', size: 1.5, count: 3},
+        {type: 'store', file: 'store.png', size: 1.5, count: 3},
+        {type: 'house', file: 'house.png', size: 1.5, count: 16}
+    ];
+    
+    let cellIndex = 0;
+    let buildingsInCurrentCell = 0;
+    let maxBuildingsPerCell = 2; // Allow 2 buildings per cell
+    let homeBuilding = null; // Track the home building for player spawn
+    
+    // Place all buildings
+    for(let buildingType of buildingsToPlace)
+    {
+        for(let i = 0; i < buildingType.count; i++)
+        {
+            let pos;
+            let attempts = 0;
+            const maxAttempts = 50;
+            const minDistance = 6; // Minimum 6 tiles between building centers
+            
+            // Try to find a valid position with proper spacing
+            let placed = false;
+            let totalAttempts = 0;
+            const maxTotalAttempts = 500; // Overall limit to prevent infinite loops
+            
+            while (!placed && totalAttempts < maxTotalAttempts)
+            {
+                // Get current cell position
+                let cellPos = cellPositions[cellIndex % cellPositions.length];
+                
+                // Calculate offset within cell (spread buildings out)
+                let offsetX = 0;
+                let offsetY = 0;
+                if (buildingsInCurrentCell === 0)
+                {
+                    // First building in cell - center it
+                    offsetX = RandBetween(-2, 2);
+                    offsetY = RandBetween(-2, 2);
+                }
+                else
+                {
+                    // Second building - place it offset from center
+                    offsetX = RandBetween(-5, 5);
+                    offsetY = RandBetween(-5, 5);
+                }
+                
+                pos = cellPos.Clone().AddXY(offsetX, offsetY);
+                attempts++;
+                totalAttempts++;
+                
+                // Check distance to all existing buildings
+                let tooClose = false;
+                for(let b of buildings)
+                {
+                    if (pos.Distance(b.pos) < minDistance)
+                    {
+                        tooClose = true;
+                        break;
+                    }
+                }
+                
+                if (!tooClose)
+                {
+                    placed = true;
+                    break;
+                }
+                    
+                // If too close and we've tried many times in this cell, try next cell
+                if (attempts >= maxAttempts)
+                {
+                    cellIndex++;
+                    buildingsInCurrentCell = 0;
+                    attempts = 0;
+                }
+            }
+            
+            // If we still couldn't place it after many attempts, place it anyway (shouldn't happen with 16 cells)
+            if (!placed)
+            {
+                // Fallback: place at a random valid cell position
+                let fallbackCell = cellPositions[cellIndex % cellPositions.length];
+                pos = fallbackCell.Clone().AddXY(RandBetween(-3, 3), RandBetween(-3, 3));
+                console.warn(`Warning: Building ${buildingType.type} placed at fallback position after ${totalAttempts} attempts`);
+            }
+            
+            // Special handling for player home (first building)
+            if (buildingType.type === 'home' && i === 0)
+            {
+                let building = new Building(pos, buildingType.type, buildingType.file, buildingType.size);
+                homeBuilding = building;
+                buildings.push(building);
+                
+                // Calculate player spawn position - south of home, facing south
+                // Spawn outside the building's solid area (size * 0.9) plus some clearance
+                let spawnOffset = building.size.x * 1.5 + 1; // Extra clearance
+                playerHomePos = pos.Clone().AddXY(0, spawnOffset);
+                
+                // Ensure spawn position is valid (not solid, not on road)
+                let spawnData = level.GetDataFromPos(playerHomePos);
+                if (spawnData.IsSolid() || spawnData.road)
+                {
+                    // Try slightly to the side if directly south is blocked
+                    playerHomePos = pos.Clone().AddXY(1, spawnOffset);
+                    spawnData = level.GetDataFromPos(playerHomePos);
+                    if (spawnData.IsSolid() || spawnData.road)
+                    {
+                        playerHomePos = pos.Clone().AddXY(-1, spawnOffset);
+                    }
+                }
+            }
+            else
+            {
+                buildings.push(new Building(pos, buildingType.type, buildingType.file, buildingType.size));
+            }
+            
+            buildingsInCurrentCell++;
+            if (buildingsInCurrentCell >= maxBuildingsPerCell)
+            {
+                buildingsInCurrentCell = 0;
+                cellIndex++;
+            }
+        }
+    }
+    
+    // Generate trees and bushes randomly
+    for(let i = 0; i < 200; i++)
+    {
+        let pos = new Vector2(RandBetween(2, levelSize - 2), RandBetween(2, levelSize - 2));
+        let data = level.GetDataFromPos(pos);
+        
+        // Don't place on roads or buildings
+        if (data.road || data.IsSolid())
+            continue;
+            
+        // Check if too close to buildings
+        let tooClose = false;
+        for(let b of buildings)
+        {
+            if (pos.Distance(b.pos) < 3)
+            {
+                tooClose = true;
+                break;
+            }
+        }
+        if (tooClose)
+            continue;
+        
+        // Place bush or rock randomly
+        if (Rand() < 0.7)
+            level.FillCircleObject(pos, RandBetween(0.5, 1.5), 1); // bush
+        else
+            level.FillCircleObject(pos, RandBetween(0.3, 1), 2); // rock
+    }
+    
+    // Draw the level
+    level.ClearBorder();
+    level.ApplyTiling();
+    level.Redraw();
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// level builder (old code - keeping for reference, will be removed)
     
 function GenerateMaze(cellCount)
 {
@@ -1727,14 +1926,14 @@ function GenerateMaze(cellCount)
     let xStart=RandInt(levelMazeSize);
     let yStart=RandInt(levelMazeSize);
     
-    if (isStartLevel)
+    if (false) // disabled
     {
         // hub level
         xStart=yStart=0;
         SetCell(0,0);
         SetCell(1,0);
     }
-    if (isFinalLevel)
+    if (false) // disabled
     {
         // boss level
         xStart=0;
@@ -1749,7 +1948,7 @@ function GenerateMaze(cellCount)
     }
     
     playerStartPos = new Vector2(xStart, yStart);
-    if (isStartLevel || isFinalLevel)
+    if (false) // disabled
         return cells;
         
     // depth first search style maze generation
@@ -1840,7 +2039,7 @@ function GenerateLevel()
 {
     // randomize background color
     levelColor=new Color(Rand(.1),Rand(.1),Rand(.1));
-    if (isStartLevel)
+    if (false) // disabled
         levelColor=new Color(.1,0,.2);
     
     // loop incase level generation fails
@@ -1862,7 +2061,7 @@ function GenerateLevelInternal()
 
         // for each open maze cell, fill out a circle of open space
         let pos = (new Vector2(x+.5,y+.5)).Multiply(levelSize/levelMazeSize);
-        let radius = isFinalLevel?12:9;
+        let radius = 9;
         level.FillCircleType(pos,radius,1);
         for(let i=RandInt(4);i--;) // add extra randomness
             level.FillCircleType(pos.Clone().Add(RandVector(Rand(8))),RandBetween(2,6),1+RandInt(2));
@@ -1871,7 +2070,7 @@ function GenerateLevelInternal()
     // convert player pos to world pos
     playerStartPos.Add(.5).Multiply(levelSize/levelMazeSize);
     
-    if (isFinalLevel)
+    if (false) // disabled
     {
         // place a ton of objects everywhere
         let r = levelSize/levelMazeSize;
@@ -1895,7 +2094,7 @@ function GenerateLevelInternal()
             level.GetDataFromPos(centerPos.Clone().AddXY(x-8,y-7)).object=d[1]?2:d[0]?0:1;
         }
     }
-    else if (isStartLevel)
+    else if (false) // disabled
     {
         // set up start level area
         level.FillCircleType(playerStartPos,8,1); // start on grass
@@ -1977,7 +2176,7 @@ function GenerateLevelInternal()
     }
     
     // spawn stores and other special objects
-    if (isStartLevel)
+    if (false) // disabled
     {
         // title screen
         new Store(new Vector2(24,3.5));
@@ -1990,7 +2189,7 @@ function GenerateLevelInternal()
         if (localStorage.kbap_won)
             new LevelExit(new Vector2(29.5,13),3); // speed run
     }
-    else if (isFinalLevel)
+    else if (false) // disabled
     {
         // boss level
         new Store(new Vector2(43,47));
@@ -2088,8 +2287,8 @@ function UpdateAudio()
         coinSoundTimer.UnSet();
     }
 
-    if (!(isStartLevel || winTimer.IsSet()))
-        return;
+    // Music disabled for now
+    return;
         
     // update music
     let scale = [-5,0,2,4,7,12,-5,-8]; // major pentatonic scale
@@ -2194,7 +2393,12 @@ function PlaySound(sound, p=0)
     }
 }
 
-// load texture and kick off init!
+// load texture and building sprites, then kick off init!
 let tileImage = new Image();
-tileImage.onload=_=>Init();
+tileImage.onload = () => {
+    // After tiles load, load building sprites, then init
+    LoadBuildingSprites(() => {
+        Init();
+    });
+};
 tileImage.src = 'tiles.png';

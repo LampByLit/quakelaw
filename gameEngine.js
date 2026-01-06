@@ -502,11 +502,12 @@ class LevelData
         
         this.type = 0;   // 0=solid, 1=grass, 2=sand
         this.object = 0; // 0=none, 1=bush, 2=rock
+        this.road = 0;   // 0=no road, 1=road overlay
         this.tile = 0;
         this.rotation = 0;
     }
     
-    Clear() { this.type=this.object=0; }
+    Clear() { this.type=this.object=this.road=0; }
     IsSolid() { return !this.type || this.object; }
 }
 
@@ -693,6 +694,13 @@ class Level
         let ty = (d.tile/8|0);
         let pos = new Vector2(x+.5,y+.5);
         this.DrawTile(pos, .5, tx, ty, d.rotation*PI/2);
+        
+        // draw road overlay (tile 17) if road flag is set
+        if (d.road)
+        {
+            // tile 17 = index 17, which is tileX=1, tileY=2 (17%8=1, 17/8=2)
+            this.DrawTile(pos, .5, 1, 2);
+        }
         
         if (d.object)
         {

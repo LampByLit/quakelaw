@@ -1858,6 +1858,10 @@ function GenerateTown()
                         playerHomePos = pos.Clone().AddXY(-1, spawnOffset);
                     }
                 }
+                
+                // Clear spawn area to ensure player can always move (clear objects and make walkable)
+                level.FillCircleObject(playerHomePos, 1.5, 0); // Clear any objects (bushes/rocks)
+                level.FillCircleType(playerHomePos, 1.5, 1); // Ensure it's grass (walkable)
             }
             else
             {
@@ -1881,6 +1885,10 @@ function GenerateTown()
         
         // Don't place on roads or buildings
         if (data.road || data.IsSolid())
+            continue;
+            
+        // Don't place at player spawn position (keep spawn area clear)
+        if (playerHomePos && pos.Distance(playerHomePos) < 2)
             continue;
             
         // Check if too close to buildings

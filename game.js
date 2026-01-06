@@ -1669,10 +1669,14 @@ class Furniture extends MyGameObject
             else
             {
                 // Draw from tiles2.png - sprite index determines which sprite
-                let spriteSize = this.furnitureSize * 16; // 16px per tile
+                // tiles2.png uses 32px sprites, assume 4 sprites per row (grid layout)
+                let spriteSize = this.furnitureSize * 16; // 16px per tile, so 32px for size 2
+                let spritesPerRow = 4; // tiles2.png likely has 4 sprites per row
+                let spriteX = (this.spriteIndex % spritesPerRow) * spriteSize;
+                let spriteY = Math.floor(this.spriteIndex / spritesPerRow) * spriteSize;
                 mainCanvasContext.drawImage(
                     this.tilesetImage,
-                    this.spriteIndex * spriteSize, 0, // Source position
+                    spriteX, spriteY, // Source position (grid layout)
                     spriteSize, spriteSize, // Source size
                     -s, -s, // Destination position
                     s * 2, s * 2 // Destination size

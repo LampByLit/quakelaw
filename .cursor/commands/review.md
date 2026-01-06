@@ -1,0 +1,1 @@
+Please review the entire codebase line by line and come to a thorough understanding of our code. After you've finished, respond with a brief acknowledgement. 

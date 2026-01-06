@@ -38,6 +38,128 @@ let speedRunMode;
 let speedRunTime=0;
 let speedRunBestTime=0;
 let coinSoundTimer = new Timer();
+let gameTime = null;
+let timePaused = 0;
+let baseLevelColor = new Color(.1, .3, .1); // Base town color for day/night cycle
+let sleepFadeTimer = new Timer();
+let sleepFadeActive = 0;
+
+class GameTime
+{
+    constructor()
+    {
+        this.dayOfWeek = 0; // 0=Sunday, 1=Monday, ..., 6=Saturday
+        this.gameHour = 7.0; // Start at 07:00
+        this.daysElapsed = 0; // Total days since game start
+        this.month = 1; // 1=January, 2=February, ..., 12=December
+        this.dayOfMonth = 1; // Day within current month (1-28)
+        this.realTimeStart = 0; // Real time when current day started
+        this.realTimePerGameDay = 600; // 10 minutes = 600 seconds (real time)
+        this.gameHoursPerRealSecond = 24.0 / this.realTimePerGameDay; // Hours of game time per real second
+        this.daysPerMonth = 28; // Each month has 28 days (4 weeks)
+    }
+    
+    Update()
+    {
+        // Time pauses when window loses focus, but continues in interiors
+        if (timePaused && !currentInterior)
+            return;
+        
+        // Calculate elapsed real time since day started
+        let realTimeElapsed = (time - this.realTimeStart) * timeDelta;
+        
+        // Convert to game hours (10 min real = 24 hours game)
+        this.gameHour = 7.0 + (realTimeElapsed * this.gameHoursPerRealSecond);
+        
+        // Check for day rollover at midnight (24:00)
+        if (this.gameHour >= 24.0)
+        {
+            this.AdvanceDay();
+        }
+    }
+    
+    AdvanceDay()
+    {
+        this.daysElapsed++;
+        this.dayOfWeek = (this.dayOfWeek + 1) % 7;
+        this.dayOfMonth++;
+        
+        // Check for month rollover (28 days per month)
+        if (this.dayOfMonth > this.daysPerMonth)
+        {
+            this.dayOfMonth = 1;
+            this.month++;
+            // Check for year rollover (12 months)
+            if (this.month > 12)
+            {
+                this.month = 1;
+            }
+        }
+        
+        this.gameHour = 7.0; // Wake at 07:00
+        this.realTimeStart = time;
+    }
+    
+    Sleep()
+    {
+        // Called when player sleeps - advance to next day, wake at 07:00
+        this.AdvanceDay();
+        this.realTimeStart = time;
+    }
+    
+    GetHour() { return this.gameHour; }
+    GetDayOfWeek() { return this.dayOfWeek; }
+    GetDaysElapsed() { return this.daysElapsed; }
+    GetMonth() { return this.month; }
+    GetDayOfMonth() { return this.dayOfMonth; }
+    
+    GetDayName() 
+    { 
+        return ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][this.dayOfWeek]; 
+    }
+    
+    GetMonthName()
+    {
+        return ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][this.month - 1];
+    }
+    
+    FormatTime() 
+    { 
+        let h = Math.floor(this.gameHour);
+        let m = Math.floor((this.gameHour - h) * 60);
+        return `${h.toString().padStart(2,'0')}:${m.toString().padStart(2,'0')}`;
+    }
+    
+    FormatDate()
+    {
+        return `${this.GetDayName()}, ${this.GetMonthName()} ${this.dayOfMonth}`;
+    }
+    
+    Save()
+    {
+        return {
+            dayOfWeek: this.dayOfWeek,
+            gameHour: this.gameHour,
+            daysElapsed: this.daysElapsed,
+            month: this.month,
+            dayOfMonth: this.dayOfMonth,
+            realTimeStart: this.realTimeStart
+        };
+    }
+    
+    Load(data)
+    {
+        if (data)
+        {
+            this.dayOfWeek = data.dayOfWeek || 0;
+            this.gameHour = data.gameHour || 7.0;
+            this.daysElapsed = data.daysElapsed || 0;
+            this.month = data.month || 1;
+            this.dayOfMonth = data.dayOfMonth || 1;
+            this.realTimeStart = data.realTimeStart || time;
+        }
+    }
+}
 
 class PlayerData
 {
@@ -70,6 +192,27 @@ function Reset()
     playerData = new PlayerData();
     if (localStorage.kbap_coins)
         playerData.coins = parseInt(localStorage.kbap_coins, 10);
+    
+    // Initialize game time
+    gameTime = new GameTime();
+    if (localStorage.lawyer_gameState)
+    {
+        try
+        {
+            let saved = JSON.parse(localStorage.lawyer_gameState);
+            gameTime.Load(saved.gameTime);
+        }
+        catch(e)
+        {
+            // If load fails, start fresh
+            gameTime.realTimeStart = time;
+        }
+    }
+    else
+    {
+        // First time - start on Sunday at 07:00
+        gameTime.realTimeStart = time;
+    }
 }
 
 function InitTown()
@@ -168,6 +311,21 @@ function Update()
     ++levelFrame;
     UpdateAudio();
     
+    // Update game time (pauses when window loses focus, but continues in interiors)
+    timePaused = paused;
+    if (gameTime)
+        gameTime.Update();
+    
+    // Update sleep fade transition
+    if (sleepFadeActive)
+    {
+        if (sleepFadeTimer.Elapsed())
+        {
+            sleepFadeActive = 0;
+            sleepFadeTimer.UnSet();
+        }
+    }
+    
     // save data
     if (!speedRunMode)
         localStorage.kbap_coins = playerData.coins;
@@ -190,9 +348,34 @@ function PreRender()
     // camera is always centered on player
     cameraPos.Copy(player.pos);
     
+        // Calculate day/night lighting based on game time
+        if (gameTime && !currentInterior)
+        {
+            let hour = gameTime.GetHour();
+            // Brightest at noon (12:00), darkest at midnight (00:00)
+            // Use cosine for smooth transition: brightness = 0.3 + 0.7 * (1 - |hour - 12| / 12)
+            let brightness = 0.3 + 0.7 * (1 - Math.abs(hour - 12) / 12);
+            brightness = Clamp(brightness, 0.2, 1.0); // Clamp between 20% and 100%
+            levelColor = baseLevelColor.Clone(brightness); // Clone with brightness scale
+        }
+    else if (currentInterior)
+    {
+        // Interiors use their own tint, but can still be affected by time
+        // For now, keep interior tint as-is
+    }
+    
     // clear canvas to level color
     mainCanvasContext.fillStyle=levelColor.RGBA();
     mainCanvasContext.fillRect(0,0,mainCanvasSize.x, mainCanvasSize.y);
+    
+    // Apply sleep fade overlay if active
+    if (sleepFadeActive)
+    {
+        let fadeProgress = sleepFadeTimer.Get() / 1.0; // 1 second fade
+        fadeProgress = Clamp(fadeProgress, 0, 1);
+        mainCanvasContext.fillStyle = `rgba(0,0,0,${fadeProgress})`;
+        mainCanvasContext.fillRect(0,0,mainCanvasSize.x, mainCanvasSize.y);
+    }
     
     // draw the level (bottom layer)
     if (currentInterior)
@@ -210,6 +393,13 @@ function PostRender()
 {  
     UpdateTransiton();
     
+    // Display time and date (top-left)
+    if (gameTime)
+    {
+        let timeText = gameTime.FormatDate() + ' ' + gameTime.FormatTime();
+        DrawText(timeText, 10, 20, 16, 'left', 1, '#FFF', '#000');
+    }
+    
     // centered hud text
     let bigText = '';
     if (paused)
@@ -224,9 +414,9 @@ function PostRender()
     DrawText(bigText,mainCanvasSize.x/2, mainCanvasSize.y/2-80, 72, 'center', 2);
    
     {
-        // hud
+        // hud - positioned below time display
         let iconSize = 16;
-        let y = iconSize;
+        let y = 45; // Start below time display (time is at y=20, font size 16, so start at ~45)
 
         for(let i=0;i<player.healthMax;i++)
         {
@@ -273,6 +463,18 @@ function PostRender()
     let my = mousePos.y|0;
     let mw = 2;
     let mh = 15;
+    // Display "F" prompt when near bed
+    if (player && player.nearBed)
+    {
+        // Draw "F" prompt above player
+        let promptPos = player.pos.Clone();
+        promptPos.Subtract(cameraPos).Multiply(tileSize*cameraScale);
+        promptPos.Add(mainCanvasSize.Clone(.5));
+        promptPos.y -= 40; // Above player
+        DrawText('F', promptPos.x|0, promptPos.y|0, 24, 'center', 1, '#FFF', '#000');
+    }
+    
+    // mouse cursor
     mainCanvasContext.globalCompositeOperation = 'difference';
     mainCanvasContext.fillStyle='#FFF'
     mainCanvasContext.fillRect(mx-mw,my-mh,mw*2,mh*2);
@@ -447,6 +649,7 @@ class Player extends MyGameObject
         this.posBuffer = [];
         this.dashWaitTime = 3;
         this.radarSize=2;
+        this.nearBed = 0; // Flag for bed interaction
     }
     
     IsDashing() { return !this.dashTimer.Elapsed(); }
@@ -566,9 +769,34 @@ class Player extends MyGameObject
         {
             // Check for exit (middle of bottom edge)
             ExitInterior();
+            
+            // Check for bed interaction in home interior
+            // Note: ExitInterior() might have set currentInterior to null, so check again
+            if (currentInterior && currentInterior.bedPosition)
+            {
+                let bedDistance = this.pos.Distance(currentInterior.bedPosition);
+                if (bedDistance < 1.5) // Within 1.5 tiles of bed
+                {
+                    this.nearBed = 1;
+                    // Check for F key press to sleep
+                    if (KeyWasPressed(70)) // F key
+                    {
+                        Sleep();
+                    }
+                }
+                else
+                {
+                    this.nearBed = 0;
+                }
+            }
+            else
+            {
+                this.nearBed = 0;
+            }
         }
         else
         {
+            this.nearBed = 0;
             // Check for building entry (touch south face)
             // Don't allow entry if we just exited (cooldown period)
             if (interiorExitCooldown.Elapsed())
@@ -1703,6 +1931,7 @@ class Interior
         this.floorTint = floorTint; // Dark brown color
         this.furniture = [];
         this.exitPoint = new Vector2(size / 2, size - 0.5); // Middle of bottom edge (entry/exit point)
+        this.bedPosition = null; // Bed position for sleep interaction
         
         // Create interior level with custom size
         this.interiorSize = size;
@@ -1803,7 +2032,20 @@ class Interior
         
         // Always place bed first
         let bedDef = {name: 'bed', spriteIndex: 1, size: 2, tilesetImage: tileImage2, isEndtable: false};
-        this.PlaceFurniture(bedDef, furniturePlaced);
+        let bedPlaced = this.PlaceFurniture(bedDef, furniturePlaced);
+        // Store bed position for sleep interaction
+        if (bedPlaced)
+        {
+            // Find the bed furniture we just placed
+            for(let f of this.furniture)
+            {
+                if (f.furnitureSize == 2 && f.spriteIndex == 1 && f.tilesetImage == tileImage2)
+                {
+                    this.bedPosition = f.pos.Clone();
+                    break;
+                }
+            }
+        }
         
         // Get pool without bed and select 2 random pieces
         let pool = Interior.GetFurniturePool(false); // Exclude bed
@@ -1845,6 +2087,16 @@ class Interior
         // Always place bed first
         let bedDef = {name: 'bed', spriteIndex: 1, size: 2, tilesetImage: tileImage2, isEndtable: false};
         this.PlaceFurniture(bedDef, furniturePlaced);
+        
+        // Store bed position for sleep interaction
+        for(let f of this.furniture)
+        {
+            if (f.furnitureSize == 2 && f.spriteIndex == 1 && f.tilesetImage == tileImage2)
+            {
+                this.bedPosition = f.pos.Clone();
+                break;
+            }
+        }
         
         // Get pool without bed and select 2 random pieces
         let pool = Interior.GetFurniturePool(false); // Exclude bed
@@ -2374,6 +2626,71 @@ function ExitInterior()
     }
 }
 
+function Sleep()
+{
+    // Start fade transition
+    sleepFadeActive = 1;
+    sleepFadeTimer.Set(1.0); // 1 second fade
+    
+    // Advance to next day
+    if (gameTime)
+        gameTime.Sleep();
+    
+    // Exit interior if in one
+    if (currentInterior)
+    {
+        // Remove furniture from game objects
+        gameObjects = gameObjects.filter(o => !o.isFurniture);
+        
+        // Restore exterior level
+        levelSize = 64;
+        levelCanvas.width = levelCanvas.height = levelSize * tileSize;
+        level = exteriorLevel;
+        if (level)
+            level.Redraw();
+        
+        currentInterior = null;
+        exteriorLevel = null;
+        playerExteriorPos = null;
+    }
+    
+    // Teleport player to home spawn position (outside home, like game start)
+    if (playerHomePos)
+    {
+        player.pos.Copy(playerHomePos);
+        player.rotation = 1; // Face south
+    }
+    
+    // Save game state
+    SaveGameState();
+}
+
+function SaveGameState()
+{
+    if (!gameTime)
+        return;
+    
+    let gameState = {
+        gameTime: gameTime.Save(),
+        playerData: {
+            health: playerData.health,
+            healthMax: playerData.healthMax,
+            coins: playerData.coins,
+            boomerangs: playerData.boomerangs,
+            bigBoomerangs: playerData.bigBoomerangs
+        }
+    };
+    
+    try
+    {
+        localStorage.lawyer_gameState = JSON.stringify(gameState);
+    }
+    catch(e)
+    {
+        console.warn('Failed to save game state:', e);
+    }
+}
+
 ///////////////////////////////////////////////////////////////////////////////
 // building system
 
@@ -2474,7 +2791,8 @@ class Building extends MyGameObject
 
 function GenerateTown()
 {
-    levelColor = new Color(.1, .3, .1); // greenish town color
+    baseLevelColor = new Color(.1, .3, .1); // greenish town color (base for day/night cycle)
+    levelColor = baseLevelColor.Clone();
     level = new Level();
     ClearGameObjects();
     

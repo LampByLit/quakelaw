@@ -478,12 +478,13 @@ function DrawText(text, x, y, size,textAlign='center',lineWidth=1,color='#000',s
     context.font = `900 ${size}px "Press Start 2P"`
     context.textAlign=textAlign;
     context.textBaseline='middle';
-    context.fillText(text,x,y);
+    const upperText = text.toUpperCase();
+    context.fillText(upperText,x,y);
     if (lineWidth)
     {
         context.lineWidth=lineWidth;
         context.strokeStyle=strokeColor;
-        context.strokeText(text,x,y);
+        context.strokeText(upperText,x,y);
     }
 }
 

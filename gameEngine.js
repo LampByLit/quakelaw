@@ -183,7 +183,7 @@ class GameObject
     }
     CollideLevel(data,pos)
     { 
-        if (!data.type)
+        if (!data || !data.type)
             return 1;
     
         // allow jumping over objects
@@ -828,13 +828,13 @@ class Level
             if (Rand() > .05)
                 continue;
             
-            let d = level.GetData(x,y);
-            if (d.tile == 13)
+            let d = this.GetData(x,y);
+            if (d && d.tile == 13)
             {
                 d.tile++;
                 d.rotation=RandInt(4);
             }
-            if (d.tile == 16)
+            if (d && d.tile == 16)
             {
                 d.tile+=1;
                 d.rotation=RandInt(4);

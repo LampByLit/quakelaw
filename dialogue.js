@@ -42,12 +42,15 @@ function InitDialogueModal() {
 async function OpenDialogueModal(npc) {
     if (!npc || dialogueModalOpen) return;
     
+    // Debug: Verify NPC has job
+    console.log(`Opening dialogue with ${npc.surname}: job=${npc.job}, characteristic=${npc.characteristic}`);
+    
     currentDialogueNPC = npc;
     dialogueModalOpen = true;
     
     // Update modal header
     document.getElementById('npcName').textContent = npc.surname;
-    document.getElementById('npcEmoji').textContent = GetEmojiCharacter(npc.emoji);
+    document.getElementById('npcEmoji').textContent = npc.emoji ? GetEmojiCharacter(npc.emoji) : '⚖️'; // Default to scales emoji for judge if no emoji
     
     // Show modal
     const modal = document.getElementById('dialogueModal');
@@ -133,7 +136,8 @@ async function GenerateGreeting(npc) {
                 npcData: {
                     surname: npc.surname,
                     characteristic: npc.characteristic,
-                    emoji: npc.emoji
+                    emoji: npc.emoji,
+                    job: npc.job || '' // Ensure job is always a string
                 }
             })
         });
@@ -216,7 +220,8 @@ async function SendMessage() {
                 npcData: {
                     surname: currentDialogueNPC.surname,
                     characteristic: currentDialogueNPC.characteristic,
-                    emoji: currentDialogueNPC.emoji
+                    emoji: currentDialogueNPC.emoji,
+                    job: currentDialogueNPC.job || '' // Ensure job is always a string
                 }
             })
         });

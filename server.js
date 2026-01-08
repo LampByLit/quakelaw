@@ -154,7 +154,8 @@ app.get('/api/npc/conversation/:surname', async (req, res) => {
             npcInfo: {
                 surname: conversation.npcSurname,
                 characteristic: conversation.characteristic,
-                emoji: conversation.emoji
+                emoji: conversation.emoji,
+                job: conversation.job || ''
             }
         });
     } catch (error) {
@@ -196,12 +197,16 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
         let conversation = await loadConversation(surname);
         const isFirstInteraction = !conversation;
         
+        // Debug: Log job data received
+        console.log(`[SERVER] Message from ${surname}: npcData.job="${npcData.job}", existing conversation.job="${conversation?.job || 'none'}"`);
+        
         if (!conversation) {
             // Create new conversation
             conversation = {
                 npcSurname: surname,
                 characteristic: npcData.characteristic,
                 emoji: npcData.emoji || '',
+                job: npcData.job || '',
                 conversation: [],
                 metadata: {
                     firstInteraction: Date.now(),
@@ -209,10 +214,29 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
                     messageCount: 0
                 }
             };
+            console.log(`[SERVER] Created new conversation for ${surname} with job="${conversation.job}"`);
         } else {
             // Update NPC data if provided (in case it changed)
+            // Always update job if provided - this ensures old conversations get jobs assigned
             if (npcData.characteristic) conversation.characteristic = npcData.characteristic;
-            if (npcData.emoji) conversation.emoji = npcData.emoji;
+            if (npcData.emoji !== undefined) conversation.emoji = npcData.emoji || '';
+            if (npcData.job !== undefined) {
+                // Always update job if provided - even if empty string, this ensures consistency
+                const oldJob = conversation.job;
+                conversation.job = npcData.job || '';
+                if (oldJob !== conversation.job) {
+                    console.log(`[SERVER] Updated job for ${surname}: "${oldJob}" -> "${conversation.job}"`);
+                    // If job changed significantly, clear conversation history to prevent contamination
+                    if (oldJob && oldJob !== '' && conversation.job && conversation.job !== '' && oldJob !== conversation.job) {
+                        console.log(`[SERVER] Job changed for ${surname}, clearing old conversation history to prevent contamination`);
+                        conversation.conversation = []; // Clear history when job changes
+                    }
+                }
+            } else if (!conversation.job) {
+                // If conversation has no job and npcData doesn't provide one, set empty
+                conversation.job = '';
+                console.log(`[SERVER] Warning: ${surname} has no job in conversation and npcData.job is missing!`);
+            }
         }
         
         // Add player message
@@ -230,7 +254,25 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
         }
         
         // Build system prompt with NPC identity
-        const systemPrompt = `You are ${surname}, a ${conversation.characteristic} person living in a legal/lawyer game world.
+        const job = conversation.job || '';
+        const jobContext = job ? `You work as a ${job}. ` : '';
+        const isLawyer = job === 'lawyer';
+        
+        // Debug: Log what job is being used in prompt
+        console.log(`[SERVER] ===== Building prompt for ${surname} =====`);
+        console.log(`[SERVER] npcData.job="${npcData.job}", conversation.job="${conversation.job}", final job="${job}"`);
+        console.log(`[SERVER] isLawyer=${isLawyer}, jobContext="${jobContext}"`);
+        if (!job || job === '') {
+            console.error(`[SERVER] ERROR: ${surname} has NO JOB assigned!`);
+        }
+        
+        const systemPrompt = `You are ${surname}, a ${conversation.characteristic} person living in a real town.
+
+ABSOLUTELY CRITICAL - YOUR PROFESSION (DO NOT IGNORE THIS):
+${job ? `- Your job is: ${job}. This is your ONLY profession.` : '- You have a regular job.'}
+${isLawyer ? '- You ARE a lawyer and work in the legal system. You understand legal matters and may work at the courthouse or a law firm.' : `- Your job is "${job}" - focus on this job in all your conversations.
+- When you introduce yourself, say "I'm ${surname}, I'm a ${job}" - talk about YOUR job.
+- REQUIRED: Talk about being a ${job} - that's your actual job and what you know about.`}
 
 Your personality traits:
 - You are ${conversation.characteristic} (e.g., ${conversation.characteristic === 'rude' ? 'you are blunt and direct' : conversation.characteristic === 'joyful' ? 'you are cheerful and optimistic' : 'you have this personality trait'})
@@ -241,21 +283,78 @@ Your personality traits:
 - Keep your responses brief and character-appropriate
 
 Context:
-- The player is a lawyer working on cases
-- You may be given information by the system
-- You may have information relevant to legal cases
-- Other characters may ask you questions as well, answer them naturally
-- This is the real world`;
+${jobContext}You may have witnessed events in town. Talk about your normal life and your job as a ${job || 'regular person'}. You are on a schedule and do not have time to follow the player anywhere. Other characters may ask you questions as well, answer them naturally. This is the real world.
+
+REMEMBER: Your job is ${job}. You are a ${job}.`;
         
         // Build messages array from conversation history
         const messages = [{ role: 'system', content: systemPrompt }];
+        
+        // Add a reminder about job before conversation history
+        if (!isLawyer && job) {
+            messages.push({ 
+                role: 'system', 
+                content: `REMINDER: Your job is ${job}. You are a ${job}. Focus on your actual job and experiences.` 
+            });
+        }
+        
+        // Add conversation history (convert to API format)
+        // BUT: If there's old conversation that contradicts the job, clear it
+        let hasContradictoryHistory = false;
+        if (conversation.conversation.length > 0 && !isLawyer && job) {
+            // Check if any previous NPC messages mention legal work incorrectly
+            for (const msg of conversation.conversation) {
+                if (msg.role === 'npc' && msg.message) {
+                    const lowerMsg = msg.message.toLowerCase();
+                    // Only flag if they claim to be a lawyer or work in law (not just mentioning it in context)
+                    if (lowerMsg.includes("i'm a lawyer") || lowerMsg.includes("i am a lawyer") || 
+                        lowerMsg.includes("i practice law") || lowerMsg.includes("i work in law") ||
+                        lowerMsg.includes("i'm a paralegal") || lowerMsg.includes("i work at a law firm")) {
+                        hasContradictoryHistory = true;
+                        console.log(`[SERVER] WARNING: ${surname} has contradictory history claiming legal work. Clearing conversation.`);
+                        break;
+                    }
+                }
+            }
+        }
+        
+        // If contradictory history found, clear it
+        if (hasContradictoryHistory) {
+            conversation.conversation = [];
+            console.log(`[SERVER] Cleared contradictory conversation history for ${surname}`);
+        }
         
         // Add conversation history (convert to API format)
         for (const msg of conversation.conversation) {
             if (msg.role === 'player') {
                 messages.push({ role: 'user', content: msg.message });
             } else if (msg.role === 'npc') {
+                // Add job reminder before each NPC response in history (only for non-lawyers)
+                if (!isLawyer && job) {
+                    messages.push({ 
+                        role: 'system', 
+                        content: `Note: In this previous response, you were a ${job}.` 
+                    });
+                }
                 messages.push({ role: 'assistant', content: msg.message });
+            }
+        }
+        
+        // Add another reminder at the end (only for non-lawyers)
+        if (!isLawyer && job) {
+            messages.push({ 
+                role: 'system', 
+                content: `FINAL REMINDER: You are responding as a ${job}. Your job is ${job}. Focus on your actual profession.` 
+            });
+        }
+        
+        // Debug: Log what we're sending to AI
+        console.log(`[SERVER] Sending ${messages.length} messages to AI. Job="${job}", isLawyer=${isLawyer}`);
+        if (messages.length > 0 && messages[0].role === 'system') {
+            const hasJob = messages[0].content.includes(job);
+            console.log(`[SERVER] First system message contains job "${job}": ${hasJob ? 'YES' : 'NO'}`);
+            if (!hasJob && job) {
+                console.error(`[SERVER] CRITICAL: Job "${job}" NOT FOUND in system prompt!`);
             }
         }
         
@@ -263,7 +362,7 @@ Context:
         const requestBody = {
             model: process.env.DEEPSEEK_MODEL || 'deepseek-chat',
             messages: messages,
-            temperature: 0.75, // Slightly higher for more personality
+            temperature: 0.3, // LOWER temperature to make it more deterministic and follow instructions
             max_tokens: 150 // Limit to 1-2 sentences
         };
         
@@ -312,7 +411,8 @@ Context:
             npcInfo: {
                 surname: conversation.npcSurname,
                 characteristic: conversation.characteristic,
-                emoji: conversation.emoji
+                emoji: conversation.emoji,
+                job: conversation.job || ''
             }
         });
         
@@ -350,10 +450,21 @@ app.post('/api/npc/greeting/:surname', async (req, res) => {
         }
         
         // Build greeting system prompt
-        const systemPrompt = `You are ${surname}, a ${npcData.characteristic} person living in a legal/lawyer game world.
+        const job = npcData.job || '';
+        const jobContext = job ? `You work as a ${job}. ` : '';
+        const isLawyer = job === 'lawyer';
+        
+        const systemPrompt = `You are ${surname}, a ${npcData.characteristic} person living in a real town.
 
-Greet the player naturally in 1-2 sentences. Be ${npcData.characteristic} in your greeting. 
-This is the first time you're meeting them, so introduce yourself briefly.`;
+ABSOLUTELY CRITICAL - YOUR PROFESSION (DO NOT IGNORE THIS):
+${job ? `- Your job is: ${job}. This is your ONLY profession.` : '- You have a regular job.'}
+${isLawyer ? '- You ARE a lawyer and work in the legal system. You understand legal matters and may work at the courthouse or a law firm.' : `- Your job is "${job}" - focus on this job.
+- REQUIRED: When greeting, say "I'm ${surname}, I'm a ${job}" - talk about YOUR job.`}
+
+${jobContext}Greet the player naturally in 1-2 sentences. Be ${npcData.characteristic} in your greeting. 
+This is the first time you're meeting them, so introduce yourself briefly. Say your name and mention you're a ${job || 'regular person'}.
+
+REMEMBER: Your job is ${job}. You are a ${job}.`;
         
         const requestBody = {
             model: process.env.DEEPSEEK_MODEL || 'deepseek-chat',
@@ -361,7 +472,7 @@ This is the first time you're meeting them, so introduce yourself briefly.`;
                 { role: 'system', content: systemPrompt },
                 { role: 'user', content: 'Hello!' }
             ],
-            temperature: 0.75,
+            temperature: 0.3, // LOWER temperature to make it more deterministic and follow instructions
             max_tokens: 100
         };
         
@@ -392,6 +503,7 @@ This is the first time you're meeting them, so introduce yourself briefly.`;
             npcSurname: surname,
             characteristic: npcData.characteristic,
             emoji: npcData.emoji || '',
+            job: npcData.job || '',
             conversation: [
                 {
                     role: 'npc',
@@ -414,7 +526,8 @@ This is the first time you're meeting them, so introduce yourself briefly.`;
             npcInfo: {
                 surname: conversation.npcSurname,
                 characteristic: conversation.characteristic,
-                emoji: conversation.emoji
+                emoji: conversation.emoji,
+                job: conversation.job || ''
             }
         });
         
@@ -422,6 +535,39 @@ This is the first time you're meeting them, so introduce yourself briefly.`;
         console.error('Error generating greeting:', error);
         res.status(500).json({ 
             error: 'Failed to generate greeting',
+            message: error.message 
+        });
+    }
+});
+
+// Delete all conversations (used for game reset)
+app.delete('/api/npc/conversations', async (req, res) => {
+    try {
+        // Read all files in conversations directory
+        const files = await fs.readdir(conversationsDir);
+        
+        // Delete all JSON files
+        let deletedCount = 0;
+        for (const file of files) {
+            if (file.endsWith('.json')) {
+                try {
+                    await fs.unlink(path.join(conversationsDir, file));
+                    deletedCount++;
+                } catch (error) {
+                    console.warn(`Failed to delete conversation file ${file}:`, error);
+                }
+            }
+        }
+        
+        res.json({
+            success: true,
+            message: `Deleted ${deletedCount} conversation file(s)`,
+            deletedCount: deletedCount
+        });
+    } catch (error) {
+        console.error('Error clearing conversations:', error);
+        res.status(500).json({ 
+            error: 'Failed to clear conversations',
             message: error.message 
         });
     }

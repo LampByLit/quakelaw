@@ -348,7 +348,7 @@ function Reset()
     }
 }
 
-function FullReset()
+async function FullReset()
 {
     // Reset frame and time (from gameEngine.js)
     frame = 0;
@@ -369,6 +369,34 @@ function FullReset()
     // Clear all game state from localStorage
     delete localStorage.kbap_coins;
     delete localStorage.lawyer_gameState;
+    delete localStorage.kbap_warp;
+    delete localStorage.kbap_won;
+    delete localStorage.kbap_bestTime;
+    
+    // Close dialogue modal if open (clears client-side conversation history)
+    if (typeof CloseDialogueModal !== 'undefined') {
+        CloseDialogueModal();
+    }
+    
+    // Clear all NPCs from memory (before clearing conversations)
+    ClearNPCs();
+    
+    // Clear all conversation data from server (MUST complete before regenerating NPCs)
+    try {
+        const response = await fetch('/api/npc/conversations', {
+            method: 'DELETE'
+        });
+        if (!response.ok) {
+            console.error('Failed to clear conversations:', response.status, response.statusText);
+            // Continue anyway - will try to update jobs when conversations are loaded
+        } else {
+            const result = await response.json();
+            console.log(`Reset: Deleted ${result.deletedCount || 0} conversation file(s)`);
+        }
+    } catch (error) {
+        console.error('Error clearing conversations:', error);
+        // Continue anyway - worst case old conversations exist but will be updated with new jobs
+    }
     
     // Reset game state
     Reset();
@@ -1115,6 +1143,12 @@ class Player extends MyGameObject
                     {
                         OpenDialogueModal(this.nearNPC);
                     }
+                    // Check for nearby judge in interior (courthouse only)
+                    let nearJudge = GetNearestJudge(this.pos, 1.0);
+                    if (nearJudge && KeyWasPressed(70) && typeof OpenDialogueModal !== 'undefined')
+                    {
+                        OpenDialogueModal(nearJudge);
+                    }
                 }
             }
             else
@@ -1125,6 +1159,12 @@ class Player extends MyGameObject
                 if (this.nearNPC && KeyWasPressed(70) && typeof OpenDialogueModal !== 'undefined')
                 {
                     OpenDialogueModal(this.nearNPC);
+                }
+                // Check for nearby judge in interior (courthouse only)
+                let nearJudge = GetNearestJudge(this.pos, 1.0);
+                if (nearJudge && KeyWasPressed(70) && typeof OpenDialogueModal !== 'undefined')
+                {
+                    OpenDialogueModal(nearJudge);
                 }
             }
         }
@@ -2210,6 +2250,73 @@ class LevelExit extends MyGameObject
 ///////////////////////////////////////////////////////////////////////////////
 // interior system
 
+// Judge class - special character that spawns in courthouse
+class Judge extends MyGameObject
+{
+    constructor(pos)
+    {
+        super(pos, 0, 0, 0.5, 0.4, 1); // Same size as player
+        this.surname = 'Judge';
+        this.emoji = null; // No emoji for now (dialogue system will handle null)
+        this.spriteIndex = 15; // Sprite index 15 from tiles.png
+        this.isJudge = 1;
+        this.rotation = 1; // Facing south
+    }
+    
+    Render()
+    {
+        if (shadowRenderPass)
+            return;
+        
+        // Only render if in same interior as player (or both outdoors)
+        if (currentInterior)
+        {
+            // Player is indoors - judge must be in same interior
+            if (!this.isIndoors || this.currentInterior !== currentInterior)
+                return;
+        }
+        else
+        {
+            // Player is outdoors - judge should not be visible
+            return;
+        }
+        
+        // Custom rendering using tiles.png sprite index 15
+        mainCanvasContext.save();
+        let drawPos = this.pos.Clone();
+        drawPos.y -= this.height;
+        drawPos.Subtract(cameraPos).Multiply(tileSize*cameraScale);
+        drawPos.Add(mainCanvasSize.Clone(.5));
+        mainCanvasContext.translate(drawPos.x|0, drawPos.y|0);
+        
+        let s = this.size.x * tileSize * cameraScale;
+        
+        // Calculate tile position from sprite index 15
+        // tiles.png uses 8 sprites per row
+        let tileX = this.spriteIndex % 8;
+        let tileY = Math.floor(this.spriteIndex / 8);
+        
+        if (tileImage)
+        {
+            mainCanvasContext.drawImage(
+                tileImage,
+                tileX * tileSize, tileY * tileSize,
+                tileSize, tileSize,
+                -s, -s,
+                s * 2, s * 2
+            );
+        }
+        else
+        {
+            // Placeholder
+            mainCanvasContext.fillStyle = '#642';
+            mainCanvasContext.fillRect(-s, -s, s * 2, s * 2);
+        }
+        
+        mainCanvasContext.restore();
+    }
+}
+
 class Furniture extends MyGameObject
 {
     constructor(pos, spriteIndex, size, tilesetImage)
@@ -2614,6 +2721,12 @@ class Interior
             this.PlaceFurniture(furnitureDef, furniturePlaced);
         }
         
+        // Spawn judge in courthouse
+        let judgePos = this.FindJudgePosition(furniturePlaced);
+        this.judge = new Judge(judgePos);
+        this.judge.isIndoors = true;
+        this.judge.currentInterior = this;
+        
         // Apply tiling and redraw
         // (levelSize should still be set to interiorSize at this point)
         this.level.ApplyTiling();
@@ -2657,6 +2770,56 @@ class Interior
         
         // Fallback: place in corner if can't find space (but not near exit)
         return new Vector2(1, 1);
+    }
+    
+    // Find a valid position for the judge (character-sized, clear of furniture)
+    FindJudgePosition(existingFurniture)
+    {
+        // Judge is character-sized (0.5 x 0.4), similar to furniture size 1
+        let characterSize = 0.5; // Use 0.5 as the size for clearance calculations
+        let exitX = this.size / 2; // Exit is at middle of bottom edge
+        let exitY = this.size - 0.5;
+        let exitClearance = 1.5; // Keep judge at least 1.5 tiles away from exit
+        
+        for(let attempt = 0; attempt < 100; attempt++)
+        {
+            let margin = 0.5; // Keep away from walls
+            let x = RandBetween(margin, this.size - margin - characterSize);
+            let y = RandBetween(margin, this.size - margin - characterSize);
+            let pos = new Vector2(x, y);
+            
+            // Don't place judge near the exit (bottom center)
+            let distToExit = pos.Distance(new Vector2(exitX, exitY));
+            if (distToExit < exitClearance)
+                continue; // Too close to exit, try again
+            
+            // Check if it overlaps with existing furniture
+            let overlaps = false;
+            for(let f of existingFurniture)
+            {
+                let dist = pos.Distance(f.pos);
+                // Need clearance from furniture (furniture size + character size + buffer)
+                let minDist = (f.size + characterSize) / 2 + 0.3; // 0.3 tile buffer
+                if (dist < minDist)
+                {
+                    overlaps = true;
+                    break;
+                }
+            }
+            
+            // Also check if position is walkable (not solid)
+            if (!overlaps)
+            {
+                let data = this.level.GetDataFromPos(pos);
+                if (data.type === 1) // Walkable (grass/floor)
+                {
+                    return pos;
+                }
+            }
+        }
+        
+        // Fallback: place in center-back area if can't find space
+        return new Vector2(this.size / 2, 2);
     }
     
     Render()
@@ -2732,10 +2895,19 @@ function EnterInterior(building)
         // Remove any existing furniture first (safety check in case of duplicates)
         gameObjects = gameObjects.filter(o => !o.isFurniture);
         
+        // Remove any existing judge (safety check)
+        gameObjects = gameObjects.filter(o => !o.isJudge);
+        
         // Add furniture to game objects (recreate from stored positions)
         for(let f of currentInterior.furniture)
         {
             gameObjects.push(f);
+        }
+        
+        // Add judge to game objects if it exists (for courthouse)
+        if (currentInterior.judge)
+        {
+            gameObjects.push(currentInterior.judge);
         }
         
         // Position player at entrance (bottom center, but slightly inside to avoid immediate exit)
@@ -2917,10 +3089,19 @@ function EnterInterior(building)
             // Remove any existing furniture first (safety check in case of duplicates)
             gameObjects = gameObjects.filter(o => !o.isFurniture);
             
+            // Remove any existing judge (safety check)
+            gameObjects = gameObjects.filter(o => !o.isJudge);
+            
             // Add furniture to game objects
             for(let f of currentInterior.furniture)
             {
                 gameObjects.push(f);
+            }
+            
+            // Add judge to game objects if it exists
+            if (currentInterior.judge)
+            {
+                gameObjects.push(currentInterior.judge);
             }
             
             // Position player at entrance (bottom center, but slightly inside to avoid immediate exit)
@@ -2948,6 +3129,9 @@ function ExitInterior()
     {
         // Remove ALL furniture from game objects (filter by isFurniture to catch any duplicates)
         gameObjects = gameObjects.filter(o => !o.isFurniture);
+        
+        // Remove judge from game objects
+        gameObjects = gameObjects.filter(o => !o.isJudge);
         
         // Restore exterior level size FIRST (before restoring level)
         levelSize = 64;

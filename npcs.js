@@ -15,6 +15,32 @@ let npcCharacteristics = ['rude', 'joyful', 'insane', 'flirtatious', 'grumpy', '
 // Removed emojis that only exist as sequences (1F642-1F64E) - they don't exist as simple files
 let npcEmojis = ['1F608', '1F609', '1F618', '1F619', '1F620', '1F621', '1F622', '1F623', '1F624', '1F625', '1F626', '1F627', '1F62A', '1F62B', '1F62C', '1F62D', '1F62E', '1F62F', '1F630', '1F631', '1F632', '1F633', '1F634', '1F635', '1F636', '1F637', '1F63A', '1F63B', '1F63C', '1F63D', '1F63E', '1F63F', '1F640', '1F641', '1F64F'];
 
+// Pool of 100 jobs (excluding "lawyer" which is special)
+// Each NPC will be assigned one of these jobs to help shape their dialogue
+let npcJobs = [
+    'judge', 'clerk', 'bailiff', 'court reporter', 'paralegal', 'secretary', 'receptionist', 'legal assistant',
+    'accountant', 'bookkeeper', 'auditor', 'tax preparer', 'financial advisor',
+    'shopkeeper', 'cashier', 'store manager', 'sales associate', 'retail worker', 'merchant',
+    'cook', 'waiter', 'bartender', 'chef', 'barista', 'server', 'restaurant manager',
+    'teacher', 'principal', 'student', 'librarian', 'professor', 'tutor',
+    'nurse', 'doctor', 'dentist', 'pharmacist', 'veterinarian', 'therapist',
+    'mechanic', 'carpenter', 'plumber', 'electrician', 'contractor', 'handyman',
+    'police officer', 'security guard', 'firefighter', 'detective', 'sheriff',
+    'mail carrier', 'delivery driver', 'taxi driver', 'truck driver', 'bus driver',
+    'architect', 'engineer', 'designer', 'artist', 'musician', 'writer', 'journalist',
+    'farmer', 'rancher', 'fisherman', 'gardener', 'landscaper',
+    'real estate agent', 'insurance agent', 'banker', 'loan officer',
+    'hairdresser', 'barber', 'cosmetologist', 'tailor', 'seamstress',
+    'baker', 'butcher', 'grocer', 'florist', 'fishmonger',
+    'construction worker', 'roofer', 'painter', 'welder', 'mason',
+    'janitor', 'custodian', 'cleaner', 'maintenance worker',
+    'office manager', 'administrative assistant', 'data entry clerk', 'file clerk',
+    'photographer', 'videographer', 'filmmaker', 'graphic designer',
+    'coach', 'trainer', 'athlete', 'referee',
+    'social worker', 'counselor', 'psychologist', 'psychiatrist',
+    'pilot', 'flight attendant', 'concierge', 'bellhop', 'maid', 'groundskeeper'
+];
+
 // Load NPC sprite images
 function LoadNPCSprites(callback)
 {
@@ -80,7 +106,7 @@ function GenerateNPCSurnames()
 // NPC class
 class NPC extends MyGameObject
 {
-    constructor(pos, surname, characteristic, emoji, spriteIndex, houseAddress, workAddress)
+    constructor(pos, surname, characteristic, emoji, spriteIndex, houseAddress, workAddress, job)
     {
         super(pos, 0, 0, 0.5, 0.4, 1); // Same size as player
         this.surname = surname;
@@ -89,6 +115,7 @@ class NPC extends MyGameObject
         this.spriteIndex = spriteIndex; // 0-indexed across tiles3.png and tiles4.png (0-15 for 8 sprites each)
         this.houseAddress = houseAddress;
         this.workAddress = workAddress;
+        this.job = job; // NPC's profession (e.g., 'lawyer', 'judge', 'clerk', 'shopkeeper')
         this.isNPC = 1;
         
         // Movement properties
@@ -973,6 +1000,53 @@ function GenerateNPCs()
         workAssignments[j] = temp;
     }
     
+    // Assign jobs to NPCs
+    // First, identify which NPCs work at courthouse
+    let courthouseAddress = courthouse ? courthouse.address : null;
+    let courthouseNPCIndices = [];
+    let otherNPCIndices = [];
+    
+    for(let i = 0; i < 25; i++)
+    {
+        if (courthouseAddress && workAssignments[i] === courthouseAddress)
+        {
+            courthouseNPCIndices.push(i);
+        }
+        else
+        {
+            otherNPCIndices.push(i);
+        }
+    }
+    
+    // Create job assignments array
+    let jobAssignments = [];
+    
+    // Ensure at least 1 courthouse NPC is a lawyer
+    if (courthouseNPCIndices.length > 0)
+    {
+        // Pick a random courthouse NPC to be a lawyer
+        let lawyerIndex = courthouseNPCIndices[RandInt(courthouseNPCIndices.length)];
+        jobAssignments[lawyerIndex] = 'lawyer';
+        
+        // Assign other jobs to remaining courthouse NPCs
+        for(let i = 0; i < courthouseNPCIndices.length; i++)
+        {
+            let npcIndex = courthouseNPCIndices[i];
+            if (jobAssignments[npcIndex] === undefined)
+            {
+                // Assign random job from pool
+                jobAssignments[npcIndex] = npcJobs[RandInt(npcJobs.length)];
+            }
+        }
+    }
+    
+    // Assign jobs to non-courthouse NPCs
+    for(let i = 0; i < otherNPCIndices.length; i++)
+    {
+        let npcIndex = otherNPCIndices[i];
+        jobAssignments[npcIndex] = npcJobs[RandInt(npcJobs.length)];
+    }
+    
     // Distribute NPCs evenly among houses
     let houseAssignments = [];
     for(let i = 0; i < 25; i++)
@@ -1011,9 +1085,15 @@ function GenerateNPCs()
         let spriteIndex = i; // 0-24, each NPC gets 8 consecutive sprites
         let houseAddress = houseAssignments[i];
         let workAddress = workAssignments[i];
+        let job = jobAssignments[i] || npcJobs[RandInt(npcJobs.length)]; // Fallback to random job if somehow not assigned
+        
+        // Debug: Log job assignment (remove after verification)
+        if (i < 5) {
+            console.log(`NPC ${surname}: job=${job}, workAddress=${workAddress}`);
+        }
         
         // Create NPC (will spawn in house interior)
-        let npc = new NPC(new Vector2(0, 0), surname, characteristic, emoji, spriteIndex, houseAddress, workAddress);
+        let npc = new NPC(new Vector2(0, 0), surname, characteristic, emoji, spriteIndex, houseAddress, workAddress, job);
         
         // Randomize schedule
         npc.RandomizeSchedule();
@@ -1095,6 +1175,37 @@ function GetNearestNPC(position, maxDistance)
     }
     
     return nearestNPC;
+}
+
+// Get nearest judge within specified distance
+// Returns judge object or null if none found
+function GetNearestJudge(position, maxDistance)
+{
+    if (!position || !currentInterior || !currentInterior.judge)
+        return null;
+    
+    let judge = currentInterior.judge;
+    
+    // Check if judge is in the same interior as player
+    if (currentInterior)
+    {
+        // Player is indoors - judge must be in same interior
+        if (!judge.isIndoors || judge.currentInterior !== currentInterior)
+            return null;
+    }
+    else
+    {
+        // Player is outdoors - judge should not be accessible
+        return null;
+    }
+    
+    let distance = position.Distance(judge.pos);
+    if (distance < maxDistance)
+    {
+        return judge;
+    }
+    
+    return null;
 }
 
 

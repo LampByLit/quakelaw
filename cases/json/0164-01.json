@@ -1,0 +1,165 @@
+{
+  "id": 1855485,
+  "name": "IDE v. SCOTT DRILLING, INC.",
+  "name_abbreviation": "Ide v. Scott Drilling, Inc.",
+  "decision_date": "1954-11-29",
+  "docket_number": "Docket No. 13, Calendar No. 46,143",
+  "first_page": "164",
+  "last_page": "168",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "341 Mich. 164"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "100 ALR 1090",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "86 ALR 865",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "62 ALR 160",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "53 ALR 218",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "39 ALR 313",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "35 ALR 1066",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "30 ALR 1253",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "13 ALR 686",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "62 ALR 150",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "124 Kan 222",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        1214098
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/kan/124/0222-01"
+      ]
+    },
+    {
+      "cite": "124 A 335",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "280 Pa 88",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1084464
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/280/0088-01"
+      ]
+    },
+    {
+      "cite": "216 Mich 335",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1728337
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/216/0335-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 496,
+    "char_count": 8183,
+    "ocr_confidence": 0.49,
+    "pagerank": {
+      "raw": 7.32056834190083e-08,
+      "percentile": 0.4398165684563077
+    },
+    "sha256": "bfdbe2154bfca6405c3f5af3c498c1a8e32e0f3a6529e00e8c204d73e3cefa4f",
+    "simhash": "1:d63d669797237e97",
+    "word_count": 1451
+  },
+  "last_updated": "2024-02-27T16:14:53.692353+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Btitzel, C. J., and Carr, Bushnell, Boyles, Reid, Dethmers, and Kelly, JJ., concurred."
+    ],
+    "parties": [
+      "IDE v. SCOTT DRILLING, INC."
+    ],
+    "opinions": [
+      {
+        "text": "Sharpe, J.\nThe facts in this case are not in dispute. Plaintiff, Leon Ide, sustained an accidental and personal injury while in the employment of defendant, Scott Drilling, Inc. At the time of the injury he was living with his wife and son, Terry. At the time of the injury on October 26, 1951, his wife was pregnant, and a child was born on November 19, 1951.\nDefendants paid compensation based upon 2 dependents, but refused to consider the child born less than 30 days after the injury as a dependent. The problem presented is one of first impression in Michigan. The workmen\u2019s compensation commission made an award to plaintiff based upon the theory that the unborn child was a dependent.\nSection 9, part 2 of the workmen\u2019s compensation act, being CL 1948, \u00a7 412.9, as amended by PA 1949, No 238 (Stat Ann 1950 Rev \u00a7 17.159), provides a graduated scale for disability compensation, depending on the number of dependents, and reads, in part, as follows:\n\u201cSec. 9 (a) While the incapacity for work resulting from the injury is total, the employer shall pay, or cause to be paid as hereinafter provided, to the injured employee, a weekly compensation equal to 66 2/3 per centum of his average weekly wages, but not more than $24.00 if such injured employee has no dependents; $26.00 per week if 1 dependent; $28.00 if 2 dependents; $30.00 if 3 dependents; $32.00 if 4 dependents. * * *\n\u201c(b) * * * The following persons shall be conclusively presumed to be dependent for support upon an injured employee: * * *\n\u201c2. A child under the age of 16 years, or over said age, if physically or mentally incapacitated from earning, living with, his parent at the time of the injury of such parent.\n\u201c(c) In all other cases questions of dependency shall be determined in accordance with the fact, as the fact may be at the time of the injury. No person shall he considered a dependent unless he or she is a member of the family of the injured employee, or unless such person bears to such injured, employee the relation of husband or wife, or lineal descendant. * * #\n\u201c(e) No increase in payments shall be made for increased numbers of dependents not so dependent at the time of the injury of an employee.\u201d\nIt should be noted that \u201cquestions of dependency shall be determined in accordance with the fact, as the fact may be at the time of the injury.\u201d In King v. Peninsular Cement Company, 216 Mich 335, we held that a posthumous child was considered as living at the time of the father\u2019s fatal injury and entitled to dependency, compensation as a result of the death of its parent. In the above case decision was predicated on a statute relating to the descent and distribution of real and personal property. The court said (p 340):\n\u201cA. child en ventre sa mere is totally dependent upon its parents for nourishment.\u201d\nWhile the above statement may have been obiter dictum, yet it expressed the attitude of our Court upon the problem presented in the case at bar. In 58 Am Jur, p 695, Workmen\u2019s Compensation, \u00a7 176, it is said:\n\u201cProvisions of compensation acts relating to or affecting the status and rights, as dependents, of the children of a deceased employee, are ordinarily construed as including those born after the occurrence . of the injury or death; at least, where such children are en ventre sa mere at the time of the injury.\u201d\nIn 13 ALE 706, it is said:\n\u201cA posthumous child, according to the general presumption that such a child is to be regarded as born already, if it is for his benefit, may rank as a dependent. Williams v. Ocean Coal Co., [1907] 2 KB (Eng) 422, 76 LJKB NS 1073, 97 LT NS 150, 23 Times LR 584, 51 Sol Jo 551, 9 WCC 44. The father of a posthumous illegitimate child had, before his death by accident, recognized the paternity of the child to be born, and arranged to marry the' mother, and support her and the child. On a claim for the child as a dependent, it was held,' applying the rule laid down in Williams\u2019s Case (Eng), supra, and assuming the child as born, that there was clear evidence that in this case the child was dependent. Orrell Colliery Co. v. Schofield, [1909] AC (Eng) 433, 78 LJKB NS 677, 100 LT NS 786, 25 Times LR 569, 53 Sol Jo 518, 2 BWCC 294, affirming [1909], 1 KB 178, 78 LJKB NS 150, 100 LT NS 104, 25 Times LR 106, 53 Sol Jo 518, 2 BWCC 301.\u201d\nIn harmony with the above statement of the law upon this problem is Shimkus v. Philadelphia & Reading Coal & Iron Company, 280 Pa 88 (124 A 335).\nIn Routh v. List & Weatherly Construction Company, 124 Kan 222 (257 P 721, 62 ALR 150), Routh was injured August 1, 1925. A child was born to his wife March 12, 1926, and South died July 4, 1926. The question of dependency of the unborn child at the time of South\u2019s injury was the principal question in that case. In reversing the judgment, of the trial court to 'oiie in favor of plaintiff the court said (pp 224, 225):\n\u201c\u2018For certain purposes, indeed for all beneficial purposes, a child en ventre sa mere is to be considered as born. * * * It is regarded as in esse for all purnoses beneficial to itself, but not to another. * * * Formerly, this rule would not be applied if the child\u2019s interests would be injured thereby, * * * but, for the purpose of the rule against perpetuities, such a child is now regarded as a life in being, even though it is prejudiced by being considered as born. * * * Its civil rights are equally respected at every period of gestation.\u2019 1 Bouvier, Law Dictionary, p 1038.\n\u201c \u2018A child en ventre sa mere at the time of the father\u2019s death is deemed to have been born so far as it is for the benefit of such child, and will be entitled to claim compensation as a legal dependent, providing the child is legitimate; and the posthumous child of a deceased workman would have the same rights to compensation as other children.\u2019 Harper, Workmen\u2019s Compensation (2d ed), p 261.\n\u201c Where the father of the unborn child of an unmarried woman publicly expressed his intention to marry the woman and 4 days prior to the marriage, was killed, it was held that the child was entitled to an award for total dependency.\u2019 1 Schneider, Workmen\u2019s Compensation Law, p 961.\n\u201cWe conclude that the plaintiff is a dependent within the meaning of the law and entitled by her guardian to maintain an action in this case as such.\u201d\nUnder the facts in the case at bar we conclude that a child en ventre sa mere is a person in being and as such is a dependent. It follows that the award of the workmen\u2019s compensation commission must be affirmed, but without costs as plaintiff did not file a brief.\nBtitzel, C. J., and Carr, Bushnell, Boyles, Reid, Dethmers, and Kelly, JJ., concurred.",
+        "type": "majority",
+        "author": "Sharpe, J."
+      }
+    ],
+    "attorneys": [
+      "L. J. Carey and George J. Cooper (James L. ScTnoeler, of counsel), for defendants."
+    ],
+    "corrections": "",
+    "head_matter": "IDE v. SCOTT DRILLING, INC.\n1. Workmen\u2019s Compensation\u2014-Dependency\u2014Time of Injury.\nQuestions of dependency under the workmen\u2019s compensation act must be determined in accordance with the faet as it may be at the time of the injury (CL 1948, \u00a7 412.9, as amended by PA 1949, No 238).\n2. Same\u2014Dependents\u2014Child En Ventre Sa Mere.\nA child en ventre sa mere at time of injury to employee subject to the workmen\u2019s compensation act is to be considered in esse for all purposes beneficial to it and is deemed a dependent, its civil rights being equally respected at every period of gestation (CL 1948, \u00a7412.9, as amended by PA 1949, No 238).\n3. Costs\u2014Brief.\nNo costs are allowed plaintiff-appellee upon affirmance of award of workmen\u2019s compensation, where plaintiff had not filed a brief.\nReferences for Points in Headnotes\n[1] 58 Am Jur, Workmen\u2019s Compensation \u00a7 166.\n[1] \u201cDependency\u201d within Workmen\u2019s Compensation Acts. 13 ALR 686; 30 ALR 1253; 35 ALR 1066; 39 ALR 313; 53 ALR 218; 62 ALR 160; 86 ALR 865; 100 ALR 1090.\n[2] 58 Am Jur, Workmen\u2019s Compensation \u00a7 176.\n[3] 58 Am Jur, Workmen\u2019s Compensation \u00a7 543.\nAppeal from Workmen\u2019s Compensation Commission.\nSubmitted October 5, 1954.\n(Docket No. 13, Calendar No. 46,143.)\nDecided November 29, 1954.\nLeon Ide, on claim against Scott Drilling, Inc., employer, and Michigan Mutual Liability Company, insurer, was given award which took into consideration child born less than 30 days after occurrence of injury. Defendants appeal.\nAffirmed.\nL. J. Carey and George J. Cooper (James L. ScTnoeler, of counsel), for defendants."
+  },
+  "file_name": "0164-01",
+  "first_page_order": 204,
+  "last_page_order": 208
+}

@@ -1,0 +1,261 @@
+{
+  "id": 3187211,
+  "name": "Succession of Mrs. Marie (Mary) Louise MENENDEZ, Widow of Antonio Andres Menendez",
+  "name_abbreviation": "Succession of Menendez",
+  "decision_date": "1959-11-09",
+  "docket_number": "Nos. 43985, 44369",
+  "first_page": "487",
+  "last_page": "501",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 488"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 So.2d 829"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "23 So. 542",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 La.Ann. 591",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        2576761
+      ],
+      "pin_cites": [
+        {
+          "page": "592"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la-ann/50/0591-01"
+      ]
+    },
+    {
+      "cite": "8 So. 253",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 La.Ann. 194",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "pin_cites": [
+        {
+          "page": "200"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "157 La. 130",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1273720
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/157/0129-01"
+      ]
+    },
+    {
+      "cite": "231 La. 280",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5466203,
+        9900333
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "349"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/231/0279-01",
+        "/so2d/91/0346-01"
+      ]
+    },
+    {
+      "cite": "159 La. 570",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1270174
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "626"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/159/0569-01"
+      ]
+    },
+    {
+      "cite": "187 La. 185",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3167747,
+        10036068
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/187/0185-01",
+        "/so/174/0257-01"
+      ]
+    },
+    {
+      "cite": "126 La. 9",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        8500416
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/126/0009-01"
+      ]
+    },
+    {
+      "cite": "32 So. 958",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 La. 685",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2490649
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/108/0685-01"
+      ]
+    },
+    {
+      "cite": "38 La.Ann. 181",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        2604925
+      ],
+      "pin_cites": [
+        {
+          "page": "182"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la-ann/38/0181-01"
+      ]
+    },
+    {
+      "cite": "27 So. 69",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 La.Ann. 364",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        11263093
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la-ann/52/0364-01"
+      ]
+    },
+    {
+      "cite": "91 So. 149",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "case_ids": [
+        8841644
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/150/0675-01"
+      ]
+    },
+    {
+      "cite": "150 La. 676",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 724,
+    "char_count": 14229,
+    "ocr_confidence": 0.729,
+    "pagerank": {
+      "raw": 1.1830664066815018e-07,
+      "percentile": 0.5890837651152635
+    },
+    "sha256": "38450815c533912864cae6f7dd85e04514a614fd443fb77fea13e5056334d568",
+    "simhash": "1:8bc7cd2010214907",
+    "word_count": 2353
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Succession of Mrs. Marie (Mary) Louise MENENDEZ, Widow of Antonio Andres Menendez."
+    ],
+    "opinions": [
+      {
+        "text": "SIMON, Justice.\nOn February 3, 1957, Mrs. Marie Louise Menendez died leaving as her sole heirs her children, Dr. Anthony M. Menendez, Mrs. Pauline Menendez Salzer, Dr. Joseph C. Menendez, Louis R. Menendez, Mrs. Anita Menendez Sierra, Mrs. Velma Menendez Haydel and Miss Alice Mary Menendez. On February 12, 1957, Dr. Anthony M. Menendez, one of the appellees herein, filed a petition and obtained an authorization to search for a will and to make an inventory of the effects of his mother\u2019s estate. On February 20, 1957, his sisters, hereinabove named, obtained the probate of the decedent\u2019s will in olographic form therein appointing Miss Alice Mary Menendez as testamentary executrix and bequeathing to her an extra portion. In due course an inventory of the effects of the decedent was completed and filed for homologation. At the insistence of Dr. Anthony M. Menendez and his brother, Louis R. Menendez, the coappellee herein, the Notary preparing the inventory included therein certain described real property and jewelry which had previously been conveyed by the decedent to the testamentary executrix, Mrs. Anita Menendez Sierra and a grandchild, Edwin Salzer, Jr., the son of Mrs. Pauline Menendez Salzer.\nAfter the inventory was filed, the testamentary executrix, filed a motion and requested an order to have these included items, valued in excess of $25,000, stricken from the inventory. On a trial of the rule to strike, the record owners introduced authentic notarial acts in evidence showing the sales transfers of the specific inventoried items to plaintiffs in rule. The court thereupon ordered the same expunged from the inventory but reserved to the appellees herein the right to file a direct action to set aside and annul said deeds on the ground of simulation or one for collation.\nOn September 5, 1957, the testamentary executrix filed a final account which in-eluded a proposed distribution of all assets. On September 13, 1957, appellees filed an opposition to the final account and proposed distribution of the assets, save and except the notary\u2019s and appraiser\u2019s fees. On September 19, 1957, the testamentary executrix obtained an order homologating the account insofar as not opposed, and on the same date, notwithstanding appellees\u2019 opposition to the final account, then pending for judicial determination, filed an ex parte petition for a judgment recognizing and placing the heirs in possession. An ex parte judgment was simultaneously signed by the district judge sitting during vacation term, putting all the heirs in possession and significantly without the knowledge of appellees, or any legal attempt made to obtain the approval and consent of the heirs at law.\nIt appears that appellees were totally unaware of the judgment of possession so rendered and signed, first knowledge thereof being obtained when a suit was subsequently filed to partition the succession property among all the heirs. Appellees then filed a petition to set aside the ex parte judgment of possession, and after hearing thereon on January 2, 1958, judgment was rendered below annulling and setting aside the ex parte judgment. From this judgment this suspensive appeal was taken.\nOn June 25, 1958, while this appeal was pending, appellants instituted another suit to compel the appellees to either accept or reject the succession of their deceased mother. To this petition appellees filed an exception of prematurity grounded on the pendency of the appeal on the judgment setting aside the ex parte judgment of possession. The district court maintained the plea of prematurity and dismissed the suit. From this judgment a suspensive appeal was taken. The two appeals have been consolidated in this Court and shall be disposed of jointly.\nWe first consider the appeal from the judgment setting aside and annulling the judgment of possession. Appellants contend that the lower court was in error in annulling this judgment for the reason that appellees, although they did not sign the petition for possession nor authorize any one to accept the succession on their behalf, did tacitly accept the succession. It is contended that the tacit acceptance stems from the fact that appellees were served, as heirs, with the second and final account showing the proposed distribution of the remaining assets, and from the further fact that in their opposition to the final account they did not deny their qualities as heirs nor take exception to nor submit any protest to the placing of the heirs in possession. From appellees\u2019 specific allegation in the opposition \u201c * * * there is no need for administration * * * \u201d appellants contend that they were justified in concluding that appellees desired to accept the succession and to be placed in possession of all of their pro-rata share of the assets.\nThe claim of tacit acceptance, however, does violence to the inescapable fact that appellees were neither approached nor consulted as to their respective views or wishes in regard to whether they desired to apply for and obtain a judgment of possession, more particularly when in fact they had filed an opposition to the final account and proposed distribution of the assets filed by the testamentary executrix. Obviously, the attack made to the final account had as its underlying objective the annulling of the deeds heretofore referred to, thereby increasing the value of the estate or to obtain a collation from the legatees named in the testament. Furthermore, the testamentary executrix did not serve appellees with the petition for possession nor give them any indication that they had obtained a judgment of possession until the testamentary executrix and several of her coheirs subsequently filed a petition to partition the succession property. It is apparent that this lack of notice to appellees rather conclusively shows that the testamentary executrix suspected or knew that appellees would oppose a judgment of possession until after the forewarned charge of simulation or collation had been judicially settled.\nArticle 1055 of the Revised Civil Code-LSA declares that at the expiration of the term allowed an heir for deliberating, the creditors and legatees of the succession, by bringing suit for that ptirpose, can compel the heir to decide whether he accepts or rejects the succession. Article 1057 provides that in case the heir defaults on the demand that he accept or renounce the succession, he shall be considered an unconditional heir. In other words, if he does not accept or renounce after judicial demand has been made on him, he is considered to have tacitly accepted. See Schreiber v. Beer\u2019s Widow and Heirs, 150 La. 676, 91 So. 149. In the instant case there was no judicial demand made on appellees as contemplated by Article 1055, and as aforestated, appellees were served with no notice whatsoever that they were being put in possession of the succession property. This, under our law, is not a tacit acceptance.\nArticle 988 of the Civil Code-L SA provides that the acceptance of a succession may be expressed or tacit. \u201cIt is. tacit, when some act is done by the heir, which necessarily supposes his intention to accept, and which he would have no right to do but in his quality of heir.\u201d The only-acts which appellees performed were:\n1. Dr. Anthony M. Menendez instituted these proceedings by petitioning the District Court to search for a last will and testament and to inventory the effects left by the decedent.\n2. Dr. Anthony M. Menendez and his brother, Louis R. Menendez, executed the inventory.\n3. They also appeared and opposed a rule to show cause filed by the Testamentary Executrix why certain properties should not be removed from the inventory.\n4. They opposed all of the final account with the exception of the payment of notarial and appraisal fees.\nIn Succession of Hart, 52 La.Ann. 364, 27 So. 69, this Court held (quoting from Syllabus No. 3 by the Court) that: \u201cThe mere reference to themselves as \u2018children and heirs\u2019 of a deceased person, made in a petition by his children asking for the probate of his will, and the placing of his succession under administration of executors selected by him, is not an unconditional acceptance of his -, succession.\u201d The petition by appellees to search for a will and the execution of the inventory, therefore, were not a tacit acceptance of the succession. The other two actions of appellees not only were not a tacit acceptance of the succession but an indication that they had no intention of accepting until the question of simulation or collation was finally judicially determined.\nAppellants cite several cases supporting the view that the heirs can be sent into possession even though there has been an opposition filed to the final account. We are in accord with these rulings, but find that they are inapposite to the facts here presented.\nIn Succession of Powell, 38 La.Ann. 181, 182, the succession had been fully administered, all its debts paid and nothing remained in the administration except the property. We held that it was \u201cthe absolute right of each and every heir to terminate and to claim possession of his share of the succession, a right, the exercise of which, cannot be controlled by the adverse wishes of his co-heirs.\u201d We concluded that were it otherwise, the administration might be unduly prolonged and the heirs kept out of possession of their own property indefinitely. We further concluded that those desirous of remaining in co-ownership or opposing the termination of the administration enjoyed the right of the action of partition, a perfect remedy tinder our law.\nIn Succession of Marks, 108 La. 685, 32 So. 958, the judgment of possession was opposed by the executors while the forced heirs wished to be placed in possession. This Court held that where a final account of executors shows an amount ready for distribution, and pending oppositions cannot have the effect of reducing the same, and the time has passed for the filing of further oppositions, the executors have no sufficient interest to appeal from the order directing distribution.\nIn Succession of Burbank, 126 La. 9, 52 So. 175, there was no question that all the heirs wanted to be put in possession but only a disagreement as to how the heirs could take seisin from the executors. One of the heirs contended that the executor must file a final account. The court held that since the only dispute was the amount of legal and notarial fees and the inheritance tax due, the trial court should have ordered the executor to retain an amount sufficient to discharge the legacy, the other minor claims as made and the highest possible amount that could be due for taxes and thereupon place the heirs in possession of the remainder of the assets.\nSuccession of Braun, 187 La. 185, 174 So. 257, involved a suit to set aside the judgment discharging the administrator and canceling his bond, and for an accounting of his administration. No question of accepting or rejecting the succession was there involved.\nArticle 607 of the Code of Practice provides that a definitive judgment may be annulled in all cases where it appears that it has been obtained through fraud or ill practices on the part of the party in whose favor it was rendered. As we conclude that the appellees did not tacitly accept the succession and the appellants admit they did not expressly do so, we find that the district court was correct in annulling and setting aside the judgment of possession. \u201cThis court will not countenance ill practices of this character, which clearly fall within the spirit, if not within the letter, of article 607 of the Code of Practice.\u201d Quinn v. Brown, 159 La. 570, 105 So. 624, 626.\nIn Succession of Cole, 231 La. 280, 91 So.2d 346, 349, a case involving a factual situation similar to the instant case, we cited approvingly the Succession of Gilmore, 157 La. 130, 102 So. 94, as follows:\n\u201c * * * The courts of this state will not hesitate to afford relief against judgments, irrespective of any issue of inattention or neglect, when the circumstances under which the judgment is rendered show the deprivation of legal rights of the litigant who seeks relief, and when the enforcement of the judgment would be unconscientious. and inequitable. Our courts will follow the general principles of equity jurisprudence applied by the equity courts of the other states of this country in actions of this character. Lazarus v. McGuirk, 42 La.Ann. 194, 200, 8 So. 253; City of New Orleans v. Le Bourgeois, 50 La.Ann. 591, 592, 23 So. 542.\n\u201cCourts of equity will not permit one party to take advantage of and enjoy the gains of ignorance or mistake of law by the other, which he knew of and did not correct, especially when a confidential or fiduciary relation existed between them. Pomeroy, Equity Juris, vol. 2, pars. 847, 848, 849, 956.\u201d\nWe now consider the judgment of the district court dismissing the suit to compel appellees to' accept or renounce the succession. Heirs may be compelled to accept or reject the succession under the authority of Articles 1055 and 1057 of the Civil Code as we have noted heretofore. However, the petition to force appellees to accept or renounce was filed while appellants\u2019 appeal from the judgment setting aside the judgment of possession was still pending in this Court. Under Article 158 of the Code of Practice, the district court had no alternative but to dismiss the suit pending the outcome of appellants\u2019 appeal. Until that appeal was decided by this Court, a new suit to compel appellees to accept the succession was premature and subject to dismissal because a decision by us favorable to the appellants would have made the cause of action moot. A decision favorable to the appellants would have meant that all the heirs were in legal possession of the succession effects. We find no error in the ruling complained of.\nFor the reasons assigned, the two judgments appealed from are affirmed, appellees to pay all costs of this appeal.",
+        "type": "majority",
+        "author": "SIMON, Justice."
+      }
+    ],
+    "attorneys": [
+      "Lewis A. Giraud, New Orleans, for appellants.",
+      "Frank C. Moran, Jr., New Orleans, for appellees."
+    ],
+    "corrections": "",
+    "head_matter": "115 So.2d 829\nSuccession of Mrs. Marie (Mary) Louise MENENDEZ, Widow of Antonio Andres Menendez.\nNos. 43985, 44369.\nNov. 9, 1959.\nRehearing Denied Dee. 14, 1959.\nLewis A. Giraud, New Orleans, for appellants.\nFrank C. Moran, Jr., New Orleans, for appellees."
+  },
+  "file_name": "0487-01",
+  "first_page_order": 276,
+  "last_page_order": 283
+}

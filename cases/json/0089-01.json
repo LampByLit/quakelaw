@@ -1,0 +1,535 @@
+{
+  "id": 4381728,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. BILLY G. CHAMBERS et al., Defendants and Appellants",
+  "name_abbreviation": "People v. Chambers",
+  "decision_date": "1969-09-15",
+  "docket_number": "Crim. No. 15053",
+  "first_page": "89",
+  "last_page": "108",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "276 Cal. App. 2d 89"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "227 Cal.App.2d 749",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2138612
+      ],
+      "pin_cites": [
+        {
+          "page": "755-756"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/227/0749-01"
+      ]
+    },
+    {
+      "cite": "426 P.2d 908",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.Rptr. 340",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Cal.2d 536",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2331151
+      ],
+      "pin_cites": [
+        {
+          "page": "553"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/66/0536-01"
+      ]
+    },
+    {
+      "cite": "74 Cal.Rptr. 459",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "269 Cal.App.2d 112",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2229925
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/269/0112-01"
+      ]
+    },
+    {
+      "cite": "450 P.2d 580",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "75 Cal.Rptr. 188",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Cal.2d 522",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2308197
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/70/0522-01"
+      ]
+    },
+    {
+      "cite": "441 P.2d 625",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "68 Cal.Rptr. 817",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "68 Cal.2d 714",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2306174
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/68/0714-01"
+      ]
+    },
+    {
+      "cite": "314 P.2d 983",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "153 Cal.App.2d 795",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4421327
+      ],
+      "pin_cites": [
+        {
+          "page": "798"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/153/0795-01"
+      ]
+    },
+    {
+      "cite": "104 P.2d 778",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.2d 678",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2226873
+      ],
+      "pin_cites": [
+        {
+          "page": "681"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/15/0678-01"
+      ]
+    },
+    {
+      "cite": "21 Cal.Rptr. 444",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "203 Cal.App.2d 348",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2296051
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/203/0348-01"
+      ]
+    },
+    {
+      "cite": "221 P. 622",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "192 Cal. 659",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2143270
+      ],
+      "pin_cites": [
+        {
+          "page": "669"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/192/0659-01"
+      ]
+    },
+    {
+      "cite": "429 P.2d 137",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.Rptr. 817",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 Cal.2d 32",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2328442
+      ],
+      "pin_cites": [
+        {
+          "page": "61"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/67/0032-01"
+      ]
+    },
+    {
+      "cite": "450 P.2d 865",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "75 Cal.Rptr. 401",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Cal.2d 541",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2308185
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/70/0541-01"
+      ]
+    },
+    {
+      "cite": "386 U.S. 18",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168882
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "24"
+        },
+        {
+          "page": "710"
+        },
+        {
+          "page": "24"
+        },
+        {
+          "page": "710"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/386/0018-01"
+      ]
+    },
+    {
+      "cite": "395 U.S. 818",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1771910
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/395/0818-01"
+      ]
+    },
+    {
+      "cite": "393 U.S. 80",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11310247
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/393/0080-01"
+      ]
+    },
+    {
+      "cite": "381 U.S. 618",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172443
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/381/0632-01"
+      ]
+    },
+    {
+      "cite": "93 A.L.R.2d 733",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "372 U.S. 335",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1765333
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/372/0335-01"
+      ]
+    },
+    {
+      "cite": "64 Cal.2d 3",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        12121445
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/64/0003-01"
+      ]
+    },
+    {
+      "cite": "388 U.S. 293",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168284
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "297"
+        },
+        {
+          "page": "1203"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/388/0293-01"
+      ]
+    },
+    {
+      "cite": "22 L.Ed.2d 248",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        6170591
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "255"
+        },
+        {
+          "page": "1048"
+        },
+        {
+          "page": "257"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/394/0244-01"
+      ]
+    },
+    {
+      "cite": "393 U.S. 244",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "pin_cites": [
+        {
+          "page": "249"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "395 U.S. 752",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1772077
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/395/0752-01"
+      ]
+    },
+    {
+      "cite": "294 P.2d 36",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.2d 291",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4369508
+      ],
+      "pin_cites": [
+        {
+          "page": "295"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/46/0291-01"
+      ]
+    },
+    {
+      "cite": "423 P.2d 564",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.Rptr. 492",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "65 Cal.2d 830",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2326739
+      ],
+      "pin_cites": [
+        {
+          "page": "835-836"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/65/0830-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1279,
+    "char_count": 35725,
+    "ocr_confidence": 0.656,
+    "pagerank": {
+      "raw": 1.5493624740912118e-07,
+      "percentile": 0.6743505123271666
+    },
+    "sha256": "1948f0f0945e6f2306b238563ba0281cb17a669ab17259560c3fafc401c0926f",
+    "simhash": "1:74e0d8342e81df3e",
+    "word_count": 5848
+  },
+  "last_updated": "2024-02-27T17:52:21.889319+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. BILLY G. CHAMBERS et al., Defendants and Appellants."
+    ],
+    "opinions": [
+      {
+        "text": "tion of burglary and grand theft.\nAppellants Billy G. Chambers and Thomas H. Oxenreider were charged in counts I and III with violation of Penal Code section 459 (burglary) and in counts II and IV with violation of Penal Code section 487, subdivision 3 (grand theft). Three prior felony convictions against Oxenreider and one prior felony conviction against Chambers were also alleged.\nAppellants pleaded not' guilty and denied the prior felony convictions. Appellants personally and all counsel waived trial by jury. Appellants were each found guilty of counts I, II and III, and the court fixed the burglary convictions as in the first degree. Count IV was dismissed. One of the alleged prior felony convictions as against Oxenreider was found to be true; the remaining two1 were found to be not true. The alleged prior felony conviction as against Chambers was also found to be true. Motions for a new trial and for probation were denied. Each appellant was sentenced to state prison for the term prescribed by law as to counts I and III. The sentence on count II was stayed pending appeal and the service of sentence on counts I and II, at which time the stay is to become permanent. Appellants filed notice of appeal from the judgments.\nStatement of Facts\nA series of residential burglaries occurred in the East San Gabriel Valley area during the months' of May and June of 1967. On May 14, 1967, the Tomlinsons discovered their home had been burglarized. On June 4, 1967, a burglary on the Duarte home was thwarted. At that time a neighbor of the Duartes observed a truck with license number V99695' 30 feet from the Duarte waterpump. The neighbor followed the truck which had two persons inside. Also on June 4, 1967, another neighbor checked the York residence and found it had been burglarized.\nErnest Barker saw appellants Chambers and Oxenreider about 10 times during the one month period from May 14, 1967 to June 14, 1967. Appellants brought various items to Barker\u2019s house, and he permitted the items to be stored in his garage.\nOn June 6, 1967, the police got a telephone call from an unidentified woman who stated the appellants were committing burglaries almost daily in the Da Puente area. She described the burglaries committed, the truck which was used, and the items obtained from the burglaries. The items described were similar to the items missing from the York home. Also on June 6, the police received information from the Department of Motor Vehicles that one Gamer was the registered owner of the truck previously described. That night there was police surveillance of Oxenreider\u2019s residence on Earl Street, the address where the truck was kept. On June 7, the police received another telephone call from a person who described herself as the first caller. She stated that the property was going to be moved. That evening the police contacted Taylor, who lived next to and owned the property on which Oxenreider resided. Taylor told the police that Oxenreider drove such a truck as the one in question. Police surveillance of the Oxenreider residence continued.\nOn June 8, Taylor heard noises from the Oxenreider apartment and called the police. The police went to Taylor\u2019s backyard where Officer Juelke climbed a tree and observed Oxenreider 'carrying four boxes of tools and a boy carrying a radio or camera between the truck and the apartment house. Juelke then followed Oxenreider to a Magnolia Street address, where he observed the following: three or four males carrying ob-. jeets from the house to an out-of-state car parked behind the truck; two tool boxes laying in the trunk of the car; Chambers putting a television set in Oxenreider\u2019s truck; and Chambers talking to a man and woman in another ear parked in front of the house. At that time Juelke knew of many tool thefts and three or four thefts of similar television sets. Juelke followed the truck and the car containing the man and woman back to the Earl Street address. The police observed the activities at the Oxenreider residence from Taylor\u2019s fence which was 3 to 12 feet from a storage shed at the far end of the apartment house where Oxenreider lived. Chambers was overheard in his discussion with the man and woman concerning the sale of a large quantity of antique dolls. The conversation suggested that the dolls were stolen property. Chambers, Oxenreider and the prospective purchasers of the dolls went to the storage shed and shined flashlights inside. Juelke saw various objects which he believed were stolen. The group then picked up some boxes and proceeded back to the apartment.\nAt this point the police officers arrested Chambers and Oxenreider and advised them of their Miranda rights. The police did not have an arrest warrant. Two officers went into Oxenreider\u2019s apartment to prevent anyone from escaping with property. Oxenreider then returned to the apartment and voluntarily began pointing out items of stolen property. A search of the apartment was then made without a search warrant.\nThe officers then proceeded to the Magnolia Street address. A Jean Childress opened the door and Officer Juelke observed a large grandfather\u2019s clock which he believed had been stolen. He stated to Childress he was conducting a burglary investigation and she gave him permission to enter the house.\nOn June 9, Officer Williams went to a residence occupied by May Elliott. He advised her he was making a burglary investigation and he had information that there was stolen merchandise in her home. After being freely admitted into the house, the officers recovered a portion of the property stolen from the Tomlinson residence.\nOn June 10, Chambers was interviewed at the police station and again advised of his Miranda rights. When Chambers stated that he wished to see an attorney, the officers ended the interview and referred him to the jailer for a telephone call.\nLater the same day Oxenreider was interviewed and again advised of his Miranda rights. He stated that he understood his rights and that he wished to discuss the case. At this time Oxenreider told of the burglaries he had committed.\nOn June 12 at 7 p.m., Oxenreider was again interviewed and advised of his Miranda rights which he stated that he understood. Oxenreider requested that Chambers be brought into the room. As Oxenreider was going to make a full confession he stated that he did not want Chambers to think he was stabbing him in the back. Chambers was then brought into the room and again advised of his Miranda rights. He stated that he understood the rights. Officer Juelke asked Chambers if he had seen his attorney, and Chambers replied that he had. Juelke then asked him if he wanted to discuss the case after seeing his attorney, and Chambers stated that he did. At this point Chambers and Oxenreider fully confessed to having participated in the Tomlinson and York burglaries.\nAppellants were assured by the police that neither their wives, girlfriends, nor children, were in custody. No rewards were promised nor were any threats imposed. The appellants were arraigned on June 13,1967.\nAppellants\u2019 Contentions\nOxenreider and Chambers contend that:\n(1) Their arrest was illegal;\n(2) The entry and subsequent search\" of Oxenreider\u2019s apartment without a warrant were illegal;\n(3) They were denied the right to a speedy trial;\n(4) Their confessions were involuntary; and\n(5) The court was biased against them.\nIn addition, Chambers contends that:\n(1) His Miranda rights were violated;\n(2) The apartments of May Elliott and Jean Childress were illegally searched;\n(3) The testimony of Barker should not have been admitted because it was coerced; and\n(4) The theft count is double punishment as the firearm was obtained in the course of a burglary of which he was convicted.\nThe arguments advanced by both appellants will be discussed first.\nFirst Contention\nAppellants contend that the arresting officers did not have probable cause for their arrest. Information received from an untested informant does not by itself constitute probable cause for an arrest. To justify an arrest without a warrant, there must be independent corroboration of the information supplied by such informant. This corroboration, however, may be supplied by facts known or discovered by the arresting officer. (See People v. Talley, 65 Cal.2d 830, 835-836 [56 Cal.Rptr. 492, 423 P.2d 564].) Furtive or suspicious conduct may also substantiate an untested informant. (See Willson v. Superior Court, 46 Cal.2d 291, 295 [294 P.2d 36].)\nThe corroboration in the present case was substantial. The names of appellants, their residence, the truck used, and a description of many items of stolen property were supplied by the informant. The description of the. truck was the same as that supplied by the Duarte\u2019s neighbor. The residence of appellants was the same as the registered owner of the truck. The description of the property given by the informant matched the list of items stolen from the York residence. In addition, the arresting officer himself observed the loading and unloading of the truck at Oxenreider\u2019s apartment and the Magnolia Street address. Some of the items being moved corresponded to both the informant\u2019s description and the officer\u2019s list of stolen property. He also overheard the conversation between Chambers and the prospective purchasers of property which the officer had reason to believe was stolen. These facts clearly substantiated the informant and provided more than sufficient probable cause for the arrest.\nSecond Contention\nAppellants contend that the entry and subsequent search of Oxenreider\u2019s apartment without a warrant were illegal. In addition to claiming that the property seized was erroneously admitted into evidence, appellants also claim that' their subsequent confessions were \u201cfruit of the poisoned tree,\u2019\u2019 in that such confessions were induced by the evidence illegally obtained.\nAt the outset, it must be noted that a new point has arisen during the pendency of this appeal which rquires discussion. In Chimel v. California, 395 U.S. 752 [23 L.Ed.2d 685, 89 S.Ct. 2034], the United States Supreme Court announced a new set of rules limiting the scope of warrantless searches which may be made incident to an arrest. Without elaborating on Chimel, it is possible that the search here may have exceeded the scope of searches authorized by the new rules. We hold, however, that Chimel should be given prospective application to searches conducted after the date of its decision.\nThe decision whether a newly formulated constitutional rule is to be applied retroactively or prospectively depends on the nature of the right sought to be enforced and the purpose to be served by the new rule. Other factors to be considered are \u201c. . . the extent of the reliance by law enforcement authorities on the -old standards and . . . the effect on the administration of justice of a retroactive application of the new standards.\u201d (Desist v. United States, 393 U.S. 244, 249 [22 L.Ed.2d 248, 255, 89 S.Ct. 1030, 1048], quoting from Stovall v. Denno, 388 U.S. 293, 297 [18 L.Ed.2d 1199, 1203, 87 S.Ct. 1967].)\nMany constitutional rights are so closely related to the issue of a defendant\u2019s guilt or the fairness of his trial that they have been given retroactive application'.' (E.g., In re Woods, 64 Cal.2d 3 [48 Cal.Rptr. 689, 409 P.2d 913], in which an indigent\u2019s right to 'counsel (Gideon v. Wainwright, 372 U.S. 335 [9 L.Ed.2d 799, 83 S.Ct. 792, 93 A.L.R.2d 733]) was made retroactive even to those finally convicted.) The exclusionary rules in search and seizure eases, however, are more closely related to regulation of police procedures than to substantive rights of the defendant. Their purpose is to deter misconduct by the police. Where the police conduct has already occurred, this purpose would not be advanced by retrospective application of the rules. Cases involving the admission of illegally obtained evidence, therefore, have traditionally been given only prospective application. (E.g., Linkletter v. Walker, 381 U.S. 618 [14 L.Ed.2d 601, 85 S.Ct. 1731]; Fuller v. Alaska, 393 U.S. 80 [21 L.Ed.2d 212, 89 S.Ct. 61]; Desist v. United States, supra.) Since Chimel is. an amplification of the evidentiary exclusionary rule, its deterrent purpose overwhelmingly supports nonretroactivity.\nAdditional factors also militate in favor of applying Chimel prospectively. As stated in Desist, \u201c. . . the reliance of law enforcement officers focus upon the time of the search, not any subsequent point in the prosecution, as the relevant date.\u201d (22 L.Ed.2d 248, 257.) The exclusion of evidence seized before Chimel would increase the burden on the administration of justice, and would overturn convictions based on fair reliance upon pre-Chimel decisions.\nThe above reasons for not making Chimel fully retroactive apply with at least equal force to not drawing any distinction between final convictions and those still pending on review. It is true that some cases involving new constitutional rules have been applied to eases pending on direct appeal at the date of the decision. For cases involving the retroactivity of a search and seizure rule, however, we feel the Supreme Court has made its position clear in Desist, and we hold Chimel to be prospective only.\nSince the search here occurred prior to the Chimel decision, we hold that the new rules announced in that decision are not available to defendants on this appeal.\nDespite the fact appellants may not benefit from Chimel, their contention still raises many substantial issues. First, it appears that appellants never made a proper objection to the admission of the alleged illegally seized evidence. Defense counsel\u2019s only objections were made in such general language as, \u201cI object to the introduction of these exhibits on the grounds that the constitutional rights of the defendants has [sic] been violated. ...\u201d He never stated specific grounds of objection as to any item of evidence. Many types of evidence from many sources were offered for admission, yet counsel made only a blanket request to exclude all exhibits and all conversations. When asked by the court to clarify or specify his. objections, defense counsel embarked on a philosophical discourse which comprised 25 pages of the record and only added to the confusion surrounding his grounds for objection. The law is well settled that if objection is not made at trial to the admission of allegedly illegally seized evidence, it may not be asserted for the first time on appeal. Although we do not feel that a proper objection was made at trial, in light of the importance of other issues raised by this contention, we prefer to rest our decision on more substantive grounds.\nEven assuming proper objection was made, we feel that the warrantless search was legal in that it was incident to a valid arrest. Appellants rely on the recent case of Shipley v. California, 395 U.S. 818 [23 L.Ed.2d 732, 89 S.Ct. 2053], to support their position that the search here was illegal. In Shipley, the police were informed that defendant had been involved in a robbery. They went to his house, and although defendant was not at home, they were freely admitted by a girl who claimed to be his wife. The police searched the house and found several stolen rings. The house was then staked out, and when defendant returned later that night he was immediately arrested in his car, which was 15-20' feet from the house. The police then took defendant inside and a second search of the house revealed a jewelry case from the robbery. The second search was held invalid in that it was not \u201cconfined to the immediate vicinity of the arrest.\u201d (89 S.Ct. at p. 2054 [395 U.S. at p. 819, 23 L.Ed.2d at p. 734.)\nThe facts of the instant case make it distinguishable from Shipley. The court in Shipley noted that there was, an \u201cabsence of an emergency\u201d and that the \u201csearch extended without reasonable justification\u201d beyond the place in which defendant was arrested. (89 S.Ct. at pp. 2054-2055 [395 U.S. at p. 820, 23 L.Ed.2d at pp. 734-735].) In the case at bar, however, the circumstances certainly gave the police reasonable justification for entering and searching the hbuse contemporaneous with the arrest. The informant had told the police not only that stolen property was being stored at Oxenreider\u2019s apartment, but also that it was going to be moved. Since the informant was untested, however, a search warrant could not have been obtained until her information was corroborated. This corroboration was not completed until immediately prior to the arrest. In addition, Taylor, the neighbor of Oxenreider, called the police and told them he heard objects being moved in Oxenreider\u2019s apartment; the officers observed numerous males loading tool boxes into- the trunk of a car at the Magnolia Street address; they observed property which they believed to be stolen being carried into Oxenreider\u2019s apartment; they overheard Chambers discuss the sale of a large quantity of antique dolls with another man; and they observed a woman and child inside the apartent. Prom these facts the officers could reasonably suspect there were other adults in the apartment involved in the felony of receiving stolen property. Since the officers had already observed much of the stolen property being moved, and since they had reason to believe some of the property was in Oxenreider\u2019s apartment, they were justified in entering the house to prevent any more of the items from being moved. When the officers entered the house, they were searching for additional adults who might be attempting to escape. The only areas of the house which were searched were those large enough to conceal an adult. The search for particular items was not conducted until after Oxenreider came into the apartment and voluntarily began pointing out stolen property to the officers. For these reasons, we feel Shipley is distinguishable and we hold the search to be legal as incident to a valid arrest.\nMore importantly, even if the evidence seized in Oxenreider\u2019s apartment was the product of an illegal search and seizure, its admission was not prejudicial error. Since such an error would be of federal constitutional dimensions, we apply the test of prejudice laid down in Chapman v. California, 386 U.S. 18, 24 [17 L.Ed.2d 705, 710, 87 S.Ct. 824]. Under that test, in order for the error to he held harmless, the court must be able to declare a belief that it was harmless beyond a reasonable doubt. (386 U.S. 18, 24 [17 L.Ed.2d 705, 710, 87 S.Ct. 824].) We have no difficulty in declaring such a belief. Only three items were recovered from Oxenreider\u2019s apartment: some silverware, a rifle, and a suitcase of liqueurs. Even if these items had been excluded, the evidence of guilt was overwhelming. Many stolen items were recovered from the shed at the place of arrest. Also,' stolen, property, was recovered from the Magnolia Street address and from May Elliott\u2019s apartment. In addition, there were many stolen items which appellants had stored in Barker\u2019s garage. Therefore, even if the search of Oxenreider\u2019s apartment was illegal, which we do not concede, there is no question that the error was \u201charmless beyond a reasonable doubt\u201d and did not contribute to the conviction.\nAppellants have raised an additional point in connection with their claim that the search of Oxenreider\u2019s apartment was illegal. They contend their subsequent confessions were \u201cfruit of the poisoned tree\u201d in that said confessions were induced by the evidence obtained from the illegal search and seizure. Assuming, without conceding, that the search of the apartment was illegal, we nevertheless hold that appellants \u2019 confessions were not induced by exploitation of the illegality.\nAppellants rely on People v. Johnson, 70 Cal.2d 541 [75 Cal.Rptr. 401, 450 P.2d 865], In that ease police officers unlawfully broke into a house and seized a television set which had been taken in a burglary. Codefendant Howard was arrested about two hours later. On the way into the police station the television set was pointed out to Howard and he was questioned about it. Following this 'confrontation and questioning, Howard confessed implicating codefendant Johnson. When questioned the next day, Johnson denied any involvement in the burglary. Johnson was then taken to Howard\u2019s residence where Howard repeated his confession implicating Johnson. Johnson himself then confessed. Johnson\u2019s confession was held inadmissible on the ground that it was induced by Howard\u2019s confession, which it turn was inadmissible because it was induced by confronting him with the illegally seized television set.\nIn the instant case, when appellants were arrested they were advised of their Miranda rights and stated that they understood them. Immediately thereafter, appellant Oxenreider made a voluntary statement that many things in the apartment were his own and many were stolen. He then pointed out which items were his so that they would not be removed by the officers. Two days later, after a great amount of stolen property had been recovered', Oxenreider was again advised of his rights, stated that he understood them, and proceeded to make a partial confession. Appellant Chamber\u2019s refused to discuss the case at that -time. After two more days had elapsed, both appellants made full confessions.\nAs stated in Johnson, the ultimate question on this issue is \u201c \u2018 \u201cwhether, granting establishment of the primary illegality, the evidence to which instant objection is made has been come at by exploitation of that illegality or instead by means sufficiently distinguishable to be purged of the primary taint.\u201d \u2019 \u201d (70 Cal.2d at p. 546.) Application of this test makes the instant case clearly distinguishable from Johnson.\nAgain, assuming the search of Oxenreider\u2019s apartment was illegal, the officers in no way attempted to use the fruits of the search to induce confessions. Immediately prior to the arrest the officers observed a number of items in the shed, many of which they had reason to believe were stolen. Appellants were arrested directly in front of the shed, and thus the seizure of any stolen property either from the appellants or from the shed must be upheld as validly obtained. As soon as appellants and the police officers entered the apartment, Oxenreider made his statement that some of the items in the house were his and some were stolen. Neither the search in the apartment for stolen property nor the seizure of any evidence occurred until Oxenreider pointed out which property was stolen. It is obvious that he was not confronted with illegally obtained evidence and then questioned about it. At the time of his statement, the only evidence he could have been confronted with was that which was validly obtained incident to the arrest. The reason for the Johnson rule is that \u201cthe illegality induces the confession by showing the suspect the futility of remaining silent.\u201d (70 Cal.2d at p. 552.) Appellants already had reason to believe the \u201cfutility of remaining silent\u201d before any property was recovered in the search of the apartment.\nIn addition, it is hard to see how Oxenreider\u2019s statement can be deemed a confession to burglary. He admitted that some items in his house were stolen, but gave no indication that he was involved in any theft. Indeed, when asked where the property came from, Oxenreider stated, \u201cYou tell us.\u201d Under these cirumstances we must hold his statement to be purely voluntary and not induced by the fruits of an illegal search.\nIt is even clearer that the ensuing confessions of appellants on June 10 and June 12 were in no way the result of a confrontation with illegally seized evidence. At the time these confessions were made, a great amount of stolen property had been recovered. There is no question that all but three items of the mass of evidence confronting appellants at this time had been validly obtained. We, therefore, must conclude that appellants confessed for reasons \u201c \u2018 \u201csufficiently distinguishable to be purged of the primary taint.\u201d \u2019 \u201d (70 Cal.2d at p. 546.)\nThe following statement from Johnson is pertinent here: \u201cThe defendant must \u2018prove that a substantial portion of the case against him was a fruit of the poisonous tree. \u2019 \u201d (70 Cal.2d at p. 554.) Appellants must establish a relationship between the unlawful act and the objected-to-confession. This must be done before the burden shifts to the prosecution to show that the confession had an independent origin. In the case at bar, at most only an insignificant portion of the evidence of guilt was allegedly \u201cfruit of the poisonous tree.\u201d The evidence compels the conclusion that appellants\u2019 confessions were acts of free will and were not induced by exploitations of illegality.\nThird Contention\nAppellants claim their arraignment was delayed beyond the statutory limit and that the delay was prejudicial. Contrary to appellants \u2019 argument, the record shows that they were arrested shortly before midnight on Thursday, June 8, 1967, that the complaint was filed late in the afternoon of June 12, and that' they were arraigned on June 13. As Saturday and Sunday are municipal court holidays, the 48-hour time limit prescribed by section 825 of the Penal. Code expired just before 12 midnight on Monday, June 12. Because court was not then in session, they were properly arraigned on.. Tuesday afternoon.\nAppellants also contend that Penal Code section 825 does not authorize even a two-day detention in all cases, but rather places a limit upon what may be considered a necessary delay, and a detention of less than two days, if unreasonable under the circumstances, is in violation of the statute. This position is fortified by the strong warning given by the Supreme Court in People v. Powell, 67 Cal.2d 32, 61 [59 Cal.Rptr. 817, 429 P.2d 137]. Whatever merit there is in this contention, however, we need not decide it because the issue is not properly before this court. As early as People v. Newell, 192 Cal. 659, 669 [221 P. 622], and as recent as People v. Boyd, 203 Cal.App.2d 348 [21 Cal.Rptr. 444], it has1 been held that a defendant cannot claim for the first time on appeal that he was not seasonably brought before a magistrate. Nowhere in the record does it appear that this issue was raised at the trial level, and it therefore may not be asserted here.\nFourth Contention\nAppellants next contend their confessions were involuntary because of their physical environment and threats to their families. In regard to the physical environment, appellants claim they were denied ordinary toilet facilities, they were required to remove their shoes, and they were kept in isolation. The record 'clearly refutes these contentions. Appellants\u2019 cells had sinks and toilets, and showers were available for the use of the inmates. Shoes are taken from all prisoners when they enter the jail for security reasons and for their own protection. They were not in isolation, as they were permitted to make phone calls and visited with each other.\nThey also claim the only reason they confessed was because of threats to put their wives and children in jail. There was conflicting testimony on whether such threats were made, but the trial court found the confessions were not a result of duress, coercion, inducement or promises. Appellants\u2019 credibility was a matter for the trial court, and their testimony was not believed. (See People v. Newland, 15 Cal.2d 678, 681 [104 P.2d 778]; People v. Franklin, 153 Cal.App.2d 795, 798 [314 P.2d 983].)\nFifth Contention\nAppellants call this court\u2019s attention to the following statement of the trial judge prior to making certain findings of fact: \u201cFirst of all, it would seem to me that the testimony of the defendants is not credible in regard to the facts where there is a conflict. The court will find in making these findings of fact, that the evidence of the police; officers is accepted by the Court on the basis of credibility where a conflict is in issue between the defendants and the police officers.\u201d From this statement, appellants claim the judge was biased, they were denied a fair trial, the court reached its decision on the basis of a formula, and that they were automatically deprived of the benefit of reasonable doubt. Such far reaching claims deserve little consideration. It is the duty of a judge in a trial without a jury to decide the credibility of witnesses. (See People v. Newland, supra, and People v. Franklin, supra.) The above statement near the conclusion of the trial indicates nothing more than that the court found the testimony of the police officers to be more credible than that of defendants\u2019 witnesses.\nIn addition to the contentions advanced by both appellants, defendant Chambers had raised further arguments.\nFirst Contention\nChambers\u2019 most serious claim is that his confession of June 12, 1967, was obtained in violation of his Miranda rights. At the time of his arrest on June 8, 1967, Chambers was advised of his rights. When he was interrogated on June 10, he was again advised of his rights and indicated that he wished to see an attorney. The interrogation ended immediately and he was referred to the- jailer for a phone call. Although the evidence was in conflict, the court found that an attorney was contacted and that. Chambers talked with the attorney on June 10. Appellant claims that once he asserted his privilege and retained counsel, all further interrogation should have ceased, and that his statement of June 12 obtained without the presence of counsel should not have been admitted into evidence. However true Chambers\u2019 claim may be in the abstract, we feel the facts of this case support the ruling of the trial judge.\nThere is broad language in both People v. Fioritto, 68 Cal.2d 714 [68 Cal.Rptr. 817, 441 P.2d 625], and People v. Ireland, 70 Cal.2d 522 [75 Cal.Rptr. 188, 450 P.2d 580], to the effect that once a defendant has initially refused to waive his constitutional rights, all further attempts at police interrogation must cease. An examination of these two cases, however, shows that they are easily distinguishable from the case at bar.\nAt the time of defendant\u2019s arrest in Ireland, he was advised of his rights and made a request for his parents to obtain counsel for him. Neither of the officers present responded to defendant\u2019s request, took any action as a result of it, or attempted to communicate it to superior officers. \"When defendant arrived at the police station, he was immediately placed in an interrogation room, and 35 minutes later made a confession.\nIn Fioritto, defendant was brought to the police station and informed of his Miranda rights. Defendant was then asked to sign a waiver of his constitutional rights, but he refused. Almost immediately thereafter the police confronted defendant with his two accomplices, both juveniles, who had confessed and implicated defendant. The juveniles were then taken out, and in response to renewed police interrogation, defendant signed the waiver and confessed to the crime.\nIn both Ireland and Fioritto, the interrogation was continued almost immediately after defendant\u2019s initial refusal to waive his constitutional rights. This was the kind of \u201ccompulsion, subtle or otherwise\u201d prohibited by Miranda, and it is clear that in these circumstances the questioning should have ceased. In the instant case, however, there was no coercion, pressure or compulsion. When Chambers made his request for counsel, all interrogation ceased. Chambers made a telephone call and later that day had a conversation with his attorney. It was not until two days after this conversation that Chambers made his confession. It is also important to note the circumstances under which the questioning of Chambers was resumed. He was not brought into the interrogation room at the instance of the police. His presence was requested by his codefendant, Oxenreider, who wished to confess but did not want Chambers to believe he was being stabbed in the back. When Chambers came.into the room he was again advised of his constitutional rights. He stated that he understood his rights, that he had seen his attorney, and that he now wanted to discuss the case. His statements clearly showed a. voluntary waiver of his Miranda rights.\nIn the recent case of People v. Duran, 269 Cal.App.2d 112 [74 Cal.Rptr. 459], there was a lapse of only eight or nine hours between defendant\u2019s initial refusal to discuss the case with the police and his subsequent interrogation and confession, yet the admission of the confession was upheld. As previously stated, the lapse here was two days, and even then it was not the idea of the police to renew the questioning. As stated in Duran, \u201c 1. . . there is no reason why, once having requested counsel and the request having been recognized by a cessation of interrogation, the accused cannot [later] elect to proceed without counsel if that election is freely, knowingly and intelligently made. \u2019 \u201d (People v. Duran, supra, at p. 116, quoting from People v. Hill, 66 Cal.2d 536, 553 [58 Cal.Rptr. 340, 426 P.2d 908].)\nSecond Contention\nChambers further contends that the apartments of May Elliott and Jean Childress were illegally searched.\nIn regard to Elliott\u2019s apartment, the police stated they were making a burglary investigation, and that they had information there was stolen property in the residence. When they asked if they could look for the stolen property, she stated they could and freely admitted them.\nIn regard to Childress\u2019 apartment, the officer identified himself and stated he was conducting a burglary investigation. The officer observed a large clock which he had reason to believe had been stolen'from the York residence. He advised Childress that it appeared to be stolen and requested permission to enter the house. She stated, \u2018 \u2018 Okay. Come on in. \u2019 \u2019\nIn both cases, in light of the clarity of the officer\u2019s statement of purpose and request for permission to search, the statements of the women admitting entrance to the officers constituted voluntary consent.\nThird Contention\nChambers contends the testimony of Barker should not have been admitted because it was coerced. The record reflects that Barker intended to exercise his privilege against self-incrimination pursuant to advice of bis attorney, unless he was granted immunity.. The immunity was subsequently granted under section 1324 of the Penal Code. Barker then made a full statement of his connection with the stolen property found in his possession. Such proceedings are common and the record shows no evidence of coercion.\nFourth Contention\nChambers\u2019 final contention is that appellants were improperly convicted of grand theft in count II. Since the firearm was one of the items taken in the burglary, he claims the conviction of theft and burglary constitutes multiple punishment.\nThe record shows that the sentence on count II was stayed pending completion of the sentences in counts I and III, at which time the stay is to become permanent. Since appellant will never serve a sentence on the theft charge, there is no-double punishment. (People v. Niles, 227 Cal.App.2d 749, 755-756 [39 Cal.Rptr.11].)\nThe judgments are affirmed.\nRoth, P. J., and Herndon, J., concurred.\nAppellants\u2019 petition for a hearing by the Supreme Court was denied November 12, 1969.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "[Crim. No. 15053.\nSecond Dist., Div. Two.\nSept. 15, 1969.]\nTHE PEOPLE, Plaintiff and Respondent, v. BILLY G. CHAMBERS et al., Defendants and Appellants.\nAlbert D. Silverman, under appointment by the Court of Appeal, for Defendants and Appellants.\nThomas C. Lynch, Attorney General, William E. James, Assistant Attorney General, and William V. Ballough, Deputy Attorney General, for Plaintiff and Respondent."
+  },
+  "file_name": "0089-01",
+  "first_page_order": 111,
+  "last_page_order": 130
+}

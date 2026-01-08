@@ -1,0 +1,274 @@
+{
+  "id": 1855487,
+  "name": "BERNEY v. VOLK",
+  "name_abbreviation": "Berney v. Volk",
+  "decision_date": "1955-01-07",
+  "docket_number": "Calendar No. 46,248",
+  "first_page": "647",
+  "last_page": "653",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "341 Mich. 647"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "150 NE 585",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "242 NY 13",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1975095
+      ],
+      "pin_cites": [
+        {
+          "page": "27"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/242/0013-01"
+      ]
+    },
+    {
+      "cite": "182 NE 865",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "204 Ind 281",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1537007
+      ],
+      "pin_cites": [
+        {
+          "page": "294"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/204/0281-01"
+      ]
+    },
+    {
+      "cite": "310 Mich 404",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1897879
+      ],
+      "year": 1940,
+      "pin_cites": [
+        {
+          "page": "408"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/310/0404-01"
+      ]
+    },
+    {
+      "cite": "29 Mich L Rev 1",
+      "category": "journals:journal",
+      "reporter": "Mich. L. Rev.",
+      "year": 1930,
+      "pin_cites": [
+        {
+          "page": "191"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "227 SW2d 895",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "312 Ky 395",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        5384772
+      ],
+      "pin_cites": [
+        {
+          "page": "401"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/312/0395-01"
+      ]
+    },
+    {
+      "cite": "266 US 34",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6136505
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "40"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/266/0034-01"
+      ]
+    },
+    {
+      "cite": "14 Ind 153",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1440046
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/14/0153-01"
+      ]
+    },
+    {
+      "cite": "52 ALR 136",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "238 Mich 39",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1710935
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/238/0039-01"
+      ]
+    },
+    {
+      "cite": "224 Mich 240",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1695789
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/224/0240-01"
+      ]
+    },
+    {
+      "cite": "171 ALR 1223",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "year": 1908,
+      "opinion_index": 0
+    },
+    {
+      "cite": "332 US 46",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        365087
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/332/0046-01"
+      ]
+    },
+    {
+      "cite": "302 US 319",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140617
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/302/0319-01"
+      ]
+    },
+    {
+      "cite": "211 US 78",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11926611
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/211/0078-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 691,
+    "char_count": 12430,
+    "ocr_confidence": 0.493,
+    "pagerank": {
+      "raw": 1.0150345241025816e-07,
+      "percentile": 0.5432169983655418
+    },
+    "sha256": "7874337da83ace7f1c151676bbf897414b5cc1bd4da6afb7cf701f9293d7dd56",
+    "simhash": "1:f998cc93aea18119",
+    "word_count": 2036
+  },
+  "last_updated": "2024-02-27T16:14:53.692353+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Carr, C. J., and Bushnell, Sharpe, Boyles, Reid, Dethmers, and Kelly, JJ., concurred."
+    ],
+    "parties": [
+      "BERNEY v. VOLK."
+    ],
+    "opinions": [
+      {
+        "text": "Butzel, J.\nPlaintiff, Floyd Earl Berney, brought an action in trespass on tbe case alleging that while both be and tbe defendant, Frank J. Yolk, were members of a party of 5 engaged in bunting small game, defendant carelessly, negligently, willfully and wantonly bandied bis shotgun in such manner that he shot plaintiff: and thus inflicted severe' and disabling injuries including probable loss of eyesight. Defendant\u2019s answer denied liability and alleged that plaintiff had been contributorily negligent. Prior to trial plaintiff filed interrogatories requesting the make, model, gauge, and registration [serial?] number of the gun used by defendant at the time of the accident, as well as an answer to whether the gun was equipped with a poly choke (evidently a device attached to the barrel for the purpose of adjusting the size of the shot pattern) and if so, its setting at the time of the accident. Defendant answered all the interrogatories except the one in regard to the setting of the polyehoke, which he claims he could not remember owing to the lapse of time. Thereupon plaintiff moved for production of the gun under Michigan Court Buie No 35, \u00a76(a), for the purpose of determining by scientific tests the distance between the parties at the time of the accident. Defendant\u2019s objections to the motion were overruled by the trial judge who granted the motion. Defendant appeals from the ruling primarily on the ground that forcing him to produce the gun would require him to unconstitutionally incriminate himself of crimes set forth in CL 1948, \u00a7\u00a7 750.233, 750.234, 750.-235 (Stat Ann \u00a7\u00a7 28.430, 28.431, 28.432). Specifically defendant asserted the privilege against self-incrimination contained in Michigan Constitution (1908), art 2, \u00a7 16, and the Fifth Amendment to the Federal Constitution. Defendant also relied upon the Fourteenth Amendment to the Federal Constitution and CL 1948, \u00a7617.59 (Stat Ann \u00a727.908).\nMichigan Court Buie No 35, \u00a7 6, adopted solely for those circuits having pretrial calendars, is a further extension of the concept of pretrial. It is designed to simplify procedure and obtain admissions of facts and evidence, thereby shortening costly and time-consuming trials. The Michigan rule is similar to the Federal discovery rules which have generally been liberally interpreted.\nThe scope of Court Rule No 35, \u00a7 6, extends to \u201cbooks, documents, or other tangible things.\u201d The rule further states:\n\u201c(b) The order of the court for pretrial depositions and discovery, unless for good cause otherwise shown, shall permit the examination of deponent regarding any matter, not privileged and admissible under the rules of evidence governing trials, which is relevant to the subject matter involved in the pending action.\u201d (Emphasis added.)\nAppellant also cites the provisions of CL 1948, \u00a7 617.59 (Stat Ann \u00a7 27.908) :\n\u201cAny competent witness in a cause shall not be excused from answering a question relevant to the matter in issue, on the ground merely that the answer to such question may establish, or tend to establish, that such witness owes a debt, or is otherwise subject to a civil suit; but this provision shall not be construed to require a witness to give any answer which will have a tendency to accuse himself of any crime or misdemeanor, or to expose him to any penalty or forfeiture, nor in any respect to vary or alter any other rule respecting the examination of witnesses.\u201d\nIt is at once evident that under the court rule and the statute, assuming that the statute is applicable (a question which we need not decide), the issue here presented is whether or not appellant may in this instance assert his privilege.\nIn his brief appellant does not argue the applicability of the Fourteenth Amendment to the Federal Constitution and we need say no more than that the \u201cdue process\u201d and \u201cprivileges and immunities\u201d clauses have not been extended to include the provisions of the Fifth Amendment. Twining v. New Jersey, 211 US 78 (29 S Ct 14, 53 L ed 97); Palko v. Connecticut, 302 US 319 (58 S Ct 149, 82 L ed 288). The contention that the Fifth Amendment to the Federal Constitution protects appellant is obviously untenable. It is a fundamental constitutional principle that the Fifth Amendment is a prohibition solely upon the Federal government and nowise affects State action. See Adamson v. California, 332 US 46 (67 S Ct 1672, 91 L ed 1903, 171 ALR 1223). Article 2, \u00a7 16, of the Michigan Constitution (1908) is similar to the Fifth Amendment privilege against self-incrimination, as well as analogous provisions in the constitutions of most other States, and it is this provision which we are here considering.\nIt has been generally held that the constitutional provisions regarding the privilege against self-incrimination also apply to evidence in a civil proceeding which might subject the witness to criminal prosecution. Joslin v. Noret, 224 Mich 240; cf., People, ex rel. Moll, v. Danziger, 238 Mich 39 (52 ALR 136); Wilkins v. Malone, 14 Ind 153. See McCarthy v. Arndstein, 266 US 34, 40 (45 S Ct 16, 69 L ed 158); Kindt v. Murphy, 312 Ky 395, 401 (227 SW2d 895).\nAppellant has the right to assert the privilege in a civil proceeding, but whether the privilege protects the form of disclosure herein involved is the fundamental issue in this case.\nThe origin and history of the privilege against self-incrimination is a timely and provocative chapter in the annals of our constitutional and common law. It has been amply treated by learned authorities, e.g. Corwin, The Supreme Court\u2019s Construction of the Self-Incrimination Clause, 29 Mich L Rev 1, 191 (1930); 8 Wigmore, Evidence (3d ed 1940), \u00a7 2250 et seg. It suffices to repeat that it arose as a means of eliminating the rack and the screw as methods of obtaining admissions from the lips of an accused, thereby compelling the authorities to seek out independent sources of evidence.\nConsistent with this idea, Michigan follows the more modern rule that the privilege against self-incrimination applies only to testimonial compulsion. People v. Placido, 310 Mich 404, 408. See 8 Wigmore, Evidence (3d ed 1940), \u00a7 2263 et seq.\nIs the production of the gun in this case tantamount to testimonial compulsion? Professor Wig-more, supra, at section 2264, variously hints that there is testimonial compulsion where the person asserting the privilege is proceeded against by:\n\u201cProcess treating him as a witness (i.e. as a person appearing before the.tribunal to furnish testimony in his moral responsibility for truth telling),\u201d\nor where:\n\u201cPie would be at any time liable to make oath to the authenticity or origin of the articles produced.\u201d\nIn Ross v. State, 204 Ind 281, 294 (182 NE 865), it is described as:\n\u201cEvidence which rests upon the testimonial responsibility of the defendant.\u201d\nJudge Cardozo in People v. Defore, 242 NY 13, 27 (150 NE 585), in effect said' that testimonial compulsion involves a \u201cvoucher of genuineness.\u201d\nWe must conclude that the production of the gun in accordance with the discovery order does not amount to testimonial compulsion. In his answer to plaintiff\u2019s interrogatories defendant had already disclosed the make, model, gauge and serial number of the gun and has also admitted that the gun was equipped with a polychoke. It would seem that a more appropriate time for assertion of the privilege would have been in the answer to the interrogatories rather than by objection to the motion for production of the gun itself. Defendant, in his answer to plaintiff\u2019s declaration, disagreed with plaintiff\u2019s allegation as to the distance between the parties at the time of the accident. The purpose of the motion for production of the gun was to attempt to scientifically determine this distance. Once defendant has put the distance at issue, he should not be allowed to withhold the best method of ascertaining it. In addition we do not think that testimonial compulsion is involved in this case because defendant in effect has admitted the very facts concerning which as a witness he might have been able to assert his privilege.\nWe make mention of the fact that it has long been unquestioned that police officers may, upon the arrest of a suspect, search his person and the immediate vicinity for the tools and fruits of the alleged crime. Were this not the rule the successful administration of justice would be seriously hampered if not rendered virtually impossible in a great many instances. The case before us presents an analogous situation in a civil proceeding. Of course, in a civil case as well as a criminal one the defendant\u2019s right to his privilege against testimonial compulsion should be preserved unimpaired, even though its assertion would work a hardship upon the civil plaintiff who has no interest whatever in a criminal action if brought. However, the scope of the privilege should not be extended to preclude the form of disclosure which this case presents.\nAccordingly appellant\u2019s objections must be overruled and the order for production of the gun must be affirmed, with costs to appellee.\nCarr, C. J., and Bushnell, Sharpe, Boyles, Reid, Dethmers, and Kelly, JJ., concurred.\nSection 6 was added June 27, 1952, and is found in 334 Midi si.\u2014Reporter.",
+        "type": "majority",
+        "author": "Butzel, J."
+      }
+    ],
+    "attorneys": [
+      "A. D. Ruegsegger and Dyer, Angel\u00ed & Meek, for plaintiff.",
+      "Edward N. Barnard, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "BERNEY v. VOLK.\n1. Trial\u2014Pretrial\u2014Production of Tangible Things.\nThe purpose of court rule permitting a circuit court having a pretrial calendar to compel the production of books, documents or other tangible things, and for the taking of testimony of any person, including a party, by deposition upon oral examination or written interrogatories was designed to simplify procedure and obtain admissions of faets and evidence, not privileged and admissible under the rules of evidence governing trials, thereby shortening costly and time-consuming trials (Court Rule No 35, \u00a7 6 [1945, as added in 1952]).\n2. Witnesses\u2014Privilege Against Self-Incrimination\u2014Eifth Amendment.\nThe privilege against self-incrimination as set forth in the Eifth Amendment to the Constitution of the United States is a prohibition solely upon the Eederal government and nowise affects State action.\n3. Same\u2014Privilege Against Self-Incrimination\u2014Civil Action.\nGenerally, the constitutional privilege against self-incrimination applies to evidence in a civil proceeding which might subject the witness to criminal prosecution (Const 1908, art 2, \u00a7 16).\n4. Same\u2014Privilege Against Self-Incrimination\u2014Testimonial Compulsion.\nThe privilege against self-incrimination applies only to testimonial compulsion, that is, where the person asserting the privilege is proceeded against by process treating him as a witness, subjecting him to make oath to the authenticity or origin of the articles produced, or making a voucher of genuineness (Const 1908, art 2, \u00a7 16).\nReferences for Points in Headnotes\n1] See, generally, 53 Am Jur, Trial \u00a7\u00a78-11.\n[2] 58 Am Jur, Witnesses \u00a7 36.\n[3 , 6] 58 Am Jur, Witnesses \u00a7 45.\n[4] 58 Am Jur, Witnesses \u00a7 40.\n[5] 20 Am Jur, Evidence \u00a7\u00a7 755, 759; see, generally, 58 Am Jur, Witnesses \u00a7 94 et seq.\n5. Trial\u2014Pretrial\u2014Production of Gun\u2014Testimonial Compulsion.\nDefendant in action for injuries received by plaintiff when defendant\u2019s gun went off and who had answered written interrogatories as to the make, model, gauge, serial number of the gun, and that it was equipped with a polyehoke, may properly be required to produce the gun itself, where the distance between the parties had been put in issue and scientific tests with a gun so equipped would be usable in determining. such distance, there being no longer any testimonial \u25a0 compulsion of defendant (Const 1908, art 2, \u00a7 16; CL 1948, \u00a7 617.59; Court Eule No 35, \u00a7 6 [1945, as added in 1952]).\n6. Witnesses\u2014Testimonial Compulsion\u2014Civil Action.\nA defendant\u2019s right to his privilege against testimonial compulsion, asserted in a civil case, should be preserved unimpaired, even though its assertion would work a hardship upon the civil plaintiff who has no interest whatever in a criminal action if brought (Const 1908, art 2, \u00a7 16).\nAppeal from Wayne; Jayne (Ira W.), J.\nSubmitted November 30, 1954.\n(Calendar No. 46,248.)\nDecided January 7, 1955.\nCase by Floyd Earl Berney against Frank J. Yolk for injuries arising from gun in bunting accident. On motion by plaintiff, order was made to produce gun for purposes of ballistic tests. Defendant appeals from order.\nAffirmed.\nA. D. Ruegsegger and Dyer, Angel\u00ed & Meek, for plaintiff.\nEdward N. Barnard, for defendant."
+  },
+  "file_name": "0647-01",
+  "first_page_order": 687,
+  "last_page_order": 693
+}

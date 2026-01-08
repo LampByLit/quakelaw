@@ -44,6 +44,11 @@ let baseLevelColor = new Color(.1, .3, .1); // Base town color for day/night cyc
 let sleepFadeTimer = new Timer();
 let sleepFadeActive = 0;
 let resetButtonHover = 0;
+let isLoadingWorld = false;
+let loadingProgress = 0;
+let loadingMessage = '';
+let inventoryOpen = false;
+let inventoryButtonHover = false;
 
 class GameTime
 {
@@ -97,6 +102,9 @@ class GameTime
                 this.month = 1;
             }
         }
+        
+        // Reset NPCs at start of new day (00:00)
+        ResetNPCsForNewDay();
         
         this.gameHour = 7.0; // Wake at 07:00
         this.realTimeStart = time;
@@ -163,6 +171,19 @@ class GameTime
     }
 }
 
+// Inventory item class
+class InventoryItem
+{
+    constructor(type, name, tileX, tileY, quantity = 1)
+    {
+        this.type = type; // Item type identifier
+        this.name = name; // Display name
+        this.tileX = tileX; // Sprite tile X
+        this.tileY = tileY; // Sprite tile Y
+        this.quantity = quantity; // Stack size
+    }
+}
+
 class PlayerData
 {
     // track player data between levels (when player is destroyed)
@@ -173,6 +194,30 @@ class PlayerData
         this.boomerangs = 1;
         this.bigBoomerangs = 0;
         this.coins = 0;
+        this.inventory = []; // 16 slots (4x4 grid)
+    }
+    
+    // Add item to inventory (returns true if added, false if full)
+    AddToInventory(type, name, tileX, tileY, quantity = 1)
+    {
+        // Check if item already exists and is stackable
+        for(let i = 0; i < this.inventory.length; i++)
+        {
+            if (this.inventory[i] && this.inventory[i].type === type)
+            {
+                this.inventory[i].quantity += quantity;
+                return true;
+            }
+        }
+        
+        // Find empty slot
+        if (this.inventory.length < 16)
+        {
+            this.inventory.push(new InventoryItem(type, name, tileX, tileY, quantity));
+            return true;
+        }
+        
+        return false; // Inventory full
     }
 }
 
@@ -203,6 +248,36 @@ function Reset()
         {
             let saved = JSON.parse(localStorage.lawyer_gameState);
             gameTime.Load(saved.gameTime);
+            
+            // Load player data including inventory
+            if (saved.playerData)
+            {
+                if (saved.playerData.health !== undefined) playerData.health = saved.playerData.health;
+                if (saved.playerData.healthMax !== undefined) playerData.healthMax = saved.playerData.healthMax;
+                if (saved.playerData.coins !== undefined) playerData.coins = saved.playerData.coins;
+                if (saved.playerData.boomerangs !== undefined) playerData.boomerangs = saved.playerData.boomerangs;
+                if (saved.playerData.bigBoomerangs !== undefined) playerData.bigBoomerangs = saved.playerData.bigBoomerangs;
+                
+                // Load inventory
+                if (saved.playerData.inventory && Array.isArray(saved.playerData.inventory))
+                {
+                    playerData.inventory = [];
+                    for(let i = 0; i < saved.playerData.inventory.length && i < 16; i++)
+                    {
+                        let item = saved.playerData.inventory[i];
+                        if (item)
+                        {
+                            playerData.inventory.push(new InventoryItem(
+                                item.type,
+                                item.name,
+                                item.tileX,
+                                item.tileY,
+                                item.quantity || 1
+                            ));
+                        }
+                    }
+                }
+            }
         }
         catch(e)
         {
@@ -252,16 +327,68 @@ function InitTown()
     // clear everything
     StartTransiton();
     ClearGameObjects();
+    ClearNPCs(); // Clear NPCs explicitly
     
     // prevent player being stuck with no boomerangs
     if (!playerData.boomerangs && !playerData.bigBoomerangs)
         playerData.boomerangs = 1;
     
-    // create the town and player
-    GenerateTown();
-    player = new Player(playerHomePos);
-    // Set player to face south
-    player.rotation = 1;
+    // Start loading screen and generate world asynchronously
+    isLoadingWorld = true;
+    loadingProgress = 0;
+    loadingMessage = 'Initializing...';
+    
+    // Generate world asynchronously to allow loading screen to render
+    GenerateWorldAsync();
+}
+
+function GenerateWorldAsync()
+{
+    // Use requestAnimationFrame to allow rendering between steps
+    // Small delay ensures loading screen is visible
+    setTimeout(() => {
+        requestAnimationFrame(() => {
+            loadingProgress = 0.1;
+            loadingMessage = 'Creating terrain...';
+            
+            setTimeout(() => {
+                requestAnimationFrame(() => {
+                    // Generate town (this will also call GenerateAllInteriors which updates progress)
+                    GenerateTown();
+                    
+                    setTimeout(() => {
+                        requestAnimationFrame(() => {
+                            loadingProgress = 0.8;
+                            loadingMessage = 'Spawning NPCs...';
+                            
+                            setTimeout(() => {
+                                requestAnimationFrame(() => {
+                                    player = new Player(playerHomePos);
+                                    // Set player to face south
+                                    player.rotation = 1;
+                                    
+                                    // Generate NPCs after town is created (and all buildings have addresses)
+                                    GenerateNPCs();
+                                    
+                                    setTimeout(() => {
+                                        requestAnimationFrame(() => {
+                                            loadingProgress = 1.0;
+                                            loadingMessage = 'Complete!';
+                                            
+                                            // Clear loading screen after a brief moment
+                                            setTimeout(() => {
+                                                isLoadingWorld = false;
+                                            }, 300);
+                                        });
+                                    }, 50);
+                                });
+                            }, 50);
+                        });
+                    }, 50);
+                });
+            }, 50);
+        });
+    }, 50);
 }
 
 function SpawnPickups(pos, chance=1, count=1)
@@ -360,11 +487,11 @@ function Update()
         localStorage.kbap_coins = playerData.coins;
         
     // update speed run time
-    if (!paused && !winTimer.IsSet() && !player.IsDead())
+    if (player && !paused && !winTimer.IsSet() && !player.IsDead())
         speedRunTime += timeDelta;
     
     // restart if dead or won
-    if ((player.IsDead() || winTimer.IsSet()) && KeyWasPressed(27))
+    if (player && (player.IsDead() || winTimer.IsSet()) && KeyWasPressed(27))
     {
         Reset();
         InitTown();
@@ -387,11 +514,53 @@ function Update()
             FullReset();
         }
     }
+    
+    // Check for inventory button hover and click
+    if (!inventoryOpen)
+    {
+        let invButtonX = 40;
+        let invButtonY = 90;
+        let invButtonWidth = 80;
+        let invButtonHeight = 24;
+        
+        // Check if mouse is hovering over inventory button
+        inventoryButtonHover = (mousePos.x >= invButtonX - invButtonWidth/2 && mousePos.x <= invButtonX + invButtonWidth/2 &&
+                               mousePos.y >= invButtonY - invButtonHeight/2 && mousePos.y <= invButtonY + invButtonHeight/2);
+        
+        // Check for inventory button click
+        if (MouseWasPressed() && inventoryButtonHover)
+        {
+            inventoryOpen = true;
+        }
+    }
+    
+    // Check for inventory key press (I key = 73)
+    if (KeyWasPressed(73))
+    {
+        inventoryOpen = !inventoryOpen;
+    }
+    
+    // Close inventory with Escape key
+    if (inventoryOpen && KeyWasPressed(27))
+    {
+        inventoryOpen = false;
+    }
         
 }
 
 function PreRender()
 {
+    // Show loading screen if world is being generated
+    if (isLoadingWorld)
+    {
+        RenderLoadingScreen();
+        return;
+    }
+    
+    // Don't render if player doesn't exist yet
+    if (!player)
+        return;
+    
     // camera is always centered on player
     cameraPos.Copy(player.pos);
     
@@ -459,6 +628,27 @@ function PostRender()
         DrawText(gameTime.GetDayName().toUpperCase(), x, y + 66, 12, 'center', 1, '#FFF', '#000');
     }
     
+    // Inventory button (below time/date)
+    {
+        let invButtonX = 40;
+        let invButtonY = 90;
+        let invButtonWidth = 80;
+        let invButtonHeight = 24;
+        
+        // Draw button background (hover state is set in Update())
+        let bgColor = inventoryButtonHover ? '#48F' : '#248';
+        mainCanvasContext.fillStyle = bgColor;
+        mainCanvasContext.fillRect(invButtonX - invButtonWidth/2, invButtonY - invButtonHeight/2, invButtonWidth, invButtonHeight);
+        
+        // Draw button border
+        mainCanvasContext.strokeStyle = '#FFF';
+        mainCanvasContext.lineWidth = 2;
+        mainCanvasContext.strokeRect(invButtonX - invButtonWidth/2, invButtonY - invButtonHeight/2, invButtonWidth, invButtonHeight);
+        
+        // Draw button text
+        DrawText('INVENTORY', invButtonX, invButtonY, 10, 'center', 1, '#FFF', '#000');
+    }
+    
     // Reset button (top-right)
     {
         let buttonX = mainCanvasSize.x - 100;
@@ -486,7 +676,7 @@ function PostRender()
         bigText = '-paused-'
     if (winTimer.IsSet())
         bigText = 'You Win!';
-    if (player.IsDead())
+    if (player && player.IsDead())
     {
         bigText = 'Game Over!'
         DrawText('Press Escape',mainCanvasSize.x/2, mainCanvasSize.y/2+80, 42);
@@ -496,7 +686,7 @@ function PostRender()
     if (speedRunMode)
     {
         // show time if speed run mode is activated
-        let c = (player.IsDead() || winTimer.IsSet())? '#F00' : '#000';
+        let c = (player && (player.IsDead() || winTimer.IsSet()))? '#F00' : '#000';
         DrawText(FormatTime(speedRunTime), mainCanvas.width/2, 28, 40, 'center',1,c);
     }
 
@@ -525,6 +715,12 @@ function PostRender()
     mainCanvasContext.fillRect(mx-mw,my-mh,mw*2,mh*2);
     mainCanvasContext.fillRect(mx-mh,my-mw,mh*2,mw*2);
     mainCanvasContext.globalCompositeOperation = 'source-over';
+    
+    // Render inventory modal if open
+    if (inventoryOpen)
+    {
+        RenderInventoryModal();
+    }
 }
 
 function MazeDataPos(pos)
@@ -1111,9 +1307,17 @@ class Boomerang  extends MyGameObject
     {
         PlaySound(6);
         if (this.isBig)
+        {
             playerData.bigBoomerangs++;
+            // Add to inventory
+            playerData.AddToInventory('bigBoomerang', 'Big Boomerang', 7, 5, 1);
+        }
         else
+        {
             playerData.boomerangs++;
+            // Add to inventory
+            playerData.AddToInventory('boomerang', 'Boomerang', 0, 5, 1);
+        }
         player.throwTimer.Set(.3);
         player.throwRotation=this.pos.Clone().Subtract(player.pos).Rotation();
         this.Destroy();
@@ -1169,24 +1373,35 @@ class Pickup extends MyGameObject
             player.healthMax = playerData.healthMax;
             player.Heal(1);
             PlaySound(4);
+            // Add to inventory
+            playerData.AddToInventory('heartContainer', 'Heart Container', 4, 5, 1);
         }
         else if (this.type==3)
         {
             // 1 coin
             PlaySound(10);
             ++playerData.coins;
+            // Add to inventory (stack coins)
+            playerData.AddToInventory('coin', 'Coin', 5, 5, 1);
         }
         else if (this.type==4)
         {
             // 5 coin
             PlaySound(10);
             playerData.coins+=5;
+            // Add to inventory (stack coins)
+            playerData.AddToInventory('coin', 'Coin', 5, 5, 5);
         }
         else
         {
             // half or whole heart
             player.Heal(.5+ this.type/2)
             PlaySound(3);
+            // Add to inventory (type 0 = half heart, type 1 = whole heart)
+            if (this.type == 0)
+                playerData.AddToInventory('halfHeart', 'Half Heart', 2, 5, 1);
+            else
+                playerData.AddToInventory('wholeHeart', 'Whole Heart', 3, 5, 1);
         }
         this.Destroy();
     }
@@ -2651,13 +2866,61 @@ function ExitInterior()
             level.Redraw();
         }
         
-        // Position player back outside building (south of building)
-        // Move player slightly further south to avoid immediate re-entry
-        if (playerExteriorPos)
+        // Find the building that owns this interior
+        let building = null;
+        for(let obj of gameObjects)
         {
+            if (obj.isBuilding && obj.interior === currentInterior)
+            {
+                building = obj;
+                break;
+            }
+        }
+        
+        // Position player back outside building (south of building)
+        // Use helper function to find valid position that avoids buildings and impassable terrain
+        if (building)
+        {
+            // Calculate preferred position (south of building, slightly further than stored position)
+            let preferredOffset = new Vector2(0, building.size.y + 0.5);
+            if (playerExteriorPos)
+            {
+                // Use stored position as base, but adjust slightly south
+                preferredOffset = playerExteriorPos.Clone().Subtract(building.pos);
+                preferredOffset.y += 0.5; // Push further south to avoid entry detection zone
+            }
+            
+            // Find valid position near building
+            player.pos = FindValidPositionNearBuilding(building, preferredOffset, 0.5);
+        }
+        else if (playerExteriorPos)
+        {
+            // Fallback: use stored position if building not found
             player.pos.Copy(playerExteriorPos);
-            // Push player further south by 0.5 tiles to avoid entry detection zone
             player.pos.y += 0.5;
+            
+            // Still validate the position
+            if (!level.IsAreaClear(player.pos, 0.5))
+            {
+                // Try to find nearby valid position
+                let searchRadius = 0.5;
+                let found = false;
+                for(let angle = 0; angle < Math.PI * 2 && !found; angle += Math.PI / 4)
+                {
+                    let testPos = playerExteriorPos.Clone();
+                    testPos.x += Math.cos(angle) * searchRadius;
+                    testPos.y += Math.sin(angle) * searchRadius;
+                    if (level.IsAreaClear(testPos, 0.5))
+                    {
+                        let data = level.GetDataFromPos(testPos);
+                        if (!data.road)
+                        {
+                            player.pos.Copy(testPos);
+                            found = true;
+                        }
+                    }
+                }
+            }
         }
         
         // Set cooldown to prevent immediate re-entry (0.3 seconds)
@@ -2722,7 +2985,8 @@ function SaveGameState()
             healthMax: playerData.healthMax,
             coins: playerData.coins,
             boomerangs: playerData.boomerangs,
-            bigBoomerangs: playerData.bigBoomerangs
+            bigBoomerangs: playerData.bigBoomerangs,
+            inventory: playerData.inventory
         }
     };
     
@@ -2734,6 +2998,121 @@ function SaveGameState()
     {
         console.warn('Failed to save game state:', e);
     }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Inventory system
+
+function RenderInventoryModal()
+{
+    // Draw semi-transparent overlay
+    mainCanvasContext.fillStyle = 'rgba(0, 0, 0, 0.7)';
+    mainCanvasContext.fillRect(0, 0, mainCanvasSize.x, mainCanvasSize.y);
+    
+    // Modal dimensions
+    let modalWidth = 320;
+    let modalHeight = 360;
+    let modalX = mainCanvasSize.x / 2;
+    let modalY = mainCanvasSize.y / 2;
+    
+    // Draw modal background
+    mainCanvasContext.fillStyle = '#333';
+    mainCanvasContext.fillRect(modalX - modalWidth/2, modalY - modalHeight/2, modalWidth, modalHeight);
+    
+    // Draw modal border
+    mainCanvasContext.strokeStyle = '#FFF';
+    mainCanvasContext.lineWidth = 3;
+    mainCanvasContext.strokeRect(modalX - modalWidth/2, modalY - modalHeight/2, modalWidth, modalHeight);
+    
+    // Draw title
+    DrawText('INVENTORY', modalX, modalY - modalHeight/2 + 20, 16, 'center', 1, '#FFF', '#000');
+    
+    // Draw close button
+    let closeButtonX = modalX + modalWidth/2 - 30;
+    let closeButtonY = modalY - modalHeight/2 + 20;
+    let closeButtonSize = 20;
+    
+    // Check if mouse is over close button
+    let closeButtonHover = (mousePos.x >= closeButtonX - closeButtonSize/2 && mousePos.x <= closeButtonX + closeButtonSize/2 &&
+                            mousePos.y >= closeButtonY - closeButtonSize/2 && mousePos.y <= closeButtonY + closeButtonSize/2);
+    
+    // Draw close button
+    mainCanvasContext.fillStyle = closeButtonHover ? '#F44' : '#844';
+    mainCanvasContext.fillRect(closeButtonX - closeButtonSize/2, closeButtonY - closeButtonSize/2, closeButtonSize, closeButtonSize);
+    mainCanvasContext.strokeStyle = '#FFF';
+    mainCanvasContext.lineWidth = 2;
+    mainCanvasContext.strokeRect(closeButtonX - closeButtonSize/2, closeButtonY - closeButtonSize/2, closeButtonSize, closeButtonSize);
+    DrawText('X', closeButtonX, closeButtonY, 12, 'center', 1, '#FFF', '#000');
+    
+    // Handle close button click
+    if (MouseWasPressed() && closeButtonHover)
+    {
+        inventoryOpen = false;
+        return;
+    }
+    
+    // Grid settings (4x4 = 16 slots)
+    let gridCols = 4;
+    let gridRows = 4;
+    let slotSize = 60;
+    let slotSpacing = 8;
+    let gridStartX = modalX - (gridCols * (slotSize + slotSpacing) - slotSpacing) / 2;
+    let gridStartY = modalY - modalHeight/2 + 60;
+    
+    // Draw inventory grid
+    if (playerData && playerData.inventory)
+    {
+        for(let row = 0; row < gridRows; row++)
+        {
+            for(let col = 0; col < gridCols; col++)
+            {
+                let slotIndex = row * gridCols + col;
+                let slotX = gridStartX + col * (slotSize + slotSpacing);
+                let slotY = gridStartY + row * (slotSize + slotSpacing);
+                
+                // Draw slot background
+                mainCanvasContext.fillStyle = '#222';
+                mainCanvasContext.fillRect(slotX, slotY, slotSize, slotSize);
+                
+                // Draw slot border
+                mainCanvasContext.strokeStyle = '#666';
+                mainCanvasContext.lineWidth = 2;
+                mainCanvasContext.strokeRect(slotX, slotY, slotSize, slotSize);
+                
+                // Draw item if exists
+                if (slotIndex < playerData.inventory.length && playerData.inventory[slotIndex])
+                {
+                    let item = playerData.inventory[slotIndex];
+                    
+                    // Draw item sprite
+                    let spriteSize = slotSize - 8;
+                    let spriteX = slotX + (slotSize - spriteSize) / 2;
+                    let spriteY = slotY + (slotSize - spriteSize) / 2;
+                    
+                    // Draw sprite from tileImage
+                    if (tileImage && tileImage.complete)
+                    {
+                        mainCanvasContext.drawImage(
+                            tileImage,
+                            item.tileX * tileSize, item.tileY * tileSize,
+                            tileSize, tileSize,
+                            spriteX, spriteY,
+                            spriteSize, spriteSize
+                        );
+                    }
+                    
+                    // Draw quantity if > 1
+                    if (item.quantity > 1)
+                    {
+                        DrawText(item.quantity.toString(), slotX + slotSize - 4, slotY + slotSize - 4, 10, 'right', 1, '#FFF', '#000');
+                    }
+                }
+            }
+        }
+    }
+    
+    // Draw instruction text at bottom
+    DrawText('Press I or ESC to close', modalX, modalY + modalHeight/2 - 20, 10, 'center', 1, '#AAA', '#000');
 }
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -2841,10 +3220,96 @@ class Building extends MyGameObject
 }
 
 ///////////////////////////////////////////////////////////////////////////////
+// Helper function to find valid spawn/exit position near a building
+function FindValidPositionNearBuilding(building, preferredOffset = null, entitySize = 0.5)
+{
+    // Default to south of building if no preferred offset
+    if (!preferredOffset)
+    {
+        preferredOffset = new Vector2(0, building.size.y + 0.5);
+    }
+    
+    // Start with preferred position
+    let basePos = building.pos.Clone().Add(preferredOffset);
+    
+    // Try positions in a spiral pattern around the preferred position
+    let searchRadius = 0.5;
+    const maxSearchRadius = 3.0;
+    const angleStep = Math.PI / 4; // 8 directions
+    let attempts = 0;
+    const maxAttempts = 50;
+    
+    while (attempts < maxAttempts && searchRadius <= maxSearchRadius)
+    {
+        // Try positions in a circle around base position
+        for(let angle = 0; angle < Math.PI * 2; angle += angleStep)
+        {
+            let testPos = basePos.Clone();
+            testPos.x += Math.cos(angle) * searchRadius;
+            testPos.y += Math.sin(angle) * searchRadius;
+            
+            // Check if area is clear (not solid terrain)
+            if (level.IsAreaClear(testPos, entitySize))
+            {
+                // Check if position is not on a road
+                let data = level.GetDataFromPos(testPos);
+                if (!data.road)
+                {
+                    // Check if position doesn't overlap with other buildings
+                    let tooCloseToBuilding = false;
+                    for(let obj of gameObjects)
+                    {
+                        if (obj.isBuilding && obj !== building)
+                        {
+                            // Check if test position is inside another building's solid area
+                            let distToBuilding = testPos.Distance(obj.pos);
+                            let buildingSolidRadius = obj.size.x * 0.9; // Building solid area
+                            if (distToBuilding < buildingSolidRadius + entitySize + 0.3)
+                            {
+                                tooCloseToBuilding = true;
+                                break;
+                            }
+                        }
+                    }
+                    
+                    if (!tooCloseToBuilding)
+                    {
+                        // Found valid position - clear area and ensure it's walkable
+                        level.FillCircleObject(testPos, entitySize + 0.3, 0); // Clear objects
+                        level.FillCircleType(testPos, entitySize + 0.3, 1); // Ensure grass
+                        return testPos;
+                    }
+                }
+            }
+            
+            attempts++;
+            if (attempts >= maxAttempts)
+                break;
+        }
+        
+        // Increase search radius for next iteration
+        searchRadius += 0.5;
+    }
+    
+    // Fallback: return preferred position anyway (shouldn't happen, but better than crashing)
+    console.warn(`Warning: Could not find valid position near building at ${building.pos.x}, ${building.pos.y}, using fallback`);
+    level.FillCircleObject(basePos, entitySize + 0.5, 0); // Clear objects
+    level.FillCircleType(basePos, entitySize + 0.5, 1); // Ensure grass
+    return basePos;
+}
+
+///////////////////////////////////////////////////////////////////////////////
 // town generation
 
 function GenerateTown()
 {
+    if (isLoadingWorld)
+    {
+        loadingProgress = 0.15;
+        loadingMessage = 'Creating terrain...';
+        RenderLoadingScreen();
+    }
+    
     baseLevelColor = new Color(.1, .3, .1); // greenish town color (base for day/night cycle)
     levelColor = baseLevelColor.Clone();
     level = new Level();
@@ -2855,6 +3320,13 @@ function GenerateTown()
     for(let y = 0; y < levelSize; y++)
     {
         level.GetData(x, y).type = 1; // grass
+    }
+    
+    if (isLoadingWorld)
+    {
+        loadingProgress = 0.25;
+        loadingMessage = 'Building roads...';
+        RenderLoadingScreen();
     }
     
     // Create road network (4x4 grid system)
@@ -2895,6 +3367,13 @@ function GenerateTown()
                 }
             }
         }
+    }
+    
+    if (isLoadingWorld)
+    {
+        loadingProgress = 0.35;
+        loadingMessage = 'Placing buildings...';
+        RenderLoadingScreen();
     }
     
     // Place buildings in grid cells
@@ -3019,26 +3498,9 @@ function GenerateTown()
                 buildings.push(building);
                 
                 // Calculate player spawn position - south of home, facing south
-                // Spawn outside the building's solid area (size * 0.9) plus some clearance
-                let spawnOffset = building.size.x * 1.5 + 1; // Extra clearance
-                playerHomePos = pos.Clone().AddXY(0, spawnOffset);
-                
-                // Ensure spawn position is valid (not solid, not on road)
-                let spawnData = level.GetDataFromPos(playerHomePos);
-                if (spawnData.IsSolid() || spawnData.road)
-                {
-                    // Try slightly to the side if directly south is blocked
-                    playerHomePos = pos.Clone().AddXY(1, spawnOffset);
-                    spawnData = level.GetDataFromPos(playerHomePos);
-                    if (spawnData.IsSolid() || spawnData.road)
-                    {
-                        playerHomePos = pos.Clone().AddXY(-1, spawnOffset);
-                    }
-                }
-                
-                // Clear spawn area to ensure player can always move (clear objects and make walkable)
-                level.FillCircleObject(playerHomePos, 1.5, 0); // Clear any objects (bushes/rocks)
-                level.FillCircleType(playerHomePos, 1.5, 1); // Ensure it's grass (walkable)
+                // Use helper function to find valid position that avoids buildings and impassable terrain
+                let spawnOffset = new Vector2(0, building.size.y * 1.5 + 1); // South of building with clearance
+                playerHomePos = FindValidPositionNearBuilding(building, spawnOffset, 0.5);
             }
             else
             {
@@ -3096,10 +3558,178 @@ function GenerateTown()
         level.FillCircleObject(pos, RandBetween(0.3, 1), 2); // rock
     }
     
+    if (isLoadingWorld)
+    {
+        loadingProgress = 0.55;
+        loadingMessage = 'Finalizing terrain...';
+        RenderLoadingScreen();
+    }
+    
     // Draw the level
     level.ClearBorder();
     level.ApplyTiling();
     level.Redraw();
+    
+    if (isLoadingWorld)
+    {
+        loadingProgress = 0.6;
+        loadingMessage = 'Building interiors...';
+        RenderLoadingScreen();
+    }
+    
+    // Pre-generate all building interiors (for NPCs)
+    GenerateAllInteriors(buildings);
+}
+
+// Render loading screen
+function RenderLoadingScreen()
+{
+    // Clear canvas to black
+    mainCanvasContext.fillStyle = '#000';
+    mainCanvasContext.fillRect(0, 0, mainCanvasSize.x, mainCanvasSize.y);
+    
+    // Draw title
+    let titleY = mainCanvasSize.y / 2 - 60;
+    DrawText('QLAW', mainCanvasSize.x / 2, titleY, 32, 'center', 2, '#FFF', '#000');
+    
+    // Draw loading message
+    let messageY = mainCanvasSize.y / 2;
+    DrawText(loadingMessage, mainCanvasSize.x / 2, messageY, 12, 'center', 1, '#FFF', '#000');
+    
+    // Draw progress bar background
+    let barWidth = mainCanvasSize.x * 0.6;
+    let barHeight = 8;
+    let barX = (mainCanvasSize.x - barWidth) / 2;
+    let barY = mainCanvasSize.y / 2 + 30;
+    
+    mainCanvasContext.fillStyle = '#333';
+    mainCanvasContext.fillRect(barX, barY, barWidth, barHeight);
+    
+    // Draw progress bar fill
+    let progressWidth = barWidth * Clamp(loadingProgress, 0, 1);
+    mainCanvasContext.fillStyle = '#FFF';
+    mainCanvasContext.fillRect(barX, barY, progressWidth, barHeight);
+    
+    // Draw progress percentage
+    let percentText = Math.floor(loadingProgress * 100) + '%';
+    DrawText(percentText, mainCanvasSize.x / 2, barY + barHeight + 15, 10, 'center', 0, '#FFF', '#000');
+}
+
+// Pre-generate all building interiors for NPCs
+function GenerateAllInteriors(buildings)
+{
+    let oldLevelSize = levelSize;
+    let totalBuildings = buildings.length;
+    let processed = 0;
+    
+    for(let building of buildings)
+    {
+        // Update loading progress
+        processed++;
+        if (isLoadingWorld)
+        {
+            loadingProgress = 0.6 + (processed / totalBuildings) * 0.15; // 60% to 75%
+            RenderLoadingScreen();
+        }
+        // Skip if interior already exists
+        if (building.interior)
+            continue;
+        
+        let interiorSize = 16; // Default size
+        let floorTint = new Color(0.4, 0.25, 0.15); // Default brown
+        
+        // Determine interior size and type based on building type
+        if (building.buildingType === 'home')
+        {
+            interiorSize = 8;
+            floorTint = new Color(0.4, 0.25, 0.15); // Dark brown
+        }
+        else if (building.buildingType === 'house')
+        {
+            interiorSize = 16;
+            floorTint = new Color(0.4, 0.25, 0.15); // Dark brown
+        }
+        else if (building.buildingType === 'court')
+        {
+            interiorSize = 16;
+            floorTint = new Color(0.5, 0.3, 0.7); // Purple
+        }
+        else if (building.buildingType === 'firm')
+        {
+            interiorSize = 16;
+            floorTint = new Color(0.6, 0.5, 0.2); // Yellow/Gold
+        }
+        else if (building.buildingType === 'shop')
+        {
+            interiorSize = 16;
+            floorTint = new Color(0.2, 0.4, 0.8); // Blue
+        }
+        else if (building.buildingType === 'store')
+        {
+            interiorSize = 16;
+            floorTint = new Color(0.8, 0.4, 0.6); // Pink
+        }
+        
+        // Set levelSize before creating interior (Level constructor uses it)
+        levelSize = interiorSize;
+        
+        // Create interior
+        let interior = new Interior(interiorSize, floorTint);
+        
+        // Generate interior based on building type
+        if (building.buildingType === 'home')
+        {
+            interior.GenerateHome();
+        }
+        else if (building.buildingType === 'house')
+        {
+            interior.GenerateHouse();
+        }
+        else if (building.buildingType === 'court')
+        {
+            interior.GenerateCourthouse();
+        }
+        else if (building.buildingType === 'firm')
+        {
+            interior.GenerateFirm();
+        }
+        else if (building.buildingType === 'shop')
+        {
+            interior.GenerateShop();
+        }
+        else if (building.buildingType === 'store')
+        {
+            interior.GenerateStore();
+        }
+        else
+        {
+            // Default to house layout
+            interior.GenerateHouse();
+        }
+        
+        // Store interior on building
+        building.interior = interior;
+    }
+    
+    // CRITICAL: Remove all furniture from gameObjects
+    // Furniture is automatically added to gameObjects when created (via GameObject constructor),
+    // but it should only exist in gameObjects when someone is actually inside an interior.
+    // Furniture will be re-added when entering interiors via EnterInterior().
+    gameObjects = gameObjects.filter(o => !o.isFurniture);
+    
+    // Restore levelSize
+    levelSize = oldLevelSize;
+    
+    // CRITICAL: Restore levelCanvas to exterior level size
+    // The Level constructor resizes levelCanvas, so we need to restore it
+    // after generating all interiors
+    levelCanvas.width = levelCanvas.height = levelSize * tileSize;
+    
+    // Redraw the exterior level to ensure it's properly cached
+    if (level)
+    {
+        level.Redraw();
+    }
 }
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -3614,8 +4244,10 @@ tileImage2.src = 'tiles2.png';
 
 // Set up callback after both tiles load
 tilesLoadedCallback = () => {
-    // After all tiles load, load building sprites, then init
-    LoadBuildingSprites(() => {
-        Init();
+    // After all tiles load, load NPC sprites, then building sprites, then init
+    LoadNPCSprites(() => {
+        LoadBuildingSprites(() => {
+            Init();
+        });
     });
 };

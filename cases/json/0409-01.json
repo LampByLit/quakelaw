@@ -1,0 +1,97 @@
+{
+  "id": 3186872,
+  "name": "TEXAS EASTERN TRANSMISSION CORPORATION v. Thomas C. McKOWEN, III, and Mrs. Marie McKowen",
+  "name_abbreviation": "Texas Eastern Transmission Corp. v. McKowen",
+  "decision_date": "1959-11-09",
+  "docket_number": "No. 44559",
+  "first_page": "409",
+  "last_page": "409",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 409"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 So.2d 800"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "115 So.2d 797",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3185970
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0399-01"
+      ]
+    },
+    {
+      "cite": "238 La. 399",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3185970,
+        9904763
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0399-01",
+        "/so2d/115/0797-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 87,
+    "char_count": 737,
+    "ocr_confidence": 0.768,
+    "pagerank": {
+      "raw": 8.138363859351185e-08,
+      "percentile": 0.47136010632280106
+    },
+    "sha256": "8d4094d2dd5edb0666a891730f69c59cae2cac1dbe3bc8cd8d8ed283ff0514bd",
+    "simhash": "1:920b8419d08191a3",
+    "word_count": 113
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "TEXAS EASTERN TRANSMISSION CORPORATION v. Thomas C. McKOWEN, III, and Mrs. Marie McKowen."
+    ],
+    "opinions": [
+      {
+        "text": "HAMITER, Justice.\nFor the reasons assigned in Texas Eastern Transmission Corporation v. Bowman, 238 La. 399, 115 So.2d 797, the judgment appealed from is reversed and set aside and the cause is remanded to the district court for further proceedings according to law and consistent with our expressed views. Costs of this appeal shall be paid by the defendants. All other costs shall await the final determination of the litigation.",
+        "type": "majority",
+        "author": "HAMITER, Justice."
+      }
+    ],
+    "attorneys": [
+      "Hargrove, Guyton & Van Hook, Elmon W. Holmes, Shreveport, for plaintiff-appellant.",
+      "Kennon, White & Odom, Baton Rouge, for defendants-appellees."
+    ],
+    "corrections": "",
+    "head_matter": "115 So.2d 800\nTEXAS EASTERN TRANSMISSION CORPORATION v. Thomas C. McKOWEN, III, and Mrs. Marie McKowen.\nNo. 44559.\nNov. 9, 1959.\nRehearing Denied Dec. 14, 1959.\nHargrove, Guyton & Van Hook, Elmon W. Holmes, Shreveport, for plaintiff-appellant.\nKennon, White & Odom, Baton Rouge, for defendants-appellees."
+  },
+  "file_name": "0409-01",
+  "first_page_order": 237,
+  "last_page_order": 237
+}

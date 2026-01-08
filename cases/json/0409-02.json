@@ -1,0 +1,236 @@
+{
+  "id": 3188388,
+  "name": "Nancy Callan CONEY v. Walton B. CONEY; Walton B. CONEY, v. Nancy Callan CONEY (two cases)",
+  "name_abbreviation": "Coney v. Coney",
+  "decision_date": "1959-11-09",
+  "docket_number": "No. 44703",
+  "first_page": "409",
+  "last_page": "417",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 410"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 So.2d 801"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "226 La. 95",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2987720,
+        10038014
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "23"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/226/0095-01",
+        "/so2d/75/0020-01"
+      ]
+    },
+    {
+      "cite": "231 La. 1082",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5467832,
+        9907594
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/231/1081-01",
+        "/so2d/93/0666-01"
+      ]
+    },
+    {
+      "cite": "62 So.2d 837",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        2896138
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/222/0567-01"
+      ]
+    },
+    {
+      "cite": "222 La. 567",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9920457,
+        2896138
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/62/0837-01",
+        "/la/222/0567-01"
+      ]
+    },
+    {
+      "cite": "164 La. 290",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1259154
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "852"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/164/0289-01"
+      ]
+    },
+    {
+      "cite": "216 La. 867",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2903228,
+        10112596
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/216/0867-01",
+        "/so2d/44/0896-01"
+      ]
+    },
+    {
+      "cite": "234 La. 825",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2887872,
+        9909690
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/234/0825-01",
+        "/so2d/101/0683-01"
+      ]
+    },
+    {
+      "cite": "231 La. 494",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9909194,
+        5467943
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/91/0769-01",
+        "/la/231/0493-01"
+      ]
+    },
+    {
+      "cite": "198 La. 1053",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10046682,
+        3161500
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/5/0332-01",
+        "/la/198/1054-01"
+      ]
+    },
+    {
+      "cite": "115 So.2d 803",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3185917
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0417-01"
+      ]
+    },
+    {
+      "cite": "238 La. 418",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9904971,
+        3185917
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/115/0803-01",
+        "/la/238/0417-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 442,
+    "char_count": 7358,
+    "ocr_confidence": 0.761,
+    "pagerank": {
+      "raw": 4.3197934001854734e-07,
+      "percentile": 0.9173297362124201
+    },
+    "sha256": "f378d22f416798ca7012f1fdd058c89f17a2b89caf9b1710b7fa1fd5ca4d9193",
+    "simhash": "1:36aef925e77a9dba",
+    "word_count": 1242
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nancy Callan CONEY v. Walton B. CONEY. Walton B. CONEY, v. Nancy Callan CONEY (two cases)."
+    ],
+    "opinions": [
+      {
+        "text": "HAMITER, Justice.\nFirst to be considered by us here is a motion of Mrs. Nancy Callan Coney, the appellee, to dismiss the instant devolutive appeal of Walton B. Coney. The motion is predicated on the contention that appellant abandoned his previously perfected appeal in this litigation.\nThe record discloses the circumstances hereinafter set forth. On February 26, 1959 appellant, by order of the district court, was \u201c * * * granted an appeal to the Supreme Court of Louisiana, returnable to said court on or before April 20, 1959, suspensive upon furnishing bond with good and solvent surety in the amount as fixed by law, and devolutive upon furnishing bond with good and solvent surety in the amount of $3500.00.\u201d And on March 6, 1959 a suspensive appeal bond was executed and filed. However, the transcript under such order was never furnished to this court. Nor did the appellant seek an extension of time in which to file it until May 8, 1959. The requested extension was not granted, obviously for the reason that the application was made some eighteen days after the return date and hence came too late.\nOn June 4, 1959, in the same litigation, appellant obtained an order for the devolutive appeal presently before us. Nine days thereafter appellee moved in the district court for a rescission of this second order of appeal, but she was denied the relief sought. Thereupon, on her application, we issued remedial writs for the purpose of considering the propriety of the district court\u2019s granting a second appeal after the first had been perfected by the timely filing of a proper bond. (Application Numbered 44,754 of the docket of this court and consolidated with the instant matter. 238 La. 418,115 So.2d 803.)\nAlso appellee filed here a pleading entitled \u201cException on Behalf of Nancy C. Coney\u201d. In it she offered an objection to the placing of the instant appeal on our calendar for argument on the merits before disposition be made of her motion to dismiss.\nWhen the cause came on for oral argument in this court counsel for appellee announced that they had prepared an answer to the appeal and a brief on the merits, but that they hesitated to file such documents because by so doing it might appear that appellee was waiving her rights under the motion to dismiss. In order that the entire matter would be before us, in the event of our overruling the motion to dismiss, we permitted such filings with full reservation of all of appellee\u2019s rights. Incidentally, in both the answer and the brief specific reservations of that nature were made.\nUnder the well established jurisprudence of this court appellee\u2019s urged abandonment contention is meritorious and her motion to dismiss must be sustained. On innumerable occasions we have held that it is the duty of the appellant or his attorney, not that of the clerk of the district court, to timely file the transcript here; and if it is not so filed, and no extension of time has been properly obtained, the appeal is considered abandoned. This is true even though the clerk of the district court has promised to effect the filing. McDermott v. Kilpatrick, 198 La. 1053, 5 So.2d 332; Port Barre Lumber Industries, Inc. v. Dixie Construction Company, 231 La. 494, 91 So. 2d 769; Love v. Department of Highways, State of Louisiana, 234 La. 825, 101 So.2d 683, and the numerous decisions cited and discussed i\u00f1 those cases. In fact, at least four recent cases decided by this court have involved the same issue presented here, and in each of them the so-called \u201csecond appeal\u201d was dismissed.\nThus, in Hamilton v. Dabbs, 216 La. 867, 44 So.2d 896, we said: \u201cThe motion to dismiss must be sustained. The established jurisprudence of this court is that where a suspensive appeal has been abandoned by a failure to file the transcript within three judicial days after the return day (if no extension of time has been granted) the appellant cannot afterwards take a devolutive appeal from the same judgment. To this effect, and involving a factual situation identical with that here, is each of the following : \u2022 [here numerous cases are cited, the last of which is Dupierris v. Sparicia, 164 La. 290, 113 So. 851, 852],\n\u201cIn the last mentioned case, we stated:\n\u201c \u2018The counsel for appellant contends that the first appeal bond was given for a suspensive appeal, and the failure to bring up the transcript of that appeal could not be considered an abandonment of the devolutive appeal.\n\u201c \u2018The jurisprudence is otherwise.\n\u201c \u2018Where an appeal, whether suspensive or devolutiv\u00e9, has been perfected by giving the required bond and the appellant fails to file the transcript within the time prescribed by law or the order of court, the right of appeal itself is lost.\n\u201c \u2018The authorities cited and relied on by counsel were cases whether the appeal had not been perfected by giving the bond.\n\u201c \u2018Of course, there is no appeal to be abandoned until the bond is executed.\n* * * * * *\n\u201c \u2018In the instant case the defendant complied with the first order of appeal by giving the bond, and, having failed to file the transcript in time, she could not thereafter renew the appeal, and it makes no difference whether the abandoned appeal was suspensive or devolutive.\u2019 \u201d (Brackets ours.)\nThe holding in the Hamilton case has since been adhered to in Hyde v. Sims, 222 La. 567, 62 So.2d 837; Thompson v. Bamburg, 231 La. 1082, 93 So.2d 666; and Love v. Department of Highways, State of Louisiana, supra.\nAppellant, in an effort to avoid dismissal of this appeal under the foregoing authorities maintains that appellee\u2019s motion in the district court to rescind the second appeal order, as well as her exception here to prevent argument on the merits, constituted an acquiescence in the instant devolutive appeal and an abandonment of the motion to dismiss. His position is not well taken. By both of such filings appellee merely exhibited an intention of seeking to protect her rights under the motion to dismiss.\nIn Southern Premium Service v. Oddo, 226 La. 95, 75 So.2d 20, 23, we had occasion to determine what constitutes a waiver of an appellee\u2019s rights with respect to a motion to dismiss an appeal. Therein we said: \u201c* * * The rule of law depended on by counsel is that an appellee cannot have the appeal dismissed when he has taken any action inconsistent with that purpose. The doctrine obtains only in cases where the alleged acquiescence has occurred by an appearance in the appellate court, after the transcript has been tardily filed, for purposes other than moving to dismiss the appeal * * (Italics ours.)\nHere the actions of appellee were not inconsistent with her motion to dismiss; they, rather, were for the specific purpose of achieving that end. Consequently they cannot in any manner be considered as a waiver of her rights to obtain a dismissal of the appeal.\nHaving reached the conclusion that the motion to dismiss must be sustained we are unable to, and we do not, pass on the merits of the appeal and the answer thereto.\nFor the reasons assigned the appeal is dismissed at appellant\u2019s costs.",
+        "type": "majority",
+        "author": "HAMITER, Justice."
+      }
+    ],
+    "attorneys": [
+      "Ponder & Ponder, Amite, James T. Burns, Covington, for plaintiff-appellant.",
+      "Benton & Moseley, Baton Rouge, Mary Purser, Amite, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "115 So.2d 801\nNancy Callan CONEY v. Walton B. CONEY. Walton B. CONEY, v. Nancy Callan CONEY (two cases).\nNo. 44703.\nNov. 9, 1959.\nRehearing Denied Dec. 14, 1959.\nPonder & Ponder, Amite, James T. Burns, Covington, for plaintiff-appellant.\nBenton & Moseley, Baton Rouge, Mary Purser, Amite, for appellee."
+  },
+  "file_name": "0409-02",
+  "first_page_order": 237,
+  "last_page_order": 241
+}

@@ -1,0 +1,349 @@
+{
+  "id": 4381638,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. MICHAEL ALOYSIUS DUKE, Defendant and Appellant",
+  "name_abbreviation": "People v. Duke",
+  "decision_date": "1969-10-03",
+  "docket_number": "Crim. No. 14562",
+  "first_page": "630",
+  "last_page": "638",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "276 Cal. App. 2d 630"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "453 P.2d 600",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "75 Cal.Rptr. 208",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.2d 80",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        8711919
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/71/0080-01"
+      ]
+    },
+    {
+      "cite": "453 P.2d 591",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "75 Cal.Rptr. 199",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.2d 66",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        8711918
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/71/0066-01"
+      ]
+    },
+    {
+      "cite": "329 P.2d 917",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "163 Cal.App.2d 678",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4397424
+      ],
+      "pin_cites": [
+        {
+          "page": "682-683"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/163/0678-01"
+      ]
+    },
+    {
+      "cite": "10 Cal.Rptr. 420",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "188 Cal.App.2d 466",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4369983
+      ],
+      "pin_cites": [
+        {
+          "page": "469"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/188/0466-01"
+      ]
+    },
+    {
+      "cite": "28 Cal.Rptr. 751",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "213 Cal.App.2d 436",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2311122
+      ],
+      "pin_cites": [
+        {
+          "page": "439-440"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/213/0436-01"
+      ]
+    },
+    {
+      "cite": "253 P.2d 50",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 Cal.App.2d 866",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2247148
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/115/0866-01"
+      ]
+    },
+    {
+      "cite": "10 Cal.Rptr. 799",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "188 Cal.App.2d 723",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4369877
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/188/0723-01"
+      ]
+    },
+    {
+      "cite": "62 Cal.Rptr. 922",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "255 Cal. App.2d 225",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2218982
+      ],
+      "pin_cites": [
+        {
+          "page": "228"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/255/0221-01"
+      ]
+    },
+    {
+      "cite": "70 Cal.Rptr. 892",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "264 Cal.App.2d 747",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2183109
+      ],
+      "pin_cites": [
+        {
+          "page": "753-755"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/264/0747-01"
+      ]
+    },
+    {
+      "cite": "3 Cal.Rptr. 917",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "179 Cal.App.2d 751",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "pin_cites": [
+        {
+          "page": "754"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.Rptr. 304",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "211 Cal.App.2d 534",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2306505
+      ],
+      "pin_cites": [
+        {
+          "page": "538"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/211/0534-01"
+      ]
+    },
+    {
+      "cite": "325 P.2d 234",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "160 Cal.App.2d 589",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4394547
+      ],
+      "pin_cites": [
+        {
+          "page": "595"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/160/0589-01"
+      ]
+    },
+    {
+      "cite": "313 P.2d 912",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "153 Cal.App.2d 104",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4420788
+      ],
+      "pin_cites": [
+        {
+          "page": "105-106"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/153/0104-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 714,
+    "char_count": 12891,
+    "ocr_confidence": 0.802,
+    "pagerank": {
+      "raw": 9.17515052991114e-08,
+      "percentile": 0.5090528443936306
+    },
+    "sha256": "3f6b8762bc82fc695bc2ab2033ab8120b7ed416bc9fd14640981d166f6945456",
+    "simhash": "1:9ca578e0d523e2bb",
+    "word_count": 2166
+  },
+  "last_updated": "2024-02-27T17:52:21.889319+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. MICHAEL ALOYSIUS DUKE, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "a violation of section 11530 of the Health and Safety Code (possession of marijuana). Defendant was found guilty after a court trial, a jury having been waived. He was sentenced to the state prison for the term prescribed by law. This appeal follows.\nThe record, considered in the light most supportive of the conviction (People v. Flummerfelt, 153 Cal.App.2d 104, 105-106 [313 P.2d 912]) but nonetheless also taken subject to certain prosecution concessions elicited by the defense, shows the facts to be as follows: Officer Stephens and his partner, patrolling in a police vehicle, observed defendant from the rear driving a 1955 Buick on Western Avenue near Venice Boulevard in the City of Los Angeles with one passenger in the front seat. He saw that defendant failed to stop for a red light before making a right turn on Venice Boulevard, and drove after him to stop him for this violation. In the course of the pursuit Officer Stephens put on his red light. Defendant drove 50 miles per hour through a 25-mile residential zone. After going about three-fourths of a mile, defendant made a quick right turn and went out of view of Officer Stephens. However, as the officer drove his car around the turn, he observed that the Buick had come to a stop. He was then about 50 feet from the defendant\u2019s car. He saw the passenger, already out of the car, running north between two houses; saw defendant slide across the front seat from the driver\u2019s side to the passenger\u2019s side, step out of the car on the passenger\u2019s side and walk toward the police car; and saw defendant throw what appeared to be a plastic bag to his left toward a hedge so that it landed in the dirt beside the hedge next to the sidewalk. The officer retrieved the bag. It, contained a quantity of leafy debris. Later an examination by a forensic chemist established that it contained 19 grams of marijuana. Officer Stephens had been a police officer four years, and during this period he had had occasion to observe, marijuana. He arrested defendant on a narcotics charge after recovery of the plastic bag. Defendant was handcuffed and placed in the rear seat of the police car. Officer Stephens and his partner drove into a nearby alley where they searched awhile for the passenger who had run off. They did not find him. They transported defendant to the Wilshire police station. He was booked there on a burglary charge On cross-examination Officer Stephens testified that he believed he knew why defendant was so booked, but he was not asked to explain further by defense counsel or by the deputy district attorney\nDefendant testified that he had not been in the Buick but had seen it stop and its two occupants, one of whom he knew, run off.\nIn several briefs filed both in propria persona and through counsel defendant makes the following contentions, only the last of which is sound. We state and answer them seriatim.\n1. The People had no right to try him on the recharge of possession of marijuana because he had only been booked on a burglary charge.\nBooking is merely a ministerial function and an. irregularity in that process alone will not deny a defendant due process. Here there was reasonable cause for Officer Stephens to arrest defendant for possession of marijuana (see contention 7, infra). He was arrested for possession of marijuana. Further, the information filed by the district attorney\u2019s office clearly alleged a violation of section-11530 of the Health and Safety Code, possession of marijuana. Defendant was fully apprised of the charge against him and in. no way prejudiced by any irregularity in the booking process. Apparently there was an explanation for booking defendant in this manner even though his field arrest had been for the narcotic violation. The officer was prepared to give it, but defense counsel did not ask him to do so.\n2. Defendant\u2019s rights were transgressed because a second judge finished the case when the first judge died. This step is authorized by Penal Code section 1053. The first judge had completed the fact-finding and had found defendant guilty. Defendant points to nothing to indicate that the second judge did not familiarize himself with the circumstances so as to be in a position to handle the sentencing procedure adequately. Defendant did not object on this or any other ground at the time.\n3. Defendant did not have a fair trial. The only specific claims and record designations which defendant makes in this regard are: that a personal request by him to the sentencing judge to address the court was ignored and that the judge (presumably the one who sentenced him) was prejudiced as indicated by his remark that he considered the defendant a professional criminal. As to the former point, when the sentencing session first came on just before noon (several months delayed because defendant had absconded and after the trial judge had died) and it was being recessed briefly while defendant\u2019s attorney was en route from another department, defendant asked the judge if he would be allowed to address the court in his own behalf. The judge observed, \u201cLet's get counsel here.\u201d When the hearing resumed, counsel addressed the court forcefully on behalf of defendant. Defendant did not again ask to speak in his own behalf. Generally the court does not permit a defendant represented by counsel to address it personally. (People v. Mims, 160 Cal.App.2d 589, 595 [325 P.2d 234] ; cf. People v. Evans, 211 Cal.App.2d 534, 538 [27 Cal.Rptr. 304].) The court has the discretion to do so, but ordinarily exercises it only in special circumstances. If the judge\u2019s observation before recess was not in itself a determination not to so exercise his discretion, his failure to ask defendant when the session resumed if he still wanted to address the court himself was such a determination. With respect to the second item, we point out the obvious that the first judge had already found defendant guilty. There was no such feature as the second judge, on the merits of guilt or innocence, believing defendant more likely guilty because he knew of his criminal record and had concluded that he was a professional criminal. It was proper for the sentencing judge to review defendant\u2019s past criminal record. In making the criticized remark, the judge was stating his personal appraisal of that record. The circumstance that the judge arrived at this viewpoint and made it known to defendant and the attorneys does not establish that he was improperly prejudiced against defendant. Finally, in our examination of the entire record, we have found no indication of unfairness in the trial.\n4. The arresting officer, who testified, improperly withheld information favorable to defendant. Defendant, himself, however, explains in his brief that this occurred only as the officer testified on direct and that the information alluded to came out on cross-examination and rebuttal. There was no prejudice.\n5. The police failed to arrest the two persons who were in the ear and ran off. Under the evidence as accepted by the court, defendant was one of the two occupants of the Buick. The officers did make an effort to capture the passenger, even as they retained defendant in the police car. The fortuity of the ability of the officers to apprehend but one of two offenders obviously does not require discharge of the one arrested.\n6. There was no probable cause to support a search (apparently referring to an alleged search of the hedge area for the plastic bag). The officer saw defendant throw the bag, and it was readily inferable that he saw it land and that it remained in plain sight on the ground near the hedge (not hidden in it). The police are not required to close their eyes to items in plain sight. (People v. Escabosa, 179 Cal.App.2d 751, 754 [3 Cal.Rptr. 917]; see also People v. Irvin, 264 Cal.App.2d 747, 753-755 [70 Cal.Rptr. 892] ; People v. Huguez, 255 Cal. App.2d 225, 228 [62 Cal.Rptr. 922]; People v. Gilbert, 188 Cal.App.2d 723 [10 Cal.Rptr. 799].) The suspicions of the officer about the plastic bag were legitimately raised. He retrieved it promptly.\n7. There was no probable cause for the arrest of defendant (seizure of his person). The testimony of the officer clearly warranted the finding that the officer recovered the plastic bag of marijuana (which he had seen defendant throw to the ground) before he arrested him. The contents were observable to the officer. The trial judge had the right to conclude that the officer recognized the contents as marijuana on the basis of his observations of marijuana over a four-year period of police work.\n8. The evidence was insufficient to support the finding of guilt. In this connection defendant points to the matter of identity of defendant, and (as defendant puts it) \u201cconstructive\u201d possession of marijuana, and intention to possess it. Defendant suggests that it is inherently improbable that the officer saw enough of the person driving the car by his view of him from the rear to be able to rightfully conclude that he was the same person he later saw approaching the police unit, on the sidewalk. Defendant overlooks that the officer rounded the corner in the police vehicle soon enough to see defendant slide from the driver\u2019s side across the seat and alight from the front door. Moreover, it was for the trier of fact, and is not for us, to appraise the witness and make the determination that he saw from the rear, as he said he did, defendant driving the car. There was no problem of constructive possession of contraband in this case, although there might have been if the marijuana had been left in the ear. (Cf. People v. Foster, 115 Cal.App.2d 866 [253 P.2d 50].) Officer Stephens saw the plastic bag in defendant\u2019s hand as it was so held in the act of throwing. Considering the minute lapse of time and the continued visibility of the object before its recovery, there was no problem of tying its possession to defendant. Intention to possess is inferable from the circumstances. (People v. Perez, 213 Cal.App.2d 436, 439-440 [28 Cal.Rptr. 751]; People v. Fuller, 188 Cal.App.2d 466, 469 [10 Cal.Rptr. 420]; People v. Spicer, 163 Cal.App.2d 678, 682-683 [329 P.2d 917].) Defendant made no claim that he did not know he had hold of the bag. His defense, obviously not believed by the judge, was that he innocently happened to be walking along the sidewalk and that the bag had been thrown by one of the two persons who had run off from the car. If by this contention defendant is trying to say that the prosecution failed to present enough evidence to show that defendant had knowledge that the contents of the bag was marijuana, it is sufficient to point out that this element was readily inferable from the many aspects of incriminating conduct on the part of defendant.\n9. The record does not show that at the time of his arrest defendant was advised of his constitutional right to counsel and to remain silent. No doubt this matter was not gone into because the prosecution did not offer any out-of-court statement by defendant as part of its proof. It has never been held that an arrested person cannot be tried at all because he was not advised of his Constitutional rights' when arrested.\n10. Finally, defendant is entitled to have consideration given to the alternative dispositions available under the amended provisions of Health and Safety Code section 11530 (Stats. 1968, ch. 1465, \u00a7 1.) This point is well taken in light of People v. Francis, 71 Cal.2d 66 [75 Cal.Rptr. 199, 453 P.2d 591], and People v. White, 71 Cal.2d 80 [75 Cal.Rptr. 208, 453 P.2d 600].\nAccordingly, the judgment of conviction is reversed insofar as it commits defendant to imprisonment in the state prison and is otherwise affirmed. The case is remanded to the superior court for the sole purpose of resentencing defendant to jail or to prison, or placing him on probation, if eligible, whichever action the superior court concludes is appropriate.\nStephens, Acting P. J., and Chantry, J. pro tern., concurred.\nDefendant\u2019s \"briefs on appeal were filed in this order: Appellant\u2019s opening brief by defendant; appellant\u2019s opening brief by counsel; appellant\u2019s supplemental opening brief by defendant; appellant\u2019s reply brief by defendant (in the interim respondent\u2019s brief had been filed); appellant\u2019s supplemental opening brief by counsel; addendum to supplemental opening brief by defendant.\nRetired judge of the superior court sitting under assignment by the Chairman of the Judicial Council.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "[Crim. No. 14562.\nSecond Dist., Div. Five\nOct. 3,1969.]\nTHE PEOPLE, Plaintiff and Respondent, v. MICHAEL ALOYSIUS DUKE, Defendant and Appellant.\nAlbert D. Silverman, under appointment by the Court of Appeal, for Defendant and Appellant.\nThomas C. Lynch, Attorney General, William E. James, Assistant Attorney General, and Frederick R. Millar, Jr., Deputy Attorney General, for Plaintiff and Respondent."
+  },
+  "file_name": "0630-01",
+  "first_page_order": 652,
+  "last_page_order": 660
+}

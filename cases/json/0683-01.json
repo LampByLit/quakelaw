@@ -1,0 +1,99 @@
+{
+  "id": 3188002,
+  "name": "In re Cecil CHELETTE: Extradition Proceedings",
+  "name_abbreviation": "In re Chelette",
+  "decision_date": "1959-12-14",
+  "docket_number": "No. 44897",
+  "first_page": "683",
+  "last_page": "689",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 683"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 So.2d 293"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "225 La. 564",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3034392,
+        10063565
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/225/0563-01",
+        "/so2d/73/0462-01"
+      ]
+    },
+    {
+      "cite": "157 La. 652",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1273643
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/157/0651-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 421,
+    "char_count": 8075,
+    "ocr_confidence": 0.749,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.0900131629295762
+    },
+    "sha256": "a65f6742ed16e2b5a86062a7b8a617ede6c0a2f86e27bd2947f558b004f7c359",
+    "simhash": "1:21a8171dd24b8ba7",
+    "word_count": 1328
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Cecil CHELETTE: Extradition Proceedings."
+    ],
+    "opinions": [
+      {
+        "text": "HAMLIN, Justice.\nIn the exercise of our supervisory jurisdiction (Art. VII, Sec. 10, Louisiana Constitution of 1921, LSA), we issued a writ of certiorari to the Ninth Judicial District Court for the Parish of Rapides for review of its judgment of September 30, 1959 refusing the demand of the Governor of the State of Arkansas for the extradition of Cecil Chelette and ordering the said Chelette discharged. Incorporated in the judgment is the following statement:\n\u201cThe Court finding that the requisition of the Governor of the State of Arkansas is not accompanied by a duly certified copy of a sworn statement of the complainant as required by RS 15:160, and therefore defective, the demand for extradition is refused and the prisoner is ordered discharged. * * * jj\nOn December 11, 1958, Travis Mathis, Prosecuting Attorney, County of Clark, Eighth Judicial District, State of Arkansas, filed an affidavit in the Circuit Court of \u25a0Clark County, Arkansas, which stated:\n\u201c * * * that the defendant, Cecil Chelette, did on or about the 15th day of April, 1958, in Clark County, Arkansas, commit the offense of removing mortgaged property from the State of Arkansas against the peace and dignity \u2022of the State of Arkansas.\n\u201cI further state on oath that I, Travis Mathis, Prosecuting Attorney \u2022of the Eighth Judicial District of Arkansas, filed an information with the \u2022clerk charging said Cecil Chellete with said offense and that a warrant was issued against the said Cecil Chellette because of said offense of removing mortgaged property from the State of Arkansas and that I had a constitutional right as Prosecuting Attorney of the Eighth Judicial District of the State of Arkansas to file said charge in this court. That the said charge or information was filed in the name and by the authority of the State of Arkansas. That on this day I am filing this affidavit and attaching hereto a certified copy of the information against the said Cecil Chelette which is made a part of this affidavit.\u201d\nThe information attached to the above affidavit alleged that Cecil Chelette, with the intent to cheat and defraud, removed beyond the limits of the State of Arkansas a 1950 DeSoto automobile of a value of $225, upon which B. F. Willingham d/b/a Gurdon Motor Company had a lien by virtue of a certain title retaining note given by Chelette as security for a debt of $254.\nOn June 25, 1959, pursuant to a petition filed by the Prosecuting Attorney, the Governor of the State of Arkansas addressed the following official document to the Governor of Louisiana:\n\u201cTo His Excellency, The Governor of Louisiana\n\u201cWhereas, It. appears by the annexed papers which I certify to be authentic and duly authenticated in accordance with the laws of this State, that Cecil Chelette stands charged by Affidavit, Information, and Warrant with the crime of Removing Mortgaged Property from the State of Arkansas committed in the County of Clark in this State, which I certify to be a crime under the laws of this State, and that he has fled from this State and is a fugitive from the justice thereof, and it is believed such fugitive has taken refuge in the State of Louisiana.\n\u201cNow, Therefore, I, Orval E. Faubus Governor of the State of Arkansas, pursuant to the provisions of the Constitution and Laws of the United States, do hereby make requisition for the apprehension of the said fugitive and for his delivery to Royal Deaton who is hereby authorized to receive and convey him to the State of Arkansas, here to be dealt with according to Law.\u201d\nThe Lieutenant Governor and Acting Governor of the State of Louisiana issued his warrant, commanding all sheriffs, constables, and other civil officers of the State of Louisiana, to arrest Cecil Chelette and deliver him to Royal Deaton in order that he might be taken back to Arkansas to be dealt with for the crime of removing mortgaged property from the State of Arkansas.\nChelette was duly apprehended. After he refused to be voluntarily extradited to the State of Arkansas, proceedings were tried in the Ninth Judicial District Court for the Parish of Rapides, State of Louisiana, on September 28, 1959. Defendant legally objected to extradition for the averred reason that there was no showing to indicate that the procedures provided by LSA-R.S. 15:162, 163, 165, and 166, had been completed. Counsel for the defendant objected that the affidavit filed by the Prosecuting Attorney of Clark County, Arkansas, was dated December 11, 1958, and that extradition proceedings were not conducted under LSA-R.S. 15:168, which provides that the hearing should be had within 30 days after the affidavit was made. Counsel for the defendant still further objected to the offering in evidence of a warrant issued on October 13, 1958 by the City Court, Alexandria, Louisiana, for the arrest of the defendant. The latter objections were overruled; counsel for the defendant reserved bills of exception; and the trial court rendered judgment refusing the extradition of the defendant, supra.\nThe State of Louisiana applied for the writ herein granted. The defendant did not perfect the bills of exceptions reserved, supra, or offer opposition to the application herein filed by the State. Presented for our- determination, therefore, are the contentions urged by the State..\nIt is the contention of Relator that the requirements of LSA-R.S. 15:16o were met and substantially complied with. Alternatively, Relator argues that the whole matter is governed by the United States Constitution and Statutes enacted thereunder, and that the requisition of the Governor of Arkansas is in compliance with the Federal Constitution and Statutes.\nAn examination of the documents of record, supra, manifests that they were properly certified. They set forth all facts necessary for an understanding of the matter involved. They were attached to the requisition for extradition, supra, and were again properly certified therein. State ex rel. Covington v. Hughes, 157 La. 652, 102 So. 824. There was certainly no necessity for the Prosecuting Attorney of Clark County, Arkansas, to repeat in a sworn statement the facts set out in (1) his petition to the Governor of Arkansas, (2) his affidavit filed in the Circuit Court, Clark County, Arkansas, and, (3) the bill of information. Such would have been reiteration and repetition. We conclude that the documents attached to the requisition for extradition of Cecil Chelette constituted a sworn statement of the complainant and were sufficient to satisfy the requirements of LSA-R.S. 15:160. State v. Fleming, 225 La. 564, 73 So.2d 462; 15 La.Law Rev. 350.\nThe above conclusion precludes the necessity of our passing on the alternative contention raised by Relator.\nFor the reasons assigned, the writ is made peremptory. The judgment of the trial court is reversed and set aside. It is now ordered that Cecil Chelette be delivered to the proper authorities for extradition to the State of Arkansas.\n. \u201cWhenever, by the requisition made by the governor of another state or territory, any person is to be arrested as a fugitive from justice, the governor may, in his discretion, issue and direct to any peace officer of the parish in which such fugitive may then be a warrant for the arrest of such fugitive and for the delivery of him to the authorities, designated in the warrant, of such state or territory; provided that the governor shall not issue his warrant unless the requisition be accompanied by a duly certified copy of a sworn statement of the complainant, of a statement of facts by the prosecuting attorney and of the indictment, information or affidavit pending in the state or territory, from the justice whereof the person to be arrested shall be alleged to have fled, charging the commission of a felony or misdemeanor in such state or territory.\u201d",
+        "type": "majority",
+        "author": "HAMLIN, Justice."
+      }
+    ],
+    "attorneys": [
+      "Jack P. F. Gremillion, Atty. Gen., M. E. Culligan, Asst. Atty. Gen., F. Jean Pharis, Dist. Atty., Alexandria, for relator.",
+      "Donald M. Garrett, Alexandria, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "116 So.2d 293\nIn re Cecil CHELETTE: Extradition Proceedings.\nNo. 44897.\nDec. 14, 1959.\nJack P. F. Gremillion, Atty. Gen., M. E. Culligan, Asst. Atty. Gen., F. Jean Pharis, Dist. Atty., Alexandria, for relator.\nDonald M. Garrett, Alexandria, for respondent."
+  },
+  "file_name": "0683-01",
+  "first_page_order": 374,
+  "last_page_order": 377
+}

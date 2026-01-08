@@ -1,0 +1,258 @@
+{
+  "id": 3185970,
+  "name": "TEXAS EASTERN TRANSMISSION CORPORATION v. Steve Stirling BOWMAN, Jr.",
+  "name_abbreviation": "Texas Eastern Transmission Corp. v. Bowman",
+  "decision_date": "1959-11-09",
+  "docket_number": "No. 44554",
+  "first_page": "399",
+  "last_page": "409",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 399"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 So.2d 797"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "171 La. 223",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2914417
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/171/0223-01"
+      ]
+    },
+    {
+      "cite": "166 La. 663",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1253733
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/166/0663-01"
+      ]
+    },
+    {
+      "cite": "115 La. 328",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5311919
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/115/0177-01"
+      ]
+    },
+    {
+      "cite": "229 La. 191",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9896889,
+        5528310
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "263"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/85/0260-01",
+        "/la/229/0191-01"
+      ]
+    },
+    {
+      "cite": "94 N.Y.S.2d 221",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "197 Misc. 793",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        954233
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc/197/0793-01"
+      ]
+    },
+    {
+      "cite": "207 Okl. 91",
+      "category": "reporters:state",
+      "reporter": "Okla.",
+      "case_ids": [
+        8893718
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/okla/207/0091-01"
+      ]
+    },
+    {
+      "cite": "209 La. 939",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5412075,
+        10100063
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/209/0939-01",
+        "/so2d/25/0904-01"
+      ]
+    },
+    {
+      "cite": "314 U.S. 498",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141128
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/314/0498-01"
+      ]
+    },
+    {
+      "cite": "63 So.2d 9",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        2895538
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/222/0593-01"
+      ]
+    },
+    {
+      "cite": "222 La. 593",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2895538,
+        9906491
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/222/0593-01",
+        "/so2d/63/0009-01"
+      ]
+    },
+    {
+      "cite": "209 La. 26",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10045048,
+        5410754
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/24/0240-01",
+        "/la/209/0025-01"
+      ]
+    },
+    {
+      "cite": "115 So.2d 800",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3186872
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0409-01"
+      ]
+    },
+    {
+      "cite": "238 La. 409",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3186872,
+        9904816
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0409-01",
+        "/so2d/115/0800-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 595,
+    "char_count": 9208,
+    "ocr_confidence": 0.734,
+    "pagerank": {
+      "raw": 4.994888076899549e-07,
+      "percentile": 0.9359344888447164
+    },
+    "sha256": "cf6687208dfe488d6449b1b027bd9edfb64bf6540a15121bc68cc1b9f8eedba8",
+    "simhash": "1:e9a31175db012cd4",
+    "word_count": 1488
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "TEXAS EASTERN TRANSMISSION CORPORATION v. Steve Stirling BOWMAN, Jr."
+    ],
+    "opinions": [
+      {
+        "text": "HAMITER, Justice.\nTexas Eastern Transmission Corporation instituted this suit against Steve S. Bowman, Jr. and another action against Thomas C. McKowen, III, and his wife (No. 44,559 on the docket of this court [238 La. 409, 115 So.2d 800]) to expropriate rights of way over properties of those defendants for the construction, maintenance and operation of a natural gas pipeline.\nFollowing separate trials the district judge dismissed both proceedings on the ground that, according to his findings; plaintiff failed to prove that the desired expropriations are for a public purpose and are required by public necessity. And from the judgments the plaintiff appealed.\nIn this court the defendants have moved to dismiss the appeals (consolidated here for our consideration), they maintaining that the only question to be determined is whether plaintiff has the right to expropriate (inasmuch as public purpose and necessity have not been proved) and that the value of such right is not affirmatively shown by the record.\nWe find no merit in the motions to dismiss. Appellees do not challenge the authority of appellant to exercise the power of eminent domain; nor could they successfully do so in view of the provisions of LRS 19:2(7) and U.S.C.A. Title 15, Section 717f(h). This being true the value of each right of way sought to be expropriated determines appellate jurisdiction.\nWhile we have found no exactly analogous decisions respecting the jurisdictional issue raised here, the plain implication contained in Rapides Central Ry. Co. v. Missouri Pacific R. Co., 209 La. 26, 24 So.2d 240 and Tennessee Gas Transmission Co. v. Williams, 222 La. 593, 63 So.2d 9, is that if the right of way sought to be taken is valued in excess of $2,000 the appeal lies to this court.\nIn each of the cases presently under consideration the evidence overwhelmingly discloses that the value of the desired right of way exceeds our jurisdictional minimum. Therefore, the motions to dismiss must be overruled.\nComing now to the merits of the two causes counsel for plaintiff, in their brief to this court, \u201csubmit that the District Court erred in stating that appellant had failed to establish that the right of way sought to be expropriated is necessary in the public interest and for a public purpose.\u201d And counsel for defendants correctly declare that \u201cthere is but one basic issue before this Court on the merits: Has plaintiff-appellant sustained its burden of proving that the right of way sought is for a public purpose and required by public necessity ?\u201d\nThe record discloses that on July 5, 1955 the Federal Power Commission, after a three-day public hearing on an application docketed as No. G-4610, ordered the issuance of a certificate of public convenience and necessity to plaintiff and the Transcontinental Gas Pipeline Corporation (hereinafter referred to as Transco), thereby permitting an exchange of gas between those companies at certain designated points. Subsequently, specifically on January 31, 1958, such order was amended so as to authorize an additional interconnection between the two systems.\nAs stated in the amendatory order, the Commission found: \u201cIt is necessary and desirable in the public interest that the Commission\u2019s order issued in Docket No. G-4610 on July 5, 1955, be amended to authorize the construction and operation of an additional point of interconnection between the gas systems of Texas Eastern and Transco consisting of a tap on Texas Eastern\u2019s 30-inch South Louisiana line near its St. Francisville Compressor Station in West Feliciana Parish, Louisiana, approximately 1.88 miles of 14-inch pipeline from that point to Transco\u2019s Compressor Station No. 6 in East Feliciana Parish, Louisiana, and a metering station at the new interconnection.\u201d It is for the construction of this described interconnection that plaintiff desires the rights of way involved here.\nConcededly, plaintiff corporation was organized for the purpose of, and it engages in, the transporting and marketing of natural gas for public consumption on an interstate basis. And the conducting of its business is, pursuant to an act of Congress adopted June 21, 1938 (U.S.C.A. Title 15, Section 717 et seq.), subject to regulation exclusively by the Federal Power Commission. See Illinois Natural Gas Co. v. Central Illinois Public Service Co., 314 U.S. 498, 62 S.Ct. 384, 86 L.Ed. 371. Hence, it is seriously doubted that we could justifiably question or disregard the order of the Commission (apparently subjected to a collateral attack here by appellants) which recited that it was necessary and desirable in the public interest to permit the installation and operation of the instant interconnecting line, particularly since the mentioned congressional enactment declares that the right to a judicial review of the Commission\u2019s orders shall be vested in the federal courts. See 15 U.S.C.A. \u00a7 717r; Graziani v. Elder & Walters Equipment Co., Inc., 209 La. 939, 25 So.2d 904; Parkes v. Natural Gas Pipe Line Co. of America, 207 Okl. 91, 249 P.2d 462 ; 73 C.J.S. verbo Public Administrative Bodies and Procedure \u00a7 174, p. 516; and Home Gas Co. v. Eckerson, 197 Misc. 793, 94 N.Y.S.2d 221.\nBut be that as it may we think that plaintiff has sufficiently shown that the desired expropriations are for a public purpose and required by public necessity. In addition to the above mentioned two orders of the Federal Power Commission, which unquestionably constitute competent and admissible evidence, the record contains uncontradicted testimony to the effect that the proposed interconnecting line will carry gas destined for distribution and marketing in numerous other states for ultimate public consumption\nAnalogous is Texas Pipe Line Co. v. Barbe, 229 La. 191, 85 So.2d 260, 263. Therein we approved the finding of the district court that public necessity and purpose had been disclosed by the following circumstances: \u201c' * * * The evidence discloses that plaintiff has now in existence south of the proposed pipe line, a 22 inch crude oil line running from Houma, Louisiana, to Port Arthur, Texas. The proposed 16 inch pipe line will run from Port Arthur, Texas, to Baton Rouge and thence by way of the Plantation System to the Southeastern states. It is also necessary that the 16 inch line connect with Cities Service Refining Company at Lake Charles, Louisiana, this being one of the reasons why the servitude used in the 22 inch line could not be used in the erection of the 16 inch line. It was also testified that plaintiff had obtained a certificate of necessity from the office of Petroleum Administration for defense, a federal agency. The 16 inch line will carry gasoline and other refined products from Texas to Baton Rouge and thence to the Southeastern states. The court is of the opinion that plaintiff has shown public necessity and purpose and have the right to expropriate in the case at bar.\u2019 \u201d\nAgain, in Louisiana Ry. & Nav. Co. v. Xavier Realty, Limited, 115 La. 328, 39 So. 1, we held that a prima facie showing of necessity, unassailed by the defendant (as here), was sufficient to justify a judgment ordering an expropriation.\nThe two cases principally relied on by the defendants are inapposite. In Kansas City, Shreveport & Gulf R. Co. v. Meyer, 166 La. 663, 117 So. 765 the plaintiff urged that, merely by virtue of its right of eminent domain, it was the sole arbiter of what constituted necessity. Clearly no such contention has been made by this plaintiff; it relies primarily on the findings and orders of the Federal Power Commission. In River & Rail Terminals, Inc. v. Louisiana Ry. & Nav. Co., 171 La. 223, 130 So. 337 the defendant company was sued in trespass for the laying of its tracks across plaintiff\u2019s property without permission and without first having resorted to an expropriation proceeding. The defendant exhibited an order of the Louisiana Public Service Commission in justification of its act. But the court held that the mere issuing of a certificate of public necessity by the Commission did not authorize the taking. The fact that the present expropriation proceedings were instituted serves to indicate the inappropriateness of that decision.\nIn dismissing plaintiff\u2019s suits (the instant one and No. 44,559 on our docket [Texas Eastern Transmission Corp. v. McKowen, 238 La.. 409, 115 So.2d 800]) the trial court did not pass upon the feasibility of the route proposed for the pipeline or the value of .the rights .of way sought. Consequently, it will be necessary to remand the cases for a determination of those issues.\n\u2022 For the reasons assigned the judgment appealed from is reversed and set aside and the cause is remanded to the district court for further proceedings according to law and consistent with the views hereinabove expressed. Costs of this appeal shall be paid by the defendant. All other costs shall await the final determination of the litigation.",
+        "type": "majority",
+        "author": "HAMITER, Justice."
+      }
+    ],
+    "attorneys": [
+      "Hargrove, Guyton & Van Hook, Elmon W. Holmes, Shreveport, for plaintiff-appellant.",
+      "Kennon, White & Odom, Baton Rouge, for defcndants-appellees."
+    ],
+    "corrections": "",
+    "head_matter": "115 So.2d 797\nTEXAS EASTERN TRANSMISSION CORPORATION v. Steve Stirling BOWMAN, Jr.\nNo. 44554.\nNov. 9, 1959.\nRehearing Denied Dee. 14, 1959.\nHargrove, Guyton & Van Hook, Elmon W. Holmes, Shreveport, for plaintiff-appellant.\nKennon, White & Odom, Baton Rouge, for defcndants-appellees."
+  },
+  "file_name": "0399-01",
+  "first_page_order": 232,
+  "last_page_order": 237
+}

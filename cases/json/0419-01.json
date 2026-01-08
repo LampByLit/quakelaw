@@ -1,0 +1,271 @@
+{
+  "id": 3188423,
+  "name": "Mrs. Caroline D. WEISS et al. v. BOARD OF COMMISSIONERS FOR PONTCHARTRAIN LEVEE DISTRICT",
+  "name_abbreviation": "Weiss v. Board of Commissioners",
+  "decision_date": "1959-11-09",
+  "docket_number": "No. 44618",
+  "first_page": "419",
+  "last_page": "431",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 419"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 So.2d 804"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "134 La. 389",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2663301
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "390"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/134/0389-01"
+      ]
+    },
+    {
+      "cite": "234 La. 201",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9871672,
+        2890517
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/99/0082-01",
+        "/la/234/0201-01"
+      ]
+    },
+    {
+      "cite": "202 La. 345",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3058048,
+        10073245
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/202/0346-01",
+        "/so2d/11/0612-01"
+      ]
+    },
+    {
+      "cite": "205 La. 1029",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3153664,
+        10076620
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/205/1029-01",
+        "/so2d/18/0605-01"
+      ]
+    },
+    {
+      "cite": "14 So.2d 627",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        10061090,
+        3109070
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/14/0627-01",
+        "/la/203/0759-01"
+      ]
+    },
+    {
+      "cite": "203 La. 760",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10061090
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/14/0627-01"
+      ]
+    },
+    {
+      "cite": "111 So.2d 768",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "111 So.2d 765",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3184887
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/237/0541-01"
+      ]
+    },
+    {
+      "cite": "237 La. 541",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9896277,
+        3184887
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/111/0765-01",
+        "/la/237/0541-01"
+      ]
+    },
+    {
+      "cite": "115 So.2d 808",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3186467
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0431-01"
+      ]
+    },
+    {
+      "cite": "238 La. 431",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9905136,
+        3186467
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/115/0808-01",
+        "/la/238/0431-01"
+      ]
+    },
+    {
+      "cite": "134 La. 389",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2663301
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/la/134/0389-01"
+      ]
+    },
+    {
+      "cite": "234 La. 201",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9871672,
+        2890517
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "88"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/99/0082-01",
+        "/la/234/0201-01"
+      ]
+    },
+    {
+      "cite": "202 La. 345",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3058048,
+        10073245
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/la/202/0346-01",
+        "/so2d/11/0612-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 677,
+    "char_count": 13354,
+    "ocr_confidence": 0.74,
+    "pagerank": {
+      "raw": 5.48684278606924e-07,
+      "percentile": 0.9459416359795494
+    },
+    "sha256": "fdea9789b5079af14637e38d4bd985bd1b058a950902562d855aec120e3b07b8",
+    "simhash": "1:8716c0593155fb02",
+    "word_count": 2207
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mrs. Caroline D. WEISS et al. v. BOARD OF COMMISSIONERS FOR PONTCHARTRAIN LEVEE DISTRICT."
+    ],
+    "opinions": [
+      {
+        "text": "HAMITER, Justice.\nThe appeal in this cause has been consolidated with that in Eiseman v. Board of Commissioners for Pontchartrain Levee District, 238 La. 431, 115 So.2d 808, inasmuch as both appeals present identical issues. We shall discuss them together, although separate decrees will be entered.\nIn the petition of each suit the plaintiffs prayed for judgment for the market value of their land appropriated by the defendant in the construction of a levee in Jefferson Parish near the shore of Lake Pontchartrain. Answering, the defendant admitted that \u201c * * * plaintiffs are entitled to recover for lands actually used or destroyed for levees or levee drainage purposes under Article 16, Section 6 of the Constitution of Louisiana * * However, it affirmatively pleaded that the \u201c * * * land appropriated by defendant for such levees and levee drainage purposes was burdened with a public servitude for levee and levee drainage purposes when it was severed from the Public Domain * * * \u201d, and that it \u201c * * is obliged to pay for lands and improvements actually used or destroyed for levee or levee drainage purposes only at a price not to exceed the assessed value of such lands or improvements for the preceding year.\u201d\nThe two cases were tried on stipulations of counsel which recited the occurrence of the alleged appropriation, expressly recognized plaintiffs as the owners of the lands taken, and set forth the actual and the assessed values of the respective properties. It was further stipulated that there \u201c * * * shall be considered as evidence herein, the testimony of Messrs. Estopinal and Grevemberg (including exhibits in connection therewith) taken at the trial on January 20, 1958 in the matter of A. K. Roy, Inc. v. Board of Commissioners for the Pontchartrain Levee District, No. 8420 of the docket of this court, * * *.\u201d (The Roy matter referred to was later docketed in this court under No. 44,375, and our decision therein is reported in 237 La. 541, 111 So.2d 765.)\nFollowing separate trials of the two suits the district judge, in assigned written reasons, observed in each case: \u201cThe primary question for decision here * * * is whether or not the land taken by defendant for levee purposes was burdened with a servitude under Article 665 of the Revised Civil Code of 1870 * * *.\n\u201cIf the land was burdened with a servitude under this article, then of course plaintiffs\u2019 recovery must be limited to the assessed value of the land. On the other hand, if the land was not so burdened plain-tiffs are entitled to recover the fair market value of the property actually taken.\u201d The judge then concluded that \u201c * * * the land involved here was not burdened with a servitude under Article 665, and plaintiffs are therefore entitled to the fair market value of the property at the time of the taking.\u201d\nAccordingly, formal judgments in favor of the plaintiffs were signed (awarding $5,180 in this cause and $25,000 in the other), the respective awards bearing legal interest from the date of judicial demand until paid. And from the judgments the defendant obtained and perfected the appeals presently under consideration.\nPlaintiffs have answered the appeals, they praying that the judgments be amended so as to grant legal interest from the time of the appropriation which occurred approximately eight months prior to the date of judicial demand.\nIn this court appellant complains that: \u201cThe Lower Court erred in not finding that the property in dispute was seashore, or part of the bed of a navigable lake, thereby insusceptible of private ownership, and plaintiff had no cause of action for the property taken for the construction of the levee.\u201d It contends, to again quote from the brief of its counsel, that \u201c * * * the property in dispute is not susceptible of private ownership since Lake Pontchartrain has been classed as an arm of the sea and under the applicable Civil Code Articles, the instant property, being sea shore, can not be owned by individuals but its title remains in the general public. However, should this Court decide that the law and jurisprudence relating to Lake Pontchartrain\u2019s status as an arm of the sea does not apply in the instant proceeding then it is the further contention of defendant that the rules relative to the inalienability of the beds of navigable lakes would apply to the instant case.\u201d And appellant submits that we should remand these cases, as was done in A. K. Roy, Inc. v. Board of Commissioners for Pontchartrain Levee District, supra, to permit the introduction of further evidence for determining the question of plaintiffs\u2019 ownership of the appropriated lands (an issue raised for the first time in this court).\nObviously, we cannot say that the trial judge committed error in failing to hold that plaintiffs did not own the lands in question. Firstly, there was no issue of title presented by the pleadings. Secondly, as above pointed out, defense counsel (by means of the stipulation) expressly admitted plaintiffs\u2019 ownership.\nNor are we able to conclude that the A. K. Roy, Inc. decision has any application here. That cause was remanded for further evidence following our observation that \u201c * * * the record is replete with evidence introduced without objection during the trial of this case below that a large portion, if not all, of the land involved in this litigation lies below the mean high-water level, thus forming eith\u00e9r part of the bed or shore of Lake Pontchartrain.\n% \u2021 >f\u00ed Jfi \u2021\n\u201cThe evidence adduced at the trial in the court below, while tending to show that the property in question was below the ordinary high-water mark of the lake and subject to overflow, is inconclusive as to whether the entire or only portion of the tract was inundated by water at regular intervals or whether the property had actually become part of the bed of Lake Pontchartrain. * * * \u201d [237 La. 541, 111 So.2d 768.] However, it is to be especially noted that the record therein contained no admission of private ownership as do the records presently before us.\nTrue, as before shown, counsel for these litigants stipulated that the testimony of Messrs. Estopinal and Grevemberg taken in the trial of the Roy matter should be considered in deciding the present cases. It is also true that apparently the remand of the Roy suit was decreed on the strength of that testimony. But obviously such evidence was introduced in these causes, particularly in view of defendant\u2019s admission of plaintiffs\u2019 ownership, for the sole purpose of determining the single issue presented to the district court which was whether or not the lands taken- were burdened with a servitude under Revised Civil Code Article 665.\nNevertheless, we have examined all of the testimony given by MeS\u00e1rS. Estopinal and Grevemberg, and none of-it indicates that any of the land involved in this litigation \u201clies below the mean high-water level, thus forming either part of the bed or shore of Lake Pontchartrain.\u201d At most, it shows that the lands bordering on or rimming Lake Pontchartrain would be covered at high tide. In this connection the property taken in the Roy matter consisted of a \u201cstrip of land measuring 341 feet front along the north side of the New Orleans-Hammond Highway by a depth to the shoreline of Lake Pontchartrain of 75 feet more or less on its east line and 42 feet more or less on its west line.\u201d The strip, in other words, was actually on the shoreline and had a depth varying from 42 feet to 75 feet more or less. But the lands involved here did not border or rim the lake. All lay south of or behind the New Orleans-Hammond Highway, which formed a protecting levee therefor and prevented inundation except during severe storms; and no portion was closer to the lake\u2019s shoreline than 200 feet. Too, it does not appear from any evidence in the records that these lands were ever subject to overflow under normal conditions.\nIt is our opinion, consequently, that there is no justification for a remand of the cases on the issue of title (raised here for the first time, as aforestated).\nNeither do we find any merit in the demand of plaintiffs, made in their answers to the appeals, for legal interest from the time of the appropriation instead of from the date of judicial demand as allowed by the district court. Generally the state and its agencies cannot be compelled to pay interest unless it is specifically provided for by agreement or statute. Boxwell v. Department of Highways, 203 La. 760, 14 So.2d 627 and Makofsky v. Department of Highways, 205 La. 1029, 18 So.2d 605. However, a well recognized exception to that rule exists where property is taken or damaged for public purposes. Makofsky v. Department of Highways, supra. And under such exception legal interest is due and allowable from the date of judicial demand. Harrison v. Louisiana Highway Commission, 202 La. 345, 11 So.2d 612 and Gravity Drainage District No. 1 of Rapides Parish v. Key, 234 La. 201, 99 So.2d 82.\nOur decision in Jacobs v. Kansas City, Shreveport & Gulf Ry. Co., 134 La. 389, 390, 64 So. 150, primarily relied on by appellees, is not analogous. Among several reasons, neither the state nor one of its agencies was therein involved.\nAppellees also cite several cases decided by federal courts. However, the rule therein enunciated, conceding arguendo that it supports the answers to the appeals under consideration, is contrary to that adopted and followed by this court.\nFor the reasons assigned the judgment appealed from is affirmed.",
+        "type": "majority",
+        "author": "HAMITER, Justice."
+      },
+      {
+        "text": "McCALEB, Justice\n(dissenting in part).\nI fully subscribe to the Court\u2019s opinion holding defendant liable for the market value of plaintiffs\u2019 land appropriated by it but think it error to limit plaintiffs\u2019 recovery of legal interest from the date of judicial demand, rather than from the time of the raking of their property in March, 1949. The majority apparently concedes that, in order to satisfy plaintiffs\u2019 right to just and adequate compensation guaranteed by Section 2 of Article 1 of the Constitution of 1921, they are entitled to interest on the amount due by defendant.\nHowever, in ruling that interest is recoverable only from judicial demand, the Court cites Harrison v. Louisiana Highway Commission, 202 La. 34S, 11 So.2d 612 and Gravity Drainage District No. 1 of Rapides Parish v. Key, 234 La. 201, 99 So. 2d 82, 88, as authoritative of the date when interest commences to run in all cases in which property is expropriated or appropriated by governmental agencies.\nThis view is unsound as interest becomes payable from the time the debt becomes due (Civil Code, Art. 1938) which, in this case, is the date when defendant appropriated the property. The Harrison case did not involve the appropriation of property but was a suit for consequential damages sustained by various persons by reason of the building of an overpass within the vicinity of their respective properties. No question was presented there as to plaintiffs\u2019 right to interest from the date of the taking because there was no taking of their property. The question concerning allowance of interest was whether it should be calculated from the date of judicial demand or, as contended by attorneys for the Highway Commission, whether it should run from the date of the judgment. This contention was rejected and the judgment was affirmed, allowing interest from judicial demand, as prayed for by plaintiffs.\nThe Key case was an expropriation suit brought by a Gravity Drainage District in which the judgment of the trial court was amended so as to allow interest to the landowner from the date the expropriation of his property was legally demanded. The difference between that case and this one is that, here, plaintiffs\u2019 property has been appropriated by defendant without prior payment of just and adequate compensation, as required by the Constitution. Nevertheless, the opinion in the Key case (instead of sustaining the majority view herein) supports plaintiffs\u2019 claim for interest for, in speaking of the constitutional requirement for just and adequate compensation, the Court says that it \u201c * * * means that compensation in a matter such as this shall bear interest from the time it is due\u201d which, as applied here, is from the date the property was appropriated to defendant\u2019s use.\nThis case, I think, is on all fours with that of Jacobs v. Kansas City, S. & G. Ry. Co., 134 La. 389, 64 So. 150, where the Court found that the defendant, having failed to p\u2019ay the price of property appropriated by it for railroad purposes, owed interest on the price from the time it took possession.\nThe majority opinion attempts to distinguish the Jacobs case from this one on the ground that here an agency of the State is involved. I fail to see any basis for this differentiation; the State, in exercising the power of eminent domain, is constitutionally bound just like corporations vested with such power, to fully compensate the owner for his private property taken or damaged for public purposes. Just compensation requires payment of interest from the date of the taking.",
+        "type": "dissent",
+        "author": "McCALEB, Justice"
+      }
+    ],
+    "attorneys": [
+      "Clarence A. Frost, Reserve, A. J. Kling, Jr., Gonzales, for defendant-appellant.",
+      "Dreyfous & Kalinski, Edward A. Kalinski, New Orleans, for appellees."
+    ],
+    "corrections": "",
+    "head_matter": "115 So.2d 804\nMrs. Caroline D. WEISS et al. v. BOARD OF COMMISSIONERS FOR PONTCHARTRAIN LEVEE DISTRICT.\nNo. 44618.\nNov. 9, 1959.\nRehearing Denied Dec. 14, 1959.\nClarence A. Frost, Reserve, A. J. Kling, Jr., Gonzales, for defendant-appellant.\nDreyfous & Kalinski, Edward A. Kalinski, New Orleans, for appellees."
+  },
+  "file_name": "0419-01",
+  "first_page_order": 242,
+  "last_page_order": 248
+}

@@ -1,0 +1,82 @@
+{
+  "id": 4381964,
+  "name": "CARLO SORENSEN et al, Petitioners, v. THE SUPERIOR COURT OF SANTA BARBARA COUNTY, Respondent; DELORES M. VENTURA et al., Real Parties in Interest",
+  "name_abbreviation": "Sorensen v. Superior Court of Santa Barbara Cty.",
+  "decision_date": "1969-09-15",
+  "docket_number": "Civ. No. 33662",
+  "first_page": "131",
+  "last_page": "132",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "276 Cal. App. 2d 131"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "47 Cal.Rptr. 597",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "269 Cal.App.2d 73",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2230039
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/269/0073-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 158,
+    "char_count": 1931,
+    "ocr_confidence": 0.532,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.14946160953785337
+    },
+    "sha256": "1c1b146588e8b509ba9f71f06a48503dd6f9be295c1b707105500eb7079b4e66",
+    "simhash": "1:7c8b7d83b09c40a0",
+    "word_count": 318
+  },
+  "last_updated": "2024-02-27T17:52:21.889319+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "CARLO SORENSEN et al., Petitioners, v. THE SUPERIOR COURT OF SANTA BARBARA COUNTY, Respondent; DELORES M. VENTURA et al., Real Parties in Interest."
+    ],
+    "opinions": [
+      {
+        "text": "portion of the court\u2019s- judgment which awarded coste did not accurately reflect the intention of the court.\nThe issues adjudicated grew out of a controversy between partners. It was the intention of the court to impose costs upon the partners who had instigated the contempt proceeding in the superior court and had defended it in this court, thereby causing the petitioners to incur expenses which were taxable as costs. This court failed to notice that the attorneys for certain partners had also listed James L. Ventura Enterprises, a partnership, and J.L.V. Enterprises, a partnership, as among the \u201creal parties in interest\u201d for whom they appeared.\nIn awarding costs against the real parties in interest the court was not referring to the partnerships. The court did not intend that the burden of these costs should fall in part upon the petitioners or that the liability of the other partners to pay these costs should depend upon the final determination of the disputes which are the subject of the main action.\nFor the purpose of making the judgment of this court reflect accurately what was intended, it is ordered:\n(1) The remittitur issued to the Superior Court of Santa Barbara County is hereby recalled.\n(2) The judgment of this court (i.e., the last paragraph of the opinion) filed January 23, 1969 [269 Cal.App.2d 73 (47 Cal.Rptr. 597)], is hereby corrected to read as follows:\n\u201cThe order of September 12, 1968, holding petitioners in contempt is hereby annulled. Petitioners shall recover the costs of this proceeding against the real parties in interest Delores M. Ventura, Del Sol Ranch Co., a corporation, and Jack Schwartz.\u201d\n(3) A new remittitur shall issue in due course upon the judgment as corrected.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "[Civ. No. 33662.\nSecond Dist., Div. Four.\nSept. 15, 1969.]\nCARLO SORENSEN et al., Petitioners, v. THE SUPERIOR COURT OF SANTA BARBARA COUNTY, Respondent; DELORES M. VENTURA et al., Real Parties in Interest."
+  },
+  "file_name": "0131-01",
+  "first_page_order": 153,
+  "last_page_order": 154
+}

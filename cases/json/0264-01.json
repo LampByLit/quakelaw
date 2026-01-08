@@ -1,0 +1,685 @@
+{
+  "id": 4381700,
+  "name": "BERNARD SAMUELS, Petitioner, v. THE SUPERIOR COURT OF LOS ANGELES COUNTY, Respondent; MELVIN HOFFMAN et al., Real Parties in Interest",
+  "name_abbreviation": "Samuels v. Superior Court of L.A. Cty.",
+  "decision_date": "1969-09-19",
+  "docket_number": "Civ. No. 34134",
+  "first_page": "264",
+  "last_page": "270",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "276 Cal. App. 2d 264"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "20 Conn. 211",
+      "category": "reporters:state",
+      "reporter": "Conn.",
+      "case_ids": [
+        6755334
+      ],
+      "pin_cites": [
+        {
+          "page": "216"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/conn/20/0211-01"
+      ]
+    },
+    {
+      "cite": "28 Cal.Rptr. 757",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "213 Cal.App.2d 419",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2311070
+      ],
+      "pin_cites": [
+        {
+          "page": "433"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/213/0419-01"
+      ]
+    },
+    {
+      "cite": "60 Cal.Rptr. 761",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "252 Cal.App.2d 650",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2174453
+      ],
+      "pin_cites": [
+        {
+          "page": "653"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/252/0650-01"
+      ]
+    },
+    {
+      "cite": "31 Cal.Rptr. 765",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1967,
+      "opinion_index": 0
+    },
+    {
+      "cite": "217 Cal.App.2d 301",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2115017
+      ],
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "304"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/217/0301-01"
+      ]
+    },
+    {
+      "cite": "364 P.2d 681",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.Rptr. 817",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.2d 596",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4378910
+      ],
+      "pin_cites": [
+        {
+          "page": "601-602"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/56/0596-01"
+      ]
+    },
+    {
+      "cite": "361 P.2d 914",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1961,
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.Rptr. 194",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1961,
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Cal.2d 845",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4380656
+      ],
+      "year": 1961,
+      "pin_cites": [
+        {
+          "page": "847-848"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/55/0845-01"
+      ]
+    },
+    {
+      "cite": "42 Cal.Rptr. 366",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "231 Cal.App.2d 906",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2153619
+      ],
+      "pin_cites": [
+        {
+          "page": "912-913"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/231/0906-01"
+      ]
+    },
+    {
+      "cite": "210 P,2d 246",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "209 P.2d 830",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "93 Cal.App.2d 729",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2253319
+      ],
+      "pin_cites": [
+        {
+          "page": "732"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/93/0729-01"
+      ]
+    },
+    {
+      "cite": "244 P.2d 5",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1949,
+      "opinion_index": 0
+    },
+    {
+      "cite": "111 Cal.App.2d 231",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2234510
+      ],
+      "year": 1949,
+      "pin_cites": [
+        {
+          "page": "235"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/111/0231-01"
+      ]
+    },
+    {
+      "cite": "95 A.L.R. 1019",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 P.2d 642",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "290 P. 290",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "210 Cal. 30",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2180273
+      ],
+      "pin_cites": [
+        {
+          "page": "36"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/210/0030-01"
+      ]
+    },
+    {
+      "cite": "288 P. 1104",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "106 Cal.App. 228",
+      "category": "reporters:state",
+      "reporter": "Cal. App.",
+      "case_ids": [
+        2154963
+      ],
+      "pin_cites": [
+        {
+          "page": "231-232"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app/106/0228-01"
+      ]
+    },
+    {
+      "cite": "203 S.C. 426",
+      "category": "reporters:state",
+      "reporter": "S.C.",
+      "case_ids": [
+        2081999
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "429-430"
+        },
+        {
+          "page": "573"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sc/203/0426-01"
+      ]
+    },
+    {
+      "cite": "93 N.W. 353",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "year": 1943,
+      "pin_cites": [
+        {
+          "page": "355"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "119 Iowa 239",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        2136428
+      ],
+      "year": 1943,
+      "pin_cites": [
+        {
+          "page": "242-243"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/iowa/119/0239-01"
+      ]
+    },
+    {
+      "cite": "37 P.2d 1050",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 P.2d 1098",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.App.2d 545",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        1199412
+      ],
+      "pin_cites": [
+        {
+          "page": "554"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/1/0545-01"
+      ]
+    },
+    {
+      "cite": "56 Cal.Rptr. 5",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "247 Cal.App.2d 607",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2172270
+      ],
+      "pin_cites": [
+        {
+          "page": "609"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/247/0607-01"
+      ]
+    },
+    {
+      "cite": "67 P.2d 696",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.App.2d 677",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        6039690
+      ],
+      "pin_cites": [
+        {
+          "page": "680"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/20/0677-01"
+      ]
+    },
+    {
+      "cite": "17 Cal.Rptr. 758",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1937,
+      "opinion_index": 0
+    },
+    {
+      "cite": "198 Cal. App.2d 208",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2317280
+      ],
+      "year": 1937,
+      "pin_cites": [
+        {
+          "page": "210"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/198/0208-01"
+      ]
+    },
+    {
+      "cite": "52 Cal.Rptr. 119",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "243 Cal.App.2d 170",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2170635
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "176"
+        },
+        {
+          "page": "178"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/243/0170-01"
+      ]
+    },
+    {
+      "cite": "8 Cal.Rptr. 353",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1966,
+      "opinion_index": 0
+    },
+    {
+      "cite": "185 Cal. App.2d 426",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2340079
+      ],
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "430-431"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/185/0426-01"
+      ]
+    },
+    {
+      "cite": "1 Cal.2d 527",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        1204677
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "532, 533"
+        },
+        {
+          "page": "533"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/1/0527-01"
+      ]
+    },
+    {
+      "cite": "296 P. 82",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "211 Cal. 552",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2147125
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/211/0552-01"
+      ]
+    },
+    {
+      "cite": "211 P.2d 591",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "94 Cal.App.2d 678",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2255521
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/94/0678-01"
+      ]
+    },
+    {
+      "cite": "17 Cal.Rptr. 591",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1949,
+      "opinion_index": 0
+    },
+    {
+      "cite": "197 Cal.App.2d 815",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2318871
+      ],
+      "weight": 2,
+      "year": 1949,
+      "pin_cites": [
+        {
+          "page": "818"
+        },
+        {
+          "page": "819"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/197/0815-01"
+      ]
+    },
+    {
+      "cite": "318 P.2d 69",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "155 Cal.App,2d 251",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4424760
+      ],
+      "pin_cites": [
+        {
+          "page": "253"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/155/0251-01"
+      ]
+    },
+    {
+      "cite": "62 P. 59",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "year": 1957,
+      "opinion_index": 0
+    },
+    {
+      "cite": "129 Cal. 466",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2049520
+      ],
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "468"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/129/0466-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 851,
+    "char_count": 14090,
+    "ocr_confidence": 0.62,
+    "pagerank": {
+      "raw": 1.0137044883334457e-07,
+      "percentile": 0.5428575179479576
+    },
+    "sha256": "d53c692371922f8cb5dbb7564443a8e5861a9b5b5c9f622525daf3e22079b99f",
+    "simhash": "1:b9ffd1b372199458",
+    "word_count": 2312
+  },
+  "last_updated": "2024-02-27T17:52:21.889319+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "BERNARD SAMUELS, Petitioner, v. THE SUPERIOR COURT OF LOS ANGELES COUNTY, Respondent; MELVIN HOFFMAN et al., Real Parties in Interest."
+    ],
+    "opinions": [
+      {
+        "text": "of two named defendants in an action pending in the superior court (Melvin M. Hoffman and Christine L. Hoffman vs. Bernard Samuels, Marshall Samuels, et al, Los Angeles Superior Court No. 921236). He petitions for a writ of mandamus to direct the court below to vacate its order of December 3, 1968, denying his motion to discharge a writ of attachment theretofore levied, and its order of December 30, 1968, denying his motion to strike nine of eleven counts of plaintiffs\u2019 complaint as amended by permission of the court obtained on November 22, 196.8, prior to the hearing of either motion. This court granted an alternative writ directed to the order of December 3, 1968 (re attachment) only, the petition thereby being summarily denied as to the portion pertaining to the- order of December 30] 1968 (motion to strike). (Townsend v. Angellotti (1900.) 129 Cal. 466, 468 [62 P. 59]; cf. Bartold v. Bartold (1957) 155 Cal.App,2d 251, 253 [318 P.2d 69].)\nPetitioner contends that \u20181 attachment is unauthorized in an equitable action which is not based on a contract or quasieontractual obligation.\u201d In substance, his argument is that the complaint fails to disclose an ex contractu cause of action which will qualify as \u201can action upon a contract, express or implied, for the direct payment of money\u201d (Code Civ. Proc., \u00a7 537, subd. 1).\nThe declaration of the attorney for plaintiffs (real parties in interest) in support of the writ of attachment stated that petitioner and his codefendants were indebted to the real parties in interest on an \u201c [i]mplied agreement of defendants to pay plaintiffs\u2019 [sic] rents collected from tenants at \"apartment building, subject matter of this lawsuit, from and after May 16,1967.\u201d\nThe first issue before us is whether the declaration and the complaint, as amended, set forth- an implied contract for the payment of money within the meaning of section 537, subdivision 1, of the Code of Civil Procedure. (Stotland v. Mobile Homes Engineering Corp. (1961) 197 Cal.App.2d 815, 818 [17 Cal.Rptr. 591].) The court in Stowe v. Matson (1949) 94 Cal.App.2d 678 [211 P.2d 591], cited by petitioner, stated at page 682: \u201cThe legality of the attachment must be determined from the pleadings, proceedings and entire record in the attachment suit to ascertain therefrom what, in fact, the real grievance is for which relief is sought. As the Supreme Court said in the Abraham case: [San Francisco Iron & Metal Co. v. Abraham (1931) 211 Cal. 552 (296 P. 82)] : \u2018The question is not what the plaintiff has pleaded but what in truth and in fact is its grievance.\u2019 (Italics added.) \u201d\nIn McCall v. Superior Court (1934) supra, 1 Cal.2d 527, 532, 533, the court held that: a contract implied in law was within the meaning of \u201cimplied contract\u201d as used in section 537, subdivision 1, of the Code of Civil Procedure, attachment would therefore lie to recover the consideration paid in the case of a rescission in pais, and the fact that the equitable issues in a complaint invoking both the legal and equitable powers of the court \u201cmight well . . . predominate\u201d was not a bar to an attachment. (See pp. 532, 533, 537-538.) (See also General Ins. Co. v. Howard Hampton, Inc. (1960) 185 Cal. App.2d 426, 430-431 [8 Cal.Rptr. 353]; Landry v. Marshall (1966) 243 Cal.App.2d 170,176 [52 Cal.Rptr. 119].)\nJoinder of the contract count with other counts claiming damages which are unliquidated or which sound in tort does not militate against a party\u2019s right to an attachment upon a contract count within the attachment statute. (Stotland v. Mobile Homes Engineering Corp. (1961) supra, 197 Cal.App.2d 815, 819; Landry v. Marshall (1966) supra, 243 Cal.App.2d 170,178.)\nA contract implied in law, qualifying as a basis for attachment, is not confined to instances where one seeks to get back what he has paid out under circumstances permitting a rescission, but also includes instances wherein the defendant is in possession of funds collected by him from third persons for which he is under a legal duty to account to the plaintiff. In Arcturus Mfg. Corp. v. Rork (1961) 198 Cal. App.2d 208, 210 [17 Cal.Rptr. 758], the court affirmed an order denying a motion to dissolve an attachment where the gist of the complaint was to recover secret profits and kickbacks received by plaintiff\u2019s agent. In Oil Well Core Drilling Co. v. Barnhart (1937) 20 Cal.App.2d 677, 680 [67 P.2d 696], the gravamen of the action was to compel an agent to account for monies, which included monies collected as rentals of equipment.\nIt is immaterial that one may have to establish a tort in order to arrive at the contract implied in law upon which the attachment is based. (Klein v. Benaron (1967) 247 Cal.App.2d 607, 609 [56 Cal.Rptr. 5].) One wrongfully occupying real property is also under a quasi-contraetual obligation to pay the reasonable value of its use. (Samuels v. Singer (1934) 1 Cal.App.2d 545, 554 [36 P.2d 1098, 37 P.2d 1050].)\nThe complaint is labelled, \u201cComplaint to Quiet Title to Real Property; Specific Performance of Contract; Damages for Breach of Contract ; Rescission of Deed ; Cancellation of Deed ; Fraud ; Abuse of Process ; Declaration of Constructive Trust. \u2019 \u2019 As amended, it purports to set forth 11 separate \u201ccauses of action\" : (I) quiet title to improved real property; (II) specific performance of agreement to re\u00ab convey subject property upon repayment of a loan to petitioner;-(III) damages for breach of the agreement to reconvey; (IV) rescission of a deed absolute intended as a mortgage, on the ground of fraud; (V) (allegations that the deed delivered was defective for want of plaintiff Christine L. Hoffman\u2019s signature); (VI) breach of fiduciary relationship (?) (allegations that plaintiff Melvin Hoffman and defendant Marshall Samuels intended to operate the apartment house as partners, Marshall Samuels conspired with his father, defendant Bernard Samuels, to get. plaintiffs\u2019 interest in the property, and that' defendant Marshall Samuels ran a small claims court action for rent against the plaintiffs); (VII) repleads certain allegations from III and IV adding allegations for punitive damages; (VIII) abuse of process; (IX) constructive trust); (X) judicial declaration of rescission; and (XI) money had and received in amount of $10,329.25.\nIf it be adjudged at trial that plaintiffs (real parties in interest) are the rightful owners of the property and that petitioner and his codefendants were wrongfully occupying the real property and collecting rents from tenants which rightfully belonged to plaintiffs, then an implied-in-law contract in the sum of\" $10,329.25 for monies belonging to plaintiffs, as alleged in the declaration in support of the writ of attachment, would be made out.\nThe fact that the prayer asks for equitable relief, as well as damages, \u201chas no bearing upon the issuance of an attachment in a proper case.\u201d (McCall v. Superior Court (1934) supra, 1 Cal.2d 527, 533.)\nBefore concluding our review of the trial court\u2019s Order refusing to either \u201cquash\u201d or \u201cto discharge\u201d the garnishment (attachment), we must further inquire whether the funds upon which the writ of attachment was levied (through garnishment) were of such a legal character as to lend them subject to garnishment. The rental monies garnished represented rentals payable to petitioner, but which plaintiffs (real parties in interest) claimed were payable to them as the real owners in equity of the real property involved. Are we then confronted with a situation where the plaintiffs (real parties in interest) have caused a garnishment of their own property, which may not be done (Kerr v. Kennedy (1903) 119 Iowa 239, 242-243 [93 N.W. 353, 355]; 38 C.J.S., Garnishment, \u00a7 71, p. 268; cf. John Deere Plow Co. of St. Louis v. L. D. Jennings (1943) 203 S.C. 426, 429-430 [27 S.E.2d 571, 573]; 6 Am.Jur. 2d, Attachment and Garnishment, \u00a7 92, p. 628) ? We reopened the case for further supplemental briefings by counsel, inter alia, upon this point and for further oral argument hereon\nWhile we have been unable to find any authorities controlling the question posed in the context presented by this case, it is stated as a general rule that if the defendant\u2019s right to the fund garnished is such that he could have instituted an action for debt or for indebitatus assumpsit at common law against the holder of the fund, that fund or indebtedness is subject to garnishment. (Steineck v. Haas-Baruch Co. (1930) 106 Cal.App. 228, 231-232 [288 P. 1104].). \u201cIt is a cardinal principle of the law of garnishment that a right of action at law must exist between the principal debtor and the person contemplated as a garnishee before garnishment can become efficient.\u201d (Walker v. Doak (1930 ) 210 Cal. 30, 36 [290 P. 290].) Applying the foregoing test, there is no question but that petitioner herein could have brought an action at law against the tenants for the rentals garnished, prior to their garnishment. We, therefore, conclude that the rentals representing an indebtedness payable at law to the petitioner were of a character subject to garnishment, notwithstanding plaintiffs\u2019 making a claim thereto through their equitable causes of action.\nThe more appropriate procedure for impounding the rentals pendente lite to assure their application in conformity with any final judgment to be rendered would have been through a receiver. Much fruitless labor of counsel and unnecessary consumption of judicial time, at both trial court and appellate levels, could have been avoided had plaintiffs used the receivership procedure.\nThe peremptory writ is denied; the alternative writ heretofore issued is discharged.\nStephens, Acting P. J., and Peppy, J., concurred.\nA petition for a rehearing was denied October 2, 1969, and petitioner\u2019s application for a hearing by the Supreme Court was denied November 12, 1969.\nIn his petition filed in this court, petitioner characterizes this motion as one to \u201cquash\u201d attachment, whereas he labelled his motion in the trial court as one for \u201corder discharging the attachment.\u201d We do not deem the variance to be material. \u201cThe McCall [McCall v. Superior Court (1934) 1 Cal.2d 527 [36 P.2d 642, 95 A.L.R. 1019]] case is authority for the rule that in proper eases mandamus is a remedy to secure the dissolution of an attachment. A proper case for such a remedy is one in which there is sufScient showing that under special circumstances then existing the remedy by appeal is not adequate. \u2019 \u2019 (Lohr v. Superior Court(1952) 111 Cal.App.2d 231, 235 [244 P.2d 5] ; see also Weaver v. Superior Court (1949) 93 Cal.App.2d 729, 732 [209 P.2d 830, 210 P,2d 246].)\nCaveat: on this point see Civil Code sections 1692 and 1693, as amended by Statutes 1961; Paularena v. Superior Court (1965) 231 Cal.App.2d 906, 912-913 [42 Cal.Rptr. 366],\nThe amendment added a specific figure of $10,329.25 to count IX and added count XI pleaded as a common count for money had and received in the sum of $10,329.25. Even as amended the complaint is a hodge-podge, confusing counts with separate causes of action. (Eichler Homes of San Mateo, Inc. v. Superior Court (1961) 55 Cal.2d 845, 847-848 [13 Cal.Rptr. 194, 361 P.2d 914] ; Austin v. Massachusetts Bonding & Ins. Co. (1961) 56 Cal.2d 596, 601-602 [15 Cal.Rptr. 817, 364 P.2d 681].) Quaere if counts V, VII, and X even allege separate and distinctive remedies.\nCertainly, the parties, in order to duly protect their mutual interests and in the interests of justice, should not attempt to go to trial with the case in this messy condition, without first seeking a pretrial conference afforded by rule 208, California Buies of Court. '\u2018 The principal purposes of pretrial are to find out what the lawsuit is about, to simplify and define the issues to be litigated, and to determine how the trial may proceed most expeditiously.\u201d (Pulse v. Hill (1963) 217 Cal.App.2d 301, 304 [31 Cal.Rptr. 765]; accord Trickey v. Superior Court (1967) 252 Cal.App.2d 650, 653 [60 Cal.Rptr. 761].) The pleadings may be examined and cleaned up at that time. (Meyer Koulish Co. v. Cannon (1963) 213 Cal.App.2d 419, 433 [28 Cal.Rptr. 757].)\nWe gave notice in the alternative writ that in the absence of objections, we would take judicial notice of the trial court file pursuant to Evidence Code section 459. No objections were registered. The trial court file discloses that defendants failed to file timely answers and that a default was entered. As one of the stipulated conditions to the vacation of the entry of default against them and for obtaining permission to file a cross-complaint, the demurr\u00e9r to the complaint was deemed overruled. So defendants lost the opportunity of attacking the pleadings by way of demurrer. Defendants\u2019 motion to strike was not filed until December 20, 1968; it was not within the period prescribed by section 435 ,of the Code of Civil Procedure and it was not upon the ground that the pleadings were defective. It was premised upon the theory that by running garnishments, the plaintiffs (real parties in interest) had made an irrevocable election of remedies. Consequently, there has been no genuine attempt by the parties to put the pleadings into proper shape or to formulate the issues to be litigated at trial.\nNeither counsel, however, furnished the court with any analysis or with any authorities helpful to resolution of this question. At oral argument plaintiffs\u2019 counsel made known that the rents garnished did not exceed $25 or $30 in amount.\nCf. Lewis v. Morse (1850) 20 Conn. 211, 216, holding that where defendant had taken a wagon out of plaintiff\u2019s possession, plaintiff could attach it as defendant\u2019s property, and was not estopped from asserting his previous ownership of it in a suit for its monetary value.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "[Civ. No. 34134.\nSecond Dist., Div. Five.\nSept. 19, 1969.]\nBERNARD SAMUELS, Petitioner, v. THE SUPERIOR COURT OF LOS ANGELES COUNTY, Respondent; MELVIN HOFFMAN et al., Real Parties in Interest.\nMichael W. Samuels for Petitioner.\nNo appearance for Respondent.\nDenenberg & Friedman, Raymond S. Denenberg and Bruce A. Friedman for Real Parties in Interest."
+  },
+  "file_name": "0264-01",
+  "first_page_order": 286,
+  "last_page_order": 292
+}

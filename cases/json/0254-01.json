@@ -1,0 +1,647 @@
+{
+  "id": 1855477,
+  "name": "ORTISI v. ODERFER",
+  "name_abbreviation": "Ortisi v. Oderfer",
+  "decision_date": "1954-11-29",
+  "docket_number": "Docket. No. 4, Calendar No. 46,062",
+  "first_page": "254",
+  "last_page": "280",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "341 Mich. 254"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "340 Mich 350",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1925824
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/340/0350-01"
+      ]
+    },
+    {
+      "cite": "338 Mich 487",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1928915
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/338/0487-01"
+      ]
+    },
+    {
+      "cite": "337 Mich 383",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1931116
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/337/0383-01"
+      ]
+    },
+    {
+      "cite": "336 Mich 312",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1932372
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/336/0312-01"
+      ]
+    },
+    {
+      "cite": "335 Mich 633",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1934282
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/335/0633-01"
+      ]
+    },
+    {
+      "cite": "330 Mich 518",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1837831
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/330/0518-01"
+      ]
+    },
+    {
+      "cite": "329 Mich 659",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1903005
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/329/0659-01"
+      ]
+    },
+    {
+      "cite": "291 Mich 697",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1803576
+      ],
+      "pin_cites": [
+        {
+          "page": "700"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/291/0697-01"
+      ]
+    },
+    {
+      "cite": "286 Mich 321",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1812993
+      ],
+      "pin_cites": [
+        {
+          "page": "323"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/286/0321-01"
+      ]
+    },
+    {
+      "cite": "283 Mich. 19",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1776478
+      ],
+      "pin_cites": [
+        {
+          "page": "37"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/283/0019-01"
+      ]
+    },
+    {
+      "cite": "231 Mich 637",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1679964
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/231/0637-01"
+      ]
+    },
+    {
+      "cite": "233 Mich 234",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1724306
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "237"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/233/0234-01"
+      ]
+    },
+    {
+      "cite": "339 Mich 235",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1927629
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/339/0235-01"
+      ]
+    },
+    {
+      "cite": "300 Mich 703",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1827126
+      ],
+      "pin_cites": [
+        {
+          "page": "710"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/300/0703-01"
+      ]
+    },
+    {
+      "cite": "293 Mich 455",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1799946
+      ],
+      "pin_cites": [
+        {
+          "page": "460"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/293/0455-01"
+      ]
+    },
+    {
+      "cite": "332 Mich 427",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1834736
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/332/0427-01"
+      ]
+    },
+    {
+      "cite": "326 Mich 140",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1908680
+      ],
+      "pin_cites": [
+        {
+          "page": "145"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/326/0140-01"
+      ]
+    },
+    {
+      "cite": "169 Mich 1",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1607106
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/169/0001-01"
+      ]
+    },
+    {
+      "cite": "73 Mich 347",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1362896
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/73/0347-01"
+      ]
+    },
+    {
+      "cite": "50 Mich 174",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1393838
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/50/0174-01"
+      ]
+    },
+    {
+      "cite": "38 Mich 725",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1337579
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/38/0725-01"
+      ]
+    },
+    {
+      "cite": "34 Mich 183",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1345296
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/34/0183-01"
+      ]
+    },
+    {
+      "cite": "75 Mich 84",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1359405
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/75/0084-01"
+      ]
+    },
+    {
+      "cite": "283 Mich 401",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1776547
+      ],
+      "pin_cites": [
+        {
+          "page": "410"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/283/0401-01"
+      ]
+    },
+    {
+      "cite": "192 Mich 447",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1630281
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/192/0447-01"
+      ]
+    },
+    {
+      "cite": "189 Mich 135",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1639832
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/189/0135-01"
+      ]
+    },
+    {
+      "cite": "108 Mich 130",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1472898
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/108/0130-01"
+      ]
+    },
+    {
+      "cite": "256 Mich 549",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1867718
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/256/0549-01"
+      ]
+    },
+    {
+      "cite": "255 Mich 446",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1836923
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/255/0446-01"
+      ]
+    },
+    {
+      "cite": "257 Mich 349",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1865710
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/257/0349-01"
+      ]
+    },
+    {
+      "cite": "274 Mich 376",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1873157
+      ],
+      "pin_cites": [
+        {
+          "page": "384"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/274/0376-01"
+      ]
+    },
+    {
+      "cite": "340 Mich 43",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1925802
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/340/0043-01"
+      ]
+    },
+    {
+      "cite": "329 Mich 488",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1903053
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/329/0488-01"
+      ]
+    },
+    {
+      "cite": "261 Mich 83",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1860456
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/261/0083-01"
+      ]
+    },
+    {
+      "cite": "263 Mich 156",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1857481
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/263/0156-01"
+      ]
+    },
+    {
+      "cite": "256 Mich 264",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1867831
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/256/0264-01"
+      ]
+    },
+    {
+      "cite": "333 Mich 283",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1833234
+      ],
+      "weight": 5,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/333/0283-01"
+      ]
+    },
+    {
+      "cite": "321 Mich 71",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1919960
+      ],
+      "weight": 6,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/321/0071-01"
+      ]
+    },
+    {
+      "cite": "300 Mich 188",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1827100
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/300/0188-01"
+      ]
+    },
+    {
+      "cite": "293 Mich 364",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1799986
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/293/0364-01"
+      ]
+    },
+    {
+      "cite": "218 Mich 522",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1774575
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/218/0522-01"
+      ]
+    },
+    {
+      "cite": "319 Mich 291",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1923093
+      ],
+      "weight": 5,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/319/0291-01"
+      ]
+    },
+    {
+      "cite": "313 Mich 315",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1893292
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "321"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/313/0315-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1276,
+    "char_count": 47080,
+    "ocr_confidence": 0.486,
+    "pagerank": {
+      "raw": 1.1509224632274781e-07,
+      "percentile": 0.581389301075082
+    },
+    "sha256": "e836eec95ee39df59cae92c7891614be8e8dede75cf5c7c631a7b2d8c75d5e0c",
+    "simhash": "1:bfe4b579942e8f69",
+    "word_count": 8172
+  },
+  "last_updated": "2024-02-27T16:14:53.692353+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Bushnell, Reid, and Kelly, JJ., concurred with Butzel, C. J.",
+      "Sharpe, Boyles, and Dethmers, JJ., concurred with Carr, J."
+    ],
+    "parties": [
+      "ORTISI v. ODERFER."
+    ],
+    "opinions": [
+      {
+        "text": "Butzel, C. J.\n(for afir manee). Plaintiff, Dominic Ortisi, was struck by defendant\u2019s automobile while crossing Gratiot aven'ue, at the intersection of Gratiot and McDougall avenues in the city of Detroit. Immediately prior thereto the plaintiff had crossed McDougall avenue from west to east and then waited for the green light on the northeast corner of Gratiot and McDougall before crossing Gratiot. He waited until the light changed to green and then proceeded south across Gratiot. ..Plaintiff, the sole witness, in an action brought in the common pleas court for the city of Detroit, testified:\n\u201cQ. Now you say you waited for the. light to chaxige ?\n\u201cA. I did.\n\u201cQ. And by that do you mean that Gratiot automobiles were stopped for a red light?\n\u201cA. Yes.\n\u201cQ.' And when the light did change, what did you do?\n\u201cA. When the light changed I started to walk.\n\u201cQ. And you started to walk towards this corner, the southeast corner?\n\u201cA. The southeast, yes.\n\u201cQ. As you walked across Gratiot avenue were the automobiles on the street there?\n\u201cA. None of them.\n\u201cQ. Was there no traffic?\n\u201cA. No car.\n\u201cQ. You mean the street was clear of all automobiles ?\n\u201cA. No car. When I started to walk the light turned green and cars stopped on both sides.\n\u201cQ. Now did you. get to the southeast corner of Gratiot and McDougall?\n\u201cA. No, I didn\u2019t. A car hit me before I get there.\n\u201cQ. How far from the southeast curb of Gratiot were you when you were struck?\n\u201cA. Nine or 10 feet.\n\u201cQ. Did you see the ear before it struck you ?\n\u201cA. I only see the shade of the car; that is all I see.\u201d\nAt the conclusion of his testimony the plaintiff rested his case except for medical testimony. The defense thereupon moved for a directed verdict of no cause of action on the ground that the plaintiff had failed to show that he was free from contributory negligence, saying:\n\u201cI submit, your Honor, the plaintiff in this case has never stated as to making any observation whatsoever, except when the light turned green he started to cross Gratiot. There was no testimony that as to making any observation of traffic at any time after he started. There was no testimony that he continued his observation while crossing the street or highway. I submit that unless that is done, that would make him guilty of contributory negligence, as a matter of law.\u201d\nThe trial judge granted the motion for a directed verdict. On appeal the circuit court, after reviewing the testimony which did not establish that the plaintiff had made continual observations, but which only established that the plaintiff was crossing on the green light, decided that the plaintiff had made a prima facie case of freedom from contributory negligence and as this evidence was uncontradicted, the common pleas court should have not rendered a verdict for the defendant as a matter of law. The decision of the trial court was reversed and the case remanded with instructions to proceed to a new trial. The defendant has appealed on the claim that the plaintiff was guilty of contributory negligence- as a matter of law.\nAn examination of the multitude of pedestrian cases involving contributory negligence as a matter of law discloses the various duties required of a pedestrian who undertakes to cross the street. The case most frequently cited is Malone v. Vining, 313 Mich 315, in which it was stated (p 321):\n\u201cUnder present-day traffic conditions a pedestrian, before crossing a street or highway, must (1) make proper observation as to approaching traffic, (2) observe approaching traffic and form a judgment as to its distance away and its speed, (3) continue his observations while crossing the street or highway, and (4) exercise that degree of care and caution which an ordinarily careful and prudent person would exercise under like circumstances.\u201d\nIt is this third duty with which we are concerned in this case. This particular duty has been imposed in cases where a traffic light exists at the crossing involved as well as in cases where there is no light. Thus in Long v. Garneau, 319 Mich 291, where the plaintiff did not look to the right or left while she was in the street and did not observe that the light had changed, and as a consequence walked into the side of a car, the Court said (pp 301, 309):\n\u201cAn ordinance giving the pedestrian the right-of-way is not a \u2018guarantee\u2019 that a pedestrian may cross a street intersection, even with the green light, without looking to the right or to the left, walk into the side of a passing automobile plainly to be seen if the pedestrian had looked, and then avoid the conclusion that he is guilty of contributory negligence.\n\u201cMaintaining one\u2019s right-of-way in the face of obvious danger, even though allowed by statute or ordinance to that effect, may be temporarily satisfying, but may ultimately result in disaster.\u201d\nIt is interesting to note that in this c\u00e1se the Court upheld the trial court which found no cause of action on an examination of all of the facts and testimony in the case.\nIn Steele v. Hamilton, 218 Mich 522, where the plaintiff, not observing the light which changed while she was crossing, walked into the side of a car, the Court said (p 524):\n\u201cThere is some conflict in the testimony' as to whether the semaphore was turned against the east and west traffic, but if we concede that it was, that fact did not wholly relieve plaintiff of exercising ordinary care and using her eyes in an ordinary way to protect herself from collisions.\u201d\nTo the same effect, see Beaulieu v. City of Detroit, 293 Mich 364; Sloan v. Ambrose, 300 Mich 188.\n\"While on their face these cases indicate that even though one has the green light in his favor, he still has a continual duty to observe while crossing the street, 2 things should be noted. In all of the above cases the plaintiff walked into the side of the defendant\u2019s vehicle and in all of the cases involving lights, plaintiff failed to observe that the light had changed. In such cases where the danger is obvious and apparent being directly in the path of the pedestrian, and where the pedestrian is no longer entitled to the benefit of the light because it has changed, the rule should be that under such conditions the plaintiff may be guilty of contributory negligence as a matter of law for failure to observe.\nIn addition this Court has intimated that the continual duty to observe applies to cases where the light is in the plaintiff\u2019s favor at all times. In Boyd v. Maruski, 321 Mich 71, the plaintiff, though apparently watching it, failed to observe when or if the light had changed and also failed to observe traffic while crossing. The Court found her guilty of contributory negligence as a matter of law and added:\n\u201cNonetheless even with the traffic light in her favor, she was bound to use such care as an ordinarily careful and prudent person would use in looking for approaching traffic.\u201d\nIn Ashley v. Kilborn, 333 Mich 283, the plaintiff failed to observe either the traffic light or traffic conditions after stepping into the street. The Court held him guilty of contributory negligence as a matter of law because of his failure to observe, citing Boyd v. Maruski, supra, with approval.\nIf the effect of the above decisions is to impose the same duties upon pedestrians crossing with the protection of a green light as are imposed upon those crossing without its protection, then we feel that the rationale of those decisions requires reconsideration in the light of modern conditions. If the above cases imply that the light affords no protection at all, the duties of a pedestrian are the same with or without it. This cannot, and should not, be the case. The light must afford some protection. The question is \u2014how much ?\nIn Travis v. Eisenlord, 256 Mich 264, the plaintiffs were in a car crossing an intersection with the light in their favor. They had seen the defendant\u2019s car before they reached the intersection, but failed to continue their observations while crossing the intersection. The defendant, ignoring the signal, collided with the plaintiffs\u2019 car. The Supreme Court said (pp 265, 266):\n\u201cThe court was wrong in holding that the plaintiffs were guilty of contributory negligence as a matter of law. If he were correct in so holding, it would mean that the driver of the plaintiffs\u2019 car must at his peril assume that the defendant would disobey the law and rush the red light. The contrary is true. He had a right to assume that the defendant understood the red signal and that he would not undertake to make the crossing until it had changed to green. If he had looked, as the court says he should have done, it is true that he would have seen the defendant approaching, but he would have had a right to rest on the assumption that defendant would stop before the red light and wait until it had changed. It was the duty of plaintiffs\u2019 driver to look for the green light and to see that the intersection was clear before attempting to cross, but he was not required to look to the right for the defendant, because he had good reason to believe that he was protected from danger in that direction by the red light.\u201d\nThis case was followed in Oppenheimer v. Simpson, 263 Mich 156 (a case involving 2 cars), and in Willis v. Tucker, 261 Mich 83 (a case involving a pedestrian and a car).\nIn Morse v. Bishop, 329 Mich 488, the plaintiff observed the defendant\u2019s automobile running the red light before he started to cross the street. He failed to make any more observations. The plaintiff cited the Travis Case, supra, in his favor but the court rejected it on the grounds that it was distinguishable on the facts and that the later cases of Boyd v. Maruski, supra, and Long v. Garneau, supra, had \u201cexploded\u201d its rationale.\nWe agree that the facts in the Morse Case, supra, are distinguishable because the\n\u201cplaintiff knew, from the last observation he did make of defendant\u2019s car, that it was crossing Davison avenue despite the red light against it.\u201d (p 491)\nIn Long v. Garneau, supra, the plaintiff failed to observe that the light had in fact changed and thereupon walked into the side of defendant\u2019s car\u2014an obvious danger. In Boyd v. Maruski, supra, the plaintiff had originally observed the defendant\u2019s vehicle, but failed to make further observations of defendant\u2019s car after the signal had changed.\nIn the instant case, as in the Travis Case, the plaintiff made no observations of the defendant\u2019s vehicle while crossing the intersection. If the factual differences in these cases or in the case of Ashley v. Kilborn, supra, be merely differences without meaning, then to the extent that they are inconsistent with the theory of the Travis Case, we feel that they should no longer be considered good law.\nThere is no quarrel with those cases in which the plaintiff became aware of the danger and then failed to act prudently with knowledge of the peril. However, in the Travis Case, supra, even though the driver of plaintiffs\u2019 car originally saw the defendant, the Court said that he had no duty to anticipate danger because\n\u201cHe had a right to assume that the defendant understood the red signal and that he ivoulcl not undertake to make the crossing until it had changed to green.\u2019\u2019 (Italics supplied.)\nIn the recent case of Douglas v. Holcomb, 340 Mich 43, plaintiff, while in a crosswalk, was struck by the defendant who was making an improper turn. Mr. Justice Carr noted (p 49):\n\u201cIn the instant case we think it may be said that had plaintiff noted the presence of defendants\u2019 automobile on Hamilton street and after it entered the intersection he might have assumed that the driver would not violate the municipal ordinance, until it became reasonably apparent that such violation was about to occur.\u201d\nAll we hold here is that one who crosses with the light in his favor cannot, except in the face of a peril that is reasonably apparent, be guilty of contributory negligence as a matter of law. The question is one for the jury to determine.\nTo require a pedestrian in an intersection under the protection of a green light to stop and wait to see if approaching cars will observe the traffic light imposes a burden upon him, the effect of which may be to prevent Ms crossing the street at all.- Under modern traffic conditions as they exist in densely populated urban areas a pedestrian should not be obliged .to stop and see whether- approaching- cars observe the law. The potential sources of danger a-t busy crossings are so numerous that a pedestrian should not be required to foresee that all of these .potential dangers will become actual ones. Lights are frequently synchronized so that automobiles traveling at the lawful rate of speed, may proceed with green lights in their favor for a considerable distance. In crossing a street under the protection of a green light pedestrians can see cars coming at a rapid rate of speed but they should have the assurance by the green light that they may cross in safety under ordinary conditions and that the oncoming cars will stop as commanded by law. If, however, pedestrians must wait each time to see whether the drivers of approaching cars will observe the law, they may have difficulty in getting across and may be caught in the middle of the street as lights change at short intervals.\nThe factual settings in each case differ. In the instant case the plaintiff testified that he looked before stepping into the intersection and that the light was green when he did so. In addition his testimony indicates that while crossing he was aware of the fact that there was no moving traffic and that the cars had stopped for the light. Even if there is no direct testimony that the light was green at the time plaintiff was struck, we agree with the circuit judge when he held that \u201cthe testimony fairly establishes that it was a green light when he was hit.\u201d No other inference can be drawn. Plaintiff started to cross when the light changed. The trier of facts had a right to assume that it remained green for a sufficient duration to allow plaintiff to complete his crossing. The signal lights are for safety, not for entrapment, and they \u00e1re timed so that a pedestrian starting when given the green signal will be able to cross with safety before the light turns red.\nMany of the cases, including Sloan v. Ambrose, supra, and Ashley v. Kilborn, supra, require a pedestrian not only to observe traffic conditions but also to observe if the' light has changed. Requiring a pedestrian to observe the change can only mean that Avhile the light is green he has some measure of protection, but that when the change occurs he loses the protection theretofore afforded. However, these same cases require those pedestrians crossing- with the light to exercise the same duties and degree of care as those crossing without it. The effect of such a holding is to negative completely any protection which the light affords. The effect is rather to place upon the pedestrian crossing with the light greater duties of observance than one crossing without it, because in addition to his normal duties he must watch the light to see Avheri and if it has changed. If the light affords any protection at all it must be that a pedestrian is relieved of a duty of observance to the extent that he need not anticipate that approaching traffic will violate the law.\nIn so holding we do not imply that the green light should become an absolute guarantee of a pedestrian\u2019s safety, nor do Ave say that a pedestrian has no duty to observe under all circumstances. However,' if it is fairly established that the pedestrian started to cross when the light turned green, he cannot be held to be contributorily negligent as a matter of law for failure to observe approaching traffic, but the existence of the duty to observe becomes a question of fact upon which reasonable minds might differ. We are of the opinion that the circuit judge correctly ruled that the question of contributory negligence properly should have been submitted to the trier of facts and that the case be remanded for that purpose.\nAffirmed, with costs to the plaintiff.\nBushnell, Reid, and Kelly, JJ., concurred with Butzel, C. J.\nCarr, J.\n(for reversal). Plaintiff started this action in the common pleas court for the city of Detroit to recover damages sustained by him when struck by defendant\u2019s automobile on a public street in said city. The accident happened at approximately 5:30 p.m. on the 31st of December, 1951. On the trial of the case, before the court without a jury, plaintiff was the only witness examined. He testified that immediately prior to the accident he crossed MeDougall avenue to the northeast corner of the intersection of that thoroughfare with Gratiot, that he waited there on the curb for the traffic light to change green in his favor, that when it did so he proceeded across Gratiot toward the southeast corner of the intersection, and was struck by the automobile of defendant approximately 9 or 10 feet from the south curb.\nAt the conclusion of plaintiff\u2019s direct examination his counsel announced that he had no further proof other than of a medical character. Thereupon defendant moved for judgment in his favor, on the ground that the testimony was insufficient to show negligence on his part, and also that plaintiff had failed, as a matter of law, to establish his freedom from negligence contributing to his injuries. The motion was granted. Judgment was entered accordingly, and plaintiff appealed to the circuit court of Wayne county. In that court the judge who reviewed the record came to the conclusion that the motion for judgment in defendant\u2019s favor had been improperly granted. Accordingly an order was entered setting aside the judgment of the common pleas court and remanding the cause for a new trial. Prom such order defendant has appealed.\nIn order to maintain his right to recover damages it was incumbent on the plaintiff to show by competent proof that defendant was guilty of negligence, that such negligence was a proximate cause of the accident and the injuries sustained by plaintiff therein, and that he was not himself guilty of any negligence contributing to the accident and his injuries. On the record before us the first question is whether plaintiff\u2019s testimony, construed as strongly as reasonably possible in his favor, was sufficient in substance to justify a finding that defendant failed to observe some specific duty that he owed for plaintiff\u2019s safety, and that such failure was the proximate cause of plaintiff\u2019s injuries. The doctrine of res ipsa loquitur is not recognized in Michigan; nor may a finding of negligence be based on conjecture or speculation. It is a matter of proof from which the trier of the facts may determine the issue.\nAs before noted, plaintiff testified that he crossed McDougall avenue to the northeast corner of the intersection and waited for the light to change in his favor. The material part of his testimony, as set forth in the printed record, was as follows:\n\u201cQ. What did you do when the light changed to green?\n\u201cA. I started to cross the street.\n\u201cQ. What street?\n\u201cA. Gratiot.\n\u201cQ. Where did you wait for the light?\n\u201cA. (Indicating to point on diagram.) On the northeast corner.\n\u201cQ. You waited on the northeast corner?\n\u201cA. That is right, right there.\n\u201cQ. Where is the traffic control signal?\n\u201cA. There is one light hanging between across the street and one in each corner.\n\u201cQ. Now you say you waited for the light to change?\n\u201cA. I did.\n\u201cQ. And by that do you mean that Gratiot automobiles were stopped for a red light!\n\u201cA. Yes.\n\u201cQ. And when the light did change, what did you do!\n\u201cA. When the light changed I started to walk.\n\u201cQ. And you started to walk towards this corner, the southeast corner!\n\u201cA. The southeast, yes.\n\u201cQ. As you walked across Gratiot avenue were the automobiles on the street there?\n\u201cA. None of them.\n\u201cQ. Was there no traffic?\n\u201cA. No car.\n\u201cQ. You mean the street was clear of all automobiles ?\n\u201cA. No car. When I started to walk the light turned green and cars stopped on both sides.\n\u201cQ. Now did you get to the southeast corner of Gratiot and McDougall?\n\u201cA. No, I didn\u2019t. A car hit me before I get there.\n\"Q. How far from the southeast curb of Gratiot were you when you were struck?\n\u201cA. Nine or 10 feet.\n\u201cQ. Did you see the car before it struck you?\n\u201cA. I only see the shade of the car; that is all I see.\u201d\nPlaintiff did not claim in his testimony that he made any observations of the traffic light after he started to walk across Gratiot avenue. Neither is there proof as to the length of time between changes of the light in question, nor as to the speed with which plaintiff walked. Neither the pleadings nor the proofs contain any reference to the width of Gratiot avenue at the location of the accident. It may be noted that the circuit judge who reviewed the transcript from the common pleas court estimated such width at 90 feet but, as suggested, the record furnishes no basis for any finding as to such width.\nWhether the traffic light was green in plaintiff\u2019s favor at the time of the accident is wholly a matter of conjecture and speculation. Furthermore, plaintiff did not testify as to the part of defendant\u2019s automobile by which he was struck. He did not claim that defendant ran over him or that his body was thrown for any distance. Whether he was struck by the front or by the side of the car is not shown. His testimony as contained in the transcript filed in this Court as a part of the original record, but not set forth in full in the printed record, discloses his claim that his leg, hip, and head were injured, that following the occurrence he was taken to Receiving Hospital, and that X-rays were taken and emergency treatment given. He was released from the hospital the same evening. Whether the injuries to his head, hip, and leg resulted directly from his impact with the automobile or by his being thrown to the pavement is not shown. A finding in this respect might possibly furnish a basis for an inference as to the portion of defendant\u2019s car that came in contact with him, that is, whether he was struck by the front of the vehicle or by its side.\nThis Court has repeatedly held that a finding of negligence in a case of this nature may not be predicated on conjecture or surmise as to what occurred. In Collar v. Maycroft, 274 Mich 376, 384, in reversing a judgment in plaintiff\u2019s favor, it was said:\n\u201cThe burden of establishing his right to recover was upon plaintiff. Benedict v. Rinna, 257 Mich 349. Negligence will not be presumed. Kerr v. City of Detroit, 255 Mich 446. The doctrine of res ipsa loquitur does not prevail in this State. Eaton v. Consumers Power Co., 256 Mich 549. The extent of the presumption in favor of plaintiff was that his decedent\u2019s driver was free from contributory negligence.\n\u201c \u2018Negligence cannot be presumed. It must be alleged, and affirmatively shown. A presumption of negligence cannot be raised without foundation, and the mere fact that an injury occurred is no evidence of fault on the part of the defendant.\u2019 Perry v. Railroad Co., 108 Mich 130 [135].\n\u201c \u2018In effect, the plaintiff relies simply upon the happening of the accident to sustain her claim of negligence on the part of the defendant. That the mere fact of an accident occurring is no evidence of negligence is well established in this State. We have very recently considered this phase of the law in Elsey v. J. L. Hudson Co., 189 Mich 135 (LRA1916B 1284), and numerous decisions are there cited.\u2019 Fuller v. Wurzburg Dry Goods Co., 192 Mich 447 [448].\n. \u201cPlaintiff failed to carry the burden of proof and he is not entitled to recover.\u201d\nA like conclusion was reached in Michigan Aero Club v. Shelley, 283 Mich 401, 410 (1938 US Av 134, 1 Av 750), where it was said, in part:\n\u201cIf plaintiff, due to lack of proof, does not make out his case, the court should so hold. Lendberg v. Brotherton Iron Mining Co., 75 Mich 84. A mere claim cannot stand in the place of evidence and operate as proof. Stewart v. Ashley, 34 Mich 183. Things not made to appear must be taken as not existing. Van Auken v. Monroe, 38 Mich 725. Plaintiff\u2019s case must be established by the evidence. The court may not guess in default of evidence. Marquette County v. Ward, 50 Mich 174; Baird v. Abbey, 73 Mich 347; Swift & Co. v. McMullen, 169 Mich 1.\u201d\nThe statement above set forth was quoted with approval in Mercure v. Popig, 326 Mich 140, 145, in which a judgment for defendant based on a directed verdict was affirmed.\nIn the case at bar facts not reasonably established by the proofs may not be assumed. The burden rested on plaintiff to prove his ease before the trial court. He may not rely on the claim that defendant\u2019s negligence may be inferred from the fact than an accident happened, without satisfactory proof as to how and why. It does not appear that at the time of the accident defendant was operating his automobile against a traffic light. If plaintiff relied on negligence in such respect the burden was on him to offer testimony to prove the fact. Such showing as there is in the record as to other physical facts fails to show actionable negligence on the part of defendant. As said in Barry v. Elkin, 332 Mich 427, 431:\n\u201cBut there must be more than a mere possibility that the unreasonable conduct of the defendant caused the injury. \u2018There must be substantial evidence which forms a reasonable basis for the inference of negligence.\u2019 Poundstone v. Niles Creamery, 293 Mich 455, 460, and In re Estate of Miller, 300 Mich 703, 710.\u201d\nSee, also, Holtz v. L. J. Beal & Son, Inc., 339 Mich 235, in which it was again recognized that in order to justify a recovery of damages on the basis of negligence of the defendant the evidence must be sufficient to take the case out of the realm of speculation and conjecture.\nThe above cases clearly indicate the principles that this Court has uniformly applied in determining the necessity and sufficiency of proof required to establish negligence on the part of one sought to be held liable for damages in a case of this nature. Applying such principles in the present case leads to the conclusion that plaintiff failed to show any specific act of negligence, as charged in his declaration, on the part of the defendant. We may not indulge in speculation, or draw inferences having no proper foundation in the record, in order to supply .tlio lack of proof. The .conclusion follows that plaintiff failed on the trial before the judge of the common pleas court to establish actionable negligence on defendant\u2019s part..\nDecision in the case might well be based solely on the failure of plaintiff: to show negligence on defendants part constituting the proximate cause of the accident. However, if we assume for purposes of discussion that there is a sufficient factual basis in the record for a legitimate inference of such negligence, we come to the question of contributory negligence on plaintiff\u2019s part. The judge of the common pleas court who heard the case decided, after listening to plaintiff\u2019s testimony, that he was guilty of contributory negligence as a matter of law, such conclusion being based on the ground that plaintiff had failed to exercise reasonable care for his own safety. We think such conclusion was fully justified by the record.\nAs before pointed out, plaintiff left the northeast corner of the intersection with the green light in his favor. He did not claim in his testimony that he made any further observation of the light. It may not be assumed that it continued in his favor until the occurrence of the accident. Plaintiff did not see defendant\u2019s car prior to the time that it came in contact with him. He did testify that he saw its shadow, inferentially at the instant the impact occurred. The conclusion cannot be avoided that plaintiff was not exercising any care for his own safety other than his initial observation of the traffic light at the time he left the north curb of Gratiot avenue. We may not assume that he did more than that.\nThe burden of proof was on plaintiff to establish his freedom from contributory negligence, and, hence, he was bound to show what precautions he took for his own safety. To say that he established this necessary element of his cause of action involves declaring that a pedestrian who starts across \u00e1 street with the traffic light in his favor is free of any obligation or duty to note a possible change in the light. Neither is he required, under such theory, to make observations as to traffic conditions on the street or other possible dangers to his safety. Any holding of such character is at variance with a long line of prior decisions of this Court. It h\u00e1s been repeatedly held that a pedestrian, like the driver of an automobile or other vehicle, must exercise reasonable and proper precautions for his own safety, and that is true even though he may start across an intersection with a traffic light in his favor.\nIn Steele v. Hamilton, 218 Mich 522, plaintiff undertook to cross Lafayette street in the city of Detroit with the traffic light. She had proceeded about 20 feet when she was struck by defendant\u2019s automobile and injured. The testimony in the case indicated that she was struck by that part of the car where the running board and fender met.. Commenting on the situation, it was said, in part (p 524):\n\u201cIt is exceedingly difficult to read the record evidence of this accident and avoid the conclusion that plaintiff was unmindful of her surroundings and ran into the automobile. It is obvious that the car occupied that part of the street immediately in front of her before she did, and had she been making the use of her eyes that most people do when traveling in a busy section of the city, she would have seen the car in season to have stopped before it struck her. Had she been struck by the front of the machine there would be room for her to contend that she occupied the street first but could not avoid the oncoming car, but when she was struck by the side of the car no such contention can reasonably be made. There is some conflict in the testimony as to whether the semaphore was turned against the east and west traffic, but if we concede that it was, that fact did not wholly relieve plaintiff of exercising ordinary care and using her eyes in the ordinary wav to protect herself from collisions. We are of the opinion that the evidence, as it appears in the record, was such that the trial court should have directed a verdict for the defendant on the' ground that plaintiff herself was guilty of negligence, as a matter of law.\u201d\nThe general rule as to the measure of care that a pedestrian must exercise in crossing a city street was stated in Halzle v. Hargreaves, 233 Mich 234, 237, as follows:\n\u201cVigilance is an essential and available safeguard to life and limb in this automobile age and reasonable care requires constant exercise of the faculty of sight while crossing a city street. Under plaintiff\u2019s testimony she was negligent and the circuit judge was right in so holding. Jones v. Armstrong, 231 Mich 637, and cases there cited. We recognize the rule that it must be a clear case of want of ordinary care to justify the court in holding there was negligence as a matter of law, but when the facts are beyond dispute the law must be applied. Counsel for plaintiff asked leave to argue the question of plaintiff\u2019s negligence to the jury and contends there was error in not permitting him to do so. The question was one of law upon the conceded facts and there was no error in the refusal.\u201d\nThe proofs in the case disclosed that the plaintiff, a woman of mature years, undertook to cross Second avenue in the city of Detroit. Before starting to do so she looked to the south, as she claimed, but did not see any automobile approaching, nor did she see defendant\u2019s car until it was approximately 4 feet from her in the middle of the street. Her testimony disclosed a failure on her part to make reasonable observations. The same comment may properly be made in the case at bar. Plaintiff did not see the automobile that struck him, but merely its shadow. The conclusion cannot be avoided that he was not making any observations whatever for his own safety.\nIn Beaulieu v. City of Detroit, 293 Mich 364, plaintiff administrator brought action to recover damages for fatal injuries received by his decedent on Woodward avenue in Detroit. The proofs disclosed that said decedent had started to cross to a safety zone under the protection of a green light, but the light changed before he had reached his destination. Apparently decedent failed to notice such change, continued on his way, and was struck by a street car of the defendant municipality, receiving fatal injuries. In affirming a judgment in defendant\u2019s favor, it was held by this Court that (p 369):\n\u201cThe accident was occasioned by want of care on the part of plaintiff\u2019s decedent.\u201d\nIn Sloan v. Ambrose, 300 Mich 188, a judgment in plaintiff\u2019s favor was reversed without a new trial, on the ground that plaintiff was guilty of contributory negligence as a matter of law. There, as in the case at bar, the plaintiff started to cross a municipal street with the traffic light in her favor. She passed in front of automobiles that were stopped because of the red light before them. She made no observation of the light while crossing, nor did she observe traffic except to the extent of noting the standing cars. The light changed, and at approximately the center of the street plaintiff was struck by defendant\u2019s automobile. The trial court instructed the jury that plaintiff, having started with the light in her favor, had the right to pass to the other side of the street without interference from traffic, even though the light changed in the meantime. This Court held the instruction erroneous, in that it failed to \u201cinclude the duty of plaintiff to use reasonable care and in ignoring her own testimony showing total want of care on her part.\u201d It was further stated that (p 191):\n\u201cTraffic-lights change and one starting to cross a street under their protection is still required to observe the change, if any, removing the protection and to employ reasonable care in proceeding into the-path of released traffic.\u201d\nIn Malone v. Vining, 313 Mich 315, 321, this Court indicated definite rules that should be observed by a pedestrian-undertaking to cross a street or highway, such rules involving the making of proper observations before crossing,- the continuance of such observations while crossing, and in general the- exercise of the degree of care that an ordinarily careful and prudent person would observe under like circumstances. In stating such rules the Court cited with approval Pearce v. Rodell, 283 Mich. 19, 37; Carey v. DeRose, 286 Mich 321, 323; Sonfilian v. Wiedman, 291 Mich 697, 700; Slone v. Ambrose, supra, and other prior decisions. Malone v. Vining has been repeatedly cited' and followed by this Court.\nBecause' of the facts involved the case of Long v. Garneau, 319 Mich 291, is of special interest. There, as in the case at bar,' the plaintiff pedestrian started across a city'street'with the traffic light. As she proceeded she did not look in either direction, nor did she note whether the traffic light changed. However, it did change, and she was struck by defendant\u2019s automobile. The claim was made that having started across with the light in her favor plaintiff had the right to proceed in reliance on provisions of the-traffic ordinance of the city. In rejecting such theory it was said (p 301):\n\u201cHowever, this goes only .to the question of the-negligence of the defendantnnotorist. But the pedestrian may be guilty of contributory negligence if' he fails to take the precautions that the law expects an ordinarily prudent person to take for his own protection and safety. An ordinance giving the pedestrian the right of way is not a \u2018guarantee\u2019 that a pedestrian may cross a street inters\u00e9ction, even with the green light, without looking to the right or to the left, walk into the side of a passing automobile plainly to be seen if the pedestrian had looked, and then avoid the conclusion that he is guilty of contributory negligence.\u201d \u2022\nIt should be noted in passing that the trial judge, who heard the case without a jury, apparently passed on the issues of negligence as questions of fact. However the opinion of this Court and the citations therein indicate that on appeal she was considered \u2022guilty of contributory negligence as a matter of law.\nBoyd v. Maruski, 321 Mich 71, involved facts very .similar to those In the instant cas\u00e9. ' There the plaintiff after alighting from a bus walked to the middle of Wyoming avenue in Detroit, and then proceeded to cross, with the green light in her favor, toward the west side of the street! She testified that she continued to observe the traffic light, but did not say that such light did not change prior to her being struck by defendant\u2019s vehicle. She also' testified that she made no observations with reference to traffic. In affirming a judgment in favor of defendant on a directed verdict, the Court cited with approval Long v. Garneau, supra, and said, in part (P 77):\n\u201cSince the traffic signal had .turned red against the traffic on Wyoming avenue before plaintiff left the bus, in the exercise of ordinary care she was bound to anticipate that the light might change, before she could complete crossing Wyoming avenue. But regardless of whether the light did change while plaintiff was in the act of crossing Wyoming avenue, nonetheless even with the traffic light in her favor, she was bound to use such care as an ordinarily careful and prudent person would use in looking for \u2022approaching traffic. Under her own testimony plaintiff failed to make such observation, and in that respeet she was guilty of negligence which was a proximate cause of her accident. The law in this respect is not unlike the law pertaining to the duty of each of 2 drivers of automobiles who approach an intersection simultaneously.\u201d\nAshley v. Kilborn, 333 Mich 283, involved facts similar in many respects to those in the case now before us. There, as here, the plaintiff claimed that he undertook to cross a busy street in Detroit, that he had the green light in his favor, that he looked in both directions and noticed standing cars, and that he then proceeded on his way. According to his own testimony he did not further observe the traffic light. A judgment for plaintiff was reversed, without a new trial, on the theory that his proofs established contributory negligence on his part, as a matter of law, at the time he rested his case and defendants\u2019 motion for a directed verdict in their favor was first presented. The Court, citing and quoting with approval Halzle v. Hargreaves, supra, and Boyd v. Maruski, supra, said (pp 287, 288):\n\u201cA pedestrian must not only make proper observations before crossing a street, observe approaching traffic and form a judgment as to its distance away' and speed, but must continue his observation while crossing the street and exercise such a degree of care and caution as an ordinarily careful and prudent person would under like circumstances. Malone v. Vining, 313 Mich 315. The factual circumstances in the numerous automobile accident cases that have come to this Court differ in various respects, but there are many that have sufficiently similar or analogous facts so that the decisions therein and the principles set down therein are a guide in the instant case. Plaintiff, at the first motion by defendants for a directed verdict, had shown that he was guilty of contributory negligence as a matter of law. After leaving the curb, he failed to look to the east until he was struck, and he did not look ahead to see whether or not the light had turned to red. One cannot enter the intersection of busy streets and carelessly fail to continue attention to traffic conditions.\u201d\nWe think that Ashley v. Kilborn is controlling in the case at bar and requires a reversal of the order of the circuit judge setting aside the judgment rendered by the common pleas court. The principles there recognized and applied find suport in the cases above cited, and are likewise in harmony with other recent decisions, among which are: Morse v. Bishop, 329 Mich 488; Zivas v. Jinkins, 329 Mich 659; Cioffari v. Blanchard, 330 Mich 518; Ludwick v. Hendricks, 335 Mich 633; Levine v. Schonborn, 336 Mich 312; Denman v. Youngblood, 337 Mich 383; MacKenzie v. Sternicki, 338 Mich 487; Letcher v. Robinson, 340 Mich 350.\nIn Douglas v. Holcomb, 340 Mich 43, in which the right of a pedestrian to recover for injuries sustained in a traffic accident was upheld as against the claim of contributory negligence as a matter of law, the facts involved were materially different than in the case at bar or in any of the decisions above cited. There the proofs on behalf of plaintiff indicated that he had exercised reasonable precautions in attempting to cross the street and that the accident had resulted from defendant\u2019s conduct in making a rather sharp turn which the plaintiff could scarcely have foreseen. The verdict of the jury was held to be in accordance with the testimony.\nIn view of the facts involved the case of Travis v. Eisenlord, 256 Mich 264, may not properly be regarded as at variance with Ashley v. Kilborn, supra, and other decisions above cited. If language in the opinion is construed as supporting the proposition that a pedestrian, or the driver of an automobile, who has the right-of-way, whether granted by traffic light or otherwise, is relieved from exercising care for Ms own safety, it is clearly at variance with prior decisions of the Court and has been overruled by subsequent cases. However, the language of the opinion must be read in the light of \u2019the facts involved. The accident happened at the intersection of Plymouth and Middlebelt roads in Wayne county, Michigan. Plaintiff Travis was driving an automobile in an easterly direction on Plymouth road, a paved street 30 feet-in width. As he testified on the trial, when approximately 500 feet from the intersection he noticed the defendant\u2019s truck approaching from the south on Middlebelt road, which was paved to a width of 20 feet, at a distance of approximately 1/4 of a mile. He further testified that the traffic light at the intersection changed from red to green when he was approximately 200 or 300 feet distant, that at the time he was driving from 30 to 35 miles an hour, and that, not being familiar with the signal, he continued to watch it closely, realizing that if it changed to red it would become his duty to stop before entering the intersection. However, it did not change before he reached the intersection, at which time he made further observations as to the location of defendant\u2019s truck and discovered it, as he claimed, approximately 20 feet away. He endeavored to avoid a collision by turning to the left, and defendant turned slightly to the right, but the 2 vehicles sideswiped and were overturned. Plaintiff estimated the speed of defendant\u2019s truck as it approached the intersection at 50 miles per hour. The testimony of a witness for plaintiff indicated that plaintiff applied his brakes at a distance of more than 20 feet from the point of impact and that he skidded for that distance, which testimony justified an inference that' plaintiff must have discovered as he was about to enter the intersection that defendant was in close proximity and was not attempting to stop his truck.\nUnder the testimony in the case it is obvious that plaintiff Travis exercised certain precautions for his own safety, that he carefully observed the light in order to make certain that he did not enter the intersection after it had turned red against Mm, and that he did make certain observations with reference to the vehicle of defendant.- Undoubtedly the Court, in holding that Travis was not guilty of contributory negligence as a matter of law, had in mind the testimony as to his conduct and considered that opinions of reasonable persons might well differ on the question as to whether he exercised reasonable care for his own safety. Presumably also, as pointed out in Morse v. Bishop, supra, the Court considered that observations of defendant\u2019s vehicle as he approached the intersection from the south could scarcely have advised plaintiff that defendant would attempt to drive through the intersection against the red light, prior to plaintiff\u2019s reaching a point in proximity to the Middlebelt road. The practical situation is that the Travis Case, like other decisions involving the issues of negligence and contributory negligence, was determined on the basis of the particular facts involved.\nIn the case now before us the situation is unusual in that there is no showing of any precautions whatsoever on plaintiff\u2019s part after he started to walk across Gratiot avenue. He did not observe the traffic light further, nor did he take notice of traffic. Had he done so it seems quite probable that he would have noticed defendant\u2019s car and would have acted accordingly. In the final analysis plaintiff\u2019s case is based wholly on the proposition that, because he started across a busy street in Detroit with the traffic light in his favor, no duty rested on him to exercise care for his own safety. The question as to his negligence must be determined on the basis of what he did, as shown by Ms testimony. We may not, in determining the case, assume facts not proved. On the record before us the conclusion cannot be avoided that plaintiff did not exercise due care for his own safety on the occasion in question and was, in consequence, guilty of contributory negligence, assuming that negligence on defendant\u2019s part was shown.\nThe order of the circuit court remanding the case to the common pleas court for a new trial should be reversed, and the cause remanded with directions to set aside such order and to enter an order affirming the judgment in defendant\u2019s favor. Appellant should have costs.\nSharpe, Boyles, and Dethmers, JJ., concurred with Carr, J.",
+        "type": "majority",
+        "author": "Butzel, C. J. Carr, J."
+      }
+    ],
+    "attorneys": [
+      "Joseph W. McDonnell, for plaintiff.",
+      "Ward, Plunkett & Cooney (John D. Peacock, of counsel)-, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "ORTISI v. ODERFER.\nAutomobiles\u2014Pedestrians\u2014Contributory Negligence\u2014-Equally Divided Court.\nOrder of circuit court, remanding to court of common pleas for new trial action by pedestrian against motorist for injuries sustained at an intersection on ground that plaintiff had made a prima faeie case of freedom from contributory negligence, is affirmed by an equally. divided court.\nReferences for Points in Headnotes\nSee, generally, 5 Am Jur, Automobiles \u00a7\u00a7 446, 447.\nAppeal from Wayne; Miller .(Guy A.), J.\nSubmitted June 8, 1954.\n(Docket. No. 4, Calendar No. 46,062.)\nDecided November 29, 1954.\nCase by Dominic Ortisi .against .John Herman Oderfer instituted in common pleas court for the city of Detroit, for injuries sustained when struck by defendant\u2019s automobile. Directed verdict and judgment for defendant. Plaintiff appealed to circuit court where new trial was granted. . Defendant appeals.\nAffirmed by an equally divided court.\nJoseph W. McDonnell, for plaintiff.\nWard, Plunkett & Cooney (John D. Peacock, of counsel)-, for defendant."
+  },
+  "file_name": "0254-01",
+  "first_page_order": 294,
+  "last_page_order": 320
+}

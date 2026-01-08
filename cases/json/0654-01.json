@@ -1,0 +1,219 @@
+{
+  "id": 1855501,
+  "name": "L. A. DARLING COMPANY v. WATER RESOURCES COMMISSION",
+  "name_abbreviation": "L. A. Darling Co. v. Water Resources Commission",
+  "decision_date": "1955-01-12",
+  "docket_number": "Docket No. 86, Calendar No. 46,113",
+  "first_page": "654",
+  "last_page": "667",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "341 Mich. 654"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "154 ALR 866",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "118 ALR 1367",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "62 S Ct 1293",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "316 US 694",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        368065,
+        368265,
+        368060,
+        368260
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/316/0694-01",
+        "/us/316/0694-02",
+        "/us/316/0694-03",
+        "/us/316/0694-04"
+      ]
+    },
+    {
+      "cite": "125 F2d 928",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1086273
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/125/0928-01"
+      ]
+    },
+    {
+      "cite": "325 US 507",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6156935
+      ],
+      "weight": 2,
+      "year": 1760,
+      "pin_cites": [
+        {
+          "page": "511"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/325/0507-01"
+      ]
+    },
+    {
+      "cite": "298 US 468",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1486286
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "480"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/298/0468-01"
+      ]
+    },
+    {
+      "cite": "3 NE2d 606",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "271 NY 488",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        6104278
+      ],
+      "pin_cites": [
+        {
+          "page": "498"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/271/0488-01"
+      ]
+    },
+    {
+      "cite": "316 Mich 66",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1888313
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/316/0066-01"
+      ]
+    },
+    {
+      "cite": "284 Mich 677",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1816397
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/284/0677-01"
+      ]
+    },
+    {
+      "cite": "328 Mich 391",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1905098
+      ],
+      "pin_cites": [
+        {
+          "page": "397"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/328/0391-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1075,
+    "char_count": 25697,
+    "ocr_confidence": 0.485,
+    "pagerank": {
+      "raw": 2.471143943821903e-07,
+      "percentile": 0.8065452850726046
+    },
+    "sha256": "917f77872a939a4065ca323a10cb7b5106b2cce54c6cf280df223cd3cddda5fd",
+    "simhash": "1:640f79d549d5faf6",
+    "word_count": 4329
+  },
+  "last_updated": "2024-02-27T16:14:53.692353+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Carr, C. J., and Butzel, Sharpe, Boyles, Reid, and Dethmers, JJ., concurred.",
+      "Smith, J., took no part in the decision of this case."
+    ],
+    "parties": [
+      "L. A. DARLING COMPANY v. WATER RESOURCES COMMISSION."
+    ],
+    "opinions": [
+      {
+        "text": "Kelly, J.\nThis appeal involves the validity of an order made by the water resources commission on March 21, 1950, directing appellant, L. A. Darling Company to install suitable waste treatment and disposal system \u201cwhich will render its electroplating waste discharges noninjurious to public health.\u201d An order of discontinuance was entered in the lower court as to plaintiffs H. A. Douglas Manufacturing Company and Bronson Plating Company.\nAppellant\u2019s plant is located in the city of Bronson, Michigan, and it is the claim of the commission that under authority granted to it by PA 1929, No 245, as amended by PA 1949, No 117, it had authority to issue its order \u201cto abate the pollution of the underground waters of the State in Bronson township and vicinity.\u201d\nThe water resources commission was created by PA 1929, No 245, as amended by PA 1949, No 117, and consists of the director of conservation, the commissioner of health, the highway commissioner, the director of agriculture, and 3 citizens of the State appointed by the governor with the consent of the senate; the citizens to be selected from industrial, municipal and conservation groups.\nA meeting of the commission was held February 21, 1950, after notice duly served upon the city of Bronson and 3 industries (including appellant) located in said city. This was not a hearing in the sense that witnesses were sworn, examined or cross-examined, but was more of a conference. Mr. Oeming, sanitary engineer employed by the commission, and Mr. Adams, executive secretary of the commission, advised the commission as to the nature of the problem as follows: That the city of Bronson had provided a lagoon to receive the waste from the plating companies; that the lagoon located northwest of the city would not take any more waste and that \u201clast spring through arrangements between the industries and the city the industries put up some money and the city sponsored the construction of sewers through the north end of town and the building of 2 lagoons, 60' x 120' to get rid of the wastes by infiltrationthat there were several homes across the street from the lagoon that used wells for water supply and that water from one of the wells showed a yellow color and an examination of the water disclosed chromium of sufficient amount to constitute a health hazard; that since then the city has constructed a water supply line providing the homes with connections free of charge, with instructions to the people to abandon the wells. The commission was advised by its representatives that \u201cthe other phase of the problem is a serious one in that one of the city\u2019s wells is located 840' from these ponds. There is a very definite possibility that this city well will be contaminated. There is too short a distance between the ponds and the well. * * * It\u2019s too late to wait until the condition reaches the wells to do something about it, once contaminated it can never be corrected. Something should be done now to prevent contamination.\u201d\nIn addition to the representatives of the 3 industrial companies, there was also present at this meeting several representatives of the city of Bronson. Mr. Brewer, city attorney, speaking for both groups, said that tests had been made at the time of the drilling of the Washington street well which showed that the ground-water flow was from the east, that there was a solid stratum of clay which would prevent any seepage from the ponds; that the second set of ponds, the new ponds, was an attempt to conform to the desires of the commission; that they did not understand just what the tests of the commission showed; that they did make tests of the well water in that vicinity through Detroit testing laboratories which showed no undue pollution; that there was a limited amount of money available in a town of 1,800 to 2,000 population.\nMr. Robert Stocker, of the Darling Company, suggested the use of another well, and Mr. Rissman, vice-mayor, stated that the iron content in the new well had dropped 50%; that the city was checking the toxic materials and could show the commission ground water that had no chromium content.\nPlaintiff appealed to the Branch county circuit court, in chancery, contending that the commission acted in an arbitrary and capricious manner in entering the order against it, and asked that the order be set aside and held for naught.\nAt the outset of the hearing, counsel for the commission argued that the provision of the statute providing for \u201creview de novo\u201d meant that the court was limited to reviewing the proceedings had before the commission on the basis of what was developed at the meeting resulting in the issuance of the order appealed from. Counsel for appellant insisted that the court should hear the whole controversy based on evidence submitted to the court anew by the parties. On this point the court said:\n\u201cTo me the word \u2018de novo\u2019 means \u2018anew\u2019 or \u2018fresh,\u2019 \u2018to start from the beginning.\u2019 The word \u2018review\u2019 to me means to \u2018re-examine\u2019 or \u2018to look over,\u2019 something along that line. Putting them both together means to me to look over again, to review de novo,. to look over afresh what has been done before, and after doing that, determine whether or not the order previously entered is a valid order.\u201d\nAfter hearing testimony of witnesses for both parties, the court, in its written opinion, stated:\n\u201cOnce a fair hearing has been given by a State agency to which power to abate dangers to public health has been given, the proper findings made and other statutory requirements satisfied, a court cannot intervene in the absence of a clear showing that the limits of due process have been overstepped or that the order was unreasonable, arbitrary, unlawful, capricious or confiscatory.\n\u201cIn this case the court finds that the commission acted within the limits of its statutory authority, that the findings were proper and that they were supported by the evidence before it, and therefore the petition must be dismissed, and the order of the commission sustained.\u201d\nAppellant contends that the commission does not have jurisdiction over underground waters, but merely surface waters, and bases such contention upon the fact that the word underground is not found in the title, the definition section, nor the key section providing for unlawful discharges.\nCL 1948, \u00a7323.11 (Stat Ann 1952 Rev \u00a73.531), provides:\n\u201cWherever the word \u2018person\u2019 is used in this act, it shall be construed to include any municipality, industry, public or private corporation, co-partnership, firm or any other entity whatsoever. Wherever the words \u2018waters of the State\u2019 shall be used in this act, they shall be construed to include lakes, rivers and streams and all other watercourses and waters within the confines of the State and also the great lakes bordering thereon.\u201d\nAppellant points to the fact that the words \u201cand all other watercourses and waters\u201d follow the specific words \u201clakes, rivers and streams,\u201d and contends that \u201cit is a well-established rule that general words which follow specific words in a statute are restricted to a sense analogous to the less general.\u201d\nCLS 1952, \u00a7323.6 (Stat Ann 1952 Rev \u00a73.526), provides:\n\u201cIt shall be unlawful for any person to discharge or permit to be discharged into any of the lakes, rivers, streams, or other waters of this State any substance which is injurious to the public health.\u201d\nThe pertinent part of section 2 of the statute (CLS 1952, \u00a7 323.2 [Stat Ann 1952 Rev \u00a7 3.522]), reads:\n\u201cThe commission shall protect and conserve the water resources of the State and shall have control of the pollution of surface or underground waters of the State of Michigan and the great lakes, which are or may be affected by waste disposal of municipalities, industries, public or private corporations, individuals, partnership associations, or any other entity. The commission is empowered to make or cause to be made surveys, studies and investigations of the uses of waters of the State, both surface and underground, and to cooperate with other governments, governmental units and agencies thereof in making such surveys, studies and investigations.\u201d (Emphasis supplied.)\nThis Court in Reynolds v. Great American Insurance Company of New York, 328 Mich 391, 397, commenting upon the use of \u201cand\u201d and \u201cor,\u201d said:\n\u201cIt might be said that in reaching our conclusion we are construing \u2018and\u2019 as used in said section as a disjunctive. Under proper circumstances this may be done, in order to reach a proper conclusion as to the legislative intent.\n\u201c \u00edippg mere literal construction of a statute ought not to prevail if it is opposed to the intention of the legislature apparent from the statute; and if the words are sufficiently flexible to admit of some other construction by which that intention can be better effected, that construction should be adopted.\n\u201c \u2018While words \u201cor\u201d and \u201cand\u201d are not to be treated as interchangeable and are to be followed when their accurate reading does not render the sense dubious, their strict meaning is more readily departed from than that of other words and one read in place of the other in deference to the meaning of the context.\u2019 Heckathorn v. Heckathorn (syllabi), 284 Mich 677.\u201d\nIn Benson v. State Hospital Commission, 316 Mich 66, we held:\n\u201cAny provisions germane to the subject expressed in the title may properly be included in the act or added thereto by amendment, and it is sufficient if the title fairly expresses the subject or is sufficiently comprehensive to include the several provisions relating to, or connected with, that subject.\u201d (Syllabus.)\nThe title to the present act contains the words \u201cany waters of the State\u201d and is sufficient to give notice that the statute had as its object the control over pollution in any water, whether underground or surface. The trial court did not err in concluding that the commission had jurisdiction over underground waters.\nThis case shows the problem confronting the commission in determining when and how it should act in controlling the pollution of underground waters. At the commencement of the original meeting, the commission\u2019s executive secretary stated:\n\u201cThe injury from these sources to underground waters is the first of its type to come before the commission.\u201d\nThe trial court in its opinion said:\n\u201cA very elaborate line of testimony was introduced at the trial with reference to the geology of the area, which was claimed to be of glacial origin and presumed to have been the bottom of a lake at one time. The testimony further brought out that there was a substantial clay barrier existing, from 15 to 17 feet in thickness, at approximately 57 feet below the surface of the ground in the area in question. It would appear that if the clay harrier is continuous and in the thickness indicated, water would not penetrate it to any extent, if at all. Whether or not the clay harrier was continuous, or punctured, is open to speculation and there is no definite proof on that point because the data collected is not sufficient to cover the entire area. The main point of contention is whether or not there is danger of pollution of the city well and the incidental danger of polluting other sources from which water is or might be taken from to drink. For a period of 2 years the water from the city well has been tested weekly and it is the testimony that no chromium content was ever found during that entire period. * * *\n\u201cAppellee further makes a point that appellant\u2019s industrial wastes contain cyanide and hexavalent chromium, both of which are injurious substances, and further calls the attention of the court to Dr. Landes\u2019 testimony where he agreed that the industrial wastes in the new ponds contained cyanides and chromates. One of appellee\u2019s professional witnesses testified strongly that, in his opinion, drinking water should not contain any proportion of oxidized chromium. (Hexavalent chromium.)\n\u201cAppellee further urges that the contamination of the underground areas, including underground waters, from the new ponds must necessarily spread as time goes on if the dumping operation continues in any sizable quantities.\n\u201cOn the question of injury appellee replies to appellant and says that persons who formerly were using their own private wells for their source of all water were now required to purchase it from the city at an expense of several dollars a year which they had previously not been required to expend before the discovered contamination of the first private well.\n\u201cAppellee further says that it is its position that appellant\u2019s continued discharge of untreated industrial wastes constitutes a continuing and increasing menace to public health which is liable to show up at any time and which is so treacherous in its nature that residents of the area must be constantly on the lookout for the appearance of this dangerous substance in their domestic water supply. * * *\n\u201cAt the time of the court trial in this case it was not apparent that the commission had ever established any standards so that a person, firm or corporation would know when they were violating the standards and when they were not, and also at that time the commission had never published any rules and regulations relative to procedure and it was extremely difficult to follow a matter before them because of their failure to establish and publish such rules of procedure.\u201d\nTwo major questions are presented: First, was the court correct in determining that the commission\u2019s findings were proper and supported by evidence introduced before the commission? Second, did the court properly construe the statute in determining that the court \u201ccannot intervene in the absence of a clear showing that the limits of due process have been overstepped\u201d ?\nThe legislature\u2019s right under the police power to regulate the contamination of waters of this State is not in question, but the exercise of such a power does not obviate the necessity to recognize the due process clauses of our State and Federal Constitutions. When the legislature created a 7-man commission, composed of 4 State officials and 3 citizens, it undoubtedly expected it to conduct a proper and legal hearing before issuing an order, such as was issued in this case, that appellant change its method of doing business at an expenditure of a large sum of money.\nThe legislature provided for an appeal from the decision and order of the commission to the circuit court and that said appeal would be determined in chancery as a trial de novo. This provision did not obviate the necessity of a proper, legal hearing before the commission. It did not contemplate that the failure of the commission to hold a proper hearing should be corrected by appeal. The legislature gave to the court the right and duty to pass judgment upon the decision and order of the commission based on the record of such proceedings before said commission.\nAn examination of the 13 pages of \u25a0 the record, setting forth the \u201cStatutory Hearing\u201d before the commission, discloses that the witnesses were not sworn; that no exhibits were identified; that materials and data were relied upon by the commission which were not introduced at the conference, and that no findings of fact were made by the commission. The record of the so-called hearing does not purport to be full and complete and is not attested.\nThe New York court of appeals in passing upon the commissioner\u2019s decision under the statute as to whether an applicant for a milk license was qualified by character, experience, financial responsibility and equipment to properly conduct the proposed business, remanded the case back to the commissioner because without a proper finding of fact the court could not decide on what basis the commissioner acted. The court said:\n\u201cOnly after the commissioner has made findings of fact can the court decide whether the findings are sustained by the evidence.\u201d Elite Dairy Products v. Ten Eyck, 271 NY 488, 498 (3 NE2d 606).\nAnd in Morgan v. United States, 298 US 468, 480 (56 S Ct 906, 80 L ed 1288), it is pointed out:\n\u201cThere must be evidence adequate to support pertinent and necessary findings of fact. Nothing-can be treated as evidence which is not introduced as such. * * * Findings based on the evidence must embrace the basic facts which are needed to sustain the order.\u201d\nSee, also, North Carolina v. United States, 325 US 507, 511 (65 S Ct 1260, 89 L ed 1760).\nIn United States v. Forness (CCA), 125 F2d 928 (certiorari, in the name of City of Salamanca v. United States, denied, 316 US 694 [62 S Ct 1293, 86 L ed 1764]), the court stated (p 942):\n\u201cWe stress this matter because of the grave importance of fact-finding. The correct finding, as near as may be, of the facts of a lawsuit is fully as important as the application of the correct legal rules to the facts as found. * * * Chief Justice Hughes once remarked, \u2018An unscrupulous administrator might be tempted to say \u201cLet me find the facts for the people of my country, and I care little who lays down the general principles.\u201d \u2019 That comment should be extended to include facts found without due care as well as unscrupulous fact-finding; for such lack of due care is less likely to reveal itself than lack of scruples. * * *\n\u201cIt is sometimes said that the requirement that the trial judge file findings of fact is for the convenience of the upper courts. While it does serve that end, it has a far more important purpose\u2014that of evoking care on the part of the trial judge in ascertaining the facts.\u201d\nThe commission\u2019s final order of determination directed appellant \u201cto install a suitable waste treatment and disposal system\u201d and \u201cto file construction plans for the said waste treatment and disposal system with the chief engineer of the commission on or before July 1,1950, and to complete the construction of said system on or before January 1, 1951.\u201d\nOn October 23, 1950, appellant moved to dismiss the commission\u2019s order, alleging that \u201cthe action of the water resources commission of the State of Michigan herein is arbitrary, capricious and void.\u201d The court in its opinion stated: \u201cIt is the claim of the appellant that the commission acted in an arbitrary and capricious manner in entering the order against it, and asks that the order be set aside and held for naught.\u201d\nAppellant\u2019s motion should have been granted by the court for the reason that the proceedings before the commission, as hereinbefore noted, did not afford appellant procedural due process.\nThe court was in error in finding that there must be \u201ca clear showing that the limits of due process have been overstepped\u201d before the court could intervene. In these proceedings the burden is upon the commission to establish violation of statute.\nReversed. No costs, a public question being involved.\nCarr, C. J., and Butzel, Sharpe, Boyles, Reid, and Dethmers, JJ., concurred.\nSmith, J., took no part in the decision of this case.\nCL 1948 and CLS 1952, \u00a7 323.1 et seq. (Stat Ann 1952 Rev 5 3.521 et seq.).\nCL 1948, \u00a7\u00a7 323.7, 323.8, as amended by PA 1949, No 117 (CLS 1952, \u00a7\u00a7 323.7, 323.8 [Stat Ann 1952 Bey \u00a7\u00a7 3.527, 3.528]).\u2014 Beporteb.\nPA 1929, No 245, \u00a7 11 (CL 1948, \u00a7 323.11 [Stat Ann 1952 Rev \u00a73.531]). . .\nPA 1929, No 245, \u00a7 6, as amended t>y PA 1949, No 117 (CLS 1952, \u00a7 323.6 [Stat Ann 1952 Rev \u00a7 3.526]).\nUS Const, Am 14; Mich Const 1908, art 2, \u00a716.\u2014Reporter.",
+        "type": "majority",
+        "author": "Kelly, J."
+      }
+    ],
+    "attorneys": [
+      "Wunsch & Coleman .(Creighton R. Coleman, of counsel), for plaintiff L. A. Darling Company.",
+      "Frank G. Millard, Attorney General, Edmund E. Shepherd, Solicitor General, and Nicholas V. Olds, Assistant Attorney General, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "L. A. DARLING COMPANY v. WATER RESOURCES COMMISSION.\n1. Statutes\u2014Construction\u2014Intent.\nThe mere literal construction of a statute ought not to prevail if it is opposed to the intention of the legislature apparent from the statute; and if the words are sufficiently flexible to admit of some other construction by which that intention can be better effected, that construction should be adopted.\n2. Words and Phrases\u2014Or\u2014And.\nWhile words \u201cor\u201d and \u201cand\u201d are not to be treated as interchangeable and are to be followed when their accurate reading does not render the sense dubious, their strict meaning is more readily departed from than that of other words and one read in place of the other in deference to the meaning of the context.\n3. Statutes\u2014Title op Act.\nAny provisions germane to the subject expressed in the title of an act may properly be included m the act or added thereto by amendment, and it is sufficient if the title fairly expresses the subject or is sufficiently comprehensive to include the several provisions relating to, or connected with, that subject.\nReferences for Points in I-Ieadnotes\n[1] 50 Am Jur, Statutes \u00a7 240.\n[2] 50 Am Jur, Statutes \u00a7 280 et seq.\n[2] And/or 118 ALR 1367; 154 ALR 866.\n[3] 50 Am Jur, Statutes \u00a7 173.\n[4] 50 Am Jur, Statutes \u00a7\u00a7 163, 164.\n[5] 56 Am Jur, Waters \u00a7\u00a7 388, 412.\n[6] 11 Am Jur, Constitutional Law \u00a7\u00a7 261, 262.\n[7] 42 Am Jur; Public Administrative Law \u00a7 226; see, generally, 42 Am Jur, Public Administrative Law \u00a7 233 et seq.\n[8] 42 Am Jur, Public Administrative Law \u00a7 116.\n[9] See, generally, 42 Am Jur, Public Administrative Law \u00a7 224 et seq.\n[10] 42 Am Jur, Public Administrative Law \u00a7 235.\n[11] See, generally, 42 Am Jur, Public Administrative Law \u00a7 96.\n[12] See, generally, 56 Am Jur, Waters \u00a7 384 et seq.\n[13] See, generally, 14 Am Jur, Costs \u00a7 29 et seq.\n4. Waters and Watercourses\u2014Title op Act\u2014Water Resources Commission\u2014Jurisdiction\u2014Underground Waters.\nThe title of the act creating the water resources commission, containing the words \u201cany waters of the State,\u201d is sufficient to give notice that the statute had as its object the control over pollution in any water, whether underground or surface; hence, there was no error in concluding the commission had jurisdiction over underground waters (CL 1948, \u00a7 323.1 et seq., as amended by PA 1949, No 117).\n5. Constitutional Law \u2014 Police Power \u2014 Contamination op Waters.\nThe legislature has a right in the exereise of the police power to regulate the contamination of waters of the State.\n6. Same\u2014Contamination op Waters\u2014Police Power\u2014Due Process.\nThe legislature\u2019s right under the police power to regulate the contamination of waters of this State does not obviate the necessity to recognize the due process clauses of the State and Pederal Constitutions (US Const, Am 14; Mich Const 1908, art 2, \u00a716).\n7. Appeal and Error\u2014Review op Order op Water Resources Commission\u2014Hearing.\nA statutory provision for an appeal from an order of the water resources commission to the circuit court in chancery and there have a trial de novo did not obviate the necessity of a proper, legal hearing before the commission, nor contemplate that the failure of the commission to hold a proper hearing should be corrected by appeal; the court being given the right and duty to pass judgment upon the decision and order of the commission based on the record of proceedings before the commission (CL 1948, \u00a7\u00a7 323.7, 323.8, as amended by PA 1949, No 117).\n8. Waters and Watercourses\u2014Pollution\u2014Hearing\u2014Order\u2014 Record\u2014Due Process.\nAn unattested and incomplete record of a so.-ealled statutory hearing by the water resources commission, wherein it is disclosed no witnesses were sworn, no exhibits identified, no findings of fact made by the commission and that it relied on materials and data that had not been presented does not form a proper and legal basis for its making of an order requiring plaintiff corporation to install a suitable waste treatment and disposal system which will render its electroplating waste discharges non-injurious to public health; hence, theTe was a denial of due process to plaintiff (CL 1948, \u00a7 323.1 et seq., as amended by PA 1949, No 117).\n9. Administrative Law\u2014\u00a1Judicial Review\u2014Findings of Fact\u2014 Evidence. *\nA court, reviewing an order made by an administrative tribunal, may not determine whether an order made, based on findings of fact, is proper, \u25a0 unless the tribunal has made the necessary findings of fact which are sustained by evidence.\n10. Same.\u2014Findings of Fact\u2014Evidence.\nFindings of fact based on the evidence presented before an administrative tribunal must embrace the basic facts which are needed to sustain the order made by the tribunal the validity of whose action is being reviewed in court.\n11. Same\u2014Findings of Fact\u2014Evidence.\nThe requirement that an administrative tribunal make findings of faet serves the dual purposes of providing for the convenience of a reviewing court and of imposing upon the tribunal the necessity of using care in ascertaining the facts.\n12. Waters and Watercourses\u2014Pollution\u2014Burden of Proof.\nThe burden is upon the water resources commission to establish a violation of statute relative to the pollution of waters before making an order requiring the violator to install a waste and disposal system which will render its waste discharges non-injurious to public health (CL 1948, \u00a7 323.1 et seq., as amended by PA 1949, No 117).\n13. Costs\u2014Public Question\u2014Pollution of Underground Waters.\nNo costs are allowed on review of an order made by the water resources commission with respect to pollution of underground waters, a public question being involved in the construction of a statute (CL 1948, \u00a7 323.1 et seq., as amended by PA 1949, No 117).\nAppeal from Branch; Arch (Charles O.), J., presiding.\nSubmitted November 23, 1954.\n(Docket No. 86, Calendar No. 46,113.)\nDecided January 12, 1955.\nPetition by L. A. Darling Company and others against State Water Resources Commission to test validity of its final order of determination in connection with alleged pollution of underground waters. Decree for defendant. Plaintiff L. A. Darling Company appeals. Defendant cross-appeals.\nReversed.\nWunsch & Coleman .(Creighton R. Coleman, of counsel), for plaintiff L. A. Darling Company.\nFrank G. Millard, Attorney General, Edmund E. Shepherd, Solicitor General, and Nicholas V. Olds, Assistant Attorney General, for defendant."
+  },
+  "file_name": "0654-01",
+  "first_page_order": 694,
+  "last_page_order": 707
+}

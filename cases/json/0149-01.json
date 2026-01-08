@@ -1,0 +1,225 @@
+{
+  "id": 1855484,
+  "name": "KRAUSE v. BORAKS",
+  "name_abbreviation": "Krause v. Boraks",
+  "decision_date": "1954-11-29",
+  "docket_number": "Docket No. 50, Calendar No. 46,208",
+  "first_page": "149",
+  "last_page": "157",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "341 Mich. 149"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "64 ALR 1423",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "167 ALR 774",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "56 ALR 480",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "309 Mich 32",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1899469
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/309/0032-01"
+      ]
+    },
+    {
+      "cite": "256 Mich 488",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1867710
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/256/0488-01"
+      ]
+    },
+    {
+      "cite": "193 Mich 447",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1628531
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/193/0447-01"
+      ]
+    },
+    {
+      "cite": "227 Mich 547",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1688965
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/227/0547-01"
+      ]
+    },
+    {
+      "cite": "200 Mich 519",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1761749
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/200/0519-01"
+      ]
+    },
+    {
+      "cite": "192 Mich 98",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1630344
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/192/0098-01"
+      ]
+    },
+    {
+      "cite": "196 Mich 311",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1622136
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "parenthetical": "p 315"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/196/0311-01"
+      ]
+    },
+    {
+      "cite": "239 Mich 663",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1708975
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/239/0663-01"
+      ]
+    },
+    {
+      "cite": "290 Mich 298",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1805250
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/290/0298-01"
+      ]
+    },
+    {
+      "cite": "337 Mich 696",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1931092
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/337/0696-01"
+      ]
+    },
+    {
+      "cite": "337 Mich 691",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1931085
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/337/0691-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 712,
+    "char_count": 15612,
+    "ocr_confidence": 0.476,
+    "pagerank": {
+      "raw": 7.703452471120344e-07,
+      "percentile": 0.9715550983860449
+    },
+    "sha256": "a755df7d4f1a9d17e985093249ef283de94567e0984d98f7f3feeba67470e30d",
+    "simhash": "1:5b0aa78e4f156a66",
+    "word_count": 2630
+  },
+  "last_updated": "2024-02-27T16:14:53.692353+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Butzel, O. J., and Carr, Sharpe, Boyles, Reid, Dethmers, and Kelly, JJ., concurred."
+    ],
+    "parties": [
+      "KRAUSE v. BORAKS."
+    ],
+    "opinions": [
+      {
+        "text": "Bushnell, J.\nPlaintiff Stanley S. Krause, an attorney authorized to practice in this State, brought an action in assumpsit in the common pleas court for the city of Detroit upon an oral agreement for fees with a count in quantum meruit, against defendants Ludwig Boraks and Lawrence I. Yaffa, individually and doing business as Boraks Realty Investment Company.\nThe principal defendant, Boraks, a licensed real-estate broker, had listed with him for sale at a cash price of $37,000, property in the city of Detroit, used and occupied by a Danish Lutheran Church. A cooperating broker, the Trasher-Thomas Company, was to receive 40% of the brokerage fee of 5% of the sales price, and Boraks was to have 60%. A prospective purchaser made 2 offers, one for cash and the other on terms, the cash offer being accepted by the owners. This purchaser, however, was unable to raise the necessary money and Boraks arranged a land contract transaction in which the purchase price was raised to $50,000, the down payment increased to $10,000, and the balance of $40,000 to be paid on land contract terms. It was proposed that in this manner the transaction could be consummated, provided the vendor\u2019s interest in the land contract conld be held by the seller or sold for $25,000. Boraks sought to interest various persons in the purchase of this contract, and also attempted to form a syndicate for such purpose. While negotiations were progressing, Boraks talked to one Samuel Polozker, an attorney, in the presence of Krause, with regard to selling the vendor\u2019s interest. Polozker testified that he said to Boraks during this 3-cornered conversation: \u201cNow, what\u2019s in it as a fee for Stanley Krause?\u201d and Boraks replied: \u201cWhy, he will get half of what I get out of it. Whatever I get out of it he will get half.\u201d\nLater Krause succeeded in interesting 2 of his clients in purchasing the vendor\u2019s interest, and a signed offer to purchase was prepared. The transaction was closed about 6 weeks later at the office of Boraks. The Danish Church as seller and the Sweet Home Baptist Church as purchaser were represented by individual counsel, and Krause represented his clients, the land-contract purchasers. A sales commission of $2,500 was divided between the 2 brokers on the 60-40 basis and, after the transaction was closed, a settlement with Krause was attempted through an offer by Boraks of $200, half of which was contributed by the other broker. Krause, claiming that $1,250 was due him, refused the offer and began an action for this amount.\nAfter the trial of that cause in the common pleas court without a jury, the judge found for Krause in the sum of $850. Defendants appealed to the circuit court and plaintiff Krause filed a cross appeal. The matter was reviewed on the record and transcript of the testimony, resulting in a judgment of no cause for action in favor of Boraks.\nOn appeal here, the controlling question is whether the prohibitory effects of the statute of frauds and the brokers\u2019 license law are applicable. (CL 1948, \u00a7 566.132 [Stat Ann 1953 Rev \u00a7 26.922]; CL 1948, \u00a7 451.201 et seq. [Stat Ann 1953 Cum Supp \u00a7 19.791 et seg.].)\nThe trial judge concluded that the transaction was \u201cnot an agreement for payment of a commission on the sale of real estate,\u201d that plaintiff \u201cwas employed in another capacity entirely, and that was to secure somebody that would be able to produce money so that this deal could be consummated.\u201d\nNeither niceties of language nor fanciful designations can change the substance of the transaction. There can be no doubt about the proposition that the procurement for another, for compensation, of the sale of a vendor\u2019s interest in a land contract is controlled by the so-called brokers\u2019 licensing act. (PA 1919, No 306, as amended.) Among the provisions of this act (see citations, supra) are the following:\n\u201cSec. 1. It shall be unlawful for any person, firm, partnership association, copartnership or corporation, whether operating under an assumed name or otherwise, from and after January first, 1920, to engage in the business or capacity, either directly or indirectly, of a real-estate broker or real-estate salesman within this State without first obtaining a license under the provisions of this act. * * *\n\u201cSec. 3. One acting for a compensation or valuable consideration of [in?] buying or selling real estate of or for another, or offering for another to buy or sell or exchange or mortgage or appraise real estate, or to negotiate for the construction of buildings thereon, or leasing or renting or offering to rent real estate, or selling or offering for sale, or buying or offering to buy, or leasing or offering to lease, or negotiating the purchase or sale or exchange of a business, business opportunity, or the good will of an existing business for others, or one who, as owner or otherwise, engages in the sale of real estate as a principal vocation, except as herein specifically excepted, shall constitute the person, firm, partnership association, copartnership or corporation performing, offering or attempting to perform any of the acts enumerated herein, a real-estate broker or a real-estate salesman -within the meaning of this act. The commission of a single act prohibited hereunder shall constitute a violation.\u201d\nExemption from the provision of the act is provided by section 2 thereof and provides in part:\n\u201cNor shall this act be construed to include in any way the services rendered by an attorney at law in the performance of his duties as such attorney at law.\u201d\nThe trial judge in the common pleas court held that the statutes did not bar plaintiff\u2019s action, and that \u201chis employment was that of an attorney or in another capacity.\u201d The circuit judge, on review, held that the trial court was in error in holding that the brokers\u2019 licensing act did not apply to' the facts in the case.\nIn this law action, heard without a jury, this Court will not reverse on issues of fact unless the evidence clearly preponderates in the opposite direction. Nagy v. Balogh, 337 Mich 691; and Allen v. Currier Lumber Co., 337 Mich 696. However, the finding by the trial judge that plaintiff - was employed as an attorney is obviously erroneous on its face. No exact definition has been framed as to what constitutes the practice of law, and this is because of the numerous and varied tasks which the legal profession is called upon to perform in a complex society. Here, Krause occupied an attorney-client relationship with the purchasers of the vendor\u2019s interest in the land contract. There is nothing to indicate a like relationship between Krause, and Boraks. Hnder no interpretation of the facts could Krause be said to have performed legal services for Boraks.\nThere is no doubt that the legal aspects of real-estate transactions may constitute a large portion of an average attorney\u2019s practice, and thus are inseparably connected with the practice of law. But an attorney engaging solely in the function of obtaining a prospective purchaser for an interest in realty, in conjunction with a broker, is clearly invading another scope of activity which, in the absence of being licensed so to do, is prohibited by statute. That an attorney is well qualified to engage in such endeavor cannot be denied. However, the legislature has clearly intended that one engaging in that field of activity must be licensed. Plaintiff\u2019s services were not within the exemption provision of the statute herein-before quoted. As between Krause and Boraks the claimed contract must, as a matter of law, be held void under the rules stated in Jaenicke v. Davidson, 290 Mich 298, where it is said:\n\u201cAll contracts which are founded on an act prohibited by a statute under a penalty are void although not expressly declared to be so and neither law nor equity will enforce a contract made in violation of such a statute or one that is in violation of public policy.\u201d (Syllabus.)\nKrause relies upon the argument of an isolated transaction and cites Morris v. O\u2019Neill, 239 Mich 663, as controlling. It is sufficient to point out that the Morris Case was decided in 1927, prior to the effect of the amendment to the brokers\u2019 license statute which, in CL 1948, \u00a7 451.203 (Stat Ann 1953 Cum Supp \u00a7 19.793), says in section 3:\n\u201cThe commission of a single act prohibited hereunder shall constitute a violation.\u201d\nThe claimed oral agreement to pay a commission on the sale of real estate is void under the statute of frauds. CL 1948, \u00a7 566.132 (Stat Ann 1953 Rev \u00a726.922) provides:\n\u201cIn the following cases specified in this section, every agreement, contract and promise shall he void, unless such agreement, contract or promise, or some note or memorandum thereof be in writing and signed by the party to be charged therewith, or by some person by him thereunto lawfully authorized, that is to say: * * *\n\u201c5. Every agreement, promise or contract to pay any commission for or upon the sale of any interest in real estate.\u201d\nWhere one who was instrumental in procuring a purchaser for certain real estate for a broker who had the listing, the Court, in denying recovery, said in Smith v. Starke, 196 Mich 311 (pp 313, 314):\n\u201cWe have held, in construing the act in question, that contracts coming within its provisions are absolutely void. McGavock v. Ducharme, 192 Mich 98. Therefore, if the contract in question comes within the purview of this act, it is void and of no force or effect. The services to be performed and contemplated by the arrangement between the plaintiff and defendant were the services usually performed by a real-estate broker, those of procuring, or aiding in procuring, a purchaser of the Blowers farm; that plaintiff was not to perform all the functions of a dealer in real estate does not preclude from characterizing the services performed as those usually performed by a real-estate broker. Indeed the services to be performed by plaintiff were of the very essence of brokerage services, vis., procuring a purchaser of another\u2019s property. Compensation to real-estate brokers is known, not only to the layman, but also to the law as \u2018commission.\u2019 The word \u2018commission\u2019 implies a compensation to a factor or other agent for services rendered in making a sale.\u201d\nSee, also, Fleming v. James S. Holden Co., 200 Mich 519, and Renaud v. Moon, 227 Mich 547.\nPlaintiff\u2019s attempt to recover under a quantum meruit count is clearly precluded by what was said in Smith v. Starke, supra (p 315):\n\u201cBut it is urged by the plaintiff that, even if the statute does render the contract void, he may recover upon the quantum meruit, upon the theory that performance takes the case out of the statute. This question is foreclosed by the recent case of Paul v. Graham, 193 Mich 447, where we had this statute under consideration and held that no recovery could be had upon the quantum meruit for services performed under an agreement that was within the provisions of this statute and therefore void.\u201d\nThe rule in Smith v. Starke, supra, was supported in Mead v. Rehm, 256 Mich 488, as follows (p 490):\n\u201cA verbal agreement to pay the commission is rendered absolutely void by the statute, and there can be no recovery on quantum meruit, even though the service was rendered and accepted.\u201d\nSee, also, Jaynes v. Petoskey, 309 Mich 32.\nOther questions do not merit discussion because, as a matter of law, plaintiff is not entitled to recover' under any theory advanced by him.\nThe judgment of the circuit court is affirmed, with costs to defendants.\nButzel, O. J., and Carr, Sharpe, Boyles, Reid, Dethmers, and Kelly, JJ., concurred.",
+        "type": "majority",
+        "author": "Bushnell, J."
+      }
+    ],
+    "attorneys": [
+      "Stanley S. Krause, in propria persona.",
+      "Nelson S. Shapero, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "KRAUSE v. BORAKS.\n1. Brokers\u2014Sale op Vendor\u2019s Interest in Land Contract.\nOne procuring for compensation from another the sale of a vendor\u2019s interest in a land contract is controlled hy the so-called brokers\u2019 licensing act (CL 1948, \u00a7451.201 et seq.).\n2. Appeal and Error\u2014Non jury Cases\u2014Preponderance of Evidence.\nThe Supreme Court will not reverse on issues of fact in a nonjury ease unless the evidence clearly preponderates in the opposite direction.\n3. Brokers\u2014Attorney\u2014Finding op Fact\u2014Preponderance of Evidence.\nTrial court\u2019s finding that plaintiff attorney had been employed by defendant real-estate broker as an attorney for the purpose of locating someone who would purchase a vendor\u2019s interest in a land contract held, contrary to preponderance of evidence, where it appears plaintiff represented the purchasers of the vendors\u2019 interest as their attorney but there is nothing to indicate a like relation with defendant.\n4. Same\u2014Attorneys\u2014Licenses\u2014Construction of Statutes.\nAn attorney is prohibited from engaging.solely in the function of obtaining a prospective purchaser for an interest in realty in conjunction with a broker, unless the attorney is licensed so to do, as the legislature has clearly intended that one engaging in that field of activity must be licensed (CL 1948, \u00a7 451.201 et seq.).\nReferences for Points in Headnotes\n[1, 4] 8 Am Jur, Brokers \u00a7 \u00a7 7, 8.\n[2] 3 Am Jur, Appeal and Error \u00a7 900.\n[3] 3 Am Jur, Appeal and Error \u00a7 899.\n[5] 8 Am Jur, Brokers \u00a7 13.\n[ 6] 12 Am Jur, Contracts \u00a7 \u00a7 149, 150.\n[7] 8 Am Jur, Brokers \u00a7 10.\nWho is real-estate agent, salesman, or broker within meaning of statute. 56 ALR 480; 167 ALR 774.\n[8] 8 Am Jur, Brokers \u00a7 153.\nAgreement between brokers as within statute requiring agreements for commissions for sale of real estate to be in writing. 64 ALR 1423.\n[9] 8 Am Jur, Brokers \u00a7 219.\n5. Contracts\u2014Public Policy\u2014Attorney\u2014Brokers\u2014Licenses.\nContract between attorney and licensed real-estate broker whereby former, not licensed as a broker, was to obtain for compensation a purchaser for a vendor\u2019s interest in land contract was void and unenforceable as in violation of public policy (CL 1948, \u00a7 451.201 et seq.).\n6. Same\u2014Public Policy\u2014Violation of Statute.\nAll contracts which are founded on an act prohibited by a statute under a penalty are void although not expressly declared to be so and neither law nor equity will enforce a contract made in violation of such a statute or one that is in violation of public policy.\n7. Same.\u2014Public Policy\u2014Isolated Transaction.\nPact that contract between plaintiff attorney, not licensed as a real-estate broker, and defendant broker whereby former was to obtain for compensation a purchaser for a vendor\u2019s interest in land contract may have been an isolated transaction would not prevent such contract from being in violation of the statute in view of statutory provision that \u201cthe commission of a single act prohibited hereunder shall constitute a violation\u201d (CL 1948, \u00a7 451.201 et seq.).\n8. Prauds, Statute of\u2014Oral Agreement to Pay Commission for Sale of Interest in Real Estate.\nOral agreement to pay a commission to plaintiff attorney on the sale of a vendor\u2019s interest in land contract was void under the statute of frauds (CL 1948, \u00a7 566.132).\n9. Contracts\u2014Void Contracts\u2014Quantum Meruit.\nNo recovery may be had under a quantum meruit count for services rendered and accepted under an agreement that is rendered void by statute (CL 1948, \u00a7 451.201 et seq.-, \u00a7 566.132).\nAppeal from Wayne; Toms (Robert M.), J.\nSubmitted October 8, 1954.\n(Docket No. 50, Calendar No. 46,208.)\nDecided November 29, 1954.\nAssumpsit in common pleas court for the city of Detroit by Stanley S. Krause against Ludwig Boraks and Lawrence I. Yaffa, doing business as Boraks Realty Investment Company, for services on sale of interest in real estate. Judgment for plaintiff. Defendant appealed to circuit court and plaintiff cross-appealed. Judgment for defendant. Plaintiff appeals.\nAffirmed.\nStanley S. Krause, in propria persona.\nNelson S. Shapero, for defendant."
+  },
+  "file_name": "0149-01",
+  "first_page_order": 189,
+  "last_page_order": 197
+}

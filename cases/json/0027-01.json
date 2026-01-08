@@ -1,0 +1,70 @@
+{
+  "id": 3188985,
+  "name": "Daisy LUCIEN v. GREAT AMERICAN INDEMNITY COMPANY OF NEW YORK and Rosa (or Rose) Lawson",
+  "name_abbreviation": "Lucien v. Great American Indemnity Co.",
+  "decision_date": "1959-06-25",
+  "docket_number": "No. 44504",
+  "first_page": "27",
+  "last_page": "27",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 27"
+    },
+    {
+      "type": "parallel",
+      "cite": "113 So.2d 299"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 115,
+    "char_count": 1120,
+    "ocr_confidence": 0.756,
+    "pagerank": {
+      "raw": 2.1995933875888662e-07,
+      "percentile": 0.7647126736123484
+    },
+    "sha256": "bf9df801121fd8e8ff3d0e5d55545a92105ffb4755bda72ae56315c8d04060fe",
+    "simhash": "1:bcace72d1fd4e7fd",
+    "word_count": 194
+  },
+  "last_updated": "2023-07-14T20:15:01.992691+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Daisy LUCIEN v. GREAT AMERICAN INDEMNITY COMPANY OF NEW YORK and Rosa (or Rose) Lawson."
+    ],
+    "opinions": [
+      {
+        "text": "HAWTHORNE, Justice.\nA motion has been filed in this court by plaintiff-appellant to transfer this case to the Court of Appeal for the Parish of Orleans, and counsel for defendants-appellees do not oppose the request for a transfer.\nPlaintiff in this suit seeks to recover damages for physical injuries allegedly sustained by her as a result of a fall. The motion is well founded and will be granted. Appellate jurisdiction of this case is not in the Supreme Court but in the Court of Appeal. Art. 7, secs. 10 and 29, La. Const, of 1921.\nFor the reasons assigned it is ordered that this appeal be transferred to the Court of Appeal for the Parish of Orleans, provided the record is filed in that court within 30 days from the date on which this decree becomes final; otherwise the appeal shall be dismissed. The costs incurred in this court are to be paid by appellant.",
+        "type": "majority",
+        "author": "HAWTHORNE, Justice."
+      }
+    ],
+    "attorneys": [
+      "Gertler, Hart & Duran, New Orleans, for appellant.",
+      "Christovich & Kearney, D. Thomas Salsiccia, New Orleans, for appellees."
+    ],
+    "corrections": "",
+    "head_matter": "113 So.2d 299\nDaisy LUCIEN v. GREAT AMERICAN INDEMNITY COMPANY OF NEW YORK and Rosa (or Rose) Lawson.\nNo. 44504.\nJune 25, 1959.\nGertler, Hart & Duran, New Orleans, for appellant.\nChristovich & Kearney, D. Thomas Salsiccia, New Orleans, for appellees."
+  },
+  "file_name": "0027-01",
+  "first_page_order": 46,
+  "last_page_order": 46
+}

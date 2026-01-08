@@ -1,0 +1,343 @@
+{
+  "id": 3186028,
+  "name": "Harry KATZ et al. v. Gus SINGERMAN et al.",
+  "name_abbreviation": "Katz v. Singerman",
+  "decision_date": "1960-01-11",
+  "docket_number": "No. 43948",
+  "first_page": "915",
+  "last_page": "925",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 915"
+    },
+    {
+      "type": "parallel",
+      "cite": "117 So.2d 56"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "227 La. 770",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2943274,
+        9894877
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/227/0770-01",
+        "/so2d/80/0402-01"
+      ]
+    },
+    {
+      "cite": "232 La. 81",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9920072,
+        5432636
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/93/0910-01",
+        "/la/232/0081-01"
+      ]
+    },
+    {
+      "cite": "102 So.2d 243",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9880568,
+        2888412,
+        2888061,
+        9880655
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/102/0243-01",
+        "/la/234/0993-01",
+        "/la/234/0995-01",
+        "/so2d/102/0243-02"
+      ]
+    },
+    {
+      "cite": "234 La. 994",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9880568,
+        2888412
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/102/0243-01",
+        "/la/234/0993-01"
+      ]
+    },
+    {
+      "cite": "236 La. 469",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3182274,
+        9883014
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/236/0470-01",
+        "/so2d/108/0092-01"
+      ]
+    },
+    {
+      "cite": "115 So.2d 381",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3187839
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0363-01"
+      ]
+    },
+    {
+      "cite": "238 La. 364",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9883345,
+        3187839
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/115/0381-01",
+        "/la/238/0363-01"
+      ]
+    },
+    {
+      "cite": "224 La. 33",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3088740,
+        9920551
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/224/0034-01",
+        "/so2d/68/0748-01"
+      ]
+    },
+    {
+      "cite": "228 La. 603",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9903692,
+        2896479
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/83/0643-01",
+        "/la/228/0603-01"
+      ]
+    },
+    {
+      "cite": "102 So.2d 521",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9892024
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/102/0521-01"
+      ]
+    },
+    {
+      "cite": "86 So.2d 95",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        5529869,
+        9889557
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/229/0439-01",
+        "/so2d/86/0095-01"
+      ]
+    },
+    {
+      "cite": "229 La. 440",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9889557,
+        5529869
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/86/0095-01",
+        "/la/229/0439-01"
+      ]
+    },
+    {
+      "cite": "104 So.2d 168",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3179895
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/235/0453-01"
+      ]
+    },
+    {
+      "cite": "235 La. 453",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9882051,
+        3179895
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/104/0168-01",
+        "/la/235/0453-01"
+      ]
+    },
+    {
+      "cite": "233 La. 708",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5400924,
+        9872389
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/233/0707-01",
+        "/so2d/98/0160-01"
+      ]
+    },
+    {
+      "cite": "94 So.2d 650",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9906648,
+        5432400
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/94/0650-01",
+        "/la/232/0513-01"
+      ]
+    },
+    {
+      "cite": "232 La. 514",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5432400,
+        9906648
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/232/0513-01",
+        "/so2d/94/0650-01"
+      ]
+    },
+    {
+      "cite": "232 La. 562",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5432929,
+        9907079
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/232/0561-01",
+        "/so2d/94/0668-01"
+      ]
+    },
+    {
+      "cite": "231 La. 988",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9903737,
+        5468034
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/93/0532-01",
+        "/la/231/0987-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 683,
+    "char_count": 11159,
+    "ocr_confidence": 0.71,
+    "pagerank": {
+      "raw": 2.7557127913420237e-07,
+      "percentile": 0.8331373759628458
+    },
+    "sha256": "9f022e98990f80848883b636f4dd8deb39230070919e73e143997b4e3ddede73",
+    "simhash": "1:5ecbd0082276d390",
+    "word_count": 1814
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harry KATZ et al. v. Gus SINGERMAN et al."
+    ],
+    "opinions": [
+      {
+        "text": "HAMLIN, Justice.\nFrom a judgment of the trial court perpetuating a preliminary injunction (previously issued) retaining and prohibiting the defendants from permitting, in any manner, mixed or family seating in Chevra Thilim Synagogue and Congregation (hereinafter designated as Congregation Chevra Thilim), defendants appealed to this Court.\nPlaintiffs brought suit against the defendants in their capacities as duly constituted officers and members of the Board of Directors of the Congregation Chevra Thilim, alleging that they had violated the precepts of the \u201chaladlas\u201d by permitting seating in mixed or family groups in the Synagogue, and praying that they be restrained from such conduct. Plaintiffs recited that since its establishment in 1887, Congregation Chevra Thilim had always strictly adhered to the precepts of the \"halachas\u201d contained in the \u201cTalmud\u201d (the chief body of Jewish tradition, which in turn is based upon the interpretation of the Hebrew scriptures, particularly the \u201cTorah\u201d or great body of Mosaic Law), and that in accordance with the \u201chalachas\u201d it is forbidden to pray in a synagogue where men and women sit together because such synagogue under the orthodox Polish Jewish tradition has no \u201ckedusha\u201d or congregational sanctification.\nIn petition, plaintiffs advanced that on August 12, 1915, Benjamin Rosenberg, a member of the Congregation, made a donation inter vivos of the buildings and improvements which he caused to be erected on the property No. 816 Lafayette Street, then owned by the Congregation, at a cost of $13,000 and that the acceptance of the donation recited:\n\u201cThat the said building shall only be used as a place of Jewish worship according to the strict ancient and orthodox forms and ceremonies.\n\u201cThat in the event of a new building and site being acquired with the money derived from the sale or destruction of the present building and site, then the said new building and site shall be subject to all of the above terms and conditions, and the said building shall always be called the \u2018Chevra Thilim Synagogue.\u2019 \u201d\nPlaintiffs contended that defendants had violated the charter of the Congregation by passing a resolution authorizing mixed or family seating of the sexes when a vote of the majority of the members had shown that such seating was opposed.\nPlaintiffs still further alleged that the Lafayette Street property was sold and with the proceeds a new building site was acquired and a new house of worship was constructed for the Worship of God according to the Orthodox Polish Jewish Ritual on South Claiborne Avenue in the City of New Orleans; that they had made and are continuing to make substantial money donations for the construction and maintenance of the new Synagogue; and that several of them had purchased pews for good and valuable consideration on the representation and belief that the Synagogue would continue to adhere to the principles of religion set forth:\nIn conclusion, plaintiffs alleged:\n\u201cIf mixed or family seating is established or continued to be permitted by Defendants as aforesaid, your petitioners and the other members of the congregation who adhere to the orthodox Polish Jewish tradition and practice will be deprived of the beneficial use of the synagogue, and will be forced to leave the membership of said congregation and forced to seek a place of worship elsewhere; that the acts of the defendants in instituting or permitting mixed or family seating will deprive the plaintiffs and the adhering members of the congregation of their property rights in the synagogue and its appurtenances as adhering orthodox members of the congregation as it was organized and as it existed down to the time of the -resolution of the Board of Directors and the breach of the orthodox Polish Jewish ritual as above set forth.\u201d\nA temporary restraining order issued, The trial judge then ruled upon exceptions which had been filed prior to answer, and proceeded to try the cause on its merits. He stated:\n\u201cWhat the Court is called upon to decide in this case is whether or not the action of the Board of Directors, in instituting family or mixed seating was contrary to and inconsistent with the objects and purposes for which the Congregation was organized and the conditions of the donations made by Benjamin Rosenberg and the Uptown Site & Building Fund of Congregation Chevra Thilim.\n* * * * * *\n\u201cThe Court is, therefore, of the opinion that since family or mixed seating in Chevra Thilim Synagogue is contrary to and inconsistent with the \u2018orthodox Polish Jewish Ritual\u2019 and with \u2018Jewish worship according to the strict ancient and orthodox forms and ceremonies,\u2019 and is in violation of the trust imposed by Benjamin Rosenberg, and the Uptown Site & Building Fund of Congregation Chevra Thilim, to which said Chevra Thilim Synagogue and Congregation is dedicated, the Board of Directors had no right or authority to institute family or mixed seating on January 9, 1957; and, further, that since the dedication and trust hereinabove mentioned do exist, and so long as it can be carried out, the Congregation is bound thereto and thereby and must abide by same.\n\u201cFor the foregoing reasons, the preliminary writ of injunction will issue upon plaintiff furnishing bond in the sum of $500.00, conditioned as the law directs.\u201d\nThis Court, ex proprio motu, must determine whether or not it has appellate jurisdiction. Haney v. Dunn, 231 La. 988, 93 So.2d 532; Levy v. Andress-Hanna, Inc., 232 La. 562, 94 So.2d 668; Anisman v. Stanolind Oil & Gas Company, 232 La. 514, 94 So.2d 650; State ex rel. Village of Rose-land v. Addison, 233 La. 708, 98 So.2d 160; Breaux v. Simon, 235 La. 453, 104 So.2d 168.\nThe present matter is an injunction suit,, and \u201cit is well settled in the jurisprudence of this state that in injunction suits it is the value of the right in contest which determines whether this court has appellate jurisdiction.\u201d Ragusa v. American Metal Works, 229 La. 440, 86 So.2d 95. See, Park Place Association v. New Orleans City Park Improvement Association, La.App., 102 So.2d 521; Johnson v. Nora, 228 La. 603, 83 So.2d 643.\nNo appeal lies to this Court unless there is a fixed value of and upon the right in dispute. Our appellate jurisdiction in civil suits of this nature obtains where \u201cthe amount in dispute\u201d shall exceed $2,000, exclusive of interest. Section 10, Article VII, Constitution of 1921, LSA. As thus used, the phrase, supra, includes within its meaning the value of the right where it, instead of an amount, is in dispute. Lerner Shops of Louisiana, Inc. v. Reeves, 224 La. 33, 68 So.2d 748.\nExamination of the record herein discloses that plaintiffs\u2019 prayer is not for money, and that no monetary value is placed upon the alleged rights they seek to protect. They alleged:\n\u201cThat, by reason of the facts herein-above set forth, your petitioners are without any adequate remedy at law for the protection of their property rights, their rights as members in good standing of the Congregation Chevra Thilim, and their right to worship God in accordance with the charter, and the long-established ritual of the orthodox Polish Jewish religion; that they will sustain irreparable and permanent injury if the practices by the Defendants as officers and members of the Board of Directors of Chevra Thilim Congregation, are permitted to continue in violation of the restrictive covenants contained in the acts of donation of the will of the majority, of the Charter and the long-standing ritual of the Chevra Thilim Congregation, and that, therefore, an immediate issuance of a temporary .restraining order before a hearing can be had is necessary in the premises.\u201d\nPlaintiffs alleged that they had made contributions for the South Claiborne Avenue Synagogue and had bought pews, but they placed no value on the pews nor did they state the amounts of their donations. They made no attack upon any donations claimed to. have been made by themselves or others.\nIn reality, plaintiffs alleged the violation of rights which they asserted they must have under their form of worship. They stated that if such violation was not permanently enjoined, they would be forced to worship elsewhere; they did not contend that no other place of worship existed for them.\nWe conclude that the rights alleged by plaintiffs to have been violated have not been shown to have a monetary value. This Court does not have jurisdiction of this appeal and must, therefore, transfer it to a court of proper jurisdiction. Nolen v. Bennett, 238 La. 364, 115 So.2d 381; Succession of Hopkins, 236 La. 469, 108 So.2d 92; Jefferson v. Tennant, 234 La. 994, 102 So.2d 243; Plaquemines Parish School Board v. LaGrange Realty, Inc., 232 La. 81, 93 So.2d 910; City of New Orleans v. Langenstein, 227 La. 770, 80 So.2d 402.\nFor the reasons assigned and by virtue of the authority vested in this Court by LSA-R.S. 13 :4441, it is ordered that this appeal be transferred to the Court of Appeal for the Parish of Orleans, provided that the record be filed in that court within 30 days from the date this judgment shall become final; otherwise, the appeal shall be dismissed. The costs of this Court are to be paid by appellant.\n. Harry Katz, Gerson Pentes, Harris Pentes, Sherman Raphael, Irving Ru-bins, H. Karnofsky, M. Phillips, B. Hirseh, X Rodman, Bodle Dulitz, Louis Dulitz, Gabriel Matz, M. Zion, M. X Gordon, Hyman Karno, Ben Fisher, Henry Reiter, Max Freund, Max Dulitz, Julius Katz, Louis Barton, Heyman Pentes, Mayer Raitman, Harry Schwartz, Morris Dulitz, Sam Katz, Samuel Pianko, Hilbert Loeb, Isadore Slipman, Abraham Goldfarb, Gerson Katz, Isidore Barton, Abe Goldberg, Joseph Goldberg, Carl Naihaus, Mrs. B. Shushan, Sam Ball, Harry Pollock, and Harry Warren.\n. Gus Singerman, David Mesh, David Herman, Dr. Sydney Jacobs, Dr. Wilfred Finkelstein, Sam Menszer, Elias Rau, Dr. Sidney Light, Mose E. Brener, Abe Goldman, and Harry Wallick (duly constituted officers of the Congregation Chevra Thilim.). Dr. Aaron Altschul, Elias Cohen, Joseph Epstein, Dr. Julius Finkelstein, Joe Fisher, Dr. George Gaethe, Sidney Goldman, Jos. Harary, Herman Jeffer, Oscar Kagan, Sidney Kayman, Rene Lehmann, Leon Levin, William Lubel, Howard Malkove, Meyer Mendelvitz, Herman Midlo, Sam Momberg, Albert Pailet, Maurice Pailet, Al Pincus, A. Robert Rittenberg, Dr. I. L. Robbins, Sol Schnaider, Charles Singerman, Herman Singerman, A. Louis Sizeler, Irving Stetzer, Henry Weber, George Weinberg, Beryl Wolf-son, Herman Zimmerman, Larry Zion, Dr. Isreal Fisher, and Dr. Isadore Yager (duly constituted Members of the Board of Directors of the Congregation Chevra Thilim).\n. The preliminary injunction issued and was later perpetuated. No additional evidence was adduced, the matter having Been submitted on the record as made up on the trial of the rule for the preliminary injunction.",
+        "type": "majority",
+        "author": "HAMLIN, Justice."
+      }
+    ],
+    "attorneys": [
+      "Rittenberg, Weinstein & Bronfin, Robert Weinstein, Sylvan J. Steinberg, New Orleans, Martin L. C. Feldman, Herman & Herman, David L. Herman, New Orleans, for appellants.",
+      "Gertler, Hart & Duran, David Gertler, New Orleans, for appellees."
+    ],
+    "corrections": "",
+    "head_matter": "117 So.2d 56\nHarry KATZ et al. v. Gus SINGERMAN et al.\nNo. 43948.\nJan. 11, 1960.\nRittenberg, Weinstein & Bronfin, Robert Weinstein, Sylvan J. Steinberg, New Orleans, Martin L. C. Feldman, Herman & Herman, David L. Herman, New Orleans, for appellants.\nGertler, Hart & Duran, David Gertler, New Orleans, for appellees."
+  },
+  "file_name": "0915-01",
+  "first_page_order": 490,
+  "last_page_order": 495
+}

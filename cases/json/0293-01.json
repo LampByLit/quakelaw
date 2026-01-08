@@ -1,0 +1,194 @@
+{
+  "id": 3187526,
+  "name": "Charles L. DAVIS, Jr. v. Leona Beatrice Bartley DAVIS",
+  "name_abbreviation": "Davis v. Davis",
+  "decision_date": "1959-11-09",
+  "docket_number": "No. 44701",
+  "first_page": "293",
+  "last_page": "297",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 293"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 So.2d 355"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "109 So. 400",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "case_ids": [
+        1264865,
+        1264781
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/161/0721-01",
+        "/la/161/0719-01"
+      ]
+    },
+    {
+      "cite": "161 La. 721",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1264865
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/161/0721-01"
+      ]
+    },
+    {
+      "cite": "183 La. 489",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10034265,
+        3125650
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/164/0255-01",
+        "/la/183/0489-01"
+      ]
+    },
+    {
+      "cite": "64 So.2d 3",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        2896732
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/222/0783-01"
+      ]
+    },
+    {
+      "cite": "222 La. 784",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9906769,
+        2896732
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/64/0003-01",
+        "/la/222/0783-01"
+      ]
+    },
+    {
+      "cite": "185 La. 930",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5810849,
+        10027238
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/185/0929-01",
+        "/so/171/0080-01"
+      ]
+    },
+    {
+      "cite": "110 So. 2d 566",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9889075
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/110/0566-01"
+      ]
+    },
+    {
+      "cite": "237 La. 168",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3185385,
+        9889075
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/237/0167-01",
+        "/so2d/110/0566-01"
+      ]
+    },
+    {
+      "cite": "228 La. 987",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2897040,
+        9905769
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/228/0987-01",
+        "/so2d/84/0610-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 345,
+    "char_count": 4847,
+    "ocr_confidence": 0.673,
+    "pagerank": {
+      "raw": 5.135036792375646e-07,
+      "percentile": 0.9390242442706119
+    },
+    "sha256": "30388fcaed9aafc114ee2d1960e56542b80ce2939af5d5e06443b2a84b511f2b",
+    "simhash": "1:43a083a923e1ac50",
+    "word_count": 819
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Charles L. DAVIS, Jr. v. Leona Beatrice Bartley DAVIS."
+    ],
+    "opinions": [
+      {
+        "text": "FOURNET, Chief Justice.\nPlaintiff, Charles L. Davis, Jr., having been judicially separated from the defendant, Leona Beatrice Davis, instituted suit for absolute divorce on the ground of adultery and for custody of the children of the marriage. Defendant answered denying the allegations of plaintiff\u2019s petition and, by reconventional demand, prayed for a divorce, also on the ground of adultery or, in the alternative, of having lived separate and apart for a period of one year following the separation from bed and board; for custody of the children and alimony for their support. A trial by jury on all issues having been granted by the district judge at defendant\u2019s request and plaintiff\u2019s motion to set aside such order having been overruled, plaintiff applied for and was granted alternative writs of certiorari, ' prohibition and mandamus, with a stay order.\nThe right to trial by .jury in civil cases, although not constitutionally guaranteed, is- nevertheless recognized in all civil cases except those excluded by law. A suit for divorce does not fall into any of the categories of cases thus excluded, and we have .found no law, nor has plaintiff cited us to any, which would warrant our denying a jury trial on the question of divorce. From the fact, however, that the right to trial by jury obtains in cases involving a divorce, it does not necessarily follow that the same right exists with respect to the issues of custody of the children born of the marriage and alimony for their support. While these issues are incidental to and arise out of the main demand, they are nevertheless matters to be tried and determined by the judge without the intervention of a jury for under the express provisions of Article 157 of the Civil Code \u201c * * * the children shall be placed under the care of the party who shall have obtained the * * * divorce unless the judge shall, for the greater advantage of the children, order that some or all of them shall be entrusted to the care of the other party * * Moreover, the jurisprudence in this state is well settled that such judgments are never final, being subject to modification by the judge in summary proceedings instituted by either party, which proceedings under the express terms of Article 757 of the Code of Practice \u201c * * * are decided without the intervention of a jury.\u2019\u2019\nFor the reasons assigned, the writs herein issued are made peremptory. The ruling of the trial judge denying plaintiff\u2019s motion to set aside the order authorizing a trial by jury, insofar as the issues of custody of the children and alimony for their support are concerned, is overruled, and, accordingly, the motion is sustained and the case is remanded to the lower court for further proceedings in accordance with law and consistent with the views herein expressed.\n. Lea v. Orleans Parish School Board, 228 La. 987, 84 So.2d 610.\n. See, Todt v. Todt, 237 La. 168, 110 So. 2d 566.\n. For cases to be tried without the intervention of a jury, see, e. g., Arts. 494, 756, 757, 1036, La.Oode of Practice; R.S. 19:4; workmen\u2019s compensation suits.\n. It is interesting to note, however, that .the redactors of the proposed Code of Practice seem to be in agreement with plaintiff's contention that \u2014 as a matter of public policy \u2014 cases of this nature should he tried without the intervention of a jury as they recommend that jury trials be prohibited in all actions for annulment of marriage, separation from' bed and board, or divorce. Louisiana State Law Institute, Code of Practice Revision, Expos\u00e9 des motifs, Book VII, Title IV, Art. 4.\n. The cases of Bickham v. Pitts, 185 La. 930, 171 So. 80, and Lea v. Orleans Parish School Board, 228 La. 987, 84 So. 2d 610, relied upon by plaintiff, are not in point. While there is some language in those opinions which would seemingly support plaintiff\u2019s argument, a closer analysis shows that the Bickham case involved a partition suit, which, being a summary proceeding, is specifically excluded from jury trial, and the holding in the Lea case was based upon the interpretation of specific provisions of the Teachers Tenure Law.\n.Art. 232, La.Oivil Code, \u201cWhen the person who gives or receives alimony is replaced in such a situation that the one can no longer give, or that the other is no longer in need of it, in whole or in part, the discharge from or reduction of the alimony may be sued for and granted.\u201d\nJudgment granting custody of minor children to either parent in divorce decree in not irrevocable. Pepiton v. Pepiton, 222 La. 784, 64 So.2d 3; Higginbotham v. Lofton, 183 La. 489, 164 So. 255; Pullen v. Pullen, 161 La. 721, 109 So. 400.",
+        "type": "majority",
+        "author": "FOURNET, Chief Justice."
+      }
+    ],
+    "attorneys": [
+      "Love & Rigby, Shreveport, for plaintiff and applicant for writs.",
+      "McClendon & Benton, Minden, for defendant and respondent."
+    ],
+    "corrections": "",
+    "head_matter": "115 So.2d 355\nCharles L. DAVIS, Jr. v. Leona Beatrice Bartley DAVIS.\nNo. 44701.\nNov. 9, 1959.\nLove & Rigby, Shreveport, for plaintiff and applicant for writs.\nMcClendon & Benton, Minden, for defendant and respondent."
+  },
+  "file_name": "0293-01",
+  "first_page_order": 179,
+  "last_page_order": 181
+}

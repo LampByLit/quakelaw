@@ -1,0 +1,66 @@
+{
+  "id": 1933571,
+  "name": "The People ex rel. Falkenbury vs. Miles",
+  "name_abbreviation": "People ex rel. Falkenbury v. Miles",
+  "decision_date": "1852-01",
+  "docket_number": "",
+  "first_page": "348",
+  "last_page": "350",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "2 Mich. 348"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 273,
+    "char_count": 4696,
+    "ocr_confidence": 0.328,
+    "pagerank": {
+      "raw": 2.2643398112737897e-07,
+      "percentile": 0.7830080054860341
+    },
+    "sha256": "c7c283bd8edaea89e764abcaad9bf5a1990a881c82875b8f603a988fc4ff13d6",
+    "simhash": "1:a7006ac1dfeedfa5",
+    "word_count": 828
+  },
+  "last_updated": "2023-07-14T19:13:31.599570+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "The People ex rel. Falkenbury vs. Miles."
+    ],
+    "opinions": [
+      {
+        "text": "By the Court, Douglass, J.\nThis is an information in the nature of a quo warranto, filed by the Attorney General, on behalf of the people, on relation of Smith Falkenbury, charging Marcus H. Miles, the defendant, with usurping the office of County Clerk of the County of. St. Clair, and requiring him to show his right thereto. In addition to the usxral averments contained in a pleading of this nature at the common law, the information alleges \u201c that said Smith Falkenbury, by virtue $id warrant of due and regular election, is in law and in right entitled to have, hold, and exercise\u201d \u25a0said office. The defendant demurs, on the ground that the title of Falkenbury is not specifically set forth. The averment referred to is intended to be in conformity with Sec. 3, Ch. 136 of R. 8., 1846, which provides that in addition to the other allegations in an information for usurping an office, the Attorney General may \u201cset forth therein the name of the person rightfully entitled to such office, with an averment of his right thereto.\u201d The object of permitting this unixsual averment appears from section 4 of the same chapter, which provides that the Coxxrt \u201cshall render judgment upon the right of the defendant, and also upon the right of the party so entitled, or only upon the right of the defendant, as justice shall require.\u201d\nWe do not think these and other less important provisions on the same subject were, designed materially to change the nature of the proceeding by information in cases like the present. It is still a proceeding on behalf of the people against the defendant, to try his right to an office which he is alleged to have usurped. The sole issue must be as to his right. He cannot controvert the person alleged to bt entitled, nor can the Court adjudicate upon it unless it is necessarily involved in the determination of the issue between the people and the defendant. In a State like ours, where public officers are nearly all elective, and where pixblic opinion must usually be an effective check upon all xisurpations of office without some pretences of right, founded upon the suffrages of the people, it is obvious that the question most frequently to be tried on informations like the present, will be whether the defendant received a majority of the votes cast at an election. If he did not, some one else must have received it. In such cases, and in others of like character, it is apparent that the right of some other person is necessarily involved in the issue between the people and the defendant, and being so involved, the statute permits the Court, when justice so requires, to adjudicate upon it. The averment in question seems designed merely to furnish some foundation in the record for this judgment. It is not travesable by the defendant, for it is no concern of his who is entitled to the office if he is not. Of course it is not admitted by his omission to traverse it. There is no need that it should he special, because no issue can he formed upon it. The defendant is required to set forth the facts which constitute his own title specifically by plea. An issue of law or fact must generally he formed by the replication to this plea. This is the issue to be determined. If it is determined against the defendant, and if it is a necessary inference from this judgment and the facts upon which it is based, that the person alleged to he entitled to the office the defendant has usurped, in law and in fact is so, the Court are authorized, from considerations of public policy quite apparent, to affirm his right by a direct adjudication.\nIt is sajd that under section seven of the chapter referred to, the latter judgment may he the foundation of a proceeding by the person in whose favor it is rendered, to recover damages against the defendant, arising from his intrusion, and that therefore the facts upon which it is based ought to be specifically set forth in the information, and the defendant should have an opportunity to controvert them. The answer to that is that they were set forth, and were or might have been controverted by the defendant in the issue between him and the people.\nDemurrer overruled.",
+        "type": "majority",
+        "author": "By the Court, Douglass, J."
+      }
+    ],
+    "attorneys": [
+      "Zothrop \u00e9 Duffield, for relator.",
+      "Van ByTce & Emmons, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "The People ex rel. Falkenbury vs. Miles.\nIn an information in the nature of a quo warranto, charging the defendant with usurping an office, and requiring him to show his right thereto, and containing, in addition to the usuot averments, an allegation that the relator hy virtue and warrant of due and regular election is in law and in right entitled, to have, hold and exercise said office, it is not necessary for the relator to set forth his title to the office.\nZothrop \u00e9 Duffield, for relator.\nVan ByTce & Emmons, for defendant."
+  },
+  "file_name": "0348-01",
+  "first_page_order": 356,
+  "last_page_order": 358
+}

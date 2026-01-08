@@ -1,0 +1,66 @@
+{
+  "id": 1933577,
+  "name": "Comstock & Halsey vs. Hollon",
+  "name_abbreviation": "Comstock v. Hollon",
+  "decision_date": "1852-01",
+  "docket_number": "",
+  "first_page": "355",
+  "last_page": "356",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "2 Mich. 355"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 180,
+    "char_count": 2829,
+    "ocr_confidence": 0.338,
+    "pagerank": {
+      "raw": 1.7091307394250634e-07,
+      "percentile": 0.7021399703225941
+    },
+    "sha256": "70deb734b8e04eafed5ac934238b3296a98917d43cf3ac398339092512025484",
+    "simhash": "1:66fbaa85391cea4a",
+    "word_count": 477
+  },
+  "last_updated": "2023-07-14T19:13:31.599570+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Comstock & Halsey vs. Hollon."
+    ],
+    "opinions": [
+      {
+        "text": "By the Court, Whipple, J.\nThis action was originally brought by Comstock & Halsey against Hollon, in the County Court of Calhoun county; a judgment having been rendered in favor of the defendant, the cause was removed to the Circuit Court by certiorari.\nAn examination of the record shows that the action was trover, to-recover damages for the unlawful conversion of property. On the trial it appeared that Hollon was sheriff of the county of Calhoun, and took the property by virtue of an execution in a cause wherein Dibble & Dibble were plaintiffs and one Baker was defendant. Comstock & Halsey claimed the property by virtue of a chattel mortgage, executed to them by the said Baker, and which was duly recorded.\nThe principal fact to which the evidence was directed was, to show that the chattel mortgage was, under the provisions of our statute, void; this was the real issue tried between the parties. The County Court allowed the defendant to introduce evidence to impeach the mortgage, although no foundation was properly laid by showing the existence of a judgment against Baker. It is well settled that to authorize the introduction of evidence tending to show the mortgage fraudulent, the defendant was hound to allege and prove that Dibble & Dibble were judgment creditors; thus placing themselves in a position to show the mortgage fraudulent as against them. This was not done, and the judgment is for that reason erroneous.\nIt was suggested that as the question of fraud was litigated below, the Court will presume, in the absence of any showing to the contrary, that a judgment was proved. It is true that where the record is silent, this Court will in some cases intend that all the facts necessary to support the judgment were duly proved. In the case before us, however, the notice appended to the plea, does not aver a judgment, and the Court will not presume that any evidence was introduced or allowed by the Court, not warranted by the issue on the record. This view renders any opinion upon other questions reserved, unnecessary.\nIt must he certified to the Circuit Court of Calhoun county, that the judgment of the County Court ought to be reversed.\n- Certified accordingly.",
+        "type": "majority",
+        "author": "By the Court, Whipple, J."
+      }
+    ],
+    "attorneys": [
+      "Grary & Hughes for plaintiffs.",
+      "J. Van Arman, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "Comstock & Halsey vs. Hollon.\n\u00a3q trover against a sheriff, by parties claiming the proporfcy levied on, by virtue of a chattel mortgage, a judgment in favor of the party for whom the sheriff levied on the property claimed, must be alleged in pleading, and proved, to authorize the introduction of proof showing the chattel mortgage fraudulent.\nXn such case although the question of fraud was litigated in the Court below, yet as the notico appended to the plea did not aver a judgment, it will not be presumed one was proved.\nCase reserved from Calhoun Circuit Court.\nGrary & Hughes for plaintiffs.\nJ. Van Arman, for defendant."
+  },
+  "file_name": "0355-01",
+  "first_page_order": 363,
+  "last_page_order": 364
+}

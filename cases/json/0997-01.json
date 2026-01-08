@@ -1,0 +1,97 @@
+{
+  "id": 3186243,
+  "name": "COLLECTOR OF REVENUE, State of Louisiana, v. John W. OLVEY, Jr. and Mary R. G. OLvey",
+  "name_abbreviation": "Collector of Revenue v. Olvey",
+  "decision_date": "1959-12-14",
+  "docket_number": "No. 44655",
+  "first_page": "997",
+  "last_page": "997",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 998"
+    },
+    {
+      "type": "parallel",
+      "cite": "117 So.2d 569"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "117 So.2d 563",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3188118
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0979-01"
+      ]
+    },
+    {
+      "cite": "238 La. 980",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9888977,
+        3188118
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/117/0563-01",
+        "/la/238/0979-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 105,
+    "char_count": 880,
+    "ocr_confidence": 0.76,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.08998265922067271
+    },
+    "sha256": "fc931d9e19b39837daa1b4eacaa053a78a5ae05eaf25979486a0efa4038c5623",
+    "simhash": "1:b8a400cb2751268a",
+    "word_count": 144
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "COLLECTOR OF REVENUE, State of Louisiana, v. John W. OLVEY, Jr. and Mary R. G. OLvey."
+    ],
+    "opinions": [
+      {
+        "text": "McCALEB, Justice.\nThis is a companion suit to that of Collector of Revenue, State of Louisiana v. Olvey, 238 La. 980, 117 So.2d 563, this day decided and is controlled by the decision therein.\nFor the reasons stated in that matter, the judgment appealed from is reversed; all exceptions and pleas filed by respondents are overruled and the case is remanded for further proceedings according to law and consistent with the views herein expressed. The costs of this appeal are to be borne by respondents.",
+        "type": "majority",
+        "author": "McCALEB, Justice."
+      }
+    ],
+    "attorneys": [
+      "Roy M. Lilly, Jr., Chapman L. Sanford, Emmett E. Batson, Richard Alsina Fulton, Frederick S. Haygood, Levi A. Himes, Baton Rouge, for appellant.",
+      "Wilkinson, Lewis, Madison & Woods, Shreveport,' for defendants-appellees."
+    ],
+    "corrections": "",
+    "head_matter": "117 So.2d 569\nCOLLECTOR OF REVENUE, State of Louisiana, v. John W. OLVEY, Jr. and Mary R. G. OLvey.\nNo. 44655.\nDec. 14, 1959.\nRehearing Denied Feb. 15, 1960.\nRoy M. Lilly, Jr., Chapman L. Sanford, Emmett E. Batson, Richard Alsina Fulton, Frederick S. Haygood, Levi A. Himes, Baton Rouge, for appellant.\nWilkinson, Lewis, Madison & Woods, Shreveport,' for defendants-appellees."
+  },
+  "file_name": "0997-01",
+  "first_page_order": 531,
+  "last_page_order": 531
+}

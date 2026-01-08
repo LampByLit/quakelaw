@@ -1,0 +1,373 @@
+{
+  "id": 4382623,
+  "name": "DONALD R. EVELEIGH et al., Plaintiffs and Respondents, v. OSCAR DARNEILLE et al., Defendants and Appellants",
+  "name_abbreviation": "Eveleigh v. Darneille",
+  "decision_date": "1969-10-03",
+  "docket_number": "Civ. No. 11761",
+  "first_page": "638",
+  "last_page": "642",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "276 Cal. App. 2d 638"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "30 U.S.C.A. \u00a7\u00a7 28-1",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.L.Rev. 171",
+      "category": "journals:journal",
+      "reporter": "Cal. L. Rev.",
+      "pin_cites": [
+        {
+          "page": "172"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "200 P. 644",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "186 Cal. 703",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2150698
+      ],
+      "pin_cites": [
+        {
+          "page": "706"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/186/0703-01"
+      ]
+    },
+    {
+      "cite": "41 P. 936",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "case_ids": [
+        2259986
+      ],
+      "year": 1903,
+      "opinion_index": 0,
+      "case_paths": [
+        "/or/31/0583-02"
+      ]
+    },
+    {
+      "cite": "28 Ore. 119",
+      "category": "reporters:state",
+      "reporter": "Or.",
+      "case_ids": [
+        2264384
+      ],
+      "year": 1903,
+      "opinion_index": 0,
+      "case_paths": [
+        "/or/28/0119-01"
+      ]
+    },
+    {
+      "cite": "224 P. 259",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "65 Cal.App. 480",
+      "category": "reporters:state",
+      "reporter": "Cal. App.",
+      "case_ids": [
+        2149505
+      ],
+      "pin_cites": [
+        {
+          "page": "485"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app/65/0480-01"
+      ]
+    },
+    {
+      "cite": "20 Cal.Rptr. 416",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1924,
+      "opinion_index": 0
+    },
+    {
+      "cite": "201 Cal.App.2d 680",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2300788
+      ],
+      "year": 1924,
+      "pin_cites": [
+        {
+          "page": "687"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/201/0680-01"
+      ]
+    },
+    {
+      "cite": "63 S.Ct. 1162",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 L.Ed. 1707",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "319 U.S. 753",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        366761,
+        366637,
+        366797,
+        366737,
+        366872
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/319/0753-05",
+        "/us/319/0753-02",
+        "/us/319/0753-04",
+        "/us/319/0753-03",
+        "/us/319/0753-01"
+      ]
+    },
+    {
+      "cite": "102 Utah 131",
+      "category": "reporters:state",
+      "reporter": "Utah",
+      "case_ids": [
+        43778
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/utah/102/0131-01"
+      ]
+    },
+    {
+      "cite": "182 Ore. 441",
+      "category": "reporters:state",
+      "reporter": "Or.",
+      "case_ids": [
+        2433656
+      ],
+      "weight": 3,
+      "year": 1942,
+      "opinion_index": 0,
+      "case_paths": [
+        "/or/182/0441-01"
+      ]
+    },
+    {
+      "cite": "216 P. 409",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "year": 1947,
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.App. 87",
+      "category": "reporters:state",
+      "reporter": "Cal. App.",
+      "case_ids": [
+        2087981
+      ],
+      "year": 1947,
+      "pin_cites": [
+        {
+          "page": "90"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app/62/0087-01"
+      ]
+    },
+    {
+      "cite": "88 P.2d 777",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1923,
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.App.2d 631",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        6041695
+      ],
+      "year": 1923,
+      "pin_cites": [
+        {
+          "page": "639"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/31/0631-01"
+      ]
+    },
+    {
+      "cite": "276 P.2d 871",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1939,
+      "opinion_index": 0
+    },
+    {
+      "cite": "129 Cal.App.2d 356",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2182627
+      ],
+      "year": 1939,
+      "pin_cites": [
+        {
+          "page": "362-363"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/129/0356-01"
+      ]
+    },
+    {
+      "cite": "137 Am. St. Rep. 118",
+      "category": "reporters:state",
+      "reporter": "Am. St. Rep.",
+      "year": 1954,
+      "opinion_index": 0
+    },
+    {
+      "cite": "107 P. 301",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "year": 1954,
+      "opinion_index": 0
+    },
+    {
+      "cite": "157 Cal. 130",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2014107
+      ],
+      "year": 1954,
+      "pin_cites": [
+        {
+          "page": "135"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/157/0130-01"
+      ]
+    },
+    {
+      "cite": "44 Cal. Rptr. 642",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "234 Cal.App.2d 689",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2147889
+      ],
+      "pin_cites": [
+        {
+          "page": "691"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/234/0689-01"
+      ]
+    },
+    {
+      "cite": "30 U.S.C.A. \u00a7 28",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 633,
+    "char_count": 8625,
+    "ocr_confidence": 0.686,
+    "pagerank": {
+      "raw": 6.380125665320789e-08,
+      "percentile": 0.3928304314266971
+    },
+    "sha256": "1742c901fe43ae1767c65488d6a88d1abe9db213554f75c9cc01e1688c373f45",
+    "simhash": "1:e4e95707c5ac3451",
+    "word_count": 1433
+  },
+  "last_updated": "2024-02-27T17:52:21.889319+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "DONALD R. EVELEIGH et al., Plaintiffs and Respondents, v. OSCAR DARNEILLE et al., Defendants and Appellants."
+    ],
+    "opinions": [
+      {
+        "text": "action involves ownership of nine contiguous, unpatented mining claims known as the Yankee Jack group-, located in Shasta County. In 1962 Maurine Herrman had been the owner of these claims. Plaintiffs are her successors in interest. Between November 1964 and February 1965 defendants located four contiguous lode mining claims which overlay part of the Yankee Jack group. Defendants claim ownership on the strength of Maurine Herrman\u2019s asserted failure to perform the annual assessment work required by federal law. The trial court concluded that labor performed on behalf of Maurine Herrman satisfied the demands of federal law and quieted plaintiffs\u2019 title. Defendants appeal.\n\u25a0The crucial period is the 1964 \u201cmining year,\u201d commencing September 1, 1963, and ending August 31, 1964. (See 30 U.S.C.A. \u00a7 28.) Under the doctrine of group development, annual assessment work performed on any one or more of a group of contiguous claims inures to the entire group. (Daly v. Wallace (1965) 234 Cal.App.2d 689, 691 [44 Cal. Rptr. 642].) Since the Yankee Jack group consisted of nine contiguous claims, the holder was required to perform $900 worth of labor during the mining year.\nA lessee had worked the Yankee Jack group but closed down operations in the fall of 1962: In January 1963 the lessee removed its machinery and equipment. In December 1963 (during the 1964 mining year) Miss Herrman\u2019s agent hired a mining consultant, Carl W. Yates, who- spent eight days on the property taking samples both from surface cuts and from the underground mine workings. In the surface exploration he did not open any ground except by hand sampling. He testified that he had been hired to do sampling and assay work, but not assessment work. He billed approximately $800 for his services but was never paid. In the summer of 1964 Miss Herrman\u2019s agent, C. M. Walker, spent parts of three separate days on the property taking samples from exposed ledges and the tailings. He used a pick, shovel, sledge hammer and bar in his sampling but did not dig any large holes. The samples were placed in canvas bags. The'filled bags, weighing 45 to 50 pounds apiece, were taken to Placerville for mill tests. Walker delivered a total of 810 pounds for milling and concentrating.\nThe trial court found that the activities of Yates and Walker constituted the \u201cnecessary\u201d assessment work in the mining year 1964. Defendants assail this finding. They assert that eligible labor must create visible signs of the claim-holder\u2019s activity and that extraction of small samples for analysis and assay does not satisfy the statute.\nThe general rule has it that the work must be of such a character as directly tends to develop and protect the claim and facilitate the extraction of minerals. (Big Three Min. & Mill. Co. v. Hamilton (1909) 157 Cal. 130, 135 [107 P. 301, 137 Am. St. Rep. 118]; Sampson v. Page (1954) 129 Cal.App.2d 356, 362-363 [276 P.2d 871]; Lind v. Baker (1939) 31 Cal.App.2d 631, 639 [88 P.2d 777]; Ring v. United States Gypsum, Co. (1923) 62 Cal.App. 87, 90 [216 P. 409]; Schlegel v. Hough (1947) 182 Ore. 441 [186 P.2d 516, 188 P.2d 158]; New Mercur Min. Co. v. South Mercur Min. Co. (1942) 102 Utah 131 [128 P.2d 269] cert den. 319 U.S. 753 [87 L.Ed. 1707, 63 S.Ct. 1162] ; 58 C.J.S., Mines and Minerals, \u00a7 69, p. 125.) A well-known California authority states that any labor will satisfy the law \u201cif its tendency is to develop the claim as a mine.\u201d (Ricketts, American Mining Law, Cal. Dept. of Natural Resources (1943) p. 282.) All reasonable doubt is to be resolved against forfeiture of the senior claim. (Daly v. Wallace, supra, 234 Cal.App.2d at p. 692.) If the required work was done, the claim-holder need not have paid for it. (Pascoe v. Richards (1962) 201 Cal.App.2d 680, 687 [20 Cal.Rptr. 416]; Thornton v. Phelan (1924) 65 Cal.App. 480, 485 [224 P. 259].)\nAlthough good faith of the senior or subsequent locator may sometimes be a pivotal question, the trial court made no finding on that score. A memorandum opinion leads to the inference that good or bad faith was not an issue. The trial court\u2019s finding of labor complying with the statutory requirement necessarily implies a finding that the Yates-Walker activity had a tendency to benefit or develop the claims. This was an issue of fact to be submitted in the first instance to the trial court. (Big Three Min. & Mill. Co. v. Hamilton, supra, 157 Cal. at p. 135; Daly v. Wallace, supra, 234 Cal.App.2d at p. 693.) If the trial judge\u2019s inference of benefit is reasonable, it cannot be upset on appeal though he might have drawn a contrary inference from the same evidence. (Lind v. Baker, supra, 31 Cal.App.2d at p. 639.)\nDefendants\u2019 research has uncovered several authorities declaring that extraction of samples in small quantities for analysis and assay is inadequate. (Bishop v. Baisley (1895) 28 Ore. 119 [41 P. 936] ; 2 Lindley on Mines (2d ed. 1903) \u00a7 629, p. 1164.) Defendants also, rely upon a dictum in Rohn v. Iron Chief Min. Co. (1921) 186 Cal. 703, 706 [200 P. 644], discerning a prime purpose of the federal statute to demand visible evidence of the claimholder\u2019s activity as a warning to other prospectors. Both these notions run counter to the mainstream of American case law, which views the works developmental tendency as its qualifying characteristic. (See 10 Cal.L.Rev. 171, 172.)\nSampson v. Page, supra, holds that evidence of drilling and removal of samples for the purpose of determining values is adequate to support a finding of compliance. Ricketts too declares: \u201cThe law does not require that the labor shall benefit the claim in the sense of making the claim more valuable after the performance of the labor than before. Therefore any labor performed upon the claim, if sufficient in amount, will satisfy the law, if its tendency is to develop the claim as a mine. The digging of prospect holes, or the digging of a cut or cuts or drain ditch or ditches, the removal of brush, panning, etc., and all things done necessary for the doing of assessment work, if sufficient in amount, will be in compliance'with the law. Work done for the purpose of discovery of mineral whatever the particular form of deposit, also is work and improvement within the meaning of the statute.\u201d (Ricketts, op. cit. supra, pp. 282-283, fn. 4.)\nVisibility is an untrustworthy test of eligibility. Worthless tramplings on the surface may create a facade of economically valuable activity while $100 worth of underground tunneling may be practically invisible. Federal statutes adopted in 1958 permit geological, geochemical and geophysical surveys to qualify as \u201clabor\u201d when performed by qualified experts and verified by the recording of their reports. (30 U.S.C.A. \u00a7\u00a7 28-1, 28-2.) Defendants argue that the 1958 enactments emphasize the necessity for work which provides visible notice to potential locators. The 1958 statutes do not at all denigrate the statutory objective to facilitate mineral development, nor do they require the rejection of ore extraction for analysis or assay as instrumentalities serving that objective.\nThe Yates-Walker activity was of a kind which the federal law permitted the trial' court to accept as complying labor. Since the court impliedly found, on substantiated evidience, that the labor tended to improve and develop the Herrman claims, the findings are impervious to defendants\u2019 attack. The ground was not open for location and the attempted locations by defendants conferred no rights upoii them.\nJudgment affirmed.\nJames, J., concurred.\nAppellants\u2019 petition for a hearing by the Supreme Court was denied November 26, 1969.\n30 U.S.C.A. section 28, provides in part: \"On each, claim located after the 10th day of May 1872, and until a patent has been issued therefor, not less than $100 worth of labor shall be performed or improvements made during each year. . . . and upon a failure to comply with these conditions, the claim or mine upon which such failure occurred shall be open to relocation in the same manner as if no location of the same had ever been made . . . . \u201d\nSection 2314, California Public Besources Code, provides: \"The amount of work done or improvements made during each year to hold possession of a mining claim shall be that prescribed by the laws of the United States, to wit: One hundred dollars ($100) annuaBy.\u201d",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "[Civ. No. 11761.\nThird Dist.\nOct. 3,1969]\nDONALD R. EVELEIGH et al., Plaintiffs and Respondents, v. OSCAR DARNEILLE et al., Defendants and Appellants.\nLopez & Kennedy and Donald R. Kennedy for Defendants and Appellants.\nLeep, Saunders & Halpin and Jack Halpin for Plaintiffs and Respondents."
+  },
+  "file_name": "0638-01",
+  "first_page_order": 660,
+  "last_page_order": 664
+}

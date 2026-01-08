@@ -1,0 +1,272 @@
+{
+  "id": 3188541,
+  "name": "Edward H. FALLON v. NEW ORLEANS POLICE DEPARTMENT",
+  "name_abbreviation": "Fallon v. New Orleans Police Department",
+  "decision_date": "1959-11-09",
+  "docket_number": "Nos. 43926, 44510",
+  "first_page": "531",
+  "last_page": "551",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 531"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 So.2d 844"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "233 La. 992",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9883369,
+        5403631
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/99/0320-01",
+        "/la/233/0991-01"
+      ]
+    },
+    {
+      "cite": "100 L.Ed. 692",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "350 U.S. 551",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12034225
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "639"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/350/0551-01"
+      ]
+    },
+    {
+      "cite": "77 So.2d 24",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        10038282,
+        2982642
+      ],
+      "pin_cites": [
+        {
+          "page": "27"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/77/0024-01",
+        "/la/226/0739-01"
+      ]
+    },
+    {
+      "cite": "226 La. 739",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2982642,
+        10038282
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/226/0739-01",
+        "/so2d/77/0024-01"
+      ]
+    },
+    {
+      "cite": "217 La. 621",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5533987,
+        10034783
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/217/0627-01",
+        "/so2d/47/0023-01"
+      ]
+    },
+    {
+      "cite": "184 La. 997",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5531388,
+        10028375
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/184/0997-01",
+        "/so/168/0127-01"
+      ]
+    },
+    {
+      "cite": "189 La. 113",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5540027,
+        10027086
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/189/0113-01",
+        "/so/179/0052-01"
+      ]
+    },
+    {
+      "cite": "206 La. 1078",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10046760,
+        3103641
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/20/0368-01",
+        "/la/206/1077-01"
+      ]
+    },
+    {
+      "cite": "5 So.2d 547",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        2907216
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/199/0098-01"
+      ]
+    },
+    {
+      "cite": "199 La. 195",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2907216,
+        10057756
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/199/0098-01",
+        "/so2d/5/0547-01"
+      ]
+    },
+    {
+      "cite": "200 La. 341",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5414378,
+        10029642
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "62"
+        },
+        {
+          "page": "56"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/200/0342-01",
+        "/so2d/8/0049-01"
+      ]
+    },
+    {
+      "cite": "187 La. 269",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10043947,
+        3170239
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "355"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/174/0352-01",
+        "/la/187/0269-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 779,
+    "char_count": 19615,
+    "ocr_confidence": 0.737,
+    "pagerank": {
+      "raw": 5.4033266686372354e-08,
+      "percentile": 0.3393701717744934
+    },
+    "sha256": "34240a48cd316e5ed633f6219223751f1837c086428eb2ec4e5d809cc426d0b5",
+    "simhash": "1:a6e56c5e33033b71",
+    "word_count": 3213
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Edward H. FALLON v. NEW ORLEANS POLICE DEPARTMENT."
+    ],
+    "opinions": [
+      {
+        "text": "HAMLIN, Justice.\nIn these consolidated cases, Edward H. Fallon, Sr., a former captain in the Department of Police, City of New Orleans, appeals from:\n1. A ruling of the City of New Orleans Civil Service Commission affirming his dismissal by Provosty A. Dayries, Superintendent of Police, Department of Police, City of New Orleans.\n2. A per curiam ruling of the City of New Orleans Civil Service Commission denying his request for reinstatement to his former position with the Department of Police.\nOn June 24, 1957, the Superintendent of Police addressed the following letter of dismissal to Captain Edward H. Fallon, Sr.:\n\u201cDepartment of Police \u201c2700 Tulane Avenue \u201cNew Orleans, La.\n\u201cJune 24, 1957\n\u201cCaptain Edward H. Fallon, Sr.\n1825 St. Roch Avenue\nNew Orleans, Louisiana\n\u201cDear Captain Fallon:\n\u201cOn June 21, 1957, you refused to answer questions propounded to you by the Orleans Parish Grand Jury pertaining to the conduct of yourself and other members of this Department relating to your official duties.\n\u201cOn June 24, 1957, you were called to the Police Bureau of Investigation in connection with an official investigation pertaining to public bribery involving members of the New Orleans Police Department. You stated at that time that you did not want any questions to be asked of you by Agents of the Police Bureau of Investigation, and that if any questions were asked you would not answer the questions.\n\u201cIt is my finding that your conduct as stated above constitutes Conduct Unbecoming an Officer, in that you refused to cooperate in duly constituted investigations and reflected discredit upon yourself and this Department. In view of the above, I hereby dismiss you from the New Orleans Police Department, effective immediately. This is a final action.\n\u201cVery truly yours,\nProvosty A. Dayries\nProvosty A. Dayries\nSuperintendent of Police\u201d\nCaptain Fallon\u2019s appeal lodged with the Civil Service Commission was based on three points, namely, (a) the notice of dismissal was not delivered timely; (b) the Civil Service Law, Article XIV, Sec. IS (P) (1), Louisiana Constitution of 1921 is unconstitutional; and (c) the Fifth Amendment shielded him from answering the interrogations in question.\nThe Civil Service Commission made the following findings of fact:\n\u201c(1) Edward H. Fallon, Sr., Captain in the New Orleans Police Department, refused to answer questions propounded to him by the Orleans Parish Grand Jury and the Police Bureau of Investigation pertaining to his own conduct as well as conduct of other-members of the Department; and to the existence of a system of public bribery involving members of the Police Department.\n\u201c(2) Appellant gave no reason whatsoever for his actions in the premises, and failed to take the witness stand in the trial before the Commission to explain his action or contradict any of the charges leveled against him.\u201d\nThe Conclusions of Law of the Civil Service Commission recite:\n\u201c(1) The conduct of the appellant in refusing without adequate cause to answer the questions propounded to him before the Orleans Parish Grand Jury and the Police Bureau of Investigation of the New Orleans Police Department, constituted conduct unbecoming an officer of the most flagrant type.\n\u201c(2) The Superintendent of Police had ample cause to take the disciplinary action in dismissing appellant from the- New Orleans Police Department.\n\u201c(3) The plea of unconstitutionally of Section 15(P) (1) of Article XIV of the Louisiana Constitution is without merit.\n\u201c(4) The appeal is completely baseless either in law or fact and is therefore dismissed.\u201d\nWhat we shall designate as Appeal No. 1 was filed, on January 22, 1958, to the above findings of fact and conclusions of law.\nOn September 23, 1958 (while appeal No. 1 was pending before this Court), counsel for Captain Fallon addressed a letter to the Superintendent of Police, in which he requested that Captain Edward H. Fallon be reinstated immediately. He stated that if Captain Fallon were not reinstated discrimination would result, inasmuch as Warren A. Labiche had been reinstated after having been dismissed under the same or very similar circumstances. The Superintendent of Police and William W. Shaw, Director of Personnel, City of New Orleans, referred the matter to the Civil Service Commission. In rejecting the demand for reinstatement, the Civil Service Commission expressed its reasons in the following per curiam:\n\u201cIn re: Edward H. Fallon, Sr.\n\u201cEdward H. Fallon, Sr., through counsel, has addressed a letter to the Civil Service Department under date of September 23, 1958, requesting that he be reinstated to his position with the New Orleans Police Department, for the reason that the Appointing Authority \u2014 in this case the Superintendent of Police \u2014 in refusing to recommend reinstatement of Edward H. Fallon, Sr., has discriminated against him.\n\u201cIt is to be observed that an appeal of the Commission\u2019s decision affirming the Appointing Authority\u2019s dismissal, is now pending before the Supreme Court of Louisiana.\n\u201cUnder the provisions of Rule VI, 4.6, any request made to this Commission for permission to reinstate, should be made within one year. The record discloses that more than one year has expired since the dismissal. Accordingly, under the rules of the Commission, even if the Appointing Authority desired to recommend reinstatement, the Commission could not entertain such a request.\n\u201cThe request by Edward H. Fallon, Sr. is accordingly denied. The Commission sees no need for a hearing in the premises.\u201d\nTo the above ruling, Captain Fallon filed what we shall call Appeal No. 2. This appeal is consolidated with Appeal No. 1, supra.\nCertain specifications of error, which contain the same arguments advanced by Captain Fallon before the Civil Service Commission, are set forth in Appeal No. I.\nWe find no merit in appellant\u2019s contention that he was not timely notified of his dismissal. The rules of the Civil Service Commission require that an employee and the director of personnel be advised of the dismissal of an employee immediately. Emphasis is placed upon the meaning of the word \u201cImmediately,\u201d but herein we are not called upon to discuss its definition. The letter of the Director of Personnel was stamped June 28, 1957, and there is no proof in the record that it was not received before that date; there is no proof as to when appellant received his letter of dismissal, although it is contended that he received it on July 2, 1957. Under such circumstances, we conclude that the following statement of the Civil Service Commission is correct:\n\u201cAppellant\u2019s counsel, in his brief, contends that the letter of June 24th did not reach him until July 2nd, and the Director of Personnel until June 28th, and as such did not constitute immediate notice within Rule IX, Section 1.2 of the Rules of this Commission.\n\u201cThere is no proof in the record to show time of delivery to appellant. Hence, this defense fails.\u201d\nSection 15 (P) (1) of Article XIV, Louisiana Constitution of 1921, which appellant contends is unconstitutional, recites:\n\u201cIf any member of the State or City Commissions or any officer or employee in the State or City Civil Service shall willfully refuse or fail to appear before any Civil Service Commission, court, or judge, any legislative committee, or any officer, board or body authorized to conduct any hearing or inquiry, or having appeared shall refuse to testify or answer any question relating to the affairs or government of the State or city, or the conduct of any State or city officer or employee on the ground that his testimony or answers would tend to incriminate him, or shall refuse to waive immunity from prosecution on account of any matter about which he may be asked to testify at any such hearing or inquiry, he shall forfeit his office or position and shall not be eligible thereafter for appointment to any position in the State or City Service for a period of ten years.\u201d\nIt is appellant\u2019s contention that the section, supra, is unconstitutional, null, and void, because it is violative of and in contravention of Amendment XIV, Sec. 1, of the United States Constitution, wherein it is provided that no state shall make or enforce any law which shall abridge the privileges or immunities of citizens of the United States, nor shall any State deprive any person of life, liberty, or property, without due process of law. This contention is levelled principally at the fact that an employee of a municipality containing a population of less than 250,000 is not governed by Section 15(P) (1) of Article XIV, supra. His conduct is provided for in Section 15.1, subd. 32, of Article XIV, Louisiana Constitution of 1921, which provides :\n\u201cAny officer or employee in the classified service * * * who, having appeared, refuses to testify or answer any relevant question relating to the affairs of government of the municipality or the conduct of any municipal officer or employee, except upon the ground that his' testimony or answers would incriminate him, shall * * * forfeit his position *\n(Emphasis ours.)\nWe do not know of any prohibition in the federal or state constitution which forbids the legislature from passing laws which affect municipalities according to their population.\n\u201c * * * it is fundamental that the Legislature has all the powers of legislation not specifically denied it by the Constitution. * * * \u201d State v. Cusimano, 187 La. 269, 174 So. 352, 355.\n\u201cIt is a familiar doctrine, that the Legislature of a State, unlike Congress, which cannot do anything which the Federal Constitution does not authorize, may do everything which the State Constitution does not prohibit. * * * \u201d Ricks v. Department of State Civil Service, 200 La. 341, 8 So.2d 49, 62. See, Stovall v. City of Monroe, 199 La. 195, 5 So.2d 547; State v. Pete, 206 La. 1078, 20 So.2d 368.\nIn Ward v. Leche, 189 La. 113, 179 So. 52, we were not confronted with the identical question as is herein involved, but in that case we mentioned and recognized a provision in Section 15 of Article XIV, Louisiana Constitution of 1921, which affected municipalities having a population of 100,000 or more.\nCounsel for appellant has not pointed out whereby the difference in conduct required in Section 15(P) (1) of Article XIV and that set forth in Section 15.1(32) of Article XIV is unreasonable, arbitrary, or insubstantial. State v. Banner Cleaners & Dyers, 184 La. 997, 168 So. 127.\nCourts do not concern themselves with the expediency or wisdom of a statute. Ward v. Leche, supra; Olivedell Planting Co. v. Town of Lake Providence, 217 La. 621, 47 So.2d 23. They only inquire as to whether a discrimination is arbitrary and without reason. We find no such discrimination in Section 15(P) (1) of Article XIV, Louisiana Constitution of 1921.\n\u201cThe exemption of certain classes of persons from the operation of civil service has been placed by almost all of the Legislatures of this country upon the theory that laws in relation to the holding of public office are not enacted for the benefit of those employed or those to be employed, but for the benefit of the public. The privilege of holding public office is not guaranteed by the Constitution as an inalienable right. On the contrary the privilege is conferred only upon such terms and conditions, as the people, speaking through their chosen representatives, might determine. The equal protection clause of the Constitution does not prohibit each and every discrimination in the law, but only such as would be arbitrary and without reason. * * * \u201d Ricks v. Department of State Civil Service, 200 La. 341, 8 So.2d 49, 56.\n\u201c * * * While it is true that under our civil service system now in force, persons who have acquired civil service status are protected from discrimination and/or disciplinary action which is arbitrary or is based on political or religious reasons the same provision of the Constitution authorizes dismissal \u2018for cause,\u2019 and sets up a Commission to which application may be made when an employee is aggrieved \u2014 said commission being vested with \u2018the exclusive right to hear and decide all appeals and the legality of all removal and disciplinary cases.\u2019 * * * \u201d Konen v. New Orleans Police Department, 226 La. 739, 77 So.2d 24, 27.\nAppellant relies on the case of Slochower v. Board of Higher Education of City of New York, 350 U.S. 551, 76 S.Ct. 637, 639, 100 L.Ed. 692, to support his contention that no provision of state law, which abridges the privileges or immunities of citizens of the United States, nor which deprives any person of life, liberty or property, without due process of law, is constitutional. In that case, which is not apposite, the Supreme Court of the United States stated that it was not deciding whether a claim under the \u201cprivileges or immunities\u201d clause was considered in the lower courts, since it was \u25a0concluding that the summary dismissal of Slochower in the circumstances of the case violated due process of law.\nIn the instant matter, we do not have before us for our consideration a summary \u25a0dismissal. Captain Fallon appealed to the Civil Service Commission, and no contention is made that the hearing was improperly conducted. We have also recently held, in State v. Ford, 233 La. 992, 99 So.2d 320, that the Due Process Clause of the Fourteenth Amendment to the Federal Constitution does not extend its provisions to the Fifth Amendment in a state court.\nWe have examined the record and discovered that it contains evidence which supports the Findings of Fact of the Civil Service Commission.\nWe find that the Conclusions of Law of the Civil Service Commission are correct, and that appellant has not been deprived of \u201cDue Process of Law.\u201d We hold that Section 15 (P) (1) of Article XIV, Louisiana Constitution of 1921, is constitutional and does not violate the Fourteenth Amendment, Sec. 1, to the Constitution of the United States.\nIn Appeal No. 2, it is contended:\n\u201cUnder the State Civil Service Law, no one in the Classified Service can be discriminated against or disciplined without cause. The import is that persons in the same circumstances must be treated alike. Obviously, the reinstatement by Superintendent Dayries, and the concurrence by the Commission in the reinstatement of Officer Labiche who himself had refused to turn over to Dayries a financial statement and power of attorney, but who later indicated his willingness to comply with this request is a discrimination against Captain Fallon. This is especially so when it is considered that Fallon, who had allegedly refused to cooperate with the PBI, later offered to speak to them and to give any information he had. This was made known to the Superintendent and despite the fact that the Superintendent knew he intended to reinstate Labiche, he refused to reinstate Fallon. The Commission denied Fallon\u2019s request based upon this alleged discrimination and stated, \u2018Under the provision of rule VI, Section 4.6, any request made to this Commission for permission to reinstate should be made within one year.\u2019 It was for this reason that the Commission said that under its rules even if the appointing authority desired to recommend reinstatement the Commission could not entertain such a request. But, such a rule could not absolve the Superintendent for the discriminatory action taken by him in advance of the expiration of one year.\n\u201cL.S.A. Constitution, Article XIV, Section 15(A) (1).\u201d\nRule VI, 4.6, of the City of New Orleans Civil Service Commission, provides:\n\u201cA permanent employee who is separated for inefficiency, delinquency, or misconduct may, within one year from separation, be reinstated with probationary status to a position for which he is qualified having the same or lower maximum salary as the current maximum for the class of position in which he had permanent status if recommended by the appointing authority and approved by the Commission.\u201d\nAppellant argues that the Superintendent of Police requested the reinstatement of Captain Warren A. Labiche on May 8, 1958, and at that time one year had not elapsed from the date of his discharge, June 24, 1957. He contends that it was only after the Civil Service Commission reinstated Captain Labiche on July 10, 1958, that his counsel became aware of the alleged discriminatory action.\nWe have no doubt that appellant\u2019s counsel is sincere in his arguments. However, as we have previously stated in this opinion, the privilege of holding a governmental position is not an inalienable right. If the Superintendent of Police saw fit to reinstate one of his officers and not another, we cannot pass upon the validity of his action if the officer who claims to be aggrieved (in the instant case, the appellant) made his request for reinstatement after one year had elapsed from the date of his separation or discharge.\nThe rules of the Civil Service Commission have the effect of law. Article XIV, Sec. 15(1), Louisiana Constitution of 1921. Rule VI, 4.6, of the City of New Orleans Civil Service Commission definitely states that a permanent employee who is separated from his position for cause may be reinstated under certain conditions with probationary status within one year from the date of separation. In the instant matter, more than one year elapsed between the date of dismissal, June 24,1957, and the date of request for reinstatement, September 23, 1958. Under such circumstances, this Court can afford appellant no relief.\nFor the reasons assigned, in Case No. 43,926 the ruling of the City of New Orleans Civil Service Commission affirming the dismissal of Captain Edward H. Fallon, Sr. by Provosty A. Dayries, Superintendent of Police, is affirmed.\nFor the reasons assigned, in Case No. 44,510 the per curiam ruling of the City of New Orleans Civil Service Commission denying the request of Captain Edward H. Fallon, Sr., for reinstatement to his former position with the Department of Police is affirmed.\n. Captain Fallon had been previously dismissed on March 6, 1957, for refusal to give testimony before the Intelligence Division of the United States Treasury Department. On April 25, 1957, he was reinstated by the Civil Service Commission\u2019s affirmance of the request of the Superintendent of Police.\n. On this appeal, we are limited to a review of the conclusions of law. The decision of the appropriate Civil Service Commission is final on the facts. Article XIV, Sec. 15(0) (1), Louisiana Constitution of 1921.\n. \u201cThe burden of proof on appeal, as to the facts, shall be on the employee.\u201d Art. XIV, See. 15(N) (1) (a), Louisiana Const, of 1921.\nCapt. Fallon did not appear and testify in his own behalf before the Civil Service Commission. He was represented by counsel.\n. \u201cThe Legislature shall provide for civil service in municipalities having a population of one hundred thousand (100,000) or more, * * * \u201d,\n. \u201cNo person * * * .shall be compelled in any criminal case to be a witness against himself, * *\n. \u201c * * * No person in the \u2018State\u2019 or \u2018City Classified Service,\u2019 having gained civil service status shall be discriminated against or subjected to any disciplinary action except for cause, and no person in the State or City Classified Service shall be discriminated against or subjected to any disciplinary action for political or religious reasons, and all such persons shall have the right of appeal from such actions.\u201d",
+        "type": "majority",
+        "author": "HAMLIN, Justice."
+      }
+    ],
+    "attorneys": [
+      "Robert J. Zibilich, New Orleans, for appellant.",
+      "Alvin J. Liska, City Atty., Beuker F. \u25a0Amann, Asst. City Atty., New Orleans, for- defendant-appellee."
+    ],
+    "corrections": "",
+    "head_matter": "115 So.2d 844\nEdward H. FALLON v. NEW ORLEANS POLICE DEPARTMENT.\nNos. 43926, 44510.\nNov. 9, 1959.\nRehearing Denied Dee. 14, 1959.\nRobert J. Zibilich, New Orleans, for appellant.\nAlvin J. Liska, City Atty., Beuker F. \u25a0Amann, Asst. City Atty., New Orleans, for- defendant-appellee."
+  },
+  "file_name": "0531-01",
+  "first_page_order": 298,
+  "last_page_order": 308
+}

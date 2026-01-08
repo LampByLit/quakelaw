@@ -1,0 +1,433 @@
+{
+  "id": 1855470,
+  "name": "SUMMERS v. HOFFMAN",
+  "name_abbreviation": "Summers v. Hoffman",
+  "decision_date": "1955-03-09",
+  "docket_number": "Docket No. 16, Calendar No. 46,348",
+  "first_page": "686",
+  "last_page": "701",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "341 Mich. 686"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "138 ALR 968",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "63 ALR 909",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "48 ALR 1055",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "171 P2d 167",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1946,
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Wash2d 458",
+      "category": "reporters:state",
+      "reporter": "Wash. 2d",
+      "case_ids": [
+        2532447
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash-2d/25/0458-01"
+      ]
+    },
+    {
+      "cite": "290 Mich 298",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1805250
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/290/0298-01"
+      ]
+    },
+    {
+      "cite": "24 Tenn App 352",
+      "category": "reporters:state",
+      "reporter": "Tenn. App.",
+      "case_ids": [
+        8511852
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tenn-app/24/0352-01"
+      ]
+    },
+    {
+      "cite": "179 Or 229",
+      "category": "reporters:state",
+      "reporter": "Or.",
+      "case_ids": [
+        8641956
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/or/179/0229-01"
+      ]
+    },
+    {
+      "cite": "297 Mich 356",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1831809
+      ],
+      "pin_cites": [
+        {
+          "page": "362"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/297/0356-01"
+      ]
+    },
+    {
+      "cite": "54 Mich 540",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1434793
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/54/0540-01"
+      ]
+    },
+    {
+      "cite": "88 Mich 43",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1375057
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/88/0043-01"
+      ]
+    },
+    {
+      "cite": "226 Mich 660",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1691219
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/226/0660-01"
+      ]
+    },
+    {
+      "cite": "159 NE 142",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Ohio App 258",
+      "category": "reporters:state",
+      "reporter": "Ohio App.",
+      "case_ids": [
+        1857233
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-app/26/0258-01"
+      ]
+    },
+    {
+      "cite": "27 Ariz 267",
+      "category": "reporters:state",
+      "reporter": "Ariz.",
+      "case_ids": [
+        8504583
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "272"
+        },
+        {
+          "page": "879"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ariz/27/0267-01"
+      ]
+    },
+    {
+      "cite": "287 Mich 720",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1810819
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/287/0720-01"
+      ]
+    },
+    {
+      "cite": "259 Mich 266",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1862898
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/259/0266-01"
+      ]
+    },
+    {
+      "cite": "227 Mich 547",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1688965
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/227/0547-01"
+      ]
+    },
+    {
+      "cite": "339 Mich 12",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1927613
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/339/0012-01"
+      ]
+    },
+    {
+      "cite": "335 Mich 684",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1934329
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/335/0684-01"
+      ]
+    },
+    {
+      "cite": "335 Mich 474",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1934392
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/335/0474-01"
+      ]
+    },
+    {
+      "cite": "196 Mich 311",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1622136
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/196/0311-01"
+      ]
+    },
+    {
+      "cite": "217 Mich 35",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1725718
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/217/0035-01"
+      ]
+    },
+    {
+      "cite": "279 Mich 710",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1784401
+      ],
+      "pin_cites": [
+        {
+          "page": "753"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/279/0710-01"
+      ]
+    },
+    {
+      "cite": "206 Mich 153",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1794204
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/206/0153-01"
+      ]
+    },
+    {
+      "cite": "316 Mich 418",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1888274
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/316/0418-01"
+      ]
+    },
+    {
+      "cite": "138 ALR 955",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "296 Mich 90",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1833299
+      ],
+      "pin_cites": [
+        {
+          "page": "102, 103"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/296/0090-01"
+      ]
+    },
+    {
+      "cite": "333 Mich 317",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1833210
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/333/0317-01"
+      ]
+    },
+    {
+      "cite": "328 Mich 89",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1905074
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/328/0089-01"
+      ]
+    },
+    {
+      "cite": "63 ALR 909",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "pin_cites": [
+        {
+          "page": "910"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1165,
+    "char_count": 29000,
+    "ocr_confidence": 0.488,
+    "pagerank": {
+      "raw": 4.1497827032325535e-07,
+      "percentile": 0.9114490844833039
+    },
+    "sha256": "fcd2d398fcc933bd08a4f3b99ba0207a70d227a8403bd4cda019a3204abe038b",
+    "simhash": "1:acec6df73fd45fe9",
+    "word_count": 4926
+  },
+  "last_updated": "2024-02-27T16:14:53.692353+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Carr, C. J., and Smith, Sharpe, Boyles, Reid, Dethmers, and Kelly, JJ., concurred."
+    ],
+    "parties": [
+      "SUMMERS v. HOFFMAN."
+    ],
+    "opinions": [
+      {
+        "text": "Butzel, J.\nIn 1942, Frank A. Summers, plaintiff herein, moved from the city of Detroit to Otsego lake in the vicinity of Gaylord, Michigan, where he has since resided being principally engaged in dealing in and developing gas and oil lands. At one time he was a real-estate broker but his license was revoked in 1929 and in 1940 he was found guilty of violating the blue sky law of the State of Michigan. In 1937, while still living in Detroit he became acquainted and very friendly with George Hoffman and Mary L. Hoffman, his wife, defendants herein. For very many years Hoffman was engaged in the tavern business but apparently of late has invested in real estate.\nIn 1948 plaintiff learned that a Mrs. Fowler claimed ownership to 250 acres of land in Otsego county, Michigan, a part of which abutted on Otsego lake. She was willing to dispose of the property for $10,000 which was deemed a very low price. However, the condition was exacted that the purchaser would be obligated to clear the title to the land at his own expense. This was not deemed an insurmountable difficulty. Plaintiff notified his friends, the defendants, of the opportunity and they \u00a1very shortly thereafter went to Gaylord and agreed \u00a1to purchase the property. The transaction was consummated by land contract running from Mrs. Fowler to defendants. The alleged agreement between plaintiff and defendants regarding this and other property is the matter in dispute that gives rise to the present litigation. Plaintiff absolutely testified that an oral agreement was entered into whereby the defendants would put up the money to purchase' the property, clear the title and develop the land, and plaintiff would superintend the litigation to clear title and manage the entire development and disposition of the property in return for which he-would be entitled to 1/2 of the profits made from the sale thereof after defendants were paid in full for all moneys expended by them in connection with the property. There can be no question but that plaintiff assisted very materially not only in the selection of attorneys and subsequent clearing of the title but also traveled at his own expense to various points in the State in an effort to acquire possible adverse interests and secure evidence. He also performed manual services in assisting in the clearing of part of the property, looking after the felled lumber resulting from the cutting of trees for roads and he generally devoted much time and effort to the enterprise. Mrs. Fowler, the vendor, filed a bill to-quiet title, using the same attorneys who appear for plaintiff in the instant case. As a result she obtained a decree quieting title which we affirmed in Fowler v. Cornwell, 328 Mich 89. The record in that case-indicates that plaintiff was apparently interested in the clearing of the title.\nAt one time at the hearing defendants took the position that plaintiff was to have certain mineral rights in the property in return for his extensive services. This was not set up in the original answer to the bill nor in a later amended answer filed after the hearing of this case. We do not consider it in this opinion. - -\nIn October, 1949, plaintiff and defendants acquired by land contract from the same Mrs. Fowler an adjoining parcel of land. containing 160 acres. This title ran to plaintiff and defendants, the latter again putting up the money to acquire the property. Plaintiff claims that the same agreement regarding division of profits, et cetera, also applies to this parcel.\nVarious transactions as well as the aforementioned physical development of both parcels of land were carried on with plaintiff\u2019s assistance and defendants\u2019 encouragement. A portion of the first parcel was sold to the township and a 40-acre tract in the second parcel was traded for a similar one belonging to the State of Michigan. After the portion next to the lake had been subdivided plaintiff was able to arrange for the sale of a lake-front lot, the purchaser paying $100 to the plaintiff as deposit. Plaintiff turned this money over to defendants by check with the notation thereon that it was a deposit. Defendants refused to recognize it as such but kept the money and subsequently when the purchaser turned over more money to plaintiff, Hoffman refused to accept it or have any further dealings with plaintiff and denied the existence of any agreement between them. Thereafter this suit was instituted.\nThe lengthy record indicates that the parties are in complete disagreement as to what occurred. The defendants do not deny that plaintiff was instrumental in the purchasing of the property, the clearing of the title and the development of the property, but they claim he was more or less of an interloper, wormed his way into the enterprise and then set up the present claim. They further claim that plaintiff owed them a considerable amount and they believed that he was thus trying to repay them. The claims of the parties are irreconcilable but we believe that plaintiff made out his case to a sufficient extent so that the trial judge, who heard and saw the parties and was familiar with all of the litigation, both in Fowler v. Cornwell, supra, and the instant ease, correctly concluded that plaintiff was telling the truth and decided in his favor. A de novo review of the lengthy record before us sustains his finding.\nThe trial court dismissed defendants\u2019 contention that the agreement as made was void under the statute of irauds and the broker\u2019s license statute with the conclusion that:\n\u201cThe dealings of the parties contemplated by such oral agreement constituted a joint aaventure.'\u2019\nDefendants have appealed on various grounds from the decree compelling specific performance of the agreement.\nWe sustain the finding that the agreement amounted to a joint adventure. In Denny v. Garavaglia, 333 Mich 317, this Court reaffirmed a definition of a joint adventure set out in Hathaway v. Porter Royalty Pool, Inc., 296 Mich 90, 102, 103 (138 ALR 955), where we stated:\n\u201cIt can be said that a joint adventure contemplates an enterprise jointly undertaken; that it is an association of such joint undertakers to carry out a single project for profit; that the profits are to be shared, as well as the losses, though the liability of a joint adventurer for a proportionate part of the losses, or expenditures of the joint enterprise may be affected by the terms of the contract. See 17 Ann Cas 1022, 1025; 24 Ann Cas 202, 203, and 39 Ann Cas 1210, 1214. There must be a contribution by the parties to a common undertaking to constitute a joint adventure (see annotation, 63 ALR 909, 910); and a community of interest as well as some control over the subject matter or property right of contract.\u201d\nAlso, see Price v. Nellist, 316 Mich 418; Fletcher v. Fletcher, 206 Mich 153. A consideration of the salient facts in the instant case shows that the contract embodied characteristics of a joint adventure. A single project was involved, namely, the development and sale of 2 large parcels of real estate. The profits, after expenses, were to be divided 50% to plaintiff and 50% to defendants. Both made a contribution: plaintiff contributed his time, skill and supervision, while defendants contributed the capital. Both had control over the property as defendants were the record owners of one parcel and joint owners with plaintiff of the other, while plaintiff was conducting the physical improvement of the land and endeavoring to sell the lots. But defendants claim that under the agreement plaintiff would not share any losses or bear the risk of loss in case of an adverse decision in the suit involving the title to the property. With this contention we cannot agree. \u201cLoss\u201d does not necessarily mean actual \u201cmonetary loss.\u201d If the land was eventually sold at a loss the result would be that plaintiff\u2019s expenditure of time would have been for naught as would defendants\u2019 monetary investment. If the title litigation had been decided adversely then plaintiff would have lost large out-of-pocket expenses and the value of the time which he had theretofore spent on the project which, while not quite as concrete or measurable as defendants\u2019 cash investment, is nevertheless a loss. It cannot be said that the plaintiff did not share any risk of loss, for as we said in Hathaway v. Porter Royalty Pool, Inc., supra (p 103):\n\u201cThough the liability of a joint adventurer for a proportionate part of the losses or expenditures of the joint enterprise may be affected by the terms of the contract.\u201d\nDefendants contend that the contract plaintiff' seeks to enforce is void under the statute of frauds, CL 1948, \u00a7 566.132 (Stat Ann \u00a726.922), which provides :\n\u201cIn the following cases specified in this section, every agreement, contract and promise shall he void, unless such agreement, contract or promise, or some note or memorandum thereof he in writing and signed by the party to be charged therewith, or by some person by him thereunto lawfully authorized, that is to say: * * *\n\u201c5. Every agreement, promise or contract to pay any commission for or upon the sale of any interest in real estate.\u201d\nThe question to be considered is: Does this statute apply to an agreement between joint adventurers for a division of profits on the sale of land?\nWhile the statute has never been considered in a case like the one at bar, it has been interpreted on a number of occasions. The statute is in derogation of the common law and must be strictly construed. Stephenson v. Golden, 279 Mich 710, 753. It has been held to apply to a commission to be paid in the form of a percentage of sales. Wilcox v. Dyer-Jenison-Barry Land Co., 217 Mich 35. The scope of the statute was considered in Smith v. Starke, 196 Mich 311. The Court was there considering circumstances where the defendant broker offered to give the plaintiff, who was not a broker or salesman, part of the commission if the plaintiff would secure a purchaser for a farm listed with the defendant. In finding the agreement void, the Court stated (p 314):\n\u201cThe word \u2018commission\u2019 implies a compensation to a factor or other agent for services rendered in making a sale. * * * The compensation which plaintiff was to receive under his oral agreement with defendant was commission, and therefore within the act. * * *\n\u201cDoes the act in question apply to contracts other than those between owner and broker? We think it does. There are no words of limitation contained in it. It reads \u2018every agreement\u2019\u2014not only agreements between owner and broker, but \u2018every agreement\u2019\u2014all agreements. The act is unambiguous, clear in its terms, and without exceptions. * * * The legislature having failed to use the words of limitation, we cannot add them by judicial construction.\u201d\nIn spite of this broad language this Court in later eases has restricted the scope of the statute to an area consonant with its legislative purpose. In Thompson v. Carey\u2019s Real Estate, 335 Mich 474, the Court was considering an agreement whereby the defendant agreed to pay the plaintiff a certain percentage of the commissions received by the defendant on sales produced by the plaintiff, a salesman in defendant broker\u2019s employ. The Court held the statute inapplicable saying (pp 476, 477):\n\u201cWhatever our present view may be of dicta in that case (the Starke Case), we do not believe that the decision need be considered as holding, nor do we now deem it to have been the legislative intent, in enacting the quoted portion of the statute of frauds, to select, from the whole realm of employer-employee contractual relationships the one existing between a real-estate broker and his employee salesman. * * * We can conceive of no characteristics peculiar to the broker-salesman relationship which might have suggested to the legislature the necessity for written contracts of employment in that field under circumstances where none is required in any other kind of employment. We are in accord with the following from 12 CJS, Brokers, \u00a7 62b:\n\u201c \u2018The legislative purpose in adopting such legislation was to protect real-estate owners against unfounded or fraudulent claims of brokers.\u2019 \u201d\nThat case has been followed. Borisoff v. Schatten, 335 Mich 684. This Court has also recently held the statute inapplicable to an oral agreement between 2 brokers to divide a commission. Beznos v. Borisoff, 339 Mich 12; but see Renaud v. Moon, 227 Mich 547. The case of Krause v. Boraks, ante, 149, does not support defendants\u2019 position. While the court relied primarily upon Smith v. Starke, supra, it did so in a situation where the plaintiff attorney was clearly acting as defendant\u2019s agent for the obtaining of a purchaser. Under any interpretation of the statute such an agreement is void. Such is not the case here.\nIt is evident that the trend of the decisions has been to interpret this statute in the light of the legislative intent prompting its enactment. While we do not necessarily agree with the broad language set forth in Smith v. Starke, supra, we do note that the Court there said that \u201c \u2018commission\u2019 implies a compensation to a factor or other agent.\" (Emphasis supplied.) We feel that the statutes do not apply to the activity of one joint adventurer in selling the property which is the subject of the venture and in which he has a distinct interest. The joint adventure relationship is a fiduciary one in which the members owe each other a high degree of good faith. Each member is both an agent for his coadventurer and a principal for himself. 48 CJS, Joint Adventures, \u00a7 5, p 827. The property acquired in behalf of the adventure, even though title might be in only 1 person, is held in trust for all members, each of whom may acquire an equitable interest in the land or the proceeds on performance of his obligations. See Lane v. Wood, 259 Mich 266; Rossman v. Marsh, 287 Mich 720; 48 CJS, Joint Adventures, \u00a7 7, p 833;\nWe cannot discern why the legislature would intend to have the statute cover this situation where the legal duties and obligations of the parties are clearly defined, are adequately enforced and protected in the courts, and where the parties are, in effect, acting on their own behalf in selling property in which they have much more than the usual agent\u2019s interest.\nIn Eads v. Murphy, 27 Ariz 267, 272 (232 P 877, 879) (1925), the court had to consider a similar agreement. In applying the section of the statute of frauds relating to \u201can agreement authorizing * * * an agent or broker to * * * sell real estate * * * for * * * a commission\u201d (the seventh clause of the statute), the court stated:\n\u201cThis allegation sets up a joint adventure in a contract to purchase certain lands, and an agreement to share equally in the profits thereof. Such agreement, of course, does not come within the seventh clause of our statute of frauds. It is in no way an agent\u2019s or broker\u2019s agreement.\u201d\nSee, also, Furth v. Farkasch, 26 Ohio App 258 (159 NE 142).\nWhile our own statute is not expressly limited to an agreement of an \u201cagent or broker,\u201d we conclude that such was the legislative intent and that it therefore cannot be construed to encompass a remuneration based upon sales of the subject property of a joint adventure paid to one of the adventurers who is in effect dealing with the property as his own.\nWe are also in accord with the trial court\u2019s additional ground in relying in its opinion on the case of Epstean v. Mintz, 226 Mich 660, wherein it was held that an agreement to share in profits derived from the sale of realty is not within the statute of frauds, CL 1948, \u00a7566.108 (Stat Ann 1953 Rev \u00a726.908), requiring contracts for the sale of an interest in land to be in writing. This was a reaffirmation of the doctrine set forth in the following cases where this question arose: e.g., Petrie v. Torrent, 88 Mich 43; Carr v. Leavitt, 54 Mich 540. The lower court analogized those decisions under that statute to the facts and statute involved in the instant case, as did the Ohio court in Furth v. Farkasch, supra. We affirm this reasoning as an additional basis for our decision.\nDefendants further assert as a defense the broker\u2019s licensing statute. Plaintiff in his brief has declined to discuss this particular issue on the grounds that it was not originally pleaded and that a belatedly filed amended answer was not sufficient to raise the issue thereafter. Because his original answer and replication did not specifically set forth this particular defense, the defendants, during the trial, orally moved to amend their answer to include it. Plaintiff objected. The court said:\n\u201cI can\u2019t see too much objection to an amendment but I do think, as counsel has pointed out, that it should be, the motion should be in writing so there isn\u2019t any question. I mean it is too broad a verbal statement \u2018I would like to amend my pleadings in a certain regard.\u2019 If you will propose exactly in writing what you do propose the court will then consider it.\n\u201cI know the testimony has been taken in regard to these matters so far as the real-estate license is concerned and if the pleadings are amended in that regard I certainly am going to give the plaintiff an opportunity to put any testimony in they desire along that line. But if your motion is put down concretely as to just what paragraph you are amending and how you are amending it, I think that should be done. I will certainly consider it inasmuch as there has been testimony taken along that line.\u201d\nAbout 1 week later defendants did file an amended answer embodying this specific defense. After the court made the above statement further testimony was taken in the case.\nAmendment of pleadings rests within the sound discretion of the trial judge. The opinion in this case was not rendered for some 10 months after the trial, thus giving plaintiff ample opportunity to meet the defense raised by the amended answer. In Sweitzer v. Littlefield, 297 Mich 356, 362, regarding an amendment to a pleading, we stated:\n\u201cA specific order or ruling allowing the amendment does not appear to have been made, but obviously the trial court thereafter considered the case as though the motion to amend had been granted. We consider this tantamount to a formal order permitting amendment.\u201d\nWe thus move to a consideration of the merits of this defense.\nThe broker\u2019s licensing statute, CL 1948, \u00a7 451.201 et seq. (Stat Ann 1953 Cum Supp \u00a7 19.791 et seq.), makes it unlawful to act as a real-estate broker or salesman, therein defined, unless a license is procured in accordance with its provisions. Defendants argue that plaintiff was acting in such capacity and therefore is precluded from recovering for his services because he had not obtained a license. We find no merit in this contention for the reason that plaintiff was not acting in such a capacity as would bring him within the statute.\nSection 2 of this statute reads in part:\n\u201cThe provisions of this act shall not apply to any person, firm, partnership association, copartnership or corporation, who, as owner * * * shall perform any of the acts aforesaid with reference to property owned by them, unless performed as a principal vocation not through brokers duly licensed hereunder.\u201d\nWhat we have previously stated regarding the character and nature of a joint adventure serves to bring this case within the scope of this exception. When we consider that for the purpose of this statute as well, a joint adventurer, when selling property of the venture, is doing so as an owner, this exception is applicable. In Devereaux v. Cockerline, 179 Or 229 (170 P2d 727) (1946), the court had before it a somewhat similar question. While the case was decided adversely to the claimant, the court in the course of its opinion pointed out that the broker\u2019s licensing statute, if applicable, would prevent recovery. The court went on to say (p 237):\n\u201cThe foregoing discussion assumes, though it does not decide, that, if the agreement is one of partnership, its effect was to invest the plaintiff with part ownership of the property. If he was an owner, he did not come within the definition of a real-estate broker, so far as the transaction in question is concerned.\u201d\nThe court concluded that the partnership relation did not exist. In Smith v. Guy, 24 Tenn App 352 (144 SW2d 702) (1940), the court was concerned with an action for services rendered under a certain alleged agreement. After sustaining the finding that the parties were engaged in a partnership, the court stated (p 356):\n\u201cWe find without merit the insistence that complainant\u2019s bill should have been dismissed because of the nonpayment of a real-estate broker\u2019s license fee. According to the briefs the parties were dealing for themselves and complainant was not engaged in the business of a broker.\u201d\nDefendants cite the case of Jaenicke v. Davidson, 290 Mich 298, as support for their position. That case held in essence that a negotiation of assignments of oil and gas leases constituted dealing in interests in real estate within the meaning of the statute, and the court therefore denied a bill for accounting and specific performance of the oral agreement. The plaintiff in that case apparently raised the contention that the parties were engaged in a joint adventure hut the court refused to consider the argument because it was not properly raised.\nThe Michigan statute itself further supports our conclusion by reference to those persons covered as those dealing, et cetera, \u201cfor others\u201d and \u201cof or for another.\u201d . It cannot he said that a joint adventurer is so doing when he is selling the property of the venture. In Davis v. Alexander, 25 Wash2d 458 (171 P2d 167) (1946), a somewhat analogous situation arose under a statute requiring contracts for commission to be in writing, the statute defining a real-estate broker as one who deals in real estate for another person. The court stated (p 466):\n\u201cRespondent was not working for another person. He was working for himself first and, second, for the partnership of which he was a member. The land of the partnership is regarded in equity as personalty, and, when either partner handled it, either in purchasing or selling, he was not dealing-in real estate for another, he was representing the partnership and disposing of a real-estate asset of the partnership the same as if it were personal property.\u201d\nWe thus conclude that the broker\u2019s licensing statute is inapplicable to the facts in the instant case by reason of the fact that a joint adventure existed between the parties.\nThe decision of the court below and the decree entered pursuant thereto is hereby affirmed.\nCarr, C. J., and Smith, Sharpe, Boyles, Reid, Dethmers, and Kelly, JJ., concurred.",
+        "type": "majority",
+        "author": "Butzel, J."
+      }
+    ],
+    "attorneys": [
+      "Charles E. Moore and Elmer G. Smith, for plaintiff.",
+      "Stanton, Sempliner, Dewey & Knight (Arthur W. Sempliner, of counsel), for defendants."
+    ],
+    "corrections": "",
+    "head_matter": "SUMMERS v. HOFFMAN.\n1. Appeal and Error\u2014Questions Review able\u2014Joint Adventures \u2014Pleading.\nClaim that plaintiff was to have certain mineral rights in property involved in joint adventure in which he invested his services and defendants their money is not considered by the Supreme Court, where defendants did not set up the claim in the original answer nor in a later amended answer filed after the hearing.\n2. Joint Adventures\u2014Record.\nPlaintiff\u2019s claim as to his alleged agreement with defendants whereby they furnished the money for the purpose of purchasing property involved in joint adventure to which plaintiff rendered extensive services in return for which each would be entitled to 1/2 of the profits from sales after defendants were paid in full for all moneys expended by them in connection with the property held, sustained upon a de novo review of the record.\n3. Same\u2014Definition.\nA joint adventure contemplates a single enterprise jointly undertaken in which the profits and losses are to be shared proportionately unless the contract provides otherwise, and in which there is a contribution by the parties and a community of interest as well as some control over the subject matter or property right of contract.\nReferences for Points in Headnotes\n[1] 3 Am Jur, Appeal and Error \u00a7\u00a7 830, 831.\n[2] 3 Am Jur, Appeal and Error \u00a7 887 et seq.\n[3] 30 Am Jur, Joint Adventures \u00a7 3.\n[3, 4] What amounts to a joint adventure. 48 ALR 1055; 63 ALR 909; 138 ALR 968.\n[4] 30 Am Jur, Joint Adventures \u00a7 12.\n[5, 6,10] 8 Am Jur, Brokers \u00a7 22 et seq.\n[7] See, generally, 8 Am Jur, Brokers \u00a7 26.\n[8] 30 Am Jur, Joint Adventures \u00a7 34.\n[9] 30 Am Jur, Joint Adventures \u00a7 29.\n[11] 49 Am Jur, Statute of Frauds \u00a7 \u00a7 47, 301 et seq.\n12] 41 Am Jur, Pleading \u00a7 293.\n[14] See, generally, 41 Am Jur, Pleading \u00a7 288 et seq.\n[15] See, generally, 8 Am Jur, Brokers \u00a7 8 et seq.\n4. Same\u2014Sharing of Losses\u2014Capital\u2014Time and Services.\nEnterprise wherein defendants furnished the capital and plaintiff contributed extensive services by way of supervising litigation for clearing title to the land, conducting the physical improvement of the land and endeavoring to sell the lots into which it was subdivided, was nonetheless a joint adventure, notwithstanding defendants\u2019 claim that plaintiff would not share any loss or risk of loss, since a loss does not necessarily mean an aetual monetary loss, for if the land was eventually sold at a loss, not only would defendants have lost capital, but plaintiff\u2019s time and out-of-pocket expenses would have gone for naught.\n\u25a05. Erauds, Statute of\u2014Construction\u2014Commissions for Sale of Real Estate.\nThe statute of frauds with respect to contracts for the payment of commissions for the sale of real estate is in derogation of the common-law and must be strictly construed (CL 1948, \u00a7 566.132).\n6. Same\u2014Purpose of Statute.\nThe purpose of the statute of frauds with respect to contracts for the payment of commissions for the sale of real estate was to protect real-estate owners against unfounded or fraudulent elaims of brokers (CL 1948, \u00a7 566.132).\n7. Same\u2014Commissions\u2014Joint Adventures.\nThe statute of frauds with respect to contracts for the payment of commissions for the sale of real estate does not apply to the activity of one joint adventurer in selling the property which is the subject of the venture and in which he has a distinct interest that is much more than the usual agent\u2019s interest (CL 1948, \u00a7 566.132).\n\u20228. Joint Adventures\u2014Nature of Relationship.\nThe joint adventure relationship is a fiduciary one in which the members owe each other a high degree of good faith, each being both an agent for his eoadventurer and a principal for himself.\n9. Same\u2014Title of Property.\nThe property acquired in behalf of a joint adventure, even though title might be in only 1 person, is held in trust for all members, each of whom may acquire an equitable interest in the lands or the proceeds on performance of his obligation.\n10. Frauds, Statute of\u2014Commissions\u2014Construction\u2014Joint Adventures.\nThe statute of frauds with respect to payment of commissions for the sale of real estate is construed as limited to the agreements of an agent or broker, although not expressly so limited, hence, does not encompass a remuneration based upon sales of the subject property of a joint adventure paid to one of the adventurers who is in effect dealing with the property as his own (CL 1948, \u00a7 566.132).\n11. Same\u2014Agreement to Share Profits Prom Sale op Realty.\nAn agreement to share in profits derived from the sale of realty is not within the statute of frauds requiring contracts for the sale of an interest in land to be in writing (CL 1948, \u00a7 566.108).\n12. Pleadings\u2014Amendment\u2014Discretion op Court.\n'Amendment of pleadings rests with the sound discretion of the trial judge.\n13. Same\u2014Amendment\u2014Opportunity to Meet New Defense.\nPlaintiff had ample opportunity to meet defense raised by amended answer, where, during trial, defendant orally moved to amend answer to include new defense, court' stated it should be in writing, an amended answer was filed a week later, but no opinion was forthcoming for approximately 10 months after trial.\n14. Same\u2014Amendment.\nA trial court\u2019s treatment of a ease as though a motion to amend an answer has been granted will be considered as tantamount to a formal order permitting amendment.\n15. Joint Adventures\u2014Sale op Land\u2014Real-Estate Broker License Act.\nA coadventurer who sold lots from subdivided land which was the subject of the venture is not precluded from recovering for his services because he had not obtained a license as a real-estate broker, since he was not aeting in such a capacity as would bring him within the broker\u2019s licensing aet making it unlawful to aet as a real-estate broker or salesman, as therein defined, unless a license is procured in accordance with its provisions, the plaintiff having made the sales as an owner (CL 1948, \u00a7 451.201 et seg.).\nAppeal from Otsego; Shaffer (John C.), J.\nSubmitted January 5,. 1955.\n(Docket No. 16, Calendar No. 46,348.)\nDecided March 9, 1955.\nBill by Frank A. Summers against George Hoffman and Mary L. Hoffman for accounting and partition. Decree for plaintiff. Defendants appeal.\nAffirmed.\nCharles E. Moore and Elmer G. Smith, for plaintiff.\nStanton, Sempliner, Dewey & Knight (Arthur W. Sempliner, of counsel), for defendants."
+  },
+  "file_name": "0686-01",
+  "first_page_order": 726,
+  "last_page_order": 741
+}

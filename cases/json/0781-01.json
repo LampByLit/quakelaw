@@ -1,0 +1,311 @@
+{
+  "id": 4382276,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. WILLIAM KENNETH KING, Defendant and Appellant",
+  "name_abbreviation": "People v. King",
+  "decision_date": "1969-10-15",
+  "docket_number": "Crim. No. 15552",
+  "first_page": "781",
+  "last_page": "786",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "276 Cal. App. 2d 781"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "354 F.2d 698",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        845667
+      ],
+      "pin_cites": [
+        {
+          "page": "705-706"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/354/0698-01"
+      ]
+    },
+    {
+      "cite": "62 Cal.2d 325",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2334084
+      ],
+      "pin_cites": [
+        {
+          "page": "333-334"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/62/0325-01"
+      ]
+    },
+    {
+      "cite": "146 A.L.R. 357",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "304 U.S. 458",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10805
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "464"
+        },
+        {
+          "page": "1466"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/304/0458-01"
+      ]
+    },
+    {
+      "cite": "369 U.S. 506",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6169152
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "513"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/369/0506-01"
+      ]
+    },
+    {
+      "cite": "203 Cal.App.2d 478",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2296071
+      ],
+      "pin_cites": [
+        {
+          "page": "482"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/203/0478-01"
+      ]
+    },
+    {
+      "cite": "232 Cal.App.2d 716",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2151706
+      ],
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "722"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/232/0716-01"
+      ]
+    },
+    {
+      "cite": "51 Cal.2d 777",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2344180
+      ],
+      "year": 1965,
+      "pin_cites": [
+        {
+          "page": "788-789"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/51/0777-01"
+      ]
+    },
+    {
+      "cite": "54 Cal.2d 9",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2342100
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "15"
+        },
+        {
+          "page": "15"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/54/0009-01"
+      ]
+    },
+    {
+      "cite": "63 Cal.Rptr. 626",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "256 Cal.App.2d 18",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2198896
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/256/0018-01"
+      ]
+    },
+    {
+      "cite": "76 Cal.Rptr. 251",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "271 Cal. App.2d 15",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        63689
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/271/0015-01"
+      ]
+    },
+    {
+      "cite": "427 P.2d 214",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.Rptr. 614",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Cal.2d 666",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2331177
+      ],
+      "pin_cites": [
+        {
+          "page": "672"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/66/0666-01"
+      ]
+    },
+    {
+      "cite": "457 P.2d 889",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Cal.Rptr. 49",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.2d 820",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        8712031
+      ],
+      "pin_cites": [
+        {
+          "page": "835"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/71/0820-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 676,
+    "char_count": 10424,
+    "ocr_confidence": 0.784,
+    "pagerank": {
+      "raw": 8.343938550156482e-08,
+      "percentile": 0.48101375794496126
+    },
+    "sha256": "a36473e7fbcab503e7c9949fbaa51590f451332aee8d2343c98bdf1097eb3639",
+    "simhash": "1:97a5e48d55082ed2",
+    "word_count": 1767
+  },
+  "last_updated": "2024-02-27T17:52:21.889319+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. WILLIAM KENNETH KING, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "by the court after having duly waived a jury, of grand theft, a violation of Penal Code, section 487, subdivision 1, appeals from the judgment of conviction and from an order denying his motion for a new. trial. The appeal from the order is dismissed. (Pen. Code, \u00a7 1237.)\nAppellant attacks the judgment on the ground that the evidence is perjured and is insufficient to support it and because of the refusal of the trial judge to permit him to defend himself.\nBarbara Jean Yniguez, the complaining witness, testified that she met appellant in a home furnishings store in early January of 1968 when she entered into a contract to purchase a television set. About three weeks later, appellant came to the Yniguez home and \u201cdemonstrated\u201d a projector which was part of a home movie system. Mrs. Yniguez, corroborated in substance by a neighbor, Christina Jorge, told appellant that she was interested in purchasing the projector, that she didn\u2019t have any money at that time, but that she \u201cwas waiting for a settlement check.\u201d Appellant thereafter visited Mrs, Yniguez almost every day until February 6.\nShe testified that her relationship with appellant was social and friendly, that appellant and his two sons had had dinner at her house, and that appellant had on one occasion stayed all night where she discovered him upon returning home from work sometime after 7 a.m.\nOn February 6, she received the check which was for over $600. Appellant was present at the time. Mrs. Yniguez went to the bank, cashed the check and returned home at about 2:30 p.m. Appellant was waiting for her. She signed a contract tendered by appellant and marked \u201cpaid in full\u201d and she gave appellant the $600. She testified that she believed she would get the projector, which was worth about $585, and a \u201cdeal\u201d on cartridges. Appellant went to his car, presumably to get the projector and never returned.\nAppellant testified that he did not show Mrs. Yniguez the projector for the purpose of encouraging her to buy it, that their relationship had been very friendly, that he stayed all night several times between January 5 and February 6, and that Mrs. Yniguez had lent him small amounts of money in the form of checks.\nAppellant\u2019s version of the events of February 6 was as follows: Mrs. Yniguez and Mrs. Jorge went \u201csome place.\u201d After they returned, appellant went with Mrs. Yniguez and her five-year-old daughter to purchase a television set (which was not accomplished). Later that day, appellant left the house. He then became angry and called Mrs. Yniguez and told her that he11 wasn\u2019t coming back. \u2019 \u2019\nThe trial judge stated that the question was one of credibility, and proceeded to find appellant guilty. The evidence sustains the court\u2019s finding.\nHowever, in our opinion, the trial court committed error in refusing to permit appellant, pursuant to his request, to represent himself.\nIt is undoubtedly true that a defendant does not have an unrestricted right to represent himself; (People v. Stanworth, 71 Cal.2d 820, 835 [80 Cal.Rptr. 49, 457 P.2d 889]) and that before the trial court will accept a waiver of counsel \u201c. . . it is its duty to determine his competence to represent himself.\u201d (People v. Carter, 66 Cal.2d 666, 672 [58 Cal.Rptr. 614, 427 P.2d 214] ; People v. Conway, 271 Cal. App.2d 15 [76 Cal.Rptr. 251].)\nAt arraignment, on March 14, 1968, the following exchange took place between the court and appellant:\n\u201cThe Court: And you are before the Court for arraignment and I note from the jacket you were first before the Court on March the 5th.\n\u201cDefendant King : All right. My point is that when I was here before, Your Honor, I- stated that I was trying to obtain private counsel. I was trying to obtain Milton C. Dawson in ,San Bernardino, an attorney who had handled a civil case for me before and is presently handling a divorce action. I had written him two letters and I have received no reply, so I would assume that he is not interested in handling my case. Due to past experience with the Public Defender\u2019s office, L do not care to be defended by that office. No reflection. However, I am therefore waiving my rights to counsel and requesting permission to defend myself in propria personna.\n\u201cThe Court: I understand. Well, the law on that point, Mr. King, is that the Court must satisfy\n\u201cDefendant King: Yes, sir.\n\u201cThe Court: \u2014that you are making an intelligent waiver.\n\u201cDefendant King: Yes, sir. Yes, sir.\n\u201cThe Court: So, will you please tell me what your educaextent of your education ?\n\u201cDefendant King : As far as academic education is concerned, I have a very small one. I do have\u2014\n\u2018 The Court : Would you state what it is ?\n\u201cDefendant King : Well, sir, I went'in the navy when I was fourteen years old so\u2014\n\u201cThe Court: How far did you go in school?\n, \u201cDependant King: In school, to the eighth grade. I was tested by the Adult Authorities and they gave me 11.6 as being my educational background.\n\u2018 \u2018 The Court : How old are you ?\n\u201cDefendant King: 38, sir.\n\u201cThe Court: And have you had any experience in legal matters ?\n\u201cDefendant King: Yes, I have, sir.\n\u201cThe Court: Would you state it?\n\u201cDefendant King: Actually, I am not an attorney, no sir. I have studied and read Law and the only assistance that I believe that I would need is someone to act for me in the preparation of motions and such for the Court.\n\u201cThe Court: Have you anything further to say?\n\u201cDefendant King : No, sir.\n\u201cThe Court: All right. Having considered everything you have said, I arrive at the conclusion that you cannot waive, in this Court, your right to counsel. I appoint the Public Defender to represent you.\u201d\nIn People v. Addison, 256 Cal.App.2d 18 [63 Cal.Rptr. 626], after a much more thorough examination of a defendant who desired to waive his right to counsel, the court refused to accept the waiver and it was held to be an abuse of discretion and prejudicial error. (Petition for hearing denied.) At bench, the court learned that appellant had gone through the eighth grade, entered the Navy at the age of 14, and that the Adult Authority had given him some sort of test on his educational background and rated him 11.6. The examination of appellant then terminated. It appears, too, from the brief record on the subject, that appellant was reasonably articulate, more clear and grammatical than some members of the Bar in his off-the-cuff responses and that he asserted without ambiguity that \u201cdue to past experience with the Public Defender\u2019s office, I do not care to be defended by that office. No reflection. . . .\u2019\u2019.We certainly do not indicate even remote acquiescence in that objection, but it does definitely express appellant\u2019s attitude.\nIn Addison, the court says at pages 23, 24-25:\n\u201cThe right of a defendant in a criminal ease to represent himself is recognized by our Constitution (Cal.Const., art. I. \u00a7 13) and case law (People v. Harmon, 54 Cal.2d 9, 15 [citation]). As a constitutional right it is peculiar in that, as a condition precedent to its exercise, the defendant must prove to the satisfaction of the court that he is competent to waive the right to counsel. \u2018. . . although every defendant in a criminal case has the constitutional right to represent himself if he so elects (Cal.Const., art. I, \u00a713; People v. Harmon (1960) 54 Cal.2d 9, 15 [citation] ; People v. Mattson (1959) 51 Cal.2d 777, 788-789 [citation] People v. Shields (1965) 232 Cal.App.2d 716, 722 [citation] ; People v. Shroyer (1962) 203 Cal.App.2d 478, 482 [citation]), before his waiver of counsel may be accepted the trial court is duty bound to determine his competency to represent himself. \u2019. . .\n1\u2018 The dilemma in which trial courts find themselves because of the requirement that before permitting a defendant to represent himself a determination must be made that the waiver of the right to counsel be \u2018intelligent and understanding\u2019 (Carnley v. Cochran, 369 U.S. 506, 513 [8. L.Ed.2d 70, 75, 82 S.Ct. 884]; Johnson v. Zerbst, 304 U.S. 458, 464 [82 L.Ed. 1461, 1466, 58 S.Ct. 1019, 146 A.L.R. 357] ; In re Johnson, 62 Cal.2d 325, 333-334 [citation]) is apparent. Cunning criminals consistently take advantage of it and all too often the demand for self-representation becomes a \u2018heads I win tails you lose \u2019 proposition.... -\n\u201cIn recognition of this dilemma, appellate courts go far in\n\u201cAn \u2018intelligent conception of the consequences\u2019 of proceeding without counsel is not negatived by a lack of knowledge of particular rules of law or procedure. If the defendant wants to venture into the unknown, he must be allowed to do so, if he is aware of the dangers that lurk therein. He need not demonstrate that he can meet them.\n\u201c. . . B.ut, when all of that is done and when the other recmirements for an effective waiver of counsel are met the defendant must be permitted to be the master of his own fate. \u2018 The foregoing sections accord the accused not only a right to counsel but also a right to represent himself is he so elects. Except in certain situations not here pertinent, the court cannot force a competent defendant to be represented by an attorney. . . .\u2019 \u201d (Pp. 24, 25.)\nWe said in Conway, at page 20, after setting forth the general rules governing the right of defendant to appear in pro. per., \u201cWe must now consider the evidence in the case before the court in light of the authorities heretofore mentioned and the tests heretofore prescribed.\u201d Applying the tests to the evidence in the case before us, we conclude on the basis of the superficial examination of appellant made by the trial 'court that it was error to deny appellant the right to represent himself.\nAs whs said in Conway at page 21, referring to the Addison case: \u201cThe inquiry made of the defendant by the trial judge . . . did not meet the minimum requirements to ascertain if the defendant was competent to knowingly and intelligently exercise his waiver of right to counsel. \u2019 \u2019\nThe judgment is reversed.\nHerndon, J., and Wright, J., concurred.\nWilliams v. Beto, 354 F.2d 698, 705-706, equates an effort to obtain counsel with a confession of inadequacy to represent oneself.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "[Crim. No. 15552.\nSecond Dist., Div. Two.\nOct. 15, 1969.]\nTHE PEOPLE, Plaintiff and Respondent, v. WILLIAM KENNETH KING, Defendant and Appellant.\nDonald F. Roeschke, under appointment by the Court of Appeal, for Defendant and Appellant.\nThomas C. Lynch, Attorney General, Elizabeth Miller and James L. Markman, Deputy Attorneys General for Plaintiff and Respondent."
+  },
+  "file_name": "0781-01",
+  "first_page_order": 803,
+  "last_page_order": 808
+}

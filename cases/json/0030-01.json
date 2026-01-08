@@ -1,0 +1,87 @@
+{
+  "id": 1855431,
+  "name": "BURTON v. TRAVELERS INSURANCE COMPANY",
+  "name_abbreviation": "Burton v. Travelers Insurance",
+  "decision_date": "1954-11-29",
+  "docket_number": "Docket No. 34, Calendar No. 46,282",
+  "first_page": "30",
+  "last_page": "33",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "341 Mich. 30"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "33 ALR2d 1027",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": -1
+    },
+    {
+      "cite": "304 Mich 397",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1819713
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/304/0397-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 371,
+    "char_count": 6804,
+    "ocr_confidence": 0.463,
+    "pagerank": {
+      "raw": 1.8570577143931538e-07,
+      "percentile": 0.7243167458797791
+    },
+    "sha256": "0cd7939e5d29077c1322f68aaf808e320e284926b0d552fd8350eec514eeeac4",
+    "simhash": "1:0697aad84d39e03d",
+    "word_count": 1091
+  },
+  "last_updated": "2024-02-27T16:14:53.692353+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Butzel, C. J., and Carr, Bushnell, Sharpe, Boyles, Reid, and Dethmers, JJ., concurred."
+    ],
+    "parties": [
+      "BURTON v. TRAVELERS INSURANCE COMPANY."
+    ],
+    "opinions": [
+      {
+        "text": "Kelly, J.\nOn May 15, 1953, plaintiff owned and operated a bar at 14911 Kercheval avenue, Detroit, Michigan. Plaintiff had previously purchased from defendant a policy of insurance which provided as follows:\n\u201c1. Coverage A\u2014Bodily Injury Liability.\n\u201cTo pay on behalf of the insured all sums which the insured shall become obligated to. pay by reason of the liability imposed upon him by law for damages, including damages for care and loss of services, because of bodily injury, including death at any time resulting therefrom, sustained by any person or persons, caused by accident and arising out of the hazards hereinafter defined. * * *\n\u201c2. Service, Defense, Settlement, Supplementary Payments. It is further agreed that as respects insurance afforded by this policy the company shall * * *\n\u201c(b) defend in his name and behalf any suit against the insured alleging such injury or destruction and seeking damages on account thereof, even if such suit is groundless, false or fraudulent; but the company shall have the right to make such investigation, negotiation and settlement of any claim or suit as may be deemed expedient by the company. * # #\n\u201c5. Assault and Battery. Assault and battery shall be deemed an accident unless committed by or at the direction of the insured.\u201d\nRaymond Streberger instituted suit in the circuit court for the county of Wayne against plaintiff herein, alleging that on May 15, 1953, plaintiff assaulted and injured him, said assault taking place in plaintiff\u2019s bar. Plaintiff denied the allegations of Streberger, stating that Streberger entered his establishment while under the influence of intoxicating liquors and when refused service attacked plaintiff and that plaintiff only repelled said assault and battery.\nPlaintiff\u2019s request that the Travelers Insurance Company defend said lawsuit was refused by the company on the ground that the policy provisions did not cover causes of action as claimed in the summons and declaration. Plaintiff proceeded to defend said lawsuit, giving notice to the Travelers Insurance Company that it would be held accountable for all expenses incurred by him in the defense of said suit. Plaintiff negotiated a settlement in the amount of $300 .with Mr. Streberger and gave notice of such settlement to the insurance company. Again the insurance company refused to be involved in the matter in any way.\nA common pleas court judgment allowing plaintiff $300 for money he paid in settling the assault and battery case and $447.91 paid by him for attorneys\u2019 fees was reversed by the circuit court with judgment of no cause of action in favor of the defendant.\nThis Court recognizes the cardinal principle of construction that a contract is to be construed as a whole and that all of its parts are to be harmonized so far as reasonably possible; that no part is to be taken as eliminated or stricken by some other part unless such a result is fairly inescapable.\nThe policy was written in general to cover plaintiff\u2019s liability for accidents and injuries occurring to patrons and customers while in his place of business. Realizing that an assault and battery would not be covered by an accident clause, the assault and battery clause was inserted in the policy, with the distinct understanding that this coverage would not include assault and battery liability committed by or at the direction of the insured. Plaintiff did not pay for, or secure, insurance protection against a judgment for damages because of an assault committed by him. The provisions of section 5 of the policy exempted the insurance company from liability for any damages Streberger sustained by reason of an assault committed by or at the direction of plaintiff.\nAppellant contends that even though the defendant company was exempted by the assault and battery provisions of the policy, that section- 2 (b) would make the company liable for the costs plaintiff suffered defending the suit instituted by Streberger. We cannot agree with this contention.\nIn Duval v. Aetna Casualty & Surety Co., 304 Mich 397, this Court was called upon to construe an insurance policy that contained a similar clause in regard to the insurance company\u2019s obligation to defend suits brought by a third party against the insured. We said (pp 401, 402):\n\u201cThe insurer is not required to defend the insured against claims expressly excluded from coverage in. the policy. The exception in the policy is a part of the contract between the parties. The duty of the insurance company to defend was not independent of the duty to pay damages, if any. The 2 provisions are not separable.\u201d\nThe provisions of sections 2 and 5 of the policy, here involved are not separable and the defendant is required only to defend lawsuits involving injuries covered by the insurance policy.\nJudgment affirmed. Costs to appellee.\nButzel, C. J., and Carr, Bushnell, Sharpe, Boyles, Reid, and Dethmers, JJ., concurred.",
+        "type": "majority",
+        "author": "Kelly, J."
+      }
+    ],
+    "attorneys": [
+      "Platt & Platt (Henry A. Platt, of counsel), for plaintiff.",
+      "Vanderveer, Haggerty, Garsia & Haggerty (Samuel Garsia, of counsel), for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "BURTON v. TRAVELERS INSURANCE COMPANY.\n1. Contracts\u2014Construction as a Whole.\nA contract is to be construed as a whole and all of its parts harmonized so far as reasonably possible, no part being taken as eliminated or stricken by some other part unless such a result is fairly inescapable.\n2. Insurance\u2014Liability for Accidents\u2014Assaults.\nInsurance policy covering liability of plaintiff, insured for accidents and injuries occurring to patrons and customers while in his bar but specifically exempting insurer from liability for assault and battery committed by or at the direction of insured, not only exempted insurer from liability for sueh assaults but from a duty to defend actions brought against insured based upon such assaults.\n3. Same\u2014Public Liability\u2014Defense of Suits\u2014Accidents\u2014Assaults.\nAn insurer\u2019s duty to defend actions brought against the insured under a public liability policy is not separable from the provision exempting the insurer from liability in event of assault committed by or at direction of the insured.\nReferences for Points in IIeadnotes\n[1] 12 Am .Tur, Contracts \u00a7 241.\n[2.3] 29 Am Jur, Insurance \u00a7\u00a7 1066, 1077-1079.\n[2.3] Liability insurance: Assault as an \u201caccident,\u201d or injuries from it as \u201caccidental,\u201d within coverage clause. 33 ALR2d 1027.\nAppeal from Wayne; Neuenfelt (Lila M.), J.\nSubmitted October 7, 1954.\n(Docket No. 34, Calendar No. 46,282.)\nDecided November 29, 1954.\nAssumpsit by Riley L. Burton against Travelers Insurance Company, a corporation, for reimbursement under policy for money spent in defense and settlement of liability claim. Judgment for plaintiff in common pleas court of Detroit reversed on appeal to circuit court and judgment entered there for defendant. Plaintiff appeals.\nAffirmed.\nPlatt & Platt (Henry A. Platt, of counsel), for plaintiff.\nVanderveer, Haggerty, Garsia & Haggerty (Samuel Garsia, of counsel), for defendant."
+  },
+  "file_name": "0030-01",
+  "first_page_order": 70,
+  "last_page_order": 73
+}

@@ -1,0 +1,111 @@
+{
+  "id": 1855499,
+  "name": "In re FAINT",
+  "name_abbreviation": "In re Faint",
+  "decision_date": "1954-11-29",
+  "docket_number": "Calendar No. 46,223",
+  "first_page": "408",
+  "last_page": "411",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "341 Mich. 408"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "24 ALR2d 350",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": -1
+    },
+    {
+      "cite": "331 Mich 485",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1836762
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/331/0485-01"
+      ]
+    },
+    {
+      "cite": "320 Mich 441",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1921770
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/320/0441-01"
+      ]
+    },
+    {
+      "cite": "335 Mich 212",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1934420
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/335/0212-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 364,
+    "char_count": 6950,
+    "ocr_confidence": 0.472,
+    "pagerank": {
+      "raw": 5.4033266686372354e-08,
+      "percentile": 0.3389382933136256
+    },
+    "sha256": "8729fdde6687cfaf5dc1e0e98ef4802ada2f089b234847aaffffe14ae2df4aec",
+    "simhash": "1:bc1bea851629d83b",
+    "word_count": 1116
+  },
+  "last_updated": "2024-02-27T16:14:53.692353+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Btttzel, C. J., and Carr, Btjshnell, Sharpe, Boyles, Keid, and Kelly, JJ., concurred."
+    ],
+    "parties": [
+      "In re FAINT."
+    ],
+    "opinions": [
+      {
+        "text": "Dethmers, J.\nThis is habeas corpus and ancillary certiorari to inquire into the legality of the detention of plaintiff, committed on May 8, 1950, under PA 1939, No 165 and its amendments' then in effect (CL 1948, \u00a7 780.501 et seq. [Stat Ann 1949 Cum Supp \u00a7,28.967(1) et seq.]) as a criminal sexual psychopathic person.\nPlaintiff says that the prosecuting attorney\u2019s statement in writing, filed as commencement of proceedings under the statute, was fatally defective because it had not been made under oath and failed to set forth facts tending to show that plaintiff was a criminal sexual psychopathic person. CL 1948, \u00a7 780.503 (Stat Ann 1949 Cum Supp \u00a7 28.967[3]), providing for the filing of such \u201cstatement in writing,\u201d did not then, and does not now, require that it be made under oath. The statement alleged 7 convictions of indecent exposure and 1 of gross indecency against plaintiff. That sufficed. In re Pryor, 335 Mich 212.\nPlaintiff challenges the sufficiency of the report filed by the examining psychiatrists for failure to state the facts upon which their alleged conclusions concerning plaintiff were based. Plaintiff says that the statute requires this, quoting in support from CLS 1952, \u00a7 780.504 (Stat Ann 1953 Cum Supp \u00a7 28.-967 [4]), but without pointing out that the requirement in that respect came into the statute through its amendment by PA 1950 (Ex Sess), No 25, effective June 9, 1950. The prosecuting attorney, denying that the statute so requires, quotes the statute as found in CL 1948 prior to the amendment, without calling attention to the fact that plaintiff\u2019s reliance is on the subsequent amendment. The report of the psychiatrists in this case was made on April 7, 1950, and on May 8, 1950, plaintiff was adjudged to be a criminal sexual psychopathic person and ordered committed as such, all in advance of the effective date of the amendment. The report met the statutory requirements in effect at the time it was made and filed. Neither People v. Artinian, 320 Mich 441, nor In re Fidrych, 331 Mich 485, cited by plaintiff, is controlling here. Decision in Artinian was not predicated on an express statutory requirement as to what the report should contain but on the failure of either the doctors\u2019 report or their testimony to afford a factual basis for a judicial determination, so that their judgment had been substituted for that of the court. Fidrych involved the statute (CL 1948, \u00a7 330.20 [Stat Ann 1947 Cum Supp \u00a7 14.810]) relating to cases of insanity, feeble-mindedness or epilepsy, which required, similar to the mentioned amendment effective June 9, 1950, relating to criminal sexual psychopathic persons, that the physicians\u2019 certificate should contain the facts and circumstances upon which their opinions were based.\nPlaintiff\u2019s claim that the proofs at the hearing were insufficient is not a proper one for consideration in habeas corpus proceedings; nor is he correct in his position that the proofs must be assumed to have been insufficient unless the return to the writ of certiorari contains a transcript or record of such proofs showing them to have been sufficient. The people are not required to furnish such transcript to him at public expense as he apparently contends.\nThe record is insufficient to present a justiciable question concerning the legality of his transfer by the department of mental health from the Ionia State hospital to the State prison of southern Michigan, to be determined on the basis of the treatment afforded him in the latter institution. Authority for his detention there is found in CL 1948, \u00a7 780.505 (Stat Ann 1949 Cum Supp \u00a7 28.967[5]).\nWrit dismissed.\nBtttzel, C. J., and Carr, Btjshnell, Sharpe, Boyles, Keid, and Kelly, JJ., concurred.",
+        "type": "majority",
+        "author": "Dethmers, J."
+      }
+    ],
+    "attorneys": [
+      "Philip Weissman, for petitioner.",
+      "Frank G. Millard, Attorney General, Gerald E. O\u2019Brien, Prosecuting Attorney, Samuel Bremer and Angelo A. Pentolino, Assistant Prosecuting Attorneys, for the people."
+    ],
+    "corrections": "",
+    "head_matter": "In re FAINT.\n1. Insane Persons\u2014Criminal Sexual Psychopathic Person\u2014 Prosecuting Attorney\u2019s Statement-\u2014Oath.\nThe prosecuting attorney\u2019s statement, initiating a proceeding to have one accused of crime committed as a criminal sexual psychopathic person, need not be made under oath (CL 1948, \u00a7 780.503).\n2. Same\u2014Criminal Sexual Psychopathic Person\u2014Sufficiency of Prosecutor\u2019s Statement.\nThe allegation of 7 convictions of indecent exposure and 1 of gross indecency against one accused of crime set forth sufficient facts in statement of prosecuting attorney to initiate proceeding to have the accused committed as a criminal sexual psychopathic person (CL 1948, \u00a7 780.503).\n3. Same\u2014Criminal Sexual Psychopathic Person\u2014Psychiatrist\u2019s Report-\u2014Statutes.\nReport of psychiatrists who had examined one accused of erime in proceeding by which he was adjudged to be a criminal sexual psychopathic person held, to have complied with the statute then in effect (CL 1948, \u00a7 780.504).\n4. Habeas Corpus\u2014Criminal Sexual Psychopathic Person\u2014 Hearing on Petition\u2014Evidence.\nClaim that proofs at hearing in proceeding to have one accused of crime adjudged to be a criminal sexual psychopathic person were insufficient held, not a proper claim to be advanced in a habeas corpus proceeding (CL 1948, \u00a7 780.503).\n5. Insane Persons\u2014Criminal Sexual Psychopathic Person\u2014Return on Certiorari. Proofs at a hearing in proceeding to have one accused of crime adjudged to be a criminal sexual psychopathic person are not assumed to be insufficient unless the return to writ of certiorari, ancillary to writ of habeas corpus, contains a transcript showing them to have been sufficient (CL 1948, \u00a7 780.-503).\nReferences for Points in Headnotes\n[1-6] 28 Am Jur, Insane and Other Incompetent Persons \u00a7\u00a7 29, 30.\n[1-6] Statutes relating to sexual psychopaths. 24 ALR2d 350.\n[7] 25 Am Jur, Habeas Corpus \u00a7 149; 28 Am Jur, Insane and Other Incompetent Persons \u00a7 29.\n6. Same\u2014Criminal Sexual Psychopathic Person\u2014Transcript op Testimony.\nThe people are not required to furnish, at publie expense, a transcript of testimony taken at hearing in proceeding to have one claimed to be a criminal sexual psychopathic person (CL 1948, \u00a7 780.503).\n7. Habeas Corpus\u2014Questions Revibwable\u2014Transfer op Criminal Sexual Psychopathic Person prom Hospital to Prison\u2014Treatment.\nRecord in habeas corpus and ancillary certiorari by an inmate of the State prison held, insufficient to present a justiciable question concerning the legality of his transfer by the department of mental health from the State hospital for the criminally insane to the State prison on the basis of the treatment afforded him in the latter institution, although there is statutory authority for such detention (CL 1948, \u00a7\u00a7 780.503, 780.505).\nHabeas corpus by Arthur Faint, with accompanying certiorari to the Beeorders Court for the City of Detroit, to test validity of commitment to the State hospital commission.\nSubmitted September 15,1954.\n(Calendar No. 46,223.)\nWrit dismissed November 29, 1954.\nPhilip Weissman, for petitioner.\nFrank G. Millard, Attorney General, Gerald E. O\u2019Brien, Prosecuting Attorney, Samuel Bremer and Angelo A. Pentolino, Assistant Prosecuting Attorneys, for the people."
+  },
+  "file_name": "0408-01",
+  "first_page_order": 448,
+  "last_page_order": 451
+}

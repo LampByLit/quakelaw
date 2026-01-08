@@ -1,0 +1,101 @@
+{
+  "id": 3187042,
+  "name": "Mrs. Bertha Salcedo EVANS v. Aubry EVANS",
+  "name_abbreviation": "Evans v. Evans",
+  "decision_date": "1960-01-11",
+  "docket_number": "No. 44815",
+  "first_page": "963",
+  "last_page": "965",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 963"
+    },
+    {
+      "type": "parallel",
+      "cite": "117 So.2d 73"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "228 La. 254",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9881108,
+        2895727
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/82/0001-01",
+        "/la/228/0253-01"
+      ]
+    },
+    {
+      "cite": "218 La. 1005",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3096785,
+        9923138
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/218/1006-01",
+        "/so2d/51/0606-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 163,
+    "char_count": 1637,
+    "ocr_confidence": 0.747,
+    "pagerank": {
+      "raw": 2.1995933875888662e-07,
+      "percentile": 0.7647033071840301
+    },
+    "sha256": "dd9ea85248542a0a8437b477f768eedb06a5816e644539b109033314d71a81c5",
+    "simhash": "1:9bc01186f22dbe02",
+    "word_count": 278
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mrs. Bertha Salcedo EVANS v. Aubry EVANS."
+    ],
+    "opinions": [
+      {
+        "text": "HAWTHORNE, Justice.\nMrs. Bertha Salcedo Evans instituted this suit against her husband Aubry Evans for separation from bed and board, alimony, and custody of their two minor children. The grounds alleged were intemperance and cruel treatment. A default judgment was entered on March 20, 1959, and, defendant having failed to appear and file his answer timely, a definitive judgment was rendered on March 25, 1959, and read and signed on April 1, 1959. From this judgment defendant has appealed. .\nWe find nothing in this record which would warrant an amendment or a reversal of the judgment. All of the proceedings were regular and legal. Moreover, the note of evidence taken on the confirmation of the preliminary default judgment is in the record, and a reading of this testimony shows that plaintiff proved her demands.\nThe case was set for argument in this court on December 16, 1959. On December 14 appellee filed an answer to the appeal in which she alleged that the appeal was frivolous and taken solely for delay, and prayed that \u201cthe appellant be condemned to pay a reasonable attorney\u2019s fee for a frivolous appeal * * * Since the answer to the appeal was not filed at least three days before the date fixed for argument of the case, it will not be considered. La.Code Prac. Art. 890; Succession of Tullier, 218 La. 1005, 51 So.2d 606; Wier v. Grubb, 228 La. 254, 82 So.2d 1, and authorities there cited.\nThe judgment appealed from is affirmed.",
+        "type": "majority",
+        "author": "HAWTHORNE, Justice."
+      }
+    ],
+    "attorneys": [
+      "Aubrey C. Evans, New Orleans, pro. per., for appellant.",
+      "Joseph A. Barreca, New Orleans, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "117 So.2d 73\nMrs. Bertha Salcedo EVANS v. Aubry EVANS.\nNo. 44815.\nJan. 11, 1960.\nAubrey C. Evans, New Orleans, pro. per., for appellant.\nJoseph A. Barreca, New Orleans, for appellee."
+  },
+  "file_name": "0963-01",
+  "first_page_order": 514,
+  "last_page_order": 515
+}

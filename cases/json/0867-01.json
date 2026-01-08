@@ -1,0 +1,181 @@
+{
+  "id": 3188218,
+  "name": "W. Herman SKINNER v. Charlie SCOTT et al.",
+  "name_abbreviation": "Skinner v. Scott",
+  "decision_date": "1959-12-14",
+  "docket_number": "No. 44033",
+  "first_page": "867",
+  "last_page": "875",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 868"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 So.2d 696"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "209 La. 821",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5411819,
+        10064743
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/209/0821-01",
+        "/so2d/25/0604-01"
+      ]
+    },
+    {
+      "cite": "21 So.2d 633",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        10071521
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/21/0633-01"
+      ]
+    },
+    {
+      "cite": "110 So.2d 226",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9872716,
+        9872855
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/110/0226-01",
+        "/so2d/110/0226-02"
+      ]
+    },
+    {
+      "cite": "109 So.2d 502",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9901341
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/109/0502-01"
+      ]
+    },
+    {
+      "cite": "107 So.2d 706",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9903917
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/107/0706-01"
+      ]
+    },
+    {
+      "cite": "107 So.2d 509",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9897292
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/107/0509-01"
+      ]
+    },
+    {
+      "cite": "232 La. 655",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5433912,
+        9898963
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/232/0655-01",
+        "/so2d/95/0139-01"
+      ]
+    },
+    {
+      "cite": "104 So.2d 236",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9884696
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "237"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/104/0236-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 546,
+    "char_count": 8560,
+    "ocr_confidence": 0.718,
+    "pagerank": {
+      "raw": 1.3137335420323246e-07,
+      "percentile": 0.6250018823491253
+    },
+    "sha256": "2aed3e64eafb3b97435d1981230f38c90151985a3d8a49955f303e63473a6d66",
+    "simhash": "1:efe0c96cee508a63",
+    "word_count": 1437
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "W. Herman SKINNER v. Charlie SCOTT et al."
+    ],
+    "opinions": [
+      {
+        "text": "HAMLIN, Justice.\nDefendants appeal from a judgment of the trial court awarding plaintiff $1,745.94, property damages sustained in a collision between plaintiff\u2019s 1955 Chevrolet truck, driven by his employee, Chester Carhee, and the GMC truck of the defendant Charlie Scott, driven by his employee, Henry Sheppard. Plaintiff has answered the appeal, praying for an increase in the award.\nWe have carefully reviewed the record and we agree with the trial judge\u2019s findings of facts, which are affirmed in the case of Carhee v. Scott, La.App., 104 So.2d 236, 237, a personal injury action instituted by the driver of plaintiff\u2019s truck. We conclude that in Carhee v. Scott, supra, the Court of Appeal was correct in the following statement of its convictions, which is applicable to our finding of negligence on the part of defendants in the instant case:\n\u201cWe are convinced from our own review of the record, as was the trial court, that the accident was brought about by the fact that defendants\u2019 truck was being operated on the wrong side of the road and in the path and lane of travel of plaintiff\u2019s truck, a portion of the highway, by statute and the rules of the road, reserved exclusively for traffic proceeding in a direction opposite to that in which defendant was traveling. From the established facts the conclusion is inescapable that defendants have failed to sustain their burden of proof that their driver\u2019s act was not the proximate cause of the accident or there were justifiable circumstances which excused his conduct. * * *\u201d See, LSA-R.S. 32:232; Rizley v. Cutrer, 232 La. 655, 95 So.2d 139; LeJeune v. State Farm Mutual Automobile Insurance Co., La.App., 107 So.2d 509; Bond v. Spillers, La. App., 107 So.2d 706; Soileau v. Manuel, La.App., 109 So.2d 502; Toney v. Pope, La.App., 110 So.2d 226.\nIn petition, plaintiff alleged that his. truck was damaged beyond repair, being a total loss, and that because of the accident \u201che was deprived of its use for eighty-one days. He itemized his damages as follows :\n\u25a0\u201c(a) Loss of truck and body-----$4,734.18\n\u25a0\u201c(b) Loss of earnings because of inability to replace said truck for a period of eighty-one working days-------------$3,240.00\u201d\nResolute Insurance Company, plaintiff\u2019s insurance carrier, intervened, alleging:\n\u201cThat pursuant to the provisions of the said policy of insurance intervenor, subsequent to the accident complained of in plaintiff\u2019s petition herein, made settlement with W. Herman Skinner for the loss of the truck as being a total loss and on the following basis, to-wit:\n\u201c1. Actual cost value total loss--$2,363.60\n\u201c2. Loss deductible in policy----$ 100.00\n\u201c3. Total amount to be adjusted $2,263.60\n\u201c4. Less value realized from salvage-------------------$ 501.00\n\u201c5. Total loss to intervenor under its policy and because of this accident--------------$1,762.60\u201d\nIt prayed for a judgment of $1,762.60 against plaintiff, W. Herman Skinner. The trial court dismissed the intervention as of non-suit, being of the opinion that it was not timely filed and would retard the progress of the suit. Louisiana Code of Practice, Article 391.\nThere is no evidence of record to show the value of the truck just prior to the accident. Plaintiff testified that the truck was in perfect condition insofar as he knew. He said that it was six months old and in good repair. He stated that the truck was a total loss after the accident, and that he had it delivered to the wreck yard of the dealership from which it was purchased. He testified that his insurer paid him $1,726, and that he gave the company a release, this action occurring three months after the accident. He further stated that he paid his bank note for the purchase of the truck with the insurance money and an additional sum of approximately $196.\nThe evidence of record shows that plaintiff purchased the truck herein involved on November 18, 1955, for a consideration of $4,734.18. This amount included the customary charges. He paid $1,226.58 in cash, and $3,507.60 was to be paid in twenty-four monthly installments- of $146.15 each.\nOn August 3, 1956, Stubblefield Chevrolet Company submitted to plaintiff an itemized estimate'of the cost of repairing his truck, totalling $1,745.94 (the amount of the award to plaintiff by 'the trial judge), which included Labor, $378.50; Part's, $1,-303.20; Material, $30; and Sales Tax, $34.24. Mr. Gordon Russell, Sales Manager and Parts Manager for Stubblefield Chevrolet Company, testified. that even though he made the estimate, which in-eluded replacement of parts, the truck was beyond repair.\nIn the absence of testimony as to the value of the truck just before the accident, the evidence of record, supra, compels us, as it did the trial judge, to allow plaintiff only the amount of the estimate submitted by Stubblefield Chevrolet Company. That amount must be considered as tantamount to full value under the circumstances of this case.\nPlaintiff testified that after junking the truck as a total loss, three months were required for him and his insurer to arrive at an amicable settlement. He said that he could not secure a loan for the purchase of a new truck until he had cancelled his note given for the purchase of the truck involved in the collision.\nWith respect to loss of earnings, plaintiff\u2019s uncorroborated testimony is to the effect that the average earnings of his truck were $60 per day, less an average overhead expense of $20, or, $40 per day. He also testified that had the truck involved not been damaged, it would have been in operation with a second truck owned by him and worked during the interval.\nOne who recovers the full value of a chattel destroyed through the negligence of another cannot recover for the value of the use thereof after the same has been destroyed. The measure of damages in such case is the value of the property destroyed. Adam v. English, La.App., 21 So.2d 633.\nPlaintiff has made no claim in his petition for rental and has made no proof of the hiring of another truck. Cf. Goode v. Hantz, 209 La. 821, 25 So.2d 604.\nThe circumstances of the instant case and the authorities cited, supra, do not warrant an award for loss of earning9.\nFor the reasons assigned, the judgment of the trial court is affirmed.\n. \u201cThe accident occurred on State Route 174 between Zwolle and Belmont. This seetion of the highway was being graded and prepared for asphalt surfacing, in preparation for which native gravel or local iron ore was being spread as a base. A fleet of trucks was engaged in hauling this iron ore from a pit near Noble and dumping it on the roadbed to be spread.\n\u201cThe accident occurred August 2, 1956, about 8:00 o\u2019clock A.M. The weather was dry, the newly prepared roadbed was dusty, and visibility was extremely limited, so much so that in daylight hours the trucks were driven with headlights on. The accident involved two of the trucks engaged on the aforesaid project, one was a Chevrolet truck owned by Herman Skinner and driven by plaintiff, the other was a GMC truck owned by Charlie Scott and driven by Henry Sheppard. * * * The scene of the accident was from 75 to 100 feet east of a slight incline in the highway, which in the immediate vicinity was practically level and for some distance to the east straight.\n\u201c * * * Plaintiff Carhee was proceeding in an easterly direction towards Belmont' with a load of five cubic yards of iron ore when he was met by the Scott GMO truck returning empty for another load. The trucks collided head-on on plaintiff\u2019s right-hand side of the road. This is admitted by defendant as well as established by the testimony of both drivers and as shown by the physical facts, such as the location of debris and broken glass following the accident. On coming to rest after the impact, the Chevrolet truck was headed at an angle of approximately 45 degrees off its right-hand side of the highway against an embankment a few feet beyond the roadside ditch line, which was more or less faint and indistinct at the time due to the in-completion of the project. The GMC truck came to rest also on the same side of the highway.\u201d\n. In the lower court, the tort action of Chester Carhee for damages for personal injuries suffered and the present suit for property damages were consolidated for trial.\n. No appeal was taken from this judgment.",
+        "type": "majority",
+        "author": "HAMLIN, Justice."
+      }
+    ],
+    "attorneys": [
+      "Bodenheimer, Looney & Richie, G. M. Bodenheimer, Jr., Shreveport, for defendants-appellants.",
+      "Pickett & Pickett, Many, for plaintiffappellee."
+    ],
+    "corrections": "",
+    "head_matter": "116 So.2d 696\nW. Herman SKINNER v. Charlie SCOTT et al.\nNo. 44033.\nDec. 14, 1959.\nRehearing Denied Jan. 11, 1960.\nBodenheimer, Looney & Richie, G. M. Bodenheimer, Jr., Shreveport, for defendants-appellants.\nPickett & Pickett, Many, for plaintiffappellee."
+  },
+  "file_name": "0867-01",
+  "first_page_order": 466,
+  "last_page_order": 470
+}

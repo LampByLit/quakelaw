@@ -1,0 +1,420 @@
+{
+  "id": 4382219,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. GERALD A. SNYDER, Defendant and Appellant",
+  "name_abbreviation": "People v. Snyder",
+  "decision_date": "1969-09-29",
+  "docket_number": "Crim. No. 14912",
+  "first_page": "520",
+  "last_page": "527",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "276 Cal. App. 2d 520"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "457 P.2d 868",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Cal.Rptr. 28",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.2d 888",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        8712037
+      ],
+      "pin_cites": [
+        {
+          "page": "893"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/71/0888-01"
+      ]
+    },
+    {
+      "cite": "457 P.2d 866",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Cal.Rptr. 26",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.2d 885",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        8712036
+      ],
+      "pin_cites": [
+        {
+          "page": "886"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/71/0885-01"
+      ]
+    },
+    {
+      "cite": "457 P.2d 862",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Cal.Rptr. 22",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.2d 879",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        8712035
+      ],
+      "pin_cites": [
+        {
+          "page": "882-883"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/71/0879-01"
+      ]
+    },
+    {
+      "cite": "66 Cal.Rptr. 551",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "259 Cal.App.2d 814",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2201165
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "818"
+        },
+        {
+          "page": "818"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/259/0814-01"
+      ]
+    },
+    {
+      "cite": "73 Cal.Rptr. 643",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "267 Cal.App.2d 852",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2185696
+      ],
+      "pin_cites": [
+        {
+          "page": "856"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/267/0852-01"
+      ]
+    },
+    {
+      "cite": "53 Cal.Rptr. 720",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "245 Cal.App.2d 112",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2212135
+      ],
+      "pin_cites": [
+        {
+          "page": "152"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/245/0112-01"
+      ]
+    },
+    {
+      "cite": "299 P.2d 243",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.2d 818",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4370142
+      ],
+      "pin_cites": [
+        {
+          "page": "836"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/46/0818-01"
+      ]
+    },
+    {
+      "cite": "78 Cal.Rptr. 628",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "273 Cal.App. 868",
+      "category": "reporters:state",
+      "reporter": "Cal. App.",
+      "pin_cites": [
+        {
+          "page": "873"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "444 P.2d 110",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Cal.Rptr. 438",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 Cal.2d 262",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2304336
+      ],
+      "pin_cites": [
+        {
+          "page": "273"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/69/0262-01"
+      ]
+    },
+    {
+      "cite": "444 P.2d 91",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Cal.Rptr. 419",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 Cal. 2d 233",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2304313
+      ],
+      "pin_cites": [
+        {
+          "page": "p. 245"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/69/0233-01"
+      ]
+    },
+    {
+      "cite": "383 P.2d 452",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.Rptr. 44",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.2d 139",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2339926
+      ],
+      "pin_cites": [
+        {
+          "page": "152"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/60/0139-01"
+      ]
+    },
+    {
+      "cite": "66 Cal.Rptr. 319",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "258 Cal.App.2d 777",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2179778
+      ],
+      "pin_cites": [
+        {
+          "page": "788"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/258/0777-01"
+      ]
+    },
+    {
+      "cite": "104 P.2d 778",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.2d 678",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2226873
+      ],
+      "pin_cites": [
+        {
+          "page": "681"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/15/0678-01"
+      ]
+    },
+    {
+      "cite": "23 Cal.Rptr. 897",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "206 Cal.App.2d 809",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2313035
+      ],
+      "pin_cites": [
+        {
+          "page": "813"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/206/0809-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 700,
+    "char_count": 12296,
+    "ocr_confidence": 0.837,
+    "pagerank": {
+      "raw": 2.3075987387302368e-07,
+      "percentile": 0.7881034763030585
+    },
+    "sha256": "df5582b4fb251dce2d30a6113d2bd9b2bc947685841a5866c58f999e1062f0ac",
+    "simhash": "1:b381cc3c5327b7f0",
+    "word_count": 2041
+  },
+  "last_updated": "2024-02-27T17:52:21.889319+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. GERALD A. SNYDER, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "entered upon his conviction in a jury trial of two counts of armed robbery.\nOn January 16, 1967, at about 12:30 a.m. defendant and a companion entered the Tropical Inn bar which was then unoccupied except for the bartender. After ordering beers defendant\u2019s companion pointed a pistol at the bartender, informed him \u201cthis is a holdup\u201d and ordered him to open the cash register. He complied and defendant removed all of the money in it including the small change. Defendant then took the bartender\u2019s wallet and, after smashing the telephone on the bartop, the two men left.\nOn January 18, 1967, at about 11 p.m. defendant and another man walked into the Speedee Mart grocery store. The man with defendant pulled out a gun and ordered the owner, who was then alone in the store, to open the cash register. Defendant scooped up all of the money and they then walked out.\nAn alibi defense was presented. Defendant\u2019s sister indicated defendant was in the Showboat restaurant where she worked on the night of January 16-17. She remembered that particular night because she was working the evening shift for the regular girl who was in the hospital. Defendant\u2019s brother-in-law related that defendant bailed him out of the Bakersfield county jail on the evening of January 18.\nIn rebuttal, the owner of the Showboat testified that his records show the regular evening girl was working on January 16. The girl referred to testified that she was not in the hospital during the month of January.\nDefendant questions the sufficiency of the evidence arguing that the testimony of the victims contains discrepancies and inconsistencies. It was the province of the jury to pass upon the credibility of the witnesses and to determine the weight to be given to their testimony. In performing this duty, it was the function of the jury to resolve any conflicts or inconsistencies. (People v. Martinez, 206 Cal.App.2d 809, 813 [23 Cal.Rptr. 897].) An appellate court is not permitted to reweigh the evidence but must view it in the light most favorable to the prevailing party, and the judgment must be affirmed if there is substantial evidence in the record to support it. (People v. Newland, 15 Cal.2d 678, 681 [104 P.2d 778].) Defendant was positively identified by each victim. Bach remembered that he had a distinctive facial, feature, a \u201chook nose.\u201d The testimony of the victims provides overwhelming evidentiary support for the judgment.\nDefendant maintains that he was denied his right to a speedy trial because he was not brought to trial within 60 days after the information was filed, as required by Penal Code, section 1382. The information was filed on September 5, 1967. At defendant\u2019s arraignment the case was set for trial on November 1, 1967. The minutes of that date state: \u201cCause is called for trial. Defendant refuses to waive time. On motion of defendant\u2019s counsel, continued to Nov. 6, 1967 at 9 a.m., for trial, counsel requiring additional time for preparation.\u201d The trial commenced on November 6. Defendant argues that he is entitled to invoke section 1382 since the case was not tried until 62 days after the filing of the information, and the record shows that, although his counsel asked for the continuance beyond the 60-day limit, he personally refused to waive time.\nPenal Code, section 1382 provides tiiat, unless good cause to the contrary is shown, a defendant must be brought to trial within - 60 days after the filing of the information. (People v. Katzman, 258 Cal.App.2d 777, 788 [66 Cal.Rptr. 319].) Good cause for the short delay was shown here. Defendant\u2019s counsel, a deputy public defender, needed additional time to prepare the case. Under the circumstances, the trial court did not abuse its discretion in granting counsel\u2019s request despite the protest of his client.\nIn any event, defendant has not indicated how he was prejudiced by having his trial delayed two days past the statutory limit. Such a showing is required. (People v. Wilson, 60 Cal.2d 139,152 [32 Cal.Rptr. 44, 383 P.2d 452].) Furthermore, defendant is 'not in a position to urge the point since he did not make a motion to dismiss urging this ground. \u201cThe right to a speedy trial . . . will be deemed waived unlegs the defendant both objects to the date set and thereafter files a timely motion to dismiss.\u201d (People v. Wilson, supra, at p. 146.)\nDefendant contends that the court erred in failing to instruct the jury on the \u201cobvious dangers\u201d presented by eyewitness identification. As part of the instructions given, the jury was instructed that it was the sole judge of the credibility of the witnesses; that in determining the credibility of a witness, it may consider \u201c(c) the extent of his capacity to perceive, to recollect, or to communicate any matter about which he testifies,\u201d and \u201c(d) the extent of his opportunity to perceive any matter about which he testifies. ...\u201d No additional instructions on the subject were called for.\nDefendant complains that the jury should have received an admonition to disregard hearsay evidence introduced concerning his apprehension in the State of Pennsylvania with credit cards of one of the victims. On cross-examination defense counsel elicited from one of the victims that he had been told by the police that two men, one of whom was later identified as defendant, had been picked up in Pennsylvania a few days after the robbery. On redirect examination, the district attorney further questioned the witness about what he had heard about defendant\u2019s apprehension, stating \u201cYou say you already knew or had learned that the defendant had been picked up in Penn.?\u201d The witness answered: \u201cThe.Torrance police came to the house and wanted to know why, or how my credit Defense counsel objected before the witness could complete his answer. A motion to strike the answer was granted by the court. No request for any admonition was made and the matter was dropped.\nAs indicated above, the record shows that it was the defense which initially elicited the hearsay testimony about defendant\u2019s apprehension. Thereafter, when the district attorney sought to further explore the matter, the witness volunteered the comment about the credit cards. Defendant\u2019s trial counsel apparently did not believe any admonition was called for, since he did not request one. Und\u00e9r the circumstances, defendant is not in a position to complain that an admonition should have been given.\nDefendant contends that evidence of other crimes was improperly admitted. The following background facts are pertinent: After the testimony of the victims, the prosecution called a third witness. He related that on January 21, 1967 (a few days following the two robberies charged) two men entered his liquor store at about 11 p.m. No one else was in the store at the time. One of them pulled a gun and told him to open the cash register. He followed this order and one of the men removed the money. They then told him to give them some cigarettes and a bottle of \u201cbooze.\u201d He did as directed and they then left. He subsequently identified defendant from a photograph as the man with the gun. This evidence was offered on the issue of identification and to show a common scheme, plan or modus operand!. It was admitted over defense objection.\nThe applicable rule regarding the admissibility of evidence of other crimes is stated in People v. Haston, 69 Cal. 2d 233, at p. 245 [70 Cal.Rptr. 419, 444 P.2d 91] : \u201cWhen ... a primary issue of fact is whether or not defendant rather than some other person was the perpetrator of the crime charged, evidence of other crimes is ordinarily admissible if it discloses a distinctive modus operandi common to both the other crimes and the charged crime.\u201d The court in Haston pointed out that there must be \u201ccommon marks\u201d of such distinctive nature as to raise a logical inference that the perpetrators of the uncharged offenses were the perpetrators of the offenses charged. (See also People v. Cavanaugh, 69 Cal.2d 262, 273 [70 Cal.Rptr. 438, 444 P.2d 110], and People v. Crawford, 273 Cal.App. 868, 873 [78 Cal.Rptr. 628] [which involved, as here, a subsequent uncharged crime].\nWe agree with defendant that the required distinctive common marks are lacking here. The fact that two men were involved in each robbery, that only one carried a gun, that the crimes occurred late at night, that the establishments robbed were small businesses and the proprietors were alone at the time, do not qualify as distinctive factors. Very many robberies share these marks. The trial court therefore erred in admitting the evidence of the subsequent offense.\nWe conclude, however, that the error was not prejudicial. The case was not a close one. The victim of each robbery positively identified defendant as one of the robbers. Added to this was the evidence that defendant\u2019s alibi for one of the crimes was- shown to be of the manufactured variety. There is certainly no reasonable probability that a result more favorable to defendant would have been reached had the evidence of the subsequent crime been excluded. Consequently, a reversal is not warranted. (See People v. Watson, 46 Cal.2d 818, 836 [299 P.2d 243].)\nDefendant asserts that an instruction should have been given to the jury explaining the limited purpose for which the evidence of the other crime was introduced. But defendant requested no limiting instruction. \u201cIt is well settled that when evidence is admissible for one purpose, but inadmissible for another,' the right to limiting instructions is waived if not requested at the trial.\u201d (People v. Miller, 245 Cal.App.2d 112, 152 [53 Cal.Rptr. 720].)\nAlthough not mentioned by either party to this appeal, we note that the judgment erroneously included the finding (as to each count) that defendant was armed. Defendant Vas convicted of first degree robbery in each instance because his accomplice was armed with a deadly weapon during the commission of the crimes. There is no evidence, however, that defendant was himself personally armed. Penal Code, sections 3024 and 12022, which require a defendant found to be armed to serve a greater minimum sentence, are inapplicable here for two reasons: (1) \u201cSection 3024, like section 12022, applies only to a person who is\" himself armed and does not apply to an accomplice,whose armed status is derivative.\u201d (People v. Tarpley, 267 Cal.App.2d 852, 856 [73 Cal.Rptr. 643]; see also People v. Smith, 259 Cal.App.2d 814, 818 [66 Cal.Rptr. 551].) (2) The Legislature has fixed the punishment for first degree robbery on the basis of the fact that defendant was armed. It is clear that the Legislature did not intend that, for the same offense, without any additional factor existing, an added punishment should be imposed. (People v. Floyd, 71 Cal.2d 879, 882-883 [80 Cal.Rptr. 22, 457 P.2d 862]; People v. King, 71 Cal.2d 885, 886 [80 Cal.Rptr. 26, 457 P.2d 866] ; People v. Hogan, 71 Cal.2d 888, 893 [80 Cal.Rptr. 28, 457 P.2d 868].)\nIn Floyd, King and Hogan the defendants were personally armed. The court in each case found that, while sections 3024 and 12022 were inapplicable (for reason (2) given above), a finding that the defendant was armed was nevertheless proper on the basis of Penal Code, section 1203. The latter section provides that a judge shall not grant probation to a defendant previously convicted of a felony, if at the time of the prior offense, he was \u201chimself\u201d armed with a deadly weapon.\nSection 1203, by its express terms, applies only to a defendant who was \u201chimself\u201d personally armed. (See People v. Smith, supra, 259 Cal.App.2d 814, 818.) Since defendant was not personally armed, no basis existe for inclusion of the finding that he was armed.\nThe judgment is modified by striking therefrom the finding as to each count that defendant was armed at the time of the commission of the offense. In all other respects the judgment is affirmed.\nFiles, P. J., and Kingsley, J., concurred.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "[Crim. No. 14912.\nSecond Dist., Div. Four.\nSept. 29,1969.]\nTHE PEOPLE, Plaintiff and Respondent, v. GERALD A. SNYDER, Defendant and Appellant.\nEugene J. Axelrod, under appointment by the Court of Appeal, for Defendant and Appellant.\nThomas C. Lynch, Attorney General, William E. James, Assistant Attorney General, and Arnold Lieman, Deputy Attorney General, for Plaintiff and Respondent."
+  },
+  "file_name": "0520-01",
+  "first_page_order": 542,
+  "last_page_order": 549
+}

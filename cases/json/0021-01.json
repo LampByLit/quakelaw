@@ -1,0 +1,86 @@
+{
+  "id": 3187898,
+  "name": "Ashton E. WILLIAMS v. Cosimo TERESE",
+  "name_abbreviation": "Williams v. Terese",
+  "decision_date": "1959-06-25",
+  "docket_number": "No. 43861",
+  "first_page": "21",
+  "last_page": "27",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 22"
+    },
+    {
+      "type": "parallel",
+      "cite": "113 So.2d 298"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "216 La. 464",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10111384,
+        2899612
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/43/0795-01",
+        "/la/216/0463-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 203,
+    "char_count": 2618,
+    "ocr_confidence": 0.762,
+    "pagerank": {
+      "raw": 2.1995933875888662e-07,
+      "percentile": 0.7647083976342031
+    },
+    "sha256": "d3ce585908171b5c5e846ec49c998f64726bf3982c385e8d648caf7729a9e0e9",
+    "simhash": "1:01ff7f2f8742f0f5",
+    "word_count": 431
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ashton E. WILLIAMS v. Cosimo TERESE."
+    ],
+    "opinions": [
+      {
+        "text": "McCALEB, Justice.\nOn October 11, 1956 defendant agreed to sell to plaintiff a certain parcel of real estate situated in the City of New Orleans for $2,500. This property was owned in indivisi\u00f3n by defendant and his daughter, the interest of the latter being subject to defendant\u2019s usufruct. Upon defendant\u2019s inability to comply resulting from his daughter\u2019s refusal to sell her interest, this suit was filed demanding a specific performance of the contract insofar as defendant is concerned, plaintiff praying that defendant be ordered to transfer to him his one-half interest in said property, and his usufruct of the other one-half interest, for the sum of $1,250. Alternatively, plaintiff prayed that defendant be held liable for breach of contract and that he recover $9,372 damages allegedly sustained by him.\nFollowing a trial on the merits, plaintiff\u2019s demand for a specific performance was rejected but he was given judgment on his alternative demand for damages in the sum of $412 plus $125 attorney\u2019s fees and all costs. Defendant appealed to this Court.\nWe are without jurisdiction of the case as the thing in controversy on the main demand is alleged to be worth $1,250. Section 10 of Article 7 of the Constitution limits the appellate jurisdiction of this Court in civil suits (except in particular matters not applicable here) to cases in which the amount in dispute or the fund to be distributed exceeds $2,000 exclusive of interest.\nPlaintiff\u2019s alternative demand cannot be considered in determining our appellate jurisdiction. Section 1 of Article 7 of the Constitution provides that where an appeal is taken in cases involving a reconventional or other incidental demand \u201c * * * the appeal shall lie to the court having jurisdiction of the main demand\u201d. See Cannella v. Succession of Cannella, 216 La. 464, 43 So.2d 795. An alternative demand is an incident to the main demand and, since jurisdiction of the appeal of the main demand in this case is vested in the Court of Appeal under Section 29 of Article 7 of the Constitution, that Court has jurisdiction of all other demands in the case.\nIt is therefore ordered that the case be transferred to the Court of Appeal for the Parish of Orleans, provided that the record is filed in that court within 30 days from the date upon which this decree becomes final; otherwise, the appeal shall be dismissed. The costs incurred in this Court shall be paid by defendant.",
+        "type": "majority",
+        "author": "McCALEB, Justice."
+      }
+    ],
+    "attorneys": [
+      "George Piazza, New Orleans, for defendant-appellant.",
+      "Parnell J. Hyland, New Orleans, for plaintiff-appellee."
+    ],
+    "corrections": "",
+    "head_matter": "113 So.2d 298\nAshton E. WILLIAMS v. Cosimo TERESE.\nNo. 43861.\nJune 25, 1959.\nGeorge Piazza, New Orleans, for defendant-appellant.\nParnell J. Hyland, New Orleans, for plaintiff-appellee."
+  },
+  "file_name": "0021-01",
+  "first_page_order": 43,
+  "last_page_order": 46
+}

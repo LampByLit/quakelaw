@@ -1,0 +1,65 @@
+{
+  "id": 1933595,
+  "name": "Manning et al. vs. Williams et al.",
+  "name_abbreviation": "Manning v. Williams",
+  "decision_date": "1851-01",
+  "docket_number": "",
+  "first_page": "105",
+  "last_page": "107",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "2 Mich. 105"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 279,
+    "char_count": 4543,
+    "ocr_confidence": 0.344,
+    "pagerank": {
+      "raw": 1.3569366280911744e-07,
+      "percentile": 0.6347124870986687
+    },
+    "sha256": "62bf1a4169fceda14b0897013d74f2d313a4744b697a78122c963f99c56de2bd",
+    "simhash": "1:21a686e40e309683",
+    "word_count": 803
+  },
+  "last_updated": "2023-07-14T19:13:31.599570+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Manning et al. vs. Williams et al."
+    ],
+    "opinions": [
+      {
+        "text": "By the Cornt, Wing, J.\nCase reserved by the County Judge of the County of Macomb.\nThe declaration counted upon a joint promissory note executed by the firm of Eastman, Williams & Co. to Manning, Leavitt & Co.\nAfter the giving of the note and before this suit was commenced,. Robert F. Eastman, one of the makers of the note, died. Letters of administration were granted upon his estate and this claim was presented to the commissioners on his estate, and was allowed by them and reported to the Judge of Probate. It is admitted the estate is insolvent.\nThe pleadings and stipulations on file only present one question which is reserved for the opinion of this court: can plaintiff maintain his suit without first showing that he has exhausted his remedy against the estate.\nThe defence is founded upon the 19th sec. of chap. 72, p. 292, R. S. 1846, which provides that \u201cwhen two or more persons shall be indebted on any joint contract or upon a judgment founded upon a joint contract, and either of them shall die, his estate shall be liable therefor: and it may be allowed by the commissioners as if the contract had been joint and several, or as if judgment had been against him alone; and the other parties to said joint contract may be compelled to contribute or to pay the same, if they would have been liable to do so upon payment of the same by the deceased.\u201d\nWe think this statute was not intended to afiect or impair the reme, dy of the creditor against the surviving partners, but that the same remains as before the passage of this law, and that the effect of the statute is only to give the creditors additional legal remedy. At common law, the appropriate legal remedy was against the surviving partners. A remedy also existed in equity against the estate. (Story on Partnership, \u00a7 361, 362, p. 512-\u201913; 7 Cond. Eng. Ch. R., 183.) As the personal property of the partnership is subject to the control of the .survivor, and for the purpose of meeting all liabilities of the firm, no good reason can be assigned why the private property of the deceased should be disturbed and withdrawn from the claims of his private or personal creditors, when the property of the firm may be adequate to the discharge of all its debts. And no good reason can be assigned why the remedy of the creditor, by which he may reach the partnership effects, shall be postponed until the estate of one of the firm may be settled. It may appear solvent, but after considerable time has elapsed, and before distribution is ordered, it may be found to be insolvent, indeed almost all estates in the western States, turn out to be insolvent. A considerable period usually elapses after the death of the decedent before the estate can be closed. In the meantime, the effects of the firm may be dissipated by the survivors, and they become insolvent. By section 14 of the same chapter, the creditor is required to present his claim against the estate of his deceased creditor within a given time or his claim will be barred. By an effort to secure his remedy against the estate, he does not injure the survivors, and if he collects anything of the estate, they must contribute their portion of the amount so paid. As the statute does not internos prohibit the remedy sought in this case, we can see no reason why the common law remedy against the survivors may not be enforced, and the remedy against the estate preserved at the same time. There can be but one satisfaction.\nLet it be certified to the County Court of the county of Macomb, as the opinion of this Court upon the point reserved, that the plaintiff can maintain his action, and that judgment should be given in his favor.\nCertified accordingly.",
+        "type": "majority",
+        "author": "By the Cornt, Wing, J."
+      }
+    ],
+    "attorneys": [
+      "Barstow \u00e9 Lockwood, for plaintiffs."
+    ],
+    "corrections": "",
+    "head_matter": "Manning et al. vs. Williams et al.\nThe presentation to and allowance by commissioners on the estate of a deceased partner, of a* partnership debt, under R. S., ch. 72, \u00a7 19, does not make it necessary in an action by the creditor against the surviving partners for the same debt, to show that he has exhausted. his remedy against the estate of the deceased partner.\nCase reserved from Macomb County Court. The only question was, whether the plaintiffs could sustain an action on a promissory note made by the firm of Eastman, Williams' & Co., against James Williams and Sexton H. Eastman, two of the partners, after the death of a third partner and the allowance of the claims against his estate by the commissioners, without first showing they had exhausted their remedy against the estate of the deceased partner.\nBarstow \u00e9 Lockwood, for plaintiffs."
+  },
+  "file_name": "0105-01",
+  "first_page_order": 113,
+  "last_page_order": 115
+}

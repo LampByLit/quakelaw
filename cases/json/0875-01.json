@@ -1,0 +1,310 @@
+{
+  "id": 3186769,
+  "name": "STATE of Louisiana v. Sam W. HIGHTOWER",
+  "name_abbreviation": "State v. Hightower",
+  "decision_date": "1959-12-14",
+  "docket_number": "No. 44779",
+  "first_page": "875",
+  "last_page": "885",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 876"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 So.2d 699"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "251 P. 675",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "pin_cites": [
+        {
+          "page": "677"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Cal.App. 200",
+      "category": "reporters:state",
+      "reporter": "Cal. App.",
+      "case_ids": [
+        2226427
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app/80/0200-01"
+      ]
+    },
+    {
+      "cite": "177 N.Y.S. 71",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "pin_cites": [
+        {
+          "page": "74"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "188 App.Div. 395",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1220718
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/37/0566-01"
+      ]
+    },
+    {
+      "cite": "102 A. 433",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "pin_cites": [
+        {
+          "page": "435"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "91 N.J.L. 212",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        189755
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/njl/91/0212-01"
+      ]
+    },
+    {
+      "cite": "352 U.S. 432",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6161761
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/352/0432-01"
+      ]
+    },
+    {
+      "cite": "261 S.W. 1046",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10334296,
+        10334458
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/261/1046-01",
+        "/sw/261/1046-02"
+      ]
+    },
+    {
+      "cite": "97 Tex.Cr.R. 210",
+      "category": "reporters:state",
+      "reporter": "Tex. Crim.",
+      "case_ids": [
+        5076158
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex-crim/97/0210-01"
+      ]
+    },
+    {
+      "cite": "222 N.W. 909",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "176 Minn. 164",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        265650
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/minn/176/0164-01"
+      ]
+    },
+    {
+      "cite": "100 So. 260",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 Fla. 181",
+      "category": "reporters:state",
+      "reporter": "Fla.",
+      "case_ids": [
+        1646231
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/fla/87/0181-01"
+      ]
+    },
+    {
+      "cite": "49 Ariz. 183",
+      "category": "reporters:state",
+      "reporter": "Ariz.",
+      "case_ids": [
+        5095167
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ariz/49/0183-01"
+      ]
+    },
+    {
+      "cite": "234 La. 1028",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9889674,
+        2890414
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "446"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/102/0444-01",
+        "/la/234/1027-01"
+      ]
+    },
+    {
+      "cite": "87 So.2d 115",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9902146,
+        5530315
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/87/0115-01",
+        "/la/229/0881-01"
+      ]
+    },
+    {
+      "cite": "229 La. 882",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9902146
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "891"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/87/0115-01"
+      ]
+    },
+    {
+      "cite": "159 La. 872",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1270237
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/159/0871-01"
+      ]
+    },
+    {
+      "cite": "179 La. 533",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5463778,
+        10046623
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/179/0533-01",
+        "/so/154/0443-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 654,
+    "char_count": 11124,
+    "ocr_confidence": 0.695,
+    "pagerank": {
+      "raw": 6.26724456984161e-07,
+      "percentile": 0.9578110538490854
+    },
+    "sha256": "56bf4d702ebf9235dc2bef2516fe4f1abf84e98aa5b339f5126ac36f467d5c54",
+    "simhash": "1:d7ce8d9f2f34c711",
+    "word_count": 1830
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "SIMON, J., absent."
+    ],
+    "parties": [
+      "STATE of Louisiana v. Sam W. HIGHTOWER."
+    ],
+    "opinions": [
+      {
+        "text": "FOURNET, Chief Justice.\nThe State is appealing from the judgment of the district court maintaining the motion to quash the bill of information charging the defendant, Sam W. High-tower, as a second offender, with violation of R.S. 14:98, in that he unlawfully operated an automobile while under the influence of an alcoholic beverage, on the ground that said statute is unconstitutional.\nThe motion to quash was based on the grounds (1) that Section 98 of Title 14, as amended by Act 122 of 1956, fails to define what constitutes \u201cunder the influence of,\u201d \u201coperating a vehicle while * * * under the influence of an alcoholic beverages\u201d and \u201calcoholic beverage\u201d and is, therefore, too vague and indefinite to inform the accused as to what conduct is sought to be denounced by the statute, all in violation of Sections 2, 6 and 10 of Article I, Section 2 of Article II of the Louisiana Constitution and of the Fourteenth Amendment to the Constitution of the United States; (2) that neither the statute nor the bill of information apprise the defendant as to what alcoholic beverage allegedly caused him to be intoxicated, thus failing to inform him of the nature and cause of the accusation or-charge against him, in violation of Section 10 of Article I of the Louisiana Constitution; and (3) that the statute is arbitrary and unreasonable and fails to provide a scientific and accurate method for the purpose of determining when a person is under the influence of an alcoholic beverage.\nThe trial judge, in his written reasons for judgment, rationalized that the legislature, realizing that the word \u201cintoxicated\u201d is synonymous with \u201cdrunk\u201d and that different persons will reach divergent conclusions as to when a person is drunk, attempted to avoid such uncertain results by defining the term \u201cintoxicated\u201d as being \u201cunder the influence of;\u201d however, after discussing in detail the meaning of the phrase \u201cunder the influence of,\u201d the judge concluded that it \u201cis no more definite than the term \u2018intoxicated\u2019 or the term \u2018drunk\u2019,\u201d which latter term was considered to be utterly indefinable in the case of Leland v. Leland, 179 La. 533, 154 So. 443; and that the words \u201cunder the influence of\u201d were similar to the word \u201cimmoral\u201d and \u201clewd\u201d which this court held to be too vague and indefinite when used in acts prohibiting the sale of literature and pictures.\nStatutes making it a criminal offense to operate or drive a motor vehicle \u201cwhile intoxicated,\u201d \u201cwhile in an intoxicated condition\u201d or \u201cunder the influence of intoxicating liquor\u201d have been adopted in practically all jurisdictions and have been generally recognized as a valid exercise of the state\u2019s police power to regulate the use and operation of motor vehicles and to safeguard the people from injury or death caused by drivers who operate their cars while under the influence of intoxicating liquor or narcotic drugs. In all jurisdictions where the constitutionality of such statutes has ever been challenged because of indefiniteness or lack of intelligibility, the courts have upheld them, reasoning that the terms \u201cwhile under the influence of intoxicating liquor\u201d or \u201cwhile in an intoxicated condition\u201d are commonly used terms with a well-recognized meaning. This court, in the case of State v. Dudley, 159 La. 872, 106 So. 364, in passing on the validity of a city ordinance which prohibited the driving of a motor vehicle \u201cwhile under the influence of liquor,\u201d observed \u201cwe are of the opinion that the term \u2018under the influence of liquor\u2019 has a well-recognized meaning with every one, which is exactly synonymous with the term \u2018in an intoxicated condition,\u2019 \u201d and concluded that \u201cthe ordinance therefore clearly sets forth what is forbidden.\u201d\nThe legislature in 1956, following the decision of this court in the case of State v. Viator, 229 La. 882, 87 So.2d 115, in amending and re-enacting R.S. 14:-98 by changing the words \u201cintoxicating liquor\u201d to \u201calcoholic beverages,\u201d did not thereby restrict, but rather enlarge the scope of the crime sought to be denounced, as the term \u201calcoholic beverages\u201d is an all-inclusive term covering all alcoholic beverages. Consequently, we held in the case of State v. McAlister, 234 La. 1028, 102 So.2d 444, 446, that a person having been convicted three times under R.S. 14:98 prior to its amendment in 1956, could be prosecuted as a fourth offender for a violation of that section after its amendment, for the reason \u201cthat the essential elements of the crime are unchanged by the amendment, these essential elements being the operation of a motor vehicle while intoxicated.\u201d\nOur lawmakers, in adopting the Criminal Code, following rules of law generally obtaining in the interpretation of criminal statutes, i. e., that such statutes must be strictly construed, declared that nevertheless \u201c * * * all of its provisions shall be given a genuine construction, according to the fair import of their words, taken in their usual sense, in connection with the context, and with reference to the purpose of the provision.\u201d Following this canon and construing the terms as commonly understood, we are compelled to reach the conclusion that the offense sought to be denounced \u201coperating a vehicle while intoxicated\u201d when read in conjunction with its definition, \u201cwhile under the influence of alcoholic beverages,\u201d clearly states the crime sought to be prohibited, i. e., the operation of a vehicle while intoxicated, whether such intoxication be caused by spirituous, vinous or malt beverages, and, in our opinion, is sufficient to inform the accused of the nature and cause of the accusation or charge against him.\nWhile many states have adopted statutes providing that the results of chemical tests raise certain presumptions as to whether or not the defendant is intoxicated and others have accepted the use of such tests without statutory authority, but with court approval, nevertheless even in those states other competent evidence may be used to establish the guilt or innocence of the accused; and although there are some variations in the language of the tests employed in the different jurisdictions, e. g., \u201cthe expression, \u2018under the influence of intoxicating liq- mot,\u2019 covers not only all the well known and easily recognized conditions and degrees of intoxication, but any abnormal mental or physical condition which is the result of indulging in any degree in intoxicating liquors, and which tends to deprive him [the driver] of that clearness of intellect and control of himself which he would otherwise possess \u201cIntoxication, within the meaning of the statute, means such a condition as impairs to some extent, however slight it may be, the ability of a person to operate an automobile \u201c \u2018Under the influence of intoxicating liquors\u2019 means what common usage has ascribed to the word, to wit: Not that he should be intoxicated to the extent that his faculties are completely impaired, but only that degree of influence which looses the bonds of self-restraint and causes him to operate his car in a manner different from that in which it would be operated by an ordinarily cautious and prudent person \u2014 these variations do not alter the substance of the offense and, we think, that the terms \u201cintoxicated\u201d or \u201cunder the influence of alcoholic beverages\u201d have a certain and well-understood meaning, i. e., a person is intoxicated within the provisions of the statute when he does not have the normal use of his physical and mental faculties by reason of the use of alcoholic beverages (or narcotics), thus rendering such person incapable of operating an automobile in a manner in which an ordinarily prudent and cautious man in full possession of his faculties, using reasonable care, would operate a motor vehicle under like conditions.\nWhile it may be desirable, as contended by counsel for the defendant, that the statute provide for a blood or breath test to determine in a scientific manner when a person is intoxicated, failure to so provide is neither unreasonable nor arbitrary and does not render the statute unconstitutional.\nFor the reasons assigned, the judgment of the district court quashing the bill of information and ordering the defendant discharged, is annulled and set aside, and the case is remanded for further proceedings according to law and consistent with the views herein expressed.\nSIMON, J., absent.\n. Defendant filed two motions to quash the bill of information. The first motion, which was based on the grounds (1) that the crime with which he was charged on February .28, 1958, was expressly repealed by Act 81 of 1958, amending R.S. 14:98; and (2) that he could not be charged as a second offender as the crime of operating a motor vehicle while under the influence of \u201cintoxicating liquor\u201d (of which crime he was convicted in 1954) is not the-same offense as the one charged in this , bill of information, i. e., operating a motor vehicle while under the influence of \u201can alcoholic beverage,\u201d was overruled by the trial judge.\n. The pertinent part of R.S. 14:98 reads as follows:\n\u201cA. Operating a vehicle while intoxicated is the operating of any motor vehicle *\u2022 * \u25a0* while under the influence of alcoholic beverages * *\n. This section was further amended by Act 81 of 1958, which, however, affected only the penalty provisions under subsection B.\n. \u201cNo person shall be deprived of life, liberty or property, except by due process of law * *\n. \u201cAll courts shall be open, and every person for injury done him in his rights, lands, goods, person or reputation shall have adequate remedy by due process of law and justice administered without denial, partiality or unreasonable delay.\u201d\n. \u201cIn all criminal prosecutions, the accused shall be informed of the nature and cause of the accusation against him; and when tried by jury shall have the right to challenge jurors peremptorily, the number of challenges to be fixed by law.\u201d\n. \u201cNo one of these departments, nor any person or collection of persons holding office in one of- them, shall, exercise power properly belonging to either of the others, except in the instances hereinafter expressly directed or permitted.\u201d\n. 5A Am.Jur., Verbo \u201cAutomobiles and Highway Traffic,\u201d \u00a7 1156 ft., p. 976; 61 C.J.S. Verbo, Motor Vehicles \u00a7 625 ft., p. 713. See also, Annotation in 142 A.I/.R. 555.\n. Weston v. State, 49 Ariz. 183, 65 P.2d 652; State ex rel. Sellars v. Parker, 87 Fla. 181, 100 So. 260; State v. Graham, 176 Minn. 164, 222 N.W. 909; Nelson v. State, 97 Tex.Cr.R. 210, 261 S.W. 1046.\n. State v. Viator, 229 La. 882, 891, S7 So. 2d 115.\n. R.S. 14:3.\n. See, Breithaupt v. Abram, 352 U.S. 432, 77 S.Ct. 408, 1 L.Ed.2d 448, note 3 at page 451.\n. State v. Rodgers, 91 N.J.L. 212, 102 A. 433, 435.\n. People v. Weaver, 188 App.Div. 395, 177 N.Y.S. 71, 74.\n. People v. McKee, 80 Cal.App. 200, 251 P. 675, 677.",
+        "type": "majority",
+        "author": "FOURNET, Chief Justice."
+      }
+    ],
+    "attorneys": [
+      "Jack P. F. Gremillion, Atty. Gen., M. E. Culligan, Asst. Atty. Gen., Alb\u00edn P. Lassiter, Dist. Atty., Hillyer S. Parker, Asst. Dist. Atty., Monroe, for appellant.",
+      "Thompson, Thompson & Sparks, Monroe, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "116 So.2d 699\nSTATE of Louisiana v. Sam W. HIGHTOWER.\nNo. 44779.\nDec. 14, 1959.\nRehearing Denied Jan. 11, 1960.\nJack P. F. Gremillion, Atty. Gen., M. E. Culligan, Asst. Atty. Gen., Alb\u00edn P. Lassiter, Dist. Atty., Hillyer S. Parker, Asst. Dist. Atty., Monroe, for appellant.\nThompson, Thompson & Sparks, Monroe, for appellee."
+  },
+  "file_name": "0875-01",
+  "first_page_order": 470,
+  "last_page_order": 475
+}

@@ -1,0 +1,322 @@
+{
+  "id": 1855442,
+  "name": "BENGE v. MICHIGAN NATIONAL BANK",
+  "name_abbreviation": "Benge v. Michigan National Bank",
+  "decision_date": "1954-12-29",
+  "docket_number": "Docket No. 24, Calendar No. 46,130",
+  "first_page": "441",
+  "last_page": "453",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "341 Mich. 441"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "103 ALR 1147",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "67 ALR 1121",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "15 ALR 159",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "64 Am St Rep 338",
+      "category": "reporters:state",
+      "reporter": "Am. St. Rep.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 LRA 408",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 Mich 175",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1476762
+      ],
+      "pin_cites": [
+        {
+          "page": "182"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/110/0175-01"
+      ]
+    },
+    {
+      "cite": "187 NE 646",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Ohio App 9",
+      "category": "reporters:state",
+      "reporter": "Ohio App.",
+      "case_ids": [
+        1337753
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-app/46/0009-01"
+      ]
+    },
+    {
+      "cite": "48 Utah 606",
+      "category": "reporters:state",
+      "reporter": "Utah",
+      "case_ids": [
+        8874792
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/utah/48/0606-01"
+      ]
+    },
+    {
+      "cite": "189 SW 679",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "126 Ark 266",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1551761
+      ],
+      "pin_cites": [
+        {
+          "page": "277"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/126/0266-01"
+      ]
+    },
+    {
+      "cite": "16 ALR 651",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "272 F 371",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6736855
+      ],
+      "pin_cites": [
+        {
+          "page": "376"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/272/0371-01"
+      ]
+    },
+    {
+      "cite": "15 S Ct 4",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        3581559,
+        3580317,
+        3581023
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/155/0045-01",
+        "/us/155/0054-01",
+        "/us/155/0013-01"
+      ]
+    },
+    {
+      "cite": "155 US 13",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3581023
+      ],
+      "pin_cites": [
+        {
+          "page": "39, 40"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/155/0013-01"
+      ]
+    },
+    {
+      "cite": "117 US 96",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8299638
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "106-113, 115"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/117/0096-01"
+      ]
+    },
+    {
+      "cite": "282 F 121",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        5706672
+      ],
+      "pin_cites": [
+        {
+          "page": "126, 127"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/282/0121-01"
+      ]
+    },
+    {
+      "cite": "54 Am St Rep 93",
+      "category": "reporters:state",
+      "reporter": "Am. St. Rep.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 So 966",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "107 Ala 300",
+      "category": "reporters:state",
+      "reporter": "Ala.",
+      "case_ids": [
+        3337523
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ala/107/0300-01"
+      ]
+    },
+    {
+      "cite": "15 ALR 153",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "204 Ala 424",
+      "category": "reporters:state",
+      "reporter": "Ala.",
+      "case_ids": [
+        5701418
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ala/204/0424-01"
+      ]
+    },
+    {
+      "cite": "75 ALR 1273",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "252 Mich 163",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1841411
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/252/0163-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 889,
+    "char_count": 22080,
+    "ocr_confidence": 0.469,
+    "pagerank": {
+      "raw": 1.3830342248145105e-07,
+      "percentile": 0.640926555949787
+    },
+    "sha256": "02a77435ca2104c68be7eb0f18466f21f2bfdba87a9e516a837ce026ab1e8e3f",
+    "simhash": "1:1cc78ff7eeb6fac3",
+    "word_count": 3827
+  },
+  "last_updated": "2024-02-27T16:14:53.692353+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Butzel, C. J., and Bushnell, Sharpe, Boyles, Reid, Dethmers, and Kelly, JJ., concurred."
+    ],
+    "parties": [
+      "BENGE v. MICHIGAN NATIONAL BANK."
+    ],
+    "opinions": [
+      {
+        "text": "Carr, J.\nPlaintiff brought this action in assumpsit in the circuit court to recover money paid out by defendant on forged checks and charged to her account. The cause was submitted and determined on a stipulation of facts. In 1939 the plaintiff, then Dorothy I. Shaft, opened a commercial account in the Central National Bank of Battle Creek, Michigan. At that time she signed a signature card containing a statement that she agreed to certain rules and regulations appearing on reverse side of said card. Among such rules was one authorizing the bank to give notices to depositors personally, or by mail, or by publishing for 4 successive weeks in a Battle Creek paper. For a number of years no check was drawn against the account, and there remained on deposit on April 8, 1950, the sum of $5,465.77. While the account remained inactive the bank did not send statements to plaintiff. It is conceded that the defendant in the present case succeeded to the rights and obligations of the Central National Bank before the occurrence of the matters giving rise to the present case.\nIn 1945 plaintiff removed to Florida where, on February 27, 1950, she married John E. Benge. On April 8th, following, she drew a check in the sum of $1,550 on her account in the defendant bank which check was duly presented and paid. On April 20th thereafter defendant sent a statement of account and the canceled check to the plaintiff, and the record indicates that she received them. During the period beginning April 28, 1950, and ending July 17th of the same year, 12 checks, on which the plaintiff\u2019s signature was forged by her husband, were presented to defendant and paid. Subsequently 2 other checks, one for $50 and one for $15, both forgeries, were presented and payment refused because of insufficient funds. Both of the latter checks were payable to J. E. Benge, plaintiff\u2019s husband.\nOn May 20, 1950, and at intervals thereafter, defendant forwarded to plaintiff, at her address in Lake Worth, Florida, statements of account together with canceled checks for each period covered. It is agreed that plaintiff did not actually receive such statements and vouchers because, after reaching her residence, they were intercepted by her husband. On or about August 20, 1951, defendant sent to plaintiff\u2019s address, in the usual course of business, a statement of account. Plaintiff received this communication and immediately thereafter notified defendant that checks paid by it, as above indicated, had been forged. Her demand for reimbursement because of payment of the forged checks was refused, whereupon the present case was instituted. Plaintiff had judgment in the trial court, and defendant has appealed.\nThe stipulation of facts does not disclose any basis for a conclusion, or claim, that plaintiff was negligent in any respect or that she is estopped to maintain the present action because of any act or omission on her part. The situation is that defendant honored checks on which plaintiff\u2019s name had been forged and charged the same against her account. It is not open to question that the relation existing between the parties was that of debtor and creditor, and that the hank owed to plaintiff the duty to make no payments out of her account except on her order. Under the common-law rule the violation of such duty gives rise to a cause of action. It is defendant\u2019s claim, however, that recovery in the instant case is barred under the provisions of PA 1907, No 95 (CL 1948, \u00a7 487.661 [Stat Ann 1943 Rev \u00a7 23.371]), which reads as follows:\n\u201cNo bank shall be liable to a depositor for the payment by it of a forged or raised check unless within 3 months after the return to the depositor of the voucher of such payment such depositor shall notify the bank that the check so paid is forged or raised.\u201d\nIt is the claim of the defendant that, because the statements and canceled checks were sent by mail to plaintiff\u2019s address in Florida, it is in position to claim the benefit of the statutory provision quoted notwithstanding the conceded fact that plaintiff, because of the wrongful act of a third party, did not actually receive them. It is argued in substance that there was a \u201creturn to the depositor\u201d of the vouchers showing the payments, that it was in no way responsible for the act of the wrongdoer, and that, not having been notified within the 3-months period that the checks- were forged, it is entitled to invoke the statute to preclude recovery by the plaintiff. It is the position of counsel for the appellee that defendant\u2019s claim is not well founded and .that the - statute must be construed as requiring actual delivery to the depositor, and failure to give, the specified notice, in order to relieve the debtor bank from liability in a situation of this character. The-issue thus becomes, primarily, a matter of statutory construction.\nThe precise question involved has not heretofore been determined by this Court. In Detroit Piston Ring Co. v. Wayne County & Home Savings Bank, 252 Mich 163 (75 ALR 1273), liability was asserted against the defendant bank because of its action in honoring checks on which the indorsements of payees had been forged. It was held that the forged indorsements did not render the checks forgeries within the meaning of the statutory provision above quoted. In discussing the question as to the scope of said provision it was said (p 171):\n\u201cThis statute was enacted for the purpose of giving the bank prompt notice that a check' has been forged or raised. This could be readily discovered by the drawer of the check immediately, upon its return to him. He knows his signature better than any one else. He might not know the signature of a payee with, whom he was unacquainted, and it might take longer than 3 months to discover that the check had been indorsed by some one other than the payee. Similar cases have been before the courts in- other States, and it has been uniformly held that the statute only applies to facts that necessarily must be within the knowledge of the drawer at the time of the return of the check to him, namely, whether his name has been forged, or the check raised, or the name of the payee changed. It has not been applied to the forging of the indorsement of the payee.\u201d\nObviously a depositor on whose account forged checks have been paid is not in position to discover such fact unless and until he receives such checks, or notice of payment thereof, from the bank. When the instruments come into his possession he is, at least under ordinary circumstances, charged with the duty of making a reasonable examination, as contemplated by the quoted statute, for the purpose of detecting possible forged or raised checks. If he discovers such, then it becomes his duty to notify the bank accordingly and unless he does so within the 3-months period he may not recover because of the breach of duty on his own part. Clearly, however, such duty does not arise unless he is given the opportunity to discover what has occurred\u2014unless he has, personally or by his duly authorized agent, received the forged or raised instruments. Under the terms of the statute the sending of the canceled checks, with accompanying statements, to the correct address of the depositor is not sufficient to preclude liability on the part of the bank if it pays forged or raised checks against the depositor\u2019s account unless the depositor is given the opportunity to examine the same, which implies that they must come to his personal possession or that of his authorized agent, and then fails to give the notice that the statute requires. Such interpretation is consistent with the language of the Court in Detroit Piston Ring Co. v. Wayne County & Home Savings Bank, above quoted.\nIn McCarty v. First National Bank of Birmingham, 204 Ala 424 (85 So 754, 15 ALR 153), the court discussed at some length the relation existing between a bank and a depositor, recognizing the general rule that the former is bound to know the signature of its depositors, and that a depositor to whom accounts and vouchers have been returned owes the duty of examining the same and advising the bank as to any improper action taken. In discussing this phase of the case, it was said, in part (pp 426, 427):\n\u201cIn all of the reported cases, this duty of diligence was imposed upon the depositor by reason of the fact that his passbook and canceled checks had actually been returned to him, so that notice of the forgeries was placed in his possession, and knowledge of them thereby made immediately accessible. The rationale of the rule is that, having been furnished with the means of knowledge, it is the depositor\u2019s duty to know; and, knowing, he is under the further duty of informing the bank of whatever he finds to be wrong. * * *\n\u201cA statement of account, though prepared and ready for delivery, does not become a stated account, with legal consequences, until it is actually placed in the hands of the party to be charged, and, with knowledge of its purport, he has acquiesced in its correctness. Comer v. Way, 107 Ala 300 (19 So 966, 54 Am St Rep 93); [1 CJ, Accounts and Accounting, \u00a7 250, p 679]. Manifestly the balanced passbook could not have become a stated account until after its reception by plaintiff on September 4, 1914. The theory upon which a depositor is required to examine his balanced passbook and his canceled checks within a reasonable time and with due care after they are returned to him by the bank, and to report errors and irregularities, if any there be, with reasonable promptness to the bank, is that, if he fails. to do so, the bank may rightly presume that previous payments of checks were properly made upon the authority of the depositor, and that they have his sanction and approval, and that, so presuming, the bank may be naturally induced to make similar payment of similarly forged or unauthorized checks in the future.\u201d\nConsistent with the theory that a depositor must have an opportunity to actually examine statements and canceled checks returned to him before being-charged with the duty of giving notice to the bank is the holding of the circuit court of appeals of the eighth circuit in England National Bank v. United States, 282 F 121, 126, 127, where it was said:\n\u201cIt is the duty of a bank, upon the request of a depositor thereof, to furnish him with a statement of the account, and to accompany that statement with the checks it has paid as vouchers for such payments. It is the duty of a depositor, who receives such a statement and such paid checks, within a' reasonable time to examine them, to ascertain whether or not the account is correct, and whether or not the paid checks are just and legal vouchers for the amounts charged on the account of them, and, immediately upon the discovery of any error in the account, or any fraudulent altered or defective paid check or voucher, to notify the bank thereof,, in order that it may at once proceed to protect itself before others exhaust the property of the wrongdoer who caused the loss; and the negligence or failure of the depositor to make the examination within a reasonable time, or speedily to notify the bank after his discovery of an altered, defective, or fraudulent cheek or voucher, is in law a conclusive admission of the correctness of the account and the legality and justice of the vouchers, upon which the bank has the right to rely, and which the depositor may not consequently deny. Leather Manufacturers\u2019 Bank v. Morgan, 117 US 96, 106-113, 115 (6 S Ct 657, 29 L ed 811); United States Bank v. Bank of Georgia, 10 Wheat [23 US] 333, 343 (6 L ed 334); Robb v. Vos, 155 US 13, 39, 40 (15 S Ct 4, 39 L ed 52); First Nat. Bank v. Farrell (CCA), 272 F 371, 376 (16 ALR 651); Citizens\u2019 Bank & Trust Co. v. Hinkle, Adm\u2019r, 126 Ark 266, 277 (189 SW 679). These rules of law were discussed, considered, and established in the courts of the United States in the case first cited in 1886, and they have since been repeatedly affirmed and followed in a long line of decisions too numerous to cite.\u201d\nLikewise recognizing the general rule that. the depositor is entitled to actual possession of paid and canceled checks drawn on his account is Van Dyke v. Ogden Savings Bank, 48 Utah 606 (161 P 50).\nIn Lincoln National Bank of Cincinnati v. Morgan, 46 Ohio App 9 (187 NE 646), the defendant bank paid forged checks drawn on an account created by a guardian for the benefit of a minor ward. Apparently the canceled checks were sent to an attorney who.had filled out the signature card in the name of the guardian and who, as it was claimed, committed the forgeries. In seeking to defeat recovery in the trial court the bank relied on section 11225-1 of the Ohio General Code, which read as follows:\n\u201cNo bank which has paid and charged t\u00f3 the account of a depositor any money on a forged_ or raised check issued in the name of said depositor shall he liable to said depositor for the amount paid thereon unless either, (1) within 1 year after actual written notice to said depositor that the vouchers representing payments charged to the account of said depositor for the period during which' such payment was made are ready for delivery, or (2) in case no such notice has been given, within 1 year after the return to said depositor of the voucher representing such payment, said depositor shall notify the bank that the check so paid is forged or raised.\u201d\nIn sustaining judgment for the plaintiff it \u2022 was pointed out that the canceled checks had not been returned to the depositor, that the party who committed the forgery did not stand in that position, and that (p 18) \u201cto avail itself of the privileges of the statute the bank must bring itself strictly within its provisions.\u201d The court further expressed the opinion that the legislature did not intend to relieve from liability unless the depositor had received notice of the payment of forged instruments. It is a fair inference that the court construed the reference in the statute to the \u201creturn\u201d to the depositor of the canceled vouchers as, in effect, requiring the receipt thereof by the depositor. We think that the statutory provision involved in the instant case must be given a like interpretation for the reasons above considered. A depositor who does not receive knowledge, or the means of knowledge, that forged checks have been paid by his bank and charged against his account may not be denied the right to recover because of his failure to give the notice contemplated by the statute. Had the legislature intended any such result, we think the intent would have been clearly expressed.\nUnder CL 1948, \u00a7 439.107 (Stat Ann \u00a7 \u00b19.147), notice of dishonor of a negotiable instrument is deemed sufficient if duly addressed and deposited in the post office. No analogous provision was incorporated in the statute involved in the instant case. It may be conceded that proof of sending statements and canceled checks by mail raises a presumption of receipt, but in the case at bar it is stipulated that plaintiff did not in fact receive them, nor were they received by anyone duly authorized to act as her agent for that purpose. In the interpretation of the statute we are bound by the language of the legislature read in the light of previously-established and recognized rules of the common law.\nCounsel for appellant raises a further question based on the language of the signature card above mentioned. It is insisted that by signing such card plaintiff in effect consented that bank statements and canceled checks might be sent to her by mail. Such claim is not tenable. As before indicated, the particular rule on which defendant relies not only allowed mailing of notices but further, in the alternative, publication thereof for 4 successive weeks in a Battle Creek paper. It is scarcely conceivable that the bank had in mind in the adoption.of such rule that statements, or canceled checks, might be published in the manner indicated. One signing the signature card, if he read the rules and regulations printed on the reverse side, would scarcely interpret the one in question here as applicable to such checks or statements. Furthermore, there is nothing to indicate that plaintiff\u2019s attention was in any way directed to the rule. See in this connection Ackenhausen v. People\u2019s Savings Bank, 110 Mich 175, 182 (33 LRA 408, 64 Am St Rep 338).\nNeither the statute, on which defendant relies, nor the signature card, may be given the effect of barring recovery under the stipulated facts. Under the rules of the common law governing the rights and duties of banks and depositors the defendant was at fault in honoring the checks on which the signature of the drawer was forged. Plaintiff is not estopped to assert liability. There is nothing in the record suggesting that plaintiff was in any way at fault because defendant did not receive actual knowledge until August of 1951 that it had honored forged checks.\nThe trial court correctly determined the issues in the case and the judgment entered is affirmed. Plaintiff may have costs.\nButzel, C. J., and Bushnell, Sharpe, Boyles, Reid, Dethmers, and Kelly, JJ., concurred.\nThis provision is now found in Ohio Revised Code, \u00a7 1307.08.\u2014 Reportee.",
+        "type": "majority",
+        "author": "Carr, J."
+      }
+    ],
+    "attorneys": [
+      "Gregg, Glassen, Parr & Rhead (Lloyd D. Parr, of counsel), for plaintiff.",
+      "Richard K. Amerson, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "BENGE v. MICHIGAN NATIONAL BANK.\n1. Banks and Banking\u2014Relation of Depositor.\nThe relation existing between a bank and its depositor is that of debtor and creditor.\n2. Same\u2014Payment from Depositor's Account.\nA bank owes to its depositor the duty to make no payments out of the account except on the order of the depositor and a violation of such duty gives rise to an action at common law.\nReferences for Points in Headnotes\n[1] 7 Am Jur, Banks \u00a7 444.\n[2] 7 Am Jur, Banks \u00a7\u00a7 459, 503.\n[3,4, 6,12] 7 Am Jur, Banks \u00a7 \u00a7 510, 514.\n[3, 4, 6,12] Examination of accounts, passbooks, or canceled cheeks by bank depositors. 15 ALR 159; 67 ALR 1121; 103 ALR 1147.\n[5] 1 Am Jur, Accounts and Accounting \u00a7 16; 7 Am Jur, Banks \u00a7 462.\n[7] See, generally, 7 Am Jur, Banks \u00a7 523.\n[8] 7 Am Jur, Banks \u00a7 462.\n[9] 50 Am Jur, Statutes \u00a7 344.\n[10] See, generally, 7 /m Jur, Banks \u00a7\u00a7618-620.\n[11] 7 Am Jur, Banks \u00a7 574.\n3. Same\u2014Forged Checks\u2014Notice.\nA depositor on whose account forged checks have been paid is not in position to discover such fact unless and until receipt of canceled cheeks, or notice of payment thereof, from the bank.\n4. Same\u2014Duty to Examine Returned Checks.\nA depositor is charged with the duty of making a reasonable examination of canceled checks returned to him by the bank for the purpose of detecting possible forged or raised checks and unless he does so within 3 months he may not recover because of the breach of duty on his own part, but such duty of examination does not arise unless he is given the opportunity to discover what has occurred by having received, personally or by a duly authorized agent, the forged or raised instruments (CL 1948, \u00a7 487.661).\n5. Account Stated\u2014Statement op Account.\nA statement of account, though prepared and ready for delivery, does not become a stated account, with legal consequences, until it is actually placed in the hands of the party to be charged, and, with knowledge of its purport, he has acquiesced in its correctness.\n6. Banks and Banking\u2014Forged Checks\u2014Notice.\nA depositor who does not receive knowledge, or the means of knowledge, that forged cheeks have been paid by his bank' and charged against his account may not be denied the right to recover from the bank because of his failure to give the statutory notice of such forgery (CL 1948, \u00a7487.561).\n7. Same\u2014-Notice of Dishonor\u2014Checks.\nRule that notice of dishonor of a negotiable instrument is deemed sufficient if duly addressed and deposited in the post office does not apply to relation of bank and depositor, where there is a pertinent statute setting forth the time within which notice of dishonor must be given but not making provision of negotiable instruments law applicable nor setting up a like provision (CL 1948, \u00a7\u00a7 439.107, 487.661).\n8. Same\u2014Statement of Account\u2014Canceled Checks\u2014Presumptions\u2014Evidence.\nThe presumption of receipt of bank statement and canceled cheeks arising from proof they were sent does not apply, where it is stipulated the depositor never did receive them and that they were not received by anyone duly authorized to act as her agent for that purpose (CL 1948, \u00a7 487.661).\n9. Statutes\u2014Construction\u2014Common Law.\nThe Supreme Court, when construing a statute, is bound by the language used by the legislature, read in the light of previously established and recognized rules of the common law.\n10. Banks and Banking\u2014Mailing of Statements and Canceled Checks\u2014Forged Checks\u2014Regulations as to Notice.\nRegulation of bank, printed on reverse side of signature card, that depositor consented that bank statements and canceled cheeks might be sent to her by mail and that notices might be given to her eitlieT by mail or by publication in a local paper, was not applicable to preclude recovery from bank for sums it had paid from plaintiff\u2019s account on forged checks, where, although such canceled cheeks were mailed to her, they were intercepted by the forger and she never actually received them.\n11. Same\u2014Forged Checks\u2014Common Law.\nA bank at common law is at fault in honoring checks on which the signature of the drawer has been forged.\n12. Same\u2014Forged Checks\u2014Delat in Notice to Bank.\nA depositor was not precluded from recovering for sums deducted from her account on forged cheeks, honored by the bank, by reason of delay of approximately a year in notifying the bank, where the depositor did notify the bank of the forgery as soon as she had actual knowledge of the forgeries (CL 1948, \u00a7 487.661).\nAppeal from Calhoun; Hatch (Blaine W.), J.\nSubmitted October 6, 1954.\n(Docket No. 24, Calendar No. 46,130.)\nDecided December 29, 1954.\nAssumpsit by Dorothy Benge against Michigan National Bank, a Federal banking corporation, for moneys on deposit paid out on forgeries. Judgment for plaintiff. Defendant appeals.\nAffirmed.\nGregg, Glassen, Parr & Rhead (Lloyd D. Parr, of counsel), for plaintiff.\nRichard K. Amerson, for defendant."
+  },
+  "file_name": "0441-01",
+  "first_page_order": 481,
+  "last_page_order": 493
+}

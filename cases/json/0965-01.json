@@ -1,0 +1,409 @@
+{
+  "id": 3188785,
+  "name": "STATE of Louisiana, Through DEPARTMENT OF HIGHWAYS v. CENTRAL REALTY INVESTMENT COMPANY, Inc.",
+  "name_abbreviation": "State ex rel. Department of Highways v. Central Realty Investment Co.",
+  "decision_date": "1960-01-11",
+  "docket_number": "No. 42093",
+  "first_page": "965",
+  "last_page": "979",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 965"
+    },
+    {
+      "type": "parallel",
+      "cite": "117 So.2d 261"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "115 So.2d 349",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3188080
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0277-01"
+      ]
+    },
+    {
+      "cite": "238 La. 278",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3188080,
+        9882068
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0277-01",
+        "/so2d/115/0349-01"
+      ]
+    },
+    {
+      "cite": "36 So.2d 22",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3048868
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/213/1015-01"
+      ]
+    },
+    {
+      "cite": "213 La. 1016",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        12021368,
+        3048868
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/36/0022-01",
+        "/la/213/1015-01"
+      ]
+    },
+    {
+      "cite": "197 La. 942",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10065827,
+        5506420
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "661"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/2/0654-01",
+        "/la/197/0941-01"
+      ]
+    },
+    {
+      "cite": "229 La. 191",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9896889,
+        5528310
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/85/0260-01",
+        "/la/229/0191-01"
+      ]
+    },
+    {
+      "cite": "219 La. 740",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3041484,
+        10040686
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/219/0739-01",
+        "/so2d/54/0004-01"
+      ]
+    },
+    {
+      "cite": "186 So. 354",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "case_ids": [
+        10039280,
+        1190080
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/186/0354-01",
+        "/la/191/0839-01"
+      ]
+    },
+    {
+      "cite": "191 La. 839",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1190080,
+        10039280
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/191/0839-01",
+        "/so/186/0354-01"
+      ]
+    },
+    {
+      "cite": "146 So. 319",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "case_ids": [
+        10030480,
+        3076120,
+        3083114,
+        10030356
+      ],
+      "pin_cites": [
+        {
+          "page": "320"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/146/0319-02",
+        "/la/176/0641-02",
+        "/la/176/0641-01",
+        "/so/146/0319-01"
+      ]
+    },
+    {
+      "cite": "176 La. 642",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3076120,
+        10030480
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/176/0641-02",
+        "/so/146/0319-02"
+      ]
+    },
+    {
+      "cite": "94 So.2d 9",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        5435433,
+        9891507
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/232/0139-01",
+        "/so2d/94/0009-01"
+      ]
+    },
+    {
+      "cite": "232 La. 140",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9891507
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/94/0009-01"
+      ]
+    },
+    {
+      "cite": "231 La. 869",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5467746,
+        9896467
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/231/0869-01",
+        "/so2d/93/0198-01"
+      ]
+    },
+    {
+      "cite": "227 La. 201",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2946393,
+        10089727
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/227/0202-01",
+        "/so2d/78/0833-01"
+      ]
+    },
+    {
+      "cite": "78 So.2d 493",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        10065177,
+        2946068
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/78/0493-01",
+        "/la/227/0014-01"
+      ]
+    },
+    {
+      "cite": "227 La. 13",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10065177
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/78/0493-01"
+      ]
+    },
+    {
+      "cite": "161 La. 444",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1264827
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/161/0443-01"
+      ]
+    },
+    {
+      "cite": "224 La. 988",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3091378,
+        10064790
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/224/0988-01",
+        "/so2d/71/0541-01"
+      ]
+    },
+    {
+      "cite": "217 La. 657",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5534536,
+        10035418
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/217/0663-01",
+        "/so2d/47/0036-01"
+      ]
+    },
+    {
+      "cite": "200 La. 463",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10048963,
+        5412148
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/8/0295-01",
+        "/la/200/0464-01"
+      ]
+    },
+    {
+      "cite": "118 So.2d 364",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9879160,
+        5546447
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/118/0364-01",
+        "/la/239/0153-01"
+      ]
+    },
+    {
+      "cite": "226 La. 1085",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10047507,
+        2986884
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/78/0182-01",
+        "/la/226/1085-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 903,
+    "char_count": 17368,
+    "ocr_confidence": 0.726,
+    "pagerank": {
+      "raw": 1.1573810803539769e-06,
+      "percentile": 0.9868351398093094
+    },
+    "sha256": "212c2aca7fdfd118c2c2cf6ee05bbfd12c652f494f9eedd79e6b0a23c96efc94",
+    "simhash": "1:9ec0082e2d083a22",
+    "word_count": 2915
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "VIOSCA, J., recused."
+    ],
+    "parties": [
+      "STATE of Louisiana, Through DEPARTMENT OF HIGHWAYS v. CENTRAL REALTY INVESTMENT COMPANY, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "McCALEB, Justice.\nOn May 5, 1954 the State, through the Department of Highways, filed this suit to expropriate two strips of land belonging to defendant corporation fronting on Dublin Street in Squares Nos. 617 and 620 of the Seventh District in the City of New Orleans for use in the Carrollton-Airline interchange of the New Orleans-Pontchartrain Expressway. Defendant resisted the right of expropriation and also filed exceptions of prematurity, vagueness, no right or cause of action and unconstitutionality. In its answer it alleged alternatively that, in the event of an adverse holding on the issue of defendant\u2019s right to expropriate the property described in the petition, it was entitled to recover $183,-184.32 as just compensation for the property and, additionally, to consequential damages in the sum of $274,104. The exceptions were overruled and, following a trial on the merits, the right of the State to expropriate was upheld and judgment rendered fixing the value of the property taken at $64,114.51, together with severance damages in the amount of $10,000.\nDefendant appealed suspensively from the judgment praying for reversal of the rulings below on its special defense relative to the necessity of the taking. However, on motion of plaintiff, the appeal was dismissed insofar as it suspended execution of the judgment, this Court holding that the special defenses were founded on mere conclusions and not well-pleaded facts, and further, that the evidence presented by defendant at the trial concerned only the propriety of the location of the public improvement and had no relevance to the asserted special defense that there was no necessity for the taking. See State Through Department of Highways v. Central Realty Investment Company, 226 La. 1085, 78 So.2d 182. Hence, this issue has passed out of the case and there is left for our consideration on the appeal only the question of whether the compensation allowed by the district court for the land expropriated and for the severance damages allegedly sustained are just and proper. Defendant claims that the awards are inadequate. The State, in an answer to the appeal, sets forth that the $10,000 award for severance damages is not supported by evidence and that the allowance of $64,-114.75 for the land taken is excessive and should be reduced to $38,368, or alternatively to a sum not exceeding $52,096.\nThe strips of land involved in this suit comprise the entire Dublin Street frontages of Squares 617 and 620, 292 feet and 300 feet in length respectively by a depth of 44 feet, the square footage being expropriated amounting to 12,848 square feet in Square 617 and 13,200 square feet in Square 620. The property was taken for the purpose of making Dublin Street a four-lane modern thoroughfare connecting with the Carrollton-Airline interchange.\nIt appears from the record that Squares 617, 620 and fractional Square 643, together with other acreage in the vicinity of Carrollton Avenue and Pontchartrain Blvd. were owned prior to October 6, 1945 by Hub Realty Company, Inc., a corporation owned and controlled by Mr. Allen H. Johness, a prominent realtor of the City of New Orleans who also controls or owns the defendant corporation, Central Realty Investment Company, Inc. On that date Hub Realty Company, Inc. sold the above mentioned squares to the Roman Catholic Church of the Diocese of New Orleans for $53,000 and on February 1, 1946, conveyed to the same purchaser two other squares, Nos. 616 and 621 of the Seventh District, for $65,000.\nThereafter, on March 31, 1954, just 35 days before the filing of this suit and while another expropriation suit was pending between plaintiff and Hub Realty Company, Inc. respecting certain other property sought to be expropriated within the same vicinity for use in the erection of the New Orleans-Pontchartrain Expressway (see State of Louisiana Through Department of Highways v. Hub Realty Company, Inc., La., 118 So.2d 364, the Catholic Diocese sold to defendant corporation Squares Nos. 616, 617, 620 and 621, comprising all the land, with the exception of fractional Square 643, which it had acquired from Hub Realty in the sales above mentioned. The total price paid by defendant for this property was $556,035.90, this consideration comprising the total of special valuations assessed separately by the parties on quarter-square sections, as stated in the act of sale.\nAt the trial in the lower court, plaintiff placed three real estate experts on the stand who gave opinions as to the value of the land to be taken, ranging from $38,-368 to $52,096. The estimates of these witnesses were founded, in the main, on the values contained in the recent sale from the Church to defendant, computed on a square foot basis.\nOn the other hand, defendant submitted the opinions of its four real estate experts, which included the views of its President, Mr. Johness. These realtors ascribed much higher valuations to the property to be expropriated, ranging from $82,926 to $183,184.32. In formulating their views, these witnesses stated that they gave little or no consideration to the recent purchase of the land by defendant, proclaiming that that sale was a private transaction in which the price paid did not represent sound market value as the Catholic Diocese, never having offered the land on the open market, was evidently not aware of its true value.\nOur jurisprudence is well established that the measure of compensation to be awarded in expropriation cases is the market value of the property \u2014 that is, a price which would be agreed upon at a voluntary sale between a willing seller and purchaser (see Housing Authority of Shreveport v. Green, 200 La. 463, 8 So.2d 295; City of New Orleans v. Noto, 217 La. 657, 47 So.2d 36; Housing Authority of New Orleans v. Boudwine, 224 La. 988, 71 So.2d 541 and many other cases too numerous to mention) and that sales of similar and comparable property within the vicinity offer the best guide in determining the market value to which the owner is entitled. See, in addition to cases above cited, Texas Pacific-Missouri Pacific Terminal R. R. of New Orleans v. Dittmar, 161 La. 444, 108 So. 877; State v. Ferris, 227 La. 13, 78 So.2d 493; Caddo Parish School Board v. Willer, 227 La. 201, 78 So.2d 833; Recreation and Park Commission of East Baton Rouge Parish v. Perkins, 231 La. 869, 93 So.2d 198 and Mississippi River Bridge Authority v. Curry, 232 La. 140, 94 So.2d 9.\nApplying the foregoing pronouncements to the matter at hand, the judge resolved that, since the evidence revealed that the property to be taken had been but recently acquired by the defendant at a time when both parties to the sale knew of the imminency of the expropriation proceedings, the price per square foot paid by defendant for the land established its maximum value. Accordingly, he ascertained the square-foot value of the particular strips, which was based upon the stipulated prices computed by the parties to the sale in their breakdown of the values of the two squares here involved into quarter sections, and allowed defendant the exact price it paid for the property. To this price the judge added 5% on the theory that the Catholic Diocese, as vendor, was relieved from payment of a real-estate agent\u2019s commission since the parties had dealt directly with each other and did not require a broker\u2019s services.\nIn asking for an increase in the award, counsel for the defendant reurge their position in the lower court that the price which defendant gave for the property immediately before the filing of the suit is not determinative of the fair value of the land because the sale was not on the open market but a private transaction in which the Catholic Diocese was desirous of disposing of the property rather than be subjected to expropriation proceedings with the State.\nWe find no substance in counsel\u2019s argument that defendant\u2019s purchase from the Catholic Diocese was not an arms-length open market sale of the property. On the contrary, the evidence of Mr. James Gilly, Jr., Vice President of the Whitney National Bank and Chairman of the Board of the Catholic Youth Progress Program, who was called to the stand by defendant, discloses that the Church was well satisfied with the price it received from defendant, $556,035.90, for the four squares it had purchased some nine years before for less than $118,000. Mr. Gilly stated that, whereas the land was originally purchased for use in its Youth Progress Program, the Board in charge of this program determined that the closing of access to Carroll-ton Avenue occasioned by the erection of the New Orleans-Pontchartrain Expressway had rendered the property less desirable than at first contemplated and that it was therefore decided that it should be sold. While Mr. Gilly also indicated that the Catholic Diocese did not relish involvement in condemnation proceedings with the State, his testimony makes it perfectly clear that the sale price was not fixed at a smaller figure on this account for, as aforesaid, he felt that a profit to the Diocese of approximately five times the acquisition price was very handsome. Nor does his evidence show that the sale was a private one which did not reflect true market value for, although the property was never advertised, Mr. Gilly indicates that the Church made no secret of its decision to sell; that he received calls from people who wanted to buy one square or the other; that he told them that he would not sell unless all four squares could be disposed of at the same time and that the defendant at first was desirous of purchasing only two squares but subsequently made an offer satisfactory to the Church for the entire property.\nCounsel also contend that the judge erred in ignoring the opinions of defendant\u2019s experts. But we think that the judge was correct in refusing to accord weight to these experts\u2019 testimony as their opinions were not well grounded from the standpoint of good reasoning. The estimates of each of the defense experts were founded on highly speculative values and they ignored completely the sale price paid by defendant for the property on the tenuous theory that it was not an open market sale opining that, if the land had been put on the open market, it would have been sold for a much higher price.\nWhat we have heretofore said with respect to the value of the land as established by the purchase price paid by defendant applies with equal force to plaintiff\u2019s contention that the judge\u2019s award is excessive, except in the single particular hereinafter noted. Whereas it is true that both parties to the sale were well aware of the extensive improvements, particularly the conversion of Dublin Street from a narrow thoroughfare into a four-lane double highway, and no doubt gave consideration to this project in arriving at the price of the sale, we do not feel that the testimony of some of plaintiff\u2019s witnesses, to the effect that the land expropriated was worth less than the act of sale indicated was the price paid by defendant to the Catholic Diocese, should prevail. Rather, we believe that the price of the sale stands substantially in accord with the well-reasoned testimony of Mr. E. Holland Johnson, one of plaintiff\u2019s experts, who gave due consideration to the purchase price paid by defendant and estimated the value of the strips to be $52,096, based on an average value of $2 per square foot for Squares 617 and 620. On cross-examination, Mr. Johnson admitted that, if Squares 617 and 620 were divided for sale, the half fronting on Dublin Street might be worth $2.50 per square foot, or an amount slightly in excess of the sale price.\nConsidering the testimony of Mr. Johnson in connection with all other evidence in the case, we are of the opinion that the district judge made no mistake in concluding that the sale price, amounting to $61,-061.44 for the two strips taken by plaintiff, reflects the true market value of the property and in awarding defendant this sum.\nThe judge added to the above stated amount 5%, or the sum of $3,053.07, which' he reasoned was saved by the Catholic Diocese because the transaction was not handled through a real estate agent.\nWe perceive no good ground for this addition. The fact that the seller was able to dispose of the property without engaging a realtor and paying a commission affords no basis for concluding it was worth more than the amount agreed on by the parties. Therefore, the addition of 5% must be disallowed as it has no reasonable relation to the market value of the property at the time of the taking.\nWe are also of the view that there was no warrant in law for the $10,000 award in favor of defendant as consequential damages. In his written reasons, the judge stated that, since the State is not seeking to deny defendant the right of access to the property remaining after the taking but \u201c * * * on the contrary is furnishing defendant with a magnificent boulevard in lieu of the narrow street now in front of his property, there is no diminution in the value of the remaining property as a result of the expropriation, except in one particular\u201d. Then the judge went on to say that, while the new expressway will be too far from the property to interfere with air and light, \u201c * * * there will be some nominal diminution in value because of loss of view\u201d. Severance damages of $10,000 are given for this nominal diminution in value for loss of view.\nThe ruling is erroneous for the reason that there is no testimony whatever that the taking will decrease the market value of the property which remains because there will be a loss of view.\nIn Louisiana Highway Commission v. Ferguson, 176 La. 642, 146 So. 319, 320, we said:\n\u201cDamages to land * * * cannot be presumed and unless the owner shows by competent evidence that the value of his remaining land has been diminished by the taking, compensation will be limited to the value of the land actually taken.\u201d\nSee also Nichols on \u201cEminent Domain\u201d Vol. 4, Sec. 14.21(2), 3rd Ed.\nIt is well settled in our jurisprudence that the damages allowable under Section 2 of Article 1 of the Constitution of 1921, resulting from expropriation of property rights is the difference between the market value of the property for sale or rental purposes immediately before and immediately after the expropriation. Harrison v. Louisiana Highway Commission, 191 La. 839, 186 So. 354; American Tel. & Tel. Co. of Louisiana v. Maguire, 219 La. 740, 54 So.2d 4 and Texas Pipe Line Company v. Barbe, 229 La. 191, 85 So.2d 260.\nMoreover, the testimony in the case at bar indicated that, even if it could rightly be said that the taking might have affected the market value of the property remaining in some particular, such diminution would unquestionably be offset by the special benefits accruing to the land from the improvements. According to the evidence Dublin Street, before the taking, was a narrow-blacktopped road which, soon after the taking, would be converted into a wide, concrete boulevard and, when the connecting interchange was completed, would channel a tremendous volume of traffic past defendant\u2019s remaining property, thus enhancing the value of the unimproved property, the highest and best use of which is for commercial and shopping center purposes.\nIn Louisiana Highway Commission v. Grey, 197 La. 942, 2 So.2d 654, 661, the Court said:\n\u201cIf, as a result of constructing new work, the remaining land or part of it is left fronting on a road or street, and the land fronting the road or street is more desirable and more valuable because of the frontage, the advantage thus gained is a special or peculiar benefit, and damage to the remaining property may be offset by such benefits.\u201d\nSee also State v. Cooper, 213 La. 1016, 36 So.2d 22 and City of New Orleans v. Giraud, 238 La. 278, 115 So.2d 349.\nFor the foregoing reasons the judgment appealed from is amended by disallowing defendant\u2019s claim for consequential damages in entirety and otherwise reducing the award from $74,114.51 to $61,061.44. As thus amended, the judgment is affirmed, plaintiff to pay all costs incurred by defendant.\nVIOSCA, J., recused.\n. Square 617 is bounded by Palmetto, Dante, Dixon and Dublin Streets. Square 620 is bounded by Dixon, Dante, Peach and Dublin Streets.\n. Mr. E. Holland Johnson stated that the market value of the strips of land was $52,096; Mr. Max J. Derbes appraised them at $46,104.96 and Mr. Eugene Aschaffenburg valued them at $38,368.\n. Mr. Johness\u2019 estimate was $183,184.32; Mr. Francis P. Olesi valued the strips at $88,000 and Messrs. Guy L. Deano and Louis B. Huffit appraised them at $S2,962.\n. Article 2633 of the Civil Code and B..S. 19:8 provide that, in estimating the value of property to be expropriated, the basis of assessment shall be the true value the land possessed \u201c * * * before the contemplated improvement was proposed, and without deducting therefrom any amount for the benefit derived by the owner from the contemplated improvement or work.\u201d",
+        "type": "majority",
+        "author": "McCALEB, Justice."
+      }
+    ],
+    "attorneys": [
+      "William J. Guste, James M. Colomb, Jr., Roy F. Guste, New Orleans, for defendant-appellant.",
+      "W. Crosby Pegues, Jr., D. Ross Banister, Philip K. Jones, Baton Rouge, Francis X. Vinet, New Orleans, for plaintiff-appellee."
+    ],
+    "corrections": "",
+    "head_matter": "117 So.2d 261\nSTATE of Louisiana, Through DEPARTMENT OF HIGHWAYS v. CENTRAL REALTY INVESTMENT COMPANY, Inc.\nNo. 42093.\nJan. 11, 1960.\nWilliam J. Guste, James M. Colomb, Jr., Roy F. Guste, New Orleans, for defendant-appellant.\nW. Crosby Pegues, Jr., D. Ross Banister, Philip K. Jones, Baton Rouge, Francis X. Vinet, New Orleans, for plaintiff-appellee."
+  },
+  "file_name": "0965-01",
+  "first_page_order": 515,
+  "last_page_order": 522
+}

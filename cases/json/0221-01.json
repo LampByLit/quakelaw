@@ -1,0 +1,695 @@
+{
+  "id": 4381221,
+  "name": "BETHLEHEM STEEL CORPORATION, Plaintiff and Appellant, v. BOARD OF COMMISSIONERS OF THE DEPARTMENT OF WATER AND POWER OF THE CITY OF LOS ANGELES et al., Defendants and Respondents",
+  "name_abbreviation": "Bethlehem Steel Corp. v. Bd. of Comm'r of Dep't of Water & Power of Los Angeles",
+  "decision_date": "1969-09-18",
+  "docket_number": "Civ. Nos. 32969, 32976",
+  "first_page": "221",
+  "last_page": "232",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "276 Cal. App. 2d 221"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "357 U.S. 116",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6161402
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/357/0116-01"
+      ]
+    },
+    {
+      "cite": "6 Wall. 35",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3453960
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/73/0035-01"
+      ]
+    },
+    {
+      "cite": "7 How. 283",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        6139133
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/48/0283-01"
+      ]
+    },
+    {
+      "cite": "138 A.L.R. 1144",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "314 U.S. 390",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140058
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "400"
+        },
+        {
+          "page": "300"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/314/0390-01"
+      ]
+    },
+    {
+      "cite": "394 P.2d 623",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Hawaii 565",
+      "category": "reporters:state",
+      "reporter": "Haw.",
+      "case_ids": [
+        1448105
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/haw/41/0565-01"
+      ]
+    },
+    {
+      "cite": "25 Cal.Rptr. 798",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "208 Cal.App.2d 803",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2106207
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/208/0803-01"
+      ]
+    },
+    {
+      "cite": "63 Stat. 1024",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Stat. 1520",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "312 U.S. 52",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        359179
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "63"
+        },
+        {
+          "page": "584"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/312/0052-01"
+      ]
+    },
+    {
+      "cite": "246 U.S. 304",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8286745
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "308-310"
+        },
+        {
+          "page": "736-737"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/246/0304-01"
+      ]
+    },
+    {
+      "cite": "246 U.S. 297",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8286681
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "304"
+        },
+        {
+          "page": "732"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/246/0297-01"
+      ]
+    },
+    {
+      "cite": "8 L.Ed. 796",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "pin_cites": [
+        {
+          "page": "817-818"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "389 U.S. 429",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11340675
+      ],
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "434-435"
+        },
+        {
+          "page": "688-689"
+        },
+        {
+          "page": "p. 692"
+        },
+        {
+          "page": "p. 443"
+        },
+        {
+          "page": "p. 432"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/389/0429-01"
+      ]
+    },
+    {
+      "cite": "456 P.2d 645",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "79 Cal.Rptr. 77",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.2d 566",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        8711995
+      ],
+      "pin_cites": [
+        {
+          "page": "577"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/71/0566-01"
+      ]
+    },
+    {
+      "cite": "61 Stat. 1180",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Stat. 1440",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Stat. 3000",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Stat. 1401",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Stat. 1031",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "301 U.S. 324",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        547737
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "332"
+        },
+        {
+          "page": "1140"
+        },
+        {
+          "page": "330"
+        },
+        {
+          "page": "1139"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/301/0324-01"
+      ]
+    },
+    {
+      "cite": "315 U.S. 203",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        374717
+      ],
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "233"
+        },
+        {
+          "page": "819"
+        },
+        {
+          "page": "818"
+        },
+        {
+          "page": "229-230"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/315/0203-01"
+      ]
+    },
+    {
+      "cite": "130 U.S. 581",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3537337
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "606"
+        },
+        {
+          "page": "1075"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/130/0581-01"
+      ]
+    },
+    {
+      "cite": "86 A.L.R. 747",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "288 U.S. 378",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        79775
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "396"
+        },
+        {
+          "page": "852"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/288/0378-01"
+      ]
+    },
+    {
+      "cite": "299 U.S. 304",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5722113
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "315-316"
+        },
+        {
+          "page": "260-261"
+        },
+        {
+          "page": "p. 317"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/299/0304-01"
+      ]
+    },
+    {
+      "cite": "72 Stat. 673",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "year": 1958,
+      "opinion_index": 1
+    },
+    {
+      "cite": "69 Stat. 162",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "year": 1955,
+      "opinion_index": 1
+    },
+    {
+      "cite": "68 Stat. 360",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "year": 1954,
+      "opinion_index": 1
+    },
+    {
+      "cite": "67 Stat. 472",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "year": 1953,
+      "opinion_index": 1
+    },
+    {
+      "cite": "65 Stat. 72",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "year": 1951,
+      "opinion_index": 1
+    },
+    {
+      "cite": "48 Stat. 943",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "306 U.S. 375",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140301
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "380-381"
+        },
+        {
+          "page": "776"
+        },
+        {
+          "page": "528"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/306/0375-01"
+      ]
+    },
+    {
+      "cite": "6 L.Ed. 678",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "case_ids": [
+        1429870
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/25/0419-01"
+      ]
+    },
+    {
+      "cite": "82 S.Ct. 175",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "7 L.Ed.2d 94",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "368 U.S. 899",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6326212,
+        6326442,
+        6327310,
+        6326900,
+        6326709,
+        6327769
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/368/0899-01",
+        "/us/368/0899-02",
+        "/us/368/0899-05",
+        "/us/368/0899-04",
+        "/us/368/0899-03",
+        "/us/368/0899-06"
+      ]
+    },
+    {
+      "cite": "56 Cal.2d. 11",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4378735
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "23"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-2d/56/0011-01"
+      ]
+    },
+    {
+      "cite": "100 U.S. 434",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4654
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "443"
+        },
+        {
+          "page": "746"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/100/0434-01"
+      ]
+    },
+    {
+      "cite": "91 U.S. 275",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5647387
+      ],
+      "weight": 9,
+      "pin_cites": [
+        {
+          "page": "279-280"
+        },
+        {
+          "page": "349"
+        },
+        {
+          "page": "281"
+        },
+        {
+          "page": "349"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/91/0275-01"
+      ]
+    },
+    {
+      "cite": "289 U.S. 48",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3916686
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "56-57"
+        },
+        {
+          "page": "510"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/289/0048-01"
+      ]
+    },
+    {
+      "cite": "6 L.Ed. 23",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "case_ids": [
+        1421263
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "68"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/22/0001-01"
+      ]
+    },
+    {
+      "cite": "19 U.S.C.A. \u00a7 1351",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 1346,
+    "char_count": 25177,
+    "ocr_confidence": 0.615,
+    "pagerank": {
+      "raw": 1.7136497871517194e-07,
+      "percentile": 0.7027718604443735
+    },
+    "sha256": "b7aba2b1b0ffb24cbd32ebc8165c58c0b6d93269e7241b41eec8a181f7401971",
+    "simhash": "1:faa6ed546dc8c355",
+    "word_count": 4039
+  },
+  "last_updated": "2024-02-27T17:52:21.889319+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "BETHLEHEM STEEL CORPORATION, Plaintiff and Appellant, v. BOARD OF COMMISSIONERS OF THE DEPARTMENT OF WATER AND POWER OF THE CITY OF LOS ANGELES et al., Defendants and Respondents."
+    ],
+    "opinions": [
+      {
+        "text": "The first of these two consolidated eases was filed November 14, 1966, by Triangle Steel & Supply Company (Triangle) and Bethlehem to enjoin the Department from performing a contract with Ducommun, Incorporated (Ducommun) for the purchase of structural steel beams t> be used by the Department in enlarging the Owens Biver-Los Angeles Aqueduct. The contract had been awarded after competitive bidding in which seven firms, including both Triangle and Ducommun, had offered to supply the steel. The bid submitted by plaintiff Triangle was the lowest responsive bid based on supplying steel to be manufactured in the United States. The bid submitted by Ducomnmn was slightly below the Triangle bid, but was predicated on supplying steel to be manufactured in Japan.\nThe second consolidated case was filed December 7, 1966, by Bethlehem to enjoin the Department from awarding a contract to any of several bidders proposing to use foreign steel in the construction of suspension towers required by the Department for a portion of an electrical transmission line from Celilo, near The Dalles, Oregon, to Sylmar, California. Bethlehem was the only responsive bidder proposing to construct the towers from steel manufactured in. the United States. The low bid, submitted by respondent Marubeni-Iida (America) Inc. (Marubeni), proposed to use steel manufactured in Japan.\nBethlehem sought preliminary injunctions in both eases to prevent performance of the contracts unless they were modified to comply with the California Buy American Act. After a consolidated hearing on the two applications, preliminary injunctions were denied. Following this, Bethlehem filed amended complaints to add claims for damages, and for a declaration that the Department must comply with the California Buy American Act in awarding future public works contracts. Triangle withdrew as a plaintiff in the first suit, leaving Bethlehem as the sole plaintiff, and Bethlehem dismissed without prejudice all the bidders which were originally named as defendants in the second suit, except Marubeni, to whom the contract had been awarded.\nWithout answering the amended complaints, defendants in both suits moved the trial court for summary judgments, asserting that the California Buy American Act violated eer- \u2022 tain international agreements of the United States, and was unconstitutional as a burden on foreign commerce and a denial of due process and equal protection of the law. The Department also contended that the act did not apply to it because Los Angeles is a chartered city and because application of the act would result in a gift of public funds. Summary judgments were entered in both cases against Bethlehem and in favor of defendants.\nThe California Buy American Act (Gov. Code \u00a7\u00a74300-4305) requires that contracts for the construction of public works or the purchase of materials for public use be awarded only to persons who will agree to use or supply materials, which have been, manufactured in the United States, substantially all from materials produced in the United States.\nThe crucial and determinative issue presented by these appeals is whether this act, as applied to certain purchases of steel products manufactured abroad, violates the United States Constitution. We have concluded that the California Buy American Act is an unconstitutional encroachment upon the federal government\u2019s exclusive power over foreign affairs, and constitutes an undue interference with the United States \u2019 conduct of foreign relations.\nThe United States Constitution itself does not, in so many words, vest in the national government the power to conduct external relations. Instead, it parcels out certain aspects of the foreign affairs power among the political departments. As one writer has pointed out, \u2018 the organic provisions delegating such specific powers fall far short of covering comprehensively the whole field of foreign affairs. \u2019 \u2019\nWhether we must conclude from this that the nation does not possess foreign affairs powers other than those specifically enumerated is answered in an unqualified negative: \u201cAs a sovereign power possessed by the nation, the power over foreign affairs is inherent, exclusive, and plenary. It is inherent, since ... it does not depend for its existence upon the affirmative grants of the Constitution. It is exclusive in the Federal Government, both because of express prohibitions on the states in this field and because only the Union is vested with the attributes of external sovereignty. For national purposes, embracing our relations with foreign nations, we are but one people, one nation, one power. [Footnotes omitted.]\u201d\nAs stated in United States v. Curtiss-Wright Export Corp., 299 U.S. 304, 315-316 [81 L.Ed. 255, 260-261, 57 S.Ct. 216] : \u201cThe broad statement that the Federal government can exercise no powers except those specifically enumerated in the Constitution and such implied powers as are necessary and proper to carry into effect the enumerated powers, is categorically true only in respect of our internal affairs.\u201d (See also Burnet v. Brooks, 288 U.S. 378, 396 [77 L.Ed. 844, 852, 53 S.Ct. 457, 86 A.L.R. 747].) The powers of external sovereignty do not depend upon the affirmative grants of the Constitution, but are vested in the federal government as necessary concomitants of nationality.\nThe exclusivity of the federal government\u2019s power in this sphere is predicated upon the \u201cirrefutable postulate that though the states were several, their people in respect of foreign affairs were one.\u201d (United States v. Curtiss-Wright Export Corp., supra, at p. 317 [81 L.Ed. at p. 261].) The several states are bereft of power in this field since \u201cin respect of our foreign relations generally, state lines disappear.\u201d (United States v. Belmont, supra, at p. 331 [81 L.Ed. at p. 1139]; see also Chae Chan, Ping v. United States, 130 U.S. 581, 606 [32 L.Ed. 1068, 1075, 9 S.Ct. 623].) Hence, the external power of the United States is exercisable \u201cwithout regard to state laws or policies\u201d and \u201cis not and cannot be subject to any curtailment or interference on the part of the several states.\u201d (Ibid.)\nThe California Buy American Act, in effectively placing an embargo on foreign products, amounts to a usurpation by this state of the power of the federal government to conduct foreign trade policy. That there are countervailing state policies which are served by the retention of such an act is \u201cwholly irrelevant to judicial inquiry\u201d (United States v. Pink, 315 U.S. 203, 233 [86 L.Ed. 796, 819, 62 S.Ct. 552]) since \u201c [i]t is inconceivable that any of them can be interposed as an obstacle to the effective operation of a federal constitutional power.\u201d (United States v. Belmont, supra, 301 U.S. 324, 332 [81 L.Ed. 1134, 1140].) Only the federal government can fix the rules of fair competition when such competition is on an international basis. Foreign trade is properly a subject of national concern, not state regulation. State regulation can only impede, not foster, national trade policies. The problems of trade expansion or non-expansion are national in scope, and properly should be national in scope in their resolution. The fact that international trade forms the basis of this country\u2019s foreign relations is amply demonstrated by the following. At the present time the United States is a party to commercial treaties with 38 foreign nations. In addition, there are tax treaties presently in effect between the United States and 31 countries. The United States is a party to many other international treaties and agreements regulating, directly or indirectly, its commercial relations with the rest of the world. See, for example, the General Agreement on Tariffs and Trade, 61 Stat. Part 6 A2051 TIAS 1700 (1947); The United Nations Charter, 59 Stat. 1031 T.S. 993 (1945) ; The International Monetary Fund Agreement of 1945, 60 Stat. 1401, TIAS 1501 (1945); The Universal Copyright Convention, 6 U.S.T. & O.I.A. 2731, TIAS 3324 (1955); The Warsaw Convention, 49 Stat. 3000, T. S. 876 (1934); The International Finance Corporation, 7 U. S.T. & O.I.A. 2197, TIAS 3620 (1956,); The International Development Association, 11 U.S.T. & O.I.A. 2284, TIAS 4607 (1960) \u2022 The International Bank for Reconstruction and Development, 60 Stat. 1440, TIAS 1502 (1945); The International Civil Aviation Organization, 61 Stat. 1180, TEAS 1591, 15 U.N.T.S. 295 (Chicago, 1944); The Organization for Economic Cooperation and Development, 12 U.S.T. & O.I.A. 1728, TIAS 4891 (1961); International Trade in Cotton Textiles, 12 U.S.T. & O.I.A. 1675, TIAS 4884 (1961), Long Term Agreement Regarding Such Trade, 471 U.N.T.S. 296, and Extension of Long Term Agreement, TIAS 6289 (May 1, 1967); The International Coffee Agreement, With Annexes, 14 U.S.T. & O.I.A. 1911, TIAS 5505, 469 U.N.T.S. 169 (1963). Certainly, such problems are beyond the purview of the State of California. As stated in United States v. Pink, supra, 315 U.S. 203,. 232 [86 L.Ed. 796, 818] : \u201cThese are delicate matters. If state action could defeat or alter our foreign policy,' serious consequences might ensue. The nation as a whole would be held to answer if a state created difficulties with a foreign power.\u201d The argument is nevertheless advanced that until such time as the federal government acts, either by conflicting legislation or international agreement, state legislation is unobjectionable. In Purdy & Fitzpatrick v. State of California, 71 Cal.2d 566, 577 [79 Cal.Rptr. 77, 456 P.2d 645], our Supreme Court stated: \u201cWe need not await an instance of actual conflict to strike down a state law which purports, to regulate a subject matter which the Congress simultaneously aims to control. The opportunity for potential conflict is too great to permit the operation of the state law. [Footnote\nThe California Buy American Act, like the Oregon escheat statute in Zschernig v. Miller, 389 U.S. 429, 434-435 [19 L.Ed.2d 683, 688-689, 88 S.Ct. 664], \u201chas more than \u2018some incidental or indirect effect in foreign countries, \u2019 and its great potential for disruption or embarrassment makes us hesitate to place it in the category of a diplomatic bagatelle. \u2019' Such state legislation may bear a particular onus to foreign nations since it may appear to be the product of selfish provincialism, rather than an instrument of justifiable policy. It is a type of protectionism which invites retaliative restrictions on our own trade. While the present California statute is not as gross an intrusion in the federal domain as others might be, \u201cit has a direct impact upon foreign relations, and may well adversely affect the power of the central government to deal with those problems.\u201d (Zschernig v. Miller, supra, 389 U.S. 429, at page 441 [19 L.Ed.2d 683 at p. 692].)\nOur system of government is such that the interest of the cities, counties and states, no less than the interest of the people of the whole nation, \u201cimperatively requires that federal power in the field affecting foreign relations be left entirely free from local interference.\u201d (Hines v. Davidowitz, supra, 312 U.S. at page 63 [85 L.Ed. at p. 584].) Effectiveness in handling these delicate problems requires no less. (United States v. Pink, supra, 315 U. S. 203, 229-230 [8 L.Ed. 796, 817-818].) To permit state legislation to concurrently operate in this sphere would very certainly \u201cimperil the amicable relations between governments and vex the peace of nations.\u201d (Oetjen v. Central Leather Co., 246 U.S. 297, 304 [62 L.Ed. 726, 732, 38 S.Ct. 309] ; see Ricaud v. American Metal Co., 246 U.S. 304, 308-310 [62 L.Ed. 733, 736-737, 38 S.Ct. 312].)\nThe present legislation is an impermissible attempt by the state to structure national foreign policy to conform to its own domestic policies. It illustrates the dangers which are involved if federal policy is to be qualified by the variant notions of the several states. We conclude that the California, Buy American Act is an unconstitutional intrusion into an exclusive federal domain.\nThe judgments are affirmed.\nReppy, J., concurred.\nGovernment Code seetion 4303 provides: \u2018 \u2018 The governing body of any political subdivision, municipal corporation, or district, and any public officer or' person charged with the letting of contracts for (1) the construction, alteration, or repair of public works or (2) for the purchasing of materials for public use, shall let such contracts only to persons who agree to use or supply only such unmanufactured materials as have been produced in the United States, and only such manufactured materials as have been manufactured in the United States, substantially all from materials produced in the United States. \u2019 \u2019\n2 Schwartz, A Commentary on the Constitution of the United States (1963), \u00a7 206, p. 96.\nId. at pp. 97-98. See United States v. Belmont, 301 U.S. 324, 330 [81 L,Ed. 1134, 1139, 57 S.Ct. 758] : \u201cGovernmental power over external affairs is not distributed, but is vested exclusively in the national government. \u2019 \u2019\nSee 1 Story on the Constitution (5th ed.), \u00a7\u00a7 198-217.\nSee Hines v. Davidowits, 312 U.S. 52, 63 [85 L.Ed 581, 584, 61 S.Ct. 399]: ' \u2018 The Federal Government, representing as it does the collective interests of the forty-eight states, is entrusted with full and' exclusive responsibility for the conduct of affairs with foreign sovereignties. \u2019 \u2019\nAs Schwartz put it: \u201cIt would be utterly inconsistent with the nation\u2019s monopoly in the external sphere if agreements concluded by our Government with other powers could be frustrated by inconsistent local policies and local laws.\u201d (2 Schwartz, A Commentary on the Constitution of the United States (1963), \u00a7 220, p. 155.)\nCompare Alexander Hamilton in Federalist paper No. 80: \u201c [T]he peace of the whole ought not to be left at the disposal of a part. The Union will undoubtedly be answerable to foreign powers for the conduct of its members. \u2019 \u2019\nOur attention has been directed to the federal Buy American Act (47 Stat. 1520, as amended in 63 Stat. 1024). This act does not appear to be in direct conflict with the California act so as to preempt the latter. Conversely, the existence of the federal act cannot serve as a justification for state legislation since, as we have previously stated, it is the sole province of the federal government to act in this sphere. However, in contrast to the California act, the federal act appears to serve as an equalizer in considering foreign invitational bids, rather than as an embargo altogether on such bids. (See Executive Order No. 10582, Dec. 17, 1954, 19 F.R. 8723, as amended by Executive Order No. 11051, Sept. 27, 1962, 27 F.R. 9683.)\nIt is vigorously asserted by defendants and denied by plaintiff that the Buy American Act is violative of the General Agreement on Tariffs and Trade (GATT, 61 Stat., Pts. 5 and 6, as amended), of which this nation is a signatory. In Baldwin-Lima-Hamilton Corp. v. Superior Court, 208 Cal.App.2d 803,. 819-820 [25 Cal.Rptr. 798], as one column of a twin pedestal upon which its decision was based, the court held that the California Buy American Act had been superseded by GATT. In Territory v. Ho, 41 Hawaii 565 [394 P.2d 623], similar legislation was invalidated on the premise that it was in conflict with GATT. Since we have concluded that the federal power, whether or not exercised, is exclusive in this field, we find it unnecessary to delve into an extensive analysis of the effect \u00f3f GATT.\nIn Justice Jackson\u2019s phrase, the inertia of government would be heavily on the side of the centrifugal forces of localism. (Duckworth v. Arkansas, 314 U.S. 390, 400 [86 L.Ed. 294, 300, 62 S.Ct. 311, 138 A.L.R. 1144].)\nAn editorial dated October 15, 1964 in the New York Journal of Commerce commented: \u201cSomething of a dilemma confronts the present Administration and will also confront-any future administration in consequence of the urge that prompts many State Legislatures to enact measures that restrict the flow of international commerce within their borders . . . The nature of this dilemma was suggested in a Washington dispatch to this newspaper yesterday. In brief, its message was to the effect that Washington\u2019s opportunity to win meaningful tariff concessions from foreign countries in the current Kennedy Bound may be much curtailed by \u2018Buy American\u2019 or by simply \u2018Buy Local\u2019 laws adopted in many states.\u201d\nAfter giving a number of examples, the editorial concludes: \u201cIn the circumstances, about the best we can hope is that the State Legislatures will try harder in the future to temper the urge to protect their own producers with realization that the cumulative effect of procurement, restrictions among many states can produce impossible rigidities in naiional policy. Even those who do not approve of the national foreign trade policy should realize that if it is to be determined by the future policies of 50 different entities, there won\u2019t be any policy at all.\u201d\nIn a concurring opinion, Justice Stewart observed: \u201cToday, we are told, Oregon\u2019s statute does not conflict with the national interest. Tomorrow it may. But, however that may be, the fact remains that the conduct of our foreign affairs' is entrusted under the Constitution to the National Government, not to the probate courts of the several States.\u201d (Zschernig v. Miller, supra, at p. 443 [19 L.Ed.2d at p. 693].)\nSee Passenger Cases, 7 How. 283, 12 L.Ed. 702; Crandall v. Nevada, 6 Wall. 35 [18 L.Ed. 745 ] Kent v. Dulles, 357 U.S. 116 [2 L.Ed.2d 1204, 78 S.Ct. 1113].\nIn Zschernig, the court pointed out numerous instances where state courts have delved into \u201cforeign policy attitudes\u201d and noted in some detail how the Oregon statute, as applied, was unconstitutional. Nevertheless, Justice Douglas, in his majority opinion, makes it clear that conceptually such legislation based on its history, as well as its operation, was patently \u2018 \u2018 an intrusion by the State into the field of foreign affairs which the Constitution entrusts to the President and the Congress.\u201d (Zschernig v. Miller, supra, at p. 432 [19 L.Ed.2d at p. 687].)\n\u201c [W]lien the limits that the federal system imposes upon its components are in question, when the centrifugal, isolating or hostile forces of localism are manifested in state legislation, the interests of union require that these factors be recognized and the judicial negative be interposed. \u201d Ernst J. Brown, The Open Economy; Mr. Justice Frankfurter and The Position of the Judiciary, (1957) 219, 220, reprinted in Selected Essays on Constitutional Law (1963), p. 373.)",
+        "type": "majority",
+        "author": null
+      },
+      {
+        "text": "opinion holding the California Buy American Act (Gov. Code, \u00a7\u00a7 4300-4305) unconstitutional as an undue interference with the federal government\u2019s conduct of foreign relations. I desire to add a few supplementary observations.\nJuxtaposition of the text of the California Buy American Act alongside those of GATT and the Trade Agreements Act (19 U.S.C.A. \u00a7 1351) as amended and extended, not only makes manifest the seriousness of the potential, if not presently actual, interference by California with the federal government\u2019s power to conduct its foreign affairs, but lays bare California\u2019s unconstitutional intrusion into the congressional power \u201c [t]o regulate Commerce with foreign Nations.\u201d (U.S. Const., art. I, \u00a7 8, cl. 3.)\nThe .power to regulate commerce with foreign nations is an express grant by the people to the federal government. (Gibbons v. Ogden (1824) 22 U.S. (9 Wheat.) 1, 187-189 [6 L.Ed. 23, 68].) \u201cIt is an essential attribute of the power that it is exclusive and plenary. As an exclusive power, its exercise may not be limited, qualified or impeded to any extent by state action. [Citations.] The power is buttressed by the express provision of the Constitution denying to the States authority to lay imposts or duties on imports or exports without the consent of the Congress. Art. 1, \u00a7 10, ][ 2. [j[] The Congress may determine what articles may be imported into this country and the terms upon which importation is permitted.\u201d (University of Illinois v. United States (1932) 289 U.S. 48, 56-57 [77 L.Ed. 1025,1028 ; 53 S.Ct. 509, 510].)\n\u201c [T]o regulate' commerce is to prescribe . . . the conditions upon which it shall be conducted; to determine how far it shall be free and untrammeled, how far it shall be burdened by duties and imposts, and how far it shall be prohibited.\u201d Welton v. Missouri (1875) 91 U.S. 275, 279-280 [23 L.Ed. 347, 349] .)\n\u201cThe power which insures uniformity of commercial regulation must cover the property which is transported as an article of commerce from hostile or interfering legislation, until it has mingled with and become a part of the general property of the country, and subjected like it to similar protection, and to no greater burdens. If, at any time before it has thus\" become incorporated into the mass of property of the State or nation, it can be subjected to any restrictions by state legislation, the object of investing the control in Congress may be entirely defeated.\u201d (Welton v. Missouri, supra, 91 U.S. 275, 281 [23 L.Ed. 347, 349] ; see also Guy v. Baltimore (1879) 100 U.S. 434, 443 [25 L.Ed. 743,746].)\nSince \u2018' commerce with foreign countries ... is of national importance, and admits and requires uniformity of regulation,\u201d no state even in the absence of congressional legislation may intrude into this domain. (Welton v. Missouri, supra, 91 U.S. at p. 280 [23 L.Ed. at p. 349]; Scandinavian Airlines System, Inc. v. County of Los Angeles (1961) 56 Cal.2d. 11, 23 [14 Cal.Rptr. 25, 363 P.2d 25], cert, denied, 368 U.S. 899 [7 L.Ed.2d 94, 82 S.Ct. 175].) Absence of congressional enactments may be deemed \u2018 \u2018 equivalent to a declaration that [the] commerce shall be free and untrammeled.\u201d (Welton v. Missouri, supra, 91 U.S. at p. 282 [23 L.Ed. at p. 350] .)\nThus state encroachments upon this exclusive and plenary federal power whether in the guise of a licensing requirement (Welton v. Missouri (1875) supra, 91 U.S. 275 [23 L.Ed. 347] ; Brown v. Maryland (1827) 25 U.S. (12 Wheat.) 419 [6 L.Ed. 678]), a grant of exclusive privileges or a. franchise (Gibbons v. Ogden (1824) supra, 22 U.S. (9 Wheat.) 1 [6 L.Ed. 23]), or of inspection and fees therefor (Hale v. Bimco Trading, Inc. (1938) 306 U.S. 375 [83 L.Ed. 771, 59 S.Ct. 526]) have been stricken down. Worthy of particular note is that in Hale, the Trade Agreements Act ([June 12, 1934] 48 Stat. 943, ch. 474, \u00a7 1; 19 U.S.C.A. \u00a7 1351) and the real purpose of the Florida act, being the exclusion of foreign cement because of its unfavorable competitive effect upon domestically produced cement on the Florida market, were brought to the attention of the court. The California Buy American Act is a statute .'which is no less '\u2018 clearly designed than [the Florida statute] to circumvent what the. Commerce Clause forbids\u201d (Hale v. Bimco Trading, Inc. (1938) 306 U.S. 375, 380-381 [83 L.Ed. 771, 776, 59 S.Ct. 526, 528]).\nReppy, J., concurred.\nAppellant\u2019s petition for a hearing by the Supreme Court-was denied November 12, 1969. Mosk, J., was of the opinion that the petition should be granted.\nSee: 65 Stat. 72 (1951), 67 Stat. 472 (1953) 68 Stat. 360 (1954), 69 Stat. 162 (1955), and 72 Stat. 673 (1958).\nAs the Acting Presiding Justice has noted, foreign commerce occupies an increasingly larger area of major concern in the foreign relations of our nation, especially during times when the foreign policy is peace-oriented as at present. Regardless of whether GATT has the legal force of a treaty, it is a vane pointing the direction of the executive branch\u2019s foreign trade policy. While the Trade Agreements Act and extensions specifically provide that the act or extensions thereof \" shall not be construed to determine or indicate the approval or disapproval by the Congress of the executive agreement known as the General Agreement on Tariffs and Trade [GATT],\u201d it empowered the President to negotiate foreign trade agreements for ' \u2018 the purpose of expanding foreign markets for the products of the United States\u201d \"whenever he finds as a fact that any existing duties or other import restrictions of the United States or any foreign country are unduly burdening and restricting the foreign trade of the United States.\u201d",
+        "type": "concurrence",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "[Civ. Nos. 32969, 32976.\nSecond Dist., Div. Five.\nSept. 18, 1969.]\nBETHLEHEM STEEL CORPORATION, Plaintiff and Appellant, v. BOARD OF COMMISSIONERS OF THE DEPARTMENT OF WATER AND POWER OF THE CITY OF LOS ANGELES et al., Defendants and Respondents.\n(Consolidated Cases.)\nLawler, Felix & Hall, Marcus Mattson, John G. Wigmore, Pillsbury, Madison & Sutro, Francis N. Marshall, James Michael and Robert W. Westberg for Plaintiff and Appellant.\nElliot Bredhoff, Michael H. Gottesman, George H. Cohen, Jerome Smith, Arnold, Smith & Schwartz, Bernard Kleiman, and Kleiman, Cornfield & Feldman as Amici Curiae on behalf of Plaintiff and Appellant.\nRoger Arnebergh, City Attorney, Gilmore Tillman, Chief Assistant City Attorney, Alfred H. Driscoll, Assistant City Attorney, Gerald Luhman and Kenneth W. Downey, Deputy City Attorneys, Roger Justice Fleischmann, Graham & James, Alexander D. Calhoun, Jr., Reed M. Williams, McLaughlin & Irvin and Joseph M. McLaughlin for Defendants and Respondents."
+  },
+  "file_name": "0221-01",
+  "first_page_order": 243,
+  "last_page_order": 254
+}

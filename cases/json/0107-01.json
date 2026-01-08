@@ -1,0 +1,368 @@
+{
+  "id": 3188717,
+  "name": "UNITED MINE WORKERS OF AMERICA v. ARKANSAS OAK FLOORING COMPANY et al.",
+  "name_abbreviation": "United Mine Workers v. Arkansas Oak Flooring Co.",
+  "decision_date": "1959-02-16",
+  "docket_number": "No. 43716",
+  "first_page": "107",
+  "last_page": "123",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 108"
+    },
+    {
+      "type": "parallel",
+      "cite": "113 So.2d 899"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "99 L.Ed. 546",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "348 U.S. 468",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6931860
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/348/0468-01"
+      ]
+    },
+    {
+      "cite": "100 L. Ed. 941",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "98 L.Ed. 228",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "346 U.S. 485",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6931534
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "164"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/346/0485-01"
+      ]
+    },
+    {
+      "cite": "227 La. 146",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10076585,
+        2943196
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/78/0673-01",
+        "/la/227/0146-01"
+      ]
+    },
+    {
+      "cite": "225 La. 972",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3035585,
+        10044374
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/225/0971-01",
+        "/so2d/74/0182-01"
+      ]
+    },
+    {
+      "cite": "58 So.2d 298",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9909038
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/58/0298-01"
+      ]
+    },
+    {
+      "cite": "200 La. 491",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10052752,
+        5415007
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/8/0353-01",
+        "/la/200/0492-01"
+      ]
+    },
+    {
+      "cite": "198 La. 382",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10063241,
+        3162053
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/3/0661-01",
+        "/la/198/0382-01"
+      ]
+    },
+    {
+      "cite": "179 La. 197",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5461041,
+        10064850
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/179/0197-01",
+        "/so/153/0690-01"
+      ]
+    },
+    {
+      "cite": "159 La. 1035",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1270305
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/159/1035-01"
+      ]
+    },
+    {
+      "cite": "105 So. 43",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "case_ids": [
+        1271885,
+        1272175
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/158/1003-01",
+        "/la/158/1001-01"
+      ]
+    },
+    {
+      "cite": "158 La. 1003",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1271885
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/158/1003-01"
+      ]
+    },
+    {
+      "cite": "155 La. 915",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1277489
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/155/0916-01"
+      ]
+    },
+    {
+      "cite": "153 La. 224",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1282371
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/153/0223-01"
+      ]
+    },
+    {
+      "cite": "217 La. 79",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5533225,
+        11639293
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/217/0081-01",
+        "/so2d/46/0045-01"
+      ]
+    },
+    {
+      "cite": "72 So.2d 485",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11647496,
+        11647562,
+        3036080,
+        3034327
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/72/0485-01",
+        "/so2d/72/0485-02",
+        "/la/225/0221-02",
+        "/la/225/0221-01"
+      ]
+    },
+    {
+      "cite": "225 La. 222",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3036080,
+        11647562
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/225/0221-02",
+        "/so2d/72/0485-02"
+      ]
+    },
+    {
+      "cite": "29 U.S.C.A. \u00a7 159",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(h)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 L.Ed. 941",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "351 U.S. 62",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1105151
+      ],
+      "weight": 6,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/351/0062-01"
+      ]
+    },
+    {
+      "cite": "227 La. 1109",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2943769,
+        9895748
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/227/1110-01",
+        "/so2d/81/0413-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 802,
+    "char_count": 16535,
+    "ocr_confidence": 0.73,
+    "pagerank": {
+      "raw": 2.3919513927632906e-07,
+      "percentile": 0.7979741289936209
+    },
+    "sha256": "352ff6fedee8951d3ee155731a1f03741154f1af756f8ce8f8d0089ef58dcd65",
+    "simhash": "1:e1aab103c8e1e53c",
+    "word_count": 2711
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "HAMITER, J., concurs in the decree.",
+      "FOURNET, C. J, absent."
+    ],
+    "parties": [
+      "UNITED MINE WORKERS OF AMERICA v. ARKANSAS OAK FLOORING COMPANY et al."
+    ],
+    "opinions": [
+      {
+        "text": "McCALEB, Justice.\nPlaintiff seeks recovery of $25,094.77 allegedly resulting from the erroneous issuance of an injunction restraining its peaceful picketing of the premises of defendant company. The suit is an aftermath of Arkansas Oak Flooring Co. v. United Mine Workers, 227 La. 1109, 81 So.2d 413, which was finally determined by the Supreme Court of the United States on writ of certiorari in United Mine Workers v. Arkansas Oak Flooring Co., 351 U.S. 62, 76 S.Ct. 559, 100 L.Ed. 941. That litigation originated out of the following state of facts.\nDefendant is a manufacturing concern engaged in interstate commerce and operates a plant in Alexandria, Louisiana. A majority of its plant employees, 174 of the 225 employees, selected plaintiff as their bargaining agent and, on February 24, 1954, this fact was made known to George C. Fowler, acting manager of defendant\u2019s plant. Mr. Fowler refused to-enter into bargaining negotiations with plaintiff union because it had not been certified and was not recognized by the National Labor Relations Board, its officers having failed, among other things, to execute non-communist oaths as required', by Section 9(h) of the National Labor Relations Act, 29 U.S.C.A. \u00a7 159(h), commonly called the Taft-Hartley Act. When-defendant would not bargain, plaintiff set up. a picket line, manned by employees of defendant, at the plant and on public-streets for the purpose of obtaining recognition of its agency and force unionization of the business.\nOn March 2, 1954, the Company instituted suit against the Union and various individuals and obtained a temporary restraining order against further picketing. After a hearing on a rule nisi, a preliminary injunction issued from which plaintiff appealed devolutively to this Court. Later, a trial of the merits of the controversy was had on the same evidence adduced at the hearing for a preliminary injunction and the injunction was made permanent. A devolutive appeal was taken from that judgment to this Court where the appeals were consolidated.\nFollowing submission here, on oral argument and briefs, the judgments of the lower court were affirmed, it being the view of this Court that, an employer, sustaining irreparable damage to its business as the direct result of the picketing of its plant by a labor union, with which it had refused to bargain because the union was not recognized by the National Labor Relations Board, was entitled to seek equitable redress in the courts of this State upon showing that the only forum (National Labor Relations Board), before which it was ordinarily entitled to bring its complaint, would not entertain jurisdiction on the ground that the union was not certified as required by Federal law. See 227 La. 1109, 81 So.2d 413. On writ of certiorari, the Supreme Court of the United States reversed, holding, in essence, that the employer was bereft of remedy as long as the picketing was peaceful. See 351 U.S. 62, 76 S.Ct. 559, 100 L.Ed. 941.\nUpon the finality of this decree, plaintiff made demand for the damages claimed herein and, when defendant denied liability, save for costs of court amounting to $808.11, the suit followed.\nIn its petition, plaintiff alleges the facts hereinabove set forth and claims the following items of damages as a result of the erroneous issuance of the injunction.\nCourt costs ......................... $808.11\nPremium paid on appeal bonds ..... 25.00\nCosts of printing briefs and records..... 998.24\nAttorney\u2019s fees ............................ 14,750.00\nTravel expense of attorneys............... 1,237.03\nLoss of dues from members of the union in the employ of defendant .......'....... 7,276.35\nTotal ................$ 25,094.77\nDefendant appeared in due course and interposed an exception of no cause of action, in which it admitted liability for court costs amounting to $808.11, plus an additional amount of $20 and deposited $828.11 in the Registry of the Court. But, as to all other items claimed, defendant took the position that none was legally recoverable, it being contended that the alleged expenses for appeal bond premiums, printing of briefs, etc., attorney\u2019s fees and travel and subsistence of attorneys were outlays relating solely to the defense of the lawsuit on its merits, which were not directly attributable to the issuance of the injunction as these items would have been expended even though the writ had been denied. Defendant further asserted that it was not legally liable for the other item of damages for loss of dues, amounting to $7,276.35, as that loss had no reasonable relation to the issuance of the injunction but resulted from plaintiff\u2019s failure to collect the dues owed it by its members during the time the injunction was in effect and that, to say the least, such a claim is too speculative and remote to warrant recognition under our law.\nThe judge of the trial court found these points well taken and, in dismissing the suit on the exception, he assigned written reasons therefor in line with defendant\u2019s argument. Plaintiff has appealed.\nSince this case is here on an exception of no' cause of action, it is apt to restate certain elemental rules of pleading. The exception addresses itself to the sufficiency in law of the petition, being triable on the face of the papers and, in determining the questions raised by it, the well-pleaded allegations of fact contained in the petition must be accepted as true. Ane v. Ane, 225 La. 222, 72 So.2d 485. In addition, it is well settled that, if a petition states a cause of action as to any ground or portion of the demand, it will not be dismissed on an exception of no cause of action. Ingersoll Corporation v. Rogers, 217 La. 79, 46 So.2d 45 and authorities there cited. Hence, if any one of the items or part of any item alleged by plaintiff is legally due by defendant, the exception must be overruled.\nWith this rule in mind, we address our attention to the four items of expense claimed by plaintiff for premiums on appeal bonds, cost of printing briefs and records, attorney\u2019s fees and travel and subsistence of attorneys, as we consider these claims to be of the same category for the reasons hereinafter stated.\nIt is the established jurisprudence of this State that the only damages recoverable for the wrongful issuance of a conservatory writ are those directly due to the illegal process and, as a general rule, any expense or damage sustained in connection with ,a trial of the merits of the controversy are regarded on a parity with ordinary expenses of litigation, not classified as taxable costs, which all suitors must bear, whether they prevail or not. This principle is brought into clear focus when consideration is given to the question of recovery for the expense of attorney\u2019s fees incurred in obtaining the dissolution of a conservatory writ. In such cases, it has been many times held that the only attorney\u2019s fees allowable are those incurred on the trial of a motion to dissolve a restraining order or other writ previously issued. If the writ is dissolved on trial of the merits in conjunction with such motion, an action for attorney\u2019s fees will not lie for the reason that it is impossible to say how much of the fees are attributable to the motion to dissolve and how much to the defense of the main demand. See Three Rivers Oil Co. v. Laurence, 153 La. 224, 95 So. 652; In re Morgan & Co., Inc., 155 La. 915, 99 So. 696; Witbeck v. Rea, 158 La. 1003, 105 So. 43; Evasovich v. Cognevich, 159 La. 1035, 106 So. 556; Louisiana State Rice Milling Co. v. Potter, 179 La. 197, 153 So. 690; Edwards v. Wiseman, 198 La. 382, 3 So.2d 661 and Department of Conservation v. Reardon, 200 La. 491, 8 So.2d 353.\nIf the above stated principle is applicable to this case, defendant\u2019s position is unquestionably well taken for, since plaintiff did not move to dissolve the temporary restraining order or the preliminary injunction and proceeded to trial on the merits on the same evidence adduced on the hearing for a preliminary injunction, the attorney\u2019s fees, and the various non-taxable expenses incurred by it in the prosecution of its appeals, cannot be said to be solely attributable to the erroneous issuance of the writ and not connected with the trial of the merits of the controversy, which also posed the question of preemption of state jurisdiction by the Taft-Hartley Act.\nCounsel for plaintiff virtually concede, as they must, that this jurisprudence is applicable in ordinary suits for injunctions but they profess that a suit to enjoin a labor union constitutes by law an exception to that rule and that, when a temporary restraining order or preliminary injunction issues in such matters, the bond given is statutorily conditioned upon the payment of all expenses and attorney\u2019s fees of the party enjoined in the event it is subsequently determined that the injunction was improvidently or erroneously issued. In support of this argument, counsel refer us to R.S. 23:821-823 and R.S. 23:841-849 (formerly Act 203 of 1934 and commonly referred to as \u201cThe Little Norris-LaGuardia Act\u201d) and particularly R.S. 23:844, wherein is provided the nature of the condition of the bond required whenever a temporary restraining order or preliminary injunction is issued against a labor union.\nOf course, it is clear that the temporary restraining order and preliminary injunction obtained by defendant in the previous litigation were not granted under the provisions of the Little NorrisLaGuardia Act. This is so because that Act prohibits in unmistakable terms the issuance by any court of an injunction restraining peaceful picketing. See R.S. 23 :- 841. This section, which has been declared unconstitutional (see Twiggs v. Journeymen Barbers, Etc., La.App., 58 So.2d 298; Douglas Public Service Corp. v. Gaspard, 225 La. 972, 74 So.2d 182 and Godchaux Sugars v. Chaisson, 227 La. 146, 78 So.2d 673), was inapplicable to the case and, hence, the injunction issued under the provisions of our general law, R.S. 13:4062-4071, formerly Act 29 of 1924.\nHowever, it does not necessarily follow from the fact that the injunction issued under the general law that the provisions of the Little Norris-LaGuardia Act, which have not been found unconstitutional, were also inapplicable as the general law (see R.S. 13:4064 and 4068), specifically provides that temporary restraining orders and preliminary injunctions shall not issue except on the applicant furnishing bond as fixed by the court \u201c * * * conditioned as provided by existing applicable laws in respect of writs of injunction.\u201d Since the injunction issued in the former case arose out of an alleged labor dispute, it is manifest then that the bond furnished by defendants was that provided for by Section 6 of the Little Norris-LaGuardia Act, R.S. 23:844. The pertinent part of that section provides:\n\u201cNo temporary restraining order or temporary injunction shall be issued except on condition that complainant shall first file an undertaking with adequate security sufficient to recompense those enjoined for any loss, expense, or damage caused by the improvident or erroneous issuance of such order or injunction, including all reasonable costs, together with a reasonable attorney\u2019s fee, and expense against the order or against the granting of any injunctive relief sought in the same proceeding and subsequently denied by the court.\n\u201cThe undertaking herein mentioned shall be understood to signify an agreement entered into by the complainant and the surety upon which a decree may be rendered in the same suit or proceeding against the said complainant and surety, the said complainant and surety submitting themselves to the jurisdiction of the court for that purpose. But nothing herein contained shall deprive any party having a claim or cause of action under or upon such undertaking from electing to pursue his ordinary remedy by suit at law.\u201d (Italics ours.)\nThis provision, we think, is explicit. It declares, in substance, that the statutory bond furnished is to be conditioned upon the payment to the defendant in the injunction proceedings of any expenses, including attorney\u2019s fees, that may be incurred in the defense of the case if it be ultimately determined that the injunction was erroneously issued. Thus, the ordinary rule applicable in injunction cases, which we have above discussed, does not obtain when the suit is directed against liability on the bond filed in the proceedings involving a labor dispute. On the other hand, it would appear from the second paragraph, above quoted, that the extraordinary relief given by the first paragraph is limited to the amount of the surety bond, as the last sentence of the second paragraph, declaring that \u201cnothing herein contained shall deprive any party having a claim or cause of action under or upon such undertaking from electing to pursue his ordinary remedy by suit at law\u201d necessarily means that, if the injured party elects to bring suit for an amount in excess of the amount of the bond, his cause of action extends only to those damages recoverable under the general law. Therefore, plaintiff\u2019s suit, insofar as it demands recovery for expenses and attorney\u2019s fees (which are not normally taxable as costs) in excess of the extraordinary liability under the statutory bond furnished by defendant under R.S. 23:844, cannot be maintained for, under the circumstances set forth in the injunction suit, it would not be entitled to a judgment against defendant for such expenses under the general law as construed by this Court in the cases hereinabove discussed.\nFrom a reading of plaintiff\u2019s petition and its brief to this Court, it appears that it is attempting to assert its cause of action on the statutory bond and also seek damages by pursuing its ordinary remedy at law. However, the statute it relies on (R.S. 23:844) does not permit this. It gives only the option to pursue either course. We assume, under the circumstances presented, that plaintiff chooses to prosecute its claim under the statutory bond inasmuch as it has no cause of action for recovery of the claimed expenses and attorney\u2019s fees under the general law.\nSince we find that the petition states a cause of action against defendants on the obligations executed by them under the provisions of R.S. 23:844, the judge erred in maintaining the exception of no cause of action. In view of this, it is unnecessary to discuss whether plaintiff has a cause of action for the claimed loss of dues of its members or the extent of its legal liability under the bond or bonds.\nAccordingly, the judgment appealed from is reversed, the exception of no cause of action is overruled and the case is remanded to the district court for further proceedings in accordance with law and consistent with the views herein expressed. The costs of this appeal are to be borne by defendants.\nHAMITER, J., concurs in the decree.\nFOURNET, C. J, absent.\n. Joined as defendant with Arkansas Oak Flooring Company is S. C. Griffith, who was surety on two injunction bonds furnished by the Company for $5,000 each in the prior proceeding in which the \u201cpeaceful\u201d picketing by plaintiff herein was restrained. Judgment is sought . against Griffith jn soljdo with the Company to the extent of $10,000.\n. In connection with the preemption of State jurisdiction in labor cases by the Taft-Hartley Act, it is pertinent to observe that even the Supreme Court of the United States is somewhat vague as to the extent of supersession. See Garner v. Teamsters, Chauffeurs & Helpers Local Union, 346 U.S. 485, 74 S.Ct. 161, 164, 98 L.Ed. 228, where it was stated that the Act \u201cleaves much to the states, though Congress has refrained from telling us how much\u201d and that the National Labor Relations Board has no jurisdiction in those zones that are either \u201c \u2018governable by the state or * * * entirely ungoverned\u2019 \u201d. And see also the dissenting opinion in United Mine Workers of America v. Arkansas Oak Flooring Co., 351 U.S. 62, 76 S.Ct. 559, 100 L. Ed. 941, of Mr. Justice Frankfurter, who authored the opinion in Weber v. Anheuser-Busch, Inc., 348 U.S. 468, 75 S.Ct. 480, 99 L.Ed. 546, where it was said that State jurisdiction was confined to those matters in which the conduct was neither protected nor prohibited by TaftHartley.",
+        "type": "majority",
+        "author": "McCALEB, Justice."
+      }
+    ],
+    "attorneys": [
+      "James I. McCain, New Orleans, Cramp-ton Harris, Birmingham, for plaintiff-appellant.",
+      "Stafford & Pitts, Alexandria, for defendants-appellees."
+    ],
+    "corrections": "",
+    "head_matter": "113 So.2d 899\nUNITED MINE WORKERS OF AMERICA v. ARKANSAS OAK FLOORING COMPANY et al.\nNo. 43716.\nFeb. 16, 1959.\nJames I. McCain, New Orleans, Cramp-ton Harris, Birmingham, for plaintiff-appellant.\nStafford & Pitts, Alexandria, for defendants-appellees."
+  },
+  "file_name": "0107-01",
+  "first_page_order": 86,
+  "last_page_order": 94
+}

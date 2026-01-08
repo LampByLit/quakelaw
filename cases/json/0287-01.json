@@ -1,0 +1,66 @@
+{
+  "id": 1933572,
+  "name": "Southworth vs. Palmyra & Jackson Railroad Company et al.",
+  "name_abbreviation": "Southworth v. Palmyra & Jackson Railroad",
+  "decision_date": "1851-10",
+  "docket_number": "",
+  "first_page": "287",
+  "last_page": "288",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "2 Mich. 287"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 251,
+    "char_count": 3941,
+    "ocr_confidence": 0.348,
+    "pagerank": {
+      "raw": 4.730776338164321e-07,
+      "percentile": 0.9294943450371045
+    },
+    "sha256": "1b77be1fd22d30e60b3a98bcd29ec9800861e0ab688bfcee49bbcb9a66d307fd",
+    "simhash": "1:2ef3b68d46aa9641",
+    "word_count": 641
+  },
+  "last_updated": "2023-07-14T19:13:31.599570+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Southworth vs. Palmyra & Jackson Railroad Company et al."
+    ],
+    "opinions": [
+      {
+        "text": "By the Court, Green, J.\nThe question reserved depends entirely upon the construction of the term \u201chouse,\u201d as used in the second section of article twelve of the constitution, which is in the following words:\n\u201cThe Legislature shall pass no act of incorporation, unless with the assent of at least two-thirds of each House.\u201d\nA well established and most salutary rule in determining upon the constitutionality of a law, approved and adopted by this Court, is, that to authorize the judiciary to pronounce a law unconstitutional, the conflict between the constitution and the law must be apparent and palpable; an infraction of the provisions of the former must be established beyond all reasonable doubt, otherwise the law must be sustained. Green vs. Graves, (1 Doug. Mich. R., 352.) The construction contended for by the defendant Mason, is apparent from his plea. He insiste that the term \u201chouse,\u201d in the section above cited, embraces all the members elected thereto. The complainant claims that a majority of such members, being present, and constituting a quorum to do business, compose the- \u201chouse,\u201d according to the true construction of the term as used in that section.\nIn section 10, article 4, this word occurs twice. In the first clause, which provides that \u201ca majority of each house shall constitute a quorum to do business,\u201d it very clearly means all the members belonging to such house. In the last clause, providing that \u201ceach house shall choose its own officers,\u201d it seems as clearly to mean a majority of all tjie members belonging to each house,- being present, and constituting a quorum for the transaction of business. In the latter sense it is evidently used in the 11th, 12 th, 13th, 14th and 15th sections of the same article.\nFrom a careful examination of every provision of the Constitution relating to the organization, powers and duties of the legislative department of the Government, it appears to me evident that in all cases where a power is conferred, or a duty or restriction imposed upon either branch of the Legislature by the general designation \u201c house,\u201d without any qualification expressed or necessarily implied from the language employed, that term means the legislative body or quorum to do business, comprising a majority of the members elected to and qualified to act as members of such body. Such I believe, has been the uniform construction of the word \u201c house \u201d in the section under consideration, by eveiy Legislature convened under the Constitution, with one or two exceptions; and such has always been the construction of the executive department, and this should have great weight with us in determining the true meaning of the framers of the fundamental law. There is not, then, any apparent and palpable conflict between the Constitution and the law. An infraction of the provisions of the Constitution has not been established beyond all reasonable doubt, and the act must therefore be sustained.\nCertified accordingly.",
+        "type": "majority",
+        "author": "By the Court, Green, J."
+      }
+    ],
+    "attorneys": [
+      "O. A. Stacy, for complainant.",
+      "A. B. Tiffany, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "Southworth vs. Palmyra & Jackson Railroad Company et al.\nThe word \u201chouse\u201d in section 2, article 12 of the Constitution of 1835, means the member* present doing business, there being a quorum, and not a majority of all the members \u2022elected; and an act of incorporation passed by two-thirds of the members present, there being a quorum, is constitutional.\nCase reserved from Lenawee Circuit Court, in Chancery.-\nThe question presented by the case was whether the act incorporating The Palmyra & Jacksonburg Railroad Company was constitutional, there being, on its final passage in the House of Representatives, but thirty-three members present, thirty of whom voted for the bill and three against it, \u2014 the whole number of members elected to the house being fifty, and the constitution providing, \u201c The Legislature shall pass no act of incorporation, unless with the assent of at least two-thirds of each house.\u201d\nO. A. Stacy, for complainant.\nA. B. Tiffany, for defendant."
+  },
+  "file_name": "0287-01",
+  "first_page_order": 295,
+  "last_page_order": 296
+}

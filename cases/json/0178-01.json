@@ -1,0 +1,228 @@
+{
+  "id": 4382377,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. JERRY IVENDITTI, Defendant and Appellant",
+  "name_abbreviation": "People v. Ivenditti",
+  "decision_date": "1969-09-17",
+  "docket_number": "Crim. No. 15671",
+  "first_page": "178",
+  "last_page": "180",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "276 Cal. App. 2d 178"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "77 Cal.Rptr. 903",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "273 Cal.App.2d 257",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2210630
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/273/0257-01"
+      ]
+    },
+    {
+      "cite": "83 S.Ct. 1027",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 L.Ed.2d 1076",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "374 U.S. 856",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8674,
+        8679,
+        8429,
+        8275,
+        8603
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/374/0856-01",
+        "/us/374/0856-02",
+        "/us/374/0856-04",
+        "/us/374/0856-05",
+        "/us/374/0856-03"
+      ]
+    },
+    {
+      "cite": "98 A.L.R.2d 705",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "387 P.2d 793",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.Rptr. 489",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.2d 128",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4392092
+      ],
+      "pin_cites": [
+        {
+          "page": "156"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/59/0128-01"
+      ]
+    },
+    {
+      "cite": "448 P.2d 945",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1963,
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.Rptr. 65",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1963,
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Cal.2d 109",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2308212
+      ],
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "114-115"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/70/0109-01"
+      ]
+    },
+    {
+      "cite": "426 P.2d 942",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.Rptr. 374",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Cal.2d 508",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2331160
+      ],
+      "pin_cites": [
+        {
+          "page": "521"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/66/0508-01"
+      ]
+    },
+    {
+      "cite": "54 Cal.Rptr. 689",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "246 Cal.App.2d 296",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        464321
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/246/0296-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 318,
+    "char_count": 4261,
+    "ocr_confidence": 0.645,
+    "pagerank": {
+      "raw": 1.5111641430735857e-07,
+      "percentile": 0.6674827374105594
+    },
+    "sha256": "9dd0e9fff32fca51450b8e4a192250d54548fa9cc8ea4c52497f41683bed7f34",
+    "simhash": "1:f97ce19ff0210cd2",
+    "word_count": 697
+  },
+  "last_updated": "2024-02-27T17:52:21.889319+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. JERRY IVENDITTI, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "the Welfare and Institutions Code, the district attorney filed a petition for commitment of appellant as a narcotic drug addict. In due course appellant was arraigned and the matter was set for hearing. At such hearing on November 21, 1967, appellant was represented by private counsel who stated: \u201cI would offer the following stipulation: That for the purpose of this hearing and this hearing only that counsel has talked and has advised his client and that he will stipulate that the doctors\u2019 reports may come into evidence, and that the evidence of those reports is that he is either in imminent danger by repeated use of becoming addicted to- the use of heroin, or is already addicted to the use of heroin. \u2019 \u2019 Thereafter the court stated that: \u201cBased upon the evidence before it, the Court will find that this patient is a narcotic addict or in imminent danger of becoming addicted as a result of his repeated use of narcotic substances.\u201d He ordered appellant committed. Immediately thereafter appellant requested a jury trial under Welfare and Institutions Code, section 3108. Such trial ultimately was set. On that occasion appellant personally waived a jury and, through his counsel, agreed \u201c. . . that the entire matter be submitted on the compiled file which includes the doctors\u2019 reports ...\u201d Appellant was again ordered committed.\nAppellant\u2019s sole contention on this appeal is that no \u201chearing\u201d took place on November 21, 1967, and that he did not \u201cpersonally\u201d waive a hearing. Based on In re Gonzales (1966) 246 Cal.App.2d 296 [54 Cal.Rptr. 689], he claims the absence of a hearing is a jurisdictional defect entitling him to reversal, irrespective of the fact that a later trial of the same issues took place.\nWe find no merit in this contention. The hearing provided for in Welfare and Institutions Code, section 3100 et seq. did take place. Appellant, through his counsel, merely dispensed with the necessity to call witnesses. Evidence in the form of reports was received by stipulation and, based thereon, the court drew its findings and conclusions. \u201cA \u2018hearing\u2019 is generally understood to be a proceeding where evidence is taken to the end of determining an issue of fact and a decision made on the basis of that evidence.\u201d (People v. Pennington (1967) 66 Cal.2d 508, 521 [58 Cal.Rptr. 374, 426 P.2d 942].) The required hearing took place.\nThis ease does not fit within the framework of Gonzales, which held that the failure to serve the petitioner with a notice required by statute defeated the court\u2019s jurisdiction and that a subsequent jury trial .could not cure such jurisdictional defect. In other words, jurisdiction was never vested in the court. No such jurisdictional point is here involved. Appellant received statutory notice and, with his counsel, appeared in November on the date set for hearing. Even if such hearing were improperly waived, as claimed, jurisdiction to\" hear the matter remained with the court.\nFor the foregoing reasons we conclude none of appellant\u2019s rights were violated and his \u25a0 commitment was properly ordered. Such order is affirmed.\nFiles, P. J., and Kingsley, J., concurred.\nThe commitment order is appealable: People v. Murphy (1969) 70 Cal.2d 109, 114-115 [74 Cal.Rptr. 65, 448 P.2d 945]; In re De La O (1963) 59 Cal.2d 128, 156 [28 Cal.Rptr. 489, 387 P.2d 793, 98 A.L.R.2d 705], cert, denied, 374 U.S. 856 [10 L.Ed.2d 1076, 83 S.Ct. 1027]).\nUnlike Gonzales where a jury trial followed the hearing, appellant here waived a jury and asked the court again to pass upon his addiction. At the time, this occurred, Welfare and Institutions Code section 3108 had been amended to allow a second hearing with a jury, only. Accordingly, the trial court should have refused again to hear it, though there is no apparent harm to appellant as a result. See: People v. Davis (1969) 273 Cal.App.2d 257 [77 Cal.Rptr. 903],",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "[Crim. No. 15671.\nSecond Dist., Div. Four.\nSept. 17, 1969.]\nTHE PEOPLE, Plaintiff and Respondent, v. JERRY IVENDITTI, Defendant and Appellant.\nDonald F. Roeschke, under appointment by the Court of. Appeal, for Defendant and Appellant.\nThomas C. Lynch, Attorney General, William E. James, Assistant Attorney General, and Robert J. Polis, Deputy Attorney General, for Plaintiff and Respondent."
+  },
+  "file_name": "0178-01",
+  "first_page_order": 200,
+  "last_page_order": 202
+}

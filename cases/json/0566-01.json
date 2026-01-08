@@ -1,0 +1,571 @@
+{
+  "id": 4381328,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. CHARLIE MIDDLETON, Defendant and Appellant",
+  "name_abbreviation": "People v. Middleton",
+  "decision_date": "1969-09-30",
+  "docket_number": "Crim. No. 15729",
+  "first_page": "566",
+  "last_page": "574",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "276 Cal. App. 2d 566"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "78 Cal.Rptr. 751",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "273 Cal.App.2d 325",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2210607
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/273/0325-01"
+      ]
+    },
+    {
+      "cite": "77 Cal. Rptr. 249",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "272 Cal.App.2d 302",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2208844
+      ],
+      "pin_cites": [
+        {
+          "page": "312-313"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/272/0302-01"
+      ]
+    },
+    {
+      "cite": "422 P.2d 585",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Cal.Rptr. 897",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "65 Cal.2d 595",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2326766
+      ],
+      "pin_cites": [
+        {
+          "page": "602-603, fn. 3"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/65/0595-01"
+      ]
+    },
+    {
+      "cite": "439 P.2d 321",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 Cal.Rptr. 409",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "68 Cal.2d 418",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2306165
+      ],
+      "pin_cites": [
+        {
+          "page": "428"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/68/0418-01"
+      ]
+    },
+    {
+      "cite": "450 P.2d 865",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "75 Cal.Rptr. 401",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Cal.2d 541",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2308185
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/70/0541-01"
+      ]
+    },
+    {
+      "cite": "322 P.2d 557",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "158 Cal.App.2d 299",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4429644
+      ],
+      "pin_cites": [
+        {
+          "page": "301"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/158/0299-01"
+      ]
+    },
+    {
+      "cite": "401 P.2d 382",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.Rptr. 30",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.2d 692",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2333941
+      ],
+      "pin_cites": [
+        {
+          "page": "711-712"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/62/0692-01"
+      ]
+    },
+    {
+      "cite": "457 P.2d 8711",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Cal.Rptr. 31",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.2d 793",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        8712030
+      ],
+      "pin_cites": [
+        {
+          "page": "806"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/71/0793-01"
+      ]
+    },
+    {
+      "cite": "395 U.S. 250",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1771609
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "254"
+        },
+        {
+          "page": "287-288"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/395/0250-01"
+      ]
+    },
+    {
+      "cite": "24 A.L.R.3d 1065",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 L.Ed.2d 705",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        6168882
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "710"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/386/0018-01"
+      ]
+    },
+    {
+      "cite": "345 P.2d 47",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "174 Cal.App.2d 364",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4386641
+      ],
+      "pin_cites": [
+        {
+          "page": "376-377"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/174/0364-01"
+      ]
+    },
+    {
+      "cite": "226 P.2d 330",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.2d 615",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4409776
+      ],
+      "pin_cites": [
+        {
+          "page": "628-629"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/36/0615-01"
+      ]
+    },
+    {
+      "cite": "175 P.2d 533",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.2d 452",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2211109
+      ],
+      "pin_cites": [
+        {
+          "page": "458"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/29/0452-01"
+      ]
+    },
+    {
+      "cite": "409 P.2d 222",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.Rptr. 382",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.2d 779",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2335688
+      ],
+      "pin_cites": [
+        {
+          "page": "797"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/63/0779-01"
+      ]
+    },
+    {
+      "cite": "18 L.Ed. 1178",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "388 U.S. 263",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168184
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/388/0263-01"
+      ]
+    },
+    {
+      "cite": "408 P.2d 365",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr. 909",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.2d 690",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2335703
+      ],
+      "pin_cites": [
+        {
+          "page": "705-707"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/63/0690-01"
+      ]
+    },
+    {
+      "cite": "454 P.2d 36",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr. 460",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Cal.2d 410",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2308213
+      ],
+      "pin_cites": [
+        {
+          "page": "424-425"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/70/0410-01"
+      ]
+    },
+    {
+      "cite": "387 U.S. 294",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11336837
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "297-299"
+        },
+        {
+          "page": "786-787"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/387/0294-01"
+      ]
+    },
+    {
+      "cite": "391 U.S. 123",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1767670
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/391/0123-01"
+      ]
+    },
+    {
+      "cite": "441 P.2d 111",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "68 Cal.Rptr. 599",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "68 Cal.2d 646",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2306170
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/68/0646-01"
+      ]
+    },
+    {
+      "cite": "407 P.2d 265",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr. 353",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.2d 518",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2335655
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/63/0518-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 845,
+    "char_count": 15317,
+    "ocr_confidence": 0.827,
+    "pagerank": {
+      "raw": 5.099433647446796e-08,
+      "percentile": 0.32059552506729155
+    },
+    "sha256": "daa8848ec348650043fb9b4d0180f28505dd968377297015794c1c8ef9ce7c83",
+    "simhash": "1:aa43e6b7e2ed10fb",
+    "word_count": 2542
+  },
+  "last_updated": "2024-02-27T17:52:21.889319+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. CHARLIE MIDDLETON, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "a judgment of conviction of two counts of robbery which the jury found to be of the second degree. The grounds for his appeal are: (1) insufficiency of the evidence; (2) improper admission in evidence of a codefendant\u2019s extrajudicial statement to the police incriminating him; (3) improper admission in evidence of a photograph obtained by the police by unconstitutional search and seizure; and (4) unconstitutional denial to him of his choice of counsel.\nWe find no reversible error and affirm.\nThe Facts\nAbout 12:30 a.m., on the night of November 18, 1967, two enlisted personnel of the U. S. Navy, in civilian clothes, Dunterman and Cogswell, accosted two girls, Evelyn Hernandez and Linda Gail Cash, on the Pike in Long Beach. After being together a very short time the girls individually solicited the sailors to have sexual intercourse with them, for $10 apiece. The sailors agreed and Cogswell drove the four to the girls\u2019 living quarters. On the way Linda had them stop at a service station where she made a telephone call to a bar. She left a message for appellant, with whom she lived and who had told her that he would be at the bar, to come home right away.\nWhen the sailors and the girls reached the room where the girls lived with appellant and a codefendant Haughs, the sailors paid the girls and undressed as they were instructed to do. One of the girls then turned off the light and she and Dunterman had sexual intercourse on the couch. Cogswell and Linda began \u201cmaking out\u201d on the bed. Some fifteen minutes or so passed in this advanced amorous dalliance.\nSuddenly the door to the room burst open and appellant, accompanied by two other men, codefendants Haughs and Gilford, entered. Appellant switched on the light and shouted, \u201cWhat are you doing with our wives!\u201d He thereupon struck Dunterman on his face with his fist three times and then said, \u201cHow much money do you have!\u201d Dunterman replied that all he had was $3 in his wallet. Appellant commented, \u201cYou better have more than $3.00 or I will kill you.\u201d Dunterman said that was all he had. Thereupon appellant hit Dunterman again and Haughs suddenly jumped on Dunterman and bit him on the left shoulder. Appellant continued hitting Dunterman and Haughs continued otherwise assaulting him. Appellant then said to both sailors that they had two minutes to get their clothes on and leave. Cogswell, who was intoxicated, had been pretty well knocked out a few seconds after the men entered by a blow from one of them which fractured his jaw and caused him to lose two of his teeth.\nThe two sailors then dressed and left the room. As they started toward the front of the building appellant ordered them to go down the back stairs, which they did. When they reached Cogswell\u2019s car, parked near the building, Cogswell discovered that he no longer had his keys to it. Dunterman turned toward the front of the building and saw the three men and the two girls emerging. He yelled to them tp return their wallets with their ID and liberty cards. Instead one of the group yelled, \u201cLet\u2019s get them\u201d and started running toward the sailors. The sailors fled and within about a block and a half located a police car with an officer alongside. They reported to this officer that they had just been beaten up and their wallets taken.\nThe officer put them in his vehicle and started back toward the location of the robbery. On the way he radioed for assistance. Two officers responded and the five of them, some five to ten minutes after the incident and about 1 a.m.. entered the room where the incident had occurred. The door was slightly ajar. One of the officers found stuffed down in a paper bag on the floor a photograph of appellant and Linda, which he took.\nTwo of the officers then took the two sailors in their unit toward Shore Patrol Headquarters. On the way the officer carrying the photograph of appellant and Linda spotted appellant in a restaurant. As he approached appellant, appellant saw him and turned away. After identifying appellant outside the restaurant he entered the restaurant where he arrested the other four individuals who had participated in the night\u2019s events and who were in a group there.\nBoth sailors had their wallets on them when they went to the girls\u2019 living quarters. Neither had his wallet when they left. The police found Cogswell\u2019s wallet in Evelyn\u2019s purse when they arrested her. They found Dunterman\u2019s wallet on the person of one of appellant\u2019s codefendants, Burks, when he came into police headquarters and inquired about appellant.\nSufficiency of the Evidence\n\u201cRobbery is the felonious taking of personal property in the possession of another, from his person or immediate presence, and against his will, accomplished by means of force or fear.\u201d (Pen. Code, \u00a7 211.) It is clear from the factual summary which we have given that Dunterman\u2019s and Cogs-well\u2019s wallets were taken from them under circumstances constituting the crime of robbery. It is not clear who took the two wallets during the beating of the two victims, but all persons concerned in the commission of a crime, whether they directly commit the act constituting the offense or instead aid or abet its commission, are liable as principals for the crime. (Pen. Code, \u00a7 31.) It is obvious that appellant was the leader in the robbery of Dunterman and Cogswell. The evidence in support of his guilt is overwhelming.\nThe Admissibility of Linda\u2019s Extrajudicial Statement\nAppellant challenges the admissibility of codefendant Linda\u2019s extrajudicial statement to a police officer two days after the robbery in which she said, according to his testimony, that the group had planned robbing people this way on their trip from Denver to Long Beach shortly before the robbery in this case and that her call at the service station just before the robbery was directly to appellant to tell him that they were on their way to their living quarters with the two victims and that he should come over right away.\nAppellant attacks the admissibility of this statement on the ground that its admission was in violation of the law as laid down by our Supreme Court in People v. Aranda, 63 Cal.2d 518 [47 Cal.Rptr. 353, 407 P.2d 265], and in People v. Johnson, 68 Cal.2d 646 [68 Cal.Rptr. 599, 441 P.2d 111], and by the United States Supreme Court in Bruton v. United States, 391 U.S. 123 [20 L.Ed.2d 476, 88 S.Ct. 1620],\nWe do not agree completely. Aranda merely requires, the exclusion from evidence at their joint trial, under certain circumstances, of an extrajudicial statement of one defendant implicating a codefendant. (People v. Aranda, pp. 530-531.) Appellant was tried separately; therefore Aranda\u2019s exclusionary rule does not apply to this case. Bruton likewise arose in a joint trial situation. There, the admission in a joint trial of an extrajudicial confession of a codefendant implicating a defendant was held violative of the defendant\u2019s right of cross-examination secured by the confrontation clause of the Sixth Amendment (Bruton v. United States, 391 U.S. at p. 126 [20 L.Ed.2d at p. 479]) because there was no opportunity to cross-examine the confessor. (Id., pp. 127-128 [20 L.Ed.2d at pp. 479-480].) In this case both the police officer to whom the statement was given and the maker of the statement, appellant\u2019s codefendant Linda, testified at the trial and were cross-examined by appellant\u2019s counsel.\nOn the other hand, we believe, as the Attorney General concedes, that the admission of Linda\u2019s extrajudicial statement in evidence without an instruction limiting its effect solely to impeachment of her inconsistent testimony was federally constitutionally erroneous under People v. Johnson, supra, 68 Cal.2d 646.\nIn Johnson our Supreme Court held unconstitutional Evidence Code section 1235 insofar as it permits the introduction of a witness\u2019 prior inconsistent statement in a criminal trial to prove the truth of the matter asserted other words, as substantive evidence of guilt rather than exclusively for the purpose of impeachment. (Id., pp. 647-648, 658.) (Cf. former CALJIC No. 54-A.)\nThe Admissibility op the Photograph\nThe Attorney General seeks to justify the police search of the living quarters, of appellant, Haughs and the two girls that produced the photograph of appellant and Linda on the ground that it was obtained by the police when they were in fresh pursuit of dangerous suspects. But the robbery that had just been committed a few minutes- earlier at this place had not been an armed robbery. Aside from appellant\u2019s threats to kill Dunterman, nothing occurred during the robbery to suggest that the-robbers were armed or otherwise dangerous.. Furthermore there is nothing in the record indicating that the police, at the time they made the warrantless search, knew of this threat. Under these circumstances we can not say that this warrantless search was constitutional. (See Maryland Penitentiary v. Hayden, 387 U.S. 294, 297-299 [18 L.Ed.2d 782, 786-787, 87 S.Ct. 1642] ; People v. Terry, 70 Cal.2d 410, 424-425 [77 Cal.Rptr. 460, 454 P.2d 36]; People v. Gilbert, 63 Cal.2d 690, 705-707 [47 Cal.Rptr. 909, 408 P.2d 365]; vacated on other grounds, 388 U.S. 263 [18 L.Ed. 1178, 87 S.Ct. 1951]; People v. Smith, 63 Cal.2d 779, 797 [48 Cal.Rptr. 382, 409 P.2d 222].) Accordingly, it was federal constitutional error to admit the photograph over appellant\u2019s objection.\nThe Denial op Appellant\u2019s Choice of Counsel\nAppellant personally insists that his constitutional right to counsel was denied him because at the outset of the trial he was not permitted either to replace his court-appointed counsel with other counsel of his own choice or to proceed in pro. per. From the discussion between the court and counsel at that time, in the presence of appellant, it appears that appellant abandoned the second part of his request after remarking in relevant part, \u201cI don\u2019t don\u2019t understand full the law, your laws, you know. I don\u2019t understand.\u201d\nWith regard to the first part of his request, the trial court stated why, in spite of the disagreement between appellant and his. counsel over whether a motion under Penal Code section 995 to set aside the information should have been made, it had complete confidence in that counsel\u2019s ability to present ably appellant\u2019s defense at the trial. An indigent defendant, such as appellant, does not have an unlimited constitutional right to his particular choice of counsel. (See People v. Manchetti, 29 Cal.2d 452, 458 [175 P.2d 533]; People v. Stroble, 36 Cal.2d 615, 628-629 [226 P.2d 330]; People v. Williams, 174 Cal.App.2d 364, 376-377 [345 P.2d 47], hear den.) The constitutional mandate was met in this case by providing appellant with competent professional counsel even though that counsel was not appellant\u2019s personal choice.\nThe Nonprejudicial Effect of the Errors\nTwo federal constitutional errors occurred in the trial of this case. One of these was the admission in evidence o\u00ed Linda\u2019s extrajudicial statement to the police. The other was the admission in evidence of a photograph of appellant and Linda. Under Chapman v. California, 386. U.S. 18, 24 [17 L.Ed.2d 705, 710, 87 S.Ct. 824, 24 A.L.R.3d 1065], we must reverse unless we can declare our belief that, taken together, both errors were harmless beyond a reasonable doubt. In deciding this question we must consider whether the People\u2019s- case against appellant without these two items of evidence was so overwhelming that their erroneous admission should be deemed harmless error. Our judgment in this respect must be based on our reading of the record and on what seems to have been the probable impact of these two items of evidence on the minds of an average jury. (See Harrington v. California, 395 U.S. 250, 254 [23 L.Ed.2d 284, 287-288, 89 S.Ct. 1726].)\nLinda\u2019s statement to the police added to the direct evidence before the jury two principal facts. The first was that the group had planned to rob people in this fashion and the second was that Linda, in her telephone call from the service station, actually talked to appellant himself. On the other hand, the photograph of appellant and Linda added nothing to the People\u2019s case. Dunterman had already identified appellant at the trial unequivocally before he was shown the picture. The fact that appellant is black and Linda is white was otherwise apparent to the jurors who saw them both in the courtroom.\nWe think that the probable impact of these two items of evidence on the minds of an average jury was harmless beyond a reasonable doubt. Linda\u2019s statement to the police added nothing essential to the People\u2019s case. The crime of robbery was proven against appellant completely without it. It was merely frosting on the cake. The jury probably inferred from Linda's, evasive testimony and the other untained evidence that her telephone message to appellant from the service station on the way over to their living quarters reached him without being told in the statement that actually at this time she spoke directly to him. In short, the evidence of appellant\u2019s guilt is so overwhelming without these two items of evidence that we conclude that their erroneous admission constitutes harmless error.\nThe judgment is affirmed.\nSchweitzer, J., and Allport J., concurred.\nThe fact that at the trial appellant did not object to the admission of Linda\u2019s statement does not prevent him from challenging its admissibility here because at the time of the trial (February 1968) this statement was admissible. (See People v. McClellan, 71 Cal.2d 793, 806 [80 Cal.Rptr. 31, 457 P.2d 8711; People v. Sillery, 62 Cal.2d 692, 711-712 [44 Cal.Rptr. 30, 401 P.2d 382]; People v. Alvidrez, 158 Cal.App.2d 299, 301 [322 P.2d 557].)\nIt can. be argued under the fruit of the poisonous tree doctrine that these two errors were related in that the unconstitutional seizure of the photograph of appellant and Linda led directly to the apprehension of appellant and his codefendants, including Linda, and then to Linda\u2019s extrajudicial statement to the police. But the arrest of appellant and his codefendants outside of and at the restaurant was legal because it was based upon probable cause and it followed an independent face-to-face identification of those arrested by both victims of the robbery. We believe that these two intervening acts broke the .causative chain and therefore the poisonous tree doctrine does not apply -in this case. (Cf. People v. Johnson, 70 Cal.2d 541. 548-550 [75 Cal.Rptr. 401. 450 P.2d 865]; People v. Sesslin, 68 Cal.2d 418, 428 [67 Cal.Rptr. 409, 439 P.2d 321]; People v. Stoner, 65 Cal.2d 595, 602-603, fn. 3 [55 Cal.Rptr. 897, 422 P.2d 585]; People v. Ramsey, 272 Cal.App.2d 302, 312-313 [77 Cal. Rptr. 249], hear den.; People v. Wright, 273 Cal.App.2d 325. 338-340 [78 Cal.Rptr. 751.) In any event, for reasons which we will now explain we hold that the\" erroneous admission of both of these items in evidence constituted nonprejudicial error.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "[Crim. No. 15729.\nSecond Dist., Div. Three.\nSept. 30, 1969.]\nTHE PEOPLE, Plaintiff and Respondent, v. CHARLIE MIDDLETON, Defendant and Appellant.\nHugh M. Brenner, under appointment by the Court of Appeal, for Defendant and Appellant.\nThomas C. Lynch, Attorney General, William E. James, Assistant Attorney General, and Michael L. Abrams, Deputy Attorney General, for Plaintiff and Respondent."
+  },
+  "file_name": "0566-01",
+  "first_page_order": 588,
+  "last_page_order": 596
+}

@@ -1,0 +1,91 @@
+{
+  "id": 1933579,
+  "name": "The People vs. Brigham et al.",
+  "name_abbreviation": "People v. Brigham",
+  "decision_date": "1853-01",
+  "docket_number": "",
+  "first_page": "550",
+  "last_page": "555",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "2 Mich. 550"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "21 Wend., 509",
+      "category": "reporters:state",
+      "reporter": "Wend.",
+      "case_ids": [
+        2151856
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wend/21/0509-01"
+      ]
+    },
+    {
+      "cite": "2 Bay., 262",
+      "category": "reporters:state",
+      "reporter": "Bay",
+      "case_ids": [
+        8672699
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/scl/2/0262-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 668,
+    "char_count": 13272,
+    "ocr_confidence": 0.36,
+    "pagerank": {
+      "raw": 3.161799391521102e-07,
+      "percentile": 0.8633370130845466
+    },
+    "sha256": "a27124affd5b23c7348662011ceefebab98aef71e195598b7d14eac9d2271764",
+    "simhash": "1:95e9c1c9c8489fea",
+    "word_count": 2362
+  },
+  "last_updated": "2024-02-27T17:43:48.727812+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "The People vs. Brigham et al."
+    ],
+    "opinions": [
+      {
+        "text": "By the Court, Whipple, J.\nThe defendants were tried and convicted in the Circuit Court of the county of Macomb, upon an indictment, the third count of which charges that Jones \u201c did falsely and feloniously utter and publish, as true, with the intent to injure and defraud the President, Directors & Company of the Bank of Macomb county, &c., a certain false and counterfeit order, for money,\u201d &c. The fourth count contains the same charge, and only differs from the third, in describing the instrument as a draft. In each of the counts, Brigham is charged as an accessory. The bill of exceptions shows that Jones presented the order or draft to the teller of the bank, who asked him if he wanted it cashed. Jones replied that he did: at this time the cashier came into the bank, when the teller handed him the draft, in the presence of Jones. The cashier then asked Jones if he wanted it cashed, who replied in the affirmative. Upon being interrogated as to the time when he received the draft from Ives & Co., who purported to be the drawers, Jones replied that he got it the Saturday previous. Thereupon, the cashier told Jones that Ives & Co. had no funds in the bank; that when the mail arrived, he would probably receive such advice as would authorize the payment of the draft: Jones replied that he should not leave until morning: whereupon, the cashier handed the draft to him, when he left the bank. The defendants having been convicted, they now seek a new trial, upon several distinct grounds, now to be considered. And first, it is said that the Court erred in charging the jury that the foregoing facts, if believed by them, were an uttering and publishing of the draft, within the meaning of the statute.-\nIt was urged by the counsel for the plaintiffs in error, that the facts show an incomplete uttering, and that, therefore, the offense charged, was not made out; that to constitute an uttering and publishing, it was necessary that the defendant below, Jones, should have parted with the draft for value, or put it in circulation. This proposition cannot, I think, be supported, either upon principle or authority. We must intend, from, the verdict of the jury, that Jones knew that the draft was a forgery; by presenting it to the bank officers he asserted its genuineness ; by demanding its payment he did all that was necessary to constitute an uttering, within the meaning of the statute. That the payment of the draft was refused, and subsequently re-delivered to Jones, in no respect affects the transaction. If the draft had been actually paid, it is admitted that the offense would have been complete. Can it make any difference in reason or morals, that it was not paid ? It seems to me not. Jones did all that could have been done to accomplish his illegal purpose; that he was foiled in the attempt to peipetrate a gross fraud, does not help his case.\nBut it is said that the draft continued in the legal possession of Jones, and that, therefore, it was not \u201cuttered or published\u201d In this the counsel is in error. When he handed the draft to the teller for payment, he did part, at least temporarily, with its possession, for the purpose of ascertaining its genuineness; the teller had the right to examine the draft; the delivery of it to the bank for payment, was an act necessary to be done before payment could be legally demanded. If payment is refused, the law, it is true, makes it the duty of the bank to reton the draft to the holder, if it is genuine; if it is a forgery, the bank has a right to retain the possession, and trover could not be maintained by the fraudulent holder. The case of Rex vs. Shukard, (Russ, Cr. Ca. Reserved, 200,) cited by counsel, does not support the doctrine for which he contends, but, oh the contrary, fully sustains the ruling of the Circuit Court. The defendant, in that case, was indicted under the statute of 13 George III., chapter 79, with uttering a certain promissory note, containing the words, \u201cfive hundred;\u201d expressing the sum of the said promissory note, \u201cin white letters on, a Hack ground\" without being authorized by the Bank of England. The facts were, that the defendant had introduced himself to an innkeeper upon a fabricated story, and to persuade him that he was a man - of substance, showed him a \u00a3500 and a \u00a350 note, of the above description, of which he only saw the sums and general form. The defendant then asked the inn-keeper to take charge of the notes, as he-did not like to carry so much property about his person. The inn-keeper accordingly took charge of the notes, which were put into a cover and sealed up. The Court held that these facts did not amount to an uttering: \u201cThat in order to make. it an uttering, they seemed to be of opinion that it should' be parted with, or tendered, or offered, or used-in some way to get money or credit upon it.\u201d The facts in this case veiy clearly show that Jones did part with, tender, offer, and use the draft to obtain money upon it. The case of Rex vs. Palmer and Hudson, (1 Cr. Ca. Reserved, 71,) is not in point. The principle decided in that case', is, that \u201cif a person knowingly delivers a forged bank note to another, who knowingly utters it accordingly, the person who delivered such note to he put off, may be convicted of having disposed of and put away the same, under the statute 15 Geo. II., Ch. 13, \u00a7 11.\" The facts in that case were that Palmer employed one Sarah Hudson to assisthim in \u201cputting off\" forged bank notes; that she came to the shop of one Shaw and bought two handkerchiefs, for which she offered in payment a two pound bank n\u00f3te; the shopman told her he suspected it to be bad, and sent it to the bank for inspection; the note was proved to be forged. Subsequently Palmer returned to the shopkeeper and demanded the note or the change. The judge held the conviction against Palmer as right upon the count for \u201cdisposing and putting away.\" Sarah Hudson was acquitted by the jury. The conviction of Palmer was founded on the fact, that the delivery by him of the notes to Sarah Hudson, was, under the circumstances, a disposing and putting away within the statute, although the guilty agent received neither money or other valuable thing, when she parted with, its possession.\nIn illustrating the difference between the' words uttered sca\u00f1. publish^ed, and the word passed, Chief Justice Tilghman says: \u201cTo utter and publish, is to declare or assert directly or indirectly, by words or actions, that a note is good. To offer it in payment would be an uttering or .publishing; but it is not passed until it is received by the person to whom it is offered.\u201d To the same effect is the opinion of Mr. Justice Baldwin, in the case of the United States vs. Mitchel & Fisher, (1 Baldwin, 366.) The .learned Judge, in his charge to the jury in that case, remarked as follows: \u201cThe passing or delivering a paper, is putting it off or giving it in payment or exchange; uttering it, is a declaration \u25a0that the note or order is good: to merely show it, without an offer to pass it, or depositing it for safe keeping, is not an uttering; there must be an intent to pass it as good.\u201d In Rex vs. Martin, (1 Moody\u2019s Cr. Ca. R., 483,) it was held that \u201cif a person gives his employer a forged receipt for money, with intent to make the employer believe that money had already been obtained and applied in a certain way, he is guilty of uttering, though there is no such .person as that whose receipt it purports to be.\u201d The case of Rex vs. Sarah Morris and John Morris, (1 Russ. & Ry. Cr. Ca. R., 270,) affords an apt illustration of the rule I :am now seeking to establish. In that case, it appeared that the wife, by her husband\u2019s order and procuration, but in his absence, knowingly uttered a forged order and certificate for the payment of prize money. It was the opinion of all the Judges that Sarah Morris was properly \u25a0 convicted of uttering the forged order and certificate, and John Morris :as an accessory before the fact of the felony of uttering. The facts \u2022 show that Sarah Morris presented the order and certificate for payment; but the money was not paid, it having been discovered that they were -forged. To the same effect is the case of Rex vs. Soares, Atkinson and Brighton, (1 Russ. & Ry. Cr. Ca. R., 25.) Brighton, one of the defendants, offered the note alleged to have been forged, in payment, to one Henry Newland, and he was convicted of uttering. In the case of the Queen vs. Green, (Jebbs Cr. Ca. R., 281,) it appeared that the prosecutor and prisoner entered into their accounts, when the latter produced \u25a0documents to vouch the credits he claimed: among them was a receipt -charged to have been forged. The prosecutor asked the prisoner to \u25a0\u2022.show him his vouchers; but he declined, saying that he would not show his papers to any man but his attorney. The prisoner then called out the sums which he alleged they vouched, and in this way claimed credit for the amount of the receipt in question. The Judge who tried the cause, thought these facts constituted an uttering, (See also, Regina. vs. Cooke, 8 Car & P., 582; Rex vs. Arscott, 6 Car & P., 480.) In Regina vs. Welch, (Law & Eq. R., 588,) it was ruled that the. prisoner having put down on a counter a counterfeit shilling, in payment, for some goods, was guilty of \u201cuttering and putting off,\u201d within the-meaning of the statute, although, both the money tendered and the. goods were left by the prisoner. The Supreme Court of South Carolina, in the case.of the State vs. Holly, (2 Bay., 262,) held that it is. not necessary that goods should be delivered, in order to complete the offense; that the presentment of an order and handing it to the person to whom it is directed, is an uttering, within the meaning of the law.. I am unable to discover that the opinion of the Supreme Court of New York, in the case of the People vs. Rathbun, (21 Wend., 509,) sup.ports the doctrine attempted to be maintained by the counsel for the. plaintiff in error. Mr. Justice Cowen, in delivering the opinion of the Court, says: \u201cThe word uttering, would seem tobe more accurately defined by negotiation, which means in popular use, an intercourse of business, trafficking or treating. Accordingly, not only a sale or paying away a counterfeit note or indorsement, but obtaining credit on it in any form, as by leaving it in pledge, or indeed offering it in dealing,., though it be refused, amount to an uttering and publishing.\u201d To offer and utter, means nothing more (says Mr. Archbold) than that the party tendered, or attempted to pass, or make use of, the forged instrument,., with the intent charged in the indictment. (Arch. Cr., P., p. 294) If these views be correct, they establish to its fullest extent, the ruling, of the Circuit Court.\nIt is in the second place objected, that the Court erred in refusing to charge, that the uttering of a forged instrument is not a felony under our. statute.\nSections 1 and 2, chapter 155, title SO, of the revised statutes, make forgery and the uttering of forged instruments, punishable' with imprison- \u25a0 ment in the State Prison for fourteen years, or in the county jail not more than one year, See. 1, chap. 161, title 80, makes an accessory before tbe fact to any felony, punishable in the same manner as may be prescribed for tbe punishment of the principal felon.\nThe term \u201cfelony,\u201d when used in title 30, is, by section 18 of the same chapter, construed to mean any offense, for which the offender, on conviction, shall be liable by law to be punished by death, or by imprisonment in the State Prison. The accessory, then, upon conviction, being liable to be punished in the State Prison, it follows, by necessary legal implication, that the principal, by uttering and publishing was guilty of a felony within the statute.\nThe third objection to the charge is equally untenable. The refusal to charge \u201cthat the instrument mentioned in the second count of the indictment was not an order for money within the meaning of 'the statute,\u201d was clearly correct. The ground assumed, is, that there is no payee mentioned in the instrument alleged to have been forged and littered. The draft was made payable to bearer, and was therefore negotiable by delivery only. The cases cited by tbe counsel in the argument are not pertinent. They simply affirm that a bill payable to-blank, or order, would not support an indictment for forgery and uttering\" because there is no payee.\nThe judgment of the Circuit Court is therefore affirmed.",
+        "type": "majority",
+        "author": "By the Court, Whipple, J."
+      }
+    ],
+    "attorneys": [
+      "Terry d Robertson, for the people.",
+      "R. P. Eldredge, for defendants."
+    ],
+    "corrections": "",
+    "head_matter": "The People vs. Brigham et al.\nThe presentation of a forged draft or order for money, to the person to whom it purports to be directed, for payment thoreof, knowing &c., although payment is refused and the draft returned to the presenter, is an uttering and publishing, within the meaning of section 2, Ch. 155, B. S.\nThe uttering a forged instrument, being punishable by imprisonment in the State Prison, is made a felony by the provisions of Sec. 18, Ch. 161, E. S.\nA draft made payable to the bearer, no payee being named therein, is nevertheless an order for money, in the meaning of the statute.\nError to the Macomb Circuit.\nThe facts of this case are fully presented in the opinion of the Court.\nTerry d Robertson, for the people.\nR. P. Eldredge, for defendants."
+  },
+  "file_name": "0550-01",
+  "first_page_order": 558,
+  "last_page_order": 563
+}

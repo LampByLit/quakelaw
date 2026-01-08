@@ -1,0 +1,316 @@
+{
+  "id": 3187431,
+  "name": "Stanley J. SMITH and Hiram J. Wright v. Mary C. FLOURNOY, Registrar of Voters for Winn Parish",
+  "name_abbreviation": "Smith v. Flournoy",
+  "decision_date": "1959-11-09",
+  "docket_number": "No. 44836",
+  "first_page": "431",
+  "last_page": "453",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 432"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 So.2d 809"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "84 So.2d 204",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "186 La. 407",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3066786,
+        10046964
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/186/0407-01",
+        "/so/172/0435-01"
+      ]
+    },
+    {
+      "cite": "189 La. 327",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5542584,
+        10050217
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/189/0327-01",
+        "/so/179/0442-01"
+      ]
+    },
+    {
+      "cite": "47 So.2d 718",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        5535499,
+        10076467
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/217/0931-01",
+        "/so2d/47/0718-01"
+      ]
+    },
+    {
+      "cite": "217 La. 926",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10076467,
+        5535499
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/47/0718-01",
+        "/la/217/0931-01"
+      ]
+    },
+    {
+      "cite": "39 So.2d 594",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        2994770
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/214/1003-01"
+      ]
+    },
+    {
+      "cite": "214 La. 1003",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2994770,
+        10097719
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/214/1003-01",
+        "/so2d/39/0594-01"
+      ]
+    },
+    {
+      "cite": "201 La. 637",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10048122,
+        3002813
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/10/0213-01",
+        "/la/201/0637-01"
+      ]
+    },
+    {
+      "cite": "103 So.2d 464",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3177048
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/235/0331-01"
+      ]
+    },
+    {
+      "cite": "235 La. 332",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3177048,
+        9893994
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/235/0331-01",
+        "/so2d/103/0464-01"
+      ]
+    },
+    {
+      "cite": "228 La. 951",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9905516,
+        2897716
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/84/0597-01",
+        "/la/228/0951-01"
+      ]
+    },
+    {
+      "cite": "149 La. 535",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1289318
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/149/0535-01"
+      ]
+    },
+    {
+      "cite": "30 A.L.R. 378",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "129 A.L.R.. 941",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "228 La. 807",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9892507,
+        2895366
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "201"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/84/0199-01",
+        "/la/228/0807-01"
+      ]
+    },
+    {
+      "cite": "6 So. 592",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 La.Ann. 156",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        5287196
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la-ann/41/0156-01"
+      ]
+    },
+    {
+      "cite": "47 L.R.A. 512",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 So. 746",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "pin_cites": [
+        {
+          "page": "749"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 La.Ann. 1679",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        2552778
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la-ann/47-2/1679-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 937,
+    "char_count": 25950,
+    "ocr_confidence": 0.747,
+    "pagerank": {
+      "raw": 6.289081596865374e-07,
+      "percentile": 0.9580826913074855
+    },
+    "sha256": "f1e5b9b5abc6c87fb7cbd66f5a997e7e1c20a8bd4c607666982639ebf2e400f5",
+    "simhash": "1:3a560dbcf345ad92",
+    "word_count": 4329
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "SIMON, J., dissents."
+    ],
+    "parties": [
+      "Stanley J. SMITH and Hiram J. Wright v. Mary C. FLOURNOY, Registrar of Voters for Winn Parish."
+    ],
+    "opinions": [
+      {
+        "text": "HAWTHORNE, Justice.\nThis proceeding was instituted by Stanley J. Smith and Hiram J. Wright, registered voters of Winn Parish, against Mary C. Flournoy, Registrar of Voters for that parish, under the provisions of R.S. 18:133 and 134. Petitioners allege that they are entitled to the issuance of a rule directed to the registrar of voters to show cause why she should not mail out notices to, and make publication of the names of, eight persons named in the petition who it is alleged are illegally registered. To the petition the registrar of voters filed exceptions of vagueness, no cause and no right of action, non-joinder, and a plea of unconstitutionality. The exceptions and the plea were overruled. The registrar applied for writs to this court, writs were granted, and the case is now before us under our supervisory jurisdiction. The case has not been tried on the merits.\nThe pertinent provisions of Title 18 of the Louisiana Revised Statutes read:\n\u201c\u00a7 132. Whenever the registrar has reason to believe that any name upon the books of registration has been illegally or fraudulently placed therein, or that any person has lost the right to remain thereon, he shall immediately notify the person by mail, at his address appearing upon the precinct register, of the alleged irregularity in registration, sending with the notification a printed citation requiring the person to appear within ten days from the mailing of the notice and citation, which date shall be stated in the citation, to show cause why his name should not be erased from the precinct register. The registrar, as soon as at least six names have accumulated, or in any event within not more than five days after mailing the notification, shall publish a notice segregating such names by ward and precinct, and requiring the registrants to appear in his office and prove the correctness of their registration. * * * The publication shall require the registrants to appear within three days of the last publication and prove the correctness of their registration. If the registrants fail to appear within three days from the date of last publication, or within ten days from the date of mailing of the notice, whichever date is later, the registrar shall at once cancel the names from the precinct register and make a note thereon on the date of cancellation. However, if the registrants appear in person within the time aforesaid, and proof is submitted by them in the form of an affidavit signed and sworn to before the registrar or his deputy by three bona fide registered voters of the parish, that such persons are legally entitled to remain on the books of registration, their names shall remain as voters on the precinct register, unless ordered erased therefrom by order of court, as provided in this Part.\n\u201cThe form of affidavit to be sworn to by the three bona fide registered voters shall read as follows:\n\u201c \u2018Personally came and appeared on this the............day of............, 19..., before me, ............ (Deputy) Registrar of Voters in and for the Parish of........... State of Louisiana,........ and ............. who being first duly sworn by me, do depose and say:\n\u201c \u2018That they are each personally acquainted with ............, registrant; that they have investigated the facts of the case, and of their own personal knowledge know that ............ now resides at ..........Street, Precinct No..........., Ward No............. of this Parish, and has continuously resided in that precinct and ward for the past............ months, and during that time has resided at the address aforesaid, and has resided in the Parish of............for a period of\n* * % * \u2756 \u2018\u2021 \\\n\u201c\u00a7 133. . Upon an affidavit signed and sworn to in duplicate before and filed with the registrar or his deputy by any two bona fide registered voters of the parish, to the effect that after reasonable investigation and on information and belief certain persons are illegally registered, or have lost their right to vote in the precinct, ward, or parish in which they are registered by reason of removal or otherwise, the registrar shall immediately, or, in any event, within forty-eight hours, notify the registrants by mailing to them postage prepaid, at the addresses given in the precinct register, the duplicate copy of the affidavit, together with a printed citation requiring them to appear in person before the registrar or his deputy within ten days from date of the mailing of the duplicate affidavit and citation, which date shall be stated in the citation, and prove their right to remain on the registration rolls by affidavit of three bona fide registered voters in the form as provided in R.S. 18:132. The-registrar shall immediately make a similar publication, as provided for in R.S. 18:132,. and if the challenged registrants fail, within the same delays provided in that Section, to prove their right to remain on the-rolls, as in that Section provided, the registrar shall erase their names from the precinct register. [Italics ours.]\n\u201c\u00a7 134. Should the registrar fail or refuse to mail the notice, to make the publication, or to erase a name when by the provisions of this Chapter it becomes his duty to do so, the person making the affidavit may, by rule on the registrar returnable within forty-eight hours after service, excluding Sundays and legal holidays, apply to the district court for the parish, without cost, and cause the registrar to show cause why such should not be done. The rule shall be tried in a summary way and by preference, in term time or in vacation, and the court shall immediately upon conclusion of the hearing enter its order in-the premises. If the rule is granted, it shall fix a period of not more than three days from the date of the order within which the registrar shall comply therewith,, and failing in which the registrar shall beheld in contempt of court and punished\u2019 accordingly.\u201d\nRelator takes the position that she does-not have to mail the notices or make the-publication provided in R.S. 18:133 because the statute is unconstitutional in that it violates provisions of both the state and federal constitutions. Under the view we take of this case it is not necessary for us to detail the grounds of unconstitutionality alleged by relator.\nThe registrar of voters is a public officer appointed under the provisions of Section 18 of Article 8 of the Constitution. R.S. 18:133 makes it the mandatory duty of the registrar to mail the notices and make the publication as therein provided. In other words, the doing of these things is a statutory duty of a ministerial character. Under the settled jurisprudence of this court relator is without interest to assert the unconstitutionality of the statute as a defense to a suit to compel the performance of ministerial duties imposed upon her by law. In State ex rel. New Orleans Canal & Banking Co. v. Heard, 47 La.Ann. 1679, 18 So. 746, 749, 47 L.R.A. 512, it was said:\n\u201cIn State ex rel. Nicholls v. Shakespeare, 41 La.Ann. 156, 6 So. 592, this question arose and was expressly decided, the court holding that \u2018laws are presumed to be constitutional until the contrary is judicially established; and they must be executed by the officers upon whom they impose the duty of doing so, who have no authority to resist the execution thereof on the ground that they contravene the constitution.\u2019 * * *\n* * * \u2756 * *\n\u201c * * * In mandamus proceedings against a public officer, involving the performance of official duty, nothing can be inquired into but the question of duty on the face of the statute, and the ministerial character of the duty he is charged to perform. After a careful investigation of the authorities, we feel fully confirmed in the correctness of the conclusions we arrived at in State ex rel. Nicholls v. Shakespeare, and other cases, to the effect that executive officers of the state government have no authority to decline the performance of purely ministerial duties which are imposed upon them by a law, on the ground that it contravenes the constitution. Laws are presumed to be, and must be treated and acted upon by subordinate executive functionaries as, constitutional and legal, until their unconstitutionality or illegality has been judicially established; for in all well-regulated government obedience to its laws by executive officers is absolutely essential, and of paramount importance. Were it not so, the most inextricable confusion would inevitably result, and \u2018produce such collisions in the administration of public affairs as to materially impede the proper and necessary operations of the government.\u2019 \u2018It was surely never intended that an executive functionary should nullify a law by neglecting or refusing to execute it.\u2019 The result of this conclusion is, that respondents are without right to urge the unconstitutionality of the concurrent resolution which is involved.\u201d\nIn the recent case of Dore v. Tugwell, 228 La. 807, 84 So.2d 199, 201, this court stated:\n\u201cThe Heard case, which represents the majority view in this country, enunciates the general rule that a public officer, charged with statutory duties of a ministerial character, is without interest or right to question the constitutionality of the statute affecting or prescribing such duties as .a defense to a mandamus proceeding to compel their performance. See Annotation 129 A.L.R.. 941, supplementing 30 A.L.R. 378, and cases there cited. This doctrine is founded in the basic tenet that, forasmuch as legislative acts are entitled to great respect and are presumptively constitutional, it would be inimical to public policy to allow a party without interest in a statute, and who is not injuriously affected by its enforcement, to assail its validity. City of New Orleans v. Dameron, 149 La. 535, 89 So. 685.\u201d\nSee also State v. Board of Supervisors, 228 La. 951, 84 So.2d 597; Louisiana Motor Vehicle Commission v. Wheeling Frenchman, 235 La. 332, 103 So.2d 464.\nRelator recognizes the existence of the general rule pronounced in the cases cited above, but argues that it has no application to her in the instant case. For instance, she contends that she has taken an oath to support the Constitution, that this is her first duty, and that she cannot enforce a law directly in conflict with the Constitution. Relator\u2019s argument is not tenable. Under Article 19, Section 1, of the Louisiana Constitution of 1921, all officers, except as otherwise provided in the Constitution, must take an oath to support the Constitution, and if we were to hold that the mere fact of taking such an oath allows the public official taking it to question the constitutionality of a statute which he is entrusted with administering, we would in effect do away with the general rule altogether. Moreover, under Article 19, Section 1, of the Constitution, the officer making the oath must swear that he \u201cwill support * * * the Constitution and laws of this State * * *\nRelator also says that the statute makes it her mandatory duty to get out the notices within 48 hours whether there be 10 or many thousands of them; that she is subject to a penalty of fine and imprisonment for violation of the registration laws; that there is a total absence of any standard or formula in the statute as to the number of challenges the registrar shall receive, and that as a consequence she is directly affected by the act and should be permitted to raise the constitutional question. We are not impressed with this argument. In these proceedings the registrar is not being prosecuted for violating the statute and is not here called upon to defend herself against the possible imposition of a penalty.\nRelator also contends that the general rule is not a hard and fast one in Louisiana and cites several cases in which she contends an exception to the general rule was made. The cases cited and relied on are not appropriate and controlling here. We think the Heard, Dore, and other cases cited above are fully decisive of the issue here presented.\nIn support of her exceptions of no cause and no right of action and of vagueness relator contends that the affidavits filed by the two bona fide registered voters in this case are defective. Each affidavit in this case is in the language of the statute, and after naming the registrant and averring that he is illegally registered, it then specifically sets forth the reasons for the illegal registration. It is true that in the body of each affidavit it is recited that the two bona fide registered voters \u201cPersonally came and appeared before me Mrs. Mary Flournoy (Deputy) Registrar of Voters in and for the Parish of Winn State of Louisiana\u201d, whereas the jurat provides \u201cSworn to and subscribed before me, on this 21st day of August, 1959. [signed] Lottie N. Tullos, Deputy Registrar of Voters\u201d. It it to be noted, however, that relator does not contend that the affidavits were not sworn to and signed before the deputy registrar of voters. In our opinion the affidavits are sufficient under the provision of the statute that such affidavits are to be signed and sworn to before the registrar or the deputy registrar of voters. The jurats clearly show that these affidavits were signed and sworn to before the deputy registrar of voters, and thus the requirements of the statute are met.\nRelator also argues in support of her exception of no cause and no right of action that R.S. 18:133 does not encompass the irregularities or illegalities set forth in the affidavits; that only voters who are registered in the wrong parish, ward, or precinct may be summarily challenged by affidavit under this statute; that the only irregularity or illegality toward which the statute is directed is lack of residence.\nRelator contends that the words \u201cillegally registered\u201d in Section 133 refer only to those persons who are illegally registered because they do not possess the residence requirements for registration in the particular precinct, ward, and parish. She argues that she is supported in this conclusion by the form of affidavit set forth in Section 132 as the only means by which a challenged person may offset the challenge.\nIn considering the provisions of Section 133 we are to be guided by certain recognized rules of statutory construction. In Dore v. Tugwell, supra, the court stated:\n\u201c * * * It has been many times said that it is the function of the courts to interpret the laws so as to give them the connotation the lawmaker obviously intended' and not to construe them so rigidly as to give them preposterous or odd meanings. State ex rel. Womack v. Jones, 201 La. 637, 10 So.2d 213; Berteau v. Police Jury of Parish of Ascension, 214 La. 1003, 39 So.2d 594 and Webb v. Parish Council of Parish of East Baton Rouge, 217 La. 926, 47 So.2d 718. The object of the court in construing a statute is to ascertain the legislative intent and, where a literal interpretation would produce absurd consequences, the letter must give way to the spirit of the law and the statute construed so as to produce a reasonable result. Bradford v. Louisiana Public Service Commission, 189 La. 327, 179 So. 442; See also City of Shreveport v. Gregory, 186 La. 407, 172 So. 435.\u201d [228 La. 807, 84 So.2d 204.]\nR.S. 18:133 provides that upon affidavit sworn to in duplicate before and filed with the registrar or his deputy by two bona fide registered voters of the parish, to the effect that after reasonable investigation and on information and belief \u201ccertain persons are illegally registered, or have lost their right to vote in the precinct, ward, or parish in which they are registered by reason of removal or otherwise\u201d, the registrar shall within the time provided give notice to the registrants and make citation and publication as set forth in the statute.\nRelator is, of course, correct when she says that one is \u201cillegally registered\u201d if he lacks the prescribed residence requirements. But since there are many requirements besides residence for a valid registration as a voter in this state, it is obvious that one may also be \u201cillegally registered\u201d for lack of any of these other qualifications prescribed by the Constitution and statutes. A careful consideration of this whole statute convinces us that there is only one reasonable interpretation of this provision, and that is that the registrants whose registration may be challenged under the statute are (1) those \u201cillegally registered\u201d \u2014 that is, those who do not possess all the qualifications for registration set forth in Article 8, Section 1, of the Constitution and R.S. 18:-31 \u2014 and (2) those who at the time of their registration possessed the qualifications provided in the Constitution and statutes of this state but who have lost their right to vote in the precinct, ward, or parish in which they are registered by reason of removal or otherwise. The statute clearly intends that the registration of persons falling into either category may be challenged by two bona fide registered voters of the parish in the manner set forth therein, and that when such challenges are made, it is the mandatory duty of the registrar to notify the challenged registrants in the manner provided by the statute and to issue citation to the persons challenged to appear before the registrar within the time set forth in the statute and prove their right to remain on the registration roll.\nThe statute further provides that any person whose registration is challenged may prove his right to remain on the registration roll by affidavit of three bona fide registered voters in the form provided in R.S. 18:132. The form of the affidavit as set forth in R.S. 18:132 is to the effect that the affiants are acquainted with the registrant who has been challenged and have investigated the facts of the case and of their own personal knowledge know that he resides at - Street, Precinct No. -, Ward No.-, of this parish, and has continuously resided in that precinct and ward for the past - months and during that time has resided at the address aforesaid and has resided in the Parish of-for a period of-.\nRelator argues that since the statute provides that the challenged registrant may prove his right to remain on the registration roll by such an affidavit, this clearly shows that under this statute the only ground of challenge is failure to meet the residence requirements. In other words, she contends that the statute contemplates that one\u2019s registration may be challenged only on the ground that he has moved from the precinct, ward, or parish in which he is registered, or that he has never lived there, or that he has not lived there sufficiently long to be a qualified elector; and she argues that although he may be illegally registered for failure to meet some other requirement laid down by the Constitution and statutes of this state, such an illegal registration cannot be challenged under this section.\nTo give this interpretation to the statute we would have to ignore completely the comprehensiveness of the term \u201cillegally registered\u201d and construe it narrowly to mean \u201cillegally registered by virtue of the fact that they do not possess residence qualifications\u201d. We are convinced that the statute contemplates the challenge of any person whose registration is illegal for lack of any of the requirements for registration set forth in the Constitution and statutes.\nThe Legislature by enacting R.S. 18:133 clearly intended to provide a method of removing from the registration rolls (1) those registrants who are illegally registered \u2014 that is, those who did not possess the legal qualifications for registration required by the Constitution and statutes of this state at the time of their registration \u2014 and (2) those registrants who were legally registered at the time of their registration but who have lost their right to vote in the precinct, ward, or parish in which they are registered by reason of removal or otherwise. This intent is clear and unmistakable, and, the legislative intent being clear, it is the duty of the court to give full effect to this intent if possible.\nTo accept relator\u2019s contention that the language used in the form of the affidavit shows that registrants may be challenged under this statute only because of lack of residence qualifications would have the effect of nullifying the intent of the Legislature in regard to the right to challenge registrants who are illegally registered because they lack some requirement other than that of residence.\nAs we view the statute, the affidavit is simply an example of the type of affidavit that a challenged registrant would have three registered voters mak.e were he challenged on the grounds of want of residence in the precinct, ward, or parish. When the statute is interpreted in this manner, the intent of the Legislature and the spirit of the law are given effect, and the statute is construed so as to produce a reasonable result.\nIn support of her exception of nonjoinder relator contends that the registrants whose right to remain on the registration roll is being challenged should be made parties defendant. There is no reasonable basis for this exception. It is clear from R.S. 18:134 that the only indispensable or necessary party defendant in this suit is the registrar.\nFor the reasons assigned the judgment of the district court overruling relator\u2019s exceptions and plea of unconstitutionality is affirmed, and the case is remanded to the lower court for further proceedings according to law.\nSIMON, J., dissents.",
+        "type": "majority",
+        "author": "HAWTHORNE, Justice."
+      },
+      {
+        "text": "FOURNET, Chief Justice\n(dissenting).\nI am in accord with the majority view that under the jurisprudence generally prevailing the only issue that can be inquired into in a mandamus proceeding against a public officer involving the performance of an official duty is the ministerial character of the duty the officer is charged with performing on the face of the statute. But I cannot agree with the construction placed on R.S. 18:133 in the majority opinion, and particularly when this section is read in connection with R.S. 18:132.\nIt is my opinion that R.S. 18:133 does not encompass the irregularities or illegalities set forth in the affidavits in this proceeding, as the only irregularities or illegalities there sought to be reached are those having to do with the possession of the necessary residence requirements in a particular precinct, ward, and parish. This conclusion is not only supported by the clear language of the statute itself, but also by the language in the affidavit required to be submitted, which is set out in full in R.S. 18:132. Consequently, the trial judge erred in not dismissing this suit on the exceptions of no cause and no right of action.\nIt would seem to me, however, that although under the generally prevailing rule that the officer who is being coerced to perform a ministerial duty in a mandamus proceeding cannot challenge the constitutionality of the law imposing the duties sought to be enforced, we have often \u2014 and should \u2014 \u25a0 relax this rule in cases where the exigencies demand it, and decide all of the issues.\nI do not think I need say that this matter, affecting as it does a state-wide election for all local, parish, and state officials that is being conducted under a mandate of the constitution, is of utmost importance, for the result of the decision, whatever it may be, may well be the determining factor in the outcome of the election of some of these various officials. This is particularly true when we consider that Article VIII of the Constitution of 1921, dealing with suffrage and elections, declares that after January 1, 1922, the right to vote in Louisiana \u201cshall not exist except under the provisions of this Constitution\u201d (Section 1), and then, in the same section, there is set out the qualifications of those eligible to vote in this state and the manner of registering them. See, also, Sections 2 and 3. Section 4 makes it the mandatory duty of the legislature to enact laws to secure fairness in party primary elections, conventions, or other methods of naming party candidates and limiting the right to participate in such nominations to those who are duly qualified voters or \u201celector[s] under the provisions of this Constitution.\u201d\nSection 5 grants to any qualified person who may be denied registration the right to apply to the district court for relief and makes it the mandatory duty of the court to try such case \u201cin preference over all other cases before a jury of twelve, nine of whom must concur to render a verdict,\u201d the verdict as finally rendered not being subject to appeal on review. As to any names that may be illegally on the registration rolls of any parish, the right to have those names stricken from the rolls is specifically given in the next paragraph of Section 5 to any duly qualified and registered voter by applying to the district court for that purpose, but this application also must be tried by preference before a jury of twelve, nine of whom must concur to find a verdict, and their verdict is final except as to the person whose name is stricken from the role thereby, he alone being given the right of appeal. (The emphasis has been supplied.)\nIt is not the function of a court to order a public officer to do a vain and useless thing, and from the foregoing it is clear that the registrar is without authority to remove names from the rolls except in the manner provided in the second paragraph of Section 5. I have no doubt that those whose names are sought to be stricken from the rolls in this proceeding \u2014 as well as in all other similar proceedings \u2014 will avail themselves of this constitutional provision.\nI must, therefore, respectfully dissent.",
+        "type": "dissent",
+        "author": "FOURNET, Chief Justice"
+      }
+    ],
+    "attorneys": [
+      "Gravel, Humphries, Sheffield & F\u00fchrer, Alexandria, for defendant-relator.",
+      "Hiram J. Wright, Charles L. Hamaker, Winnfield, for plaintiffs-respondents."
+    ],
+    "corrections": "",
+    "head_matter": "115 So.2d 809\nStanley J. SMITH and Hiram J. Wright v. Mary C. FLOURNOY, Registrar of Voters for Winn Parish.\nNo. 44836.\nNov. 9, 1959.\nRehearing Denied Dec. 14, 1959.\nGravel, Humphries, Sheffield & F\u00fchrer, Alexandria, for defendant-relator.\nHiram J. Wright, Charles L. Hamaker, Winnfield, for plaintiffs-respondents."
+  },
+  "file_name": "0431-02",
+  "first_page_order": 248,
+  "last_page_order": 259
+}

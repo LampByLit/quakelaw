@@ -1,0 +1,132 @@
+{
+  "id": 4382334,
+  "name": "JOHNNY B. DAPPER, Plaintiff and Appellant, v. THE MUNICIPAL COURT OF THE SAN DIEGO JUDICIAL DISTRICT OF SAN DIEGO COUNTY, Defendant and Respondent; THE PEOPLE, Real Party in Interest and Respondent",
+  "name_abbreviation": "Dapper v. Mun. Court of San Diego Cty.",
+  "decision_date": "1969-10-17",
+  "docket_number": "Civ. No. 9547",
+  "first_page": "816",
+  "last_page": "819",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "276 Cal. App. 2d 816"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "9 S.Ct. 672",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        5698507,
+        5698295
+      ],
+      "pin_cites": [
+        {
+          "page": "675"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/131/0021-01",
+        "/us/131/0176-01"
+      ]
+    },
+    {
+      "cite": "131 U.S. 176",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5698295
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/131/0176-01"
+      ]
+    },
+    {
+      "cite": "237 Mo. 158",
+      "category": "reporters:state",
+      "reporter": "Mo.",
+      "case_ids": [
+        878021
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mo/237/0158-01"
+      ]
+    },
+    {
+      "cite": "454 P.2d 905",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr. 897",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.2d 184",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        8711939
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/71/0184-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 331,
+    "char_count": 4785,
+    "ocr_confidence": 0.889,
+    "pagerank": {
+      "raw": 8.283805636382463e-08,
+      "percentile": 0.47918797582407313
+    },
+    "sha256": "e24073695b80b7b0ccceb46256c94e32edc64e2ce881ef67edf7f07d164e2519",
+    "simhash": "1:0575bf72c989991c",
+    "word_count": 774
+  },
+  "last_updated": "2024-02-27T17:52:21.889319+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "JOHNNY B. DAPPER, Plaintiff and Appellant, v. THE MUNICIPAL COURT OF THE SAN DIEGO JUDICIAL DISTRICT OF SAN DIEGO COUNTY, Defendant and Respondent; THE PEOPLE, Real Party in Interest and Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "order of the San Diego Superior Court denying his application for a writ of prohibition to restrain the Municipal Court, San Diego Judicial District, from further proceedings in a criminal action brought against him by the San Diego City Attorney on behalf of the People.\nIn October 1967, Dapper was convicted on five counts of violating provisions of the San Diego Municipal Code. All five violations involved maintaining his real property in an unkempt manner by allowing debris, rubbish and weeds to accumulate. After the date of the charged violations but before trial, four of the municipal code sections involved were repealed. Dapper petitioned the California Supreme Court for a writ of habeas corpus. On May 28, 1969, the Supreme Court ordered his convictions on three of the counts vacated because the ordinances were repealed and allowed a fourth conviction to stand because the ordinance had been substantially reenacted. The fifth conviction based on the unrepealed ordinance was also allowed to stand ( In re Dapper, 71 Cal.2d 184 [77 Cal.Rptr. 897, 454 P.2d 905]).\nOn July 1, 1968, the city attorney filed a second criminal complaint charging Dapper with one violation of the municipal code, two violations of the Uniform Fire Code and one violation of section 17906, title 8 of the California Administrative Code. The violations charged again were based upon Dapper allowing debris, trash, weeds and rubbish to accumulate and remain on his property.\nDapper contends the second complaint puts him again in jeopardy for the crimes of which he was convicted in 1967. He argues the same trash was on his property when the first complaint was filed as was there when the second complaint was filed. In short, Dapper has. yet to clean up his yard.\nThe real party in interest, represented by the San Diego City Attorney, argues Dapper has waived his double jeopardy objection because he did not raise that plea in the municipal court until after his prohibition petiton had been denied in the superior court by the order appealed here. We prefer, however, to deal with the constitutional objection on its merits;\nWe will assume the crimes charged in 1968 are the same as those for which Dapper was convicted in 1967 (neither side argues otherwise although the ordinance sections do not correspond and the administrative regulation charged in 1968 was not charged in 1967).\nThe question is whether maintaining a criminal nuisance of a continuing nature on one\u2019s property may subject the offender to multiple prosecution and conviction under the criminal statutes when he refuses to abate the nuisance?\nHas the city exhausted its criminal ..remedy once it obtains conviction for maintaining a particular nuisance ?\nSubstantially the same provisions regarding multiple offenses for maintaining \u00e1 continuing nuisance are contained in Penal Code section 373a which makes it the duty of the local district attorney or city attorney to prosecute persons who maintain nuisances after reasonable notice to abate by continuous prosecutions until the nuisance is abated and removed.\nDapper\u2019s offense here is one founded upon his inaction rather than upon separate and distinct acts. It is reasonable for the Legislature to designate a refusal to act when one should act as an offense and a continued refusal to act as successive offenses. The legislative aim is to compel nuisance abatement by enforcing criminal sanctions, an exercise of the police power-we find valid. (See State v. Murray, 237 Mo. 158 [140S.W. 899].)\nDapper\u2019s contention there may be but one prosecution for a continuing crime (21 Am.Jur.2d, Criminal Law, \u00a7183, p. 240) has application where a continuous crime, such as-polygamy, is charged as separate offenses, all committed during the period embraced by the indictment. It \"is there held but one offense occurs down to the date the indictment is found. (Ex parte Nielsen, 131 U.S. 176 [33 L.Ed 118, 9 S.Ct. 672, 675].) The rule has no application where the second charge is made after conviction for the first offense. A conviction for maintaining a nuisance does not license the offender to continue that nuisance free from further criminal sanctions.\nOrder affirmed. -\nCoughlin, J., and Whelan, J., concurred.\nAppellant\u2019s petition for a hearing by the Supreme Court was denied December 10, 1969.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "[Civ. No. 9547.\nFourth Dist., Div. One.\nOct. 17, 1969.]\nJOHNNY B. DAPPER, Plaintiff and Appellant, v. THE MUNICIPAL COURT OF THE SAN DIEGO JUDICIAL DISTRICT OF SAN DIEGO COUNTY, Defendant and Respondent; THE PEOPLE, Real Party in Interest and Respondent.\nJohnny B. Dapper, in pro. per., for Plaintiff and Appellant.\nJohn W. Witt, City Attorney, and J. David Franklin, Deputy City Attorney, for Defendant and Respondent and for Real Party in Interest and Respondent."
+  },
+  "file_name": "0816-01",
+  "first_page_order": 838,
+  "last_page_order": 841
+}

@@ -1,0 +1,97 @@
+{
+  "id": 3187299,
+  "name": "Frank W. HARMON et al. v. L. G. PALMER et al.",
+  "name_abbreviation": "Harmon v. Palmer",
+  "decision_date": "1959-11-09",
+  "docket_number": "No. 44646",
+  "first_page": "257",
+  "last_page": "259",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 258"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 So.2d 342"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "115 So.2d 339",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3188567
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0249-01"
+      ]
+    },
+    {
+      "cite": "238 La. 250",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9881222,
+        3188567
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/115/0339-01",
+        "/la/238/0249-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 131,
+    "char_count": 1419,
+    "ocr_confidence": 0.749,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.08999752495222695
+    },
+    "sha256": "3c1f786e64c4f924d1d46334fe71db9aa98370cbd1ecfb5dcbdbc7e99d52e0f9",
+    "simhash": "1:f822a6a262a3a5ea",
+    "word_count": 228
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Frank W. HARMON et al. v. L. G. PALMER et al."
+    ],
+    "opinions": [
+      {
+        "text": "FOURNET, Chief Justice.\nThis suit is controlled by our decision in the case of Henderson v. Central Mutual Insurance Co., 238 La. 250, 115 So.2d 339, both cases arising out of the same inter-sectional automobile collision, having been consolidated in the district court for the purpose of trial and presenting for our consideration the sole question of whether or not the Court of Appeal erred in finding Mrs. Harmon contributorily negligent in causing the collision; and is now before us on certiorari granted on the application of the plaintiffs, Mr. and Mrs. Frank Harmon, and their collision insurer, the Merrimack Casualty Company, to review the judgment of the Court of Appeal affirming the judgment of the district court dismissing the suit plaintiffs had filed against the defendant, L. G. Palmer, and his liability insurer, Firemen\u2019s Insurance Company, to recover for personal injuries, medical expenses and property damages.\nFor the reasons assigned, the judgments of the district court and Court of Appeal are annulled and set aside, and the case is remanded to the Court of Appeal, Second Circuit, for the determination of the quantum of damages plaintiffs may be awarded under the facts of this case.",
+        "type": "majority",
+        "author": "FOURNET, Chief Justice."
+      }
+    ],
+    "attorneys": [
+      "Bodenheimer, Looney & Richie, Shreveport, for applicants.",
+      "Jackson, Smith, Mayer & Kennedy, Shreveport, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "115 So.2d 342\nFrank W. HARMON et al. v. L. G. PALMER et al.\nNo. 44646.\nNov. 9, 1959.\nBodenheimer, Looney & Richie, Shreveport, for applicants.\nJackson, Smith, Mayer & Kennedy, Shreveport, for respondents."
+  },
+  "file_name": "0257-01",
+  "first_page_order": 161,
+  "last_page_order": 162
+}

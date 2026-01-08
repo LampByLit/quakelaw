@@ -1,0 +1,144 @@
+{
+  "id": 3186335,
+  "name": "STATE of Louisiana v. Fred SCHER",
+  "name_abbreviation": "State v. Scher",
+  "decision_date": "1959-06-25",
+  "docket_number": "No. 44600",
+  "first_page": "11",
+  "last_page": "13",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 11"
+    },
+    {
+      "type": "parallel",
+      "cite": "113 So.2d 292"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "234 La. 929",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9879392,
+        2892046
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/102/0219-01",
+        "/la/234/0929-01"
+      ]
+    },
+    {
+      "cite": "226 La. 103",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2983531,
+        10038166
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/226/0103-01",
+        "/so2d/75/0023-01"
+      ]
+    },
+    {
+      "cite": "62 So.2d 255",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        2896186,
+        2896798
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/222/0149-01",
+        "/la/222/0147-01"
+      ]
+    },
+    {
+      "cite": "222 La. 148",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9911035,
+        2896798
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/62/0255-01",
+        "/la/222/0147-01"
+      ]
+    },
+    {
+      "cite": "217 La. 818",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10063562,
+        5534955
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/47/0512-01",
+        "/la/217/0823-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 142,
+    "char_count": 1180,
+    "ocr_confidence": 0.721,
+    "pagerank": {
+      "raw": 2.1995933875888662e-07,
+      "percentile": 0.7692342150739632
+    },
+    "sha256": "64dc9f01863ffdc57067d86a6b7f45a5306b6cb87fd54c0fdda9b5305539daf2",
+    "simhash": "1:40ed1c8a7ac3f423",
+    "word_count": 207
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "STATE of Louisiana v. Fred SCHER."
+    ],
+    "opinions": [
+      {
+        "text": "HAMITER, Justice.\nHaving been convicted by a jury on the charge that he \u201ccommitted the theft of merchandise, to-wit: five (5) pairs of pants, of a value of Forty and No/100 ($40.00) Dollars\u201d, and sentenced to serve a period of 12 months in the Louisiana State Penitentiary, the defendant (Fred Scher) moved for and was granted this appeal.\nIn the trial court appellant reserved no bills of exceptions and did not apply for a new trial. Moreover, no appearance on his behalf, either by oral argument or by brief, has been made here. Consequently, and since there is no error patent on the face of the record, the rulings appealed from cannot be disturbed. State v. Thomas, 217 La. 818, 47 So.2d 512; State v. Weaver, 222 La. 148, 62 So.2d 255; State v. Brumfield, 226 La. 103, 75 So.2d 23, and State v. Ball, 234 La. 929, 102 So.2d 219.\nFor the reasons assigned the conviction and sentence are affirmed.",
+        "type": "majority",
+        "author": "HAMITER, Justice."
+      }
+    ],
+    "attorneys": [
+      "Sam L. Anderson, Hot Springs, Ark., Meadors, Shaw & Meadors, Homer, for appellant.",
+      "Jack P. F. Gremillion, Atty. Gen., M. E. Culligan, Asst. Atty. Gen., Fred L. Jackson, Dist. Atty., Homer, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "113 So.2d 292\nSTATE of Louisiana v. Fred SCHER.\nNo. 44600.\nJune 25, 1959.\nSam L. Anderson, Hot Springs, Ark., Meadors, Shaw & Meadors, Homer, for appellant.\nJack P. F. Gremillion, Atty. Gen., M. E. Culligan, Asst. Atty. Gen., Fred L. Jackson, Dist. Atty., Homer, for appellee."
+  },
+  "file_name": "0011-01",
+  "first_page_order": 38,
+  "last_page_order": 39
+}

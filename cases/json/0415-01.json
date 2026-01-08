@@ -1,0 +1,79 @@
+{
+  "id": 1933610,
+  "name": "Smith vs. The People",
+  "name_abbreviation": "Smith v. People",
+  "decision_date": "1852-01",
+  "docket_number": "",
+  "first_page": "415",
+  "last_page": "418",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "2 Mich. 415"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "17 Mass. R., 161",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "17 Mass. R., 161",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 398,
+    "char_count": 6777,
+    "ocr_confidence": 0.367,
+    "pagerank": {
+      "raw": 4.0270141809128557e-07,
+      "percentile": 0.9068549942486994
+    },
+    "sha256": "f553f2c0fa58072f550781835a2978323db04d3e9acc38b301af0affb9e6886d",
+    "simhash": "1:916c3211567278bb",
+    "word_count": 1198
+  },
+  "last_updated": "2024-02-27T17:43:48.727812+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith vs. The People."
+    ],
+    "opinions": [
+      {
+        "text": "By the Court, Douglass, J.\nSmith, the plaintiff in error, was tried at the last October term of the Washtenaw Circuit Court, on an indictment which had been found against him, for having in his possession counterfeit hills of a banking company, known as the Wisconsin Fire and Marine Insurance Company. On the trial, one Allen Comstock, who had been indicted and arrested at the same time with the prisoner, for passing counterfeit bills of the kind described in the indictment in this cause, and who had, on pleading guilty, been sentenced to sixty days imprisonment in the Washtenaw county jail, was called as a witness on the part of the prosecution, and after having testified to sundry facts, tending strongly to prove the guilt of the prisoner, was asked on cross examination, whether \u201che had not stated, while in jail, to Martin Badgero and other persons named, that Smith, the defendant below, was innocent of the charge made against him; that he (Smith) did not know the money was bad; that he sold his watch and got the money.\u201d To which question the witness answered that he \u201c did not recollect having made such a statement to Badgero, or to any other persons, while in jail; that if he did, it was false; but he did not recollect saying any such thing; that he was very careful what he did say to them in jail.\u201d\nIn the further progress of the trial, Badgero was called as a witness on the part of the defense, and having testified that he had been in jail with Comstock, was asked by the defendant\u2019s counsel whether, while there, Comstock made to him the statement before referred to. This question was objected to by the prosecuting attorney, on the ground that Comstock, when cross examined on the subject, had not denied having made such statements. The Court sustained the objection. To this decision the defendant below excepted.\nWe think the Court below should have permitted this question to be answered, although the rule of law on this subject is by no means very well established. The authorities nearly all agree that before the credit of a witness can be impeached by proof that he has made verbal statements, out of Court, and relevant to the matter in issue, contrary to what he has testified at the trial, it is necessary first to ask him as to the time, place and person involved in the supposed contradiction. If the witness admits the statements imputed to him, there is of course no occasion for further evidence on the subject. If he denies them they may be proved by other witnesses. But as to what may be done when the' witness neither admits nor denies having made the statements, but merely says he does not recollect having done so, elementary writers are by no means explicit. (See 1 Green. Ev., \u00a7 462, \u20193; 1 Ph. Ev. by C. & H., 293; 3 Ib., 774; 1 Starkie Ev., 183; Rose. Cr. Ev., 183; 2 Russ, on Cr., 937.)\nIn Paine vs. Beeston, (1 Mood. & Rob.,) Tindal, C. J., held at nisi prius, there must be an express denial by the witness of the statements imputed to him, before they can be proved to discredit him. Rut some seven years later, Parke, B., held directly the contrary in Crowley vs. Page, (7 Carr. & P., 787,) and he says, it has always been his practice to admit the evidence where the witness said he did not remember. Prior to the Queen\u2019s Case, (2 Brod. & Bing., 284,) it does not seem to have been well established, that it was necessary to lay any foundation for evidence of previous contradictory statements of the witness, by first interrogating the witnesss peeifically in relation to them. (See Tucker vs. Welch, 17 Mass. R., 161.) The reason assigned for requiring it is, that as the direct tendency of the evidence is to imp'each his veracity, common justice requires that by first calling his attention to the subject, he should have an opportunity to recollect the facts, and, if necessary, to correct the statements already given, as well as by a re-examination to explain the nature, meaning and design of what he is proved elsewhere to have said. (1 Green. Ev., \u00a7 462, \u20193.) R is essentially a rule of protection to the witness sought to be discredited, and ought not to be extended so far as to become a convenient shield for his iniquity. If he answers that he does not recollect having made the statements imputed to him, they may still be susceptible of such proof as, if received, would make this very answer more effective to discredit him, than the contradictory statements thenrselves. And there is no great hardship, to an honest witness, in allowing the evidence to be gone into after such a reply, for he has an ample opportunity to explain on his re-examination. We do not therefore think it either necessary or safe to require in all cases an express denial. If we do, a witness can never be discredited when he says he does not remember. In this case it is worthy of remark that the answer of the witness leaned rather towards a denial, than an admission of the imputed statements, for he said \u201che ivas-very careful what he said to them in jail.\u201d\nWe do not mean to be understood as deciding whether Comstock\u2019s' cross-examination was sufficiently specific as to the time, place and circumstances of the imputed statements, to lay a proper foundation for the evidence offered. The only objection made to its admission was, that Comstock had not denied the statements, and this was the objection which was sustained by the Court below.\nNew trial awarded.",
+        "type": "majority",
+        "author": "By the Court, Douglass, J."
+      }
+    ],
+    "attorneys": [
+      "O. Hawkins, for plaintiff in error.",
+      "Wm. Hale, Attorney General, for the people."
+    ],
+    "corrections": "",
+    "head_matter": "Smith vs. The People.\nBefore the credit of a witness can be impeached by proof of statements elsewhere, relevant to the matter in issue, at variance with Ms testimony, he must be first inquired of, as to such statements, and the time, place, and person involved in the supposed contradiction.\n\u201cWhere the witness neither admits nor denies having made the statement conflicting with his testimony, on the trial, but merely sayg^he does not recollect having done so, his credit may still be impeached by showing that he did make the conflicting statement.\n\u201cWhere a witness was asked on cross examination, whether wliile ho was in jail, he had not made a certain statement to M. B., and other persons named, to which he replied, that \u201d he did not recollect having made such a statement to B., or any other person, while in jail;\u201d that \u201c if he did it was false;\u201d that \u201c he was very careful what he did say to them in jail;\u2019* It was held competent to prove the making of the statement imputed to witness, to discredit his testimony.\nError to Washtenaw Circuit\nO. Hawkins, for plaintiff in error.\nWm. Hale, Attorney General, for the people.\nThis is believed to be the rule id every State in the Union, where the question has been raised, except Massachusetts and Maine, (20 Ohio R., 87, and cases there cited,-) and see (17 Mass. R., 161; 32 Maine JR.., 184.)"
+  },
+  "file_name": "0415-01",
+  "first_page_order": 423,
+  "last_page_order": 426
+}

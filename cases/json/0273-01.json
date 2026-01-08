@@ -1,0 +1,112 @@
+{
+  "id": 3187470,
+  "name": "CITY OF LAKE CHARLES v. William E. BAIRLEY",
+  "name_abbreviation": "City of Lake Charles v. Bairley",
+  "decision_date": "1959-11-09",
+  "docket_number": "No. 44623",
+  "first_page": "273",
+  "last_page": "277",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 273"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 So.2d 348"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "93 So. 918",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "case_ids": [
+        1284048,
+        1284070
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/152/0611-01",
+        "/la/152/0609-01"
+      ]
+    },
+    {
+      "cite": "152 La. 611",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1284048
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/152/0611-01"
+      ]
+    },
+    {
+      "cite": "191 La. 266",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        11637427,
+        1190036
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/185/0020-01",
+        "/la/191/0265-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 256,
+    "char_count": 4375,
+    "ocr_confidence": 0.747,
+    "pagerank": {
+      "raw": 7.682524327565526e-08,
+      "percentile": 0.4527912631199734
+    },
+    "sha256": "7bae14bfb65f819a07830be1e5b922558c19e901e0188380facdc230dc846f5d",
+    "simhash": "1:926b107111226fb2",
+    "word_count": 760
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "CITY OF LAKE CHARLES v. William E. BAIRLEY."
+    ],
+    "opinions": [
+      {
+        "text": "VIOSCA, Justice.\nThe defendant, William E. Bairley, was tried and convicted in the City Court of Lake Charles, Louisiana of the offense of reckless driving in violation of a municipal ordinance and sentenced by the court to serve five days in jail. Defendant moved for, and was granted an appeal to the Fourteenth Judicial District Court. After a de novo trial in that court, the defendant, on March 31, 1958, was again found guilty. He filed a motion for a new trial which was denied on April 20, 1959. On the same date he was sentenced to pay a fine of $50 and costs or fifteen days and to serve two days in jail. ^\nDefendant immediately gave notice of his intention to apply to this Court for writs. During the preparation of the application for writs, the defendant\u2019s counsel discovered an error in the transcript filed in the district court. Although the complaint filed in the case indicated that the offense was committed on November 5, 1958, which was the date the affidavit was filed, it is conceded by both parties that a corrected affidavit was filed in the City Court charging that the offense was committed on October 30, 1958. When the transcript was prepared for the appeal to the district court, this corrected affidavit was not included. The defendant was tried in the district court on an affidavit charging that the offense was committed on November 5, 1958, although the evidence introduced, according to the admissions of both parties, related to an offense which was committed on October 30, 1958.\nThereafter, instead of filing his application for writs in this Court, defendant filed in the district court a motion in arrest of judgment based upon the foregoing errors with respect to the alleged date of offense which defendant contended was patent on the face of the record. This motion was filed 23 days after the date defendant was found guilty and three days after the date of the sentence. The district judge sustained this motion on the ground that the defendant was found guilty of an offense with which he was not charged. The City of Lake Charles applied to this Court for writs of mandamus, prohibition, and certiorari, which were granted and the matter is now submitted for our determination.\nRespondent made no objection to the introduction of evidence concerning the occurrence of the offense on October 30, 1958, nor was any objection made on this ground until the motion in arrest of judgment was filed after respondent was sentenced.\nRelator contends that the error in the transcript is not of a substantial nature, and in the alternative, if the error is found to be of a substantial nature, the objection in the form of a motion in arrest of judgment was filed too late.\nAs the only application for writs in this case is that filed by the City of Lake Charles, we need only determine whether the motion in arrest of judgment was filed too late.\nLSA-R.S. 15:519 provides: \u201cThe motion in arrest of judgment can be filed only after verdict, but must be disposed of before sentence.\u201d It was the holding of this Court in the cases of State v. Dickinson, 191 La. 266, 185 So. 20, 24 and State v. Whittaker, 152 La. 611, 93 So. 918 that a motion in arrest of judgment filed after sentence comes too late. In the former case we said: \u201c * * * it is elementary that a motion in arrest of judgment must be filed for an alleged substantial defect patent upon the face of an information or an indictment, after conviction and before sentence\u201d\nAs this is the only question presented for our determination in this proceeding, the ruling of the district judge must be reversed.\nFor the reasons assigned, it is ordered that the ruling of the district court sustaining the motion in arrest of judgment, be and the same is reversed and set aside, the motion in arrest of judgment is hereby overruled, and the cause is remanded to the district court for further proceedings according to law, and consistent with the views herein expressed.\n. At tlie time this case was decided Article 519 of the Criminal Code was in effect. The provisions of LSA-R.S. 15:519 are identical with the provisions of Article 519 of the Criminal Code.",
+        "type": "majority",
+        "author": "VIOSCA, Justice."
+      }
+    ],
+    "attorneys": [
+      "Cecil C. Cutrer, City Attorney, Eugene H. Lawes, Asst. City Atty., Lake Charles, for relator.",
+      "Joe J. Tritico, Lake Charles, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "115 So.2d 348\nCITY OF LAKE CHARLES v. William E. BAIRLEY.\nNo. 44623.\nNov. 9, 1959.\nCecil C. Cutrer, City Attorney, Eugene H. Lawes, Asst. City Atty., Lake Charles, for relator.\nJoe J. Tritico, Lake Charles, for respondent."
+  },
+  "file_name": "0273-01",
+  "first_page_order": 169,
+  "last_page_order": 171
+}

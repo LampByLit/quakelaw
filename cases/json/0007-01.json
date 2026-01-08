@@ -1,0 +1,1018 @@
+{
+  "id": 1855450,
+  "name": "BARNES v. MITCHELL",
+  "name_abbreviation": "Barnes v. Mitchell",
+  "decision_date": "1954-11-29",
+  "docket_number": "Docket No. 54, Calendar No. 46,046",
+  "first_page": "7",
+  "last_page": "29",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "341 Mich. 7"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "141 ALR 1016",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "78 ALR 731",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "59 ALR 468",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "60 ALR 259",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "57 ALR 268",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "pin_cites": [
+        {
+          "page": "274"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "26 ALR 732",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "pin_cites": [
+        {
+          "page": "735"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "13 ALR 1414",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "326 Mich 702",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1908679
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/326/0702-01"
+      ]
+    },
+    {
+      "cite": "316 Mich 307",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1888260
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/316/0307-01"
+      ]
+    },
+    {
+      "cite": "57 ALR 262",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "241 Mich 383",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1704488
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/241/0383-01"
+      ]
+    },
+    {
+      "cite": "34 LRA NS 693",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.N.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "79 A 361",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 NJL 369",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        209801
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/njl/80/0369-01"
+      ]
+    },
+    {
+      "cite": "72 A 15",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "76 NJL 783",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        292935
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/njl/76/0783-01"
+      ]
+    },
+    {
+      "cite": "11 A 482",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 NJL 28",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        335806
+      ],
+      "pin_cites": [
+        {
+          "page": "30"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/njl/50/0028-01"
+      ]
+    },
+    {
+      "cite": "38 LRA 236",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 A 888",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 NJL 481",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        302875
+      ],
+      "pin_cites": [
+        {
+          "page": "487"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/njl/59/0481-01"
+      ]
+    },
+    {
+      "cite": "98 A 427",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "89 NJL 348",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        236350
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/njl/89/0348-01"
+      ]
+    },
+    {
+      "cite": "65 A2d 243",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "361 Pa 355",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        476376
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/361/0355-01"
+      ]
+    },
+    {
+      "cite": "142 NE 825",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "248 Mass 43",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        3815856
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/248/0043-01"
+      ]
+    },
+    {
+      "cite": "215 Mich 449",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1731274
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/215/0449-01"
+      ]
+    },
+    {
+      "cite": "207 Mich 655",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1792072
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/207/0655-01"
+      ]
+    },
+    {
+      "cite": "5 ALR 1333",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "206 Mich 545",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1794203
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/206/0545-01"
+      ]
+    },
+    {
+      "cite": "235 Mich 623",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1718858
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/235/0623-01"
+      ]
+    },
+    {
+      "cite": "180 NW 125",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "173 Wis 33",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8685313,
+        8684529
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wis/173/0033-01",
+        "/wis/173/0001-01"
+      ]
+    },
+    {
+      "cite": "204 Mich 536",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1753878
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/204/0536-01"
+      ]
+    },
+    {
+      "cite": "192 Mich 624",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1630358
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/192/0624-01"
+      ]
+    },
+    {
+      "cite": "33 LRA NS 81",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.N.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "165 Mich 115",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1615780
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/165/0115-01"
+      ]
+    },
+    {
+      "cite": "226 Mich 315",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1691348
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/226/0315-01"
+      ]
+    },
+    {
+      "cite": "37 Mich 205",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1341600
+      ],
+      "pin_cites": [
+        {
+          "page": "212, 213"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/37/0205-01"
+      ]
+    },
+    {
+      "cite": "37 LRA NS 834",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.N.S.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "168 Mich 294",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1608955
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/168/0294-01"
+      ]
+    },
+    {
+      "cite": "221 Mich 25",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1768675
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/221/0025-01"
+      ]
+    },
+    {
+      "cite": "16 Am Neg Cas 87",
+      "category": "reporters:state",
+      "reporter": "Am. Neg. Cas.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "169 Mich 10",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1607108
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mich/169/0010-01"
+      ]
+    },
+    {
+      "cite": "54 P 730",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "122 Cal 209",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2021420
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal/122/0209-01"
+      ]
+    },
+    {
+      "cite": "128 NYS 4",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "case_ids": [
+        7657888
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/nys/128/0004-01"
+      ]
+    },
+    {
+      "cite": "71 Misc 147",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        1856698
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/misc/71/0147-01"
+      ]
+    },
+    {
+      "cite": "142 NYS 465",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "case_ids": [
+        5636509,
+        5635110
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/nys/142/0465-01",
+        "/nys/142/0465-02"
+      ]
+    },
+    {
+      "cite": "80 Misc 337",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        1867997
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/misc/80/0337-01"
+      ]
+    },
+    {
+      "cite": "229 P 641",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "103 Okla 123",
+      "category": "reporters:state",
+      "reporter": "Okla.",
+      "case_ids": [
+        397898
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/okla/103/0123-01"
+      ]
+    },
+    {
+      "cite": "18 SW2d 487",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        8735588,
+        1857852
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mo/323/0411-01",
+        "/mo/322/0991-01"
+      ]
+    },
+    {
+      "cite": "322 Mo 991",
+      "category": "reporters:state",
+      "reporter": "Mo.",
+      "case_ids": [
+        1857852
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mo/322/0991-01"
+      ]
+    },
+    {
+      "cite": "298 SW 1061",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "223 Mo App 278",
+      "category": "reporters:state",
+      "reporter": "Mo. App.",
+      "case_ids": [
+        1803786
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/mo-app/223/0278-01"
+      ]
+    },
+    {
+      "cite": "94 Mont 355",
+      "category": "reporters:state",
+      "reporter": "Mont.",
+      "case_ids": [
+        4970361
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/mont/94/0355-01"
+      ]
+    },
+    {
+      "cite": "73 P2d 649",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "23 Cal App2d 510",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4520108
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-2d/23/0510-01"
+      ]
+    },
+    {
+      "cite": "124 P2d 878",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "51 Cal App2d 327",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4643277
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-2d/51/0327-01"
+      ]
+    },
+    {
+      "cite": "104 SE 513",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "25 Ga App 690",
+      "category": "reporters:state",
+      "reporter": "Ga. App.",
+      "case_ids": [
+        1400639
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ga-app/25/0690-01"
+      ]
+    },
+    {
+      "cite": "269 Mich 506",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1880487
+      ],
+      "pin_cites": [
+        {
+          "page": "510"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mich/269/0506-01"
+      ]
+    },
+    {
+      "cite": "282 Mich 509",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1778702
+      ],
+      "pin_cites": [
+        {
+          "page": "525"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mich/282/0509-01"
+      ]
+    },
+    {
+      "cite": "271 Mich 142",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1877765
+      ],
+      "pin_cites": [
+        {
+          "page": "145"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mich/271/0142-01"
+      ]
+    },
+    {
+      "cite": "335 Mich 566",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1934408
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mich/335/0566-01"
+      ]
+    },
+    {
+      "cite": "189 Mich 456",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1639820
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mich/189/0456-01"
+      ]
+    },
+    {
+      "cite": "103 Am St Rep 504",
+      "category": "reporters:state",
+      "reporter": "Am. St. Rep.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "64 LRA 126",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "97 NW 882",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "91 Minn 219",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        1699693
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/minn/91/0219-01"
+      ]
+    },
+    {
+      "cite": "13 ALR 1403",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "228 SW 397",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "147 Ark 481",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1583210
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ark/147/0481-01"
+      ]
+    },
+    {
+      "cite": "295 SW 16",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "173 Ark 1104",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        8725910
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ark/173/1104-01"
+      ]
+    },
+    {
+      "cite": "9 SW2d 318",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "177 Ark 907",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        8725636
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ark/177/0907-01"
+      ]
+    },
+    {
+      "cite": "326 Mich 702",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1908679
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mich/326/0702-01"
+      ]
+    },
+    {
+      "cite": "98 A 427",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "89 NJL 348",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        236350
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/njl/89/0348-01"
+      ]
+    },
+    {
+      "cite": "65 A2d 243",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "361 Pa 355",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        476376
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/pa/361/0355-01"
+      ]
+    },
+    {
+      "cite": "142 NE 825",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "248 Mass 43",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        3815856
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mass/248/0043-01"
+      ]
+    },
+    {
+      "cite": "235 Mich 623",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1718858
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mich/235/0623-01"
+      ]
+    },
+    {
+      "cite": "192 Mich 624",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1630358
+      ],
+      "pin_cites": [
+        {
+          "page": "627"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mich/192/0624-01"
+      ]
+    },
+    {
+      "cite": "226 Mich 315",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1691348
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "322"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mich/226/0315-01"
+      ]
+    },
+    {
+      "cite": "37 Mich 205",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1341600
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mich/37/0205-01"
+      ]
+    },
+    {
+      "cite": "37 LRA NS 834",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.N.S.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "168 Mich 294",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1608955
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mich/168/0294-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1513,
+    "char_count": 42280,
+    "ocr_confidence": 0.483,
+    "pagerank": {
+      "raw": 3.31170715023257e-07,
+      "percentile": 0.8724948829063007
+    },
+    "sha256": "f91540562c4c85dc42c5f169873b1e156308829cec3f7878e37472875602f591",
+    "simhash": "1:88606bc79b9b7494",
+    "word_count": 7181
+  },
+  "last_updated": "2024-02-27T16:14:53.692353+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Bittzel, C. J., and Carr, Bushnell, Boyles, and Reid, JJ., concurred with Kelly, J.",
+      "Dethmers, J. I concur in result for the first reason herein advanced."
+    ],
+    "parties": [
+      "BARNES v. MITCHELL."
+    ],
+    "opinions": [
+      {
+        "text": "Kelly, J.\nDefendant, a chiropractor, operates a clinic at Three Rivers, Michigan. Plaintiff started his suit claiming that both of his hands were severely burned as a result of an X-ray treatment he received at defendant\u2019s clinic on October 6, 1948. This appeal is taken'from the court\u2019s judgment for the defendant notwithstanding the jury\u2019s verdict of $3,-500 for the plaintiff.\nPlaintiff did ndt go to defendant for treatment of his hands but for a back ailment. Plaintiff testified that every winter he would get \u201cweather cracks\u201d in his hands because as a wood pattern worker he had to work with wood, resin and tar. Defendant noticed this condition and convinced plaintiff he could cure his hands at the same time he gave him treatments for his back. Defendant, testifying as to the condition of the hands, said that plaintiff had an allergy, eczema.\nDefendant testified he treated plaintiff\u2019s back ailment by massage and diathermy, using an \u201celectrical instrument that generates heat,\u201d and stated: \u201cI gave adjustment, massage to him and my assistant gave the diathermy and that part of it.\u201d Plaintiff had appointments at the clinic 3 times a week, but he received X-ray treatments for his hands every second or third appointment. Defendant gave plaintiff\u2019s hands 5 X-ray treatments previous to October 6,1948.\nDefendant had 2 employees at his clinic, Yelda Parks and Bonnie Esterbrook. They are referred to as nurses in the briefs but the record does not disclose the nature or extent of their training or whether they were registered nurses.\n. When plaintiff kept his appointment on October 6,1948, he was advised by Velda Parks that \u201cBonnie has forgot about you and gone home, she is supposed to give you your treatment, I will call her back.\u201d Bonnie Esterbrook came back to the clinic in response to Velda Parks\u2019 call, and while she was giving the X-ray treatment to plaintiff\u2019s hands a muffled explosion was heard. Plaintiff testified that on his way home his hands commenced to burn, that he could smell burned flesh, and that his hands were all red when he arrived home. On his next regular appointment at the clinic, 3 days later, plaintiff showed his hands to defendant, stating he thought he had had too strong a treatment. Defendant said: \u201cMy goodness, your hands are burned. * * * I am glad the tube burst because if it had not burst, you would not have any hands.\u201d\nBoth Dr. Grekin, an expert witness in skin treatment and use of X-ray, and Dr. Hildreth, a specialist in X-ray and radiology, testified, and. the record is convincing that plaintiff suffered X-ray burns from an overdosage of X-ray; that the palms of both hands were burned to such an extent that not only will the injury be permanent but with the danger that the X-ray dermatitis will break down into cancer.\nDefendant was called to the stand by plaintiff for cross-examination under the statute. He did not attempt to explain or defend the actions of his employee Bonnie Esterbrook. He stated he was in Ohio on October 6, 1948, that he had never authorized her to give the plaintiff the X-ray treatment, nor had she ever given plaintiff a treatment previous to October 6th. Defendant testified that when he returned from Cleveland to his clinic he found the tube of his X-ray machine burned out.\nThe trial court in his opinion stated: \u201cNeither Velda Parks nor Bonnie Esterbrook were parties defendant, nor were either of them called as witnesses in this case by either party, so we do not have the benefit of their testimony. It is not known whether they were available or not.\u201d\nDefendant answers plaintiff\u2019s claim of negligence by merely saying that he never authorized his employee Bonnie Esterbrook to use the X-ray. Defendant did not testify that he cautioned her against using the X-ray machine or forbade her its use and admits that previous to October 6th she used electrical instruments generating heat to give diathermy treatments to plaintiff.\nThe court gave as his reason for rendering judgment notwithstanding the verdict that plaintiff failed to prove that it was the usual and customary practice for Bonnie Esterbrook to give X-ray treatments or that the treatment was given under the direction of the defendant.\nThere is nothing in the record that even allows speculation that Bonnie Esterbrook gave the treatment for her own profit or gain. As defendant\u2019s employee she was using defendant\u2019s clinic and X-ray machine to give a treatment to defendant\u2019s patient and there is every reason to conclude that she thought she was furthering her employer\u2019s interest in so doing. There was sufficient evidence to sustain the jury\u2019s verdict that Bonnie Esterbrook was authorized to give the plaintiff the X-ray treatment. This Court has held: \u201cIn considering a motion by defendant for a judgment non obstante veredicto, the evidence must be viewed in the light most favorable to plaintiffs; the same considerations obtaining as upon a motion to direct a verdict.\u201d Yacobian v. Vartanian (syllabus), 221 Mich 25. But even though Bonnie Esterbrook was exceeding her authority in using the X-ray machine, that would not excuse defendant from negligence.\nIn Riley v. Roach, 168 Mich 294 (37 LRA NS 834), this Court defined the term \u201cin the scope of his employment\u201d as follows (p 307):\n\u201cThe phrase fin the course or scope of his employment or authority,\u2019 when used relative to the acts of a servant, means while engaged in the service of his master, or while about his master\u2019s business.\u201d\nIn Chicago & Northwestern Railway Co. v. Bayfield, 37 Mich 205, 212, 213, it is stated:\n\u201cNor do we think it follows that because Smith at the time was exceeding his authority, the company is not responsible for his action. It is in general no excuse to the employer that an injury which has occurred was caused by disobedience of his orders, whether they be express orders or implied orders. He assumes the risks of such disobedience when he puts the servant into his business; and the reasons for holding him responsible for the servant\u2019s conduct are the same whether the injury results from a failure to observe the master\u2019s directions, or from neglect of the ordinary precautions for which no specific directions are deemed necessary. It will be conceded that for a positive wrong beyond the scope of the master\u2019s business, intentionally or recklessly done, the master cannot be held responsible; this being very properly regarded as the personal trespass or tort of the servant himself. But when the wrong arises merely from an excess of authority, committed in furthering the master\u2019s interests, and the master receives the benefit of the act, if any, it is neither reasonable nor just that the liability should depend upon any question of the exact limits of the servant\u2019s authority. The master fixes these, and it is his duty to keep his servant, in what is done by him, within the limits fixed. An act in excess would still have the apparent sanction of his authority; the occasion for it would be furnished by the employment, and the injured party could not;,always be expected to know or be able to discover whether it was or was not without express sanction.\u201d\nIn Loux v. Harris, 226 Mich 315, we said (pp 317-322):\n\u201cThe declaration charged defendant with liability as master of Wagner. Defendant admitted the relation, denied Wagner was afating within the scope of his employment and had verdict in his' favor because Wagner disobeyed his instructions. Was the trial judge in error in directing a verdict for defendant? * * *\n\u201cThis suit is an .action by a third person against the owner of an automobile for a tort committed by a servant while about his master\u2019s business. The motor vehicle statute extends liability of an owner to cases other than master and servant where an injury is occasioned by the negligent operation of an automobile \u2018being driven by; the express or implied consent or knowledge of such owner.\u2019 This, hotuever, is a common-law action against a master for the negligence of his servant while about the master\u2019s business and, in considering the legal questions, the statute relied' upon in the court below must be laid entirely aside. An extended examination of text books and case law upon the subject of. liability of a master for- torts of a servant discloses quite general agreement upon certain principles. Some of such principles will be mentioned for we intend to apply them. (Emphasis supplied.)\n\u201cSelling gasoline .was a part-of defendant\u2019s business and, therefore, within the scope of Wagner\u2019s employment. Wagner violated instructions in taking the gasoline to the stranded renter of one of defendant\u2019s cars. In doing this was he about the business of defendantror was his act a seyerance in and of itself of his relation to his master's business? Was he.driving on his master\u2019s business? Certainly he was hot driving on. his own affairs. Disobedience of how to handle business placed in his.charge did not relieve the master.:- The liability of defendant depends npion whether' Wagner., in taking gasoline to the renter of one of defendant\u2019s cars, was acting within the scope of his employment.\n\u201cIn Riley v. Roach, 168 Mich 294; 307 (37 LRA NS 834), it was said:\n.\u201c \u2018The phrase \u201cin the ,course or scope of his employment or authority,\u201d when used relative to the acts of a servant, means while engaged in the service of his master, or while about his master\u2019s business.'\n\u201cSee, also, Hartley v. Miller, 165 Mich 115 (33 LRA NS 81, 1 NCCA 126); Brinkman v. Zuckerman, 192 Mich 624; Hill v. Haynes, 204 Mich 536.\n\u201cWagner was authorized to sell gasoline at the garage. He made a , sale of what he was employed to sell but delivered the article in disobedience of instructions given him by his master, and employed defendant\u2019s vehicle in doing 'so, contrary to the master\u2019s instructions. He was, therefore, about his master\u2019s business but acting in a forbidden way. Wagner\u2019s disobedience in not notifying the defendant and in leaving the garage and using the automobile did not place him outside of the scope of his emplovment. * * *\n\u201cIn Smith v. Yellow Cab Co., 173 Wis 33 (180 NW 125), a taxicab driver, in violation of his master\u2019s instructions, took passengers outside of ,a city and, Avhile returning, caused an accident. It w\u00e1s claimed the servant was outside the scope of his employment. In passing on this claim the court said [pp 35, 36]:\n\u201c \u2018If it were true that a servant is outside the scope of his employment whenever he disobeys the orders of his master the doctrine of respondeat superior would have but scant application, for the master coidd always instruct his servant to use ordinary care under all circumstances. The servant\u2019s negligence would therefore always be contrary- to orders and the nonliability of the master would follow. But such is not the law. The servant is within the-scope of his employment when he is engaged in the master\u2019s service and furthering the master\u2019s business though the particular act is contrary to instructions. The purpose of the service rendered by the employee, and not the method of performance, is the test of whether or not the servant is within the scope of his employment. If the purpose is to further the master\u2019s business and not that of the servant, the latter is within the scope of his employment though he be negligent or disobeys orders as to the method of its execution.\u2019 * * *\n\u201cThe tort of the servant was committed while he was about the business of his master and not while on any affair of his own. The case should have been left to the jury.\u201d\nThis Court in Loveland v. Nelson, 235 Mich 623, considered a malpractice suit involving the extraction of a tooth. At the close of plaintiff\u2019s proofs the trial judge directed a verdict on the ground that the testimony left the question of the proximate cause of plaintiff\u2019s condition too conjectural to authorize the submission of the case to the jury, and that without adopting res ipsa loquitur no negligence of defendant was established. We said (p 625):\n\u201cThis Court has not adopted the rule res ipsa loquitur but this does not prevent a plaintiff making a case by circumstantial evidence. In Burghardt v. Detroit United Railway, 206 Mich 545 (5 ALR 1333), this Court, with the citation of numerous sustaining authorities, said:\n\u201c \u2018This Court has not adopted the rule res ipsa loquitur; we have uniformly held that the happening of the accident alone is not evidence of negligence; and we have as uniformly held that negligence may be established by circumstantial evidence, and that where the circumstances are such as to take the case out of the realm of conjecture and within the field of legitimate inferences from established facts that at least a prima facie case is made.\u2019\n\u201cAnd it is the province of the jury to draw the legitimate inferences from the established facts in this character of cases. Marx v. Schultz, 207 Mich 655 (19 NCCA 976); Wood v. Vroman, 215 Mich 449. The Wood Case was a malpractice case, and it was said by Mr. Justice [Nelson] Sharpe, speaking for the Court (pp 461, 462):\n\u201c \u2018The plaintiff was not required to prove to an absolute certainty that the infection was caused by the introduction of the germs in the pus. He was required to establish facts from which such an inference might fairly have been drawn by the jury.\u2019\n\u201cSo, if the plaintiff\u2019s testimony, taken in its most favorable light, tends to make such a case that, by excluding other causes and the establishing of the circumstances surrounding the incident, the jury would, by drawing the legitimate inferences from the established facts, find negligence on the part of defendant, they have established at least a prima facie ease entitling them to take the judgment of the jury.\u201d\nAppellee in his brief urges the point that general principles controlling responsibility in master and servant cases are not applicable in this instance and states that \u201cthere is a limitation to the general rules of agency or master and servant.\u201d\nThe only authority appellee cites for making this exception is 41 Am Jur, Physicians and Surgeons, \u00a7112, pp 223, 224:\n\u201cIt is the established rule that a physician or surgeon must exercise due care in selecting his assistants, and on the simplest principles of the law, agency, or of master and servant, a physician or surgeon may be liable for the neglect or fault of his employee or servant, such as an assistant who is working under his direction, for injury resulting therefrom to a patient.\u201d\nWe do not believe the above-cited section confines responsibility of a physician or doctor to only acts which are committed by the assistant who is working under the direction of the doctor.\nIn 70 CJS, Physicians and Surgeons, \u00a7 54, pp 978,, 979, it is stated:\n\u201cA physician is responsible for an injury done to a patient through the want of proper skill and care in his assistant, and through the want of proper skill and care in his apprentice, agent, or employee. The fact that a physician\u2019s assistant is a\u2019 member of' the same or a similar profession does not make the rule of respondeat superior inapplicable, and a physician is liable not only for negligence of laymen employed by him, but also for the negligence of' nurses or other physicians in his employ.\u201d\nMassachusetts has adopted a different principle than is advocated by appellee, as is evidenced by McDonald v. Dr. McKnight, Inc., 248 Mass 43 (142 NE 825). In a tort action against a dentist for personal injuries alleged to have been caused by the negligence of the employee of the defendant the court held (syllabi):\n\u201c(1) The question, whether the extractor of the tooth was acting within the scope of his ostensible employment as between the parties, was for the jury;\n\u201c(2) The plaintiff had a right to trust to appearances and to the not unreasonable assumption that the defendant would not permit unauthorized persons to appear to be acting as his agents; and he could not be expected nor was he required to ask for proof of the authority of the cashier or of the registered dentist or of the extractor of the tooth;\n\u201c(3) The defendant could not avoid liability by evidence that the extractor\u2019s authority was limited.\u201d\nIn McConnell v. Williams, 361 Pa 355 (65 A2d 243), the doctor was charged with being responsible for the negligent acts of an interne in a hospital after a baby\u2019s birth and after the doctor gave the baby to tbe interne to apply drops to the baby\u2019s eyes. The court said (p 357):\n\u201cPhysicians and surgeons, like other persons, are subject to the law of agency.\u201d\nIn the New Jersey case of Klitch v. Betts, 89 NJL 348 (98 A 427), the question was presented as to a dentist\u2019s negligence fo.r the improper extraction of a tooth by his assistant. The court stated (pp 351, 352):\n\u201cThe claim that the relationship of master and servant did not exist was based upon the fact that Snively\u2019s hours in the defendant\u2019s office were from 9 a.m. to 6 p.m., and that he was not authorized to extract teeth except under the supervision of the defendant, the contention being that because the tooth was extracted after 6 o\u2019clock, and in the absence of the defendant, it was the independent act of Snively, and not done in the course of his employment. What Snively did was within his implied authority, and even if done without the authority of the defendant, for any violation of general rules laid down for Snively\u2019s guidance the master is still responsible. When the defendant employed Snively and left him in charge of his office so that persons going there had a right to infer that he represented the defendant, the mere fact that it was after 6 o\u2019clock did not destroy the relation of master and servant.\n\u201cThe general rule is a very clear one, that the master is liable for any act of his servant done within the scope of his employment, and if a servant is acting in the execution of his master\u2019s orders, and by his negligence causes injury to a third party, the master will be responsible, although the servant\u2019s act was not necessary for the proper performance of his duty to his master or was even contrary to his master\u2019s orders. McCann v. Consolidated Traction Co., 59 NJL 481, 487 (36 A 888, 38 LRA 236).\n\u201cThe application of the rule respondeat superior does not depend upon the obedience- of the servant to his master\u2019s orders, nor upon the legality of the servant\u2019s conduct; where a servant is acting within the scope of his employment, and in so acting does something negligent or wrongful, the employer is liable, even though the acts done may be the very reverse of that which the servant was actually directed to do. Driscoll v. Carlin, 50 NJL 28, 30 (11 A 482). * * *\n\u201cTo rebut the presumption of liability of a master for damage consequent upon the negligent act of a servant, done within the apparent scope of the latter\u2019s employment, it must be shown either that the act was purely wanton or that it was not performed in furtherance of any duty within the actual scope of the servant\u2019s authority. Rhinesmith v. Erie Railroad Co., 76 NJL 783 (72 A 15).\n\u201cIn cases where the scope of authority of a servant or agent depends upon disputed matters of fact, the extent of such authority is ordinarily a question for the jury. Dierkes v. Hauxhurst Land Co., 80 NJL 369 (79 A 361, 34 LRA NS 693).\u201d\nThere are no statutory provisions in this State applicable to the question presented to this Court, and, therefore, the common law determines the question of defendant\u2019s liability for the admitted negligent burning of plaintiff\u2019s hands. If the common-law rule is to be abandoned in this State it will have to be through legislative enactment rather than by a decision of this Court.\nThe defendant\u2019s negligence in this case was established because;\n1. There was sufficient evidence that the defendant authorized the X-ray treatment to submit the question to the jury and sufficient evidence to sustain the jury\u2019s verdict;\n2. It was not necessary for the plaintiff to prove that it was the usual and customary practice for Bonnie Esterbrook to give X-ray treatments or that the treatment was given under the direction of the defendant. There was sufficient evidence that Bonnie Esterbrook gave the X-ray treatment within the scope of her employment and to further the interest of the defendant rather than her own interest. We cannot sustain the trial court\u2019s reason for judgment notwithstanding the verdict.\nDefendant urges another reason not mentioned by the lower court for sustaining the judgment for defendant notwithstanding the verdict, namely, the failure of the plaintiff to meet the proof required in Ballance v. Dunnington, 241 Mich 383 (57 ALR 262); Nemer v. Green, 316 Mich 307; Facer v. Lewis, 326 Mich 702. In each of these cases this Court stated that the defendant physician\u2019s responsibility to his patient would be determined by deciding whether he exercised the reasonable and ordinary care, skill and diligence possessed by others in the same line of practice in similar localities. The reason for these decisions is obvious\u2014to determine the responsibility of the physician who claimed to be qualified to administer X-ray treatments.\nThe above-cited cases do not apply to the present case. No one, including the defendant, claimed that Bonnie Esterbrook was qualified to administer X-ray treatments, and all the facts and circumstances justified the jury\u2019s finding that she was not qualified.\nThe judgment for the defendant notwithstanding the verdict is reversed and the case is remanded with directions to the trial court to enter a judgment in favor of the plaintiff in accordance with the verdict of the jury. Costs to plaintiff.\nBittzel, C. J., and Carr, Bushnell, Boyles, and Reid, JJ., concurred with Kelly, J.\nDethmers, J. I concur in result for the first reason herein advanced.\nSee CL 1948, \u00a7617.66 (Stat Aim \u00a7 27.915) .\u2014Reporter.",
+        "type": "majority",
+        "author": "Kelly, J."
+      },
+      {
+        "text": "Sharpe, J.\n(dissenting). In coming to my conclusions in this case I must take into consideration the following established facts: The cause of action is planted upon the action rendered by Bonnie Ester-brook on October 6, 1948, in giving plaintiff an X-ray treatment in the office of the defendant; that Bonnie Esterbrook had never assisted defendant in giving X-ray treatments to plaintiff; that she was never authorized to give plaintiff an X-ray treatment ; and that prior to the above date she had never given plaintiff an X-ray treatment.\n' It is also well established that the operation o\u00edan X-ray machine can only be performed by one having special knowledge of its uses and method of operation. Dr. R. C. Hildreth testified:\n\u201cThere is quite a bit to the discretion of dosage from X-ray machine, the way it is produced and the way it is measured. Inside of the X-ray tube there is a change in the form of energy from electricity into X-ray, just like in certain power plants for steam locomotion, you throw in coal and water and you make steam, which is a different type of energy. Also inside of X-ray tube you apply electricity and against the target of the tube the energy is changed into the form of X-ray, it comes out of the tube. Now you can measure the amount of electricity that goes into the X-ray, you can measure that like you do amperes and volts; when you put your motor in the house you put on kilowatts or watts, which is merely volts, time and electricity, so you measure electricity from wattage per unit. A unit of electricity is a watt, and the other units are amperes and volts, amperage is time, voltage is watt. You can measure the electricity that goes into the tube, which is an indirect and inaccurate measurement because the power is so inefficient in forming the X-ray. Now when you measure the power that comes out of the tube you have to use another unit of measurement, a unit like a gallon, or a quart of X-ray, we call the unit the Boentgen\u2014we write it simply \u2018E\u2019, 300 B, or 300 Boentgens, that is the unit of X-ray dose that comes out of the tube, and we use special instruments for measuring the dose that comes out of the tube. There are other factors that are important, like time, is of some value, distance is much more important than time, the filter is of some value too, but anyone using X-ray machine for a treatment needs to know how many units he is putting on to the skin surface at a certain distance; it is not of great value to know how much, to know too much about the amount of electricity going into the machine, because the machine is very efficient.\u201d\nIn Facer v. Lewis, 326 Mich 702, an action was brought to recover damages for the alleged malpractice by a physician in the use of an X-ray. In the above case we had occasion to discuss the skill necessary in the use of X-ray machines. We there said (p 714):\n\u201cAlthough laymen generally are acquainted with the fact that X-rays are destructive and may result in burns or other serious conditions, yet the testimony of plaintiff\u2019s own medical witness was such as to clearly demonstrate that an X-ray treatment for warts involves questions of skill, judgment, and practice beyond the knowledge of laymen and upon which a jury would need the advice of experts to determine whether or not the claimed acts of defendant were improper.\u201d\nOther courts have also taken this same position by ruling that the use of X-ray equipment requires a special personal skill. See Dorr, Gray & Johnston v. Fike, 177 Ark 907 (9 SW2d 318); Dorr, Gray & Johnston v. Headstream, 173 Ark 1104 (295 SW 16); Runyan v. Goodrum, 147 Ark 481 (228 SW 397, 13 ALR 1403); Henslin v. Wheaton, 91 Minn 219 (97 NW 882, 64 LRA 126, 103 Am St Rep 504).\nIn Dorr, Gray & Johnston v. Fike, supra, the Arkansas court clearly demonstrated that the use of X-ray demands as similar a skill as any other medical treatment when it said (p 908):\n\u201cA physician or other person undertaking to use X-rays is held to the same measure of responsibility as in administering other forms of medical treatment. He impliedly contracts with the patient that he possesses ordinary skill in administering X-rays, and that he will exercise reasonable skill, care, and diligence in his treatment or diagnosis of the patient.\u201d\nI agree with the plaintiff that according to the general principles of agency law in this State \u201cthe phrase \u2018in the course or scope of his employment or authority,\u2019 when used relative to the acts of a servant, means while engaged in the service of his master, or while about his master\u2019s business.\u201d Brinkman v. Zuckerman, 192 Mich 624, 627; that it is not essential that the act be especially authorized by the master. Cook v. Michigan Central R. Co., 189 Mich 456; that \u201cA servant is within the scope of his employment, although conducting his master\u2019s business in a manner contrary to instructions.\u201d Loux v. Harris, 226 Mich 315, 322. Also, see Michael v. Kircher, 335 Mich 566; that \u201cIt is elementary that persons dealing with an agent may rely on his apparent authority, * * * and that such authority is to be gathered from all of the facts and circumstances properly admitted in evidence.\u201d Faber v. Eastman, Dillon & Co., 271 Mich 142, 145; that \u201c \u2018 \u201cWhenever a principal has placed an agent in such a situation that a person of ordinary prudence, conversant with business usages and the nature of the particular business, is justified in assuming that such agent is authorized to perform in behalf of the principal the particular act, and such particular act had been performed, the principal is estopped from denying the agent\u2019s authority to perform it.\u201d \u2019 \u201d Grinnell v. Carbide & Carbon Chemicals Corp., 282 Mich 509, 525; that \u201cThe general rule is that the powers of an agent are prima facie coextensive with the business intrusted to his care.\u201d Grossman v. Langer, 269 Mich 506, 510. See, also, 1 Restatement, Agency, ch 7, \u00a7 267, p 590.\nHaving in mind the skill required in the operation of an X-ray machine, the first question that presents itself to us is the authority of Bonnie Esterbrook in attempting to give an X-ray treatment to plaintiff: on the day in question. Plaintiff urges that the general rules of agency and master and servant apply to the medical and chiropractic professions and that defendant is bound by the acts of his employee. In 41 Am Jur, Physicians and Surgeons, \u00a7 112, pp 223, 224, it is said:\n\u201cIt is the established rule that a physician or surgeon must exercise due care in selecting his assistants, and on the simplest principles of the law, agency, or of master and servant, a physician or surgeon may be liable for the neglect or fault of his employee or servant, such as an assistant who is working under his direction, for injury resulting therefrom to a patient.\u201d (Italics ours.)\nIt is evident that the trial court had the above rule in mind when he granted defendant\u2019s motion for judgment notwithstanding the verdict:\n\u201cHowever, it would seem that for the defendant to be bound by the acts of his agent in this case it must be shown that the act complained of w\u00e1s either the usual practice; customary practice, or under such circumstances as defendant could reasonably have anticipated, or mode under the supervision or direction of the defendant.\u201d\nHowever, it is to be noted that none of the above quoted decisions involve the relationship between a professional man and his nonprofessional servant, nor do the cases cited in Mr. Justice Kelly\u2019s opinion cite cases involving the issue in the ease at bar. Plaintiff cites and relies on Mullins v. DuVall, 25 Ga App 690 (104 SE 513). The court held defendant liable for the negligence of his assistant in administering an injection because the defendant had specifically authorized the servant to perform this professional service. Other cases in this field of the law are Hedlund v. Sutter Medical Service Co., 51 Cal App2d 327 (124 P2d 878), where a nurse negligently administered allergy tests; McCullough v. Langer, 23 Cal App2d 510 (73 P2d 649), where a nurse negligently administered a heat treatment; Simons v. Northern Pacific R. Co., 94 Mont 355 (22 P2d 609), where a nurse used the wrong chemical solution in treating the patient.\nThe 2 cases I have found dealing with the relationship between an osteopath and his nonprofessional servant and a chiropractor and his nonprofessional servant, Noren v. American School of Osteopathy, 223 Mo App 278 (2 SW2d 215), affirming, 298 SW 1061, certiorari denied, 322 Mo 991 (18 SW2d 487); Carver Chiropractic College v. Armstrong, 103 Okla 123 (229 P 641), are also not applicable to the case at bar. In both of these cases the servant was again authorized to perform the professional act which caused the injury.\nLike physicians, dentists, chiropractors, or any other professional persons, an attorney has special professional skills which he uses when rendering professional services to his clients. The attorney\u2019s secretary or clerk generally does not have such skills and therefore the courts have held that the attorney is not liable for the negligence of his secretary or clerk in rendering an unauthorized legal service, such as where the clerk offered to settle a suit, Alternan v. Weil, 80 Misc 337 (142 NYS 465); where a clerk had made an affidavit in support -of a motion to punish a judgment debtor for contempt, Eyre v. Stubbert, 71 Misc 147 (128 NYS 4); where verbal notice of the defendant\u2019s intention to file an appeal given to the district attorney\u2019s clerk was not considered sufficient notice. Page v. Superior Court of City and County of San Francisco, 122 Cal 209 (54 P 730).\nIn Chapman v. Muskegon County Board of Supervisors, 169 Mich 10, we had occasion to express our thinking upon the right of a physician to delegate his services to another physician. In that case plaintiff was hired by a township board to render services to one Bessie Peterson and family. Plaintiff authorized a Dr. Smith to render the family services, and in an attempt to collect for services for Dr. Smith, we said (p 18):\n\u201cWe think it would be going too far to hold that a physician, having a contract of employment with a health board, might hire another physician to do the actual work, and himself collect for the service. It may well be supposed that the element of personal fitness enters into the contract.\u201d\nMr. Justice Kelly relies on Riley v. Roach, 168 Mich 294 (37 LRA NS 834). In that ease defendant was held not liable when his chauffeur, without the consent of the owner, used the owner\u2019s automobile and was involved in an accident.\nIn Chicago & Northwestern Railway Co. v. Bayfield, 37 Mich 205 (16 Am Neg Cas 87), we held that a master is liable for injuries to his servant resulting from the master\u2019s negligence in exposing the servant to risks which the latter is incapable of appreciating.\nIn Loux v. Harris, 226 Mich 315, defendant, as owner of a garage and gasoline station, was held liable for the action of his agent while delivering a can of gasoline contrary to the express orders of defendant. In none of the above cases is there any authority involving the issue in the case at bar.\nIn Loveland v. Nelson, 235 Mich 623, relied upon by Mr. Justice Kelly, there was an action for malpractice in the extraction of a tooth by defendant, a dentist. In that case there was no question of agency involved and it has no relationship to the issue involved in the case at bar.\nIn Klitch v. Betts, 89 NJL 348 (98 A 427), plaintiff, a 10-year-old boy, had a tooth extracted by Dr. Snively, an employee of the defendant. The extraction resulted in the fracture of the boy\u2019s jawbone. It was there held that there was sufficient evidence of the relationship between defendant and Dr. Snively to be submitted to a jury. It should be noted in the above case that there was no question involved as in the case at bar as Dr. Snively was a qualified dentist and not a mere office employee.\nIn McDonald v. Dr. McKnight, Inc., 248 Mass 43 (142 NE 825), Dr. Campbell was in charge of defendant\u2019s dental office. He authorized Mr. Friedman, who was employed in laboratory work, to extract a tooth. Defendant was held liable for damages in the faulty extraction of the tooth. In the above case the employee was expressly authorized to make the extraction.\nIn McConnell v. Williams, 361 Pa 355 (65 A2d 243), it was held that:\n\u201cEvidence that surgeon, having undertaken to perform Caesarian delivery and care for infant until turned over to family physician, selected an interne to assist him and care for infant at time of delivery and had complete control of operating room and every person in it during operation presented a question for jury as to whether interne, though in general employ of nonprofit charitable hospital, was temporary servant of surgeon for whose negligence in performing task assigned to him of inserting silver nitrate solution into infant\u2019s eyes surgeon would be liable.\u201d (Atlantic syllabus.)\nIn the above case the services rendered by the interne or agent were expressly authorized by the defendant.\nWe have in mind that physicians, surgeons, dentists, chiropractors and practitioners of other schools of medicine, as well as attorneys, offer their patients or clients a personalized service based on special skill. In the case at bar defendant was rendering a professional service to plaintiff through the use of the X-ray. We also have in mind that while Bonnie Esterbrook had previously helped to give plaintiff diathermy treatments, she had never given him X-ray treatments, nor had plaintiff been told by defendant that Bonnie Esterbrook could give him such treatments. It also appears to us that a change in the clinic\u2019s routine, which involved professional skill, should have put plaintiff on notice that she might have been acting beyond the scope of her employment. In our opinion the attempt of Bonnie Esterbrook to render, without specific authority, an X-ray treatment, was not incidental to those acts she was authorized to perform, and therefore not within the scope of her authority.\nThe judgment non obstante veredicto should be affirmed, with costs to defendant.\nState, ex rel. American School of Osteopathy, v. Judges of St. Louis Court of Appeals, where plaintiff asked that opinion in Noren Case be quashed.\u2014Reporter.",
+        "type": "dissent",
+        "author": "Sharpe, J."
+      }
+    ],
+    "attorneys": [
+      "Homer Arnett, for plaintiff.",
+      "\u25a0Leonard J. Wein\u00e9r and Roy H. Hagerman, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "BARNES v. MITCHELL.\n1. Physicians and Surgeons\u2014Chiropractor\u2014Malpractice\u2014X-ray Treatment\u2014Authority of Employee\u2014Evidence.\nJury\u2019s verdict that defendant chiropractor\u2019s employee had been' authorized to 'give' plaintiff the X-ray treatment which resulted in burning his hands 'held,' sustained by sufficient evidence.\n2. Trial\u2014Motion for Judgment Non Obstante Veredicto\u2014Evidence.\nEvidence must be viewdd in light most favorable to plaintiff.' in considering a motion by defendant for a judgment-, non obstante veredicto, the same considerations obtaining as upon a' motion to direct a verdict.\n3. Principal and Agent\u2014X-ray Treatment by Chiropractor\u2019s Employee.\nThe fact that defendant chiropractor\u2019s employee may have been: exceeding her authority in using X-ray machine to give plaintiff a treatment would not excuse defendant from negligence, where the treatment was made in what the employee thought was in furtherance of her employer\u2019s interest and in the course or scope of her employment'.\n4. Same\u2014Injury to Third Persons by Negligent or Disobedient Servant.\nGenerally, it is no excuse to an employer that an injury' which has occurred to a - third person was caused by disobedience. of his orders or neglect of ordinary precautions by a servant, whether they be express or implied orders, as the employer assumes the risks of such disobedience or neglect when he puts the servant into his business.\nReferences for Points in Headnotes\n[1, 3, 7,12,13] 41 Am Jur, Physicians and Surgeons \u00a7\u00a7 112, 131.\n[1,3,12] Liability for injury by X-ray. 13 ALR 1414; 26 ALR 732, 735; 57 ALR 268, 274; 60 ALR 259.\n[2] 30 Am Jur, Judgments \u00a7 57.\n[4, 8, 9] 35 Am Jur, Master and Servant \u00a7 559.\n[5] 38 Am Jur, Negligence \u00a7 297.\n[5] Bes ipsa loquitur distinguished from characterization of a known condition as negligence, and from the establishment of biegli-. gence by specific circumstantial evidence. 59 ALR 468; 78 ALR 731; 141 ALR 1016. - -\n[6] 41 Am Jur, Physicians and Surgeons \u00a7\u00a7 125-127.\n[7] 41 Am Jur, Physicians and Surgeons \u00a7 112.\n[10] 35 Am Jur, Master and Servant \u00a7 497.\n[11] 2 Am Jur, Ageney \u00a7 454; 35 Am Jur, Master and Servant \u00a7 513.\n5. Negligence\u2014Res Ipsa Loquitur\u2014Circumstantial Evidence.\nThe fact that the rule of res ipsa loquitur has not been adopted in this State does not prevent a plaintiff from proving a prima facie ease by circumstantial evidence.\n6. Physicians and Surgeons\u2014Malpractice\u2014Proof Required.\nA plaintiff is not required to prove a malpractice ease with absolute eertainty but is required to establish faets from which legitimate inferences may be drawn that present a prima facie ease.\n7. Same\u2014Selection of Assistants\u2014Apparent Authority.\nA physician or surgeon must exercise due care in selecting his assistants and may be liable for the neglect or fault of his employee, whether layman, nurse or another physician, where the employee was apparently acting under the direction of the physician.\n8. Master and Servant\u2014Scope of Employment\u2014Negligence of Servant\u2014Action Contrary to Instructions.\nGenerally, a master is liable for any act of his servant done within the scope of his employment, and if a servant is acting in the execution of his master\u2019s orders, and by his negligence causes injury to a third party, the master will be responsible, although the servant\u2019s act was not necessary for the proper performance of his duty to his master or was even contrary to his master\u2019s instructions.\n9. Same\u2014Respondeat Superior\u2014Negligence.\nThe application of the rule respondeat superior does not depend upon the obedience of the servant to his master\u2019s orders, nor upon the legality of the servant\u2019s conduct, and where he is acting within the seope of his employment and, in so acting, does something negligent or wrongful, the employer is liable, even though the acts done may be the very reverse of that which the servant was actually directed to do.\n10. Same\u2014Presumption of Liability for Servant\u2019s Negligence\u2014 Rebuttal.\nTo rebut the presumption of liability of a master for damage consequent upon the negligent act of a servant, done within the apparent seope of the latter\u2019s employment, it must be shown either that the act was purely wanton or that it was not performed in furtherance of any duty within the actual seope of the servant\u2019s authority.\n11. Principal and Agent\u2014Extent op Authority\u2014Question op Pact.\nThe extent of the authority of a servant or an agent is ordinarily a question for the jury, where the seope of such authority depends upon disputed matters of fact.\n12. Physicians and Surgeons\u2014Chiropractors\u2014Negligence op Servant\u2014Common Law\u2014Statutes.\nThe liability of defendant chiropractor for the admitted negligent burning of plaintiff\u2019s hands from an overdosage of X-ray by defendant\u2019s servant must be determined by an application of common law in the absence of pertinent statutory provisions.\n13. Same\u2014Malpractice\u2014Evidence\u2014Chiropractor\u2014X-ray Treatment by Employee\u2014Burns.\nEvidence in malpractice case against chiropractor was sufficient to justify jury\u2019s verdict that defendant\u2019s employee, a person admittedly not qualified to give X-ray treatments, had given plaintiff sueh a treatment that burned his hands, which was within the seope of her employment to further the interest of defendant rather than that of her own, hence, it was unnecessary for plaintiff to prove that it was the usual and customary practice for her to give X-ray treatments or that the treatment was given under the direction of the defendant, notwithstanding it also appears that defendant himself had theretofore administered X-ray treatments to plaintiff and was absent from the office on the day plaintiff was burned.\nSharpe, J., dissenting.\nAppeal from St. Joseph; Arch (Charles O.), J., presiding.\nSubmitted June 15, 1954.\n(Docket No. 54, Calendar No. 46,046.)\nDecided November 29, 1954.\nBehearing denied January 12, 1955.\nCase by George O. Barnes against L. D. Mitchell, chiropractor, for damages resulting from X-ray burns sustained in treatment at defendant\u2019s office. Verdict for plaintiff. Judgment for defendant notwithstanding verdict. Plaintiff appeals.\nBeversed and remanded for entry of judgment on verdict.\nHomer Arnett, for plaintiff.\n\u25a0Leonard J. Wein\u00e9r and Roy H. Hagerman, for defendant."
+  },
+  "file_name": "0007-01",
+  "first_page_order": 47,
+  "last_page_order": 69
+}

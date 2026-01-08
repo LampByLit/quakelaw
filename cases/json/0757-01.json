@@ -1,0 +1,266 @@
+{
+  "id": 3188735,
+  "name": "STATE of Louisiana v. Clarence SAVELL",
+  "name_abbreviation": "State v. Savell",
+  "decision_date": "1959-12-14",
+  "docket_number": "No. 44787",
+  "first_page": "757",
+  "last_page": "767",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 758"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 So.2d 513"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "35 La.Ann. 46",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        318207
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la-ann/35/0046-01"
+      ]
+    },
+    {
+      "cite": "94 So.2d 439",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        5433050,
+        5434522,
+        9902597,
+        9902462
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/232/0467-01",
+        "/la/232/0467-02",
+        "/so2d/94/0439-02",
+        "/so2d/94/0439-01"
+      ]
+    },
+    {
+      "cite": "232 La. 468",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5433050,
+        5434522,
+        9902597
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/232/0467-01",
+        "/la/232/0467-02",
+        "/so2d/94/0439-02"
+      ]
+    },
+    {
+      "cite": "228 La. 899",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2897282,
+        9901039
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/228/0899-01",
+        "/so2d/84/0452-01"
+      ]
+    },
+    {
+      "cite": "215 La. 974",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10108617,
+        2955693
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/41/0848-01",
+        "/la/215/0973-01"
+      ]
+    },
+    {
+      "cite": "86 So.2d 108",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9890274,
+        5527887
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/86/0108-01",
+        "/la/229/0475-01"
+      ]
+    },
+    {
+      "cite": "229 La. 476",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9890274
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/86/0108-01"
+      ]
+    },
+    {
+      "cite": "74 So.2d 207",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        10045670,
+        3035918
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/74/0207-01",
+        "/la/225/1039-01"
+      ]
+    },
+    {
+      "cite": "225 La. 1040",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10045670
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/74/0207-01"
+      ]
+    },
+    {
+      "cite": "221 La. 713",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9909761,
+        2948915
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/60/0208-01",
+        "/la/221/0714-01"
+      ]
+    },
+    {
+      "cite": "216 La. 610",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2903906,
+        10064327
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/216/0609-01",
+        "/so2d/44/0313-01"
+      ]
+    },
+    {
+      "cite": "196 La. 217",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3060283,
+        10094236
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/196/0217-01",
+        "/so/198/0910-01"
+      ]
+    },
+    {
+      "cite": "232 La. 766",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5434568,
+        9903243
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "310"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/232/0765-01",
+        "/so2d/95/0305-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 534,
+    "char_count": 9506,
+    "ocr_confidence": 0.739,
+    "pagerank": {
+      "raw": 3.488004413469308e-07,
+      "percentile": 0.8821203475569425
+    },
+    "sha256": "83ccb6dc8dc7f89aa8543a7f75c2a837f5453ad42c65a76e6b22ea586aba57e0",
+    "simhash": "1:ad24a4cde0cd25c9",
+    "word_count": 1567
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "SIMON, J., absent."
+    ],
+    "parties": [
+      "STATE of Louisiana v. Clarence SAVELL."
+    ],
+    "opinions": [
+      {
+        "text": "HAMITER, Justice.\nA bill of information charged Clarence Saveli with having committed the crime of incest on or about July 1, 1957. The information further recited that \u201c * * *\u25a0 although more than one year has elapsed since the commission of the aforesaid offense, in manner and form as aforesaid, yet more than one year has not elapsed since the commission of the aforesaid offense was made known to the Judge, District Attorney or Grand Jury having jurisdiction thereof, * *\nFollowing a jury trial the accused was found guilty of attempted incest, and he was sentenced by the court to be confined in the Louisiana State Penitentiary at hard labor for a period of six years.\nOn this appeal the defendant relies on-four perfected bills of exceptions for a .reversal of his conviction and sentence.\nBill No. 3 was taken to the introduction of an alleged confession, defense counsel contending here (as they did during the trial) that the state had failed to show affirmatively that it was freely and voluntarily made. The state maintains, to quote from its brief, that it established beyond a reasonable doubt that \u201c * * * this was a statement given freely and voluntarily, without any force, threats, or coercion of any type whatsoever used.\u201d Further, the state says: \u201c * * * this statement can and should be classified as an exculpatory statement, therefore, admissible even though proper foundation for confession not laid.\u201d\nThis court has held: \u201c * * * Our law provides that, before any confession can be introduced in evidence, the State must affirmatively prove that it was freely and voluntarily given and not made under the influence of fear, duress, intimidation, menaces, threats, inducements or promises. Articles 451 and 452, Code of Criminal Procedure (R.S. 15:451, 452) and Section 11 of Article 1 of the Constitution of 1921. And it is established by our jurisprudence that, before what purports to be a confession can be received in evidence, it must be shown by proof which convinces beyond a reasonable doubt that it is voluntary. * * *\u201d State v. Weston, 232 La. 766, 95 So.2d 305, 310. See also State v. Henry, 196 La. 217, 198 So. 910; State v. Honeycutt, 216 La. 610, 44 So.2d 313; State v. Green, 221 La. 713, 60 So.2d 208; State v. Michel, 225 La. 1040, 74 So.2d 207; State v. Johnson, 229 La. 476, 86 So.2d 108.\nRegarding the introduction of the alleged confession in the instant cause the following pertinent statements of the trial judge are contained in his per curiam:\n\u201cOut of the presence of the jury, the District Attorney stated he had a confession he wanted to present and lay a foundation of its introduction into evidence.\n\u201cThe District Attorney then called to the witness stand Vernon Parish Deputy Sheriff, Malcolm Smart. Mr. Smart testified substantially as his testimony is shown beginning at page four (4) of the official transcript in response to similar questioning by the District Attorney. When his testimony was completed, the District Attorney stated he had no further evidence except for rebuttal. The Court asked counsel for defendant if he had anything to offer and he replied in the negative. The Court stated that the deputy\u2019s statement, if uncontradicted, would support the admissibility of the confession and such ruling was made. Defense counsel then objected on the ground that sufficient proof had not been adduced to sustain the free and voluntary nature of the confession. The Court then stated that even though only one witness, Deputy Smart, had testified on that issue, his testimony was not contradicted and if Defense Counsel had any testimony or evidence to offer, the issue would he re-opened by the Court. * * *\n\u201cCounsel for defendant then called the defendant to the witness stand and his testimony is shown beginning at page two (2) of the official transcript.\n\u201cThe Court ruled the confession admissible into evidence. The jury was then returned and Deputy Malcolm Smart again testified substantially with his testimony shown in the official transcript. Vernon Parish Deputy Sheriff L. L. Craft then was called, sworn, and testified in such manner that it corroborated the testimony of Deputy Smart in every respect.\u201d\nWe have examined the testimony referred to in the per curiam. It reflects that Deputy Smart and Deputy Craft were in a room of the court house with the defendant at the time of, and for approximately an hour and a half prior to, the making of the statement. However, only Deputy Smart testified out of the presence of the jury on the question of its admissibility. And nowhere in his testimony did he say unqualifiedly that the confession was given without any use of force, threats, inducements, promises, etc.\nAmong the questions propounded to Deputy Smart were: \u201cDid you threaten him?\u201d \u201cDid you promise him anything?\" \u201cDid you use any threats or force?\u201d To each of these, as well as to similar interrogatories, he responded: \u201cI did not, sir.\u201d Thus at no time did he state that his co-deputy (Craft), who was also present when the accused allegedly gave the statement, likewise committed none of the mentioned acts. In this connection it is important to observe that, despite the fact that immediately after Deputy Smart\u2019s testimony was elicited defense counsel objected and urged that the showing made thereby was insufficient, the state failed to produce Deputy Craft who (as shown by the record) was then available to testify. (Italics ours.)\nIt is true that the defendant, following the mentioned sufficiency objection of his counsel and during the jury\u2019s retirement, took the stand and said under cross examination: \u201cWell, I made some kind of a statement. I don\u2019t know what kind it was. I don\u2019t know what\u2019s on it.\u201d However, he did not admit having given freely and voluntarily the particular statement under consideration.\nIt may be true also that, as stated in the trial judge\u2019s per curiam, on the return of the jury and after the confession had been admitted in evidence Deputy Craft \u201ctestified in such manner that it corroborated the testimony of Deputy Smart in every respect\u201d (Craft\u2019s testimony is not in the record). But it will be remembered that Deputy Smart merely testified that he (Smart) did not use threats, promises, coercion, etc. Hence, the corroboration (assuming that it could be considered notwithstanding that the confession had been introduced previously) does not eliminate the possibility that Deputy Craft himself may have acted otherwise.\nUnder the circumstances outlined above we must conclude that the state did not discharge its burden of establishing affirmatively and beyond a reasonable doubt the free and voluntary nature of the confession.\nThere is no merit to the state\u2019s contention that the statement is merely exculpatory and that the laying of a foundation for its admission was unnecessary. Although the instrument is not an outright admission of the charged incest, it is an unqualified confession of an \u201cattempt\u201d to commit that crime \u2014 a lesser offense for which a verdict could properly be returned (in fact it was returned). To say the least the statement is an admission of inculpatory facts which, under our jurisprudence, must be treated as a confession with respect to the requirement of laying a proper foundation for the introduction thereof. State v. Robinson, 215 La. 974, 41 So.2d. 848, State v. Clark, 228 La. 899, 84 So.2d 452, State v. Johnson, supra, and State v. Palmer, 232 La. 468, 94 So.2d 439.\nSince the state failed to lay the proper foundation for the introduction of the discussed statement its submission to the jury constituted reversible error. Consequently, the conviction and sentence must be set aside and a new trial granted. It is to be understood, of course, that we are not now holding that the confession was involuntarily made. Accordingly, during the new trial the state may introduce it on and after properly establishing its free and voluntary character.\nOf the remaining three bills of exceptions the only one containing an objection that probably will again arise on the new trial, and hence which now should be considered, is bill No. 8. Under it the defendant complains of the trial judge\u2019s overruling of his motion in arrest of judgment wherein he urged that the bill of information was defective in that it did not negative prescription as to the offense of \u201cattempted incest\u201d for which he was found guilty and which allegedly occurred more than a year prior to the filing of the formal charge against him.\nThe judge, in our opinion, correctly overruled the motion in arrest. Unquestionably attempted incest is a lesser grade of, and is included in, the offense of incest. This defendant was charged with incest, and the bill of information (as above shown) contained a specific negation of prescription as to it. This being true it necessarily follows that prescription as to the lesser and included crime of attempted incest was sufficiently negatived. A prosecution for the greater offense constitutes in legal intendment a prosecution for the lesser crime. State v. Diskin, 35 La.Ann. 46.\nFor the reasons assigned the conviction and sentence appealed from are reversed and set aside, and the cause is remanded to the district court for a new trial according to law.\nSIMON, J., absent.",
+        "type": "majority",
+        "author": "HAMITER, Justice."
+      }
+    ],
+    "attorneys": [
+      "Kay & Kay, De Ridder, for appellant.",
+      "Jack P. F. Gremillion, Atty. Gen., M. E. Culligan, Asst. Atty. Gen., Peter S. Anderson, Dist. Atty., Leesville, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "116 So.2d 513\nSTATE of Louisiana v. Clarence SAVELL.\nNo. 44787.\nDec. 14, 1959.\nKay & Kay, De Ridder, for appellant.\nJack P. F. Gremillion, Atty. Gen., M. E. Culligan, Asst. Atty. Gen., Peter S. Anderson, Dist. Atty., Leesville, for appellee."
+  },
+  "file_name": "0757-01",
+  "first_page_order": 411,
+  "last_page_order": 416
+}

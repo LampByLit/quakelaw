@@ -1,0 +1,405 @@
+{
+  "id": 1855443,
+  "name": "PEOPLE v. NICHOLS",
+  "name_abbreviation": "People v. Nichols",
+  "decision_date": "1954-11-29",
+  "docket_number": "Docket No. 83, Calendar No. 45,836",
+  "first_page": "311",
+  "last_page": "332",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "341 Mich. 311"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "163 ALR 939",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "17 Pa D & C 229",
+      "category": "reporters:state",
+      "reporter": "Pa. D. & C.",
+      "case_ids": [
+        1504237
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa-d-c/17/0229-01"
+      ]
+    },
+    {
+      "cite": "20 NE2d 229",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 Ohio St 187",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        1017985
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-st/135/0187-01"
+      ]
+    },
+    {
+      "cite": "17 NE2d 428",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Ohio App 191",
+      "category": "reporters:state",
+      "reporter": "Ohio App.",
+      "case_ids": [
+        1356835
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-app/59/0191-01"
+      ]
+    },
+    {
+      "cite": "67 P2d 1059",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "283 NYS 749",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "247 App Div 31",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        6062065
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/247/0031-01"
+      ]
+    },
+    {
+      "cite": "340 Mich 242",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1925836
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/340/0242-01"
+      ]
+    },
+    {
+      "cite": "58 NE2d 773",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "144 Ohio St 305",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        1033334
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-st/144/0305-01"
+      ]
+    },
+    {
+      "cite": "37 Mich 490",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1341538
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/37/0490-01"
+      ]
+    },
+    {
+      "cite": "102 NE 450",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "282 NYS 444",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "156 Misc 451",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        847765
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc/156/0451-01"
+      ]
+    },
+    {
+      "cite": "131 ALR 804",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "114 F2d 479",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10702657
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/114/0479-01"
+      ]
+    },
+    {
+      "cite": "72 App DC 318",
+      "category": "reporters:state",
+      "reporter": "App. D.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "102 NE 2d 450",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "156 Ohio St 333",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        1057267
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "337, 338"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-st/156/0333-01"
+      ]
+    },
+    {
+      "cite": "169 P2d 442",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal App2d 652",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        6044192
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/74/0652-01"
+      ]
+    },
+    {
+      "cite": "115 ALR 163",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "weight": 4,
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 P2d 1043",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "weight": 4,
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal2d 428",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "weight": 4,
+      "opinion_index": 0
+    },
+    {
+      "cite": "64 SD 309",
+      "category": "reporters:state",
+      "reporter": "SD",
+      "case_ids": [
+        5325579
+      ],
+      "weight": 6,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sd/64/0309-01"
+      ]
+    },
+    {
+      "cite": "252 NW 7",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "case_ids": [
+        5320603
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sd/62/0123-02"
+      ]
+    },
+    {
+      "cite": "62 SD 123",
+      "category": "reporters:state",
+      "reporter": "SD",
+      "case_ids": [
+        5320603,
+        5321470
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "pp 131, 132, 136"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sd/62/0123-02",
+        "/sd/62/0123-01"
+      ]
+    },
+    {
+      "cite": "104 ALR 430",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "weight": 3,
+      "year": 1933,
+      "pin_cites": [
+        {
+          "page": "441"
+        },
+        {
+          "page": "441"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "140 Mich 642",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1507903
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/140/0642-01"
+      ]
+    },
+    {
+      "cite": "49 Mich 492",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1395842
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/49/0492-01"
+      ]
+    },
+    {
+      "cite": "42 Mich 141",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1411642
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/42/0141-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1293,
+    "char_count": 40163,
+    "ocr_confidence": 0.487,
+    "pagerank": {
+      "raw": 4.087937871956722e-07,
+      "percentile": 0.9091381389416912
+    },
+    "sha256": "301ebb922fb928035af60cc06f1f562b68359bd9ea701755ef79ddf0b4c916bf",
+    "simhash": "1:b4a5a023329bb8aa",
+    "word_count": 6921
+  },
+  "last_updated": "2024-02-27T16:14:53.692353+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Btttzel, C. J., and Carr, Bushnell, Sharpe, Reid, and Kelly, JJ., concurred with Dethmers, J."
+    ],
+    "parties": [
+      "PEOPLE v. NICHOLS."
+    ],
+    "opinions": [
+      {
+        "text": "Boyles, J.\n(dissenting). The defendant appeals from an order following a jury verdict of guilty of being the father of the illegitimate child of the complaining witness, a single woman. The proceeding is commonly referred to as a bastardy case, although the statute does not use that term. The objective sought by the statute is to compel the father of an illegitimate child to assist in its support, and to prevent the child from being a public charge. The proceeding is quasi-criminal in nature in that the statute provides for a performance bond by the father and commitment to jail for failure to perform. However, the rules of evidence in civil cases apply and do not require that the guilt of the defendant be proved beyond a reasonable doubt. Semon v. People, 42 Mich 141; People v. Phalen, 49 Mich 492; Harley v. Ionia Circuit Judge, 140 Mich 642.\nThe complaining witness, a former schoolteacher with a B.S. degree, 27 years of age, testified that for some time in 1950 she saw the defendant, also 27 years of age, 2 or 3 Saturday nights a month. She testified that while riding in an automobile they gradually \u201cnecked\u201d and caressed, and that in January or February, 1951, they had sexual intercourse at their \u201cfavorite parking spot\u201d in the country. In May, 1951, she was pregnant. She testified that at that time they again had sexual intercourse, and that \u201cthese are the only 2 times I ever had sexual relations with him or anyone.\u201d The child was born November 20, 1951. She decided to keep the child, telephoned the defendant, they met, she gave the baby to the defendant to hold and told him it was their child: She further testified:\n\u201cI have never had sexual intercourse with any other person than Mr. Nichols. I was afraid of sex. He was the only one who ever touched me.\u201d\nHer testimony that she was with the defendant frequently in 1950, that they were together at the Moose club on a Saturday night in January or February, 1951, left in an automobile to take a \u201cbaby sitter\u201d home from her sister\u2019s house late at night and did not return until 5 or 6 o\u2019clock in the morning (on which occasion she testified they had sexual intercourse) was corroborated by her sister and her brother-in-law, at whose home she was staying. Her testimony as to being at her brother-in-law\u2019s home late on Saturday night on January 20 or 27, or February 10, 1951, was corroborated by her sister and brother-in-law, and also by the \u201cbaby sitter\u201d who confirmed the complaining witness\u2019s testimony that she (the complaining witness) and the defendant were together at that time and that they took her (the \u201cbaby sitter\u201d) home late at night.\nThe defendant, testifying in his own behalf, admitted that he had been out with the complaining witness, of having \u201cmade love\u201d to her, denied having been with her in January or February, 1951, and categorically denied ever having had sexual intercourse with her.\nThe defendant seeks reversal solely on the claim that the court erred in receiving testimony, over his objection, that blood-type tests of the blood of himself, the complaining witness, and of the child disclosed that their blood was all of the same type, and. that it indicated he could be the father; and that the court erred in charging the jury that it could give such testimony whatever weight the jurors deemed proper.\nWhether this was error is a question of first impression in this State.\nIn March, 1952, before the trial, the blood of the defendant, of the complaining witness, and of the child, was submitted to blood-type tests, requested by the defendant at the suggestion of his counsel. The samples of blood were taken by a doctor who was director of the branch laboratory of the Michigan department of health in Grand Rapids, when the defendant, the complaining witness and the child were there at the defendant\u2019s request. These 3 blood samples were tested for blood-group type by Doctor Muehlberger, the doctor in charge of the crime detection laboratory of the Michigan department of health at Lansing. He testified at length as to the scientific method of determining blood types, and how the results were obtained. Over objection by the defendant, he was allowed to testify that the types of said 3 specimens of blood were the same, and that this indicated that the defendant could be the father of the child insofar as blood type was concerned. The doctor also testified that his finding of possible paternity was not conclusive, that any other person having the same type could have been the father, \u201cso there is nothing definite about it;\u201d and in answer to the question \u201cHow large the class is not known?\u201d (he., having the same results from the test) said \u201cthere are about 2 billion people in this world.\u201d Doctor Muehlberger testified as to the scientific tests used to determine blood types, as follows:\n\u201cQ. Will you explain to the jury just what type of examination you made, or analysis you made of these particular samples of blood that were delivered to you and to your office?\n\u201cA. Well, I submitted them to what are known as blood-group tests to find out what particular blood group these 3 specimens fell into. There are several ways in which one can blood group\u2014group bloods. We all have present in our blood either, or both, or neither of 2 factors which are known as the A and B factor. A person who has neither of them is type 0 blood, or has type 0 blood. The person who has A but not B has type A blood. If he has B, but not A, then he has type B blood, and if he has both of them, then he is type AB blood, so there are 4 possible classifications, based on the presence or absence of the A and B factors. Then there are 2 other factors known as the M and N factors, which may be either or both present in every person. No person has ever been found who has neither M nor N. He is either M, N, or both of them, which is called MN, so that we can group people on the basis of the presence of the M and N factors. Then there is still another type of grouping, which we call the EH factors, EH because they originally were developed from the Ehesus monkey, and that\u2019s why they are called EH factors. Now, there are 3 separate subgroups of the EH. There is EH\u00b0, which is the original EH factor, then there is an EH Prime and EH Double Prime factors. So the presence or absence of those 3 EH factors can also be determined in every person. So that was the basis on which these 3 bloods were typed to determine which of these groupings they fell into.\n\u201cQ. Will you explain to the \u00a1jury, after you made these various tests, and examinations of these 3 samples of blood, into which blood groups the blood of Mr. James Nichols fell?\n\u201cA. With respect to the AB factors, Mr. James Nichols was type A. With respect to the M and N factors, Mr. Nichols was type M, and with respect to the 3 RH factors, Mr. Nichols was RH\u00b0. That is, the first RH type was positive. RH Prime was negative and RH Double Prime was positive.\n\u201cQ. And your examination of the blood of this child as to these various factors, what did it show?\n\u201cA. It showed exactly the same thing. The baby boy Nichols\u2014baby boy Fedewa was type A, so far as A and B factors was' concerned; type M so far as M and N factors was concerned and RH\u00b0, positive, RH Prime, negative; RH Double Prime, positive.\n\u201cQ. And the baby\u2019s blood agreed in every respect with the blood of Mr. James Nichols, is that right?\n\u201cA. That is right.\n\u201cQ. And your examination of the blood of Miss Juliana Fedewa as to these various factors, what did th\u00e1t show?\n\u201cA. Well, it was exactly the same as the other 2 bloods with the exception that instead of type A, it was type 0. That is, with respect to the M and N\u2014with regard to the AB factors, Juliana Fedewa had neither one of them, which is type 0. With respect to the M and N factors, Juliana Fedewa had type M only, and with respect to the RH factors, Juliana Fedewa had RH\u00b0 positive; RH Prime, negative, RH Double Prime, positive.\n\u201cQ. She agreed in all respects with the blood of Mr. Nichols and this baby, except as to the A and B factors ?\n\u201cA. That is right. That is correct.\n\u201cQ. Are you able, based upon this examination that you made and your knowledge of this field, are you able to draw any conclusions from the various factors and blood groupings in which the blood of these 3 persons falls, are you able to draw any conclusion from that?\n\u201cA. As to paternity or possible paternity?\n\u201cQ. Yes, as to paternity or possible paternity?\n\u201cA. Yes, a person having the blood grouping: characteristics of Mr. James Nichols could be the father of a baby born to Juliana\u2014a person having the blood group of Juliana Pedewa, and which baby had the blood group of the baby boy Pedewa. That is, it is entirely possible that such a person could have been the father of such a baby.\n\u201cQ. Is there any other conclusion that you can draw from this test regarding the paternity of this child?\n\u201cA. No, I don\u2019t believe so.\u201d\nOn cross-examination, the doctor testified:\n\u201cQ. Dr. Muehlberger, in regard to your answer to the last question, I noted that you used the words, \u2018could have been.\u2019\n\u201cA. That\u2019s right.\n\u201cQ. In other words, you are stating, and stating it very carefully to the jury that your findings are not in any way conclusive?\n\u201cA. Of course not. Any other person having the same blood grouping could have been the father, and there are possible other blood grouping possibilities, that could have been the father, so there is nothing definite about it. All I can say is that he could have been the father. I wouldn\u2019t\u2014I would be entirely incapable of saying on the basis of blood groups that any person was the father of a certain child. You can say under certain circumstances he could not be the father of a child, but you never can say that he must have been the father of a certain child.\n\u201cQ. Are these blood groupings, Doctor, which you set forth originally, that is, the 0, the A and the B and the AB, are they divided among our population, that is, is our population divided into certain percentage groups along those lines?\n\u201cA. Yes, the white population of this country falls roughly into about 45% of type 0, 42% of type A, about 10% of type B, and about 3% of type AB. Is that what you\u2014\n\u201cQ. That is what I wanted. In other words, the majority of our white population in this country is either type O or type A?\n\u201cA. Yes, in fact, 87% of them. That is 7 out of 8.\u201d\nFor a more comprehensive article by an experienced expert in taking blood-grouping tests, explaining the scientific steps used, see Michigan State Bar Journal, January, 1954, p 12.\nThe court, in referring to the blood-type testimony, charged the jury as follows:\n\u201cIn this case, the court did permit evidence as to the blood test, from which it appeared, by the evidence this morning, the blood test was requested by the respondent. It has not yet been established by a decision of our Supreme Court whether such tests should be permitted in evidence. I did permit the test because I assumed you parties, as intelligent jurors, could weigh the evidence, and give to it such weight as you deem proper. Under the blood tests, as I understand the evidence, they can definitely determine whether a man could be the father, that is, they could rule it out\u2014-those tests-\u2014at least that, but they have not yet reached the point where they definitely determine that he is the father, only that he could be\u2014-the blood is of a type so that he is within the class that could be the father of the child.\u201d\nThe question of the admissibility of this testimony has not heretofore been before this Court. In other jurisdictions, it has been passed upon, under various differing facts and circumstances. In 104 ALR 430 the case of State v. Damm (1933), 62 SD 123 (252 NW 7), is reported in full. The headnotes in 104 ALR at pp 430, 432, say:\n\u201cThe result of tests made by competent persons for the ascertainment of blood types or groupings is admissible in evidence upon the issue of paternity of a child. (On rehearing.)\n\u201cThe taking of blood for test purposes from a party to a civil action or proceeding does not infringe any constitutional right.\n\u201cA trial court of record has inherent power in a civil case, in its reviewable discretion, to order the taking of blood for the purpose of ascertaining groupings in eases where paternity is at issue and where in the opinion of the court the making and reporting of such tests are likely to be helpful in ascertaining the truth; and may do so on its own motion.\u201d\nIn deciding the case, the supreme court of South Dakota, 62 SD 123 at pp 131, 132, 136, said:\n\u201cA medical expert called by appellant testified concerning the matter of proof of paternity by blood test. It was not the contention of this witness that paternity could in any case be affirmatively proved by such blood test, but he did contend that in quite a percentage of cases the impossibility of claimed paternity could be demonstrated by blood test. It was, in substance, the testimony of this witness that human blood is divided into 4 recognized types or groups, and that, if the blood groups of both parents are known, the blood group of the offspring can, to a certain extent, be predicted. Conversely, if the blood groups of a mother and child are known, it can he said what must have been the blood group of the father, and consequently the impossibility of certain paternity may be effectively demonstrated. Appellant in this case offered to submit himself to such blood test, and asked the court to require prosecutrix and her infant child to submit thereto. * * *\n\u201cIt appears that evidence as to blood tests in paternity cases has been accepted in continental countries. We can find no record of the question being passed upon by any courts of last resort in the \u25a0United States. * * *\n\u201cWithout endeavoring to arrive at any decision on other questions involved in connection with this particular claim of error, we hold that the learned trial judge did not abuse his discretion in refusing to order the blood test requested by appellant.\u201d\nOn rehearing of State v. Damm, 64 SD 309 (266 NW 667), said court referred to articles from medical and law journals and foreign jurisdictions, and at pp 315-317, reported in 104 ALR at pp 444-446, said:\n\u201cIt would seem quite clear that physical examination or the taking of a few drops of blood does not amount, therefore, to an infringement of any constitutional right, for if it was such infringement, manifestly the legislature would be powerless to decree it. * * * The primary function of the judiciary is the administration of justice, and justice can never be rightly administered unless truth be first ascertained as nearly as may be. * * * We perceive no valid reason why courts of record may not require of any person within their jurisdiction the furnishing of a few drops of blood for test purposes when, in the opinion of the court, so to do will or may materially assist in administering justice in a pending matter. * * *\n\u201cWe recapitulate the views hereinbefore set forth by saying that we think (1) the reliability of the blood test is universally conceded by competent scientific authorities; (2) a trial court of record in this State has inherent power and authority, in its reviewable discretion, to order the taking of blood for such purposes in cases where paternity is an issue and where, in the opinion of the court, the making and reporting of such test will be, or is likely to be, helpful in ascertaining the truth.\u201d\nIn Arais v. Kalensnikoff (1937), 10 Cal2d 428 (74 P2d 1043, 115 ALR 163) (decided in the absence of statute law), the court held (syllabi):\n\u201cTestimony as to the result of a blood test to determine paternity is expert opinion, the conclusions of the examiner being based upon medical research and involving questions of chemistry and biology with which a layman is entirely unfamiliar, and while expert testimony is to be given the weight-to which it appears in each case to be entitled, the law makes no distinction whatever between such testimony and evidence of other character, and no evidence is by law made conclusive or unanswerable unless so declared by statute, it being for the jury to determine the relative weight of the evidence in the case of a conflict between scientific testimony and testimony as to facts.\n\u201cParentage is not exclusively a subject for expert evidence; and where there is testimony of the mother of the child, and of corroborating witnesses, concerning the numerous visits of defendant to her home, his actions with the child, his payment of bills for groceries supplied the mother and his admissions that he was the father of the child, and there is contrary medical testimony that the results of a blood test show that he was not the child\u2019s father, it is the duty of the court to determine the fact of parentage upon all the evidence, and a finding that the defendant is the father of the child, being supported by substantial evidence, may not be disturbed on appeal.\n\u201cThe fact that the mother, in the birth certificate, caused a third person to be named as the father of an illegitimate child, did not raise an estoppel against her or require a reversal of the judgment that defendant was the father of the child and responsible for its support, where there was no.evidence that the mother led defendant to believe that said statement was true, and the record supported the implied finding that she gave a fictitious name for the father at the request of defendant and for the purpose of protecting him.\n\u201cWhere there is ample evidence to support the finding of parentage in such a case, there is no abuse of discretion in denying a motion for a new trial on that ground.\u201d\nIn the more recent Charles Chaplin case, of Berry v. Chaplin (1946), 74 Cal App2d 652 (169 P2d 442), the California court held (Pacific syllabi):\n\u201cThe blood test as legal evidence of paternity is \u2018expert opinion\u2019 because the conclusions reached by examiner are based upon medical research and involve questions of chemistry and biology with which a layman is unfamiliar.\n\u201cExpert testimony is to be given the weight to which it appears in each case to be justly entitled.\n\u201cWhen scientific testimony and evidence as to facts conflict, the relative weight of evidence is to be determined by trier of facts.\u201d\nIn so holding, the court said (pp 665, 666):\n\u201cWere the blood tests conclusive that defendant is mot the father of plaintiff The qualifications, competency, and integrity of the physicians designated to make the blood tests are not questioned. * * *\n\u201cBut the blood tests were not conclusive evidence. It was so declared in the only reported case in California in which blood tests were used for the purpose of attempting to determine the parentage of a child. Arais v. Kalensnikoff, 10 Cal2d 428 (74 P2d 1043, 115 ALR 163). In that case the court held (pp 431, 432), that the evidence concerning the blood test \u2018is expert opinion because the conclusions reached by the examiner are based upon medical research, and involve questions of chemistry and biology with which a layman is entirely unfamiliar,\u2019 but that such tests and the evidence thereof are not conclusive because not so declared by the code (Code Civ Proc \u00a7 1978); and further, that expert testimony is to be given the weight to which it appears to he justly entitled. * * *\n\u201cWhen scientific testimony and evidence as to facts conflict, the jury or the trial court must determine the relative weight of the evidence. * * *\n\u201cThe decision in the Ar\u00e1is Case has been the subject of discussion and criticism in law reviews and other legal periodicals hut not by other courts as far as we have been able to ascertain, and it remains the law of this State until modified or overruled by the court that rendered the opinion.\u201d\nThe California cases were decided in the absence of any statute declaring whether or not the testimony of blood-group tests should he admissible without regard to the results. A like absence of such a statute prevailed in this State at the time the instant case arose and was decided in the trial court. Subsequent to the California decisions, California and Michigan have enacted such statutes. The Michigan statute is worded quite unlike the statutes under consideration in other jurisdictions and does not apply to the situation here.\nIn decisions from other jurisdictions, the question involved the construction of statute law and they are not controlling in the absence of a statute in the instant case. In Ohio, the statute provided that blood-grouping tests might be required to determine whether a person could be excluded as being the father of a child and expressly declared that the result of the test, if it establishes nonpaternity, shall be receivable in evidence. The court held that the statute authorized the admission of such testimony only where the results established nonpaternity, otherwise not admissible. In State, ex rel. Freeman, v. Morris (1951), 156 Ohio St 333, 337, 338 (102 NE 2d 450), the court said:\n\u201cIt cannot be assumed, therefore, that in the enactment of the statutes above quoted there was any purpose on the part of the general assembly to make competent any such affirmative evidence in such proceedings. By the clear provisions of section 12122-1, General Code, such blood-grouping tests, are \u2018required or authorized\u2019 only \u2018to determine whether or not the defendant can be excluded as being the father of the child,\u2019 and it is only \u2018in cases where exclusion is established\u2019 that \u2018the results of the tests together with the finding of the expert or experts of the fact of nonpaternity shall be receivable in evidence.\u2019\n.\u201cIt is to be observed that this same provision appears in both sections of the statute above quoted.\n\u201cThe maxim, expressio unius est exclusio alterius, clearly applies. Over the strenuous objection of the defendant a concedeclly qualified pathologist was permitted to testify at length as to the results of a blood-grouping test of the complainant, her' baby and the defendant. His findings were so broad and general that they could not properly be applied in the determination of the paternity of complainant\u2019s child. Under the limitations prescribed by our statutes the evidence should have been excluded.\u201d\nIn Beach v. Beach, United States Court of Appeals for the District of Columbia (1940), 72 App DC 318 (114 F2d 479, 131 ALR 804), also decided in construing a statute, the appellant alleged pregnancy by the defendant, which he denied. A child was born pending suit and the district judge, on motion of the defendant, ordered that the mother and child submit to blood-grouping tests to compare with the blood of the defendant. The court said (pp. 480, 481):\n\u201cThe value of blood-grouping tests as proof of nonpaternity is well known. On this point it is enough to cite the report of the American Medical Association\u2019s Committee on Medicolegal Blood-Grouping Tests, which shows that although such tests cannot prove paternity, and cannot always disprove it, they can disprove it conclusively in a great many cases provided they are administered by specially qualified experts. * * * The use of the tests as disproof of paternity, with or without a statute expressly authorizing it, has been approved in a number of cases.\n\u201cFormerly Federal courts could not subject plaintiffs to physical examination except in States where such examinations were authorized by statute. But Rule 35(a) of the Rules of Civil Procedure, 28 USCA following section 723e, provides: \u2018In an action in which the mental or physical condition of a party is in controversy, the court in which the action is pending may order him to submit to a physical or mental examination by a physician.\u2019 As the rules were authorized and tacitly ratified by Congress, and adopted by the supreme court, it is clear that a physical examination may now be ordered in a case covered by Rule 35(a). Appellant\u2019s contention that the rule modifies the \u2018substantive rights\u2019 of litigants, and is therefore unauthorized, is not sound.\u201d\nFlippen v. Meinhold, 156 Misc 451 (282 NYS 444), also considered the effect of a statute where the plaintiff, in a suit for support of plaintiff\u2019s child, sought a court order to compel the defendant to submit to blood grouping under a statute. The court said (pp 445, 446):\n\u201cPlaintiff seeks by these blood-grouping tests to obtain further proof of defendant\u2019s paternity.\n\u201cPrevious to the enactment of section 306-a of the civil practice act, it had been held that a party to an action conld not be compelled to submit to a blood-grouping test. * * * The evident purpose of the statute was to obviate injustice wherever possible, and this becomes apparent when due consideration is given to the extent to which such tests are of scientific value. These tests may, in some instances, conclusively prove nonpaternity; they never establish paternity. * * *\n\u201cChapter 197 amends the inferior criminal courts act so as to permit blood-grouping tests \u2018on motion of the defendant.\u2019 The same phrase appears in chapter 198, which amends the domestic relations law (adding section 126-a). Chapter 196 of the Laws of 1935 (section 306-a of the civil practice act), with which we are presently concerned, provides that the court shall direct \u2018any party to the action and the child of any such party to submit to 1 or more blood-grouping tests.\u2019 This section, however, provides for these tests only \u2018wherever it shall be relevant to the prosecution or defense of an action.\u2019\n\u201cIn brief, the blood-grouping tests here sought by the plaintiff are not \u2018relevant to the prosecution\u2019 of her alleged cause of action, as even a positive result would furnish no satisfactory proof of defendant\u2019s paternity. The application therefore does not fall within the scope of section 306-a of the civil practice act, which was clearly intended to be used as a shield and not as a sword, and must be denied.\u201d\nTo recapitulate, New York, Pennsylvania, Ohio and the Congress have enacted statutes which provide for the taking of blood-group tests in paternity cases, and for the admissibility in evidence of the results where the exclusion of the defendant from such paternity has been established. In construing such statutes, the courts have held that testimony of the result shall he admissible in evidence only where the result of such tests establishes the exclusion of the defendant from such possible paternity.\nThey cannot be said to control in the case at bar where there is no such statute to be construed. California and Michigan seem to be the only 2 jurisdictions where this question has been brought before the courts of last resort, in the absence of a statute to be construed in deciding the precise question here. We are in accord with the reasoning of the California court, that in the absence of statute, testimony of the result of blood-group tests is to be considered as expert testimony, admissible as such for such consideration as the trial judge or jury may consider it should be given in that case. In the instant case, disregarding the testimony as to the result of the blood tests, the great weight of the testimony adduced here fairly establishes the paternity of the defendant. The testimony of the complaining witness is convincing and it was not disturbed by cross-examination. We do not decide here whether under different circumstances the admission of testimony of blood-grouping tests would require reversal and a new trial. Nor do we decide here the effect of the Michigan statute subsequently enacted. Under the circumstances here, the admission of the testimony and the court\u2019s charge was not reversible error. There has been no miscarriage of justice.\nThe judgment should be affirmed.\nDethmers, J.\nAdmission of testimony concerning results of blood tests to establish paternity constituted reversible error. A contrary view is scarcely supported by State v. Damm, 62 SD 123, 64 SD 309 (252 NW 7, 266 NW 667, 104 ALR 430, 441); Arais v. Kalensnikoff, 10 Cal2d 428 (74 P2d 1043, 115 ALR 163); or Berry v. Chaplin, 74 Cal App2d 652 (169 P2d 442). In. the South Dakota case, a rape case in which the issue of paternity became highly material, the decision boils down to the simple holding that it was not error to refuse to require prosecutrix and her infant to submit, on defendant\u2019s motion, to blood tests for the purpose, as defendant hoped, of establishing his nonpaternity. Language in that case to the effect that such tests are reliable and the results admissible in evidence was not only dicta, but it was expressed against a background in which the tests were sought for the purpose of establishing nonpaternity, for which the tests are reliable, and not, as here, offered in evidence for the purpose of establishing paternity, for which they admittedly have no probative value whatsoever. In the 2 California cases expert testimony was offered to show that the tests had established defendants\u2019 nonpaternity. No question as to the admissibility thereof into evidence was raised or discussed, but the same was apparently assumed. The holding in the 2 cases was that such expert testimony was not conclusive of the issue of nonpaternity but must be considered in connection with all other proofs in the case and that, therefore, the defendants were not, solely on the strength of the tests, entitled to reversal of judgments adverse to them. The 3 cases did not consider and, hence, cast no light on the question of the admissibility of such evidence to establish paternity as in the case at bar.\nShould the New York case of Flippen v. Meinhold, 156 Misc 451 (282 NYS 444), and the Ohio case of State, ex rel. Freeman, v. Morris, 156 Ohio St 333 (102 NE 450), be dismissed as not in point because of the existence of pertinent statutes in those States 1 I think not. As appears from the quotation from the Flippen Case, contained in Mr. Justice Boyles\u2019 opinion, the New York statute provides that the court shall direct parties, in certain actions to submit to blood tests \u201cwherever it shall be relevant to the prosecution or defense of an action.\u201d In that case the court held the prosecutrix not entitled to an order requiring defendant to submit to a blood test for the reason, as it said, that the test would not be \u201c \u2018relevant to the prosecution\u2019, * * * as even a positive result would furnish no satisfactory proof of defendant\u2019s paternity.\u201d Hence, the controlling question in that case, under the language of the statute itself, was the relevancy of the test. Relevancy is precisely the question here in determining the admissibility of the evidence concerning the results of the test. If evidence is irrelevant, it is inadmissible. Stroh v. Hinchman, 37 Mich 490. The New York case is authority for its irrelevancy. In the opinion in the Ohio case there appears the following (pp 336, 337):\n\u201cThe case of State, ex rel. Walker, v. Clark, 144 Ohio St 305 (58 NE2d 773), presented the question of proof of nonpaternity in a bastardy proceeding, and it was there held that the finding and result of a blood-grouping test made by a qualified expert from the blood of the complainant, the child and one whose nonpaternity was sought to be established was competent for such purpose.\n\u201cIn the course of the opinion in that case it was stated by Judge Zimmerman [pp 312, 313]:\n\u201c \u2018This sort of test is of comparatively recent origin, but medical authorities agree on its accuracy and reliability to establish nonpaternity in the great majority of instances. In the present stage of development, however, it is of no value in proving-paternity.\u2019\n\u201cAlthough that statement may be regarded as dicta in that case it is pertinent here, for we now have the specific question of the competency of blood-grouping tests to prove paternity. Therefore, it may be here repeated that it is established that there is complete accord of experts in biology upon the proposition that results from such blood tests, disclosing a mere possibility of paternity, must be discarded and excluded from evidence as being valueless ; and that their admission in evidence is prejudicial.\n\u201cIt cannot be assumed, therefore, that in the enactment of the statutes above quoted there was any purpose on the part of the general assembly to make competent any such affirmative evidence in such proceedings.\u201d\nFrom the quoted language it is clear that the Ohio court based its holding that the admission of such testimony to establish paternity was prejudicial on the \u201ccomplete accord of experts in biology\u201d and not on the provisions of the statute, holding, rather, that the statute did not disclose a legislative purpose to \u201cmake competent any such affirmative evidence\u201d which the court considered would have been prejudicial and inadmissible, even in the absence of a statute, for the reason just stated. The Ohio case is significant for the further reason that the court also said the following (p 338) :\n\u201cThe resulting prejudice was augmented by the language of the court\u2019s charge wherein, following specific reference to the evidence in regard to the blood-grouping test, the court stated that it \u2018is not to be concluded by you merely by reason of the fact that blood grouping compared favorably and that this accused could be the father of the child. In other words, the fact alone ivould not warrant you in finding him the father of this child, that fact alone.' (Emphasis supplied.)\n\u201cThat statement, though negative in character, strongly suggested that weight should be accorded such evidence in the determination of the issue submitted. The prejudicial effect of the evidence as thus emphasized by the court\u2019s charge becomes clear.\u201d\nIn the ease at bar the trial court told the jury that defendant had requested the test, and then instructed them that they could weigh the testimony concerning the results and give it such weight as they deemed proper. In point is the quoted language of the Ohio court \u201cthat statement * * * strongly suggested that weight should be accorded such evidence. * * * The prejudicial effect of the evidence as thus emphasized by the court\u2019s charge becomes clear.\u201d\nAll the scientific evidence in this case and in the cited cases is in accord that the results of blood tests may rule out but can never establish paternity. In Stroh v. Hinchman, supra, this Court said (p 497):\n\u201cAll evidence should have some legitimate tendency to establish or disprove the fact in controversy, and whatever has no such tendency should be rejected.\u201d\nThe evidence here complained of had not the slightest probative value or tendency to prove defendant\u2019s paternity. Accordingly, it should have been rejected.\nThat the error was, as the Ohio court held, prejudicial, there can be no doubt here. The jury was given to understand that the tests were made on defendant\u2019s motion, to establish his nonpaternity and that when the results failed to do so he then objected to their admission into evidence and sought to conceal them from the jury. The possible psychological effect on the minds of the jurors cannot be ignored. The use of scientific apparatus and tests and expert testimony as to scientific results, placed before the jury with an instruction that they could accord such weight thereto, bearing on the controverted issue, as they might deem proper, could not have failed to mislead the jurors into believing that this totally irrelevant evidence might bo considered as having probative value. Tbe average juryman is bound to be impressed by an array of scientific material and data presented through the testimony of expert witnesses under circumstances in which its utter irrelevancy is not made clear, but, on the contrary, it is permitted to pose as relevant testimony to be weighed by the jury. This was prejudicial to defendant.\nPlaintiff relies on CL 1948, \u00a7769.26 (Stat Ann \u00a7 28.1096), which provides in effect that a verdict shall not be set aside in a criminal case on the ground of improper admission of evidence unless, from an examination of the entire cause, it affirmatively appears that such error resulted in a miscarriage of justice. Plaintiff urges that the entire record is persuasive of defendant\u2019s guilt. As we held in a civil case, Soltar v. Anderson, 340 Mich 242, where the similar provisions of CL 1948, \u00a7 650.28 (Stat Ann 1943 Rev \u00a7 27.2618), were urged against a claim of misdirection of the jury, the rule always in effect in Michigan, both before and after the enactment of the mentioned statutes and unaffected thereby, has been and is that the question of reversal is controlled by determination of whether the error was prejudicial. Having been prejudicial, it follows that the resulting verdict and judgment must be and are reversed, with new trial.\nBtttzel, C. J., and Carr, Bushnell, Sharpe, Reid, and Kelly, JJ., concurred with Dethmers, J.\nCL 1948, \u00a7 722.601 et seq. (Stat Ann and Stat Ann 1953 Cum Supp \u00a7 25.451 et seq.).\nCalifornia, Deering\u2019s Code of Civil Procedure, pt 4 (Evidence), 1953 Supp, ch 8, p 145, \u00a7 1980.1 et seq. (added by Stats 1953, ch 1426, \u00a71).\nPA 1954, No 128 (CL 1948, \u00a7 692.751 et seq. [Stat Ann \u00a7 25.471 et seq.]).\nCiting In re Lentz, 247 App Div 31 (283 NYS 749); State v. Damm, 64 SD 309 (266 NW 667); State v. Damm, 62 SD 123 (252 NW 7, 104 ALR 430, 441); Arais v. Kalensnikoff (Cal App), 67 P2d 1059, qualified in Id., 10 Cal2d 428 (74 P2d 1043, 115 ALR 163); State v. Wright, 59 Ohio App 191 (17 NE2d 428), reversed on other grounds 135 Ohio St 187 (20 NE2d 229); Commonwealth v. Zammarelli, 17 Pa D & C 229.\nSee 28USCA, \u00a7 2072\u2014Eepokter.\n14 McKinney\u2019s Consolidated Laws of New York, \u00a7 126-a; 66 McKinney\u2019s Consolidated Laws of New York, pt 3, \u00a7 67-la.\nPurdon\u2019s Pennsylvania Statutes, Annotated, 1953 Cum Pocket Pt, title 28, \u00a7 306.\n5 Page\u2019s Ohio General Code, Annotated, 1952 Cum Supp \u00a7 8006.16 [8006.16].\nBeach v. Beach, 114 F2d 479.",
+        "type": "dissent",
+        "author": "Boyles, J. Dethmers, J."
+      }
+    ],
+    "attorneys": [
+      "Frank G. Millard, Attorney General, Stuart Hoffius, Prosecuting Attorney, and Berton Sevens-ma, Assistant Prosecuting Attorney, for plaintiff.",
+      "Konrad D. Kohl and Paul L. Greer, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "PEOPLE v. NICHOLS.\n1. Bastards\u2014Paternity\u2014Blood Tests\u2014Evidence.\nAdmission of testimony concerning results of blood tests to establish paternity in bastardy proceedings constituted prejudicial and reversible error, since such tests admittedly have no probative value whatsoever to establish paternity (CL 1948, \u00a7 650.28; \u00a7 722.601 et seq.; \u00a7 769.26).\n2. Evidence\u2014Relevancy\u2014Admissibility.\nEvidence that is irrelevant is inadmissible.\n3. Same\u2014Nonpaternity\u2014Paternity\u2014Blood Tests.\nBlood tests are accurate and reliable to establish nonpaternity but are of no value in proving paternity.\n4. Same\u2014Relevancy.\nAll evidence should have some legitimate tendency to establish or disprove the faet in controversy, and whatever has no such tendency should be rejected.\n5. Same\u2014Expert Testimony\u2014Relevancy\u2014Weight of Evidence.\nThe use of scientific apparatus and blood tests and expert testimony as to scientific results, placed before the jury with an instruction permitting them to aeeord weight thereto on controverted issue of paternity, as they might deem proper, could not have failed to mislead the jurors into believing that totally irrelevant evidence might be considered as having probative value.\n6. Appeal and Error\u2014Reversible Error\u2014Prejudice.\nThe question of reversal on appeal has always been controlled by a determination of whether error claimed to be reversible was prejudicial and is unaffected by statutes providing that a verdict shall not be set aside on the ground of improper admission of evidence in the absence of an affirmative showing that error resulted in a miscarriage of justice (CL 1948, \u00a7\u00a7 650.28, 769.26).\nReferences for Points in Headnotes\n[1, 3] 20 Am Jur, Evidence \u00a7 352.\n[1, 3] Blood-grouping tests. 163 ALR 939.\n[2,4] 20 Am Jur, Evidence \u00a7\u00a7 246, 247.\n[5] 20 Am Jur, Evidence \u00a7 780.\n[6] 3 Am Jur, Appeal and Error \u00a7 1003.\nBoyles, J., dissenting.\nAppeal from Kent; Souter (Dale), J.\nSubmitted June 17, 1954.\n(Docket No. 83, Calendar No. 45,-836.)\nDecided November 29, 1954.\nBastardy proceedings against James Nichols resulting in jury verdict of guilty and court order of probation to enforce payments for support of child. Defendant appeals.\nReversed and new trial granted.\nFrank G. Millard, Attorney General, Stuart Hoffius, Prosecuting Attorney, and Berton Sevens-ma, Assistant Prosecuting Attorney, for plaintiff.\nKonrad D. Kohl and Paul L. Greer, for defendant."
+  },
+  "file_name": "0311-01",
+  "first_page_order": 351,
+  "last_page_order": 372
+}

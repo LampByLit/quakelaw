@@ -1,0 +1,713 @@
+{
+  "id": 3188452,
+  "name": "STATE of Louisiana v. Robert GARNER",
+  "name_abbreviation": "State v. Garner",
+  "decision_date": "1959-11-09",
+  "docket_number": "No. 44643",
+  "first_page": "563",
+  "last_page": "587",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 563"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 So.2d 855"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "126 F.2d 671",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1081504
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/126/0671-01"
+      ]
+    },
+    {
+      "cite": "200 La. 475",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10049137,
+        5412644
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "302"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/8/0299-01",
+        "/la/200/0476-01"
+      ]
+    },
+    {
+      "cite": "87 So.2d 115",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9902146,
+        5530315
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "117"
+        },
+        {
+          "page": "117"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/87/0115-01",
+        "/la/229/0881-01"
+      ]
+    },
+    {
+      "cite": "229 La. 882",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9902146
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/87/0115-01"
+      ]
+    },
+    {
+      "cite": "233 La. 388",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5401024,
+        9891268
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/233/0387-01",
+        "/so2d/96/0643-01"
+      ]
+    },
+    {
+      "cite": "226 La. 268",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10036592,
+        2988009
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/76/0001-01",
+        "/la/226/0267-01"
+      ]
+    },
+    {
+      "cite": "227 La. 179",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2940008,
+        10088865
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "827"
+        },
+        {
+          "page": "828"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/227/0180-01",
+        "/so2d/78/0825-01"
+      ]
+    },
+    {
+      "cite": "172 N.E. 489",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "254 N.Y. 255",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1993312
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/254/0255-01"
+      ]
+    },
+    {
+      "cite": "186 N.Y.S.2d 141",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "pin_cites": [
+        {
+          "page": "143"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 S.E. 140",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "4 Ga.App. 583",
+      "category": "reporters:state",
+      "reporter": "Ga. App.",
+      "case_ids": [
+        1261030
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ga-app/4/0583-01"
+      ]
+    },
+    {
+      "cite": "67 L.R.A. 426",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 S.E. 787",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "116 Ga. 537",
+      "category": "reporters:state",
+      "reporter": "Ga.",
+      "case_ids": [
+        417234,
+        417349
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ga/116/0537-01",
+        "/ga/116/0537-02"
+      ]
+    },
+    {
+      "cite": "100 Am.Dec. 89",
+      "category": "reporters:federal",
+      "reporter": "Am. Dec.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "101 Mass. 1",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        2144829
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/101/0001-01"
+      ]
+    },
+    {
+      "cite": "15 A. L.R. 671",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "131 N.E. 576",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "298 Ill. 412",
+      "category": "reporters:state",
+      "reporter": "Ill.",
+      "case_ids": [
+        5029773
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill/298/0412-01"
+      ]
+    },
+    {
+      "cite": "8 Am.St.Rep. 423",
+      "category": "reporters:state",
+      "reporter": "Am. St. Rep.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 L.R.A. 211",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 N.E. 338",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "125 Ill. 641",
+      "category": "reporters:state",
+      "reporter": "Ill.",
+      "case_ids": [
+        2938927
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill/125/0641-01"
+      ]
+    },
+    {
+      "cite": "83 Am.Dec. 705",
+      "category": "reporters:federal",
+      "reporter": "Am. Dec.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 Allen 541",
+      "category": "reporters:state",
+      "reporter": "Allen",
+      "case_ids": [
+        2123024
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/89/0541-01"
+      ]
+    },
+    {
+      "cite": "123 Am.St.Rep. 189",
+      "category": "reporters:state",
+      "reporter": "Am. St. Rep.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 L.R.A.,N.S., 719",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.N.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "88 S.W. 1085",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "1086"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "121 Ky. 97",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        1322971
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/121/0097-01"
+      ]
+    },
+    {
+      "cite": "68 S.W. 2d 100",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "pin_cites": [
+        {
+          "page": "101"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "188 Ark. 846",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1428302
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/188/0846-01"
+      ]
+    },
+    {
+      "cite": "2 L.R.A.,N.S., 897",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.N.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 So. 182",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "pin_cites": [
+        {
+          "page": "183"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "142 Ala. 70",
+      "category": "reporters:state",
+      "reporter": "Ala.",
+      "case_ids": [
+        3501722
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ala/142/0070-01"
+      ]
+    },
+    {
+      "cite": "68 A.2d 599",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 A.2d 736",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "740"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "357 Pa. 181",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        472087
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/357/0181-01"
+      ]
+    },
+    {
+      "cite": "12 A.L.R.2d 183",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "68 A.2d 595",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "362 Pa. 596",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        477368
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/362/0596-01"
+      ]
+    },
+    {
+      "cite": "228 La. 317",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2894920,
+        9881621
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/228/0317-01",
+        "/so2d/82/0024-01"
+      ]
+    },
+    {
+      "cite": "223 La. 520",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3138937,
+        9919391
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/223/0519-01",
+        "/so2d/66/0323-01"
+      ]
+    },
+    {
+      "cite": "35 So.2d 216",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3047762
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/213/0559-01"
+      ]
+    },
+    {
+      "cite": "213 La. 559",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3047762,
+        10043435
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/213/0559-01",
+        "/so2d/35/0216-01"
+      ]
+    },
+    {
+      "cite": "216 La. 1003",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2900555,
+        10071276
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/216/1003-01",
+        "/so2d/45/0604-01"
+      ]
+    },
+    {
+      "cite": "107 So.2d 691",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3182510,
+        9903590
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/236/0422-01",
+        "/so2d/107/0691-01"
+      ]
+    },
+    {
+      "cite": "236 La. 421",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9903590,
+        3182510
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/107/0691-01",
+        "/la/236/0422-01"
+      ]
+    },
+    {
+      "cite": "34 So.2d 785",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3046699
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/213/0299-01"
+      ]
+    },
+    {
+      "cite": "213 La. 299",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10107865,
+        3046699
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/34/0785-01",
+        "/la/213/0299-01"
+      ]
+    },
+    {
+      "cite": "209 La. 898",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10073066,
+        5412276
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/25/0735-01",
+        "/la/209/0897-01"
+      ]
+    },
+    {
+      "cite": "192 La. 469",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5513587,
+        10029723
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/192/0469-01",
+        "/so/188/0144-01"
+      ]
+    },
+    {
+      "cite": "86 So.2d 169",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9892985,
+        5530145
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/86/0169-01",
+        "/la/229/0495-01"
+      ]
+    },
+    {
+      "cite": "229 La. 495",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5530145,
+        9892985
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/229/0495-01",
+        "/so2d/86/0169-01"
+      ]
+    },
+    {
+      "cite": "110 So.2d 566",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3185385
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/237/0167-01"
+      ]
+    },
+    {
+      "cite": "237 La. 168",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3185385,
+        9889075
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/237/0167-01",
+        "/so2d/110/0566-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1260,
+    "char_count": 28657,
+    "ocr_confidence": 0.73,
+    "pagerank": {
+      "raw": 5.734258904758741e-07,
+      "percentile": 0.9501926560197139
+    },
+    "sha256": "87e98a8a30b71513a2624ef222964508454ef0a9eaae078d6536cd45b57de872",
+    "simhash": "1:1be7330c5463d8b1",
+    "word_count": 4900
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "HAMITER, J., concurs in the decree."
+    ],
+    "parties": [
+      "STATE of Louisiana v. Robert GARNER."
+    ],
+    "opinions": [
+      {
+        "text": "HAMLIN, Justice.\nRobert Garner was charged by bill of indictment with the unlawful killing (a violation of LSA-R.S. 14:31 \u2014 Manslaughter) of'George Carson, alias Junior Carson, on December 6, 1958. In answer to defendant\u2019s motion for a bill of particulars, the State asserted:\n\u201cThe District Attorney intends to pursue on the trial of this matter the law contained in Section 31, Title 14, subsection 2(a) thereof and that the specific crime in which the offender and defendant herein was engaged at the time of the homicide was a felony, to-wit: Attempted Murder.\u201d\nOil April 3, 1959, shortly after the filing of the above answer, the defendant filed a demurrer and motion to quash, in which he averred that the indictment was not properly founded in law and was null and void and of no legal effect. He asserted that within the purview of law it was not legally possible to charge him in the manner and with the crime as set forth in the indictment. He further stated that he was charged in the same court with the attempted murder of James Robinson (a violation of LSA-R.S. 14:27(3)) by use of a knife, whereas, the instant charge concerned itself with the death by pistol shot of one George Carson.\nThe State supplemented its answer to the motion for a bill of particulars by a stipulation of facts. This stipulation is not in the record, but the minutes of the trial court state:\n\u201c * * * After hearing arguments by counsel for the defendant and the state, and after a stipulation of facts, supplementing the state\u2019s answer to the Motion for a Bill of Particulars was dictated into the record by Mr. Smith, the Court took the matter under advisement. * * * \u201d (Emphasis ours.)\nThe trial judge sustained the motion to quash the indictment and discharged the defendant. The State reserved a bill of exceptions, which is the subject of this appeal. In its motion for appeal, the State alleged:\n\u201cThat the bill of indictment returned by the Orleans Parish Grand Jury and the facts as set forth in the said bill of indictment, the application for particulars and the original and supple mental answer to the application for particulars all show that a crime cognizable under the law of the State of Louisiana has been committed and properly charged in this Court;\u201d (Emphasis ours.)\nThe trial judge\u2019s per curiam to the bill of exceptions sets forth the State\u2019s stipulation of facts supplementing its answer to the motion for a bill of particulars. Both, counsel for the State and for the defendant, stated to this Court during argument that they accepted the facts set forth in said per curiam for the purpose of their argument only. They further expressed to this Court a.request for a ruling squarely on the issue as to whether the indictment as supplemented charged an offense cognizable under the law of the State of Louisiana.\nA determination must first be made as to whether this Court can and should refer to the recitation of facts in the trial judge\u2019s per curiam.\nWe must keep in mind that the law abhors a multiplicity of suits; the modern-day tendency is to relax the technical rules of pleading in order to arrive at the truth and dispose of a case in an expeditious manner. Todt v. Todt, 237 La. 168, 110 So.2d 566; Messersmith v. Messersmith, 229 La. 495, 86 So.2d 169; Riggin v. Watson-Aven Ice Cream Co., 192 La. 469, 188 So. 144; Olivedell Planting Co. v. Town of Lake Providence, 209 La. 898, 25 So.2d 735.\nWe conclude that in order to avoid a. multiplicity of criminal proceedings and to-dispose of this matter expeditiously and without delay, we should consider the instant indictment along with the answer to-the motion for a bill of particulars and the-stipulation of facts referred to in the minutes, supra, and recited in the trial judge\u2019s-per curiam. Cf., State v. Bessar, 213 La. 299, 34 So.2d 785; State v. Picou, 236 La. 421, 107 So.2d 691. Since there has been an agreement between counsel, the defendant will suffer no prejudice.\nThe per curiam of the trial judge sets-forth the following:\n\u201cThe bill of particulars herein specifies that the state is prosecuting the defendant under L.R.S. 14:31(2) (a), and that the specific crime in which the defendant herein was engaged at the time of the homicide was a felony, to wit: Attempted Murder. The bill of particulars [referring to the stipulation of facts dictated into the record by Mr.. Smith] further specifies that after an altercation in the saloon with the bartender, that the defendant, Robert Garner, left the saloon and returned later with a knife in his hand, attacked and attempted to kill one Robinson, the bartender. The bartender, in self defense, produced a pistol which he fired' and the shot killed the deceased, George.Carson, alias Junior Carson.\n\u201cRepeating: The deceased was killed by a shot from a pistol fired by the bartender who was shooting at the defendant, Robert Garner, in self defense. So that the defendant is not the actual and immediate killer of the deceased.\u201d\nManslaughter is defined in LSA-R.S. 14:31 (2) (a) as:\n\u201c(2) A homicide committed, without any intent to cause death or great bodily harm.\n\u201c(a) When the offender is engaged in the perpetration or attempted perpetration of any felony not enumerated in Article 30, or of any intentional misdemeanor directly affecting the person ;\u201d\nLSA-R.S. 14:30 recites:\n\u201cMurder is the killing of a human being.\n\u201c(1) When the offender has a specific intent to kill or to inflict great bodily harm; or\n\u201c(2) When the offender is engaged in the perpetration or attempted perpetration of aggravated arson, aggravated burglary, aggravated kidnapping, aggravated rape, armed robbery, or simple robbery, even though he has no intent to kill.\u201d\nThe general attempt statute (LSA-R.S. 14:27) provides:\n\u201cAny person who, having a specific intent to commit a crime, does or omits an act for the purpose of and tending directly toward the accomplishing of his object is guilty of an attempt to commit the offense intended; and it shall be immaterial whether, under the circumstances, he would have actually accomplished his purpose.\n% s|c s}c \u00ed}\u00ed \u00ed|C\n\u201cAn attempt is a separate but lesser grade of the intended crime; and any person may be convicted of an attempt to commit a crime, although it appears on the trial that the crime intended or attempted was actually perpetrated by such person in pursuance of such attempt.\u201d\nCounsel for the State alleges in brief that the theory of the prosecution is as follows:\n\u201c * * * the theory of the bill of indictment returned by the Grand Jury against the defendant, was that the defendant in the perpetration of a felony of attempted murder * * * set into motion a train or series of events the natural cause of which was the death of the decedent Robinson, and that between the time of the putting into motion of the train of events resulting in the death, and the death, of deceased there was no third intervening, independent force which' manifested itself so as to divest the defendant of his criminal responsibility. It should be noted that it is reasonable to assume that the defendant herein Garner knew or should have known one of the probable consequences of his attempted murder of the bartender would be that the bartender would attempt to defend his own life and that in doing so he would place in danger and in jeopardy every other person in that barroom, including the customers who stood nearby watching the argument.\u201d\nThe contention of the State, to the effect that if A attacks B and B in self-defense draws a pistol at A but accidently shoots and kills C, an innocent bystander, criminal liability is imposed on A for the death of C, is sui generis to the jurisprudence of Louisiana. Our determination must be one of finding whether or not our law imposes such liability.\nAn attempt is a separate but lesser grade of the intended crime. LSA-R.S. 14:27, supra; State v. Broadnax, 216 La. 1003, 45 So.2d 604; State v. Roberts, 213 La. 559, 35 So.2d 216; State v. Espinosa, 223 La. 520, 66 So.2d 323; State v. Johnson, 228 La. 317, 82 So.2d 24. It is also provided, in LSA-R.S. 15 :386, that the only responsive verdicts which may be rendered where the indictment charges Attempted Murder are: \u201cGuilty as charged;\u201d \u201cGuilty of attempted manslaughter;\u201d and \u201cNot Guilty.\u201d The State is therefore correct in its first contention that \u201cAttempted Murder\u201d is not included or enumerated in LSA-R.S. 14:30 (Murder).\nIn contending that the defendant is an offender within the purview of LSA-R.S. 14:31(2) (a), supra, engaged in the attempted murder of Robinson when Robinson accidently shot Carson, the State relies principally on the case of Commonwealth v. Almeida, 362 Pa. 596, 68 A.2d 595, 12 A.L.R.2d 183.\nThe facts in the above cited case are to the effect that David Almeida, Ed Hough, and James Smith were confederates in committing armed robbery of a market. The proprietor\u2019s cries of \u201cHold Up\u201d brought police assistance and during a skirmish and attempted get away an off duty policeman, who happened to be at the scene, was shot and killed. Hough pleaded guilty to the murder and was sentenced to death in the electric chair. Almeida was then charged with murder. His counsel cited certain facts which they contended raised a strong inference that the fatal shot was fired mistakenly by a policeman. On appeal from his conviction and sentence to death, Almeida contended that the trial judge erred in refusing to charge the jury as follows: \u201cIf you find that the bullet which was fired and killed the deceased was not fired by any one of the three men charged with perpetrating the robbery in question, you cannot convict the defendant of murder in the first degree.\u201d The Supreme Court of Pennsylvania affirmed the conviction and sentence (its authority being Commonwealth v. Moyer, 357 Pa. 181, 53 A.2d 736) and stated:\n\u201c * * * The legal question presented and decided in the Moyer-Byron case was precisely the legal question raised in the instant case; to wit, when men who are feloniously shot at by robbers return their fire in self-defense and a third person is killed by a shot fired by the defenders, are the robbers whose felonious action caused the shooting guilty of murder ? In the Moyer-Byron case this court after a thorough discussion of that question decided that under the facts of that case, \u2018The Moyer-Byron felonious invasion of the Shank gas station on July 13, 1946, was likewise the proximate cause of the resultant fatality.\u2019 * * * That was not dictum but authority. * * * \u201d [362 Pa. 596, 68 A.2d 599]\nIn Commonwealth v. Moyer, 357 Pa. 181, 53 A.2d 736, 740, Frederick Moyer and William Paul Byron were convicted of the murder of Harvey Zerbe, a filling station attendant employed by Earl Shank. The facts reflected that a pistol altercation occurred during an attempted robbery of the Shank Gas Station by the defendants. Zerbe was killed during the firing of shots by the bandits and Shank, the owner of the gas station. The preponderance of the evidence was that Moyer had fired the fatal shot. In an assignment of error on appeal was the following excerpt from the charge of the trial court to the jury:\n\u201c \u2018All of the participants in an attempted robbery are guilty of murder in the first degree if someone is killed in the course of the perpetration of the first-named crime. That is the law of the Commonwealth of Pennsylvania.\u2019 \u201d\nThe Supreme Court of Pennsylvania affirmed the conviction and answered affirmatively the question of whether or not the defendants could be legally convicted of murder if the bullet which killed Zerbe came from the revolver fired by Shank in an attempt by him to frustrate the attempted robbery. It stated:\n\u201cThe doctrine that when malice is the mainspring of a criminal act the actor will be held responsible for any consequence of his act though it was not the one intended was recognized centuries ago when it was held that, quoting from Blackstone, Book IV, page 1599, Sec. 201, \u2018if one shoots at A. and misses him, but kills B., this is murder, because of the previous felonious intent, which the law transfers from one to the other.\u2019 It is equally consistent with reason and sound public policy to hold that when a felon\u2019s attempt to commit robbery or burglary sets in motion a chain of events which were or should have been within his contemplation when the motion was initiated, he should be held responsible for any death which by direct and almost inevitable sequence results from the initial criminal act. For any individual forcibly to defend himself or his family or his property from criminal aggression is a primal human instinct. It is the right and duty of both individuals and nations to meet criminal aggression with effective countermeasures. Every robber or burglar knows when he attempts to commit his crime that he is inviting dangerous resistance. Any robber or burglar who carries deadly weapons (as most of them do and as these robbers did) thereby reveals that he expects to meet and overcome forcible opposition. * * *\n\u201cIf in fact one of the bullets fired by Earl Shank in self-defense killed Harvey Zerbe, the responsibility for that killing rests on Moyer and his co-conspirator Byron, who had armed themselves with deadly weapons for the purpose of carrying out their plan to rob Shank and whose murderous attack made Shank\u2019s firing at them in self-defense essential to the protection of himself and his employees and his property. * * *\u201d\nIn Johnson v. State, 142 Ala. 70, 38 So. 182, 183, 2 L.R.A.,N.S., 897 (cited by the State), the facts showed that while defendants\u2019 father was resisting arrest by a deputy sheriff, they released one of his hands from the grasp of the' arresting officer. The father, who was insane, procured a gun and shot and killed the officer without justification. Defendants were denied bail because of their indictment for murder. On appeal the charge of murder was challenged and held to be correct. In so holding, the Supreme Court of Alabama stated:\n\u201c * * * Had the trial judge permitted this proof to have been made, and had found in line with it, in view of the conduct of the petitioners on the occasion of the homicide, which was calculated to incite and did incite the father to commit the crime, they are responsible for his act. As said by Mr. Bishop: \u2018The method of the killing is immaterial. Thus * * * in some cases a man shall be said, in the judgment of the law, to kill one who is in truth actually killed by another, as where one incites a madman to kill himself or another.\u2019 2 Bishop\u2019s New Cr.Law, \u00a7 63S. This principle is stated by Russell on Crimes, p. 5, in this language: \u2018If A. procures B., an idiot or lunatic, to kill C., A. is guilty of the murder as principal, and B. is merely an instrument.\u2019 See, also, 1 East, P. C. c. 5, Sec. 14, p. 228; 1 Hawkins, P. C. \u00a7 7, p. 92.\u201d\nIn Wilson v. State, 188 Ark. 846, 68 S.W. 2d 100, 101 (cited by the State), the accused and two others robbed a bank. The bank teller Guthrie, who was forced to accompany the robbers as a shield from attack in effecting escape, was accidentally shot and killed by the town marshal. On appeal from his conviction of the murder .of Guthrie, Wilson contended that the following principle expounded in the cases of Commonwealth v. Moore, 121 Ky. 97, 88 S.W. 1085, 1086, 2 L.R.A.,N.S., 719, 123 Am.St.Rep. 189, 11 Ann.Cas. 1024; Commonwealth v. Campbell, 7 Allen 541, 89 Mass. 541, 83 Am.Dec. 705; and, Butler v. People of State of Illinois, 125 Ill. 641, 18 N.E. 338, 1 L.R.A. 211, 8 Am.St.Rep. 423, applied:\n\u201c \u2018A attempts to rob B. B, while resisting the attempted robbery, shoots at A and accidentally kills C who is an innocent third party. A cannot be convicted of the murder of C.\u2019 \u201d\nThe Supreme Court of Arkansas stated that the reason for the rule, supra, was stated in Commonwealth v. Moore, supra, to be:\n\u201c * * * \u2018In order that one may be guilty of homicide, the act must be done by him actually or constructively, and that cannot be, unless the crime be committed by his own hand, or by the hands of some one acting in concert with him, or in furtherance of a common object or purpose.\u2019\u201d\nThe Court affirmed the conviction, holding that it agreed with the principle but did not believe that it applied to Wilson. It stated:\n\u201c * * * Appellant\u2019s action in forcing Guthrie to a place which was known by him to be perilous was just as much the cause of his death as if he had himself fired the' fatal shot. This action was murder at common law and is murder under the above statute.\u201d\nThe State also cites the cases of People v. Crenshaw, 298 Ill. 412, 131 N.E. 576, 15 A. L.R. 671; Commonwealth v. MacLoon, 101 Mass. 1, 100 Am.Dec. 89; Walker v. State, 116 Ga. 537, 42 S.E. 787, 67 L.R.A. 426; and, Carbo v. State, 4 Ga.App. 583, 62 S.E. 140. We do not find the facts of these cases apposite.\nDefendant cites the cases of Wilson v. State, supra (also relied on by the State), Commonwealth v. Moore, Commonwealth v. Campbell, and Butler v. People of State of Illinois. The Moore, Campbell, and Butler cases, all mentioned supra in the Wilson case, hold:\n\u201c * * * No person can be held guilty of homicide unless the act is either actually or constructively his, and it cannot be his act in either sense unless committed by his own hand or by some one acting in concert with him or in furtherance of a'common object or purpose. * * * \u201d Commonwealth v. Campbell, 7 Allen 541, 89 Mass. 541, 83 Am.Dec. 705.\nParticular emphasis is placed by defendant on the case of People v. Wood, Co.Ct., 186 N.Y.S.2d 141, 143, decided June 2, 1959. The facts thereof are to the effect that Benny Gibson, the owner of a tavern, evicted two patrons, Wood and Gray, from his establishment because of argument. The men continued their argument outside the bar, where Wood fired at Gray, injuring him. A foot patrolman, Wagner, came to the scene, exchanging shots with Wood. Wood jumped into an awaiting automobile, driven by his companion Archie Lee, and attempted to flee the scene. Attracted by a cry for help, Gibson emerged from his tavern and began firing his rifle. Lee halted the get away car and jumped into the street where he was mortally wounded by a passing bullet. Wood sped away. It was then discovered that an innocent bystander, George Moses, had been killed in the fire of bullets. It was later determined that the bullets which caused the deaths of Lee and Moses were fired from Gibson\u2019s gun. Wood was apprehended and charged with the murder of Lee and Moses. The Nassau County Court dismissed the indictment with the following explanation of the development of the felony murder doctrine:\n\u2018'The common-law felony murder which provided that one is guilty of murder .when death proximately results during the commission of any felony committed by the accused (the necessary intent being supplied by the legal fiction of implied malice) has undergone a tortuous and somewhat vacillating course in its development. * * *\n\u201cThe law of homicide in the course of the commission of a felony was finally codified in this state in 1829 (N.Y.Revised Statutes of 1829, * * ). Thereafter that statute was the subject of frequent amendment, and subdivision 2 of section 1044 of the Penal Law now reads, in part, as follows:\n\u201c \u2018 * * * The killing of a human being * * * is murder in the first degree, when committed * * * by a person engaged in the commission of, or in an attempt to commit a felony, either upon or affecting the person killed or otherwise * * *.\u2019\n\u201cThe very wording of this codification indicates an intent on the part of the legislature to lessen the rigor of the common-law concept of felony murder.\n\u00ed\u00a1\u00ed % s{< if: ijt\n\u201cThe People rely mainly on precedents in other jurisdictions to sustain the indictment herein. In none of these states wherein the People seek to draw an analogous situation does there exist a statute similar to the New York codification.\n\u201cA very scholarly discussion of the distinctions that exist in the decisions and statutes of our sister states is contained in Commonwealth v. Almeida, 362 Pa. 596, 68 A.2d 595, 12 A.L.R.2d 183. At page 610 of 68 A.2d the learned court points up the distinction between the New York statute and the Pennsylvania statutory definition of felony murder by stating as follows:\n\u201c \u2018The New York statutory definition of felony murder differs from the Pennsylvania statutory definition 18 P. S., \u00a7 4701. * * * The phrase \u2018by a person\u2019 does not appear in the Pennsylvania statute, and these words make a vital difference in the two statutes.\u2019\n\u201cAgain, importance is placed on these very same words where, on page 655 of the Law Revision Commission Report of 1937, the following is stated:\n\u201c \u2018The language of the statute has always been clear, too, in requiring a temporal relation between the homicide and the underlying felony. The relevant words in the present provision are \u201cby a person engaged in the commission of, or in an attempt to commit a felony.\u201d \u2019\n\u201cThe highest court in this state in People v. Udwin, 254 N.Y. 255, 172 N.E. 489, is controlling herein * * *\n\u201cFrom the uncontradicted and unexplained testimony that this Court must necessarily utilize in its determination, it appears that death was inflicted upon Moses and Lee by Gibson who was not in the process of committing a felony, was not an accomplice or principal as defined by section 2 of the Penal Law, and since the deaths may not be attributed to the acts of the defendant Wood, the indictment is accordingly dismissed. * * * \u201d\nSome of the cases cited by the State clearly affirm or support its theory, but we find that the prosecutions were not under a statute containing the same verbiage as our murder or manslaughter statutes, supra. Such was the finding of the New York Court in the Wood case, supra.\nIn both the Almeida and Moyer cases, supra, the defendants were charged with murder. The Pennsylvania statute recites:\n\u201cAll murder which shall be perpetrated by means of poison, or by lying in wait, or by any other kind of willful, deliberate and premeditated killing, or which shall be committed in the perpetration of, or attempting to perpetrate any arson, rape, robbery, burglary, or kidnapping, shall be murder in the first degree. * * *\u201d Purdon\u2019s Pennsylvania Statutes, Title 18, Section 4701, p. 389; Act 872 of 1939, Sec. 701.\nIn speaking of the person charged with murder, the Pennsylvania statute, supra, states:\n\u201cThe jury before whom any person indicted for murder * *\n\u201cWhoever is convicted of the crime of murder * * *.\u201d\nHerein, the trial judge was of the opinion that the term \u201coffender\u201d within the context of LSA-R.S. 14:31, supra, applies:\n\u201c1. To the person who commits or attempts to commit the felony or intentional misdemeanor and in the perpetration of the said felony, etc. committed the homicide without any intent to cause death or great bodily harm; or,\n\u201c2. To all other persons who stand in the relationship of Principal to said person in the commission of the felony, etc.;\n\u201c3. And to all other persons who may be said to have conspired with said person to commit the felony, etc. and as conspirators to commit the felony may be held legally responsible for everything that was done by any one of the conspirators in furtherance of the conspiracy.\u201d\nThe trial judge concluded in the instant case that the term \u201coffender\u201d employed in LSA-R.S. 14:30, supra, meant the \u201ckiller,\u201d and that LSA-R.S. 14:31, supra, was but a continuation of LSA-R.S. 14:30. He found that:\n\u201c * * * the actual killer herein is not the defendant in the indictment or any person who stands in the relation of co-Principal or co-Conspirator with the defendant. The actual killer was acting in contravention of the defendant not in aid of him or in concert with him or with him in any sense.\u201d\nThis Court has always held that:\n\u201cIt is so axiomatic, that citation of authority is unnecessary, that in Louisiana there are no common-law crimes, and that nothing is a crime, no conduct can be held criminal, which is not made so by statute and clearly described by the language of its prohibition. Such statutes are subject to strict interpretation. * * * \u201d\nState v. Arkansas Louisiana Gas Co., 227 La. 179, 78 So.2d 825, 827.\nLSA-R.S. 14:7 defines a crime as:\n\u201c * * * that conduct which is defined as criminal in this Code or in other acts of the legislature, or in the constitution of this state.\u201d See, State v. David, 226 La. 268, 76 So.2d 1.\nLSA-R.S. 14:3 admonishes:\n\u201cThe articles of this Code cannot be extended by analogy so as to create crimes not provided for herein; however, in order to promote justice and to effect the objects of the law, all of its provisions shall be given a genuine construction, according to the fair import of their words, taken in their usual sense, in connection with the context, and with reference to the purpose of the provision.\u201d\n\u201cWhenever the meaning of a statute appears doubtful, it is well recognized that we should seek the discovery of the legislative intent.\u201d State v. Arkansas Louisiana Gas Co., supra; State v. Marsh, 233 La. 388, 96 So.2d 643. In LSA-R.S. 14:30-31, the meaning of the word \u201coffender\u201d is not spelled out. We feel that its meaning can best be discovered by considering it in association with its accompanying words. In LSA-R.S. 14:31, it is recited that a homicide is committed when the \u201coffender\u201d is engaged in the perpetration or attempted perpetration of a felony not enumerated in Article 30 or any intentional misdemeanor directly affecting the person. No mention is made therein that the \u201coffender\u201d is responsible for the result of a self defensive act committed by the person attacked. No intimation is made that the \u201coffender\u201d stands in the shoes of the person protecting his person and property with arms. We believe, as did the trial judge, that the legislative intent in employing the word \u201coffender\u201d contemplated the actual killer. A consideration of the term \u201coffender\u201d in connection with the words accompanying it precludes our affirmation of the theory advanced by the State; it is quite obvious that the Legislature overlooked a situation similar to the instant one.\n\u201cIt has long been the unshaken rule of this State that penal statutes must be strictly construed and cannot be extended to cases not included within the clear import of its language.\u201d State v. Viator, 229 La. 882, 87 So.2d 115, 117.\nReason dictates and justice demands that the public safety, peace, and good order of the community should be insured at all times. Normal people should be aware of the probable and natural consequences of their acts. The instant situation is deplorable; it is, however, a matter which addresses itself to the lawmakers. If we were to adhere to the theory advanced and contended for by the State, we would be amending and enlarging the scope of the statute involved rather than giving it a proper interpretation and application. Cf., State v. Vaccaro, 200 La. 475, 8 So.2d 299, 302. We are constrained to conclude and hold that LSA-R.S. 14:31 imposes no liability on the defendant for the death of George Carson.\nFor the reasons assigned, the judgment of the trial court is affirmed.\nHAMITER, J., concurs in the decree.\n. \u201c * * * Robert Garner * * * with force and arms in the Parish of Orleans aforesaid, and * * * unlawfully killed one George Carson alias Junior Carson, contrary to the form of Statute of the State of Louisiana in such cases made and provided and against the peace and dignity of the same.\u201d\n. \u201c * * * Among the best known of our rules of statutory construction is the phrase \u2018noscitur a sociis\u2019 and \u2018ejusdem generis.\u2019 The maxim has been defined as follows:\n\u201c \u2018It is known from its associates. * * * The meaning of a word is or may be known from the accompanying words. * * * Under this rule general and specific words, capable of analogous meaning, when associated together, take color from each other, so that general words are restricted to a sense analogous to less general. * * * \u2019 \u201d State v. Arkansas Louisiana Gas Co., 227 La. 179, 78 So.2d 825, 828; State v. Marsh, 233 La. 388, 96 So.2d 643.\n. \u201cIt is equally well recognized that where there exists any doubt as to the interpretation of a statute upon which a prosecution is based, such doubt must be resolved in favor of the accused. * * * \u201d State v. Viator, 229 La. 882, 87 So.2d 115, 117. See, Marchese v. United States, 5 Cir., 126 F.2d 671.",
+        "type": "majority",
+        "author": "HAMLIN, Justice."
+      }
+    ],
+    "attorneys": [
+      "Jack P. F. Gremillion, Atty. Gen., M. E. Culligan, Asst. Atty. Gen., Richard A. Dowling, Dist. Atty., Benjamin E. Smith, Asst. Dist. Atty., New Orleans, for appellant.",
+      "Sam Monk Zelden, Frank Shea, New Orleans, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "115 So.2d 855\nSTATE of Louisiana v. Robert GARNER.\nNo. 44643.\nNov. 9, 1959.\nRehearing Denied Dee. 14, 1959.\nJack P. F. Gremillion, Atty. Gen., M. E. Culligan, Asst. Atty. Gen., Richard A. Dowling, Dist. Atty., Benjamin E. Smith, Asst. Dist. Atty., New Orleans, for appellant.\nSam Monk Zelden, Frank Shea, New Orleans, for appellee."
+  },
+  "file_name": "0563-01",
+  "first_page_order": 314,
+  "last_page_order": 326
+}

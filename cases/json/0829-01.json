@@ -1,0 +1,290 @@
+{
+  "id": 3187638,
+  "name": "STATE of Louisiana v. Herbert MORGAN",
+  "name_abbreviation": "State v. Morgan",
+  "decision_date": "1959-12-14",
+  "docket_number": "No. 44898",
+  "first_page": "829",
+  "last_page": "847",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 829"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 So.2d 682"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "121 La. 623",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2615894
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/121/0624-01"
+      ]
+    },
+    {
+      "cite": "185 La. 855",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10026234,
+        5809142
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/171/0055-01",
+        "/la/185/0855-01"
+      ]
+    },
+    {
+      "cite": "203 La. 345",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3111993,
+        10028578
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/203/0345-01",
+        "/so2d/14/0019-01"
+      ]
+    },
+    {
+      "cite": "206 La. 1078",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10046760,
+        3103641
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/20/0368-01",
+        "/la/206/1077-01"
+      ]
+    },
+    {
+      "cite": "206 La. 913",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10042667,
+        3105271
+      ],
+      "pin_cites": [
+        {
+          "page": "933"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/20/0264-01",
+        "/la/206/0913-01"
+      ]
+    },
+    {
+      "cite": "137 La. 628",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        588827
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/137/0627-01"
+      ]
+    },
+    {
+      "cite": "105 So. 246",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "193 La. 824",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3164849,
+        10043158
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/193/0923-01",
+        "/so/192/0361-01"
+      ]
+    },
+    {
+      "cite": "159 La. 113",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1270367
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/159/0113-01"
+      ]
+    },
+    {
+      "cite": "72 A.L.R. 229",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 A.L.R. 1435",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "198 La 994",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3161268,
+        10045271
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "313"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/198/0994-01",
+        "/so2d/5/0312-01"
+      ]
+    },
+    {
+      "cite": "69 So.2d 740",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 S.Ct. 372",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        3642784,
+        3642073
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/208/0481-01",
+        "/us/208/0480-01"
+      ]
+    },
+    {
+      "cite": "208 U.S. 481",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3642784
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/208/0481-01"
+      ]
+    },
+    {
+      "cite": "224 La. 431",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3090449,
+        9920332
+      ],
+      "weight": 5,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/224/0432-01",
+        "/so2d/69/0738-01"
+      ]
+    },
+    {
+      "cite": "230 La. 1003",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10080091,
+        3087261
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/89/0877-01",
+        "/la/230/1003-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 834,
+    "char_count": 18358,
+    "ocr_confidence": 0.729,
+    "pagerank": {
+      "raw": 2.998938126854954e-07,
+      "percentile": 0.8522531622499999
+    },
+    "sha256": "6dc9bf0c4bc73c560e1189a059ecf4c0150c10bf9385475c9bb84d25d93262d3",
+    "simhash": "1:30b4988b462e64d3",
+    "word_count": 3101
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "STATE of Louisiana v. Herbert MORGAN."
+    ],
+    "opinions": [
+      {
+        "text": "VIOSCA, Justice.\nHerbert Morgan, an inmate of the Louisiana State Penitentiary, was charged in a bill of information with the violation of LSA-R.S. 14:402, \u201cin that he attempted to introduce a quantity of nasal inhalators into and upon the grounds of the Louisiana State Penitentiary, a penal institution under the supervision and control of the Board of Institutions of the State of Louisiana, without the authority of the Warden of said Louisiana State Penitentiary, contrary to the form of the Statutes of the State of Louisiana, in such cases made and provided against the peace and dignity of the same.\u201d Defendant filed a motion to quash which was overruled. He was tried and found guilty by a jury. He then filed a motion for a new trial and a motion in arrest of judgment, both of which motions were denied. Thereupon the defendant was sentenced to serve three years at hard labor in the Louisiana State Penitentiary, said sentence to run consecutively with any sentence or sentences he is now serving. Defendant has appealed to this court from his conviction and sentence.\nOn this appeal defendant relies upon two bills of exception, one reserved to the overruling of the motion to quash, and the other to the denial of the motion for a new trial and the motion in arrest of judgment.\nThe defendant moved to quash the indictment for the following reasons:\n\u201c(1) There being no such crime as alleged under R.S. 15:876 on May 5, 1959, the date of this indictment.\n\u201c(2) The alleged crime as set forth, in the indictment can not legally and factually apply to your defendant.\n\u201c(3) If applicable to the accused the statute and its provisions as complained of in the indictment is unconstitutional in that, but not exclusively,\n\u201c(a) It represents an unreasonable and arbitrary exercise of the police power.\n\u201c(b) it sets forth (a crime which is) arbitrary and discriminatory as to a class of which accused is a member.\n\u201c(c) provides for cruel and inhuman punishment in that it provides a penalty of imprisonment in the Louisiana State Penitentiary without eligibility for parole or suspension of sentence, and yet the penalty is ambiguous and does not classify the crime as either a felony or misdemeanor and therefore deprives the accused of a jury trial or knowing the number of jurors by which he is entitled to he tried.\n\u201c(d) commingles as contraband items not narcotic by our statutes and with no distinction for penalty and encroaches on the executive and Judiciary.\u201d\nThe motion for a new trial is based on the following grounds:\n\u201c1. The verdict is contrary to the law and the evidence; or\n\u201c2. The bills of exception reserved during the proceedings show error committed to the prejudice of the accused ;\n\u201c3. Since the verdict accused has disovered errors or defects in the proceedings to his prejudice that could not have been discovered with reasonable diligence before verdict.\u201d\nThe motion in arrest of judgment, besides the grounds set out in the motion to quash, sets out the additional grounds, to wit:\n\u201c4. Statute is worded broad, general and vague and it does not specifically and accurately define the offense ;\n\u201c5. It deprives the executive department of (the) state of (the) right to grant pardon and parole in a criminal offense in contravention (of) Art. 2, Section 2 of the Louisiana Constitution of 1921;\n\u201c6. It deprives (the) judiciary department of (the) right to grant suspended sentence in contravention, of Article II, Section II of Constitution of 1921;\n\u201c7. It does not inform the defendant of the nature and cause of the accusation against him;\n\u201c8. Deprives the defendant of his liberty without due process of law;\n\u201c9. It commingles as contraband items not forbidden by our statutes without distinction for penalty;\n\u201c10. Does not specify whether the penalty is at hard labor or otherwise thereby failing to classify the offense as a misdemeanor or felony.\u201d\nBasically the contentions in both bills of exception are levelled at the unconstitutionality of LSA-R.S. 14:402, and both bills therefore will be treated together.\nAct 269 of 1958 (incorporated in the Revised Statutes as LSA-R.S. 14:402) reads as follows:\n\u201cAn Act\n\u201cTo amend Title 15 of the Louisiana Revised Statutes of 1950 by adding thereto a new section to be designated as R.S. 15:876; to prohibit the introduction or the attempt to introduce into or upon the grounds of any correctional or penal institution under the direction and supervision of the Board of Institutions of the State of Louisiana and to prohibit the taking or removing or the attempt to take or remove or send from such institutions of any articles or anything whatsoever declared to be contraband under the provisions of this act, when so introduced into or upon the grounds of such institutions or taken, removed, or sent thereform without authorization of the officer in charge of each, such institution; to prescribe penalties for violations of the provisions of this Act.\n\u201cBe it enacted by the Legislature of Louisiana:\n\u201cSection 1. Section 876 of Title 15 of the Louisiana Revised Statutes of 1950 is hereby enacted to read as follows :\n\u201c\u00a7 876.\n\u201cA. It shall be unlawful to introduce or attempt to introduce into or upon the grounds of any correctional or penal institution under the supervision or control of the Board of Institutions of the State of Louisiana or to take or attempt to take or send therefrom any of the following articles which are hereby declared to be contraband for the purposes of this act, to wit: Any communication or any currency or coin given or transmitted or intended to be given or transmitted to any inmate of any correctional or penal institution under the supervision and direction of the Louisiana State Board of Institutions; any article of food or clothing; any intoxicating beverage or beverage which causes or may cause an intoxicating effect; any narcotic or hypnotic or excitive drug or any drug of whatever kind or nature including nasal inhalators of any variety, sleeping pills or barbiturates of any variety that create or may create a hypnotic effect if taken internally; and any firearm or any instrumentality customarily used as a dangerous weapon, except through regular channels as authorized by the officer in charge of each correctional or penal institution.\n\u201cB. Whoever violates any provision of this section shall upon conviction be imprisoned in the state penitentiary for not more than three years without being eligible for a suspended sentence or for a parole.\n\u201cSection 2. All laws or parts of laws in conflict herewith are hereby repealed.\u201d\nThe first contention listed in the motion to quash, that there was no such crime as alleged on May 5, 1959, has apparently been abandoned as counsel for defendant does not argue it in his brief in this Court. Suffice it to say, the act in question was approved by the Governor on July 6, 1958.\nThe next contention is that the alleged crime cannot legally and factually apply to the defendant. It is arued that since defendant was an inmate of the penitentiary he could not be charged with introducing contraband \u201cinto and upon\u201d the grounds of the Louisiana State Penitentiary. This attack is one that addresses itself to the sufficiency of the evidence. That is a question to be determined by the jury and not by this Court. Furthermore one inside the penitentiary might well be guilty as a principal if he acted in concert with one who carried the contraband in from the outside.\nDefendant also argues in his brief that the information is defective because the charge reads \u201cinto and upon\u201d while the statute is worded \u201cinto or upon\u201d. Even assuming that the statute in the use of the words \u201cinto or upon\u201d refers to different offenses, there is no merit to this contention. Where a section of an act enumerates several offenses linked to the same act, they may be charged cumulatively in one count. State v. Amiss, 230 La. 1003, 89 So.2d 877.\nThe contentions of the defendant that the act is unconstitutional for the reasons that it is an unreasonable exercise of the police power, and that it is arbitrary and discriminatory to a class of which defendant is a member, is without merit. In the exercise of its police power, the state has the undoubted right to adopt laws for the safety of the inmates of the Penitentiary and to guard against the smuggling into the institution of contraband, some of which may be used to facilitate escape and others of which may affect the safety, health or morals of the inmates. There is nothing discriminatory about the act. It applies equally to all persons, whether they be in or out of the penitentiary.\nThe contention that the act is unconstitutional because it provides for cruel and inhuman punishment in that it imposes a penalty of imprisonment without eligibility for parole or suspension of sentence, is without foundation. The state may in its discretion exclude such classes of persons from \\ uticipation in the benefit of parole or suspended sentences as long as tbe-provision is applicable to all persons who have been convicted of the same offense. State v. Thomas, 224 La. 431, 69 So.2d 738; Ughbanks v. Armstrong, 208 U.S. 481, 28 S.Ct. 372, 52 L.Ed. 582. In State v. Thomas, supra, we said: \u201cThe Uniform Narcotic Act, a law dealing with a special subject, applies to all persons convicted of this particular crime, without exception, subjecting them all, as a class, to the same loss of parole privileges. The Legislature obviously concluded that the interests of society are best served by withholding from this class of persons the privilege enjoyed by certain others, and its wisdom in that respect cannot be inquired into or questioned.\u201d [224 La. 431, 69 So.2d 740.]\nDefendant contends that LSA-R.S. 14:-402 violates Article 2, Section 2 of the Constitution of Louisiana. Article 2 of the Constitution provides:\n\u201cSection 1. The powers of the government of the State of Louisiana shall be divided into three distinct departments \u2014 legislative, executive, and judicial.\n\u201cSection 2. No one of these departments, nor any person or collection of persons holding office in one of them, shall exercise power properly belonging to either of the others, except in the instances hereinafter expressly directed or permitted.\u201d\nIt is first contended that LSA-R.S. 14:402 infringes upon the powers of the executive and judicial departments in that it deprives the Executive Department of the right of reprieve, of the right to commute sentences and of the right to grant parole, and deprives the courts of the right to suspend sentences. There is nothing whatsoever in the act which attempts to take away the power of the Governor to reprieve, or the power of the pardon board and the Governor to commute sentences. The contention that the act is void because it takes away the parole power from the parole board and the right to suspend sentences from the courts has already been answered adversely to the defendant in State v. Thomas, supra.\nDefendant further contends in his brief that there is a violation of Article II, Section II of the Constitution for the reason that the statute unlawfully delegates legislative power to an administrative officer. It will be noted that LSA-R.S. 14:402 provides that it shall be unlawful to introduce or attempt to introduce into or upon or to take or to attempt to take or to send from the grounds of any correctional or penal institution, certain articles declared to be contraband \u2018\u2018except through regular channels as authorized by the officer in charge of each correctional or penal institution.\u201d (Italics ours.)\nIt is argued that this leaves to the discretion of the officer in charge the determination of when the act shall be a crime. In City of Baton Rouge v. Shilg, 198 La 994, 5 So.2d 312, 313, we stated the general rule thus:\n\u201cFrom a review of the authorities, we find the generally accepted rule to be that a statute or ordinance vesting arbitrary discretion in a public official without prescribing fixed and definite rules or specific conditions for the official\u2019s guidance is unconstitutional. See 12 A.L.R. 1435-1455; 72 A.L.R. 229-232, Vol. 1 McQuillin on Municipal Corporations, 2d Ed., 1102, Sections 395 through 399; City of Shreveport v. Herndon, 159 La. 113, 105 So. 244; State v. Maitrejean, 193 La. 824, 192 So. 361, and the authorities cited in these various sources. But, as was pointed out in the Herndon case (159 La. 113, 105 So. 246). \u2018The rule is not without exception or modification, * * * because some situations, and some statutes or ordinances, in the very nature of things, require the vesting of discretion in a subordinate commission or in the officer charged with the duty of enforcing the statute or ordinance; e. g., where it is impracticable to lay down a definite or comprehensive rule, or where the discretion relates to the enforcement of a police regulation requiring prompt exercise of judgment.\u2019 See, also, City of New Orleans v. Sanford, 137 La. 628, see page 647, 69 So. 35, L.R.A.1916A, 1228.\u201d\nIn National Bank of Commerce in New Orleans v. Board of Supervisors of Louisiana State University and Agricultural and Mechanical College, 206 La. 913, 933, 20 So.Zd 264, 270, we said: \u201c \u2018The modern tendency is to be more liberal in permitting grants of discretion to administrative bodies or officers in order to facilitate the administration of laws as the complexity of economic and governmental conditions increases\u2019. 11 Am.Jur. Section 234, page 949.\n\u201c \u2018The policy of the law favors the placing of detailed responsibility in administrative officers. The courts uphold statutes vesting such power in such officers if it is possible fairly to do so, at least where the powers are merely ministerial.\u2019 Ibid, Section 240, page 955.\u201d\nThere is a twilight zone between the cases in which there is an unlawful delegation of power to an administrative officer and those where detailed responsibility may constitutionally be placed in administrative officers. We have no difficulty in holding in the instant case that the provision under attack is constitutional. The act itself prohibits the introduction and removal of contraband in all cases except where it is done through regular channels and with authority of the officer in charge. If the authority of the officer is granted there is no crime. If the authority is not granted the legislature itself has made the act a crime. We see no more reason why this provisi\u00f3n should be held invalid than a provision in a criminal trespass statute which makes it an offense to enter upon private premises without the authority and consent of the owner.\nAlthough not listed in the motion to quash, or in the motion in arrest of judgment, defendant contends in brief filed in this Court that the statute, Act 269 of 1958, now LSA-R.S. 14:402, is unconstitutional because it embraces multiple objects and its title is not indicative of these objects. The constitutional provision confining laws to one object and requiring an indicative title means that the title shall be a brief and convenient index to the law\u2019s contents and not that every detail shall be set out in the title. State v. Pete, 206 La. 1078, 20 So.2d 368. The law in question has only one object and has a title explicit in indicating that object. The object of the statute is the prevention of traffic in contraband in penal institutions. Where all parts of a statute have natural connection and reasonably relate, directly or indirectly, to one general and legitimate subject of legislation the statute is not violative of Article 3 Section 16 of the Louisiana Constitution as embracing more than one object, no matter how extensively it deals with details looking to the accomplishment of the main legislative purpose. State v. Pete, supra; Wall v. Close, 203 La. 345, 14 So.2d 19.\nWe can find no basis for the contention of the defendant that the information does not inform him of the nature and cause of the accusation against him or that it is vague in its definition of the crime. Nor is there anything to justify the contentions of the defendant that \u201cthe penalty is ambiguous and does not classify the crime as either a felony or misdemeanor and therefore deprives the accused of a jury trial or knowing the number of jurors by which he is entitled to be tried\u201d and \u201cdoes not specify whether the penalty is at hard labor or otherwise thereby failing to classify the offense as a misdemeanor or felony.\u201d\nA felony is any crime for which an offender may be sentenced to death or imprisonment at hard labor. A misdemean- or is any crime other than a felony. LSA-R.S. 14:2. It has been repeatedly held by this Court that the term \u201cfelony\u201d denotes or means a crime for which the punishment may be death or imprisonment at hard labor in the State Penitentiary. State v. Brown, 185 La. 855, 171 So. 55. In that case we quoted with approval the following definition of \u201cfelony\u201d from 3 Words and Phrases, First Series, p. 2737, under the caption \u201cFelony\u201d [16 Words and Phrases, Felony, p. 728] : \u201cA felony is an offense against the laws of the state which is punishable by death or confinement in the penitentiary.\u201d A sentence to imprisonment in the penitentiary is, in fact, though not in precise words, \u201can imprisonment at hard labor.\u201d State v. Davis, 121 La. 623, 46 So. 673. LSA-R.S. 14:402 provides for a penalty of imprisonment in the State Penit\u00e9ntiary for not more than three years. This in itself makes the offense a felony. One charged with the violation of LSA-R.S, 14:402 is accordingly entitled to a trial by a jury of twelve. Article 1, Section 9, Louisiana Constitution. LSA-R.S. 14:402 is accordingly not unconstitutional because it fails to use the word \u201cfelony\u201d or the words \u201cat hard labor\u201d.\nThe motion for a new trial presents nothihg for review.\nFor the reasons assigned the conviction and sentence are affirmed.\n. LSA-R.S. 14:402 was adopted as an addition to Title 15 as LSA-R.S. 15:876 but on the authority of LSA-R.S. 24 :253, the section number has been changed and the text thereof incorporated in the Revised Statutes as LSA-R.S. 14:402.",
+        "type": "majority",
+        "author": "VIOSCA, Justice."
+      }
+    ],
+    "attorneys": [
+      "John R. Rarick, St. Francisville, for defendant-appellant.",
+      "Jack P. F. Gremillion, Atty. Gen., M. E. Culligan, Asst. Atty. Gen., Richard Kilbourne, Dist. Atty., Clinton, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "116 So.2d 682\nSTATE of Louisiana v. Herbert MORGAN.\nNo. 44898.\nDec. 14, 1959.\nRehearing Denied Jan. 11, 1960.\nJohn R. Rarick, St. Francisville, for defendant-appellant.\nJack P. F. Gremillion, Atty. Gen., M. E. Culligan, Asst. Atty. Gen., Richard Kilbourne, Dist. Atty., Clinton, for appellee."
+  },
+  "file_name": "0829-01",
+  "first_page_order": 447,
+  "last_page_order": 456
+}

@@ -1,0 +1,97 @@
+{
+  "id": 3185917,
+  "name": "Nancy Callan CONEY v. Walton B. CONEY; Walton B. CONEY, v. Nancy Callan CONEY (two cases)",
+  "name_abbreviation": "Coney v. Coney",
+  "decision_date": "1959-11-09",
+  "docket_number": "No. 44754",
+  "first_page": "417",
+  "last_page": "417",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 418"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 So.2d 803"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "115 So.2d 801",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3188388
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0409-02"
+      ]
+    },
+    {
+      "cite": "238 La. 410",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9904920,
+        3188388
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/115/0801-01",
+        "/la/238/0409-02"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 84,
+    "char_count": 711,
+    "ocr_confidence": 0.754,
+    "pagerank": {
+      "raw": 1.4975956836136062e-07,
+      "percentile": 0.6646955092748651
+    },
+    "sha256": "d53978b14fb1607c22d1e87501ae500738ce8cb8ed9532bbd5f955ee53752776",
+    "simhash": "1:a9ea221f8feca18a",
+    "word_count": 120
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nancy Callan CONEY v. Walton B. CONEY. Walton B. CONEY, v. Nancy Callan CONEY (two cases)."
+    ],
+    "opinions": [
+      {
+        "text": "HAMITER, Justice.\nThe circumstances leading up to the issuance of the instant writs are fully set forth in Coney v. Coney, 238 La. 410, 115 So.2d 801.\nIn view of our dismissal of the appeal therein the issue presented here is now moot, the relief sought by applicant having been effectively afforded through our decision in that cause.\nFor the reasons assigned the writs heretofore issued by us are recalled and the rule to show cause is discharged.",
+        "type": "majority",
+        "author": "HAMITER, Justice."
+      }
+    ],
+    "attorneys": [
+      "Benton & Moseley, Baton Rouge, Mary Purser, Amite, for relator.",
+      "Ponder & Ponder, Amite, James T. Burns, Covington, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "115 So.2d 803\nNancy Callan CONEY v. Walton B. CONEY. Walton B. CONEY, v. Nancy Callan CONEY (two cases).\nNo. 44754.\nNov. 9, 1959.\nBenton & Moseley, Baton Rouge, Mary Purser, Amite, for relator.\nPonder & Ponder, Amite, James T. Burns, Covington, for respondent."
+  },
+  "file_name": "0417-01",
+  "first_page_order": 241,
+  "last_page_order": 241
+}

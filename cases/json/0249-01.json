@@ -1,0 +1,114 @@
+{
+  "id": 3188567,
+  "name": "Mr. and Mrs. L. P. HENDERSON v. CENTRAL MUTUAL INSURANCE COMPANY et al.",
+  "name_abbreviation": "Henderson v. Central Mutual Insurance",
+  "decision_date": "1959-11-09",
+  "docket_number": "No. 44647",
+  "first_page": "249",
+  "last_page": "257",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 250"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 So.2d 339"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "35 So. 2d 849",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        10092900
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/35/0849-01"
+      ]
+    },
+    {
+      "cite": "213 La. 903",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3044571,
+        10092900
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/213/0903-01",
+        "/so2d/35/0849-01"
+      ]
+    },
+    {
+      "cite": "111 So.2d 351",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9876936
+      ],
+      "pin_cites": [
+        {
+          "page": "353"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/111/0351-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 436,
+    "char_count": 7587,
+    "ocr_confidence": 0.744,
+    "pagerank": {
+      "raw": 2.192170451215863e-06,
+      "percentile": 0.9957119121616743
+    },
+    "sha256": "2cd4efba0ccb4f18f1c24cc46fe49dadc036bbf0c4158299f43df08b7ff3af7d",
+    "simhash": "1:8b829ed09c22e6e3",
+    "word_count": 1269
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mr. and Mrs. L. P. HENDERSON v. CENTRAL MUTUAL INSURANCE COMPANY et al."
+    ],
+    "opinions": [
+      {
+        "text": "FOURNET, Chief Justice.\nThis direct action suit, authorized under the provisions of R.S. 22:655, was instituted by the plaintiffs, Mr. and Mrs. L. P. Henderson, against the Central Mutual Insurance Company and Firemen\u2019s Insurance Company, the public liability insurers of the owners of the cars driven by Mrs. Betty W. Harmon and Neal Palmer and involved in an intersectional collision which resulted in personal injuries to Mrs. Henderson, a guest passenger in the Harmon vehicle, to recover damages for said injuries, medical expenses and loss of earnings; and is before us on writ granted on the application of the defendant, Central Mutual Insurance Company, to review the judgment of the Court of Appeal affirming, as amended, the judgment of the district court in favor of the plaintiffs and against both defendants, in solido, in the total amount of $3,535.22. See, 111 So.2d 351, 353.\nAccording to the record, the accident occurred in the afternoon of February 3, 1958, at approximately 5:30 p. m. at the intersection of Corbitt and Fairfax Streets in the City of Shreveport. The car driven by Mrs. Harmon, in which plaintiff, Mrs. L. P. Henderson, was riding as a guest passenger, was proceeding at a rate of approximately 25 miles per hour in a westerly direction on Corbitt Street, when it collided with a vehicle owned by L. G. Palmer and operated by his minor son, Neal, who was travelling south on Fairfax Street and entered the intersection in disregard of a stop sign facing traffic approaching from Fairfax Street.\nAs was properly observed by the Court of Appeal, \u201cinasmuch as the defendant, Firemen\u2019s Insurance Company, neither appealed nor answered plaintiffs\u2019 appeal, the questions or issues as to the fault and negligence of the driver of the Palmer automobile and of that defendant\u2019s liability are foreclosed and are no longer before the court.\u201d The court, nevertheless, further observed \u201cthat the correctness of the verdict of the jury and of the judgment of the court as to Palmer\u2019s liability has been most convincingly established by the record. The driver admitted to the police officers and as a witness on the trial of the case that he did not stop before reaching Corbitt Street but proceeded into the intersection without maintaining a proper lookout or making proper observation. Moreover, he testified he did not see the Harmon car until momentarily before the accident;\u201d but concluded that even though \u201cMrs. Harmon was operating her automobile on a right of way street and at a reasonable and moderate rate of speed,\u201d she was contributorily negligent because \u201cthere was no obstruction to her view as her car approached the intersection. She had full view of traffic on the intersecting street for a considerable distance, as did the driver of the other vehicle,\u201d and, therefore, \u201cthe conclusion is inescapable that had Mrs. Harmon been observant, diligent and alert she would have seen the Palmer car in time, at her rate of speed, to have slowed her own car or stopped it and thereby to have avoided the accident. Accordingly, her negligence, in the above mentioned respects, concurred with that of Palmer in causing the accident and was the proximate cause thereof. Her dereliction of duty in the aforesaid respects, particularly in making no observation at all before entering or at the time she entered the intersection was most substantial and, without it, it can only be reasonably concluded the accident would not have occurred.\u201d\nThis court in the case of Koob v. Cooperative Cab Co., 213 La. 903, 35 So. 2d 849, in resolving the respective duties and rights of motorists when approaching and entering intersections, very aptly stated that \u201cthe law in this state is well settled that a motorist who is proceeding on a right-of-way street, upon approaching an intersection where traffic is required under a city ordinance, and is warned by stop signs, to come to a complete stop before entering the intersection, should not be held to the same degree of care and vigilance as if no ordinance existed or stop signs were erected. The danger at such an intersection is less than that at a corner where no stop signs have been erected, and therefore less care is required of the driver on a favored street. The motorist on the .right-of-way street, with knowledge of the location of such a stop sign, has a right to assume that any driver approaching the intersection from the less favored street will observe the law and bring his car to a stop before entering the intersection, and such motorist can indulge in this assumption until he sees, or should see, that the other car has not observed, or is not going to observe, the law.\u201d 213 La. at pages 909-910, 35 So.2d at page 851.\nApplying the test announced by this court in the above case to the facts of the case at bar we find that the Court of Appeal erred in holding Mrs. Harmon was contributorily negligent in the accident involved. We do not think the evidence justifies the conclusion reached by the Court of Appeal that Mrs. Harmon failed to maintain a proper lookout, since according to her own uncontradicted testimony she glanced in both directions prior to entering the intersection and did not see the Palmer vehicle until it was just about abreast with the stop sign, at which time \u2014 realizing that Palmer was not going to stop \u2014 she applied her brakes and swerved slightly to the left in an effort to prevent the impending collision; nor do we believe the evidence warrants the conclusion that Mrs. Harmon \u2014 had she been alert \u2014 could have seen the approaching Palmer vehicle and avoided the accident, because she had an unobstructed view for a considerable distance, the only evidence with respect to that fact being the testimony of Mrs. Harmon and plaintiff, Mrs. Henderson, to the effect that the houses along Corbitt Street are slightly recessed, thus affording some view across the intersection, no measurements having been taken to ascertain the exact distance. Even assuming, however, that the view into Fair-fax Street is unobstructed for a considerable distance, as found by the Court of Appeal, and charging Mrs. Harmon with having seen what she should have seen, we think that under the test established in the Koob case, supra, she was free from negligence as it was impossible for her to anticipate Neal Palmer\u2019s failure to abide by the stop sign, since according to Neal\u2019s testimony, in which he is corroborated by his sister, who was accompanying him at the time of the accident, he had slowed down to about 15 miles per hour when approaching the stop sign, from which fact Mrs. Harmon \u2014 had she observed him \u2014 could have reasonably concluded that he intended to bring his car to a timely stop.\nFor the reasons assigned, the judgment of the Court of Appeal insofar as it amends and affirms the judgment of the district court against the defendant, Central Mutual Insurance Company, is annulled and set aside and, accordingly, plaintiffs\u2019 demands against said defendant are dismissed.\n. The judgment of the district court was amended by increasing the award in favor of plaintiff, Mr. L. P. Henderson, from $435 to $535.22, and, as thus amended, affirmed.\n. Mrs. L. P. Henderson recovered $3.000 for personal injuries; Mr. L. P. Henderson was awarded $535.22 for past and future medical expenses incurred on behalf of his wife.",
+        "type": "majority",
+        "author": "FOURNET, Chief Justice."
+      }
+    ],
+    "attorneys": [
+      "Bodenheimer, Looney & Richie, Shreveport, for applicant.",
+      "Jackson, Smith, Mayer & Kennedy, Shreveport, for defendants-respondents."
+    ],
+    "corrections": "",
+    "head_matter": "115 So.2d 339\nMr. and Mrs. L. P. HENDERSON v. CENTRAL MUTUAL INSURANCE COMPANY et al.\nNo. 44647.\nNov. 9, 1959.\nBodenheimer, Looney & Richie, Shreveport, for applicant.\nJackson, Smith, Mayer & Kennedy, Shreveport, for defendants-respondents."
+  },
+  "file_name": "0249-01",
+  "first_page_order": 157,
+  "last_page_order": 161
+}

@@ -1,0 +1,279 @@
+{
+  "id": 3187277,
+  "name": "STATE of Louisiana v. Simon STEWART",
+  "name_abbreviation": "State v. Stewart",
+  "decision_date": "1960-01-11",
+  "docket_number": "No. 44865",
+  "first_page": "1035",
+  "last_page": "1047",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 1036"
+    },
+    {
+      "type": "parallel",
+      "cite": "117 So.2d 583"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "69 So. 856",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "case_ids": [
+        591207,
+        591383
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/138/0009-01",
+        "/la/138/0011-01"
+      ]
+    },
+    {
+      "cite": "138 La. 11",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        591383
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/138/0011-01"
+      ]
+    },
+    {
+      "cite": "232 La. 766",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5434568,
+        9903243
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/232/0765-01",
+        "/so2d/95/0305-01"
+      ]
+    },
+    {
+      "cite": "36 La.Ann. 204",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        8503068
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la-ann/36/0204-01"
+      ]
+    },
+    {
+      "cite": "62 So. 597",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "case_ids": [
+        2666928,
+        2666655
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/133/0119-01",
+        "/la/133/0123-01"
+      ]
+    },
+    {
+      "cite": "133 La. 120",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2666928
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/133/0119-01"
+      ]
+    },
+    {
+      "cite": "229 La. 984",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5528898,
+        9906237
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/229/0983-01",
+        "/so2d/87/0315-01"
+      ]
+    },
+    {
+      "cite": "148 La. 983",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        575130
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "244"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/148/0983-01"
+      ]
+    },
+    {
+      "cite": "22 So. 316",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Am.Rep. 426",
+      "category": "reporters:state_regional",
+      "reporter": "Am. Rep.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 La.Ann. 691",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 La.Ann. 302",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        5235612
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la-ann/25/0302-01"
+      ]
+    },
+    {
+      "cite": "113 La. 959",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2467295
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "900"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/113/0959-01"
+      ]
+    },
+    {
+      "cite": "21 So. 274",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 L.R.A. 721",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 So. 271",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "272"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 La. Ann. 253",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        2563743
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la-ann/49/0253-01"
+      ]
+    },
+    {
+      "cite": "34 La.Ann. 186",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "weight": 3,
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 647,
+    "char_count": 13466,
+    "ocr_confidence": 0.736,
+    "pagerank": {
+      "raw": 4.2518434762090045e-07,
+      "percentile": 0.9150861691164234
+    },
+    "sha256": "4cc14e15ba0b363fdef98f9e8803421d0f7e2d137dc284da79337048582e5e54",
+    "simhash": "1:467ef337be8402e7",
+    "word_count": 2347
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "SIMON, J., absent."
+    ],
+    "parties": [
+      "STATE of Louisiana v. Simon STEWART."
+    ],
+    "opinions": [
+      {
+        "text": "HAWTHORNE, Justice.\nSimon Stewart, charged with murder, was tried, found guilty, and sentenced to death. From this conviction and sentence he has appealed.\nDefendant pleaded present insanity and also insanity at the time of the commission of the crime. All of the bills of exception that we shall discuss or specifically mention have to do with one or the other of these pleas.\nDuring the examination of prospective jurors on their voir dire several bills were taken and perfected by counsel for the accused. One of these bills shows that an error was committed which entitles the accused to a new trial.\nDuring the voir dire examination of prospective jurors, counsel for the State and for the accused engaged in argument as to the law relative to the degree of proof in cases where the accused pleads insanity at the time of the commission of the crime. Counsel for the State took the position that proving something by a preponderance of evidence requires \u201ca greater proof than * * * proving something beyond a reasonable doubt\u201d, and so stated to prospective jurors. Counsel for the accused in examining a group of five prospective jurors asked a question giving his view of the law-governing such cases, and the State objected to this question. The trial judge sustained the objection and in doing so made a comment on the law which he deemed appropriate to the case. In the course of this comment he said:\n\u201c * * * I will say this, that we discussed this morning about the question of reasonable doubt, that to prove the insanity beyond a reasonable doubt or lack or reasonable doubt \u2014 my idea is that the defense is required to prove insanity not only by a preponderance of evidence but beyond a reasonable doubt of insanity, not reasonable doubt of sanity. * * * \u201d\nThe record discloses that when this comment was made, five jurors had already been accepted and sworn to try the case, and that four of the five then being examined on their voir dire were accepted and actually served.\nIn his per curiam the judge cites and relies on the case of State v. De Ranee, 34 La.Ann. 186, to support his statement that the defendant must show insanity beyond a reasonable doubt.\nThe leading case dealing with the degree of proof by which an accused must establish his insanity is State v. Scott, 49 La. Ann. 253, 21 So. 271, 272, 36 L.R.A. 721, decided after State v. De Rance, supra, on which the trial judge relied. In the Scott case the trial judge instructed the jury:\n\u201cWhen insanity is set up as a defense for crime, it must be proved as a substantive fact by the party alleging it, on whom lies the burden of proof. The degree of proof must be by a preponderance of evidence. * * * The burden is upon the state to overcome the presumption of innocence, while the burden is upon the defendant to overcome the presumption of sanity when insanity is set up as a defense, and both presumptions should be overcome beyond reasonable doubt.\u201d (Italics ours.)\nThe accused in that case excepted to this charge as ambiguous and contradictory and not a correct exposition of the law, arguing that the charge placed before the jury two different rules of proof for the establishment of insanity as a defense \u2014 one, that the preponderance of testimony sufficed, and the other, that proof beyond a reasonable doubt was required.\nAfter setting out the charge and the objection, this court observed that the trial judge\u2019s charge followed that sustained in State v. De Rance, 34 La.Ann. 186. It is obvious that in Scott this court repudiated the De Ranee case because in Scott we found the judge\u2019s charge on the degree of proof required to establish the insanity of the accused to be reversible error and granted the accused a new trial.\nIn the Scott case this court pointed out that the charge in the trial court implied that though there might be a preponderance of testimony before the jury to show that the accused was insane at the time of the act, yet they might convict. The court then stated that it would be difficult to maintain such a charge under the authority of text books and the decisions of other courts, and refused to do so, saying:\n\"We think it will suffice if the jury are told, in effect, that the burden of proof is on the accused to establish by clear and convincing proof the insanity he urges as a defense; that the presumption of sanity is to be taken into consideration, and exercise its full influence along with all the testimony before them, whether produced by the accused or by the state; and if, on the consideration of the whole testimony, giving due weight to the presumption of sanity, they are satisfied the accused was not of sane mind when the act charged was committed, they are to acquit, but, if not thus satisfied, they are to hold the accused sane, and responsible.\u201d [49 La.Ann. 253,21 So. 274.]\nIn State v. Lyons, 113 La. 959, 987ff., 37 So. 890, 900, this court approved the Scott decision in these words:\n\u201cOf the three rules on this subject, to wit: (1) The defendant must prove beyond a reasonable doubt that he was insane at the time of the commission of the act charged against him; (2) he must satisfy the jury of such insanity by a preponderance of the whole evidence in the case; (3) if, upon the whole evidence, there be reasonable doubt as to whether he was sane or insane, he should be acquitted \u2014 the second is supported by the weight of authority in England and in this country. * * * In Louisiana that rule was applied in State v. Burns, 25 La.Ann. 302, and State v. Coleman, 27 La.Ann. 691, and affirmed in State v. Scott, 49 La.Ann. 253, 21 So. 271, [36 L.R.A. 721]. * * * In the case last mentioned, Mr. Justice Miller, as the organ of this court, in effect, overruled a former decision, rendered in the case of State v. De Rance, 34 La.Ann. 186, 44 Am.Rep. 426, where it had been held that the onus is on the accused to prove beyond a reasonable doubt the insanity relied on by him, and returned to the jurisprudence as established by the decisions in State v. Burns and State v. Coleman, supra; the rule thus readopted having been subsequently mentioned in terms of approval in State v. Paine, 49 La.Ann. [1092], 1094, 22 So. 316; * * *.\u201d (Italics ours.)\nIn State v. Surrency, 148 La. 983, 88 So. 240, 244, this court said:\n\u201cWhen insanity is an issue, the state and the accused are placed in the following relative positions:\n\u201cThe state must make such proof of guilt as would satisfy the jury beyond a reasonable doubt, as in the case of an admittedly sane individual. When this is done, then the accused assumes the burden of proving insanity by a preponderance of the evidence. In deciding the case, there stands on the side of the state the proof of guilt plus the positive legal presumption of sanity, which presumption, if the case is otherwise made out beyond a reasonable doubt, is sufficient to convict. On the side of the defense stands the negative of that presumption (of sanity) which he must combat and overcome by proof sufficient to establish a preponderance of evidence in favor of insanity. And against such evidence on the part of accused is also to be weighed any positive proof which the state may offer, in addition to the legal presumption, to establish sanity. If, on the whole, considering all of the evidence as to his mental condition, there is a preponderance of proof in favor of insanity of a character to render the defendant irresponsible, then the accused should be acquitted; if not and the proof otherwise convinces the jury of his guilt beyond a reasonable doubt, he should be convicted.\u201d\nSee also State v. Chinn, 229 La. 984, 87 So.2d 315, holding that insanity at the time of the commission of the offense must be established by the accused by a preponderance of the evidence.\nTherefore, under this jurisprudence, when the trial judge in the instant case said in the presence of some of the jurors that the defendant had to prove his insanity beyond a reasonable doubt, he made a statement of the law that was incorrect and highly prejudicial to the accused.\nA statement made by the trial judge as to the law necessarily has great weight with the jury, for it is the duty of the judge to charge the jury on the law applicable to the case and it is the jury\u2019s duty to accept and apply the law as laid down by the judge. La. Code Crim.Proc. Art. 385, R.S. 15:385. An erroneous statement of law made by the trial judge which is prejudicial vitiates the verdict and entitles the accused to a new trial even though the judge subsequently charges the correct law. State v. Langford, 133 La. 120, 62 So. 597. Moreover, an erroneous instruction as to the law cannot be cured by another instruction which states the law accurately unless the erroneous instruction is expressly admitted to be such and formally withdrawn from the jury by the trial judge. See State v. Jones, 36 La.Ann. 204. In the instant case the judge did not thus correct his erroneous statement of the law.\nDuring the trial of the case several hills of exception were taken to the admission in evidence of oral and written confessions made by the accused. It is the contention of counsel for the accused that these confessions were not freely and voluntarily given because at the time they were made the accused was under mental duress and was mentally incompetent.\nIt is the well settled law of this state that before a confession can be introduced in evidence, the State must affirmatively prove that it was freely and voluntarily given and not made under the influence of fear, duress, intimidation, menaces, threats, inducements or promises, and that the State must show by proof which convinces beyond a reasonable doubt that the confession was voluntary. La. Code Crim.Proc. Arts. 451, 452, R.S. 15:-451, 452; La.Const. of 1921, Art. 1, Sec. 11; State v. Weston, 232 La. 766, 95 So.2d 305, and authorities there cited.\nIn the instant case the State established that the accused was not subjected to any treatment designed by effect on body or mind to compel a confession, and that the accused was not intimidated, menaced, or threatened, and that no inducements or promises were made to him. Counsel does not contend that the accused was subjected to any such treatment, but he takes the position that the confessions were not freely and voluntarily given because of the mental condition of the accused and the mental stress he was under at the time the confessions were made.\nIn support of his contention counsel for the accused relies on the testimony of psychiatrists, psychologists, and lay witnesses. All of the experts testified that the accused was of a very low mentality, feebleminded, and illiterate, and most of them testified that he had been psychotic but that the psychosis was in remission. One of the doctors, however, did not think he was psychotic. None of the experts would express any view as to whether he was psychotic at the time the confessions were given. The lay witnesses called by the defense said that the accused did not have good sense; those called by the State said that the accused acted normally and never said or did anything to cause them to believe he was insane.\nAs argued by counsel, the accused may have been under great mental stress at the time he made these confessions, but if so, the stress sprang from apprehensions caused by his having been arrested for a serious crime. There is nothing in this record to indicate that his mental stress was produced by any extraneous pressure exerted for the purpose of compelling the confessions.\nThe circumstance that the defendant made the confessions under great mental stress induced by apprehension arising from the situation in which he found himself does not make the confessions involuntary. Evidence tending to show his weak mentality, feeble-mindedness, and mental stress does not affect the admissibility of the confessions, but rather is a matter that bears on the weight, credibility, and effect to be given the confessions by the jury. See 2 Wharton\u2019s Criminal Evidence 119\u2014 121, sec. 386 (12th ed. 1955); 20 Am.Jur. 448-449, Evidence, secs. 523, 524; 22 C.J.S. Criminal Law \u00a7 828, pp. 1451-1452; State v. Phelps, 138 La. 11, 69 So. 856.\nAfter reviewing all the evidence adduced in connection with the admission in evidence of these confessions, we believe that the trial judge properly admitted them.\nOne of the other bills was taken to the ruling of the trial judge that the accused was presently sane. We need not pass upon the question of the present sanity of the accused at the time of the trial which resulted in the conviction we are reversing, for our opinion would not be binding upon the trial court on the question of his sanity at some future time. We are therefore not to be considered as expressing any view on this question.\nThe other bills of exception reserved by the defendant were taken under circumstances which will probably not arise at a subsequent trial, and hence they require no discussion here.\nThe conviction and sentence are reversed and set aside, and the case is remanded to the district court for a new trial.\nSIMON, J., absent.",
+        "type": "majority",
+        "author": "HAWTHORNE, Justice."
+      }
+    ],
+    "attorneys": [
+      "Sam J. D\u2019Amico, Baton Rouge, for defendant-appellant.",
+      "Jack P. F. Gremillion, Atty. Gen., M. E. Culligan, Asst. Atty. Gen., J. St. Clair Favrot, Dist. Atty., Thomas B. Pugh, Alex W. Wall, Asst. Dist. Attys., Baton Rouge, for plaintiff-appellee."
+    ],
+    "corrections": "",
+    "head_matter": "117 So.2d 583\nSTATE of Louisiana v. Simon STEWART.\nNo. 44865.\nJan. 11, 1960.\nRehearing Denied Deb. 15, 1960.\nSam J. D\u2019Amico, Baton Rouge, for defendant-appellant.\nJack P. F. Gremillion, Atty. Gen., M. E. Culligan, Asst. Atty. Gen., J. St. Clair Favrot, Dist. Atty., Thomas B. Pugh, Alex W. Wall, Asst. Dist. Attys., Baton Rouge, for plaintiff-appellee."
+  },
+  "file_name": "1035-01",
+  "first_page_order": 550,
+  "last_page_order": 556
+}

@@ -1,0 +1,1014 @@
+{
+  "id": 4381822,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. PERCY LEE JOHNSON, Defendant and Appellant",
+  "name_abbreviation": "People v. Johnson",
+  "decision_date": "1969-09-18",
+  "docket_number": "Crim. No. 14924",
+  "first_page": "232",
+  "last_page": "239",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "276 Cal. App. 2d 232"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "389 U.S. 1006",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11409096,
+        11409320,
+        11409162,
+        11409037,
+        11409237
+      ],
+      "year": 1967,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/389/1006-02",
+        "/us/389/1006-05",
+        "/us/389/1006-03",
+        "/us/389/1006-01",
+        "/us/389/1006-04"
+      ]
+    },
+    {
+      "cite": "376 U.S. 959",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        379056,
+        379210,
+        379331,
+        379290
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/376/0959-02",
+        "/us/376/0959-04",
+        "/us/376/0959-03",
+        "/us/376/0959-01"
+      ]
+    },
+    {
+      "cite": "393 U.S. 1108",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11434184,
+        11434216,
+        11434254,
+        11434031,
+        11434094,
+        11434159,
+        11434002,
+        11434132,
+        11434069
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/393/1108-07",
+        "/us/393/1108-08",
+        "/us/393/1108-09",
+        "/us/393/1108-02",
+        "/us/393/1108-04",
+        "/us/393/1108-06",
+        "/us/393/1108-01",
+        "/us/393/1108-05",
+        "/us/393/1108-03"
+      ]
+    },
+    {
+      "cite": "389 U.S. 1009",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11410688,
+        11410436,
+        11410628,
+        11410309,
+        11410184,
+        11410250,
+        11410356,
+        11410485,
+        11410551
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/389/1009-09",
+        "/us/389/1009-05",
+        "/us/389/1009-08",
+        "/us/389/1009-03",
+        "/us/389/1009-01",
+        "/us/389/1009-02",
+        "/us/389/1009-04",
+        "/us/389/1009-06",
+        "/us/389/1009-07"
+      ]
+    },
+    {
+      "cite": "59 Cal.Rptr. 206",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1967,
+      "opinion_index": 0
+    },
+    {
+      "cite": "251 Cal.App.2d 64",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2217181
+      ],
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "80-81"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/251/0064-01"
+      ]
+    },
+    {
+      "cite": "59 Cal. Rptr. 628",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "251 Cal.App.2d 471",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2217152
+      ],
+      "pin_cites": [
+        {
+          "page": "476-480"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/251/0471-01"
+      ]
+    },
+    {
+      "cite": "81 S.Ct. 1043",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 L.Ed.2d 199",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "365 U.S. 886",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6297824,
+        6298086,
+        6296583,
+        6297421,
+        6297165,
+        6298416,
+        6296861
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/365/0886-05",
+        "/us/365/0886-06",
+        "/us/365/0886-01",
+        "/us/365/0886-04",
+        "/us/365/0886-03",
+        "/us/365/0886-07",
+        "/us/365/0886-02"
+      ]
+    },
+    {
+      "cite": "83 A.L.R.2d 1086",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "358 P.2d 295",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.Rptr. 167",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Cal.2d 88",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4381242
+      ],
+      "pin_cites": [
+        {
+          "page": "93"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/55/0088-01"
+      ]
+    },
+    {
+      "cite": "88 S.Ct. 572",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 L.Ed.2d 607",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "429 P.2d 606",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.Rptr. 254",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 Cal.2d 105",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2328459
+      ],
+      "pin_cites": [
+        {
+          "page": "121"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/67/0105-01"
+      ]
+    },
+    {
+      "cite": "104 P.2d 778",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.2d 678",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2226873
+      ],
+      "pin_cites": [
+        {
+          "page": "681"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/15/0678-01"
+      ]
+    },
+    {
+      "cite": "357 P.2d 1049",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 Cal.Rptr. 793",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Cal.2d 27",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4381197
+      ],
+      "pin_cites": [
+        {
+          "page": "33"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/55/0027-01"
+      ]
+    },
+    {
+      "cite": "89 S.Ct. 231",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 1964,
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 L.Ed.2d 198",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 1964,
+      "opinion_index": 0
+    },
+    {
+      "cite": "393 U.S. 912",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11373600,
+        11373508,
+        11373796,
+        11373678,
+        11373751
+      ],
+      "year": 1964,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/393/0912-02",
+        "/us/393/0912-01",
+        "/us/393/0912-05",
+        "/us/393/0912-03",
+        "/us/393/0912-04"
+      ]
+    },
+    {
+      "cite": "65 Cal.Rptr. 15",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1964,
+      "opinion_index": 0
+    },
+    {
+      "cite": "257 Cal.App.2d 444",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2221281
+      ],
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "460"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/257/0444-01"
+      ]
+    },
+    {
+      "cite": "88 S.Ct. 568",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 1967,
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 L.Ed.2d 604",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 1967,
+      "opinion_index": 0
+    },
+    {
+      "cite": "408 P.2d 116",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1967,
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr. 788",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1967,
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.2d 659",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2335724
+      ],
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "667"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/63/0659-01"
+      ]
+    },
+    {
+      "cite": "68 Cal.Rptr. 202",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "261 Cal.App.2d 490",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2223357
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "502"
+        },
+        {
+          "page": "502"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/261/0490-01"
+      ]
+    },
+    {
+      "cite": "223 P.2d 17",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1968,
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.2d 234",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4408784
+      ],
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "237-238"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/36/0234-01"
+      ]
+    },
+    {
+      "cite": "281 P.2d 250",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1950,
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.2d 178",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4373605
+      ],
+      "year": 1950,
+      "pin_cites": [
+        {
+          "page": "184"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/44/0178-01"
+      ]
+    },
+    {
+      "cite": "332 P.2d 1001",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "158 Cal.App.2d 724",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4428726
+      ],
+      "pin_cites": [
+        {
+          "page": "730"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/158/0724-01"
+      ]
+    },
+    {
+      "cite": "310 P.2d 997",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "151 Cal.App.2d 28",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4415637
+      ],
+      "pin_cites": [
+        {
+          "page": "39"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/151/0028-01"
+      ]
+    },
+    {
+      "cite": "3 Cal.Rptr. 591",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1957,
+      "opinion_index": 0
+    },
+    {
+      "cite": "179 Cal.App.2d 72",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "80"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.Rptr. 390",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1960,
+      "opinion_index": 0
+    },
+    {
+      "cite": "195 Cal.App.2d 97",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2322622
+      ],
+      "weight": 2,
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "105"
+        },
+        {
+          "page": "105"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/195/0097-01"
+      ]
+    },
+    {
+      "cite": "314 P.2d 151",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "152 Cal.App.2d 562",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2350545
+      ],
+      "pin_cites": [
+        {
+          "page": "568"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/152/0562-01"
+      ]
+    },
+    {
+      "cite": "17 Cal.Rptr. 230",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1957,
+      "opinion_index": 0
+    },
+    {
+      "cite": "197 Cal.App.2d 617",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2318883
+      ],
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "620"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/197/0617-01"
+      ]
+    },
+    {
+      "cite": "323 P.2d 427",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1961,
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Cal.2d 137",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4387475
+      ],
+      "year": 1961,
+      "pin_cites": [
+        {
+          "page": "144"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/50/0137-01"
+      ]
+    },
+    {
+      "cite": "49 Cal. Rptr. 180",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "240 Cal.App.2d 13",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2164760
+      ],
+      "pin_cites": [
+        {
+          "page": "17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/240/0013-01"
+      ]
+    },
+    {
+      "cite": "84 S.Ct. 981",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 L.Ed.2d 976",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.Rptr. 43",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "220 Cal.App.2d 641",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2130856
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "653"
+        },
+        {
+          "page": "653"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/220/0641-01"
+      ]
+    },
+    {
+      "cite": "36 Cal.Rptr. 402",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "224 Cal.App.2d 146",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2134824
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "150"
+        },
+        {
+          "page": "151"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/224/0146-01"
+      ]
+    },
+    {
+      "cite": "41 Cal.Rptr. 263",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1964,
+      "opinion_index": 0
+    },
+    {
+      "cite": "230 Cal.App.2d 568",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2142494
+      ],
+      "year": 1964,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/230/0568-01"
+      ]
+    },
+    {
+      "cite": "54 Cal.Rptr. 528",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "246 Cal.App.2d 318",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        464323
+      ],
+      "pin_cites": [
+        {
+          "page": "325"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/246/0318-01"
+      ]
+    },
+    {
+      "cite": "282 P.2d 19",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.2d 371",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4372614
+      ],
+      "pin_cites": [
+        {
+          "page": "372-373"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/44/0371-01"
+      ]
+    },
+    {
+      "cite": "57 Cal.Rptr. 211",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "249 Cal.App. 2d 220",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2214635
+      ],
+      "pin_cites": [
+        {
+          "page": "229"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/249/0220-01"
+      ]
+    },
+    {
+      "cite": "254 P.2d 501",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1967,
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.2d 483",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2346876
+      ],
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "489"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/40/0483-01"
+      ]
+    },
+    {
+      "cite": "89 S.Ct. 920",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 L.Ed.2d 805",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Cal.Rptr. 524",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "264 Cal.App.2d 324",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2183107
+      ],
+      "pin_cites": [
+        {
+          "page": "327"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/264/0324-01"
+      ]
+    },
+    {
+      "cite": "32 Cal.Rptr. 178",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1968,
+      "opinion_index": 0
+    },
+    {
+      "cite": "217 Cal.App.2d 713",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2114961
+      ],
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "719"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/217/0713-01"
+      ]
+    },
+    {
+      "cite": "260 P.2d 27",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "119 Cal.App.2d 490",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2206060
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/119/0490-01"
+      ]
+    },
+    {
+      "cite": "22 Cal.Rptr. 916",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "205 Cal.App.2d 309",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 826,
+    "char_count": 12871,
+    "ocr_confidence": 0.637,
+    "pagerank": {
+      "raw": 1.067241085651167e-07,
+      "percentile": 0.5586773591819446
+    },
+    "sha256": "4cbfc7f9defcd0329c11b252b68e09e0c25cf025e0703742d5c803c6151bb3a1",
+    "simhash": "1:b895f93476c83750",
+    "word_count": 2120
+  },
+  "last_updated": "2024-02-27T17:52:21.889319+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. PERCY LEE JOHNSON, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "fendant\u201d) and his codefendant Claudio R. Shorey were charged by information with having conspired to commit forgery and grand theft (Pen. Code, \u00a7 182, subd. 1, violation). Initially, both pleaded not guilty, but Shorey later changed his plea and pleaded guilty. Defendant waived a jury trial and agreed to submit his cause on the transcript of the preliminary hearing (together with exhibits received and stipulations entered into at the hearing), subject to objections registered at the hearing and the right of either party to produce additional evidence. No additional evidence was offered; defendant did not testify. The trial court found defendant guilty, denied his request for probation, and sentenced him to state prison. Defendant appeals from the judgment of conviction.\nHe contends here that (1) he was entrapped, and (2) the evidence is insufficient to establish a conspiracy.\nEvidence\n(a) Charles W. Lawrence\u2019s testimony. He was a detective working for the district attorney\u2019s office on August 28, 1967. On that date he was working undercover and occupied rooms 1271 and 1273 at the Statler Hilton Hotel, Los Angeles. Late in the afternoon of that date, defendant came to room 1271, accompanied by a person known only as Dickerson. Lawrence had been informed that Dickerson was supposed to bring defendant to the hotel room.\nDefendant discussed with Lawrence the possibility of the latter purchasing some blank county warrants from him. Lawrenee asked defendant what he had in his possession. Defendant exhibited two envelopes, tearing open one which contained \u201c25 Special Warrants in them,\u201d and said that it would be $1,500 cash for the whole package. Lawrence asked him if these were the type of warrants currently being used by Los Angeles County. Defendant assured him that they were.\nLawrence inquired if defendant could assure him that if he purchased the blank warrants he could get \u20181 a facsimile from the source of his supply which would give [him] a check that had already been cashed to use as an exemplar.\u201d Defendant replied that he was not in a position to do that or to give Lawrence any information about it. He said that he had been sent just to deliver the package and to get $1,500 for the entire package; that he would sell the whole package or none. Defendant stated that \u201chis accomplice might be downstairs in the lobby, or he might could [sic] reach him. \u2019 \u2019\nLawrence permitted defendant to use the phone in the room. Defendant dialed a number and then said he could not reach his party and that he would search for him downstairs. He returned and said that \u201che was unable to locate his partner.\u201d He further said that he could arrange a meeting with his partner at which Lawrence could talk to his partner about the information which defendant was unable to supply, and that \u201ca deal could be made.\u201d Lawrence exhibited several hundred dollars to defendant, told him that he (Lawrence) was loaded and able to make a purchase, and that he was ready and willing to do business. However, Lawrence made no purchase from defendant.\n(b) Other evidence further shows-. In the late afternoon or early evening of the next day, August 29, 1967, codefendant Shorey came to room 1273, which Lawrence occupied. Shorey was accompanied by another person, not identified by the evidence. Shorey showed Lawrence some cancelled county warrants of several recent dates to assure Lawrence how he (Shorey) could obtain facsimiles of signatures which could be copied onto the blank warrants. Lawrence stated that, first, he would like to purchase a sample, and then if Shorey could deliver a larger quantity, he (Lawrence) would buy more as he had a great deal of money to spend. Shorey gave Lawrence two blank warrants and five cancelled ones for which Lawrence paid Shorey $200 in two $100 bills, the serial numbers of which had been prerecorded.\nShorey then left after he had agreed to return within the hour with 23 more blank warrants, for which Lawrence was to pay an additional $2,300. Shorey did return in a little over an hour, bringing some blank warrants in an envelope, and he tendered them to Lawrence. At this juncture, pursuant to prearranged signals, Lawrence\u2019s colleagues came into the room and arrested Shorey.\nShorey was a custodian employed by the County of Los Angeles. He worked nights in the Hall of Administration where he had access to all parts of the building, including the auditor controller\u2019s office, for purposes of doing his cleaning.\nAfter the earlier transaction with Lawrence, Shorey had stopped at the \u201cEl Rancho Club\u201d bar at 1738 W. Seventh Street, accompanied by another person. There he purchased a round of drinks and used one of the $100 bills received from Lawrence to pay for them, the bill later being retrieved from the bar by the district attorney\u2019s office.\nBoth the blank warrants and the cancelled .ones were authentic warrants of the types used by the County of Los Angeles. In the state or condition in which they were delivered to Lawrence, the.unfilled blank warrants and the can-celled warrants had no monetary value, other than their nominal intrinsic worth as paper.\n(e) Shorey\u2019s post-arrest statements: In the course of his post-arrest interrogation, Shorey made some statements which tended to exculpate defendant, and others that would tend to criminate defendant as a eoconspirator. All of these statements were excluded, upon objection of defendant\u2019s trial counsel, as being hearsay vis-a-vis defendant, and were admitted as evidence against Shorey only.\nNo Entrapment\n\u201cAppellant did not raise any issue of entrapment in the lower court. . . . The defense must be raised in the lower court; it cannot be raised for the first time on appeal. (People v. Cline, 205 Cal.App.2d 309 [22 Cal.Rptr. 916]; People v. Branch, 119 Cal.App.2d 490 [260 P.2d 27].)\u201d (People v. Tostado (1963) 217 Cal.App.2d 713, 719 [32 Cal.Rptr. 178] ; accord: People v. Oatis (1968) 264 Cal.App.2d 324, 327 [70 Cal.Rptr. 524], cert, denied, 393 U.S. 1108 [21 L.Ed.2d 805, 89 S.Ct. 920].) Furthermore, where the evidence shows, as in this ease, that the intent to commit the unlawful act was not implanted in the defendant\u2019s mind by the police, the fact that an undercover law enforcement officer afforded defendant the opportunity of committing the crime, does not constitute entrapment. (People v. Roberts (1953) 40 Cal.2d 483, 489 [254 P.2d 501]; People v. Asta (1967) 251 Cal.App.2d 64, 80-81 [59 Cal.Rptr. 206]; People v. DeJean (1967) 249 Cal.App. 2d 220, 229 [57 Cal.Rptr. 211].) The burden is on the defendant to establish the defense of entrapment (People v. Terry (1955) 44 Cal.2d 371, 372-373 [282 P.2d 19]) by a preponderance of the evidence (People v. Valverde (1966) 246 Cal.App.2d 318, 325 [54 Cal.Rptr. 528].)\nEvidence Supports Conspiracy Finding\nThe trial court\u2019s finding of a conspiracy is sufficiently supported by the evidence.\n\u201c [T]he gist of a criminal conspiracy is a corrupt agreement of two or more persons to commit an offense prohibited by statute, accompanied by some overt act in furtherance of the objects of the agreement.\u201d (Otash v. Bureau of Private Investigators & Adjusters (1964) 230 Cal.App.2d 568-573 [41 Cal.Rptr. 263] ; accord: People v. Scott (1964) 224 Cal.App.2d 146, 150 [36 Cal.Rptr. 402]; People v. Causey (1963 ) 220 Cal.App.2d 641, 653 [34 Cal.Rptr. 43], cert, denied, 376 U.S. 959 [11 L.Ed.2d 976, 84 S.Ct. 981].) The agreement need not he express; it may be an implied one. (People v. Samarjian (1966) 240 Cal.App.2d 13, 17 [49 Cal. Rptr. 180].) The conspiracy may he by tacit mutual understanding. (People v. Calhoun (1958) 50 Cal.2d 137, 144 [323 P.2d 427] ; People v. Sanchez (1961) 197 Cal.App.2d 617, 620 [17 Cal.Rptr. 230]; People v. Goldberg (1957) 152 Cal.App.2d 562, 568 [314 P.2d 151].) Nor is it necessary that any particular defendant comprehend the entire scope of the conspiracy to be held criminally liable. (People v. Olf (1961) 195 Cal.App.2d 97, 105 [15 Cal.Rptr. 390]; People v. Means (1960) 179 Cal.App.2d 72, 80 [3 Cal.Rptr. 591]; People v. Drake (1957) 151 Cal.App.2d 28, 39 [310 P.2d 997].) \u201cIt is not necessary to show that each party personally benefited from the product of the crime.\u201d (People v. Cornette (1958) 158 Cal.App.2d 724, 730 [332 P.2d 1001].)\nThe agreement may be established by circumstantial evidence. (Bompensiero v. Superior Court (1955) 44 Cal.2d 178, 184 [281 P.2d 250]; People v. Steccone (1950) 36 Cal.2d 234, 237-238 [223 P.2d 17]; People v. Lynam (1968) 261 Cal.App.2d 490, 502 [68 Cal.Rptr. 202].) \u201cIt need not be shown that the parties met and actually agreed to jointly undertake criminal action. [Citation.] The agreement may be inferred from the conduct of the defendants in mutually carrying out a common purpose in violation of a penal statute.\u201d (People v. Cockrell (1965) 63 Cal.2d 659, 667 [47 Cal.Rptr. 788, 408 P.2d 116], cert, denied, 389 U.S. 1006 [19 L.Ed.2d 604, 88 S.Ct. 568]; accord: People v. Canard (1967) 257 Cal.App.2d 444, 460 [65 Cal.Rptr. 15], cert, denied, 393 U.S. 912 [21 L.Ed.2d 198, 89 S.Ct. 231]; People v. Scott (1964) supra, 224 Cal.App.2d 146, 151; People v. Causey (1963) supra, 220 Cal.App.2d 641, 653; People v. Olf (1961) supra, 195 Cal. App.2d 97, 105.) \u201cThe assents of the parties may be inferred from the nature of the act done, relationship of the parties, interests of the alleged conspirators, and other circumstances.\u201d (People v. Lynam (1968) supra, 261 Cal.App. 2d 490, 502.)\nWe return to the instant case bearing in mind the foregoing principles and point out the evidence and inferences which support the trial court\u2019s finding of a conspiracy. To begin with, defendant characterized his relationship to Shorey by referring to Shorey as his partner. He knew how to contact Shorey by telephone. Prom the evidence, it may also be inferred that the two had come to the hotel together on August 28, 1967. The surrounding circumstances were such as to alert defendant to the fact that the warrants had been illegally obtained. Why should warrants printed for county use be sold outside of official county channels? Lawrence\u2019s request for facsimiles of genuine signatures put defendant on notice that forgeries were intended, and in amounts exceeding the price at which he was offering them for sale. Without increasing the amount, the purchaser would reap no profit from his transaction with defendant and his associates.\nWhen Shorey appeared the following day bringing with him cancelled warrants bearing facsimile signatures in response to Lawrence\u2019s request for them and to defendant\u2019s undertaking to set up a meeting between Lawrence and defendant\u2019s source of supply, the working relationship between defendant and Shorey was established. While defendant\u2019s offering to sell and Shorey\u2019s consummating a sale of the warrants to Lawrence did not make defendant a member of a conspiracy, which would embrace the feigned accomplice Lawrence as a member, nevertheless the mutually complementary conduct of defendant and of Shorey carrying out a common purpose of at least aiding and abetting the purchaser of the warrants to commit forgery and grand theft, constitilted a basis for a trier of fact to find that a conspiracy existed of which defendant and Shorey were members.\nUpon an appeal from a finding of guilt, we are bound to view the record in the light most favorable to the prosecution. (People v. Sweeney (1960) 55 Cal.2d 27, 33 [9 Cal.Rptr. 793, 357 P.2d 1049].) \u201cWhen a judgment is attacked for insufficiency of the evidence, an appellate court must draw all reasonable inferences which would support the judgment. (People v. Newland, 15 Cal.2d 678, 681 [104 P.2d 778].)\u201d (People v. Hill (1967) 67 Cal.2d 105, 121 [60 Cal.Rptr. 254, 429 P.2d 606], cert, denied 389 U.S. 1009 [19 L.Ed.2d 607, 88 S.Ct. 572].) \u201cIt is the trier of fact, not the appellate court, that must he convinced of a defendant\u2019s guilt beyond a reasonable doubt.\u201d (People v. Robillard (1960) 55 Cal.2d 88, 93 [10 Cal.Rptr. 167, 358 P.2d 295, 83 A.L.R.2d 1086], cert, denied 365 U.S. 886 [6 L.Ed.2d 199, 81 S.Ct. 1043].)\nDisposition\nThe judgment is affirmed.\nStephens, Acting P. J., and Reppy, J., concurred.\nSee People v. Lauria (1967) 251 Cal.App.2d 471, 476-480 [59 Cal. Rptr. 628], indicating that a supplier of goods or of services under circumstances where they can only be used for an illegal purpose can be held to be a conspirator with persons who actually make illegal use of the goods or services supplied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "[Crim. No. 14924.\nSecond Dist., Div. Five.\nSept. 18, 1969.]\nTHE PEOPLE, Plaintiff and Respondent, v. PERCY LEE JOHNSON, Defendant and Appellant.\nFrancis J. O\u2019Neill, under appointment by the Court of Appeal, for Defendant and Appellant.\nThomas C. Lynch, Attorney General, William E. James, Assistant Attorney General, and Jeffrey T. Miller, Deputy Attorney General, for Plaintiff and Respondent."
+  },
+  "file_name": "0232-01",
+  "first_page_order": 254,
+  "last_page_order": 261
+}

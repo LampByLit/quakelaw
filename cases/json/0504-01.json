@@ -1,0 +1,453 @@
+{
+  "id": 4382044,
+  "name": "INTERNATIONAL UNION OF OPERATING ENGINEERS, LOCAL NO. 12, et al., Plaintiffs and Appellants, v. FAIR EMPLOYMENT PRACTICE COMMISSION, Defendant and Respondent; JOSEPH HARRIS, Intervener and Real Party in Interest",
+  "name_abbreviation": "Int'l Union of Operating Eng'rs, Local No. 12 v. Fair Emp't Practice Comm'n",
+  "decision_date": "1969-09-29",
+  "docket_number": "Civ. No. 33516",
+  "first_page": "504",
+  "last_page": "516",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "276 Cal. App. 2d 504"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "184 P.2d 323",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "81 Cal.App.2d 384",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4437219
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/81/0384-01"
+      ]
+    },
+    {
+      "cite": "367 P.2d 409",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal. Rptr. 817",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.2d 115",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4374642
+      ],
+      "pin_cites": [
+        {
+          "page": "119-120"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/57/0115-01"
+      ]
+    },
+    {
+      "cite": "289 P.2d 485",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.2d 524",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4390317
+      ],
+      "pin_cites": [
+        {
+          "page": "529"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/45/0524-01"
+      ]
+    },
+    {
+      "cite": "18 A.L.R.2d 593",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "217 P.2d 630",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.2d 242",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4400471
+      ],
+      "pin_cites": [
+        {
+          "page": "246"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/35/0242-01"
+      ]
+    },
+    {
+      "cite": "174 P.2d 4",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "173 P.2d 551",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.2d 137",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2211095
+      ],
+      "pin_cites": [
+        {
+          "page": "141"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/29/0137-01"
+      ]
+    },
+    {
+      "cite": "230 P.2d 71",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "103 Cal.App.2d. 512",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2289425
+      ],
+      "pin_cites": [
+        {
+          "page": "571"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/103/0512-01"
+      ]
+    },
+    {
+      "cite": "371 P.2d 987",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.Rptr. 211",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.2d 781",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4374735
+      ],
+      "pin_cites": [
+        {
+          "page": "786-787"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/57/0781-01"
+      ]
+    },
+    {
+      "cite": "381 P.2d 652",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.Rptr. 828",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.2d 602",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4393009
+      ],
+      "pin_cites": [
+        {
+          "page": "605"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/59/0602-01"
+      ]
+    },
+    {
+      "cite": "160 A.L.R. 900",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "155 P.2d 329",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.2d 721",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2231210
+      ],
+      "pin_cites": [
+        {
+          "page": "731"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/25/0721-01"
+      ]
+    },
+    {
+      "cite": "16 Cal.Rptr. 138",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "195 Cal. App.2d 765",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2322596
+      ],
+      "pin_cites": [
+        {
+          "page": "768"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/195/0765-01"
+      ]
+    },
+    {
+      "cite": "278 P.2d 454",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "130 Cal.App.2d 24",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2164442
+      ],
+      "pin_cites": [
+        {
+          "page": "36-37"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/130/0024-01"
+      ]
+    },
+    {
+      "cite": "362 U.S. 411",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6165039
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/362/0411-01"
+      ]
+    },
+    {
+      "cite": "67 Cal.Rptr. 369",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "260 Cal.App.2d 361",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2181470
+      ],
+      "pin_cites": [
+        {
+          "page": "368"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/260/0361-01"
+      ]
+    },
+    {
+      "cite": "64 Cal.Rptr. 792",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "257 Cal.App.2d 14",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2221359
+      ],
+      "pin_cites": [
+        {
+          "page": "17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/257/0014-01"
+      ]
+    },
+    {
+      "cite": "66 Cal.Rptr. 561",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "259 Cal.App.2d 793",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2201139
+      ],
+      "pin_cites": [
+        {
+          "page": "800"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/259/0793-01"
+      ]
+    },
+    {
+      "cite": "196 P.2d 20",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.2d 301",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4393357
+      ],
+      "pin_cites": [
+        {
+          "page": "308-309"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/32/0301-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1036,
+    "char_count": 26524,
+    "ocr_confidence": 0.724,
+    "pagerank": {
+      "raw": 8.72075976426702e-08,
+      "percentile": 0.4937451951831941
+    },
+    "sha256": "81a4c4b0666ff0cf22e14813def030b73073387818627430f6d9c3e4fe9a6a7b",
+    "simhash": "1:94ab9ca2b2630840",
+    "word_count": 4363
+  },
+  "last_updated": "2024-02-27T17:52:21.889319+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "INTERNATIONAL UNION OF OPERATING ENGINEERS, LOCAL NO. 12, et al., Plaintiffs and Appellants, v. FAIR EMPLOYMENT PRACTICE COMMISSION, Defendant and Respondent; JOSEPH HARRIS, Intervener and Real Party in Interest."
+    ],
+    "opinions": [
+      {
+        "text": "filed before the Fair Employment Practice Commission, hereinafter designated as Commission, against appellants, hereinafter designated as Union and Seymour, respectively, and on March I, 1965, a first amended accusation was filed. The first amended accusation charged that appellants had unlawfully discriminated against Joseph Harris, hereinafter designated as Harris, because of his race. On January 30, January 31t and February 1, 1967, a hearing on the first amended accusation was held before the Commission with Milford A. Mar\u00f3n, hearing officer of the Office of Administrative Procedure, presiding.\nOn May 12, 1967, the Commission adopted a resolution and issued an order showing that a substantial change had occurred in the membership of the Commission. It was ordered \u201cthat the Hearing Officer, Milford A. Mar\u00f3n, who presided over said hearing, propose a decision to the Fair Employment Practice Commission.\u201d It was further ordered \u201cthat the review of said proposed decision be limited to those Commissioners who were not present at the aforementioned hearing and have had no connection with its presentation. \u2019 \u2019 A copy of said resolution and order was served upon appellants.\nPursuant to the foregoing order the hearing officer prepared a proposed decision to be submitted to the Commission. The Commission adopted the proposed decision on July 19, 1967, with one deletion.\nThe Commission ordered appellants to cease and desist from acts of discrimination against Harris on the basis of his race and that appellants forthwith upgrade and employ Harris as a business agent, effective July 21,1967.\nAt the administrative hearing the issues framed by the first amended accusation were narrowed and restricted \u201csolely to any racial discrimination practiced by [appellants] against [Harris].\u201d The cause was submitted at the trial level on the record before the Commission.\nAppellants\u2019 petition for writ of mandate was filed on August 14, 1967. After an independent review of the evidence the court made its findings of fact and conclusions of law sustaining the decision of the Commission, and rendered judgment denying the peremptory writ of mandate. The appeal is from the judgment.\nSometime in the latter half of the year of 1963, Harris, a Negro, made an application to appellants for employment for the position of business agent for Local 12 of appellant Union. Harris made numerous protests before and after said application concerning discrimination against Negroes in Local 12 of appellant Union. Local 12 of appellant Union has approximately 23,000 members in its seven districts, at least 100 of whom, in district 1, the area in which Harris worked, are Negroes. Local 12 is divided into seven districts covering twelve counties of southern California and four counties of southern Nevada. There are no Negroes employed in any capacity by the appellant Union except as janitors. Between August 1963 and February 1967 at least 12 business agents have been hired. Appellant Seymour is the business manager of Local 12 of appellant Union and had held such position since July of 1961. Under the by-laws of Local 12, Seymour, as its business manager, was invested with the power to \u201cemploy all District and Business Representatives and office and other employees, who shall be directly responsible to him.\u201d Harris has not been hired as a business agent of Local 12 of appellant Union.\nHarris has been a member of appellant Union, Local 12, since 1942. All Negro members of Local 12 of appellant Union who have applied for jobs as business agents have been ignored or rejected. Appellant Seymour, in an interview with a local newspaperman about June of 1963, or shortly prior thereto, stated, \u201cI don\u2019t have any Negro business agents. The men work well with they wouldn\u2019t stand for having a Negro business agent. It just wouldn't work at this time.\u201d At the hearing before the Commission on February 1, 1967, appellant Seymour testified that he was then considering the appointment of a Negro business agent because Local 12 of appellant Union was organizing a county employees\u2019 union which was predominantly Negro.\nAppellants urge that (1) the finding by the court that Joseph Harris made an application for the job of business agent of Local 12 is not supported by substantial evidence; (2) there is no substantial evidence to support a finding that the alleged unfair employment practice occurred within the period, of the one-year statute of limitations of section 1422 of the Labor Code; (3) there is no substantial evidence to support a finding that appellants denied Harris a job as business agent solely because of his race; (4) Local 12 is not an \u201cemployer\u201d within the meaning of the Fair Employment Practice Act; (5) the presence of Commissioner Zook at the post-hearing deliberations of the Commission invalidates the decision of the Commission; and (6) the procedures adopted by the Commission for the hearing and decision, when considered in their totality, denied appellants a fair hearing.\nThe question presented here upon the challenge to the sufficiency of the evidence is whether the trial court\u2019s findings are supported by substantial evidence. The judgment will be upheld if there is any substantial evidence, viewed in the light most favorable to respondent, to sustain the findings of the trial court. (Moran v. Board of Medical Examiners, 32 Cal.2d 301, 308-309 [196 P.2d 20].) The reviewing court does not reweigh the evidence (Zander v. Texaco, Inc., 259 Cal.App.2d 793, 800 [66 Cal.Rptr. 561]), nor does it pass on the credibility of the witnesses. (Halagan v. Ohanesian, 257 Cal.App.2d 14, 17 [64 Cal.Rptr. 792]; Mosesian v. Bagdasarian, 260 Cal.App.2d 361, 368 [67 Cal.Rptr. 369].) The trial court\u2019s finding that Harris had made application for a job as business agent of Local 12 of appellant Union is supported by the testimony of Harris, that he had made such an application between July or August of 1963 and the end of the year. Under date of October 14, 1964, Harris filed with the Commission a \u201cComplaint of Employment Discrimination. \u2019 \u2019 Paragraphs 1 and 2, respectively, of this complaint, as it relates to the time and place of the alleged discrimination, contain the following: \u201c [1] I have been a member in good standing of the International Union of Operating Engineers since 1942. I have had experience in the operation of most equipment used in Union jobs. [2] Over a year ago, I submitted an application for the position of a Business Agent. Each time that I have made an inquiry about my application, I am told there are about 500 applicants to be considered. The office secretary made this statement to me not later than July of this year. \u201d By letter dated March 16, 1965, an exhibit before the Commission, addressed to Mr. Jose Castore\u00f1a, a consultant to the Commission who had been assigned to investigate the charges made by Harris, counsel for appellants admitted that paragraphs 1 and 2 of Harris\u2019 complaint filed with the Commission were true.\nHarris\u2019 testimony, coupled with this admission, constituted substantial evidence that Harris had made application to appellants for the position of business agent of Local 12 of appellant Union. A portion of Harris\u2019 testimony at the administrative hearing was as follows: \u201c Q. Now, yon stated in your complaint that you filed in October 1964 that you had applied for the job of business agent about one year before the date of your filing, and yon testified here today as near as yon can recall the time yon filed that application was in July or August 1963. Now, there is also an allegation in your initial complaint with the F.E.P.C. that in July of 1964 you had inquired of the office secretary and she had told you that there were five hundred applications to be considered. A. Tes, she did; and I said I was not concerned with the five hunwas only concerned with where I was.\u201d\nAppellants urge that there is no substantial evidence to support a finding that the alleged unfair employment practice occurred within the period designated in section 1422 of the Labor Code. A provision of a kindred nature was before the United States Supreme Court in Local No. 1424, Intl. Machinists v. N.L.R.B., 362 U.S. 411 [4 L.Ed.2d 832, 80 S.Ct. 822]. Therein the following provision of the National Labor Relations Act was deemed to constitute a statute of limitations: \u201cProvided ... no complaint shall issue based upon any unfair labor practice occurring more than six months prior to the filing of the charge with the Board and the service of a copy thereof upon the person against whom such charge is made . . . .\u201d The pertinent portion of section 1422 of the Labor Code is of the same nature.\nThe bar of the statute of limitations is, however, a matter of defense in an administrative proceeding (see Bohn v. Watson, 130 Cal.App.2d 24, 36-37 [278 P.2d 454]) as to which the burden of proof is upon the party asserting the bar. (See State of California v. Industrial Acc. Corn., 195 Cal. App.2d 765, 768 [16 Cal.Rptr. 138].) The date of filing of the application for appointment as business agent with Local 12 of appellant Union, under the facts here shown, did not, as a matter of law, start the running of the statute of limitations. The evidence showed that since August 1963, the appellant Seymour hired 12 business agents, none of whom were Negroes. There was no evidence of any specific date when action was taken upon Harris\u2019 application or that he was ever specifically notified of any such action. Under such circumstances, since the burden of proof as to the bar of the statute of limitations was not sustained by the appellants, they are not aided by the fact that the trial court made no finding as to a specific date upon which the refusal to hire Harris occurred. In the light of the record the trial court was warranted in determining that \u201cthe complainant, Joseph Harris, filed a timely complaint with the Fair Employment Practice Commission on October 14, 1964.\u201d\nAppellants\u2019 contention that there is no substantial evidence to support a finding that Harris was denied a job as business agent solely because of his race is without merit. The record shows that Local 12 of appellant Union had an overall membership of approximately 23,000, of whom approximately 300 were Negroes. Over 100 of the Negro members worked in district 1, the area in which Harris worked. No Negroes were employed by Local 12 of appellant Union except in the capacity of janitors. Harris applied for the position of business agent sometime between July or August 1963 and the end of the year. He was not appointed to such position. Since August 1963, appellant Seymour appointed 12 business agents, none of whom were Negroes. Harris was a member of the union, in good standing, since 1942. All Negro members of Local 12 who have applied for jobs as business agents have been ignored or rejected. Appellant Seymour testified that he was currently considering a Negro business agent because they were organizing a county employees\u2019 union which was predominantly Negro. About December 4, 1964, at a general membership meeting of Local 12, appellant Seymour \u201cmade mention of the fact that he was appearing before the F.E.P.C. concerning the hiring of Negroes and they were giving him a bad time, . . . that the F.E.P.C. or no one else was going to tell him to hire a Negro.\u201d Appellant Seymour, in an interview with a member of the local press in about June 1963, had indicated that he would not hire a Negro as business agent because the membership would not like it. The foregoing evidence affords ample support for the finding that Harris\u2019 application was denied solely on the basis of his race.\nIt is urged that Local 12 of appellant Union is not an employer within the purview of section 1413, subdivision (d) of the Labor Code.\nThe evidence discloses that Local 12 of appellant Union is a labor organization of approximately 23,000 members and regularly employs about 135 persons, thus removing it from the exception as to the minimum number of employees provided by section 1314, subdivision (d) of the Labor Code.\nAppellants argue, however, that Local 12 is no more than a fraternal organization, not organized for private profit, and, therefore, is not an employer within the purview of section 1413,' subdivision (d) of the Labor Code. This position is contrary to established law. In James v. Marinship Corp., 25 Cal.2d 721, 731 [155 P.2d 329, 160 A.L.R. 900], a ease involving the right of a Negro shipworker to be admitted into the union holding a closed shop contract, the court rejected therepntention that the union was a social club or fraternal organization, holding that \u201cWhere a union has, as in this ease, attained a monopoly of the supply of labor by means of. closed shop agreements and other forms of collective labor action, such a union occupies a quasi public position similar to that of a public service business and it has certain corresponding obligations. It may no longer claim the same freedom from legal restraint enjoyed by golf clubs or fraternal associations. Its asserted right to choose its own members does not merely relate to social relations; it affects the fundamental right to work for a living.\u201d (See also Daniels v. Sanitarium, Assn., 59 Cal.2d 602, 605 [30 Cal.Rptr. 828, 381 P.2d 652]; Marshall v. International Longshoremen\u2019s & Warehousemen\u2019s Union, 57 Cal.2d 781, 786-787 [22 Cal.Rptr. 211, 371 P.2d 987]; Oil Workers Intl. Union v. Superior Court, 103 Cal.App.2d. 512, 571 [230 P.2d 71].) Since appellant Union does not fit the definition of \u201cfraternal organization\u201d contemplated by the exemption, it is an \u201cemployer\u201d within the purview of section 1413, subdivision (d) of the Labor Code.\nAt the time of the hearing in the instant ease section 1420 of the Labor Code provided that it shall be an unlawful employment practice for a labor organization, because of the race of any person, to discriminate in any way against any of its members. (See Lab. Code, \u00a7 1420, subd. (b).) In 1968, the Legislature amended section 1420, subdivision (b) by adding the following language with respect to prohibited discrimination: \u201cagainst any person because of the race, religious creed, color, national origin, or ancestry of such person in the election of officers of the labor organization or in the selection of the labor organization\u2019s staff.\u201d\nAppellants argue that the 1968 amendment to section 1420 clearly shows that the Legislature did not think that the type of misconduct shown here was proscribed by the section as it read prior to its amendment. This argument is without merit. The section prior to its amendment in 1968 did not attempt to specify in particular all of the ways in which the conduct of the labor organization towards its members would constitute an unlawful employment practice when based upon the race of the individual. It proscribed discrimination in any way against any of its members. This was sufficiently broad to prohibit the unlawful conduct of Local 12 of appellant Union shown here. The 1968 amendment simply specified a particular instance in which discrimination is proscribed, which instance is included in the broader injunction against discrimination in any way by the labor organization against any of its members because of race.\nAppellants urge that the presence of Commissioner Zook at the beginning of the Commission\u2019s meetings held on April 13, May 12, and June 9, 1967, when the Harris case was under discussion, invalidates the decision of the Commission.\nAppellants- support this contention by reference to the minutes of the Commission which show that Commissioner Zook was present at the beginning of the meetings and by reference to the declaration of Commissioner Zook. However, the declaration of Commissioner Zook is not part of the record since, upon motion of appellants\u2019 counsel, the declaration was excluded from the evidence.\nThe record discloses that upon the filing of the Harris complaint, Commissioner Zook made an investigation and thereafter signed the accusation and the first amended accusation. Section 1425 of the Labor Code provides in pertinent part that . . the commissioner who shall have previously made the investigation and caused the notice to be issued shall not participate in the hearings except as a witness and shall not give his opinion of the merits of the case nor shall he participate in the deliberations of the commission in such case; . . .\u201d\nThe reporter\u2019s transcript of the hearing before the Commission discloses that Commissioner Zook did not participate in the hearing either as a commissioner or as a witness. The minutes of the meeting of the Commission held on April 13, 1967, disclose that the Harris case was on the agenda for the sole purpose of ordering a transcript of the hearing so that two new commissioners would be able to review it. The hearing officer was requested to prepare a proposed decision in the matter. This was only one of numerous matters before the Commission at this time. The minutes of the meeting of May 12, 1967, disclose that the following resolution relating to the Harris case was adopted: \u201cWhereas a substantial change has occurred in the membership of the Commission, it is hereby ordered that the Hearing Officer, Milford A. Mar\u00f3n, who presided over said hearing, propose a decision to the Fair Employment Practice Commission. It is further ordered that the review of said proposed decision be limited to those Commissioners who were not present at the aforementioned hearing and have had no connection with its presentation. \u2019 \u2019 The minutes also indicate that an original and one copy of the reporter\u2019s transcript of the hearing had been ordered. The Harris matter was only one of numerous other matters before the Commission at this meeting. The minutes of the meeting of June 9, 1967, this meeting having been held in the City and County of San Francisco, contain a brief reference to the fact that the transcript and exhibits in the Harris case would be delivered in Los Angeles at the next meeting, scheduled for July 13, 1967. Again, this was only one of numerous matters before the Commission at the June 9 meeting. There is not the slightest suggestion in the minutes of the three meetings here under consideration that the Commission deliberated on the Harris case during any such meeting. On the contrary, \u00e9xcerpts from such meetings bearing on the Harris cas\u00e9 indicate that the matter was not ready for such consideration as would lead to a decision of the Commission as reconstituted after the appointment of new commissioners until after the June 9 meeting. Furthermore, in the absence of any affirmative evidence that Commissioner Zook participated in the deliberations of the Commission leading to a decision, it must be presumed that the Commission regularly performed its official duty and conducted its deliberations without the participation therein of Commissioner Zook. (Evid. Code, \u00a7 664; Reynolds v. State Board of Equalization, 29 Cal.2d 137,141 [173 P.2d 551,174 P.2d 4].)\nIt is urged that the procedures adopted by the Commission for the hearing and decision, when considered in their totality, denied appellants a fair hearing. In this connection it is argued that the order of the Commission which in effect changed the hearing from one in which the agency itself hears the matter (Gov. Code, \u00a7 11517, subd. (a)) to one in which the administrative hearing officer hears the 'matter alone (Gov. Code, \u00a7 11517, subd. (b)), denied them a fair hearing.\nThe resolution and order of May 12, 1967, heretofore referred to, gave appellants adequate notice of the procedural change as to the hearing. Any objections to such change on the part of appellants could and should have been made at that time rather than appellants undertaking by non-action-to gamble on the result and then complaining of the nature of the procedure after an unfavorable result.\n\u25a0 In the case at bench, the Commission by its resolution and order of May 12, 1967, resolved that only the new members of the Commission would consider and decide the matter. The resolution and order selected Milford A. Mar\u00f3n, who had presided over the hearing as hearing officer, to propose a decision. Mar\u00f3n had heard all of the evidence presented and was in the position to judge the credibility of the witnesses. The new members of the Commission read the transcript, reviewed the evidence, and then adopted the hearing officer\u2019s proposed decision with one immaterial paragraph deleted as \u201csurplusage.\u201d Thus, appellants received an impartial hearing and review by those members of the Commission who. prior to reading the record, had no knowledge of the case before them. Participation in a decision by a board member who has read and considered the evidence, or a transcript thereof, even though he was not physically present when the evidence was produced, does not violate the requirements of due process. (Cooper v. State Board of Medical Examiners, 35 Cal.2d 242, 246 [217 P.2d 630, 18 A.L.R.2d 593]; see also Bertch v. Social Welfare Dept., 45 Cal.2d 524, 529 [289 P.2d 485]; Allied Comp. Ins. Co. v. Industrial Acc. Com., 57 Cal.2d 115, 119-120 [17 Cal. Rptr. 817, 367 P.2d 409].)\nMoreover, as stated in the findings of fact of the superior court, the court made an independent review of the evidence and made findings in the exercise of its independent judgment. As aptly stated in Hohreiter v. Garrison, 81 Cal.App.2d 384 at page 402 [184 P.2d 323] : \u201cThus, the ultimate power of decision rests with the trial court. That court decided this case upon the full record, including the transcript of proceedings had before the hearing officer, and in so doing, according to its express findings, exercised an \u2018independent judgment\u2019 on the facts. Due process contemplates that somewhere along the line a fair trial be that there be two or three fair trials. In any event, therefore, appellant having had a fair and impartial trial before a superior court, is in no position to contend he has not been afforded due process.\u201d\nAppellants urge that they were denied the opportunity to submit written briefs to the Commission. At the conclusion of the hearing on February 1, 1967, the following colloquy took place:\n\u201cHearing Officer: . . . Closing are we going to proceed on that, orally? Mr. Burris [counsel for Harris] : Orally, please. Hearing Officer : Orally, Mr. Wilson [counsel for Commission] ? Mr. Hackler [counsel for appellants] : I would like to file a brief. Mr. Wilson : I prefer orally. Mr. Hackler: I\u2019d like to file a brief on the entire case and I\u2019d like some short period of tim\u00e9 after a transcript has been made available. Hearing Officer: We haven\u2019t been able to determine how long it will take for a transcript, (off-the-record discussion) Hearing Officer : To summarize the board\u2019s discussion, the board would prefer to deliberate on the record as it now stands and the evidence it has heard, and would prefer that no written argument be made. Do the parties waive oral argument, or do you care to make any oral argument at this point? Mr. Wilson: I will waive. Mr. Burris: I will waive. Mr. Hackler: I will waive. Hearing Officer : Then the matter will stand submitted and the parties will be informed through the mail of the Commission\u2019s decision.\u201d\nAfter appellants were informed on or about May 12, 1967, of the substantial change in the membership' of the Commission and of the change in the procedure to be followed in reaching its decision, there was no effort made on appellants\u2019 part to seek permission to orally argue the case before the Commission or its hearing officer or to file briefs in the matter. Under the foregoing circumstances, failure to request leave to orally argue the case or to submit written briefs, after notice of the contents of the resolution and order of May 12, 1967, constituted a waiver of such rights. It should be noted further that the subject of this appeal is the judgment of the trial court rendered after an independent review of the evidence, and not the decision of the Commission. The record in the trial court (see Cal. Buies of Court, rule 12(a)) discloses that appellants filed points and authorities and two supplements thereto wherein they thoroughly briefed and argued the case at the trial level. Appellants have not shown that they were prejudiced by the claimed procedural irregularities before the Commission.\nThe judgment is affirmed.\nAppellants\u2019 petition for a hearing by the Supreme Court was denied November 26, 1969.\nunlawful employment practice complained of and which shall set forth the particulars thereof and contain such other information as may be required by the commission. . . .\n\u201cNo complaint may be filed after the expiration of one year from the date upon which the alleged unlawful employment practice or refusal to cooperate occurred; except that this period may be extended for not to exceed 90 days following the expiration of that year, if a person allegedly aggrieved by an unlawful employment practice first obtained knowledge of the fact? of the alleged unlawful employment practice after the expiration of one year from the date of their occurrence. \u2019 \u2019\nAt the time the proceedings herein were instituted, section 1413 of the Labor Code read in pertinent part as follows: \u201cAs used in this p\u00e1rt: ... (d) 'Employer,' except as hereinafter provided, includes any person regularly employing five or more persons, or any person acting as an agent of an employer, directly or indirectly; the State or any political or civil subdivision thereof and cities.\n\u201c 'Employer' does not include a social club, fraternal, charitable, educational or religious association or corporation hot organized for private profit.\n\u201c \u2018Employer\u2019 does not include a person with respect to the person\u2019s employment of agricultural workers residing on the land where they are employed as farm workers.\u2019\u2019",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "[Civ. No. 33516.\nSecond Dist., Div. Three.\nSept. 29,1969.]\nINTERNATIONAL UNION OF OPERATING ENGINEERS, LOCAL NO. 12, et al., Plaintiffs and Appellants, v. FAIR EMPLOYMENT PRACTICE COMMISSION, Defendant and Respondent; JOSEPH HARRIS, Intervener and Real Party in Interest.\nBrundage & Hackler, Brundage, Neyhart, Miller, Ross & Reich, Charles K. Hackler, Julius Reich and Paul Crost for Plaintiffs and Appellants.\nThomas C. Lynch, Attorney General, Robert H. O'Brien and Andrea Sheridan Ordin, Deputy Attorneys General, for Defendant and Respondent.\nDon Edgar Burris for Intervener and Real Party in Interest."
+  },
+  "file_name": "0504-01",
+  "first_page_order": 526,
+  "last_page_order": 538
+}

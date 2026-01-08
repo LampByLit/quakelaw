@@ -1,0 +1,216 @@
+{
+  "id": 3188161,
+  "name": "CHRYSLER CORPORATION v. CITY OF NEW ORLEANS",
+  "name_abbreviation": "Chrysler Corp. v. City of New Orleans",
+  "decision_date": "1959-06-25",
+  "docket_number": "No. 44521",
+  "first_page": "123",
+  "last_page": "147",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 123"
+    },
+    {
+      "type": "parallel",
+      "cite": "114 So.2d 579"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "140 A.2d 486",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "145 Conn. 176",
+      "category": "reporters:state",
+      "reporter": "Conn.",
+      "case_ids": [
+        1559939
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/conn/145/0176-01"
+      ]
+    },
+    {
+      "cite": "140 A.2d 485",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "320 P.2d 812",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "140 A.2d 479",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "145 Conn. 161",
+      "category": "reporters:state",
+      "reporter": "Conn.",
+      "case_ids": [
+        1559997
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/conn/145/0161-01"
+      ]
+    },
+    {
+      "cite": "3 L.Ed.2d 105",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "79 S.Ct. 115",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "358 U.S. 875",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3662881,
+        3655553,
+        3651142,
+        3657808,
+        3654556
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/358/0875-05",
+        "/us/358/0875-03",
+        "/us/358/0875-01",
+        "/us/358/0875-04",
+        "/us/358/0875-02"
+      ]
+    },
+    {
+      "cite": "182 Kan. 237",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        542172
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/kan/182/0237-01"
+      ]
+    },
+    {
+      "cite": "78 S.Ct. 469",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "355 U.S. 489",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168187
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/355/0489-01"
+      ]
+    },
+    {
+      "cite": "355 U.S. 484",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167947
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/355/0484-01"
+      ]
+    },
+    {
+      "cite": "355 U.S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167817
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/355/0466-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 929,
+    "char_count": 30335,
+    "ocr_confidence": 0.741,
+    "pagerank": {
+      "raw": 2.811826949089133e-07,
+      "percentile": 0.8376449746684073
+    },
+    "sha256": "e8c5161edaceb1de7948acf1d68ec1b03330e3b215c9d6151aeec64a2b09f2e5",
+    "simhash": "1:e66c667934886dd7",
+    "word_count": 5115
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "CHRYSLER CORPORATION v. CITY OF NEW ORLEANS."
+    ],
+    "opinions": [
+      {
+        "text": "HAWTHORNE, Justice.\nThis suit was instituted by Chrysler Corporation against the City of New Orleans to recover a use tax paid by Chrysler under protest. The United States of America intervened in the suit and prayed that there be judgment in favor of Chrysler and against the city as prayed for in Chrysler\u2019s petition. To the original and supplemental petitions filed by Chrysler as well as to the petition of intervention filed by the United States the city filed exceptions of no cause of action. The exceptions were maintained, the suit was dismissed, and Chrysler Corporation, plaintiff, and the United States of America, intervenor, have appealed to this court.\nThe use tax involved in this appeal, which was assessed against Chrysler and paid by it under protest, and which it seeks to have refunded, is $401,712.81, plus interest amounting to more than $130,000.-00. The assessment of the tax by the city was based on the use by Chrysler Corporation in the City of New Orleans of tangible personal property, and the city assessed and levied the tax under its ordinance No. 15,201 C.C.S. as amended, which fixes the tax at the rate of 1 per cent of the cost price of each item or article of such property. Attached to and made part of plaintiff\u2019s petition are numerous documents including the ordinance above mentioned and a so-called facilities contract which we shall discuss later.\nThe pertinent provisions of the ordinance under which the assessment was made are as follows:\n* * * * *\u2022 . #\n\u201cSection 1. * * * That the following words, terms, and phrases when used in this Ordinance have the meanings ascribed to them in this section, except when the context clearly indicates a different meaning.\n\u201c(e) A \u2018Retail Sale\u2019, or a \u2018sale at retail/ means a sale to a consumer or to any person for any purpose other than for resale in the form of tangible personal property, and a sale of services, as herein set forth * *\n\u201c(V) \u2018Use\u2019 means and includes the exercise of any rights or power over tangible personal property incident to the ownership thereof, except that it shall not include the sale at retail of that property in the regular course of business.\n^ \u00edj\u00ed >j< # \u2021 \u2021\n\u201c(p) \u2018Tangible personal property\u2019 means and includes personal property which may be seen, weighed, measured, felt, or touched, or is in any other manner perceptible to the senses. The term \u2018tangible personal property\u2019 shall not include stocks, bonds, notes or other obligations or securities.\n\u201cSection 2. That there is hereby levied from and after January 1, 1941, for general municipal purposes a tax upon the sale at retail, the use, the consumption, the distribution, the distribution and the storage in this City, of each item or article of tangible personal property, as defined herein, and upon the lease or rental of such property and the sale of services, within the City of New Orleans; the levy of said tax to be as follows:\nijt SjS % s[c \u2021\n\u201c(b) At the rate of one per cent (1%) of the cost price of each item or article of tangible personal property when the same is not sold, but is used, consumed, distributed, or stored for use or consumption in this City; provided there shall be no duplication of the tax.\n\u201cSection 3. That the aforesaid tax at the rate of one percent (1%) of the retail sales price, as of the moment of the sale, or one percent (1%) of the cost price, as of the moment of purchase, or one percent (1%) on sales or services, as herein defined, as the case may be, shall be collectible from all persons, as defined herein, engaged as dealers, as hereinafter defined, in the sale at retail, the use, the consumption, the distribution, and the storage of tangible personal property, and the sale of service, as herein defined. * * *\n\u201cThe term \u2018dealeiJ is further defined to mean every person, as used in this Ordinance, who imports, or causes to be imported, tangible personal property from any State, or other political subdivisions of this State, or foreign country for sale at retail, for use or consumption, or distribution, or for storage to be used or consumed in this City. * * *\n\u201cOn all tangible personal property imported, or caused to be imported, from other states or other political subdivisions of this State, or foreign country, and used by him, the \u2018dealer\u2019, as thus defined, shall pay the tax imposed by this Ordinance on all articles of tangible personal property so imported and used, the same as if the' said articles had been sold at retail for use or consumption in this City. For-the purpose of this Ordinance, use, or consumption, or distribution, or storage of tangible personal property, shall each be equivalent to a sale at retail, and the tax shall thereupon immediately levy and be collected in the manner provided herein, provided there shall be no duplication of the tax in any event. * * *\n\u201cSection 4. * * *\n\u201c(a) The tax herein levied shall be collected by the dealer from the purchaser or consumer.\n* * * * * *\n\u201cSection 16. That the liability of any person, or dealer arising from any tax, interest and penalty or any of them imposed by this Ordinance, from the time they are due, shall be a personal debt of such person, or dealer to the City of New Orleans, \u2022recoverable in any Court of competent jurisdiction in an action at law by the Commissioner of Public Finance in the name of the City. Such debt, whether sued upon or not, shall be a lien on all the property of such delinquent person, or dealer. except as against an innocent purchaser for value without notice in the actual course of business, and shall have preference in any distribution of the assets of the person, or dealer whether in bankruptcy, insolvency, or otherwise. The proceeds of any judgment or order obtained hereunder shall be paid to the Commissioner of Public Finance. * * * \u201d (Italics ours.)\nAs a device for supplementing or complementing the sales tax, resort has been made to use or compensating taxes. A use tax is an integrated part of a sales tax, one of its purposes being to prevent purchases of tangible personal property outside the city in an effort to escape the payment of a tax on local sales, and this is one of the purposes of the use tax imposed in the New Orleans ordinance involved in this suit.\nThe ordinance of the City of New Orleans provides for a tax upon retail sales of tangible personal property in the city, and upon the use, consumption, distribution, and storage of such property in the city, and upon the leasing or rental of such property and the sale of services within the city. This ordinance in Section 3 provides that a \u201cdealer\u201d means every person who imports or causes to be imported tangible personal property from any other state or other political subdivision, etc., for sale at retail or use or consumption in this city, and that upon all such personal property imported and used by him the dealer, as defined in the ordinance, shall pay the tax imposed by the ordinance on all articles of tangible personal property just as if the articles have been sold at retail for use or consumption in this city, and that for the purpose of the ordinance use of .tangible personal property shall be equivalent to sale at retail.\nThe pertinent facts as disclosed by the petition and the documents attached to it are these:\nIn 1951 the United States government leased, let, and demised to the contractor, Chrysler, a certain parcel of land together with all the buildings and improvements, equipment, machinery, etc., designated as Michoud industrial facilities. In this contract the contractor was given for the duration of the lease the right to have, hold, use, occupy, and enjoy the leased premises without any suit, trouble, o.r molestation, eviction, or disturbance. Pursuant to this contract, which was designated as a facilities contract, Chrysler prepared plans and specifications for the rearrangement, .restoration, and modification of the Michoud industrial facilities in order to adapt them to the tank engine production capacity required by the United States. Under this contract the contractor, subject to approval of the government contracting officer, installed in the rehabilitated plant the tools, machinery, and equipment necessary for the production of tank engines. The equipment, tools, and machinery were acquired for government account by Chrysler, mostly from vendors outside the State of Louisiana, and under the terms of these procurements title and ownership passed to the United States, remained in the United States, and at no time was in Chrysler. Chrysler paid the sellers for the machinery, tools, and equipment, but was promptly reimbursed by the United States. Chrysler was required to maintain a marking and identification system, and upon the arrival of the equipment, tools, etc., at Michoud, they were marked as evidence of their ownership by the United States. There was no liability on Chrysler for the loss, damage, or destruction of the government-furnished plant or of this equipment and machinery. Furthermore, Chrysler was not entitled to any fee or profit for the acquisition or installation of the equipment, machinery, and other facilities. Chrysler used the property so installed, which had been acquired by it for the government, in order to perform supply contracts it had entered into with the United States government for the production of tank engines. Under the terms of the contract and the allegations of the petition such equipment, machinery, and facilities, at the time of the acquisition from the sellers and since, were tangible movable personal property.\nThe use tax assessed and collected from Chrysler by the city was on the use of tangible personal property acquired by the government through Chrysler under the facilities contract during the period from April 1, 1951, through April 30, 1954, and the tax was based on the purchase or cost price of such property.\nFor the purpose of considering the exception of no cause of action it must be conceded that title to and ownership of the tangible movable property, the value or cost of which was used as the basis of the tax, and which zvas acquired by Chrysler in the manufacture of tank engines at the government-owned Michoud plant, was in the United States government.\nAlthough the tax which plaintiff seeks to recover was computed on the cost price of the property, it was not imposed on the government-owned property, and consequently does not infringe the federal government\u2019s immunity from state and local taxation.\nThe city says that the tax which plaintiff here seeks to recover, and which was levied by the city under the provisions of its ordinance, \u201cis in all particulars the same as the use tax upheld by the Supreme Court of the United States of America\u201d in the following cases: United States of America and Borg-Warner Corporation (Detroit Gear Division) v. City of Detroit, 355 U.S. 466, 78 S.Ct. 474, 2 L.Ed.2d 424; United States v. Township of Muskegon, 355 U.S. 484, 78 S.Ct. 483, 2 L.Ed.2d 436; City of Detroit v. Murray Corporation of America, 355 U.S. 489, 78 S.Ct. 458, 2 L.Ed. 2d 441.\n'In the Borg-Warner case the United States as owner of an industrial plant in Detroit leased a portion of the plant to Borg-Warner Corporation .at a stipulated annual rent for use in the latter\u2019s private manufacturing business. A tax was assessed against Borg-Warner under a statute of Michigan based on the value of the property leased and computed at the rate used for calculating real property taxes.\nIn the Muskegon case the United States government granted to Continental Motors Corporation the right to use a manufacturing plant owned by it in the course of performing several supply contracts Continental had with the government. No rent was charged for the property, but Continental-agreed not to include any part of the cost of the facilities furnished by the government in the price of the goods supplied under the contract. Continental was assessed with a tax under the same Michigan statute because of Continental\u2019s use of tax-exempt property in its private business, and the tax was measured by the value of the tax-exempt property that Continental was then using.\nApparently the principal factual difference in the two cases was that in the Borg-Warner case the property was being used under a formal lease from the government, whereas in the Muskegon case Continental was using the property under a permit in the performance of its contract with the government.\nThe Michigan statute under which the tax was imposed in each of these cases is an act \u201cto provide for the taxation of lessees and users of tax-exempt property\u201d, and provides:\n\u2018[Sec. 1. When any real property which for any reason is exempt from taxation is leased, loaned or otherwise made available to and used by a private individual, association or corporation in connection with a business conducted for profit, * * * [such lessee or user] shall be subject to taxation in the same amount and to the same extent as though the lessee or user were the owner of such property * * *. ******\n\u201cSec. 2. Taxes shall be assessed to such lessees or users of real property and collected in the same manner as taxes assessed to owners of real property, except that such taxes shall not become a lien against the property. * * * \u201d Pub.Acts 1953, No. 189.\nIn the Borg-Warner case part of the tax was paid under protest, and the corporation and the United States filed suit for a refund of the amount paid, charging that the tax \u25a0was repugnant to the Constitution of the United States because it imposed a levy on government property and discriminated against those using such property.\nIn the Muskegon case Continental refused to pay the tax, and the suit was brought by state authorities to recover the amount assessed. The United States government intervened in the suit, contending that the tax was invalid because it imposed a levy on government property.\nThe United States Supreme Court held in both of these cases that the tax was not one imposed upon government property so as to be repugnant to the Constitution of the United States. In addition, in the Muskegon case the United States Supreme Court rejected the argument that the imposition of the tax by the Michigan statute was discriminatory, pointing out that the tax applied to every private party who used exempt property in Michigan in connection with a business conducted for private gain.\nIn the Murray Corporation case, supra, Murray Corporation was acting as a subcontractor under a prime contract for the manufacture of airplane parts between two other private companies and the United States. By agreement title to all parts, materials, and work in process acquired by Murray in performance of the subcontract vested in the United States upon partial payment even though Murray retained possession. The City of Detroit and the County of Wayne each assessed a tax against Murray based on the value of materials and work in process in its possession to which the United States held title. Murray paid the taxes under protest and then brought suit for a refund, contending that title to the property was in the United States, and that the taxes infringed the federal government\u2019s immunity from state taxation to the extent that the taxes were based on such property. The United States government intervened in Murray\u2019s behalf. In rejecting the contention of Murray and the government, the United States Supreme Court pointed out that the taxes involved imposed a levy on a private party possessing government property which it was using or processing in the course of its own business. The statute under which the tax was assessed in this case provides in part: \u201cThe owners or persons in possession of any personal property shall pay all taxes assessed thereon. * * * \u201d [355 U.S. 489, 78 S.Ct. 469]\nThese three cases appear to be full authority for the proposition that the federal government\u2019s constitutional immunity from state and local taxation is not infringed when state and local governments impose on a private individual or corporation a tax on the .renting, use, or possession of property which itself is immune from taxation because of its ownership by the United States government, where such property is used in the course of the private individual\u2019s or corporation\u2019s own business and to derive a profit.\nThe Michigan statute provides that the tax which was the subject of the litigation in the Borg-Warner and Muskegon cases is a tax on the leasing, loaning, or use of real property which for any reason is exempt from taxation, where such tax-exempt property is used by a private individual or corporation in connection with a business conducted for profit. The statute under which the tax was assessed in the Murray Corporation case imposed a tax on the possession of any personal property. Both of these statutes make it clear that the tax there imposed is on the mere use or possession without right to ownership. In other words, the statutes do not tax the use or possession as the exercise of a right \u201cincident to the ownership\u201d of the property.\nThis brings us to the serious question which we are called upon to answer in this case: Does the ordinance of the City of New Orleans impose upon the mere use of tangible personal property in the City of New Orleans a tax based on the cost price of the property, to be paid by the user who is not the purchaser of the property where title to the property is in the United States government which is the purchaser?\nAs stated previously, the city contends that the tax imposed by its ordinance is in all particulars the same as the taxes upheld by the Supreme Court in the three cases cited and discussed above. We do not think that this statement is correct. The laws under which the taxes were imposed in those cases levied a tax on the mere leasing, use, or possession and did not require the use or possession to be incident to ownership. The ordinance of the City of New Orleans imposes the tax upon the use of tangible personal property but defines \"use\u201d to mean and include \u201cthe exercise of any rights or power over tangible personal property incident to the ownership thereof\u201d. In other words, the word \u201cuse\u201d in the New Orleans ordinance is qualified by the phrase \u201cincident to the ownership thereof\u201d.\nThe words \u201cincident to the ownership thereof\u201d cannot be ignored so as to leave the tax on the mere use or possession. Webster\u2019s New International Dictionary (1938) defines \u201cincident\u201d thus: \u201c* * * 3. Law. Something appertaining to, passing with, or depending on, another, called the principal.\u201d \u201cIncident\u201d, according to Black\u2019s Law Dictionary (1944), \u201c* * * denotes anything which inseparably belongs to, or is connected with, or inherent in, another thing, called the \u2018principal\u2019. * * \u201d Under these definitions \u201cownership\u201d is the principal to which the \u201cuse\u201d is incidental, and the use upon which the ordinance levies the tax is the exercise of any rights or power over tangible personal property connected with, inherent in, depending on, and inseparably belonging to the ownership of that property.\nThe ordinance provides that the tax therein levied shall be collected by the dealer. We observe that in Section 2 as amended it imposes a tax of 1 per cent of the gross profits derived from the lease or rental of tangible personal property where the lease or rental of such property is an established business or the same is incidental or germane to the business, and in Section 3 of the ordinance a dealer is further defined to mean any person who is the lessee or rentee of tangible personal property and \u201cwho pays to the owner of such property a consideration for the use or possession of such property without acquiring title thereto\u201d. (Italics ours.) In other words, the ordinance imposes a tax on the use of property where such use is incidental to ownership \u2014 that is, where the user is the owner \u2014 , the tax there being based on the cost price of the property; and it likewise imposes a tax on the use or possession of property under a lease where the user or possessor of such property does not acquire title thereto, the tax there being levied on gross profits derived from the lease. In other words, these provisions of the ordinance cover two different situations\u2014 one where the user is the owner, and the other where the user or possessor does not have title but is using and possessing under a lease. The fact that the ordinance imposes a tax under each of these situations confirms us in our conclusion that when the tax is assessed on the \u201cuse\u201d of the property and is based on the cost price of the tangible personal property, the user must be the owner of the property.\nWe therefore conclude the Chrysler\u2019s use of the tangible personal property was not the exercise of a right or power over the property incident to the ownership thereof. Consequently the assessment of the tax by the city based on the cost price of the property was improper.\nThe courts of other states have had occasion to consider the meaning of the phrase \u201cincident to the ownership\u201d as that phrase is used in statutes imposing a use tax. See General Motors Corporation v. State Commissioner of Revenue and Taxation, 182 Kan. 237, 320 P.2d 807, certiorari denied 358 U.S. 875, 79 S.Ct. 115, 3 L.Ed.2d 105, and Avco Mfg. Corporation v. Connelly, 145 Conn. 161, 140 A.2d 479.\nThe statute concerned in the Kansas case defines \u201cuse\u201d thus: \u201cThe word \u2018use\u2019 means and includes the exercise within this state by any person of any right or power over tangible personal property incident to the ownership of that property * * G.S.1949, 79-3702(c). That provision is almost identical with the provision of the New Orleans ordinance which we are considering, and that case is very similar to this one. There the assessment of the tax was made on the use of machinery and equipment purchased outside the State of Kansas and brought into the state for use by General Motors in establishing production capacity for the manufacture of military airplanes, the purchases being made pursuant to a facilities contract with the United States government. The Kansas Supreme Court annulled and set aside the assessment of the tax, and in the course of the opinion said:\n\u201cThe government owned the property upon entry into the state and continuously thereafter. In the last analysis, the use of such property by the corporation was merely to accomplish the purpose of the owner \u2014the production of military aircraft for the government. Its use of the property was not \u2018incident to the ownership of that property.\u2019 \u201d [182 Kan. 237, 320 P.2d 812.]\nIn the Connecticut case the facts are likewise very similar to those in the case at bar. There the government awarded to Avco Manufacturing Corporation a so-called facilities contract providing for the ttse by the corporation of government-owned plant and facilities and for the purchase and installation of certain new facilities. Under this contract Avco purchased machinery which it installed and used for the production of aircraft engines and parts. Avco received no profit on the purchase and installation of the facilities. A use tax assessment was made against Avco under the provision of a Connecticut statute which defines \u201cuse\u201d as including \u201cthe exercise of any right or power over tangible personal property incident to the ownership of that property\u201d. Gen.St.1949, \u00a7 2091(6). It is to be noted that this statute is almost identical with the provisions in the New Orleans ordinance defining \u201cuse\u201d. The court said: \u201cIt seems clear that storage and consumption, as well as use, must be incident to ownership for the use tax to apply.\u201d [145 Conn. 161, 140 A.2d 485.]\nAppellee, the city, argues that under the facilities contract Chrysler had the right to \u201chave, hold, use, occupy, possess and enjoy\u201d the tangible personal property imported into the City of New Orleans, and that in fact it exercised these rights; that consequently the city had a right under its ordinance to levy a tax on the exercise of these rights based upon the value of the property which Chrysler was using. The city further says that since Chrysler had the right to \u201chold, use, occupy, possess and enjoy\u201d the tangible personal property in order to carry out its supply contract with the government, such use by Chrysler constituted a limited or quasi ownership of the property. Appellee cites several Louisiana cases which it says support these statements, but the cases are not apposite or controlling under the facts of this case and need not be discussed.\nThere is no merit in the city\u2019s argument. The rights of use and possession which Chrysler had were derived from its contract of lease with the government and were not incident to ownership. If the ordinance here imposed a tax based on the value of the property on mere use or possession, the argument of the city might be sound, but the ordinance does not do this. Instead it imposes a use tax on \u201cthe exercise of any rights or power over tangible personal property incident to the ownership\u201d. In other words, the use tax is imposed upon the owner of the property who is exercising these rights by virtue of or incident to his ownership of the property. To hold that the tax here involved had been legally assessed and collected we would have to ignore and completely disregard the phrase \u201cincident to the ownership thereof\u201d and say that notwithstanding this phrase the tax here levied was on the mere use of the property. If the tax was on the mere use, then why the phrase \u201cincident to the ownership thereof\u201d? If it had been intended that mere use was to be taxable, it would have been easy for the framers of this ordinance to provide that \u201c \u2018Use\u2019 means .and includes the exercise of any rights or power over tangible personal property\u201d without employing the qualifying phrase \u201cincident to the ownership thereof\u201d.\nIn brief filed by the Collector of Revenue of the State of Louisiana as amicus curiae the argument is made that title to the tangible personal property passed to Chrysler for a short time before vesting in the United States because the purchases made by Chrysler were f. o. b. sellers\u2019 plants or f. o. b. other points outside Louisiana, and that consequently the tax was legally levied and collected under the provisions of the ordinance. In support of this argument the collector cites and relies on United Aircraft Corporation v. Connelly, 145 Conn. 176, 140 A.2d 486. In that case two contracts were involved which provided that title to the property should pass to the government on delivery to the contractor at the contractor\u2019s plant, and the Connecticut court reasoned that the goods shipped under these contracts on an f. o. b. shipping point basis belonged to the contractor during shipment.\nWe are considering the instant case on exception of no cause of action and must accept as true the well pleaded allegations of the petition in connection with the documents attached. The contract in the instant case provides that title to the property \u201cshall vest in the Government upon acquisition by the Contractor or its subcontractors or vendors or upon installation in the government-furnished plant whichever occurs first\u201d, and the petition itself alleges that \u201cpursuant to the Facilities Contract title to all of such items of equipment, machinery and other facilities passed out of the seller and, with no intervening period of time, vested in the Government prior to the time at which the said property came into the State of Louisiana, and has ever since continued in the Government\u201d. In short, according to the petition and the documents attached title passed directly from the vendors to the government and never vested in Chrysler. Moreover, as we view the facilities contract, Chrysler was procuring or purchasing the property as an agent for the government.\nThe judgment sustaining the exceptions of no cause of action is reversed and set aside, and the case is remanded for further proceedings according to law.\n. It was argued and apparently conceded that Chrysler derived a profit for the manufacture and production of tank engines for the United States government under the supply contracts.\n. The tax involved in this suit was assessed and collected by the city under this provision of the ordinance.\n.. The facilities contract provides that all purchase orders issued by Chrysler for acquisition of equipment, machinery, etc., shall be subject to the prior written approval of the government, through its contracting officer.",
+        "type": "majority",
+        "author": "HAWTHORNE, Justice."
+      },
+      {
+        "text": "FOURNET, Chief Justice\n(concurring).\nWhile it seems illogical that one using in this state tangible personal property of which he is the owner must pay a use tax of 1% of the cost of the item, whereas one using this same property for the identical purpose under a lease agreement with a subsidiary of the owner, or any third party, need pay a tax of 1% on only the gross profits derived from the leased property, or on the price paid for the rental thereof, I feel, nevertheless, constrained to concur with the views expressed in the majority opinion, for, irrespective of any views I might entertain with respect to the definition of the word \u201cuse\u201d in Section 1(e) 1 (\u201c \u2018Use\u2019 means and includes the exercise of any rights o.r power over tangible personal property incident to the ownership thereof,\u201d if not otherwise limited or explained), as has been ably demonstrated in the majority opinion, the ordinance itself recognizes that although it is the use that is being taxed, the two categories of users \u25a0 \u2014 owners and lessees \u2014 sought to be reached are to be taxed on a different rate basis, that is, cost in the case of owners, profit or rent in the case of lessees. (The emphasis has been supplied.)",
+        "type": "concurrence",
+        "author": "FOURNET, Chief Justice"
+      }
+    ],
+    "attorneys": [
+      "Charles K. Rice, Asst. Atty. Gen., Myron C. Baum, H. Eugene Heine, Jr., Mark S. Charwat, Washington, D. C., Milling, Saal, Saunders, Benson & Woodward, R. E. Milling, Jr., David J. Conroy, New Orleans, M. Hepburn Many, U. S. Atty., Lloyd C. Melancon, Asst. U. S. Atty., New Orleans, for appellants.",
+      "Richard Alsina Fulton, Frederick S. Hay-good, Levi A. Himes, Chapman L. Sanford, Baton Rouge, for amicus curiae.",
+      "Alvin J. Liska, City Atty., Ernest L. Salatich, Asst. City Atty., New Orleans, for defendant-appellee."
+    ],
+    "corrections": "",
+    "head_matter": "114 So.2d 579\nCHRYSLER CORPORATION v. CITY OF NEW ORLEANS.\nNo. 44521.\nJune 25, 1959.\nRehearing Denied Oct. 9, 1959.\nCharles K. Rice, Asst. Atty. Gen., Myron C. Baum, H. Eugene Heine, Jr., Mark S. Charwat, Washington, D. C., Milling, Saal, Saunders, Benson & Woodward, R. E. Milling, Jr., David J. Conroy, New Orleans, M. Hepburn Many, U. S. Atty., Lloyd C. Melancon, Asst. U. S. Atty., New Orleans, for appellants.\nRichard Alsina Fulton, Frederick S. Hay-good, Levi A. Himes, Chapman L. Sanford, Baton Rouge, for amicus curiae.\nAlvin J. Liska, City Atty., Ernest L. Salatich, Asst. City Atty., New Orleans, for defendant-appellee."
+  },
+  "file_name": "0123-01",
+  "first_page_order": 94,
+  "last_page_order": 106
+}

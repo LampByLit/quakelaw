@@ -1,0 +1,273 @@
+{
+  "id": 4381610,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. DAVID WILLIAM WALKER, Defendant and Appellant",
+  "name_abbreviation": "People v. Walker",
+  "decision_date": "1969-09-05",
+  "docket_number": "Crim. No. 15776",
+  "first_page": "39",
+  "last_page": "44",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "276 Cal. App. 2d 39"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "295 P.2d 969",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "140 Cal.App.2d 870",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2174359
+      ],
+      "pin_cites": [
+        {
+          "page": "871"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/140/0870-01"
+      ]
+    },
+    {
+      "cite": "2 Cal.Rptr. 176",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "177 Cal.App.2d 414",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4393218
+      ],
+      "pin_cites": [
+        {
+          "page": "416-417"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/177/0414-01"
+      ]
+    },
+    {
+      "cite": "32 Cal.Rptr. 348",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "218 Cal.App.2d 317",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2128767
+      ],
+      "pin_cites": [
+        {
+          "page": "320"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/218/0317-01"
+      ]
+    },
+    {
+      "cite": "72 Cal.Rptr. 917",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "267 Cal.App.2d 317",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2185720
+      ],
+      "pin_cites": [
+        {
+          "page": "323"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/267/0317-01"
+      ]
+    },
+    {
+      "cite": "290 P.2d 855",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.2d 755",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4390733
+      ],
+      "pin_cites": [
+        {
+          "page": "762"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/45/0755-01"
+      ]
+    },
+    {
+      "cite": "44 Cal.Rptr. 500",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "234 Cal.App.2d 423",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2147792
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "429"
+        },
+        {
+          "page": "429"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/234/0423-01"
+      ]
+    },
+    {
+      "cite": "47 Cal.Rptr. 734",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "238 Cal.App.2d 292",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2162812
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "299-300"
+        },
+        {
+          "page": "307"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/238/0292-01"
+      ]
+    },
+    {
+      "cite": "371 P.2d 288",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "weight": 3,
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.Rptr. 552",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "weight": 3,
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.2d 602",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4375541
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "605"
+        },
+        {
+          "page": "607"
+        },
+        {
+          "page": "605"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/57/0602-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 579,
+    "char_count": 9853,
+    "ocr_confidence": 0.671,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.14945774830887823
+    },
+    "sha256": "53e501db8f8be3038a2b0d76036aa5405611ec988023a9146bb249b11bba39c3",
+    "simhash": "1:fe424db464c431d3",
+    "word_count": 1683
+  },
+  "last_updated": "2024-02-27T17:52:21.889319+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. DAVID WILLIAM WALKER, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Barrean and-Walker were charged in two counts with possession of heroin (\u00a711500, Health & Saf. Code) and possession of marijuana (\u00a7 11530, Health & Saf. Code). The cause was submitted on the transcript of the testimony taken at the preliminary hearing. All defendants were found guilty as charged. Walker\u2019s motion for a new trial was granted as to count II (possession of marijuana) and denied as to count I (possession of heroin). He was sentenced to the state prison; at the same time probation \u00f3n a prior burglary conviction was revoked and he was sentenced thereon to the state prison, the sentences in the two cases to run concurrently. Count II was dismissed in the interests of justice. Only Walker (hereinafter referred to as defendant and appellant) appeals from the judgment.\nOn January 2, 1968, Sacchette\u2019s sister told Sergeant Elder that she had just been to Sacchette\u2019s residence Avhere there Avere five persons who she thought were under the influence, of narcotics and there were .two small children in the house for Avhom she avbs afraid; she.returned to the house and brought back to him' a Tuinal tablet and said that those in the- residence had just \u201cscored\u201d heroin and were in the process of \u201cfixing.\u201d Around 11 p.m. Sergeant Elder and five other deputies went to the residence to inquire about possible child neglect and narcotic violations. The residence was set 30 or .40 feet off the street. Three officers went to the front door and Sergeant Elder and the others went to the side door immediately adjacent to a driveway to the home. As Sergeant Elder started to knock on the side door to inquire about the children, he observed through the window adjacent to the door three men in the kitchen. On the window was a screen; the curtain was back approximately two inches on his right side as he faced it; the porch area was dark and the interior kitchen well lighted; there were no blinds on the window. He saw Rutherford standing on one side of a table, Stone seated in a chair holding a brown belt around his left arm and defendant standing over him holding a small eye dropper type narcotic injecting device in his right hand. Sergeant Elder, who had training, education and experience in narcotics, formed the opinion that defendant was giving a narcotic injection to Stone. Believing that evidence was being destroyed in front of his eyes and a felony was being committed in his presence, he opened the door and entered. All five defendants were in the house and placed under arrest. A search of the house revealed the following items; corncob pipe containing marijuana debris, two packs of Zig Zag papers in Barreau\u2019s purse, a hand-rolled cigarette and loose seeds and leafy fragments of marijuana, all of which pertained to count II, later dismissed against this defendant; and on the kitchen table a white saucer on which was a green packet containing 4/10 of a gram of heroin (between three and four \u201cfixes\u201d), a spoon containing heroin, one eye dropper and one needle, and four or five feet from the corner of the table an eye dropper with fresh blood on it. All three male defendants had needle marks and all five appeared to be under the influence of something or \u201chigh.\u201d\nFor the defense Barreau denied she had anything to do with the contraband found on the premises. Rutherford testified he was in the front room when defendant called him, he went into the kitchen and saw Stone slumped over a chair, then the police walked in; he knew nothing about the heroin, marijuana or the outfit; he was convicted of possession of marijuana in 1967. Saeehette lived at the residence with her two children; Rutherford and Barreau arrived in the afternoon, defendant and Stone late in the evening; she and Stone drove to the store and the ear stalled; defendant came to start the car; she returned home around 10:30 p.m. and went into the bedroom with her kids; the officers arrived shortly thereafter ; she was unaware there was any heroin or marijuana in the house. Stone said the heroin belonged to him and he \"fixed\u201d himself; he blacked out after \"fixing\u201d and the next thing he knew the police were there.\nDefendant testified he loaned his car to Stone and Sacehette and when it stalled he had to go out and start it; he went into the bathroom to clean up and when he came out. he saw Stone\u2019s head slumped over the counter and a belt around and a needle in his arm; he tried to awaken Stone but could not, so he took the needle out of his arm; none of the contraband belonged to him or was in his control or possession; he did not have eight scab needle marks on the inside of his left arm at rhe time he was arrested; he did have a scab but it was from 'jetting burned frequently by red-hot steel where he worked.\nAppellant contends that the evidence was obtained as a result of trespass; the officers had no duty to investigate anything; the premises were a private residence; the officers were not legally at the side door; what occurred inside the kitchen was intended to be private and the officers had no reasonable cause to enter and arrest him.\nThe officers went to the residence for the purpose of making an investigation by questioning the occupants concerning possible child neglect and narcotic violations on the premises. Because of the nature of the complaint made by Sacehette\u2019s sister, Sergeant Elder was justified in taking other officers with him and stationing three at the front door which led to the street and several at the side door which led to the driveway. Each door was a normal means of access and egress from that part of the house. With respect to the aspect of trespass, it seems to be assumed without discussion in numerous California eases dealing with incidents observed through a window that minor or technical trespass not involving physical entry into a building may be justified as reasonable investigation. (Bielicki v. Superior Court, 57 Cal.2d 602, 605 [21 Cal.Rptr. 552, 371 P.2d 288] ; People v. Willard, 238 Cal.App.2d 292, 299-300 [47 Cal.Rptr. 734] and eases cited therein; People v. King, 234 Cal.App.2d 423, 429 [44 Cal.Rptr. 500].) There is no question here but that the officers went to the premises as a result of a complaint and to investigate charges of child neglect and narcotic violations and for that reason they had the right to approach the side door, stand on the porch, knock on the door and talk to the occupants.\nLegitimately on the premises and standing' on the dark porch, Sergeant Elder was about to knock when he observed the activities in the well lighted kitchen through the window immediately to the right of where he was standing. \u201cSince looking through a window does not constitute an unreasonable search [citations], the officers were entitled to act upon what they saw and arrest defendant. [Citations.]\u201d (People v. Martin, 45 Cal.2d 755, 762 [290 P.2d 855] ; Bielicki v. Superior Court, 57 Cal.2d 602, 607 [21 Cal.Rptr. 552, 371 P.2d 288]; People v. Galfund, 267 Cal.App.2d 317, 323 [72 Cal.Rptr. 917]; People v. King, 234 Cal.App.2d 423, 429 [44 Cal.Rptr. 500]; People v. Murray, 218 Cal.App.2d 317, 320 [32 Cal.Rptr. 348] ; People v. Steffano, 177 Cal.App.2d 414, 416-417 [2 Cal.Rptr. 176] ; People v. Moore, 140 Cal.App.2d 870, 871 [295 P.2d 969].)\nCiting Bielicki v. Superior Court, 57 Cal.2d 602, 605 [21 Cal.Rptr. 552, 371 P.2d 288], the court in People v. Willard, 238 Cal.App.2d 292, 307 [47 Cal.Rptr. 734], said: \u201cThat looking through a window does not become an unreasonable search merely because a police officer may be on defendant\u2019s premises when he makes the observation; that the degree of privacy which defendant enjoyed in the place involved is an important factor in determining the reasonableness of the search; and that essentially the determination of its reasonableness must depend upon the facts and circumstances of the particular case.\u201d As to the degree of privacy intended, there does not appear to have been any effort on the part of the occupants to make the room secret and protect their privacy. The record does not show that there were any bushes or hedges around the house; and it would appear that there was no substantial, if any, degree of privacy in the area. The window, while it contained a screen and an interior curtain which was back, approximately two inches on Sergeant Elder\u2019s right side as he faced it, had no blinds and there was an unobstructed view into the kitchen which was well lighted. About to knock and inquire about the children, he looked immediately to the right and observed the men through the window. It was strictly an accidental observation of a readily observable and unconcealed incident. The room was the kitchen, not a bathroom or bedroom, and no effort had been made by the defendant to conceal his activities. We conclude in the light of all of the circumstances that Sergeant Elder at the time he made the observation in question was properly on the porch, that his looking through the window did not constitute an unreasonable search and his conduct was not an unlawful invasion of defendant\u2019s privacy. Inasmuch as he observed defendant in the process of committing the offense charged, he lawfully entered and arrested him without a warrant. (Pen. Code, \u00a7 836, subd. 1.) In plain sight on the table and immediately within defendant\u2019s reach, the heroin and outfit were properly seized incidental to a lawful arrest.\nThe judgment is affirmed.\nWood, P. J., and Thompson, J., concurred.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "[Crim. No. 15776.\nSecond Dist., Div. One.\nSept. 5, 1969.]\nTHE PEOPLE, Plaintiff and Respondent, v. DAVID WILLIAM WALKER, Defendant and Appellant.\nFrederic Steinberg, under appointment by the Court of Appeal, for Defendant and Appellant.\nThomas C. Lynch, Attorney General, William E. James, Assistant Attorney General, and Jimmie E. Tinsley, Deputy Attorney General, for Plaintiff and Respondent."
+  },
+  "file_name": "0039-01",
+  "first_page_order": 61,
+  "last_page_order": 66
+}

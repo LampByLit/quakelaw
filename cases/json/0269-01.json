@@ -1,0 +1,114 @@
+{
+  "id": 3189114,
+  "name": "Cornelius McBRIDE et al. v. William McBRIDE",
+  "name_abbreviation": "McBride v. McBride",
+  "decision_date": "1959-11-09",
+  "docket_number": "No. 44339",
+  "first_page": "269",
+  "last_page": "273",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 270"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 So.2d 346"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "65 So.2d 126",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9909713,
+        3142089
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/65/0126-01",
+        "/la/223/0167-01"
+      ]
+    },
+    {
+      "cite": "223 La. 167",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3142089,
+        9909713
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/223/0167-01",
+        "/so2d/65/0126-01"
+      ]
+    },
+    {
+      "cite": "230 La. 52",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9912630,
+        3088127
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/87/0726-01",
+        "/la/230/0051-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 267,
+    "char_count": 3765,
+    "ocr_confidence": 0.736,
+    "pagerank": {
+      "raw": 2.1995933875888662e-07,
+      "percentile": 0.7647132844663691
+    },
+    "sha256": "3a25a65a47c6e20da2a1bae22c0982e40c757591fd785202c26d30323cc11f9e",
+    "simhash": "1:f362e7132c34f7c2",
+    "word_count": 627
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cornelius McBRIDE et al. v. William McBRIDE."
+    ],
+    "opinions": [
+      {
+        "text": "HAMLIN, Justice.\nSuit was instituted by plaintiffs to have declared null and void, on the ground of simulation, an Act of Sale of an agricultural tract of land by Cornelius McBride and his wife, Elizabeth Daigle McBride, now both deceased, to their son William McBride. The Act is dated January 9, 1947 and recites a consideration of $2,500.00. From a judgment rendered in favor of the defendant William McBride, plaintiffs appealed to this Court. Thereafter, appellant, with the concurrence of appellee, filed a motion to transfer to the Court of Appeal, First Circuit.\nThe alleged reason for the necessity of transfer is set forth in joint brief filed in this Court by counsel for appellants and counsel for appellee, as follows:\n\u201cNowhere in the record is there any reflection as to the value of the property other than the testimony of one real estate agent that the total value of the property is Two Thousand, Five Hundred Dollars ($2,500.00), and thus the share of the seven Petitioners would amount to seven-ninths (%) of Two Thousand, Five Hundred Dollars ($2,500.00) or a total of One Thousand, Nine Hundred Forty-four and 44/100 ($1,944.44) Dollars, or below the amount necessary to confer jurisdiction on the Supreme Court of Louisiana. * * *\u00bb\nThe jurisdiction of this Court is governed by Article VII, Sec. 10, Louisiana Constitution of 1921, LSA, which recites that we shall have appellate jurisdiction in civil suits where the amount in dispute or the fund to be distributed, irrespective of the amount therein claimed, shall exceed two thousand dollars, exclusive of -interest. >In his reasons for judgment herein, the trial judge states that the testimony reflects that the estimated value of the property at the time of the sale was $2,500.00. This figure is uncontradicted. Therefore, a finding must be made as to whether the value of the property ($2,500.00) or the value of the alleged %ths interest of plaintiffs ($1,944.-44) is decisive of the amount in dispute.\nThe present issue has been settled in the case of Howard v. Howard, 230 La. 52, 87 So.2d 726, wherein plaintiff sought to have declared null and void the sale of a lot. She charged that the transaction was simulated and alleged that the sale resulted from a conspiracy between her husband and the vendee to defraud her of her interest in alleged community property. In transferring the matter to the Court of Appeal, Second Circuit, we gave the following reason :\n\u201cThe act of sale which plaintiff seeks to have set aside recites a consideration of $2,800. If we accept this amount as the value of the property described in the deed, under the facts of this case the most that the plaintiff could recover, even if she should succeed in having the sale set aside, would be an undivided one-half interest in the property, worth approximately $1,400. Consequently $1,400 is the only amount in dispute in this cause and is far below the amount necessary for the appellate jurisdiction of this court. See Angelette v. Hardie, 223 La. 167, 65 So.2d 126. * * * \u201d\nWe conclude that the value of plaintiffs\u2019 alleged interest in the property involved herein is less than $2,000.00 \u2014 the amount determinative of our jurisdiction \u2014 and that the appeal must be transferred to the proper Court of Appeal.\nTherefore, it is ordered that this appeal be transferred to the Court of Appeal, First Circuit, provided that the record be filed in that Court within 30 days from the date this judgment becomes final; otherwise, the appeal will be dismissed. Costs in this Court are to be paid by appellants.",
+        "type": "majority",
+        "author": "HAMLIN, Justice."
+      }
+    ],
+    "attorneys": [
+      "Edwards & Edwards, Crowley, for appellants.",
+      "Bruner, Mayeux & Landry, by J. W. Landry, Jr., Crowley, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "115 So.2d 346\nCornelius McBRIDE et al. v. William McBRIDE.\nNo. 44339.\nNov. 9, 1959.\nEdwards & Edwards, Crowley, for appellants.\nBruner, Mayeux & Landry, by J. W. Landry, Jr., Crowley, for appellee."
+  },
+  "file_name": "0269-01",
+  "first_page_order": 167,
+  "last_page_order": 169
+}

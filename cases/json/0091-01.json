@@ -1,0 +1,319 @@
+{
+  "id": 1855494,
+  "name": "SHANE v. HACKNEY",
+  "name_abbreviation": "Shane v. Hackney",
+  "decision_date": "1954-11-29",
+  "docket_number": "Docket No. 8, Calendar No. 46,194",
+  "first_page": "91",
+  "last_page": "100",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "341 Mich. 91"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "104 ALR 6",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "287 Mich 147",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1810802
+      ],
+      "pin_cites": [
+        {
+          "page": "153"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/287/0147-01"
+      ]
+    },
+    {
+      "cite": "271 Mich 538",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1877767
+      ],
+      "pin_cites": [
+        {
+          "page": "544, 545"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/271/0538-01"
+      ]
+    },
+    {
+      "cite": "325 Mich 613",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1910876
+      ],
+      "pin_cites": [
+        {
+          "page": "615"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/325/0613-01"
+      ]
+    },
+    {
+      "cite": "317 Mich 490",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1886641
+      ],
+      "pin_cites": [
+        {
+          "page": "503"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/317/0490-01"
+      ]
+    },
+    {
+      "cite": "278 Mich 354",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1785965
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/278/0354-01"
+      ]
+    },
+    {
+      "cite": "273 Mich 62",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1874756
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/273/0062-01"
+      ]
+    },
+    {
+      "cite": "259 Mich 578",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1862900
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/259/0578-01"
+      ]
+    },
+    {
+      "cite": "256 Mich 383",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1867731
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/256/0383-01"
+      ]
+    },
+    {
+      "cite": "288 Mich 267",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1809056
+      ],
+      "pin_cites": [
+        {
+          "page": "286"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/288/0267-01"
+      ]
+    },
+    {
+      "cite": "250 Mich 698",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1844229
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/250/0698-01"
+      ]
+    },
+    {
+      "cite": "231 Mich 184",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1679910
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/231/0184-01"
+      ]
+    },
+    {
+      "cite": "226 Mich 200",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1691327
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/226/0200-01"
+      ]
+    },
+    {
+      "cite": "219 Mich 48",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1772758
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/219/0048-01"
+      ]
+    },
+    {
+      "cite": "218 Mich 500",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1774621
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/218/0500-01"
+      ]
+    },
+    {
+      "cite": "222 Mich 575",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1699219
+      ],
+      "pin_cites": [
+        {
+          "page": "578, 579"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/222/0575-01"
+      ]
+    },
+    {
+      "cite": "317 Mich 113",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1886661
+      ],
+      "pin_cites": [
+        {
+          "page": "117"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/317/0113-01"
+      ]
+    },
+    {
+      "cite": "261 Mich 618",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1860530
+      ],
+      "pin_cites": [
+        {
+          "page": "622"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/261/0618-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 720,
+    "char_count": 16682,
+    "ocr_confidence": 0.48,
+    "pagerank": {
+      "raw": 3.4386461659822154e-07,
+      "percentile": 0.8795277253615944
+    },
+    "sha256": "364bf627b1e6e5f9f1eff465c5f080f4f4a92884e61781de1f4bc94340c56b1b",
+    "simhash": "1:ee0ba723eb123b5f",
+    "word_count": 2844
+  },
+  "last_updated": "2024-02-27T16:14:53.692353+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Butzel, C. J., and Bushnell, Sharpe, Boyles, Beid, Dethmers, and Kelly, JJ., concurred."
+    ],
+    "parties": [
+      "SHANE v. HACKNEY."
+    ],
+    "opinions": [
+      {
+        "text": "Carr, J.\nPlaintiff herein filed bis petition in circuit court for a declaratory decree pursuant to tbe provisions of CL 1948, \u00a7 691.501 et seq. (Stat Ann \u00a7 27.501 et seq.). Tbe record does not indicate any dispute as to the material facts. In 1935 plaintiff and one Alma Harris entered into an agreement pursuant to which they lived and cohabited together for a number of years. Had there been no legal impediment to their marriage, it is conceded that a valid common-law marriage would have resulted. However, Alma Harris had been previously married to one Joseph Harris who was still living at the time of the arrangement between her and plaintiff, above set forth, and no decree of divorce at that time had been granted to him.\nIn October, 1944, a suit for divorce from Melvin Shane was instituted by Alma in the Wayne circuit court. The case was heard and a decree granted by Circuit Judge Arthur Webster on March 14, 1945, on proofs offered in open court and the pleadings filed by the parties. A property settlement in advance of the rendering of the decree was approved. Plaintiff in the instant proceeding claims that approximately 5 months after the entering of the decree of divorce by Judge Webster he was advised by his attorney that divorce proceedings instituted by Alma\u2019s previous husband had not been carried through to completion, that, in consequence, the marriage between her and plaintiff herein was a nullity, and that the decree dissolving the supposed marriage was unauthorized. Alma testified in the present case that she was called to the office of Melvin Shane\u2019s attorney, where a conference was held in which the parties to the divorce action and the attorneys representing them in that proceeding were present. Alma claimed that she was told by Melvin\u2019s attorney that the divorce granted by Judge Webster was void, and that she had better enter into a stipulation setting it aside on the ground that it was a nullity. Her testimony, as to what occurred at said conference, is corroborated by that of plaintiff. As a result both parties signed an instrument in writing, the material part of which is as follows:\n\u201cIt is hereby stipulated by and between Alma Shane, plaintiff, and Melvin Shane, defendant, that the decree of divorce entered into under date of March 14, 1945, may be and is hereby discontinued, set aside and held for naught and the bill of complaint and answer be stricken from the file.\u201d\nSaid stipulation was then presented to Circuit Judge George B. Murphy who at the time was acting, as appears from a concise statement of facts in the record, in the capacity of \u201cMiscellaneous Presiding Judge.\u201d No testimony was taken. The order entered followed the language of the stipulation and provided that \u201cthe decree of divorce entered March 14,1945, may be and hereby is discontinued, set aside and held for naught and that the bill of complaint and answer be stricken from the file.\u201d\nApproximately 1 month after the entering of the above order on August 6, 1945, plaintiff Melvin Shane and defendant Margaret Hackney, also known as Margaret Shane, entered into a ceremonial marriage, as a result of which a child, now 8 years of age, was born. In January of 1946 the parties separated and Margaret instituted proceedings in the Wayne circuit court for separate maintenance. A cross bill was filed in which an absolute divorce was sought. Hearing of the cause was delayed because of matters not material to the present issue. Following a trial an order was entered on April 7, 1950, dismissing the bill of complaint and the cross bill.\nPlaintiff herein claims that at the hearing of the above case, or shortly thereafter, he learned for the first time that Joseph Harris had in fact obtained a divorce from Alma Harris in 1942. In June, 1951, he instituted the present suit asking that the court decree that his supposed marriage to the defendant herein was invalid because at the time the ceremony was performed, and during the period that he and defendant lived and cohabited together, he was still lawfully married to Alma Harris Shane. The trial court granted the relief sought, and defendant has appealed.\nIt is not disputed that following the granting of a decree of divorce to Joseph Harris from Alma in 1942 the latter and Melvin Shane lived and cohabited together and held themselves out as husband and wife. The impediment to a lawful marriage having been removed, a common-law marriage resulted. The rule applicable to the facts has been repeatedly recognized by this Court. In Hess v. Pettigrew, 261 Mich 618, 622, it was said:\n\u201cWhile there is some difference of reasoning and ruling, the decided weight of authority is that whore parties engage upon a contract of marriage, which is void because one has a living lawful spouse, which is unknown to one or both, uninterrupted cohabitation and reputation after removal of the impediment will produce a valid common-law marriage, although the fact of the impediment or of its removal may not have been known to either. The principal reasons upon, which the rule rests are that the initial relationship was intended to be matrimonial, not illicit, and consent to present marriage evidenced by the ceremony continues from day to day and becomes effective as a present taking in marriage on removal of the impediment.\u201d\nSee, also, Stratos v. Stratos, 317 Mich 113, 117.\nThe conclusion necessarily follows that at the time of the bringing of the divorce action plaintiff and Alma Shane were husband and wife and, in consequence, such proceeding was not a nullity. However, the stipulation into which the parties entered agreeing that the decree of divorce should be held for naught and the pleadings stricken from the files, was based on their belief and the belief of their respective attorneys that such decree was void. It is significant that the stipulation was not directed merely at the decree of divorce but was obviously intended to remove the entire proceeding from the court records. As before noted, the order signed by Judge Murphy followed the language of the stipulation and had no other basis.\nIt is claimed by appellant that Judge Murphy was wholly without jurisdiction to make the order above set forth, that such action was void, and that defendant in the instant case is not precluded from raising the issue. Reliance ms placed on CL 1948, \u00a7 602.56 (Stat Ann \u00a7 27.193) which provides, in part, that \u201cno order or decree shall be set aside or vacated except by the judge making the same, unless such judge shall be absent or unable to act.\u201d The record does not show that Judge Webster, who granted the decree of divorce, was absent or unable to act at the time the stipulation signed by Melvin and Alma Shane was presented to Judge Murphy. This Court has recognized that to permit the making of an order setting aside a decree of another judge a proper showing must be made in compliance with the statutory provision quoted. In Jageriskey v. Kelemen, 222 Mich 575, 578, 579, it was said:\n\u201cThat a proper showing of the absence or inability of the judge who made the order or decree to act on an application to set the same aside, is a prerequisite for another judge of the same circuit to entertain the application in circuits where there are more than 2 judges is indicated in Flowers v. Wayne Circuit Judge, 218 Mich 500, wherein it is said:\n\u201c \u2018Judge Hosmer having died, Judge White presiding in the same circuit had authority, under proper showing, to set aside the order made by Judge Hosmer (CL 1915, \u00a7 12139).\n* \u201cIn Kints v. Calvin, 219 Mich 48, the trial judge at conclusion of the testimony reserved his decision under the Empson act (CL 1915, \u00a7 14568 et seq ) and submitted the case to the jury who returned a verdict in plaintiff\u2019s favor. While he still had the-reserved question under advisement, the presiding judge of the circuit rendered a judgment on the verdict. Having reached a decision on the question taken under advisement, the trial judge filed an opinion ordering judgment for defendant non obstante veredicto, which was duly entered. After the case, was in this Court for review, he, on motion, entered an order setting aside the judgment on verdict in favor of plaintiff entered by the presiding judge. This Court held the first judgment by the presiding judge was without authority\u2014\u2018no judgment\u2019\u2014void and \u2018without effect upon subsequent proceedings by the trial judge,\u2019 whose judgment non obstante was. the only judgment in the case. It is true, as counsel points out, this Court found it unnecessary to discuss the authority of the trial judge to make an order vacating the void order of the presiding judge after the case was in the court, of which it only need be said that this Court regarded it of no materiality, since the first judgment was void and a nullity, and the second judgment by the trial judge was the only judgment in the case.\n\u201cThe order of Judge Law granting defendants\u2019 motion to vacate the judgment rendered by Judge Goff was void for want of jurisdiction and must be set aside, leaving that motion standing as unheard, for reference to the judge who rendered the judgment unless upon proper showing he is found absent or unable to act.\u201d\nSee, also, Vokes & Schaffer v. Moore, 226 Mich 200; McConnell v. Wayne Circuit Judge, 231 Mich 184; Naylor v. Washtenaw Circuit Judge, 250 Mich 698.\nCounsel also call attention to Michigan Court Eule No 48 (1945) with reference to rehearings in equity cases, and to W\u00e1yne County Circuit Court Rule No 6 which, among other provisions, requires that \u201call proceedings in divorce cases following decree shall be heard by the judge who entered the decree.\u20197 However, the stipulation presented to Judge Murphy, on which he based his order, was not an application for a rehearing nor did it contemplate a proceeding in the divorce action following decree. On the contrary, it was predicated wholly on the theory that Judge Webster was without authority to enter a decree in the case. In this the parties were mistaken.\nThe record before us does not justify a conclusion that the stipulation and the resulting court order were obtained by fraud. We must assume that the parties acted in good faith, but the obvious fact remains that the decree entered by Judge Webster was not a nullity. In view of the, situation that actually existed, \u2022 we think that; Judge Murphy was without authority to set aside Judge Webster\u2019s decree and strike the pleading\u2019s in the case from the files. No proper basis existed for such action.\nThere being no' jurisdiction under the facts and pertinent principles of law, the parties could not by consent confer on Judge Murphy the authority to act on their stipulation. We are not concerned here with jurisdiction over the parties to the litigation but, rather, with jurisdiction with reference to the subject matter. The general rule in this respect was recognized in City of Detroit v. Michigan Public Utilities Commission, 288 Mich 267, 286 (29 PUR NS 203), where it was said:\n\u201cBut the parties by consent or conduct cannot give the court jurisdiction over the subject matter where it otherwise, would have no jurisdiction, Hoffman v. Security Trust Co. of Detroit, 256 Mich 383; Exo v. Detroit Automobile Inter-Insurance Exchange, 259 Mich 578; Orloff v. Morehead Manfg. Co., 273 Mich 62; Strandt v. Strandt, 278 Mich 354.\u201d\nAmong other decisions recognizing the rule as above quoted are: Berry v. Bruce, 317 Mich 490, 503; Kennedy v. Kennedy, 325 Mich 613, 615.\nPlaintiff\u2019s claim that defendant is not.entitled to question in this proceeding the order made by Judge Murphy, on the theory that such attempted exercise of authority is not subject to collateral attack, is without merit. As above stated, such order is wholly void because of lack of jurisdiction over the subject matter. Defendant was not a party to the proceeding with reference to which it was entered and, in consequence, was not in position to make a direct attack on it. It may not be said that in the pending proceeding, which involves the validity of her marriage to plaintiff and the legitimacy of her child, she is precluded from questioning the order setting aside the decree of divorce granted to Melvin and Alma Shane. In Jackson City Bank & Trust Co. v. Fredrick, 271 Mich 538, 544, 545, it was said, in part:\n\u201cThere is a wide difference between a want of jurisdiction, in which case the court has no power to adjudicate at all, and a mistake in the exercise of undoubted jurisdiction, in which case the action of the trial court is not void although it may be subject to direct attack on appeal. This fundamental distinction runs through all the cases.\n\u201cWhen there is a want of jurisdiction over the parties, or the subject matter, no matter what formalities may have been taken by the trial court, the action thereof is void because of its want of jurisdiction, and consequently its proceedings may be questioned collaterally as well as directly. They are of no more value than as though they did not exist.\u201d\nThe statement above set forth was quoted in part, with approval, in Fox v. Martin, 287 Mich 147, 153.\nFor the reasons above set forth we conclude that the ceremonial marriage between plaintiff and defendant here was, and is, valid. The decree of the trial court is reversed, and a decree will enter here in accordance with this opinion. Defendant may-have costs.\nButzel, C. J., and Bushnell, Sharpe, Boyles, Beid, Dethmers, and Kelly, JJ., concurred.\nCL 1948, \u00a7 602.56 (Stat Ann \u00a7 27.193).\u2014Reporter.\nCL 1948, \u00a7 691.691 et seq. (Stat Ann and Stat Ann 1953 Cum Supp \u00a7 27.1461 et seq.).\u2014Bepoetee.",
+        "type": "majority",
+        "author": "Carr, J."
+      }
+    ],
+    "attorneys": [
+      "Buckingham, Biggins, Rehn & Balmer (Frederic F. Pig gins), for plaintiff.",
+      "Kasoff & Young, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "SHANE v. HACKNEY.\n1. Marriage\u2014Common Law\u2014Removal of Impediment.\nA common-law marriage resulted, where parties thereto continued to live and cohabit together and hold themselves out as husband and wife after removal of an impediment to one of them to a lawful marriage, and the initial relationship was intended to be matrimonial, not illicit.\n2. Judgment\u2014-Judges\u2014Absence.\nA proper showing of absence or inability to act on part of judge who made a decree must be made before another judge of the same circuit may set the deeree aside (CL 1948, \u00a7 602:56; Court Rule No 48 [1945]; \"Wayne County Circuit Court Rule No 6).\n3. Same\u2014Judges\u2014Jurisdiction to Set Aside Decree of Divorce.\nJudge who set aside a decree of divorce which had been made by another judge of the same circuit and struck pleadings from the files was without authority to do so, where decree entered was not a nullity although it appears parties mistakenly thought judge who entered decree had been without jurisdiction to do so and signed stipulation upon which order setting aside decree and striking pleadings was based and no showing was made that judge who had entered the decree was absent or unable to aet (CL 1948, \u00a7 602.56; Court Rule No 48 [1945]; Wayne County Circuit Court Rule No 6).\n4. Judges\u2014Jurisdiction\u2014Subject Matter\u2014Consent.\nParties may not, by consent or conduct, confer jurisdiction of subject matter on a particular judge, where circumstances were not such otherwise as to confer jurisdiction upon him (CL 1948, \u00a7 602.56; Court Rule No 48 [1945]; Wayne County Circuit Court Rule No 6).\nReferences for Points in Headn.otes\n[1, 6] 35 Am Jur, Marriage \u00a7\u00a7 36, 52, 201.\n[1] Inference or presumption of marriage from continued cohabitation following removal of impediment. 104 ALR 6.\n[2, 3] See, generally, 31 Am Jur, Judgments \u00a7\u00a7 712, 716, 734.\n[4] 31 Am Jur, Judgments \u00a7 412.\n[5] 31 Am Jur, Judgments \u00a7 597.\n5. Judgment \u2014 Collateral Attack \u2014 Jurisdiction \u2014 Parties \u2014 Subject Matter.\nProceedings may be questioned collaterally as well as directly, where there is a want of jurisdiction over the parties or the subject matter.\n6. Marriage\u2014Divorce\u2014Jurisdiction to Set Aside Decree by Different Judge.\nCeremonial marriage entered into by parties after entry of a valid decree of divorce of husband from earlier marriage remains valid, where a subsequent order by a different judge of the same circuit purporting to set aside the decree of divorce was itself a nullity, the latter judge not having had jurisdiction over the subject matter (CL 1948, \u00a7 602.56; Court Rule No 48 [1945]; Wayne County Circuit Court Rule No 6).\nAppeal from Wayne; Weideman (Carl M.), J.\nSubmitted October 5, 1954.\n(Docket No. 8, Calendar No. 46,194.)\nDecided November 29, 1954.\nBill by Melvin Sbane against Margaret Hackney, naming ber also as Margaret Sbane, for declaratory decree asserting tbeir marriage a nullity. Decree for plaintiff. Defendant appeals.\nReversed and decree affirming marriage ordered to be entered.\nBuckingham, Biggins, Rehn & Balmer (Frederic F. Pig gins), for plaintiff.\nKasoff & Young, for defendant."
+  },
+  "file_name": "0091-01",
+  "first_page_order": 131,
+  "last_page_order": 140
+}

@@ -1,0 +1,228 @@
+{
+  "id": 1855491,
+  "name": "GENERAL TELEPHONE COMPANY OF MICHIGAN v. PUBLIC SERVICE COMMISSION",
+  "name_abbreviation": "General Telephone Co. v. Public Service Commission",
+  "decision_date": "1954-12-29",
+  "docket_number": "Docket No. 58, Calendar No. 45,967",
+  "first_page": "620",
+  "last_page": "638",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "341 Mich. 620"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "110 NE2d 59",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "158 Ohio St 441",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        1607267,
+        1061398
+      ],
+      "pin_cites": [
+        {
+          "page": "446, 447"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-st/158/0441-01"
+      ]
+    },
+    {
+      "cite": "325 Mich 228",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1910918
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/325/0228-01"
+      ]
+    },
+    {
+      "cite": "315 Mich 533",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1890275
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/315/0533-01"
+      ]
+    },
+    {
+      "cite": "272 US 400",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1501246
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/272/0400-01"
+      ]
+    },
+    {
+      "cite": "320 US 591",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6143691
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/320/0591-01"
+      ]
+    },
+    {
+      "cite": "308 Mich 706",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1900990
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/308/0706-01"
+      ]
+    },
+    {
+      "cite": "209 Mich 395",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1788042
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/209/0395-01"
+      ]
+    },
+    {
+      "cite": "216 US 579",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8290850
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "581"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/216/0579-01"
+      ]
+    },
+    {
+      "cite": "48 LRA NS 1134",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.N.S.",
+      "year": 1909,
+      "opinion_index": 0
+    },
+    {
+      "cite": "212 US 19",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5711677
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "54, 55"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/212/0019-01"
+      ]
+    },
+    {
+      "cite": "122 NE 328",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "188 Ind 573",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1749294
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/188/0573-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1111,
+    "char_count": 34384,
+    "ocr_confidence": 0.48,
+    "pagerank": {
+      "raw": 6.359795169058263e-07,
+      "percentile": 0.9589420078158997
+    },
+    "sha256": "52f969839ba19eceda629f3d01b4f1753807ac0213dd11d5f2fcadbf8df628c1",
+    "simhash": "1:e7d95dbc28c6f26c",
+    "word_count": 5569
+  },
+  "last_updated": "2024-02-27T16:14:53.692353+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Butzel, C. J., and Carr, Bushnell, Sharpe, Boyles, Reid, and Dethmers, JJ., concurred."
+    ],
+    "parties": [
+      "GENERAL TELEPHONE COMPANY OF MICHIGAN v. PUBLIC SERVICE COMMISSION."
+    ],
+    "opinions": [
+      {
+        "text": "Kelly, J.\nGeneral Telephone Company\u2019s application of January 22, 1952, for rate relief in the amount of $1,100,000 was partially granted by the Michigan public service commission\u2019s order of December 5, 1952, allowing a rate increase of $660,000.\nThe company appealed to the Ingham county circuit court and introduced additional testimony to that which had been introduced before the commission, and the court transmitted such testimony to the commission for its consideration. The commission refused to consider the additional testimony and advised the court that it found no occasion to modify its order.\nOn July 30, 1953, the court rejected the contentions of law.and fact contained in the commission\u2019s report, and found that the rates prescribed by the commission were unreasonable, unlawful and confiscatory. On August 21, 1953, the court entered a decree remanding the matter back to the commission to fix \u201cjust, reasonable and nonconfiscatory rates,\u201d and, pending action by the commission, the company was authorized to collect rates not in excess of the rates the company had requested the commission to approve. The company was also ordered to provide a $1,000,000 refund bond depending upon the outcome of the appeal by the commission to this Court.\nAt the hearing before Judge Coash, Ingham circuit court, held in March, 1953, the company introduced testimony in regard to its 1952 activities, including budget, actual expenditures, wage increases, additional and unexpected taxes, and increase in operating expense due to installation of 6,014 new telephones. The company also introduced evidence as to the impact of the commission\u2019s order of December 5, 1952, and a claimed reduction in the company\u2019s rate of return for 1952 from 6.6% to 4.23% on average capital.\nThe commission claims that the court erred in receiving and transmitting this testimony to the commission, as this additional testimony arose subsequent to the close of hearings by the commission on July 2, 1952. This testimony was received by the court and transmitted back to the commission pursuant to CLS 1952, \u00a7 484.116 (Stat Ann 1953 Cum Supp \u00a722.1456), which reads as follows:\n\u201cIf upon the trial of said action evidence shall be introduced which is found by the court to be different from that offered upon the hearing before the commission or additional thereto, the court before proceeding to render judgment, unless the parties in such action stipulate in writing to the contrary, shall transmit a copy of such evidence to the commission, and shall stay further proceedings in said action for 15 days from the date of such transmission. Upon receipt of such evidence the commission shall consider the same, and may alter, modify, amend or rescind its order relating to such rate or rates, charges, joint rate or rates, regulations, practice or service complained of in said action, and shall report its action thereon to said court within 10 days from the receipt of such evidence. If the commission shall rescind its order complained of the action shall be dismissed; if it shall alter, modify or amend the same, such altered, modified or amended order shall take the place of the original order complained of, and judgment shall be rendered thereon as though made by the commission in the first instance. If the original order shall not be rescinded or changed by the commission, judgment shall be rendered upon such original order.\u201d\nThe legislature realized that the additional and/or different testimony introduced before the court could be of such importance that it would result in the commission\u2019s altering, modifying, amending, or rescinding its previous order. The legislature provided for the commission\u2019s immediate and serious consideration by not only stipulating that \u201cthe commission shall consider\u201d the evidence, but, also, that the court \u201cshall stay further proceedings in said action for 15 days from the date of such transmission.\u201d There is a total absence of any inference that the evidence the commission shall consider should be restricted or confined to conditions existing or matters which arose previous to the close of the-hearing before the commission. It is our opinion, that if the legislature had so desired, the statute would have expressly provided for such a restriction.\nA similar statute was construed by the supreme-court of Indiana in Public Service Commission v. Frazee, 188 Ind 573 (122 NE 328, PUR1919C, 979), as follows:\n\u201cAppellant complains of the admission of evidence of operating expenses at a time subsequent to the decision of the commission.\n\u201cThe statute * * * provides that the court may hear evidence \u2018different\u2019 from, and \u2018additional\u2019 to, that heard by the commission; and the statute does not provide that such different and additional evidence shall relate only to matters occurring or existing prior to the hearing or decision of the commission; therefore, so far as expression in the statute is concerned, such evidence may relate to matters occurring after the board\u2019s decision and up to the time of trial in the circuit court. The statute further provides that if the trial court hears \u2018additional\u2019 or \u2018different\u2019 evidence, the trial court shall, before rendering judgment, transmit a copy of the \u2018additional\u2019 or \u2018different\u2019 evidence to the commission for its consideration; and that the commission may alter or rescind its order, and must report to the court within 10 days. Thus the commission is placed upon the same footing, so far as evidence is concerned, as is the circuit court on appeal; and the fact that the evidence may relate to after matters is unobjectionable.\n\u201cFurthermore, the propriety of hearing evidence as to a practical test of the reasonableness of such order, especially where that question is not clearly solved hy a hearing- before the commission, is recognized by the courts. Willcox v. Consolidated Gas Co. (1908), 212 US 19, 54, 55 (29 S Ct 192, 53 L ed 382, 15 Ann Cas 1034, 48 LRA NS 1134); Northern Pacific R. Co. v. North Dakota (1909), 216 US 579, 581 (30 S Ct 423, 54 L ed 624). This clearly shows that it is proper to hear evidence of things happening- after such an order is entered to properly determine whether such order is valid or invalid. This disposes of all objections made to the admission of such evidence.\u201d\nThe court did not err in receiving and transmitting this testimony to the commission.\nThe next contention presented by appellant is that:\n\u201cThe opinion and decree of the circuit court constitutes a direction, in effect, to the commission to grant additional revenues to appellee beyond those already allowed whereby the court engaged in the legislative function of rate-making which was error.\u201d\nThe decree of the court, filed August 21, 1953, contains the following:\n\u201cNow, therefore, by reason of the matters of fact and of law so found and determined, the court does hereby order, adjudge and decree that the rate order T552-52.ll of defendant Michigan - public service commission issued December 5, 1952, as affirmed by its statutory report dated May 22, 1953, is hereby reversed, vacated and set aside as unreasonable and unlawful but only insofar as said order violates the statutory and constitutional rights of plaintiff to earn a reasonable return on the fair value of its property and fails to prescribe reasonable, adequate and lawful rates for plaintiff General Telephone Company of Michigan.\n\u201cIt is further ordered, adjudged and decreed that this matter be, and the same hereby is, remanded to the defendant Michigan public service commission to fix and determine in conformity with, the findings and holdings of this court as expressed in its opinion dated July 30, 1953, just, reasonable and non-confiscatory rates for General Telephone Company of Michigan upon the basis of the complete record, made in this matter including the proceedings before the defendant commission and the different or additional evidence offered at trial in this court.\n\u201cIt is further ordered, adjudged and decreed that pending action by the commission in so fixing just, reasonable \u25a0 and nonconfiscatory rates, the company be, and hereby is, permitted temporarily to establish and collect rates and charges not in excess of the rates and charges which it requested to be approved by the defendant Michigan, public service-commission in its application of January 22, 1952. * * *\n\u201cIt is further ordered, adjudged and decreed that plaintiff shall set up on its books and records a reserve to which it shall credit currently as soon as practicable after the end of each calendar month a gross sum equal to the difference between the revenues actually billed in such month, and those revenues which would have been billed if the rates and charges prescribed in said rate order T552-52.ll had been billed as nearly as said difference can be determined reasonably by general estimate and. without detailed accounting as to each subscriber. The said reserve shall be employed by plaintiff to make such refunds, if any, as may be required by a further or supplemental order of this court .pursuant to the terms and provisions hereof. However,, plaintiff shall have full right to use the funds represented by the said reserve as freely for any purpose as' the funds represented by the general accounts on the books of the plaintiff.\n\u201cIt is further ordered, adjudged and decreed that plaintiff shall file with this court a good and sufficient bond, without surety, for the refunding of any charges which might later be determined to be excessive as follows: If lawful and reasonable rates fixed by the commission are as great or greater than those established and collected by the company during the temporary period no refunds will be required ; however, if the commission shall fix and determine rates which are lower than the temporary rates collected by the company, and said rates fixed by the commission are lawful, reasonable and non-confiscatory, then the difference between the rates collected by the company during the temporary period and said rates prescribed by the commission shall be refunded to the company\u2019s customers. Said bond shall be in the amount of $1,000,000; but, the court hereby reserves full jurisdiction and power to require a greater bond at any time in the future if the same appears necessary to guarantee the refunding of any charges which might later be determined to be excessive as herein provided.\u201d\nAt the commencement of the hearing before the commission the applicant company requested that a reasonable and fair test period be adopted by using the actual fixed figures of operations for the 5-month period ending May 31, 1952, and the estimate for operational figures for the remaining 7 months of 1952. This request was denied by the commission and instead adopted its staff recommendation \u201cof 1 full year ending December 31, 1951, adjusted to current \u2018going rates\u2019 for wages, taxes, and service charges as shown by the record in this cause.\u201d The commission admits that on April 8, 1953, the court transmitted to the commission testimony to show \u201cthe impact of the commission\u2019s order of December 5, 1952, as disclosed by the company\u2019s balance sheet for the period ending December 31, 1952; actual revenues and expenses for 1952, and a claimed reduction in the company\u2019s rate of return for 1952 from 6.6% to 4.23% on average capital.\u201d\nIn its statutory report, the commission, in refusing to give consideration to the testimony transmitted to it by the court, stated: \u201cGeneral\u2019s remedy in this regard is simple and expedient, namely, the presentation of a new rate application to this commission for the proper determination of snch facts affecting its revenues, expenses and services as have occurred since the close of the record upon which our order was based.\u201d\nThe commission used the 1951 average invested capital of $16,596,600 in coming to its conclusion as to what rate order should be allowed. The testimony before the circuit court disclosed that as of. December 31, 1952, the actual invested capital had increased to $20,297,075, and that the average invested capital for the year 1952 was $18,834,400.\nAt the commission hearing the company offered proof to sustain its estimate that $1,366,000 would be necessary for maintenance purposes for the year 1952. The commission rejected this proof and instead relied upon its staff expert, Mr. Demorest, who testified in regard to the 1952 maintenance costs as follows:\n\u201cThis is based on the assumption that the maintenance cost per station in 1952-will be the same figure it was in 1951. I have no way of knowing whether this is a correct assumption. * * * Any determination I made insofar as maintenance expense for 1952 is concerned merely reflects the average maintenance cost of 1951.\u201d\nBy refusing to consider the testimony forwarded by the circuit court, the commission refused to consider proof that the actual maintenance expense for 1952 was $1,423,473.\nFive items, namely, maintenance, traffic, commercial, general office, and other operating expense, were grouped together in determining operating expenses and totaled $3,684,862.60 for 1951. The testimony before the circuit court, which the commission refused to consider, disclosed that for 1952 these 5 items totaled $4,086,397, constituting $401,535 additional operating expense for 1952 over 1951.\nIt is evident from an examination of the statute that the legislature placed upon both the commission and the circuit court of Ingham county a joint responsibility to see to it that telephone rates were just and reasonable.\nFor the purpose of this opinion we shall quote from chapter 5 of the opinion and rate order dated December 5, 1952, wherein the commission stated:\n\u201cThe legislature has provided that telephone rates in Michigan must be \u2018just and reasonable\u2019, CL 1948, \u00a7 484.103 (Stat Ann \u00a7 22.1443). Just and reasonable rates have been defined, insofar as the customer is concerned, when they are neither oppressive nor permissive of exorbitant and speculative profits, City of Detroit v. Michigan Railroad Commission, 209 Mich 395 (PUR1920D, 867); City of Detroit v. Michigan Public Service Commission, 308 Mich 706 (54 PUR NS 65). Insofar as the utility is concerned, rates are just and reasonable when sufficient to cover all reasonable costs of doing business, including interest on the bonded indebtedness and a fair dividend on the equity invested in the plant, City of Detroit v. Michigan Public Service Commission, supra; Federal Power Commission v. Hope Natural Gas Co., 320 US 591 (64 S Ct 281, 88 L ed 333, 51 PUR NS 193).\u201d\nTo meet this test and provide rates that are \u201cjust and reasonable\u201d the commission should consider not only all reasonable costs of doing business, including interest on the bonded indebtedness and a fair dividend on the equity in the year preceding the hearing, as the commission did in this case, but should also consider these factors as they will influence yields for a reasonable time in the future. See McCardle v. Indianapolis Water Co., 272 US 400 (47 S Ct 144, 71 L ed 316, PUR1927A, 15).\nThis Court made it very clear in Michigan Bell Telephone Co. v. Public Service Commission, 315 Mich 533 (66 PUR NS 287), that the commission cannot establish a retroactive rate thereby correcting injustice caused by delay in establishing rates for the past. When failure to provide adequate rates in the past cannot be remedied by retroactive orders, it follows that every reasonable effort should be made by the commission to eliminate unnecessary delay and to pass judgment on facts that will not only reflect upon the present but a reasonable period in the future. The commission failed to meet this test not only at its hearing but failed again when the testimony received before the court was transmitted to it, and it was in error in informing the court that the company\u2019s \u201cremedy in this regard is simple and expedient, namely, the presentation of a new rate application to this commission for the proper determination of such facts affecting its revenues, expenses and services as have occurred since the close of the record upon which our order was based.\u201d The commission was in error in refusing to consider the testimony transmitted by the court, and the trial court properly held that the commission\u2019s order of December 5, 1952, failed to meet statutory and constitutional requirements.\nThe court by its decree did not establish a rate, but only provided, dependent upon final adjudication by the court, that the company could collect the charges it requested in its application as a trust fund under a bond of $1,000,000, and further provided that the company \u201cset up on its books and records a reserve to which it shall credit currently, as soon as practicable after the end of each calendar month, a gross sum equal to the difference between the revenues actually billed in such month and those revenues which would have been billed if the rates and charges prescribed in said rate order T552-52.ll.\u201d\nAs further proof that the court provided for a trust fund to he collected' during the interval between the time the commission refused to give consideration to the testimony and the time when consideration would be given by it, is the following:\n\u201cIf lawful and reasonable rates fixed by the commission are as great or greater than those established and collected by the company during the temporary period no refunds will be required; however, if the commission shall fix and determine rates which are lower than the temporary rates collected by the company, and said rates fixed by the commission are lawful, reasonable and nonconfiscatory, then the difference between the rates collected by the company during the temporary period and said rates prescribed by the commission shall be refunded to the company\u2019s customers.\u201d\nIn Michigan Bell Telephone Co. v. Ingham Circuit Judge, 325 Mich 228 (81 PUR NS 599), headnotes read:\n\u201cBate-making proceedings relating to telephone companies before the public service commission and review thereof by the circuit court are purely statutory and are designed to accomplish speedy final determination of issues involved.\n\u201cThe circuit court is vested with the general equity jurisdiction to protect a telephone company from confiscatory rates being fixed by the public service commission.\u201d\nWe believe that the circuit court properly exercised its general equity jurisdiction to protect the company from confiscatory rates during the interval that the court realized must elapse between the time the commission refused to give consideration to the testimony regarding the impact of its order upon the company during 1952 and the time when said commission Avould give that consideration.\nThe record discloses the fact that the commission was somewhat confused in regard to granting a rate increase to a company that while striving to render a service was meeting with a great problem. This is evidenced by the following from the commission\u2019s opinion and rate order of December 5, 1952:\n\u201cPresent management has made valiant efforts with the tools at hand to raise the level of service provided. However, changing social and economic conditions have rendered the task almost insurmountable. Eighty thousand stations spread thinly over approximately 5,648 square miles in 33 counties provide a service and maintenance problem to try the wisdom of a Solomon.\u201d\nIn its application, the company called to the commission\u2019s attention the following in regard to its plant in service:\n\u201cThis commission is familiar with the fact that on January 1, 1946, applicant had total telephone plant in service in the aggregate amount of $7,122,173; that, on January 1, 1949, applicant\u2019s total telephone plant in service aggregated $10,382,516; that on January 1, 1950, applicant\u2019s telephone plant in service aggregated $12,607,826. On November 30, 1951, applicant\u2019s telephone plant in service amounted to $18,329,802. For the year 1952, applicant has budgeted for additions to its telephone plant the sum of $3,418,400 in gross additions, and that consequently, by December 31, 1952, the total of applicant\u2019s telephone .plant in service will aggregate $21,-339,700, or an increase of 200% over the total amount of telephone plant in service on January 1, 1946.\u201d\nOn January 8, 1951, the commission, by order, adopted the standards and service to he observed by the company and, among other things, said order prescribed a reduction to 10 in the number of subscribers attached to a single rural line. This order was amended on January 22, 1952, and the commission in its opinion and rate prder of December 5, 1952, had the following to say in regard to that order:\n\u201cTestimony shows that the total number of rural lines with over 10 stations has been reduced from 700 at the time of the January 8, 1951, order, to 510 at September 30, 1951; that at the end of 1952, an additional 226 rural lines will be unloaded, and the balance will be completed during 1953. The total unloading program involved all but 13 of the applicant\u2019s 75 exchanges, and some 20,562 main stations, and was estimated to cost about $1,017,500.\u201d\nCertain confusion does exist in this record due to statements of the commission in its rate order, as follows:\n\u201cWe are of the opinion that under the law increased charges for such service might be denied until such time as service reaches the standard which should be furnished by a monopoly telephone company in 1952.\n\u201cOn the other hand, applicant has been unable to pay a dividend on its common stock since August, 1951, and all available money has been utilized to rehabilitate and expand its equipment and facilities. Outright denial would not achieve the end of improving service, but rather existing service would deteriorate further through inability of applicant to attract its share of additional capital.\u201d\nThe record discloses that plaintiff and appellee,. General Telephone Company of Michigan, is successor to the Associated Telephone Utilities Company which was forced into receivership in April, 1933. It serves approximately 88,000 telephones through 78 central offices in 75 exchanges. Thirty central offices, serving slightly more than 50% of the stations are dial type; 13 with approximately 28% of the stations are of the common battery type; and the remaining 35 with 22% of the stations are still of the magneto type.\nThe commission\u2019s hearing on the application was held in Lansing on February 5, 6 and 7, 1952. That hearing was followed by 7 regional hearings held outstate in June, at which hearings over 150 telephone subscribers testified in regard to the service they were receiving.\nThe commission not only spent a major part of its time preparing its report and rate order upon this testimony, but used 24 pages of the printed record, of the 36 pages required for its statutory report, reviewing this testimony.\nServices and rates, although related, are not dependent on each other, and this Court approves the following from Elyria Telephone Co. v. Public Utilities Commission of Ohio, 158 Ohio St 441, 446, 447 (110 NE2d 59, 98 PUR NS 246):\n\u201cThere is, of course, no doubt that a utility must render adequate service to its patrons, and the general assembly recognizing that at times service might be inadequate has provided a means whereby a utility may be compelled by the commission to improve its services and facilities. The commission has the power to require adequate service under sections 614-21 and 614-27, General Code, but services and rates, although related, are not wholly dependent on each other. As to rates the question is whether the company is receiving a just and reasonable return on the value of its existing property; the question as to adequate service is whether the company is rendering or is capable of rendering reasonable service with its existing property or whether by improvements, either in the use of the property it owns or by new installations, this can be done. Under the provisions of sections 614-27 and 614-28, General Code, the commission has ample power to require adequate service but it lacks the authority to demand that certain installations and improvements be made before the company may claim and receive just and reasonable rates for the services actually being rendered.\n\u201cAlthough it may be true that there should be a connection between rates and service, the record here shows the company was rendering at least fairly adequate service. It had expended over $1,-000,000 in the last 10 years for new equipment, was aware of certain inadequacies in the service and was attempting to correct the same by new construction. Furthermore, the company was faced with emergency conditions which created, and still create to some extent, difficulty in procuring new equipment. At the same time an unprecedented demand for service existed and still exists. Under such facts, where the commission finds that rates being charged are inadequate it can not arbitrarily condition an increase in rates on an improvement of services and facilities.\n\u201cThere is still another aspect to the problem. A utility to survive must receive a fair return on its property. Otherwise capital will not be attracted to furnish the funds for the new equipment needed to meet the demands of increased population and the consequential necessity for increased service. The commission\u2019s order as made has the effect of creating serious difficulties for the company. A situation is present where the company needs an increase in rates to attract capital to buy new equipment and to meet increased demands, and the commission says, in effect, \u2018we will give you the new rates to attract the new capital to purchase new equipment when you show that you have installed the new equipment.\u2019 Adoption of such an attitude would hamstring the utility.\n\u201cA public utility commission may not so act as to confiscate the property of a utility, and where it is determined that adequate rates do not exist, an order granting an increase but suspending the same until such time as certain facilities and improvements are provided does have that effect. Upon the record in this case, the commission erred in suspending the increased rates until such time as the services and facilities have been improved.\u201d\nThe trial court was not in error in setting aside the rate order of the commission of December 5, 1952, or in requesting the commission to give further consideration to the testimony introduced before the court and to determine new rates.\nThe decree from which the appeal has been taken is affirmed and the cause remanded to the circuit court of Ingham county for such further proceedings as may be found necessary and expedient. A public question being involved, no costs are allowed.\nButzel, C. J., and Carr, Bushnell, Sharpe, Boyles, Reid, and Dethmers, JJ., concurred.",
+        "type": "majority",
+        "author": "Kelly, J."
+      }
+    ],
+    "attorneys": [
+      "Foster, Snyder, Foster & Loomis (Plummer Snyder and George W. Loomis, of counsel), and John Robert Jones, for plaintiff.",
+      "Franh G. Millard, Attorney General, Edmund E. Shepherd, Solicitor General, and Daniel J. O\u2019Hara and Robert A. Derengoshi, Assistants Attorney General, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "GENERAL TELEPHONE COMPANY OF MICHIGAN v. PUBLIC SERVICE COMMISSION.\n1. Public Service Commissions\u2014Telephone Rates\u2014Remand prom Circuit Court\u2014Evidence.\nTlie public service commission is not restricted or confined to conditions existing or matters which arose previous to the close of the first hearing before the commission where a telephone rate case is again before it on remand from circuit court pursuant to statutory mandate, and additional or different evidence had been presented to the court to that presented to commission at the first hearing (CLS 1952, \u00a7 484.116).\n2. Same\u2014Telephone. .Rate Case\u2014Review of Order by Circuit Court\u2014Evidence.\nCircuit court did not err in receiving and transmitting testimony on trial of telephone rate case that was additional or different testimony than that which had been presented to public service commission from whose order a review was being had in the court (CLS 1952, \u00a7 484.116).\nReferences for Points in Headnotes\n[1, 2] 43 Am Jur, Public Utilities and Services \u00a7 233.\n[3] See, generally, 43 Am Jur, Public Utilities and Services \u00a7 201 et seq.\n[4] See, generally, 43 Am Jur, Public Utilities and Services \u00a7 156 et seq.; 52 Am Jur, Telegraphs and Telephones \u00a7\u00a7 56-61.\n[5,9] See, generally, 52 Am Jur, Telegraphs and Telephones \u00a7 52 et seq.\n[6] 52 Am Jur, Telegraphs and Telephones \u00a7 56.\n[7, 8,13] 52 Am Jur, Telegraphs and Telephones \u00a7 62.\n[7] 52 Am Jur, Telegraphs and Telephones \u00a7 63.\n[10,12] 52 Am Jur, Telegraphs and Telephones \u00a7 57.\n[11] See, generally, 52 Am Jur, Telegraphs and Telephones \u00a7 53.\n[13] 52 Am Jur, Telegraphs and Telephones \u00a7 58.\n[14] See, generally, 14 Am Jur, Costs \u00a7 29 et seq.\n'3. Telegraphs and Telephones\u2014Rates\u2014Public Service Commission\u2014Circuit Court.\nThe publie service commission and the circuit court of Ingham county have a joint responsibility to see to it that telephone rates are just and reasonable (CLS 1952, \u00a7 484.116).\n4. Same\u2014Rates\u2014Future Return on Investment.\nJust and reasonable telephone rates, so far as the utility is concerned, are such as are sufficient to cover all reasonable costs of doing business, including interest on the bonded indebtedness and a fair dividend on the equity invested in the plant in the year preceding the hearing and the commission should also consider such factors as they will influence yields for a reasonable time in the future (CL 1948, \u00a7 484.103).\n5. Same\u2014Retroactive Rates\u2014Future Rates.\nThe public service commission cannot establish a retroactive rate for telephone service and thereby correct injustice caused by delay in establishing rates for the past but every reasonable effort should be made to eliminate unnecessary delay and to pass judgment on facts that will not only reflect upon the present but a reasonable period in the future (CL 1948, \u00a7 484.103).\n6. Same\u2014Rates\u2014Evidence\u2014Public Service Commission\u2014Remand.\nThe publie service commission was in error in refusing to consider evidence as to just and reasonable rates to be charged by plaintiff telephone company insofar as it failed to consider evidence reflecting adequacy of rates for the present and a reasonable period in the future, especially testimony received by the circuit court on review of the commission\u2019s order, that was in addition to or different from that received by the commission at the original hearing and transmitted to it by the circuit court on remand (CL 1948, \u00a7 484.103; CLS 1952, \u00a7 484.116).\n7. Same\u2014Rates\u2014Rate op Return\u2014Public Service Commission\u2014 Circuit Court.\nCircuit court\u2019s finding that order of the publie service commission as to telephone rates for plaintiff company failed to meet statutory and constitutional requirements, held, proper, where it appears from record, including testimony in addition to and different from that received by the commission, that the company\u2019s rate of return had been reduced from 6.6% to 4.23% on average capital (CL 1948, \u00a7 484.103j CLS 1952, \u00a7484.116).\n8. Constitutional ' Law\u2014Courts\u2014Public Service Commission\u2014 TrustFund as to Claimed Necessary Increases in Telephone Rates.\nDecree of circuit court reviewing order as to telephone fates by public service commission did not constitute, in effect, a direction to grant additional revenues to plaintiff telephone company thereby engaging in the legislative function of rate-malting delegated to the commission by statute, where the decree remanded the case to the commission and directed it to consider the different and additional evidence which had been presented to the court and transmitted by it and provision was also made for temporary collection of the increased rates necessary to make claimed reasonable return on the investment for a temporary period until final determination as to rates and deposit of the increase into a trust fund for return to subscribers, if necessary (CLS 1952, \u00a7 484.116).\n9. Telegraphs and Telephones'\u2014Rate-Fixing Proceedings\u2014 Statutes.\nRate-making proceedings relating to telephone companies before the public service commission and review thereof by the circuit court are purely statutory and are designed to accomplish speedy final determination of issues involved.\n10. Same\u2014Circuit Courts\u2014Public Service Commission\u2014Confiscatory Rates\u2014Courts.\nThe circuit court is vested with the general equity jurisdiction to protect a telephone company from confiscatory rates being fixed by the public service commission.\n11. Same\u2014Services\u2014Rates\u2014Public Service Commission.\nTelephone services and rates charged for such service, although related, are not dependent on each other, hence the public service commission lacks authority to demand that certain installations \u25a0 and improvements be made before the telephone company may claim and receive just and reasonable - rates for the services actually being rendered (CL 1948, \u00a7 484.103).\n12. Public Service Commissions\u2014Telephone Rates\u2014Confiscation.\nThe public service commission may not so act as to confiscate the property of a telephone company in the matter of fixing rates for the services rendered.\n13. Telegraphs and Telephones\u2014Rates\u2014Public Service Commission\u2014Return on Capital\u2014Additional Evidence.\nDecree of circuit court, on review of public service conmiission\u2019s order fixing telephone rates for plaintiff at a return of 4.23% on average capital, .was not in error in setting aside such order and requesting the commission to give further consideration to the additional and different testimony introduced before the court and to determine new rates (CL 1948, \u00a7484.103; CLS 1952, \u00a7 484.116).\n14. Costs\u2014Public Question\u2014Telephone Rate Order.\nNo costs are allowed on appeal from circuit court\u2019s decree remanding case on review before it from the public service commission\u2019s rate order as to plaintiff telephone company, a public question being involved.\nAppeal from Ingham; Coash (Louis E.), J.\nSubmitted October 14, 1954.\n(Docket No. 58, Calendar No. 45,967.)\nDecided December 29, 1954.\nBill by General Telephone Company of Michigan, a public utility corporation, against the Michigan Public Service Commission to set aside, as unlawful and unreasonable, service rates fixed by the commission following petition of plaintiff for rate increase. Decree for plaintiff setting aside order of commission and remanding for further determination. Defendant appeals.\nAffirmed and remanded.\nFoster, Snyder, Foster & Loomis (Plummer Snyder and George W. Loomis, of counsel), and John Robert Jones, for plaintiff.\nFranh G. Millard, Attorney General, Edmund E. Shepherd, Solicitor General, and Daniel J. O\u2019Hara and Robert A. Derengoshi, Assistants Attorney General, for defendant."
+  },
+  "file_name": "0620-01",
+  "first_page_order": 660,
+  "last_page_order": 678
+}

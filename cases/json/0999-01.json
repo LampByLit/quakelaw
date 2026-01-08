@@ -1,0 +1,97 @@
+{
+  "id": 3187748,
+  "name": "COLLECTOR OF REVENUE, State of Louisiana v. John W. OLVEY, Jr., Administrator of the Estate of Jean Olvey (Minor)",
+  "name_abbreviation": "Collector of Revenue v. Olvey",
+  "decision_date": "1959-12-14",
+  "docket_number": "No. 44657",
+  "first_page": "999",
+  "last_page": "999",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 999"
+    },
+    {
+      "type": "parallel",
+      "cite": "117 So.2d 569"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "117 So.2d 563",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3188118
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0979-01"
+      ]
+    },
+    {
+      "cite": "238 La. 980",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9888977,
+        3188118
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/117/0563-01",
+        "/la/238/0979-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 106,
+    "char_count": 910,
+    "ocr_confidence": 0.747,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.09000717802466476
+    },
+    "sha256": "580c27f7404a584ac61ea0f1ce1d719c23f2aa2c545f149ae1042b69557c8bca",
+    "simhash": "1:b8e4004b2451a28a",
+    "word_count": 147
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "COLLECTOR OF REVENUE, State of Louisiana v. John W. OLVEY, Jr., Administrator of the Estate of Jean Olvey (Minor)."
+    ],
+    "opinions": [
+      {
+        "text": "McCALEB, Justice.\nThis is a companion suit to that of Collector of Revenue, State of Louisiana v. Olvey, 238 La. 980, 117 So.2d 563, this day decided and is controlled by the decision therein.\nFor the reasons stated in that matter, the judgment appealed from is reversed; all exceptions and pleas filed by respondents are overruled and the case is remanded for further proceedings according to law and consistent with the views herein expressed. The ..costs of this appeal are to be borne by respondents.",
+        "type": "majority",
+        "author": "McCALEB, Justice."
+      }
+    ],
+    "attorneys": [
+      "Roy M. Lilly, Jr., Chapman L. Sanford, Emmett E. Batson, Richard Alsina Fulton, Frederick S. Haygood, Levi A. Himes, Baton Rouge, for appellant.",
+      "Wilkinson, Lewis, Madison & Woods, Shreveport, for defendants-appellees."
+    ],
+    "corrections": "",
+    "head_matter": "117 So.2d 569\nCOLLECTOR OF REVENUE, State of Louisiana v. John W. OLVEY, Jr., Administrator of the Estate of Jean Olvey (Minor).\nNo. 44657.\nDec. 14, 1959.\nRehearing Denied Feb. 15, 1960.\nRoy M. Lilly, Jr., Chapman L. Sanford, Emmett E. Batson, Richard Alsina Fulton, Frederick S. Haygood, Levi A. Himes, Baton Rouge, for appellant.\nWilkinson, Lewis, Madison & Woods, Shreveport, for defendants-appellees."
+  },
+  "file_name": "0999-01",
+  "first_page_order": 532,
+  "last_page_order": 532
+}

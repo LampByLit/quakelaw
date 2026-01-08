@@ -1,0 +1,66 @@
+{
+  "id": 1933603,
+  "name": "The People vs. Reynolds, impleaded, &c.",
+  "name_abbreviation": "People v. Reynolds",
+  "decision_date": "1852-01",
+  "docket_number": "",
+  "first_page": "422",
+  "last_page": "425",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "2 Mich. 422"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 326,
+    "char_count": 5916,
+    "ocr_confidence": 0.347,
+    "pagerank": {
+      "raw": 2.6017795660303927e-07,
+      "percentile": 0.8195593642718166
+    },
+    "sha256": "028ca9e30b985b04d20b5d5efa0de76d4f8f35c13f98c384afad6daf75fb674d",
+    "simhash": "1:76cd5e6bab87a982",
+    "word_count": 1038
+  },
+  "last_updated": "2023-07-14T19:13:31.599570+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "The People vs. Reynolds, impleaded, &c."
+    ],
+    "opinions": [
+      {
+        "text": "By the Court, Johnson, J.\nThis cause comes into this Court on bill of exceptions from the Kalamazoo County Court.\nThere are two counts in the indictment \u2014 one for receiving stolen property, knowing the same to have been stolen, &c. \u2014 the other for aiding in the concealment of property, with like knowledge.\nBoth counts were framed under section twenty, of chapter one hundred and fifty-four of the revised statutes of 1846, which is in the following language: \u201cEvery person who shall buy, receive, or aid in the concealment of any stolen money, goods, or property, knowing the same to have been stolen, shall be punished,\u201d &c.\nOn the trial of the cause the Judge charged the jury, among other things, \u201c that concealment of stolen property, knowing, <fcc., may be supported by acts of the aider, which will assist the principal felon in converting it to the use of the thief, or which will aid him in preventing its recovery by the owner, -and that it is not necessary to prove that the property was actually hid or secreted anywhere.\u201d\nExceptions were taken to this charge by the defendant, and we are to determine whether such exceptions were well taken. It is the only question the case presents.\nAt common law it was a misdemeanor only to receive stolen property, knowing the same to have been stolen. . By the V and 8 Geo. 4, Ch. 29, \u00a7 2, it was made felony, when the original taking was felony. (2 Miss, on Cr., 237.) Our statute has enlarged this common law offense, by making persons who shall aid the principal felon in the concealment of the property stolen, equally guilty with him who shall receive such property.\nThis was the object of the statute, and was intended to embrace a class of offenses which could not have been reached by the common law; for important aid and assistance could have been rendered to the principal felon in enabling him to conceal the stolen property, without having been the receiver, so as to have subjected him to a prosecution on that account, or without having rendered such aid or assistance to the felon himself, as to have made him an accessory after the fact.\nIt is the last clause of the statute above recited, then, which enlarges this common law offense, viz: \u201c aid in the concealment off and we are called upon to give it a construction; for upon its construction depends in a measure the pertinency and application of the charge. If we narrow down the word \u201c concealment,\u201d as equivalent to or synonymous with the words hide or secrete, then the charge was too general in its terms. But if we give it a more enlarged sense, and one that comports with its literal signification, we shall find the charge to have been correct; and further, we shall' carry out the evident intention of the Legislature, by making the remedy commensurate with the evil.\nThe evil intended to be guarded against by the enactment of that law was, to prevent persons from rendering important, efficient services to a felon, in aiding him in the concealment of stolen property; and that aid must he deemed quite as important and efficient, which would enable the principal felon to convert the stolen property to his own use, or which would enable him to remove the property beyond the reach of the owner, and thereby prevent its recaption, as if he had effected the same object by aiding and assisting him in depositing it in some place of secrecy. The same public and private evil would result and the same moral guilt exist in the one case as in the other. And what is more, he would as effectually conceal the property from the owner, the person injured, and the one most likely to be instrumental in bringing him to punishment, in the former case, as in the latter.\nAny disposition of the property which would have a tendency to conceal it from the observation of the owner, is within the meaning of this law, and it cannot be presumed that the thief could convert the stolen property to his own use, without using means to conceal it from the owner; therefore, it will follow that the charge of concealment may be well sustained by evidence, tending to show that the defendant aided the thief in converting the stolen property to his own use.\nBut if there can be any doubt entertained about the correctness of the constraction we have given to this statute, there is another view of the case leading to the same result, and which must be deemed conclusive, in this case. The charge was an abstract proposition of law, having no particular relevancy to the evidence submitted to the jury, and we will presume, although the language was general, that the jury prop-, erly applied it to the case before them, and that the defendant had no just cause of complaint.\nIn either view of the case, we must hold the exceptions not well taken.",
+        "type": "majority",
+        "author": "By the Court, Johnson, J."
+      }
+    ],
+    "attorneys": [
+      "J. Miller, Jr., for the people.",
+      "---, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "The People vs. Reynolds, impleaded, &c.\nAn indictment under Section 20, Chapter 154, R. S., 1846, for aiding in the concealment of any articles, money, goods, or property, knowing the same to be stolen, is supported by\n, proof of acts of the aider, which will assist the principal felon in converting it to the use of the thief, or which will aid him in preventing its recovery by the owner, and it is not necessary to prove that the property was actually hidden or secreted anywhere.\nThe statute of this State in relation to receivers, &c., of stolen property, has enlarged the common law offense of receiving stolen property, knowing the same to be stolen, by making persons who shall aid the principal felon in the concealment \u00a9f the property, equally guilty with him who receives such property.\n\u25a0Where the charge of the Court contains an abstract proposition of law, having no particular reference to the evidence submitted, it will be presumed, although the language is general, that the jury properly applied it to the case before them.\nCase on bill of exceptions from Kalamazoo County Court.\nJ. Miller, Jr., for the people.\n---, for defendant."
+  },
+  "file_name": "0422-01",
+  "first_page_order": 430,
+  "last_page_order": 433
+}

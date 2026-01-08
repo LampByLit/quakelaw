@@ -1,0 +1,81 @@
+{
+  "id": 1855479,
+  "name": "SMEADER v. MASON",
+  "name_abbreviation": "Smeader v. Mason",
+  "decision_date": "1954-11-29",
+  "docket_number": "Docket No. 25, Calendar No. 46,259",
+  "first_page": "139",
+  "last_page": "143",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "341 Mich. 139"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "333 Mich 435",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1833243
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/333/0435-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 372,
+    "char_count": 6791,
+    "ocr_confidence": 0.484,
+    "pagerank": {
+      "raw": 1.0537888390637472e-07,
+      "percentile": 0.5547806069002479
+    },
+    "sha256": "29af683358e9acbe75e36a62ce6c27f9a12edb5d4dd5df119607d393005ec76e",
+    "simhash": "1:c887d435e88118e3",
+    "word_count": 1112
+  },
+  "last_updated": "2024-02-27T16:14:53.692353+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Butzel, C. J., and Carr, Sharpe, Boyles, Reid, Dethmers, and Kelly, JJ., concurred."
+    ],
+    "parties": [
+      "SMEADER v. MASON."
+    ],
+    "opinions": [
+      {
+        "text": "Bushnell, J.\nThis suit arose out of a \u201cpreliminary sales agreement\u201d dated March 2,1953, in which plaintiff Charles Smeader agreed to sell his business and transfer his class \u201cC\u201d license on a tavern operated under the name of \u201cPuritan Bar\u201d to defendant AnthonyMason for the sum of $26,500. The agreement provided in parf: ' ...\n\u201cIt is an express condition, of this agreement that consummation of this deal shall be and is dependent upon the purchaser applying for and obtaining a transfer of the said class \u201cC\u201d license now in the name of the seller herein to the said purchaser, in tiie event the Michigan liquor control commission does not approve of said transfer -within 60 days from the date hereof or within any additional period mutually agreed upon between these parties, the said deposit of $4,000 above referred to shall be returned to the purchaser and this contract shall stand extinguished, canceled and be void. In the event the said Michigan liquor control commission does approve the transfer of said class \u201cC\u201d license, then and in that event this deal shall be consummated and closed within 10 days from the date of said approval. Provided, however, that the parties hereto shall jointly and severally do no act or cause or permit any act to be done by them or by others which will impair, impede or be detrimental to the successful transfer of said license, and provided further that the said parties herein have jointly and severally done no act of a police nature or character that would impair the successful transfer of said license. * * *\n\u201cThe parties hereto expressly agree and understand that in the event the said purchaser herein fails to consummate his purchase of the business and property herein described within the time specified in this agreement, then and in that event the sum'of $2,000 of the $4,000 deposit made as- above provided shall forthwith lie forfeited to the seller as liquidated damages.\u201d\nUpon Mason\u2019s failure to consummate the purchase, Smeader brought suit for $2,000 in the common pleas court for the city of Detroit. Prom an entry of judgment for the defendant- of no cause of action, plaintiff appealed to the circuit court for the county of Wayne, where the judgment of the common pleas court was affirmed.\nIt is conceded that the approval of the Michigan liquor control commission was not obtained within the 60-day period provided in the agreement. The record discloses that on May 22, 1953, which was more than 60 days after the execution of the agreement, in a letter to the Detroit police department, Mason requested withdrawal of his application for transfer of the liquor license. This request was transmitted to the Michigan liquor control commission, and thereafter no further action was taken.\nOh appeal, plaintiff contends that there was a waiver of the 60-day condition on May 4th when Mason had his fingerprints taken by the police department and filed a signed financial statement. It is also claimed that the production of documentary evidence on May 14th of the sale of certain property by his father for the purpose of providing the purchase price and Mason\u2019s notification to the department that he would file a new application at a subsequent date, with his father as a partner, constituted waiver.\nIt is argued that Mason could not assert, as a defense, that the deposit constituted a penalty in view of his failure to set up such claim in his answer. On the other hand, it is argued that should the court find that his defense is proper, then plaintiff should be permitted to introduce testimony relating to the actual damages sustained.\nThe answer to these arguments is that the parties specifically agreed upon a limitation of time and, by their written agreement, manifested an intention that the duty to render the promised performance was subject to the express condition that the Michigan liquor control commission approved the transfer within 60 days. That such approval was not given within this time limitation is undisputed. In that event the parties contracted that the agreement was to \u201cstand extinguished, canceled and be void.\u201d\nWhatever may be the interpretation of defendant\u2019s acts in connection with the police department procedure, such conduct did not constitute an \u201cadditional period mutually agreed upon,\u201d and, therefore, could not create a waiver of defendant\u2019s rights.\nCourts may not make new agreements or give existing contracts interpretations contrary to the express intent of the parties. Bonney v. Citizens\u2019 Mutual Automobile Insurance Co., 333 Mich 435.\nNo liability can be predicated upon an agreement which the parties by express and unambiguous terms declared shall be void upon the failure of a condition. The language of the agreement being controlling, it is unnecessary to discuss the other questions raised by appellant.\nThe judgment of the circuit court is affirmed, with costs to defendant.\nButzel, C. J., and Carr, Sharpe, Boyles, Reid, Dethmers, and Kelly, JJ., concurred.",
+        "type": "majority",
+        "author": "Bushnell, J."
+      }
+    ],
+    "attorneys": [
+      "Riseman, LemheS Piotrowski, for plaintiff.",
+      "E. N. Karay, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "SMEADER v. MASON.\n1. Contracts\u2014Conditions\u2014Time.\nPreliminary contract for sale of tavern and liqnor license became void upon expiration of period allowed therein for approval of transfer of license by the liquor control commission without such approval having been given or period extended by mutual agreement.\n2. Same\u2014Approval op Transfer of Liquor License\u2014Waiver\u2014 Time.\nConduct of defendant who had signed a preliminary agreement to purchase a tavern and liquor license that was to be void upon expiration of' 60-day period allowed for approval of transfer of liquor license by the liquor control commission if approval wore not given within such period held, not to have constituted an additional period mutually agreed upon, hence, it could not create a waiver of defendant\u2019s rights.\nReferences for Points in Headnotes\n[1, 2] 12 Am Jur, Contracts \u00a7 296.\n[2] 12 Am Jur, Contracts \u00a7 354.\n[3] 12 Am Jur, Contracts \u00a7 228.\n4] 12 Am Jur, Contracts \u00a7 328.\n3. Same\u2014Construction of Contracts\u2014Intent.\nCourts may not make new agreements or give an existing contract interpretations contrary to the expressed intent of the parties.\n\u00e1. Same\u2014Failure of Condition.\nNo liability can be predicated upon an agreement which the parties by express and unambiguous terms declared shall be void upon failure of a condition.\nAppeal from Wayne; Brennan (Vincent M.), J.\nSubmitted October 6, 1954.\n(Docket No. 25, Calendar No. 46,259.)\nDecided November 29, 1954.\nAction by Charles Smeader against Anthony Mason in the common pleas court for the city of Detroit for agreed liquidated damages upon failure to consummate purchase of business. Judgment for defendant in common pleas court appealed to and affirmed by circuit court. Plaintiff appeals.\nAffirmed.\nRiseman, LemheS Piotrowski, for plaintiff.\nE. N. Karay, for defendant."
+  },
+  "file_name": "0139-01",
+  "first_page_order": 179,
+  "last_page_order": 183
+}

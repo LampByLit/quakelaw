@@ -250,6 +250,9 @@ function EngineInit()
     tileMaskCanvasContext.drawImage(tileMaskCanvas,tileImage.width,0);
     
     InitDebug();
+    
+    // Initialize available emoji list
+    loadAvailableEmojiList();
 }
 
 function EngineUpdate()
@@ -480,6 +483,192 @@ function DrawText(text, x, y, size,textAlign='center',lineWidth=0,color='#000',s
     context.textBaseline='middle';
     const upperText = String(text).toUpperCase();
     context.fillText(upperText,x,y);
+}
+
+// Emoji image cache using OpenMoji local files
+let emojiCache = {};
+let emojiLoadingPromises = {};
+let emojiFailedCache = {}; // Cache for emojis that failed to load
+let availableEmojiFiles = []; // List of available emoji filenames
+let emojiFallbackMap = {}; // Map original emoji to fallback emoji filename
+
+// Convert emoji to Unicode code point for OpenMoji filename
+function getEmojiCodePoint(emoji) {
+    // Get the code point(s) of the emoji
+    // Handle emojis with multiple code points (like flags, skin tones, etc.)
+    let codePoints = [];
+    let i = 0;
+    while (i < emoji.length) {
+        const code = emoji.codePointAt(i);
+        // OpenMoji uses uppercase hex without leading zeros for 4-digit codes
+        let hex = code.toString(16).toUpperCase();
+        codePoints.push(hex);
+        // Advance by the number of code units this code point uses
+        i += code > 0xFFFF ? 2 : 1;
+    }
+    // OpenMoji uses hyphen-separated uppercase code points
+    return codePoints.join('-');
+}
+
+// Get a random fallback emoji filename
+function getRandomFallbackEmoji(originalEmoji) {
+    // If we already have a fallback for this emoji, use it (consistent fallback)
+    if (emojiFallbackMap[originalEmoji]) {
+        return emojiFallbackMap[originalEmoji];
+    }
+    
+    // Pick a random emoji from available files (guaranteed to exist)
+    if (availableEmojiFiles.length > 0) {
+        const randomIndex = Math.floor(Math.random() * availableEmojiFiles.length);
+        const fallbackFile = availableEmojiFiles[randomIndex];
+        emojiFallbackMap[originalEmoji] = fallbackFile;
+        return fallbackFile;
+    }
+    
+    // Last resort: use a known-good emoji if availableEmojiFiles is empty
+    // This shouldn't happen, but provides a safety net
+    if (typeof npcEmojis !== 'undefined' && npcEmojis.length > 0) {
+        const fallbackFile = npcEmojis[Math.floor(Math.random() * npcEmojis.length)];
+        emojiFallbackMap[originalEmoji] = fallbackFile;
+        return fallbackFile;
+    }
+    
+    return null;
+}
+
+// Load available emoji file list (called once at startup)
+function loadAvailableEmojiList() {
+    // Use only emojis that we verified exist as simple files in OpenMoji
+    // These match the npcEmojis list to ensure consistency
+    const knownExistingEmojis = [
+        // Face emojis that we verified exist as simple files
+        '1F608', '1F609', '1F618', '1F619', '1F620', '1F621', '1F622', '1F623',
+        '1F624', '1F625', '1F626', '1F627', '1F62A', '1F62B', '1F62C', '1F62D',
+        '1F62E', '1F62F', '1F630', '1F631', '1F632', '1F633', '1F634', '1F635',
+        '1F636', '1F637', '1F63A', '1F63B', '1F63C', '1F63D', '1F63E', '1F63F',
+        '1F640', '1F641', '1F64F'
+        // Note: 1F642-1F64E don't exist as simple files, only as sequences
+    ];
+    
+    availableEmojiFiles = knownExistingEmojis.slice();
+}
+
+// Load emoji image from local OpenMoji files
+// emoji can be either an emoji character or a filename (like '1F608')
+function loadEmojiImage(emoji) {
+    // Check if emoji is already a filename (starts with number/letter and contains only hex chars and hyphens)
+    let codePoint;
+    if (/^[0-9A-F]+(-[0-9A-F]+)*$/i.test(emoji)) {
+        // It's already a filename
+        codePoint = emoji;
+    } else {
+        // It's an emoji character, convert it
+        codePoint = getEmojiCodePoint(emoji);
+    }
+    
+    // Return cached image if available
+    if (emojiCache[emoji]) {
+        return Promise.resolve(emojiCache[emoji]);
+    }
+    
+    // If this emoji already failed to load, don't retry
+    if (emojiFailedCache[emoji]) {
+        return Promise.resolve(null);
+    }
+    
+    // Return existing promise if already loading
+    if (emojiLoadingPromises[emoji]) {
+        return emojiLoadingPromises[emoji];
+    }
+    
+    // Create new loading promise
+    const promise = new Promise((resolve, reject) => {
+        const img = new Image();
+        
+        // Use local OpenMoji files - 72x72 PNG images
+        img.src = `openmoji/${codePoint}.png`;
+        
+        img.onload = () => {
+            emojiCache[emoji] = img;
+            delete emojiLoadingPromises[emoji];
+            resolve(img);
+        };
+        
+        img.onerror = () => {
+            delete emojiLoadingPromises[emoji];
+            
+            // Try random fallback emoji
+            const fallbackFile = getRandomFallbackEmoji(emoji);
+            if (fallbackFile) {
+                const fallbackImg = new Image();
+                fallbackImg.src = `openmoji/${fallbackFile}.png`;
+                
+                fallbackImg.onload = () => {
+                    emojiCache[emoji] = fallbackImg; // Cache the fallback for this emoji
+                    resolve(fallbackImg);
+                };
+                
+                fallbackImg.onerror = () => {
+                    // Mark as failed so we don't keep trying
+                    emojiFailedCache[emoji] = true;
+                    resolve(null);
+                };
+            } else {
+                // Mark as failed so we don't keep trying
+                emojiFailedCache[emoji] = true;
+                resolve(null);
+            }
+        };
+    });
+    
+    emojiLoadingPromises[emoji] = promise;
+    return promise;
+}
+
+// Preload multiple emojis
+function preloadEmojis(emojis, callback) {
+    const promises = emojis.map(emoji => loadEmojiImage(emoji));
+    Promise.all(promises).then(() => {
+        if (callback) callback();
+    });
+}
+
+// Draw emoji - emoji can be either an emoji character or a filename (like '1F608')
+function DrawEmoji(emoji, x, y, size, textAlign='center', context)
+{
+    // Use mainCanvasContext if context not provided
+    if (!context) {
+        context = mainCanvasContext;
+    }
+    
+    // Try to use cached image first
+    const cachedImg = emojiCache[emoji];
+    
+    if (cachedImg && cachedImg.complete && cachedImg.naturalWidth > 0) {
+        // Draw emoji as image
+        context.save();
+        context.imageSmoothingEnabled = true;
+        context.imageSmoothingQuality = 'high';
+        
+        // Adjust position based on text alignment
+        let drawX = x;
+        if (textAlign === 'center') {
+            drawX = x - size / 2;
+        } else if (textAlign === 'right') {
+            drawX = x - size;
+        }
+        
+        context.drawImage(cachedImg, drawX, y - size / 2, size, size);
+        context.restore();
+    } else {
+        // Start loading the image if not already loading and not failed
+        if (!emojiLoadingPromises[emoji] && !emojiFailedCache[emoji]) {
+            loadEmojiImage(emoji);
+        }
+        
+        // While loading, show a placeholder (small square or nothing)
+        // The image will appear automatically once loaded
+    }
 }
 
 ///////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,65 @@
+{
+  "id": 1933588,
+  "name": "Perkins vs. Spaulding",
+  "name_abbreviation": "Perkins v. Spaulding",
+  "decision_date": "1851-01",
+  "docket_number": "",
+  "first_page": "157",
+  "last_page": "161",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "2 Mich. 157"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 481,
+    "char_count": 11186,
+    "ocr_confidence": 0.31,
+    "pagerank": {
+      "raw": 6.35463017985197e-07,
+      "percentile": 0.9588782975378101
+    },
+    "sha256": "70181f4122757bf6dfbc026d47ed9696ee47af2ff9229f474fccfb3d98ff7330",
+    "simhash": "1:9873b9ec72374d9a",
+    "word_count": 2013
+  },
+  "last_updated": "2023-07-14T19:13:31.599570+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Perkins vs. Spaulding."
+    ],
+    "opinions": [
+      {
+        "text": "By the Court Geeen, J.\nIt seems very clear that the bill of sale was, in effect, a mortgage upon the wheat, to indemnify Perkins against his liabilifyupon the note to Paulding; and there can be no doubt of the sufficiency of the tender if such tender was necessary, and consequently, no doubt of the right of Spaulding to recover in the County Court, unless the sale of the wheat on the execution was void, for irregularity.\nThe execution contains all the substantial requisites specified in the statute. (I?. S., Gh. 93, \u00a7 106.) It should unquestionably recite the judgment, so far as clearly to identify it, for the protection of the defendant. This execution recites the names of the parties, plaintiffs and defendant, the amount of damages and of costs, the day of the month when, and the justice before whom the judgment was rendered. The mistake in the name of the township, made by the constable in indorsing his levy upon the execution, did not vitiate the levy. It described the property as being \u201cabout twenty-five acres of wheat on the ground on the farm of Veedor Colgrove, in the township of Madison, now occupied by defendant.\u201d The testimony showed that the wheat sold was twenty-five acres on the ground, upon the farm of Veeder Colgrove, in the township of Dover, which the defendant in the execution occupied at the time of the levy, as' well as at the time of the sale, and that it was all the wheat then on the farm. *\u25a0 Had the wheat been sold by the o wner of it, by such a description, the sale would not have been held void for uncertainty, the mistake being clearly shown by the light of the surrounding circumstances.\nThe statute requires the constable, after indorsing his levy upon the execution, to give public notice, by advertisement, signed by himself, and put up at three public places in the city or township where the goods and chattels shall he taken, when and where they will he exposed for sale, and that such notice shall describe the goods and chattels, and shall be put up at least five days before the time appointed for the sale. (S. S., Ok 93, \u00a7 120, 121.)\nThese are all the requirements of the statute in regard to notice, and it is not claimed that they have not been literally complied with in this case. But it is insisted that the notice ought to have stated that the property advertised was the property of the defendant in the execution, or who the defendant in the execution was, or whose property it was that was advertised to be sold. It would he very proper to specify the name of the defendant in the execution, in the notice of sale, and it is SO' laid down by elementary writers; hut I am not aware that it has ever been held that the omission vitiated the sale.\n*It is also objected that the sale was not made at the place appointed by tbe notice. This objection is not well taken. The sale took place within a few rods of the Corners specified in the notice, and in plain view; so that persons coming there to bid upon the property would not fail to see and recognize the officer at the point where the sale was made. The object and intent of the statute was not, therefore, violated, because the sale was not made at the precise point mentioned in the notice. It was made substantially, at the place appointed.\nA further objection is made, that the wheat being in three separate parcels, could not he sold together, hut that each parcel ought to have been sold separately. This is not required by the statute. The constable is required to expose the goods and chattels to sale at vendue, to the highest bidder. It is his duty to sell the property in such lots or parcels as to command the highest price; and if he wilfully sacrifices the property by disregarding his duty, he is liable to the party injured. But he has a large discretion, and is not required to sell each particular article separately.\nThere is no reason apparent upon the record* in this case, for supposing that the wheat would have been sold for a better price in parcels. The interest sold was two-thirds of the crop, the purchaser being required to harvest and thresh the whole, and deliver one-third of it to Colgrove, while Perkins was present, forbidding the sale, and claiming .to he the owner of the two-thirds offered f\u00f3rjale. Under such circumstances it may well he doubted whether the wheat would have sold as well in separate parcels; and if any sacrifice resulted from the sale as made, it was the fault of Baker and Perkins. I have examined the authorities referred to by the counsel for the plaintiff in error, and do not deem it necessary to cite them. They do not contain, so far as I can discover, any doctrine militating against the views herein expressed.\nThe judgment of the Circuit Court, reversing the judgment of the County Court, and remitting this cause to the County Court for a new trial, must be affirmed, with costs to the defendant in error.\nJudgment of. Circuit Court affirmed.",
+        "type": "majority",
+        "author": "By the Court Geeen, J."
+      }
+    ],
+    "attorneys": [
+      "Beaman \u00e9 Gooley, for defendant in error."
+    ],
+    "corrections": "",
+    "head_matter": "Perkins vs. Spaulding.\nThe omission in a justices* execution of the year in winch the judgment was rendered, will \u2019 not vitiate the execution, it being in all other respects regular. \u00bb\nA constable levied on twenty-five acres of wheat on the ground, on the farm of C., in tho . township of Dover, then occupied by the defendant in the execution, and made an indorsement of the levy to that effect, on the execution, with tho exception of the township, which by mistake was stated to be Madison. Tho mistake was hold not to vitiate the levy.\nA constable\u2019s notice of sale of property on an execution, described the property as twenty-five acres of wheat on the ground, on which tho constable had levied, by virtue of an execution from ajustices* court, and which he should expose for sale at public vendue on a certain day, at the Whig School House Corners, in the township of Dover, but did not state the name of tho plaintiff or defendant, in the execution; and the sale took place within view of the wheat, and about thirty or thirty-five rods from the Corners named in tho notice, but at a point from which the constable could be plainly seen by persons who might come to the Corners for the purpose of attending the sale; and the wheat, which was in three adjoining fields, separated only by fences, was sold as one parcel. It was held,\n1st. That it was not necessary the notice of sale should state the property advertised, was tho property of the defendant, or who the defendant in the execution was.\n2d. That the sale was made substantially at the place appointed, although it was not made at the precise point mentioned in the notice.\n3d. That it is the duty of a constable to sell the property in such lots or parcels as to command the highest price, and that if he wilfully sacrifices the property by disregarding his duty, ho is liable to the party injured; but that he has a largo discretion and is not required to sell each article separately; and that as there was no apparent reason upon the record for supposing the wheat would have sold for a better price in parcels, the sale was good.\nError to Lenawee Circuit Court.\nThis was an action of trover, brought by the defendant in error against the plaintiff in error, in the Lenawee County Court, to recover the value of a quantity of wheat. The cause was tried in that Court without a jury, and a judgment rendered in favor of the defendant therein, for his costs of suit. The plaintiff below conceiving himself aggrieved, by the judgment of the County Court, removed the cause by certiorari into the Circuit Court for the county of Lenawee, where the judgment of the County Court was reversed with costs, and the cause remitted to the County Court for a new trial. The defendant helow thereupon removed the record into this Court by writ of error.\nThe record shows the following facts: On the 20th of December, 1847, Spaulding, the plaintiff' helow, and one Barnard, recovered a judgment before a justice of the peace, against William Baker, for the sum of $29,08 damages, and $2,12, costs of suit; and on the 7th of January, 1848, the plaintiffs caused an execution to he issued upon such judgment, and delivered to a constable to he executed. The execution was in the usual form, except that it did not set forth the year in which, the judgment was rendered. On the 8th day of January, 1848, the constable levied upon about twenty-five acres of wheat on the ground, on the farm of Veeder Colgrove, in the township of Dover, then occupied by the defendant, and made an indorsement to that effect upon the execution, excepting that he by mistake, inserted Madison instead of Dover, in the indorsement, as the name of the township. On the 18th day of July, 1848, the wheat was sold by the constable and bid off by Spalding, the defendant helow being present and claiming to be the owner of the wheat. The notice of sale described the property as twenty-five acres of wheat on the ground, upon which the constable had levied by virtue of one execution issued from a Justice\u2019s Courts and which he should expose for sale at public vendue on the day specified, at the Whig School House Corners in the township of Dover, but did not set forth the names of the plaintiffs nor of the defendant in the execution.\nThe sale took place within view of the wheat, and about thirty or .thirty-five rods from the Corners specified in the notice, but at a point from which the constable could he plainly seen by persons who might have come to the Comers for the purpose of attending the sale. Portions of the wheat were in three adjoining fields, separated only by fences, and the whole was sold as one parcel, with the exception of thirty-five shocks, which were reserved for Baker in a particular comer of the field specified. After the sale, Baker harvested the wheat for Perkins, the defendant helow, and Perkins converted and disposed of it to his own use.\nThe record further shows, that on the first day of November, 1847, Baker executed to Perkins an instrument in writing, purporting to be an absolute bill of sale of all his interest in the wheat, being two-thirds of the crop, in consideration of the sum of sixteen dollars, which instrument was filed with the township clerk of Dover, as a chattel mortgage, on the 20th of December, 1847, the same day on which the judgment was rendered against Baker in favor of Spaulding and Barnard. The actual consideration for the execution of the bill of sale was, that Perkins, about the time of its execution, signed a note with Baker to one Paulding, for the sum of sixteen dollars, with interest, payable in October of the following year. Under that instrument, Perkins claimed to be the owner of the wheat.\nAt the time of the sale, and immediately after the wheat was bid off by Spaulding, he, Spaulding, offered to give up to Perkins the $16 note, and at the same time tendered to him the amount of it in money; but Perkins refused to accept either, insisting that he was the absolute owner of the wheat.\nWard <& Tabor, for plaintiff in error; cited Gowen Trea., 1075, 1076; Edwards Trea., 134; 14 J. A, 353; 8 JA, 338; 5 lb,, 346; 18 lb., 356; 13 lb., 102; 17 lb., 116; 1 J. Oa., 287, and I Binney, 61.\nBeaman \u00e9 Gooley, for defendant in error."
+  },
+  "file_name": "0157-01",
+  "first_page_order": 165,
+  "last_page_order": 169
+}

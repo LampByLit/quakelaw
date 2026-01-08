@@ -1,0 +1,305 @@
+{
+  "id": 3188025,
+  "name": "STATE of Louisiana Through DEPARTMENT OF HIGHWAYS v. John B. ESNARD",
+  "name_abbreviation": "State ex rel. Department of Highways v. Esnard",
+  "decision_date": "1960-01-11",
+  "docket_number": "No. 44066",
+  "first_page": "903",
+  "last_page": "915",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 903"
+    },
+    {
+      "type": "parallel",
+      "cite": "117 So.2d 52"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "206 La. 251",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10036865,
+        3105039
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/19/0127-01",
+        "/la/206/0251-01"
+      ]
+    },
+    {
+      "cite": "95 So.2d 147",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "227 La. 111",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10067256,
+        2942141
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/78/0528-01",
+        "/la/227/0112-01"
+      ]
+    },
+    {
+      "cite": "224 La. 988",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3091378,
+        10064790
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/224/0988-01",
+        "/so2d/71/0541-01"
+      ]
+    },
+    {
+      "cite": "232 La. 218",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9892380,
+        5435246
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/94/0040-01",
+        "/la/232/0217-01"
+      ]
+    },
+    {
+      "cite": "219 La. 456",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3040042,
+        10051222
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/219/0455-01",
+        "/so2d/53/0232-01"
+      ]
+    },
+    {
+      "cite": "232 La. 668",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5434050,
+        9899223
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/232/0667-02",
+        "/so2d/95/0144-01"
+      ]
+    },
+    {
+      "cite": "234 La. 241",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2888712,
+        9872075
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "101"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/234/0241-01",
+        "/so2d/99/0097-01"
+      ]
+    },
+    {
+      "cite": "234 La. 741",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9905305,
+        2891733
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/101/0450-01",
+        "/la/234/0741-01"
+      ]
+    },
+    {
+      "cite": "69 So.2d 37",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3089895,
+        9910279
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/224/0262-01",
+        "/so2d/69/0037-01"
+      ]
+    },
+    {
+      "cite": "224 La. 262",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9910279,
+        3089895
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/69/0037-01",
+        "/la/224/0262-01"
+      ]
+    },
+    {
+      "cite": "219 La. 128",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9919978,
+        3036868
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/52/0445-01",
+        "/la/219/0127-01"
+      ]
+    },
+    {
+      "cite": "217 La. 657",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5534536,
+        10035418
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/217/0663-01",
+        "/so2d/47/0036-01"
+      ]
+    },
+    {
+      "cite": "205 La. 669",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10110377,
+        3152779
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/17/0914-01",
+        "/la/205/0669-01"
+      ]
+    },
+    {
+      "cite": "203 La. 255",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10076988,
+        3109117
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/13/0853-01",
+        "/la/203/0255-01"
+      ]
+    },
+    {
+      "cite": "200 La. 463",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10048963,
+        5412148
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/8/0295-01",
+        "/la/200/0464-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 767,
+    "char_count": 14874,
+    "ocr_confidence": 0.746,
+    "pagerank": {
+      "raw": 2.1995933875888662e-07,
+      "percentile": 0.764708804870217
+    },
+    "sha256": "2cbf1a7664c19d66c883b0aa43aa7abdd394dc15ce5ab512cd3ebf0837f201f1",
+    "simhash": "1:680ebe98a0173fd3",
+    "word_count": 2469
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "STATE of Louisiana Through DEPARTMENT OF HIGHWAYS v. John B. ESNARD."
+    ],
+    "opinions": [
+      {
+        "text": "SIMON, Justice.\nThe State of Louisiana, through the Department of Highways, pursuant to LSA-R.S. 48:441 et seq., and availing itself of powers therein granted, filed its petition to expropriate certain property of the defendant, John B. Esnard, lying within the right-of-way of the proposed Baton Rouge Expressway, a controlled-access facility within the limits of the City of Baton Rouge. Upon defendant\u2019s refusal to accept the sum of $5,550 as a fair market valuation thereof, plaintiff instituted this suit for a judicial fixing of just compensation and deposited the sum of $5,550 into the registry of the court as its fair and just estimate of compensation due the defendant.\nDefendant, without prejudice to his right to contest the issue of value, withdrew the amount deposited and in answer to the suit alleged that the true market value of the property was $10,000. The lower court rendered judgment awarding the defendant the sum of $3,450 with 5% interest per annum from the date of the expropriation until paid, in addition to the sum of $5,550 previously deposited and withdrawn, or a total value of $9,000, and assessed the plaintiff with the expert witness fees for the defendant\u2019s witnesses in the amount of $200 each as cost.\nPlaintiff has appealed from the judgment and seeks a reduction of the award to the sum of $5,550 as originally estimated, and the elimination of the expert witness fee of $200 awarded to Warren Holden, a contractor. Defendant seeks only an affirmance of the judgment rendered.\nHence, the only questions before us are the ascertainment of the true valuation of the subject property and the correctness of the trial judge\u2019s ruling in casting the expert fee of defendant\u2019s witness, Holden, as part of the costs.\nGenerally, the measure of compensation to be awarded in expropriation proceedings is the market value of the property \u2014 that is, the price which would be agreed upon at a voluntary sale between an owner willing to sell and a purchaser willing to buy. The best guide in determining the market value to which the owner is entitled under the law in expropriation suits is evidence of sales of similar or comparable properties in the vicinity. Housing Authority of Shreveport v. Green, 200 La. 463, 8 So.2d 295; Housing Authority of New Orleans v. Persson, 203 La. 255, 13 So. 2d 853; Louisiana Highway Commission v. Israel, 205 La. 669, 17 So.2d 914; City of New Orleans v. Noto, 217 La. 657, 47 So.2d 36; City of Shreveport v. Abe Meyer Corp., 219 La. 128, 52 So.2d 445; Housing Authority of New Orleans v. Brinkmann, 224 La. 262, 69 So.2d 37; State v. Tramuta, 234 La. 741, 101 So.2d 450. Here, however, we are faced with the situation, a source of difficulty, wherein the record contains no satisfactory evidence of sales of land and improvements similar or comparable to that involved herein. As a consequence ascertainment of the fair and just value must be sought and determined by a consideration of other material and well recognized criteria.\nIn State v. Sauls, 234 La. 241, 99 So.2d 97, 101, we recognized the difficulty in applying rules with respect to a determination of fair market value in expropriation proceedings and said:\n\u201c * * * As has often been said by this Court, the best guide is evidence of sales of similar or comparable properties in the vicinity. We have also stated that sales to a condemning authority in advance of expropriation are not controlling, though they may be considered; that rental income derived by the owner, and value of business conducted upon expropriated premises, while not the sole measure of compensation, may be considered along with other factors in arriving at the market value; that various considerations, such as location, assembly or plottage value, corner influence, and best use, are of great importance in fixing market value; and that it is unrealistic to discard numerous sales in the vicinity which commanded higher prices, terming them \u2018monopoly sales\u2019 which did not reflect a price between a willing buyer and a willing seller.\u201d Mississippi River Bridge Authority v. Simon, 232 La. 668, 95 So.2d 144.\nThe property expropriated was situated in the central area of the City of Baton Rouge just beyond the outskirts of its commercial section and measured 57 feet along North Tenth Street by a depth of 55.67 feet. The improvements thereon consisted of a two-story four-plex frame weatherboard dwelling in poor condition. The building contained approximately 2,700 square feet and each of the four apartments had a screened porch, one bedroom, living room, bath and kitchen. The property was located in a mixed, white and Negro, residential neighborhood. Defendant acquired the property in 1941 for the price of $4,200.\nThe defendant testified that from January, 1946, through December, 1956, his gross annual rental income averaged $1,043, and that he reported a net income of $708 for the last year, presumably 1957. In arriving at his net income he took into account depreciation, taxes and other like expenditures in connection with the use of the property, but made no deduction for repairs as he had made none for the past five or six years anticipating, as he says, its expropriation for the public improvement. He appraised the value of the land and improvements at $10,000 to $12,000.\nFour realtors, in addition to defendant, testified as to the fair market value of the subject property. There is no disagreement between them as to the value of the land which was appraised at $2,850, the dispute being centered around the evaluation of the improvements thereon. Mr. Bradley C. Mittendorf and Mr. Lowell M. Roseman, expert witnesses for the plaintiffs, appraised the expropriated property, land and improvements, at $5,500, and Mr. Kermit Williams and Mr. Charles H. Farrier, expert witnesses for the defendant, appraised the property, land and improvements, at $9,500. Mr. Warren C. Holden, testified for the defendant as to the feasibility of renovating and repairing the building and the cost thereof. Each of the experts testified in detail as to the basis of his respective opinion and conclusions. All of the realtors agreed that there were no comparable sales which could serve as a basis for determining the market value.\nMittendorf arrived at his appraised value of $5,500 by the use of the replacement less depreciation method. He estimated that it would cost $13,396 to replace the present structure and that the building had depreciated 80%, leaving a total value of $2,650 for the improvements and $2,850 for the land, or a total of $5,500. It was his opinion that the structure actually had no value at all because of its deplorable condition, but, considering the fact that the building was yielding $92.50 per month rent, he felt that some value must be placed thereon. His low valuation resulted from his firm belief that the building could be ultimately condemned by the city authorities within the next three or four years; concluding therefore, that its present rental income could not be sustained. Being of the opinion that the building had very little remaining economic life, practically non-existent, he did not feel that the rental income method was a valid approach or could serve as a material factor in estimating the market value of the property.\nRoseman used only the replacement cost less depreciation method as he too considered the remaining economic life of the building to be so short as to make the income method of valuation unfair. He estimated the age of the building to be forty years, depreciated at 2% per year for a total of 80%. He used a replacement cost of $6 per square foot on the lower floor, two-thirds of that amount for the area on the second floor and added the porches separately to arrive at a replacement value of $13,396, or approximately $2,700 after depreciating the property 80%. He also appraised the land at $2,850, or a total appraisal of $5,550.\nWilliams, expert realtor for the defendant, employed three methods, namely the rental income, market value with the possibility of renovating the property and the reproduction method, and averaged the three estimates to arrive at a valuation of $9,500 for the land and the improvements thereon. Using defendant\u2019s figure of $1,043 per year rental income, capitalized at 10% for a total of $10,000 from which he deducted 12% for operation and maintenance, he arrived at a valuation of $8,900 by the rental income approach. He deducted nothing for repairs as none had been made for several years.\nIn reaching a valuation of $11,000 by the renovation approach, Williams estimated the cost of renovating the property to be $8,000, after which each apartment would yield $60 per month. He then allowed 15-20% for cost of operation and maintenance to arrive at a net monthly yield of $200 from the building. Capitalizing this figure at 10%, he reached a valuation of $20,000 from which he deducted $8,000 as cost of renovating plus $1,000 for miscellaneous expenses in renovating.\nIn arriving at a value using reproduction less depreciation, Williams estimated the cost of replacement at $7 per square foot for 2,660 square feet or a total in round figures of $18,600. From this he deducted 70% depreciation or a total value of $5,570 for the improvements to which he added his estimate of $3,000 for the land or a total valuation of the property of $8,570.\nFarrier, using the replacement less depreciation approach, estimated that it would cost $7150 per square foot to replace the structure, deducted 66^'% for depreciation and obsolescence and arrived at a value for the improvements of $6,650, to which he added $2,850 as his appraisal of the land, making a total valuation of $9,500.\nIn addition to his. two expert real estate witnesses; defendant submitted the testimony of Warren C. Holden, a building contractor, for the purpose of refuting plaintiff\u2019s evidence showing that it would not be economically feasible to renovate the property. Holden estimated that for $8,000 the structure could be put in first-class condition whereby a rental of $60 per unit or a total of $240 per month could be obtained. He was of the further opinion that for an immediate expenditure of between $1,000 and $1,500 and of between $200 to $300 per year thereafter, the property could be kept and maintained at its present rental level for approximately 25 years.\nPlaintiff contends that the testimony of its witnesses to the effect that the improvements on the property were practically worthless should have been accepted by the trial judge in determining the true market value and cites State v. Landry, 219 La. 456, 53 So.2d 232. Further, plaintiff takes issue with the use of the rental income method apparently used by the trial judge in arriving at his award. Plaintiff contends that the figure used as rental income was incorrect- insofar as no deduction was made for repairs and cites for its authority Rapides Parish School Board v. Nassif, 232 La. 218, 94 So.2d 40, and Housing Authority of New Orleans v. Boudwine, 224 La. 988, 71 So.2d 541. Plaintiff further contends that the trial judge was in error in admitting into evidence the testimony of a building contractor who offered no testimony to show the present market value of the property expropriated but who testified only as to the cost of future, possible repairs and in relying on appraisals which were based entirely on future repairs, future rents and other speculations rather than existing conditions and cites State, Through Department of Highways v. Hebert, 227 La. 111, 78 So .2d 528.\nWe have the benefit of the written reasons of the trial judge who personally inspected the property and viewed the locality to the end of more effectively weighing the testimony of all of the experts. With all these facts in mind, he concluded that the valuation placed on the improvements by plaintiff\u2019s witnesses was far below their true market value and accordingly assigned a total value of $9,000 for the land and improvements.\nFrom an examination of the record with the divergent views of experts, we find ourselves impressed with the conclusion reached by the trial judge as to the true value of the property expropriated. From a diligent review of all factors we cannot say that the compensation awarded is unfair or unjust. The error into which plaintiff\u2019s witnesses fell is clearly demonstrated in the following quotation of this Court in Mississippi River Bridge Authority v. Simon, supra:\n\u201c * * * to disregard substantial improvements because they are in need of some repair is without precedent, and the fact that the owner in recent years had made no effort to keep the various units occupied or to make the properties attractive for rental purposes does not warrant a conclusion that they were worthless. * * * \u201d [232 La. 668, 95 So.2d 147.]\nInsofar as the figure used as a basis for ascertaining the value of the property on a rental income basis, the Nassif and Boudwine cases, supra, do not appear to lend support to the contention and argument of plaintiff. In those cases, certain expenses which had actually been incurred were riot deducted from the gross rentals; however, in the instant case, the defendant took into account all of his expenses in arriving at his net rental income. This contention and argument, hence, are without merit in the instant case.\nWith respect to the admission of the testimony of the building contractor, such evidence was essential in order that defendant might rebut plaintiff\u2019s contention that the improvements were worthless. The case of Womack v. Burka, 206 La. 251, 19 So.2d 127, relied on by plaintiff as authority for denying the expert fee to Holden to be taxed as costs of court is inapposite inasmuch as in the Womack case the court said expert testimony was not essential for proving the value of medical services, which could be proved by a superintendent of a hospital or a nurse or bookkeeper of a physician. In the instant case plaintiff\u2019s expert witnesses testified that the improvements located on the subject property were so obsolete and nonexistent as to have no substantial value. Necessarily, it thus became vital to the defendant\u2019s interest and in support of his asserted claim for compensation that he present evidence by a reputable contractor and expert appraiser of the value of the improvements. Hence, the testimony of Holden falls within the category of an expert witness and fully justifies the fixing and taxing his fee as cost.\nFor the reasons assigned, the judgment appealed from is affirmed at plaintiff\u2019s cost.\n. Two called by each side.",
+        "type": "majority",
+        "author": "SIMON, Justice."
+      }
+    ],
+    "attorneys": [
+      "D. Ross Banister, Philip K. Jones, Glenn S.Darsey, Braxton B. Croom, Baton Rouge, for plaintiff-appellant.",
+      "Benton & Moseley, Baton Rouge, for defendant-appellee."
+    ],
+    "corrections": "",
+    "head_matter": "117 So.2d 52\nSTATE of Louisiana Through DEPARTMENT OF HIGHWAYS v. John B. ESNARD.\nNo. 44066.\nJan. 11, 1960.\nD. Ross Banister, Philip K. Jones, Glenn S.Darsey, Braxton B. Croom, Baton Rouge, for plaintiff-appellant.\nBenton & Moseley, Baton Rouge, for defendant-appellee."
+  },
+  "file_name": "0903-01",
+  "first_page_order": 484,
+  "last_page_order": 490
+}

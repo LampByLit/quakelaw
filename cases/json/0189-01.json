@@ -1,0 +1,232 @@
+{
+  "id": 3187369,
+  "name": "W. R. ALDRICH & COMPANY et al. v. GRAVITY DRAINAGE DISTRICT NUMBER 1 OF RAPIDES PARISH et al.",
+  "name_abbreviation": "W. R. Aldrich & Co. v. Gravity Drainage District Number 1",
+  "decision_date": "1959-06-25",
+  "docket_number": "No. 44592",
+  "first_page": "189",
+  "last_page": "205",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 190"
+    },
+    {
+      "type": "parallel",
+      "cite": "114 So.2d 860"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "155 La. 892",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1277655
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/155/0892-01"
+      ]
+    },
+    {
+      "cite": "13 So. 182",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 La.Ann. 911",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        2537008
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la-ann/45-2/0911-01"
+      ]
+    },
+    {
+      "cite": "159 La. 360",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1270063
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/159/0359-01"
+      ]
+    },
+    {
+      "cite": "132 A. 804",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "pin_cites": [
+        {
+          "page": "805"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "286 Pa. 41",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1096439
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/286/0041-01"
+      ]
+    },
+    {
+      "cite": "210 La. 106",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10052789,
+        5383542
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "112"
+        },
+        {
+          "page": "372"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/26/0370-01",
+        "/la/210/0106-01"
+      ]
+    },
+    {
+      "cite": "161 La. 471",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1264934
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "486"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/161/0471-01"
+      ]
+    },
+    {
+      "cite": "132 A. 804",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "286 Pa. 41",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1096439
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/pa/286/0041-01"
+      ]
+    },
+    {
+      "cite": "210 La. 106",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10052789,
+        5383542
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/26/0370-01",
+        "/la/210/0106-01"
+      ]
+    },
+    {
+      "cite": "161 La. 471",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1264934
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/la/161/0471-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 728,
+    "char_count": 17938,
+    "ocr_confidence": 0.745,
+    "pagerank": {
+      "raw": 2.991396856952081e-07,
+      "percentile": 0.8517654890304416
+    },
+    "sha256": "b211816add8b04f744e1411ff76c26134540e5a615d7de21dddd0b80040420c8",
+    "simhash": "1:29e5a91bbce849ef",
+    "word_count": 3040
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "McCALEB, J., dissents with written reasons."
+    ],
+    "parties": [
+      "W. R. ALDRICH & COMPANY et al. v. GRAVITY DRAINAGE DISTRICT NUMBER 1 OF RAPIDES PARISH et al."
+    ],
+    "opinions": [
+      {
+        "text": "PONDER, Justice.\nIn this suit the plaintiff seeks to annul a contract awarded by a drainage district, to enjoin the defendants from taking further action under the contract, and for a mandatory injunction commanding the drainage district to award the contract to the plaintiff as the lowest responsible bidder. Upon trial, the lower court dismissed plaintiff\u2019s demands. A writ of certiorari, coupled with a stay order, was granted by this Court.\nGravity Drainage District Number 1 of Rapides Parish inserted an advertisement in a newspaper, the Alexandria Daily Town Talk, inviting bids to be received on March 11, 1959, for the construction of storm drainage improvements designated as Project No. 1959-1. The advertisement stated that the prospective bidders could examine, in the office of the District Engineer, the plans, specifications, and other contract documents. The plaintiff\u2019s bid was the lowest of the several contractors who submitted bids for the contemplated work. After the bids were opened and tabulated, the drainage district announced that it was deleting two of the twelve proposed parts of the work because of insufficient funds to complete the entire project as advertised, and after deletion of these two parts, the drainage district awarded the contract to L. H. Bossier, Incorporated, and R. J. Ducote, hereinafter referred to as Bossier-Ducote, on the ground that after the deletion of these parts Bossier-Ducote was the lowest bidder.\nThe plaintiff contends that it was the lowest bidder under the provisions of LSA-R.S. 38:2211 and that it should have been awarded the contract and that if any portion of the project could not be completed because of insufficient funds that portion of the work could have been omitted after the contract was awarded.\nWhile on the other hand, the defendants take the position that there was no change made by the drainage district in the contract as advertised and that under the contract documents it reserved the right to remove any section, part, or segment of the work from the contract. The drainage district contends that it has a discretion in the matter and has acted in the best interest of the taxpayers when it awarded the contract to Bossier-Ducote.\nIt appears that the contract was to be let as a whole and that there was no request for alternative bids. While there was a breakdown into twelve segments, it is provided in the proposal that this breakdown into segments was only for the purpose of convenience.\nLSA-R.S. 38:2211 provides:\n\u201cAll public work to be done, exceeding the sum of one thousand dollars, by any public corporation or political subdivision of the state or for the purchase of materials or supplies to be paid out of public funds shall be advertised and let by contract to the lowest responsible bidder who has bid according to the contract, plans, and specifications as advertised.\u201d\nLSA-R.S. 38:2212 provides:\n\u201c * * * The governing authority may reject any and all bids.\u201d\nThe plans and specifications, and other contract documents furnished the bidders provided:\n\u201cThe right is reserved by the undersigned Owner to reject any and all bids and to waive informalities.\u201d (Invitation for Bids)\n\u201cAll work as indicated on the plans or required by the specifications will be a part of this contract, and the breakdown into parts, sections and segments is for convenience only in reference to the preliminary planning conferences prior to this contract.\u201d\n* # * * * *\n\u201cIt is the intent of the Owner that all items of work as listed above will be let as one single contract.\u201d (Special Provisions)\n\u201cIt is further understood that the award of contract to the lowest, trustworthy, responsible bidder is intended, but that the Owner reserves the right to reject any or all proposals, or to accept any proposal which, in the judgment of the Owner, will be for their best interest.\u201d\n\u201c * * * We, or I, hereby propose to construct and complete the entire work of the project in accordance with the plans and specifications. * * (Proposal)\nThis Court in construing the law enunciated in LSA-R.S. 38:2211 and 38:-2212 made this pertinent observation in the case of Donaldson v. Police Jury of Tangipahoa Parish, 161 La. 471, 486, 109 So. 34, 40:\n\u201cSpecifications cannot lawfully be altered after the bids have been made without a new advertisement giving all bidders an opportunity to bid under the new conditions. Public officers cannot enter into a contract, with the lowest bidder containing substantial provisions beneficial to him, not included in or contemplated in the terms and specifications upon which bids are invited. The contract must be the contract offered to the lowest responsible bidder by advertisement. See 19 R.C.L. \u00a7 3S7, p. 1071.\n\u201cTo permit a material departure in the contract from the terms and specifications upon which the bidding is had would open wide the door to favoritism and defeat the purpose of the law in requiring contracts to be let upon bids made upon advertised specifications.\u201d\nAnd in the case of Adams v. Town of Lees-ville, 210 La. 106, 112, 26 So.2d 370, 372, this Court stated:\n\u201cIn Municipal Corporations, Dillon, 5th Ed., Vol. II, Sec. 807, page 1214, we find:\n\u201c \u2018 * * * If a contract differing therefrom in terms be awarded or made, it cannot be said to have been the result of the competition which the statute requires, and it is invalid. The rule that the contract must conform to the plan, specification, bid, and advertisement applies, although but one bid was made, and although there is no allegation or suggestion of fraud, and although the change made in the contract is to the advantage of the city.\u2019 \u201d\nUnder the provisions of LSA-R.S. 38:2211 and the aforementioned decisions of this Court, it is apparent that the drainage district had no authority to award the contract to Bossier-Ducote by changing the terms of the contract as advertised. When the bids were opened and tabulated and the drainage district found that it did not have sufficient funds to complete the project, it was its duty to reject all of the bids and readvertise inviting bids to be made on the reformed plans and specifications. To avoid situations as here presented, it is always safe to ask for alternative bids. While all the parties in this suit acted in perfect good faith yet to permit the changing of a contract after bids were received and tabulated, and permit the awarding of the contract in the manner as was done herein would open the door to favoritism and fraud \u00e1nd thereby defeat the very purpose of LSA-R.S. 38:2211. In other words, by such means it would permit the manipulations of items within a contract in such a manner as to award the contract to any one of the bidders. A precedent cannot be set which would authorize any one in the future to engage in manipulations to defeat the purpose of LSA-R.S. 38:2211 and 38:2212.\nThe defendants rely on the holding in the case of Straw v. City of Williamsport, 286 Pa. 41, 132 A. 804, 805. From this expression in that case it does not seem to afford the defendants much comfort, viz.:\n\u201cUnder the terms of the advertising, we do not have squarely presented the question as to whether the city, before selecting the successful bidder after the proposals are opened, may strike out of the construction plan certain parts of the scheduled work as being unnecessary, the result of which would be to prefer one contractor to another, or whether a general tabulation should control the awarding of the contract, after which the items may be stricken out. The advertisement reserved the right to reject any or all bids or parts of bids, and that is conclusive of the question. When the bidders placed their unit prices opposite the work to be done, they knew that, as a part of the proposal, the city might reject any part of any bid, provided, of course, the part rejected applied to all bidders. The standard for competition was then the same for all persons desiring to compete. for the work.\u201d\nBut be that as it may, if the holding in that case was favorable to the defendants, it could at the most be only persuasive. We are governed by LSA-R.S. 38:2211 and 38:2212 and the' comments made in the aforementioned \"decisions of. this Court.\n-The plaintiff\u2019s demand to be awarded the contract as the lowest bidder cannot be granted under the circumstances in this case. We have arrived at the conclusion that the contract entered, into between the defendants was invalid because the drainage district, due to insufficient funds, was unable to complete the project as advertised and, therefore, we cannot order the contract awarded to the plaintiff, for the reasons that it is not the lowest bidder for the work to be actually performed. It is suggested in the plaintiff\u2019s brief that the plaintiff would perform the work for the same price called for in the contract awarded to Bossier-Ducote. We have stated that the drainage district cannot change the contract and award it to a bidder after the bids are tabulated and bidders cannot be permitted to change their bids thereafter. Under situations as appearing herein, the district had only one alternative and that is to reject all bids and readvertise same. Sternberg v. Board of Commissioners of Tangipahoa Drainage District No. 1, 159 La. 360, 105 So. 372. In other words, if the contract could not be performed as advertised it was the duty of the drainage district to reject all bids under LSA-R.S. 38:2211 and 38:2212 and readvertise, soliciting bids for work actually to be performed. It would be inconsistent to say in one breath that the contract cannot be let except in its original form and then to say that the Court can compel the drainage district to award the contract to the plaintiff when the original contract cannot be carried out.\nRelator in its brief, filed after this case was submitted, cites two cases in support of its contention that it should be awarded the contract, viz.: Gunning Gravel & Paving Co. v. City of New Orleans, 45 La.Ann. 911, 13 So. 182; St. Landry Lumber Co. v. Mayor & Board of Aldermen of Town of Bunkie, 155 La. 892, 99 So. 687. The rationale of those cases is to the effect that a board or agency cannot arbitrarily reject the lowest bid without any facts justifying such action. In view of the fact that the drainage district, after the bids were submitted, ascertained that it was without sufficient funds to complete the project as advertised, the refusal to accept the relator\u2019s bid was not arbitrary or without facts justifying same. We have been unable to find any authority wherein a board or agency was compelled to accept a bid under circumstances such as are presented in this case.\nFor the reasons assigned, the judgment of the lower court is reversed and set aside and there is now judgment decreeing the contract awarded by Gravity Drainage District Number 1 of Rapides Parish to L. H. Bossier, Incorporated, and R. J. Ducote, on March 23, 1959, to be null and void, and denying plaintiff\u2019s demand to be awarded the contract. All costs of these proceedings to be paid by L. H. Bossier, Incorporated and R. J. Ducote.\nMcCALEB, J., dissents with written reasons.",
+        "type": "majority",
+        "author": "PONDER, Justice."
+      },
+      {
+        "text": "McCALEB, Justice\n(dissenting).\nIt is my opinion that the award of the contract by defendant Drainage District to Bossier-Ducote conformed with the provisions of R.S. 38:2211 and that the district judge was eminently correct in dis^ missing plaintiff\u2019s suit.\nSince it is conceded that there is no proof of fraud, favoritism or wrongdoing on the part of defendant district, it seems to me that the only legal question for decision is whether the plans, specifications, invitations for bids and proposals authorized the District to eliminate from the contract,, prior to its letting, two of the twelve proposed parts of the work.\nThe facts show that, when the bids were opened for the proposed twelve parts or segments of work included in the invitation for bids, plaintiff partnership was the low bidder ($157,248.96) and that Bossier-Ducote was the next low bidder ($159,-844.92). The low bid for the entire work was approximately $30,000 more than the Drainage District was able to expend and, consequently, its Board took all bids under advisement with a view of eliminating one or more of the parts of the work found to be least important. After due consideration, the Board members decided to delete from the contract to be let Section 5, Part 7, Proposal Summary Item No. 12, Part 4, Proposal Summary Item No. 10. With the deletion of these two items, on which all bidders had made separate bids, the tabulation of all bids revealed that Bossier-Ducote became the low bidder in the amount of $138,416.32 and plaintiff, the second low bidder, in the amount of $138,629.72.\nThat the Drainage District was given the right to eliminate the two parts or segments from the contract it awarded is plainly disclosed by the documents upon which the bids were based. The proposal signed by all bidders in presenting their separate bids to the Drainage District declares, in part:\n\u201cThe undersigned bidder understands that the breakdown of bid items into Sections, Parts and Segments is solely for the convenience of the Owner in determining cost of various sections of the work, and that all work to be done will be awarded under one contract.\n\u201cThe Owner reserves the right to remove any section, Part or Segment of work from the contracts (Italics mine.)\nThus, it cannot be doubted that the bidders were informed and understood that, whereas they were bidding separately on twelve parts or segments of work, the Drainage District would not necessarily let a contract for all segments but that whatever work it did let would be awarded under one contract. The District specifically reserved the right to remove any section, part or segment of work from the contract \u2014 meaning, obviously, the contract to be awarded, and not, as plaintiff contends, a work change following the awarding of the contract.\nThe district judge, in a well-reasoned opinion in which he found that this case was on a parity with that of Straw v. City of Williamsport, 286 Pa. 41, 132 A. 804, ably disposed of plaintiff\u2019s contention thus:\n\u201cThis case (Straw) beyond question is on all-fours with the case at bar. There is, of course, a difference in the wording in expressing the reserved right to delete portions of the contemplated work, however, the meaning is precisely the same. In the Straw case, the city had reserved the right \u2018to reject any or all bids or any part of any bid.\u2019 In this case, defendant District reserved the right \u2018to remove any section, Part or Segment of work from the contract.\u2019 It has already been said that this latter language does not mean that the contract must be awarded to the low bidder on the entire work and then, by means of a change order, the work to be deleted can be specified. To the contrary, the meaning is that the items of work to be deleted are specified before the contract is executed so that they will not appear finally in that document. The language used appears plain enough, and certainly it was not meant to convey the idea that a contract for the entire work originally contemplated would be awarded to one whom the contracting authority knew in advance was a high bidder on the work remaining after the deletions had been determined and specified. That, of course, is the contention of plaintiffs here for the plaintiff partnership was in fact a high bidder on the work remaining after the deletions had been determined and specified.\u201d\nThe majority opinion, as I understand it, reasons in part that the method used by the Drainage District in this case is to be condemned because it is contrary to the spirit and purpose of R.S. 38:2211 in that it is possible for a public awarding authority to practice favoritism and fraud whenever it is permitted to delete work from its proposal prior to the letting of the contract. It appears to me that this ruling is improper and actually amounts to a judicial re-writing of the statute. Furthermore, I think it untenable to conclude that a public body, with a limited amount of funds to expend for improvements, may not obtain bids with the advance understanding that part of the project will be abandoned in the event the costs exceed the funds at its disposal. To say that it must either give the contract to the low bidder for the project as originally proposed and cannot award it to the low bidder for the work to be done (and must readvertise), seems contrary to the public interest.\nThe decisions in Donaldson v. Police Jury of Tangipahoa Parish, 161 La. 471, 109 So. 34 and Adams v. Town of Leesville, 210 La. 106, 26 So.2d 370, cited in the majority opinion are without pertinence to this case. Those matters involved a change in specifications and plans, after all of the bids had been received and the contracts awarded in the Donaldson case, and prior to the award in the Adams case, and the court rightly held that those sort of changes were detrimental to the public interest and violative of the statute inasmuch as they were not authorized by the plans, specifications or invitation for bids. But here, the alterations in the contemplated work were sanctioned by the plans, specifications, proposals for bids and other documents; all bidders have been treated alike and each indicated in his proposal that he understood that the District reserved the right to remove any Section, Part or Segment of work from the contract to be let. Hence, the public letting in this case was not violative of the law. Indeed, the contract was awarded to the lowest bidder in accordance therewith.\nI respectfully dissent.",
+        "type": "dissent",
+        "author": "McCALEB, Justice"
+      }
+    ],
+    "attorneys": [
+      "Gravel, Humphries, Sheffield & F\u00fchrer, Alexandria, for plaintiffs-relators.",
+      "Alfred A. Mansour, Polk, Foote & Neblett, Alexandria, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "114 So.2d 860\nW. R. ALDRICH & COMPANY et al. v. GRAVITY DRAINAGE DISTRICT NUMBER 1 OF RAPIDES PARISH et al.\nNo. 44592.\nJune 25, 1959.\nRehearings Denied Nov. 9, 1959.\nGravel, Humphries, Sheffield & F\u00fchrer, Alexandria, for plaintiffs-relators.\nAlfred A. Mansour, Polk, Foote & Neblett, Alexandria, for respondents."
+  },
+  "file_name": "0189-01",
+  "first_page_order": 127,
+  "last_page_order": 135
+}

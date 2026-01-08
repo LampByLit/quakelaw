@@ -1,0 +1,122 @@
+{
+  "id": 1933585,
+  "name": "Carll vs. Brown",
+  "name_abbreviation": "Carll v. Brown",
+  "decision_date": "1852-01",
+  "docket_number": "",
+  "first_page": "401",
+  "last_page": "404",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "2 Mich. 401"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "21 Pick., 139",
+      "category": "reporters:state",
+      "reporter": "Pick.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cow., 410",
+      "category": "reporters:state",
+      "reporter": "Cow.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Conn., 5",
+      "category": "reporters:state",
+      "reporter": "Conn.",
+      "case_ids": [
+        6753937
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/conn/6/0005-01"
+      ]
+    },
+    {
+      "cite": "13 Mass., 138",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Mass., 428",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        2000750
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/6/0349-01"
+      ]
+    },
+    {
+      "cite": "1 Met., 369",
+      "category": "reporters:state",
+      "reporter": "Met.,",
+      "case_ids": [
+        2042457
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/42/0369-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 407,
+    "char_count": 6965,
+    "ocr_confidence": 0.407,
+    "pagerank": {
+      "raw": 3.421345702075751e-07,
+      "percentile": 0.8786402218816618
+    },
+    "sha256": "b3a7ed3e30146ac5d40efafbdda8570378a2e713a9f7605bd5ae562ab7cea873",
+    "simhash": "1:9ba2fd774a96de26",
+    "word_count": 1250
+  },
+  "last_updated": "2024-02-27T17:43:48.727812+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Carll vs. Brown."
+    ],
+    "opinions": [
+      {
+        "text": "By the Court, Johnson, J.\nSeveral questions were raised on the trial of this cause in tho Court below, but the principal one, and the only one necessary to be examined for the purpose of determining- this suit is, whether the note in question was over-due and dishonored at the time it came into the hands of the plaintiff, so as to allow the defendant to avail himself of his set off.\nThe record shows that the note in question was dated on. the twenty-fifth day of May, 1848, and that prior to the twentieth day of June following, Carll, the plaintiff, became the owner of the note, and it is not insisted that he had at the time of the purchase any knowledge of the equities between Bean and Brown.\nIn England it has been held, and such is the general current of authorities, that a negotiable note, payable on demand, does not become over-due by mere lapse of time so as to let in the maker to an equitable defense at the suit of the indorsee. (Barrough vs. White, 4 B. & C., 335; S. C., 10 E. C. L. R., 345.)\nSomething more than lapse of lime must be brought to the knowledge of the indorser to charge him with the equities of the original parties. The obvious policy of this rule is to make this species of paper at all times a safe circulating medium, and placing it upon the same footing of other negotiable paper before maturity.\nIn. the case of Brooks et al. vs. Mitchell, (9 Mes. & Weis., 14,) it was held that a note, payable on demand, with interest, made in 1824, and indorsed to the defendant in 1838, and upon which no interest had been paid for three years immediately preceding the indorsement, was not subject to an equitable defense as between the original parties. It was urged in that case that the non-payment of interest for three years was sufficient to put the indbrsee upon inquiry. But Parke, B,, expressing the opinion of the Court, said: \u201c I cannot assent to the arguments urged in behalf of the plaintiffs. If a promissory note payable on demand, is after a certain time to be treated as over-due, although payment has not been demanded, it is no longer a negotiable instrument; but a promissory note, payable on demand, is intended to be a continuing security?\nIn this country the rule is somewhat modified, and the general doctrine is, that a promissory note, payable on demand, unless indorsed within a reasonable time, is considered over-due and dishonored. (Range vs. Cary, 1 Met., 369; Thurston vs. McKnown, 6 Mass., 428; Field vs. Nickerson, 13 Mass., 138; Nevins vs. Town, 6 Conn., 5; Furman vs. Haskin, 2 Caines, 368; Sanford vs. Mickles & Forman, 4 J. R., 224; Lozee vs. Dunkin, 7 J. R., 70; Sice vs. Cunningham, 1 Cow., 410.) And what that reasonable time is, is a question for the determination of the Court upon the facts of each particular case. Thus, in the case of Furman vs. Haskin, above cited, the Supreme Court of New York held that a note payable on demand, indorsed eighteen months after date, should be deemed to be over-due and dishonored, for the purpose of allowing the maker to set up an equitable defense.\nAfter that, the same Court held in the case of Sanford vs. Mickles & Forman, above cited, that a note payable on demand, indorsed five months after date, was not allowed to be impeached by the maker, at the suit of an indorser.\nAnd again, the same Court held in the case of Lozee vs. Dunkin, .\u25a0above cited, that the maker of a similar note was allowed to show payment, and thereby defeat the action, at the suit of a bona fide indorser, Moo and a half months after date. The Judge in delivering the \u00bfopinion of'the Court in this case, very consistently remarks, that \u201cthere is no precise time when a note of this kind is deemed to be dishonored.\u201d Consequently, no legal measure of time, independent of circumstances, can be gathered from the authorities of that State.\nIn Massachusetts, nearly the same uncertainty exists. Two months and a half is the shortest time that the Courts of that State have allowed such a defense to be set up. Stevens vs. Bruce, (21 Pick., 139.) On the other hand, they refused to allow a note to bo impeached, indorsed thirty days from date. Range vs. Cary, (1 Met., 369.) In this case, the Court refused to grant a new trial, on a charge of the Court below, to the jury, \u201c that such a note could not be considered dishonored in thirty days from dateand I have been unable to find any case where it has been held to be over-due and dishonored short of that time. So that whether we adopt the one rule or the other, the result to this suit must be the same.\nOne, seems to have been adopted with particular reference to the commercial interest of that country; while the other suffers a relaxation of the rule, to meet the exigencies of particular hardships. Both are decisive against the defendant in this cause, and the judgment therefore, of the Circuit Court, must be reversed, and that of the County Court affirmed.",
+        "type": "majority",
+        "author": "By the Court, Johnson, J."
+      }
+    ],
+    "attorneys": [
+      "J. J. Falhenbwry, for plaintiff.",
+      "W T. Mitchell, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "Carll vs. Brown.\nThe English rule that a negotiable noto, payable on demand, does not become over-due by mere lapse of time,' has been modified in this country, so that a promissory note thus payable, unless indorsed within a reasonable time, is considered overdue and dishonored.\nWhat shall be the reasonable time in which a note payable on demand, shall be considered overdue, is a matter to be determined by the Court upon the facts of each particular case.\nA negotiable note, bearing date 25th May, was sued by the bearer on the 19th of June following: Held, that the note could not be considered overdue, (no prior demand being shown,) before it came to the hands of the bearer.\nError to St. Clair Circuit.\nThe action was commenced in the St. Clair County Court, June 19th, 1848, upon a promissory note, drawn May 25th, 1848, payable to A. Bean or hearer, on demand. The defendant sought to set off a negotiable note of which he was the bearer,' made by Bean, and also the amount of another note made by another person, hut which the defendant claimed Beau had agreed while he held the note in suit, he would receive and apply upon' the note. These set-offs, on objection by the plaintiff, were ruled out, and judgment rendered against defendant for the full amount of the note. The cause was taken by certiorari to the St.Clair Circuit, where the judgment was reversed; upon which, a writ of error was sued out from this Court. It was insisted upon the trial below, and on the argument in this Court, on the part of the plaintiff, among other things, that the case was governed by the provision of section 18, p. 380, R. S., 1846, of the act relating to County Courts, which provides for a set-off against the plaintiff in the action only, and not against the original holder or assignor of commercial paper. This and several other questions, discussed upon the argument, it became unnecessary to examine, and they were not considered in the determination of the case in this Court.\nJ. J. Falhenbwry, for plaintiff.\nW T. Mitchell, for defendant."
+  },
+  "file_name": "0401-01",
+  "first_page_order": 409,
+  "last_page_order": 412
+}

@@ -1,0 +1,384 @@
+{
+  "id": 4382406,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. ROBERT JOSEPH JARVIS, Defendant and Appellant",
+  "name_abbreviation": "People v. Jarvis",
+  "decision_date": "1969-09-26",
+  "docket_number": "Crim. No. 7210",
+  "first_page": "446",
+  "last_page": "455",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "276 Cal. App. 2d 446"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "54 Cal.Rptr. 409",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "246 Cal.App.2d 104",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        464302
+      ],
+      "pin_cites": [
+        {
+          "page": "108"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/246/0104-01"
+      ]
+    },
+    {
+      "cite": "457 P.2d 866",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Cal.Rptr. 26",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "457 P.2d 862",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Cal.Rptr. 22",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.2d 884",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "404 P.2d 209",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal. Rptr. 729",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.2d 178",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2335725
+      ],
+      "pin_cites": [
+        {
+          "page": "188"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/63/0178-01"
+      ]
+    },
+    {
+      "cite": "92 P. 861",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "152 Cal. 331",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        1980111
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/152/0331-01"
+      ]
+    },
+    {
+      "cite": "426 P.2d 908",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.Rptr. 340",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Cal.2d 536",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2331151
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/66/0536-01"
+      ]
+    },
+    {
+      "cite": "425 P.2d 545",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.Rptr. 745",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Cal.2d 330",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2331133
+      ],
+      "pin_cites": [
+        {
+          "page": "337"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/66/0330-01"
+      ]
+    },
+    {
+      "cite": "395 U.S. 250",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1771609
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/395/0250-01"
+      ]
+    },
+    {
+      "cite": "407 P.2d 265",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr. 353",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.2d 518",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2335655
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/63/0518-01"
+      ]
+    },
+    {
+      "cite": "385 F.2d 375",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2085199
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/385/0375-01"
+      ]
+    },
+    {
+      "cite": "450 P.2d 865",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "75 Cal.Rptr. 401",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Cal.2d 541",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2308185
+      ],
+      "pin_cites": [
+        {
+          "page": "556-558"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/70/0541-01"
+      ]
+    },
+    {
+      "cite": "389 F.2d 985",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2097652
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/389/0985-01"
+      ]
+    },
+    {
+      "cite": "70 Cal.Rptr. 756",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "264 Cal.App.2d 557",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2183084
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/264/0557-01"
+      ]
+    },
+    {
+      "cite": "58 Cal.Rptr. 912",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "251 Cal.App.2d 9",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2217151
+      ],
+      "pin_cites": [
+        {
+          "page": "17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/251/0009-01"
+      ]
+    },
+    {
+      "cite": "74 Cal.Rptr. 459",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "269 Cal.App.2d 112",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2229925
+      ],
+      "pin_cites": [
+        {
+          "page": "116"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/269/0112-01"
+      ]
+    },
+    {
+      "cite": "392 F.2d 849",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2106369
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/392/0849-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 831,
+    "char_count": 17918,
+    "ocr_confidence": 0.815,
+    "pagerank": {
+      "raw": 1.3817588143598387e-07,
+      "percentile": 0.6406740315748138
+    },
+    "sha256": "8341ac0704011fd660f5c2772c70f5325ca351ced5b488b80089b32de058fdd6",
+    "simhash": "1:357132dddf365170",
+    "word_count": 3052
+  },
+  "last_updated": "2024-02-27T17:52:21.889319+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. ROBERT JOSEPH JARVIS, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "degree robbery and assault by means of force likely to produce great bodily harm upon the person of a police officer. In the jury\u2019s verdict on the robbery charge, there is a separate finding that appellant was armed with a deadly weapon. Appellant was sentenced to state prison on each count, the sentences to run concurrently.\nAppellant, Jarvis, was identified as one of three robbers (the robbery was at a liquor store in Sausalito) by five witnesses. A sixth witness testified that appellant resembled the man at the door (the five placed him there) but did not completely identify him. The identification by the five was complete and unshaken. One witness, a law student, was unwilling to make complete identification of the other two, but was positive in his identification of Jarvis. Appellant was particularly subject to identification because of his position at the door, barring exit, and of his utterances. Appellant- was carrying a hand gun. He warned all within the store that if they stuck their heads out of the door he would shoot them.\nAppellant offered no substantial defense at the trial (we do not have his counsel\u2019s argument; there was the usual cross-examination of the .identifying witnesses as to appearance of the robbers, their clothing, etc.), nor does appellant suggest on appeal that he was not guilty of the robbery. There is a slight suggestion, referred to below, that he may not have been guilty of- the assault with a deadly weapon. Appellant\u2019s argument on appeal is that his confession (which was really superfluous) was obtained without full compliance with Miranda^ Dorado rules and was, in fact, an involuntary one. He also makes a point of the use of a confession of a codefendant, Peggy Ann Priesman. Other points, which have to do with the term of his sentence, are discussed following the matters relating to his conviction.\nWitnesses saw appellant and the other two robbers, McFate and Brown, leave the store wherein the robbery occurred and, responding to a woman\u2019s voice calling, \u201cOver here, over here,\u201d get into a brown Chevrolet. A few minutes later, an officer stopped such an automobile, which was being driven without lights. Mrs. Priesman was the only occupant visible. She came back to the officer\u2019s car, had a conversation with him, returned to the other vehicle, and at that moment two men arose from places of hiding in that vehicle and commenced firing at the officer. One of them called out, \u2018 \u2018 Hold it, Copper.\u201d There was an exchange of fire, but no one was struck. The brown Chevrolet, with many bullet holes in it, was found later. Meanwhile, Mrs. Priesman\u2019s handbag, with ample identification and also with two loaded revolvers, was found at the scene of the shooting. Mrs. Priesman was arrested in southern California at about the same time as the arrest of appellant. Appellant, McFate and Brown were arrested While they were \u201ccruising\u201d a liquor store in Van\" Nuys.\nEdward Kreins, Chief of Police of Sa.usalito_ went to southern California and spoke with appellant. He had with him photographs of appellant and the other two' robbers. The chief reconstructed the crime by reference to the photographs in appellant\u2019s presence. Appellant agreed completely with the reconstruction. He agreed, too, that it was he, appellant, who called \u201cHold it, Copper\u201d at the time of the shooting. There was, therefore, a complete confession to both offenses.\nI. Appellant\u2019s Confession\nThe subject of appellant\u2019s confession may be divided into two parts: the first relating to the Miranda-Dorado rule; and the second to the character of the confession, whether voluntary or involuntary.\nA. The Miranda-Dorado Bule\nAppellant contends that this rule was violated in several respects. The first is that appellant indicated to the police officers by his refusal to give a written statement and his insistence that his statement be \u201cverbal,\u201d that he was not waiving his privilege against self-incrimination.\nThe voir dire examination of Edward Kreins, Chief of Police of Sausalito, discloses that he advised appellant of his constitutional rights (the witness related the conversation in full to the judge); that he did not know whether Jarvis had been questioned by the Los Angeles police but believed they were going to-'talk with Jarvis later; that appellant said he would be willing to speak with the witness; that he made inquiry if appellant understood what was meant by the admonition and that what was said could be used against him at a trial (the witness stated, \u201cI advised him before and he said it could be used against him\u201d); that appellant said he was advised of his rights previously and did understand; that appellant did not say who had advised him \u201cbefore\u201d; that at no time did appellant ask for a lawyer.\nBy way of voir dire, appellant testified that he spoke with Chief Kreins on the third day after his arrest; that he had been interrogated by a Los Angeles police inspector; that the inspector threatened him to the extent that if he did not cooperate the inspector would \u201cget him\u201d for robbery all over the state, and that this shook him up; that he spoke with Chief Kreins about a half hour or an hour later; that he would not sign a statement and that he believed a verbal statement could not be used against him because that is not done in New York where he had been convicted of violating the gun law; that Chief Kreins showed him pictures of three different people and outlined what had happened.\nFollowing this voir dire, appellant\u2019s counsel moved to strike the testimony of Chief Kreins relating to the statement given by the defendant \u201con the basis of the Miranda Decision. \u2019 \u2019 The judge ruled that he had no doubt appellant knowingly waived his privilege. The judge referred to the testimony about the threat of connecting appellant with other robberies, noting that this was said very briefly and in passing. The judge found that the testimony was not a ground for holding that the confession was not voluntary.\nAll of the proceedings just described were, of course, in the absence of the jury.\nLater, the jury being present, Chief Kreins testified that after he had advised appellant of his rights appellant said he would tell anything verbally but would not sign a statement, whereupon the chief replied that \u201cit didn\u2019t make any difference.\u201d The chief then reconstructed the robbery and the assault by pointing to the photographs and giving his narration of the events, to the correctness of which, the chief testified, appellant agreed. Appellant further said that he was the one in the vehicle who said, \u201cHold it, Copper.\u201d\nAppellant testified before the jury that he did not remember that he was advised of his rights; that he was tired; that he had been threatened by a Los Angeles police inspector that all the robberies in the State of California would be checked; that he did not remember his answers to Chief Kreins\u2019 questions and thinks he did not answer; specifically, that he did not say that he was the one who had called out, \u201cHold it, Copper\u201d; that he does not believe he said anything except that he was definitely not going to sign a statement.\nThere was no motion to strike the chief\u2019s testimony following his appearance and that of appellant before the jury. A single motion was made at the conclusion of the voir dire.\nWe do not agree with appellant\u2019s contention that his refusal to sign a statement was an assertion of his right to remain silent. The officer testified at the voir dire that appellant said he understood that the statement could be used against him, and in the testimony of the case-in-chief that he had told appellant that it made no difference that he would not sign. Appellant makes a point of the fact that the judge corrected the transcript in the absence of appellant or of his counsel. As the transcript originally read, the questions and answers thereto (relating to whether it would make any difference whether the statement were written or oral) appeared this way:\n\u201cQ. Was anything said before you got into the discussion with him, and during \u00f3r before or at the time you were advising him of his rights? Anything said concerning a written as opposed to a verbal statement ?\n\u201cA. Yes, after I advised him of his rights he said he would give me a verbal statement but not a written statement. He said \u2018I will tell you anything you want verbally but I will not sign it. \u2019\n\u201c Q. What did he say about a verbal statement ?\n\u201cA. That it didn\u2019t make any difference.\u201d (Italics added.) The change was the substitution of the pronoun \u201cyou\u201d for \u201che\u201d in the question. We find no prejudicial error in the making of the correction. The question makes sense only as eorreeted. Besides, as said above, appellant had already said at the voir dire that- the statement could be used against him. Moreover, the understanding of everyone as to the question which had been put would seem to be indicated by the subsequent cross-examination of Jarvis, wherein he was asked, \u201cDo you recall Mm saying it didn\u2019t make any difference whether you signed it or not?\u201d (Italics added.) If there had been no testimony that Kreins had said this, no doubt there would have been, immediate protest from defense counsel. Instead, a simple denial was permitted to go into the record by Jarvis\u2019 answer, \u2018 \u2018 He didn\u2019t- tell me that. \u2019 \u2019\nThere is a distinction between a case wherein the interrogee refuses to sign a statement of the events and one in which he refuses to sign a waiver of his rights, as in United States v. Nielsen, 392 F.2d 849. When the interrogee refuses to sign the waiver he gives a clear indication that he is standing on his constitutional rights. But refusal to sign a statement of facts, coupled with a recital of those facts following the necessary admonition, may be for other reasons, such as natural disinclination of persons to sign and thereby to commit themselves even to some mistake in the recital. Another reason might be the reluctance to name one\u2019s confederates in a writing, which might be exhibited to them.\nThe determination whether the confession is in compliance with the Miranda-Dorado rule is to- a large extent within the discretion of the trial \u25a0 court. (People v. Duran, 269 Cal.App.2d 112, 116 [74 Cal.Rptr. 459]; People v. Sosa, 251 Cal.App.2d 9, 17 [58 Cal.Rptr. 912].)\nWe sustain that discretion as it was exercised in this case.\nB. Alleged Involuntariness\nAt the trial appellant did not seek exclusion of the confession on the ground that it was involuntary in the general and traditional sense, but only on the ground of the Miranda rule. On appeal, however, he contends that the giving of the statement resulted from a threat about other robberies, which is described above. We note that the trial judge did make brief reference to this point and decided that the confession was voluntary. We find no fault with the judge\u2019s decision. At no time did appellant testify that he made any statement to Chief Kreins because of what had been said to him by a Los Angeles police inspector. He did not identify the inspector. He did not say that to \u201ccooperate\u201d was understood by him, appellant, to mean the making of the declaration to Kreins. The cooperation referred to may have related to other matters, for all that appears in the record. Moreover, in appellant\u2019s testimony before the jury, he denied making any incriminating statement to Kreins. If this were to be believed, he did not cooperate in the sense of making any admission or confession.\nC. Waiver of Counsel\nAppellant makes the point that under the holding of People v. Matthews, 264 Cal.App.2d 557 [70 Cal.Rptr. 756], and Sullins v. United States, 389 F.2d 985, it is required that the record show an affirmative and express waiver by the interrogee of his right to have an attorney present during the questioning. In People v. Johnson, 70 Cal.2d 541, 556-558 [75 Cal.Rptr. 401, 450 P.2d 865], our Supreme Court rejected the Sullins and similar cases, accepted the rule of United States v. Hayes, 385 F.2d 375, and distinguished People v. Matthews, wherein the defendant had specifically stated that he did not understand his rights. The opinion in the Johnson case expresses the California rule as follows: \u201cOnce the defendant has been informed of his rights, and indicates that he understands those rights, it would seem that his choosing to speak and not requesting a lawyer is sufficient evidence that he knows of his rights and chooses not to exercise them \u2019 \u2019 (70 Cal.2d at p. 558).\nII. The Aranda Point\nMrs. Priesman made a complete confession to the police and this was admitted in evidence. She referred to three men as being her confederates in the automobile at the time of the shooting at the policeman. Although she had named participants when making her declaration to the police, the names were not given in the testimony before the jury because the district attorney and the judge had carefully admonished the witness. Motion for mistrial was made -on the ground that there had been violation, that- Mrs. Priesman\u2019s statement inevitably incriminated Jarvis because \u201cit recites the fact there were three men at the robbery and he had to be one of the three men.\u201d The judge denied the motion on the ground that identification of Jarvis had been made independently.\nWe find no prejudicial error.\n1. We have held that there was a valid confession by Jarvis. Therefore, even if there were an Aranda error (People v. Aranda, 63 Cal.2d 518 [47 Cal.Rptr. 353, 407 P.2d 265] ), it would not necessarily be prejudicial. (Harrington v. California, 395 U.S. 250 [23 L.Ed.2d 284, 89 S.Ct. 1726]; People v. Charles, 66 Cal.2d 330, 337 [57 Cal.Rptr. 745, 425 P.2d 545]; People v. Hill, 66 Cal.2d 536 [58 Cal.Rptr. 340, 426 P.2d 908].) In all of the circumstances of this case, we find that if there were error, beyond all reasonable doubt on our part it was not prejudicial.\n2. Although the Jarvis confession and the statement by Mrs. Priesman did identify Jarvis as a participant in the shooting (no eyewitness identified him at that point), the circumstantial evidence that-he was one of the participants in the vehicle was very strong. The robbery was reported to the police by telephone immediately after its commission. The officer at whom the shots were fired heard the incoming report and upon emerging from the police station saw the vehicle almost at once. It is extremely unlikely that any one of its occupants would have left the vehicle.\n3. Even .if Jarvis had left the vehicle (and of, course; he testified to nothing whatever except his denial of the confession), he would be responsible for the acts of others done in pursuance of the conspiracy (People v. Kauffman, 152 Cal. 331 [92 P. 861]), and this even though conspiracy was not charged as a formal ground (or, as here, having been charged, was dismissed). (People v. Teale, 63 Cal.2d 178, 188 [45 Cal. Rptr. 729, 404 P.2d 209].) Wherefore, had the point been made at trial, as it is on appeal, that a distinction should be made between the robbery, to which there were eyewitnesses, and the shooting, to which there were no identifying witnesses, the conspiracy rule might well have been referred to in support of the ruling.\nIII. Double Punishment\nAppellant contends, correctly, under the holdings of People v. Floyd, 71 Cal.2d 884 [80 Cal.Rptr. 22, 457 P.2d 862], and People v. King, 71 Cal.2d 884 [80 Cal.Rptr. 26, 457 P.2d 866], that as the law was at the time of the commission of this offense the judgment of conviction must be modified to provide that section 3024 and section 12022 of the Penal Code were inapplicable. There should, however, be an express determination in the judgment as to whether defendant was armed with a deadly weapon within the meaning of section 1203 of the Penal Code (People v. Floyd, supra, at p. 884). (This problem will not occur in future cases because of the enactment of section 12022.5 of the Penal Code by the 1969' Legislature.) We think that resentencing is unnecessary. We do not believe that appellant\u2019s .point that it was not alleged in the information that he did not have a license .to carry a weapon and that, therefor\u00e9, the finding cannot be supported, is valid as to the effect upon probation of his being armed. In People v. Floyd, it is said (at p. 884) that this issue will become relevant only in the event defendant at some future time commits a further offense and that it should not be decided in the present proceeding.\nIV. Other Points\nWe have considered other points made by appellant, such as admissibility of certain evidence, which we find unnecessary to' discuss except to say that no prejudicial error appears; and delay in arraignment, which is unavailable because the point was not raised at trial (People v. Thomas, 246 Cal.App.2d 104,108 [54 Cal.Rptr. 409]).\nThe judgment is modified by adding the following:\n\u201cAt the time of the commission of each of the instant offenses, sections 3024 and 12022 of the Penal Code were inapplicable, but at the time of the robbery defendant was armed, within the meaning of section 1203 of the Penal Code, with a deadly weapon, to wit, a hand revolver. \u2019 \u2019\nAs so modified, the judgment is affirmed.\nRattigan, J., and Christian, J., concurred.\nA petition for a rehearing was denied October 23, 1969, and appellant\u2019s petition for a hearing by the Supreme Court was denied November 19, 1969. Peters, J., was of the opinion that the petition should be granted.\nWe have cheeked with the authorities at San Quentin and we find that actually neither section 3024 nor section 12022 of the Penal Code is being applied to appellant\u2019s case.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "[Crim. No. 7210.\nFirst Dist., Div. Four.\nSept. 26,1969.]\nTHE PEOPLE, Plaintiff and Respondent, v. ROBERT JOSEPH JARVIS, Defendant and Appellant.\nJay R. Mayhall for Defendant and Appellant.\nThomas C. Lynch, Attorney General, Robert R. Granucci and Gloria F. DeHart, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0446-01",
+  "first_page_order": 468,
+  "last_page_order": 477
+}

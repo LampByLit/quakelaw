@@ -1,0 +1,123 @@
+{
+  "id": 3186300,
+  "name": "Succession of Achille I. PICARD",
+  "name_abbreviation": "Succession of Picard",
+  "decision_date": "1959-11-09",
+  "docket_number": "No. 43836",
+  "first_page": "455",
+  "last_page": "467",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 455"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 So.2d 817"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "180 La. 320",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10040417,
+        2965315
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/156/0405-01",
+        "/la/180/0320-01"
+      ]
+    },
+    {
+      "cite": "194 La. 206",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10058858,
+        5453347
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/193/0589-01",
+        "/la/194/0206-01"
+      ]
+    },
+    {
+      "cite": "231 La. 368",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9904619,
+        5465815
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "572"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/91/0569-01",
+        "/la/231/0367-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 566,
+    "char_count": 12765,
+    "ocr_confidence": 0.734,
+    "pagerank": {
+      "raw": 5.785905610109388e-07,
+      "percentile": 0.9510340178133938
+    },
+    "sha256": "0711ca0f132c0261577df1219005dfa63d0601a111e3a311328af194d9a063e7",
+    "simhash": "1:3bf9a8b10305555d",
+    "word_count": 2149
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "HAMLIN, J., recused."
+    ],
+    "parties": [
+      "Succession of Achille I. PICARD."
+    ],
+    "opinions": [
+      {
+        "text": "HAWTHORNE, Justice.\nCanal Assets, Inc., instituted this suit naming as defendants Henry M. Picard, testamentary executor of the succession of Achille I. Picard; Mrs. Beatrix Bahn, widow of Achille Picard; and Leon P. Weil and Henry M. Picard, Jr., legatees. The primary purpose of this suit is to recover judgment in the total amount of a series of notes executed by the decedent.\nThe three notes on which this suit was filed were executed by Achille I. Picard and made payable to the Canal Bank & Trust Co. One note is for the principal sum of $1,450, is dated December 30, 1929, and matured 90 days after date; another is for the principal sum of $1,800, is dated January 6, 1930, and matured 90 days after date, and the third is for the principal sum of $650, is dated February 3, 1930, and matured 30 days after date. Each of these notes is subject to certain credits representing payments made during the life of Picard, who died on July 26, 1955.\nBoth the $1,450 note and the $1,800 note over the signature of Picard as maker contain the following provision:\n\u201cThis note * * * and every other debt, liability or obligation, * * * due or to become due, whether now existing or hereafter arising, by the undersigned, * * * shall be secured by the pledge of the securities or property listed and described on the reverse hereof * * *.\u201d\nOn the back of the $1,450.00 note there appears :\n\u201cSecured by the following notes :\u2014\n\u201cNote of Emyde Chauffe dated Parish of Iberville 1/11/24 \u2014 $1800.00\n\u201cNote of Blaise Lassere dated Parish of Iberville 6/10/24\u2014 1000.00\n\u201cNote of Ahab Collins dated Parish of Iberville 9/3/25-------- 209.00\u201d\nOn the back of the $1,800.00 note there appears :\n\u201cSecured by the following stocks:\u2014\n\u201c65 shares \u2014 Picard Construction Co. Inc.\n\u201c 5 \u201c \u2014Bank of Gonzales.\n\u201c10 \u201c \u2014Insurance Securities Co. Inc.\u201d\nThe $650 note does not show a pledge of any specific property.\nAt his death Picard left a large estate, and petitioner as the holder of the notes timely filed its claim with the testamentary executor of Picard\u2019s succession. Notwithstanding the filing of this claim and without payment thereof, defendants caused an ex parte judgment to be rendered sending the widow and the legatees into possession of the decedent\u2019s estate.\nTo plaintiff\u2019s suit defendants pleaded the prescription of five years and in the alternative that the action was barred by plaintiff\u2019s laches. They contend also that there is no competent evidence that decedent pledged the notes of Chauffe and Lassere described on the reverse of the $1,450 note.\nAfter trial on the merits the district court sustained defendants\u2019 plea of laches and dismissed plaintiff\u2019s suit. From this judgment it has appealed.\nAll of the notes and stocks which are described on the reverse of these notes, and which according to the face of the notes' were pledged to secure the payment of the principal obligation, are in the possession of the plaintiff with two exceptions. The Collins note had been paid and the proceeds credited to the Picard $1,450 note, and the five shares of Bank of Gonzales stock had been sold and the proceeds applied to the $1,800 note. The notes of Chauffe and Lassere pledged for the payment of the $1,450 note were secured by chattel mortgages, pledge of crops, and crop liens, and were payable to the order of their makers and by them endorsed in blank.\nWith reference to the $650 note dated February 3, 1930, appellees state in brief that this note had prescribed long before decedent\u2019s death, and since this note does not describe any property as being pledged for its security, there is no need of discussing it further. Appellees overlook the fact that this note was given after the $1,450 and $1,800 notes, each of which contains the provision over the deceased\u2019s signature that \u201cThis note * * * and every other debt, liability or obligation, * * * due or to become due, whether now existing or hereafter arising, by the undersigned, * * shall be secured by the pledge of the securities or property listed and described on the reverse hereof * * *\nThe law of this state is clear \u201cthat prescription does not run in favor of the debtor whose debt is secured by a pledge, and that it remains interrupted, as long as the thing pledged is in the possession of the pledgee\u201d, and that \u201cit is not the contract or act of pledge that interrupts prescription but rather the detention by the pledgee of the thing pledged, such possession serving as a constant acknowledgment of the debt and hence a constant renunciation of prescription\u201d. Scott v. Corkern, 231 La. 368, 91 So.2d 569, 572, and numerous authorities cited therein.\nThis principle of law is recognized by defendants-appellees, but it is their contention that it is without application here because all of the pledged property still in the possession of the plaintiff-appellant was without value. In this connection they allege that the pledged notes of Chauffe and Lassere show that on the date they were pledged they had prescribed on their face and therefore had no value; that the shares of stock of Insurance Securities Company, Inc., were likewise valueless at the time they were pledged as that corporation had previously gone into receivership, and that the shares of stock of the Picard Construction Company were also without value as that company went into receivership in 1937. Appellees argue that the above principle of law is applicable only where the debtor consents for the creditor to hold as a pledge something of value owned by the debtor.\nThe pledge is a contract by which a debtor gives something to a creditor as security for his debt. La.Civ.Code Art. 3133. In the instant case the things remaining in the hands of the pledgee were promissory notes and shares of stock in corporations. None of these things had been lost or destroyed and all were still in the possession of the creditor, whose obligation as creditor still continues to return the pledged things or to answer for loss or damage to them resulting from its fault.\nAs stated in Scott v. Corkern, supra, it is the detention by the pledgee of the things pledged which serves as a continuing acknowledgment of the debt and a constant renunciation of prescription. It is not the detention of a thing of value by the pledgee which serves as a constant acknowledgment of the debt and hence a constant renunciation of prescription. Regardless of the value of the thing pledged, the obligation of the pledgee to return the property continues. Counsel\u2019s argument, in effect, is that because the things pledged were without value at the time they were pledged or subsequently became valueless, the pledge was extinguished notwithstanding the fact that the pledgee still detained the things pledged. Under the well settled law the detention or possession is the factor which serves as a constant acknowledgment of the debt.\nDefendants\u2019 plea of laches, which was sustained by the trial judge, is based on the fact that plaintiff waited many years after the maturity of the notes and until after the death of Picard, the maker, to institute this suit for their collection.\nThe plea of laches or estoppel is an equitable plea, and under the laws of this state equity avails only where the express law is silent. La.Civ.Code Art. 21. Under the express law plaintiff here could not recover in the event the prescription of five years had accrued. Under the express law of prescription the plaintiff has a fixed time in which he may exercise his rights, and mere silence or inaction without the running of prescription cannot serve as a basis of the equitable plea of laches or estoppel. See Rawlings v. Stokes, 194 La. 206, 193 So. 589.\nAccordingly the trial judge improperly sustained the plea of laches.\nDefendants-appellees contend in this court for the first time that there is no competent evidence that the deceased maker of the notes here sued' on pledged the notes of Chauffe and Lassere. They call our attention to Article 2278 of our Civil Code, which provides that parol evidence shall not be received to prove any acknowledgment or promise of a party deceased to pay any debt or liability in order to take such debt out of prescription or revive such debt after prescription has run or been completed. They argue that there is no written evidence that decedent owned and pledged these notes as collateral security for the $1,450 note, and that there is no written evidence that he consented to the pledgee\u2019s retaining the pledged notes. Stated somewhat differently, their contention is that the evidence of the pledge and the consent to the pledgee\u2019s retaining the notes pledged cannot be proved by parol evidence.\nNotwithstanding what counsel may argue, there is written evidence of the pledge of the two notes in question. As pointed out in the beginning of this opinion, over Picard\u2019s signature as maker of the note there is found the express provision:\n\"This note * * * and every other debt, liability or obligation, * * * due or to become due, whether now existing or hereafter arising, by the undersigned, * * * shall be secured by the pledge of the securities or property listed and described on the reverse hereof * *\nOn the back of the $1,450 note the Chauffe and Lassere notes are listed as two of the collateral notes securing the payment of the principal obligation. This is certainly written evidence of the pledge of these two notes. .\nWith reference to the defendants\u2019 contention that there is no written evidence that decedent consented to plaintiff\u2019s retaining the pledged notes, we must bear in mind that at the time the instant suit was instituted plaintiff was in possession of these notes and actually offered and filed them in evidence. Thus in this case we have written evidence of the pledge of these two instruments coupled with their possession by the pledgee. The pledge on the face of the note above decedent\u2019s signature is written evidence of his consent to the pledging of the property listed on the reverse of the note and to the right of possession of this property by the pledgee.\nIn the instant case the written pledge of the deceased debtor carried with it under the law the right of possession by the creditor of the pledged property, and being in possession by virtue of such a written pledge, the creditor could be compelled to return such pledged property only when it had received the whole payment of the principal as well as the interest and costs. La.Civ.Code Art. 3164. Since the creditor had the right of possession and had the pledged property actually in its possession at the time it sought to enforce the obligation, no proof of continuing consent on the part of the deceased debtor is required.\nAppellees argue that the case of Waterman v. Dupeire, 180 La. 320, 156 So. 405, is squarely in point and supports their position. We do not agree. That case is factually different from this in one important particular: There there was no written pledge by the deceased debtor.\nFor the reasons assigned the judgment appealed from is reversed, annulled, and set aside. It is now ordered that plaintiff, Canal Assets, Inc., have judgment against the defendant testamentary executrix in the full sum of $3,900 with interest at the rate of 8 per cent from March 31, 1930, on $1,450, with interest at the rate of 8 per cent from April 7, 1930, on $1,800, and with interest at the rate of 8 per cent from March 5, 1930, on $650, all until paid, together with an additional amount of 10 per cent on the aggregate of principal and interest as attorney\u2019s fees, all subject to-credit for the amount of payments made on said indebtedness as set forth in plaintiff\u2019s petition. It is further ordered that plaintiff have judgment in its favor, ..and against Mrs. Beatrix B. Picard as testamentary executrix and surviving widow in community, Leon P. Weil, and Henry M. Picard, Jr., annulling and setting aside the ex parte judgment of possession dated October 26, 1956, and ordering the testamentary executrix to recognize and place on her final account the full amount of petitioner\u2019s claim herein. Defendants-appellees are to pay all costs.\nHAMLIN, J., recused.\n. .After the appeal was lodged in this court Henry M. Picard, testamentary executor, died, and Mrs. Beatrix B. Picard qualified as dative testamentary executrix of the succession, and as executrix she has by order of this court been made a party to these proceedings.\n. Plaintiff acquired the notes sued on in the liquidation proceedings of the Canal Bank & Trust Company.",
+        "type": "majority",
+        "author": "HAWTHORNE, Justice."
+      }
+    ],
+    "attorneys": [
+      "James G. Schillin, New Orleans, for plaintiff and appellant.",
+      "Edward Rightor, Henry G. Neyrey, Jr., Solomon S. Goldman, New Orleans, for defendants and appellees."
+    ],
+    "corrections": "",
+    "head_matter": "115 So.2d 817\nSuccession of Achille I. PICARD.\nNo. 43836.\nNov. 9, 1959.\nRehearing Denied Dee. 14, 1959.\nJames G. Schillin, New Orleans, for plaintiff and appellant.\nEdward Rightor, Henry G. Neyrey, Jr., Solomon S. Goldman, New Orleans, for defendants and appellees."
+  },
+  "file_name": "0455-01",
+  "first_page_order": 260,
+  "last_page_order": 266
+}

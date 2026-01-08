@@ -1,0 +1,115 @@
+{
+  "id": 1933565,
+  "name": "The People vs. Plumsted et al.",
+  "name_abbreviation": "People v. Plumsted",
+  "decision_date": "1853-01",
+  "docket_number": "",
+  "first_page": "465",
+  "last_page": "471",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "2 Mich. 465"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "4 Blackf., 148",
+      "category": "reporters:state",
+      "reporter": "Blackf.",
+      "case_ids": [
+        1388432
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/blackf/4/0148-01"
+      ]
+    },
+    {
+      "cite": "22 Pick, 573",
+      "category": "reporters:state",
+      "reporter": "Pick.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Wend., 562",
+      "category": "reporters:state",
+      "reporter": "Wend.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Howard, 556",
+      "category": "reporters:state",
+      "reporter": "Howard",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Cranch, 358",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch,",
+      "case_ids": [
+        6764192
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/dc/2/0358-01"
+      ]
+    },
+    {
+      "cite": "19 Vt., 139",
+      "category": "reporters:state",
+      "reporter": "Vt.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 750,
+    "char_count": 14814,
+    "ocr_confidence": 0.351,
+    "pagerank": {
+      "raw": 1.365903554080713e-07,
+      "percentile": 0.6372711304790356
+    },
+    "sha256": "0d703a9d9f3c382f37d918f41f32ac1156fbeddcac1a90037a13e82a04326611",
+    "simhash": "1:a5c98c8a7e5c711e",
+    "word_count": 2622
+  },
+  "last_updated": "2024-02-27T17:43:48.727812+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "The People vs. Plumsted et al."
+    ],
+    "opinions": [
+      {
+        "text": "By the Court, Copeland, J.\nWas Anna Gooch in the legal possession of the premises described in the indictment, at the time she was expelled therefrom, by the defendants ? An answer to this inquiry will he decisive of the case. If decided affirmatively, the defendants, under the finding of the jury, are guilty. If negatively, they must be acquitted; for there is no pretense I believe, that they made use of more force than was necessary, to remove Mis. Gooch from the house.\nThe special verdict finds that Anna Gooch was a married woman, the wife of one Benjamin Gooch. At common law, therefore, even admitting that, she was in the actual and quiet possession of the house at the time of her expulsion, the legal possession was in her husband, and should have been so alleged in the indictment. (Rex vs. French, Russ & Ryan, 490; Rex vs. Wilford et al., Ib., 517; Rex vs. Smyth, 24 Eng. Com. Law, 279; Regina vs, Whitehead, Ib., 255; Roscoe Cr. Ev., 355.)\nBut at common law, Mrs. Gooch could in no sense be regarded as being in the possession of the house, or as having even a colorable right to remain there. Her husband had sold and conveyed the premises to the defendants, and their furniture, by his direction, had been moved, from the house: Mrs. Gooch leaving it herself at the same time, with the evident intention of proceeding along with the furniture, and apparently, was only prevented from doing so by the person having charge of one of the teams, refusing her request to get on to the same. Immediately, upon the house being thus'vacated, the defendants went into possession of it, and subsequently invited in Mrs. G., the latter having returned from the road to the house, and sat down irpon the door-stop. Clearly, then, the defendants must' be regarded as being in the actual, peaceable, and legal possession of the house, unless the principles of law applicable to the facts found, have been changed by some provision of our statute. It is said that such a change has been made \u2014 that the relative legal rights and relations of husband and wife, as they have existed for ages, have been swept away by our homestead exemption act; that notwithstanding her coverture, and the deed of her husband to the defendants, Anna Gooch was still possessed of such rights in the premises conveyed, as entitled her to the possession. This right is claimed by virtue of act No. 109 of the session laws of 1848; the deed from Benjamin Gooch to the defendants having been made prior to the adoption of our present constitution., The first section of the act of 1848 provides, \u201cthat a homestead, consisting of any quantity of land, not exceeding forty acres, and the dwelling house thereon, and appurtenances, to be selected by the owner thereof, and not included in any town plat, or city or village, or instead thereof, at the option of the owner, a quantity of land not exceeding in amount, one lot, being within a recorded town plat, city or village, and the dwelling house thereon, and its appurtenances, owned and occupied by any resident of this State, shall not be subject to forced sale on execution,\u201d '&c.\nSection 2 further provides, that such exemption shall not extend to any mortgage thereon, lawfully obtained; but such mortgage or other alienation of such land by the owner thereof, if a married man, shall not be valid without the signature of the wife to the same. In construing statutes, Courts will give them such a construction as will carry out the intention of the Legislature, where that intent is obvious, and where it is practicable to do so. That intent is to. be gathered from a view of the whole statute; by comparing one portion with another \u2014 the text with the context \u2014 by considering the occasion and the necessity of the law \u2014 the mischief felt, and the remedy sought \u2014 these may all be brought into requisition, in arriving at the intention of the law-giver, where the language he has made use of, is doubtful or ambiguous, ( Cokes Inst., Vol. 1, pages 30, 31, 32; Plow. Com,., 57, 205, 464; Datchus vs.. Esty et al., 19 Vt., 139; U. S. vs. Fisher et al., 2 Cranch, 358; U. S. vs. Freeman, 3 Howard, 556.)\nBut where the language is clear and explicit \u2014 where it is free from doubt, no other than a literal construction should be given to it, \u201cThe current of authority at the present day,\u201d says Mr. Justice Bronson, \u201cis in favor of reading statutes according to the natural and most obvious import of the language, without resorting to subtle and forced constructions, for the purpose either of limiting or extending their operation; Courts cannot correct what they may deem either excesses or omissions in legislation.\u201d ( Waller vs. Harris, 20 Wend., 562.)\nBy keeping in view these well established rules of construction, I apprehend no great difficulty in arriving, at what I trust may be regarded as a reasonable and practical construction of the statute under consideration.\nThe first section of the act provides a method by which a houses holder may hold exempt from execution, a homestead not exceeding in quantity, forty acres of land, or if in a city or village, a quantity not exceeding one lot, at the option of the owner, &c. But it seems to bq left, and I think very properly, entirely in the discretion of the owner; clearly a matter of choice on his part, whether he will avail himself of the provisions of the act or not. If he would do so, he must be active in the matter himself; he must select his homostead; otherwise none can be exempted. And such selection, to become effectual under the first section alone, would have to be made before levy and sale \u2014 nonq could be made subsequently. And the makers of the law evidently took this view of it; for by the third section they expressly provide that where a levy is made upon lands and tenements of a house-holder, whose homestead has not yet been selected under the first section, and set apart by metes and bounds, that it may be done subsequent to such levy. So, by analogy of reasoning, the owner, if he would avail himself of the provisions of the second section, must select his homestead before alienation. Such is almost the literal import of the language used. \u201cSuch mortgage or other alienation of such land\u201d (that is, land selected by the owner, as provided in the preceding section) \u201cshall not be valid unless signed by the wife,\u201d &e.\nTo hold an alienation by the owner void, without such prior selection, would not only render the second section uncertain and ambiguous, but would be going counter to known rules of construction. It would render void and nugatory, the sentence \u2014 \u201cto be selected by the owner thereof;\u201d a sentence of as much significance and importance, as any part of the act. It is a sound rule of construction, that every clause and word of a statute, shall be presumed to have been intended to have some force and effect. Opinion of the Judges of Mass., (22 Pick, 573; Hutchen vs. Niblo, 4 Blackf., 148.)\nAgain, it may be observed as a reason for regarding ownership and occupancy alone, as insufficient to constitute an exemption \u2014 as a reason for requiring an actual selection \u2014 an active choice on the part of the owner \u2014 that the act says the quantity of land that may be exempted, shall not exceed forty acres, &c. So that the size of the homestead\u2014 the quantity of land it contains, and its description, can only be ascertained by the selection to be made by the owner. A debtor may be the owner and occupier of but forty acres of land, but which may be worth many thousand dollars. A portion of it may be sufficient for all his purposes of a homestead; arid being a just and honorable man, as well as a kind and affectionate husband and father, he is willing to select but a portion for that purpose, and allow the balance to be appropriated in payment of his debts; or he may own and occupy a thousand acres of land; how, in that case, shall it be determined how much, or what particular portion of the thousand acres shall constitute the homestead, unless the owner makes the selection ?\nIt is true, that the view I am taking of the second section, may be regarded as adding but little, if at all, to the rights and benefits secured by the provisions of the first. An answer to that is, that it was intended to add but little. That the provisions of the second section are but secondary to those of the first. And it will be observed on reference to the other sections of the act, that they all have reference to the provisions of the first section \u2014 exempting the homestead from forced sale on execution \u2014 that is also the title of the act.\nIt may here be well to inquire, perhaps, what could have been the object of the Legislature, in inserting into the act the few lines contained in section two. This act, exempting a homestead, was passed for the benefit of householders in embarrassed circumstances \u2014 to secure to such as are in debt, a home for themselves and families. This object it is true, may be effectually secured, under the provision exempting such home from forced sale on execution. But the idea may very naturally have suggested itself to the law-giver \u2014 that notwithstanding a homestead might be selected by the debtor, and be thus exempt from forced sale, still, that the vigilant, ever-active, and persevering creditor might, by constant importunity \u2014 by appeals to the debtors sense of justice, or to his honor \u2014 or possibly by some less honorable means, induce his debtor to make a conveyance of the homestead he had already deliberately selected for the benefit of his family, and one that, upon cool reflection, after the immediate irresistible influences operating upon him, had passed away, he might himself wish to avoid. Hence, the additional shield thrown around the selected homestead, by the provision of \u25a0the second section \u2014 that such conveyance shall not be valid unless signed by the wife.\nIt has been said that the intention \u2014 the object of the law, was to secure a homestead to the wife and children of the debtor, without regard to the wishes, and ^independent of any act of his \u2014 that a homestead may be exempted under the act without any selection \u2014 or in case the husband should neglect or refuse to select, and a selection should be deemed necessary, that the' wife might select. In regard to all that, it is sufficient to remark, that no such intendment can legitimately be deduced from the language of the act; and if such was the intent of the Legislature, the provisions of the law are entirely inadequate to effect that object; and the Court would be departing widely from its proper sphere of duty, should it attempt to carry out such an intention.\nBut even if the language of the act was such, as would admit of our giving it that construction, unless it was clear and positive, I think we might well pause before doing so. It would be an innovation upon the principles, both of the civil and common law, relative to the marital relations, to say the least of it, of the most doubtful expediency. The policy of the common, civil, and divine law, makes the husband and wife legally, but one person, of which the husband is the head, and which makes the wife dependant upon her husband. May it not well be feared that whatever may lessen that dependence, by investing the wife with legal rights and privileges, independent of her husband; by giving her a control over his property, that may be exercised contrary to his wishes, and what he may believe their mutual interests may require may tend to rend asunder the ties that in all Christian countries have bound them together, embitter and sever the domestic relations, and tend to sap the foundations of civil society.\nLet it be certified to the Circuit Court for the county of Wayne that it is the opinion of this Court, that under the finding of the jury, the defendants should be discharged.",
+        "type": "majority",
+        "author": "By the Court, Copeland, J."
+      }
+    ],
+    "attorneys": [
+      "Lothrop \u00e9 Duffield, for the people.",
+      "O. I & E. O. Walker, for defendants."
+    ],
+    "corrections": "",
+    "head_matter": "The People vs. Plumsted et al.\nWhere tlie owner of premises which have not been previously selected by him as ahomeatcadj conveys the same without the concurrence of his wife, such conveyance is valid without her signature, and is not affected by the provision of section 2 of the act approved March 25,1848, entitled an \" act to exempt a homestead from forced sale in certain cases.\u201d\n\u2019The mere ownership and occupancy of premises, is not sufficient to constitute the same a homestead, under the act of March 25th, 1848, unless there has been an actual selection and choice of the premises as such, by*the owner and occupant.\n' Case reserved from Wayne Circuit.\nAbout tbe 10tR May, 1850, tlie Husband of one Anna GoooH, owned and occupied a dwelling House, on a farm in Plymouth, Wayne county, on wHicH He and His wife Had resided from tHe time of tHeir marriage in 1847, to tHe day above named; on wHicH day, GoocH sold and conveyed the farm to Plumsted, one of defendants, but the wife did not join in the conveyance, or in any way release her right in the premises, or consent to the conveyance. After the sale, Gooch continued to occupy the dwelling on the farm with his family, until July following, paying the rent of the dwelling from May 11th, to July 3d, 1850, but the wife did not consent to, or concur in such payment. On the 3d July aforesaid Gooch deserted his wife, left the house, and has not since lived with his wife. A few days after Gooch leff^ his son, by Gooch\u2019s authority, and with his fathers\u2019 and another team, came to the house, packed up, and loaded upon the teams nearly all the household furniture, and took it away, leaving none of the family there save Anna. When one of the loaded teams was driving out of the yard, Anna followed into the road, and asked to get on, but was prevented by the person driving. Plumsted and the other defendant were present at the house when the teams were loading, and when Anna followed the team into the road; and at that time they went into the house, without the consent of Anna. Upon failing to get on to the team, she returned to the house and sat down upon the door-step; and afterwards, upon the invitation of Plumsted, went into the house and sat down upon a settee. Afterwards she insisted upon her right to remain in the house, and refusing to go out on the request of Plumsted, she was forcibly carried out by defendants, upon the settee, into and across the highway, in front of the house. Upon attempting to return, she was prevented by force, menaces, and threats of the defendants.\nThe defendants were indicted on complaint of Anna Gooch, at the January term, 1851, of Wayne Circuit, and tried at the May term, 1852, of said Court, and the jury, by special verdict, found the facts above. Whereupon, the Circuit Judge reserved the question, whether the defendants were guilty or not guilty, for the opinion of this Court.\nLothrop \u00e9 Duffield, for the people.\nO. I & E. O. Walker, for defendants."
+  },
+  "file_name": "0465-01",
+  "first_page_order": 473,
+  "last_page_order": 479
+}

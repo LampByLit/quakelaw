@@ -1,0 +1,66 @@
+{
+  "id": 1933624,
+  "name": "Daniels vs. Mosher",
+  "name_abbreviation": "Daniels v. Mosher",
+  "decision_date": "1851-01",
+  "docket_number": "",
+  "first_page": "183",
+  "last_page": "187",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "2 Mich. 183"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 443,
+    "char_count": 8870,
+    "ocr_confidence": 0.349,
+    "pagerank": {
+      "raw": 9.77350902192152e-08,
+      "percentile": 0.5316663249479023
+    },
+    "sha256": "c4290790a2182fed9378f1da4b90d41a2f389838b53e5001d5565eaa6401c14b",
+    "simhash": "1:80780cd5221ac362",
+    "word_count": 1632
+  },
+  "last_updated": "2023-07-14T19:13:31.599570+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Daniels vs. Mosher."
+    ],
+    "opinions": [
+      {
+        "text": "By the Court, Green J.\nIt is insisted that the judgment of the Circuit Court ought to be reversed because the, justice erred,\n1. In overruling the objection to the question put to the witnesses by the plaintiff below, whether, from the testimony, they should think the job was done in a good and workmanlike manner; and .\n2. In disallowing the value of the wood and timber sold by Mosher from the job, as a set off in favor of the defendant below.\nAnother error is insisted upon, relative to the admission of jrarol testimony as to the understanding of the parties concerning the wood and timber on the land to bo cleared, which, according to the view I have taken of the question, is immaterial and does not require to be noticed.\nThe first objection is well taken. The justice erred in receiving the testimony. The rule is too clear and well understood to require a reference to authorities, that a witness cannot be allowed to testify as to his opinion based upon the testimony he may have heard given in a cause, unless it be in a matter of skill, and the witness be an expert. But was this an error affecting the merits of the controversy. I think not. The justice certifies that he has returned all the evidence in the case. Several witnesses had testified that the job was well done, and there does not appear to me to have been any conflicting testimony upon that point.\nSome of the witnesses speak of seeing brands left on the land the size of a man\u2019s foot, and of some heaps of brush burned out in the middle with short brands around the edges, and of a stick eight feet long and as large round as the crown of a hat; and one witness says that some of the brush might have been cut lower. If Daniels had been dissatisfied with the manner of the work, he had a most ample remedy under the contract, by giving Mosher notice to leave the job. This he did not do, nor is there any evidence that he expressed the least dissatisfaction while the work was progressing. It must therefore be regarded as having been done according to the contract and to his satisfaction. Besides, the deficiency if any, on the part of Mosher, was of too trifling a character to bring him within the hard provisions of the contract which would subject him to a forfeiture of one-third of the actual value of his labor. To suppose that Daniels intended by that provision of the contract to subject Mosher to such a forfeiture, in case of a failure in the minutest particular, would be to impute to him an intention to do the most flagrant and reprehensible injustice. Setting aside the testimony so erroneously admitted, the result must have been the same. This cannot therefore be regarded as an error affecting the merits of the ease.\nBy the contract, Mosher was to cut and. bum. all the timber and brush, except such as was suitable for rails, and such as was to he left for shade. Instead of burning it all on the ground, he cut a portion of it into fire-wood, and sold it. There is no evidence that Daniels made any objection to his doing so. Do these circumstances establish an im- \u2022 plied promise to pay the value of the timber ? I think not. The same result was effected by the disposition which was made of the timber,, as if it had been burned on the land; that is to say, the land was prepared for cultivation. There is no pretense that Daniels was injured by this departure from the letter of the contract; and if Mosher deri- \u2022 ved a benefit from it, that does not constitute any ground of claim by Daniels. Both the letter and spirit of the agreement preclude all idea of a claim by Daniels on account of the timber. The justice, therefore, did not err in disallowing this claim, as a set off, without reference to the parol evidence of an understanding between the parties that Mosher was to have the benefit of it, which was entirely immaterial.\nThe judgment of the Circuit Court, affirming the judgment rendered by the justice, must he affirmed, with costs to the defendant in error.-\nJudgment affirmed.",
+        "type": "majority",
+        "author": "By the Court, Green J."
+      }
+    ],
+    "attorneys": [
+      "P. Farrand, for plaintiff in error.",
+      "D. Johnson, for defendant in error."
+    ],
+    "corrections": "",
+    "head_matter": "Daniels vs. Mosher.\nA witness cannot be allowed to testify as to his opinion, based upon the testimony he may have heard given in a cause, unless it be in a matter of skill, and the witness be an expert.\nIn a contract between D. and M. to clear land, M. was to chop all the timber suitable for rail cuts into rails, and all the other timber and brush, except some trees to be left for shade, he was to cut and burn. A portion of this last timber was cut into fire-wood and sold by M. \u2014 no objection thereto appearing to have been made by D. Held, That under the circumstances, the law did not imply a promise by M. to' pay D. for the timber so cut into ' firewood and sold by M., and that a claim therefor could not be set off by D. in an action brought against him by M. on the contract, to recover the price agreed on for clearing the\nError to Jackson Circuit Court.\nMosher, the defendant in error, sued Daniels, the plaintiff in error, in . 1845, before a justice of the peace in the county of Jackson. The declaration was in assumpsit, and the first count was upon a contract entered into between the parties in 1843, by which Mosher agreed to clear twenty acres of land for Daniels, in a particular manner, and with-' in a certain time; in consideration of which, Daniels was to pay Mosher one hundred dollars. Mosher was to chop all the timber suitable for rails, into rail-cuts, and draw them upon the south \u00a1side of the lot; and all the other timber and brush, except some small trees to be left for shade, he was to cut-and burn clean, fit for plowing. It was stipulated in the contract, that if Mosher should not ciit the small timber and bushes as low as Daniels should direct in presence of a witness, then Mosher should leave the job immediately after Daniels should give him written notice so to do; and that if Mosher should leave the job after receiving such notice, ho was not to receive any pay for what he should then have done on the job. It was further stipulated, that if Mosher should not pile and burn the logs and brush by the 20th day of May, 1844, then, and in that case, Daniels should get three disinterested men, at Mosher\u2019s expense, to go on to the land and say what the work done by Mosher was worth, and that Mosher should receive but two-thirds as much as such men should say it was worth.\nThe plaintiff averred performance of the contract on his part, and refusal by Daniels to pay, &c. Daniels plead the general issue, and claimed by way of set off, amongst other things, the value of the wood and timber upon the land embraced in the contract, which had been used or disposed of by Mosher. :\nOn tire ' trial before the justice, the plaintiff proved by several witnesses who had examined the premises, that the job was completed 'on the 20th day of May, 1844, in aj good and workmanlike manner, and some of them testified that the work was done better than any job they had ever seon done; and all the witnesses sworn on either side, agreed that the land was cleared so as to be in good condition for plowing. Ho attempt was made to show that Mosher had over been notified to leave the job. Daniels proved on the trial, that on the 29th of Maj-, 1844, he had procured three men to go upon the land and appraise the value of the work done by Mosber, and that they appraised it at ninety-seven dol\u00edais; but it was not shown that Mosher had any notice of this proceeding. It also appeared from, the testimony that Mosher had cut a large quantity of fire wood on the land, which he had sold, and that it was worth about 6c per cord in the tree; but this testsmony was taken, subject to an objection, and nothing appears to have been allowed by the justice, on account of the wood.\nThe plaintiff below, after the other testimony in the case had been given, called throe witnesses, whom he severally asked if they had heard the testimony in the cause; and upon their answering in the affirmative, they were severally asked whether, from the testimony given, they should think the job was done in a good and workmanlike manner. This question was objected to, on the ground that it was the province of the Court and not of the witnesses, to judge of the power and effect of the testimony. The Court overruled the objection, and the witnesses severally answered that they should say the job was done in a good and workmanlike manner.\nThere was an indorsement of sixty-five dollars paid on the contract, and there were several small items of account between the parties proven upon the trial.\nThe justice Tendered judgment in favor of the plaintiff below for $30, 84 damages and $5 costs of suit, which judgment was removed by the plaintiff in error by writ of certiorari to the Circuit Court for the county of Jackson, where the judgment of the justice was affirmed.\nP. Farrand, for plaintiff in error.\nD. Johnson, for defendant in error."
+  },
+  "file_name": "0183-01",
+  "first_page_order": 191,
+  "last_page_order": 195
+}

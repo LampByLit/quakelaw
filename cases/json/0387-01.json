@@ -1,0 +1,261 @@
+{
+  "id": 3186930,
+  "name": "Mrs. Claudia Beth Williams STEPHENS v. NATCHITOCHES PARISH SCHOOL BOARD",
+  "name_abbreviation": "Stephens v. Natchitoches Parish School Board",
+  "decision_date": "1959-11-09",
+  "docket_number": "No. 44591",
+  "first_page": "387",
+  "last_page": "399",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 388"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 So.2d 793"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "4 La.App. 123",
+      "category": "reporters:state",
+      "reporter": "La. App.",
+      "case_ids": [
+        5607866
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la-app/4/0123-01"
+      ]
+    },
+    {
+      "cite": "194 So. 102",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "case_ids": [
+        10029745
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/194/0102-01"
+      ]
+    },
+    {
+      "cite": "23 So.2d 708",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        10090243
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/23/0708-01"
+      ]
+    },
+    {
+      "cite": "62 So. 2d 541",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9916363,
+        9916287
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/62/0541-02",
+        "/so2d/62/0541-01"
+      ]
+    },
+    {
+      "cite": "195 La. 43",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10026658,
+        1192647
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/196/0015-01",
+        "/la/195/0044-01"
+      ]
+    },
+    {
+      "cite": "5 So.2d 499",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        2909535
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/199/0025-01"
+      ]
+    },
+    {
+      "cite": "199 La. 49",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10056239,
+        2909535
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/5/0499-01",
+        "/la/199/0025-01"
+      ]
+    },
+    {
+      "cite": "96 So.2d 396",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9880342
+      ],
+      "pin_cites": [
+        {
+          "page": "398"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/96/0396-01"
+      ]
+    },
+    {
+      "cite": "23 So.2d 336",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        10057882
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/23/0336-01"
+      ]
+    },
+    {
+      "cite": "207 La. 194",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10101970,
+        3054907
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/20/0917-01",
+        "/la/207/0193-01"
+      ]
+    },
+    {
+      "cite": "114 So.2d 594",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3185874
+      ],
+      "pin_cites": [
+        {
+          "page": "596"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0165-01"
+      ]
+    },
+    {
+      "cite": "238 La. 166",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9897537,
+        3185874
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/114/0594-01",
+        "/la/238/0165-01"
+      ]
+    },
+    {
+      "cite": "92 So.2d 128",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9892923
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/92/0128-01"
+      ]
+    },
+    {
+      "cite": "110 So.2d 156",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9870265
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/110/0156-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 636,
+    "char_count": 12468,
+    "ocr_confidence": 0.683,
+    "pagerank": {
+      "raw": 8.292527254052499e-07,
+      "percentile": 0.9752537696213177
+    },
+    "sha256": "3f3c2f204dde170dee805cc73a4c4144c64863f4ed19edf24cca69955b86bdde",
+    "simhash": "1:e816ed3f5b76b61d",
+    "word_count": 2035
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mrs. Claudia Beth Williams STEPHENS v. NATCHITOCHES PARISH SCHOOL BOARD."
+    ],
+    "opinions": [
+      {
+        "text": "FOURNET, Chief Justice.\nMrs. Claudia Beth Williams Stephens, whose husband, Searcy B. Stephens, was killed in an automobile collision between a car driven by him and a school bus operated by Sheppard Morris in the scope and course of his employment as a school bus driver for the Natchitoches Parish School Board, having obtained leave from the legislature to file suit against the school board as an agency of the state, instituted this tort action to recover damages, individually, and on behalf of her minor daughter, Burt Devonne Stephens, alleging that the collision was caused solely by the negligence of defendant\u2019s employee. The judgment of the district court maintaining defendant\u2019s exception of no right or cause of action and dismissing plaintiff\u2019s suit was set aside by the Court of Appeal, which also overruled defendant\u2019s pleas of one-year prescription and unconstitutionality of the act authorizing the institution, of this proceeding and remanded the case for trial on the merits. We granted certiorari on the application of the defendant to review the judgment of the Court of Appeal amending the judgment of the district court by increasing the award granted plaintiff, individually, from $26,-074.45 to $45,716.32, and for the use and benefit of the minor, from $10,375.00 to $19,375.00. See 110 So.2d 156.\nWhile various other questions are raised by the pleadings herein, the primary question presented for our determination is whether the legislature in authorizing plaintiff to file this suit not only waived the state\u2019s immunity from suit, but also its immunity from liability for torts committed by its officers, agents and employees in the performance of governmental functions.\nThe Court of Appeal, in disposing of this issue, citing pertinent authorities, aptly observed that \u201cinasmuch as parish school boards are agencies of the State as the administrators of a system of public education, their status with reference to immunity in actions sounding in tort is the same as the State itself,\u201d but concluded, relying on the decision of the Court of Appeal, Parish of Orleans, in the case of Steer v. Orleans Parish School Board, 92 So.2d 128, that \u201csuch immunity to actions in tort may be waived as to such agencies by appropriate legislative action.\u201d The Steer case is no authority for the proposition for which it is cited for the reason that this issue was neither raised nor passed upon in that case. Moreover, in a recent decision by this court in the case of Duree v. Maryland Casualty Co., 238 La. 166, 114 So.2d 594, 596, a contrary' conclusion was reached. In. that case, after pointing out that \u201cit is important to note. that there exists a distinction between the traditional immunity of the state from suit- * * * and its long recognized immunity-from liability vel non as respects actions based on torts committed by agents engaged in the performance of governmental functions,\u201d we held that any act of the legislature attempting to waive governmental immunity from tort liability would be unconstitutional as being in violation of Article III, Section 35, of the Constitution of 1921, as amended by Act 385 of 1946.\nCounsel for plaintiff, however, in their original and supplemental briefs, argue that this court, in deciding the Duree case, failed to follow the plain intention of the lawmakers and the people in adopting the 1946 amendment, and that the case should, therefore, be overruled. In any event, if sustained, it should be limited to suits against the state itself and not be extended to suits against school boards or political subdivisions of the state. Finally, that the Duree case involving a tort committed by the agents of the state while engaged in the performance of governmental functions is inapplicable here as the operation of a school bus is a proprietary or semiprivate function.\nIn support of their first contention, counsel for plaintiff claim that although the 1946 constitutional amendment was passed as a result of the decisions in the cases of Lewis v. State, 207 La. 194, 20 So.2d 917, and Crain v. State, La.App., 23 So.2d 336, a fact we noted in the Duree decision, nevertheless it did not have the effect of restricting the power of the legislature with regard to waiver of governmental immunity from tort liability, which power was expressly recognized in the Lewis case. It is counsel\u2019s contention that the constitutional amendment was intended to achieve two objectives: (1) to overrule the Lewis decision insofar as it implied that the legislature in authorizing suit could also appropriate state funds for the satisfaction of the judgment rendered therein, a fact that would seriously impair the state\u2019s fiscal policy, which objective was accomplished by providing that \u201c* * * no judgment for money rendered against the State shall be satisfied except out of monies appropriated by the Legislature for the purpose and (2) to overrule the Crain decision so as to prohibit the legislature from \u201ccreating a cause of action for a plaintiff which that plaintiff would not have had had the defendant been a private individual or corporation,\u201d which result was effectuated by providing that \u201c * * * the effect of any authorisation by the Legislature for a suit against the State shall be nothing more than a waiver of the State\u2019s immunity from suit insofar as the suit so authorised is concerned.\" (Emphasis supplied).\nWhile we commend counsel for plaintiff on their able and exhaustive presentation, in oral argument and in briefs, in which they vigorously attack and criticise the Duree decision in all of its aspects, we are nevertheless convinced that the conclusion we reached in that case is correct. The pertinent constitutional provision, above quoted, by its cogent and unambiguous terms, limits the power of the legislature in authorizing suits against the state to a waiver of governmental immunity from suit only and, therefore, under a cardinal rule of statutory construction \u201cwhen a law is clear and free from ambiguity, the letter of it is not to be disregarded, under the pretext of pursuing its spirit.\u201d Moreover, it is apt to observe that after the authorization herein granted by House Bill No. 113 was expressly withdrawn by Act 613 of 1956, adopted as an amendment to Article XIX of the Constitution in the general election of November, 1956, plaintiff obtained a new authorization, House Concurrent Resolution No. 45, adopted by the 1959 fiscal session of the legislature for the purpose of clearing up any objections raised by the defense to the constitutionality of House Bill No. 113. This resolution is made \u201cretroactive to the date of the alleged death, February 11, 1955,\u201d (Sec. 5), and in Section 6 contains the specific provision, consonant with the amendment to Article III, Section 35, of the Constitution, that \" * * * the effect of this authorization shall be nothing more than a waiver of the State\u2019s immunity from suit in so far as the suit authorized herein is concerned.\u201d\nCounsel for plaintiff\u2019s next contentions, i. e., that the decision in the Duree case, supra, should be restricted to suits involving the state itself and not be extended to school boards and that the operation of a school bus is a proprietary as distinguished from a governmental function, are equally untenable. While the defendant school board is a corporate body under the provisions of R.S. 17:51, nevertheless, as it acts merely as an agent for the state in the furtherance of the public educational system it enjoys the same immunity from tort liability as the state itself. Furthermore, that such immunity extends to the very activity involved here is recognized under the express provisions of R.S. 32:601 \u00e9t seq., specifically stating that even though school boards are authorized to enter into contracts for public liability insurance, covering the operation of motor vehicles owned and operated by such boards, \"the action of any such parish school board * * * in contracting for such insurance shall not be construed by the courts as a zvaiver of the governmental immunity of such boards * * * from liability for torts committed by its agents or employees.\u201d (R.S. 32:602) (Emphasis supplied).\nFor the reasons assigned, the judgments of the district court and of the Court of Appeal in favor of the plaintiff and against the defendant, Natchitoches Parish School Board, are reversed and set aside, the defendant\u2019s exception of no cause of action is sustained, and, accordingly, plaintiff\u2019s suit is dismissed. '\n. House Bill No. 113 of the 1956 session of the legislature was passed by both bouses, but vetoed by the governor. In 1959 the legislature adopted House Concurrent Resolution No. 45 for the purpose of clearing up the objections raised by the defense to the constitutionality of House Bill No. 113.\n. 96 So.2d 396, 398. This court, following a rule of long standing not to consider applications for certiorari except from final judgments of the Courts of Appeal, declined defendant\u2019s application to review that judgment of the Court of Appeal, it being interlocutory only.\n. Decision handed down June 1, 1959; rehearing denied October 9, 1959.\n. \u201cWhenever the Legislature shall authorize suit to be filed against the State it shall provide the method for citing the State therein and shall designate the court or courts in which the suit or suits authorized may be instituted and may waive any prescription which may have accrued in favor of the State against the claim or claims on which suit is so authorized. The procedure in such suits, except as regards citation and original jurisdiction, shall be the same as in suits between private litigants, but no judgment for money rendered against the State shall be satisfied except out of monies appropriated by the Legislature for the purpose. For the purpose of such suits the State shall be considered as being domiciled in the Capitol. No such suit shall be instituted in any court other than a Court of Louisiana. Except as otherwise specially provided in this section, the effect of any authorization by the Legislature for a suit against the State shall be nothing more than a waiver of the State\u2019s immunity from suit insofar as the suit so authorized is concerned. (As amended Acts 1946, No. 385, adopted Nov. 5, 1946).\u201d\n. It was conceded by the plain tiff in that case that the operation of a motor ambulance was a governmental function.\n. Art. 13, La.Civil Code. See also, State v. Maestri, 199 La. 49, 5 So.2d 499; Hibernia Nat. Bank in New Orleans v. Louisiana Tax Commission, 195 La. 43, 196 So. 15.\n. Art. XIX, Sec. 26, of the Constitution of 1921, as amended by Act 613 of 1956: \u201cThe following named commissions, boards, bodies or municipal corporations are and shall be considered special agencies of the State of Louisiana:\n\u201c(7) The parish school boards of each of the parishes of the State of Louisiana,\n* * * * *\n\u201cThe consent of the State of Louisiana to suits or legal proceedings against any of the above listed special agencies, (however heretofore given) is hereby expressly withdrawn and no such suit or proceeding shall be permitted except as provided in this section. This withdrawal of consent to suits and legal proceedings shall apply not only to suits and legal proceedings filed in the future but also to any pending suits or legal procedure. There is expressly excepted from the foregoing, suits for the enforcement of contracts entered into by any of the special agencies or for the recovery of damages for the breach thereof. Additionally, the Legislature of Louisiana may, in individual cases, by appropriate act grant to any party showing just and reasonable cause the right to sue any of these special agencies in compliance with Section 35 of Article HI of this Constitution * * *\u201d\n. See, Art. XIX, Sec. 26, La.Constitution, quoted in footnote 7, supra; Mire v. Lafourche Parish School Board, La., 62 So. 2d 541; Whitfield v. East Baton Rouge Parish School Board, La.App., 23 So.2d 708; Floyes, for Use and Benefit of Floyes v. City of Monroe, La.App., 194 So. 102; Horton v. Bienville Parish School Board, 4 La.App. 123.",
+        "type": "majority",
+        "author": "FOURNET, Chief Justice."
+      }
+    ],
+    "attorneys": [
+      "Jack P. F. Gremillion, Atty. Gen., H. L. Hughes, Gahagan & Gahagan, Natchitoches, for applicant.",
+      "Booth, Lockard, Jack, Pleasant & Le-Sage, Shreveport, Watson, Williams & Brittain, Natchitoches, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "115 So.2d 793\nMrs. Claudia Beth Williams STEPHENS v. NATCHITOCHES PARISH SCHOOL BOARD.\nNo. 44591.\nNov. 9, 1959.\nRehearing Denied Dec. 14, 1959.\nJack P. F. Gremillion, Atty. Gen., H. L. Hughes, Gahagan & Gahagan, Natchitoches, for applicant.\nBooth, Lockard, Jack, Pleasant & Le-Sage, Shreveport, Watson, Williams & Brittain, Natchitoches, for respondent."
+  },
+  "file_name": "0387-01",
+  "first_page_order": 226,
+  "last_page_order": 232
+}

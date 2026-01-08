@@ -1,0 +1,459 @@
+{
+  "id": 3186156,
+  "name": "Edward F. HERMANN v. NEW ORLEANS POLICE DEPARTMENT",
+  "name_abbreviation": "Hermann v. New Orleans Police Department",
+  "decision_date": "1959-02-16",
+  "docket_number": "No. 44310",
+  "first_page": "81",
+  "last_page": "107",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 81"
+    },
+    {
+      "type": "parallel",
+      "cite": "113 So.2d 612"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "224 La. 771",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10074917,
+        3090974
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/70/0679-01",
+        "/la/224/0772-01"
+      ]
+    },
+    {
+      "cite": "234 La. 1082",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2888890,
+        9890367
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "467"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/234/1081-01",
+        "/so2d/102/0464-01"
+      ]
+    },
+    {
+      "cite": "233 La. 694",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9872098,
+        5399335
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/98/0155-01",
+        "/la/233/0693-01"
+      ]
+    },
+    {
+      "cite": "226 La. 227",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10055921,
+        2985058
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/75/0343-01",
+        "/la/226/0227-01"
+      ]
+    },
+    {
+      "cite": "232 La. 499",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5435390,
+        9902863
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "452"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/232/0499-01",
+        "/so2d/94/0451-01"
+      ]
+    },
+    {
+      "cite": "231 La. 775",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9890233,
+        5467191
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/93/0001-01",
+        "/la/231/0775-01"
+      ]
+    },
+    {
+      "cite": "230 La. 816",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3084491,
+        10047828
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/230/0815-01",
+        "/so2d/89/0324-01"
+      ]
+    },
+    {
+      "cite": "228 La. 1078",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9909968,
+        2896769
+      ],
+      "weight": 8,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/84/0827-01",
+        "/la/228/1077-01"
+      ]
+    },
+    {
+      "cite": "101 So.2d 199",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9897504,
+        2887240
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/101/0199-01",
+        "/la/234/0677-01"
+      ]
+    },
+    {
+      "cite": "234 La. 678",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2887240,
+        9897504
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/234/0677-01",
+        "/so2d/101/0199-01"
+      ]
+    },
+    {
+      "cite": "233 La. 687",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9871954,
+        5403044
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/98/0153-01",
+        "/la/233/0687-01"
+      ]
+    },
+    {
+      "cite": "236 La. 668",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3181712,
+        9879197
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "53"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/la/236/0668-01",
+        "/so2d/109/0051-01"
+      ]
+    },
+    {
+      "cite": "224 La. 771",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10074917,
+        3090974
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/70/0679-01",
+        "/la/224/0772-01"
+      ]
+    },
+    {
+      "cite": "232 La. 499",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5435390,
+        9902863
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "453"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/la/232/0499-01",
+        "/so2d/94/0451-01"
+      ]
+    },
+    {
+      "cite": "230 La. 816",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3084491,
+        10047828
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "325"
+        },
+        {
+          "page": "325"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/la/230/0815-01",
+        "/so2d/89/0324-01"
+      ]
+    },
+    {
+      "cite": "228 La. 1078",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9909968,
+        2896769
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1085"
+        },
+        {
+          "page": "830"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/84/0827-01",
+        "/la/228/1077-01"
+      ]
+    },
+    {
+      "cite": "101 So.2d 199",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9897504,
+        2887240
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/101/0199-01",
+        "/la/234/0677-01"
+      ]
+    },
+    {
+      "cite": "234 La. 678",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2887240,
+        9897504
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/la/234/0677-01",
+        "/so2d/101/0199-01"
+      ]
+    },
+    {
+      "cite": "236 La. 668",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3181712,
+        9879197
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/la/236/0668-01",
+        "/so2d/109/0051-01"
+      ]
+    },
+    {
+      "cite": "234 La. 1082",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2888890,
+        9890367
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/la/234/1081-01",
+        "/so2d/102/0464-01"
+      ]
+    },
+    {
+      "cite": "228 La. 1078",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9909968,
+        2896769
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/so2d/84/0827-01",
+        "/la/228/1077-01"
+      ]
+    },
+    {
+      "cite": "101 So.2d 199",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9897504,
+        2887240
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/so2d/101/0199-01",
+        "/la/234/0677-01"
+      ]
+    },
+    {
+      "cite": "234 La. 678",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2887240,
+        9897504
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/la/234/0677-01",
+        "/so2d/101/0199-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1078,
+    "char_count": 34010,
+    "ocr_confidence": 0.731,
+    "pagerank": {
+      "raw": 6.841988594134889e-07,
+      "percentile": 0.9642361388636944
+    },
+    "sha256": "0300ab8d8c95bbbd2bbeaeac26bd2f0e453fdb82a1d7ff4e246dc122ef9039a0",
+    "simhash": "1:e4c6af701e4b937c",
+    "word_count": 5666
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "FOURNET, C. J., absent.",
+      "HAMLIN, J., concurs in the decree."
+    ],
+    "parties": [
+      "Edward F. HERMANN v. NEW ORLEANS POLICE DEPARTMENT."
+    ],
+    "opinions": [
+      {
+        "text": "HAMLIN, Justice.\nThe Civil Service Commission of the City of New Orleans maintained plaintiff\u2019s appeal from his discharge by the Superintendent of Police as a police captain for the Third and Fifth Districts and ordered him reinstated to his position with back pay from the date of his discharge, less any amounts of money earned in the interim. It ordered counsel to report to the Commission within thirty days, in the event they were unable to agree on the net amount due to the appellant.\nPlaintiff appealed to this Court from that portion of the ruling ordering a deduction of any amounts earned during the interim between his discharge and his reinstatement. He also appealed from the Commission\u2019s disallowance of back pay for the interim between the time of his suspension (hereinafter discussed) and the date of his discharge. Defendant neither appealed nor answered plaintiff\u2019s appeal.\nIn its \u201cRuling of Civil Service Commission on Appeal,\u201d the Civil Service Commisson of the City of New Orleans found that Edward F. Hermann, a Captain in the New Orleans Police Department, was suspended by the Superintendent of Police by letter' dated March 19, 1957, reading as follows:\n\u201cMarch 19, 1957\n\u201cCaptain Edward F. Hermann\n\u201c4939 Painters Street\n\u201cNew Orleans, Louisiana\n\u201cDear Captain Hermann:\n\u201cI have been officially informed that you were indicted today by the Federal Grand Jury for Income Tax evasion.\n\u201cAs a result of the seriousness and gravity of this charge I have no alternative but to suspend you immediately-\n\u201cVery truly yours,\n\u201c(Sgd) Provosty A. Dayries,\n\u201cSuperintendent of Police\n\u201cPAD/1\n\u201ccc-Personnel\n\u201cCity Civil Service\u201d\nLater, on June 21, 1957, plaintiff was dismissed by Superintendent of Police Dayries by letter reading as follows:\n\u201cJune 21, 1957\n\u201cCaptain Edward F. Hermann\n\u201c4939 Painters Street\n\u201cNew Orleans, 22, Louisiana\n\u201cDear Captain Hermann:\n\u201cI have given careful study to the Police Bureau of Investigation report relative to allegations of misconduct (sic) your part. I have concluded as follows:\n\u201ca. a system of graft existed in the Third District during your assignment there from January 7, 1951 through June 20, 1951.\n\u201cb. a system of graft existed in the Fifth District during your assignments there from June 21, 1951, through December 6, 1951, from May 6, 1952, through April 3, 1953, and from January 9, 1954, through July 26, 1954.\n\"c. you participated in these systems of graft while assigned to the Third and Fifth Districts.\n\u201cAs a result of my careful examination of this matter I find you acted in a manner unbecoming an officer, and hereby dismiss you from the Police Department, effective June 20, 1957.\n\u201cYour dismissal is specifically predicated on the fact that you allowed a system of graft to exist while assigned as a police captain to the Third and Fifth Districts.\n\u201cVery truly yours,\n\u201c(Sgd) Provosty A. Dayries\n\u201cSuperintendent of Police\n\"PAD/me\n\u201ccc-Personnel\n\u201cCity Civil Service\u201d\nPlaintiff appealed to the Civil Service Commission of the City of New Orleans from both the suspension and the dismissal. His counsel advanced two special defenses before the Commission \u2014 one to each the suspension and the dismissal.\nPlaintiff contended that his suspension on March 19, 1957 was predicated solely and only on the fact that he was indicted by the Federal Grand Jury for income tax evasion; and that under the decision of the Commission in the appeal of Hugh L. Hearty, No. 202, the suspension should be reversed.\nIn its ruling in the instant case, the Commission set forth:\n\u201cIn the Hearty case, this Commission held in substance that the filing of an indictment, being merely an accusation of a crime, is insufficient of itself without any independent finding or determination by the appointing authority to support a suspension, and, further, an isolated indictment without more, if considered adequate, would be tantamount to permitting the appointing authority to abdicate the responsibility placed upon him by the civil service law, in favor of an accusatorial body not in anywise connected with- the civil service system.\n\u201cThe Commission sees no material distinction between the case involving the appellant and the Hearty case, and must therefore order that the suspension be rescinded and set aside. However, as in the Hearty case, the Commission believes that justice will best be served in exercising its discre tion not to award back pay to the appellant.\u201d (Emphasis 'ours.)\nAs to his dismissal, plaintiff contended that in view of the fact that approximately one year elapsed from the time the facts became known to the Superintendent of Police until the letter of dismissal of June 21, 1957, the dismissal should be set aside, on 'the authority of the decision of the Commission in the Joseph A. Guillot case, No. 209 of its docket.\nThe Commission, in its ruling, observed that in the Guillot case it pointed out that the various investigations and reports by the Police Bureau of Investigation were presented to the Superintendent of Police in the early part of 1956, apparently during the months of March, April, and perhaps May, of that year, and that while the charges contained in the Superintendent\u2019s letter of discharge in that matter dated June 27, 1957, might well have contained adequate basis for discharge, the undue delay in taking action showed that the contents of the said letter of June 27, 1957 were not the true reasons for Guillot\u2019s discharge.\nThe Commission, in its ruling in the instant case, set forth:\n\u201cIn the instant case, the Superintendent of Police testified before this commission that he became apprised of the facts towards the middle of the year 1956. The action of dismissal did not follow until June 21, 1957. The Commission finds no substantial difference in the facts and must therefore conclude that the reasons for the dismissal given by the Superintendent in his letter of June 21, 1957, were not the true reasons for dismissal.\u201d\nThe Commission then entered the following findings of fact:\n\u201c1. An organized system of graft existed in the Third and Fifth District Police Stations during the period from approximately January 7, 1951, through July 28, 1951.\n\u201c2. During the existence of the said system of graft the appellant as Captain in the New Orleans Police Department was assigned to the Third and Fifth Districts.\n\u201c3. During the middle of the year 1956 the Superintendent of police had before him all of the evidence relative to the circumstances leading to his letter of dismissal of June 21, 1957.\n\u201c4. No action on dismissal in question was taken by the Superintendent until June 21, 1957.\n\u201c5. The causes for discharge stated in the Superintendent\u2019s letter of June 21, 1957, while they might well have been adequate for a basis of discharge if action had been taken promptly upon discovery of this evidence, were not in fact the true causes for discharge of appellant on June 21, 1957.\u201d\nThe Commission\u2019s conclusions of law in the instant case are:\n\u201c1, The true cause for discharge of the appellant was not stated in the letter of discharge of June 21, 1957.\n\u201c2. The governing law (Louisiana Constitution Article XIV, Section 15 (N) (1) [LSA] requires that a discharged Civil Service employee be furnished notice in writing of the cause of his discharge.\n\u201c3. The appeal is therefore maintained and appellant ordered reinstated in his position with back pay from the date of his discharge, less any amounts which he may have earned in the interim.\n\u201c4. Counsel are ordered to report to the Commission within thirty days in the event they are unable to agree on the net amount due to the appellant.\u201d\nCounsel for the appellant contends that the actions of the Commission in disallowing back pay for the period between his suspension and his discharge and subjecting his pay from the date of his discharge to the time of reinstatement to deductions for amounts earned during the interim are contrary to the prior jurisprudence of this Court. He relies on the following statement made in the case of Bennett v. Louisiana Wild Life and Fisheries Commission, 234 La. 678, 101 So.2d 199, 201 :\n\u201cAs aptly observed in the first Boucher opinion [State ex rel. Boucher v. Heard, 228 La. 1078, at page 1085, 84 So.2d 827, at page 830] \u2014 and which may be said to represent the uniform jurisprudence of this Court in the instance of one who has acquired permanent Civil Service status\u2014 \u2018Until there has been a lawful removal for cause, a civil servant is legally entitled to recognition of his permanent status as such, with the corresponding right to enforce the attending emoluments, rights and benefits flowing therefrom.\u2019 In reviewing the decisions of the Civil Service Commissions on appeal here, when the facts show, as in this case, that the employee was illegally dismissed and his services never lawfully terminated, we have said that such employee retained his permanent status as a Civil Service servant and is entitled to receive payment of his salary during the period of time, and until he has been lawfully removed or suspended for cause. State ex rel. Boucher v. Heard, 228 La. 1078, 84 So.2d 827; State ex rel. Anderson v. Walker, 230 La. 816, 89 So.2d 324; Day v. Department of Institutions, 231 La. 775, 93 So.2d 1; State ex rel. Boucher v. Heard, 232 La. 499, 94 So.2d 451.\u201d\nWe do not think that the cases relied on by counsel for the appellant are apposite, because they represent instances where this Court passed on the legality of the discharges involved or on matters irrelevant to those with which we are now concerned. They were not occasions where the State or City Civil Service Commissions had exercised the discretion vested in them under Article XIV, Sec. 15 (0) (3), Louisiana Constitution of 1921, which reads:\n\u201cIf any Commission after any hearing orders a dismissed or suspended employee reinstated, it may reinstate such employee under such conditions as it deems proper and may order full pay for lost \u2022 time.\u201d\nIn the Bennett case, supra, where an employee had been illegally discharged and the State Civil Service Commission, as well as the defendant, had agreed that the question was moot, we held that the Commission could not issue a decree ordering the defendant, Louisiana Wild Life and Fisheries Commission, to pay plaintiff his regular monthly salary for the period during which he was illegally separated from his position, such power not being given to it by law.\nIn the first Boucher case (Boucher v. Division of Employment Security, 226 La. 227, 75 So.2d 343) we held that the removals of plaintiffs from office were improper and illegal and set aside the order of the State Civil Service Commission removing them from office. In the second case (State ex rel. Boucher v. Heard, 228 La. 1078, 84 So.2d 827) we held that mandamus was the proper proceeding for an employee to bring to secure the back wages due him for the period of his illegal discharge; in other words, that \u201c * * * under Article 834 of our Code of Practice the writ of mandamus lies to order public officers to perform their mandatory duties, and that accordingly Boucher and the other relators were entitled to bring mandamus proceedings to recover their back salaries because they had never been lawfully dismissed from their civil service offices.\u201d In the third Boucher case (State ex rel. Boucher v. Heard, 232 La. 499, 94 So.2d 451) we affirmed the judgment of the trial court awarding plaintiffs their back salaries in their mandamus proceeding.\nIn Day v. Department of Institutions, 231 La. 775, 93 So.2d 1, we had before us for consideration the alleged illegal dismissal of plaintiff. Our final decree reinstated this plaintiff.\nThe case of Anderson v. Division of Employment Security of Department of Labor, 233 La. 694, 98 So.2d 155, involved procedural questions not relevant to the instant matter.\nThe case of State ex rel. Anderson v. Walker, 230 La. 816, 89 So.2d 324, upheld the right of an illegally discharged employee to bring a mandamus proceeding for payment of his back salary.\nIn Dickson v. Department of Highways, 234 La. 1082, 102 So.2d 464, 467, we reversed the Civil Service Commission\u2019s holding that plaintiff had been legally discharged for cause. We stated:\n\u201cUnder the ruling in the Bennett case, supra, (mentioned previously in this decision) appellant is entitled to his salary as a matter of course and it is unnecessary for this Court to order the payment. In case appellant is not paid he may resort to a mandamus proceeding, as was done in State ex rel. Boucher v. Heard, 228 La. 1078, 84 So.2d 827.\u201d\nIn the instant case the Civil Service Commission of the City of New Orleans \u25a0ordered the reinstatement of plaintiff, and there is no appeal from this order for our consideration. The Commission, after ordering reinstatement, then exercised the \u25a0discretion vested in it under Article XIV, Sec. IS, (0) (3), Louisiana Constitution of 1921, by reinstating the employee under such conditions as it deemed proper. These \u25a0conditions were the disallowance of back pay for the period of suspension; and an allowance of back pay from the date of his discharge, less any amounts which he may have earned in the interim.\nThe above cited provision of the Constitution gives to the Commission wide powers of discretion and much latitude in cases where it orders a dismissed or suspended employee reinstated; and where its ruling is attacked or questioned, we must ascertain whether the conditions imposed by the Commission are an abuse of its discretion.\nAppellant has neither proved, urged, nor pointed out \u2014 in brief or in argument \u2014 any facts or circumstances which would tend to show that the Commission abused its discretion.\nThe Louisiana Constitution of 1921, Article XIV, Section 15(N) (1), provides in part that the burden of proof on appeal as to the facts shall be on the employee.\nOn the other hand, appellee has urged in its brief that the reason why the hearing of appellant\u2019s case was delayed before the Commission and a decision not rendered until July 8, 1958, was because appellant, through counsel, sought and was granted numerous continuances, due to the fact that he had an indictment pending against him in the Federal Court. It contends that the cause of the delay in the hearing and disposing of appellant\u2019s case was attributable to him, and that the Commission, in exercising its discretion, evidently took into consideration the delays caused by appellant in seeking continuances and felt that justice would best be served by charging appellant therefor rather than penalizing the City of New Orleans.\nThe statement of appellee that appellant sought and was granted numerous continuances is not contradicted by appellant.\nUnder Article XIV, Section 15(0) (3), supra, we are of the opinion that the Commission had the right to take all of the foregoing circumstances into consideration in its ruling, and, in so doing, there was no abuse of discretion.\nThe case of City of New Orleans v. Jackson, 224 La. 771, 70 So.2d 679, is not apposite, because there the Commission saw fit to award the dismissed employee his full back pay. Such was an exercise of discretion under conditions which the Commission thought proper.\nFor the reasons assigned, the ruling of the Civil Service Commission of the City of New Orleans is affirmed.\nFOURNET, C. J., absent.\n. State ex rel. Boucher v. Heard, 232 La. 499, 94 So.2d 451, 452.",
+        "type": "majority",
+        "author": "HAMLIN, Justice."
+      },
+      {
+        "text": "On Rehearing\nFOURNET, Chief Justice.\nEdward F. Hermann, a captain in the Police Department of the City of New Orleani, following an indictment returned against him in the Federal Court, was for that cause suspended on March 19, 1957, and was dismissed on June 21, 1957, by letter of that date stating that his dismissal was specifically predicated on the fact that he had allowed a system of graft to exist while assigned to the Third and Fifth Districts, as revealed by a report of the Police Bureau of Investigation; and on appeal the Civil Service Commission of the City of New Orleans maintained the appeal, (a) rescinded and set aside the suspension but refused to allow back pay during that period, and (b) ordered appellant reinstated to his position with back pay to the date of his discharge with deduction of any amounts which he may have earned in the interim. From that ruling the present appeal is prosecuted by Hermann, and presents for our consideration the sole question whether the Commission, having concluded and found as a fact that the true cause for discharge of appellant was not stated in the letter of dismissal of June 21, 1957\u2014 and therefore of necessity the dismissal was in violation of the law obtaining in Louisiana, Article 14, Section 15(N) (1) of the Constitution \u2014 and having ruled that the suspension was illegal because based on a mere accusation of crime without independent finding or determination by the appointing authority, was empowered to disallow appellant\u2019s claim for pay during suspension and to order deducted such amounts as the appellant may have earned during his period of illegal separation from the service.\nWe have consistently said in reviewing these civil service rulings that where the facts show that the mandate of the law was not followed, the employee\u2019s services were never legally terminated and therefore such employee\u2019s status as a civil service servant was never terminated; hence he was entitled to receive payment of his salary during the period of time. As was aptly observed in State ex rel. Boucher v. Heard, 228 La. 1078, 1085, 84 So.2d 827, 830, \u201cIn the absence of a lawful dismissal there is no necessity, in law or in fact, for a reinstatement.\" And in considering Section 15(0) (3) of Article 14 of the Constitution, we have held that it has no application in the case of an illegally dismissed employee but is appropriate where the penalty imposed was excessive or where the cause for dismissal did not justify the penalty, commenting, when the provisions of that section were invoked for the first time, \u201cThis particular sub-paragraph becomes applicable and effective only where there has been a legal dismissal followed by a hearing and reinstatement. Upon such reinstatement the Commission may, in the exercise of its discretion, grant or refuse the award of back pay; but the predicate of a lawful dismissal or suspension, followed by a subsequent reinstatement, must exist before the discretionary power vested in the Commission by this sub-paragraph can be exercised.\u201d State ex rel. Boucher v. Heard, supra, 228 La. at page 1085, 84 So.2d at page 830. (Emphasis above, and that which follows, is supplied.)\nThe next time the matter came for our consideration was in State ex rel. Anderson v. Walker, 230 La. 816, 89 So.2d 324, 325, a mandamus proceeding to compel payment of salary from date of the decreed illegal discharge to the date of a purported second discharge; and in rejecting the respondent Administrator\u2019s contention that the second dismissal, approved in the interim by the Civil Service Commission, was retroactive to the date when the first dismissal was attempted, we observed that the contention \u201ccompletely overlooks the rationale of the Boucher case,\u201d and quoted therefrom: * * * Until there has been a lawful removal for cause, a civil servant is legally entitled to recognition of his permanent status as such, with the corresponding right to enforce the attending emoluments, rights and benefits flowing therefrom.\u2019 \u201d Quotation from 228 La. at page 1085, 84 So.2d at page 830. This was followed by another phase of the Boucher case (the third presented for our consideration), and involved an appeal taken by the respondent Administrator from a judgment on the merits in the mandamus proceeding, wherein was again urged a plea of lis pendens based on the contention that relator\u2019s claim for back pay was still pending before the State Civil Service Commission and accordingly he was seeking to recover the amount in two forums at the same time; and in denying that the plea had merit, reference was made to the second Boucher decision, supra, concerning the necessity of a lazvful dismissal or suspension followed by a subsequent reinstatement before the discretionary power vested in the Commission to order back pay by Article 14, Section 15(0) (3) of the Constitution can be exercised, and language was quoted therefrom with the added observation that \u201cIn other words, we held that the Commission was without jurisdiction to decide any claim, for back pay under the facts of this case.\u201d In a footnote, mention was made of the fact that the Commission itself, as shown by its interlocutory ruling, was of the view that the only question for determination on relator\u2019s appeal then before it was the legality of his discharge. In that opinion we also said: \u201cThat the question of back pay was not before the Commission was recognized in State ex rel. Anderson v. Walker, 230 La. 816, 89 So.2d 324, 325.\u201d\nThe case of Bennett v. Louisiana Wild Life and Fisheries Commission, 234 La, 678, 101 So.2d 199, is the Court\u2019s most recent pronouncement concerning Section 15(0) (3); it presented for our determination the correctness of the action of the State Civil Service Commission in refusing to order the defendant agency to pay the salary of the employee Bennett for the period during which he was illegally separated from his position. We again reviewed the jurisprudence and approved the action of the Civil Service Commission with the observation that: \u201c * * * zvhen the\nCommission concluded that his services were never legally terminated, and therefore that he was never lawfully discharged, under the foregoing jurisprudence he became entitled as a matter of course and without an order of the Commission to receive his regular salary until legally sus pended or dismissed for cause.\u201d 234 La. at page 685,101 So.2d at page 202.\nAfter further study and consultation, it is the considered opinion of the Court that the instant case is not distinguishable in any relevant particular from those discussed above; and this is therefore not a matter in which the Civil Service Commissions are authorized to use discretion under Section 15(0) (3) of Article 14 of the Constitution, but is governed by the settled jurisprudence that the unlawfully suspended or discharged employee in the classified service is entitled as a matter of course to his salary during the period of unlawful suspension and/or dismissal.\nCounsel for respondent New Orleans Police Department, both on original hearing and on rehearing, imply that delaying tactics were used by relator, stating it was at his request that the hearing on his suspension, originally set for April 10, 1957, was twice continued, that meanwhile his dismissal had been ordered and the hearing on both suspension and dismissal was thereafter set and continued a number of times, all at his request, that as a result the hearing was not begun until May 8, 1958, and submit that the situation presented in this case is most appropriate for application of the discretion reposed in the Civil Service Commission under Section 15(0) (3) of Article 14. This argument is totally without merit. Disregarding for the moment the circumstance that the subparagraph is inapplicable under the facts, there is nothing in the Commission\u2019s ruling to show its reason for disallowance of back pay during the period of suspension, and certainly no basis for the assumption that its purpose was to punish the appellant for seeking continuances which the Commission itself in the exercise of its discretion had seen fit to grant. That the pendency of criminal charges may well influence the orderly dispatch of other matters was noted in City of New Orleans v. Jackson, 224 La. 771, 70 So.2d 679, in this langauge: \u201cIt is suggested that during all of this period defendant might have applied for reinstatement. The suggestion overlooks the fact that during all that time a criminal charge was pending in the Criminal District Court against him and obviously a claim for reinstatement would have been a vain and useless formality. * * * He lost no time after his acquittal in taking steps to be reinstated * * 224 La. at page 782, 70 So.2d at page 683.\nThe question of whether the employing agency could offset the earnings of the illegally discharged employee during the period of his enforced separation from the payroll received an adverse answer in the recent case of Dickson v. Richardson, 236 La. 668, 109 So.2d 51, 53; and we there said that not only was such a result indicated by the broad langauge used in earlier civil service matters (with citation of numerous cases) but in more recent decisions under the present law (including those discussed in this opinion) \u201cit has been stated in unmistakable terms that whenever an employee is illegally dismissed he is entitled to receive payment of his salary during the time that he has not been carried on the payroll;\u201d observing further that \u201cIndeed, in State ex rel. Anderson v. Walker, 233 La. 687, 98 So.2d 153, the identical complaint made herein was raised, that is, that the trial court should have set off against the judgment all sums earned by the relator during the time he was off the State payroll. This plea was rejected on the ground that no authority had been cited requiring such a set-off.\u201d\nOther benefits sought by relator, i. e., the accumulation of sick leave for the period (March 17, 1957 through July 8, 1958), the accumulation of annual leave for the same period, the one-step salary increase which became effective November 1, 1957, for all employees of the New Orleans Police Department, and the back State pay to which he would be entitled under existing law, are matters which are not properly before us; they were not urged until relator\u2019s \u201cMotion for Appeal to the Supreme Court\u201d was presented to the Commission, and did not receive consideration in the Commission\u2019s ruling. We are not a court of original jurisdiction, and the Constitution specifically provides (Section 15(0) (1) of Article 14), \u201c* * * an appeal shall be granted to the Supreme Court of Louisiana on any question of law if application to the Commission is made within thirty (30) days after the Commission\u2019s decision becomes final. * * * \u201d\nFor the reasons assigned, the ruling of the Civil Service Commission of the City of New Orleans declaring the suspension and dismissal of Edward F. Hermann to have been illegal and maintaining his appeal is amended by deleting the portions (a) disallowing back pay for the period of suspension and (b) decreasing the remaining back pay by any amounts which he may have earned in the interim; and, as thus amended, it is affirmed.\nHAMLIN, J., concurs in the decree.\n. La.Const., Art. 14, Sec. 15 (N) (1) declares that \u201cNo person in the State or Classified Service, having acquired permanent Civil Service status, shall be demoted, dismissed, or discriminated against, except for cause, expressed in writing by the appointing authority. * * * \u201d\n. \u201cIf any Commission after any hearing orders a dismissed or suspended employee reinstated, it may reinstate such employee under such conditions as it deems proper and may order full pay for lost time.\u201d\n. That opinion, written by Mr. Justice Simon, expressed the unanimous view of the Court, with Mr. Justice McCaleb concurring in the decree.\n. Mr. Justice Hamiter was the author of that unanimous opinion.\n. State ex rel. Boucher v. Heard, 232 La. 499, 94 So.2d 451, 453.\n. Mr. Justice Hawthorne was the author of the Court\u2019s opinion, with a concurring opinion by Mr. Justice McCaleb; Mr. Justice Simon was absent and took no part.\n. To the ruling in the third Boucher case Mr. Justice McCaleb, who had concurred in the decree of the two previous Boucherdecisions, appended a short concurring opinion in which he expressed his present doubt as to the correctness of those two decisions but recognized that \u201cthey are the law of the case.\u201d 232 La. at page 508, 94 So.2d at page 454.\n.The author of the instant opinion was also the writer of the opinion in the Bennett case, which was signed by all members of the Court except Mr. Justice McCaleb,. who dissented.\n. The record contains a stipulation between counsel for relator and for respondent that \u201cthe appellant was indicted in the United States District Court for the Eastern District of Louisiana, in the case entitled United States v. Edward Hermann, Criminal Docket No, 26,478, and was acquitted by a jury of said indictment or charge on April 3, 1958.\u201d The date of indictment (for income tax evasion), as shown in the letter of suspension addressed to relator, was March 19, 1957.\n. The opinion, written by Mr. Justice McOaleb, was unanimous.",
+        "type": "rehearing",
+        "author": "FOURNET, Chief Justice."
+      },
+      {
+        "text": "McCALEB, Justice\n(dissenting in part).\nIt is not my purpose to revive my disagreement with the majority respecting the right of the Civil Service Commission to reinstate an employee, who has been illegally dismissed (as well as one who is lawfully dismissed), \u201c* * * under such conditions as it deems proper and may order full pay for lost time\u201d, as specifically provided by Section 15(0) (3) of Article 14 of the Constitution. Notwithstanding my inability to subscribe to the rationale of the rulings in State ex rel. Boucher v. Heard, 228 La. 1078, 84 So.2d 827 and Bennett v. Louisiana Wild Life and Fisheries Comm., 234 La. 678, 101 So.2d 199, which, as stated in my dissent in the Bennett case, had the practical effect of obliterating Paragraph 3 of Section 15(0) of Article 14 of the Constitution, those rulings were accepted and applied by me, as organ of the Court, in Dickson v. Department of Highways, 234 La. 1082, 102 So.2d 464, where we reversed the ruling of the Commission denying the employee\u2019s appeal and held that he must be regarded as never having been taken off the payroll.\nWhen the Dickson case was brought here on the second occasion (see Dickson v. Richardson, 236 La. 668, 109 So.2d 51), that being a mandamus proceeding in which the employee sought to have the appointing authority ordered to pay him full wages for time lost, the defendant pleaded that the Department was entitled to offset from the wages the sum of $4,502.62 which the employee had admittedly earned during his forced separation from the service. This plea of set-off was denied on authority of the doctrine of the Heard and Bennett cases and also the general jurisprudence in mandamus proceedings involving civil service employees under prior laws.\nHowever, the defendant in that matter again directed our attention to the clear and express provisions of Section 15(0) (3) of Article 14 of the Constitution, referred to hereinabove, as ground for maintenance of the claimed offset. We rejected the applicability of the constitutional provision to the mandamus proceeding, reasoning that it pertained only to cases in which the Commission itself reinstates the employee.\nIn view of the fact that the original opinion in the instant case, which was being handed down on the same day as Dickson v. Richardson, upheld the constitutional right of the Civil Service Commission to reinstate Hermann under such conditions as it deemed proper, it was essential in the Dickson case, where the defendant\u2019s plea of offset was disallowed, to rationalize the two holdings so that conflict would not ensue. Hence, giving due credence to the rulings in the Heard and Bennett cases and revitalizing the language of Section 15(0) (3) of Article 14 of the Constitution, we reasoned in the Dickson case that the Constitution meant what it said but that its provisions were restricted in operation to cases where the Commission itself reinstated the employee. This provided, in my opinion, a logical explanation of the different conclusions reached in the two cases. Besides, this interpretation of the constitutional provision was highly proper as it effected a partial reestablishment of the clear language of the Constitution which had been stricken from the law by the tenuous reasoning of the Heard and Bennett cases.\nThe Dickson case was a unanimous opinion, every member of the Court subscribing thereto. The context of that\u2019 opinion is plain and understandable, so it is evident that the subscribing justices believed that the construction therein given Section 15 (O) (3) of Article 14 of the Constitution was sound. Yet, the majority view in the instant case rejects that interpretation without discussion and renders ineffective the plain language of the constitutional provisions for all practical purposes.\nThis case, in my estimation, furnishes a glaring \u2022 example of the untoward result of the Court\u2019s decision deleting the constitutional provision, which vests the Civil Service Commission with the discretion of reinstating an employee under such conditions as it deems proper and with or without back pay. This appellant, while under federal indictment for income tax evasion, applied for and was granted continuances of his hearing before the Civil Service Commission on August 15, 1957, October 9, 1957, November 14, 1957, February 13, 1958, March 13, 1958 and April 10, 1958, evidently on his counsel\u2019s plea that the trial of his appeal for reinstatement might prejudice his defense before the Federal Court. For each delay obtained at his request, he is now to be paid for services he has not performed. Under the ruling on rehearing, it is the public fisc which suffers as a result of the indulgences extended to appellant. To say this is grossly inequitable is to put it mildly.\nTo this I cannot subscribe and, therefore, respectfully dissent from that part of the opinion and decree which amends the Civil Service Commission\u2019s ruling by deleting therefrom the portions disallowing back pay for the period of suspension and decreasing the remaining back pay by any amount Hermann may have earned in the interim.",
+        "type": "concurring-in-part-and-dissenting-in-part",
+        "author": "McCALEB, Justice"
+      }
+    ],
+    "attorneys": [
+      "Sam Monk Zelden, Max Zelden, New Orleans, for appellant.",
+      "Alvin J. Liska, City Atty., Beuker F. Amann, Asst. City Atty., New Orleans, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "113 So.2d 612\nEdward F. HERMANN v. NEW ORLEANS POLICE DEPARTMENT.\nNo. 44310.\nFeb. 16, 1959.\nOn Rehearing June 25, 1959.\nSam Monk Zelden, Max Zelden, New Orleans, for appellant.\nAlvin J. Liska, City Atty., Beuker F. Amann, Asst. City Atty., New Orleans, for appellee."
+  },
+  "file_name": "0081-01",
+  "first_page_order": 73,
+  "last_page_order": 86
+}

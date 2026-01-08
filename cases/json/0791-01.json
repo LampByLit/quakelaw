@@ -1,0 +1,306 @@
+{
+  "id": 3188609,
+  "name": "Succession of Marie Hebert THIBODEAUX",
+  "name_abbreviation": "Succession of Thibodeaux",
+  "decision_date": "1959-12-14",
+  "docket_number": "No. 43902",
+  "first_page": "791",
+  "last_page": "809",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 791"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 So.2d 525"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "233 La. 764",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9873472,
+        5402086
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/98/0181-01",
+        "/la/233/0763-01"
+      ]
+    },
+    {
+      "cite": "8 So.2d 734",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        10079525
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/8/0734-01"
+      ]
+    },
+    {
+      "cite": "64 So.2d 492",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9915066
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/64/0492-01"
+      ]
+    },
+    {
+      "cite": "223 La. 357",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9920800,
+        3144963
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/65/0794-01",
+        "/la/223/0357-01"
+      ]
+    },
+    {
+      "cite": "80 So.2d 418",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9895500,
+        2942996
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/80/0418-01",
+        "/la/227/0812-01"
+      ]
+    },
+    {
+      "cite": "227 La. 812",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2942996,
+        9895500
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/227/0812-01",
+        "/so2d/80/0418-01"
+      ]
+    },
+    {
+      "cite": "107 So.2d 69",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9877274
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/107/0069-01"
+      ]
+    },
+    {
+      "cite": "207 La. 699",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3054256,
+        10101942
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/207/0699-01",
+        "/so2d/21/0878-01"
+      ]
+    },
+    {
+      "cite": "226 La. 560",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2985667,
+        10080324
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/226/0559-01",
+        "/so2d/76/0730-01"
+      ]
+    },
+    {
+      "cite": "189 La. 713",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10054057,
+        5541299
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/180/0496-01",
+        "/la/189/0713-01"
+      ]
+    },
+    {
+      "cite": "227 La. 387",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2945864,
+        9908302
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/227/0388-01",
+        "/so2d/79/0491-01"
+      ]
+    },
+    {
+      "cite": "99 So.2d 495",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9889506
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/99/0495-01"
+      ]
+    },
+    {
+      "cite": "57 So.2d 739",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        2988613,
+        9915797
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/220/0834-01",
+        "/so2d/57/0739-01"
+      ]
+    },
+    {
+      "cite": "220 La. 833",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9915797
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/57/0739-01"
+      ]
+    },
+    {
+      "cite": "179 La. 45",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5460874,
+        10024615
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/179/0045-01",
+        "/so/153/0015-01"
+      ]
+    },
+    {
+      "cite": "74 So.2d 384",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        10053644,
+        3032644
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/74/0384-01",
+        "/la/225/1087-01"
+      ]
+    },
+    {
+      "cite": "225 La. 1087",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3032644,
+        10053644
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/225/1087-01",
+        "/so2d/74/0384-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 913,
+    "char_count": 22717,
+    "ocr_confidence": 0.746,
+    "pagerank": {
+      "raw": 7.471506818115186e-07,
+      "percentile": 0.9697924473589
+    },
+    "sha256": "3dbb8bf0ef051bf18683303499ababfa0b8a2520d44098c527def2480b32019b",
+    "simhash": "1:b7dbbdd14c110a43",
+    "word_count": 4012
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Succession of Marie Hebert THIBODEAUX."
+    ],
+    "opinions": [
+      {
+        "text": "HAMLIN, Justice.\nThis is an appeal from judgments of the trial court holding a statutory will (confected under LSA-R.S. 9:2442, Act 66 of 1952, and executed before George O\u2019Dowd, attorney-at-law and notary) and an olographic will of Mrs. Marie Hebert Thibodeaux to be null, void, and of no effect.\nMarie H. Thibodeaux, widow of Clarence E. Thibodeaux, died on April 10, 1955. Shortly thereafter, Esmae Sinitiere, a niece, petitioned the district court for the probate of the decedent\u2019s last will and testament, a statutory instrument dated February 23, 1955. She alleged that she had been appointed executrix of the estate of the deceased and prayed that she be recognized as such. After proof of the will and issuance of letters testamentary, an inventory reflecting a value of $10,632.90 was closed on June 6, 1955.\nMrs. Agnes Hebert Adams, Philip Hebert, Mrs. Vera Hebert Orgeron, and Mrs. Mildred Hebert Pertuit, sister, brother, and nieces, respectively, of Mrs. Thibodeaux, filed suit praying that the will, supra, be declared null and void, for the reason that the decedent could neither read nor write on February 23, 1955. They alleged that the decedent left no ascendants or descendants, and asked that they be recognized as heirs of the decedent and sent into possession of her estate in certain alleged proportions. Named as defendants were Esmae Sinitiere, Eloise Esnard, Adele Sweeney, and Cecile Hebert.\nAfter trial on the merits, the district court rendered judgment in favor of the petitioners holding the will to be null. In its judgment, the Court stated that it was of the opinion that the defendants failed to carry the burden of proving that the testatrix was able to read at the time of the execution of the will dated February 23, 1955.\nMrs. Esmae Sinitiere then petitioned the trial court for the right to probate an olographic will drafted on February 22, 1955, written by Mrs. Marie Hebert Thibodeaux. She alleged that therein she had been named testamentary executrix.\nThe probate of the olographic will was opposed by Mrs. Agnes Hebert Adams, Philip Hebert, Mrs. Vera Hebert Orgeron, and Mrs. Mildred Hebert Pertuit. They averred that the writing was illegible; that the decedent was unable to write; and that the decedent was unable to confect the purported olographic will on February 22, 1955.\nThe trial court rendered judgment declaring the olographic will dated February 22, 1955 to be invalid, null, void and of no effect. The present appeal followed.\nOur attention shall first be directed to the statutory will dated February 23, 1955. This being the last will and testament of the deceased and containing therein a statement that all prior wills were revoked, it follows that if this will is valid the olographic will of February 22, 1955 is of no effect and need not be considered.\nSince the trial court has held that the proponents of the statutory will did not bear their burden of proof, we feel constrained to a lengthy discussion of the testimony of record with respect to the ability of the decedent to read.\nMrs. Mildred Pertuit, a niece of the decedent, testified that she saw her aunt about once a month. She stated that she had read newspapers and medicinal prescriptions to her. She commented on the poor eyesight of the decedent, stating that she had had several operations on her eyes. She said that as far as she knew Mrs. Thibodeaux had never attended school or learned to read.\nMrs. Bernadine Calligan, who lived several blocks from the deceased, stated that she knew her since 1941. She said that she had administered insulin for diabetes to Mrs. Thibodeaux daily for nine years prior to her death. She testified that Mrs. Thibodeaux spoke French and broken English, but that the deceased had spoken English to her because she did not understand French. She further testified that she had assisted the decedent in reading her hospital statements, making change, reading restaurant menus, and paying bills, and that she had made telephone calls to the doctor for her. She said that Mrs. Thibodeaux had never told her whether she could read. Newspapers were read to Mrs. Thibodeaux by Mr. Thibodeaux during his life. Mrs. Calligan recalled that Mrs. Thibodeaux had worn thick glasses. Mrs. Lucille Gros Gomez, 63 years of age at the time of trial, stated that she had been a close neighbor of the deceased and had known her for twenty-seven years prior to her death. She stated that she had never seen Mrs. Thibodeaux read or write. She said that she and the deceased conversed in French; that they attended moving picture shows together and Mrs. Thibodeaux was able to see the screen, and that she would help the decedent count her money for the fare. She remembered that during the time she had known her the decedent would leave her house, but Mrs. Gomez did not know where she went.\nPhilip Hebert, brother of the decedent, testified that his sister was born around 1881 and married in 1905. He stated that his sister had weak eyesight and had worn thick glasses before she married. He remembered that decedent\u2019s husband had read to her. He testified that the deceased had never told him whether or not she could read or write, but that he knew she did not have this ability. He said that he was about five years younger than his sister, but that he remembered that the only-education she had had was a course in catechism preparatory for Communion.\nRobert W. Dixon (the first witness called by appellants), a resident of Algiers, distinctly recalled the occasion on which he witnessed decedent\u2019s will. He had gone to Mr. O\u2019Dowd\u2019s office for the purpose of having him compute his income tax. While he and his wife were waiting in the back living room, Mr. O\u2019Dowd called him and requested that he be a witness to Mrs. Thibodeaux\u2019 will. Mr. Dixon did not know Mrs. Thibodeaux and was a completely disinterested party. We believe that his recollection of the event is most pertinent. He was asked:\n\u201cQ. What happened at that time when I asked you to be a witness to this particular signature? A. You had me and another witness in a room with Mrs. Thibodeaux and yourself. You gave her the sheet of paper and you had one and she read with you through the will and testament.\u201d\nMr. Dixon further testified:\n\u201cQ. As I understand your testimony, the will was read to Mrs. Thibodeaux. Isn\u2019t that correct? A. She had a copy of the will in her hand. It was read to her.\n\u201cQ. She didn\u2019t read it herself, did she? A. She read with him.\n\u201cQ. Did she read aloud? A. I understood a few words she said. I was sitting on one side of the room and she was over there with him.\n\u201cQ. Were they reading at the same time? A. She was reading right along with him.\n\u201cQ. You mean she was looking at the will with him, don\u2019t you ? A. Everytime she would get to the end of the line she would move her eyes back over to come back over.\n\u201cQ. She was not reading the will with her own mouth, was she? A. Her lips were moving.\n\u201cQ. She was making no sound, was she? Tell the truth, Mr. Dixon.\n******\n\u201cA. I heard her mention a few words aloud.\n******\n\"Q. Did you ever actually hear Mrs. Thibodeaux reading anything aloud? A. I heard her talking.\n\u201cQ. You didn\u2019t hear her talking what she was reading? A. I heard her mention a few words.\n\u201cQ. But Mr. O\u2019Dowd was reading it aloud at that time? A. Which was the proper case to do I imagine.\n\u201cQ. That wasn\u2019t the? question. She was reading it aloud at the time, wasn\u2019t she? A. Yes, she was reading it aloud.\u201d\nMrs. Rose Marie O\u2019Dowd testified that she witnessed the signature of the decedent attached to the statutory will. She recalled the circumstances connected with the execution of the will. She said that Mr. O\u2019Dowd, the notary, handed the will to Mrs. Thibodeaux and then read from a copy thereof; that Mrs. Thibodeaux read along with him or followed him, saying that she understood it. Mrs. O\u2019Dowd said that Mrs. Thibodeaux signed the instrument in the presence of Mr. Dixon, Mr. O\u2019Dowd, and herself. She testified that she had not known Mrs. Thibodeaux prior to February 23, 1955.\nMr. George O\u2019Dowd, Mrs. Thibodeaux\u2019 attorney and notary, testified as follows with respect to the events which took place at the time of the execution of the decedent\u2019s statutory will dated February 23, 1955:\n\u201c* * * on the evening of February 23, 1955, Mrs. Marie Hebert Thibodeaux came to my office at 3329 General Meyer Avenue in Algiers for the purpose of perfecting a will in the form as provided by law. At the time she came there it was approximately eight o\u2019clock in the evening. She came to my office with the assistance of Mrs. Sinitiere and her husband.\n\u201cUpon the arrival of Mrs. Marie Hebert Thibodeaux and Mr. and Mrs. Sinitiere, I informed Mr. and Mrs. Sinitiere they would both have to leave the office, which they did, and I understand returning to their car which was on the outside of my office building. I then had Mr. Dixon who happened to come by my office at that time for the purpose of making an income tax return to come into the office and act as an officiating witness to the signature of Mrs. Marie Hebert Thibodeaux.\n\u201cAt the time that this will was confected with all of its formalities, I chose it because I had had previous conversations with Mrs. Thibodeaux, both prior and subsequent to the death of her husband and I felt that it would be the easiest and the most opportune type of will to draw because of her weakened condition. At the time she came in I sat her down in a chair. I sat down in the chair beside her and Mrs. O\u2019Dowd sat down in the chair roughly five or six feet distance from us. Mr. Dixon came into the room and stood roughly five or six feet away from all of us. I then proceeded to read the will aloud to Mrs. Thibodeaux, asking her to follow me as I read it. I read each individual bequest as set out in this particular instrument. At the conclusion of the reading, I asked Mrs. Thibodeaux if she understood what I had read to her and she informed me that she did, and informed me of that fact in the presence of everyone else who was there, which included Mrs. O\u2019Dowd and Mr. Dixon. I then informed her that she would have to signify to myself and to the other official witnesses that the instrument that we had just read was her last will and testament and that she intended to sign it as such, which she then did in my presence and the presence of the other two witnesses.\n\u201cI then immediately moved her from the chair in which she was sitting over to a desk space approximately six or seven feet away. She sat down at the desk in a chair which was one of these regular office chairs with movable fixtures and as a result I don\u2019t believe she was sitting too easily. She then signed her signature. I had Mr. Robert W. Dixon sign and Mrs. Rose Marie O\u2019Dowd sign, and I signed myself as notary public. * * \u201d\nMr. O\u2019Dowd also testified that on February 22, 1955 he was called to Mrs. Sinitiere\u2019s home for the purpose of drafting the last will and testament of Mrs. Marie H. Thibodeaux and opening the succession proceedings of Clarence E. Thibodeaux. Mrs. Thibodeaux, who was staying with Mrs. Sinitiere, was resting in bed. Mr. O\u2019Dowd testified that he asked Mrs. Thibodeaux if she could read and write and that she replied in the affirmative; she mentioned that her eyes were a little weak. His purpose in propounding the question was to ascertain what type of will should be drafted. Mr. O\u2019Dowd stated that he drafted a simple olographic will on a sheet of yellow paper, setting forth the dispositions directed by Mrs. Thibodeaux. He further testified:\n\u201cDuring the course of my drafting this particular will on behalf of Mrs. Thibodeaux, Mrs. Sinitiere informed me that as a matter of fact, the will, as drafted, had left out a brother and sister. Before completing the will\u2014 before bringing it in to her, I should say for the purpose of its completion, I specifically went back into the room of Mrs. Thibodeaux and informed her that she had left out a brother and sister from the will or dispositions that she intended to make. She informed me at this time that they had enough money; secondly, that they didn\u2019t have anything- particular to do with her, and third, that she hardly had enough as a practical matter to go around all the way. * * * I told Mrs. Thibodeaux at this time and I handed her this will \u2014 I had drafted it in large lettering so that it could be easily read by her \u2014 that she should write it out in her own hand in her leisure and upon its completion she should call me back for the purpose of going over that will with her. She told me that she would and the question of the will remained as it was at this time.\u201d\nMr. O\u2019Dowd stated that he went back to Mrs. Sinitiere\u2019s home the next morning. Mrs. Thibodeaux had copied the olographic will but had omitted certain bequests; she then made certain insertions, but the ink was of a different color than the original writing. Mr. O\u2019Dowd stated that out of an abundance of caution, he informed Mrs. Thibodeaux that she would have to redraft the will. She told him that she was too weak and ill to bother with that type of drafting and requested that he do it for her. He informed her that she would have to go to his office, and she agreed to go that evening. The events, supra, allegedly transpired.\nMrs. Esmae Sinitiere testified that after the death of her uncle, Clarence Thibodeaux, Mrs. Thibodeaux lived with her until her death, except for the time she was confined in the hospital. She corroborated Mr. O\u2019Dowd\u2019s testimony with respect to the execution of the statutory will of February 23, 1955, and stated that her aunt wrote the olographic will. She said that she bought the New Orleans States for her aunt, because she was interested in reading and was used to reading that particular newspaper; that Mrs. Thibodeaux read the death notices every day, as she was very interested in who was passing away.\nMrs. Eloise Esnard testified that Mrs. Thibodeaux was her aunt by marriage. She said that she had seen Mrs. Thibodeaux reading the evening paper. She said that Mrs. Thibodeaux did a little mending and minor housework, and that she would go to Canal Street alone before Mr. Thibodeaux\u2019 death.\nMrs. Thomas Meyer, sister of Mrs. Sinitiere, testified that she visited Mrs. Thibodeaux. She said that when she was a little girl she went to Mrs. Thibodeaux\u2019 house a lot, and that during that time Mrs. Thibodeaux read the paper and cards she received (evidently by mail). She remembered that the decedent would read the death notices to her. She said that she visited at her sister\u2019s house on February 22, 1955 and saw Mrs. Thibodeaux writing the olographic will herein involved. She said she asked her aunt what she was doing and that Mrs. Thibodeaux replied that she was writing her will. She positively identified the olographic will as the paper she saw her aunt writing.\nMrs. William Sweeney, a sister of the decedent and sixty-one years of age at the time of trial, testified that the decedent attended school and could read the paper \u201crecently.\u201d\nMr. Gilbert J. Fortier, a handwriting expert, testified that the signatures purporting to be those of Mrs. Thibodeaux, affixed to the will of February 22, 1955, an early will dated July 6, 1931, and the succession proceedings of Clarence E. Thibodeaux, were written by one and the same person. He also testified that the body of the olographic will was written by Mrs. Thibodeaux.\nThe policy of our law is to maintain the validity of a will, if possible. LeBleu v. Manning, 225 La. 1087, 74 So.2d 384. If possible, a will should be read so as to lead to a testacy, not to an intestacy. Succession of LaBarre, 179 La. 45, 153 So. 15; Carr v. Hart, 220 La. 833, 57 So.2d 739; Succession of Bechtel, La.App., 99 So.2d 495. However, even though it is the policy of our law to countenance and vindicate the wishes of deceased persons, in so doing we equally recognize that the legal formalities in the drawing up of wills must be scrupulously observed in all essential respects and with substantial precision. Stephens v. Adger, 227 La. 387, 79 So.2d 491; Succession of Bechtel, supra; Soileau v. Ortego, 189 La. 713, 180 So. 496; Succession of Koerkel, 226 La. 560, 76 So. 2d 730. With these rules and policies in mind,- we shall approach our analysis of the testimony of the witnesses of record, supra.\nMost of the testimony of appellees is negative. It is not at all conclusive. It is not incontrovertible and of the type from which only one conclusion can be drawn, namely, that Mrs. Thibodeaux could not read. Edwards v. Shreveport Creosoting Co., Inc., 207 La. 699, 21 So.2d 878.\nThe testimony of the proponents of the will is positive and affirmative. Mrs. Sinitiere, with whom the \u2018decedent spent the last months of her life, testified affirmatively that Mrs. Thibodeaux could read. She, above all other persons, should have been aware of decedent\u2019s capabilities. Those witnesses who visited the deceased -shortly before her last illness testified that she could read. They saw her at the period of time herein involved. The testimony of the notary who drafted the will is uncontradicted with respect to its confection and execution, and we place credence in his recitals and believe that he was fully cognizant of Mrs. Thibodeaux\u2019 condition on February 22nd and 23rd, 1955. He was convinced of her ability to read. Mrs. O\u2019Dowd\u2019s testimony is likewise affirmative. Mr. Robert W. Dixon, who witnessed the execution of the statutory will and the affixation of the decedent\u2019s signature, was a disinterested witness. He had no doubt as to the ability of the testatrix to read. In fact, he stated that he saw her reading. Without passing on the question as to whether the proponents of the will should have borne the burden of proof, we conclude that they assumed the burden and proved, by their credibility and the weight of their testimony, that in the light of their opportunities for observation the decedent could read on February 23, 1955. Cf. Coleman v. Continental Southern Lines, La.App., 107 So.2d 69; Smith v. Westchester Fire Insurance Co. of N. Y., 227 La. 812, 80 So.2d 418; Glorioso v. Glorioso, 223 La. 357, 65 So.2d 794; Franklin v. Greyhound Corp., La.App., 64 So.2d 492; Miller v. W. Horace Williams, La.App., 8 So.2d 734.\nA review of the facts surrounding the execution and confection of the olographic and statutory wills convinces us that decedent did draft the olographic will despite its illegible writing. In order to write the olographic will, decedent had to be able to read. It follows that if she could read, she was able to follow the statutory will handed to her by Mr. O\u2019Dowd at the time he read from its copy. We conclude that such was a fact and that the decedent could read.\nWe have examined the last will and testament of Mrs. Thibodeaux, dated February 23, 1955, with respect to its contents, and we find that it complies with the formalities required by LSA-R.S. 9:2442. Succession of Eck, 233 La. 764, 98 So.2d 181.\nHaving found that the statutory will of February 23, 1955 is valid, it necessarily follows that the purported olographic will of February 22, 1955 is of no effect, it having been revoked by the terms of the statutory will.\nFor the reasons assigned the judgment of the trial court, decreeing the nullity of the last will and testament of Mrs. Marie Hebert Thibodeaux executed on February 23, 1955, is reversed and set aside. The judgment of the trial court, decreeing that the last will and testament of Mrs. Marie Hebert Thibodeaux executed on February 22, 1955 is of no effect, is affirmed. It is now ordered that this cause be remanded to the district court to be proceeded with in accordance with law and the views herein expressed. Costs of this appeal to be borne by appellees. Costs of the lower, court applying to the will of February 23, 1955 to be borne by appellees; costs of the lower court applying to the will of February 22, 1955 to be borne by appellants. LSA-R.S. 13:4444.\n. \u201cIn addition to the methods provided in the Louisiana Civil Code, a will shall be valid if in writing (whether typewritten, printed, mimeographed, or written in any other manner), and signed by the testator in the presence of a notary public and two witnesses in the following manner:\n\u201c(1) Testator. In the presence of the notary and both witnesses the testator shall signify to them that the instrument is his will and shall sign each separate sheet of the instrument.\n\u201c(2) Notary public and witnesses. The notary and both witnesses must sign at the end of the will.\n\u201c(a) In the presence of the testator, and\n\u201c(b) In the presence of each other.\n\u201c(3) The foregoing facts shall be evidenced in writing above the signatures of the notary public and witnesses and the testator at the end of the will. Such declaration may be in the following form or a form substantially similar thereto:\n\u201c(a) Signed (on each page) and declared by testator above named, in our presence to be his last will and testament, and in the presence of the testator and each other we have hereunto subscribed our names on this day of......19....\u201d\n. \u201cFebruary 23, 1955\n\u201cI, Marie H. Thibodeaux, am of sound mind and body but realizing full well that life is in the hands of God the Giver do wish to make, and I ordain this to be my last will and testament.\n\u201c1. I revoke all prior wills.\n\u201c2. I name Esmae Sinitiere executrix of my last will without bond.\n\u201c3. I give unto Esmae Sinitiere all of my U. S. Government bonds I die in possession of.\n\u201c4. I give unto Esmae Sinitiere my bedroom set and refrigerator.\n\u201c5. I give unto Eloise Esnard % of all else I die possessed of.\n\u201c6. I give unto Adele Sweeney, Ceeile Hebert, and Esmae Sinitiere all the remainder of my estate namirig them my residual and universal legatees, sharing equally and alike.\n\u201c7. I direct George O\u2019Dowd, Notary-Public and Attorney at Law to handle the above as attorney thereof.\n\u201cThe Testator, Marie H. Thibodeaux in the presence of myself Notary, and Marie O\u2019Dowd and Robert W. Dixon declared and signified that the instrument above is her last will and that she shall sign the same as such; and in the presence of each other, testator and witnesses and Notary Public, we have each hereunto subscribed our names on this 23d day of February, 1955, at New Orleans, Louisiana.\n\u201cMarie Thibodeaux\n\u201cRobert W. Dixon\n\u201cRose Marie G. O\u2019Dowd\n\u201cGeorge O\u2019Dowd\n\u201cNotary Public\u201d\n. \u201cThose who know not how or are not able to read, cannot make dispositions in the form of the will provided for in R.S. 9 :2442.\u201d Act 66 of 1952; LSA-B..S. 9 :- 2443.",
+        "type": "majority",
+        "author": "HAMLIN, Justice."
+      }
+    ],
+    "attorneys": [
+      "George O\u2019Dowd, New Orleans, for plaintiff-appellant.",
+      "Dupont & Dupont, Plaquemine, for appellees."
+    ],
+    "corrections": "",
+    "head_matter": "116 So.2d 525\nSuccession of Marie Hebert THIBODEAUX.\nNo. 43902.\nDec. 14, 1959.\nGeorge O\u2019Dowd, New Orleans, for plaintiff-appellant.\nDupont & Dupont, Plaquemine, for appellees."
+  },
+  "file_name": "0791-01",
+  "first_page_order": 428,
+  "last_page_order": 437
+}

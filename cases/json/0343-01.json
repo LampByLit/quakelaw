@@ -1,0 +1,427 @@
+{
+  "id": 3187102,
+  "name": "Winston L. STOKES and Justiss-Mears Oil Co., Inc. v. Lester R. HARRISON and Beauregard Parish School Board",
+  "name_abbreviation": "Stokes v. Harrison",
+  "decision_date": "1959-11-09",
+  "docket_number": "No. 44562",
+  "first_page": "343",
+  "last_page": "363",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 343"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 So.2d 373"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "120 So. 376",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "109 So. 832",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "case_ids": [
+        1264844
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/161/1045-01"
+      ]
+    },
+    {
+      "cite": "167 La. 801",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2928896
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/167/0801-01"
+      ]
+    },
+    {
+      "cite": "161 La. 1039",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1264938
+      ],
+      "weight": 5,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/161/1039-01"
+      ]
+    },
+    {
+      "cite": "109 So.2d 510",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "142 La. 936",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        603073
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/142/0935-01"
+      ]
+    },
+    {
+      "cite": "235 La. 937",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3179692
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/235/0937-01"
+      ]
+    },
+    {
+      "cite": "187 La. 1028",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3169104,
+        10055075
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/187/1027-01",
+        "/so/175/0656-01"
+      ]
+    },
+    {
+      "cite": "179 La. 605",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10059787,
+        5460611
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/154/0622-01",
+        "/la/179/0605-01"
+      ]
+    },
+    {
+      "cite": "153 La. 857",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1282383
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/153/0857-01"
+      ]
+    },
+    {
+      "cite": "225 La. 74",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3033660,
+        11644695
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "268"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/225/0073-01",
+        "/so2d/72/0265-01"
+      ]
+    },
+    {
+      "cite": "101 F.2d 919",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1072512
+      ],
+      "pin_cites": [
+        {
+          "page": "922"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/101/0919-01"
+      ]
+    },
+    {
+      "cite": "61 L.R.A. 437",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "121 F. 250",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        1901320
+      ],
+      "pin_cites": [
+        {
+          "page": "256"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/121/0250-01"
+      ]
+    },
+    {
+      "cite": "19 L.Ed. 227",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "case_ids": [
+        3449513,
+        3451470
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/74/0564-01",
+        "/us/74/0700-01"
+      ]
+    },
+    {
+      "cite": "7 Wall. 700",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3451470
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/74/0700-01"
+      ]
+    },
+    {
+      "cite": "189 So. 355",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "case_ids": [
+        10040930
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/189/0355-01"
+      ]
+    },
+    {
+      "cite": "160 La. 360",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1267536
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/160/0359-01"
+      ]
+    },
+    {
+      "cite": "102 So.2d 547",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9893286
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/102/0547-01"
+      ]
+    },
+    {
+      "cite": "89 So.2d 466",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        10054717
+      ],
+      "pin_cites": [
+        {
+          "page": "467"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/89/0466-01"
+      ]
+    },
+    {
+      "cite": "211 La. 29",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10061704,
+        3146206
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "464"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/29/0461-01",
+        "/la/211/0030-01"
+      ]
+    },
+    {
+      "cite": "197 La. 1058",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5506728,
+        10037979
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "243"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/197/1057-01",
+        "/so2d/3/0241-01"
+      ]
+    },
+    {
+      "cite": "3 So.2d 188",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        10034634
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/3/0188-01"
+      ]
+    },
+    {
+      "cite": "173 La. 488",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10100729,
+        5420524
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "864"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/137/0862-01",
+        "/la/173/0487-01"
+      ]
+    },
+    {
+      "cite": "114 La. 1097",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2466127
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/114/1097-01"
+      ]
+    },
+    {
+      "cite": "109 So.2d 506",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9901420
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/109/0506-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1055,
+    "char_count": 23430,
+    "ocr_confidence": 0.741,
+    "pagerank": {
+      "raw": 3.024651020717751e-07,
+      "percentile": 0.8541343530066811
+    },
+    "sha256": "51e817f1534d76376713904bde5f36ce1c40603df6fee7b6630bac9b7d61cb2c",
+    "simhash": "1:890011ddd63663ae",
+    "word_count": 3914
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Winston L. STOKES and Justiss-Mears Oil Co., Inc. v. Lester R. HARRISON and Beauregard Parish School Board."
+    ],
+    "opinions": [
+      {
+        "text": "HAMLIN, Justice.\nIn the exercise of our supervisory jurisdiction and control (Article VII, Section 11, Louisiana Constitution of 1921, LSA), we granted a writ of review from a judgment of the Court of Appeal, First Circuit (109 So.2d 506), reversing the judgment of the Thirtieth Judicial District Court for the Parish of Beauregard.\nThe principal issue presented for our determination in this concursus proceeding is whether or not the sale of land owned by a local school board is a sale of property by the State, which must set forth a reservation of the minerals on the property in conformity with the following provision of Article IV, Section 2, of the Louisiana Constitution of 1921, LSA:\n\u201c * * * In all cases the mineral rights on any and all property sold by the State shall be reserved, except where the owner or other person having the right to redeem may buy or redeem property sold or adjudicated to the State for taxes. * * * \u201d\n(Emphasis ours.)\nThe stipulated facts of record recite that Beauregard Parish School Board acquired the property herein involved from Davis Brothers Securities Company on April 30, 1919, and conveyed it to H. C. Craft on October 27, 1926; Calcasieu Building & Loan Association acquired the property from Henry C. Craft by Sheriff\u2019s Deed on August 11, 1928, and conveyed it to Grady W. Grimes on May 11, 1929 ;\u25a0 Grady W. Grimes conveyed the property to the present owner, Lester R. Harrison, on February 5, 1944. In none of the deeds were the minerals excepted or mentioned. Lester R. Harrison executed an oil, gas, and mineral lease on the property on July 9, 1954 to Winston L. Stokes. On August 9, 1955, Beauregard Parish School Board likewise executed an oil, gas, and mineral lease on the property to Winston L. Stokes. The respective owners occupied the land during the years when they held title. Other than the recordation of the oil, gas, and mineral lease of August 9, 1955 from Beauregard Parish School Board to Winston L. Stokes, there was no adverse claim until the filing of the present proceeding.\nThe stipulated facts recite:\n\u201c * * * there were formed units for production of gas and condensate and later for production of oil and other liquid hydrocarbons, which units included the lands above referred to together with other lands.\n\u201cProduction of gas and condensate and oil has resulted from the development and operation of said units, a portion of which production has been credited to the lands in issue herein and above referred to, the proceeds of which portion has been deposited and are continuing to accrue and be deposited by the plaintiff into the registry of this court.\n\u201cThe tract of land hereinabove described is situated entirely within said unit.\u201d\nPlaintiffs instituted this concursus proceeding in January, 1957, alleging that a dispute existed between Lester R. Harrison and the Beauregard Parish School Board, which involved the ownership of the oil, gas, and other minerals lying in, on, or which may be produced from the instant property; they prayed, among other things, that the court declare to whom should be paid the funds deposited and to be deposited in the registry of the court.\nBeauregard Parish School Board contended that by operation of law pursuant to the provisions of Article IV, Section 2, Louisiana Constitution of 1921, supra, it was without authority to sell the instant property without a reservation of the minerals, and that the minerals had at all times since 1926 remained the property of the Beauregard Parish School Board and the State of Louisiana.\nLester R. Harrison averred that hy virtue of his and his predecessors\u2019 purchase of the property without any reservation of the minerals, he was the owner of all minerals and mineral rights therein. He also pleaded the prescription of ten and thirty years.\nIn scholarly reasons for judgment, the trial court recognized the State of Louisiana, through its agent, Beauregard Parish School Board, to be the true and lawful owner of all the minerals and mineral rights in the property. It rendered judgment awarding to Beauregard Parish School Board the funds deposited and to be deposited in the registry of the court.\nIn reversing the judgment of the trial court and awarding the funds herein to Lester R. Harrison, the Court of Appeal, First Circuit, found that the provision, supra, of Section 2, Article IV, Louisiana Constitution of 1921, did not apply to school boards in cases of this kind.\nThe controversy between Lester R. Harrison and Beauregard Parish School Board is before us for our full consideration.\nThe present Constitution of Louisiana was adopted on June 18, 1921. Article XII provided for the Public Education of the State, and Section 1 thereof recited:\n\u201cThe educational system of the State shall consist of all free public schools, and all institutions of learning, supported in whole or in part by appropriation of public funds. * * * \u201d\nSection 10 of Article XII stated:\n\u201cThe Legislature shall provide for the creation and election of parish school boards which shall elect parish superintendents for their respective parishes, and such other officers or agents as may be authorized by the Legislature. * * * \u201d\nFollowing the mandate of the Constitution, the Legislature in 1922 enacted Act 100. Section 17 provided:\n\u201cThere shall be a parish school board for each of the parishes, and these several parish school boards are constituted bodies corporate with the power to sue and be sued under the name and style (Name of Parish) Parish School Board. Citation shall be served on the president of the board and in his absence on the vice-president.\u201d\nSection 20 of Act 100 of 1922 stated, in part:\n\u201cThe school board may receive land by purchase or donation for the purpose of erecting school houses, provide for and secure the erection of same, construct such outbuildings and enclosures as shall be conducive to the protection of property, and make repairs and provide the necessary furniture, equipment, and apparatus. All contracts for new buildings, and improvements costing more than one thousand ($1,000.00) dollars, shall be let to the lowest bidder, the board reserving the right to reject any and all bids.\n\u201cThey shall have power to recover for any damage that may be done to the property in their charge; they may change the location of a schoolhouse, sell or dispose of the old site, and use the proceeds thereof toward procuring a new one. * * * \u201d (Emphasis ours.)\nOur jurisprudence has stated:\n\u201cParish school boards are not created by the Constitution, though that instrument, in section 10 of article 12 thereof,\u2019 directs the Legislature to create such boards. In obedience to this constitutional mandate, the Legislature has created a parish school board for each parish of the state, and made each board a body corporate. Section 17 of Act 100 of 1922. Each of these bodies corporate forms part of one educational system, under the general control and supervision of the state board of education. Act 100 of 1922; Const. \u00a7 6, art. 12. As each parish school board constitutes part of the educational system of the state, which is a state institution, it would appear that the members of each such board, who, as we have seen, are officers, their offices being created by the Legislature, under a constitutional mandate, are officers under the state, laboring in the service of the state, although their duties as members of the respective parish boards are confined to limited territories. This conclusion finds support, by parity of reasoning, in State ex rel. Smith v. Theus, 114 La. 1097, 38 So. 870, where it was held that a parish superintendent of schools was a state officer, although his duties are limited within the bounds of the parish for which he is elected.\u201d State ex rel. Wimberly v. Barham, 173 La. 488, 137 So. 862, 864; Cf., State ex rel. Debellevue, v. Ledoux, La.App., 3 So.2d 188.\n\u201cWhile local subdivisions and boards created by the state may have some connection with one of the departments of the state government as defined by the Constitution, they are not \u2018departments of state government\u2019 within the * * * meaning of the act [Act 259 of 1940],\n\u201cThe language of the Act shows that the Legislature intended to make a distinction between the \u2018departments of government of the State\u2019 and local political subdivisions of the state such as parishes and municipalities, boards, such as the school board; the reason for the distinction being, we think, that such local subdivisions, and boards, instead of being departments of the state governments as defined by the Constitution, are creatures of one of those departments of the state government, the Legislative Department.\u201d State v. Coulon, 197 La. 1058, 3 So.2d 241, 243.\n\u201cSchool boards possess only delegated powers defined by statutes and are not free to act as individuals and can do no act beyond the special powers delegated to them. * * * \u201d Ellis v. Acadia Parish School Board, 211 La. 29, 29 So.2d 461, 464.\n\u201c ^ * * Schoolboards are public boards of the State or subdivisions thereof so as to render them liable in compensation to their injured employees, * * * \u201d Chase v. Pointe Coupee Parish School Board, La.App., 89 So.2d 466, 467. Cf., Bynum v. Maryland Casualty Company, La.App., 102 So.2d 547.\nA reading of the above enactments and jurisprudence conclusively shows that a parish school board is an agency of the State, a corporate body, a political corporation, the recipient from the Legislature of certain delegated powers, including power to sell or dispose of old sites and use the proceeds thereof toward procuring new ones. Henderson v. City of Shreveport, 160 La. 360, 107 So. 139; Andrews v. Claiborne Parish School Board, La.App., 189 So. 355. Nowhere, however, do we find a parish school board called the \u201cState.\u201d\nArticle IV of the Louisiana Constitution of 1921 is one of limitations. Therein (Sec. 2), the State is ordered to reserve the mineral rights on any and all property sold by it. The word \u201cState\u201d is not qualified or modified; therefore, we must seek to ascertain its meaning.\n\u201cIn the Constitution the term \u2018state\u2019 most frequently expresses the combined idea * * * of people, territory and government. A State, in the ordinary sense of the Constitution, is a political community of free citizens occupying a territory of defined boundaries, and organized under a government sanctioned and limited by a written constitution, and established by the consent of the governed * * *\n\u201cAnd there are instances in which the principal sense of the word seems to be that primary one to which we have adverted of a people or political community, as distinguished from a government.\u201d State of Texas v. White, 7 Wall. 700, 19 L.Ed. 227.\n\u201c * * * A State is a political society, organized by the common consent of the people inhabiting a certain territory, for purposes of mutual advancement, protection, and defense, and exercising whatever powers may from time to time become necessary to that end. A State is distinguished from all other human societies \u2014 domestic, ecclesiastical, or commercial\u2014 by its political or civic character; and from all other forms of political society by its exercise of unlimited dominion over all persons and property within the territory which it occupies. Other societies are organized by the common consent of their members, and are intended for their mutual advantage; the State alone, in addition to these qualities, is at once political and supreme. This political supremacy of the State constitutes its sovereignty, and is its one essential attribute. Its limits cannot be defined. Its ingrediental elements cannot be enumerated. As it comprises every power necessary to the accomplishment of the end for which the State exists, its scope at any given moment can be determined only by the exigencies in which the State is at that moment placed. To meet these exigencies, however vast and unprecedented they may be, the sovereignty of the State, from the very fact that it is sovereignty, must always be sufficient.\u201d \u201cElementary Law,\u201d William C. Robinson, Sec. 410, p. 4S7.\n\u201c * * * When the Constitution speaks of a state, and inhibits the doing of certain things, it sometimes includes under the term \u2018state\u2019 every instrumentality or agency of the state which presumes to act by authority of the state, and in other cases the action of the state in its sovereign or legislative character is alone referred to. * * * \u201d Karem v. United States, 6 Cir., 121 F. 250, 256, 61 L.R.A. 437.\n\u201cThe County Board of Public Instruction though an arm of the State educational system, is limited in its functions to its county, and is to be analogized to a county, rather than regarded as the State itself.\u201d Board of Public Instruction for Brevard County v. Osburn, 5 Cir., 101 F.2d 919, 922.\nSince the word \u201cState\u201d may include every instrumentality of the state or may be limited in its scope,\n\u201cThe safest rule of interpretation is to look to the nature and object of the particular powers, duties and rights with all the lights and aid of contemporaneous history, and to give to the words such operation and force consistent with their legitimate purposes as may fairly secure and attain the ends proposed.\u201d State v. Roberson, 225 La. 74, 72 So.2d 265, 268. See, also, Union Sulphur Co. v. Parish of Calcasieu, 153 La. 857, 96 So. 787; \u201cConstitutional Limitations,\u201d Thomas M. Cooley, \u201cContemporaneous and Practical Construction,\u201d p. 81.\nSection 12 of Article IV of the Louisiana Constitution of 1921 recites:\n\u201cThe funds, credit, property or things of value of the State or of any political corporation thereof, shall not be loaned, pledged or granted to or for any person or persons * * *; nor shall the State, nor any political corporation, purchase or subscribe to the capital or stock of any corporation * * *. Nor shall the State, nor any political corporation thereof, assume the liabilities of any political, municipal, parochial, private or other corporation or association whatsoever, except as otherwise provided in this Constitution; nor shall the State undertake to carry on the business of any such corporation or association, or become a part owner therein; * * *\u201d (Emphasis ours.)\nIn Section 13 of Article IV of the Louisiana Constitution of 1921, it is further provided:\n\u201cThe Legislature shall have no power to release or extinguish, or to authorize the releasing or extinguishment, in whole or in part, of the indebtedness, liability or obligation of any corporation or individual to the State, or to any parish or municipal corporation thereof; * * * \u201d (Emphasis ours.)\nThe question posed herein is sui generis, and we believe: \u201cIn Construing a Constitution, resort may be had to the well-recognized rule of construction contained in the maxim \u2018expressio unius est exclusio alterius,\u2019 and the expression of one thing in a Constitution may necessarily involve the exclusion of other things not expressed. * * *\u201d 11 Am.Jur., Sec. 57, page 667, verbo, \u201cConstitutional Law.\u201d See, Garrison v. City of Shreveport, 179 La. 605, 154 So. 622; State ex rel. Fitzpatrick v. Grace, 187 La. 1028, 175 So. 656; Esso Standard Oil Co. v. Crescent River Port Pilots Ass\u2019n, 235 La. 937, 106 So.2d 316; City of Shreveport v. Price, 142 La. 936, 77 So. 883. In this respect, the learned Judge of the Court of Appeal in the instant case made the following statement, with which we agree:\n\u201cA comparison of the language of Sections 2, 12 and 13 of this Article IV of the Constitution in this particular leaves it crystal clear that where the framers intended that the restriction or limitation should apply to the State only as a separate entity from its political subdivision, the word State alone was used, but where the limitation or restriction was intended to apply to the State and to all political subdivisions thereof, the intent was so spelled out in terms of \u2018the State, or any political corporation thereof.\u2019 * * * \u201d [109 So.2d 510.]\nAct 100 of 1922 was in part carrying into effect the provisions, supra, of the Louisiana Constitution of 1921 providing for public education. In such close proximity to the adoption of the Constitution, it seems only reasonable to assume that the Legislature was aware of the limitations set forth in Article IV, Section 2, supra. We believe that the framers of the Constitution did not intend to include a State Agency (such as a school board) in said Section of said Article, and such intent is clearly evidenced by the failure of the Legislature to include the reservation of mineral rights when a school board sold or disposed of a piece of property under the authority of Act 100 of 1922.\nDefendant Beauregard Parish School Board argues vigorously that this proceeding is controlled by the cases of State ex rel. Board of Com\u2019rs of Tensas Basin Levee District v. Grace, 161 La. 1039, 109 So. 830, and Board of Com\u2019rs of Caddo Levee District v. Pure Oil Co., 167 La. 801, 120 So. 373.\nWe do not find that either of the above cited cases is apposite.\nIn the Tensas case, supra, we held that Section 2 of Article IV of the Louisiana Constitution of 1921 did not repeal Act 103 of 1892, insofar as it related to the making of grants of land to the Tensas Basin Levee District. The following statement, on which the instant school board relies, was not necessary for the decision in that case:\n\u201c* * * The district is a state agency, created and continued in existence by the state with the foregoing purpose in view. The state, should it transfer the land to the district, including the mineral rights, in accordance with the grant made by it, would not be parting with the property within the meaning of the constitutional section cited, but would only be placing it under the control of one of its agencies for the purpose of constructing and maintaining levees. The land would, to all practical intents and purposes, still be the property of the state. The district could not sell it without reserving to itself the mineral rights, for the reason that its creator, for whom it holds, could not do so. We see no reason, therefore, in so far as the section of the Constitution, cited, is concerned, why the auditor and the register should not execute the conveyance.\u201d [161 La. 1039, 109 So. 832.]\nIn the Caddo case, supra, we held that under LSA-Civil Code Articles 3521 and 3538 prescription ran against a State agency created by the Legislature for payment of royalties on land certified to the Levee District prior to the adoption of the 1921 Constitution. The following statement made in the opinion was not necessary for the decision of that case:\n\u201cIt appears, therefore, from the foregoing, that the plea of prescription presented is one pleaded against an agency of the state, created by the Legislature, to accomplish certain public purposes, devolving primarily upon the state, in bar of a demand for royalties, under a mineral lease, granted by that agency, on land conveyed to it by the state, to aid it in accomplishing those purposes. It also appears that the first question presented is whether prescription runs against an agency of the state on such a demand. If the question presented involved the loss by prescription of the mineral rights themselves, on land conveyed or certified to a levee district, under the Constitution of 1921, we should most likely hold, in view of the conclusion reached in State ex rel. Board of Commissioners of Tensas Basin Levee District v. Grace, 161 La. 1039, 109 So. 830, that, as the levee district must retain such mineral rights, it could not lose them by prescription, for a state agency cannot lose by prescription that which it must retain, and cannot alienate. * * But no such question is presented here, but only the question as to whether the demand of a levee district for certain royalties, under a lease, granted in 1910 on land certified to it by the state in 1901, is prescribed.\u201d [167 La. 801, 120 So. 376.]\nWe feel constrained to mention that in 1926 when the Beauregard Parish School Board sold the instant property to H. C. Craft in full and absolute ownership, neither purchaser nor vendor (an agency of the State) had any idea or even contemplated that the vendor would ever claim the minerals or mineral rights on the property. As reasonable men, it is fair to assume that the respective purchasers of the land would not have paid the prices they did had they known that there would be a future charge upon the land.\nWe do not believe that it is fair and just to extend the constitutional limitation of Section 2 of Article IV to a situation of the present nature. To do so would in effect be amending the Constitution of 1921 by writing into it something which was neither intended nor contemplated.\nWe conclude that the title of H. C. Craft and his successors to the instant property was without limitation or restriction, insofar as the mineral rights were concerned. The sale of said land by Beauregard Parish School Board was not a sale of property by the State.\nIn view of the above conclusion, we are not called upon to determine the questions of locus publicus and of prescription.\nFor the reasons assigned, the judgment of the Court of Appeal, First Circuit, is affirmed.\nThe property, located in the Parish of Beauregard, is described in plaintiffs\u2019 petition as follows: \u201cFour & 90/100 acres, being more particularly described as Acreage Tract Number 35 according to plat of survey by F. Shutts, C. E., dated June 20, 1914, being a subdivision of part of Section 24, Township 6 South, Range 11 West, * * *; said tract being bounded on the North by a street, South by Oklahoma Avenue, East by Kansas City Southern Railway and West by Acreage Tract 34, all of said survey.\u201d\n. This section presently reads in part as follows: \u201cThe Legislature shall provide for a public educational system of the State to consist of all public schools and all institutions of learning operated by State agencies and enact laws on all matters regarding tlie terms and qualifications for admission to the public schools.\n. This part of Section 10 of Article XU is presently in force and effect.\n. This part of Section 17 is now LSA-R.S. 17:51.\nThis part of Section 20 is found in LSA-R.S. 17 :S1.\n. \u201cTo provide that no member of Congress \u25a0 or person holding or exercising any office or position or employment of profit under the United States or under any foreign power shall be eligible to a member of the Legislature of Louisiana or shall hold orexercise any office or position or employment of profit under the State of Louisiana; to prohibit persons holding or exercise any office or position or employment of profit in one of the three departments of government of the State of Louisiana from holding or exercising any office, position or employment of profit in that department or in any other department or in any parish, municipality, or Board, Commission or subdivision of the State; to make certain exceptions and to provide punishment for the violation hereof.\u201d\n. Neither the trial judge nor the author of the opinion of the Court of Appeal thought that the cases were determinative of the issue herein involved.",
+        "type": "majority",
+        "author": "HAMLIN, Justice."
+      }
+    ],
+    "attorneys": [
+      "Peter S. Anderson, Dist. Atty., L. H. Coltharp, Jr., Asst. Dist. Atty., De Ridder, for defendant-relator.",
+      "Kay & Kay, De Ridder, for defendant-respondent."
+    ],
+    "corrections": "",
+    "head_matter": "115 So.2d 373\nWinston L. STOKES and Justiss-Mears Oil Co., Inc. v. Lester R. HARRISON and Beauregard Parish School Board.\nNo. 44562.\nNov. 9, 1959.\nPeter S. Anderson, Dist. Atty., L. H. Coltharp, Jr., Asst. Dist. Atty., De Ridder, for defendant-relator.\nKay & Kay, De Ridder, for defendant-respondent."
+  },
+  "file_name": "0343-01",
+  "first_page_order": 204,
+  "last_page_order": 214
+}

@@ -1,0 +1,154 @@
+{
+  "id": 3188805,
+  "name": "ORLEANS PARISH SCHOOL BOARD v. CITY OF NEW ORLEANS",
+  "name_abbreviation": "Orleans Parish School Board v. City of New Orleans",
+  "decision_date": "1959-12-14",
+  "docket_number": "No. 44252",
+  "first_page": "747",
+  "last_page": "757",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 748"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 So.2d 509"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "79 So.2d 335",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "232 La. 1059",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9912752,
+        5435195
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/95/0825-01",
+        "/la/232/1059-01"
+      ]
+    },
+    {
+      "cite": "230 La. 509",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10033818,
+        3088052
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/89/0055-01",
+        "/la/230/0509-01"
+      ]
+    },
+    {
+      "cite": "227 La. 347",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2942594,
+        9905871
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/227/0348-01",
+        "/so2d/79/0333-01"
+      ]
+    },
+    {
+      "cite": "228 La. 951",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9905516,
+        2897716
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/84/0597-01",
+        "/la/228/0951-01"
+      ]
+    },
+    {
+      "cite": "228 La. 662",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2894032,
+        9909868
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/228/0661-01",
+        "/so2d/83/0893-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 539,
+    "char_count": 8664,
+    "ocr_confidence": 0.724,
+    "pagerank": {
+      "raw": 4.7017680159860775e-07,
+      "percentile": 0.9287282772084395
+    },
+    "sha256": "917b8773015c2414e6b384a16e1c87477c22eb23c061f8ba9cbef5deb4b7307b",
+    "simhash": "1:ffe9b0437eb176f3",
+    "word_count": 1460
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "HAWTHORNE, J., absent."
+    ],
+    "parties": [
+      "ORLEANS PARISH SCHOOL BOARD v. CITY OF NEW ORLEANS."
+    ],
+    "opinions": [
+      {
+        "text": "McCALEB, Justice.\nOn November 2, 1954, the voters adopted an amendment to Article 12, Section 16 of the Constitution of 1921 authorizing the Orleans Parish School Board to levy a tax of 11J4 mills on the dollar for the years 1955 through 1959, on the assessed valuation of all property assessed for city taxation within the City of New Orleans. This amounted to an increase of mills over the tax rate previously authorized. Both the School Board and the city desired to expedite the collection of the additional tax, but at the time the new law was passed and promulgated, the city had already begun the preparation of its tax bills on immovable property for the year 1955 and had included therein the previously authorized 10-mill School Board tax. Therefore, im-. mediate collection of the additional lj4 mill tax on immovable property entailed either abandoning the prepared bills and preparing a new set, or preparing supplementary tax bills covering the lj4-uiill increase. Either plan necessitated an expenditure for clerical labor, printing and supplies which neither the city nor the School Board were willing to defray.\nTo eliminate delay in collection of this tax increase, the parties entered into an agreement which provided that, upon deposit by the School Board with the city the sum of $20,000 in cash, the city would prepare supplementary tax bills on immov-^ able property for the additional li/4-mill' tax, and would refund to the School Board the difference between the actual costs of preparing the bills (if less than $20,000) and $20,000. The agreement further provided that the parties would file in the district court a joint petition for a declaratory judgment as to which party should bear the cost of preparing the supplementary tax bills, the losing party being bound by the contract to pay such costs. Subsequently, the city prepared the supplementary tax bills at a cost of $13,171.40, remitted to the School Board $6,828.60, and filed with the School Board the joint petition for a declaratory judgment in this case.\nFollowing submission of this petition, the district judge, conformably with the prayer, declared and decreed that the sum of $13,-171.40, representing the cost of preparing supplementary tax bills for the year 1955, should be borne by the City of New Orleans. The city then appealed from that judgment to this Court.\nAt the threshold of this case, we are concerned as to whether the controversy is one entitling the parties to proceed under the Uniform Declaratory Judgments Act, R.S. 13 \u00a14231-13 \u00a14246. This question was not raised by the litigants pri- or to the presentation of the case here. However, during oral argument, some of the members of the Court expressed doubt that the case came within the purview of the Act in view of its restricted use in our procedural law as set forth in the decisions.\nThe test to be employed in determining whether a case is properly one for declaratory relief has been clearly defined in our jurisprudence. It has been decided that the statute may not be invoked unless there is a justiciable controversy (Tugwell v. Members of the Board of Highways, 228 La. 662, 83 So.2d 893 and State v. Board of Supervisors, etc., 228 La. 951, 84 So. 2d 597) and, further, that use of the act is limited to matters in which our own procedural law does not provide the party seeking relief with an adequate remedy. Burton v. Lester, 227 La. 347, 79 So.2d 333; see also Smith v. Smith, 230 La. 509, 89 So.2d 55 and Theodos v. Bossier City, 232 La. 1059, 95 So.2d 825.\nThe case at bar presents a justiciable controversy between the School Board and the city but it is perfectly plain that the dispute has no unusual features which could not be adjudicated in an ordinary suit by the School Board for judgment for the money the city is retaining, allegedly without lawful reason.\nIn Burton v. Lester, a matter reaching us on certificate from the Court of Appeal, Second Circuit, we were called on to decide whether the Declaratory Judgments Act could be employed to determine the issue of negligence of one of the plaintiffs when an action for damages brought by defendant was pending against her liability insurance carrier in the Federal Court. Observing that the frequent use of the Declaratory Judgments Act in this State made it imperative that this Court give its views respecting the general application of the statute, we set forth the policy by which the district courts of the State were to be guided. We said:\n\u201cThe statute is undoubtedly a most valuable supplement to the cumbersome common law procedure but its worth to a State like Louisiana, having a Code of Practice which has worked satisfactorily and efficiently for over 80 years, remains to be proven. At any rate, we do not believe that the statute should be employed as a substitute for the well-defined actions provided for in our Code of Practice or those which have been established by jurisprudence unless, by reason of the special circumstances of the case, the codal procedure does not furnish an adequate remedy.\n\u201c * * * Hence, we must perforce construe and apply the act according to its own terms, giving due regard to our established procedure so that it may take a useful and proper place therein. By adopting this course, we deduce, as we have stated above, that the Act is merely an adjunct to the civil procedure outlined in our Code of Practice of 1870 and should not be substituted therefor, save upon a showing by the litigant seeking the declaratory relief that the ordinary or summary proceedings recognized in the law and jurisprudence do not avail him an adequate remedy.\u201d [227 La. 347, 79 So.2d 335.]\nThe litigants have not made a convincing showing that the ordinary proceedings recognized in the law and jurisprudence do not avail them an adequate remedy. Indeed, it is manifest from a mere statement of the case that the School Board has a complete and actually a more effective remedy among the \u201cwell-defined actions provided for in our Code of Practice\u201d. It is. true that the agreement of December 22, 1954, specified that the parties were to. jointly petition the courts for a declaratory judgment to determine which one was. to bear the expenses of the supplementary billing. However, disputants cannot confer jurisdiction on the courts by stipulation or contract (Art. 92, Code of Practice) and they cannot bring a valid action in court without following the basic procedural requirements.\nThe declaratory judgment rendered herein is merely an advisory opinion which cannot be executed and, if the city continued its refusal to return the School Board\u2019s deposit after the finality of the decree, the School Board, would either be required to sue for enforcement of the contract, in which the city agreed that it would return the money in the event of an adverse court ruling, or apply for the supplemental relief provided by R.S. 13 :- 4238. Thus it is evident that use of the declaratory judgment procedure in this instance might prolong the litigation rather than, as is its stated purpose, simplify it. These results would not be possible if the ordinary procedure had been invoked for \u25a0enforcement of the School Board\u2019s claim.\nThe judgment appealed from is annulled and set aside and the joint petition of the parties litigant is dismissed.\nHAWTHORNE, J., absent.\n. The right to determine on its own motion whether a suit for a declaratory judgment is properly one for such relief applies to appellate, as well as nisi prius, tribunals, the broad discretionary powers conferred by R.S. 13:4231 being vested in all courts of record acting within their respective jurisdictions. See also R.S. 13:4236.\n. In this connection, it is apt to observe that the filing of a joint petition by the contestants in an adversary proceeding is contrary to our established practice. The rules of procedure for the conduct of civil cases in the district courts of this State which \u201c * * * shall be observed and enforced * * * \u201d provide for and envisage only proceedings by petition and answer of the opposing contestants. See Pleading and Practice Act as last amended by Act 27 of 1926 and incorporated in the Revised Statutes as R.S. 13:3601. The only exception to these rules of which we are aware is in cases of annulment of marriage by joint petition under Article 110 of the Civil Code. However, in those cases, the parties are not contestants.",
+        "type": "majority",
+        "author": "McCALEB, Justice."
+      }
+    ],
+    "attorneys": [
+      "Alvin J. Liska, City Atty. William Boizelle and Ernest L. Salatich, Asst. City Attys., New Orleans, for appellant.",
+      "Samuel I. Rosenberg, New Orleans, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "116 So.2d 509\nORLEANS PARISH SCHOOL BOARD v. CITY OF NEW ORLEANS.\nNo. 44252.\nDec. 14, 1959.\nAlvin J. Liska, City Atty. William Boizelle and Ernest L. Salatich, Asst. City Attys., New Orleans, for appellant.\nSamuel I. Rosenberg, New Orleans, for appellee."
+  },
+  "file_name": "0747-01",
+  "first_page_order": 406,
+  "last_page_order": 411
+}

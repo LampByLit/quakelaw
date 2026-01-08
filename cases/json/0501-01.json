@@ -1,0 +1,258 @@
+{
+  "id": 3186611,
+  "name": "STATE ex rel. Dr. Eileen B. McAVOY, M.D. v. LOUISIANA STATE BOARD OF MEDICAL EXAMINERS",
+  "name_abbreviation": "State ex rel. McAvoy v. Louisiana State Board of Medical Examiners",
+  "decision_date": "1959-11-09",
+  "docket_number": "No. 44547",
+  "first_page": "501",
+  "last_page": "531",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 502"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 So.2d 833"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "261 U.S. 165",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6138608
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/261/0165-01"
+      ]
+    },
+    {
+      "cite": "353 U.S. 232",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6160382
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/353/0232-01"
+      ]
+    },
+    {
+      "cite": "353 U.S. 252",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6160476
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/353/0252-01"
+      ]
+    },
+    {
+      "cite": "360 U.S. 474",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8871
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/360/0474-01"
+      ]
+    },
+    {
+      "cite": "71 L.Ed. 1324",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 S.Ct. 590",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "274 U.S. 720",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        81186,
+        81115,
+        81083
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/274/0720-01",
+        "/us/274/0720-03",
+        "/us/274/0720-02"
+      ]
+    },
+    {
+      "cite": "54 A.L.R. 594",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "162 La. 681",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1262270
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/162/0681-01"
+      ]
+    },
+    {
+      "cite": "90 So. 2d 899",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9910446
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/90/0899-01"
+      ]
+    },
+    {
+      "cite": "172 La. 261",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2976932
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/172/0262-01"
+      ]
+    },
+    {
+      "cite": "171 La. 318",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2919600
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/171/0317-01"
+      ]
+    },
+    {
+      "cite": "181 La. 390",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3083460,
+        10055439
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/181/0390-01",
+        "/so/159/0594-01"
+      ]
+    },
+    {
+      "cite": "24 So. 809",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 La.Ann. 1358",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        2577962
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la-ann/50/1358-01"
+      ]
+    },
+    {
+      "cite": "109 So.2d 123",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9882798
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/109/0123-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1252,
+    "char_count": 32692,
+    "ocr_confidence": 0.717,
+    "pagerank": {
+      "raw": 4.7469131159921537e-07,
+      "percentile": 0.9299215900232021
+    },
+    "sha256": "87901b94ca93f822ae9fc8c4d586951f30b7e87a7b47d179f296913f9c170367",
+    "simhash": "1:c10fa12ca13b387d",
+    "word_count": 5482
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "HAMITER, J., concurs in the decree.",
+      "SIMON, J., dissents with written reasons to be filed."
+    ],
+    "parties": [
+      "STATE ex rel. Dr. Eileen B. McAVOY, M.D. v. LOUISIANA STATE BOARD OF MEDICAL EXAMINERS."
+    ],
+    "opinions": [
+      {
+        "text": "McCALEB, Justice.\nRelatrix, a physician holding licenses to practice medicine in Texas and New York, brought this suit for the issuance of a writ of mandamus to compel the Louisiana State Board of Medical Examiners to issue her a reciprocity certificate to practice her profession in this State. She alleged that she made application to the Board for certification and that she possesses all of the qualifications required by the Louisiana statute (R.S. 37:1261 \u2014 1290) but that the Board, after holding an unlawful and improperly conducted hearing to consider her qualifications, had arbitrarily rejected her application.\nThe Board interposed exceptions of no right or cause of action to the petition. Simultaneously, it filed an answer in which it admitted that relatrix applied for a certificate to practice medicine and surgery, which was denied on the ground that it was not satisfied that she was of good moral character and pleaded that this decision was reached after a careful consideration of all of the facts in its possession and not (as charged by relatrix) arbitrarily and capriciously.\nAfter a consideration of the merits of the case the district judge, without passing on the propriety of the hearing conducted by the Board, rejected the demand, holding that the evidence did not show that the Board abused its discretion or acted arbitrarily in denying the application for licensure. Relatrix then appealed to the Court of Appeal for the Parish of Orleans where the judgment of the trial court was affirmed. That court, like the district court, gave no consideration to the claim of relatrix that the hearing held by the Board, which resulted in a denial of her application, was unlawful and confiscatory of her property rights. See 109 So.2d 123. On the showing made by relatrix in an application to this court a writ of certiorari was granted.\nHere, in argument and brief, new counsel for relatrix (employed since the case reached this Court) urges two grounds for reversal of the judgments rendered below. First, it is contended that the Act creating the Louisiana State Board of Medical Examiners is unconstitutional because it allegedly delegates powers of a legislative nature to the Board, the Act having no standards upon which to guide the Board in its determination of whether an applicant \u201cshall be of good moral character\u201d.\nAlternatively, counsel argues that the refusal of the Board to license relatrix was arbitrary and capricious and, further, that she was deprived of her property rights without due process of law because of the impropriety of the Board\u2019s hearing.\nWe may dispose of counsel\u2019s challenge of the constitutionality of the Medical Practice Act in short order because this issue was not pleaded or briefed in either of the lower courts, being raised for the first time at the hearing in this Court. It is the well-settled general rule (which is applicable herein) that the unconstitutionality of a statute cannot be asserted in the appellate court unless it has been pleaded and made an issue in the court of first instance. Allopathic State Board of Medical Examiners v. Fowler, 50 La.Ann. 1358, 24 So. 809; State ex rel. Porterie v. Jones, 181 La. 390, 159 So. 594 and other cases too numerous to mention.\nTherefore, the only issues properly presented for our consideration are whether the Board abused its discretion in refusing the application of relatrix for a medical license on the basis that she had not satisfied it as to the statutory requirement of good moral character and whether or not it deprived her of due process of law by conducting the hearing on her application improperly and illegally.\nBy mandate of the Constitution of this State the Legislature is instructed to provide for the interest of State medicine by protecting the people from unqualified practitioners. See Article 178 of the Constitution of 1879; Article 297 of the Constitutions of 1898 and 1913 and Section 12 of Article 6 of the Constitution of 1921. In conformity with these provisions, the Legislature has enacted a series of laws under which the Louisiana State Board of Medical Examiners was created, providing the rules for its operation and setting forth the qualifications which an applicant must possess in order to be issued a certificate to practice medicine. The last statutes on the subject were Acts 56 of 1914 and 54 of 1918, which were rewritten and incorporated into the Revised Statutes of 1950 as R.S. 37:1261-1290.\nR.S. 37:1271 sets forth the qualifications necessary for persons desiring to practice medicine in this State and included therein, in addition to a diploma from a college in good standing, legal age and citizenship, it is required that the applicant \u201cBe of good moral character; * * * R.S. 37:1273 declares that if the various requirements are met \u201cto the satisfaction of the board\u201d it shall issue the applicant a certificate to practice medicine.\nR.S. 37:1274 and 1277 provide for the issuance of temporary permits to applicants which may be granted by one member of the Board to any applicant after a satisfactory examination but which shall not continue in force longer than the next regular meeting of the Board. R.S. 37 :- 1275 declares that the Board may waive examination in favor of any applicant who presents to it a satisfactory certificate of examination from a board of medical examiners of another State if the Board finds that the certificate of examination from the board of examiners of another State was received on the equivalent of \u201cClass A college standard American Medical Association.\u201d\nThus, when an application is made for a license, either by examination or under the reciprocity section, the applicant must fill out a form furnished by the Board setting forth in detail information concerning the applicant\u2019s education and medical background. In addition, the Board has prescribed by rule that the applicant supply two letters of recommendation as to his moral character from physicians with whom he was associated during the year previous to the filing of the application.\nDuring July or August of 1956, relatrix moved from New York, where she had been practicing since December, 1955 to Hammond, Louisiana and purchased the medical practice of Dr. Louise Markham of that city. Upon reaching Louisiana in August, 1956, relatrix applied to the Medical Board for certification by examination, filling out the required application and providing the Board with letters of recommendation from two physicians with whom she had been associated during the previous year. Since it appeared at that time that relatrix had met all requirements for qualification, she was granted a temporary permit to practice in Louisiana on September 4, 1956.\nOn November 7, 1956 relatrix applied for a certificate of reciprocity and submitted all the necessary papers which included a sworn certification of ethical, professional and good moral character, executed by the President and Secretary of Yates County Medical Society of the State of New York and a like certificate executed by the Secretary of the Texas State Board of Medical Examiners, setting forth that relatrix had been licensed to practice in the State of Texas in August of 1952, after passing the State Medical Board examination, together with a recommendation of said Board that she was a fit and proper person to receive a certificate to practice medicine and surgery in Louisiana.\nThe Board held its regular semi-annual meeting on December 6, 1956 and voted to defer action on the application of relatrix for a permanent certificate of reciprocity pending further investigation. Thereafter, action on the application was twice more postponed and, on February 28, 1957, the Board wrote relatrix requesting that she appear before it for a hearing on March 7th \u201cIn connection with your application for licensure to practice medicine and surgery in Louisiana\u201d. The hearing was actually held on March 21, 1957, at which time relatrix appeared before the Board represented by her attorney, Mr. L. B. Ponder, Jr. of Amite, Louisiana.\nAt the outset of the hearing, counsel for relatrix asked if there were any charges against his client and he was told by the President of the Medical Board and by counsel for the Board that there were no charges but there were certain points respecting her application for a license concerning which the Board \u201c * * * would like a little further information * * * After making this announcement, the President of the Board administered an oath to relatrix and thereupon the Board members began to question her concerning certain statements contained in her application, particularly with reference to her employment during the past two years and other matters relative to her past financial dealings and other acts of a derogatory nature respecting which the Board had secured information from letters and long distance telephone calls. After the interrogation was concluded, relatrix and her attorney left the meeting room and thereupon the Board, following a general discussion, voted to deny her application for licensure on the ground that it was not satisfied with her moral character.\nSince the Board admits that the sole and only reason for its refusal to issue relatrix a license was because it was not satisfied that she was of good moral character, we need only to determine whether the information on which the rejection was founded was substantially reliable and dealt with acts of omission or commission essentially affecting adversely the moral character of relatrix \u2014 for the law is well settled that courts can intercede only where it is apparent that the discretion of an administrative board has been exercised in an arbitrary or illegal manner. State ex rel. Eberle v. State Board of Certified Public Accountants, 171 La. 318, 131 So. 32; State ex rel. Thoman v. State Board of Certified Public Accountants, 172 La. 261, 134 So. 85 and State ex rel. Carter v. La. State Board of Dentistry, La.App., 90 So. 2d 899.\nBefore discussing the information or evidence on which the Board\u2019s action in denying the application of relatrix was predicated, it is apt to set forth a short history of the applicant\u2019s medical career. She was graduated from Baylor University, College of Medicine, an accredited medical school, in June, 1952 and joined the U. S. Army Medical Corps the following month, serving therein as a doctor until January, 1955 when she received an honorable discharge following her resignation. After her separation from the service, relatrix went to Florida where she remained on vacation until April of that year, at which time she went to Washington, D. C. and lived in Silver Springs, Md. while looking for a job. In June, 1955 she went to Buckley, Washington, where she obtained employment as a physician at Ranier State School but left her position there after two weeks to secure a better job. In August of 1955 she returned to Massachusetts, her native State, to see her dying mother and remained there for several weeks. During this time she declares she was on the lookout for satisfactory employment in her profession. In September of 1955, she went to Logan, Ohio where she lived while following up a lead for employment and, in December of that year, secured a position with the Foster-Hatch Medical Group, Pen Yan, New York, where she worked until April of 1956. From May to July, 1956 she was employed by Willard State Hospital, Willard, New York and, as aforesaid, she moved from New York to Hammond, Louisiana in August of that year, having bought the practice of Dr. Louise Markham. Relatrix has practiced in Hammond ever since that time under the temporary permit issued by the Secretary of respondent Board.\nAs stated above, relatrix, in her application, furnished affidavits of her good moral character from the President and Secretary of the Yates County Medical Society of the State of New York and the Secretary of the Texas State Board of Medical Examiners and, in addition, supplied written endorsements of Dr. Sandor Benedek and Morton Orlov, physicians with whom she was associated during the last year of her practice before coming to Louisiana, as required by respondent.\nIt accordingly appears from this information that she made a prima facie showing of good moral character in compliance with the rules of respondent. Of course, respondent was not hound by these statements, as R.S. 37:1273 prescribes that all requirements of R.S. 37:1271 must be met to the satisfaction of the Board.\nBetween the time it received the application and the date of its hearing, respondent Board, chiefly through its Secretary, Dr. E. H. Lawson, caused an investigation of relatrix to be made. Dr. Lawson testified at the trial below that, prior to the Board meeting of December 6, 1956, when the application of relatrix was originally scheduled to be considered, he received a telephone call from \u201csome official of the Southern Bell Telephone Company in New York\u201d (Batavia, Genessee County) requesting information as to her whereabouts and it was because of that call that the Board decided to defer consideration of the application and make further inquiries relative to the immediate past activities of relatrix prior to the time she reached Louisiana. The investigation which ensued consisted of the following:\n(1)Dr. Lawson wrote to the District Attorney of Genessee County, New York, asking for information concerning relatrix and was sent, in reply a copy of a warrant accusing her of the crime of Grand Larceny in the Second Degree. Further information relative to this charge revealed that she had stopped payment on a $300 check, cashed for her at a race track in Batavia, New York and refused to make it good to the holder, and that extradition proceedings had been started against relatrix.\n(2) Dr. Lawson wrote to Dr. Sandor Benedek, whose letter of recommendation as to moral character was submitted by relatrix with her application, for further information about her. Dr. Benedek replied that he was acquainted professionally with relatrix when they worked together at Willard State Hospital (N.Y.) between May 13 and July 25, 1956; that she appeared to be a good physician and a good worker, but that the time he knew her was too short to learn more about her. He then added that he had been contacted by various police officers asking for her whereabouts, but that he knew nothing of any difficulty with which she might be faced.\n(3) Dr. Lawson wrote to Dr. Morton Orlov, another person whose letter of recommendation relatrix had submitted with her application. Dr. Orlov replied that he could not give any detailed information about relatrix because he had not worked with her or come in contact with any of her patients, and that he was only acquainted with her for a short time.\n(4) Aside from the letters of Dr. Benedek and Dr. Orlov, Dr. Lawson had two other letters (or copies) favorable to relatrix in his possession. One of these was from a woman doctor, Ruth Hartgraves, who sponsored relaT trix at Baylor Medical School and knew her very well. However, Dr. Hartgraves had not seen relatrix since the latter worked at Ft. Sam Houston, Texas when she was in the Army two years before. The second letter was received with information Dr. Lawson got from the Woodward Medical Personnel Bureau. It was a copy of a letter written by a doctor who had observed relatrix for a year while she was in the Army. Both of these letters were extremely favorable both as to relatrix\u2019 ability and good moral character.\n(5) Dr. Lawson wrote or telephoned the various hospitals at which relatrix had worked since her separation from the Army in January, 1956. The Soldiers and Sailors Memorial Hospital of Yates County, N. Y. and the Willard State Hospital, Willard, N. Y. could give no information concerning her moral character. However, lengthy letters were received from the Foster-Hatch Medical Group, Pen Yan, N. Y., and the Eastern State Hospital, Medical Lake, Washington.\n(a) Dr. Hatch, of Foster-Hatch Medical Group stated in his reply that he had heard that relatrix had never paid the Woodward Medical Personnel Bureau for securing her a position with Foster-Hatch. He also stated that he had heard that relatrix was unable to secure a license to practice in Ohio. Then Dr. Hatch went on to state that he found her to be very unstable mentally and emotionally and that he had had complaints about her from patients as well as from other physicians in the County Medical Society. He enclosed other correspondence concerning relatrix which included a reply to an inquiry of Dr. Markham of Hammond, whose practice was bought by relatrix. The reply was written by a Dr. Barnes, Business Manager of the Foster-Hatch Group, and it stated that relatrix\u2019 services were \u201cvery, very unsatisfactory.\u201d Also enclosed was a copy of a letter written by Dr. Barnes to the Woodward Bureau stating that she had broken her contract with Foster-Hatch and had proved to be very unsatisfactory, and recommending that the agency carefully reinvestigate her before recommending her again.\n(b) Dr. T. M. Barber, Assistant Superintendent of the Eastern State Hospital, Washington, stated in his reply that relatrix was employed at Ranier State School (Buckley, Washington) for less than two weeks; that her .service was unsatisfactory and that she \u201cleft by request\u201d. Dr. Barber cited a letter of reference which he had received from a woman physician who had known relatrix for about fifteen years. He stated that that letter \u201cindicated there was a reasonable question of doubt as to her suitability for state institution employment because \u2018physical and mental development were far ahead of emotional maturity and we couldn\u2019t wait for the two to get together\u2019 \u201d. Dr. Barber then went on to say that relatrix was \u201cconstantly on the defensive\u201d and was \u201cincompatible with both staff and patient performance of duty, and extremely irregular in hours of service. We question her integrity as to complete scope of her training and experience because of interpersonal relations and unsatisfactory performance during the two weeks at our facility.\u201d\n(6)Dr. Lawson telephoned the Woodward Medical Personnel Bureau, and received a written reply from the Director, Ann Woodward, with her file on relatrix enclosed. The reply stated that relatrix had been quite uncooperative in working with the Bureau and that she failed to pay the Bureau for the services which they performed for her. Miss Woodward also stated in the reply that it was her understanding that relatrix broke her contract with the Foster-Hatch Medical Group without giving notice, even though the Group\u2019s contract set forth a sixty day notice requirement.\n(7) Dr. Lawson phoned the Maryland Attorney General and the Board of Medical Examiners of Maryland and was informed by letters that neither could find any record of relatrix ever having been licensed to practice in the State of Maryland.\n(8) Dr. Lawson phoned the Ohio State Medical Board and received a reply from the secretary, Dr. H. M. Platter. Dr. Platter did not say what personal contact he had had with relatrix, but wrote as follows:\n\u201cFor a considerable period of time, she bothered us in Hocking County, Ohio, while her application for endorsement was pending, although she had not completed the blanks furnished until just before the Board meeting in January, 1956. During the interval, she acted peculiarly, to say the least, in fact I do not believe she is compos mentis.\n\u201cWhile here, she carried with her her diploma of graduation and her certificate of registration in the State of Texas, lived in a trailer and gave free medical advice as well as complaining against other physicians in the neighborhood which occasioned an investigation by the Narcotic Department of several physicians against whom nothing was found.\n\u201cI believe your investigation will coincide with ours if you interview her or observe her actions for a period of time.\u201d\n(9) Relatrix had sent to the Louisiana Board a $90 check, dated November 13, 1956, as payment of the balance of her reciprocity fee. When the Board tried to cash the check about two weeks later, it was returned to them marked NSF. The Board later received a money order from her to cover the $90.\nAt the hearing conducted on March 21, 1957, relatrix was questioned at length by members of the Board anent much of the derogatory information secured through Dr. Lawson\u2019s investigation. Her explanations were as follows:\n(1)In connection with the grand larceny charge against her in New York, for which extradition proceedings against relatrix had been taken, her attorney explained that the courts of this state had discharged relatrix on grounds that stopping payment on a check was not a crime under New York law, and no extradition could be had. In telling why she had stopped payment, relatrix stated that she had been at a race track in Batavia, New York and wanted to cash a check; that she met a person who possessed the credentials of a track detective; that she got him to cash a $300 check for her, but that he gave her only $150 and kept the rest so she wouldn\u2019t \u201close her shirt\u201d; that the \u201cdetective\u201d disappeared in the crowd; that she could not locate him and that, as a result, she stopped payment on the check. She further declared that she had made restitution to the holder of the check after extradition proceedings were begun.\n(2) Relatrix admitted that she knew only slightly the two men (Dr. Orlov and Dr. Benedek) whom she gave as references to the Board. At the trial of this case, she testified that she thought having Dr. Orlov write her a reference would be impressive and that she used Dr. Benedek as a reference because she worked with him every day for two months just before coming to Louisiana.\n(3) Relatrix stated at the hearing that she quit the Foster-Hatch Group because they were overcharging patients and because she had heard that Dr. Hatch had been banned by the New York State Board for abortions, and had been reinstated. She also claimed that she had been verbally promised certain salary increases which she did not get, although she admitted that those increases were not mentioned in her written contract. She further claimed that she did not break her contract with Foster-Hatch because she gave notice of her desire to leave soon after she arrived.\n(4) Relatrix testified at the mandamus proceeding that she was at the Ranier State School at Buckley, Washington, for \u201croughly two months\u201d when she had a residency in psychiatry awarded her by \u201cthe Northern State Hospital at Ft. Stielton, Washington\u201d but that she could not accept that residency because she received a message that her mother was dying in Massachusetts and had to go to her.\n(5) Relatrix stated at the hearing that she had not paid the Woodward Agency in full because it had overcharged her. It was then brought out that there was a dispute still pending between her and the Agency over how much she owed.\n(6) Relatrix declared to the Board that she had $1200 in the bank on the date she sent the Board the $90 check which was later returned NSF. She stated that she called the Board to find out why the check had not cleared and was told that the check was still attached to her application. She said that she then sent the money order to the Board.\n(7)The Board questioned relatrix extensively about certain discrepancies between what she stated in her application and what the Board read in the letters it received. Item 7 of the application form asks for \u201cYears of Practice. Give location and dates of practice in each place, and name all states in which you have been licensed, giving dates of licensure.\u201d Relatrix had written in Item 7: \u201cNew York (license No. 776561, Feb. 21, 1956. PenYan, New York. January 1956 to July 1956. From Jan. 1, 1955 to January 1956, was located in Silver Springs, Md. and practiced there and in Washington, D. C. (Army license for D. C. was still effective, (number ?) Licensed in Texas (C3131) Aug. 4, 1952. (Current). Active Duty MC US Army 7/ /52-1/ /55. Release Honorable due to Resignation.\u201d\nRelatrix explained at the Board hearing that she had never practiced in Maryland or Washington, D. C. except as an Army doctor, and that she mentioned Silver Springs in the application because it was the only permanent address she had from January 1955 to January 1956. However, at the trial in the district court, relatrix admitted that she treated patients in Silver Springs, Maryland while living there) even though she had no office or equipment.\nShe admitted at the Board hearing that she had applied for a license in Ohio, but stated that she had not stayed in that state long enough to get it. She emphatically denied that she had ever practiced in Ohio. She further declared that she had practiced in Washington State under a law whereby incoming physicians can practice until they have applied for licensing, but that she had to leave Washington State before she ever applied.\nA consideration of the above stated facts and information does not warrant a holding that respondent abused its discretion in concluding that it was not satisfied that relatrix was of good moral character. The data obtained by the Board shows that relatrix is admittedly a fugitive from justice from the State of New York, where she is charged with a felony. Her attempted justification of her reasons for stopping payment of the $300 check, on the faith of which she unquestionably obtained money from the third person cashing it, apparently did not impress the Board and we cannot say its members acted arbitrarily in refusing to accord weight to her testimony. Indeed, by her own admission, it appears that, ever since she resigned from the Army, she has been roaming the country, spending a few weeks or months in different employment, constantly in financial difficulties and passing NSF checks on at least two occasions. In addition, it is shown that relatrix did not include in her application that she had practiced in the State of Washington, there being indications that she might have practiced there without a license, and she acknowledges that she practiced at Silver Springs, Maryland without a license, explaining that she thought she could practice for a year in Maryland without a license.\nThe burden of proof was on relatrix to satisfy the Board that she was of good moral character (R.S. 37:1273), and obviously she was not able to do so. Respondent, we find, did not deny her application perfunctorily. On the contrary, it appears that, after the derogatory information was gathered, it delayed action until it could hear and consider relatrix\u2019 explanation, although as it turned out the board members did not regard her statement to be satisfactory.\nWe therefore pass on to a consideration of relatrix\u2019 contention that the hearing of the' Board contravened her constitutional rights, depriving her of due process (1) in that she was not informed in advance of any specific dissatisfaction of the Board with her application, nor did it allow her access to the adverse information it had obtained, and (2) in that she was not confronted with her accusers and was deprived of the right of cross-examination, the decision of the Board being predicated entirely upon hearsay.\nIt is manifest that the foregoing contention of relatrix, that she has been deprived of due process, is essentially dependent upon whether she has or had a property right to engage in the practice of medicine in Louisiana. That she did not have such a right has been already answered by this Court in Allopathic State Board Medical Examiners v. Fowler, 50 La.Ann. 1358, 24 So. 809 and Louisiana State Board of Medical Examiners v. Fife, 162 La. 681, 111 So. 58, 54 A.L.R. 594, affirmed 274 U.S. 720, 47 S.Ct. 590, 71 L.Ed. 1324, where it was held that there is no natural or absolute right to practice medicine or surgery. In the Fowler case, the defendant claimed that recognition of his qualifications by the constituted authorities of another \u2022 State carried with it a vested right in him to practice in this State. But the Court found that this claim had no legal basis on which to rest, declaring that the laws of other States, in respect to the practice of medicine, have no force in themselves in this State.\nIn the case at bar it is evidently the position of relatrix\u2019 counsel that, since she made a prima facie showing in her application that she met all the conditions prescribed for licensure in Louisiana, she became invested with a property right but this, of course, is not correct because no right to a license is given until the requirements of R.S. 37:1271 are met to the satisfaction of the Board. R.S. 37:1273. Since relatrix had no property right to practice her profession in Louisiana, she was not entitled to a contradictory hearing before the Board. The hearing given her was purely a matter within the administrative discretion of the Board and was undoubtedly accorded her so that she would have an opportunity to refute the derogatory information affecting her character which respondent had obtained. However, her explanations did not satisfy the Board members and, as we have above found, we do not regard their decision as arbitrary.\nThis is not a case, as counsel would like to have it, of the suspension or revocation of a license by respondent. The holder of a license has a property right which cannot be curtailed or revoked, save for causes prescribed by law (R.S. 37:1285) on charges formally made and heard contradictorily. But an applicant for a license is' not entitled to a hearing before the Board and relatrix had no right to demand that charges be preferred against her; that the persons who gave derogatory information to the Board he produced, or that they be subjected to her counsel\u2019s cross-examination. Compare Greene v. McElroy, 360 U.S. 474, 79 S.Ct. 1400, 3 L.Ed.2d 1377.\nThe judgment of the Court of Appeal is affirmed.\nHAMITER, J., concurs in the decree.\nSIMON, J., dissents with written reasons to be filed.\n. In fairness to the Court of Appeal, it should be said that, while relatrix, in her pleadings and brief to the trial court, assailed the legality of the evidence considered by the Board at the hearing at which her application was denied, her counsel (who was not the same counsel who represented her in the district court nor the same counsel representing her in this court) did not, in the brief filed in the Court of Appeal, stress this contention and that it was not until after the case was decided adversely by the Court of Appeal that he, in an application for a rehearing, specified as error that the court failed to consider the contention that relatrix was not afforded a proper and legal hearing and that the hearing given by the Board, at which certain hearsay evidence was considered, violated the due process clause of the constitution.\n. The Legislature has not defined good moral character but this term is generally well understood by the courts, even though the term itself is unquestionably ambiguous and may be defined in many different ways. However, no great difficulty is encountered as to the true meaning of the term when applied to the professions of law or medicine. It has been said that the term may be broadly defined to include the elements of simple honesty, fairness, respect for the rights of others and for the laws of State and Nation. See Konigsberg v. State Bar of California, 353 U.S. 252, 77 S.Ct. 722, 1 L.Ed.2d 810. And in Schware v. Board of Bar Examiners, 353 U.S. 232, 77 S.Ct. 752, 1 L.Ed.2d 796, it was held that a state has the right to require high standards of qualification such as good moral character and proficiency as a condition for admission to the bar of the State, which we think is equally true as to the medical profession, and that the applicant has the burden of showing that he is a person of good moral character. However, any standard of qualification must have a rational connection with the applicant\u2019s fitness and capacity to practice his profession. Schware v. Board of Bar Examiners, supra and Douglas v. Noble, 261 U.S. 165, 43 S.Ct. 303, 67 L.Ed. 590.\n. It was suggested by counsel for relatrix, both in the district court and in argument here, that the members of the'Board were guided by impure motives, but such charges are without factual basis.",
+        "type": "majority",
+        "author": "McCALEB, Justice."
+      }
+    ],
+    "attorneys": [
+      "Palmer & Palmer, Amite, Weber & Weber, Baton Rouge, for plaintiff-applicant.",
+      "Ellis, Lancaster & King, Robert E. LeCorgne, Jr., New Orleans, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "115 So.2d 833\nSTATE ex rel. Dr. Eileen B. McAVOY, M.D. v. LOUISIANA STATE BOARD OF MEDICAL EXAMINERS.\nNo. 44547.\nNov. 9, 1959.\nRehearing Denied Dec. 14, 1959.\nPalmer & Palmer, Amite, Weber & Weber, Baton Rouge, for plaintiff-applicant.\nEllis, Lancaster & King, Robert E. LeCorgne, Jr., New Orleans, for respondent."
+  },
+  "file_name": "0501-01",
+  "first_page_order": 283,
+  "last_page_order": 298
+}

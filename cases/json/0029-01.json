@@ -1,0 +1,245 @@
+{
+  "id": 3187414,
+  "name": "Mercer SCOTT v. Leon T. APGAR",
+  "name_abbreviation": "Scott v. Apgar",
+  "decision_date": "1959-06-25",
+  "docket_number": "No. 43373",
+  "first_page": "29",
+  "last_page": "41",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 29"
+    },
+    {
+      "type": "parallel",
+      "cite": "113 So.2d 457"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "159 La. 981",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1270135
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "538"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/159/0981-01"
+      ]
+    },
+    {
+      "cite": "35 So.2d 219",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3047720
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/213/0567-01"
+      ]
+    },
+    {
+      "cite": "213 La. 568",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3047720,
+        10043685
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/213/0567-01",
+        "/so2d/35/0219-01"
+      ]
+    },
+    {
+      "cite": "174 La. 148",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10023949,
+        5424654
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/140/0006-01",
+        "/la/174/0147-01"
+      ]
+    },
+    {
+      "cite": "171 La. 1011",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2917490
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/171/1011-01"
+      ]
+    },
+    {
+      "cite": "156 La. 455",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1275992
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/156/0455-01"
+      ]
+    },
+    {
+      "cite": "155 La. 459",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1277543
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "404"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/155/0460-01"
+      ]
+    },
+    {
+      "cite": "185 La. 488",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5806970,
+        10047843
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/185/0487-01",
+        "/so/169/0521-01"
+      ]
+    },
+    {
+      "cite": "6 Rob. 216",
+      "category": "reporters:state",
+      "reporter": "Rob.",
+      "case_ids": [
+        2522185
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/rob/6/0216-01"
+      ]
+    },
+    {
+      "cite": "162 La. 139",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1262377
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "179"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/162/0139-01"
+      ]
+    },
+    {
+      "cite": "14 So.2d 627",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        10061090,
+        3109070
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/14/0627-01",
+        "/la/203/0759-01"
+      ]
+    },
+    {
+      "cite": "203 La. 760",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10061090
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/14/0627-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 629,
+    "char_count": 13268,
+    "ocr_confidence": 0.743,
+    "pagerank": {
+      "raw": 3.84889225201511e-07,
+      "percentile": 0.8995265747153599
+    },
+    "sha256": "56d678a5eaa4a6d1c2cc6908ce9f4c7847817b89d9b85b0d9cdef2e657e11485",
+    "simhash": "1:ab6e8c8c5e4d774a",
+    "word_count": 2221
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mercer SCOTT v. Leon T. APGAR."
+    ],
+    "opinions": [
+      {
+        "text": "SIMON, Justice.\nThis suit was instituted under a bond for deed contract entered into by Scott and Apgar on March 10, 1953, under the terms of which plaintiff agreed to sell to defendant the City Ice Company Plant located in the City of Natchitoches, Louisiana, for a total consideration of $75,000, payable $8,000 cash on said date and the balance to be paid in installments at stipulated times thereafter. The defendant paid the installments due on June 20, July 20, August 20 and September 20, 1953. The contract further stipulated that when the amount of $25,000 had been paid, plaintiff would execute a deed conveying title to the defendant, the unpaid portion of the purchase price to be secured by a vendor\u2019s lien and privilege on the property. Defendant also assumed the payment of the 1953 ad valorem taxes and all taxes thereafter levied, and the payment of all premiums on outstanding hazard insurance policies covering the property.\nThe agreement, aside from other terms not pertinent, further provided:\n\u201cIn view of the fact that the First National Bank of Shreveport holds a mortgage against the ice plant herein-above described, it is understood and agreed by and between the parties hereto that all payments made by Leon T. Apgar shall be made jointly to Mercer Scott and the First National Bank of Shreveport, Louisiana, to be applied on the mortgage held by said bank.\u201d\nThe defendant having failed to pay the stipulated installments due on June 20 and July 20, 1954, plaintiff filed suit on August 2, 1954, wherein he obtained a sequestration of the property and prayed for recognition of his ownership of the subject property and possession thereof.\nFor answer defendant admitted plaintiff\u2019s claim of ownership and right of possession and, assuming the position of plaintiff in reconvention, prayed for judgment against Scott for the return of all moneys paid, amounting to $15,950.45 representing $14,000 paid on the purchase price and $1,505.45 paid as property insurance premiums and taxes, less the reasonable rental for the property at the rate of $300 a month for a total of seventeen months, or $5,100, leaving a balance due him of $10,850.45, with interest from March 10, 1953.\nIn a supplemental answer defendant contended that the bond for deed contract is illegal, null and void ab initio, having been executed in violation of the provisions of LSA-R.S. 9:2941-2947, inasmuch as the subject property was on the date of the contract and prior thereto under a mortgage in the sum of $50,000, executed by plaintiff in favor of the First National Bank of Shreveport, Louisiana, and that plaintiff did not obtain and record in the public records a written guarantee from the mortgagee to release the said property upon payment by Apgar of a stipulated mortgage release price. He prayed for reimbursement of all moneys paid by him, and in the alternative, for the amount less rental value as originally sought.\nThe lower court rendered judgment dismissing the defendant\u2019s reconventional demand at his cost, and he has appealed.\nAct 169 of 1934, LSA-R.S. 9 -.2941-2947, sets forth detailed provisions extant with the conditional sale of realty. A bond for deed is defined as a contract to sell realty In which the purchase price is to be paid by the buyer to the seller in installments and in which the seller after payment of a stipulated sum agrees to deliver title to the buyer. The statute declares unlawful, and with a prescribed criminal penalty; the execution of such a contract, where the realty to be sold is encumbered by a mortgage or privilege without first obtaining a written guarantee from the mortgage holder to release the property upon payment by the buyer of a stipulated release price, which shall be identified with the notes, and which shall be recorded in the mortgage records of the parish in which the property is situated. It further provides that all payments by the buyer shall be made to some bank, which shall be designated as the escrow agent for all interested parties, the payments to be distributed by it between the seller and the holder of the mortgage, in such proportions as the secured obligation shall bear to the purchase price in order to secure the buyer an unencumbered title when all payments, in the total amount stipulated, have been paid.\nIt is conceded that the property was then, and prior to the date of the contract, burdened with a mortgage held by the First National Bank of Shreveport in the sum of $50,000.\nThe primary question presented is whether the subject contract entered into between the parties is stricken with nullity ab initio as a result of plaintiff\u2019s failure to have first obtained from the mortgage holder the written guarantee prescribed by the statute.\nPlaintiff concedes his failure in that respect but contends that the recitals in the bond for deed contract constitute a substantial compliance with the purpose and intent of the statute, sufficient to make enforceable the civil obligations flowing therefrom, irrespective of his being amenable to the criminal penalties therein prescribed attending its violation.\nManifestly, the unmistakable purpose and clear intent of the statute is to make secure and to safeguard a vendee of mortgaged property from fraud, deceit and misrepresentation and primarily that all payments made by the buyer shall be apportioned and distributed between the vendor and mortgagee in the proportions prescribed, thus insuring the buyer an unencumbered title up to the amount of the price stipulated in the contract.\nIn the instant case, the defendant, prior to and on the date of the contract, unquestionably knew of the outstanding mortgage indebtedness and its amount, and that the holder thereof was the First National Bank of Shreveport. Taking cognizance of these facts he deliberately consented to and agreed with plaintiff that the contract expressly provide, as it did, that when he had paid the sum of $25,000, plaintiff would execute a deed conveying title with a vendor\u2019s lien and special mortgage to secure the unpaid balance of the price; that all payments would be made jointly payable to plaintiff and the mortgagee bank and \u201capplied on the mortgage held by said bank.\u201d (Italics ours.) These positive and unequivocal covenants were a substantial compliance with the purpose and intent of the statute, executed in his interest, namely, the liquidation of the mortgage indebtedness to the stipulated sum of $25,000, thereby insuring him an unencumbered title. We must assume his satisfaction with the security he chose for he did not demand from the vendor, prior to the execution of the contract, that the vendor obtain the written guarantee from the mortgage holder and place it of record. At no time subsequent does it appear that he made any protest, making all payments due in the year 1953. It also appears that unsuccessful operations in 1954 undoubtedly prompted the nonpayment of the installments due in 1954, culminating in this suit.\nUnder the particular circumstances here presented the doctrine of ratification and estoppel is peculiarly applicable, and the defendant is not entitled to invoke a penal statute to which one may be amenable in avoidance of civil obligations flowing from a contract the terms of which are not inherently evil or immoral or repugnant to public policy and good order. Boxwell v. Department of Highways, 203 La. 760, 14 So.2d 627. Having enjoyed the benefits of the contract over a period of seventeen months the defendant is estopped from repudiating his civil obligations under a plea of absolute nullity for to do so would result in his unjust enrichment.\nWe now consider the merits of plaintiff\u2019s claim for damages. He relies upon that portion of the contract which provides that upon defendant\u2019s failure to' pay any installment due, plaintiff is entitled to retain all moneys paid by defendant as liquidated damages. The forfeiture of this instance was in effect declared absolute, without reservation, condition, or consideration on the mere failure to pay any one of the installments when due.\nIn Heeb v. Codifer & Bonnabel, Inc., 162 La. 139, 110 So. 178, 179, involving the credit sale of realty payable in installments, it was stipulated in the deed, as is the stipulation here, that in the event the purchaser should fail to pay promptly any one of the installments, the seller would have the alternative right, without placing in default, to appropriate to itself, as liquidated damages, all amounts that may have been paid by the purchaser. In holding that the forfeiture clause was null and void because not warranted in law, we said:\n\u201cThe law does not sanction the imposition of punitory or exemplary damages by contract or otherwise, but only such as are in their nature and character compensatory.\n\u2021 % * \u2021 * ij\u00ab\n\u201cThe inequity, unreasonableness, and illegality of such a penal clause as here sought to be enforced is so obvious as to scarcely need citation of authority.\u201d See also Griffin v. His Creditors, 6 Rob. 216; Ekman v. Vallery, 185 La. 488, 169 So. 521.\nThe contract in question stipulated that \u201c * * * on August 20, 1955, when and if all of the payments have been made in accordance with this schedule and Mercer Scott has received the sum of $25,000.00, it is understood and agreed that a deed will be executed by Mercer Scott to Leon Apgar, placing title to the property * * * in the name of Leon T. Apgar * * *.\u201d Then follows the provisions that the deed will be on terms of credit with a vendor\u2019s lien and privilege for the unpaid portion of the purchase price.\nManifestly, a sale, transferring title, was not intended until the stipulated payment pursuant to the terms of the contract had been made, the deed to be executed contemporaneously with the fulfillment of the condition. The fact that the defendant obtained and remained in possession of the property until sequestered is unsubstantial. In the sale of real estate the transfer of ownership is incomplete without a deed translative of the title. Trichel v. Home Insurance Company, 155 La. 459, 99 So. 403, 404. As was said in the Trichel case:\n\u201cOur conclusion is that any agreement for the sale of real estate, which is not intended to be the final writing between the parties, but, on the contrary, to be followed by another and final deed, is a mere promise of sale and not a sale, and does not transfer the title to said property; unless it clearly appear that the parties contemplated that the new deed should be only a confirmation of the first, and not indispensable for the transfer of title.\u201d\nSee Campbell v. Richmond Insurance Co., 156 La. 455, 100 So. 679; Davis v. McCain, 171 La. 1011, 132 So. 758; Kendall v. Kendall, 174 La. 148, 140 So. 6; and Ober v. Williams, 213 La. 568, 35 So.2d 219.\nIn Pruyn v. Gay, 159 La. 981, 106 So. 536, 538, involving a default in the installment payments in which event all sums previously paid \u201cshall be considered as rental for the use of the property,\u201d under a contract similar in terms to that presented here, we held that the stipulation calling for the payments were to be considered as rental for the use of the property was not inequitable or arbitrary, and that failing to comply with the terms of the contract, the defendant should pay a reasonable sum for his occupation of the property.\nThe record shows that the defendant paid $8,000 cash, credit installments aggregating the sum of $6,000, State, Parish and City ad valorem taxes and premiums on hazard insurance covering the subject property in the sum of $1,505.45, or a total of $15,505.45.\nThe defendant is therefore entitled to a return of the moneys paid on the purchase price, the insurance premiums, and State, Parish and City taxes.\nDefendant has conceded in his answer the right of plaintiff to recover a fair rental value during the period of occupancy by the purchaser, a period of seventeen months, however, the record does not afford us the means of intelligently determining the fair rental value for which the defendant must be held accountable. It becomes necessary that we remand this case to the district court for a determination of the rental value to be allowed plaintiff.\nFor the reasons assigned, it is ordered that the judgment appealed from be annulled and set aside.\nIt is now ordered that plaintiff be recognized as the true and lawful owner of the property in question and entitled to the possession thereof.\nIt is further ordered that plaintiff return to defendant all moneys paid by defendant to plaintiff plus all sums paid for taxes and insurance on the premises with legal interest from September 10, 1954, less a reasonable rental value for the use of the property during defendant\u2019s occupancy.\nIt is further ordered that this cause be remanded to the district court for a determination of a just and reasonable rental value of the property.\nIt is also further ordered that plaintiff\u2019s rights to reimbursement for any damages sustained to the ice plant be reserved, subject to any defenses which may be urged thereto. All costs to be equally borne by the party litigants.",
+        "type": "majority",
+        "author": "SIMON, Justice."
+      }
+    ],
+    "attorneys": [
+      "Harvey L. Carey, Shreveport, for defendant-appellant.",
+      "Gahagan & Gahagan, Natchitoches, for plaintiff-appellee."
+    ],
+    "corrections": "",
+    "head_matter": "113 So.2d 457\nMercer SCOTT v. Leon T. APGAR.\nNo. 43373.\nJune 25, 1959.\nHarvey L. Carey, Shreveport, for defendant-appellant.\nGahagan & Gahagan, Natchitoches, for plaintiff-appellee."
+  },
+  "file_name": "0029-01",
+  "first_page_order": 47,
+  "last_page_order": 53
+}

@@ -1,0 +1,213 @@
+{
+  "id": 3187598,
+  "name": "STATE of Louisiana, through DEPARTMENT OF HIGHWAYS v. Charles R. STOER",
+  "name_abbreviation": "State ex rel. Department of Highways v. Stoer",
+  "decision_date": "1959-12-14",
+  "docket_number": "No. 41512",
+  "first_page": "717",
+  "last_page": "727",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 718"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 So.2d 498"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "226 La. 988",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2983430,
+        10102199
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/226/0987-01",
+        "/so2d/77/0881-01"
+      ]
+    },
+    {
+      "cite": "115 So.2d 864",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3186072
+      ],
+      "pin_cites": [
+        {
+          "page": "866"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0587-01"
+      ]
+    },
+    {
+      "cite": "238 La. 587",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3186072,
+        9905969
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0587-01",
+        "/so2d/115/0864-01"
+      ]
+    },
+    {
+      "cite": "217 La. 657",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5534536,
+        10035418
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/217/0663-01",
+        "/so2d/47/0036-01"
+      ]
+    },
+    {
+      "cite": "224 La. 988",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3091378,
+        10064790
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/224/0988-01",
+        "/so2d/71/0541-01"
+      ]
+    },
+    {
+      "cite": "69 So.2d 37",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3089895,
+        9910279
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/224/0262-01",
+        "/so2d/69/0037-01"
+      ]
+    },
+    {
+      "cite": "224 La. 262",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9910279,
+        3089895
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/69/0037-01",
+        "/la/224/0262-01"
+      ]
+    },
+    {
+      "cite": "78 So.2d 493",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        10065177,
+        2946068
+      ],
+      "pin_cites": [
+        {
+          "page": "495"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/78/0493-01",
+        "/la/227/0014-01"
+      ]
+    },
+    {
+      "cite": "227 La. 13",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10065177
+      ],
+      "pin_cites": [
+        {
+          "page": "19"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/78/0493-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 588,
+    "char_count": 10596,
+    "ocr_confidence": 0.743,
+    "pagerank": {
+      "raw": 4.968700541807055e-07,
+      "percentile": 0.9353300134486605
+    },
+    "sha256": "9cd75aeec44dee336dfcc7257bd8d1aa4e3266387f7cc45dd6a974d88db6695e",
+    "simhash": "1:2370e21fc6ae325b",
+    "word_count": 1783
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "FOURNET, C. J., absent."
+    ],
+    "parties": [
+      "STATE of Louisiana, through DEPARTMENT OF HIGHWAYS v. Charles R. STOER."
+    ],
+    "opinions": [
+      {
+        "text": "VIOSCA, Justice.\nSuit was brought by the State of Louisiana, through the Department of Highways, under the provisions of LSA-R.S. 19:1 et seq. for the expropriation of property belonging to Charles R. Stoer pursuant to the construction of the Broadmoor-Shreveport Highway as a part of the realignment and improvement of the highway then known as State Route No. 20 and now known as State Route Louisiana 1. After trial the district court granted the expropriation on payment to defendant of the sum of $26,650. The State of Louisiana, through the Department of Highways, has appealed seeking a reduction in the amount awarded to the sum of $19,000. Defendant has answered the appeal asking that the award be increased to the amount of $32,-500.\nOriginally the defendant questioned the right of expropriation and asserted the unconstitutionality of the act under which the expropriation suit was brought, but these contentions have been abandoned on this appeal leaving for our determination only the matter of quantum to be awarded to the defendant for the property expropriated.\nOn this appeal the State contends that the district judge erred in awarding more than $19,000 for defendant\u2019s property when there was no competent evidence to support such a figure. The State argues that the trial judge gave no weight or credence to the testimony of plaintiff\u2019s experts, drawing this conclusion from the fact that the defendant\u2019s lowest appraisal was in the amount of $26,000, and that the award was for the sum of $26,650. On the other hand the defendant contends that the evidence amply supports not only the award but an increase to the amount of $31,000.\nDefendant\u2019s property is located at the corner of Market and Seventh Streets in the City of Shreveport, having a frontage of 87 feet on Market Street and a depth of 60 feet on Seventh Street, thus containing 5,220 square feet. The improvements on the property consist of a brick filling station with an extraneous office and store room, a grease rack, a small frame grease house at the rear, and a two stall garage made of cinder blocks. The entire surface of the property is covered with concrete. The filling station and the garage, operated by two mechanics, is rented for the sum of $200 per month.\nSeventh Street, the corner on which this property is located, is a continuation of Highland Avenue, which is a dead end street and not a true intersection. The property is eighty-five hundredths of a mile from the central business district of the City of Shreveport and is separated from the business district by the Market Street viaduct and a large area of railroad tracks. The buildings in the immediate vicinity are devoted partly to commercial establishments and partly to Negro rental property, these consisting mainly of old type shot-gun houses in very poor condition.\n\u2019Three real estate experts testified for the plaintiff, Lawrence L. May, J. P. Sealy, Jr., and Carl Rosenblath. These experts placed a valuation of $19,000 on the property, using the comparable sales method, the income and capitalization method, and taking into consideration cost less depreciation. Plaintiff\u2019s witnesses placed the value of the land at $8,700 or $100 per front foot. They estimated the value of the improvements to be $10,100 arrived at by allowing $11,882 for the improvements less 5% physical depreciation and 10% economic depreciation. The witnesses rounded out the total figure to $19,000. Their method of making the appraisal was for each appraiser to do his work individually and then to meet afterwards, discuss the matter, and where there was substantial variance, arrive at a common figure.\nDefendant\u2019s witnesses consisted of six property owners on Market Street (Mrs. Bessie Harmon Barrow, Daly V. Trickett, J. V. Schexnaidre, Arthur G. Birdwell, Louis Ferris, and W. C. Yancy, Jr.), a banker, (H. Kneeland Phelps, Jr.), a general contractor (Ed. Brockhaus) and a realtor (Newton B. Stoer). Trickett valued the land at $200 a front foot, Schexnaidre, Ferris (an adjoining landowner) and Yancy valued the land at $200 a square foot, and Mrs. Barrow (adjoining landowner) valued the land at $300 a front foot. Bird-well valued the property as a whole at $30,000 without any breakdown in figures. Brockhaus, the general contractor, valued the improvements at $13,600. Phelps, the banker, placed a value of $26,050 on the land and improvements, which he rounded out to $26,000, arriving at this figure by allowing $150 a front foot for the land and $13,000 for the improvements, which was based on insurance carried at $15,000. Phelps testified that he took into consideration rent and figured that on an appraised value of $26,050 there is a net income of around 7.6 per cent, and he then rounded out the figure to $26,000. Phelps testified that as a banker he had considerable experience with property on Market Street. N. B. Stoer, the realtor, valued the property at $32,500 taking into consideration items of expense such as taxes ($193.70), insurance ($159), and roofing ($24 a year for ten years) which leaves oyer $2,000 income from the rental of $2,400 a year \u201cso, therefore, that would be a net return of six percent on more than $33,333; $2,000 net would be the amount of six percent on $33,333.\u201d\nAs can be seen from the above, some of defendant\u2019s witnesses valued the land only, some the improvements only, and some valued the land and improvements together, without a breakdown. The most satisfactory appraisement was that of the banker, who was experienced in real estate and who gave some basis for his computation. The realtor, also experienced, gave no value to the land separately from the improvements and although he apparently used the income approach he gave no computation which could be checked. The state points out that he allows no depreciation and is not willing to deduct the standard charges for vacancy, management, and repairs. Likewise Phelps did not allow for depreciation but made a flat appraisal of $13,000 on the improvements.\nAlthough evidence was introduced as to alleged comparable sales, it was admitted in argument in this Court that there are no comparables in this instance. The record confirms this. The following pronouncement in the case of State v. Ferris, 227 La. 13, 19, 78 So.2d 493, 495, which involves property adjoining the subject property in this case, is appropriate herein: \u201cIn this case, as in Housing Authority of New Orleans v. Brinkmann, 224 La. 262, 69 So.2d 37 and Housing Authority of New Orleans v. Boudwine, 224 La. 988, 71 So.2d 541, there is no evidence of sales of similar or comparable properties in the vicinity, which would be the best guide in determining the market value to which the owner is entitled under the law. City of New Orleans v. Noto, 217 La. 657, 47 So.2d 36. Accordingly, other methods of proving value were, perforce, resorted to by the litigants.\u201d In the recent case of State v. Barber, 238 La. 587, 115 So.2d 864, 866, we stated: \u201cWhere there have been no sales of similar property in the vicinity of the property sought to be expropriated, other circumstances and factors must be explored in order to discover true value. Among these other factors some consideration may be given to replacement cost less depreciation, provided it is reflected in the price the property would bring on the market at the time of expropriation.\u201d\nIn this case, as previously stated, the State contends that the district judge erred in awarding more than the sum of $19,000 and that he apparently gave no weight or credence to the testimony of plaintiff\u2019s witnesses. We recently stated in State v. Barber, supra, that the rule that consideration must be given to the opinions of all of the experts applies only where the opinions are well grounded from the standpoint of good reasoning. (Citing the cases of State of Louisiana through Department of Highways v. Glassell, 226 La. 988, 77 So.2d 881 and Housing Authority of New Orleans v. Boudwine, 224 La. 988, 71 So.2d 541.)\nAs pointed out, the subject property in this case is adjacent to the property involved in the case of State v. Ferris, supra. In the Ferris case we awarded $150 per front foot for the land. Although the holding in the Ferris case is not necessarily controlling- herein it is to be noted that the value was arrived at on similar testimony as presented in the case under consideration.\nIn the Ferris case we stated that the appraisal of the State\u2019s witnesses, which was reached after careful investigation, study and consultation, was founded on realistic criteria employed for the purpose of arriving at sound economic value. Nevertheless we held that the appraisal of $100 per front foot given by the State\u2019s witnesses was perhaps a little too low and agreed with the district judge that the overall average of $150 per front foot given by the witnesses provided just compensation. As we stated in the Ferris case: \u201cAs a practical result, the value fixed by the judge is equitable and gives effect to the evidence on both sides * *\nWe believe that on this record we should fix the value of the land at $150 per front foot which is the same value we gave to the adjacent land in the Ferris case. This makes the total land value $13,050. As to the value of the improvements, plaintiff\u2019s experts set this value at $10,100 (after taking 15% depreciation from $11,882) and the defendant\u2019s witnesses (the general contractor $13,600, and the banker $13,000) reached a valuation of something a little over $13,000. The general contractor, who had an experience of 15 years, was not permitted to testify as to replacement cost, but he testified that a very conservative estimate of the fair value of the improvements was $13,600. If we take the value of the improvements set by the general contractor, who should be well grounded in fixing the value of buildings, and add his estimate of $13,600 to the land value of $13,050, the same land value we fixed in the Ferris case, we get a total of $26,650, which is the amount awarded by the district judge.\nIt seems .then that the award of the district judge in the amount of $26,650 as a practical result is equitable and gives effect to the evidence on both sides.\nFor the reasons assigned the judgment appealed from is affirmed at the cost of appellant.\nFOURNET, C. J., absent.",
+        "type": "majority",
+        "author": "VIOSCA, Justice."
+      }
+    ],
+    "attorneys": [
+      "D. Ross Banister, Philip K. Jones, Glenn S.Darsey, Baton Rouge, for plaintiff-appellant.",
+      "Cook, Clark, Egan, Yancey & King, Shreveport, for defendant-appellee."
+    ],
+    "corrections": "",
+    "head_matter": "116 So.2d 498\nSTATE of Louisiana, through DEPARTMENT OF HIGHWAYS v. Charles R. STOER.\nNo. 41512.\nDec. 14, 1959.\nD. Ross Banister, Philip K. Jones, Glenn S.Darsey, Baton Rouge, for plaintiff-appellant.\nCook, Clark, Egan, Yancey & King, Shreveport, for defendant-appellee."
+  },
+  "file_name": "0717-01",
+  "first_page_order": 391,
+  "last_page_order": 396
+}

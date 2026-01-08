@@ -1,0 +1,109 @@
+{
+  "id": 3187489,
+  "name": "ORLEANS PARISH SCHOOL BOARD v. CITY OF NEW ORLEANS",
+  "name_abbreviation": "Orleans Parish School Board v. City of New Orleans",
+  "decision_date": "1959-12-14",
+  "docket_number": "No. 43883",
+  "first_page": "737",
+  "last_page": "747",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 738"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 So.2d 505"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "186 La. 102",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10064424,
+        3066210
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "713"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/171/0708-01",
+        "/la/186/0101-01"
+      ]
+    },
+    {
+      "cite": "198 La. 483",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10067539,
+        3161407
+      ],
+      "weight": 5,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/3/0745-01",
+        "/la/198/0484-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 603,
+    "char_count": 12303,
+    "ocr_confidence": 0.712,
+    "pagerank": {
+      "raw": 1.271439320164822e-07,
+      "percentile": 0.6148721411943322
+    },
+    "sha256": "c7baa5fff96dba9c4fb191683779b8f30c273a39845bc08dbe051f9040b30346",
+    "simhash": "1:2ec8c0b5942ae090",
+    "word_count": 2091
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "HAMLIN, J., recused."
+    ],
+    "parties": [
+      "ORLEANS PARISH SCHOOL BOARD v. CITY OF NEW ORLEANS."
+    ],
+    "opinions": [
+      {
+        "text": "FOURNET, Chief Justice.\nThe plaintiff Orleans Parish School Board, following receipt of written notification by the Superintendent of the Board from the Chief Administrative Officer of the City of New Orleans that the Department of Finance of the city would begin on November 1, 1957, to deduct from taxes collected for the School Board a proportionate share of the city\u2019s contribution to the Expense Fund of the Board of Assessors for the Parish of Orleans, instituted these proceedings seeking to compel the city and certain named officials to pay to the School Board without deduction all of the money collected for it, and praying that an injunction issue prohibiting the city from making the proposed deduction. It sought and secured in the meantime a temporary restraining order. On the return day the Court overruled defendant\u2019s exceptions of improper cumulation of actions, no right of action and no cause of action, and following a hearing on the rule there was judgment decreeing that the alternative writ of mandamus he made peremptory and accordingly commanding the city and certain of its officers \u201cto pay over to the Orleans Parish School Board, without any deductions whatever, all of the money collected * * * from the eleven and one-half mill tax levied by the Orleans Parish School Board by virtue of the provisions of the Constitution and laws of the State of Louisiana * * * and further ordering that the rule nisi for a preliminary injunction he made absolute and accordingly that the city and the named officials be \u201cpreliminarily enjoined from making any deductions whatsoever from the taxes which it or they collect for the Orleans Parish School Board * *\nThe Trial Judge, in thus ruling, in effect declared unconstitutional in so far as applied to millage collected for the School Board the statute under authority of which the city had proposed to make the deduction, R.S. 47:1910, as amended, and gave as his reason for holding with the plaintiff that the Constitution, law and facts in this case are the same as in Orleans Parish School Board v. City of New Orleans, 198 La. 483, 3 So.2d 745.\nCounsel for the city complain principally of the action of the lower court in overruling their exception of improper cumulation of actions, contending that in this suit, as shown by the prayer of the petition, two different types of relief were sought, i. e., summary and ordinary, since \u201cA mandamus suit is tried on a rule to show cause, while an injunction suit is tried as an ordinary suit by proper petition and citation and all the ordinary delays incident to such suit;\u201d that the cumulation of a summary and an ordinary suit in the same action is in contravention of Article 149 of the Code of Practice of Louisiana, which declares that \u201cThe plaintiff is not allowed to cumulate several demands in the same action, when one of them is contrary to or precludes another * * and counsel rely on the case of State ex rel. Brenner v. Noe, 186 La. 102, 171 So. 708, 713. It is argued moreover that, in substance, the lower Court rendered a final judgment on the plea for mandamus and an interlocutory decree on the plea for an injunction; that the right of appeal in the two matters is different, with the result that the proceeding on the merits of a permanent injunction is suspended while the instant appeal is prosecuted and since the entire matter could again be reopened in a trial for a permanent injunction, the finality of the Court\u2019s judgment on the writ of mandamus has been impaired \u2014 a further illustration of the impropriety of a cumulation of these two actions in one suit.\nThese arguments are not impressive. In the Brenner v. Noe case there was sought to be cumulated a mandamus proceeding to compel the Governor to cancel certain mineral leases to one William T. Burton and to execute a mineral lease to the relator, Brenner, with an action by the relator to have the leases to Burton declared null \u2014 i. e., an ordinary suit against another party; and in sustaining an exception of improper cumulation of actions, as denounced by Article 149 of the La.Code of Practice, this Court concluded \u201cthat the mandamus proceeding and the action of nullity, one being summary in its nature and requiring quick and immediate action, and the other being an ordinary action, requiring the ordinary legal delays, are inconsistent.\u201d But the rule there announced has no application to the instant proceeding. Not only is it true that the procedure is summary both in a mandamus suit and in one to obtain a temporary injunction (La.Code of Practice, Arts. 841, 831, 98, 754; R.S. 13:4063, 13:4064), but here the injunction was simply a conservatory measure to protect the matter in controversy until the final outcome of the primary demand. It is therefore clear that the two demands are neither contrary to nor do they preclude each other, and the fact that the city did not have a suspensive appeal of right from the judgment granting the preliminary injunction is of no moment; of necessity the injunction proceeding, being merely complementary to the main demand, must stand or fall on the outcome of that demand, and was invoked in order to maintain the funds in statu quo pending determination of the controversy.\nCounsel for the city next assign as error the fact that the Trial Judge overruled their exceptions of No Right and No Cause of Action \u2014 which exceptions were based on plaintiff\u2019s allegations that R.S. 47:1910 (reproduced in footnote 2) is unconstitutional. And it is argued that a proper reading of the case of Orleans Parish School Board v. City of New Orleans, 198 La. 483, 3 So. 2d 745, on which the lower Court based its ruling, will show that it is distinguishable both on its facts and the law, in that the above-named case dealt with an ordinance granting the city the right of making a 1% deduction for the expense of collecting the School Board tax, whereas this case involves a legislative enactment which was first adopted as Act 147 of 1946, was incorporated in the Revised Statutes of 1950 as R.S. 47:1910, was re-enacted in 1954 by Act 73 of that year (at which session the Legislature passed a Joint Resolution, Act 751 of 1954, for submission to the people, proposing an amendment and reenactment of the said Section 16 of Article 12 of the Constitution), and in 1956 was again re-enacted by Act 363 of that year\u2014 and on each occasion the Legislature incorporated the same provisions for deduction from the taxes which the city collected for the benefit of the School Board, thus indicating a clear legislative intent with regard to the relationship of R.S. 47:1910 to Section 16 of Article 12 of the Constitution, and clearly evidencing the Legislature\u2019s belief in the validity of the provisions of the said Section 1910. Rules of statutory construction are invoked by application of which the constitutionality of the Section under the facts of this case would be upheld.\nThese arguments are without merit. The rules of statutory construction sought to be applied have no relevance here. What was said in the case of Orleans Parish School Board v. City of New Orleans, supra, in holding unconstitutional the ordinance of the City of New Orleans authorizing the city to make a similar deduction, is equally applicable here: \u201cFrom a mere reading of the constitutional provision * * * it is apparent that it is the mandatory duty of the Commission Council to cause the seven-mill [now eleven and a half mill] school tax to be collected under the same procedure that it collects its own taxes. It is equally their mandatory duty to pay whatever proceeds that are derived from the tax daily to the School Board. The language used, \u2018the money thus collected shall be paid daily to said board\u2019 in the constitutional provision * * * is clear and unambiguous and necessarily means all money collected by the City from this tax must be paid daily to the School Board. The words \u2018the\u2019 and \u2018thus\u2019 as used in the provision \u2018the money thus collected shall be paid * * * to said board\u2019 are clear and clearly indicate it was intended that the entire amount collected * * * shall be paid to the School Board daily. To permit the payment of any sum less than the entire amount derived from the tax would violate the provision * * 198 La. at pages 487, 488, 3 So.2d at page 746.\nIt necessarily follows that R.S. 47 :- 1910, in so far as it authorizes a deduction from the funds payable to the School Board, is unconstitutional, and that the ruling of the lower Court was correct.\nHaving reached this conclusion, it is unnecessary to discuss the other points raised by the defendant.\nFor the reasons assigned, the judgment appealed from is affirmed.\nHAMLIN, J., recused.\n. The Constitution of this State (Article 12, Section 16, as amended) declares: \u201cThe Orleans Parish School Board * * shall levy annually * * * a tax not to exceed eleven and one-half (11%) mills, * * * on the dollar on the assessed valuation of all property within the City of New Orleans assessed for City taxation and shall certify the fact to the Council of the City of New Orleans, * * * which shall cause said tax to be entered on the tax rolls of said City, and collected in the manner and under the conditions and with the interest and penalties prescribed by law for City taxes. The money thus collected shall he paid daily to said Board.\" (Emphasis supplied.)\n. \u201cThere shall be in the office of the president of the board of assessors for the parish of Orleans, a salary and expense fund.\n\u201cThere shall be deposited annually in the salary and expense fund for the board of assessors for the parish of Orleans the amount hereinafter provided, derived from the following sources: \u201cThe state tax collector for the city of New Orleans shall remit annually to the president of the board of assessors for the parish of Orleans two hundred ninety thousand dollars, and in addition thereto, thirty per centum (30%) of the amount of two hundred twenty thousand dollars, all of which he shall deduct and withhold for that purpose pro-rata from the amount due the various beneficiaries of millage as shown on the state tax receipt or bill for the parish of Orleans from any funds collected by him and comprising any or all state, parish, school, levee district, and other taxes and licenses, including all special taxes, collected by him and now required by law to be paid by Mm into the state treasury or to any authority designated by law to receive the same, except the millage shown on the state tax receipt or bill assigned to the confederate veterans fund, from which fund no pro-rata shall be deducted. These amounts shall be credited by the president to the salary and expense fund of the board of assessors for the parish of Orleans. * * *\n\u201cThe city treasurer of the city of New Orleans * * * shall annually remit to the president of the board of assessors for the parish of Orleans, in equal monthly installments, seventy per centum (70%) of the amount of two hundred twenty thousand dollars, for the board of assessors for the parish of Orleans. The treasurer * * * shall deduct and withhold such sums as are necessary for that purpose out of any funds collected by him and derived from: * * the tax not exceeding one per centum (1%) levied annually as authorized by Section 16 of Article XII of the Constitution, as amended; * * * \u201d, (Emphasis supplied.)\n. Art. 208 of the La.Code of Practice provides that \u201cHe who brings action may,' in certain cases provided by law, obtain provisional orders, either against the person of his debtor or his property, in order to give effect to the suit which . he has brought or intends to institute against him.\u201d Among the conservatory acts named is \u201cInjunction.\u201d (Art. 209.)\n. It is apt to observe here that this Joint Resolution, duly submitted to and adopted by the people as an amendment to Section 16 of Article 12, did not change the pertinent and controlling part of the Constitution quoted in footnote 1.",
+        "type": "majority",
+        "author": "FOURNET, Chief Justice."
+      }
+    ],
+    "attorneys": [
+      "Alvin J. Liska, City Atty., David H. MacHauer and Ernest L. Salatich, Asst. City Attys., New Orleans, for appellant.",
+      "Martin E. Kranz, Philip H. Giuffre, New Orleans, for codefendant-appellant.",
+      "Samuel I. Rosenberg, New Orleans, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "116 So.2d 505\nORLEANS PARISH SCHOOL BOARD v. CITY OF NEW ORLEANS.\nNo. 43883.\nDec. 14, 1959.\nAlvin J. Liska, City Atty., David H. MacHauer and Ernest L. Salatich, Asst. City Attys., New Orleans, for appellant.\nMartin E. Kranz, Philip H. Giuffre, New Orleans, for codefendant-appellant.\nSamuel I. Rosenberg, New Orleans, for appellee."
+  },
+  "file_name": "0737-01",
+  "first_page_order": 401,
+  "last_page_order": 406
+}

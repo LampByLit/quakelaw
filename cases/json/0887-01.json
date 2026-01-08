@@ -1,0 +1,259 @@
+{
+  "id": 3187934,
+  "name": "STATE of Louisiana through DEPARTMENT OF HIGHWAYS v. Mrs. Bessie Harman BARROW",
+  "name_abbreviation": "State ex rel. Department of Highways v. Barrow",
+  "decision_date": "1959-12-14",
+  "docket_number": "No. 41932",
+  "first_page": "887",
+  "last_page": "901",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 887"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 So.2d 703"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "8 So.2d 298",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "78 So.2d 493",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        10065177,
+        2946068
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/78/0493-01",
+        "/la/227/0014-01"
+      ]
+    },
+    {
+      "cite": "227 La. 13",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10065177
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/78/0493-01"
+      ]
+    },
+    {
+      "cite": "69 So.2d 37",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3089895,
+        9910279
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/224/0262-01",
+        "/so2d/69/0037-01"
+      ]
+    },
+    {
+      "cite": "224 La. 262",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9910279,
+        3089895
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/69/0037-01",
+        "/la/224/0262-01"
+      ]
+    },
+    {
+      "cite": "217 La. 657",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5534536,
+        10035418
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/217/0663-01",
+        "/so2d/47/0036-01"
+      ]
+    },
+    {
+      "cite": "209 La. 185",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5413008,
+        10054538
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/209/0185-01",
+        "/so2d/24/0372-01"
+      ]
+    },
+    {
+      "cite": "205 La. 784",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10048947,
+        3153028
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/18/0193-01",
+        "/la/205/0783-01"
+      ]
+    },
+    {
+      "cite": "205 La. 669",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10110377,
+        3152779
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/17/0914-01",
+        "/la/205/0669-01"
+      ]
+    },
+    {
+      "cite": "14 So. 2d 812",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3111529,
+        10073074
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/203/0989-01",
+        "/so2d/14/0812-01"
+      ]
+    },
+    {
+      "cite": "203 La. 990",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10073074
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/14/0812-01"
+      ]
+    },
+    {
+      "cite": "203 La. 255",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10076988,
+        3109117
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/13/0853-01",
+        "/la/203/0255-01"
+      ]
+    },
+    {
+      "cite": "200 La. 463",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10048963,
+        5412148
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "298"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/8/0295-01",
+        "/la/200/0464-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 789,
+    "char_count": 15392,
+    "ocr_confidence": 0.75,
+    "pagerank": {
+      "raw": 4.860405246089138e-07,
+      "percentile": 0.9327829537552189
+    },
+    "sha256": "57cb8114be040a8ad8337d0619e5794b15e727a49a4688b181ca4e65ddf1ee81",
+    "simhash": "1:e0dc6203e234fec3",
+    "word_count": 2516
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "FOURNET, J., absent."
+    ],
+    "parties": [
+      "STATE of Louisiana through DEPARTMENT OF HIGHWAYS v. Mrs. Bessie Harman BARROW."
+    ],
+    "opinions": [
+      {
+        "text": "SIMON, Justice.\nThe State of Louisiana, proceeding under the provisions of LSA-R.S. 19:1 et seq., instituted this suit through the Department of Highways, to acquire by expropriation, in full ownership, five certain parcels of land located in the Batchelor Heights Subdivision of the City of Shreveport and improvements thereon, plus a certain servitude over a sixth parcel, consisting of portions of thirteen lots, plus a permanent servitude to drain over four small areas, owned by the defendant, for the purpose of realigning and improving the Broadmoor-Shreveport Highway then known as State Route No. 20, and now designated as State Route Louisiana 1.\nDefendant, through an exception of no cause or right of action and a plea of unconstitutionality, first challenged the power of the State to expropriate private property for highway purposes within the corporate limits of the City of Shreveport, contending that the City Charter, often alluded to by certain municipalities as a \u201cHome Rule Charter,\u201d granted such power exclusively to the City. In other words, that all governmental powers, including the right of expropriation, within the City was exclusively vested within the City Charter Commission; that this exclusive right exists by virtue of the authority granted by Section 37 of Article 14 of the Constitution, LSA.\nDefendant also contends that Sections 221, 311 and 312 of Title 48 of the Louisiana Revised Statutes, insofar as they seek to authorize the expropriation of a greater quantity of land or a greater right in land than is necessary to construct or improve a highway, are violative of Section 2 of Article 1, and Section 19 of Article 6 of the Louisiana Constitution and of the Fourteenth Amendment of the Constitution of the United States.\nContemporaneously, defendant filed an answer denying that the property sought to be expropriated was required in the improvement of State Route Louisiana 1, and, alternatively, that if all or any part thereof was required, then a servitude and not full ownership was all that was necessary. Assuming the position of plaintiff in reconvention, defendant prayed that the value of the land and improvements to be taken, plus the servitude and consequential damages to her remaining property, be fixed by the Court at $148,404.88. We observe that plaintiff\u2019s petition contained no valuation of the property sought to be expropriated.\nThe district court overruled the exception of no cause or right of action and the pleas of unconstitutionality. After trial on the merits, there was judgment granting the expropriation as prayed for on payment to the defendant of $99,058.67. Plaintiff has appealed the judgment seeking to reduce the award to $66,000 and defendant has appealed asking for an increase to $145,924.34 and, in the alternative, to $104,-739.02, including severance damages, and for legal interest on any increase in the award.\nDuring oral argument counsel for the defendant announced an abandonment of all defenses raised other than the claim for just compensation for the property sought to be expropriated. Hence, the only issue presented for our determination is the value of the subject property, the improvements thereon and severance damages if any.\nThe property involved herein is situated approximately twelve blocks southeast of the main business district of Shreveport and is separated therefrom by extensive railroad yards located in an old lake bed which Market Street crossed by means of a viaduct or overpass. The property consists of five separate parcels of land, each parcel containing variated lots, one parcel being devoted to commercial use and consists of five lots of varying depths but with each lot having a frontage of forty feet along Market Street. There was a building on this parcel, the center of which had been gutted by fire. The remaining parcels, which fan out to the rear of the commercial property, consist of Negro residential lots and portions of lots, some of which are improved and some vacant. The terrain of the property is very irregular with no streets or sidewalks, access being gained principally by winding footpaths. Thus it will be seen that the greater portion of. the subject property was mainly adaptable to Negro tenement housing, devoid of sanitary and modern facilities, and singularly limited as a medium of profitable use.\n. The evidence offered by the plaintiff as to the value of the expropriated property consists of the testimony of an appraisal committee comprised of three realtors, L. L. May, J. Pollard Sealy, Jr., and O. L. Jordan, who were selected and appointed by the Shreveport Board of Realtors pursuant to the request of the State, to make a fair and impartial valuation of the property involved herein. These witnesses have no interest, personal or otherwise, with either party to these proceedings.\nEach of these relators made an independent survey and valuation and arrived at figures ranging from $64,132 to $65,500. After consultation they agreed that the property had a sound and just value of $66,000. In reaching their conclusion they used at least three recognized methods of establishing value \u2014 appraisal of the land and improvements separately, giving due regard to general location of the property, use, accessibility, the possibility of a more realistic utilization of the property, the value of the Negro houses and commercial building from the standpoint of many similar properties they had previously appraised; reproduction on the current market, giving due regard to depreciation; and return on invested capital using probable revenue from the property if all the buildings were fully occupied. The final figure agreed upon was an average of the values reached by these three methods.\nIn addition to her own testimony, defendant introduced the evidence of seven witnesses, none of whom testified to the value of the property as a whole. Louis N. Ferris (adjoining landowner and owner of Negro rental property in Shreveport) appraised the lots on which the Negro houses were located at $30 per front foot and the land on which the commercial building stood at $250 per front foot. He made no appraisal of the value of the improvements thereon, nor the value of the servitude or of severance damages. W. C. Yancey, Jr., (nearby landowner) placed a value on the land on which the commercial building is located at $200 per front foot and the building at $25,000, or a total of $65,000. He made no appraisal of the remaining property sought to be expropriated. Baylor Culpepper (realtor and owner of Negro rental property elsewhere in Shreveport) valued the land on which the Negro houses were located at 30}} per square foot. He also failed to make an appraisal of the commercial property and a separate appraisement of the Negro houses. N. B. Stoer (realtor) valued the land on which the commercial building was situated as $2.50 per square foot or $261 per front foot for a total of $52,235.00 and the land on which the Negro rental property was located at 20}} per square foot. Jack U. Norfleet (appraiser of real estate for loan purposes, an owner of Negro rental property in Shreveport, and employed by defendant\u2019s husband\u2019s firm for 19 years) appraised the commercial land at $250 per front foot or $50,500, $3,700 to $4,000 for the concrete apron located thereon and $10,000 to $12,000 for the commercial building for a minimum total of $65,000 for the commercial property including improvements and 20\u2021 per square foot for the land on which the Negro houses were located. Fred Wappler (adjoining landowner, owner of Negro rental property and in business with defendant\u2019s father for thirty two years) valued the land on which the Negro houses were located at 20^ per square foot and houses at $38,-025.00. No appraisal was made on the commercial property. J. V. Schexnaidre (nearby landowner) valued the commercial land at $250.00 per front foot. Defendant herself valued the commercial land at $275 per front foot, the commercial building at $18,000, the Negro houses at $1,250 per house and the land on which the houses stood at $2,000 per lot.\nIn Housing Authority of Shreveport v. Green, 200 La. 463, 8 So.2d 295, 298, we said: \u201cThe general rule is that the measure of compensation to be awarded the owner in expropriation proceedings is the price 'which would be agreed upon at a voluntary sale between an owner willing to sell and a purchaser willing to buy \u2014 in other words, the market value of the property. * * * \u201d See also Housing Authority of New Orleans v. Persson, 203 La. 255, 13 So.2d 853; City of New Orleans v. Larroux, 203 La. 990, 14 So. 2d 812; Louisiana Highway Commission v. Israel, 205 La. 669, 17 So.2d 914; Louisiana Highway Commission v. Paciera, 205 La. 784, 18 So.2d 193; State v. Barbe, 209 La. 185, 24 So.2d 372; City of New Orleans v. Noto, 217 La. 657, 47 So.2d 36; Housing Authority of New Orleans v. Brinkmann, 224 La. 262, 69 So.2d 37; and State v. Ferris, 227 La. 13, 78 So.2d 493. Continuing in the Green case we stated: \u201c * * * There are exceptions to this rule. In cases where there is no market value for a residence sought to be expropriated, the intrinsic value, or its value to the owner, must be taken into consideration; otherwise he might be deprived of his property without just and reasonable compensation. The compensation to which the owner is entitled is the full and perfect equivalent of the property taken\u2014 in other words, the loss caused to him by the taking. \u2018This means substantially that the owner shall be put in as good position pecuniarily as he would have been in if his property had not been taken.\u2019 18 Am.Jur., \u00a7 240, p. 874. This is the rule established long ago and consistently adhered to by the Supreme Court of the United States.\u201d [200 La. 463, 8 So.2d 298.]\nAlthough there was some testimony as to similar sales, it was conceded by counsel for both sides in argument before us, and the district judge so held, that there were in fact no comparable sales to use as a criterion in valuing defendant\u2019s property. We must therefore determine the weight to be given to the evidence of both plaintiff and defendant to arrive at the intrinsic value of the property expropriated. The district judge disagreed with all the witnesses with respect to the value of some of the Negro houses after studying pictures thereof and personally inspecting them and also disagreed with the State appraisers\u2019 valuation of the commercial land at $100 per front foot. Confronted with conflicting testimony and believing that plaintiff\u2019s and defendant\u2019s witnesses were equally qualified and sincere in their beliefs as to the value of the property, the district judge segregated the property into separate parcels, took the lowest valuation of plaintiff\u2019s witnesses for each parcel and the highest of defendant\u2019s witnesses (eliminating defendant\u2019s testimony), averaged them and then totalled the averages to arrive at the sum of $99,058.67 for the property as a whole. No specific award was made for severance damages, but we may assume that such damages, if any, were included within the fixed compensation.\nOn this appeal plaintiff complains of the weight given by the trial judge to the testimony of defendant\u2019s witnesses and defendant in turn complains of the weight given to the testimony of plaintiff\u2019s witnesses. Each side contends that its witnesses alone were qualified to evaluate the property expropriated. Plaintiff asserts that the three real estate experts who testified on its behalf were impartial, disinterested persons, without prejudice for or against either party to this suit, are prominent in the community and enjoy high standing with their competitors as evidenced by the election or appointment of each one to many offices in the Shreveport Board of Realtors. For the latter reason alone, plaintiff believes their opinions are entitled to great weight but, in addition, plaintiff contends that their opinions were substantiated by their careful study, employment of every known approach to a market-value appraisal and their adoption of procedures recognized and approved in expropriation matters. Conversely, defendant submits that none of plaintiff\u2019s experts ever owned any property in the vicinity, none ever sold, listed or handled the class of property involved in this suit, and there were no comparable sales upon which a realtor could alone base an opinion.\nDefendant further contends that her witnesses were qualified by their actual experience and first-hand knowledge to give accurate opinions as to the value of defendant\u2019s property while plaintiff contends that no weight should be given the testimony of defendant\u2019s witnesses because of their obvious prejudice against plaintiff and its various expropriation suits.\nAfter analyzing the various valuations placed on the property and the manner in which the appraisals were reached, we find as we did in State v. Ferris, supra, that the testimony of the appraisers appointed by the Shreveport Real Estate Board is more impressive and entitled to greater weight than the higher appraisals given by the witnesses for defendant. Reached after careful study, investigation and consultation, the $66,000 appraisal of plaintiff\u2019s witnesses was based on realistic criteria used for the purpose of reaching a sound economic value. However, the appraisal of the commercial land at $100 per front foot is not consonant with the award we made in the Ferris case for adjoining property and we agree with the district judge that this property is worth $150 per front foot. Hence, the addition of $50 per front foot for 200 front feet, or a total of $10,000, to the $66,000 valuation of the subject property, including the improvements thereon, and the servitude rights to be exercised, aggregating a total of $76,000, in our view, provides just compensation.\nWe come now to the question of severance damages which defendant contends was omitted in the district court\u2019s award. The record reveals that all three of the State\u2019s witnesses included the severance damages in valuing the property to be expropriated as a whole. For this reason the award of $76,000 which we make, based on their appraisals, necessarily includes severance damages.\nThe judgment appealed from is amended by decreasing the award to the sum of $76,000 and as thus amended, it is affirmed.\nFOURNET, J., absent.\n. R.S. 48:311-320 repealed by Acts 1955, No. 129, and re-enacted as R.S. 48:301-48:-306.",
+        "type": "majority",
+        "author": "SIMON, Justice."
+      },
+      {
+        "text": "On Application for Rehearing\nPER CURIAM.\nIn her application for a rehearing defendant .complains of the value awarded her for the property identified as the commercial site fronting on Market Street. She contends that this site, because of its depth' in excess of the adjoining property, enjoys a greater value than that awarded. We took into consideration that the subject property has a depth of 100 feet rather than the 60 foot depth of adjoining property; hut due to the terrain and characteristics of the rear portion of this commercial site, we feel that an award of $150 per front foot was just and reasonable.",
+        "type": "rehearing",
+        "author": "PER CURIAM."
+      }
+    ],
+    "attorneys": [
+      "D. Ross Banister, Philip K. Jones, Glenn S. Darsey, Baton Rouge, for plaintiff-appellant.",
+      "Cook, Clark, Egan, Yancey & King, Shreveport, for defendant-appellant."
+    ],
+    "corrections": "",
+    "head_matter": "116 So.2d 703\nSTATE of Louisiana through DEPARTMENT OF HIGHWAYS v. Mrs. Bessie Harman BARROW.\nNo. 41932.\nDec. 14, 1959.\nRehearing Denied Jan. 11, 1960.\nD. Ross Banister, Philip K. Jones, Glenn S. Darsey, Baton Rouge, for plaintiff-appellant.\nCook, Clark, Egan, Yancey & King, Shreveport, for defendant-appellant."
+  },
+  "file_name": "0887-01",
+  "first_page_order": 476,
+  "last_page_order": 483
+}

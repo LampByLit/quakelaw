@@ -1,0 +1,363 @@
+{
+  "id": 3187063,
+  "name": "Mrs. Odile V. Hubert TUCKER as a Stockholder of Crescent City Laundries, Inc., etc. v. NEW ORLEANS LAUNDRIES, INC., Crescent City Laundries, Inc., et al., two cases",
+  "name_abbreviation": "Tucker v. New Orleans Laundries, Inc.",
+  "decision_date": "1959-06-25",
+  "docket_number": "Nos. 41875 and 41876",
+  "first_page": "207",
+  "last_page": "233",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 207"
+    },
+    {
+      "type": "parallel",
+      "cite": "114 So.2d 866"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "200 F.2d 863",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "92 F.Supp. 502",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        290944
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/92/0502-01"
+      ]
+    },
+    {
+      "cite": "90 F.Supp. 290",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        296806
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/90/0290-01"
+      ]
+    },
+    {
+      "cite": "171 La. 176",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2918340
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/171/0175-01"
+      ]
+    },
+    {
+      "cite": "77 F.Supp. 308",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        649188
+      ],
+      "pin_cites": [
+        {
+          "page": "314"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/77/0308-01"
+      ]
+    },
+    {
+      "cite": "127 La. 450",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2703804
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/127/0450-01"
+      ]
+    },
+    {
+      "cite": "5 So. 728",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 La.Ann. 31",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        5289447
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la-ann/41/0031-01"
+      ]
+    },
+    {
+      "cite": "32 So. 965",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 La. 603",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2493055
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/108/0603-01"
+      ]
+    },
+    {
+      "cite": "110 La. 270",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2481537
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "441"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/110/0270-01"
+      ]
+    },
+    {
+      "cite": "226 La. 76",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10037634,
+        2988292
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/75/0014-01",
+        "/la/226/0075-01"
+      ]
+    },
+    {
+      "cite": "194 La. 337",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10063529,
+        5452316
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/193/0666-01",
+        "/la/194/0338-01"
+      ]
+    },
+    {
+      "cite": "91 So.2d 28",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        5464438,
+        9888614
+      ],
+      "pin_cites": [
+        {
+          "page": "31"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/231/0251-01",
+        "/so2d/91/0028-01"
+      ]
+    },
+    {
+      "cite": "231 La. 252",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9888614,
+        5464438
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/91/0028-01",
+        "/la/231/0251-01"
+      ]
+    },
+    {
+      "cite": "200 F.2d 858",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1281004
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/200/0858-01"
+      ]
+    },
+    {
+      "cite": "188 F.2d 265",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1218633
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/188/0265-01"
+      ]
+    },
+    {
+      "cite": "188 F.2d 263",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1218648
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/188/0263-01"
+      ]
+    },
+    {
+      "cite": "174 F.2d 946",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        306363
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/174/0946-01"
+      ]
+    },
+    {
+      "cite": "156 F.2d 908",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1134974
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/156/0908-01"
+      ]
+    },
+    {
+      "cite": "67 L.R.A. 76",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "113 La. 167",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2468970
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/113/0167-01"
+      ]
+    },
+    {
+      "cite": "31 So. 683",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "107 La. 107",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2493660
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/107/0107-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1076,
+    "char_count": 33429,
+    "ocr_confidence": 0.75,
+    "pagerank": {
+      "raw": 6.794416769313949e-07,
+      "percentile": 0.9637731775095768
+    },
+    "sha256": "dd872adb877282b98a57c4931f1b9fcc022ef11424c44017c057307010c5f5b7",
+    "simhash": "1:ceccfc63946907d1",
+    "word_count": 5552
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mrs. Odile V. Hubert TUCKER as a Stockholder of Crescent City Laundries, Inc., etc. v. NEW ORLEANS LAUNDRIES, INC., Crescent City Laundries, Inc., et al., two cases."
+    ],
+    "opinions": [
+      {
+        "text": "HAWTHORNE, Justice.\nThese two cases were consolidated in the court below and were consolidated for argument in this court. The two cases are derivative actions brought by Mrs. Odile V. Hubert Tucker as a stockholder of Crescent City Laundries, Inc., for herself and for others similarly situated. Each suit is brought on behalf of Crescent City Laundries, Inc., by plaintiff as a stockholder, and Crescent is made a party defendant. Numerous other corporations and persons were named as defendants in each suit, among these being New Orleans Laundries, Inc.; officers and directors of Crescent City Laundries or their heirs; officers and directors of New Orleans Laundries; certain persons named as the voting trustees of National Linen Service Corporation; National Linen Service Corporation; surviving members of the bondholders\u2019 committee of Crescent; numerous persons as stockholders of National Linen Service Corporation and the legal representatives of those who are deceased; Succession of Charles Leftwich; W. Irving Moss; Succession of Byron C. McClellan; and others it is not necessary to name.\nNumerous exceptions and pleas were filed to plaintiff\u2019s petitions, among these being no right and no cause of action, res judicata, prescription of one, two, five, and 10 years, vagueness, and laches. The cases were not tried on the merits. The trial judge sustained the pleas of res judicata and exceptions of no cause of action, and dismissed both of plaintiff\u2019s suits at her costs against all defendants. From these judgments plaintiff perfected appeals to this court.\nThe correctness of the trial judge\u2019s rulings is the sole question before us on these appeals.\nAs stated previously, these are stockholder\u2019s derivative actions filed by plaintiff as a stockholder in behalf of herself and others similarly situated, to enforce rights alleged to belong to the corporation, which has been named as a party defendant. According to 13 Am.Jur. 497, \u00a7 451, Corporations, \u201cStockholders may obtain relief in equity against the officers of a corporation who wrongfully deal with its property to the injury of the stockholders\u201d. In Pomeroy, Equity Jurisprudence, v. Ill, p. 2524, \u00a7 1095 (4th ed. 1918), it is said:\n\u201c * * * Whenever a cause of action exists primarily in behalf of the corporation against directors, officers, and others, for wrongful dealing with corporate property, or wrongful exercise of corporate franchise, so that the remedy should regularly be obtained through a suit by and in the name of the corporation, and the corporation, either actually or virtually refuses to institute or prosecute such a suit, then, in order to prevent a failure of justice, an action may be brought and maintained by a stockholder or stockholders, * * * either individually or suing on behalf of themselves and all others similarly situated, against the wrong-doing directors, officers, and other persons; but it is absolutely indispensable that the corporation itself should be joined as a party, \u2014 usually as a co-defendant.\u201d\nSee Watkins v. North American Land & Timber Co., 107 La. 107, 31 So. 683; Crichton v. Webb Press Co., 113 La. 167, 36 So. 926, 67 L.R.A. 76.\nThe petitions in these cases are exceptionally lengthy. For example, in Suit No. 41875 on our docket the petition and the amended petition together comprise approximately 60 pages in the transcript. The petition in Suit No. 41876 is likewise exceptionally long. Accordingly we will not in this opinion attempt to set out in detail all of the many allegations in these pleadings, but will state only such as we think material or necessary for the purpose of this decision.\nSuit No. 41875, which was filed on November 30, 1951, alleges that petitioner is the owner of a designated number of shares of the perferred stock of Crescent City Laundries, Inc., and that she institutes this suit for herself and others similarly situated on behalf of Crescent City Laundries, Inc.; that in August of 1928 the stockholders of National Linen Service Corporation authorized the acceptance by National of deeds conveying certain property belonging to Southern Linen Supply Corporation, Atlanta Laundries, Inc., and Crescent City Laundries, Inc., in consideration of 20,629 shares of its preferred stock and 150,000 shares of its common stock without nominal or par value; that in due course National issued and delivered its Certificate No. 1 for 150,000 shares of its fully paid common stock to I. M. Weinstein, A. J. Weinberg, J. B. Jacobs, Sidney Souers, B. C. McClellan, Charles Leftwich, and W. Irving Moss, who were designated as \u201cvoting trustees\u201d; that the voting trustees acquired these shares of stock pursuant to a trust agreement in writing establishing a voting trust for such stock; that under this trust agreement the voting trustees were to cause the issuance of a trust certificate to each owner of this common stock of National for the stock which each stockholder would be entitled to receive upon termination of the voting trust together with all additional shares to which each stockholder might be entitled because of any stock dividend or dividends that should be declared and paid; that Crescent City Laundries was the owner prior to November, 1928, of 77,735 shares of National common stock, and that under the terms of the trust agreement the voting trustees were obligated to cause to be issued and delivered to Crescent a stock trust certificate for these 77,735 shares of the common stock of National; that they caused to be issued to Crescent a stock trust certificate for only 23,548 shares but never issued to Crescent a stock trust certificate for the balance of 54,187 shares of the stock; that the voting trustees agreed among themselves and with certain officers and directors of Crescent and with other persons, all of whom knew the position of trust occupied by the voting trustees under the terms of the trust agreement, to defraud Crescent out of 54,187 shares of common stock of National and to conceal this fraud; that they executed the conspiracy by causing a stock certificate .representing these shares of common stock of National to be issued in the name of a majority of Crescent\u2019s officers and directors and the names of certain persons who were parties to the conspiracy; that all of this was concealed from Crescent; that designated officers and directors of Crescent together with its assistant secretary, charged as directors with the duty of protecting the interest of Crescent, violated their duties and obligations by conspiring with certain other named persons and corporations to defraud Crescent out of its National common stock; that National Linen Service was represented in the conspiracy by the members of its board of directors named in the petition; that Banco Atlantida, a bank organized under the laws of Spanish Honduras, was represented in the conspiracy by its named president, its manager, and one of its directors, and that Atlanta Laundries, which was likewise a party to the conspiracy, was represented by B. C. McClellan, T. A. Martin, and others, constituting a majority of its board of directors, and its general counsel; that the voting trustees caused to be issued stock trust certificates for 54,187 shares of the common stock of National to numerous named persons, among whom were the directors and officers of Crescent, Atlanta Laundries, National Linen Service Corporation, and others, many of whom were directors of more than one of these corporations, and that these persons received and accepted the stock without paying anything for it, and that Crescent never received any consideration for the shares; that stock dividends and cash dividends were declared from time to time, but Crescent never received any dividends paid on the stock or any shares substituted for it; that Crescent City Laundries did not learn until December 3, 1941, of the alleged fraud perpetrated upon it by the voting trustees and its officers and board of directors, some of whom, as stated above, were likewise officers and directors in the other corporations; that the board of directors of Crescent after acquiring knowledge of the fraud took no steps to protect the rights of Crescent and to preserve the corporation as a going concern for the benefit of its stockholders, but instead of performing their duty as directors entered into a conspiracy with numerous others and among themselves to divert a large portion of Crescent\u2019s assets to the conspirators, to the end that the corporation could not longer engage in business.\nThe petition also alleges that pursuant to this conspiracy a bondholders\u2019 protective agreement with respect to Crescent\u2019s first mortgage bonds was entered into between certain persons constituting the committee and certain holders of the bonds who agreed to become parties to the conspiracy; that further pursuant to the conspiracy a suit was filed against Crescent City Laundries for judgment recognizing a special lien under a mortgage given to secure the payment of the bonds; that a judgment was rendered by default against Crescent, and in due course a fieri facias issued thereunder, and all of Crescent\u2019s physical assets, both immovable and movable, were seized and advertised for sale at public auction; that at the time of the seizure Crescent owned and was operating in the City of New Orleans seven laundry plants, one carpet, rug, and drapery cleaning service, one dry cleaning plant, a storage department, and a garage and repair department plant; that in due course the sheriff pretended to sell the property in accordance with the seizure, and the properties were adjudicated to the bondholders\u2019 protective committee for a price of $1,600,000.00, which was less than one-half the actual value, and a deed was executed pursuant thereto; that thereafter the purchaser, bondholders\u2019 protective committee, conveyed the assets of Crescent City Laundries so acquired to New Orleans Laundries, Inc., the consideration recited in the deed being the issuance and delivery to the committee by New Orleans Laundries, Inc., of 16,750 shares of its common stock; that subsequently New Orleans Laundries, Inc., caused to be issued these shares of stock to numerous named persons, all being bondholders of Crescent and constituting a majority of both its directors and its stockholders; that every action taken by the board of directors of Crescent was designed to bring about the organization of a new corporation to be owned by Crescent\u2019s bondholders and its board of directors, and to acquire for this new corporation all of Crescent\u2019s assets at the lowest possible price, in violation of their duty to Crescent stockholders; that the members of the board of directors of the purchaser, New Orleans Laundries, Inc., with the exception of two constituted at the time a majority of the members of the board of directors of Crescent; that at the time the purchase was made by New Orleans Laundries, Crescent had a claim against certain persons for diversion of shares of the \u2022common stock of National Linen Service Corporation; that New Orleans Laundries, Inc., 'and its officers and directors and the bondholders\u2019 protective committee were parties to the conspiracy to defraud Crescent of its assets.\nThe petition further alleges that the sheriff\u2019s deed conveying the property and assets of Crescent to the bondholders\u2019 protective committee was ineffective because of fraud and collusion in procuring a false appraisal of the property as set out in detail in the petition; that certain claims owned by Crescent were insufficiently described in the seizure and advertisement, particularly the claims which Crescent owned against its directors, its former directors, and third persons who had conspired together to defraud Crescent of the common stock of National Linen Service.\nThe petition further alleges that the numerous persons named therein who acquired the stock had full knowledge of the conspiracy and were parties to it; that the value of the property and money sought to be recovered in behalf of Crescent is more than $1,000,000.\nThe petition prays, among other things, that the individual members of the voting trustees account to Crescent for the disposition of the shares of stock, stock dividends, and other dividends issued thereon; that the directors of Crescent or their legal representatives account to Crescent for the management and disposition of funds and property entrusted to their care as directors, particularly with respect to the transfer by Crescent of assets of that corporation to National Linen Service Corporation, the consideration paid, and the disposition thereof. It prays also that the court declare invalid the sheriff\u2019s sale of Crescent\u2019s assets only with respect to claims which Crescent owned against the directors and former directors and third persons alleged to be conspirators to defraud Crescent of shares of the original common stock of National Linen Service Corporation, and prays that the court hold that the title to these claims did not pass to the adjudicatees, and that they are still the property of Crescent.\nOn July 7, 1952, approximately seven months after the first suit was filed, the other suit (No. 41876 on the docket of this court) was instituted. The primary object of this second suit is to have the sheriff\u2019s sale of Crescent\u2019s assets on July 9, 1942, declared invalid, and to have the property conveyed in that sale restored to Crescent; and plaintiff prays for an in solido judgment in favor of Crescent against numerous defendants for the value of such property as cannot be restored to Crescent.\nThe petition alleges, among other things, that the board of directors of Crescent was informed in 1941 that certain of its directors had fraudulently diverted valuable assets of Crescent to themselves, and that it became the duty of Crescent\u2019s directors to undertake to recover these assets or their value; that the directors breached their duty by entering into a conspiracy with numerous persons who had participated in the fraudulent diversion of the National Linen Service Corporation stock for the diversion of Crescent\u2019s remaining assets to some of the conspirators, to the end that Crescent could no longer engage in business; that a majority of the directors of Crescent conspired with the bondholders\u2019 protective committee, composed of a director of Crescent and two former directors and a majority of the directors of New Orleans Laundries, Inc., to take all of Crescent\u2019s assets for themselves including a default money judgment in favor of the bondholders\u2019 protective committee; that pursuant to that judgment the assets of Crescent were seized by the civil sheriff, and before the sale a fake and fraudulent appraisal of the assets of Crescent was made; that the appraisers were bribed by certain persons to make a fraudulently low valuation of Crescent\u2019s assets; that because of this false appraisal the bondholders\u2019 protective committee acquired the property, which had a value in excess of $6,000,000, for $1,600,000, and that on the following day in accordance with the conspiracy the bondholders\u2019 protective committee conveyed to New Orleans Laundries, Inc., assets of Crescent in exchange for stock of that corporation; that, as stated above, the bondholders\u2019 protective committee comprised a majority of Crescent\u2019s directors, who also become directors of New Orleans Laundries, Inc.; that the sheriff\u2019s sale was ineffective to convey any of Crescent\u2019s assets because of fraud and false description of the property sold.\nWe shall first consider the pleas of res judicata.\nIn sustaining the pleas of res judicata the trial judge relied on opinions of federal courts (Kohler v. McClellan, 5 Cir., 156 F.2d 908; Kohler v. Humphrey, 5 Cir., 174 F.2d 946; Tucker v. New Orleans Laundries, Inc., 5 Cir., 188 F.2d 263; Tucker v. National Linen Service Corporation, 5 Cir., 188 F.2d 265, and Tucker v. National Linen Service Corporation, 5 Cir., 200 F.2d 858) and concluded that the two instant suits \u201chave no substantial legal or factual issue not heretofore alleged, discussed or adjudicated\u201d in those suits, in that \u201cThe parties or privies are the same; the issues are the same; and the relief sought is substantially the same\u201d. He quoted at length from a footnote to the opinion in Tucker v. National Linen Service Corporation, 5 Cir., 200 F.2d 858, and stated that in that suit when the author of the opinion \u201cdiscusses and analyzes a series of suits between the same or similar parties, involving the same or substantially similar issues, and in effect holds there is nothing else left to litigate between them, he in effect has laid the predicate for a plea of res adjudicata even though technically dismissing the suit on jurisdictional grounds for want of necessary parties defendant\". (Italics ours.)\nPursuant to Article 2286 of the Louisiana Civil Code, \u201cThe authority of the thing adjudged takes place' only with respect to what was the object of the judgment. The thing demanded must be the same; the demand must be founded on the same cause of action; the demand must be between the same parties, and formed by them against each other in the same quality\u201d. In Fisher v. Rollins, 231 La. 252, 91 So.2d 28, 31, this court said:\n\u201cArticle 2286 of the LSA-Civil Code requires that in order to maintain the plea, three essentials must exist; namely, the demand must be the same; the demand must be founded on the same cause of action ; and the demand must be between the same parties, and formed by them against each other in the same quality.\u201d\nIt is well settled in this state that the plea of res judicata is stricti juris. Hope v. Madison, 194 La. 337, 193 So. 666.\nIn Quarles v. Lewis, 226 La. 76, 75 So.2d 14, this court had occasion to discuss at great length the plea of res judicata. In that case we cited with approval the case of Woodcock v. Baldwin, 110 La. 270, 34 So. 440, 441, in which it was stated:\n\u201cThe doctrine of the common law courts that res judicata includes not only everything pleaded in a cause, but even that which might have been pleaded, does not obtain generally under our system.\n\u201cHere in Louisiana the doctrine is much more restricted than in common law States. State of Louisiana v. American Sugar Refining Co. (recently decided) 108 La. 603, 32 So. 965.\u201d\nIn Quarles v. Lewis, supra, the court cited and discussed several Louisiana cases which seem to ignore the provisions of Article 2286 and apply the common-law doctrine of res judicata, and then observed that the court was in error in each of those cases in treating the plea in bar as one of res judicata and in confounding the common-law principle of res judicata with-the doctrine of this state, and that the pleas of the defendants in those cases might have been regarded as exceptions of no cause of action or of judicial estoppel.\nUnder the law of this state, neither a judgment of non-suit nor one dismissing a suit for want of proper parties will serve as a basis for the plea of res judicata, for in such a suit the judgment of the court has decided nothing on the merits of the controversy. Weinberger v. Merchants\u2019 Insurance Co., 41 La.Ann. 31, 5 So. 728; Riggs Cypress Co. v. Albert Hanson Lumber Co., 127 La. 450, 53 So. 700. We' do not think any citation is necessary for the legal proposition that where a court sustains an exception to the jurisdiction, plaintiff is not barred from bringing another suit in the proper forum, and that the second suit -will .not be amenable to a plea of res judicata. ,\nLet us now consider the cases relied upon by the trial judge in sustaining the pleas of res judicata.\nAppellees in argument before this court state that of these cases they rely principally on Kohler v. McClellan, 5 Cir., 1946, 156 F.2d 908. In that case Kohler, a director and shareholder of Crescent City Laundries, instituted a derivative action for the benefit of Crescent against certain of its officers and directors and other persons for breach of trust, diversion and misappropriation of funds and properties, losses through collusion with third parties, etc. In the United States district court motions to dismiss were filed on various grounds, among these being that the claim or claims asserted by petitioner in behalf of Crescent belonged to and were the property of New Orleans Laundries, Inc. At this point it might be well for us to state that New Orleans Laundries, Inc., acquired the assets of Crescent after the sheriff\u2019s sale, and was not named as a party defendant in this Kohler suit. The district court sustained the motions to dismiss. The Circuit Court of Appeals for the Fifth Circuit in its opinion stated that the original and supplemental petitions made it plain that New Orleans Laundries, Inc., by its acquisition of the properties of Crescent had acquired title to all the claims against all the defendants except those against B. C. McClellan and associates for their alleged fraudulent and illegal acts in connection with the sale. The court further stated that in the absence of the owner (New Orleans Laundries, Inc.) of all claims of Crescent sold at the sheriff\u2019s sale the court below could adjudicate only upon the claims connected with and arising out of the sale itself. Accordingly the Court of Appeals affirmed the judgment sustaining the motions to dismiss as to all defendants except Byron C. McClellan, and as to him affirmed the judgment on all causes except the cause of action growing out of the alleged plan to wreck Crescent and the consequential sheriff\u2019s sale of Crescent\u2019s assets under that plan. In other words, the Court of Appeals affirmed the judgment in part, and reversed it in part and remanded the case.\nOn remand of the above case to the United States district court (see 77 F.Supp. 308, 314) plaintiff Kohler filed supplemental and amended petitions. In these amended pleadings he named as defendants Mrs. Elizabeth McClellan Humphrey, individually and as testamentary executrix of the estate of Byron C. McClellan, and the Hibernia National Bank, executor or administrator of the estate of Pearl Thornton, widow of Byron C. McClellan, and prayed for judgment against the defendants so named. The court concluded that plaintiff had filed such pleadings with the avowed intention of changing the action from a derivative one to an individual one; that the only injury set forth in the complaint was an injury to the corporation, Crescent, and no facts were stated which showed an interest of the plaintiff distinct from that of the corporation; that all the wrongs done or intended were wrongs against the corporation of which the plaintiff was a stockholder, and except through the corporation they had no relation to the plaintiff. The court said:\n\u201cThe wrongs of which Kohler complains are wrongs to the corporation. They were not. aimed at him and did not involve his personal, individual rights. The acts complained of are not of such a nature they directly and primarily affect his interest in his shares of stock, nor does he claim to have sustained any loss in addition to the loss sustained by the corporation. Therefore, under his theory, plaintiff does not show a right or cause of action; for he sues to recover for himself that which does not belong to him, but which belongs to Crescent. Orlando v. Nix, 171 La. 176, 129 So. 810.\u201d\nIn discussing the Kohler case first cited above, the court observed that Crescent City Laundries, Inc., was not one of the movers and did not file an answer, and that accordingly the Court of Appeals did not adjudicate upon its rights.\nIn dismissing Kohler\u2019s individual tort action the court concluded that the re* formed pleadings stated a new cause of action and constituted a departure from the former pleadings.\nKohler\u2019s individual action was dismissed, and he appealed to the United States Circuit Court of Appeals (see Kohler v. Humphrey, 5 Cir., 1949, 174 F.2d 946), which affirmed the judgment, stating that plaintiff could not complain of the lower court\u2019s decision that his suit was for a direct personal tort to himself and other minority stockholders, and that as such a tort suit it was unsustained by the evidence.\nAs we view the matter, the decisions of the federal courts in the Kohler cases will not support res judicata. In the first Kohler case mentioned above plaintiff\u2019s suit was dismissed on a motion to dismiss based primarily on the ground that the claims there asserted were the property of New Orleans Laundries, Inc., which was not a party to the action; or in other words, it was dismissed for want of an indispensable party. In the other two Kohler cases the suit was treated as an individual tort action and not as a stockholder\u2019s derivative action in behalf of Crescent City Laundries, Inc., and the court said that plaintiff\u2019s complaint did not state a right or cause of action due to the fact that he sued to recover for himself that which did not belong to him. Moreover, numerous defendants in the instant suits, so far as we can ascertain, were not named as defendants in any of these Kohler suits.\nIn Tucker v. New Orleans Laundries, D.C.1949, 90 F.Supp. 290, Mrs. Odile V. Hubert Tucker, petitioner in the two consolidated suits now before us, and also a Crescent stockholder, instituted a derivative action against Crescent and New Orleans Laundries, the successor in title of Crescent, and others. The object of this suit was an accounting, the appointment of a receiver, and other relief. The suit was brought in the Federal District Court for the Eastern District of Louisiana on the basis of diversity jurisdiction, but the district court found that no diversity existed and dismissed the action on jurisdictional grounds, for want of jurisdiction. On appeal to the Fifth Circuit Court of Appeals the district court judgment was affirmed. Tucker v. New Orleans Laundries, 5 Cir., 1951, 188 F.2d 263.\nHaving lost on jurisdictional grounds in the Eastern District of Louisiana, Mrs. Tucker filed suit in the federal district court in the Northern District of Georgia. Tucker v. National Linen Service Corporation, D.C.1950, 92 F.Supp. 502. Mrs. Tucker again sued Crescent as a shareholder, on the same facts as in the similar action she had brought in the Eastern District of Louisiana. The same relief was sought and additionally there was a prayer f.or personal judgments against various-Georgia residents and for declaratory relief as to the 1928 contracts under which National Linen was organized. The suit was dismissed because diversity of citizenship was lacking and indispensable parties either were not or could not be joined. This second Tucker case was also appealed to the Fifth Circuit Court of Appeals. As in the first Tucker case, the second Tucker case\u2019s dismissal by the district court was affirmed on appeal for want of requisite diversity. Tucker v. National Linen Service Corporation, 5 Cir., 1951, 188 F.2d 265.\nThe last case relied on by the trial judge and the appellees is Tucker v. National Linen Service Corporation, 5 Cir., 1953, 200 F.2d 858. This case was decided by the United States Court of Appeals, Fifth Circuit, on appeal from a judgment dismissing Mrs. Tucker\u2019s derivative action brought in behalf of Crescent City Laundries, Inc. One of the defendants in that suit, Sidney Souers, filed a motion to dismiss as to him for improper venue and also a motion to dismiss for want of diversity and indispensable parties. Subject to these motions he also moved to dismiss on the merits on the grounds (1) that no cause of action was stated, (2) that on the face of the complaint the claims asserted are not the property of Crescent but, if in existence, are the property of New Orleans Laundries as a result of the sheriff\u2019s sale, (3) that the suit is barred by the statute of limitations, and (4) that it is barred by laches. National Linen Service Corporation and other defendants also moved to dismiss alleging the absence of indispensable parties, and also pleading failure of the complaint to state a right to recover; the statutes of limitations; laches; res judicata; and that the causes of action sued on have passed by the sheriff\u2019s sale. In sustaining the motion to dismiss the Fifth Circuit Court of Appeals stated:\n\u201cIn so far as the complaint seeks equitable relief by way of cancellation of certificates standing in the names of persons not parties to the suit, and their reissue to Crescent, we think it plain that the suit falls for want of indispensable parties * * [200 F.2d 863.]\nFurther in the opinion the court did say that the lower court was right in dismissing on the merits the claim for such relief sought as to stock standing in the names of persons made parties to the suit by pleadings and process, because (1) the facts alleged, as distinguished from the conclusions of the pleader, did not state a cause of action, (2) claims or causes of action of Crescent in respect to the common stock of National passed to the purchaser at the sheriff\u2019s sale and have not since been the property of Crescent, and (3) plaintiff\u2019s claims were barred by laches.\nFrom the above statements as to the Tucker suits it will be seen that the judgments rendered by the federal courts therein will not sustain a plea of res judicata under our jurisprudence. It is true that in the last Tucker suit for a statement of the facts the court reviewed the records in all of the Kohler and Tucker suits. This review is found in a footnote to the opinion, and the trial judge in the two instant cases quoted at length from this 'footnote in sustaining the pleas of res judicata and cited it in support of his ruling sustaining the exceptions of no cause of action herein. Except for the defendants Souers and National Linen Service Corporation we cannot tell from the opinion of the United States Court of Appeals in this last case who the defendants in that suit were. However, it is clear that the motion to dismiss, which the United States Court of Appeals concluded was well founded, was based primarily on the want of indispensable parties, laches, passage of title at the sheriff\u2019s sale, and no cause of action. Of course we do not know and are unable to say what the allegations of plaintiff\u2019s petition were.\nIn sustaining the exceptions of no cause of action the trial judge stated that \u201c * * * even though plaintiff should prove all the facts alleged (not their legal conclusion or effect), she could not recover\u201d, and cited as authority the decision of Tucker v. National Linen Service Corporation, 5 Cir., 200 F.2d 858.\nIn each of these petitions plaintiff alleges and charges fraud. In most instances these charges are merely conclusions of the pleader and are not supported by the allegation of any specific acts showing fraud. In this state a charge of fraud is a most serious one, and he who alleges it has the burden of establishing it by legal and convincing evidence since fraud is never presumed, and to establish the fraud exceptionally strong proof must be adduced. In considering the exception of no cause of action, however, we must accept as true any well pleaded facts of the petition although they may not be established or proved on the trial on the merits.\nWe believe the petitions state a cause of action. Plaintiff apparently realizes that it is necessary to have the sheriff\u2019s sale set aside, and she alleges numerous grounds for its invalidity. One of these allegations is that the purchasers at the sheriff\u2019s sale caused a false and fraudulent appraisal of the assets of Crescent to be made, and that the appraisers were bribed by certain named persons to make a fraudulently low valuation of such assets, and that because of this fraudulent appraisal the property of Crescent, which had a value of'over $6,000,000, was acquired for $1,600,000. Furthermore, in the petition in the first suit it is alleged that \u2022certain named defendants failed to have issued to Crescent a stock trust certificate for 54,187 shares of National Linen Service \u2022Corporation stock which was the property \u2022of Crescent, that certain named defendants conspired to defraud Crescent of this stock by causing the stock to be issued in the names of the majority of Crescent\u2019s officers and directors and certain other persons who were parties to the conspiracy, that these persons received and accepted the stock without paying anything for it, and that Crescent never received any consideration for these shares.\nFor the reasons shown by our discussion of the last Tucker case it can be readily seen that this decision will not support the sustaining of the exceptions of no cause of action.\nFor the reasons assigned the judgments in both of these cases, Nos. 41875 and 41876 on the docket of this court, are annulled, reversed, and set aside, and the cases are remanded to the district court for further proceedings according to law. Appellees are to pay all costs of this appeal; all other costs are to await the final determination of the suits.",
+        "type": "majority",
+        "author": "HAWTHORNE, Justice."
+      }
+    ],
+    "attorneys": [
+      "Richard A. Dowling, New Orleans, William G. McRae, Atlanta, Ga., for plaintiff-appellant.",
+      "Sidney A. Wolff, New York City, Du-four, St. Paul, Levy & Marx, Leonard B. Levy, New Orleans, for defendant-appellee."
+    ],
+    "corrections": "",
+    "head_matter": "114 So.2d 866\nMrs. Odile V. Hubert TUCKER as a Stockholder of Crescent City Laundries, Inc., etc. v. NEW ORLEANS LAUNDRIES, INC., Crescent City Laundries, Inc., et al., two cases.\nNos. 41875 and 41876.\nJune 25, 1959.\nRehearings Denied Nov. 9, 1959.\nRichard A. Dowling, New Orleans, William G. McRae, Atlanta, Ga., for plaintiff-appellant.\nSidney A. Wolff, New York City, Du-four, St. Paul, Levy & Marx, Leonard B. Levy, New Orleans, for defendant-appellee."
+  },
+  "file_name": "0207-01",
+  "first_page_order": 136,
+  "last_page_order": 149
+}

@@ -1,0 +1,238 @@
+{
+  "id": 1855504,
+  "name": "SCHOOL DISTRICT NO. 9, PITTSFIELD TOWNSHIP, WASHTENAW COUNTY, v. WASHTENAW COUNTY BOARD OF SUPERVISORS",
+  "name_abbreviation": "School District No. 9 v. Washtenaw County Board of Supervisors",
+  "decision_date": "1954-11-29",
+  "docket_number": "Calendar No. 46,-361",
+  "first_page": "388",
+  "last_page": "407",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "341 Mich. 388"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "312 Mich 556",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1894568
+      ],
+      "pin_cites": [
+        {
+          "page": "559"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/312/0556-01"
+      ]
+    },
+    {
+      "cite": "310 Mich 108",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1897891
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/310/0108-01"
+      ]
+    },
+    {
+      "cite": "69 Or 62",
+      "category": "reporters:state",
+      "reporter": "Or.",
+      "case_ids": [
+        4579567
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/or/69/0062-01"
+      ]
+    },
+    {
+      "cite": "304 Mich. 328",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1819774
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/304/0328-01"
+      ]
+    },
+    {
+      "cite": "178 Mich 513",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1662193
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/178/0513-01"
+      ]
+    },
+    {
+      "cite": "124 Mich 683",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1545631
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/124/0683-01"
+      ]
+    },
+    {
+      "cite": "139 Mich 495",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1509651
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/139/0495-01"
+      ]
+    },
+    {
+      "cite": "125 Mich 128",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1543842
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/125/0128-01"
+      ]
+    },
+    {
+      "cite": "124 Mich 491",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1545703
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/124/0491-01"
+      ]
+    },
+    {
+      "cite": "113 ALR 1472",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "282 Mich 69",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1778680
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/282/0069-01"
+      ]
+    },
+    {
+      "cite": "321 Mich 526",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1919913
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/321/0526-01"
+      ]
+    },
+    {
+      "cite": "219 Mich 178",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1772743
+      ],
+      "pin_cites": [
+        {
+          "page": "182, 183"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/219/0178-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1076,
+    "char_count": 36003,
+    "ocr_confidence": 0.486,
+    "pagerank": {
+      "raw": 3.254776989190599e-07,
+      "percentile": 0.869159746379036
+    },
+    "sha256": "cbcbf4ffbec88706356d4eb96f49ce2880dc724e8b7f8ac0e595336fb163789f",
+    "simhash": "1:b78fc5684f1aaacf",
+    "word_count": 6057
+  },
+  "last_updated": "2024-02-27T16:14:53.692353+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Btttzel, C. J., and Bttshnbll, Sharpe, Boyles, Reid, Dethmers, and Kelly, JJ., concurred."
+    ],
+    "parties": [
+      "SCHOOL DISTRICT NO. 9, PITTSFIELD TOWNSHIP, WASHTENAW COUNTY, v. WASHTENAW COUNTY BOARD OF SUPERVISORS."
+    ],
+    "opinions": [
+      {
+        "text": "Carr, J.\nThis mandamus proceeding involves, generally, the amount of money that may be raised by taxation in plaintiff school district for the fiscal year 1954-1955. The matter has been submitted on plaintiff\u2019s petition, the answers of the defendants thereto, and the briefs of counsel representing the respective parties. The Court has had also the benefit of briefs submitted by others, interested in the questions involved in the controversy and in related questions, as amici curiae. However, in determining the matter now before ns we may not properly go beyond the scope of the issues fairly presented by the petition and the answers.\nThe parties have filed a stipulation as to certain material facts involved. Prom such stipulation and from the pleadings and exhibits attached thereto it appears that the plaintiff; is a graded school district lying wholly in Washtenaw county and embracing the city of East Ann Arbor as well as a part of Pitts-field township. It is conceded that portions of so-called intercounty school districts are located in said county. On the 11th of May, 1954, in accordance with statutory provisions hereinafter referred to, plaintiff filed with the tax allocation board of Washtenaw county its estimated budget for the fiscal year in question, indicating the necessity of raising $80;000 for operating expenses within the district, exclusive of amounts necessary to be raised as extra voted millage and for debt retirement. The finance committee of defendant board of supervisors also submitted to the allocation board the county budget for the year, calling for the sum of $1,450,615 to be raised for operating expenses.\nOn May 28, 1954, the tax allocation board adopted a resolution approving, as a maximum tax rate for county purposes, \u201c5 mills on the 1954 county-equalized valuation which amount does not exceed 4.33 mills on the 1953 State-equalized valuation of the county.\u201d It is agreed that the rate indicated would raise the sum of money requested by the county. On June 7th following, the tax allocation board, by further resolution, determined that \u201cthe final tax rate for school purposes on property in this county should not exceed 12.32 mills on the 1954 county-equalized valuation of such property, which amount is equivalent to the rate of 10.67 mills on the 1953 State-equalized valuation of such property apportioned according to the 1954 county equalization.\u201d Notices of the action taken by the allocation board were sent to different taxing units, including plaintiff school district and the county. No appeals pursuant to the statute were taken. The resolutions of the allocation board did not in specific terms state the sums of money to be raised by the maximum tax rates approved by it. It further appears that said board did not give local units written notice of a hearing to be had not less than 5 nor more than 10 days after the first Monday in May. There is nothing before us, however, indicating that such omission operated to the prejudice of any taxing unit concerned.\nFollowing the action of the tax allocation board above set forth, the plaintiff on July 27, 1954, through its board of education, certified the amounts to be raised within the district for school purposes for the fiscal year 1954-1955, based on the action of the allocation board and on the State-equalized valuation for 1954. Such tax certificates were delivered to the clerk of Pittsfield township, and subsequently service was made on defendant Scheffler, as city clerk and assessor of East Ann Arbor, on defendant Morgan, as supervisor of Pittsfield township, and on the board of supervisors. The latter board on October 12, 1954, adopted a resolution providing \u201cthat the allocated tax rate of 5 mills for county purpose and the remainder for school purposes as placed on the county-equalized value be adopted except in those intercounty school districts where the State-equalized value has been previously adopted.\u201d\nAt a meeting held on October 19, 1954, the board of supervisors adopted a further resolution providing \u201cthat all school district certificates be corrected to comply with the resolution of the board establishing the county equalization as the basis for the levying of taxes.\u201d The report of the apportionment committee of said board was approved, and the board further directed that the amounts as set forth therein be spread upon the assessment rolls of the various local units. Said amounts were determined by applying the rates of 5 mills for county purposes and 10 mills for school purposes to the 1954 county-equalized valuation of property within the county, except in intercounty districts. The tax certificates, above referred to, as served by the board of education of the plaintiff indicated a total of $101,211.01 as the sum to be raised by taxation within the district. The action of the board of supervisors, if effective, reduced such sum to $89,507.16. It is conceded that defendants Morgan and Scheffler have refused to act in accordance with plaintiff\u2019s certificates and intend to follow the direction of the board of supervisors. The present action has been instituted by plaintiff for the purpose of obtaining a determination of the issues on which the parties are in disagreement.\nThe first matter for consideration has reference to the power of the board of supervisors to disregard the action of the tax allocation board and to fix the millage to be allocated to the county at 5 mills and to schools at 10 mills. In view of the situation presented the statutory provisions with reference to minimum tax rates are not involved. On behalf of plaintiff it is insisted that defendant board exceeded its powers. Counsel for defendants argue that the board acted properly and in accordance with general provisions of the statutes defining its powers and duties. More specifically, it is insisted that the board of supervisors had the right to \u201ccorrect\u201d the action of the tax allocation board by requiring that all taxes be levied on the basis of the county-equalized valuation for 1954, and to divide the apportionable millage in the manner set forth in its resolutions.\nWe think the issues raised as to the powers of the respective boards in the premises must be determined by reference to the specific statute here involved, namely, PA 1933, No 62, as amended, referred to as the property tax limitation act. The purpose of that measure is not open to question. It was designed to outline the procedure necessary to carry into effect article 10, \u00a7 21, of the Constitution of 1908, adopted at the general election November 8, 1932, and amended at the general November election of 1948. Said section reads as follows:\n\u201cThe total amount of taxes assessed against property for all purposes in any one year shall not exceed one and one-half per cent of the assessed valuation of said property, except taxes levied for the payment of interest and principal on obligations heretofore incurred, which sums shall be separately assessed in all cases: Provided, That this limitation may be increased for a period of not to exceed twenty years at any one time, to not more than a total of five per cent of the assessed valuation, by a majority vote of the electors of any assessing district, or when provided for by the charter of a municipal corporation: Provided further, That this limitation shall not apply to taxes levied in the year 1932.\u201d\nSaid act defines local units, as the term is used therein, as including counties, townships, villages, cities, school districts and all other divisions having-power to levy taxes against property located within their respective areas, subject to exceptions not material here. It provides further for the creating of a county tax allocation board in each county of the State, and defines the powers and duties of said boards. Each local unit as defined in the act is required to submit to the allocation board on or before the third Monday in April of each year a budget containing statements of its proposed expenditures and estimated revenues. After consideration thereof the allocation board is required to determine tax rates, exclusive of debt service, and to approve rates not in excess of the maximum as restricted by the section of the Constitution quoted. After observing provisions made for certain units the board is directed, by section 11(e) of the act, as amended by PA 1952, No 87, to \u201cdivide the balance of the net limitation tax rate between all local units after due consideration of the needs of the several local units.\u201d Any local unit considering itself aggrieved by the action of the allocation board may appeal to the State tax commission.\nIt is, we think, significant that the county is classified as a local unit, that it is required, with other units, to submit its budget to the allocation board, and that specific authority to supersede or alter the action of said board is not granted to the board of supervisors. The sole method provided by the act for reviewing the allocation board\u2019s action is by appeal, as above stated. In consequence, such method of review must be deemed exclusive. Had the legislature intended that the county board of supervisors might alter the action of the allocation board, it must be assumed that specific provision to that end would have been made.\nThe statute in question is not ambiguous, at least insofar as the powers and duties of the allocation board are concerned. The problem before us is to determine the intent of the legislature from the language used, and to decide the issue now before us accordingly. In City of Grand Rapids v. Crocker, 219 Mich 178, 182, 183, the general rule to be followed in construing a statute was stated as follows:\n\u201cThere seems to be no lack of harmony in the rules governing the interpretation of statutes. All are agreed that the primary one is to ascertain and give effect to the intention of the legislature. All others serve but as guides to assist the courts in determining such intent with a greater degree of certainty. If the language employed in a statute is plain, certain and unambiguous, a bare reading suffices and no interpretation is necessary. The rule is no less elementary that' effect must be given, if possible, to every word, sentence and section. To that end, the entire act must be read, and the interpretation to be given to a particular word in one section arrived at after due consideration of every other section so as to produce, if possible, a harmonious and consistent enactment as a whole.\u201d\nSee, also, Webster v. Rotary Electric Steel Company, 321 Mich 526.\nIf it be assumed, as defendants contend, that the action of the tax allocation board was not properly expressed and was not taken in accordance with the statute, the conclusion nonetheless follows that the defendant board of supervisors was not authorized to act. Said defendant may not, in other words, exercise a power not vested in it by statute. It must be borne in mind in this connection that the powers of said board are such \u201cas shall be prescribed by law.\u201d Const 1908, art 8, \u00a7 7.\nHowever, we are not in accord with defendants\u2019 claim that the tax allocation board did not proceed in a lawful manner. Its function was to apportion the available millage in accordance with its determination as to the needs of the respective local units entitled thereto. It was not concerned, as a legal proposition, with the question whether in applying the rates fixed the county-equalized valuation or the State-equalized valuation should be used. Apparently what it undertook to do was to make its attempted division between the county and the school districts in such form as to indicate its conclusion as to the result intended. The references in its resolutions to the 1954 county-equalized valuation and to the 1953 State-equalized valuation may properly he so construed. Furthermore, such references may be regarded as indicating the aggregate sums of money to be raised for the county purposes and for school purposes.\nThe practical situation is that the allocation board divided the millage subject to allocation on the basis of 71.13% to the school districts and 28.87% to the county. The tax certificates submitted by plaintiff\u2019s board of education were based on the resolution of the allocation board and on the 1954 State-equalized valuation. It may be noted, in this connection, that, as appears from an exhibit attached to the plaintiff\u2019s petition, the county-equalized valuation for 1954 as made by the board of supervisors was \u2019$4,366,593, while the State-equalized valuation for said year has been fixed at $5,299,011. It does not appear that the mathematical accuracy of the exhibit is in question.\nWithout discussing this phase of the case at greater length, it is our conclusion that the tax allocation board acted in a lawful manner, that the sole method of review of such action is under the statute by appeal to the State tax commission, and that the defendant board of supervisors was without jurisdiction to make a new division of the millage subject to allocation under the provisions of the tax limitation amendment to the Constitution (art 10, \u00a7 21) and the property tax limitation act.\nThis brings us to a consideration of the question whether the tax'rates, determined in accordance with the action of the allocation board, should be applied on the basis of the county-equalized valuation for 1954, or on the State-equalized valuation for said year. Necessarily involved is the meaning of the term \u201cassessed valuation\u201d as used in article 10, \u00a7 21, of the State Constitution, above quoted. In the determination of such question consideration must be given .to other provisions of the Constitution which, construed together, prescribe fundamental requisites that must be observed in matters pertaining to taxation.\nArticle 10, \u00a7 3, of the present Constitution directs the legislature to provide \u201ca uniform rule of taxation\u201d and, likewise, a uniform rule for the taxation of property assessed by the State board of assessors. Section 5 of the same article grants authority to the legislature to provide for the assessment \u201cat its true cash value\u201d of the property of corporations, and the property of railroads and of other persons, individual or corporate, engaged in public service businesses. In keeping with other provisions, section 7 requires that \u201cAll assessments hereafter authorized shall be on property at its cash value.\u201d Obviously for the purpose of furthering the general plan indicated by other sections of article 10, it was provided in section 8 that:\n\u201cIn the year 1911, every fifth year thereafter and at such other times as the legislature may direct, the legislature shall provide by law for an equalization of assessments by a State board, on all taxable property, except that taxed under laws passed pursuant to sections 4 and 5 of this article.\u201d\nSuch language, in effect, continues the direction specified in the corresponding section of the Constitution of 1850 (art 14, \u00a7 13). By the foregoing provisions, as well as by acts of the legislature adopted in compliance therewith, this State is committed to the basic principles of uniformity and of the assessment of property at its true cash value, in matters pertaining to the taxation of property under the general tax law.\nIn accordance with, the provisions of article 10, \u00a78, above quoted, the legislature by PA 1911, No 44, created a State board of equalization and defined its powers and duties. Under the act, as amended by PA 1919, No 330, PA 1949, No 287, and PA 1953, No 24, said board is required to meet annually \u201cfor the purpose of equalizing the assessments on all taxable property in this State,\u201d other than property subject to the provisions of article 10, \u00a7 \u00a7 4 and 5, of the State Constitution. In accordance with the general duties specified, the board is required to ascertain the total assessed valuation of the property in each county, the valuation of such property as equalized by the county boards of supervisors, and the previous State-equalized valuation, as well as to consider the recommendations of the State tax commission. Copy of the statement prepared on such basis is forwarded to county clerks throughout the State. The board is directed to meet at Lansing on the second Monday in June to hear the representatives of the several counties. The act further provides in section 4 (CL 1948, \u00a7 209.4, as amended by PA 1953, No 24 [Stat Ann 1953 Cum Supp \u00a77.604]), as follows:\n\u201cIf, after examination of the data and evidence furnished, the assessment of any county or counties shall be determined to be at more or less than the true cash value of such county or counties, it shall be the duty of said board to equalize the same by adding to or deducting from the aggregate assessed valuation of the taxable real and personal property in such county or counties such an amount as will produce a sum, which in the estimation of said board represents the true cash value thereof.\u201d\nThe State-equalized valuation, when determined in the manner prescribed by the statute, is filed in the office of the auditor general and a copy served on the treasurer of each county, who is directed to-place the same on file in his office available for public-inspection.\nOn behalf of defendants it is suggested that, historically at least, the purpose of State equalization is to furnish a basis for the apportionment of general State property taxes that may be provided for by law. It may be conceded that such result is one of the purposes sought to be accomplished, but we cannot agree with counsel that it is the sole purpose. Article 10, \u00a7 8, of the Constitution, above quoted, does not indicate any such limitation. Rather, construing said section in connection with other provisions of the article, as we must do, we think it must be said that it was intended to carry out the provisions relating to uniformity of taxation and to assessment at true cash value by providing a method through and by which such result may be accomplished. The apportionment of State property taxes was but one of the incidents involved in the situation at the time the present Constitution was adopted.\nIn the instant case it is not questioned that the-amount of money that may be raised by plaintiff by taxation for the fiscal year 1954-1955 is to be determined with reference to equalized valuation. As before stated, defendants insist that the county result should be accepted in preference to the State-equalized valuation. Plaintiff insists that the final step in the process of determining cash value is the action of the State board of equalization and that, in consequence, its determination should be accepted as final. In discussing the matter in their briefs counsel have called attention to prior decisions of this Court which, it is claimed, indicate the general principles to be applied in determining the cause and the final conclusion as to the issues presented.\nIn Hudson Motor Car Co. v. City of Detroit, 282 Mich 69 (113 ALR 1472), it was recognized that where the jurisdiction of the State tax commission is invoked action thereby is final. In recognizing the authority of the State body, it was said (pp 80-82):\n\u201cThe State tax commission is authorized to act whenever there is a showing that the equalization complained of is unfair, unjust, inequitable or discriminatory. It may order the supervisors to reconvene; it may approve the determination and equalization made by the board of supervisors; if it decides the valuations have been improperly equalized, it may proceed to make such deductions from or additions to the valuations of the respective townships, wards or cities as it may deem proper. CL 1929, \u00a7 3422. It has power to add to the rolls and to provide for the assessment and taxation of property omitted from the assessment rolls. Board of State Tax Com\u2019rs v. Board of Assessors of Grand Rapids, 124 Mich 491. See, also, Board of State Tax Com\u2019rs v. Quinn, 125 Mich 128.\n\u201cUnder the statutes, the State tax commission has the power to make a general or special review of the tax rolls. After the tax rolls have been passed upon by local boards of review and are properly certified by them, no change may be made therein by the local board of review or by any local assessing officer. Bialy v. Bay City, 139 Mich 495. The State tax commission has a right to review and examine the rolls after the final review of the local board and such review by the State tax commission may be either special or general. In a case like that under consideration, it has a right to increase or decrease the assessment of the property of any person assessed thereon. Bialy v. Bay City, supra. It may change individual assessments in cities, even though they may be under home-rule charters, notwithstanding any provisions contained in the charter thereof. Bialy v. Bay City, supra. Review of assessments by local assessing officers and of the action of local boards of review by the State tax commission would serve no useful purpose if no change in the assessment roll could be made; and no change in the assessment roll made by the State tax commission would be of any importance if the tax levied and assessed upon such valuation was not to be changed. Board of State Tax Com\u2019rs v. Cady, 124 Mich 683.\n\u201cUnder the Constitution and laws of this State, the final arbiter of value for taxing purposes which, when it has jurisdiction, determines the same finally and conclusively, is the State tax commission. That value is fixed for the purposes of taxation. It is the basis of the levy and assessment of taxes. There cannot be 2 values of the same property fixed by the same body, for the same purpose, at the same time. The valuation as fixed by the State tax commission is final, conclusive and binding upon the city, not only for the purpose of levying and assessing State and county taxes, but for all other purposes of local or general taxation. This is the practice which has always prevailed in this State \u2018both at the time of the adoption of the Constitution and at the present, the taxes levied for State purposes are based on the same assessment as are those collected for local use.\u2019 Board of State Tax Com\u2019rs v. Board of Assessors of Grand Rapids, supra. See, also, Attorney General, ex rel. Barnes, v. Midland County Supervisors, 178 Mich 513. The State tax commission has no power or authority, under the Constitution and laws of this State, to fix the value of property for the purpose of assessing and levying State and county taxes at one valuation, and to fix the valuation of the same property at the same time for the purpose of assessing and levying local municipal taxes at another valuation.\u201d\nIn Huron-Clinton Metropolitan Authority v. Boards of Supervisors of Five Counties, 304 Mich. 328, plaintiff sought a determination as to whether its tax rate and the proportion of the total tax to be paid by each of the counties in the district should be determined on the basis of local assessed valuation, county-equalized valuation, or State-equalized valuation. In reaching the conclusion that State-equalized valuation should be used, attention was directed to the case of Parker v. Clatsop County, 69 Or 62 (138 P 239), where the term \u201cassessed valuation of the county\u201d was construed as meaning State-equalized valuation. The opinion of the Oregon court (p 71) was quoted as follows (p 338):\n\u201c \u2018When the legislature used the expression \u201cthe assessed valuation of the county,\u201d it meant the consummated act of all the agencies employed in determining the amount and value of property available for taxation.\u2019\u201d\nAfter commenting on the purposes of State equalization and pointing out the statutory duties of the board, it was said (p 340):\n\u201cThe State board of equalization is the final authority which determines valuations upon a standard uniform to all counties. To produce the required uniformity between counties of the district, the Authority tax rate should be determined upon the basis of State-equalized valuation.\u201d\nThe provisions of the act, above quoted, defining the powers and duties of the State board clearly indicate that the uniform standard on which said board proceeds refers to the true cash value of property. Obviously property may not, for purposes of taxation, have 2 or more \u201ctrue cash values.\u201d Under our present system the final authority for determining such value is the State board of equalization. In St. Ignace City Treasurer v. Mackinac County Treasurer, 310 Mich 108, the Court quoted with approval from Huron-Clinton Metropolitan Authority v. Boards of Supervisors of Five Counties, supra, holding that the tax limitation amendment to the Constitution (art 10, \u00a7 21) did not repeal legislative enactments providing for the equalization of assessments. Plaintiff in the case contended that the assessed valuation as fixed by the local assessor and the city board of review was controlling, but this Court concluded that such action amounted to tentative assessment only and did not become final until equalized by the county board of supervisors and, following an appeal, by the State tax commission. It does not appear that any action by the State board of equalization was involved in the controversy. The case is significant, however, because of the recognition of the finality of the result reached by the State agency, and the conclusion that the term \u201cassessed valuation,\u201d as used in the tax limitation amendment, \u201cmeans the local assessment as approved or changed and corrected through the statutory process of county and State equalization.\u201d Such statement was quoted with approval in Waterford Township v. Oakland County Tax Allocation Board, 312 Mich 556, 559.\nAs appears from the resolution of the defendant board of supervisors in the instant case, State-equalized valuation is considered appropriate for use in intercounty school districts, that is, districts lying in part only in Washtenaw county. If the county equalization is regarded as final in plaintiff district and in other local taxing units wholly within said county, it is apparent that a disparity, or inconsistency, at once arises. In other words, we would have true cash value as fixed by the State board of equalization applicable in intercounty districts, and the materially lesser county-equalized valuation used elsewhere. We do not think that such a situation is contemplated by pertinent constitutional' or statutory provisions. As before noted, 2 valuations that are not in accord preclude the acceptance of both as representing \u201ctrue cash value.\u201d Our system of property taxation necessarily rests on the theory, as. recognized by the Constitution (art 10, \u00a77), that, there is but one such value of property.\nFor the reasons indicated it is our conclusion that the defendant board of supervisors was without statutory authority to change the apportionment of millage as made by the county tax allocation hoard,, that the attempt to do so was without legal force and effect, and that the State-equalized valuation, as determined pursuant to the statute, should be used under the facts in the instant case, rather than the-county-equalized valuation. We conclude, also, that mandamus is a proper remedy and that plaintiff is entitled to the relief sought. Writs will issue accordingly. Inasmuch as the proceeding involves, matters of public interest, no costs are allowed.\nBtttzel, C. J., and Bttshnbll, Sharpe, Boyles, Reid, Dethmers, and Kelly, JJ., concurred.\nCL 1948, \u00a7 211.201 et seq., as amended by PA 1949, No 288 and PA 1952, No 87 (Stat Ann 1950 Key and Stat Ann 1953 Cum Supp \u00a7 7.61 et seq.).\nSee CL 1948, \u00a7 211.1 et seq., as amended (Stat Ann 1950 Rev and Stat Ann 1953 Cum Supp \u00a77.1 et seq.).\u2014Reporter.\nCL 1948 and CLS 1952, \u00a7 209.1 et seq. (Stat Ann 1950 Rev and Stat Ann 1953 Cum Supp \u00a7 7.G01 et seq.).\nCL 1948, \u00a7 211.34, since amended by PA 1952, No 264 and PA 1954, No 200 (Stat Ann 1953 Cum Supp \u00a7 7.52, as amended).\u2014 Bepobteb.",
+        "type": "majority",
+        "author": "Carr, J."
+      }
+    ],
+    "attorneys": [
+      "Mann, LipniJc $ Darroi,v (Richard J. Mann and Arthttr E. Carpenter, of counsel), for plaintiff.",
+      "Edmond F. DeVine, Prosecuting Attorney, for defendant Board of Supervisors of Washtenaw County.",
+      "Arthur C. Lehman, for defendant Pittsfield township supervisor.",
+      "William B. Kelley, for defendant clerk and assessor of city of East Ann Arbor.",
+      "Amici Curiae:",
+      "Frank G. Millard, Attorney General, Edmund E. Shepherd, Solicitor General, and T. Carl Holbrook and William D. Dexter, Assistants Attorney General, for the State. \u2022. .",
+      "Gerald K. O\u2019Brien, Prosecuting Attorney, Hobart Taylor, Jr., and Philip A. McHugh, Assistant Prosecuting Attorneys (Albert E. Champney, of counsel), for Wayne County.",
+      "Boscoe 0. Bonisteel and Boscoe 0. Bonisteel, Jr., for Michigan Education Association and Michigan Association of School Boards.",
+      "Charles A. Larnard, for Michigan State Association of Supervisors."
+    ],
+    "corrections": "",
+    "head_matter": "SCHOOL DISTRICT NO. 9, PITTSFIELD TOWNSHIP, WASHTENAW COUNTY, v. WASHTENAW COUNTY BOARD OF SUPERVISORS.\n1. Mandamus\u2014Questions Reviewable\u2014Pleading.\nThe issues presented by petition for writ of mandamus and answers thereto limit the scope of the determination of the Supreme Court, notwithstanding other issues may be presented for discussion by amici curiae who are interested in the questions involved in the controversy and related questions.\n2. Taxation\u2014Property Tax Limitation Act\u2014Purpose.\nThe property tax limitation act was designed to outline the procedure necessary to carry into effect the provision of the Constitution placing a limitation upon the total amount of taxes assessable against property (Const 1908, art 10, \u00a7 21, as added in 1932 and amended in 1948; CL 1948, \u00a7 211.201 et seq., as amended by PA 1949, No 288 and PA 1952, No 87).\nReferences for Points in Headnotes\n\u20191] 3 Am Jur, Appeal and Error \u00a7 863.\n[2, 3] See, generally, 51 Am Jur, Taxation \u00a7\u00a7 501-503.\nA] 50 Am Jur, Statutes \u00a7 223.\n\u20195] 50 Am Jur, Statutes \u00a7 225.\n;6] 50 Am Jur, Statutes \u00a7\u00a7 357, 358.\n'7, 8] 14 Am Jur, Counties \u00a7\u00a7 28-30.\n[9] 11 Am Jur, Constitutional Law \u00a7 54; 51 Am Jur, Taxation \u00a7 74.\n[10] 51 Am Jur, Taxation \u00a7\u00a7 150, 701.\n[11, 13,15,16] 51 Am Jur, Taxation \u00a7\u00a7 741, 742.\n[12] 51 Am Jur, Taxation \u00a7\u00a7 696, 697.\n[14] 51 Am Jur, Taxation \u00a7 701.\n[17] 35 Am Jur, Mandamus \u00a7 393.\n3. Same\u2014Tax Allocation Board\u2014Board op Supervisors\u2014State Tax Commission.\nThe property tax limitation act does not grant specific authority to the county board of supervisors to supersede or alter the action of the county tax allocation board, provision for appeal from such action being to the State tax commission (CL 1948, \u00a7 211.201 et seq., as last amended by PA 1952, No 87).\n4. Statutes\u2014Construction\u2014Intent.\nThe primary rule governing the interpretation of statutes is to ascertain and give effect to the intention of the legislature.\n5. Same\u2014Unambiguous Language.\nNo interpretation is necessary and a bare reading suffices if the language employed in a statute is plain, certain and unambiguous.\n6. Same\u2014Act Bead as a Whole\u2014Effect Given Each Word.\nEffect must be given, if possible, to every word, sentence and section of a statute and to that end, the entire act must be read, and the interpretation to be given to a particular word in one section arrived at after due consideration of every other section so as to produce, if possible, a harmonious and consistent enactment as a whole.\n7. Counties\u2014Board op Supervisors\u2014-Powers\u2014Statutes\u2014Constitutional Law.\nThe county board of supervisors may not exercise a power not vested in it by statute, since the Constitution provides the board shall have such powers \u201cas shall be prescribed by law\u201d (Const 1908, art 8, \u00a7 7).\n8. Taxation\u2014-County Tax Allocation Board\u2014State Tax Commission\u2014Board op Supervisors.\nAction of county tax allocation board in dividing' the millage subject to allocation between school districts and the county was a proper exercise of its power that was subject to appeal to the State tax commission but a determination not subject to disturbance by the board of supervisors (Const 1908, art 10, \u00a7 21, as added in 1932 and amended in 1948; CL 1948, \u00a7 211.201 et seq., as last amended by PA 1952, No 87).\n9. Constitutional Law\u2014Construction op Amendment\u2014Taxation.\nProvisions of the Constitution prescribing fundamental requisites to be observed in matters pertaining to taxation must be considerod in construing amendment to the Constitution imposing a \u25a0limit upon the total amount of taxes assessable against property (Const 1908, art 10, \u00a7\u00a7 3, 5, 7, 8; \u00a7 21, as added in 1932 and amended in 1948).\n10. Taxation\u2014Uniformity of Taxation\u2014Assessment at Casi-i Value.\nThis State is committed to the basic principles of uniformity and of the assessment of property at its true cash value in matters pertaining to the taxation of property under the general propierty tax law (Const 1908, art 10, \u00a7\u00a7 3, 5, 7, 8; \u00a7 21, as added in 1932 and amended in 1948; CL 1948, \u00a7 211.1 etseq.).\n11. Same\u2014State Equalization\u2014Uniformity of Taxation\u2014Cash Value.\nThe' purpose of State equalization is not only to furnish a basis fo't the apportionment of general State property taxes but also, among other things, to carry out provisions of the Constitution relative to uniformity of taxation and assessment at true cash value by providing a method through and by which such result may be accomplished (Const 1908, art 10, \u00a7\u00a7 3, 5, 7, 8; CL 1948, \u00a7 209.4, as amended by PA 1953, No 24).\n12. Same\u2014Assessed Valuation\u2014Definition.\nThe \u201cassessed valuation\u201d of property subject to property taxes, as the term is used in the property tax limitation amendment, means the consummated act of all the agencies employed in determining the amount and value of property available for taxation (Const 1908, art 10, \u00a7 21, as added in 1932 and amended in 1948; CL 1948, \u00a7 209.4, as amended by PA 1953, No 24; \u00a7 211.1 et seq., as amended; \u00a7 211.201 et seq., as last amended by PA 1952, No 87).\n13. Same\u2014State Board of Equalization\u2014Uniformity of Taxation.\nThe State board of equalization is the final authority which determines valuations upon a standard uniform to all counties (Const 1908, art 10, \u00a7\u00a7 3, 5, 7, 8; CL 1948, \u00a7 209.4, as amended by PA 1953, No 24).\n14. Same\u2014Cash Value.\nProperty may not, for purposes of taxation, have 2 or more \u201ctrue cash values\u201d at the same time.\n15. Same\u2014Tax Limitation Amendment of Constitution\u2014Equalization of Assessments.\nThe adoption of the tax limitation amendment of the Constitution did not repeal legislation providing for the equalization of assessments (Const 1908, art 10, \u00a7 21, as added in 1932 and amended in 1948; CL 1948, \u00a7 209.4, as amended by PA 1953, No 24).\n16. Same\u2014State-Equalized Valuation\u2014Schools\u2014Counties.\nState-equalized valuation rather than county-equalized valuation, should be used as the basis for the imposition of taxes upon property within a taxing unit subject to property taxes for school district and county purposes (Const 1908, art 10, \u00a7\u00a7 3, 5, 7, 8; \u00a7 21, as added in 1932 and amended in 1948; CL 1948, \u00a7 209.4, as amended by PA 1953, No 24; \u00a7 211.1 et seq., as amended; \u00a7 211.201 et seq., as last amended by PA 1952, No 87).\n17. Costs\u2014Public Question\u2014Taxation\u2014Assessment\u2014Boards of Supervisors.\nNo costs are allowed in mandamus proceeding by a school district to compel use of State-equalized valuation in the assessment of property for taxes, a public question being \u00a1inyolved as to the powers of boards of supervisors (Const .1908, art 8, \u00a7 7; art 10, \u00a7 \u00a7 3, 5, 7, 8; \u00a7 21, as added in 1932 and amended in 1948; CL 1948, \u00a7 209.4, as amended by PA 1953, No 24; \u2022\u00a7 211.1 et seq., as amended; \u00a7 211.201 \u00e9t seq., as last am\u00e9nded by PA 1952, No 87).\nOriginal mandamus proceedings by School District No 9, Pittsfield township, Washtenaw County, against Board of Supervisors of Washtenaw County, Samuel A. Morgan, as supervisor of Pittsfield township, and Otto K. Scheffler, as clerk and assessor of the city of East Ann Arbor, to compel computation of tax by use of State-equalized valuation.\nSubmitted November 17, 1954.\n(Calendar No. 46,-361.)\nWrits granted November 29, 1954.\nMann, LipniJc $ Darroi,v (Richard J. Mann and Arthttr E. Carpenter, of counsel), for plaintiff.\nEdmond F. DeVine, Prosecuting Attorney, for defendant Board of Supervisors of Washtenaw County.\nArthur C. Lehman, for defendant Pittsfield township supervisor.\nWilliam B. Kelley, for defendant clerk and assessor of city of East Ann Arbor.\nAmici Curiae:\nFrank G. Millard, Attorney General, Edmund E. Shepherd, Solicitor General, and T. Carl Holbrook and William D. Dexter, Assistants Attorney General, for the State. \u2022. .\nGerald K. O\u2019Brien, Prosecuting Attorney, Hobart Taylor, Jr., and Philip A. McHugh, Assistant Prosecuting Attorneys (Albert E. Champney, of counsel), for Wayne County.\nBoscoe 0. Bonisteel and Boscoe 0. Bonisteel, Jr., for Michigan Education Association and Michigan Association of School Boards.\nCharles A. Larnard, for Michigan State Association of Supervisors."
+  },
+  "file_name": "0388-01",
+  "first_page_order": 428,
+  "last_page_order": 447
+}

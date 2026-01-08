@@ -1,0 +1,146 @@
+{
+  "id": 3188822,
+  "name": "W. C. PURDY v. DEPARTMENT OF REVENUE OF THE STATE of Louisiana",
+  "name_abbreviation": "Purdy v. Department of Revenue",
+  "decision_date": "1959-12-14",
+  "docket_number": "No. 44759",
+  "first_page": "673",
+  "last_page": "681",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 673"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 So.2d 290"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "226 La. 227",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10055921,
+        2985058
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/75/0343-01",
+        "/la/226/0227-01"
+      ]
+    },
+    {
+      "cite": "228 La. 105",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9917480,
+        2893900
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/81/0826-01",
+        "/la/228/0105-01"
+      ]
+    },
+    {
+      "cite": "116 So.2d 286",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3187245
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0661-01"
+      ]
+    },
+    {
+      "cite": "77 So.2d 15",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "226 La. 708",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2988067,
+        10037655
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/226/0707-01",
+        "/so2d/77/0013-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C.A. \u00a7 301",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 524,
+    "char_count": 10682,
+    "ocr_confidence": 0.78,
+    "pagerank": {
+      "raw": 7.642450522573382e-08,
+      "percentile": 0.45151416163645064
+    },
+    "sha256": "3f4958a128467c7770127a29b0dfb4fda6cd8a3727b9bcb17465967937a45bff",
+    "simhash": "1:f7b1b93dd3dfbef4",
+    "word_count": 1821
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "W. C. PURDY v. DEPARTMENT OF REVENUE OF THE STATE of Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "SIMON, Justice.\nThis is an appeal by W. C. Purdy from a decision of the Civil Service Commission dismissing Purdy\u2019s appeal from the action of the Department of Revenue in retiring him under the provisions of Act 54 of 1958.\nBy Act 54 of 1958, LSA-R.S. 42:691, the Legislature made it mandatory for the appointing authority to retire from public service those employees (except elected officials and department heads appointed and commissioned by the Governor) who have reached the age of 65 years and who are eligible for retirement either under the Federal Social Security Act or under one of the state retirement systems. Mr. Purdy, who was employed by the Department of Revenue as a Revenue Examiner I, was more than 70 years of age and eligible for retirement under the Federal Social Security Act, 42 U.S.C.A. \u00a7 301 et seq. Pursuant to the provisions of the foregoing statute, the Department of Revenue duly notified Mr. Purdy by letter dated July 21, 1958, the text of which is as follows:\n\u201cNotice of Removal\n\u201cJuly 21, 1958 January 22, 1959\n\u201cMr. W. C. Purdy\n\u201cIncome Tax Division\n\u201cDepartment of Revenue\n\u201cBaton Rouge, Louisiana\n\u201cDear Mr. Purdy:\n\u201cAct 54 of the recently concluded session of the Legislature establishes the same retirement policy for State employees covered by the Federal Social Security Act that has heretofore existed for State employees who are members of the various employees\u2019 retirement systems.\n\u201cThe Act provides that an employee is subject to retirement if he has reached the age of sixty-five and is eligible for retirement under either the Social Security Act or the retirement system of which he is a member. In the event the employee is not eligible for retirement at age sixty-five, then separation occurs when he does become eligible or when he reaches age seventy, whichever is earlier.\n\u201cOur records disclose that you have attained the age seventy and are insured by the Federal Social Security System, under which you have acquired eligibility for retirement benefits.\n\u201cIn accordance with Act 54 of 1958, and in keeping witth the policy of this department, you are advised that you will be retired at the close of business January 31, 1959. This six month notice is given in order to afford you time to make the plans and adjustments faced by all persons upon retirement.\n\u201cSincerely yours,\n\u201cRobert L. Roland,\n\u201cCollector.\n\u201cRLR :o\u201d\nOn April 28, 1959, appellant filed with-the State Civil Service Commission a letter of appeal in which he contended that his service as a civil servant had been terminated without cause and accordingly asked for reinstatement without loss of any emoluments of his civil service status. The matter was heard on May 26, 1959. The Department of Revenue submitted verbal motions for dismissal of the appeal, the first based on appellant\u2019s failure to file an appeal within the proper time, the second based on the Commission\u2019s Rule 12.9 which reads as follows:\n\u201c12.9 Retirement. If a classified employee is retired he is considered as separated without prejudice and does not have a right of appeal to the Commission.\u201d\nThe motions for dismissal were referred to the merits.\nAfter a hearing on the merits, the Commission ruled that its Rule 12.9 provides that an employee who is retired has no right of appeal and since its rulings have the effect of law (La.Const. Article XIV, Section 15(1)), the Commission has no right but to observe them and accordingly dismissed the appeal for want of jurisdiction. The Commission did not inquire into the merits of the other issues raised.\nOn appeal to this Court appellant contends that the Civil Service Commission cannot by its own rules limit the jurisdiction conferred upon it by the Constitution in such a manner as to deprive civil service employees of the benefits of Article XIV, Section 15, of the Constitution, which protects civil servants of the state from dismissal without cause.\nSince we are of the view that there is merit to the Department of Revenue\u2019s motion to dismiss the appeal based on appellant\u2019s failure to file an appeal within the proper time, we shall pretermit the question of whether the Civil Service Commission has jurisdiction to hear the appeal, the basis relied on for its dismissal of the appeal. Even if we found that the Commission has jurisdiction, appellant has allowed his right of appeal to the Commission to be forfeited by his failure to appeal timely. Thus we have not considered what right, if any, the Civil Service Commission had to inquire into or determine the constitutionality of Act 54 of 1958, nor do we express any views in respect thereto.\nArticle XIV, Section 15(1), of the Constitution of Louisiana vests in the State Civil Service Commission the authority and power to adopt and enforce rules, which shall have the effect of law, regulating employment, transfers, promotions, et cetera, and particularly to adopt and enforce a rule \u201cfixing the procedure, the time within which appeals must be taken, and all other matters pertaining to appeals.\u201d Under this constitutional authority the Commission adopted Rule 13.12 which reads as follows:\n\u201cNo appeal shall be effective unless notice thereof is filed with the Director at his office in the Department of Civil Service at Baton Rouge, within thirty (30) days following the action complained against, or within thirty (30) days following appellant\u2019s knowledge thereof, or where written notice is given of an action to be thereafter effective, within the thirty (30) days following the date on which such notice is given.\u201d\nSince plaintiff was given written notice \u201cof an action to be thereafter effective,\u201d he had thirty days following the date on which notice was received to perfect his appeal to the Civil Service Commission. He waited, however, until April 28, 1959, more than nine months after receipt of notice to file an appeal with the Commission.\nPlaintiff does not dispute the fact that he did not comply with Rule 13.12, but contends that his retirement by the Department of Revenue was void ab initio because the Legislature could not constitutionally adopt a rule that creates a cause where no cause, under the well defined judicial meaning thereof, exists; that being void ad initio, appellant therefore contends that Rule 13.12 cannot be invoked, relying upon the authority of Young v. Charity Hospital of La. at New Orleans, 226 La. 708, 77 So.2d 13.\nIn support of his contention that the appeal was timely taken, appellant relies on certain language in Young v. Charity Hospital of La. at New Orleans, supra [226 La. 708, 77 So.2d 15], which he construes to be the holding in that case \u2014 that is, that \u201cneither the Court, nor the Commission, nor the lapse of time could breathe a breath of life into that which is void ab initio.\u201d This identical question was raised in the case of Chadwick v. Department of Highways of the State of Louisiana, La., 116 So.2d 286. In that case we said:\n\u201c * * * This language and other statements in that case would seem to support the holding of the Commission, but that case is authority only for the legal proposition that the 30-day period for taking an appeal to the Commission does not begin to run where the appointing authority has failed to comply with the procedural requirements of Section 15 (N) (1) of Article 14 of the Constitution in regard to the giving of notice of dismissal in writing. Any other statement or expression found in the Young case was unnecessary to the decision and will not be considered as a holding of this court. In sum, the court found that Mary Young was not given notice in writing of her dismissal as required by the Constitution, that this failure to comply with the procedural requirements of the Constitution for dismissal resulted in her never having been dismissed from the service, and that as a consequence the 30-day period in which an appeal must be taken to the Commission had never begun to run.\n\u201cWe do not think that an employee in the classified service who has been dismissed in full compliance with the procedural requirements of the Constitution may evade the requirements of Rule 13.12 as to a timely appeal solely on the ground that the employee\u2019s dismissal was void ab initio. The law is clear that in such a case the employee must timely appeal. If this were not so, the employee could wait any length of time to take the appeal and then be reinstated with full pay and all rights of tenure. No doubt the purpose of the rule, which has the effect of law, is to protect the public fisc and to make for the orderly administration of the work of the departments of the state.\n\u201cWe therefore conclude that Mr. Chadwick\u2019s appeal was not timely taken since more than 30 days elapsed between receipt of notice on January 5 and filing of his appeal on February 16.\u201d\nWe therefore conclude that Mr. Purdy\u2019s appeal was not timely taken since more than thirty days elapsed between receipt of notice on July 21, 1958, and the filing of his appeal on April 28, 1959.\nIn supplemental brief filed in this Court, counsel for Purdy, relying on Day v. Department of Institutions, 228 La. 105, 81 So.2d 826, and Boucher v. Division of Employment Security, 226 La. 227, 75 So. 2d 343, contends that the notice of Purdy\u2019s retirement was illegal because it failed to notify him of his right to appeal to the Louisiana Civil Service Commission. This challenge to the legality of the notice of retirement was met in Chadwick v. Department of Highways of the State of Louisiana, supra, as follows:\n\u201cAt the time of the dismissals considered in those cases, the rules of the Civil Service Commission required that in case of removal the employee was to be notified of his right to appeal to the Louisiana Civil Service Commission. This rule, however, was amended on May 26, 1954, by the Civil Service Commission, and the provision requiring notification to the employee of his right to appeal to the Commission was deleted. In other words, the rule was amended to eliminate the requirement that an employee subj ect to disciplinary action had to be notified of his right to appeal to the Commission.\u201d\nFor the reasons assigned, the motion filed by the Department of Revenue to dismiss the appeal of Purdy to' the Civil Service Commission is sustained on the ground that the appeal was not timely taken pursuant to Rule 13.12 of the Civil Service Commission.",
+        "type": "majority",
+        "author": "SIMON, Justice."
+      }
+    ],
+    "attorneys": [
+      "Amos L. Ponder, Jr., New Orleans, Breazeale, Sachse & Wilson, Victor A. Sachse, Baton Rouge, for appellant.",
+      "Richard Alsina Fulton, Emmett E. Bat-son, Frederick S. Haygood, Levi A. Himes, Chapman L. Sanford, Baton Rouge, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "116 So.2d 290\nW. C. PURDY v. DEPARTMENT OF REVENUE OF THE STATE of Louisiana.\nNo. 44759.\nDec. 14, 1959.\nAmos L. Ponder, Jr., New Orleans, Breazeale, Sachse & Wilson, Victor A. Sachse, Baton Rouge, for appellant.\nRichard Alsina Fulton, Emmett E. Bat-son, Frederick S. Haygood, Levi A. Himes, Chapman L. Sanford, Baton Rouge, for appellee."
+  },
+  "file_name": "0673-01",
+  "first_page_order": 369,
+  "last_page_order": 373
+}

@@ -1,0 +1,91 @@
+{
+  "id": 1933631,
+  "name": "Way, Receiver of the Marshall Mutual Insurance Company vs. Billings",
+  "name_abbreviation": "Way v. Billings",
+  "decision_date": "1852-01",
+  "docket_number": "",
+  "first_page": "397",
+  "last_page": "401",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "2 Mich. 397"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "2 Blackf., 367",
+      "category": "reporters:state",
+      "reporter": "Blackf.",
+      "case_ids": [
+        1385435
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/blackf/2/0367-01"
+      ]
+    },
+    {
+      "cite": "2 Doug., 124",
+      "category": "reporters:state",
+      "reporter": "Doug.",
+      "case_ids": [
+        232261
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/doug/2/0124-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 487,
+    "char_count": 10830,
+    "ocr_confidence": 0.358,
+    "pagerank": {
+      "raw": 2.4928291634898897e-07,
+      "percentile": 0.8087183847398053
+    },
+    "sha256": "b36ac02ac397995f5712aeecfb207d08475225f38b290724b8f97186f0afdbb2",
+    "simhash": "1:3e0d36edf49690c0",
+    "word_count": 1859
+  },
+  "last_updated": "2024-02-27T17:43:48.727812+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Way, Receiver of the Marshall Mutual Insurance Company vs. Billings."
+    ],
+    "opinions": [
+      {
+        "text": "By the Court, Martin, J.\nTlie testimony exhibited on the trial of this cause was sufficient to prove the existence of the Marshall Mutual Insurance Company; (See Cahill vs. Kal. Mut. Ins. Co., 2 Doug., 124; Henriques vs. Dutch West India Co., 2 Ld. Raym, 1535; Den vs. Van Hauten, 5 Halst, 270; Congreg. Soc. vs. Perry, 6. N. Hamp. 164; All Saints\u2019 Church vs. Lovett, 1 Hall, N. Y., 191; Johns vs. Farm, & Mech\u2019s. Bank, 2 Blackf., 367;) and also, the application of the defendant for insurance of his property, and the execution and delivery of the premium note.\nThe admission of the defendant in that note, of the policy, its number and date, was sufficient prima facie evidence of its existence for the purposes of the trial, and the plaintiff could not be compelled by any known rule of evidence to prove the actual issuing, and contents of such policy, after such admission, in the absence of any special pica, or notice of defense for want of consideration.\nBut conceding the necessity of proving the contents of the policy, and its actual receipt by the defendant, the plaintiff was clearly entitled to answers to the questions propounded by him to the defendant. He had given notice for its production upon the trial, or that parol proof of its contents would be given. Failing in procuring the production of the policy, he made an affidavit as prescribed by \u00a7 100 of chapter 102 of the revised statutes, that certain facts material to the issue in this cause were within the knowledge of the defendant, and that there was no competent witness, whose testimony he could procure, by whom such facts could be proved. \u201cThut the said facts so in the knowledge of said defendant are\u201d (in .the language of the affidavit-,) \u201cthat the policy of insurance mentioned in the declaration in this case, numbered 641, was issued, and received by the said defendant-, and the contents of such policy, and the policy itself.\u201d Under this affidavit the plaintiff was entitled to examine the defendant as to the existence of the policy, its receipt by him, its contents, and to its production, if in his possession or subject to his control. In short, he had all the right which a Court of Equity could have afforded him upon a bill of discovery. The defendant was accordingly sworn, and having testified that he made the application for a policy of insurance, upon which it was claimed the policy in question issued, he was asked, \u201cDid you ever receive a policy of insurance from the Marshall Mutual Insurance Company, numbered 641?\u201d To this question the witness replied; \u201cI don\u2019t recollect the number\u2019\u2019\nShifting the inquiry, then, so as to attain the object of the examination, the witness was then asked the following questions:\n1. Did you ever receive a policy of insurance issued by the Marshall Mutual Insurance Company ? \u201d\n2. Have you in your possession a policy of insurance issued by the Marshall Mutual Insurance Company ?\n3. Have you in Court a policy of insurance issued by the Marshall Mutual Insurance Company ?\n4. Will you look upon the policy of insurance in your possession and .state whether it is numbered 641 ?\nEach of these questions was met by objections of the defendant\u2019s \u25a0counsel, and the objections sustained by the Court.\nIt is difficult to conceive upon what grounds these questions were prohibited. The answer of the witness, defendant, to the question whether he ever received a policy of insurance from the company, numbered 641, was so clearly evasive and uncandid, that the Court would not only have been warranted, but was required from regard to the rights of the plaintiff and respect to its own authority, to permit the broadest latitude of inquiry necessary to elicit the truth, and effectuate the objects of the law. To permit a witness to avoid a discovery by so palpable an evasion would render Courts of justice utterly incompetent for the purposes of their creation. We know of no immunity to the defendant in such cases, that would not attach to any witness, and a reluctant witness may always be pursued with questions calculated to withdraw him from his defiant position.\nBut irrespective of these views, the questions were clearly competent. The plaintiff had a right to examine the defendant generally as to the fact of his having received a policy from the company, and every particular respecting it. Suppose upon such an examination the defendant had testified to the receipt of a policy about the time of the transaction, but that he had lost it, and could not state its number or contents. Woidd the plaintiff have been estopped by such answers from pursuing the inquiry further to ascertain whether it was executed under this application, for insurance, or would not a Court, or a jury, were one empannelled, have been authorized, and indeed bound to conclude that the policy lost, was the one sought by the plaintiff ? Most assuredly so.\nThe error of the Court below in this particular, evidently crippled the plaintiff in the further progress of the cause, and many of the questions subsequently raised may he clearly traced to it. It becomes therefore unnecessary to consider the remaining questions, and it must be certified that the non-suit should be set aside and a new trial granted.\nCertified accordingly.",
+        "type": "majority",
+        "author": "By the Court, Martin, J."
+      }
+    ],
+    "attorneys": [
+      "I. E. Crary, for plaintiff.",
+      "Baker & Millerd, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "Way, Receiver of the Marshall Mutual Insurance Company vs. Billings.\nThe production, of the charter and acts of user under it, are sufficient to prove the existence of a corporation.\nThe admission in a premium note, of the policy of insurauce, its number and date, aro sufficient evidence for the purposes of trial, of the.actual issuing of, and contents of such policy, in the absence of any special plea or notice of dofense, for want of consideration. Plaintiff, in an action upon a premium note, having given the defendant notice to produce the policy upon which it was given at the trial, which he refused to do, made the affidavit required by section 100, page 461, R. S., 1846,' and setting forth the facts in the knowledge of the defendant, to be the issuing of the policy, its number, its receipt by defendant, its contents, and the policy: Held, that under the affidavit plaintiff was entitled to examino the defendant as to the existence of the policy, its receipt by him, its contents, and to its production in Court, if in his possession, or subject to his control.\n\"Where a party sworn as a witness under R. S., p. 461, \u00a7 100, gives an answer clearly evasive and uncandid, the Court should permit the broadest latitude of inquiry necessary to elicit the truth and effectuate the object of the law.\nThe defendant being sworn as a wituess under the statute, (R. S.} 1846, page 461,) was asked if he ever received a policy of insurance of a certain number, (641,)f to which ho replied: \u201cI don\u2019t recollect the number.\u201d Afterward he was asked the following several questions, \u2022riz: If he ever/received the policy of insurance in question? If he had in his possession a policy of insurauce issued by the company? Also, to look upon the policy of insurance in his possession, and to state whether it was numbered 641. Held, that all the questions were competent, and that under his affidavit the plaintiff had the right to examino the defendant generally, as to the fact of his having received the policy, and cyery particular relating to it.\nCase reserved by the County Judge of Lenawee County, upon motion to set aside a non-suit, and for a new trial.\nTliis ease was brought in tbe Lenawee County Court, upon a promissory note given by tbe defendant to tbe Marshall Mutual Insurance Company,, in consideration of Policy No. 641, issued by said company to defendant, dated October 26, 1848. Tbe declaration set forth tbe promissory note, application, policy of insurance, loss by fire, an assessment made by order of the Court of Chancery, tbe dissolution of tbe corporation, and tbe appointment of plaintiff as receiver, Ac. Plea, general issue, and nul tiel corporation. The cause was brought on for trial on tbe 4th day of February, 1851. The act of incorporation of tbe Marshall Mutual Insurance Company was produced in evidence and it was proved that tbe company kept an office in the village of Marshall, issued policies of insurance, bad a secretary, Ac.\nTbe execution of tbe application for insurance and premium note was admitted by defendant, and that said note was given to Mr. Rice, tlio agent of the company residing at Adrian, to bo forwarded to the company, at Marshall. James M. Parsons testified that ho was secretary of tire company at that time, and that he received said application and .premium noto from Mr. Rice, and that on the day of the date of said note, he issued a policy of insurance pursuant to the application, to the defendant, and forwarded the same to him at his place of residence, hut was unable to state whether the said policy was forwarded by mail or private conveyance, that said application was approved by Philo Dibble, at that time one of tbe directors of said company.\nThe plaintiff then offered in evidence a certified copy of a decree of the Circuit Court for the comity of Wayne, in Chancery, in favor of Chas. M. Lee, against the Marshall Mutual Insurance Company, showing a loss by fire in the sum of $6,267, which was objected to by the defendant on the ground that defendant had not been identified as a member of tin? company, and the objection was sustained by the Court. The plaintiff having given the defendant notice to produce the policy of insurance in question, which defendant refused to do, made an affidavit as required by section 100, page 461, R. S. 1846, and called said defendant as a witness, who testified that he did not Imow the number of the policy. Several questions wore then propounded to the witness which were overruled by tbe Court, whereupon the plaintiff demanded that the defendant should be sworn in chief, wbicb was objected to by defendant\u2019s counsel on tbe ground that under tbe general issue pleaded without special plea, the defendant could not be called on as a witness, which objection was sustained by the Court. The plaintiff then offered a decree of the Calhoun Circuit Court, in Chancery, malting an assessment of 20 per cent, on all notes in force on the 8th of January, 1844, which was objected to and the objection sustained. Tbe plaintiff offered affidavits of tbe publication of Motices of assessment, which was objected to and objection sustained. Tbe plaintiff finally offered in evidence a decree of the Calhoun Circuit Court, in Chancery, dissolving said corporation, and appointing\u2019the plaintiff receiver, wbicb on objection of defendant on the ground that he was not proven to. be a member of the company, was ruled out by the Court. Tbe plaintiff became non-suit, and thereupon moved for a new trial.\nI. E. Crary, for plaintiff.\nBaker & Millerd, for defendant."
+  },
+  "file_name": "0397-01",
+  "first_page_order": 405,
+  "last_page_order": 409
+}

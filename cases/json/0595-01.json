@@ -1,0 +1,167 @@
+{
+  "id": 3186111,
+  "name": "STATE of Louisiana v. Dalton HOWARD",
+  "name_abbreviation": "State v. Howard",
+  "decision_date": "1959-03-23",
+  "docket_number": "No. 44258",
+  "first_page": "595",
+  "last_page": "607",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 595"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 So.2d 43"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "80 S.Ct. 138",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "287 U.S. 45",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        369864
+      ],
+      "weight": 5,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/287/0045-01"
+      ]
+    },
+    {
+      "cite": "163 La. 686",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1260455
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/163/0685-01"
+      ]
+    },
+    {
+      "cite": "232 La. 53",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5434243,
+        9907996
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "697"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/232/0053-01",
+        "/so2d/93/0691-01"
+      ]
+    },
+    {
+      "cite": "316 U.S. 455",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        368158
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "1257"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/316/0455-01"
+      ]
+    },
+    {
+      "cite": "53 S.Ct. 65",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "226 La. 660",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10102985,
+        2987598
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "924"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/76/0921-01",
+        "/la/226/0659-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 592,
+    "char_count": 12603,
+    "ocr_confidence": 0.735,
+    "pagerank": {
+      "raw": 2.3244184651140544e-07,
+      "percentile": 0.7903696315885598
+    },
+    "sha256": "4c6a6f54189de772a744a96cd4e0692fd1e4ccd219287e9ad9f9cbd50d43c476",
+    "simhash": "1:afe5ebdf36c6269b",
+    "word_count": 2169
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "STATE of Louisiana v. Dalton HOWARD."
+    ],
+    "opinions": [
+      {
+        "text": "HAWTHORNE, Justice.\nAppellant Dalton Howard, charged in\" a bill of information with the crime of public bribery denounced by R.S. 14:118, was tried, convicted, and sentenced to serve four years in the state penitentiary.\nThe first error complained of by appellant is that the bill of information does not inform him of the nature and cause of the accusation against him as required by Article 1, Section 10, of the Constitution of this state. The bill of information reads as follows:\n\u201c * * * that Dalton Howard and Paul Lewis * * * on or about the 11th day of April in the year of our Lord, one thousand nine hundred and Fifty-seven (1957) being employed as patrolmen of the City Police of the City of Lafayette, Louisiana, did accept Two Hundred Thirty and no/100 ($230.00) Dollars in the lawful money of the United States, from James Lewis, Norris Gabriel and Hammond Mitchell which was given to the said Paul Lewis and Dalton Howard by the above named persons and accepted by the said Paul Lewis and Dalton Howard with the intent to influence their conduct in relation to their position, employment and duty as police officers, thereby committing the crime of public bribery * *\nIt is appellant\u2019s contention that that portion of the information which states \u201cwith intent to influence their conduct in relation to their position, employment and duty as police officers, thereby committing the crime of public bribery\u201d amounts to nothing more than a conclusion and is not sufficient to inform him of the nature and cause of the accusation against him as required by the Constitution.\nThere ,is no merit in this contention. The information in the instant case tracks the language of the public bribery statute which appellant was charged with violating. In addition it avers the specific facts on which the charge was based \u2014 that the accused accepted a specific sum of money from certain named persons on a specific date, and that this money was given him to influence his conduct in relation to his position, employment, and duty as a police officer.\nIn State v. Scheuering, 226 La. 660, 76 So.2d 921, 924, this court said:\n\u201cGenerally an indictment which charges an offense in the language of the statute defining it is sufficient. However, if the statute is one which defines an offense in general terms, use of the language of the statute is not sufficient, and the indictment must also state the specific acts of the defendant on which the charge is based. * * * The indictment in the instant case is sufficient when tested by these principles of law. It tracks the general language of the malfeasance statute which the defendant is charged with violating. In addition it spells out in detail how and in what manner the statute was violated by stating the specific facts on which the charge of malfeasance was based.\u201d\nMoreover, the information in the instant case meets every test laid down by this court for a valid bill of information: It informs the court of the offense charged in order that the court may regulate the evidence sought to be introduced, it informs the accused of the nature and cause of the offense with which he is being charged, and it is sufficient on its face to support a plea of former jeopardy. See State v. Scheuering, supra, and authorities there cited.\nAppellant further contends that there is an error patent on the face of the record which is fatal to his conviction \u2014 that is, that he was not afforded effective assistance of counsel and consequently was denied due process of law.\nThe transcript in this case discloses that this appellant, a police officer of the City of Lafayette, was charged in a bill of information with public bribery. He was duly arraigned on Friday, February 14, 1958, and at this arraignment he was represented by counsel who, we understand, is the same attorney who represents him on the appeal to this court. At this arraignment his case was fixed for trial for May 5, 1958. On Tuesday, April 8, this bill of information was nol-prossed, and on the same day he was arraigned under a new bill charging the same offense. Under this bill his case was again fixed for May 5, 1958, the same day originally set under the bill which had been nol-prossed. The minutes of the court disclose that at this last arraignment he was unrepresented by counsel. However, the court entered an order permitting this accused to file any pleadings that he might desire until April 28. When the case was called for trial on May 7, the accused requested the court to appoint counsel to represent him, and accordingly the court at that time appointed Mr. Harold Savoie, who accepted the appointment. The case then proceeded to trial, which lasted two days. During the course of the trial counsel objected to the introduction of certain evidence relied upon by the State, reserved and perfected bills of exception, filed a motion for a new trial, and perfected an appeal to this court. After the appeal was lodged in this court, present counsel filed a motion setting forth that the convicted appellant had engaged him to represent him in these proceedings and requesting that he be enrolled as counsel for the appellant. This motion was granted.\nFrom these facts it will be seen that Mr. Savoie was appointed by the court on the day the case was called for trial. Appellant argues that it was error for the trial court to assign him counsel at such a time arid under such circumstances as to preclude counsel\u2019s giving effective aid to him in the preparation and trial of the case, and that as a result he was, in effect, deprived of the right to counsel and denied due process of law. In support of this contention he relies principally on the case of Powell v. Alabama, 287 U.S. 45, 53 S.Ct. 55, 77 L.Ed. 158.\nBefore discussing the Powell case we should point out that Article 1, Section 9, of the Constitution of this state provides that in all criminal prosecutions the accused shall have the right to have the assistance of counsel, and that R.S. 15:143 states that \u201cWhenever an accused charged with a felony shall make affidavit that he is unable to procure or employ counsel learned in the law, the court before whom he shall be tried, or some judge thereof, shall immediately assign to him such counsel\u201d. We further recognize that, to make the constitutional right to assistance of counsel effective, counsel must be accorded a reasonable time for preparation of the case\u2014 that is, time to investigate the facts and the law applicable. However, what constitutes a reasonable time depends on the facts and circumstances of each case, and there should be a showing that such time was needed, requested, and denied.\nCounsel appointed by the court in the instant case did not request a continuance for time to prepare the accused\u2019s defense. If such a motion had been filed, there is no doubt that upon a showing that time was needed to investigate the facts and the law applicable the trial judge would have granted the motion. There is no showing whatever that counsel appointed by the court was derelict in his duty in any way, or that he was incompetent, not qualified, or lacking in ability, or that he needed additional time in which to prepare the defense. Moreover, there is no showing here that the accused was denied the right to file any pleas on the ground that they were not timely. Certainly it cannot be said that he was denied the right to have the assistance of counsel. The judge appointed counsel to represent the accused as soon as the accused informed the judge that he desired to have the court appoint counsel to represent him, even though there was no showing that the accused was unable to procure or employ counsel.\nPowell v. Alabama, supra, relied upon by appellant is not controlling here. The United States Supreme Court in that case was careful to state that, under all the facts and circumstances there shown to exist, the failure of the trial court to give the defendants a reasonable time and opportunity to secure counsel was a clear denial of due process. Certainly appellant in the instant case had a reasonable time and opportunity to secure counsel of his choice.\nIn the Powell case [287 U.S. 45, 53 S.Ct. 65] the court also was careful to point out \u201cthat in a capital case, where the defendant is unable to employ counsel, and is incapable adequately of making his own defense because of ignorance, feeble-mindedness, illiteracy, or the like, it is the duty of the court, whether requested or not, to assign counsel for him as a necessary requisite of due process of law\u201d, and that under the facts and circumstances detailed by the court in that case, the duty to assign counsel is not discharged by an assignment at such a time and under such circumstances as to preclude counsel\u2019s giving effective aid in the preparation and trial of the case. In other words, the Supreme Court held that under the facts and circumstances of that case defendants had been denied due process, but the court was careful to point out that \u201cWhether this would be so in other criminal prosecutions, or under other circumstances, we need not determine\u201d. See Betts v. Brady, 316 U.S. 455, 62 S.Ct. 1252, 1257, 86 L.Ed. 1595, in which the decision in Powell v. Alabama was explained and discussed.\nThe facts and circumstances of the instant case do not bring it within the ruling of the Powell case.\nAppellant next contends that the district court erred in permitting his confession to be introduced and filed in evidence. He does not contend that this confession was not freely and voluntarily given. His complaint is that the confession was obtained by means of questions and answers, and that as written it does not contain the questions and answers but gives only the substance of the statement. He argues that it was error to admit this confession under Article 450 of the Code of Criminal Procedure, R.S. 15:450, which provides that every confession must be used in its entirety so that the person to be affected thereby may have the benefit of any exculpation or explanation the whole statement may afford.\nThe testimony taken as a foundation for the introduction of this confession in evidence discloses that certain questions were asked accused which he answered, and that the substance of his statements was reduced to writing, and that after the confession had been reduced to writing, it was read to the accused and he signed each page of it.\nIn the recent case of State v. Sheffield, 232 La. 53, 93 So.2d 691, 697, this court stated:\n\u201cWritten confessions to be admissible in evidence against the accused need not be in any particular form nor in the exact language of the accused but are sufficient if the substance of the accused\u2019s statement is taken down. State v. Brasseaux, 163 La. 686, 112 So. 650.\"\nThere is therefore no merit in this contention.\nDuring the trial of the case the defense called the chief deputy clerk of court and had her identify a record in a criminal case on the court\u2019s docket in which several named individuals including the defendant Dalton Howard were charged with simple burglary. After she identified the record she was asked: \u201cWhat disposition was made of the charge lodged therein as far as the accused is concerned, Dalton Howard?\u201d The State objected to this question as being immaterial and irrelevant, and the objection was sustained.\nIt is appellant\u2019s contention that the ruling of the trial judge sustaining this objection by the State was reversible error. We are unable to ascertain how the disposition of a former charge of simple burglary against this accused would be relevant in a trial on a charge of public bribery. Under Article 441 of the Code of Criminal Procedure, R.S. 15:441, evidence tending to negative the commission of the offense and the intent is admissible. But how the disposition of a burglary charge against this accused would tend to negative the commission of the offense of public bribery here charged we are unable to say. The bill of exception does not disclose how this matter is relevant, and under these circumstances we consider the ruling of the trial judge correct. -\nThe conviction and sentence are affirmed.\n. Paul Lewis on his own motion was granted a severance by the court.",
+        "type": "majority",
+        "author": "HAWTHORNE, Justice."
+      }
+    ],
+    "attorneys": [
+      "J. Minon Simon, Lafayette, for defendant.",
+      "Jack P. F. Gremillion, Atty. Gen., M. E. Culligan, Asst. Atty. Gen., Bertrand De-Blanc, Dist. Atty., Lafayette, J. Nolan San-doz, Asst. Dist. Atty., Abbeville, for the State."
+    ],
+    "corrections": "",
+    "head_matter": "116 So.2d 43\nSTATE of Louisiana v. Dalton HOWARD.\nNo. 44258.\nMarch 23, 1959.\nRehearing Denied June 1, 1959.\nCertiorari Denied Oct. 26, 1959.\nSee 80 S.Ct. 138.\nJ. Minon Simon, Lafayette, for defendant.\nJack P. F. Gremillion, Atty. Gen., M. E. Culligan, Asst. Atty. Gen., Bertrand De-Blanc, Dist. Atty., Lafayette, J. Nolan San-doz, Asst. Dist. Atty., Abbeville, for the State."
+  },
+  "file_name": "0595-01",
+  "first_page_order": 330,
+  "last_page_order": 336
+}

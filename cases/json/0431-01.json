@@ -1,0 +1,99 @@
+{
+  "id": 3186467,
+  "name": "Mrs. Carol D. EISEMAN et al. v. BOARD OF COMMISSIONERS FOR PONTCHARTRAIN LEVEE DISTRICT",
+  "name_abbreviation": "Eiseman v. Board of Commissioners",
+  "decision_date": "1959-11-09",
+  "docket_number": "No. 44619",
+  "first_page": "431",
+  "last_page": "431",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 431"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 So.2d 808"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "115 So.2d 804",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3188423
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0419-01"
+      ]
+    },
+    {
+      "cite": "238 La. 419",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9905078,
+        3188423
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/115/0804-01",
+        "/la/238/0419-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 66,
+    "char_count": 584,
+    "ocr_confidence": 0.728,
+    "pagerank": {
+      "raw": 1.224091964542211e-07,
+      "percentile": 0.5989553831130695
+    },
+    "sha256": "35c03557ec0ced3e65574ddb4013d581126703ee0055ea65c9091bf908cd1b66",
+    "simhash": "1:d61ce55594657c3e",
+    "word_count": 91
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "McCALEB, J., dissents in part for the written reasons given in No. 44,618."
+    ],
+    "parties": [
+      "Mrs. Carol D. EISEMAN et al. v. BOARD OF COMMISSIONERS FOR PONTCHARTRAIN LEVEE DISTRICT."
+    ],
+    "opinions": [
+      {
+        "text": "HAMITER, Justice.\nFor the reasons assigned in the cause entitled Weiss v. Board of Commissioners for Pontchartrain Levee District, 238 La. 419, 115 So.2d 804, the judgment appealed from is affirmed.\nMcCALEB, J., dissents in part for the written reasons given in No. 44,618.",
+        "type": "majority",
+        "author": "HAMITER, Justice."
+      }
+    ],
+    "attorneys": [
+      "Clarence A. Frost, Reserve, A. J. Kling, Jr., Gonzales, for defendant-appellant.",
+      "Dreyfous & Kalinski, Edward A. Kalinski, New Orleans, for appellees."
+    ],
+    "corrections": "",
+    "head_matter": "115 So.2d 808\nMrs. Carol D. EISEMAN et al. v. BOARD OF COMMISSIONERS FOR PONTCHARTRAIN LEVEE DISTRICT.\nNo. 44619.\nNov. 9, 1959.\nRehearing Denied Dec. 14, 1959.\nClarence A. Frost, Reserve, A. J. Kling, Jr., Gonzales, for defendant-appellant.\nDreyfous & Kalinski, Edward A. Kalinski, New Orleans, for appellees."
+  },
+  "file_name": "0431-01",
+  "first_page_order": 248,
+  "last_page_order": 248
+}

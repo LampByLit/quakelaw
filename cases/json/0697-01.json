@@ -1,0 +1,466 @@
+{
+  "id": 3186201,
+  "name": "PARISH OF IBERIA v. Mrs. Marguerite Adorato COOK",
+  "name_abbreviation": "Parish of Iberia v. Cook",
+  "decision_date": "1959-12-14",
+  "docket_number": "No. 44837",
+  "first_page": "697",
+  "last_page": "717",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 697"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 So.2d 491"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "148 So. 672",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "case_ids": [
+        5809943,
+        10058383
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/177/0439-01",
+        "/so/148/0672-01"
+      ]
+    },
+    {
+      "cite": "177 La. 440",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10058383,
+        5809943
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/148/0672-01",
+        "/la/177/0439-01"
+      ]
+    },
+    {
+      "cite": "99 So.2d 330",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "112 So.2d 692",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3184121
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/237/1005-01"
+      ]
+    },
+    {
+      "cite": "237 La. 1005",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3184121,
+        9895170
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/237/1005-01",
+        "/so2d/112/0692-01"
+      ]
+    },
+    {
+      "cite": "234 La. 241",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2888712,
+        9872075
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/234/0241-01",
+        "/so2d/99/0097-01"
+      ]
+    },
+    {
+      "cite": "200 La. 526",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10064418,
+        5412539
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/8/0528-01",
+        "/la/200/0526-01"
+      ]
+    },
+    {
+      "cite": "234 La. 51",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9869323,
+        2886789
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "21"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/99/0020-01",
+        "/la/234/0051-01"
+      ]
+    },
+    {
+      "cite": "233 La. 1014",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5402753,
+        9883526
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/233/1013-01",
+        "/so2d/99/0328-01"
+      ]
+    },
+    {
+      "cite": "217 La. 657",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5534536,
+        10035418
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/217/0663-01",
+        "/so2d/47/0036-01"
+      ]
+    },
+    {
+      "cite": "69 So.2d 37",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3089895,
+        9910279
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/224/0262-01",
+        "/so2d/69/0037-01"
+      ]
+    },
+    {
+      "cite": "224 La. 262",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9910279,
+        3089895
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/69/0037-01",
+        "/la/224/0262-01"
+      ]
+    },
+    {
+      "cite": "166 La. 211",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1253648
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/166/0211-01"
+      ]
+    },
+    {
+      "cite": "115 La. 328",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5311919
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/115/0177-01"
+      ]
+    },
+    {
+      "cite": "26 So. 278",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 La.Ann. 1605",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        2584014
+      ],
+      "pin_cites": [
+        {
+          "page": "1616"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la-ann/51/1605-01"
+      ]
+    },
+    {
+      "cite": "136 La. 833",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5309544
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/136/0833-01"
+      ]
+    },
+    {
+      "cite": "219 La. 859",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10048098,
+        3041959
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/54/0125-01",
+        "/la/219/0859-01"
+      ]
+    },
+    {
+      "cite": "186 La. 398",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10046763,
+        3071123
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/172/0432-01",
+        "/la/186/0397-01"
+      ]
+    },
+    {
+      "cite": "182 La. 543",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5517690,
+        10024927
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/182/0543-01",
+        "/so/162/0070-01"
+      ]
+    },
+    {
+      "cite": "109 La. 551",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2484482
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/109/0551-01"
+      ]
+    },
+    {
+      "cite": "169 La. 1111",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        8505065
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "677"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/169/1111-01"
+      ]
+    },
+    {
+      "cite": "229 La. 191",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9896889,
+        5528310
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/85/0260-01",
+        "/la/229/0191-01"
+      ]
+    },
+    {
+      "cite": "36 So.2d 22",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3048868
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/213/1015-01"
+      ]
+    },
+    {
+      "cite": "213 La. 1016",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        12021368,
+        3048868
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/36/0022-01",
+        "/la/213/1015-01"
+      ]
+    },
+    {
+      "cite": "172 La. 1033",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2978544
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/172/1034-01"
+      ]
+    },
+    {
+      "cite": "221 La. 564",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9920364,
+        2951887
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "886"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/59/0885-01",
+        "/la/221/0564-01"
+      ]
+    },
+    {
+      "cite": "224 La. 136",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3092472,
+        9922287
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/224/0136-01",
+        "/so2d/68/0901-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1070,
+    "char_count": 24252,
+    "ocr_confidence": 0.742,
+    "pagerank": {
+      "raw": 2.050405229029323e-06,
+      "percentile": 0.9951908393114811
+    },
+    "sha256": "1457723398219b7fb5c204840c125876f1cd2a429c4e86603a8d5c81062b9d62",
+    "simhash": "1:d3594620de9f1d7e",
+    "word_count": 4068
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "PARISH OF IBERIA v. Mrs. Marguerite Adorato COOK."
+    ],
+    "opinions": [
+      {
+        "text": "SIMON, Justice.\nThis is an expropriation suit by the Parish of Iberia against Mrs. Marguerite A. Cook affecting a parcel of ground having a front of 100 feet on U. S. Highway 90, Main Street of New Iberia, by the depth between parallel lines to Bayou Teche.\nPlaintiff alleges that it is the owner of and is constructing a public hospital on a tract of land immediately adjoining the property here sought to be expropriated and that it needs said property for purposes in connection with the hospital, thus allowing for future expansion of the facility, to provide rest areas, driveways, parking facilities and for the construction of additional needed public facilities.\nThe defendant in a general plea to the merits denied the public necessity and purpose of the taking and, in the alternative, alleged that the value of the property and damages occasioned by the taking thereof is approximately $70,000.\nThe trial court rendered judgment expropriating the property and fixed the value of $66,125 to be paid by plaintiff.\nPlaintiff has appealed the judgment and pleads a reduction of the amount of the award. The defendant answered the appeal and seeks a reversal of the judgment of expropriation again contending the lack of public necessity and, in the alternative, an affirmation of the judgment as to value of the property expropriated.\nThe first issue to be determined is that of public necessity and purpose. The record shows that in 1950 the Police Jury of the Parish of Iberia appointed a Hospital Board to determine the feasibility of constructing a fifty-bed public hospital in the Parish. Over a period of years this Board, consisting of five prominent citizens of the Parish, studied the needs of the Parish, visited and inspected hospitals throughout the State and consulted with architects and eminent hospital experts. After many consultations with the Parish Police Jury, it was finally decided that a public general hospital was indispensable. When plans were first made, a fifty-bed hospital was deemed sufficient; later this was increased to seventy-five, then ninety-seven and finally by 1956, because of the rapid increase in the population of the Parish, its development and growth, a one hundred and six-bed hospital was concluded to be a minimum impending necessity.\nAfter much deliberation and consideration of the many available sites, the Police Jury purchased from Mrs. L. L. Gosling a 9.2 acre tract adjoining defendant\u2019s property for the construction of the hospital. Simultaneously with the purchase of the hospital site, the Police Jury and the Hospital Board, convinced that additional land was required to establish a modern unitized public hospital, attempted to purchase the land involved in this suit from Mrs. Gosling. She repeatedly refused to sell the one hundred foot strip, undoubtedly for the reason that she had disposed of it by last will and testament to the defendant. Following Mrs. Gosling\u2019s death, the Police Jury endeavored on several occasions to purchase the land from defendant without avail. After its final offer of $18,000 was rejected, the Police Jury instituted these proceedings.\nThe property involved herein is a tract of land having a front of 100 feet on Highway 90 by a depth between parallel lines to Bayou Teche of approximately 500 feet, bounded on the East by the property willed by Mrs. Gosling to St. Peter\u2019s Catholic Church, upon which the Catholic Diocese of Lafayette is constructing a $500,000 home for the aged, on the West by property of Iberia Parish upon which the Parish is constructing a $2,000,000 hospital. The property has located thereon a frame residence of 848 square feet in area, a 348 square foot porch, and a garage.\nDefendant maintains that the 9.2 acre tract on which the hospital is presently being constructed is sufficient for all the public purposes contemplated by the Parish at the present time. She further contends that the only evidence in the record tending to show the need of this additional property is the testimony of three members of the Police Jury, the chairman of the Hospital Board and Perry Segura, a local architect, and that their respective findings are not supported by any basic facts and figures nor by any prepared plans of technical men, whose duty it should be to prepare such plans to present to the Court in an expropriation proceeding. Defendant, on the other hand, produced Don O\u2019Rourke, a licensed architect and civil engineer of Lafayette, not for the purpose of dictating where the additional buildings, rest areas and parking area should be constructed, but to show in a positive manner that ample space is available for every plan that has been determined upon by the Police Jury and Hospital Board within the 9.2 acre site originally purchased.\nThe extent of property to be expropriated and the location thereof are within the sound discretion of the body possessing the power of eminent domain, and the determination of same will not be interfered with by the courts if made in good faith. Greater Baton Rouge Port Commission v. Watson, 224 La. 136, 68 So. 2d 901, and cases cited therein. In City of Westwego v. Marrero Land and Improvement Association, 221 La. 564, 59 So. 2d 885, 886, we said: \u201cWhile the expediency or necessity of an expropriation is a matter for judicial determination * * * nevertheless, the suitability of the property sought to be expropriated for the purpose as stated is primarily a question of fact, on which the judgment of the district court will not be disturbed unless manifestly erroneous, and particularly when that judgment has constituted an affirmation of the determination of the expropriating authority, arrived at after due, impartial consideration.\u201d\nIn Crichton v. Louisiana Highway Commission, 172 La. 1033, 136 So. 43, and in State v. Cooper, 213 La. 1016, 36 So.2d 22, in reviewing the subject as to excessive taking we said that we would not disturb the decision of qualified officials whose duty it is to determine the amount of land needed unless they acted arbitrarily and also that the requirement as to land need not be restricted to the needs of the immediate future. Texas Pipe Line Company v. Barbe, 229 La. 191, 85 So.2d 260.\nIn City of New Orleans v. Moeglich, 169 La. 1111, 126 So. 675, 677, we said: \u201cNor was it necessary, in view of the existing conditions for the city, to show actual, immediate, and impending necessity for the expropriation. It is sufficient, in carrying out the general plan of improvements contemplated in the near future, to show that the defendant\u2019s land will be needed for the purposes set out in the petition.\u201d\nThe record bears out the fact that the Iberia Parish Police Jury, after lengthy and careful investigation, study and deliberation, reached the conclusion that the taking of defendant\u2019s land was an urgent necessity in addition to that previously purchased at private sale in order to construct a hospital to best serve the present and ultimate needs of the general public. The Parish, in conjunction with a priority financial grant from a federal agency, is spending over $2,000,000 to acquire the most modern, efficient, attractive and serviceable hospital possible. Not only has the Police Jury considered the construction of the hospital and the placing of the auxiliary buildings from the standpoint of today\u2019s needs but it has also, from the study of the experiences of other hospitals which were built without the foresight of the need for rapid expansion, considered the future requirements of the Parish based on its sustained growth over the past several years. The district judge noted that every public building constructed by the Iberia Parish Police Jury in recent years has, in a short time, proved inadequate. Not to anticipate and foresee the future needs of a modern hospital service to the general public would be tantamount, to an improvident act of Parish officials, for wisdom dictates that public buildings are not intended to be mere makeshifts, built for a day. Conceding that defendant\u2019s architect has made a plan showing that in his opinion the present site may be fully adequate for present day needs, the Police Jury would be remiss in its duty if it did not plan the location of the presently contemplated building within adequate space for future expansion and thus make effective a permanent, lasting structure dedicated to public health and civic progress.\nIn the performance of its duty of safeguarding the health of the general public great latitude and much discretion is permitted to the Parish officials. It is well recognized that the judiciary will not disturb the exercise of this right in the absence of fraud, abuse or bad faith, nor substitute our own views and opinions. Fuselier v. Police Jury, 109 La. 551, 33 So. 597; City of Gretna v. Brooklyn Land Co., 182 La. 543, 162 So. 70; Crichton v. Louisiana Highway Commission, supra; Louisiana Highway Commission v. Hays\u2019 Heirs, 186 La. 398, 172 So. 432; State v. Cooper, supra; Board of Com\u2019rs of Tensas Basin Levee Dist. v. Franklin, 219 La. 859, 54 So.2d 125; City of Westwego v. Marrero Land and Imp. Association, 221 La. 564, 59 So.2d 885; Greater Baton Rouge Port Commission v. Watson, supra.\nHaving concluded that plaintiff has shown public necessity and purpose for the taking, we will now proceed to the determination of the value of the property expropriated.\nIt has been frequently held by this Court that the criterion of value of property expropriated for public use is its market value at the date of the institution of the expropriation suit taking into consideration the use to which the property may be placed and all the uses to which it is adapted, as well as all factors which lead to a replacement of the loss caused by the taking, and excluding any increment of value occasioned by the proposed construction work or work of public utility for which the property is needed. The market value means the price which would be agreed upon at a voluntary sale between a willing seller and a willing purchaser under usual and ordinary circumstances. Market value does not mean speculative or remote value. Louisiana Ry. & Nav. Co. v. Baton Rouge Brickyard, 136 La. 833, 67 So. 922, L.R.A.1917A, 402; Orleans & J. R. Co. v. Jefferson & L. P. R. Co., 51 La.Ann. 1605, 1616, 26 So. 278; Louisiana R. & Nav. Co. v. Xavier Realty, 115 La. 328, 39 So. 1; Louisville & N. R. Co. v. R. E. E. De Montluzin Co., 166 La. 211, 116 So. 854; City of New Orleans v. Moeglich, supra. Of most importance in determining market value are sales of similar properties in the vicinity of that sought to be expropriated. Housing Authority of New Orleans v. Brinkmann, 224 La. 262, 69 So.2d 37, City of New Orleans v. Noto, 217 La. 657, 47 So.2d 36.\nPlaintiff used as witnesses three experienced and well qualified realtors from New Iberia, Edwin J. Viator, Jr., F. M. Olivier and Marcel Derouen whose appraisals ranged from $20,950.66 to $21,320. All valued the land at $175 per front foot or $17,500, the difference in their total valuations being a slight difference of opinion as to the value of the improvements. In reaching their conclusions, these realtors used comparable sales based upon the use of the land as commercial with improvements facing Highway 90.\nDefendant produced two equally experienced realtors, Homer J. Hebert and Bernice B. Gipson, who appraised the property at $1.25 per square foot or $65,125 and $1,000 for the improvements. Defendant\u2019s witnesses also used comparable sales based upon the use of the land as commercial but arrived at the higher figure by considering the prospective value of the land with improvements arranged to face the hospital or the home for the aged.\nThe district judge rejected plaintiff\u2019s appraisals because they were not made on the square foot basis and their failure to weigh the most profitable use to which the property could be put in view of the possibilities in the not too distant future. In this respect our learned brother relied on the recent case of Domino v. Domino, 233 La. 1014, 99 So.2d 328, as authority for so doing. He accepted the appraisals of defendant\u2019s witnesses who cited comparable sales at $0.68 per square foot, $1.11 per square foot, $1.12 per square foot and $3.71 per square foot and using an average thereon in fixing the value of defendant\u2019s land at $1.25 per square foot or $65,-000, in addition to $1,125 for the improvements, or a total of $66,125.\nThe facts presented in the Domino case, supra, are not apposite to the case here; and we are in full accord with the reasoning applied therein. In the cited case, relied on below, the use of square footage in fixing the value was fully narrated, the property therein involved having an area of 153 acres, and obviously the acreage basis was the most practicable method to be applied in determining a just compensation. Furthermore, we therein gave no indication that a square foot basis is preferable or affords a fairer compensation. In the instant case the property measures just a little over an acre, with its frontage the most valuable portion. Furthermore, in the Domino case the parcels comprising each tract were of equal value.\nIn the instant case, defendant\u2019s witnesses base their estimate of value upon the assumption that the acreage can or will in the future be developed into commercial sites for a depth of 500 feet facing the hospital grounds. Defendant\u2019s witnesses envisage a sixty-foot paved roadway leading from Highway 90 to its full depth to the bayou, thus affording sites of 40 feet in width facing the roadway and hospital grounds, these available for doctors\u2019 offices, drugstores, restaurants and other allied commercial enterprises. It is obvious therefore that the proposed construction of this sixty foot roadway would leave commercial sites of 40 feet in depth, and accordingly these proposed sites would constitute the sole value of the subject property. A sixty foot paved roadway as proposed, once dedicated to public use, may add value to property fronting thereon, but per se represents little value once devoted to public use. Furthermore, the record shows that at least fifty feet of the property by its width fronting Bayou Teche is subj ect to overflow.\nDefendant cites and relies on our holding in State through Department of Highways v. Ragusa, 234 La. 51, 99 So.2d 20, 21, wherein we said:\n\u201cUnder said article it may be generally stated that the criterion to be applied in arriving at the basis for assessments of the \u2018true value\u2019 of property in expropriation proceedings is the market value or the price which would be agreed upon at a voluntary sale between a willing seller and a willing purchaser, taking into consideration all available uses to which the land might be put as well as all factors which lead to a replacement of the loss caused by the taking.\u201d\nWe readily adhere to these principles. In determining the market value of property expropriated, it must be conceded that it is not merely the value for the use for which it has been applied by the owner that should be taken into consideration. The possibility for its use for all available purposes for which it is adapted and to which it might in reason be applied should be considered. The ultimate test of value in that respect is what men of wisdom and prudence and having adequate means would devote to the property if owned by them. On the other hand, possible uses which are so remote and speculative and which would require the concurrence of so many extrinsic conditions and happenings as to have no perceptible effect upon present market value should be excluded from consideration. In speaking of adapted uses of the property, it is meant the use of the property in its present condition as a whole. The owner\u2019s plans or hopes for the future should be held completely irrelevant, being more often illusory than real. Situations may arise where land is actually available for commercial development, as subdivided lots. The measure of compensation in such instances should not be the aggregate of the prices of the lots into which the tract could be divided, for so many contingencies may intervene as to make such measure of compensation too uncertain and conjectural. The test is the market value of the land as a whole, taking into consideration its value for building purposes of a not too speculative nature. See La. Ry. & Nav. Co. v. Baton Rouge Brickyard, supra; Louisiana Highway Commission v. Lasseigne, 177 La. 440, 148 So. 672; City of New Orleans v. Moeglich, supra; Housing Authority of Shreveport v. Harkey, 200 La. 526, 8 So.2d 528.\nIn the Moeglich case, supra, we approvingly cited the case of Louisville & N. R. Co. v. R. E. E. De Montluzin Co., supra, wherein we held that contemplated subsequent subdivision of property and sale of lots after expenditure of considerable sums on improvements cannot serve as a basis of valuation at date of institution of expropriation, such hopes and plans partaking too much of the character of speculation.\nDefendant maintains that the proper method of evaluating property is by the square foot and not by the antiquated front foot method, and cites several cases in which the square foot method was employed. Defendant further contends that all appraisements made in expropriation proceedings are computed on the square footage in the particular tract. The cases cited by defendant do not bear out this contention. In State v. Sauls, 234 La. 241, 99 So.2d 97, the property involved fronted on two streets and an alley and improvements covered practically the whole land area. In both State through Department of Highways v. Ragusa, supra, and State v. Grand Consistory of Masons, 237 La. 1005, 112 So.2d 692, the property fronted on two streets and all the land was available for improvements. In those instances it is apparent that the square footage method was the appropriate and fair method of appraising this type of property. In the instant case, however, a large portion of the land involved would have to be used for a street to provide access to proposed commercial buildings fronting either the hospital or the home for the aged, and part of the land area is completely unusable for the type of commercial purpose contemplated. It follows that each square foot of land in this tract could not have the same value, and we think that the appropriate method of evaluating the property under these circumstances is by the front foot.\nAs we have heretofore observed, in arriving at the basis for assessment of the true value of property in expropriation proceedings, all available uses to which the land might be put should be considered. This, however, should not include speculative value. City of New Orleans v. Moeglich, supra, and Louisville & N. R. Co. v. R. E. E. De Montluzin Co., supra. The appraisal of defendant\u2019s witnesses of $1.25 per square foot is based upon a purely speculative and hypothetical value of the land once the construction of an expensive roadway and the expenditure of large sums for buildings to house the businesses which these witnesses contemplate will become a reality.\nThe true value of defendant\u2019s property is its market value as of the date of the expropriation proceedings in the condition in which it then stood. A street along the property from Highway 90 to Bayou Teche might allow the erection of a development facing the hospital thus making the land more valuable, but at the time of the institution of these condemnatory proceedings no street existed, no plans were prepared, and there was no subdivision contemplated. The value which defendant\u2019s witnesses have placed on the property, based as it is on such speculative and illusory factors, is unacceptable.\nWitnesses for both plaintiff and defendant based their appraisals on what they considered comparable sales in the area, the difference in their valuations arising mainly from the fact that plaintiff\u2019s placed a front foot price on these comparables while defendant\u2019s witnesses priced them by the square foot. As we have determined that the value of defendant\u2019s land should be based on the front foot method, we will eliminate the square foot method in arriving at an award.\nPlaintiff\u2019s witnesses placed a value of $175 per front foot on the land while defendant\u2019s witnesses\u2019 estimate amounts to $651 per front foot. A study of the com-parables used by all witnesses reveals that defendant\u2019s valuation far exceeds the value of real estate generally in Iberia Parish. As the city limits of New Iberia have been extended to include the hospital site, defendant\u2019s property is located just east of the city limits, a distance of 2.1 miles from the heart of the city, the intersection of Bridge Street and Main Street, and two miles from the post office. East Main Street, or Highway 90, is fairly well developed commercially for a distance of about one mile west of the hospital. From that point to the post office, the street is predominantly residential to the central business district. The record reveals that values in the business district are the highest in the Parish.\nThe actual hospital site next to defendant\u2019s property was purchased for $4,000 per acre or $50 per front foot, this area having the same depth as the subject property. The value of $175 per front foot, an increase of 250% was placed on defendant\u2019s property by plaintiff\u2019s witnesses due to its location between the hospital and the dedicated lot upon which the home for the aged will be ultimately built.\nTestimony of prior sales introduced by both parties included some property which appear comparable and some which do not. In any event, the $65,125, or $651 per front foot, award made by the lower court far exceeds even the highest priced property in the heart of the business district of New Iberia, the most valuable commercial property in the Parish. The properties which appear to be similar in location and use are the present site of Main Motors about one-half mile west of defendant\u2019s property, purchased in 1954 for $125 per front foot; the Carrett property next to that of Main Motors was purchased for $200 per front foot; the Waukesha property located very close to defendant\u2019s property was purchased in 1958 for $100 per front foot. In addition, records of sales in the heart of the business district show that $651 per front foot is far too excessive a value to place on defendant\u2019s land. For example, a lot and building adjoining the post office in the heart of the city was recently purchased for $200 per front foot, and the Police Jury recently purchased a lot 50 x 150 feet adjoining its public library for $13,500, including improvements thereon.\nIn considering the testimony of experts, \u201cIt is well settled that the testimony of each witness qualified and accepted as an expert should be given effect if and when it appears to be well grounded from the standpoint of sincerity and good sense.\u201d Domino v. Domino, supra [233 La. 1014, 99 So.2d 330]; State v. Grand Consistory of Masons, supra.\nA comparison of the appraisals made by the experts of plaintiff and defendant, and their respective views given in support of the valuations which each sincerely believed was just; analyzing the valuation of comparable and similar properties; considering the location, the nature and character of the entire property, with its availability and adaptability to use, without regard to speculation or the hopes of commercial improvements which the owner may envision or may possibly contemplate in the future, leads us to conclude that a fair and just compensation for the property is that of $250 a front foot, or a valuation of $25,000, in addition to the undisputed value of $1,125 placed by the district judge on the improvements thereon, or an aggregate of $26,125.\nAccordingly, for these reasons, the judgment appealed from is amended by decreasing the award from $66,125 to $26,-125, and, as thus amended, it is affirmed. Costs of this appeal to be equally borne by plaintiff and defendant.",
+        "type": "majority",
+        "author": "SIMON, Justice."
+      }
+    ],
+    "attorneys": [
+      "Knowles M. Tucker, Dist. Atty.,' New\u2019 Iberia, for appellant.",
+      "Voorhies, Labb\u00e9, Voorhies, Fontenot & Leonard, Lafayette, for defendant-appellant."
+    ],
+    "corrections": "",
+    "head_matter": "116 So.2d 491\nPARISH OF IBERIA v. Mrs. Marguerite Adorato COOK.\nNo. 44837.\nDec. 14, 1959.\nKnowles M. Tucker, Dist. Atty.,' New\u2019 Iberia, for appellant.\nVoorhies, Labb\u00e9, Voorhies, Fontenot & Leonard, Lafayette, for defendant-appellant."
+  },
+  "file_name": "0697-01",
+  "first_page_order": 381,
+  "last_page_order": 391
+}

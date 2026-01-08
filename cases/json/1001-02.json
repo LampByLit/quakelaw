@@ -1,0 +1,205 @@
+{
+  "id": 3188694,
+  "name": "BEL OIL CORPORATION et al. v. Rufus W. FONTENOT, Collector of Revenue",
+  "name_abbreviation": "Bel Oil Corp. v. Fontenot",
+  "decision_date": "1959-11-09",
+  "docket_number": "No. 44761",
+  "first_page": "1001",
+  "last_page": "1011",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 1002"
+    },
+    {
+      "type": "parallel",
+      "cite": "117 So.2d 571"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "68 L.Ed. 856",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 S.Ct. 402",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "264 U.S. 573",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6143885,
+        6143934,
+        6143839
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/264/0573-02",
+        "/us/264/0573-03",
+        "/us/264/0573-01"
+      ]
+    },
+    {
+      "cite": "154 La. 251",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1280137
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "255"
+        },
+        {
+          "page": "434"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/154/0251-01"
+      ]
+    },
+    {
+      "cite": "233 La. 600",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5403218,
+        9900885
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/233/0599-01",
+        "/so2d/97/0409-01"
+      ]
+    },
+    {
+      "cite": "98 L.Ed. 583",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 S.Ct. 396",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        11299645
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/347/0157-01"
+      ]
+    },
+    {
+      "cite": "236 La. 521",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3181739,
+        9883975
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/236/0522-01",
+        "/so2d/108/0111-01"
+      ]
+    },
+    {
+      "cite": "209 La. 812",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5410715,
+        10064558
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/209/0811-01",
+        "/so2d/25/0601-01"
+      ]
+    },
+    {
+      "cite": "103 A.L.R. 9",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "182 La. 1073",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5521537,
+        10067410
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/182/1073-01",
+        "/so/162/0777-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 760,
+    "char_count": 14832,
+    "ocr_confidence": 0.676,
+    "pagerank": {
+      "raw": 2.866546277499708e-07,
+      "percentile": 0.8424846390658297
+    },
+    "sha256": "0aa72c50752691128e090639c352f3c7fe8b4474375e71633e421429a4a202cd",
+    "simhash": "1:ff7fc71a158ccf13",
+    "word_count": 2487
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "BEL OIL CORPORATION et al. v. Rufus W. FONTENOT, Collector of Revenue."
+    ],
+    "opinions": [
+      {
+        "text": "FOURNET, Chief Justice.\nThis is an appeal from the judgment of the district court in favor of the plaintiff Bel Oil Corporation, maintaining its suit against the Collector of Revenue of the State of Louisiana to recover certain taxes collected under the provisions of R.S. 47 r 671-677, the Gas Gathering Tax, on the ground that the said statute is in direct contravention of Section 21 of Article 10 of the Constitution of Louisiana, prohibiting the levy or imposition of any further or additional tax or license except those specifically authorized in the Article \u201cupon oil, gas or sulphur leases or right * *\nThe pertinent facts \u2014 as shown by stipulations between counsel, plats, certified copies of leases and copies of purchase contracts for gas \u2014 are that during the period from July 1 through September 30, 1954, Bel Oil Corporation, a Louisiana corporation, was operating twenty-one gas wells in Allen Parish under leases held by it; that the gas so produced, after leaving the wellhead, flowed in a continuous movement through Bel\u2019s plant and into the pipelines \u25a0of the purchasers, four in number; about two-thirds of the production flowed through the pipelines of three interstate gas companies and into interstate commerce, and no tax on that portion of the gas is here involved ; the fourth purchaser, the Calcasieu Paper Company, Inc., operates a kraft paper manufacturing plant in Allen Parish, Louisiana, and the tax sought to be recovered is that levied for the quarter from July 1 through September 30, 1954, on the gas delivered into the pipeline of the last-named purchaser for consumption in its paper manufacturing plant some twenty-six miles away and entirely within the State of Louisiana. Immediately following the 1954 amendment to R.S. 47:673, redefining \u201cgathering gas,\u201d the Collector demanded payment of the tax on gas sold by the Oil Company to the Paper Company, and the Oil Company, availing itself of the provisions of, R.S. 47:1576, paid the tax under protest. This suit followed.\nThe statute providing for the levy of the tax here sought to be recovered declares, in part, that \u201cIn addition to all other licenses and taxes levied and assessed in the State of Louisiana, there is hereby levied upon every person engaged in gathering gas produced in this state, an excise, license or privilege tax, for the privilege of engaging in such business, at the rate of one cent (10) per thousand (1,000) cubic feet * * * of gas gathered\u201d (R.S. 47:671), and defines \u201cgathering gas\u201d to mean \u201ctransporting gas, after its severance, from the well to the first meter at or near the well\u201d (R.S. 47:673, as amended by Act 45 of 1954, Sec. 1).\nThe District Judge, in a well considered opinion, reasoning that the plaintiff has the right under its leases not only to explore for and produce gas but also to market the gas so produced, since otherwise the right to explore for and produce would be valueless, and that in marketing the gas the producer must necessarily measure it, and that the tax here involved covers that precise operation, i. e., the transporting of the gas after severance to the first meter, concluded \u201c * * * it is a license tax on the exercise of a right under the lease\u201d and therefore void under the language of Section -21 of Article 10, La. Constitution of 1921, as aipended.\nCounsel for appellant, the Collector of Revenue, assigning as error the holding of the lower Court, assert that the gas gathering tax is simply a tax on the occupation of transporting gas, and contend there is no prohibition in Article 10, Section 21 of the Constitution \u201cagainst a tax on an activity necessary to the exercise of gas leases or rights.\u201d Counsel say there is little difference between the tax imposed by the subject act and a tax on the use of power to pump oil wells or transport and handle oil, which is likewise an activity necessary to the exercise of gas or.oil leases or rights, yet the latter tax was held to be valid in State ex rel. Porterie v. H. L. Hunt, Inc., 182 La. 1073, 162 So. 777, 103 A.L.R. 9. The further argument is made that in Meyers v. Flournoy, 209 La. 812, 25 So.2d 601\u2014 wherein an ad valorem tax on gathering lines, separators, derricks, boiler station, pumps and oil tanks was challenged on the ground that the tax violated the same constitutional provision- \u2014 the levy was upheld for the stated reason that exemption from that form of tax was not clearly established in the language of the said Section. And counsel say that the issue presented in the instant case is substantially the same as that in Roberts v. City of Baton Rouge, 236 La. 521, 108 So.2d 111, where the constitutional prohibition contained in Article 14, Section 24.1 against levy by a municipality of an excise, license or privilege tax upon gasoline was held not to be violated by an occupational license tax levied by a municipality and measured in part by the sale of gasoline.\nWe think that under the clear language of the Constitution, \u201cNo further or additional tax or license shall be levied or imposed upon oil, gas or sulphur leases or right,\u201d no room for doubt is left; the levy under attack is another tax upon gas leases or rights, and as such comes squarely under the quoted prohibition. In fact, although denominated a \u201cgas gathering\u201d tax, the levy covers a process which forms an integral part of severing the natural resource or reducing it to possession, and as such must be struck down, since the Legislature has levied the severance tax authorized by Article 10, Section 21; see R.S. 47:631-646, titled the General Severance Tax.\nThe cases relied on by counsel for defendant may be summarily disposed of because they are clearly without application. State ex rel. Porterie v. H. L. Hunt, Inc., supra, concerned a general tax on the business of manufacturing or generating electricity for power, and the Court held that the fact the defendant- corporation was engaged in operating and pumping oil wells and transporting oil did not render the tax invalid as a tax on oil or gas leases or rights in addition to the severance tax. The case of Meyers v. Flournoy, supra, was concerned with an ad valorem assessment on gathering lines, separators, derricks and other corporeal movable property owned by plaintiff and used in the operation of wells, and the Court rejected the contention that such property should be exempt under the quoted constitutional provision. And in Roberts v. City of Baton Rouge, supra, an occupational license tax on retail dealers in gasoline, levied by a municipality, the computation of which included gross sales of gasoline and other motor fuels, was upheld as against the contention that it violated a constitutional prohibition against the levy by a municipality of an excise, license or privilege tax upon gasoline, since in construing the ambiguous language of the said constitutional prohibition and examining the legislative history pertinent to its enactment, we concluded that the term \u201clicense\u201d as used in the Section must be viewed as a synonymous usage of the terms \u201cexcise\u201d and \u201cprivilege\u201d to describe generically excise or indirect taxes relating to the sale or use of gasoline, rather than an attempt to specify different types of taxes prohibited, and that it was never intended to curtail or restrict the power of political subdivisions, specially granted by Section 8 of Article 10 of the Constitution, so as to prohibit the levy of occupational license taxes upon retail dealers in gasoline and other motor fuels.\nWhile the constitutional prohibition with which we are here concerned (Article 10, Section 21) is clear and free of ambiguity, and there is no occasion for judicial interpretation, were such a course warranted the conclusion here would be the same, for the legislative history of Section 21 of Article 10 is that when the Constitutional Convention was called for 1921 there was an attempt by the then governor-elect to formulate in advance a severance tax rate which would be agreeable to both the State and leaders of the oil and gas industry, but their meetings were without success, and the matter was further complicated by the various oil producing parishes which sent their representatives to the conferences to insist that portions of the tax should be reallocated to the parishes from which collected; furthermore, some members of the Constitutional Convention held the view that not only the rate of tax but also the agency to distribute the funds collected was a constitutional rather than a legislative function. The compromise article, substantially in its present form, was finally drafted, representing success by the governor-elect in placing the fixing of details with respect to the tax in the legislature; success by the parishes in securing a portion of the taxes collected; and success by the oil companies in obtaining a \u201clieu\u201d tax for their benefit.\nThe conclusion we have reached makes it unnecessary to consider other arguments advanced by counsel.\nFor the reasons assigned, the judgment appealed from is affirmed.\n. Calcasieu Paper Company, one of the two original plaintiffs, is no longer a party, its suit having been dismissed on exceptions of no right or cause of action.\n. Section 21 of Article 10, La.Const. of 1921, as amended, provides in part: \u201cTaxes may be levied on natural resources severed from the soil or water, to be paid proportionately by the owners thereof at the time of severance; * * *. No severance tax shall be levied by any Parish or other local subdivision of the State.\n\u201cNo further or additional tax or license shall be levied or imposed upon oil, gas or sulphur leases or right, nor shall any additional value be added to the assessment of land, by reason of the presence of oil, gas or sulphur therein or their production therefrom. * * * \u201d\n. While the steps in processing the gas from each well vary somewhat, generally it may be said that the gas flows a short distance to a heater, then to a meter, through a separator and another meter, passes into a so-called collection manifold, where it is commingled with gas from other wells and goes through further treatment; gas sold to Calcasieu Paper Company, upon completion of processing, is again metered and travels to a scrubber, then enters a line owned and operated by the Paper Company, at which point title is transferred.\n. Under the terms of the purchase agreement between Calcasieu Paper Company and Bel Oil Corporation, the Paper Company reimbursed the Oil Company on a quarterly basis. The District Judge, in maintaining the exceptions of no cause or right of action filed by the Collector of Revenue against the suit of Calcasieu Paper Company, held that any liability of the Paper Company for the tax arose under its private agreement and not under any provision of the statute.\n. The said amendment was adopted as Act 45 of 1954. A previous definition of \u201cgathering gas\u201d as contained in Act 11 of 1948, Sec. 1, and incorporated in the Revised Statutes of 1950 as R.S. 47:673, was very similar to language of a Texas statute which was held by the United States Supreme Court to be an infringement of the commerce clause of the United States Constitution. See Michigan-Wisconsin Pipe Line Co. v. Calvert, 74 S.Ct. 396, 347 U.S. 157, 98 L.Ed. 583, decided February 8, 1954. Subsequent to the adoption of the 1954 amendment to R.S. 47:673, the prior gas gathering definition was declared unconstitutional by this Court in that there resulted the imposition of a tax on gas which traveled into interstate commerce; see Louisiana-Nevada Transit Company v. Fontenot, 233 La. 600, 97 So.2d 409, decided June of 1957.\n.While the amount of tax here concerned, for the quarter July through September, 1954, amounted to $6,341.98, which sum, with interest, the Collector of Revenue was ordered to refund, the judgment also ordered payment to plaintiff of $100,-362.97, representing the total of quarterly payments made under protest during the period from November 10, 1954 to August 1, 1958, and held in escrow pending the final results of this litigation. Further quarterly payments were not made due to the adoption by the Legislature of its Act 3 of the Extra Session of 1958, adding Section R.S. 47:681.1, which provided for suspension of the levy of taxes under R.S. 47:671-681, effective December 1, 1958, pending final judicial determination \u201cof whether such taxes are valid and constitutional and are not violative of the commerce clause of the United States Constitution * *\n. \"While the Trial Judge rested his judgment on the ground that the statute violated the said constitutional prohibition, he also rejected three other grounds on which plaintiff attacked the effectiveness of the act.\n. Following adoption of the Constitution of 1921 the Legislature, by its Act 140 of 1922, levied a tax upon all natural resources severed from the soil, in terms referring to Section 21 of Article 10. In a suit involving an attack on the constitutionality of the said Act 140 as exceeding the rate of State taxation on property fixed by Section 3 of Article 10 of the Constitution, this Court observed that \u201cA severance tax, even though it is measured by the value of the property severed, is not a property tax; it is an excise tax upon the privilege of severing; just as an inheritance tax, even though measured by the value of the property inherited, is not a property tax, but an excise tax, on the right of inheriting.-\u2019 Gulf Refining Co. of Louisiana v. McFarland, 154 La. 251, 255, 97 So. 433, 434, 264 U.S. 573, 44 S.Ct. 402, 68 L.Ed. 856.\n. It is noted that one of the sections, R.S. 47.643, follows the language of the Constitution in declaring \u201c * * * but no further or additional tax or license shall be levied or imposed upon oil or gas leases or rights * * *.\u201d\n. Article 14, Section 24.1, La. Constitution of 1921, provides, in part, \u201cNo parish, municipality or other political subdivison shall levy an excise, license or privi lege tax topon gasoline * * Emphasis supplied in Roberts v. City of Baton Rouge, 236 La. at page 550, 108 So.2d at page 113.\n. Prior severance tax laws were revised, modified or repealed at almost every legislative session, but the oil and gas companies had made no concerted effort to influence the legislation prior to 1921.\n. Eor a concise history of the subject matter, see the article written by Leslie Moses in 17 T.L.R. 602, titled \u201cThe Growth of Severance Taxation In Louisiana and its Relation to the Oil Industry.\u201d",
+        "type": "majority",
+        "author": "FOURNET, Chief Justice."
+      }
+    ],
+    "attorneys": [
+      "Chapman L. Sanford, Roy M. Lilly, Jr., Richard Alsina Fulton, Frederick S. Hay-good, Levi A. Himes, G. Dupre Litton, Baton Rouge, for appellant.",
+      "Gist, Murchison & Gist, Alexandria, for plaintiff-appellees."
+    ],
+    "corrections": "",
+    "head_matter": "117 So.2d 571\nBEL OIL CORPORATION et al. v. Rufus W. FONTENOT, Collector of Revenue.\nNo. 44761.\nNov. 9, 1959.\nRehearing Denied Feb. 15, 1960.\nChapman L. Sanford, Roy M. Lilly, Jr., Richard Alsina Fulton, Frederick S. Hay-good, Levi A. Himes, G. Dupre Litton, Baton Rouge, for appellant.\nGist, Murchison & Gist, Alexandria, for plaintiff-appellees."
+  },
+  "file_name": "1001-02",
+  "first_page_order": 533,
+  "last_page_order": 538
+}

@@ -1,0 +1,66 @@
+{
+  "id": 1933567,
+  "name": "Chamberlain vs. O'Keefe",
+  "name_abbreviation": "Chamberlain v. O'Keefe",
+  "decision_date": "1852-01",
+  "docket_number": "",
+  "first_page": "357",
+  "last_page": "359",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "2 Mich. 357"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 304,
+    "char_count": 5456,
+    "ocr_confidence": 0.343,
+    "pagerank": {
+      "raw": 5.298132930532853e-08,
+      "percentile": 0.33423454417612763
+    },
+    "sha256": "16fdcee16ebb075846bcf7a5c7692859ac76bf10a519c0e20628453d533e5051",
+    "simhash": "1:8b440eb1e02a1956",
+    "word_count": 970
+  },
+  "last_updated": "2023-07-14T19:13:31.599570+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chamberlain vs. O\u2019Keefe."
+    ],
+    "opinions": [
+      {
+        "text": "By the Court, Pratt, J.\nThe only question to he determined in this cause, is whether the appeal was properly dismissed by the County Court.\nThe statute under which the appeal was taken, required the County-Court, on the second Monday after filing the return of the justice, on application of the appellant to name a time for hearing the appeal; and also required the appellant to serve notice in writing of the time so named, on the appellee personally, at least ten days before the day of hearing; and if such personal service could not be made,.then the appellant was required to leave the notice at the appellee\u2019s last place of abode. (R. S. of 1846, p. 409, Sec. 160.) By section 162, the Court was required, in case the appellant failed to make the application, or to serve the notice, to dismiss the appeal.\nThis provision, when considered in connection with the other provisions of the act and the object in view, must be regarded as directory in its character, and not imperative as contended in argument. And yet, with this construction, if the application was not made, or if the notice was not served, the Court was justifiable in dismissing the appeal, unless some \u2022 reasonable excuse for the omission was rendered by the appellant. The application -by the appellant was, as appears by the record, made on the 22d day of June, and the first Monday of August then next, was the day named by. the Court for the hearing of the appeal. But the notice was, not served, and the only excuse for the omission rendered to the Court, is contained in the affidavits of the appellant and his attorney. The appellant in his affidavit, states he was informed by his attorney that no appearance had been entered of record for the appellee; that said appellee was and had been, a resident of the city of Detroit for more than ten years. The attorney for the appellant, in his affidavit testifies to the effect, that after the return of the justice was filed, he caused his appearance to be entered on the clerk\u2019s docket, as attorney for the appellant, in accordance with rule *7 of said County Court; that afterwards, and at different times, he examined said docket, for the purpose of ascertaining whether any attorney had appeared for the appellee, and that no attorney\u2019s name appeared thereon until the 31st day of July, and for that reason he instructed the appellant that he need not serve the notice.\nThese affidavits do not contain a sufficient excuse for the omission to serve the notice. They do not show anything constituting a reasonable degree of diligence on the part of the appellant to serve it, or to do that, which upon his own showing, he should have been required to do, in order to entitle himself to any relief from the Court. It was not only his duty, but he was legally required to use a reasonable degree of diligence in serving in some way the appellee with notice of the time appointed. The appellee was the plaintiff in the cause, and if as the appellant stated in his affidavit, he had not been in the county for a long time, the legal presumption is, in the absence of any Showing to the contrary, that some person either as agent or attorney, appeared and prosecuted the suit for him before the justice. If so, then service upon such person, whether a member of the bar or not, would have been under the circumstances sufficient, the plaintiff being in fact a nonresident of the county. Such person would be legally regarded the plaintiff\u2019s agent in the matter, as well after judgmentJ>y the justice as before. There being no such person in the county, and the appellee having no place of abode therein at which to leave the notice, the appellant should have sent it by mail or private conveyance, directed to him at the place where he did reside. That' place was known to the appellant, and was comparatively within a short distance of the county in which the appeal was pending, with constant daily communication between the two places. Yet the appellant did not take a single step towards sending the notice to the appellee either by mail or private conveyance, during the month or more, granted by the Court for the purpose of serving it.\nBut the attorney of the appellee in an affidavit made by him, and upon which the motion to dismiss the appeal was founded, testifies, that as early as the July term of the County Court for that same year, ho caused his appearance, as attorney for the appellee, to he entered of Tecovd; aud that his name always afterwards appeared on the calendar as such attorney. That he was in fact an attorney at law, and kept an office in the village of Port Huron, fin the said county of St. Clair.' But independent of this evidence, the Omission to give the appellee notice in some way, was not, in view of the circumstances, sufficiently excused, and the County Court was therefore justifiable in dismissing the appeal.\nThe judgment of the Circuit Court, affirming that of the County Court, niust he affirmed.",
+        "type": "majority",
+        "author": "By the Court, Pratt, J."
+      }
+    ],
+    "attorneys": [
+      "Van Dyke & Falkenbury, for plaintiff in error.",
+      "W. T. Mitchell, for defendant in error."
+    ],
+    "corrections": "",
+    "head_matter": "Chamberlain vs. O\u2019Keefe.\nIn' appeal cases, where a party to bo served with a notice is not a resident of the County, and appeared on the trial below, by agent or attorney, service of the notice should be on such , agent or attorney. Where there is no agent or attorney in the case, notice should be sont by mail to the party himself, if his residence can be ascertained.\nError to St. Clair Circuit.\nVan Dyke & Falkenbury, for plaintiff in error.\nW. T. Mitchell, for defendant in error."
+  },
+  "file_name": "0357-01",
+  "first_page_order": 365,
+  "last_page_order": 367
+}

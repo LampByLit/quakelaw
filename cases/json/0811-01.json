@@ -1,0 +1,528 @@
+{
+  "id": 3186419,
+  "name": "STATE of Louisiana v. Earl A. BRAUD, Jr.",
+  "name_abbreviation": "State v. Braud",
+  "decision_date": "1959-12-14",
+  "docket_number": "No. 44596",
+  "first_page": "811",
+  "last_page": "829",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 811"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 So.2d 676"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "93 So. 918",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "case_ids": [
+        1284048,
+        1284070
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/152/0611-01",
+        "/la/152/0609-01"
+      ]
+    },
+    {
+      "cite": "152 La. 611",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1284048
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/152/0611-01"
+      ]
+    },
+    {
+      "cite": "115 So.2d 348",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3187470
+      ],
+      "pin_cites": [
+        {
+          "page": "349"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0273-01"
+      ]
+    },
+    {
+      "cite": "210 La. 769",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10043765,
+        5384526
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/28/0265-01",
+        "/la/210/0770-01"
+      ]
+    },
+    {
+      "cite": "191 La. 266",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        11637427,
+        1190036
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/185/0020-01",
+        "/la/191/0265-01"
+      ]
+    },
+    {
+      "cite": "229 La. 142",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5529155,
+        9896285
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/229/0141-01",
+        "/so2d/85/0243-01"
+      ]
+    },
+    {
+      "cite": "188 La. 694",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10074824,
+        8502250
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/177/0804-01",
+        "/la/188/0693-01"
+      ]
+    },
+    {
+      "cite": "221 La. 19",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9910643,
+        2949461
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/58/0408-01",
+        "/la/221/0020-01"
+      ]
+    },
+    {
+      "cite": "209 La. 394",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5412561,
+        10071879
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/la/209/0393-01",
+        "/so2d/24/0627-01"
+      ]
+    },
+    {
+      "cite": "142 La. 919",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        603186
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/la/142/0919-01"
+      ]
+    },
+    {
+      "cite": "128 La. 836",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5316605
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/la/128/0835-01"
+      ]
+    },
+    {
+      "cite": "164 La. 1051",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1259031
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/la/164/1051-01"
+      ]
+    },
+    {
+      "cite": "221 La. 19",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9910643,
+        2949461
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/58/0408-01",
+        "/la/221/0020-01"
+      ]
+    },
+    {
+      "cite": "205 La. 434",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10080202,
+        3151868
+      ],
+      "weight": 2,
+      "opinion_index": 3,
+      "case_paths": [
+        "/so2d/17/0575-01",
+        "/la/205/0433-01"
+      ]
+    },
+    {
+      "cite": "156 F.2d 534",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1135025
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/156/0534-01"
+      ]
+    },
+    {
+      "cite": "34 La.Ann. 942",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "pin_cites": [
+        {
+          "page": "945"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "142 La. 919",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        603186
+      ],
+      "weight": 2,
+      "opinion_index": 3,
+      "case_paths": [
+        "/la/142/0919-01"
+      ]
+    },
+    {
+      "cite": "128 La. 836",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5316605
+      ],
+      "weight": 2,
+      "opinion_index": 3,
+      "case_paths": [
+        "/la/128/0835-01"
+      ]
+    },
+    {
+      "cite": "164 La. 1051",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1259031
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "188"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/la/164/1051-01"
+      ]
+    },
+    {
+      "cite": "221 La. 19",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9910643,
+        2949461
+      ],
+      "weight": 2,
+      "opinion_index": 3,
+      "case_paths": [
+        "/so2d/58/0408-01",
+        "/la/221/0020-01"
+      ]
+    },
+    {
+      "cite": "58 So.2d 393",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        2989264,
+        9910391
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/la/220/1086-01",
+        "/so2d/58/0393-01"
+      ]
+    },
+    {
+      "cite": "220 La. 1085",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9910391
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/so2d/58/0393-01"
+      ]
+    },
+    {
+      "cite": "133 So. 809",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "pin_cites": [
+        {
+          "page": "811"
+        }
+      ],
+      "opinion_index": 4
+    },
+    {
+      "cite": "17 La.App. 504",
+      "category": "reporters:state",
+      "reporter": "La. App.",
+      "case_ids": [
+        3357930
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/la-app/17/0504-01"
+      ]
+    },
+    {
+      "cite": "87 A.L.R. 1356",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 4
+    },
+    {
+      "cite": "177 La. 63",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10045313,
+        5810677
+      ],
+      "weight": 2,
+      "opinion_index": 4,
+      "case_paths": [
+        "/so/147/0500-01",
+        "/la/177/0063-01"
+      ]
+    },
+    {
+      "cite": "160 La. 503",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1267586
+      ],
+      "weight": 2,
+      "opinion_index": 4,
+      "case_paths": [
+        "/la/160/0503-01"
+      ]
+    },
+    {
+      "cite": "156 F.2d 534",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1135025
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/f2d/156/0534-01"
+      ]
+    },
+    {
+      "cite": "142 La. 919",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        603186
+      ],
+      "weight": 2,
+      "opinion_index": 4,
+      "case_paths": [
+        "/la/142/0919-01"
+      ]
+    },
+    {
+      "cite": "128 La. 836",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5316605
+      ],
+      "weight": 2,
+      "opinion_index": 4,
+      "case_paths": [
+        "/la/128/0835-01"
+      ]
+    },
+    {
+      "cite": "164 La. 1051",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        1259031
+      ],
+      "weight": 2,
+      "opinion_index": 4,
+      "case_paths": [
+        "/la/164/1051-01"
+      ]
+    },
+    {
+      "cite": "221 La. 19",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9910643,
+        2949461
+      ],
+      "weight": 2,
+      "opinion_index": 4,
+      "case_paths": [
+        "/so2d/58/0408-01",
+        "/la/221/0020-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 867,
+    "char_count": 22786,
+    "ocr_confidence": 0.747,
+    "pagerank": {
+      "raw": 1.059989733099374e-07,
+      "percentile": 0.5565787812339639
+    },
+    "sha256": "07d1ddbea72094d34079f938165c8211ebeb45f16dc0d58a4052b67d8971e8d8",
+    "simhash": "1:a23997721533cde5",
+    "word_count": 3915
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "FOURNET, C. J., concurs and assigns written reasons.",
+      "HAWTHORNE, J., concurs in the decree.",
+      "McCALEB and HAMLIN, JJ., dissent with written reasons."
+    ],
+    "parties": [
+      "STATE of Louisiana v. Earl A. BRAUD, Jr."
+    ],
+    "opinions": [
+      {
+        "text": "HAMITER, Justice.\nTwo bills of information were filed in the Criminal District Court for the Parish of Orleans charging Earl A. Braud, Jr. with the possession and sale of marijuana. One of the cases was allotted to Section \u201cE\u201d of that tribunal under No. 160-686 and the other to Section \u201cD\u201d under No. 160-688. To such charges the defendant, on arraignment, pleaded not guilty.\nOn December 16, 1958 an assistant district attorney announced during a session in Section \u201cD\u201d (as well as filed an order showing) that No. 160-686 had been transferred there from Section \u201cE\u201d and that the state had agreed to permit the defendant to plead guilty to addiction in both cases. Thereupon, the latter withdrew his previously entered pleas of not guilty (to the charges contained in the bill of information of possession and sale) and tendered pleas of guilty to addiction.\nOn the same day, as a result of the last mentioned pleas, the defendant was sentenced in each case to five years at hard labor in the Louisiana State Penitentiary, the sentences to run concurrently. However, since it was shown that he was suffering from Buerger\u2019s disease and had never been convicted of a crime, the judge suspended execution of the sentences on the condition that he .report to and remain in a United States government hospital until discharged therefrom as being cured (this is authorized by LRS 40:981). In January, 1959 he entered the United States Public Health Hospital at Fort Worth, Texas.\nSubsequently, the district judge discovered that the defendant had not been charged with the offense of addiction to which he pleaded guilty and for which he was sentenced. And the district attorney, after the omission was called to his attention, filed in each case on March 5, 1959 a pleading styled \u201cMotion to Set Aside and Vacate Judgment and Sentence\u201d which contained the allegation \u201c * * * that this Honorable Court had no jurisdiction or authority to accept the said plea, as said plea of guilty of \u2018Addiction\u2019 is not legally responsive to the charge in this case and that the said judgment and sentence thereunder should be annulled, revoked, recalled and set aside.\u201d\nDefense counsel objected to each motion, he urging in writing that the court \u201chas no jurisdiction to set aside and vacate the judgment and sentence in these proceedings.\u201d\nFollowing a hearing of the motions the judge, on April 10, 1959, overruled the objections of the defendant and decreed as follows: \u201cFor the reasons hereinabove set forth, the judgments and sentences in case No. 160-686 and case No. 160-688 are hereby recalled and set aside as null and void and of no effect; the pleas of guilty to addiction entered therein are hereby ordered withdrawn and the pleas of not guilty to the outstanding informations charging the defendant with the possession and sale of marijuana are hereby ordered reinstated.\n\u201cIt is further ordered that case No. 160\u2014 686 be returned to Division \u201cE\u201d of this Court from which it was transferred to be there disposed of according to law.\u201d\nOn defendant\u2019s application we granted a writ of certiorari, together with alternative writs of prohibition and mandamus, in order to review the proceedings in the district court.\nIn his written reasons for the above quoted decree the district judge first states: \u201cThe issue is whether the pleas and sentences were valid and, if not, whether this Court has jurisdiction to annul and set aside an invalid plea and an invalid sentence thereon.\u201d He then observes that, since the offense of addiction is not responsive to the crime of possession of narcotics (State v. Robinson, 221 La. 19, 58 So.2d 408) with which this defendant was charged, the pleas of guilty to addiction entered herein were invalid and the subsequent sentencing illegal. And the judge, after citing authorities which hold that a district court can correct an illegal sentence, concludes: \u201cIf the sentencing court has the authority to recall the illegal or invalid sentence and impose a valid sentence, then it logically follows that the sentencing court has the authority to recall and annul an invalid sentence and the invalid plea, upon which it was predicated and place the defendant in the status that he enjoyed before such invalid plea and sentence.\u201d\nIt appears to us that the state has attempted herein to do more than to obtain the annulment of allegedly invalid pleas and sentences. When a plea of guilty is accepted and entered upon the records, as occurred in each of these cases, it is a conviction of the higest order. And it has the same effect in respect to the subsequent proceedings thereon against the accused as a verdict of guilty. Wharton\u2019s Criminal Law and Procedure (1957), Volume 4, Sections 1900 and 1901. See also State ex rel. Chicola v. General Manager of Louisiana State Penitentiary, 188 La. 694, 177 So. 804 and State v. Monix, 229 La. 142, 85 So.2d 243. This being true the pleadings filed by the district attorney to set aside the judgments and sentences (objected to by defendant but maintained by the judge) were in effect either motions for a new trial or motions in arrest of judgment. Consequently, and irrespective of which of those two kinds of motions they were, the district court was without authority to entertain them.\nThus, Article 506 of the Louisiana Code of Criminal Procedure (LRS 15:506) provides that \u201cA new trial cannt be ordered * * * on its own motion or upon the application of the state * * And Article 519 of the same authority (LRS 15:519) prohibits consideration by the district court of a motion in arrest of judgment after sentence has been imposed. See also State v. Dickinson, 191 La. 266, 185 So. 20; State v. Waits, 210 La. 769, 28 So. 2d 265, and City of Lake Charles v. Bairley, La., 115 So.2d 348, 349.\nParticularly analogous here is our decision in the above last cited case which involved a conviction and a sentence for the violation of a municipal ordinance. As stated in our opinion therein: \u201c * * * The defendant was tried in the district court on an affidavit charging that the offense was committed on November 5, 1958, although the evidence introduced, according to the admissions of both parties, related to an offense which was committed on October 30, 1958.\n\u201cThereafter, instead of filing his application for writs in this Court, defendant filed in the district court a motion in arrest of judgment based upon the foregoing errors with respect to the alleged date of offense which defendant contended was patent on the face of the record. This motion was filed 23 days after the date defendant was found guilty and three days after the date of the sentence. The district judge sustained this motion on the ground that the defendant was found guilty of an offense with which he was not charged. The City of Lake Charles applied to this Court for writs of mandamus, prohibition, and certiorari, which were granted and the matter is now submitted for our determination.\u201d\nIn unanimously reversing the judgment of the district court in the Bairley case, which had sustained the defendant\u2019s motion in arrest, we observed: \u201cR.S. 15:519 provides: \u2018The motion in arrest of judgment can be filed only after verdict, but must be disposed of before sentence.\u2019 It was the holding of this Court in the cases of State v. Dickinson, 191 La. 266, 185 So. 20, 24 and State v. Whittaker, 152 La. 611, 93 So. 918 that a motion in arrest of judgment filed after sentence comes too late. In the former case we said: \u2018 * * * it is elementary that a motion in arrest of judgment must be filed for an alleged substantial defect patent upon the face of an information or an indictment, after conviction and before sentence.\u2019 \u201d\nFor the reasons assigned the writs heretofore issued by us are made peremptory. Further, it is ordered, adjudged and decreed that the decrees dated April 10, 1959 in causes Numbers 160-686 and 160-688 on the docket of the Criminal District' Court for the Parish of Orleans are reversed and annulled; and the state\u2019s motions in said causes to set aside and vacate judgments and sentences, filed March 5, 1959, are overruled.\nFOURNET, C. J., concurs and assigns written reasons.\nHAWTHORNE, J., concurs in the decree.\nMcCALEB and HAMLIN, JJ., dissent with written reasons.",
+        "type": "majority",
+        "author": "HAMITER, Justice."
+      },
+      {
+        "text": "FOURNET, Chief Justice\n(concurring).\nI fully concur in the result reached by the majority herein. Once a defendant\u2019s plea of guilty has been accepted by the trial judge, it has the force of and is equivalent to a conviction. While we have held that a verdict' of guilty to addiction is not responsive to the charges of possession and sale of narcotics, and, consequently, the sentences imposed herein are illegal, the State\u2019s remedy to complain of such illegal sentences was by appeal. Art. 527, La. Code of Crim.Proc. The time for an appeal having expired, the State was without right to proceed by \u201cMotion to Set Aside and Vacate Judgment and Sentence,\u201d nor did the trial judge have the power and authority to have the defendant removed from Fort Worth, Texas, where he was receiving treatment at the United States Public Health Hospital, to Orleans Parish for the purpose of vacating the sentences.\nThe cases cited by the trial judge in his judgment, setting aside and recalling the sentences and re-instating the bills of information, are inapplicable from either a legal or factual viewpoint. In the case of State ex rel. Cutrer v. Pitcher, 164 La. 1051, 115 So. 187, where this court held that the sentencing judge may impose a valid legal sentence even though a void sentence has already been partially executed, we specifically noted the distinction between an illegal conviction and an illegal sentence, when we observed that \u201c * * * the invalidity of the sentence in this case should not make the conviction invalid. All that needs correcting is the sentence.\u201d 164 La. at page 1054, 115 So. at page 188. It is-obvious, therefore, that the case is not authority for the proposition that the trial judge may set aside an illegal sentence that is based on an illegal conviction (or plea). Moreover, the statement from the case of State v. Nicolosi, 128 La. 836, 55 So. 475, cited in the dissenting opinion, is mere dictum, and a further reading of the opinion! discloses that the defendant in that case had failed to exhaust his legal remedies in the court below, as \u201cdefendant [was] yet in. time to submit to the trial court the question of its jurisdiction. Should the trial! judge rule against defendant when thus, applied to, it will be time enough for defendant then to have recourse to this court by prohibition or habeas corpus, or both.\u201d 128 La. at page 847, 55 So. at page 478.\nThis is not a case where defendant was. tried and convicted without having been charged with any crime, State v. Duhon, 142 La. 919, 77 So. 791, or where the lower court had no jurisdiction. The trial judge, in the instant case, had jurisdiction over the person of the defendant and over the subject matter, in that the hills of information charging defendant with the offense of possession and sale of marijuana were valid and sufficient; hence, when the trial judge accepted the defendant\u2019s plea of guilty to addiction, such acceptance had the same legal effect as if defendant had been tried by a jury for those charges and found guilty of addiction. Therefore, the state, having failed to move in arrest of judgment prior to sentencing or to appeal within the legal delay to set aside the sentences is without right now to attack the validity of the convictions and sentences.\n. 22 O.J.S. Yerbo Criminal Law \u00a7 424, p. 656.\n. State v. Robinson, 221 La. 19, 58 So.2d 408.\n. \u201cWhen the sentence imposed is illegal, it may be reviewed either at the instance of the state or of the defendant, in an appealable case by appeal * * *; provided that nothing in this article contained shall be so construed as to deprive any person of his right, in proper cases, to the writ of habeas corpus.\n. Cf., dissenting opinions of Justices Fournet and Hawthorne, in State v. Jones, 209 La. 394, 24 So.2d 627.",
+        "type": "concurrence",
+        "author": "FOURNET, Chief Justice"
+      },
+      {
+        "text": "HAWTHORNE, Justice\n(concurring in the decree).\nIn argument before this court the district attorney fairly and honestly admitted that the State agreed to accept pleas of guilty of addiction in each of these cases under which, subject to approval by the judge, suspended sentences would be imposed because of the physical condition of the accused, who was allegedly suffering from Buerger\u2019s disease. Relying on this agreement the accused entered pleas of guilty to addiction to narcotics, and the court pursuant to the agreement, but under the erroneous impression that new bills of information had been filed charging addiction, imposed suspended sentences under the conditions explained in the majority opinion.\nThe district attorney also said that the State intended, before accepting the pleas of guilty to addiction, to nol-pros the bills of information charging the accused with possession and sale of marihuana and to file new bills of information charging him with addiction, but failed to do so through error and oversight, and that the State was still of the view that its agreement with the accused should not be abrogated. Thus this situation came about solely through errors, none of which is imputable to the accused, who complied with the agreement in every particular; and if the judgment and sentences imposed were set aside, he could be compelled to stand trial on charges, conviction of which would make mandatory sentences in the state penitentiary at hard labor without the benefit of parole, probation, or suspension of sentence.\nAs a matter of law, I think the trial judge was correct in sustaining the motion. As a matter of equity, however, I do not believe the suspended sentences in these cases should be annulled and set aside simply because the district attorney\u2019s office failed, through error and oversight, to file bills of information charging the accused with being an addict before the imposition of the suspended sentences, nor do I think such error or oversight should be permitted to abrogate the agreement entered into between the State and the accused.\nFor these reasons I concur in the decree.",
+        "type": "concurrence",
+        "author": "HAWTHORNE, Justice"
+      },
+      {
+        "text": "McCALEB, Justice\n(dissenting),\nI am in full accord with the action of the trial judge in setting aside the illegal judgment and sentence and in restoring the status quo in the cases as though the illegal pleas of guilty of drug addiction had never been entered and received.\nInitially, it is clear that relator\u2019s plea of guilty of drug addiction was not responsive to the crime of possession of narcotics with which he was charged. State v. Robinson, 221 La. 19, 58 So.2d 408. Hence, the judgments entered on these pleas and the sentences imposed thereunder were absolutely null. A valid sentence must be based upon a valid indictment (R.S. 15 :522) and a plea of guilty must be responsive to the indictment or information for no one can plead guilty to a crime with' which he is not charged. The judge is powerless to impose a valid sentence upon a plea to an offense which is not charged in the bill of information or indictment, or which is not necessarily included therein as a lesser offense.\nHence, the only question for decision is whether the trial court, upon application of the State, had jurisdiction to annul the illegal convictions and sentences during the time that the sentences were being executed. I find no difficulty in resolving this question in the affirmative as this Court has squarely held on more than one occasion that:\n\u201cThere is no authority that we know of for the proposition that, when a sentence which is void, as being in violation of a statute, has been partially executed, the judge who made the mistake of imposing the void sentence has lost his authority to impose a valid sentence.\u201d State ex rel. Cutrer v. Pitcher, 164 La. 1051, 115 So. 187, 188.\nSee also State v. Nicolosi, 128 La. 836, 55 So. 475, where the court said \u201c * * * it would be monstrous if a court that has sentenced an accused in a case of which it had no jurisdiction could not ex proprio motu, or on application, set aside the sentence. The very contrary is the law. 12 Cyc. 788; 26 A. & E. E. 315; Wharton, Crim.Pl. & Prac. 913. State v. Brannon, 34 La.Ann. 942, 945.\u201d See also 24 C.J.S. Criminal Law \u00a7 1605, p. 141 and cases cited in support of the text, including Bauman v. United States, 5 Cir., 156 F.2d 534, holding that a judgment of conviction which is void on its face may be attacked at any time by a motion to vacate the sentence.\nIn reinstating the void judgments and sentences set aside by the judge, the majority declare that the pleadings filed by the district attorney to set aside these void judgments and sentences \u201c * * * were in effect either motions for a new trial or motions in arrest of judgment.\u201d And, from this premise, the opinion concludes that the district judge was without authority to entertain the pleadings for annulment of the invalid judgments and sentences because the State may neither apply for a new trial nor may a motion in arrest of judgment he filed after sentence has been imposed.\nManifestly, this conclusion is founded on a false premise- \u2014 the assumption of the majority that the request of the State for an annulment of the invalid judgments and sentences was substantially the same as a motion for a new trial or in arrest of judgment. It is not the purpose of the prosecution to have a new trial in the cases, nor does it request the arresting of a judgment which has already been partially executed. On the contrary, its pleadings show that it is attempting to have the null judgments set aside and the status quo restored in the cases. That is exactly what this Court has stated, in State v. Pitcher and State v. Nicolosi, that either party to the void judgment has the right to do. Indeed, the judge had jurisdiction to annul the judgments and sentences ex proprio motu.\nThe relator in this case does not contend that the pleadings filed by the district attorney to set aside the void judgments and sentences were, in effect, motions for a new trial or in arrest of judgment. His main position, as I understand it, is that the prosecution is \u201cestopped\u201d from seeking to have the judgments and sentences changed since the pleas of guilty to drug addiction and the sentences imposed thereunder were made as the result of an agreement between relator, the district attorney and the judge. The case of State v. Mockosher, 205 La. 434, 17 So.2d 575 is cited in support of the point.\nIn the Mockosher case the defendant, having pleaded not guilty to the charge of negligent homicide, was permitted to withdraw his plea and enter a plea of guilty following an agreement with the district attorney that he would be sentenced to serve a period of 10 months in the penitentiary. After this sentence was imposed and before its execution, the judge undertook to amend it by increasing the prison term to three years. On appeal to this Court it was held that, despite the provisions of Article 526 of the Code of Criminal Procedure (which vests the judge with power to amend or change a legal sentence prior to the beginning of its execution), the sentence could not be changed as the defendant had already surrenderd substantial rights when he changed his plea from not guilty to guilty with the understanding that he would receive a sentence of ten months. The amended sentence was, therefore, set aside and the original sentence reinstated.\nThe difference between the Mockosher case and this one is immediately apparent. In that case there was a legal plea of guilty to a legal charge. In this case, the pleas of guilty were illegal because there was never a legal charge filed against relator for being a drug addict. Hence, the judgments and sentences were absolute nullities and relator, as well as the State, has and had the right to have the proceedings against him set aside at any time. See State v. Duhon, 142 La. 919, 77 So. 791 where the defendant was released from custody on his application for a writ of habeas corpus, the court holding that his \u25a0conviction and sentence of four years in the penitentiary on his plea of guilty to breaking and entering a box car were absolute nullities for the reason that he had never been charged with the crime by bill of indictment or information.\nI respectfully dissent.",
+        "type": "dissent",
+        "author": "McCALEB, Justice"
+      },
+      {
+        "text": "HAMLIN, Justice\n(dissenting).\nI am compelled to disagree with the majority opinion.\nA plea to the offense of \u201caddiction\u201d is not responsive to a charge of \u201cpossession\u201d of a narcotic. State v. Robinson, 221 La. 19, 58 So.2d 408. This decision has the effect of law.\nIt is my view that the District Attorney should have filed a new bill of information, under a new docket number, charging the defendant with addiction, and the court should have accepted a plea under the new bill and pronounced sentence under the offense covered by the new bill. This was not done. The bill of information filed against defendant was not amended by the minute entry showing the acceptance of defendant\u2019s plea and sentence thereon.\nLSA-R.S. 15:253 provides in part:\n\u201cThe court may at any time before, during or after trial amend the indictment in respect to any defect, imperfection or omission in form or substance or of any variance with the evidence.\u201d This also applies to a bill of information. LSA-R.S. 15:216. (Emphasis supplied.)\nIt is not contended that the information as drawn was in any way defective or imperfect, or that it omitted anything in form or substance.\nThe record shows that no motion to amend the information was ever made, but the unresponsive plea was accepted as if no amendment was necessary. Cf. State v. Smith, 160 La. 503, 107 So. 386; State v. Doucet, 177 La. 63, 147 So. 500, 87 A.L.R. 1356.\nA valid sentence must rest upon a valid verdict. LSA-R.S. 15:522.\nThe plea of guilty to the offense of \u201caddiction\u201d not being responsive to the charge of \u201cpossession,\u201d I feel that the plea was a nullity, and, as a consequence, the sentence was a nullity. Both being null, void, and of no effect whatever, were incapable of being made so. State ex rel. White v. Mason, 17 La.App. 504, 133 So. 809, 811; 66 C.J.S. Nullity, p. 984; Cf. Sonnier v. Fris, 220 La. 1085, 58 So.2d 393, and authorities therein cited. Therefore, a judge who makes the mistake of imposing a void sentence has not lost his authority to impose a valid senience. State ex rel. Cutrer v. Pitcher, 164 La. 1051, 115 So. 187; State v. Nicolosi, 128 La. 836, 55 So. 475; Bauman v. United States, 5 Cir., 156 F.2d 534. See, also, State v. Duhon, 142 La. 919, 77 So. 791.\nI respectfully dissent.",
+        "type": "dissent",
+        "author": "HAMLIN, Justice"
+      }
+    ],
+    "attorneys": [
+      "F. Irvin Dymond, New Orleans, for relator.",
+      "Richard A. Dowling, Dist. Atty., New Orleans, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "116 So.2d 676\nSTATE of Louisiana v. Earl A. BRAUD, Jr.\nNo. 44596.\nDec. 14, 1959.\nF. Irvin Dymond, New Orleans, for relator.\nRichard A. Dowling, Dist. Atty., New Orleans, for respondent."
+  },
+  "file_name": "0811-01",
+  "first_page_order": 438,
+  "last_page_order": 447
+}

@@ -1,0 +1,214 @@
+{
+  "id": 3188867,
+  "name": "Hugh L. HEARTY v. DEPARTMENT OF POLICE, CITY OF NEW ORLEANS",
+  "name_abbreviation": "Hearty v. Department of Police",
+  "decision_date": "1960-01-11",
+  "docket_number": "No. 43783",
+  "first_page": "955",
+  "last_page": "963",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 956"
+    },
+    {
+      "type": "parallel",
+      "cite": "117 So.2d 71"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "101 So. 2d 199",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9897504,
+        2887240
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/101/0199-01",
+        "/la/234/0677-01"
+      ]
+    },
+    {
+      "cite": "234 La. 678",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2887240,
+        9897504
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/234/0677-01",
+        "/so2d/101/0199-01"
+      ]
+    },
+    {
+      "cite": "113 So.2d 612",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3186156
+      ],
+      "pin_cites": [
+        {
+          "page": "618"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0081-01"
+      ]
+    },
+    {
+      "cite": "238 La. 81",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3186156,
+        9893110
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0081-01",
+        "/so2d/113/0612-01"
+      ]
+    },
+    {
+      "cite": "84 So.2d 830",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "232 La. 499",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5435390,
+        9902863
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/232/0499-01",
+        "/so2d/94/0451-01"
+      ]
+    },
+    {
+      "cite": "230 La. 816",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3084491,
+        10047828
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/230/0815-01",
+        "/so2d/89/0324-01"
+      ]
+    },
+    {
+      "cite": "228 La. 1078",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9909968,
+        2896769
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/84/0827-01",
+        "/la/228/1077-01"
+      ]
+    },
+    {
+      "cite": "113 So.2d 612",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3186156
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/la/238/0081-01"
+      ]
+    },
+    {
+      "cite": "238 La. 81",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3186156,
+        9893110
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/la/238/0081-01",
+        "/so2d/113/0612-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 441,
+    "char_count": 7369,
+    "ocr_confidence": 0.718,
+    "pagerank": {
+      "raw": 2.318106840827791e-07,
+      "percentile": 0.7891948526728778
+    },
+    "sha256": "d5444edf5d7ed1ade9f777a07832ae50387a13135b17ab840570e569a7e75d65",
+    "simhash": "1:e4c7a78a1e0f8dec",
+    "word_count": 1197
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hugh L. HEARTY v. DEPARTMENT OF POLICE, CITY OF NEW ORLEANS."
+    ],
+    "opinions": [
+      {
+        "text": "SIMON, Justice.\nFollowing an indictment returned on May 9, 1957, against Hugh L. Hearty, an officer in the Department of Police of the City of New Orleans, by the United States Grand Jury for the Eastern District of Louisiana, he was, for that cause, suspended from further service. His suspension was ordered by Provosty Dayries, Superintendent of Police, and transmitted by letter dated May 9, 1957, \u201ceffective immediately.\u201d The order of suspension was specifically predicated on the fact that Hearty had been indicted \u201cthis day by the Federal Grand Jury for making false statements to a governmental agency.\u201d\nOn appeal to the Civil Service Commission of the City of New Orleans, and after due hearing it found and so held that the appellant\u2019s suspension was illegal, invalid and wrongfully effected, in that the appointing authority ordering the suspension had not made any inquiry, finding or determination as to the \u201creasonableness, truth or weight of the accusation;\u201d that as a consequence thereof the appellant\u2019s services were never legally suspended. Accordingly, it maintained the appeal, rescinded and set aside the suspension, but refused to allow back pay during the period of the suspension.\nThe appellant has prosecuted an appeal from that portion of the decree, contending that he is entitled to his full pay during that period, and that the City Civil Service Commission has not the legal right nor discretion to deny him the enjoyment of his emoluments, rights and benefits flowing from his civil status.\nIn the alternative, appellant urges that should the Civil Service Commission possess the legal right to deny his claim, or to exercise any discretionary powers under the prevailing circumstances, then, in that event, its discretionary powers have been arbitrarily abused.\nThis appeal presents for our consideration the sole question whether the Commission, having found as a fact and concluded that appellant\u2019s suspension was illegal being based on a mere accusation of crime (indictment) without independent finding or determination by the appointing authority, was empowered to disallow appellant\u2019s claim for full pay during the period of his illegal suspension.\nWe encounter little difficulty in disposing of the issue herein involved. The virtue of consistency has been starkly adhered to in our review of civil service rulings that where the record discloses that the exaction of the law has not been fully observed, the services of the civil servant were never legally suspended or terminated and that his status as such was equally never suspended or terminated; that as a consequence he was entitled to receive full payment of his salary during the period of time he was so illegally suspended or dismissed. State ex rel. Boucher v. Heard, 228 La. 1078, 84 So.2d 827; State ex rel. Anderson v. Walker, 230 La. 816, 89 So. 2d 324; State ex rel. Boucher v. Heard, 232 La. 499, 94 So.2d 451. We pertinently observed in the first Boucher case, supra: \u201cIn the absence of a lawful dismissal there is no necessity, in law or in fact, for a reinstatement.\u201d [228 La. 1078, 84 So.2d 830.]\nWe recently enunciated the legal principles pronounced in the foregoing cited cases, when in the case of Hermann v. New Orleans Police Department, 238 La. 81, 113 So.2d 612, 618, we cited the case of Bennett v. Louisiana Wild Life and Fisheries Commission, 234 La. 678, 101 So. 2d 199, and with approval observed:\n\u201cThe case of Bennett v. Louisiana Wild Life and Fisheries Commission, 234 La. 678, 101 So.2d 199, is the Court\u2019s most recent pronouncement concerning Section 15(0) (3) ; it presented for our determination the correctness of the action of the State Civil Service Commission in refusing to order the defendant agency to pay the salary of the employee Bennett for the period during which he was illegally separated from his position. We again reviewed the jurisprudence and approved the action of the Civil Service Commission with the observation that: \u2018 * * * when the Commission concluded that his services were never legally terminated, and therefore that he was never lawfully discharged, under the foregoing jurisprudence he became entitled as a matter of course and without an order of the Commission to receive his regular salary until legally suspended or dismissed for cause.\u2019 234 La. at page 685, 101 So.2d at page 202.\u201d\nThough fully cognizant of the impact of these holdings, more particularly that of the Hermann case, supra, able counsel for the Commission argues that we should reconsider our pronouncement, and urges that we should do so in the light of the reasoning found in the dissenting opinion of our learned colleague. We are not unmindful of the persuasive force of this dissent and the logic employed, but after further study, it is the considered opinion of the Court that the instant case cannot be distinguished in any relevant particular from the principles discussed and so inflexibly pronounced above. We again reiterate the settled jurisprudence to be that the unlawfully suspended or dismissed civil servant is entitled as a matter of right to his salary during the period of his illegal suspension or dismissal, and' that under such circumstances, as is here presented, the Civil Service Commissions are without the discretionary power as authorized under Section 15(0) (3) of Article 14 of the Constitution.\nFor the reasons assigned, the ruling of the Civil Service Commission of the City of New Orleans, declaring the suspension of Hugh L. Hearty to have been illegal and maintaining his appeal, is amended by deleting the portion thereof disallowing appellant\u2019s back pay for the period of the suspension; and, as thus amended, it is affirmed.\n. \u201cPatrolman Hugh Hearty May 9, 1957\n\u201c4501 St. Claude Avenue\n\u201cNew Orleans 17, Louisiana\n\u201cDear Patrolman Hearty:\n\u201cI have been officially informed that you were indicted today by the Federal Grand Jury for making false statements to a governmental agency.\n\u201cBecause of the seriousness and gravity of this charge, I hereby suspend you from the New Orleans Police Department, effective immediately.\n\u201cVery truly yours,\n\u201c(Signed) Provosty A. Dayries \u201cProvosty A. Dayries \u201cSuperintendent of Police\n\u201cPAD/1\n\u201ccc: Personnel\n\u201cCity Civil Service\u201d\n. Section 15(0) (3) of Article 14 of the Constitution, LSA: \u201cIf any Commission after any hearing orders a dismissed or suspended employee reinstated, it may reinstate such employee under such conditions as it deems proper and may order full pay for lost time.\u201d\n. La.Const. Art. 14, Sec. 15 (N) (1) declares that \u201cNo person in the State or Classified Service, having acquired permanent Civil Service status, shall be demoted, dismissed, or discriminated against, except for cause, expressed in writing by the appointing authority.",
+        "type": "majority",
+        "author": "SIMON, Justice."
+      },
+      {
+        "text": "McCALEB, Justice\n(concurring).\nAthough I do not agree with the majority view, for the reasons expressed in my dissent on the rehearing in Hermann v. New Orleans Police Department, 238 La, 81, 113 So.2d 612, and kindred cases, the jurisprudence is now established and I conceive it to be my duty to henceforth subscribe thereto. Accordingly, I concur in the decree.",
+        "type": "concurrence",
+        "author": "McCALEB, Justice"
+      }
+    ],
+    "attorneys": [
+      "Virgil M. Wheeler, Jr., New Orleans, for appellant.",
+      "Alvin J. Liska, City Atty., Beuker F. Amann, Asst. City Atty., New Orleans, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "117 So.2d 71\nHugh L. HEARTY v. DEPARTMENT OF POLICE, CITY OF NEW ORLEANS.\nNo. 43783.\nJan. 11, 1960.\nVirgil M. Wheeler, Jr., New Orleans, for appellant.\nAlvin J. Liska, City Atty., Beuker F. Amann, Asst. City Atty., New Orleans, for appellee."
+  },
+  "file_name": "0955-01",
+  "first_page_order": 510,
+  "last_page_order": 514
+}

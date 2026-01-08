@@ -1,0 +1,193 @@
+{
+  "id": 3188676,
+  "name": "STATE of Louisiana ex rel. Celestine MELERINE v. Dr. N. P. TRIST, Sheriff of Parish of St. Bernard",
+  "name_abbreviation": "State ex rel. Melerine v. Trist",
+  "decision_date": "1959-12-14",
+  "docket_number": "No. 44929",
+  "first_page": "853",
+  "last_page": "867",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 853"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 So.2d 691"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "109 So.2d 471",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9901097,
+        3181500
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/109/0471-01",
+        "/la/236/0930-01"
+      ]
+    },
+    {
+      "cite": "236 La. 929",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3181500
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/236/0930-01"
+      ]
+    },
+    {
+      "cite": "236 La. 881",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3180707,
+        9900989
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/236/0882-01",
+        "/so2d/109/0454-01"
+      ]
+    },
+    {
+      "cite": "116 So.2d 689",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3189081
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0847-01"
+      ]
+    },
+    {
+      "cite": "238 La. 847",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3189081,
+        9895164
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0847-01",
+        "/so2d/116/0689-01"
+      ]
+    },
+    {
+      "cite": "29 La.Ann. 755",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        5253163
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la-ann/29/0755-01"
+      ]
+    },
+    {
+      "cite": "201 La. 733",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10071830,
+        3002239
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "734"
+        },
+        {
+          "page": "604"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/10/0601-01",
+        "/la/201/0733-01"
+      ]
+    },
+    {
+      "cite": "29 La.Ann. 755",
+      "category": "reporters:state",
+      "reporter": "La. Ann.",
+      "case_ids": [
+        5253163
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/la-ann/29/0755-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 683,
+    "char_count": 17776,
+    "ocr_confidence": 0.717,
+    "pagerank": {
+      "raw": 6.087085966315723e-08,
+      "percentile": 0.3778141119424337
+    },
+    "sha256": "774f8c649c55e8a659f6e464e0140bc08ead8af7663647c0d359d90efb088e69",
+    "simhash": "1:cf2682e599e72005",
+    "word_count": 3001
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "STATE of Louisiana ex rel. Celestine MELERINE v. Dr. N. P. TRIST, Sheriff of Parish of St. Bernard."
+    ],
+    "opinions": [
+      {
+        "text": "FOURNET, Chief Justice.\nOn application of Celestine Melerine showing that he was arrested and incarcerated in the St. Bernard Parish jail on November 9, 1959, on an ex parte order of the district judge in execution of the sentences in cases Nos. 4632 and 4634 on the docket of the Twenty-fifth Judicial District Court, although there was, at the time, a valid and outstanding reprieve of the Governor granting him a respite from these sentences, and that befqre relief could be sought in the district court and brought here for review the matter might be considered moot, as we held in the case of his co-defendant, James Licciardi, we, on November 11, 1959, in exercise of our original jurisdiction, issued an alternative writ of habeas corpus to the Honorable Nicholas P. Trist, Sheriff of the Parish of St. Bernard, directing him to show cause why the relator should hot be protected by the reprieve of the Governor and, in the meanwhile, ordered relator\u2019s release bn bond of $2,50.0.\nIn order that the facts and issues presented thereunder for our determination may be properly understood, it becomes important that .the proceedings in this and\u2019 related matters be set forth in some detail. These show that when the convictions and sentences of relator and James Licciardi on two bills of information (bearing Nos. 4632 and 4634 on the docket of the Twenty-fifth Judicial District Court) charging them with malfeasance in office became final March 23, 1959, following our affirmation thereof, the Governor, on the same day, granted them a 90-day reprieve without mentioning the cases by number and referring only to the charges of malfeasance on two counts, such reprieve to be effective from the day on which the accused were \u201cscheduled to begin their terms of imprisonment.\u201d By order of the Governor bearing date March 11, 1959, this was extended for an additional 60 days from the day on which the 90-day reprieve expired. The district attorney, nevertheless, on June 29, 1959, \u2014 obviously becoming apprised of the failure of these documents to mention the cases by number, and construing them to thus refer to case No. 4634 only (which contained two counts) \u2014 secured from the trial judge an order for the immediate arrest and incarceration of Licciardi and Melerine under the sentences in case No. 4632. While Melerine was not arrested and placed in jail under this order, his co-defendant was. The next day (June 30, 1959), the Governor granted another 90-day reprieve in which both cases are specifically numbered and designated, to become effective upon the day the accused were \u201cscheduled to begin their terms of imprisonment.\u201d When the trial judge refused to release Licciardi on his application for a writ of habeas corpus\u2014 being of the opinion the reprieve of March 23, 1959, and its extension did not cover case No. 4632 and the reprieve of June 30 was ineffective since Licciardi had begun to serve his sentence when it was issued \u2014 we, on July 3, 1959, granted the writs forming the basis of the proceedings in No. 44,743 on our docket that were recalled November 9, 1959, because we considered the matter moot since the 90-day period of the June 30 reprieve expired on or before October 6, 1959, when it was submitted for our consideration.\nThus, as pointed out in the Licciardi decision, the first two reprieves being considered initially as affecting both cases, no attempt was made to execute the sentences under either until June 29, 1959. And although Melerine was not then arrested, the reprieve of June 30 was respected and he was not disturbed until November 9, 1959, when we handed down our decision recalling the writs in the Licciardi matter. On that day, however, although this decision was not final, and despite the fact the June 30 reprieve was extended on September 16 for an additional 90 days, the trial judge, on motion of the district attorney, ordered the arrest of both Melerine and Licciardi, and, under this warrant, Melerine was arrested the same day and incarcerated. To secure his release he applied to us direct and, on November 11, 1959, we granted the writ forming the basis of the instant proceeding. The next day the Governor issued a fifth reprieve, the period thereof extending for still another 90 days from the date on which the September 16 reprieve expired.\nIt is the contention of the district attorney, as counsel for the respondent sheriff, that the reprieve of June 30, by its very terms running for 90 days \u201cfrom the day they (Licciardi and Melerine) were scheduled to begin their imprisonment,\u201d expired June 21, since their sentences became executory March 23, 1959, with our refusal of rehearings in their appeals; and the extension thereof for an additional 90 days on September 16 expired September 29; consequently, the sheriff, in arresting Melerine on November 9, did so not only in compliance with the order of the judge, but also in accordance with his express duty under RS 15 :565. As to the reprieve of November 12, 1959, it is contended that inasmuch as the Governor is without right to reprieve once the convicted person has begun to serve his sentence, it was without effect. (The emphasis and wording within brackets has been supplied.)\nCounsel\u2019s contentions are untenable. The basis of the first is, to say the least, ingenious, presupposing, as it does, that the Governor would resort to the useless and vain procedure of issuing a reprieve on June 30 to cover a 90-day period that had already expired on June 21. While it is true the sentences in these cases became ex-ecutory March 23, 1959, the accused were not \u201cscheduled\u201d to begin their terms of imprisonment thereunder, as held in the Licciardi matter, until June 29, 1959, when, on motion of the district attorney, the trial judge issued a mittimus warrant ordering the sheriff to arrest them for commitment to the parish jail, for, until that time, both the district attorney and the sheriff, considering them fully protected by the gubernatorial respite granted on March 23, made no attempt to execute the judgments by having the accused begin serving their sentences. It is obvious by simple calculation that Melerine was thus protected by the 90-day reprieve of June 30 as extended for an additional 90 days on September 16 when he was arrested on November 9, 1959, and that his incarceration on that day was premature and illegal.\nBut were we to accept as sound counsel\u2019s argument that Melerine was legally arrested on November 9, when the Governor, by his order of November 12, granted him a still further respite of 90 days, the time to serve the portion of his sentence then remaining was delayed accordingly.\nCounsel cites no law to support his contention that a reprieve is ineffective after the accused has begun to serve his sentence. To the contrary, we have the express provisions of Section 10 of Article V of the Louisiana Constitution of 1921 giving the Governor plenary power to grant reprieves. This power is without limitation and absolute, except in cases of treason. See, State ex rel. Daniel v. Rose, 29 La.Ann. 755, and State v. Melerine, bearing No. 44,743, 238 La. 847, 116 So.2d 689.\nThe argument of the district attorney that inasmuch as the Governor has been given no such power, his reprieves cannot have the effect of remitting the fines imposed in these cases, thus making executory the alternative jail sentences of 60 days since the fines levied have not been paid, is equally without merit, for the Governor, by issuing the reprieves, has not thereby remitted the fines. He has only delayed or postponed their payment during the periods of the respites. See, State ex rel. Daniel v. Rose, supra.\nFor the reasons assigned, the alternative writ of habeas corpus issued herein is made peremptory and the Honorable Nicholas P. Trist, Sheriff of the Parish of St. Bernard, is ordered to honor the respites of the Governor and to delay execution of the sentences in cases Nos. 4632 and 4634 on the docket of the Twenty-fifth Judicial District Court accordingly.\n. State v. Melerine, No. 44,743, Novemher 9, 1959, 238 La. 847, 116 So.2d 689.\n. \u201cThe Supreme Court * * * and each of the judges thereof * * * may issue writs of habeas corpus, in behalf of any person in actual custody * Section 2 of Article VII of the Constitution of 1921.\n. State v. Melerine, 236 La. 881, 109 So.2d 454; and State v. Melerine, 236 La. 929, 109 So.2d 471.\n. The date on this reprieve is obviously an error.\n. See Footnote No. 1 supra.\n.It was not called to our attention when the case was submitted, ot at any time prior to judgment, that the June 30 reprieve had been extended for \u2022 an additional 90 days by the Governor on September 16.\n. On November 16, 1959, tbe judge revoked this warrant as having been improvidently granted when, in a rule for contempt, his attention was called to the fact that our decision of November 9, 1959, was not final. See, No. 44,932 on our docket.\n. \u201cThe sheriff, as soon as any sentence to imprisonment * * * shall have become final, shall, unless the governor shall have reprieved the person convicted, proceed forthwith to the execution of said sentences.\u201d\n. We find an opinion of the then Attorney General of Louisiana (the Honorable Eugene Stanley), rendered May 12, 1940, that is contrary to our holding here. See, page 2808 of the 1940-42 Opinions of the Attorney General. But there are also three opinions emanating from this same office that accord with our holding, the first by the Honorable George M. Wallace, first assistant to the Attorney General, dated August 9, 1932, appearing at page 645 of the 1932-34 Opinions of the Attorney General; the second by the Honorable Lessley P. Gardiner, second assistant to the Attorney General, dated November 29, 1938, appearing at page 1016 of the 1938-40 Opinions of the Attorney General; and the third by the Honorable Carroll Buck for the Attorney General dated April 10, 1953, appealing at Page 187 of the 1952-54 Opinions of the Attorney General.\u201d\n. \u2018\u2018The Governor shall have power to grant reprieves for all offenses against the State * * *. In case of treason he may grant reprieves until the end of the next session of the Legislature * * *",
+        "type": "majority",
+        "author": "FOURNET, Chief Justice."
+      },
+      {
+        "text": "HAMLIN, Justice\n(dissenting).\nI am compelled to disagree with the majority opinion.\nThe presumption of innocence, which under the law always attaches to a defendant, no longer attaches to relator, for the reason that he has been found guilty and has been refused clemency by the Board of Pardons, the conscience of the State. He has lost the benefit of the presumption of innocence.\nIt is my view that the confusion existing and the doubt as to the regularity of the reprieves now operates in favor of the State. The matter is before this Court because of carelessness and lack of diligence on the part of the Executive Department, and these circumstances should not militate against or interfere with the orderly administration of criminal justice.\nI am of the opinion that March 23, 1959, when the rehearing was refused, was the date upon which the sentences became executory, and was the day upon which Celestine Melerine and James Licciardi were scheduled to begin their terms of imprisonment. Cf. State v. Rider, 201 La. 733, 734, 10 So.2d 601, 604, Citing 8 R.C.L., par. 267, p. 259.\nUnder the provisions of LSA-R.S. 15:-565, Sheriff Nicholas P. Trist was, on March 23, 1959, in duty bound to execute said sentences by placing the convicted defendants in the Parish Jail, unless the Governor reprieved them.\nThe evidence shows that an executive reprieve was issued on the same day, March 23, 1959, before Sheriff Trist had incarcerated said defendants, or, before he could proceed to the execution of the sentences. That reprieve specifically referred to the case in which Melerine and Licciardi had been charged with malfeasance in office on two counts, and were sentenced by the trial judge on each count to serve three months in the Parish Jail and to pay a fine of $500, and in default of payment thereof, to serve sixty additional days in the Parish Jail. Said reprieve was issued \"to take effect upon the day the said lames Licciardi and Celestine Melerine are scheduled to begin their terms of imprisonment, said reprieve to remain in effect for ninety days.\u201d\nI am of the further opinion that said ninety day reprieve expired ninety days from March 23, 1959, or, on June 21, 1959.\nOn June 22, 1959, Sheriff Trist received a second reprieve bearing date of March 11, 1959 (sic), again referring to the same case against said defendants, Celestine Melerine and James Licciardi, wherein they were convicted of the offense of malfeasance in office on two counts and sentenced by the Court on each count as set forth above, said second reprieve \u201cto become effective upon the expiration of the ninety day reprieve granted on March 23, 1959, and direct that the execution of their sentences be suspended during the period of this reprieve.\u201d\nThis second reprieve, in my opinion, expired by its own provisions, on August 20, 1959, exactly sixty days after June 21, 1959, the expiration date of the first reprieve.\nThe evidence further shows that Sheriff Trist received a third executive reprieve, dated June 30, 1959, which by its terms applied to both State Cases Nos. 4632 and 4634, in which said defendants, Celestine Melerine and James Licciardi, had been sentenced to serve three months in the Parish Jail and to pay a fine of $500, and in default of payment thereof, to serve sixty additional days in the Parish Jail.\nSaid June 30, 1959 reprieve provides, \u201csaid reprieve to take effect upon the day the said James Licciardi and Celestine Melerine are scheduled to begin their terms of imprisonment, said reprieve to remain in effect for ninety days.\u2019\u2019\nMarch 23, 1959 being the date upon which the sentences became executory and the date upon which Melerine and Licciardi were \u201cscheduled to begin their terms of imprisonment,\u201d said third reprieve of June 30, 1959, which was stipulated to \u201cremain m effect for ninety (90) days from the day they are scheduled to begin their terms of imprisonment,\u201d expired ninety days after March 23, 1959, or, on June 21, 1959.\nSheriff Trist received a fourth reprieve dated September 16, 1959, which reads as follows:\n\u201cNow, Therefore, I, Earl K. Long, Governor of the State of Louisiana, in the exercise of the discretion vested in me by Section 10 of Article V of the Constitution of Louisiana and Section 572 of Title 15 of the Louisiana Revised Statutes of 1950, do hereby grant a reprieve to the said James Licciardi and Celestine Melerine, staying the execution of the sentences imposed upon them by the judgments of the Twenty-Fifth Judicial District Court in proceedings Nos. 4632 and 4634, said reprieve to take effect upon the day the reprieve granted on June 30, 1959 expires, and to remain in effect for ninety days.\u201d (Emphasis supplied.)\nSheriff Trist, respondent herein, urges: \u2014\u201cSaid ninety (90) day reprieve from June 21, 1959, the expiration date of the June 30, 1959 reprieve, expired on September 29, 1959.\u201d Pretermitting whether September 29, 1959 or September 20, 1959 is the correct date, suffice it to say that the expiration date was not later than September 29, 1959.\nTherefore, Sheriff Trist\u2019s action in incarcerating Celestine Melerine, ,in response to the order of the trial court rendered November 9, 1959, was proper and lawful.\nCelestine Melerine was incarcerated in the St. Bernard Parish Jail on November 9, 1959, and had begun to serve his sentence. There is now a fifth reprieve, this last one being dated November 12, 1959, which provides:\n\"Said reprieve to take effect upon the day the reprieve granted on September 16, 1959 expires, and to remain in effect for ninety days.\u201d\nIf, as Melerine contends, the fourth reprieve granted him, dated September 16, 1959, did not expire until ninety days thereafter, or, about the middle of December, 1959, there would have been no necessity for his applying for and receiving said fifth reprieve of November 12, 1959.\nThis fifth reprieve presents the question of whether the Governor has a right to issue a reprieve after Melerine was imprisoned and began to serve his sentence.\nI do not believe that, under the authority of Article V, Section 10, of the State Constitution, the Governor may grant a reprieve effective after a prisoner has begun to serve his sentence; a reprieve does not release a prisoner from serving his term, as the sentence is then in process of being executed.\nI am in accord with the opinions rendered by the Attorney General of Louisiana, appearing on page 626 of the Opinions of the Louisiana Attorney General, 1946-48, citing State ex rel. Daniel v. Rose, 29 La. Ann. 755, and the opinions of 1940-42, at page 2808, to the effect that the Governor has no authority to grant a reprieve after execution of sentence has begun.\nThis latter question for decision, it seems to me, is a simple one: Under Louisiana Law, the Board of Pardons has authority to recommend to the Governor that a prisoner be pardoned after he has begun to serve his sentence; the Governor cannot exercise this authority on his own initiative, without recommendations of the Board of Pardons.'\nI respectfully dissent.\n. This is conceded in the majority opinion.\n. \u201cAccordingly where the judgment and sentence js imprisonment for a certain term, and from any cause the time elapses without the imprisonment being endured, it will still be a valid, subsisting, unexecuted judgment.\u201d (Emphasis supjdied.)",
+        "type": "dissent",
+        "author": "HAMLIN, Justice"
+      }
+    ],
+    "attorneys": [
+      "Tucker & Schonekas, George W. Reese, Jr\u00a1, New Orleans, for applicant.",
+      "Leander H. Perez, Dist. Atty., New Orleans, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "116 So.2d 691\nSTATE of Louisiana ex rel. Celestine MELERINE v. Dr. N. P. TRIST, Sheriff of Parish of St. Bernard.\nNo. 44929.\nDec. 14, 1959.\nTucker & Schonekas, George W. Reese, Jr\u00a1, New Orleans, for applicant.\nLeander H. Perez, Dist. Atty., New Orleans, for respondent."
+  },
+  "file_name": "0853-01",
+  "first_page_order": 459,
+  "last_page_order": 466
+}

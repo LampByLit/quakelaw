@@ -1,0 +1,261 @@
+{
+  "id": 3189016,
+  "name": "STATE of Louisiana, Through the DEPARTMENT OF HIGHWAYS v. Oscar TOLMAS et al.",
+  "name_abbreviation": "State v. Tolmas",
+  "decision_date": "1959-06-25",
+  "docket_number": "No. 43863",
+  "first_page": "1",
+  "last_page": "11",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 1"
+    },
+    {
+      "type": "parallel",
+      "cite": "113 So.2d 288"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "234 La. 201",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9871672,
+        2890517
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/99/0082-01",
+        "/la/234/0201-01"
+      ]
+    },
+    {
+      "cite": "78 So.2d 493",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        10065177,
+        2946068
+      ],
+      "pin_cites": [
+        {
+          "page": "496"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/78/0493-01",
+        "/la/227/0014-01"
+      ]
+    },
+    {
+      "cite": "227 La. 13",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10065177
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/78/0493-01"
+      ]
+    },
+    {
+      "cite": "236 La. 223",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3183258,
+        9896075
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/236/0224-01",
+        "/so2d/107/0451-01"
+      ]
+    },
+    {
+      "cite": "232 La. 218",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9892380,
+        5435246
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "42"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/94/0040-01",
+        "/la/232/0217-01"
+      ]
+    },
+    {
+      "cite": "231 La. 869",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5467746,
+        9896467
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/231/0869-01",
+        "/so2d/93/0198-01"
+      ]
+    },
+    {
+      "cite": "103 So.2d 458",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3177888
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/235/0313-02"
+      ]
+    },
+    {
+      "cite": "235 La. 314",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3177888,
+        9893749
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/235/0313-02",
+        "/so2d/103/0458-01"
+      ]
+    },
+    {
+      "cite": "82 So.2d 687",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        2895980,
+        9903268
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/228/0393-01",
+        "/so2d/82/0687-01"
+      ]
+    },
+    {
+      "cite": "228 La. 393",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9903268,
+        2895980
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/82/0687-01",
+        "/la/228/0393-01"
+      ]
+    },
+    {
+      "cite": "224 La. 988",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3091378,
+        10064790
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "542"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/224/0988-01",
+        "/so2d/71/0541-01"
+      ]
+    },
+    {
+      "cite": "234 La. 741",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9905305,
+        2891733
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "451"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/101/0450-01",
+        "/la/234/0741-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 589,
+    "char_count": 9817,
+    "ocr_confidence": 0.711,
+    "pagerank": {
+      "raw": 3.203086731823091e-07,
+      "percentile": 0.8659973998484082
+    },
+    "sha256": "adf65511b49ac948217506218e6c6a23defe38af0ee9cfa3a90be462d828f925",
+    "simhash": "1:904ca535ba45e5d6",
+    "word_count": 1615
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "STATE of Louisiana, Through the DEPARTMENT OF HIGHWAYS v. Oscar TOLMAS et al."
+    ],
+    "opinions": [
+      {
+        "text": "HAMLIN, Justice.\nActing under the provisions of LSA-R.S. 48:441-460, the State of Louisiana, through the Department of Highways, brought expropriation proceedings against Oscar Tolmas and Hyman C. Tolmas for the acquisition of certain property (which was to constitute the Pontchartrain Expressway) lying in the right-of-way of the approach to the new Mississippi River Bridge at New Orleans. The district court held that $16,-479.00 was just and adequate compensation for the property expropriated. Plaintiff appealed to this Court, praying that the judgment be reduced to $13,000, the amount it originally deposited in the registry of the district court as alleged just compensation. In answer to this appeal, defendants asked that the award be increased to $19,225.\nThe subject property is described as follows :\n\u201cTwo (2) certain lots of ground, together with all the buildings and improvements thereon, and all the rights, ways, privileges, servitudes and advantages and appurtenances thereunto belonging or in anywise appertaining, situated in the First District of this City and in Square 381 bounded by Calliope, Clio, Freret and Robertson Streets * * * the said lots adjoin each other and measure each Thirty-two (32) feet Three (3) inches and Six (6) lines front on Calliope Street by Eighty-five (85) feet in depth between parallel lines * * *; said lot No. 6 being nearer to South Robertson Street and being situated Sixty-One (61) feet Eleven (11) inches Six (6) lines from the corner of South Robertson Street.\n\u201cThe improvements thereon bear the Municipal Nos. 2420-22 Calliope Street.\u201d\nThere is no contradiction of the testimony of Mr. Cliff Probst, a witness for the defendants, that the above property is zoned \u201cL\u201d Heavy Industrial and that such a classification means\u2014\n\u201c * * * it\u2019s a very liberal zoning. It\u2019s next to the last one which is unlimited and there\u2019s no limit to the type of building you could construct on it and it permits such businesses as acid plants, explosives, manufacture or storage, gas manufacture, petroleum or its products, smelting of tin, copper, zinc, or iron ores, stockyards, or slaughter of animals and etc.\nSo it\u2019s a very broad zoning and this information I have from the City Hall that the whole city of New Orleans has less than seven percent of \u201cL\u201d Industrial, Heavy Industrial.\u201d\nDespite the classification, supra, \u201cthe property has been used as a part of and consistent with the mixed residential and commercial neighborhood, inhabited by white and colored persons.\u201d State v. Tramuta, 234 La. 741, 101 So.2d 450, 451.\nPlaintiff\u2019s witnesses, Mr. E. Holland Johnson and Mr. Eugene A. Aschaffenburg, expert realtors, testified that the instant property contained approximately 5,504.8 square feet. They placed a value of $2.35 per square foot on the property, arriving at a rounded total valuation of $13,000.\nMr. Johnson employed comparable sales \u25a0 \u2014 ranging from $1.82 to $2.88 per square foot \u2014 as a criterion. These were mostly private sales and embraced both improved and unimproved properties. The square footage of the majority of those properties was not as large as that of the instant lots.\nMr. Aschaffenburg testified that considering the strict parking requirements of the City of New Orleans, the instant property was not sufficiently large for industrial development despite its classification. He stated that, from his overall knowledge of the neighborhood and an examination of the comparables used by Mr. Johnson, he arrived at the identical valuation found by Mr. Johnson.\nMr. Cliff Probst, an expert realtor who testified in behalf of the defendants, placed a value of $19,225 on the property. He stated that the property contained approximately 5,493 square feet, having a value of $3.50 per square foot. As a comparable he employed property located at 2300 Calliope Street, a block and a half from the instant property. He stated that he had appraised the property located at 2300 Calliope Street and testified with respect to its valuation. His recollection was that the property was improved and that he had valued the ground at $4.50 per square foot. When asked if he thought that $19,225 was a fair market value for the instant property \u2014 that is, what a willing, ready and able purchaser would pay a willing, ready and able seller\u2014 he responded:\n\u201cI\u2019ll say so. The building of Union Station and the different roadways into it caused a lot of sales of commercial industrial property and sort of made it scarce in that area and I think it\u2019s a fair price.\u201d\nMr. Probst further stated that a corner lot should sell for approximately 10% more -per square foot than other property in the same block. He said that because 2300 Cal-Hope Street was corner property there was a differential between his appraisal of that property and that of the instant lots, namely, $4.50 and $3.50 per square foot.\nAll parties to this proceeding stipulated that the testimony of Mr. Charles B. Avegno, a witness for the defendants, would be the same as that of Mr. Probst.\nThe trial judge did not assign written reasons for his judgment awarding the defendants $16,479 for the instant property. From an examination of the record, we deduce that he averaged the appraisal of plaintiff\u2019s witnesses ($2.35 per square foot) and that of defendants\u2019 appraisers ($3.50 per square foot) and arrived at a rounded figure of $3 per square foot. He employed the total square footage to which defendants\u2019 appraisers had testified (5,493 square feet), which, when multiplied by the $3.00 per square foot, gave a product of $16,479.\nAppellant contends that there was no competent evidence to support the judgment of the trial court. It argues that $13,000 was a high price and the most that the instant property could possibly bring on the open market \u2014 that is, the most a willing purchaser would pay a willing seller. It further argues that the defendants did not bear the burden of proving their claim. LSA-R.S. 48:453.\nAppellees submit to this Court the argument that not only is there ample testimony in the record to substantiate the award given by the trial judge, but, that in truth and fact the great weight of the evidence would warrant an award of $19,225.\n\u201cAs a general rule the measure of compensation to be awarded in proceedings of this kind is the market value of the property \u2014 that is, the price which would be agreed upon at a voluntary sale between an owner willing to sell and a purchaser willing to buy. And most important in determining the market value are sales of similar or comparable properties in the vicinity.\u201d Housing Authority of New Orleans v. Boudwine, 224 La. 988, 71 So.2d 541, 542; Caddo Parish School Board v. Bland, 228 La. 393, 82 So.2d 687; State, Through Department of Highways v. Sullivan, 235 La. 314, 103 So.2d 458; Recreation and Park Commission of East Baton Rouge Parish v. Perkins, 231 La. 869, 93 So.2d 198. Plaintiff\u2019s evidence of comparable sales is not conclusive; neither is defendants\u2019 testimony as to one comparable sale. The determination of the market value of the instant property cannot, therefore, be limited to only a consideration of comparable sales.\n\u201cThe rule is well settled that the best guide in determining the market value to which the owner is entitled under the law in expropriation suits is evidence of sales of similar or comparable properties in the vicinity, * * * and that where the record contains no satisfactory evidence of sales comparable to that involved, ascertainment of the true value must be sought by a consideration of other factors and circumstances, * * * \u201d Rapides Parish School Board v. Nassif, 232 La. 218, 94 So.2d 40, 42; cf. Orleans Parish School Board v. Paternostro, 236 La. 223, 107 So.2d 451.\nThere is a $6,000 difference between the price demanded by defendants and the price offered by plaintiff for the property herein involved. The trial judge\u2019s award represents a median. \u201cAs a practical result, the value fixed by the judge is equitable and gives effect to the evidence on both sides, as the award is approximately one-half of the total of the combined appraisal * * *.\u201d State v. Ferris, 227 La. 13, 78 So.2d 493, 496.\nThe trial judge saw and heard the witnesses and considered all factors and circumstances surrounding the expropriation of the instant property. The specifications of error attributed to the judgment of the trial court by plaintiff and defendants assert no manifest error. We are not, therefore, prone to disturb his findings. Gravity-Drainage District No. 1 of Rapides Parish v. Key, 234 La. 201, 99 So.2d 82.\nFor the reasons assigned, the judgment of the trial court is affirmed.\n. The sole question considered on trial of the merits was the value of the property expropriated.\n. The litigants agree that the improvements, which consists of a shed, are of no value.\n. In State v. Tramuta, 234 La. 741, 101 So.2d 450, involving the expropriation of 2300 Calliope St. and a smaller lot on LaSalle St., Mr. Probst placed a value of $20,200 on 2300 Calliope St. (including land and improvements), and $5,300 on 1113 LaSalle St. This Court affirmed the judgment of the trial court allowing $19,900 for 2300 Calliope St. and $5,100 for 1113 LaSalle St. The Calliope St. property measured 25 ft. 4 in. on Calliope St. by approximately 80 ft. in depth on LaSalle St.\n. This footage corresponds with the description set forth in plaintiff\u2019s petition of expropriation, namely, each 32 ft. 3 in. and six lines front on Calliope St. by a depth of 85 ft.",
+        "type": "majority",
+        "author": "HAMLIN, Justice."
+      }
+    ],
+    "attorneys": [
+      "W. Crosby Pegues, Jr., D. Ross Banister, Baton Rouge, Howard W. Lenfant, New Orleans, for plaintiff-appellant.",
+      "Tolmas, Schiro & Horton, by Gerson Z. Tolmas, New Orleans, for defendants-appellees."
+    ],
+    "corrections": "",
+    "head_matter": "113 So.2d 288\nSTATE of Louisiana, Through the DEPARTMENT OF HIGHWAYS v. Oscar TOLMAS et al.\nNo. 43863.\nJune 25, 1959.\nW. Crosby Pegues, Jr., D. Ross Banister, Baton Rouge, Howard W. Lenfant, New Orleans, for plaintiff-appellant.\nTolmas, Schiro & Horton, by Gerson Z. Tolmas, New Orleans, for defendants-appellees."
+  },
+  "file_name": "0001-01",
+  "first_page_order": 33,
+  "last_page_order": 38
+}

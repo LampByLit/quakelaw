@@ -1,0 +1,374 @@
+{
+  "id": 4381885,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. ROBERT WILLIAM LANDRY, Defendant and Appellant",
+  "name_abbreviation": "People v. Landry",
+  "decision_date": "1969-09-23",
+  "docket_number": "Crim. No. 3595",
+  "first_page": "370",
+  "last_page": "377",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "276 Cal. App. 2d 370"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "76 Cal.Rptr. 718",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "271 Cal.App.2d 350",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        63704
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/271/0350-01"
+      ]
+    },
+    {
+      "cite": "388 P.2d 665",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.Rptr. 433",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.2d 740",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2339083
+      ],
+      "pin_cites": [
+        {
+          "page": "744"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/60/0740-01"
+      ]
+    },
+    {
+      "cite": "383 P.2d 449",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.Rptr. 41",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.2d 171",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2339241
+      ],
+      "pin_cites": [
+        {
+          "page": "174-175"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/60/0171-01"
+      ]
+    },
+    {
+      "cite": "394 P.2d 67",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal. Rptr. 531",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Cal.2d 575",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2337758
+      ],
+      "pin_cites": [
+        {
+          "page": "579"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/61/0575-01"
+      ]
+    },
+    {
+      "cite": "51 A.L.R. 409",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "269 U.S. 20",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        186310
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "33"
+        },
+        {
+          "page": "149"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/269/0020-01"
+      ]
+    },
+    {
+      "cite": "56 Cal.Rptr. 485",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "365 U.S. 610",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6169223
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "613"
+        },
+        {
+          "page": "831"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/365/0610-01"
+      ]
+    },
+    {
+      "cite": "395 U.S. 752",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1772077
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/395/0752-01"
+      ]
+    },
+    {
+      "cite": "44 Cal.Rptr. 500",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "234 Cal.App.2d 423",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2147792
+      ],
+      "pin_cites": [
+        {
+          "page": "433"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/234/0423-01"
+      ]
+    },
+    {
+      "cite": "453 P.2d 721",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr. 217",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.2d 84",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        8711921
+      ],
+      "pin_cites": [
+        {
+          "page": "91"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/71/0084-01"
+      ]
+    },
+    {
+      "cite": "294 P.2d 23",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.2d 269",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4369462
+      ],
+      "pin_cites": [
+        {
+          "page": "272"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/46/0269-01"
+      ]
+    },
+    {
+      "cite": "395 P.2d 889",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.Rptr. 841",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Cal.2d 861",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2337776
+      ],
+      "pin_cites": [
+        {
+          "page": "865"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/61/0861-01"
+      ]
+    },
+    {
+      "cite": "423 P.2d 557",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal. Rptr. 485",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "65 Cal.2d 842",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2326752
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "845"
+        },
+        {
+          "page": "845"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/65/0842-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 741,
+    "char_count": 13905,
+    "ocr_confidence": 0.756,
+    "pagerank": {
+      "raw": 1.584924165860093e-07,
+      "percentile": 0.6810758078945915
+    },
+    "sha256": "42f304aa05d1bd914d4a5baf92c964d70b8c3fa5e55c6af14c46173b271db177",
+    "simhash": "1:aa1301642f04863e",
+    "word_count": 2322
+  },
+  "last_updated": "2024-02-27T17:52:21.889319+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. ROBERT WILLIAM LANDRY, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Attorney of San Diego County, appellant Robert William Landry was charged in count 1 with possession of marijuana for sale in violation of Health and Safety Code section 11530.5, and in count 2 with possession of marijuana, in violation of section 11530. His motion to suppress evidence under Penal Code section 1538.5 was denied. He then withdrew his earlier plea of not guilty to possession of marijuana (count 2) and entered a plea of The court granted the People\u2019s motion to dismiss count 1 in the furtherance of justice.\nAppellant was placed on probation for a period of five years on condition he serve the first 90 days in the custody of the sheriff and pay the sum of $150 toward the cost of his supervision. He appeals from the judgment (order granting probation). He contends his arrest was unlawful; the search and seizure made in connection therewith was illegal; and that the trial court erred in denying his section 1538.5 motion to suppress the evidence.\nOn March 21, 1968, deputies Nash and Wiggington of the San Diego County Sheriff\u2019s Department were on patrol in a marked sheriff\u2019s car in the unincorporated area of San Diego County. Shortly after 1 a.m. Deputy Nash turned the car off Broadway onto a private dirt road servicing several houses. Neither deputy was aware the road was private property. Three days earlier, on the night of March 18, 1968, they had been assigned to investigate a report of a prowler in this area. They found and arrested a juvenile in a vacant lot approximately 50 feet from house \u201cL\u201d which fronts on the dirt roa.d. The juvenile was under the influence- of a narcotic, possessed marijuana and indicated he had been smoking marijuana with \u201cBob\u201d, pointing to house \u201cL\u201d.\nOn the night in question, as the deputies passed house \u201cL\u201d they noticed appellant seated at a table in the house in front of a lighted, undraped window. What they observed caused Deputy Nash to stop the ear almost directly in front of the window. He turned off the ear\u2019s lights and the two officers watched appellant at the table through the lighted window for about two minutes. They observed appellant working with his hands over a newspaper on the table, raising an object with his hands about two inches apart to his mouth, licking the object, tamping it down and appearing to twist the ends of the object. Appellant went through this procedure twice. He then folded the newspaper on the table and appeared to pour the contents into something on the table. He rose and removed an object from the table which appeared to be a clear plastic sandwich bag. The bag contained a dark substance. The observations were made by the deputies while seated in the ear approximately 30 feet from the window. Based upon these observations, their training and their previous experience in making narcotic arrests, both officers formed the opinion appellant had been rolling marijuana cigarettes.\nAppellant left the room, came out the front door of the house and walked toward a car parked on the dirt road. Deputy Nash left the patrol car, shined his flashlight on appellant, identified himself as a police officer and ordered appellant to take his hands from his pockets. Appellant backed away and thrust his hands farther into his jacket pockets. Officer Nash moved toward appellant who continued to back away. He again ordered appellant to remove his hands from his jacket pockets. Finally he took hold of appellant- by the bicep; appellant resisted, was subdued, and was taken to the rear of the patrol car. Deputy Wiggington searched appellant and removed two hand-rolled marijuana cigarettes from his jacket pocket. Appellant was arrested and placed in the patrol car. The arrest took place at approximately 1:20 a.m.\nAfter arresting appellant, Deputies Nash and Wiggington decided to remain at the scene and summon a narcotic detail. The narcotic officers did not arrive until an hour after appellant\u2019s arrest. Meantime the deputies looked into the windows of the house and observed two male persons sleeping, one in each of the bedrooms of the house. When the narcotic detail arrived, the officers went to the door of the house, knocked and announced- they were police officers. No one responded. After consultation, they decided to ask for additional police support before proceeding. A cover car arrived about 10 minutes later. The officers again knocked on the door, announced themselves as police officers and received no response. They forced the front door of the house and entered.\nThe officers conducted a complete and thorough search of the house and each of its rooms. They found many items of contraband, including four hand-rolled marijuana cigarettes, marijuana seeds and debris, packets containing small amounts of marijuana, pipes eontaing marijuana and marijuana debris, and other paraphernalia connected with the use of marijuana. One of the deputies searched a storage shed located a few feet from the back door of the house. He found 20 plastic bags of marijuana wrapped in a newspaper and hidden in an old toilet tank in the shed.\nAt the preliminary hearing the People offered 18 exhibits in evidence. Of these only Exhibit 1 -(two hand-rolled cigarettes) was obtained through the search of appellant\u2019s person; all other exhibits were found in the subsequent search of the house and shed. The motion to suppress evidence was heard upon the evidence adduced at the preliminary hearing and was addressed to the items taken from appellant\u2019s person as well as those seized in the search of the house and shed.\" \u2022\nSince the arrest of appellant, the search of his person and the subsequent search of the house and shed were all made without a warrant, the burden rests upon the People to prove justification. (People v. Henry, 65 Cal.2d 842, 845 [56 Cal. Rptr. 485, 423 P.2d 557]; People v. Cruz, 61 Cal.2d 861, 865 [40 Cal.Rptr. 841, 395 P.2d 889]; Badillo v. Superior Court, 46 Cal.2d 269, 272 [294 P.2d 23].)\nAppellant first contends his arrest was unlawful in that it was based upon an illegal search. He argues the deputies had no legal right to drive upon the private dirt road, were in fact trespassers and that their observations made from the ear through the lighted, undraped window of the house were in violation of his Fourth Amendment right of privacy. We reject the contention. From the time the officers first observed appellant until he was arrested there is no indication they ever left the area of the dirt road. The road, although not public, served several houses in addition to house \u201cL\u201d where appellant\u2019s activities were observed. The road may be said to be analogous to the corridors of an apartment building. It is a \u201ccommon area\u201d for the use of those who occupy the houses fronting on it, their guests, tradesmen and, other persons having legitimate business on the premises. Police may use such \u201ccommon areas\u201d and when they do they are not trespassers. (People v. Berutko, 71 Cal.2d 84, 91 [77 Cal.Rptr. 217, 453 P.2d 721].)\nNor can appellant complain because the officers observed his activities through the lighted, undraped window. This was not an aperture installed by the police for observation purposes. Appellant himself failed to draw the blinds (if in fact there were any) and what the officers observed through the window was neither an unlawful search nor a violation of appellant\u2019s privacy. (People v. Berutko, supra, pp. 91-92; People v. King, 234 Cal.App.2d 423, 433 [44 Cal.Rptr. 500].)\nAppellant further contends his arrest was without probable cause. Without repeating what was observed, it is sufficient to say it fits a familiar pattern and both deputies immediately concluded they had watched appellant rolling marijuana cigarettes. We think the movements made by appellant, the paraphernalia used in connection therewith and the care with which the spillage was salvaged and retained were sufficient to justify the conclusion reached. But if these observations were not, in themselves, sufficient, they were buttressed by the information the officers possessed by reason of their arrest of the juvenile in the area some three days before, and by appellant\u2019s failure to respond to commands and his resistance when first accosted by Deputy Nash. (See People v. Cruz, supra, p. 865.) The evidence amply demonstrates the officers had probable cause to believe appellant possessed marijuana when\"he was arrested and the search of his person made incident to that arrest revealing the two marijuana cigarettes was lawful. It follows the court properly denied appellant\u2019s motion to suppress as evidence the two hand-rolled marijuana cigarettes (Exhibit 1).\nThe Attorney General concedes the subsequent search of the house and shed creates a more difficult problem from the prosecution\u2019s point of view. He further concedes the search of the house and shed was \u201cobviously not in compliance to the mandate\u201d of Chimel v. California, 395 U.S. 752 [23 L.Ed.2d 685, 89 S.Ct. 2034], decided by the United States Supreme Court June 23, 1969, long after the arrest and search in the instant ease took place. We are urged under this circumstance not to give retroactive application to Chimel. Under the facts of the instant case, we need not consider the problem. The search of the house and shed was in violation of California law, well established at the time of the incident.\nThe subsequent search cannot be justified on the ground the officers had probable cause to believe marijuana was present in the house. Conceding what transpired amply justified the officers in entertaining that belief, \u201c \u2018Belief, however well founded, that gn article sought is concealed in, fl,-dwelling house furnishes no justification for a search of that place without a warrant. And such searches are . . . unlawful notwithstanding facts unquestionably showing probable cause. \u2019 \u2019 \u2019 (Chapman v. United States, 365 U.S. 610, 613 [5 L.Ed.2d 828, 831, 81 S.Ct. cited in People v. Henry, 65 Cal.2d 842, 845 [56 Cal.Rptr. 485, 423 P.2d 557]; see also Agnello v. United States, 269 U.S. 20, 33 [70 L.Ed. 145, 149, 46 S.Ct. 4, 51 A.L.R. 409]; People v. Burke, 61 Cal.2d 575, 579 [39 Cal. Rptr. 531, 394 P.2d 67]; People v. Edgar, 60 Cal.2d 171, 174-175 [32 Cal.Rptr. 41, 383 P.2d 449]; People v. Shelton, 60 Cal.2d 740, 744 [36 Cal.Rptr. 433, 388 P.2d 665].)\nThe subsequent search cannot be upheld on the ground it was incident to the valid arrest of appellant. Appellant was arrested on the dirt road, not in the house or the shed which were later searched. The search was not limited to the premises where the arrest was made, nor was it contemporaneous with that arrest. It took place approximately an hour and fifteen minutes later. A search is not incident to an arrest unless it is limited to the premises, where the arrest is made and is contemporaneous with that arrest. (People v. Cruz, supra, p. 866; People v. Henry, supra, pp. 845-846.) The search of the house and shed was unlawful and the motion to suppress the evidence confiscated in that search should have been granted.\nBecause the contraband found by the search of appellant\u2019s person is not subject to suppression, and the contraband and items taken from the house' and shed \u00e1re, the question arises as to whether the error of the court in failing to suppress the latter requires a reversal of the judgment. Even though the two marijuana cigarettes legitimately seized, from appellant\u2019s person would sustain a conviction- for possession of marijuana, appellant entered his plea of guilty after the trial court denied his motion to suppress, in toto. We may not speculate appellant would have entered the same plea had the trial court suppressed the 14 other exhibits turned up in the later unlawful search.\nPaced with much the same situation in People v. Fry, 271 Cal.App.2d 350, this court stated, at pages 358-359 [76 Cal.Rptr. 718] : \u201cA defendant under circumstances such as those in the case at bench should be permitted to enter his plea unencumbered by an erroneous denial of his motion to suppress. Whether he may require the prosecution to prove his guilt or relieve it of that burden by a judicial admission of guilt is a determination he should be permitted to make in light of a final appellate ruling that the order denying his motion to suppress was error in whole or in part.\u201d We believe the stated rule is equally applicable here. Also, as in Fry, the People should be permitted, if they so desire, to reinstate count 1 of the information which was dismissed in the furtherance of justice when appellant entered his plea to count 2.\nBecause we have held the search of the house and shed to be illegal,' it is not necessary to discuss appellant\u2019s contention the officers\u2019 entry into the house was in violation of Penal Code section 844.\nThe judgment is reversed with instructions to the trial court to set aside appellant\u2019s plea of guilty and to proceed in accordance with the views expressed herein.\nBrown (Gerald), P. J., and Coughlin, J., concurred.\nA petition for a rehearing was denied October 6, 1969, and respondent\u2019s petition for a hearing by the Supreme Court was denied November 19,1969. McComb,. J., was of the opinion that the petition should be granted.\nAssigned by the Chairman of the Judicial Council.\nJudge Thomas heard and ruled upon the motion to suppress evidence. Judge Hewieker granted appellant probation after the entry of the plea of pwU.y.\nThree of the offered exhibits were not received in evidence because their narcotic nature was not established; the remaining exhibits were all received.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "[Crim. No. 3595.\nFourth Dist., Div. One.\nSept. 23, 1969.]\nTHE PEOPLE, Plaintiff and Respondent, v. ROBERT WILLIAM LANDRY, Defendant and Appellant.\nThomas & Johns and Richard A. Thomas for Defendant and Appellant.\nThomas C. Lynch, Attorney General, William B. James, Assistant Attorney General, and James H. Kline, Deputy Attorney General, for Plaintiff and Respondent."
+  },
+  "file_name": "0370-01",
+  "first_page_order": 392,
+  "last_page_order": 399
+}

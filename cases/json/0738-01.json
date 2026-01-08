@@ -1,0 +1,401 @@
+{
+  "id": 4381252,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. BARRETT EDWARD DOPTIS, Defendant and Appellant",
+  "name_abbreviation": "People v. Doptis",
+  "decision_date": "1969-10-09",
+  "docket_number": "Crim. No. 15086",
+  "first_page": "738",
+  "last_page": "743",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "276 Cal. App. 2d 738"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "399 P.2d 571",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.Rptr. 3",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.2d 547",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2333957
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/62/0547-01"
+      ]
+    },
+    {
+      "cite": "423 P.2d 221",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1965,
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.Rptr. 293",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1965,
+      "opinion_index": 0
+    },
+    {
+      "cite": "65 Cal.2d 681",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2326730
+      ],
+      "year": 1965,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/65/0681-01"
+      ]
+    },
+    {
+      "cite": "398 P.2d 380",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1967,
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.Rptr. 188",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1967,
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.2d 368",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2333945
+      ],
+      "year": 1967,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/62/0368-01"
+      ]
+    },
+    {
+      "cite": "378 U.S. 478",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166688
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/378/0478-01"
+      ]
+    },
+    {
+      "cite": "429 P.2d 177",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.Rptr. 857",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 Cal.2d 9",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2328503
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/67/0009-01"
+      ]
+    },
+    {
+      "cite": "10 A.L.R.3d 974",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "384 U.S. 436",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12046400
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/384/0436-01"
+      ]
+    },
+    {
+      "cite": "400 P.2d 97",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.Rptr. 201",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.2d 571",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2333961
+      ],
+      "pin_cites": [
+        {
+          "page": "581"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/62/0571-01"
+      ]
+    },
+    {
+      "cite": "429 P.2d 171",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1965,
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.Rptr. 851",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1965,
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Cal.2d 1000",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2331205
+      ],
+      "year": 1965,
+      "pin_cites": [
+        {
+          "page": "1005"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/66/1000-01"
+      ]
+    },
+    {
+      "cite": "455 P.2d 105",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "78 Cal. Rptr. 169",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.2d 1235",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        8712060
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/71/1235-01"
+      ]
+    },
+    {
+      "cite": "328 P.2d 512",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "162 Cal.App.2d 650",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4399621
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/162/0650-01"
+      ]
+    },
+    {
+      "cite": "318 P.2d 828",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "156 Cal.App.2d 128",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4426817
+      ],
+      "pin_cites": [
+        {
+          "page": "133"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/156/0128-01"
+      ]
+    },
+    {
+      "cite": "340 P.2d 690",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "171 Cal.App.2d 551",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        6035652
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/171/0551-01"
+      ]
+    },
+    {
+      "cite": "85 S.Ct. 1765",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 L.Ed.2d 702",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "381 U.S. 937",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6218533,
+        6217260,
+        6217809,
+        6217529,
+        6218239
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/381/0817-05",
+        "/us/381/0817-01",
+        "/us/381/0817-03",
+        "/us/381/0817-02",
+        "/us/381/0817-04"
+      ]
+    },
+    {
+      "cite": "398 P.2d 361",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.Rptr. 169",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.2d 338",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2333915
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/62/0338-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 625,
+    "char_count": 11050,
+    "ocr_confidence": 0.825,
+    "pagerank": {
+      "raw": 8.151779544819421e-08,
+      "percentile": 0.4745832672097871
+    },
+    "sha256": "dae0265cc5a5abd83fb0dbe6906c96222e38290ab8c74f19efa642866a18bc1c",
+    "simhash": "1:b59bc3ba64e6d9c3",
+    "word_count": 1867
+  },
+  "last_updated": "2024-02-27T17:52:21.889319+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. BARRETT EDWARD DOPTIS, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Doptis was charged by information in case number 272138 with a violation of section 11531 of the Health and Safety Code (illegal sale of marijuana) and by information in case number 272144 with a violation of section 11500 of the Health and Safety Code (illegal possession of heroin). The two eases were consolidated and handled together from the time of the preliminary hearings. Defendant waived a jury, and by stipulation of counsel both cases were submitted on the transcript of the preliminary hearing. No further evidence was introduced by either side. The court found defendant guilty as charged. After appropriate proceedings the defendant was ordered committed to the California Rehabilitation Center. Defendant was subsequently returned from the Rehabilitation Center as an unfit subject for the Narcotic Drug Addiction Program, whereupon the trial court sentenced him to state prison in each of the two cases.\nDue to the nature of the issues raised, a rather extensive review of the facts is necessary.\nNo. 272138\nOn March 7, 1963, Deputy Sheriff Kenneth Broadfoot furnished one Steve Priolo, apparently an informer, with a telephone number, and requested Priolo to call that number. Broadfoot could not hear what the party on the other end of the call was saying, as he did not listen on an extension. All that Broadfoot could hear were the following statements made by Priolo to the person on the other end of the line: \u2018 \u2018 May I speak to Barrett\u201d; \u2018 Barrett, this is Steve.\u201d Priolo then asked whether the person on the other end of the line had any \u201cweed,\u201d and ended with, \u201cWe will meet you at the Burger Boy at Carson and Woodruff.\u201d There was no evidence as to what was said by the person on the other end of the line.\nBroadfoot and Priolo then went to a hamburger stand, the Burger Boy, at the intersection of Carson and Woodruff Streets. Broadfoot was not wearing his uniform at this time. Shortly after Broadfoot and Priolo arrived at the Burger Boy they observed defendant arrive in a ear driven by a John Steven Lane. Defendant alighted from the car, approached Priolo, and stated, \u201cSee Steve in the car about the weed.\u201d Broadfoot-and Priolo went to Lane\u2019s car, and talking through the open window on the driver\u2019s side, Priolo introduced Broadfoot to Lane. Priolo then asked Lane if he could \u201cscore a can of weed,\u201d to which Lane replied that he \u201cwould have to go get it.\u201d Lane then asked Broadfoot for payment in advance, which Broadfoot refused. This resulted in a conversation which culminated in a decision that Lane and defendant would meet Broadfoot and Priolo later. Defendant suggested that the later meeting should take place at the Tic-Toc Drive-in at the comer of Carson and Lakewood. After some further conversation betewen Lane and Broadfoot, Lane told Broadfoot to meet him at 4:15 p.m. at the Tic-Toc Drive-in.\nThe meeting at the Tic-Toc Drive-in took place as scheduled. Lane and defendant arrived shortly after Broadfoot and Priolo. Lane was still driving, with defendant as his passenger. Defendant approached the window on the driver\u2019s side of the car in which Priolo was the driver and Broadfoot was the passenger and engaged in general conversation. Approximately five minutes later Lane approached the driver\u2019s side of the car occupied by Priolo and Broadfoot. As he did so, defendant stepped out of his way. Lane then asked Priolo for the money and upon receiving it handed a white bag to Priolo containing a substance which was stipulated to be marijuana. During this transaction defendant was 1 to 2 feet behind Lane. Defendant took no active part in the transfer of either the marijuana or the money. Broadfoot and Priolo then left the drive-in ahead of defendant and Lane.\nNumber 272144\nOn March 26, 1963, at about 12:15 a.m., Deputy Sheriff Carl Trout, accompanied by Deputy Broadfoot and two other sheriff\u2019s deputies, went to the residence of defendant\u2019s parents, where defendant was living. They had a warrant in their possession for his arrest charging defendant with the sale of marijuana, the charge arising out of the facts related above in connection with case number 272138.\nThe officers informed defendant that he was under arrest for violation of the narcotics laws. Heroin was found in defendant\u2019s possession. Defendant denied ownership- but when asked if the heroin belonged to his parents or anyone else in the house, he .said, \u201cNo, it\u2019s mine.\u201d Defendant was then handcuffed and taken to the Lakewood sheriff's station. Bn route to. the station defendant told the officers how and where he procured the heroin. While defendant- did not appear to be under the influence of narcotics at the time of his arrest, Trout did notice fresh needle marks on defendant\u2019s left arm which, in Trout\u2019s opinion, had been made two to fourteen days -prior to the arrest.\nDefendant' argues that as to case number 272138 the conviction must be reversed because the evidence was not sufficient to sustain the' conviction. In case number 272144 he argues that the rule of People v. Dorado (1965) 62 Cal.2d 338 [42 Cal.Rptr. 169, 398 P.2d 361], cert. denied 381 U.S. 937 [14 L.Ed.2d 702, 85 S.Ct. 1765], was violated by the introduction into evidence of his confession of ownership of the heroin.\nSufficiency of \u25a0the Evidence\nIn case number 272138 defendant contends that his involvement in the commission of the crime was so minimal as to make applicable to this case the rule that mere presence at the scene of the crime does not make a person liable as a principal. However, an appellate court will not draw an inference contrary to that drawn by the trial court if there is sufficient substantial evidence to support the lower court: (People v. Herrera (1959) 171 Cal.App.2d 551 [340 P.2d 690].) We find that there is substantial evidence in the record to support the conclusion that defendant aided and abetted in the sale of marijuana.\n. Penal Code section 31. provides in part: \u201cAll persons concerned in the commission of a crime, . . . whether they directly commit the act constituting the offense, or aid and abet in its commission . . . are principals in any crime so 'committed.\u201d People v. Villa (1957) 156 Cal.App.2d 128, 133 [318 P.2d 828] states: \u201cTo be an abettor the accused must have instigated or advised the commission of the crime or been present for the purpose of assisting in its commission. He must share the criminal intent with which the crime was committed. \u2019 \u2019\nThe record in this case shows that a police informer called defendant, asked him for a can of \u201cweed\u201d (marijuana) and arranged a meeting. When defendant and his co-defendant arrived at the meeting place, defendant told the informer to \u20181 See Steve in the car about the weed. \u2019 \u2019 Defendant later suggested where \u00e1 second meeting could take place. At the second meeting place defendant engaged in general conversation with the informer and a police agent and then stood closely by while his co-defendant handled the sale of the marijuana. Defendant and his co-defendant then drove away together after the sale. We find these facts sufficient to support conclusions that defendant shared the criminal intent with which the crime was committed; that he was present for the purpose of assisting in the commission of the crime, and that therefore he was an aider and abettor and guilty as a principal in the sale of marijuana.\nPeople v. Perez (1958) 162 Cal.App.2d 650 [328 P.2d 512], is a very similar case where the evidence was found sufficient to sustain conviction for selling heroin. In that case a police undercover officer met Perez in a bar and asked him \u201cif he had anything. \u2019 \u2019 Perez said that he did and asked how much he wanted. The officer said that he wanted half a gram. Perez pointed to another man seated nearby and told the officer to go to a certain liquor store and wait for the other man. The officer went to the liquor store. The other man arrived and sold the officer heroin. In this case the evidence against-defendant Doptis is even more convincing than that against Perez in People v. Perez, since the evidence shows that Doptis was not only acting as a go-between, as was Perez, but was present at the time of the transaction.\nThe judgment in ease number 272138 is affirmed.\nUse of Confession\nDefendant argues that his conviction in case number 272144 should be reversed because the use of his confession at trial violated the rules set forth in the Escobedo and Dorado eases.\nDefendant was found guilty on July 29', 1963. However, he was committed to the California Rehabilitation Center under the Narcotic Drug Addiction Program, and judgment was not entered until May 1967, which was well after the effective date of the Escobedo-Dorado rule. The Supreme Court of this state has recently resolved this very question in favor of defendant in People v. Crisp (1969) 71 Cal.2d 1235 [78 Cal. Rptr. 169, 455 P.2d 105], wherein it was held that the Escobedo-Dorado prohibition against the use at trial of confessions obtained other than in accordance with rules set forth therein was applicable to cases in which the reason for the non-finality of the judgment was the commitment of the defendant to. a narcotics rehabilitation facility.\nThere was no showing here that defendant was accorded his constitutional rights prior to the time he confessed', and'we cannot presume that he was accorded them. (People v. Rivers (1967) 66 Cal.2d 1000, 1005 [59 Cal.Rptr. 851, 429 P.2d 171] ; People v. Stewart (1965) 62 Cal.2d 571, 581 [43 Cal.Rptr. 201, 400 P.2d 97], affd. 384 U.S. 436 [16 L.Ed.2d 694, 86 S.Ct. 1602, 10 A.L.R.3d 974].) Since defendant\u2019s trial was held prior to the Escobedo-Dorado decisions, it was not necessary for him to raise this point at the trial. (People v. Doherty (1967 ) 67 Cal.2d 9 [59 Cal.Rptr. 857, 429 P.2d 177].) Therefore, on the authority of People v. Crisp, supra, the judgment in case number 272144 is reversed.\nStephens, Acting P. J., and Reppy, J., concurred.\nRetired judge of the superior court sitting under assignment by the Chairman of the Judicial Council.\nReferences to case numbers are to the numbers of the cases in the superior court.\nJohn Steven Lane was charged in case number 272138 as a co-defendant. He pleaded guilty and is not involved in this appeal.\nEscobedo v. Illinois (1964) 378 U.S. 478 [12 L.Ed.2d 977, 84 S.Ct. 1758].\nPeople v. Dorado (1965) 62 Cal.2d 338 [42 Cal.Rptr. 169, 398 P.2d 361].\nThe rule applies to all eases in which the appeals were not final as of June 22, 1964. (In re Lopez (1965) 62 Cal.2d 368 [42 Cal.Rptr. 188, 398 P.2d 380] ; People v. Rollins (1967) 65 Cal.2d 681 [56 Cal.Rptr. 293, 423 P.2d 221]; In re Shipp (1965) 62 Cal.2d 547 [43 Cal.Rptr. 3, 399 P.2d 571].)",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "[Crim. No. 15086.\nSecond Dist., Div. Five.\nOct. 9, 1969.]\nTHE PEOPLE, Plaintiff and Respondent, v. BARRETT EDWARD DOPTIS, Defendant and Appellant.\nRichard H. Levin, under appointment by the Court of Appeal, for Defendant and Appellant.\nThomas C. Lynch, Attorney General, Elizabeth Miller and John C. Hamilton, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0738-01",
+  "first_page_order": 760,
+  "last_page_order": 765
+}

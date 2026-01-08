@@ -1,0 +1,207 @@
+{
+  "id": 1855500,
+  "name": "In re MacDONALD ESTATE. MASSACHUSETTS BONDING & INSURANCE COMPANY v. COMMISSIONER OF REVENUE",
+  "name_abbreviation": "Massachusetts Bonding & Insurance v. Commissioner",
+  "decision_date": "1954-11-29",
+  "docket_number": "Docket No. 19, Calendar No. 46,098",
+  "first_page": "382",
+  "last_page": "388",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "341 Mich. 382"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "37 Mich 452",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1341476
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/37/0452-01"
+      ]
+    },
+    {
+      "cite": "267 Mich 210",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1883759
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/267/0210-01"
+      ]
+    },
+    {
+      "cite": "65 Mich 695",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1456121
+      ],
+      "pin_cites": [
+        {
+          "page": "703"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/65/0695-01"
+      ]
+    },
+    {
+      "cite": "320 Mich 6",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1921826
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/320/0006-01"
+      ]
+    },
+    {
+      "cite": "173 App Div 577",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        3181573
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/160/0454-01"
+      ]
+    },
+    {
+      "cite": "80 NYS 222",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "case_ids": [
+        5494480
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/80/0222-01"
+      ]
+    },
+    {
+      "cite": "329 Mich 493",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1903043
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/329/0493-01"
+      ]
+    },
+    {
+      "cite": "171 P 931",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "177 Cal 704",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2016715
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/177/0704-01"
+      ]
+    },
+    {
+      "cite": "19 NW2d 248",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "247 Wis 268",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8679955
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wis/247/0268-01"
+      ]
+    },
+    {
+      "cite": "340 Mich 78",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1925865
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/340/0078-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 548,
+    "char_count": 11073,
+    "ocr_confidence": 0.487,
+    "pagerank": {
+      "raw": 1.3574230971567164e-07,
+      "percentile": 0.6348157749737533
+    },
+    "sha256": "493274f467280f01d2b70faaa915db88fd588504895b791c452788f1a6f8ebb5",
+    "simhash": "1:cdc1cb923a7e07c8",
+    "word_count": 1846
+  },
+  "last_updated": "2024-02-27T16:14:53.692353+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Butzel, C. J., and Carr, Bushnell, Sharpe, Boyles, Reid, and Kelly, JJ., concurred."
+    ],
+    "parties": [
+      "In re MacDONALD ESTATE. MASSACHUSETTS BONDING & INSURANCE COMPANY v. COMMISSIONER OF REVENUE."
+    ],
+    "opinions": [
+      {
+        "text": "Dethmers, J.\nPresented is the question whether the general 6-year statute of limitations, CL 1948, \u00a7 609.13, as amended by PA 1951, No 21 (Stat Ann 1953 Cum Supp \u00a727.605), applies to an inheritance tax claim of the State of Michigan under CL 1948, \u00a7 205.201 et seq. (Stat Ann \u00a7 7.561 et seq.).\nCL 1948, \u00a7 609.28 (Stat Ann \u00a7 27.620), provides:\n\u201cThe limitations herein before prescribed for the commencement of actions, shall apply to the same actions when brought in the name of the people of this State, or in the name of any officer or otherwise, for the benefit of the State, in the same manner as to actions brought by individuals.\u201d\nThe limitation must, therefore, be held to apply to the claim of defendant here unless the statute upon which it is based discloses a contrary legislative intent. In Malleis v. Employment Security Commission, 340 Mich 78, we held the general limitation applicable to an action by the State under the employment security act to recover benefits erroneously paid thereunder and to the State\u2019s attempt to set off the amount thereof, as provided in the statute, against benefits to which recipient subsequently became entitled. Defendant admits that Malleis is controlling here unless the inheritance tax act is expressive of a legislative intent that the statute of limitations shall not apply. Such intent defendant claims is evident in CL 1948, \u00a7 205.203 (Stat Ann 1950 Rev \u00a7 7.564), which provides:\n\u201cEvery such tax and the interest thereon herein provided for shall be and remain a lien upon the property transferred until paid, and the person to whom the property is so transferred and the administrator, executor, and trustee of every estate so transferred, shall be personally liable for such tax until its payment.\u201d\nThe quoted language makes no mention of limitations of actions or exclusions therefrom. The provision that the tax shall remain a lien and that named individuals shall be personally liable therefor until paid is no more indicative of a legislative intent to exclude claims therefor from the operation of the statute of limitations than is the language of the employment security act, considered in Mali\u00e9is, requiring the commission to deduct the amount of benefits improperly received \u201cfrom any future benefits.\u201d It was urged in Mali\u00e9is that, if the legislature had intended the limitation to apply, it would have provided for such deduction only from future benefits due the recipient within the statutory period after receipt of benefits improperly paid, and that the words \u201cany future benefits\u201d disclose an intent that such deduction should be made even as against benefits accruing at a time beyond the statutory period, thus excluding it from the operation of the statute of limitations. Countering that contention, this Court said that if the legislature had intended to exclude the recovery of improperly paid benefits from the limitation it could have so provided by express language. We make that same observation here. It appears that the courts of last resort of the States of Wisconsin and California, considering this question against a background of similar statutory provisions, arrived at opposite conclusions. In Estate of Frederick (Dunn v. Wieman Realty Co.), 247 Wis 268 (19 NW2d 248); Chambers v. Gallagher, 177 Cal 704 (171 P 931). We prefer the reasoning in the California case.\nDefendant refers to the statement of this Court in In re Rackham\u2019s Estate, 329 Mich 493, that the Michigan inheritance tax statute was adopted from New York, and urges that the legislature, in enacting it, adopted with it the construction placed thereon by the New York courts. This is followed with the citation of In re Moench\u2019s Estate, 80 NYS 222, which throws no light on the question before us, holding merely that an 1899 amendment to the New York inheritance tax act excluding claims thereunder from the limitation operated retroactively to the date of the tax act\u2019s original enactment, as in the amendment expressly provided. Defendant then cites Goodrich v. Rochester Trust & Safe Deposit Co., 173 App Div 577 (160 NYS 454), decided in 1916, in which it was held that the Michigan statute of limitations did not apply to Michigan\u2019s claims for inheritance tax, the court saying that the Michigan tax statute was the same, in substance, as that of New York. The fact is that since the amendment of 1899 the New York inheritance tax act expressly excludes claims thereunder from the limitation, thus distinguishing it from the Michigan act; Consequently, New York cases are of scant assistance here.\nAlthough the question at bar was not directly considered in City of Detroit v. Stafford, 320 Mich 6, the case is similar to the extent that it involved the liability of the administrator of a decedent\u2019s estate for a city tax against personal property under a city charter provision that such tax shall remain a lien on the personal property until paid. We held the general 6-year statute of limitations applicable there and we so hold here.\nThe probate court made its inheritance tax determination in this case 28 years after death of decedent. The executrix of decedent\u2019s estate never paid the tax, never filed a final account, nor has she ever been discharged as such. Plaintiff is the surety on the executrix\u2019s bond. The further question is presented whether plaintiff may be held liable on the bond, despite the bar of the statute as to executrix, because of the provisions of subsection 4 of the general statute of limitations, which reads as follows:\n\u201c4. Provided further, That actions brought to charge any surety on any bond of an executor, administrator or guardian, may be, and in all cases shall be brought at any time within 4 years after the discharge of such executor, administrator or guardian.\u201d\nIn Ward v. Tinkham, 65 Mich 695, 703, this Court said:\n\u201cThe liability of the sureties is coextensive with the liability of the principal in the bond, and can be extended no further than his.\u201d\nAs a general rule the surety may plead any defense available to the principal. 50 Am Jur, Suretyship, \u00a7 135, p 994. Do the quoted provisions of subsection 4 render that general rule inapplicable here? Not at all. In Hurst v. Charron, 267 Mich 210, the action was for false imprisonment against a sheriff and the surety on the sheriff\u2019s bond. The statute of limitations provided, as now, that all actions shall be commenced within 6 years after the causes of action shall accrue, except:\n\u201c1. That * * * actions founded upon bonds of public officers * * * may be brought at any time within 10 years from * * * the time when the cause of action accrued on such bond. * * *\n\u201c3. Actions against sheriffs * * * for false imprisonment * * * sball be brought within 2 years from the time the cause for action accrues, and not afterwards.\u201d\nWhich of the 2 quoted limitations was controlling 1 This Court held that the 2-year limitation provided under subsection 3 barred action against the sheriff; that there could be no recovery against the surety under subsection 1 unless there could be recovery against the sheriff. In holding the action barred against both, accordingly, this Court said (p 216):\n\u201cIn Biddle v. Wendell, 37 Mich 452, where suit was brought against an administrator and the sureties upon his bond, it was said [p 454]:\n\u201c \u2018The bond can have no separate and independent force. It belongs to the administration proceedings. Apart from them it cannot supply a cause of action, and if the liability which is made the ground of action upon it was itself barred then the bar must apply to this action on the bond to enforce that liability.\u2019 \u201d\nThe finding of the circuit court that plaintiff, as surety, is not liable to defendant for the tax is correct and the judgment entered thereon, setting aside the order of the probate court which directed plaintiff to pay it, is affirmed, with costs to plaintiff.\nButzel, C. J., and Carr, Bushnell, Sharpe, Boyles, Reid, and Kelly, JJ., concurred.",
+        "type": "majority",
+        "author": "Dethmers, J."
+      }
+    ],
+    "attorneys": [
+      "Walter A. Mansfield (David S. DeWitt and Herbert II. Sulzbach, of counsel), for plaintiff.",
+      "Frank G. Millard, Attorney General, Edmund E. Shepherd, Solicitor General, Daniel J. O\u2019Hara, T. Carl Holbrook and Percival R. Piper, Assistants Attorney General, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "In re MacDONALD ESTATE. MASSACHUSETTS BONDING & INSURANCE COMPANY v. COMMISSIONER OF REVENUE.\n1. Limitation of Actions\u2014General Statute\u2014Action by State.\nThe general statute of limitations applies to an action brought in the name of the people of the State or in the name of any officer or otherwise unless the statute upon which the claim is based discloses a contrary legislative intent (CL 1948, \u00a7 609.-13, as amended by PA 1951, No 21; \u00a7 609.28).\n2. Same\u2014General Statute\u2014Inheritance Taxes.\nThe general 6-year statute of limitations applies to claims under the inheritance tax law, notwithstanding provision in the latter statute that the tax and interest thereon remained a lien upon the property transferred until paid and imposed personal liability upon the legal representative of the estate for such tax until its payment, in the absence of language indicating an intent to exclude such claims from the operation of the general statute of limitations (CL 1948, \u00a7 205.201 et seq.; \u00a7 609.13, as amended by PA 1951, No 21; \u00a7 609.28).\n3. Principal and Surety \u2014 Liability of Surety \u2014 Bond of Fiduciary.\nThe liability of sureties is coextensive with the liability of the principal in the bond of a fiduciary and can be extended no further.\n4. Same\u2014Defenses Pleadable by Surety.\nGenerally, the surety may plead any defense available to the principal.\nReferences for Points in Headnotes\n[1] 34 Am Jur, Limitation of Actions \u00a7 393.\n[2~ 28 Am Jur, Inheritance, Estate, and Gift Taxes \u00a7 295.\n[ 3] 50 Am Jur, Suretyship \u00a7\u00a7 29, 30.\n[4] 50 Am Jur, Suretyship \u00a7 135.\n[5] 50 Am Jur, Suretyship \u00a7 353.\n5. Limitation of Actions\u2014Surety on Fiduciary\u2019s Bond\u2014Discharge.\nThe provision of the general statute of limitations limiting time within which actions might be brought to charge any surety on any bond of an executor, administrator or guardian to within 4 years of the discharge of sueh fiduciary does not operate to extend the operation of the period otherwise provided; lienee, where the applicable period as to the claim for inheritance tax involved had long since expired without the executrix having been discharged, the surety on her bond was not liable for payment thereof (CL 1948, \u00a7 205.201 ei seq.-, \u00a7 609.13, as amended by PA 1951, No 21; \u00a7 609.28).\nAppeal from Wayne; Murpliy (Thomas J.), J.\nSubmitted October 6, 1954.\n(Docket No. 19, Calendar No. 46,098.)\nDecided November 29, 1954.\nIn the matter of the estate of Lizzie L. MacDonald, deceased, no final account was filed and no inheritance tax was paid. Determination of inheritance tax was made years later and Massachusetts Bonding & Insurance Company, as surety, was cited and ordered by probate court to pay tax. The surety, as plaintiff, appealed to circuit court. Judgment for plaintiff. Louis M. Nims, Commissioner of Revenue of the State of Michigan, as defendant, appeals.\nAffirmed.\nWalter A. Mansfield (David S. DeWitt and Herbert II. Sulzbach, of counsel), for plaintiff.\nFrank G. Millard, Attorney General, Edmund E. Shepherd, Solicitor General, Daniel J. O\u2019Hara, T. Carl Holbrook and Percival R. Piper, Assistants Attorney General, for defendant."
+  },
+  "file_name": "0382-01",
+  "first_page_order": 422,
+  "last_page_order": 428
+}

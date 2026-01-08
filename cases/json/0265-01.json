@@ -1,0 +1,245 @@
+{
+  "id": 3188140,
+  "name": "STATE of Louisiana v. Robert DONALDSON",
+  "name_abbreviation": "State v. Donaldson",
+  "decision_date": "1959-11-09",
+  "docket_number": "No. 44690",
+  "first_page": "265",
+  "last_page": "269",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 265"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 So.2d 345"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "100 L.Ed. 83",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "350 U.S. 91",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12031506
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/350/0091-01"
+      ]
+    },
+    {
+      "cite": "196 La. 748",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3062948,
+        10027359
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/196/0747-01",
+        "/so/200/0025-01"
+      ]
+    },
+    {
+      "cite": "173 La. 382",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10025273,
+        5424826
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so/137/0069-01",
+        "/la/173/0381-01"
+      ]
+    },
+    {
+      "cite": "63 So. 507",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "case_ids": [
+        2668147,
+        2670476
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/133/1027-01",
+        "/la/133/1031-01"
+      ]
+    },
+    {
+      "cite": "133 La. 1027",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2668147
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/133/1027-01"
+      ]
+    },
+    {
+      "cite": "226 La. 201",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10055680,
+        2983111
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/75/0333-01",
+        "/la/226/0201-01"
+      ]
+    },
+    {
+      "cite": "193 La. 1036",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3165208,
+        10064355
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/193/1135-01",
+        "/so/192/0694-01"
+      ]
+    },
+    {
+      "cite": "189 La. 443",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5542248,
+        10059629
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/189/0443-01",
+        "/so/179/0591-01"
+      ]
+    },
+    {
+      "cite": "118 La. 369",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2625998
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/118/0369-01"
+      ]
+    },
+    {
+      "cite": "117 La. 1040",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2632072
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/117/1039-01"
+      ]
+    },
+    {
+      "cite": "104 So.2d 148",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3176710
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/235/0395-02"
+      ]
+    },
+    {
+      "cite": "235 La. 396",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3176710,
+        9881511
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/235/0395-02",
+        "/so2d/104/0148-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 278,
+    "char_count": 3203,
+    "ocr_confidence": 0.735,
+    "pagerank": {
+      "raw": 4.594699702431593e-07,
+      "percentile": 0.9257448986408088
+    },
+    "sha256": "153dd44046d832bf9797c4a8e8a642f36e33aa5c931090ed1c66605553fe9431",
+    "simhash": "1:a62884635a44890f",
+    "word_count": 549
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "STATE of Louisiana v. Robert DONALDSON."
+    ],
+    "opinions": [
+      {
+        "text": "FOURNET, Chief Justice.\nThe appellant, Robert Donaldson, having been convicted on an information charging him with armed robbery of one Jacob Grossman, and sentenced to serve thirty years at hard labor in the State penitentiary, prosecutes this appeal, relying on two bills of exception reserved to the rulings of the Trial Judge.\nBill of Exception No. 1 was reserved to the Court\u2019s denial of defense counsel\u2019s motion for a mistrial, which occurred when Lt. Stevens of the New Orleans Police Department, in answer to the question of what had been done with the accused immediately following his arrest, stated that the accused was taken from his lodging to the Sixth District and booked with armed robbery of Grossman\u2019s, adding \u201cFrom there we brought him to the First District and booked him with armed robbery of Gautreaux\u2019s,\u201d \u2014 whereupon the objection made by defense counsel was sustained, and the jury was immediately admonished to disregard the reference to another place, but the Trial Judge refused to order a mistrial. According to the Judge\u2019s Per Curiam to this Bill, while he recognized that the statement was objectionable and maintained defense counsel\u2019s objection thereto, and at the same time instructed the jury to disregard that part of the witness\u2019 answer, he nevertheless denied the motion for a mistrial under authority of State v. Birdsell, 235 La. 396, 104 So.2d 148, because in his opinion the statement was volunteered by the witness and was not responsive to the question propounded by the District Attorney.\nWe find no error in this ruling. The law is well settled and has been often stated by this Court to the effect that the trial for a criminal offense cannot be defeated or nullified by the act of a witness in volunteering an objectionable remark for which the prosecution is not responsible. State v. Birdsell, 235 La. 396, 104 So.2d 148, wherein other cases are cited in which the rule has been announced, including State v. Rugero, 117 La. 1040, 42 So. 495; State v. Jones, 118 La. 369, 42 So. 967; State v. Goodwin, 189 La. 443, 179 So. 591; State v. Martin, 193 La. 1036, 192 So. 694; State v. Labat, 226 La. 201, 75 So.2d 333. It will be presumed that the jury followed the instruction of the Trial Judge to disregard the objectionable statement. State v. Brannon, 133 La. 1027, 63 So. 507; State v. Newton, 173 La. 382, 137 So. 69; State v. Meharg, 196 La. 748, 200 So. 25; State v. Labat, supra, affirmed on other grounds Michel v. State of Louisiana, 350 U.S. 91, 76 S.Ct. 158, 100 L.Ed. 83.\nThe other Bill of Exception was reserved to the overruling of defendant\u2019s motion for a new trial; the basis of counsel\u2019s motion was actually the same as that covered by Bill of Exception No. 1. It therefore presents nothing further for our consideration, and for the reasons above stated is without merit.\nFor the reasons assigned, the judgment appealed from is affirmed.",
+        "type": "majority",
+        "author": "FOURNET, Chief Justice."
+      }
+    ],
+    "attorneys": [
+      "Edward G. Koch, Jr., New Orleans, for appellant.",
+      "Jack P. F. Gremillion, Atty. Gen., M. E. Culligan, Asst. Atty. Gen., Richard A. Dowling, Dist. Atty., Malcolm G. Mundy, Jr., Asst. Dist. Atty., New Orleans, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "115 So.2d 345\nSTATE of Louisiana v. Robert DONALDSON.\nNo. 44690.\nNov. 9, 1959.\nEdward G. Koch, Jr., New Orleans, for appellant.\nJack P. F. Gremillion, Atty. Gen., M. E. Culligan, Asst. Atty. Gen., Richard A. Dowling, Dist. Atty., Malcolm G. Mundy, Jr., Asst. Dist. Atty., New Orleans, for appellee."
+  },
+  "file_name": "0265-01",
+  "first_page_order": 165,
+  "last_page_order": 167
+}

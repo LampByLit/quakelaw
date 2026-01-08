@@ -1,0 +1,310 @@
+{
+  "id": 1855490,
+  "name": "LINN v. LINN",
+  "name_abbreviation": "Linn v. Linn",
+  "decision_date": "1955-03-09",
+  "docket_number": "Docket No. 87, Calendar No. 46,186",
+  "first_page": "668",
+  "last_page": "677",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "341 Mich. 668"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mich.",
+    "id": 8790,
+    "name": "Michigan Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 49,
+    "name_long": "Michigan",
+    "name": "Mich."
+  },
+  "cites_to": [
+    {
+      "cite": "276 P 300",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "151 Wash 480",
+      "category": "reporters:state",
+      "reporter": "Wash",
+      "case_ids": [
+        816004
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash/151/0480-01"
+      ]
+    },
+    {
+      "cite": "95 NE2d 645",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "326 Mass 491",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        508727
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/326/0491-01"
+      ]
+    },
+    {
+      "cite": "117 A 361",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 RI 295",
+      "category": "reporters:state",
+      "reporter": "R.I.",
+      "case_ids": [
+        2425014
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ri/44/0295-01"
+      ]
+    },
+    {
+      "cite": "174 ALR 510",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 Neb 832",
+      "category": "reporters:state",
+      "reporter": "Neb.",
+      "case_ids": [
+        2461652
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/neb/148/0832-01"
+      ]
+    },
+    {
+      "cite": "40 ALR 1110",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "237 P 42",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "196 Cal 222",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2158177
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/196/0222-01"
+      ]
+    },
+    {
+      "cite": "1 ALR 1589",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "165 P 706",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "175 Cal 250",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2070982
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/175/0250-01"
+      ]
+    },
+    {
+      "cite": "18 P2d 712",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "129 Cal App 10",
+      "category": "reporters:state",
+      "reporter": "Cal. App.",
+      "case_ids": [
+        2233047
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app/129/0010-01"
+      ]
+    },
+    {
+      "cite": "141 NYS 929",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "case_ids": [
+        3161688
+      ],
+      "pin_cites": [
+        {
+          "page": "930"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/141/0929-01"
+      ]
+    },
+    {
+      "cite": "54 NYS2d 683",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "184 Misc 682",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        920762
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc/184/0682-01"
+      ]
+    },
+    {
+      "cite": "129 NYS 444",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "case_ids": [
+        7659907
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/129/0444-01"
+      ]
+    },
+    {
+      "cite": "330 Mich 532",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1837796
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/330/0532-01"
+      ]
+    },
+    {
+      "cite": "336 Mich 284",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1932440
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/336/0284-01"
+      ]
+    },
+    {
+      "cite": "313 Mich 78",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "198 Mich 567",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1766351
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/198/0567-01"
+      ]
+    },
+    {
+      "cite": "330 Mich 63",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1837876
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/330/0063-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 711,
+    "char_count": 16437,
+    "ocr_confidence": 0.49,
+    "pagerank": {
+      "raw": 2.4593198577721735e-07,
+      "percentile": 0.8053465665372769
+    },
+    "sha256": "02eb9478046131c401e81bdecd8e3194b86ec5dc1202f6531ab7055f44bf628f",
+    "simhash": "1:8129fc70b40a06ac",
+    "word_count": 2823
+  },
+  "last_updated": "2024-02-27T16:14:53.692353+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Butzel, Smith, Sharpe, Boyles, Reid, Dethmers, and Kelly, JJ., concurred."
+    ],
+    "parties": [
+      "LINN v. LINN."
+    ],
+    "opinions": [
+      {
+        "text": "Carr, C. J.\nPlaintiff brought suit in circuit court for the purpose of obtaining an absolute decree of divorce from defendant. Following a hearing, the relief sought was granted by deeree dated November 13, 1952. It was recited therein that the material facts charged in the bill of complaint were true, that the defendant was an habitual drunkard, and that he had been guilty of the several acts of extreme cruelty charged against him. Plaintiff was given the custody of the 2 minor children of the parties, who were at that time 11 and 13 years of age.\nIn accordance with the provisions of CL 1948, \u00a7 552.9 (Stat Ann 1951 Cum Supp \u00a7 25.89) and Michigan Court Bule No 51, \u00a7 6, the decree entered was interlocutory in form, providing that it should become effective 6 months from and after the date of entering it, unless otherwise ordered by the court during said period. On April 28,1953, the trial court, on plaintiff\u2019s application, entered an order declaring said decree final as of said day. Plaintiff\u2019s petition, on which said order was based, set forth that the protection of certain property interests required that the decree be made final prior to the expiration of the 6-months period.\nOn August 27, 1953, defendant filed a petition in circuit court asking that the decree be vacated and a rehearing granted. Said petition alleged that during the period between the date of the interlocutory decree and the order of the court declaring it to be final plaintiff had engaged in misconduct as a result of which she had become pregnant and, further, that defendant had not learned of the said misconduct until after the decree had become final pursuant to the order of the court of April 28, 1953. Plaintiff filed her answer to the petition, admitting the conduct charged against her and alleging further that after the decree became final she had married the man responsible for her pregnancy. Her answer also set forth charges against defendant, which the latter, in his reply to plaintiff\u2019s answer, denied and which are not material in the determination of the\nissue in this proceeding. The trial court denied the petition, and defendant has appealed.\nThe statute, above cited, contains the following provision:\n\u201cIn every case wherein there are dependent minor children under the age of 17 years, said decree shall not become final until 6 months from and after the date said decree is entered: Provided, however, That in cases of unusual hardship or such compelling necessity as shall appeal to the conscience of the court, it may, upon petition and proper showing, make said decree effective within a shorter period.\u201d\nThe section was further amended by PA 1953, No 174 (effective October 2, 1953) by incorporating therein a proviso to the effect that an interlocutory decree should become final on the death of either party during the 6-months period, unless vacated or reversed prior to such death. As indicated, however, this amendment was not in effect at the time of the entering of the decree in this case, or at the time it was made final by subsequent order of the court.\nMichigan Court Rule No 51, as amended October 13, 1947, provides, in section 6(d) thereof, that an appeal as a matter of right may not be taken from such a decree before the same becomes final. Under the specific provisions of the statute, as implemented by the rule, the marital relation between the parties to the divorce suit cannot be regarded as terminated until the interlocutory decree becomes final by the expiration of the 6-months period or by specific order of the court as in the present instance. Therefore, at the time plaintiff indulged in the misconduct admitted by her with the man whom she has since married she was legally the wife of the defendant. Had the latter known of her acts prior to the 28th of April, 1953, he might properly have placed the situation before the trial court and have requested that the decree be set aside. Undoubtedly such a petition would have been granted if the fact of the misconduct claimed had been established.\nIn Curtis v. Curtis, 330 Mich 63, this Court sustained the denial of a motion to vacate an interlocutory decree on the ground that the alleged misconduct on the part of the plaintiff during the interlocutory period did not indicate \u201cmoral depravity\u201d or that she was not a fit custodian of the minor child of the parties. Such is not the situation in the case at bar.\nThe question in the instant proceeding is whether the decree, having been made final in the manner stated, should be vacated because of plaintiff\u2019s improper conduct. The statutory provisions for interlocutory decrees in cases where there are children under the age of 17 years were doubtless intended, as suggested by counsel, to afford an opportunity to the parties to consider their responsibilities toward their children and to effect a reconciliation if possible. In the present ease plaintiff indulged in conduct inconsistent with the possibility of reconciliation and tending, as a practical proposition, to render it impossible. Obviously she did not conduct herself in such manner as to indicate either consideration of her marital ties, then existing, or of her duties to her children.\nThis Court has repeatedly recognized that equity may relieve against fraud, even to the extent of setting aside a decree founded thereon. Raniak v. Pokorney, 198 Mich 567; Lantinga v. Lantinga, 313 Mich 78; Berg v. Berg, 336 Mich 284. In Falconer v. Falconer, 330 Mich 532, an interlocutory decree became final by the expiration of the 6-months period after it was entered. Thereafter the defendant filed a petition for rehearing, on the ground of newly-discovered evidence of misconduct on the part of the plaintiff prior to the divorce hearing. Plaintiff moved to dismiss the petition on the ground that it was not seasonably filed under Court Rule No 48 (1945), and that the defendant had not exercised reasonable diligence in procuring the evidence referred to in his petition. The motion to dismiss was granted, and defendant appealed. In reversing the order of the trial court and granting a rehearing, it was pointed out that the misconduct charged against plaintiff was of a character that might well have barred her right to a divorce and that, in consequence, defendant was entitled to the relief sought by him.\nAllen v. Allen, ante, 543 (decided December 29, 1954), is of special interest because of the facts involved. There the administrator of the estate of defendant Allen filed a petition to set aside a decree of divorce granted pro confesso to plaintiff some 3 years previously. It was claimed that the plaintiff had perpetrated a fraud on the court in that she had concealed facts of such misconduct on her part as would have precluded, if known, the granting of a decree to her. The petition was denied by the trial court, but the order entered was reversed here on the ground that the concealment operated as a fraud on the court and as such it was, under prior decisions, a proper basis for vacating the decree and remanding for such further proceedings as might be deemed proper.\nIt has been repeatedly held by courts in other States that a decree, interlocutory in the first instance by virtue of statutory provisions analogous to those of Michigan, may be set aside after such decree has become final by a showing that during the interlocutory period the parties resumed marital relations, implying a reconciliation, without disclosing such fact to the court. Such holdings rest on the theory that concealment of facts that would cause the trial court to set aside an interlocutory decree, or to refuse finality to it, if the true facts were disclosed, operates as a fraud on the court. Thus in Cary v. Cary, 129 NYS 444, it was said:\n\u201cIf the fact that the voluntary cohabitation had been known to the court at the time of the entry of the final judgment, the final judgment would undoubtedly have been denied. The fact that it was concealed from the court at that time gives full warrant to the court, upon the discovery of this fact after the entry of final judgment, to vacate and set aside the same.\u201d\nThis case was cited with approval in Burgher v. Burgher, 184 Misc 682 (54 NYS2d 683), in which it was held that an interlocutory judgment of absolute divorce does not terminate the marriage of the parties and that, in consequence, they remained husband and wife until the entry of the final decree. Apparently the motion to vacate was made during the interlocutory period, it being claimed that the plaintiff wife had committed adultery after the entering of said decree. Defendant sought to have such decree set aside, and asked for permission to file a supplemental answer setting forth the misconduct of the plaintiff as an affirmative defense. Such relief was granted, the court saying in part (p 684):\n\u201cCertainly then, if cohabitation between the time of the interlocutory decree and the final decree is fatal, then adultery during such period must likewise he held a sufficient ground to vacate the decree.\n\u201cIn other jurisdictions the rule is clear that adultery on the part of a plaintiff in a divorce action during the period when the judgment is interlocutory only, constitutes a defense by way of recrimination and presents grounds for contesting the final decree.\u201d (Citing cases.)\nThe court further (p 685) quoted from Wood v. Wood, 141 NYS 929, 930, where the following significant language was used:\n\u201c \u2018While the evidence and matters appearing upon this argument do not appeal to me strongly as inspiring much favorable feeling toward the defendant individually, yet, as a proposition affecting society and the proper administration of justice, it is my duty, as I see it, to refuse to grant this final judgment, to open the interlocutory judgment, to allow full and complete amendment of all the pleadings in this action, and to let the case go to trial upon the new features now presented.\u2019 \u201d\nIn Kronman v. Kronman, 129 Cal App 10 (18 P2d 712), in affirming- an order setting aside a final decree of divorce, it was said (p 14):\n\u201cOne of the important purposes of the law requiring 1 year to elapse between the entry of the interlocutory decree of divorce and the granting of the final decree is to give the spouses a chance to effect a reconciliation, which the law favors. (Olson v. Superior Court, 175 Cal 250 [165 P 706, 1 ALR 1589]). The obtaining of a final decree of divorce, after a reconciliation and resumption of marital relations subsequent to the entry of an interlocutory decree, without notice or knowledge of the other spouse, is extrinsic fraud, not only as to the other spouse, but also insofar as the court itself granting such decree is concerned, since it was effected through concealment from the court in an ex parte proceeding of facts which the party requesting the final decree is bound to disclose, and which if disclosed would have rendered improper the granting and impossible the procurement of the final decree. (McGuinness v. Superior Court, 196 Cal 222 [237 P 42, 40 ALR 1110] at p 230).\u201d\nThe supreme court of Nebraska in Shinn v. Shinn, 148 Neb 832 (29 NW2d 629, 174 ALR 510), set aside a decree granted to the plaintiff, which had become final by the expiration of 6 months, without further action by the trial court, pursuant to the statute of the State, on the ground that the parties had resumed marital relations during the interlocutory period, that such fact had not been communicated to the court, and that such concealment was, in consequence, a fraud on the court. This case is reported in 174 ALR 510, and is followed, p 519, by an annotation citing other decisions of like import. Berger v. Berger, 44 RI 295 (117 A 361), is in accord with what clearly appears to be the general rule. Other cases along the same line are: Meyer v. Meyer, 326 Mass 491 (95 NE2d 645); Walker v. Walker, 151 Wash 480 (276 P 300).\nProm the cases cited it clearly appears that if parties to an interlocutory decree of divorce resume marital relations, but conceal such fact from the court and allow the decree to become final, such decree may he set aside on the ground that it was procured by a fraud on the court. Consistently with the prior decisions in this State, we think that a like result must follow where the fraudulent concealment relates to immoral conduct, on the part of the one to whom the decree is granted, of such nature as to justify and require the setting aside of the interlocutory decree before it becomes final or to deny finality to it. In- either event the dissolution of the marital relation has been obtained by fraud on the court and perhaps, as in the case at bar, on the opposite party in the divorce action. We cannot accept the theory that, if the spouse to whom the interlocutory decree is granted indulges in immoral misconduct of such character that it would, if known, constitute a bar to the granting of a final decree of divorce, the court on which the fraud is practiced is powerless to set aside the decree after it has become final. The proper administration of justice is inconsistent -with such a result.\nThe order of the trial court from which appeal has been taken is reversed and set aside, the decree vacated, and the cause remanded for such further proceedings as may be found appropriate. No costs are allowed.\nButzel, Smith, Sharpe, Boyles, Reid, Dethmers, and Kelly, JJ., concurred.\nThis section, was added October 13, 1947 and is published in 318 Mich xli.\u2014Reporter.",
+        "type": "majority",
+        "author": "Carr, C. J."
+      }
+    ],
+    "attorneys": [
+      "Edward J. Dundon, for plaintiff.",
+      "Paul Rahm, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "LINN v. LINN.\n1. Divorce\u2014Interlocutory Decree\u2014Termination of Marriage.\nThe marital relation between the parties to a suit for divorce cannot be regarded as terminated until the interlocutory decree becomes final by the expiration of the 6-months period or by specific order of the court (CL 1948, \u00a7 552.9; Court Rule No 51, \u00a7 6[d], as added in 1947).\n2. Same\u2014Purpose of Interlocutory Decree.\nThe statutory provisions for interlocutory decrees of divorce in eases where there are children under the age of 17 years were intended to afford an opportunity to the parties to consider their responsibilities toward their children and to effect a reconciliation if possible (CL 1948, \u00a7 552.9).\n3. Equity\u2014Fraud.\nEquity may relieve against fraud, even to the extent of setting aside a decree founded thereon.\n4. Divorce\u2014Setting Aside Decree\u2014Misconduct During Interlocutory Period.\nA decree of divorce which was interlocutory in the first instance, may be set aside after it has become final where, during the interlocutory period, there has been conduct by the party in whose favor the decree was rendered, which, if brought to the attention of the court would have caused the court to set aside the interlocutory decree (CL 1948, \u00a7 552.9; Court Rule No 51, \u00a7 6[d], as added in 1947).\nReferences for Points in Headnotes\n[1] 17 Am Jur, Divorce and Separation \u00a7 436.\n[2] 17 Am Jur, Divorce and Separation \u00a7 435.\n3] 17 Am Jur, Divorce and Separation \u00a7 \u00a7 454, 469, 470.\n[4] See, generally, 17 Am Jur, Divorce and Separation \u00a7 450 et seq.\n[5] 17 Am Jur, Divorce and Separation \u00a7\u00a7 469, 470.\n^6] See, generally, 17 Am Jur, Divorce and Separation \u00a7 570 et seq.\n5. Same\u2014Setting Aside Decree\u2014Fraudulent Concealment of Adulterous Pregnancy.\nFraudulent concealment of adulterous pregnancy on the part of plaintiff wife in whose favor an interlocutory decree had been entered, during the period while the decree was interlocutory, which conduct ivould have justified setting aside the deeree, instead of entering an order making it final before the end of 6 months, resulted in a fraud upon the court as well as on the opposite party and requires that the deeree be set aside (CL 1948, \u00a7 552.9; Court Bule No 51, \u00a7 6[d], as added in 1947).\n6. Same\u2014Costs.\nNo costs are allowed when decree in favor of plaintiff wife is set aside and cause remanded because of her immoral conduct during period while decree of divorce was interlocutory (CL 1948, \u00a7552.9; Court Bule No 51, \u00a7 6[d], as added in 1947).\nAppeal from Dickinson; Landers (Thomas J-), J., presiding.\nSubmitted December 27, 1954.\n(Docket No. 87, Calendar No. 46,186.)\nDecided March 9, 1955.\nBill by Florence Linn against Allan Linn for divorce. Defendant petitioned to set aside decree because of improper conduct during time when decree was interlocutory. Petition denied. Defendant appeals.\nReversed, decree vacated, and cause remanded.\nEdward J. Dundon, for plaintiff.\nPaul Rahm, for defendant."
+  },
+  "file_name": "0668-01",
+  "first_page_order": 708,
+  "last_page_order": 717
+}

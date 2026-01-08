@@ -1,0 +1,97 @@
+{
+  "id": 3187970,
+  "name": "Jessie KNIGHTEN v. GENERAL INSURANCE COMPANY OF AMERICA",
+  "name_abbreviation": "Knighten v. General Insurance Co. of America",
+  "decision_date": "1959-12-14",
+  "docket_number": "No. 43857",
+  "first_page": "777",
+  "last_page": "777",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 778"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 So.2d 520"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "116 So.2d 516",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        3187863
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/238/0767-01"
+      ]
+    },
+    {
+      "cite": "238 La. 767",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9887736,
+        3187863
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/116/0516-01",
+        "/la/238/0767-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 79,
+    "char_count": 690,
+    "ocr_confidence": 0.715,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.09001181149943491
+    },
+    "sha256": "7c18c346c49b6e2aa02f704a42b5c91c88d1d9f6a50eeaaa727615efe9dec25b",
+    "simhash": "1:1022d022f85503b6",
+    "word_count": 114
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jessie KNIGHTEN v. GENERAL INSURANCE COMPANY OF AMERICA."
+    ],
+    "opinions": [
+      {
+        "text": "McCALEB, Justice.\nThis is a companion suit to that of Knighten v. North British and Mercantile Insurance Company, Ltd., 238 La. 767, 116 So.2d 516, this day decided and is controlled by the decision therein.\nFor the reasons stated in that matter, the judgment appealed from is amended by deleting therefrom the award to plaintiff of penalties and attorneys\u2019 fees and, as thus amended, it is affirmed. Plaintiff is to pay the costs of this appeal, all other costs to be borne by defendant.",
+        "type": "majority",
+        "author": "McCALEB, Justice."
+      }
+    ],
+    "attorneys": [
+      "N. Cleburn Dalton, Baton Rouge, for appellants.",
+      "Joseph A. Gladney, Baton Rouge, for plaintiff-appellee."
+    ],
+    "corrections": "",
+    "head_matter": "116 So.2d 520\nJessie KNIGHTEN v. GENERAL INSURANCE COMPANY OF AMERICA.\nNo. 43857.\nDec. 14, 1959.\nN. Cleburn Dalton, Baton Rouge, for appellants.\nJoseph A. Gladney, Baton Rouge, for plaintiff-appellee."
+  },
+  "file_name": "0777-01",
+  "first_page_order": 421,
+  "last_page_order": 421
+}

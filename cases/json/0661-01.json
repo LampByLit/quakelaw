@@ -1,0 +1,132 @@
+{
+  "id": 3187245,
+  "name": "W. R. CHADWICK v. DEPARTMENT OF HIGHWAYS OF THE STATE of Louisiana",
+  "name_abbreviation": "Chadwick v. Department of Highways",
+  "decision_date": "1959-12-14",
+  "docket_number": "No. 44622",
+  "first_page": "661",
+  "last_page": "671",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 661"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 So.2d 286"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "226 La. 227",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10055921,
+        2985058
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/75/0343-01",
+        "/la/226/0227-01"
+      ]
+    },
+    {
+      "cite": "228 La. 105",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9917480,
+        2893900
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/81/0826-01",
+        "/la/228/0105-01"
+      ]
+    },
+    {
+      "cite": "226 La. 708",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2988067,
+        10037655
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "15"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/226/0707-01",
+        "/so2d/77/0013-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C.A. \u00a7 301",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 491,
+    "char_count": 11514,
+    "ocr_confidence": 0.746,
+    "pagerank": {
+      "raw": 8.553691082118157e-07,
+      "percentile": 0.976672964331125
+    },
+    "sha256": "92f3d8a315132df04cc32a078e315eb24eba474c4579eb316858dae8d00f9b7b",
+    "simhash": "1:d3bcbb9f935fbf70",
+    "word_count": 1977
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "W. R. CHADWICK v. DEPARTMENT OF HIGHWAYS OF THE STATE of Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "HAWTHORNE, Justice.\nThis is an appeal by the Department of Highways of the State of Louisiana from a decision of the Civil Service Commission recognizing W. R. Chadwick \u201cas entitled to hold the position he occupied prior to January 15, 1959, as Laborer Utility in the employ of the Department of Highways, without interruption in said tenure since said date, and without prejudice to any of his rights thereunder\u201d.\nAct 54 of 1958, R.S. 42:691, is mandatory in that it requires the appointing authority to retire all persons employed by the state and its agencies who have reached the age of 65 years, who are- eligible for retirement either under the Federal Social Security Law or under one of the state retirement systems. Mr. Chadwick, who was employed by the State Highway Department as a \u201claborer utility\u201d, was more than 65 years of age and eligible for retirement under the Social Security Law, 42 U.S.C.A. \u00a7 301 et seq. Pursuant to the act the Department of Highways on December 31, 1958, addressed the following letter to Mr. Chadwick:\n\u201cThis is to advise that your services as Laborer Utility will be terminated at the completion of your regular work shift on January 15, 1959.\n\u201cAct No. 54 of 1958 provides that an employee who is insured under the Federal Social Security Law and who shall have attained the age of 65 years, shall be separated from the public service if eligible for retirement under the Social Security Act.\n\u201cOur records indicate that you are eligible for retirement under this act and it is for this reason that you are being separated.\u201d\nMr. Chadwick received this letter not later than January 5, 1959. On January 16, one day after his retirement became effective under the letter quoted above, Mr. Chadwick at the request of the Department of Highways executed a form prepared by that department. This form is addressed to the Department of Highways and so far as pertinent reads: \u201cGentlemen: Please accept my resignation effective at 5:00 (P.M.), January 15, 1959, for the reason or reasons checked below.\u201d No reason was checked on the form, but under \u201cRemarks\u201d is found: \u201cRetiring in accordance with Act 54, 1958.\u201d\nOn February 16, 42 days after Mr. Chadwick received the letter informing him he was being retired, he filed an appeal with the Louisiana State Civil Service Commission for review of the action of the Department of Highways by which his services were terminated as of January 15, 1959, under the authority of Act 54 of 1958.\nThe Department of Highways moved the Commission to dismiss Mr. Chadwick\u2019s appeal on the grounds (1) that the appeal was not timely taken and (2) that Mr. Chadwick had resigned' and hence had no right to appeal from his resignation. This motion to dismisss was overruled by the Commission, and on the merits the Commission recognized Mr. Chadwick to be entitled to continue in his position with the department.\nOn appeal to this court the Department of Highways contends that the Commission erred in denying its motion to dismiss Mr. Chadwick\u2019s appeal, and since we are of the view that the motion is well founded, it will not be necessary for us to discuss the case on the merits.\nArticle 14, Section 15(1), of the Constitution of this state vests in the State Civil Service Commission the authority and \u2022power to adopt and enforce rules, which shall have the effect of law, regulating employment, removal, etc., and particularly to adopt and enforce a rule \u201cfixing the procedure, the time within which appeals must be taken, and all other matters pertaining to appeals\u201d. Under this constitutional authority the Commission adopted Rule 13.12, which reads, as follows:\n\u201cNo appeal shall be effective \u25a0unless notice thereof is filed with the Director at his office in the Department of Civih.Service at Baton Rouge, within thirty. (30) days following the action complained against, or within thirty days .following appellant\u2019s knowl::edge thereof, or where written notice is given of an action to he thereafter -.effective, within the thirty (30) days ..\u25a0following the-date on which such notice is given.\u201d (Italics ours.)\nSince Mr. Chadwick was given written notice of an action to be thereafter effective, he had 30 days following the date on which notice was received or given in which- to perfect his appeal to the Civil Service Commission. As stated above, the appeal was not perfected until February 16, 42 days after receipt of notice.\nThe Civil Service Commission recognized that Mr. Chadwick had not complied with Rule 13.12, but concluded that his retirement by the department was void ab initio because the Legislature could not \u201cconstitutionally adopt a rule that creates a cause where no cause, under the well defined judicial meaning thereof, exists\u201d. Having determined that the action of the department was void ab initio, it concluded that Rule 13.12 was without application under the authority of Young v. Charity Hospital of La. at New Orleans, 226 La. 708, 77 So.2d 13, 15.\nUnder our view on the merits of the motion to dismiss it is not necessary for us to discuss what authority if any the Civil Service Commission had to consider Act 54 of 1958 unconstitutional or for us to express any view as to its constitutionality.\nAs authority for overruling the motion to dismiss the Commission relied on certain language in the Young case, supra, which it construed to be a holding in that case \u2014 that is, that \u201cneither the Court, nor the Commission, nor the lapse of time could breathe a breath of life into that which is void ab initio\u201d. This language and other statements in that case would seem to support the holding of the Commission, but that case is authority only for the legal proposition that the 30-day period for taking an appeal to the Commission does not begin to run where the appointing authority has failed to comply with the procedural requirements of Section 15(N) (1) of Article 14 of the Constitution in regard to the giving of notice of dismissal in writing. Any other statement or expression found in the Young case was unnecessary to the decision and will not be considered as a holding of this court. In sum, the court found that Mary Young was not given notice in writing of her dismissal as required by the Constitution, that this failure to comply with the procedural requirements of the Constitution for dismissal resulted in her never having been dismissed from the service, and that as a consequence the 30-day period in which an appeal must be taken to the Commission had never begun to run.\nWe do not think that an employee in the classified service who has been dismissed in full compliance with the procedural requirements of the Constitution may evade the requirements of Rule 13.12 as to a timely appeal solely on the ground that the employee\u2019s dismissal was void ab initio. The law is clear that in such a case the employee must timely appeal. If this were not so, the employee could wait any length of time to take the appeal and then be reinstated with full pay and all rights of tenure. No doubt the- purpose of the rule, which has the effect of law, is to protect the public fisc and to make for the orderly administration of the work of the departments of the state.\nWe therefore conclude that Mr. Chadwick\u2019s appeal was not timely taken since more than 30 days elapsed between receipt of notice on January 5 and filing of his appeal on February 16.\nWe think it proper, however, that we should discuss an additional reason given by the Commission for overruling the motion. The Commission construed the form executed by Mr. Chadwick after the effective date of his retirement as a resignation, which, it said, would appear to constitute a revocation by the Department of Highways of his attempted removal. Construing the document as a resignation, it held that since the employing authority had never notified Mr. Chadwick in writing of its acceptance of his resignation, the 30-day period in which to appeal had never commenced, and it cited as authority for this holding Day v. Department of Institutions, 228 La. 105, 81 So.2d 826.\nIt is our opinion that the form executed by Mr. Chadwick can in no sense be considered a resignation. At the time it was executed his retirement was an accomplished fact, for he had retired on January 15 under the provisions of a state law, Act 54 of 1958. This document was therefore without effect. As pointed out by counsel, the Highway Department had no choice but to retire him under the provisions of the act, and Mr. Chadwick had no choice at all. How can this document which states that Mr. Chadwick is \u201cRetiring in accordance with Act 54, 1958\u201d be considered a resignation? In the ordinary sense of the word, as said by counsel, a resignation denotes a voluntary act, and the word \u201cresign\u201d in its ordinary sense is intended to signify that a person leaves his employment voluntarily and has not been discharged for cause. Consequently the Day case is without application here. Moreover, we do not think that the document executed by Mr. Chadwick after the effective date of his retirement can be construed as a revocation of the prior action of the Department by which he was retired under the provisions of the act of the Legislature.\nIn supplemental brief filed in this court by counsel for Mr. Chadwick after argument of the case, they contend that the \u00e1ction of which he complains is his retirement on January 15, and that the appeal in this case was timely taken under Rule 13.12 because the appeal was filed with the Director \u201cwithin thirty days following the action complained against\u201d. This argument has no merit. Mr. Chadwick\u2019s case is one \u201cwhere written notice is given of an action to be thereafter effective\u201d, and under. the express terms of Rule 13.12 his appeal had to be taken \u201cwithin the thirty (30) days following the date on which such notice is given\u201d. As pointed out above, notice to Mr. Chadwick of his retirement to become effective on January 15 was given not later than January 5.\nCounsel for Mr. Chadwick further say in this supplemental brief that the notice of his retirement was illegal because it failed to notify him of his right to appeal to the Louisiana Civil Service Commission, and they rely on Day v. Department of Institutions, supra, and Boucher v. Division of Employment Security, 226 La. 227, 75 So.2d 343. At the time of the dismissals considered in those cases, the rules of the Civil Service Commission required that in case of removal the employee was to be notified of his right to appeal to the Louisiana Civil Service Commission. This rule, however, was amended on May 26, 1954, by the Civil Service Commission, and the provision requiring notification to the employee of his right to appeal to the Commission was deleted. In other words, the rule was amended to eliminate the requirement that an employee subject to disciplinary action had to be notified of his right to appeal to the Commission.\nFor the reasons assigned the motion filed by the Department of Highways to dismiss the appeal of Chadwick to the Civil Service Commission is sustained on the ground that the appeal was not timely taken pursuant to Rule 13.12 of the Civil Service Commission.\n. He was born on September 23, 1870.",
+        "type": "majority",
+        "author": "HAWTHORNE, Justice."
+      }
+    ],
+    "attorneys": [
+      "D. Ross Banister, Philip K. Jones, George W. Lester, Baton Rouge, for defendant-appellant.",
+      "Amos L. Ponder, Jr., New Orleans, Breazeale, Sachse & Wilson, Victor A. Sachse, Baton Rouge, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "116 So.2d 286\nW. R. CHADWICK v. DEPARTMENT OF HIGHWAYS OF THE STATE of Louisiana.\nNo. 44622.\nDec. 14, 1959.\nD. Ross Banister, Philip K. Jones, George W. Lester, Baton Rouge, for defendant-appellant.\nAmos L. Ponder, Jr., New Orleans, Breazeale, Sachse & Wilson, Victor A. Sachse, Baton Rouge, for appellee."
+  },
+  "file_name": "0661-01",
+  "first_page_order": 363,
+  "last_page_order": 368
+}

@@ -1,0 +1,864 @@
+{
+  "id": 4381947,
+  "name": "KENNETH D. SMITH, Plaintiff and Appellant, v. ARTHUR D. LITTLE, INC., Defendant, Cross-complainant and Respondent; CHEMOLD COMPANY, Cross-defendant and Appellant",
+  "name_abbreviation": "Smith v. Arthur D. Little, Inc.",
+  "decision_date": "1969-09-24",
+  "docket_number": "Civ. No. 32985",
+  "first_page": "391",
+  "last_page": "402",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "276 Cal. App. 2d 391"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "101 P.2d 1084",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.2d 445",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2226813
+      ],
+      "pin_cites": [
+        {
+          "page": "456-457"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/15/0445-01"
+      ]
+    },
+    {
+      "cite": "153 P.2d 734",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1940,
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.2d 305",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2231196
+      ],
+      "year": 1940,
+      "pin_cites": [
+        {
+          "page": "310-311"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/25/0305-01"
+      ]
+    },
+    {
+      "cite": "182 P.2d 537",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1944,
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.2d 312",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2233654
+      ],
+      "year": 1944,
+      "pin_cites": [
+        {
+          "page": "317-318"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/30/0312-01"
+      ]
+    },
+    {
+      "cite": "444 P.2d 65",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Cal. Rptr. 393",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 Cal.2d 275",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2304325
+      ],
+      "pin_cites": [
+        {
+          "page": "284"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/69/0275-01"
+      ]
+    },
+    {
+      "cite": "44 Cal.Rptr. 435",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1968,
+      "opinion_index": 0
+    },
+    {
+      "cite": "234 Cal.App.2d 400",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2147888
+      ],
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "403"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/234/0400-01"
+      ]
+    },
+    {
+      "cite": "44 Cal.Rptr. 60",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1965,
+      "opinion_index": 0
+    },
+    {
+      "cite": "233 Cal.App.2d 822",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2149720
+      ],
+      "year": 1965,
+      "pin_cites": [
+        {
+          "page": "828"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/233/0822-01"
+      ]
+    },
+    {
+      "cite": "28 Cal.Rptr. 261",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1965,
+      "opinion_index": 0
+    },
+    {
+      "cite": "212 Cal.App.2d 818",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2308275
+      ],
+      "year": 1965,
+      "pin_cites": [
+        {
+          "page": "825-826"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/212/0818-01"
+      ]
+    },
+    {
+      "cite": "167 P.2d 3",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "73 Cal.App.2d 494",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4717216
+      ],
+      "pin_cites": [
+        {
+          "page": "502"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/73/0494-01"
+      ]
+    },
+    {
+      "cite": "321 P.2d 473",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1946,
+      "opinion_index": 0
+    },
+    {
+      "cite": "157 Cal.App.2d 642",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        6039504
+      ],
+      "year": 1946,
+      "pin_cites": [
+        {
+          "page": "645"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/157/0642-01"
+      ]
+    },
+    {
+      "cite": "131 P. 130",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "year": 1917,
+      "opinion_index": 0
+    },
+    {
+      "cite": "165 Cal. 172",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2062830
+      ],
+      "year": 1917,
+      "pin_cites": [
+        {
+          "page": "177"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/165/0172-01"
+      ]
+    },
+    {
+      "cite": "44 Cal. Rptr. 377",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "234 Cal.App.2d 324",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2147895
+      ],
+      "pin_cites": [
+        {
+          "page": "331"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/234/0324-01"
+      ]
+    },
+    {
+      "cite": "212 P. 21",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "190 Cal. 294",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2139548
+      ],
+      "pin_cites": [
+        {
+          "page": "300"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/190/0294-01"
+      ]
+    },
+    {
+      "cite": "26 Cal.Rptr. 656",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1942,
+      "opinion_index": 0
+    },
+    {
+      "cite": "210 Cal.App.2d 456",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2304664
+      ],
+      "year": 1942,
+      "pin_cites": [
+        {
+          "page": "460"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/210/0456-01"
+      ]
+    },
+    {
+      "cite": "195 P.2d 530",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "86 Cal.App.2d 687",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2268366
+      ],
+      "pin_cites": [
+        {
+          "page": "695"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/86/0687-01"
+      ]
+    },
+    {
+      "cite": "289 P.2d 209",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1948,
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.2d 440",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4390407
+      ],
+      "year": 1948,
+      "pin_cites": [
+        {
+          "page": "444"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/45/0440-01"
+      ]
+    },
+    {
+      "cite": "359 P.2d 261",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1955,
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.Rptr. 829",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1955,
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Cal.2d 374",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4380331
+      ],
+      "year": 1955,
+      "pin_cites": [
+        {
+          "page": "391"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/55/0374-01"
+      ]
+    },
+    {
+      "cite": "123 P. 191",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Cal.App. 302",
+      "category": "reporters:state",
+      "reporter": "Cal. App.",
+      "case_ids": [
+        4573752
+      ],
+      "pin_cites": [
+        {
+          "page": "320"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app/18/0302-01"
+      ]
+    },
+    {
+      "cite": "285 P.2d 86",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1912,
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 Cal.App.2d 15",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2190888
+      ],
+      "year": 1912,
+      "pin_cites": [
+        {
+          "page": "21"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/134/0015-01"
+      ]
+    },
+    {
+      "cite": "112 P. 575",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.App. 522",
+      "category": "reporters:state",
+      "reporter": "Cal. App.",
+      "case_ids": [
+        4585515
+      ],
+      "pin_cites": [
+        {
+          "page": "525"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app/14/0522-01"
+      ]
+    },
+    {
+      "cite": "286 P. 1065",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "year": 1910,
+      "opinion_index": 0
+    },
+    {
+      "cite": "105 Cal.App. 160",
+      "category": "reporters:state",
+      "reporter": "Cal. App.",
+      "case_ids": [
+        2156990
+      ],
+      "year": 1910,
+      "pin_cites": [
+        {
+          "page": "165"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app/105/0160-01"
+      ]
+    },
+    {
+      "cite": "337 P.2d 211",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1930,
+      "opinion_index": 0
+    },
+    {
+      "cite": "169 Cal. App.2d 352",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        6037872
+      ],
+      "year": 1930,
+      "pin_cites": [
+        {
+          "page": "355"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/169/0352-01"
+      ]
+    },
+    {
+      "cite": "37 Cal.Rptr. 145",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "225 Cal.App.2d 108",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2140617
+      ],
+      "pin_cites": [
+        {
+          "page": "116"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/225/0108-01"
+      ]
+    },
+    {
+      "cite": "128 P.2d 665",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.2d 751",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2167043
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "760"
+        },
+        {
+          "page": "761"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/20/0751-01"
+      ]
+    },
+    {
+      "cite": "327 P.2d 223",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1960,
+      "opinion_index": 0
+    },
+    {
+      "cite": "161 Cal.App. 2d 830",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        6036872
+      ],
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "836"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/161/0830-01"
+      ]
+    },
+    {
+      "cite": "179 P.2d 611",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1958,
+      "opinion_index": 0
+    },
+    {
+      "cite": "79 Cal.App.2d 266",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4452967
+      ],
+      "year": 1958,
+      "pin_cites": [
+        {
+          "page": "272-276"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/79/0266-01"
+      ]
+    },
+    {
+      "cite": "117 P.2d 691",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.App.2d 151",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        6038337
+      ],
+      "pin_cites": [
+        {
+          "page": "155"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/47/0151-01"
+      ]
+    },
+    {
+      "cite": "166 P. 838",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "year": 1941,
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal. App. 143",
+      "category": "reporters:state",
+      "reporter": "Cal. App.",
+      "case_ids": [
+        2029515
+      ],
+      "weight": 2,
+      "year": 1941,
+      "pin_cites": [
+        {
+          "page": "144"
+        },
+        {
+          "page": "144"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app/34/0143-01"
+      ]
+    },
+    {
+      "cite": "164 P.2d 897",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.2d 449",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2189845
+      ],
+      "pin_cites": [
+        {
+          "page": "454"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/27/0449-01"
+      ]
+    },
+    {
+      "cite": "299 P.2d 231",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.2d 690",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4370361
+      ],
+      "pin_cites": [
+        {
+          "page": "694"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/46/0690-01"
+      ]
+    },
+    {
+      "cite": "297 P.2d 981",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.2d 577",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4370526
+      ],
+      "pin_cites": [
+        {
+          "page": "581"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/46/0577-01"
+      ]
+    },
+    {
+      "cite": "367 P.2d 420",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1956,
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.Rptr. 828",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1956,
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.2d 43",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4374749
+      ],
+      "year": 1956,
+      "pin_cites": [
+        {
+          "page": "51-52"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/57/0043-01"
+      ]
+    },
+    {
+      "cite": "182 P.2d 557",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1961,
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.2d 439",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2233649
+      ],
+      "year": 1961,
+      "pin_cites": [
+        {
+          "page": "444"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/30/0439-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1131,
+    "char_count": 22016,
+    "ocr_confidence": 0.771,
+    "pagerank": {
+      "raw": 1.0113488486414207e-07,
+      "percentile": 0.5422111482175216
+    },
+    "sha256": "0c44074e1b1d99e943c640b0c0ad9ac64713a03d2cb225c988d0333ac7eda60d",
+    "simhash": "1:c72ef7a006817a05",
+    "word_count": 3607
+  },
+  "last_updated": "2024-02-27T17:52:21.889319+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "KENNETH D. SMITH, Plaintiff and Appellant, v. ARTHUR D. LITTLE, INC., Defendant, Cross-complainant and Respondent; CHEMOLD COMPANY, Cross-defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "and cross-defendant Chemold Company (hereinafter Sublessor), a California corporation, appeal from a judgment, rendered in a nonjury trial, declaring in effect that defendant and cross-complainant Arthur D. Little, Inc. (hereinafter Sublessee), a Massachusetts corporation, was entitled to cancel and did cancel its sublease, effective June 30, 1964, in consideration of its forfeiting its $6,000 deposit held by Sub-lessor and-further adjudging that on its counterclaim Sub-lessee recover from Smith the sum of $6,600 overpayments of rent made'under mistake, together with $1,241.32 interest and $113.90 costs of suit.\nFacts\nSmith, a certified public accountant, was the organizer and president of the Sublessor corporation. In 1960, Sublessor occupied the premises at 2000 Colorado Avenue in the City of Santa Monica, under a master-lease \u2022 from an E. B. Ruppentlial. Culminating negotiations through Broker, who was paid a commission by Smith, Sublessor leased to Sublessee the major portion of the leased premises for a period commencing January 1, 1961, and ending October 30, 1963, a period coterminous with the remaining period on Sublessor\u2019s master-lease. Rental was $2.000 per month. $8,000 was paid at the commencement of the first month; $2,000 as rental for the first month and the balance of $6,000 as a deposit for the last three months\u2019 rent or for cancellation of the sublease. Clauses of the sublease relevant to this action are:\nFrom printed portion: \u201cTenth: That should the [sub] lessee occupy said premises after the expiration date of this lease, with the consent of the [sub] lessor, expressed or implied, such possession shall be construed to be a tenancy from month to month and said [sub]lessee shall pay said [sub]less6r for said premises the sum of $2400.00 per month for such period as said [sub] lessee may remain in possession thereof [.] \u201d\nFrom typewritten addendum: \u201cTwentieth: Sublessor grants right to sublessee to cancel this sublease, at any time during this leasehold period, after the expiration of one year, providing that sublessee gives to the sublessor a written 120 day notice addressed to the office of the sublessor and further providing that the sublessee pays to the sublessor the sum of $6,000.00 representing cancellation penalty. If all terms and conditions have been met as to this leasehold the $6,000.00 consideration deposited on this sublease is to be applied to said cancellation penalty.\n\u201cTwenty-one: Sublessor grants to sublessee option to renew and/or extend this lease for an additional five year period at the rate of $2,200.00 per month, subject to sublessors\u2019 [sic] consumation [sic] of option in master lease, which sublessor undertakes to do if sublease [sic] gives timely notice to sub-lessor as provided in Section 22 hereof [Italics added.]\n\" Twenty-two: Sublessor requires a six month written notice prior to the expiration date of this sublease addressed to sublessors\u2019 [sic] office, and a copy thereof addressed to sublessors' [sic] agent Gr. Robert Smith Company, Santa Monica, California, by sublessee of sublessee\u2019s intent to exercise option as set-out in paragraph No. 21 hereof.\"\u2019 \u2019\nOn April 26, 1963, Sublessee\u2019s main office in Massachusetts telegraphed Sublessor advising: \u201cAdl Inc. will exercise OPTION TO EXTEND LEASE OP 2000 COLOCADO [sic] AVENUE, Santa Monica. Formal extension airmailed you today. \u2019 \u2019 Sublessee\u2019s letter, dated April 26, 1963, enclosing the \u201cformal extension\u201d read in relevant part: \u201cEnclosed is written notice of our intent to exercise option to renew our sublease . . . for an additional five-year period. [ j[ ] A copy of this notice and letter is being sent to your agent, G-. Robert Smith Company, in compliance with Article 22 of the sublease. [ If ] We would appreciate your signing the enclosed extension of lease and returning it to the writer. \u2019 \u2019\nThe document referred to in the telegram as the \u201cformal extension\u201d was entitled, \u201cExtension op Lease\u201d and was also dated April 26, 1963. It read in parts germane to this ease: \u20181 This will notify you of the sub-lessee\u2019s- exercise of the option to renew and extend the sub-lease for an additional five-year period at the rental rate of $2200 per month as provided in Article 21 of the base lease. [ | ] In exercising this option and thereby extending the sub-lease, it is understood that all applicable terms and provisions of the sub-lease of 14 December 1960 are appropriately continued and extended. Specifically it is agreed that Article 20th, which grants the sub-lessee the right to cancel and terminate the sub-lease subject to the provisions of Article 20th are expressly continued in effect. [Italics added.] [ fl ] This notice of exercise of the option is forwarded in accordance with the provision of Article 22 of the sub-lease. As evidence of the timely exercise of the necessary extensions or other actions on the part of the sub-lessor with respect to the Master Lease, we hereby request that this notice of extension be executed by the sub-lessor also. \u201d\nBelow and to the left of the Sublessee\u2019s signature was the notation: \u201cThis exercise of option is acknowledged and it is hereby affirmed that the sub-lessor has taken the necessary actions to continue, its rights to the extent necessary to confirm extension of the term of the sub-lease [,] \u201d followed by a blank line for Sublessor\u2019s signature.\nNeither the Sublessor nor Smith executed this acknowledgment as requested. Neither Smith nor Broker or anyone acting for Sublessor communicated any objection to the cancellation clause being carried over into the extended term, until some time after receipt of the Sublessee\u2019s \u25a0 letter of January 24, 1964, which will be detailed below. Broker, however, did speak orally to one David Acker, then acting as business manager of Sublessee\u2019s Santa Monica office, a few days after receipt of the notice of exercise of option, stating that the 11 Extension of Lease\u201d did not specifically mention disposition of the $6,000 deposit; that \u201cit was important\u201d that the $6,000 deposit be retained to preserve Sublessee\u2019s privilege of cancellation during the renewal term. Acker relayed this message to Sublessee\u2019s office in Massachusetts. In response to the demand made through Broker, monthly rentals of $2,000 each for August, September, and October of 1963 (totalling $6,000) were paid by Sublessee without resort to the $6,000 deposit as credit against the rentals payable for those three months of the original term. Sublessor never returned nor offered to return the $6,000 deposit.\nOn November 1, 1963, and for all months following, Sub-lessee paid to Sublessor rentals at the new increased rate of $2,200 per month as mentioned in the \u20181 Extension of Lease.\u201d\nOn January 3, 1964, Sublessor wrote Sublessee: \u201cYou are hereby notified that payments required under lease dated December 14, 1960 as extended by letter April 26, 1963 between [Sublessor] and [Sublessee] have been assigned to [Smith], [ [[ ] You are therefore requested to make such future payments directly to: [Smith] 437 10th Street Santa Monica, California unless further advised to the contrary.\u201d\nSublessee responded on January 21, 1964, requesting a copy of the Sublessor\u2019s corporate resolution authorizing the assignment of the rentals to Smith. The penultimate paragraph of this letter stated: \u201cWe note your assurance that the December 14, 1960, lease' has been extended by our letter of April 26, 1963. As we do not have a copy of this extension executed on behalf of [Sublessor]' in our file, we would appreciate your sending us a replacement copy in due course.\u201d\nOn January 24, 1964, Sublessor furnished the requested corporate resolution and from February of 1964, all rental payments wer\u00e9 made directly to Smith.\nIt was not until shortly after Smith received the Sublessee\u2019s letter of January 21, 1964, and Helge Holst,, general counsel of Sublessee in Massachusetts, called advising him that they still had not received a copy of the \u201cExtension of Lease\u201d executed by the Sublessor that Smith informed Holst that while- he had agreed that the sublease be extended, he \u201cdid not concur in the period of the right of cancellation and that . . . [he] would not sign the particular extension that they had sent. \u2019 \u2019\nOn February 28, 1964, Sublessee wrote Smith and Sublessor notifying them that Sublessee would vacate the subleased premises on or before June 30, 1964, and that \u201cOur lease agreement will be considered cancelled as of that date.\u201d Shortly thereafter, Smith indorsed his copy of this letter, \u201cReceipt of letter acknowledged; cancellation not accepted.\u201d Sublessee vacated the subleased premises around June 15, 1964, and delivered its keys to Sublessor. In the meantime Acker, to whom the rental cheeks had been sent by the Massachusetts office for delivery to Sublessor or Smith, had been transferred to the Massachusetts office. Sublessee\u2019s controller\u2019s office in Massachusetts continued to send monthly $2,200 checks to Smith on July 1, August 1, and September 1, 1964.\nOn October 19, 1964, Sublessee\u2019s controller\u2019s office wrote Smith informing him that.the $2,200 checks sent to Smith after June 30, 1964, had been sent and paid under a mistake by its accounting department and demanded refund from Smith of those payments amounting to $6,600. Smith refused, and this litigation followed.\nContentions on Appeal\nSmith and Sublessor contend that the judgment should be reversed because: (1) the evidence is insufficient to support the \u201cfindings of fact and conclusions of law\u201d; (2) the privilege of cancellation was not carried over into the five-year renewal period because: (a) it would not carry over, as a matter of law, without a specific expression of such intent by the parties, .(b) the parties intended to restrict that clause to the original period of the lease, and (c) the notice of exercise of option to extend lease was not in strict conformance with the terms of the option, and' rejected by Smith; (3) the telegram of April 26, 1963, constituted a renewal of the lease; (4) payment of rent by the Sublessee following the telegram of April 26, 1963, was sufficient to create a new lease term; and (5) the trial judge was guilty of prejudicial misconduct.\nHaving considered these contentions in the light of the record, we have concluded that they lack merit and that the judgment should be affirmed for the reasons which we shall set forth below.\nNo Errors Committed by Trial Court\nThe contentions which Smith and the Sublessor advance all revolve around questions of fact resolved by the trial court sitting without a jury. The record does not support their contention that the cancellation clause did not carry over to the five-year extension period as a matter of law. In the context of the circumstances of- this case and the evidence produced, this question was an issue of fact and not of law.\nThe facts recited above undergird the findings of fact supporting the conclusions of law upon which rests the judgment appealed from. The evidence for the most part was uncontradieted. \u201cAs has so frequently been said, it is the general rule that on appeal an appellate court (1) will view the evidence in the light most favorable to the respondent; (2) will not weigh the evidence; (3) will indulge all intendments and reasonable inferences which favor sustaining the finding of the trier of fact; and (4) not disturb the finding of the trier of fact if there is substantial evidence in the record in support thereof. [Citations.] It is not the proyince of the reviewing court to analyze conflicts in the evidence. [Citation.] Rather, when a finding of fact is attacked as being unsupported, the power of the appellate court begins and ends with a determination as to whether there is any substantial evidence contradicted or uncontradicted, which will uphold the disputed finding.\u201d (Berniker v. Berniker (1947) 30 Cal.2d 439, 444 [182 P.2d 557] ; accord: Peterson v. Grieger, Inc. (1961) 57 Cal.2d 43, 51-52 [17 Cal.Rptr. 828, 367 P.2d 420]; McCarthy v. Tally (1956) 46 Cal.2d 577, 581 [297 P.2d 981].) \u201c When two or more inferences can reasonably be deduced from the facts, a reviewing court is without power to substitute its deductions for those of the trial court.\u201d (Primm v. Primm (1956) 46 Cal.2d 690, 694 [299 P.2d 231].)\nThe case was tried upon the theory that the documents standing alone were ambiguous as to whether the cancellation clause carried over into the five-year extended period, and. parol evidence relevant to the issue was received. The trial court found and concluded that the transactions between the parties to this litigation resulted in an \u201cextension\u201d rather than a \u201crenewal\u201d of the sublease carrying over all the terms and conditions of the original sublease, except the clause pertaining to \u201coption to renew and/or extend ...\u201d for a further five-year period beyond the period, as extended. This carried with it the Sublessee\u2019s right to cancellation upon forfeiting the $6,000. deposit it had up with the Sublessor, and which Sublessor had assigned to Smith.\nThe parties in their documents, conversations, and even in their testimony in court employed the words, \u201cextend\u201d and \u201crenew\u201d interchangeably. There is no evidence that any of the parties used either word with the intention of preserving the technical distinction between an extension of a lease and a renewal of a lease. \u201cA \u2018renewal\u2019 creates a, new and distinct tenancy . . . , whereas an \u2018 extension \u2019 is in effect the \u2018 stretching or spreading out\u2019 of a former term. ...\u201d (Burroughs v. Ben\u2019s Auto Park, Inc. (1945) 27 Cal.2d 449, 454 [164 P.2d 897].) Even where the terms are not used interchangeably, the modem trend is to ascertain the intention of the parties by a consideration of the entire document or sets of documents, the surrounding circumstances, and the conduct of the parties. (Robertson v. Drew (1917) 34 Cal. App. 143, 144 [166 P. 838]; Cafe Apollo Co. v. Anselm (1941) 47 Cal.App.2d 151, 155 [117 P.2d 691]; Erickson v. Boothe (1947 ) 79 Cal.App.2d 266, 272-276 [179 P.2d 611], and cases there cited; Buck v. Cardwell (1958) 161 Cal.App. 2d 830, 836 [327 P.2d 223]; 2 Witkin, Summary of Cal. Law (7th ed. 1960) Real Property, \u00a7 262, pp. 1088-1090.) The trial court did just that in this case.\nThe telegram of April 26, 1963, and the payment of rents following that telegram were not to be considered in isolation, as Smith and Sublessor contend, but in the, context of Sub-lessee\u2019s letter of April 26, 1963, and the \u2018\u2018formal extension\u201d specifically mentioned in the telegram and enclosed in Sub-lessee\u2019s covering letter, and all the other documents (Civ. Code, \u00a71641) and conduct of the parties. (Universal Sales Corp. v. California etc. Mfg. Co. (1942) 20 Cal.2d 751, 760 [128 P.2d 665].) In that regard, the trier of fact could have found that the ambiguities traceable to the original sublease were caused by Broker acting as the agent of Sublessor and of Smith and then construed those ambiguities against the latter two. (Civ. Code, \u00a7 1654; Cooper v. Mart Associates (1964) 225 Cal.App.2d 108,116 [37 Cal.Rptr. 145].)\nEven if we assume arguendo that the notice of exercise of option entitled, \u201cExtension of Lease,\u201d was a counteroffer, it was incumbent upon Sublessor and Smith, as its principal officer, to communicate their rejection to Sublessee within a reasonable period of time. Crowell v. Braly (1959) 169 Cal. App.2d 352, 355 [337 P.2d 211]; Lodge v. General Acc. etc. Assur. Corp. (1930) 105 Cal.App. 160, 165 [286 P. 1065] ; Hammond v. Haskell (1910) 14 Cal.App. 522, 525 [112 P. 575]), which they did not do. Failure to object may amount to an acceptance (Lewis v. James (1955) 134 Cal.App.2d 15, 21 [285 P.2d 86]; McCowen v. Pew (1912) 18 Cal.App. 302, 320. [123 P. 191]) and a waiver of any objections as to mode of performance (Civ. Code, \u00a7 1501).\nThe remarks of the trial judge with reference to Smith\u2019s failure to reject the exercise of option to extend if he objected to the cancellation clause being carried over into the extended term, which Smith and Sublessor assign as prejudicial misconduct, are: \u201cHere is a highly intelligent businessman. In fact, I think most of us will agree that CPA\u2019s are a lot more practical about business matters than lawyers. . . . You [counsel for appellants] say he [Smith] relied upon the fact that he had got rid of the cancellation clause when he never contradicted this letter [extension of lease]. He didn\u2019t call up anybody and with feet on the table he didn\u2019t say, 'I will sue Smith [sic] for this. You either extend or you write it my way or you are through. I do not fool you at all. \u2019 \u2019 \u2019\nThese remarks were made in answer to counsel\u2019s argument after the parties had completed production of evidence. They were remarks well within the area of justifiable comments on the evidence, (People v. Yeager (1961) 55 Cal.2d 374, 391 [10 Cal.Rptr. 829, 359 P.2d 261]; Keating v. Superior Court (1955) 45 Cal.2d 440, 444 [289 P.2d 209] ; Rosenfield v. Vosper (1948) 86 Cal.App.2d 687, 695 [195 P.2d 530].)\nIn the instant case, we have more than silence and inaction: the demand through the Broker that it was necessary that the $6,000 deposit against possible cancellation of the sublease had to be maintained and the receipt by Sublessor and Smith of' additional payments of $2,000 per month (totalling an additional $6,000) for the last three months of the original period of the term and of the monthly rentals of $2,200 after November 1, 1963. This course of conduct evinces the understanding and intention of Sublessor and Smith. A construction given to an exercise of an option to extend a lease by the acts and conduct of the parties with knowledge of its terms, before any controversy has arisen as to its meaning, is entitled to great weight, and will, when reasonable, be adopted and enforced by the court. (Adams v. Williams Resorts, Inc. (1962) 210 Cal.App.2d 456, 460 [26 Cal.Rptr. 656] ; cf. Universal Sales Corp. v. California etc. Mfg. Co. (1942) supra, 20 Cal.2d 751, 761; Kales v. Houghton (1923) 190 Cal. 294, 300 [212 P. 21].) \u201cThe reason underlying the rule is that it is the duty of the court to give effect to the intention of the parties where it is not wholly at variance with the correct legal interpretation of the terms of the contract, and a practical construction placed by the parties upon the instrument is the best evidence of their intention. \u201d (Rosen v. E. C. Losch Co. (1965) 234 Cal.App.2d 324, 331 [44 Cal. Rptr. 377].)\nAnother factor militating against appellants\u2019 contention that a \u201crenewal\u201d and not an \u201cextension\u201d of the sublease was intended by Sublessor, Smith, and Broker is that upon receiving the \u201cExtension of Lease\u201d they did not tender a new sublease to the Sublessee. A renewal contemplates the giving of a new lease and contemplates the execution of a new instrument by the lessor. (Howell v. City of Hamburg Co. (1913) 165 Cal. 172, 177 [131 P. 130]; Robertson v. Drew (1917) supra, 34 Cal.App. 143, 144.) On the other hand, if the execution of a new lease is not intended by the parties, the option to renew is construed as a continuation of tenancy under the old lease. (Schmitt v. Felix (1958) 157 Cal.App.2d 642, 645 [321 P.2d 473]; Knox v. Wolfe (1946) 73 Cal.App.2d 494, 502 [167 P.2d 3].)\nWhere a trier of fact has weighed parol evidence in order to interpret a contract, the resulting-interpretation is a determination of fact, which is binding upon the appellate court so long as there is substantial evidence in support thereof. (Roberts v. Reynolds (1963) 212 Cal.App.2d 818, 825-826 [28 Cal.Rptr. 261]; American Oil Service, Inc. v. Hope Oil Co. (1965) 233 Cal.App.2d 822, 828 [44 Cal.Rptr. 60]; Richmond Realeteria, Inc. v. Canterbury Estates, Inc. (1965) 234 Cal.App.2d 400, 403 [44 Cal.Rptr. 435] ; cf. United States Leasing Corp. v. DuPont (1968) 69 Cal.2d 275, 284 [70 Cal. Rptr. 393, 444 P.2d 65].)\nFinally, we find no\u2019 misconduct on the part of the trial judge in stating: \u201cI can\u2019t see any great problem here at all. The duties of sublessor seem so very clear and seem so clearly breached I can\u2019t give any relief.\u201d In the first place, it is unfair to wrench these fragments from a much longer and detailed explanation by the trial judge leading up to the oral rendition of judgent after the parties had submitted the cause to the trial court for decision. Furthermore, statements of opinion based upon \u201cconvictions and conclusions\u201d drawn by the judge acting as a trier of fact and uttered in discharge of what the judge considers to be a part of his official duties are not evidence of bias or prejudice. (Guardianship of Jacob son (1947) 30 Cal.2d 312, 317-318 [182 P.2d 537] ; Kreling v. Superior Court (1944) 25 Cal.2d 305, 310-311 [153 P.2d 734] ; Fishbaugh v. Fishbaugh (1940) 15 Cal.2d 445, 456-457 [101 P.2d 1084].)\nDisposition\nThe judgment is affirmed.\nStephens, Acting P. J., and Reppy, J., concurred.\nQualified to do business in California since March 1, 1954.\nDeceased at time of trial.\nSometime after the execution of the sublease, Bichard A. Larson and Emily. Larson succeeded to Buppenthal\u2019s interest, but this change is immaterial to this litigation.\nThe portion italicized is of smaller type than the rest of the typewritten addendum prepared by Broker, and was typed in when the document was sent to Sublessee\u2019s main office for execution.\nWe shall not reproduce the judge\u2019s observations which run two-and-a-half pages. Suffice it to say that they indicate a calm, rational comment upon the evidence, calculated only to give the benefit of the reasons for his decision to counsel and the parties.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "[Civ. No. 32985.\nSecond Dist., Div. Five.\nSept. 24, 1969.]\nKENNETH D. SMITH, Plaintiff and Appellant, v. ARTHUR D. LITTLE, INC., Defendant, Cross-complainant and Respondent; CHEMOLD COMPANY, Cross-defendant and Appellant.\nFelixson, Reinstein, Lande & Katz and Maurice H. Katz for Plaintiff and Appellant and for Cross-defendant and Appellant.\nMarvin E. Levin for Defendant, Cross-complainant and Respondent."
+  },
+  "file_name": "0391-01",
+  "first_page_order": 413,
+  "last_page_order": 424
+}

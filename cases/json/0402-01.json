@@ -1,0 +1,655 @@
+{
+  "id": 4381397,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. LESLIE EUGENE TEMPLE, Defendant and Appellant",
+  "name_abbreviation": "People v. Temple",
+  "decision_date": "1969-09-24",
+  "docket_number": "Crim. No. 14913",
+  "first_page": "402",
+  "last_page": "413",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "276 Cal. App. 2d 402"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "321 F.2d 283",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        94343
+      ],
+      "pin_cites": [
+        {
+          "page": "286-287, fn. 7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/321/0283-01"
+      ]
+    },
+    {
+      "cite": "286 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3918816
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "6"
+        },
+        {
+          "page": "953"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/286/0001-01"
+      ]
+    },
+    {
+      "cite": "442 P.2d 665",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 Cal.Rptr. 585",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.Rptr. 419",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "251 Cal.App.2d 405",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2217154
+      ],
+      "pin_cites": [
+        {
+          "page": "407"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/251/0405-01"
+      ]
+    },
+    {
+      "cite": "392 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167798
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "20-23"
+        },
+        {
+          "page": "905-907"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/392/0001-01"
+      ]
+    },
+    {
+      "cite": "380 P.2d 658",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.Rptr. 18",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.2d 448",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4392676
+      ],
+      "pin_cites": [
+        {
+          "page": "450-452"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/59/0448-01"
+      ]
+    },
+    {
+      "cite": "78 Cal.Rptr. 869",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "274 Cal.App.2d 508",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2232841
+      ],
+      "pin_cites": [
+        {
+          "page": "512-513"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/274/0508-01"
+      ]
+    },
+    {
+      "cite": "395 U.S. 752",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1772077
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/395/0752-01"
+      ]
+    },
+    {
+      "cite": "408 P.2d 116",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr. 788",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.2d. 659",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2335724
+      ],
+      "pin_cites": [
+        {
+          "page": "665-666"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/63/0659-01"
+      ]
+    },
+    {
+      "cite": "69 Cal.2d 51",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2304300
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "55-56"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/69/0051-01"
+      ]
+    },
+    {
+      "cite": "294 P.2d 6",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.2d 301",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4369992
+      ],
+      "pin_cites": [
+        {
+          "page": "306"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/46/0301-01"
+      ]
+    },
+    {
+      "cite": "365 U.S. 610",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6169223
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "615"
+        },
+        {
+          "page": "832"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/365/0610-01"
+      ]
+    },
+    {
+      "cite": "367 F.2d 1",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2060163
+      ],
+      "pin_cites": [
+        {
+          "page": "3, fn. 1"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/367/0001-01"
+      ]
+    },
+    {
+      "cite": "394 P.2d 67",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.Rptr. 531",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Cal.2d 575",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2337758
+      ],
+      "pin_cites": [
+        {
+          "page": "578"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/61/0575-01"
+      ]
+    },
+    {
+      "cite": "353 F.2d 624",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        848441
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/353/0624-01"
+      ]
+    },
+    {
+      "cite": "93 L.Ed. 1879",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "pin_cites": [
+        {
+          "page": "1890-1891"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "338 U.S. 160",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3943769
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "175-178"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/338/0160-01"
+      ]
+    },
+    {
+      "cite": "391 U.S. 216",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1767417
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "221-222"
+        },
+        {
+          "page": "543-544"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/391/0216-01"
+      ]
+    },
+    {
+      "cite": "361 U.S. 98",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6165250
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "104"
+        },
+        {
+          "page": "139"
+        },
+        {
+          "page": "104"
+        },
+        {
+          "page": "139"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/361/0098-01"
+      ]
+    },
+    {
+      "cite": "390 P.2d 381",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.Rptr. 605",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Cal.2d 137",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2337745
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/61/0137-01"
+      ]
+    },
+    {
+      "cite": "92 L.Ed. 436",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "333 U.S. 10",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6156920
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/333/0010-01"
+      ]
+    },
+    {
+      "cite": "93 L.Ed. 153",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "157-158"
+        },
+        {
+          "page": "158"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "335 U.S. 451",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6159793
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "454-456"
+        },
+        {
+          "page": "456"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/335/0451-01"
+      ]
+    },
+    {
+      "cite": "387 U.S. 294",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11336837
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/387/0294-01"
+      ]
+    },
+    {
+      "cite": "39 A.L.R. 790",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "267 U.S. 132",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137701
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "153"
+        },
+        {
+          "page": "551"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/267/0132-01"
+      ]
+    },
+    {
+      "cite": "380 U.S. 102",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1524630
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "107, fn. 2"
+        },
+        {
+          "page": "688"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/380/0102-01"
+      ]
+    },
+    {
+      "cite": "96 L.Ed. 59",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "64"
+        },
+        {
+          "page": "64"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "342 U.S. 48",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        640927
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "51"
+        },
+        {
+          "page": "51"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/342/0048-01"
+      ]
+    },
+    {
+      "cite": "447 P.2d 967",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "73 Cal.Rptr. 575",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Cal.2d 97",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2308187
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/70/0097-01"
+      ]
+    },
+    {
+      "cite": "313 P.2d 912",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1168,
+    "char_count": 23880,
+    "ocr_confidence": 0.739,
+    "pagerank": {
+      "raw": 1.1340070688373739e-07,
+      "percentile": 0.5768473374316417
+    },
+    "sha256": "2ca6a8175b1c384e655722438a98b16bf48ded74ae0cbb01b94a882ab67a1f2b",
+    "simhash": "1:9a8b3a80078cc050",
+    "word_count": 3981
+  },
+  "last_updated": "2024-02-27T17:52:21.889319+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. LESLIE EUGENE TEMPLE, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "dictment with violation of Health and Safety Code section 11531 (transporting marijuana on February 10, 1967) and in count II thereof with violation of Health and Safety Code section 11530.5 (possessing marijuana for sale on February 11,1967).\nDefendant pleaded not guilty. Jury trial was waived.\nThe court commenced hearing a Penal Code section 1538.5 motion to suppress evidence and received testimony of one witness called by the defense. It was then agreed that the case on its merits should be presented in the usual manner, with the defendant\u2019s motion to suppress to be ruled on at the time that all evidence had come in. At that time defendant\u2019s motion was denied, and various items of demonstrative evidence which had been offered by the People and marked for evidence were received. Defendant was found guilty as charged, and he was given concurrent sentences to prison on both counts.\nThe facts taken most favorably to the People (People v. Flummerfelt, 153 Ca,l.App.2d 104, 105-106 [313 P.2d 912]) are as follows:\nOn February 10, 1967, defendant drove to United Airlines (hereinafter, UAL) freight terminal. He brought army-type metal foot lockers (hereinafter, trunks) to the freight dock, where they were weighed by air freight agent Basner. They weighed about 70 pounds each. Defendant then went to the shipping counter where air freight agent Brown processed an \u201cairbill.\u201d Defendant stated to Brown that he wanted the trunks to reach their destination which was Detroit, Michigan, as soon as possible. It being then about 2 p.m., Brown indicated there would just be time to get the trunks on flight 84 leaving at 3 p.m., and the airbill was marked accordingly. When asked by Brown about insuring the shipment, defendant was hesitant to state what' its contents were, He adopted the suggestion of Brown that since the party marked as shipper (Curtis Bros. Productions Co.) was a production company, the contents could be costumes and the like. However the company address sticker put on each trunk specified phonograph records.\nPrior to February 10, 1967, Officer McKnight of the narcotics division of the Los Angeles police had caused a bulletin to be issued which advised of the shipping of large quantities of narcotics in metal trunks (of the foot-locker type) by railway or air express to eastern cities. The trunks were described as measuring 30 by 16 by 12 inches and as having a loaded weight of 60 to 75 pounds. Freight employees coming in contact with trunks of similar nature were requested to contact the narcotics division of the police department. Photographs of typical trunks, said to have been obtained in a recent seizure, were attached. Copies of this bulletin had been supplied by Officer McKnight to a special agent for the railway express who had been requested to hand them out to railroad and air freight terminals. UAL had asked air freight agent Brown to aid in the enforcement of laws.\nThe presence of the two metal trunks at the freight terminal at UAL was brought to the attention of air freight supervisor Weller by someone (presumably an air freight employee, but whose identity was not brought out) who had spotted them. Between 3:30 and 4 p.m. Weller telephoned Officer McKnight and told him that UAL had received into its custody for air shipment two trunks similar to those depicted in the bulletin, that they felt warm and that he was suspicious about them (particularly their weight).\nOfficer McKnight, accompanied by Officers Wilson and Tipps, went to the supervisor\u2019s office at the UAL air freight terminal where the trunks had been placed. Air freight agents Brown and Basner were called to the office. It was then about 5:30 p.m. McKnight felt the metal side of one trunk. It was warm, indicating that.'it contained plant material which was generating heat. He placed his face near the lid and detected the odor of marijuana. McKnight had ample experience in the narcotics field and expertise in the recognition of marijuana by the olfactory sense. Officer McKnight then caused the trunk to be opened. It contained approximately 18 or 19 bricks of marijuana. The second trunk was opened, and it held a similar quantity of contraband. The first trunk had some patterned drapery material in it as well. The second trunk had some carpet material in it. The officers interviewed Basner and Brown. They gave a description of defendant and the automobile in which he had come to the freight dock, indicating it was a beige Cadillac, approximately a 1962 model. Presumably Brown advised them o\u00a3 defendant\u2019s request to have the shipment reach its destination as soon as possible, of his hesitancy to explain what the contents of the trunks were, and of the inconsistent labeling of the contents. The officers also obtained a. carbon copy of the airbill.\nOfficer McKnight had the opened trunks photographed. He then had the bricks of marijuana removed and had them replaced with sandbags, paper and a brick of the marijuana, and he caused the trunks to be airshipped on to the specified destination. He then went to the police administration building where he called the Federal Bureau of Investigation and the Detroit police and advised them that these items were on their way to Detroit.\nThe identity and home address of defendant had been known to, and defendant had been under suspicion fo.r narcotics violations by Officer McKnight prior to' the time that he received the telephone call from Weller. Presumably he knew that defendant had a wife. A group of photographs, with one of defendant included, was shown to air freight agent Brown later that night, and he designated the one of defendant as depicting the person who had made the airbill transaction with him.\nAt about 3 a.m. on February 11, 1967, Officers McKnight, Wilson and Tipps went to the apartment house at 1153 South Norton Street, where they knew defendant resided in unit number 16. In the garage they observed what they considered to be a. 1962 or 1963 beige Cadillac which they thought was parked in stall number 16. Actually another Cadillac (red in color) owned by defendant was in stall number 16; but a storage locker marked 16 was at the end of the stall where the beige Cadillac was. By immediate -radio contact with the Department of Motor Vehicles the officers learned that the beige Cadillac was registered to Esther Johnson, residing at 1153 South Norton, apartment 16. Esther Johnson was the wife of defendant and was also known as Esther Johnson Temple. It is not clear that the officers knew of these name variations prior to their coming to the apartment; but the car answered the description given by Basner, and the registration address corresponded with that which the police had for defendant. From these circumstances, the officers had reason to believe that defendant was in his apartment.\nIn the common-use laundry room adjacent to the garage the officers saw a quantity of drapery material similar in color, design and texture to that which had been found in the first trunk at the air freight terminal. In an adjacent common washroom they saw pieces of carpet similar to that found in the second trunk.\nManager, 2610 Whitney, Detroit, Mich., 48206, which was similar to the consignee\u2019s name and address on the airbill and the shipping label pasted on the trunks.\nFour kilos of marijuana were located in defendant\u2019s1 locked storage closet (the one designated as 16 at the slot in the garage where the beige Cadillac was parked). The key to open it had been obtained from a key ring taken from defendant\u2019s person at the time of his arrest.\nDefendant was advised of his constitutional rights and said that he understood them. He made the statement to Officer McEZnight \u201cthat all of the stuff found ... [at the apartment] belonged to him; that . . . [his wife] had no idea of his activities. \u2019 \u2019\nDefense Contentions\n1. Defendant contends that UAL air freight personnel made an illegal \u201cseizure\u201d of the two trunks because they were acting as agents of law enforcement and did not have reasonable cause to divert them from their scheduled shipment. We hold that the mere fact that the police bulletin requested freight employees to contact police when seeing trunks of the type it depicted and that.one agent (and so probably others) had been encouraged by HAD to cooperate with law enforcement did not make the UAL personnel agents of the police and did not make the temporary diversion of the trunks from the scheduled flight a police activity. We note that the bulletins were not handed directly by Officer McKnight to the air freight personnel at UAL and that there was no evidence that its encouragement to agents to cooperate was at the direction of law enforcement or was anything but self initiated. The temporary diversion of the trunks was the air freight supervisor\u2019s own idea and a private act. Moreover, the shipment in this case had been, brought at the last possible moment to make the 3 p.m. departure of flight 84. We do' not know whether it could have made it or not. There was no directly joint action of the type present in Stapleton v. Superior Court, 70 Cal.2d 97 [73 Cal.Rptr. 575, 447 P.2d 967]. There is, certainly, a line to' be drawn between joining the police in a specific investigation already launched by them and making a simple response to a general request for cooperation in detecting crime, a badge of good citizenship.\nAssuming, arguendo, that the air freight personnel somehow were acting as agents of the police, we hold, by analogy to the Mickelson and Terry line of cases that there was reasonable cause for them to temporarily detain the trunks for further exterior inspection by police experts. They made neither a search nor a seizure. The trunks (as indicated by the testimony and by a comparison of the photographic exhibits) were almost identical in composition, size and construction to the type depicted in the bulletin, and they weighed in (70 pounds each) at the median of the weight span set out in the bulletin.\n2. Defendant\u2019s next (and most provocative) contention is that the opening of the trunks at the air terminal constituted an illegal search. We find no such illegality.\nThe search, was conducted without a warrant Warrantless searches are prohibited by the Fourth Amendment except where they are incident to a valid arrest or to \u201cexceptional [exigent] circumstances.\u201d (United States v. Jeffers, 342 U.S. 48, 51 [96 L.Ed. 59, 64, 72 S.Ct. 93] ; see also United States v. Ventresca, 380 U.S. 102, 107, fn. 2 [13 L.Ed.2d 684, 688, 85 S.Ct. 741].) The foundation of the \u201cexigent\u201d circumstances exception was laid in Carroll v. United States, 267 U.S. 132, 153 [69 L.Ed. 543, 551, 45 S.Ct. 280, 39 A.L.R. 790], which holds that where police officers have probable cause to believe that an automobile contains contraband they may conduct a warrantless search therein because of the high degree of mobility of the automobile and the impracticability of obtaining a warrant before the evidence is driven away:, (See also Warden Maryland Penitentiary v. Hayden, 387 U.S. 294 [18 L.Ed.2d 782, 87 S.Ct. 1642]; McDonald v. United States, 335 U.S. 451, 454-456 [93 L.Ed. 153, 157-158, 69 S.Ct. 191]; Johnson v. United States, 333 U.S. 10 [92 L.Ed. 436, 68 S.Ct. 367]; cf. People v. Terry, 61 Cal.2d 137 [37 Cal.Rptr. 605, 390 P.2d 381].) However, the impracticability of securing a warrant \u201c [does] . . . not dispense with the need for probable cause.\u201d (Henry v. United States, 361 U.S. 98, 104 [4 L.Ed.2d 134, 139, 80 S.Ct. 168] ; see also Dyke v. Taylor Implement Mfg. Co., 391 U.S. 216, 221-222 [20 L.Ed.2d 538, 543-544, 88 S.Ct. 1472].)\nThus, our inquiry focuses on two basic issues: (1) Did Officer McKnight have probable cause to believe the trunks contained contraband ? (2) If so, was there an \u201cexigent\u201d situation to sustain his search without first obtaining a warrant?\nOn the issue of probable cause, we take note of this language in Brinegar v. United States, 338 U.S. 160, 175-178 [93 L.Ed. 1879, 1890-1891, 69 S.Ct. 1302] : \u201cThe troublesome line ... is between mere suspicion and probable cause. That line necessarily must be drawn by an act of judgment formed in the light of the particular situation and with account taken of all the circumstances.\u201d Officer MeKnight had been called by air freight supervisor Weller. The trunks which defendant had consigned to UAL for shipment closely matched the appearance of the ones described and depicted in the police bulletin. Probably the comparison with the bulletin information standing alone would not have been sufficient to provide probable cause to believe that the trunks contained contraband (compare the nine Specific points of similarity found in Hernandez v. United States (9th Cir. 1965) 353 F.2d 624, 626 which were held adequate to provide probable cause). However, Officer MeKnight not only observed the trunks with the generalities of the police bulletin in mind, but he also felt heat emanating from the side of one of the trunks and smelled the odor of marijuana at the lid (both factors indicating the existence of marijuana plant material within.). The combined circumstances clearly gave Officer Mc\nEven with probable cause established, a search in the instant case would have been invalid unless exigent circumstances excused the requirement of procuring a search warrant. \u201cWe cannot . . . excuse the absence of a search warrant without a showing by those who seek exemption from the constitutional mandate that the exigencies of the situation made that course [mandatory].\u201d (McDonald v. United States, supra, 335 U.S. 451, 456 [93 L.Ed. 153, 158, 69 S.Ct. 191]; see also United States v. Jeffers, supra, 342 U.S. 48, 51 [96 L.Ed. 59, 64, 72 S.Ct. 93] ; Johnson v. United States, supra, 333 U.S. 10; cf. People v. Burke, 61 Cal.2d 575, 578 [39 Cal.Rptr. 531, 394 P.2d 67].) In the instant case we hold that there were exceptional circumstances allowing Officer McKnight to search the trunks and seize their contents. From the testimony of Officer McKnight about his activities with the trunks, the trial judge could properly infer that he became satisfied, upon feeling and smelling one of them, that it and the other trunk contained marijuana and that he then formulated the plan of removing most of the contraband from the trunks and substituting another commodity of equal weight and allowing them to be shipped on as if in the ordinary course of transit. The trial judge had the right to conclude that the trunks were opened in pursuance of this plan more than for the purpose, on Officer McKnight\u2019s part, of confirming his belief that the trunks contained marijuana. The -obvious purpose of the plan was to enable' law enforcement officers in Detroit to detect and apprehend the consignee who probably would be a quantity dealer in narcotics. It was important that the shipment leave on the earliest possible flight to Detroit so that the consignee would not become suspicious that the contraband was under police surveillance. This objective could not be achieved if the time necessary to obtain a search warrant were taken, particularly considering the hour of the day, a little after 5 :30 p.m. Moreover, because OfSeer McKnight was a Los Angeles police officer, his jurisdiction was limited, and it might prove unsatisfactory for police officers in Detroit to- make an initial search. (Cf. Corn-gold v. United States, 367 F.2d 1, 3, fn. 1.)\nOfficer McKnight\u2019s foresight in sending the trunks on forthwith in order to give authorities the chance to apprehend other offenders involved in the project was confirmed as sound when later the officers obtained from Western Union a Xerox copy of a telegram showing defendant\u2019s name and address (including the apartment number) as the sender and directed to Freeman Mayzcle in Michigan in which defendant stated (along with other suspicious wording) : \u201c. . . Tour personal belongings will arrive tonight, Flight 84, United Airlines, at 10 o\u2019clock your time and may be picked up- at 11 o\u2019clock at the United Air Freight depot. ...\u201d\nIn Chapman v. United States, 365 U.S. 610, 615 [5 L.Ed.2d 828, 832, 81 S.Ct. 776], the Supreme Court listed the absence of certain circumstances the existence of which in that case, impliedly, would have validated the search without a warrant: \u201cNo suspect was fleeing or likely to- take flight. The search was of permanent premises, not of a moveable vehicle. No- evidence of contraband was threatened with removal or destruction. ...\u201d\nWe feel that what we have said to be the exigent circumstances here (the desirability of apprehending the criminal cohort and the need for promptly simulating the contraband shipment) has the same objective and degree of importance as those dealt with in Carroll (supra) and discussed in Chapman (supra).\n3. With respect to count II (possession for sale of the marijuana found at the apartment on February 11, 1967), defendant contends that there was an illegal entry into the dw\u00e9llirig which made the seizure of the contraband illegal and its admissibility in evidence improper. The officers had probable cause tq\"arrest defendant as the party responsible- for the contraband shipment. He had been identified. His address was known. Both his identity as the shipper and his address were confirmed by observation of the beige Cadillac and the drapery and carpet material in the common-access portion of the apartment. The likelihood of defendant being present was made reasonable by the hour (3 a.m.) and by the presence of the automobile he had been seen operating. Officer McKnight complied with the major portion of the requirements of Penal Code section 844 by twice knocking on the door, announcing \u201cpolice officers\u201d and requesting that the door be opened. We hold that compliance with the remaining requirement (explaining the purpose for which admittance was dearrest defendant for the felony of transporting a narcotic) was excused when the officers, after Officer McKnight made his second knock and announcement, heard very fast movements toward the rear of the apartment. This reasonably meant to the officers that defendant was there and was about to make his escape with evidence of the transaction involving the air shipment of the trunks. This feature has been recognized as an excuse for full compliance with Penal Code section 844. (People v. Maddox, 46 Cal.2d 301, 306 [294 P.2d 6] ; see also People v. Marshall, supra, 69 Cal.2d 51, 55-56; People v. Cockrell, 63 Cal.2d. 659, 665-666 [47 Cal.Rptr. 788, 408 P.2d 116].) With the valid discovery of the contraband in the apartment and defendant\u2019s admission (not contested on Miranda grounds) that it was his and that his wife knew nothing of it, count II was fully proved out.\nThe judgment is affirmed. The appeal from the order denying motion for new trial is dismissed.\nStephens, Acting P. J., and Aiso, J., concurred.\nA copy of the bulletin with attached photographs was received in evidence. See footnote 9, infra, for the full text.\nIt is not clear in the record whether the trunks failed to make flight 84 or were withdrawn from it by Weller.\nIts registration, later introduced into evidence by defendant, showed it to be a 1964 model.\nDefendant contended that he was driving the red Cadillac that day, but there was no reason why the trial judge could not believe that he drove th\u00e9 beige Cadillac to the air freight depot.\nWhen defendant was later arrested he did have on his person a slip of paper with the Detroit address of the consignee of the shipment written on it and the key to a storage locker which contained a quantity of marijuana.\nThe case was tried before Chimel v. California, 395 U.S. 752 [23 L.Ed.2d 685, 89 S.Ct. 2034]. At trial defendant did not object to the type and extent of the search. His contention was that it was unlawful because the entry was illegal. Defendant does not argue Chimel on appeal; In any event, California now takes the position that Chimel should not be applied retroactively. (People v. Castillo, 274 Cal.App.2d 508, 512-513 [78 Cal.Rptr. 869].)\nThere is some confusion in the record, as to whether there ivas an additional exhibit, a \"shipping receipt.\" The index of the court reporter shows there was. It is listed as 9A, with the' airbill listed as 9. However, an examination of the exhibits shows no shipping receipt, and the airbill is marked 9A.\nPeople v. Mickelson, 59 Cal.2d 448, 450-452 [30 Cal.Rptr. 18, 380 P.2d 658]; Terry v. Ohio, 392 U.S. 1, 20-23 [20 L.Ed.2d 889, 905-907, 88 S.Ct. 1868].\nThe text of the bulletin is hereinafter set out.\n' \u2018 This department is in receipt of information that large quantities of narcotics are being shipped railway and air express for distribution in eastern cities.\n1 \u2018 The narcotics are shipped in metal trunks as depicted in photos of a recent seizure. These trunks measure 30 inches by 16 inches by 12 inches. Bully loaded with the narcotic shipment they weigh between 60 to 75 lbs.\n\u2018 \u2018 This department requests any employee coming in contact with trunks similar to the one depicted above, the overall weight being between 60 to 75 lbs.) and the shipment destination being New York or other nearby eastern cities, . . .\u2019\u2019\n(Immediately above the bulletin are two black and white photographs showing metal suitcases which are similar in appearance to the suitcases in the instant case as depicted in the two black and white photographs making up People\u2019s exhibits 1 and 1-A.)\nThe above analysis implies that we consider that Officer MeKnight\u2019s act of smelling was not in itself a search. (Cf. People v. Barcenas, 251 Cal.App.2d 405, 407 [59 Cal.Rptr. 419]; contra Hernandez v. United-States, supra, at p. 626.) People v. Marshall, 69 Cal.2d 51 [69 Cal.Rptr. 585, 442 P.2d 665] provides no help to defendant here because that case dealt with a search of a dwelling place without a warrant. There was probable cause to believe that a sack contained marijuana, but there was no exigent circumstance which excused the requirement of procuring a warrant. In footnote 2 of the Supreme Court\u2019s opinion it is noted: \u201c. . . Of course there is no dispute with the many cases cited . . . that an officer may rely upon all of his senses in determining whether there is probable cause to believe . . . that contraband, may be present.\u201d (Italics added.) (P. 57.) See also Taylor v. United States, 286 U.S. 1, 6 [76 L.Ed. 951, 953, 52 S.Ct. 466] : \u201cProhibition officers may rely on a distinctive odor as a physical fact indicative of a possible' crime; but its presence alone does not strip the owner of a building of constitutional guaranties against unreasonable search. \u2019 \u2019 (Cf. Fernandez v. United States (9th Cir. 1963) 321 F.2d 283, 286-287, fn. 7.)\nCompare the following language in Henry v. United States, 361 U.S. 98, 104 [4 L.Ed.2d 134, 139, 80 S.Ct. 168]: \u201cThe fact that packages had been stolen does not make every man who carries a package subject to arrest nor the,package subject to seizure. The police must have reasonable grounds to believe that the particular package carried by the citizen is contraband. Its shape and design might at times be adequate. The weight of it and the manner in which it is carried might at times be enough. \u2019 \u2019\nSection 844 reads in pertinent part as follows: \u201cTo make an arrest, . . . a peace-officer may break open the door ... of the house ... in which [he has] reasonable grounds for believing . . . [the intended arrestee] to be, after having demanded admittance and explained the purpose for which admittance is desired.\u201d",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "[Crim. No. 14913.\nSecond Dist., Div. Five\nSept. 24,1969.]\nTHE PEOPLE, Plaintiff and Respondent, v. LESLIE EUGENE TEMPLE, Defendant and Appellant.\nPorter & Cahn and Herbert M. Porter for Defendant and Appellant.\nThomas C. Lynch, Attorney General, William E. James, Assistant Attorney General, and Bruce M. Perlman, Deputy Attorney General, for Plaintiff and Respondent."
+  },
+  "file_name": "0402-01",
+  "first_page_order": 424,
+  "last_page_order": 435
+}

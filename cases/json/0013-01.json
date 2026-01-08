@@ -1,0 +1,159 @@
+{
+  "id": 3188752,
+  "name": "STATE of Louisiana v. Gradis BRAXTON",
+  "name_abbreviation": "State v. Braxton",
+  "decision_date": "1959-06-25",
+  "docket_number": "No. 44154",
+  "first_page": "13",
+  "last_page": "23",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "238 La. 13"
+    },
+    {
+      "type": "parallel",
+      "cite": "113 So.2d 292"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "La.",
+    "id": 9109,
+    "name": "Louisiana Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 10,
+    "name_long": "Louisiana",
+    "name": "La."
+  },
+  "cites_to": [
+    {
+      "cite": "228 La. 155",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2895537,
+        9917703
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/228/0155-01",
+        "/so2d/81/0844-01"
+      ]
+    },
+    {
+      "cite": "224 La. 886",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10052795,
+        3090127
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/71/0315-01",
+        "/la/224/0886-01"
+      ]
+    },
+    {
+      "cite": "147 La. 337",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        578064
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/la/147/0337-01"
+      ]
+    },
+    {
+      "cite": "12 Rob. 552",
+      "category": "reporters:state",
+      "reporter": "Rob.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "228 La. 155",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2895537,
+        9917703
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/la/228/0155-01",
+        "/so2d/81/0844-01"
+      ]
+    },
+    {
+      "cite": "224 La. 886",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10052795,
+        3090127
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/71/0315-01",
+        "/la/224/0886-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 493,
+    "char_count": 10500,
+    "ocr_confidence": 0.719,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.090029959275618
+    },
+    "sha256": "c7550bf2cf4a3aeb943bc0c800966704815a8805f513686769fc146ff9a39354",
+    "simhash": "1:1118e178aca2b7c0",
+    "word_count": 1764
+  },
+  "last_updated": "2024-02-27T21:40:55.176411+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "HAMITER, J., dissents.",
+      "McCALEB, J., dissents with written reasons.",
+      "HAWTHORNE, J., absent."
+    ],
+    "parties": [
+      "STATE of Louisiana v. Gradis BRAXTON."
+    ],
+    "opinions": [
+      {
+        "text": "PONDER, Justice.\nThe defendant was charged in a bill of information with the failure to support his minor child in violation of LSA-R.S. 14:-74. In response to a request for a bill of particulars, the State furnished the name of the child, Lenora Marie Braxton, the date of her birth, the name of her mother, who was never married, and a birth certificate allegedly signed by the defendant as father of the child. Counsel for the defendant moved to quash the bill of information contending that the Fourteenth Judicial District Court, sitting as a Juvenile Court, is without jurisdiction to determine the paternity of the illegitimate child. The motion to quash was overruled and a trial had, during the course of which a birth certificate purporting to have been signed by the defendant and the prosecuting witness was introduced and the prosecuting witness, the mother of the illegitimate child, testified that she did not see the defendant sign the birth certificate but that the signature thereon was in his handwriting. The defendant was not placed on the stand to testify. Upon conclusion of the trial, the defendant was convicted and sentenced to serve one year in the Parish Jail, the sentence being suspended and the defendant placed on probation, during which time the defendant was required to pay $15 per week for the support of the child. The defendant has appealed.\nVarious bills of exception were taken to the rulings of the court which in effect presents only one question for our, determination, viz:: whether or not this birth certificate is sufficient to establish a civil obligation to support in a criminal prosecution for neglect of family.\nThe defendant contends that the Juvenile Court is without jurisdiction to determine the paternity of the child and that under the provisions of LSA-R.S. 14:74 and Article 242 of the LSA-Civil Code, a criminal charge cannot be legally made and there can be no criminal neglect of family without the defendant having legally acknowledged the paternity of the child before a notary public and two witnesses or a judgment of court establishing his paternity of the child. He relies on the holdings in the cases of State v. Mack, 224 La. 886, 71 So.2d 315 and State v. Hubbard, 228 La. 155, 81 So.2d 844.\nThe State contends that the present case is distinguishable from the Mack and Hubbard cases in that the paternity of the child in question has been properly established by a birth certificate signed by the father which is sufficient acknowledgment of his paternity under the provisions of Article 203 of the LSA-Civil Code.\nArticle 203 of the LSA-Civil Code provides :\n\u201cThe acknowledgment of an illegitimate child shall be made by a declaration executed before a notary public, in presence of two witnesses, by the father and mother or either of them, whenever it shall not have been made in the registering of the birth or baptism of such child.\u201d\nArticle 242 of the LSA-Civil Code provides :\n\u201cBut in order that they may have a right to sue for this alimony, they must:\n\u201c1. Have been legally acknowledged by both their father and mother, or by either of them from whom they claim alimony; or they must have been declared to be their children by a judgment duly pronounced, in cases in which they may be admitted to prove their paternal or maternal descent;\n\u201c2. They must prove in a satisfactory manner that they stand absolutely in need of such alimony for their support.\u201d\nIt appears from a reading of the opinions in the Mack and Hubbard cases that this Court recognized there can be no criminal neglect of family on the part of the defendant without his having legally acknowledged the paternity of the child before a notary public and two witnesses, or his paternity having been established by a judgment of court. It was also pointed out in those cases that the jurisdiction of the juvenile court under our constitution is limited and the juvenile court is without jurisdiction to establish paternity of illegitimate children.\nIt is interesting to note in the Mack case, although it is not reflected in the opinion, that birth certificates were introduced in evidence, over the objection of the defendant, and bills were reserved to their introduction. It was strenuously urged therein that LSA-R.S. 40:159, dealing with the legal effect placed on the recitals in birth certificates, states that such evidence in any civil or criminal proceeding adverse to the interest of the alleged father is prima facie evidence, if the father becomes the husband of the mother in a legal marriage, but that if the father does not become the husband of the mother then the recitals in the birth certificate are not such evidence in any civil or criminal proceeding adverse to the interest of the father, if the paternity is controverted.\nLSA-R.S. 40:159 provides as follows:\n\u201cExcept for delayed or altered certificates, every original certificate on file in the division of public health statistics is prima facie evidence of the facts therein stated. Data pertaining to the father of a child are such evidence, if the alleged father is, or becomes, the husband of the mother in a legal marriage; if not, the data pertaining to the father of a child are not such evidence in any civil or criminal proceeding in a manner adverse to the interest of the alleged father, or of his heirs, legatees, or other successors in interest, if the. paternity is controverted.\u201d\nWhile this provision of the Revised Statutes was not discussed in the opinion handed down in the Mack case, it must have been considered when this Court came to the conclusion therein that the civil liability to support an illegitimate child must first have been established in one of two ways before a person could become amenable to a prosecution for failure to support or criminal neglect of family, viz.: by an acknowledgment before a notary public and two witnesses, or by a judgment establishing his paternity.\nOur conclusion is that the Mack and Hubbard cases are controlling of the issues presented herein.\nFor the reasons assigned, the judgment appealed from is reversed and set aside and the defendant is hence discharged.\nHAMITER, J., dissents.\nMcCALEB, J., dissents with written reasons.\nHAWTHORNE, J., absent.",
+        "type": "majority",
+        "author": "PONDER, Justice."
+      },
+      {
+        "text": "McCALEB, Justice\n(dissenting).,\nI adhere to the views expressed in the minority opinions in State v. Mack, 224 La. 886, 71 So.2d 315 and State v. Hubbard, 228 La. 155, 81 So.2d 844.\nIn the Mack case, a majority of the Court found that Act 368 of 1952 did not accomplish the change, which was definitely indicated by the Legislature in its amendment of R.S. 14:74, because Article 242 of the Civil Code provided that an illegitimate child could not sue for alimony unless his parentage had been established by civil judgment or acknowledgment. In the Hubbard case, the majority went a step further, holding that the Juvenile Courts were without jurisdiction in non-support cases involving illegitimate children, despite Act 298 of 1954 which was enacted to overcome the judicial objections stated in State v. Mack, because those courts were without jurisdiction until the parent\u2019s obligation of support has first been established in the civil courts.\nSince these pronouncements do not declare R.S. 14:74 and R.S. 14:74.1 unconstitutional, I shall continue to express my unwillingness to subscribe to them when occasion arises, as they constitute, in my opinion, an unauthorized judicial refusal to enforce the plainly expressed legislative will.\nThe case at bar goes even a step further, in my humble estimation, for it holds that there is no criminal responsibility on the part of a father for the support of his natural child whom he has solemnly acknowledged to be his child by the registration of its birth, Article 242 of the Civil Code, which was relied on in the prevailing opinion in State v. Mack, does not assist the majority ruling in this case for that Article declares that the illegitimate child has the right to sue for alimony when he has been declared to be the child of the parent by judgment duly pronounced, or when he has been legally acknowledged by the parent from whom he claims alimony.\nArticle 203 of the Code (quoted in the majority opinion) provides in no uncertain terms that an illegitimate may be legally acknowledged, either by declaration before a Notary Public in the presence of two witnesses or by registration of the birth or baptism of such child. This latter method of acknowledgment has always been considered on an equal footing with a declaration before a Notary Public or judgment of court. Ripoll v. Morina, 12 Rob. 552. Compare Perkins v. Brownell-Drews Lumber Co., 147 La. 337, 84 So. 894.\nAlthough the opinion in State v. Hubbard is unquestionably far reaching, I cannot believe at this writing that it was ever the intention of the Court to bar prosecutions for non-support of natural children by parents, who had duly acknowledged them in accordance with the provisions of Article 203 of the Civil Code.\nI respectfully dissent.\n. I note that the majority apparently express the view that the birth certificate, which was shown to be signed in the handwriting of the defendant, was inadmissible in evidence in view of the exception set forth in R.S. 40:159 to the effect that the data contained in the certificate is not prima facie evidence against the alleged father in a civil or criminal proceeding where the father has not become the husband of the mother of the child.\nClearly, the majority have misconstrued the provisions of R.S. 40:159. That statute declares that an original birth eertificate is prima facie evidence of the facts therein stated when there has been a legal marriage. However, when the issue of paternity is being contested and there has been no marriage, as in this case, the statute declares that \u201cthe data pertaining to the father of the child (contained in the certificate) are not such evidence\u201d i. e. \u2014 prima facie evidence. It does not attempt to regulate the admissibility of the certificate in evidence when properly identified; it merely provides for the effect to be given the documentary evidence as proof of the recitals therein contained.",
+        "type": "dissent",
+        "author": "McCALEB, Justice"
+      }
+    ],
+    "attorneys": [
+      "Cavanaugh, Hickman, Brame & Holt, by A. B. Cavanaugh, Lake Charles, for defendant-appellant.",
+      "Jack P. F. Gremillion, Atty. Gen., M. E. Culligan, Asst. Atty. Gen., Edward L. Shaheen, Dist. Atty., James A. Smith, Asst. Dist. Atty., Lake Charles, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "113 So.2d 292\nSTATE of Louisiana v. Gradis BRAXTON.\nNo. 44154.\nJune 25, 1959.\nCavanaugh, Hickman, Brame & Holt, by A. B. Cavanaugh, Lake Charles, for defendant-appellant.\nJack P. F. Gremillion, Atty. Gen., M. E. Culligan, Asst. Atty. Gen., Edward L. Shaheen, Dist. Atty., James A. Smith, Asst. Dist. Atty., Lake Charles, for appellee."
+  },
+  "file_name": "0013-01",
+  "first_page_order": 39,
+  "last_page_order": 44
+}

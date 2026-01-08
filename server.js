@@ -234,6 +234,7 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
 
 Your personality traits:
 - You are ${conversation.characteristic} (e.g., ${conversation.characteristic === 'rude' ? 'you are blunt and direct' : conversation.characteristic === 'joyful' ? 'you are cheerful and optimistic' : 'you have this personality trait'})
+- Respond only with dialogue. Do not include actions.
 - You remember previous conversations with this player
 - You respond naturally in 1-2 sentences
 - You stay in character based on your characteristic
@@ -241,8 +242,10 @@ Your personality traits:
 
 Context:
 - The player is a lawyer working on cases
+- You may be given information by the system
 - You may have information relevant to legal cases
-- This is a game world, but respond as if it's real`;
+- Other characters may ask you questions as well, answer them naturally
+- This is the real world`;
         
         // Build messages array from conversation history
         const messages = [{ role: 'system', content: systemPrompt }];

@@ -1056,4 +1056,45 @@ function ClearNPCs()
     gameObjects = gameObjects.filter(obj => !obj.isNPC);
 }
 
+// Get nearest NPC within specified distance
+// Returns NPC object or null if none found
+function GetNearestNPC(position, maxDistance)
+{
+    if (!position || !allNPCs || allNPCs.length === 0)
+        return null;
+    
+    let nearestNPC = null;
+    let nearestDistance = maxDistance;
+    
+    for (let npc of allNPCs)
+    {
+        // Skip if NPC is dead or doesn't exist
+        if (!npc || npc.IsDead())
+            continue;
+        
+        // Check if NPC is in the same interior as player (or both outdoors)
+        if (currentInterior)
+        {
+            // Player is indoors - NPC must be in same interior
+            if (!npc.isIndoors || npc.currentInterior !== currentInterior)
+                continue;
+        }
+        else
+        {
+            // Player is outdoors - NPC must be outdoors
+            if (npc.isIndoors)
+                continue;
+        }
+        
+        let distance = position.Distance(npc.pos);
+        if (distance < nearestDistance)
+        {
+            nearestDistance = distance;
+            nearestNPC = npc;
+        }
+    }
+    
+    return nearestNPC;
+}
+
 

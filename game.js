@@ -947,6 +947,7 @@ class Player extends MyGameObject
         this.dashWaitTime = 3;
         this.radarSize=2;
         this.nearBed = 0; // Flag for bed interaction
+        this.nearNPC = null; // Nearest NPC for dialogue interaction
     }
     
     IsDashing() { return !this.dashTimer.Elapsed(); }
@@ -969,6 +970,15 @@ class Player extends MyGameObject
         if (this.IsDead() || this.IsIntro())
         {
             // stop and do no more
+            return;
+        }
+        
+        // Don't process input if dialogue modal is open
+        if (typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen())
+        {
+            this.nearBed = 0;
+            this.nearNPC = null;
+            super.Update();
             return;
         }
         
@@ -1081,6 +1091,7 @@ class Player extends MyGameObject
                 if (bedDistance < 1.5) // Within 1.5 tiles of bed
                 {
                     this.nearBed = 1;
+                    this.nearNPC = null; // Bed takes priority
                     // Check for F key press to sleep
                     if (KeyWasPressed(70)) // F key
                     {
@@ -1090,16 +1101,34 @@ class Player extends MyGameObject
                 else
                 {
                     this.nearBed = 0;
+                    // Check for nearby NPCs in interior
+                    this.nearNPC = GetNearestNPC(this.pos, 1.0);
+                    if (this.nearNPC && KeyWasPressed(70) && typeof OpenDialogueModal !== 'undefined')
+                    {
+                        OpenDialogueModal(this.nearNPC);
+                    }
                 }
             }
             else
             {
                 this.nearBed = 0;
+                // Check for nearby NPCs in interior
+                this.nearNPC = GetNearestNPC(this.pos, 1.0);
+                if (this.nearNPC && KeyWasPressed(70) && typeof OpenDialogueModal !== 'undefined')
+                {
+                    OpenDialogueModal(this.nearNPC);
+                }
             }
         }
         else
         {
             this.nearBed = 0;
+            // Check for nearby NPCs outdoors
+            this.nearNPC = GetNearestNPC(this.pos, 1.0);
+            if (this.nearNPC && KeyWasPressed(70) && typeof OpenDialogueModal !== 'undefined')
+            {
+                OpenDialogueModal(this.nearNPC);
+            }
             // Check for building entry (touch south face)
             // Don't allow entry if we just exited (cooldown period)
             if (interiorExitCooldown.Elapsed())

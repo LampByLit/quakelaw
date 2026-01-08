@@ -58,16 +58,171 @@ height:100%;
 image-rendering:-moz-crisp-edges;
 image-rendering:pixelated;
 }
+/* Dialogue Modal Styles */
+#dialogueModal {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.8);
+z-index: 1000;
+font-family: 'Press Start 2P', monospace;
+}
+#dialogueModal.open {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.modal-content {
+background: #2a2a2a;
+border: 4px solid #fff;
+border-radius: 8px;
+width: 90%;
+max-width: 600px;
+max-height: 80vh;
+display: flex;
+flex-direction: column;
+box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+.modal-header {
+background: #1a1a1a;
+padding: 15px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-bottom: 2px solid #fff;
+}
+.modal-header #npcName {
+color: #fff;
+font-size: 14px;
+margin-right: 10px;
+}
+.modal-header #npcEmoji {
+font-size: 20px;
+margin-right: auto;
+}
+#closeModal {
+background: #ff4444;
+color: #fff;
+border: 2px solid #fff;
+padding: 5px 10px;
+cursor: pointer;
+font-family: 'Press Start 2P', monospace;
+font-size: 10px;
+}
+#closeModal:hover {
+background: #ff6666;
+}
+.conversation-area {
+flex: 1;
+overflow-y: auto;
+padding: 20px;
+min-height: 200px;
+max-height: 400px;
+background: #1a1a1a;
+}
+.message {
+margin-bottom: 15px;
+padding: 10px;
+border-radius: 4px;
+word-wrap: break-word;
+}
+.message.player {
+background: #333;
+color: #fff;
+text-align: right;
+border-left: 3px solid #4a9eff;
+}
+.message.npc {
+background: #2a4a2a;
+color: #fff;
+text-align: left;
+border-left: 3px solid #4aff4a;
+}
+.message-text {
+font-size: 10px;
+line-height: 1.6;
+}
+.message-label {
+font-size: 8px;
+opacity: 0.7;
+margin-bottom: 5px;
+}
+.input-area {
+padding: 15px;
+background: #1a1a1a;
+border-top: 2px solid #fff;
+display: flex;
+gap: 10px;
+}
+#playerMessageInput {
+flex: 1;
+background: #333;
+color: #fff;
+border: 2px solid #666;
+padding: 10px;
+font-family: 'Press Start 2P', monospace;
+font-size: 10px;
+outline: none;
+}
+#playerMessageInput:focus {
+border-color: #4a9eff;
+}
+#sendMessage {
+background: #4a9eff;
+color: #fff;
+border: 2px solid #fff;
+padding: 10px 20px;
+cursor: pointer;
+font-family: 'Press Start 2P', monospace;
+font-size: 10px;
+}
+#sendMessage:hover {
+background: #6ab3ff;
+}
+#sendMessage:disabled {
+background: #666;
+cursor: not-allowed;
+}
+.loading-indicator {
+color: #4aff4a;
+font-size: 10px;
+text-align: center;
+padding: 10px;
+font-style: italic;
+}
 </style>
 </head>
 <body>
 <canvas id=c1></canvas>
 <canvas id=c2 style=visibility:hidden></canvas>
+
+<!-- Dialogue Modal -->
+<div id="dialogueModal">
+<div class="modal-content">
+<div class="modal-header">
+<span id="npcName">NPC Name</span>
+<span id="npcEmoji">😊</span>
+<button id="closeModal">X</button>
+</div>
+<div id="conversationHistory" class="conversation-area">
+<!-- Messages will appear here -->
+</div>
+<div class="input-area">
+<input type="text" id="playerMessageInput" placeholder="Type your message..." maxlength="500">
+<button id="sendMessage">Send</button>
+</div>
+</div>
+</div>
+
 <script src='config.js'></script>
 <script src='api.js'></script>
 <script src='gameEngine.js'></script>
 <script src='gameEngineDebug.js'></script>
 <script src='game.js'></script>
 <script src='npcs.js'></script>
+<script src='dialogue.js'></script>
 </body>
 </html>

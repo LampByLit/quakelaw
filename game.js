@@ -219,6 +219,25 @@ class PlayerData
         
         return false; // Inventory full
     }
+    
+    // Remove item from inventory by type (returns true if removed)
+    RemoveFromInventory(type, quantity = 1)
+    {
+        for(let i = 0; i < this.inventory.length; i++)
+        {
+            if (this.inventory[i] && this.inventory[i].type === type)
+            {
+                this.inventory[i].quantity -= quantity;
+                if (this.inventory[i].quantity <= 0)
+                {
+                    // Remove item completely
+                    this.inventory.splice(i, 1);
+                }
+                return true;
+            }
+        }
+        return false; // Item not found
+    }
 }
 
 function Init()
@@ -289,6 +308,43 @@ function Reset()
     {
         // First time - start on Sunday at 07:00
         gameTime.realTimeStart = time;
+    }
+    
+    // Sync inventory with boomerang counts
+    // Count boomerangs in inventory
+    let invBoomerangs = 0;
+    let invBigBoomerangs = 0;
+    if (playerData.inventory)
+    {
+        for(let i = 0; i < playerData.inventory.length; i++)
+        {
+            if (playerData.inventory[i])
+            {
+                if (playerData.inventory[i].type === 'boomerang')
+                    invBoomerangs += playerData.inventory[i].quantity;
+                else if (playerData.inventory[i].type === 'bigBoomerang')
+                    invBigBoomerangs += playerData.inventory[i].quantity;
+            }
+        }
+    }
+    
+    // Add boomerangs to inventory to match playerData counts
+    while (invBoomerangs < playerData.boomerangs)
+    {
+        playerData.AddToInventory('boomerang', 'Boomerang', 0, 5, 1);
+        invBoomerangs++;
+    }
+    while (invBigBoomerangs < playerData.bigBoomerangs)
+    {
+        playerData.AddToInventory('bigBoomerang', 'Big Boomerang', 7, 5, 1);
+        invBigBoomerangs++;
+    }
+    
+    // If no boomerangs at all, start with one
+    if (playerData.boomerangs === 0 && playerData.bigBoomerangs === 0 && (!playerData.inventory || playerData.inventory.length === 0))
+    {
+        playerData.boomerangs = 1;
+        playerData.AddToInventory('boomerang', 'Boomerang', 0, 5, 1);
     }
 }
 
@@ -519,9 +575,9 @@ function Update()
     if (!inventoryOpen)
     {
         let invButtonX = 40;
-        let invButtonY = 90;
-        let invButtonWidth = 80;
-        let invButtonHeight = 24;
+        let invButtonY = 110;
+        let invButtonWidth = 30;
+        let invButtonHeight = 30;
         
         // Check if mouse is hovering over inventory button
         inventoryButtonHover = (mousePos.x >= invButtonX - invButtonWidth/2 && mousePos.x <= invButtonX + invButtonWidth/2 &&
@@ -631,9 +687,9 @@ function PostRender()
     // Inventory button (below time/date)
     {
         let invButtonX = 40;
-        let invButtonY = 90;
-        let invButtonWidth = 80;
-        let invButtonHeight = 24;
+        let invButtonY = 110;
+        let invButtonWidth = 30;
+        let invButtonHeight = 30;
         
         // Draw button background (hover state is set in Update())
         let bgColor = inventoryButtonHover ? '#48F' : '#248';
@@ -645,8 +701,8 @@ function PostRender()
         mainCanvasContext.lineWidth = 2;
         mainCanvasContext.strokeRect(invButtonX - invButtonWidth/2, invButtonY - invButtonHeight/2, invButtonWidth, invButtonHeight);
         
-        // Draw button text
-        DrawText('INVENTORY', invButtonX, invButtonY, 10, 'center', 1, '#FFF', '#000');
+        // Draw button text (lowercase 'i')
+        DrawText('i', invButtonX, invButtonY, 16, 'center', 1, '#FFF', '#000');
     }
     
     // Reset button (top-right)
@@ -931,9 +987,15 @@ class Player extends MyGameObject
             {
                 --playerData.bigBoomerangs;
                 isBig = 1;
+                // Remove from inventory immediately when thrown
+                playerData.RemoveFromInventory('bigBoomerang', 1);
             }
             else
+            {
                 --playerData.boomerangs;
+                // Remove from inventory immediately when thrown
+                playerData.RemoveFromInventory('boomerang', 1);
+            }
             let b = new Boomerang(this.pos,isBig);
             this.throwRotation= b.Throw(this, mousePosWorld);
             this.throwTimer.Set(.4);
@@ -1309,13 +1371,13 @@ class Boomerang  extends MyGameObject
         if (this.isBig)
         {
             playerData.bigBoomerangs++;
-            // Add to inventory
+            // Always add back to inventory when caught (whether returning or new)
             playerData.AddToInventory('bigBoomerang', 'Big Boomerang', 7, 5, 1);
         }
         else
         {
             playerData.boomerangs++;
-            // Add to inventory
+            // Always add back to inventory when caught (whether returning or new)
             playerData.AddToInventory('boomerang', 'Boomerang', 0, 5, 1);
         }
         player.throwTimer.Set(.3);

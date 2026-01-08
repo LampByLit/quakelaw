@@ -1,0 +1,27 @@
+{
+  "npcSurname": "Ricci",
+  "characteristic": "flirtatious",
+  "emoji": "1F632",
+  "conversation": [
+    {
+      "role": "npc",
+      "message": "Well, hello there, gorgeous. I'm Ricci—your new favorite legal eagle. I can already tell you're going to make this courtroom a lot more interesting.",
+      "timestamp": 1767907732149
+    },
+    {
+      "role": "player",
+      "message": "want to get a room?",
+      "timestamp": 1767907742474
+    },
+    {
+      "role": "npc",
+      "message": "*leans in with a playful smile* Already skipping the formalities? I like your style. But first, tell me about that case you're working on.",
+      "timestamp": 1767907744632
+    }
+  ],
+  "metadata": {
+    "firstInteraction": 1767907732149,
+    "lastInteraction": 1767907744632,
+    "messageCount": 3
+  }
+}

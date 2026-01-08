@@ -572,7 +572,8 @@ function Update()
     }
     
     // Check for inventory button hover and click
-    if (!inventoryOpen)
+    // Don't allow inventory to open if dialogue modal is open
+    if (!inventoryOpen && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()))
     {
         let invButtonX = 40;
         let invButtonY = 110;
@@ -589,15 +590,22 @@ function Update()
             inventoryOpen = true;
         }
     }
+    else
+    {
+        // Reset hover state when inventory or dialogue is open
+        inventoryButtonHover = false;
+    }
     
     // Check for inventory key press (I key = 73)
-    if (KeyWasPressed(73))
+    // Don't open inventory if dialogue modal is open
+    if (KeyWasPressed(73) && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()))
     {
         inventoryOpen = !inventoryOpen;
     }
     
     // Close inventory with Escape key
-    if (inventoryOpen && KeyWasPressed(27))
+    // Don't close inventory if dialogue modal is open (ESC closes dialogue instead)
+    if (inventoryOpen && KeyWasPressed(27) && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()))
     {
         inventoryOpen = false;
     }

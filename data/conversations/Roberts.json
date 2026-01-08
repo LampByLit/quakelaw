@@ -1,0 +1,17 @@
+{
+  "npcSurname": "Roberts",
+  "characteristic": "paranoid",
+  "emoji": "1F62E",
+  "conversation": [
+    {
+      "role": "npc",
+      "message": "(Glancing around nervously) Oh, hello there. I'm Roberts. You're not... one of them, are you?",
+      "timestamp": 1767908124093
+    }
+  ],
+  "metadata": {
+    "firstInteraction": 1767908124093,
+    "lastInteraction": 1767908124093,
+    "messageCount": 1
+  }
+}

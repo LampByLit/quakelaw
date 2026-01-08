@@ -1,0 +1,17 @@
+{
+  "npcSurname": "Howard",
+  "characteristic": "grumpy",
+  "emoji": "1F62C",
+  "conversation": [
+    {
+      "role": "npc",
+      "message": "*Sighs heavily* Oh great, another one. I'm Howard. What do you want?",
+      "timestamp": 1767907677193
+    }
+  ],
+  "metadata": {
+    "firstInteraction": 1767907677193,
+    "lastInteraction": 1767907677193,
+    "messageCount": 1
+  }
+}

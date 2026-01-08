@@ -29,22 +29,45 @@ const conversationsDir = path.join(dataDir, 'conversations');
     }
 })();
 
+// Helper function to sanitize session ID for directory names
+function sanitizeSessionId(sessionId) {
+    if (!sessionId || typeof sessionId !== 'string') {
+        throw new Error('Session ID is required and must be a string');
+    }
+    // Only allow alphanumeric, hyphens, and underscores, remove any path traversal attempts
+    return sessionId.replace(/[^a-zA-Z0-9\-_]/g, '').substring(0, 100);
+}
+
 // Helper function to sanitize NPC surname for file names
 function sanitizeSurname(surname) {
     // Only allow alphanumeric characters, remove any path traversal attempts
     return surname.replace(/[^a-zA-Z0-9]/g, '').substring(0, 50);
 }
 
+// Helper function to get session directory path
+function getSessionDirPath(sessionId) {
+    const sanitized = sanitizeSessionId(sessionId);
+    return path.join(conversationsDir, sanitized);
+}
+
 // Helper function to get conversation file path
-function getConversationFilePath(surname) {
+function getConversationFilePath(sessionId, surname) {
+    const sessionDir = getSessionDirPath(sessionId);
     const sanitized = sanitizeSurname(surname);
-    return path.join(conversationsDir, `${sanitized}.json`);
+    return path.join(sessionDir, `${sanitized}.json`);
+}
+
+// Helper function to ensure session directory exists
+async function ensureSessionDir(sessionId) {
+    const sessionDir = getSessionDirPath(sessionId);
+    await fs.mkdir(sessionDir, { recursive: true });
+    return sessionDir;
 }
 
 // Helper function to load conversation
-async function loadConversation(surname) {
+async function loadConversation(sessionId, surname) {
     try {
-        const filePath = getConversationFilePath(surname);
+        const filePath = getConversationFilePath(sessionId, surname);
         const data = await fs.readFile(filePath, 'utf8');
         return JSON.parse(data);
     } catch (error) {
@@ -57,8 +80,9 @@ async function loadConversation(surname) {
 }
 
 // Helper function to save conversation
-async function saveConversation(conversationData) {
-    const filePath = getConversationFilePath(conversationData.npcSurname);
+async function saveConversation(sessionId, conversationData) {
+    await ensureSessionDir(sessionId);
+    const filePath = getConversationFilePath(sessionId, conversationData.npcSurname);
     await fs.writeFile(filePath, JSON.stringify(conversationData, null, 2), 'utf8');
 }
 
@@ -139,8 +163,13 @@ app.post('/api/deepseek', async (req, res) => {
 // Get conversation history for an NPC
 app.get('/api/npc/conversation/:surname', async (req, res) => {
     try {
+        const sessionId = req.query.sessionId;
+        if (!sessionId) {
+            return res.status(400).json({ error: 'Session ID is required' });
+        }
+        
         const surname = req.params.surname;
-        const conversation = await loadConversation(surname);
+        const conversation = await loadConversation(sessionId, surname);
         
         if (!conversation) {
             return res.json({
@@ -178,6 +207,11 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
     }
 
     try {
+        const sessionId = req.query.sessionId;
+        if (!sessionId) {
+            return res.status(400).json({ error: 'Session ID is required' });
+        }
+        
         const surname = req.params.surname;
         const { message, npcData } = req.body;
         
@@ -194,7 +228,7 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
         }
         
         // Load or create conversation
-        let conversation = await loadConversation(surname);
+        let conversation = await loadConversation(sessionId, surname);
         const isFirstInteraction = !conversation;
         
         // Debug: Log job data received
@@ -402,7 +436,7 @@ REMEMBER: Your job is ${job}. You are a ${job}.`;
         conversation.metadata.messageCount = conversation.conversation.length;
         
         // Save conversation
-        await saveConversation(conversation);
+        await saveConversation(sessionId, conversation);
         
         // Return response
         res.json({
@@ -436,6 +470,11 @@ app.post('/api/npc/greeting/:surname', async (req, res) => {
     }
 
     try {
+        const sessionId = req.query.sessionId;
+        if (!sessionId) {
+            return res.status(400).json({ error: 'Session ID is required' });
+        }
+        
         const surname = req.params.surname;
         const { npcData } = req.body;
         
@@ -444,7 +483,7 @@ app.post('/api/npc/greeting/:surname', async (req, res) => {
         }
         
         // Check if conversation already exists
-        const existing = await loadConversation(surname);
+        const existing = await loadConversation(sessionId, surname);
         if (existing && existing.conversation.length > 0) {
             return res.status(400).json({ error: 'Conversation already exists' });
         }
@@ -518,7 +557,7 @@ REMEMBER: Your job is ${job}. You are a ${job}.`;
             }
         };
         
-        await saveConversation(conversation);
+        await saveConversation(sessionId, conversation);
         
         res.json({
             greeting: greeting.trim(),
@@ -540,30 +579,57 @@ REMEMBER: Your job is ${job}. You are a ${job}.`;
     }
 });
 
-// Delete all conversations (used for game reset)
-app.delete('/api/npc/conversations', async (req, res) => {
+// Delete conversations for a specific session (used for browser close and page refresh)
+app.delete('/api/npc/conversations/:sessionId', async (req, res) => {
     try {
-        // Read all files in conversations directory
-        const files = await fs.readdir(conversationsDir);
-        
-        // Delete all JSON files
-        let deletedCount = 0;
-        for (const file of files) {
-            if (file.endsWith('.json')) {
-                try {
-                    await fs.unlink(path.join(conversationsDir, file));
-                    deletedCount++;
-                } catch (error) {
-                    console.warn(`Failed to delete conversation file ${file}:`, error);
-                }
-            }
+        const sessionId = req.params.sessionId;
+        if (!sessionId) {
+            return res.status(400).json({ error: 'Session ID is required' });
         }
         
-        res.json({
-            success: true,
-            message: `Deleted ${deletedCount} conversation file(s)`,
-            deletedCount: deletedCount
-        });
+        const sessionDir = getSessionDirPath(sessionId);
+        
+        // Check if session directory exists
+        try {
+            const files = await fs.readdir(sessionDir);
+            
+            // Delete all JSON files in session directory
+            let deletedCount = 0;
+            for (const file of files) {
+                if (file.endsWith('.json')) {
+                    try {
+                        await fs.unlink(path.join(sessionDir, file));
+                        deletedCount++;
+                    } catch (error) {
+                        console.warn(`Failed to delete conversation file ${file}:`, error);
+                    }
+                }
+            }
+            
+            // Try to remove the session directory if it's empty (best effort)
+            try {
+                await fs.rmdir(sessionDir);
+            } catch (error) {
+                // Directory not empty or other error - that's fine
+            }
+            
+            res.json({
+                success: true,
+                message: `Deleted ${deletedCount} conversation file(s) for session`,
+                deletedCount: deletedCount
+            });
+        } catch (error) {
+            if (error.code === 'ENOENT') {
+                // Session directory doesn't exist, that's fine
+                res.json({
+                    success: true,
+                    message: 'No conversations found for session',
+                    deletedCount: 0
+                });
+            } else {
+                throw error;
+            }
+        }
     } catch (error) {
         console.error('Error clearing conversations:', error);
         res.status(500).json({ 
@@ -572,6 +638,116 @@ app.delete('/api/npc/conversations', async (req, res) => {
         });
     }
 });
+
+// Delete ALL conversations - dev tool to wipe entire /data folder
+app.delete('/api/npc/conversations/all', async (req, res) => {
+    try {
+        // Read all session directories
+        const sessions = await fs.readdir(conversationsDir);
+        
+        let deletedSessions = 0;
+        let deletedFiles = 0;
+        
+        for (const sessionName of sessions) {
+            const sessionDir = path.join(conversationsDir, sessionName);
+            try {
+                const stats = await fs.stat(sessionDir);
+                if (stats.isDirectory()) {
+                    // Delete all files in the session directory
+                    const files = await fs.readdir(sessionDir);
+                    for (const file of files) {
+                        if (file.endsWith('.json')) {
+                            try {
+                                await fs.unlink(path.join(sessionDir, file));
+                                deletedFiles++;
+                            } catch (error) {
+                                console.warn(`Failed to delete file ${file} in session ${sessionName}:`, error);
+                            }
+                        }
+                    }
+                    
+                    // Remove the session directory
+                    try {
+                        await fs.rmdir(sessionDir);
+                        deletedSessions++;
+                    } catch (error) {
+                        console.warn(`Failed to remove session directory ${sessionName}:`, error);
+                    }
+                }
+            } catch (error) {
+                console.warn(`Error processing session ${sessionName}:`, error);
+            }
+        }
+        
+        res.json({
+            success: true,
+            message: `Deleted entire /data folder: ${deletedSessions} session(s), ${deletedFiles} file(s)`,
+            deletedCount: deletedSessions,
+            deletedFiles: deletedFiles
+        });
+    } catch (error) {
+        console.error('Error clearing all conversations:', error);
+        res.status(500).json({ 
+            error: 'Failed to clear all conversations',
+            message: error.message 
+        });
+    }
+});
+
+// Automatic cleanup of old sessions (older than 24 hours)
+async function cleanupOldSessions() {
+    try {
+        const files = await fs.readdir(conversationsDir);
+        const now = Date.now();
+        const maxAge = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+        let cleanedCount = 0;
+        
+        for (const file of files) {
+            const sessionDir = path.join(conversationsDir, file);
+            try {
+                const stats = await fs.stat(sessionDir);
+                if (stats.isDirectory()) {
+                    // Check if directory is older than 24 hours
+                    const age = now - stats.mtime.getTime();
+                    if (age > maxAge) {
+                        // Delete all files in the directory
+                        const sessionFiles = await fs.readdir(sessionDir);
+                        for (const sessionFile of sessionFiles) {
+                            try {
+                                await fs.unlink(path.join(sessionDir, sessionFile));
+                            } catch (error) {
+                                console.warn(`Failed to delete file ${sessionFile} in session ${file}:`, error);
+                            }
+                        }
+                        // Remove the directory
+                        try {
+                            await fs.rmdir(sessionDir);
+                            cleanedCount++;
+                            console.log(`Cleaned up old session: ${file}`);
+                        } catch (error) {
+                            console.warn(`Failed to remove session directory ${file}:`, error);
+                        }
+                    }
+                }
+            } catch (error) {
+                // Skip files that can't be accessed
+                console.warn(`Error checking session ${file}:`, error);
+            }
+        }
+        
+        if (cleanedCount > 0) {
+            console.log(`Automatic cleanup: Removed ${cleanedCount} old session(s)`);
+        }
+    } catch (error) {
+        console.error('Error during automatic cleanup:', error);
+    }
+}
+
+// Run cleanup every hour
+setInterval(cleanupOldSessions, 60 * 60 * 1000);
+
+// Run cleanup on startup
+cleanupOldSessions();
 
 // Serve the main HTML file
 app.get('/', (req, res) => {

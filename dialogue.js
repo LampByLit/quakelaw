@@ -89,7 +89,8 @@ function CloseDialogueModal() {
 // Load conversation history from server
 async function LoadConversationHistory(npc) {
     try {
-        const response = await fetch(`/api/npc/conversation/${encodeURIComponent(npc.surname)}`);
+        const sessionId = getSessionId();
+        const response = await fetch(`/api/npc/conversation/${encodeURIComponent(npc.surname)}?sessionId=${encodeURIComponent(sessionId)}`);
         
         if (!response.ok) {
             console.error('Failed to load conversation:', response.statusText);
@@ -127,7 +128,8 @@ async function GenerateGreeting(npc) {
     ScrollToBottom();
     
     try {
-        const response = await fetch(`/api/npc/greeting/${encodeURIComponent(npc.surname)}`, {
+        const sessionId = getSessionId();
+        const response = await fetch(`/api/npc/greeting/${encodeURIComponent(npc.surname)}?sessionId=${encodeURIComponent(sessionId)}`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -210,7 +212,8 @@ async function SendMessage() {
     ScrollToBottom();
     
     try {
-        const response = await fetch(`/api/npc/conversation/${encodeURIComponent(currentDialogueNPC.surname)}`, {
+        const sessionId = getSessionId();
+        const response = await fetch(`/api/npc/conversation/${encodeURIComponent(currentDialogueNPC.surname)}?sessionId=${encodeURIComponent(sessionId)}`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

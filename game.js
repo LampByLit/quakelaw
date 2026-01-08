@@ -381,22 +381,29 @@ async function FullReset()
     // Clear all NPCs from memory (before clearing conversations)
     ClearNPCs();
     
-    // Clear all conversation data from server (MUST complete before regenerating NPCs)
+    // Reset button is a dev tool - wipe entire /data folder
     try {
-        const response = await fetch('/api/npc/conversations', {
+        const response = await fetch('/api/npc/conversations/all', {
             method: 'DELETE'
         });
         if (!response.ok) {
-            console.error('Failed to clear conversations:', response.status, response.statusText);
+            console.error('Failed to clear all conversations:', response.status, response.statusText);
             // Continue anyway - will try to update jobs when conversations are loaded
         } else {
             const result = await response.json();
-            console.log(`Reset: Deleted ${result.deletedCount || 0} conversation file(s)`);
+            console.log(`Reset: Deleted entire /data folder (${result.deletedCount || 0} session(s), ${result.deletedFiles || 0} file(s))`);
         }
     } catch (error) {
-        console.error('Error clearing conversations:', error);
+        console.error('Error clearing all conversations:', error);
         // Continue anyway - worst case old conversations exist but will be updated with new jobs
     }
+    
+    // Clear session and stored session ID for cleanup
+    clearSession();
+    if (typeof localStorage !== 'undefined') {
+        localStorage.removeItem('lastSessionId');
+    }
+    getSessionId(); // Generate new session ID
     
     // Reset game state
     Reset();

@@ -1075,7 +1075,8 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.listen(PORT, () => {
+// Start server
+const server = app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
     console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
     if (!process.env.DEEPSEEK_API_KEY) {
@@ -1083,4 +1084,24 @@ app.listen(PORT, () => {
     }
     console.log(`Using model: ${process.env.DEEPSEEK_MODEL || 'deepseek-chat'}`);
 });
+
+// Graceful shutdown handling
+function gracefulShutdown(signal) {
+    console.log(`\n${signal} received. Shutting down gracefully...`);
+    
+    server.close(() => {
+        console.log('HTTP server closed.');
+        process.exit(0);
+    });
+    
+    // Force shutdown after 10 seconds
+    setTimeout(() => {
+        console.error('Could not close connections in time, forcefully shutting down');
+        process.exit(1);
+    }, 10000);
+}
+
+// Handle termination signals
+process.on('SIGTERM', () => gracefulShutdown('SIGTERM'));
+process.on('SIGINT', () => gracefulShutdown('SIGINT'));
 

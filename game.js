@@ -873,7 +873,7 @@ function PostRender()
     // Coin display HUD (below time/date, above inventory button)
     {
         let coinDisplayX = 40;
-        let coinDisplayY = 95;
+        let coinDisplayY = 105;
         let coinDisplayWidth = 60;
         let coinDisplayHeight = 24;
         

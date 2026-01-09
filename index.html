@@ -215,11 +215,168 @@ text-align: center;
 padding: 10px;
 font-style: italic;
 }
+/* Judgment Statement Modal Styles */
+#judgmentModal {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.9);
+z-index: 1001;
+font-family: 'Press Start 2P', monospace;
+}
+#judgmentModal.open {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.judgment-modal-content {
+background: #2a2a2a;
+border: 4px solid #fff;
+border-radius: 8px;
+width: 90%;
+max-width: 700px;
+max-height: 85vh;
+display: flex;
+flex-direction: column;
+box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+.judgment-header {
+background: #1a1a1a;
+padding: 15px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-bottom: 2px solid #fff;
+}
+.judgment-header h2 {
+color: #fff;
+font-size: 12px;
+margin: 0;
+}
+.judgment-body {
+padding: 20px;
+flex: 1;
+overflow-y: auto;
+display: flex;
+flex-direction: column;
+}
+.case-summary-section {
+background: #1a1a1a;
+padding: 15px;
+border: 2px solid #444;
+margin-bottom: 20px;
+max-height: 150px;
+overflow-y: auto;
+}
+.case-summary-section h3 {
+color: #fff;
+font-size: 10px;
+margin: 0 0 10px 0;
+}
+.case-summary-text {
+color: #aaa;
+font-size: 8px;
+line-height: 1.4;
+}
+.statement-section {
+flex: 1;
+display: flex;
+flex-direction: column;
+}
+.statement-section label {
+color: #fff;
+font-size: 10px;
+margin-bottom: 10px;
+}
+#judgmentStatement {
+background: #1a1a1a;
+border: 2px solid #444;
+color: #fff;
+font-family: 'Press Start 2P', monospace;
+font-size: 8px;
+padding: 10px;
+flex: 1;
+min-height: 200px;
+resize: vertical;
+}
+#judgmentStatement:focus {
+outline: none;
+border-color: #4a9eff;
+}
+.word-count {
+color: #aaa;
+font-size: 8px;
+text-align: right;
+margin-top: 5px;
+}
+.word-count.warning {
+color: #ffaa44;
+}
+.word-count.error {
+color: #ff4444;
+}
+.judgment-actions {
+padding: 15px;
+display: flex;
+justify-content: flex-end;
+gap: 10px;
+border-top: 2px solid #444;
+}
+.judgment-button {
+background: #4a9eff;
+color: #fff;
+border: none;
+padding: 10px 20px;
+font-size: 10px;
+cursor: pointer;
+font-family: 'Press Start 2P', monospace;
+}
+.judgment-button:hover {
+background: #6ab3ff;
+}
+.judgment-button:disabled {
+background: #666;
+cursor: not-allowed;
+}
+.judgment-button.cancel {
+background: #844;
+}
+.judgment-button.cancel:hover {
+background: #a66;
+}
 </style>
 </head>
 <body>
 <canvas id=c1></canvas>
 <canvas id=c2 style=visibility:hidden></canvas>
+
+<!-- Judgment Statement Modal -->
+<div id="judgmentModal">
+<div class="judgment-modal-content">
+<div class="judgment-header">
+<h2>FRIDAY JUDGMENT - MAKE YOUR CASE</h2>
+<button id="closeJudgmentModal" class="judgment-button cancel" style="padding: 5px 10px; font-size: 8px;">X</button>
+</div>
+<div class="judgment-body">
+<div class="case-summary-section">
+<h3>CASE SUMMARY:</h3>
+<div id="judgmentCaseSummary" class="case-summary-text">Loading case summary...</div>
+</div>
+<div class="statement-section">
+<label>YOUR STATEMENT (100 words maximum):</label>
+<textarea id="judgmentStatement" placeholder="Present your case to the judge..."></textarea>
+<div id="judgmentWordCount" class="word-count">0/100 words</div>
+</div>
+</div>
+<div class="judgment-actions">
+<button id="cancelJudgment" class="judgment-button cancel">Cancel</button>
+<button id="submitJudgment" class="judgment-button">Submit Statement</button>
+</div>
+</div>
+</div>
 
 <!-- Dialogue Modal -->
 <div id="dialogueModal">

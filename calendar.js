@@ -325,6 +325,15 @@ function ProcessMissedEvents(currentGameTime)
         e.day === endedDay
     );
     
+    // Check for missed Friday Judgment event
+    let missedJudgmentEvent = endedDayEvents.find(e => e.taskId === 'fridayJudgement');
+    
+    if (missedJudgmentEvent && typeof ProcessMissedFridayJudgment !== 'undefined')
+    {
+        // Process missed judgment (player auto-loses but judge still makes decisions)
+        ProcessMissedFridayJudgment(missedJudgmentEvent);
+    }
+    
     for (let event of endedDayEvents)
     {
         event.status = 'missed';
@@ -387,6 +396,60 @@ function TriggerTask(taskId)
         ScheduleCaseOfTheMondays();
     }
     // Add more tasks here as needed
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Missed Friday Judgment Processing
+
+// Process missed Friday Judgment event (player auto-loses)
+async function ProcessMissedFridayJudgment(event)
+{
+    if (!event || event.taskId !== 'fridayJudgement')
+        return;
+    
+    console.log('Processing missed Friday Judgment event');
+    
+    // Get active case
+    if (typeof GetActiveCase === 'undefined')
+    {
+        console.warn('GetActiveCase function not available');
+        return;
+    }
+    
+    const activeCase = GetActiveCase();
+    if (!activeCase)
+    {
+        console.warn('No active case for missed Friday Judgment');
+        // Still mark event as missed
+        event.status = 'missed';
+        return;
+    }
+    
+    // Process judgment with empty statement and isMissedEvent = true
+    if (typeof ProcessFridayJudgment !== 'undefined')
+    {
+        try
+        {
+            const result = await ProcessFridayJudgment('', true);
+            
+            if (result)
+            {
+                console.log('Missed judgment processed:', result);
+                
+                // Clear active case
+                if (typeof ClearActiveCase !== 'undefined')
+                {
+                    ClearActiveCase();
+                }
+                
+                // Event status will be set to 'missed' by ProcessMissedEvents
+            }
+        }
+        catch (error)
+        {
+            console.error('Error processing missed Friday Judgment:', error);
+        }
+    }
 }
 
 // Find next Sunday from current date

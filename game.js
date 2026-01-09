@@ -301,6 +301,13 @@ function Reset()
             let saved = JSON.parse(localStorage.lawyer_gameState);
             gameTime.Load(saved.gameTime);
             
+            // Store banished NPCs for later restoration (after NPCs are initialized)
+            if (saved.banishedNPCs && Array.isArray(saved.banishedNPCs))
+            {
+                // Store in a temporary variable that will be used after NPCs are initialized
+                window._savedBanishedNPCs = saved.banishedNPCs;
+            }
+            
             // Load player data including inventory
             if (saved.playerData)
             {
@@ -512,6 +519,13 @@ function GenerateWorldAsync()
                                     
                                     // Generate NPCs after town is created (and all buildings have addresses)
                                     GenerateNPCs();
+                                    
+                                    // Restore banished NPCs from save data (must be after NPCs are generated)
+                                    if (typeof window !== 'undefined' && window._savedBanishedNPCs && typeof RestoreBanishedNPCs !== 'undefined')
+                                    {
+                                        RestoreBanishedNPCs(window._savedBanishedNPCs);
+                                        window._savedBanishedNPCs = null; // Clear temporary storage
+                                    }
                                     
                                     // Initialize calendar tasks (Sunday Coffee and Case of the Mondays)
                                     if (typeof InitializeSundayCoffee !== 'undefined')
@@ -3661,6 +3675,12 @@ function SaveGameState()
             inventory: playerData.inventory
         }
     };
+    
+    // Save banished NPCs if available
+    if (typeof GetBanishedNPCs === 'function')
+    {
+        gameState.banishedNPCs = GetBanishedNPCs();
+    }
     
     try
     {

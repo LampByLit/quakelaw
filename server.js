@@ -520,6 +520,228 @@ Assign up to 4 NPCs (one per individual, or fewer if there are fewer individuals
     }
 });
 
+// Generate prosecution text (50 words)
+app.post('/api/cases/prosecution', async (req, res) => {
+    const apiKey = process.env.DEEPSEEK_API_KEY;
+    
+    if (!apiKey) {
+        return res.status(500).json({ 
+            error: 'DEEPSEEK_API_KEY environment variable is not set' 
+        });
+    }
+
+    const { caseSummary, npcSurnames } = req.body;
+
+    if (!caseSummary) {
+        return res.status(400).json({ error: 'Case summary is required' });
+    }
+
+    if (!npcSurnames || !Array.isArray(npcSurnames) || npcSurnames.length === 0) {
+        return res.status(400).json({ error: 'NPC surnames array is required' });
+    }
+
+    try {
+        // Fetch known facts for each NPC
+        const sessionId = req.body.sessionId || req.query.sessionId || 'default';
+        const npcFacts = [];
+        
+        for (const surname of npcSurnames) {
+            try {
+                const network = await loadGossipNetwork(sessionId);
+                const npcKnowledge = network.npcKnowledge[surname];
+                if (npcKnowledge && npcKnowledge.knownFacts && npcKnowledge.knownFacts.length > 0) {
+                    npcFacts.push({
+                        npc: surname,
+                        facts: npcKnowledge.knownFacts.map(f => f.content).join(' ')
+                    });
+                }
+            } catch (error) {
+                console.warn(`Error loading facts for ${surname}:`, error);
+            }
+        }
+        
+        if (npcFacts.length === 0) {
+            // No facts available, still generate weak prosecution
+            npcFacts.push({ npc: 'townspeople', facts: 'No specific information available' });
+        }
+        
+        const factsText = npcFacts.map(nf => `${nf.npc}: ${nf.facts}`).join('\n\n');
+        
+        const systemPrompt = `You are a prosecutor in a legal case. Your goal is to discredit the defense lawyer and their evidence. 
+Create a compelling 50-word prosecution argument that undermines the defense's case using information from town gossip and the case summary.
+Be aggressive but professional. Exactly 50 words.`;
+
+        const userMessage = `Case Summary:\n${caseSummary}\n\nInformation from town gossip:\n${factsText}\n\nCreate a 50-word prosecution argument that discredits the defense.`;
+
+        const response = await fetch('https://api.deepseek.com/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${apiKey}`
+            },
+            body: JSON.stringify({
+                model: process.env.DEEPSEEK_MODEL || 'deepseek-chat',
+                messages: [
+                    { role: 'system', content: systemPrompt },
+                    { role: 'user', content: userMessage }
+                ],
+                temperature: 0.7,
+                max_tokens: 100
+            })
+        });
+
+        if (!response.ok) {
+            throw new Error(`API Error: ${response.status}`);
+        }
+
+        const data = await response.json();
+        const prosecution = data.choices[0].message.content.trim();
+        
+        res.json({ prosecution });
+    } catch (error) {
+        console.error('Error generating prosecution:', error);
+        res.status(500).json({ 
+            error: 'Failed to generate prosecution',
+            message: error.message 
+        });
+    }
+});
+
+// Judge judgment decision
+app.post('/api/cases/judgment', async (req, res) => {
+    const apiKey = process.env.DEEPSEEK_API_KEY;
+    
+    if (!apiKey) {
+        return res.status(500).json({ 
+            error: 'DEEPSEEK_API_KEY environment variable is not set' 
+        });
+    }
+
+    const { caseSummary, prosecution, playerStatement, evidence, witnesses, judgePersona, isMissedEvent } = req.body;
+
+    if (!caseSummary) {
+        return res.status(400).json({ error: 'Case summary is required' });
+    }
+
+    if (!judgePersona || !judgePersona.name || !judgePersona.characteristic) {
+        return res.status(400).json({ error: 'Judge persona is required' });
+    }
+
+    try {
+        // Format evidence for AI
+        let evidenceText = 'No evidence presented.';
+        if (evidence && evidence.length > 0) {
+            evidenceText = evidence.map((e, idx) => {
+                const meta = e.metadata || {};
+                const text = meta.conversationText || meta.content || JSON.stringify(meta);
+                return `${idx + 1}. ${e.name || 'Evidence'}: ${text.substring(0, 500)}`;
+            }).join('\n\n');
+        }
+        
+        // Format witnesses
+        const witnessesText = witnesses && witnesses.length > 0
+            ? witnesses.map(w => `${w.surname} (${w.role || 'witness'})`).join(', ')
+            : 'No witnesses.';
+        
+        const judgeName = judgePersona.name;
+        const judgeCharacteristic = judgePersona.characteristic;
+        
+        const systemPrompt = `You are Judge ${judgeName}, a ${judgeCharacteristic} judge presiding over a legal case.
+
+Your task:
+1. Review the case summary, prosecution argument, player's statement, and all evidence
+2. Make a fair and reasoned decision
+3. Determine if the player (defense lawyer) wins the case
+4. Decide which witnesses (if any) should be punished and what type of punishment
+5. Write a 50-word ruling explaining your decision in your character's voice
+
+${isMissedEvent ? 'CRITICAL: The player missed the judgment hearing. They automatically LOSE the case, but you must still make punishment decisions based on the case merits.' : ''}
+
+Return your response as a JSON object with this exact structure:
+{
+    "playerWins": true or false,
+    "punishments": [
+        {"witnessSurname": "Smith", "punishmentType": "corporeal"},
+        {"witnessSurname": "Jones", "punishmentType": "banishment"}
+    ],
+    "ruling": "Your 50-word ruling explaining the decision, punishments, and reasoning in your character's voice"
+}
+
+Punishment types:
+- "corporeal": Witness receives brutal punishment but remains in town
+- "banishment": Witness is permanently banished from the town
+
+If no witnesses should be punished, return empty array for punishments.`;
+
+        const userMessage = `Case Summary:\n${caseSummary}\n\nProsecution Argument:\n${prosecution || 'No prosecution argument.'}\n\nPlayer's Statement:\n${playerStatement || 'No statement provided.'}\n\nEvidence Presented:\n${evidenceText}\n\nWitnesses:\n${witnessesText}\n\nMake your judgment decision and write your ruling.`;
+
+        const response = await fetch('https://api.deepseek.com/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${apiKey}`
+            },
+            body: JSON.stringify({
+                model: process.env.DEEPSEEK_MODEL || 'deepseek-chat',
+                messages: [
+                    { role: 'system', content: systemPrompt },
+                    { role: 'user', content: userMessage }
+                ],
+                temperature: 0.5,
+                max_tokens: 500
+            })
+        });
+
+        if (!response.ok) {
+            throw new Error(`API Error: ${response.status}`);
+        }
+
+        const data = await response.json();
+        const content = data.choices[0].message.content;
+        
+        // Parse JSON from response
+        let parsed;
+        try {
+            const jsonMatch = content.match(/```(?:json)?\s*(\{[\s\S]*\})\s*```/);
+            if (jsonMatch) {
+                parsed = JSON.parse(jsonMatch[1]);
+            } else {
+                parsed = JSON.parse(content);
+            }
+        } catch (e) {
+            const jsonMatch = content.match(/\{[\s\S]*\}/);
+            if (jsonMatch) {
+                parsed = JSON.parse(jsonMatch[0]);
+            } else {
+                throw new Error('Failed to parse AI response as JSON');
+            }
+        }
+
+        // Validate response structure
+        if (typeof parsed.playerWins !== 'boolean') {
+            parsed.playerWins = false;
+        }
+        if (!Array.isArray(parsed.punishments)) {
+            parsed.punishments = [];
+        }
+        if (!parsed.ruling || typeof parsed.ruling !== 'string') {
+            parsed.ruling = 'The judge has made a decision.';
+        }
+        
+        res.json({
+            playerWins: parsed.playerWins,
+            punishments: parsed.punishments,
+            ruling: parsed.ruling
+        });
+    } catch (error) {
+        console.error('Error getting judgment:', error);
+        res.status(500).json({ 
+            error: 'Failed to get judgment',
+            message: error.message 
+        });
+    }
+});
+
 // Add fact to NPC (for evidence distribution)
 app.post('/api/npc/gossip/add-fact/:surname', async (req, res) => {
     try {

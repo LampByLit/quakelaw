@@ -13,6 +13,34 @@ let judgePersona = {
     characteristic: null
 };
 
+// Banished NPCs (permanently removed from game)
+let banishedNPCs = []; // Array of surnames
+
+// Restore banished NPCs from save data (call after NPCs are initialized)
+function RestoreBanishedNPCs(banishedList) {
+    if (!banishedList || !Array.isArray(banishedList)) {
+        return;
+    }
+    
+    banishedNPCs = banishedList;
+    
+    // Remove banished NPCs from allNPCs
+    if (typeof allNPCs !== 'undefined' && Array.isArray(allNPCs)) {
+        allNPCs = allNPCs.filter(npc => !banishedNPCs.includes(npc.surname));
+    }
+    
+    // Remove from gameObjects
+    if (typeof gameObjects !== 'undefined' && Array.isArray(gameObjects)) {
+        gameObjects = gameObjects.filter(obj => {
+            if (obj.isNPC && banishedNPCs.includes(obj.surname)) return false;
+            if (obj.isJudge && banishedNPCs.includes(obj.surname)) return false;
+            return true;
+        });
+    }
+    
+    console.log(`Restored ${banishedNPCs.length} banished NPCs from save data`);
+}
+
 ///////////////////////////////////////////////////////////////////////////////
 // Case File Management
 
@@ -180,8 +208,16 @@ async function AssignNPCsToRoles(individuals) {
     }
     
     try {
+        // Filter out banished NPCs
+        const availableNPCs = allNPCs.filter(npc => !IsNPCBanished(npc.surname));
+        
+        if (availableNPCs.length === 0) {
+            console.warn('No available NPCs (all may be banished)');
+            return [];
+        }
+        
         // Get NPC info for matching
-        const npcInfo = allNPCs.map(npc => ({
+        const npcInfo = availableNPCs.map(npc => ({
             surname: npc.surname,
             characteristic: npc.characteristic,
             job: npc.job
@@ -231,7 +267,7 @@ async function AssignNPCsToRoles(individuals) {
 // Fallback NPC assignment (random)
 function AssignNPCsToRolesFallback(individuals) {
     const assignments = [];
-    const availableNPCs = allNPCs.filter(npc => npc && npc.surname);
+    const availableNPCs = allNPCs.filter(npc => npc && npc.surname && !IsNPCBanished(npc.surname));
     const shuffledNPCs = availableNPCs.slice();
     
     // Shuffle
@@ -599,5 +635,305 @@ function getSessionId() {
         return sessionId;
     }
     return 'default';
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Banished NPCs Management
+
+// Check if NPC is banished
+function IsNPCBanished(surname) {
+    return banishedNPCs.includes(surname);
+}
+
+// Get list of banished NPCs
+function GetBanishedNPCs() {
+    return banishedNPCs.slice(); // Return copy
+}
+
+// Banish an NPC (permanently remove from game)
+function BanishNPC(surname) {
+    if (!surname || IsNPCBanished(surname)) {
+        return; // Already banished or invalid
+    }
+    
+    console.log(`Banishing NPC: ${surname}`);
+    
+    // Add to banished list
+    banishedNPCs.push(surname);
+    
+    // Remove from allNPCs
+    if (typeof allNPCs !== 'undefined') {
+        allNPCs = allNPCs.filter(npc => npc.surname !== surname);
+    }
+    
+    // Remove from gameObjects
+    if (typeof gameObjects !== 'undefined') {
+        gameObjects = gameObjects.filter(obj => {
+            if (obj.isNPC && obj.surname === surname) return false;
+            if (obj.isJudge && obj.surname === surname) return false;
+            return true;
+        });
+    }
+    
+    // Remove from interiors (courthouse judge, home NPCs, etc.)
+    if (typeof gameObjects !== 'undefined') {
+        for (let obj of gameObjects) {
+            if (obj.isBuilding && obj.interior) {
+                // Remove judge if it's the banished NPC
+                if (obj.interior.judge && obj.interior.judge.surname === surname) {
+                    obj.interior.judge = null;
+                }
+                // Remove NPCs from furniture list if they're NPCs (unlikely but safe)
+                if (obj.interior.furniture) {
+                    obj.interior.furniture = obj.interior.furniture.filter(f => 
+                        !(f.isNPC && f.surname === surname)
+                    );
+                }
+            }
+        }
+    }
+    
+    // Remove calendar events for this NPC
+    if (typeof calendarEvents !== 'undefined') {
+        calendarEvents = calendarEvents.filter(e => e.npcSurname !== surname);
+    }
+    
+    // Save game state
+    if (typeof SaveGameState === 'function') {
+        SaveGameState();
+    }
+}
+
+// Execute punishments from judgment decision
+async function ExecutePunishments(punishments) {
+    if (!punishments || punishments.length === 0) {
+        return;
+    }
+    
+    const sessionId = getSessionId();
+    
+    for (const punishment of punishments) {
+        const { witnessSurname, punishmentType } = punishment;
+        
+        if (!witnessSurname) continue;
+        
+        if (punishmentType === 'corporeal') {
+            // Add known fact about brutal punishment
+            try {
+                const response = await fetch(`/api/npc/gossip/add-fact/${encodeURIComponent(witnessSurname)}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        sessionId: sessionId,
+                        fact: {
+                            id: `punishment_${Date.now()}_${Math.random()}`,
+                            content: 'You have been brutally punished by the court for your testimony and should feel terrible about your actions in this case.',
+                            source: 'court',
+                            learnedFrom: 'court',
+                            timestamp: Date.now(),
+                            type: 'punishment'
+                        }
+                    })
+                });
+                
+                if (!response.ok) {
+                    console.warn(`Failed to add punishment fact to ${witnessSurname}`);
+                } else {
+                    console.log(`Applied corporeal punishment to ${witnessSurname}`);
+                }
+            } catch (error) {
+                console.error(`Error applying corporeal punishment to ${witnessSurname}:`, error);
+            }
+        } else if (punishmentType === 'banishment') {
+            // Permanently banish NPC
+            BanishNPC(witnessSurname);
+            console.log(`Banned NPC ${witnessSurname} from the game`);
+        }
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Friday Judgment Processing
+
+// Get 10 random NPCs with known facts (excluding banished NPCs)
+async function GetRandomNPCsWithFacts(count = 10) {
+    if (!allNPCs || allNPCs.length === 0) {
+        return [];
+    }
+    
+    const sessionId = getSessionId();
+    const availableNPCs = allNPCs.filter(npc => npc && npc.surname && !IsNPCBanished(npc.surname));
+    
+    // Fetch facts for each NPC
+    const npcsWithFacts = [];
+    for (const npc of availableNPCs) {
+        try {
+            const response = await fetch(`/api/npc/gossip/facts/${encodeURIComponent(npc.surname)}?sessionId=${encodeURIComponent(sessionId)}`);
+            if (response.ok) {
+                const data = await response.json();
+                if (data.knownFacts && data.knownFacts.length > 0) {
+                    npcsWithFacts.push({
+                        surname: npc.surname,
+                        facts: data.knownFacts
+                    });
+                }
+            }
+        } catch (error) {
+            console.error(`Error fetching facts for ${npc.surname}:`, error);
+        }
+    }
+    
+    // Randomly select up to 'count' NPCs
+    const selected = [];
+    const shuffled = npcsWithFacts.slice();
+    
+    // Shuffle
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    
+    return shuffled.slice(0, Math.min(count, shuffled.length));
+}
+
+// Collect all evidence from player inventory
+function CollectEvidenceFromInventory() {
+    if (!playerData || !playerData.inventory) {
+        return [];
+    }
+    
+    const evidence = [];
+    for (const item of playerData.inventory) {
+        // Only collect evidence items (not case files)
+        if (item.type && item.type.startsWith('evidence_') && item.metadata) {
+            evidence.push({
+                name: item.name || 'Unnamed Evidence',
+                metadata: item.metadata
+            });
+        }
+    }
+    
+    return evidence;
+}
+
+// Process Friday Judgment (called when player submits statement or event is missed)
+async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
+    const activeCase = GetActiveCase();
+    
+    if (!activeCase) {
+        console.error('No active case for Friday Judgment');
+        return null;
+    }
+    
+    try {
+        // Show loading notification
+        if (typeof ShowLoadingNotification !== 'undefined') {
+            ShowLoadingNotification('Judge is thinking...');
+        }
+        
+        const sessionId = getSessionId();
+        
+        // 1. Get 10 random NPCs with facts for prosecution
+        const npcsWithFacts = await GetRandomNPCsWithFacts(10);
+        const npcSurnames = npcsWithFacts.map(n => n.surname);
+        
+        // 2. Generate prosecution
+        let prosecution = '';
+        if (npcsWithFacts.length > 0) {
+            try {
+                const prosecutionResponse = await fetch(`/api/cases/prosecution?sessionId=${encodeURIComponent(sessionId)}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        caseSummary: activeCase.caseSummary,
+                        npcSurnames: npcSurnames,
+                        sessionId: sessionId
+                    })
+                });
+                
+                if (prosecutionResponse.ok) {
+                    const prosecutionData = await prosecutionResponse.json();
+                    prosecution = prosecutionData.prosecution || '';
+                }
+            } catch (error) {
+                console.error('Error generating prosecution:', error);
+            }
+        }
+        
+        // 3. Collect evidence from inventory
+        const evidence = CollectEvidenceFromInventory();
+        
+        // 4. Get judge persona
+        const judgePersona = GetJudgePersona();
+        
+        // 5. Get witnesses list
+        const witnesses = activeCase.witnesses.map(w => ({
+            surname: w.npc.surname,
+            role: w.role
+        }));
+        
+        // 6. Judge makes decision
+        const judgmentResponse = await fetch('/api/cases/judgment', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                caseSummary: activeCase.caseSummary,
+                prosecution: prosecution,
+                playerStatement: playerStatement || '',
+                evidence: evidence,
+                witnesses: witnesses,
+                judgePersona: judgePersona,
+                isMissedEvent: isMissedEvent
+            })
+        });
+        
+        if (!judgmentResponse.ok) {
+            throw new Error('Failed to get judgment decision');
+        }
+        
+        const judgmentData = await judgmentResponse.json();
+        const { playerWins, punishments, ruling } = judgmentData;
+        
+        // 7. Execute punishments
+        if (punishments && punishments.length > 0) {
+            await ExecutePunishments(punishments);
+        }
+        
+        // 8. Add coins if player won
+        if (playerWins && typeof playerData !== 'undefined') {
+            playerData.coins = (playerData.coins || 0) + 20;
+            if (typeof SaveGameState === 'function') {
+                SaveGameState();
+            }
+        }
+        
+        // Hide loading notification
+        if (typeof HideLoadingNotification !== 'undefined') {
+            HideLoadingNotification();
+        }
+        
+        return {
+            playerWins: playerWins,
+            punishments: punishments || [],
+            ruling: ruling || 'The judge has made a decision.',
+            coinsAwarded: playerWins ? 20 : 0
+        };
+        
+    } catch (error) {
+        console.error('Error processing Friday Judgment:', error);
+        
+        // Hide loading notification
+        if (typeof HideLoadingNotification !== 'undefined') {
+            HideLoadingNotification();
+        }
+        
+        return null;
+    }
 }
 

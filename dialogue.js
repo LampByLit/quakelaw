@@ -51,6 +51,30 @@ async function OpenDialogueModal(npc) {
     // Debug: Verify NPC has job
     console.log(`Opening dialogue with ${npc.surname}: job=${npc.job}, characteristic=${npc.characteristic}`);
     
+    // Check if this is the judge on Friday - trigger Friday Judgment
+    if (npc.isJudge && typeof gameTime !== 'undefined' && gameTime.dayOfWeek === 5)
+    {
+        // Check if there's a Friday Judgment event today
+        if (typeof GetEventsForDate !== 'undefined')
+        {
+            let currentYear = typeof GetCurrentYear !== 'undefined' ? GetCurrentYear(gameTime) : (gameTime.daysElapsed >= 0 ? 1 : 0);
+            let events = GetEventsForDate(currentYear, gameTime.month, gameTime.dayOfMonth);
+            let judgmentEvent = events.find(e => e.taskId === 'fridayJudgement' && e.status === 'pending');
+            
+            if (judgmentEvent && typeof GetActiveCase !== 'undefined' && typeof ProcessFridayJudgment !== 'undefined')
+            {
+                const activeCase = GetActiveCase();
+                if (activeCase) {
+                    // Show judgment statement modal
+                    ShowJudgmentStatementModal(activeCase, judgmentEvent, npc);
+                    return; // Don't open normal dialogue modal
+                } else {
+                    console.warn('Friday Judgment event found but no active case');
+                }
+            }
+        }
+    }
+    
     // Check if this is the judge on Monday - trigger case initialization
     if (npc.isJudge && typeof gameTime !== 'undefined' && gameTime.dayOfWeek === 1)
     {
@@ -657,6 +681,236 @@ function FormatConversationText(messages, npcName) {
 // Check if dialogue modal is open
 function IsDialogueModalOpen() {
     return dialogueModalOpen;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Friday Judgment Modal
+
+let judgmentModalOpen = false;
+let currentJudgmentEvent = null;
+let currentJudgmentNPC = null;
+
+// Show judgment statement modal
+function ShowJudgmentStatementModal(activeCase, event, npc) {
+    if (judgmentModalOpen) return;
+    
+    judgmentModalOpen = true;
+    currentJudgmentEvent = event;
+    currentJudgmentNPC = npc;
+    
+    // Set case summary
+    const summaryElement = document.getElementById('judgmentCaseSummary');
+    if (summaryElement && activeCase.caseSummary) {
+        summaryElement.textContent = activeCase.caseSummary;
+    }
+    
+    // Clear statement
+    const statementElement = document.getElementById('judgmentStatement');
+    if (statementElement) {
+        statementElement.value = '';
+        UpdateJudgmentWordCount();
+    }
+    
+    // Show modal
+    const modal = document.getElementById('judgmentModal');
+    if (modal) {
+        modal.classList.add('open');
+        statementElement.focus();
+    }
+    
+    // Initialize event handlers
+    InitJudgmentModal();
+}
+
+// Initialize judgment modal handlers
+function InitJudgmentModal() {
+    const closeBtn = document.getElementById('closeJudgmentModal');
+    const cancelBtn = document.getElementById('cancelJudgment');
+    const submitBtn = document.getElementById('submitJudgment');
+    const statementInput = document.getElementById('judgmentStatement');
+    
+    if (closeBtn) {
+        closeBtn.onclick = CloseJudgmentModal;
+    }
+    if (cancelBtn) {
+        cancelBtn.onclick = CloseJudgmentModal;
+    }
+    if (submitBtn) {
+        submitBtn.onclick = SubmitJudgmentStatement;
+    }
+    if (statementInput) {
+        statementInput.oninput = UpdateJudgmentWordCount;
+        statementInput.onkeydown = (e) => {
+            if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+                e.preventDefault();
+                SubmitJudgmentStatement();
+            }
+        };
+    }
+    
+    // ESC key to close
+    document.addEventListener('keydown', function escHandler(e) {
+        if (e.key === 'Escape' && judgmentModalOpen) {
+            CloseJudgmentModal();
+            document.removeEventListener('keydown', escHandler);
+        }
+    });
+}
+
+// Update word count
+function UpdateJudgmentWordCount() {
+    const statementInput = document.getElementById('judgmentStatement');
+    const wordCountElement = document.getElementById('judgmentWordCount');
+    const submitBtn = document.getElementById('submitJudgment');
+    
+    if (!statementInput || !wordCountElement) return;
+    
+    const text = statementInput.value.trim();
+    const words = text.split(/\s+/).filter(w => w.length > 0);
+    const wordCount = words.length;
+    const maxWords = 100;
+    
+    wordCountElement.textContent = `${wordCount}/${maxWords} words`;
+    
+    // Update styling
+    wordCountElement.classList.remove('warning', 'error');
+    if (wordCount > maxWords) {
+        wordCountElement.classList.add('error');
+        if (submitBtn) submitBtn.disabled = true;
+    } else if (wordCount > maxWords * 0.9) {
+        wordCountElement.classList.add('warning');
+        if (submitBtn) submitBtn.disabled = false;
+    } else {
+        if (submitBtn) submitBtn.disabled = false;
+    }
+}
+
+// Close judgment modal
+function CloseJudgmentModal() {
+    if (!judgmentModalOpen) return;
+    
+    judgmentModalOpen = false;
+    currentJudgmentEvent = null;
+    currentJudgmentNPC = null;
+    
+    const modal = document.getElementById('judgmentModal');
+    if (modal) {
+        modal.classList.remove('open');
+    }
+}
+
+// Submit judgment statement
+async function SubmitJudgmentStatement() {
+    if (!judgmentModalOpen || !currentJudgmentEvent) return;
+    
+    const statementInput = document.getElementById('judgmentStatement');
+    const submitBtn = document.getElementById('submitJudgment');
+    
+    if (!statementInput) return;
+    
+    const statement = statementInput.value.trim();
+    const words = statement.split(/\s+/).filter(w => w.length > 0);
+    
+    // Validate word count
+    if (words.length > 100) {
+        alert('Statement is too long! Maximum 100 words.');
+        return;
+    }
+    
+    // Store references before closing modal
+    const judgmentEvent = currentJudgmentEvent;
+    const judgmentNPC = currentJudgmentNPC;
+    
+    // Disable input
+    if (statementInput) statementInput.disabled = true;
+    if (submitBtn) submitBtn.disabled = true;
+    
+    // Close judgment modal
+    CloseJudgmentModal();
+    
+    // Process judgment
+    if (typeof ProcessFridayJudgment !== 'undefined') {
+        try {
+            const result = await ProcessFridayJudgment(statement, false);
+            
+            if (result) {
+                // Show results in dialogue modal
+                await ShowJudgmentResults(result, judgmentNPC);
+                
+                // Complete event
+                if (judgmentEvent) {
+                    judgmentEvent.status = 'completed';
+                    if (typeof RemoveEvent !== 'undefined') {
+                        RemoveEvent(judgmentEvent.id);
+                    }
+                }
+                
+                // Clear active case
+                if (typeof ClearActiveCase !== 'undefined') {
+                    ClearActiveCase();
+                }
+                
+                // Show success notification
+                if (typeof ShowSuccessNotification !== 'undefined') {
+                    ShowSuccessNotification(result.playerWins ? 'Case won! +$20' : 'Case lost');
+                }
+            } else {
+                alert('Error processing judgment. Please try again.');
+            }
+        } catch (error) {
+            console.error('Error processing judgment:', error);
+            alert('Error processing judgment. Please try again.');
+        }
+    }
+}
+
+// Show judgment results in dialogue modal
+async function ShowJudgmentResults(result, npc) {
+    if (!npc) return;
+    
+    // Open dialogue modal
+    await OpenDialogueModal(npc);
+    
+    // Add ruling to conversation
+    if (typeof conversationHistory !== 'undefined') {
+        conversationHistory.push({
+            role: 'npc',
+            message: result.ruling,
+            timestamp: Date.now()
+        });
+        
+        // Add results summary
+        let summary = '\n\n--- JUDGMENT RESULTS ---\n';
+        summary += result.playerWins ? 'VERDICT: You WON the case!\n' : 'VERDICT: You LOST the case.\n';
+        
+        if (result.coinsAwarded > 0) {
+            summary += `REWARD: $${result.coinsAwarded} coins\n`;
+        }
+        
+        if (result.punishments && result.punishments.length > 0) {
+            summary += '\nPUNISHMENTS:\n';
+            for (const p of result.punishments) {
+                if (p.punishmentType === 'corporeal') {
+                    summary += `- ${p.witnessSurname}: Corporeal punishment\n`;
+                } else if (p.punishmentType === 'banishment') {
+                    summary += `- ${p.witnessSurname}: Permanently banished\n`;
+                }
+            }
+        } else {
+            summary += '\nNo witnesses were punished.\n';
+        }
+        
+        conversationHistory.push({
+            role: 'system',
+            message: summary,
+            timestamp: Date.now()
+        });
+        
+        // Update display
+        if (typeof UpdateConversationDisplay !== 'undefined') {
+            UpdateConversationDisplay();
+        }
+    }
 }
 
 // Initialize on page load

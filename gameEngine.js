@@ -205,6 +205,7 @@ let paused = 0;
 let timeDelta = 1/60;
 let shadowRenderPass = 0;
 let hitRenderPass = 0;
+let mainCanvas;
 let mainCanvasContext;
 let tileMaskCanvas;
 let tileMaskCanvasContext;
@@ -219,6 +220,7 @@ let levelSize = 64;
 function EngineInit()
 {
     // set the main canvas size to half size of the window
+    if (!mainCanvas) mainCanvas = c1; // Initialize mainCanvas from the canvas element
     mainCanvasContext = mainCanvas.getContext('2d');
     mainCanvasSize.Set(window.innerWidth/2|0,window.innerHeight/2|0);
     mainCanvas.width = mainCanvasSize.x;
@@ -379,6 +381,7 @@ onmouseup     = function(e) { mouseIsDown=0; }
 onmousemove   = function(e) 
 { 
     // convert mouse pos to canvas space
+    if (!mainCanvas) mainCanvas = c1; // Ensure mainCanvas is initialized
     let rect = mainCanvas.getBoundingClientRect();
     mousePos.Set
     ( 

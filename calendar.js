@@ -722,13 +722,13 @@ function ScheduleCaseOfTheMondays()
         return;
     
     // Check if event already exists for this date (prevent duplicates)
-    let existingEvents = calendarEvents.filter(e => 
+    let nextMondayEvents = calendarEvents.filter(e => 
         e.year === nextMonday.year && 
         e.month === nextMonday.month && 
         e.day === nextMonday.day &&
         e.taskId === 'caseOfTheMondays'
     );
-    if (existingEvents.length > 0)
+    if (nextMondayEvents.length > 0)
     {
         // Event already exists, just update task data
         if (calendarTasks['caseOfTheMondays'])

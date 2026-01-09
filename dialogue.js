@@ -51,6 +51,12 @@ async function OpenDialogueModal(npc) {
     // Debug: Verify NPC has job
     console.log(`Opening dialogue with ${npc.surname}: job=${npc.job}, characteristic=${npc.characteristic}`);
     
+    // Check and complete calendar events when player talks to NPC
+    if (typeof CheckAndCompleteCalendarEvents !== 'undefined' && typeof gameTime !== 'undefined')
+    {
+        CheckAndCompleteCalendarEvents(npc, gameTime);
+    }
+    
     // Reset recording state
     isRecording = false;
     recordingStartIndex = -1;

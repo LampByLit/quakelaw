@@ -59,6 +59,15 @@ let evidenceViewModalOpen = false;
 let evidenceViewItem = null;
 let evidenceViewScrollOffset = 0;
 
+// Calendar system
+let calendarOpen = false;
+let calendarButtonHover = false;
+let calendarViewMonth = 1; // Current month being viewed (1-12)
+let calendarViewYear = 1; // Current year being viewed (starts at 1)
+let calendarSelectedDate = null; // { month, day } when viewing date details
+let calendarEvents = []; // Array of event objects
+let calendarTasks = {}; // Task registry: { taskId: { active: bool, data: {...} } }
+
 class GameTime
 {
     constructor()
@@ -104,6 +113,12 @@ class GameTime
     
     AdvanceDay()
     {
+        // Process missed events from the day that just ended (current day before advancing)
+        if (typeof ProcessMissedEvents !== 'undefined')
+        {
+            ProcessMissedEvents(this);
+        }
+        
         this.daysElapsed++;
         this.dayOfWeek = (this.dayOfWeek + 1) % 7;
         this.dayOfMonth++;
@@ -493,6 +508,12 @@ function GenerateWorldAsync()
                                     // Generate NPCs after town is created (and all buildings have addresses)
                                     GenerateNPCs();
                                     
+                                    // Initialize calendar tasks (Sunday Coffee)
+                                    if (typeof InitializeSundayCoffee !== 'undefined')
+                                    {
+                                        InitializeSundayCoffee();
+                                    }
+                                    
                                     setTimeout(() => {
                                         requestAnimationFrame(() => {
                                             loadingProgress = 1.0;
@@ -663,6 +684,37 @@ function Update()
         inventoryButtonHover = false;
     }
     
+    // Check for calendar button hover and click
+    // Don't allow calendar to open if dialogue modal is open
+    if (!calendarOpen && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()))
+    {
+        let calButtonX = 40;
+        let calButtonY = 150;
+        let calButtonWidth = 30;
+        let calButtonHeight = 30;
+        
+        // Check if mouse is hovering over calendar button
+        calendarButtonHover = (mousePos.x >= calButtonX - calButtonWidth/2 && mousePos.x <= calButtonX + calButtonWidth/2 &&
+                              mousePos.y >= calButtonY - calButtonHeight/2 && mousePos.y <= calButtonY + calButtonHeight/2);
+        
+        // Check for calendar button click
+        if (MouseWasPressed() && calendarButtonHover)
+        {
+            calendarOpen = true;
+            // Sync calendar view with current date
+            if (gameTime)
+            {
+                calendarViewYear = gameTime.daysElapsed >= 0 ? 1 : 0;
+                calendarViewMonth = gameTime.month;
+            }
+        }
+    }
+    else
+    {
+        // Reset hover state when calendar or dialogue is open
+        calendarButtonHover = false;
+    }
+    
     // Check for inventory key press (I key = 73)
     // Don't open inventory if dialogue modal is open
     if (KeyWasPressed(73) && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()))
@@ -679,6 +731,12 @@ function Update()
     {
         inventoryOpen = false;
         inventoryDropMode = false; // Reset drop mode when closing
+    }
+    
+    // Update calendar
+    if (typeof UpdateCalendar !== 'undefined')
+    {
+        UpdateCalendar();
     }
         
 }
@@ -784,6 +842,27 @@ function PostRender()
         DrawText('i', invButtonX, invButtonY, 16, 'center', 1, '#FFF', '#000');
     }
     
+    // Calendar button (below inventory button)
+    {
+        let calButtonX = 40;
+        let calButtonY = 150;
+        let calButtonWidth = 30;
+        let calButtonHeight = 30;
+        
+        // Draw button background (hover state is set in Update())
+        let bgColor = calendarButtonHover ? '#48F' : '#248';
+        mainCanvasContext.fillStyle = bgColor;
+        mainCanvasContext.fillRect(calButtonX - calButtonWidth/2, calButtonY - calButtonHeight/2, calButtonWidth, calButtonHeight);
+        
+        // Draw button border
+        mainCanvasContext.strokeStyle = '#FFF';
+        mainCanvasContext.lineWidth = 2;
+        mainCanvasContext.strokeRect(calButtonX - calButtonWidth/2, calButtonY - calButtonHeight/2, calButtonWidth, calButtonHeight);
+        
+        // Draw button text ('C')
+        DrawText('C', calButtonX, calButtonY, 16, 'center', 1, '#FFF', '#000');
+    }
+    
     // Reset button (top-right)
     {
         let buttonX = mainCanvasSize.x - 100;
@@ -842,6 +921,18 @@ function PostRender()
     if (inventoryOpen)
     {
         RenderInventoryModal();
+    }
+    
+    // Render calendar modal if open
+    if (calendarOpen && typeof RenderCalendarModal !== 'undefined')
+    {
+        RenderCalendarModal();
+    }
+    
+    // Render success notification
+    if (typeof RenderSuccessNotification !== 'undefined')
+    {
+        RenderSuccessNotification();
     }
     
     // Render evidence naming modal if open

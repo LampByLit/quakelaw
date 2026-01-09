@@ -1,0 +1,782 @@
+///////////////////////////////////////////////////////////////////////////////
+// Calendar System
+// Handles calendar modal, event scheduling, task system, and event completion
+
+// Success notification
+let successNotificationVisible = false;
+let successNotificationTimer = new Timer();
+let successNotificationText = '';
+
+// Event ID counter (for unique event IDs)
+let nextEventId = 1;
+
+///////////////////////////////////////////////////////////////////////////////
+// Event Management
+
+// Create a new event
+function CreateCalendarEvent(year, month, day, npcSurname, houseAddress, workAddress, taskId = null)
+{
+    let event = {
+        id: nextEventId++,
+        year: year,
+        month: month,
+        day: day,
+        npcSurname: npcSurname,
+        houseAddress: houseAddress,
+        workAddress: workAddress,
+        status: 'pending', // 'pending', 'completed', 'missed'
+        taskId: taskId,
+        createdAt: gameTime ? gameTime.daysElapsed : 0
+    };
+    
+    calendarEvents.push(event);
+    return event;
+}
+
+// Get events for a specific date
+function GetEventsForDate(year, month, day)
+{
+    return calendarEvents.filter(e => 
+        e.year === year && 
+        e.month === month && 
+        e.day === day
+    );
+}
+
+// Get pending events for a specific date
+function GetPendingEventsForDate(year, month, day)
+{
+    return calendarEvents.filter(e => 
+        e.year === year && 
+        e.month === month && 
+        e.day === day &&
+        e.status === 'pending'
+    );
+}
+
+// Check if date has any events
+function DateHasEvents(year, month, day)
+{
+    return GetEventsForDate(year, month, day).length > 0;
+}
+
+// Check if date has pending events
+function DateHasPendingEvents(year, month, day)
+{
+    return GetPendingEventsForDate(year, month, day).length > 0;
+}
+
+// Check if date has missed events (for red highlighting)
+function DateHasMissedEvents(year, month, day)
+{
+    return calendarEvents.some(e => 
+        e.year === year && 
+        e.month === month && 
+        e.day === day &&
+        e.status === 'missed'
+    );
+}
+
+// Remove event by ID
+function RemoveEvent(eventId)
+{
+    let index = calendarEvents.findIndex(e => e.id === eventId);
+    if (index !== -1)
+    {
+        calendarEvents.splice(index, 1);
+        return true;
+    }
+    return false;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Event Completion Detection
+
+// Check and complete events when player talks to NPC
+function CheckAndCompleteCalendarEvents(npc, currentGameTime)
+{
+    if (!npc || !currentGameTime)
+        return;
+    
+    // Get current date
+    let currentYear = currentGameTime.daysElapsed >= 0 ? 1 : 0; // Year 1 for now
+    let currentMonth = currentGameTime.month;
+    let currentDay = currentGameTime.dayOfMonth;
+    
+    // Find pending events for this NPC on current date
+    let matchingEvents = calendarEvents.filter(e => 
+        e.status === 'pending' &&
+        e.year === currentYear &&
+        e.month === currentMonth &&
+        e.day === currentDay &&
+        e.npcSurname === npc.surname
+    );
+    
+    // Complete all matching events
+    for (let event of matchingEvents)
+    {
+        event.status = 'completed';
+        
+        // Give reward
+        GiveEventReward();
+        
+        // Trigger task if associated
+        if (event.taskId)
+        {
+            TriggerTask(event.taskId);
+        }
+        
+        // Remove completed event from calendar
+        RemoveEvent(event.id);
+        
+        // Show success notification
+        ShowSuccessNotification('Meeting Successfully Attended');
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Reward System
+
+// Give random reward for completing event
+function GiveEventReward()
+{
+    if (!playerData)
+        return;
+    
+    // Weighted random: 70% credibility, 25% countersuit, 5% exculpation
+    let roll = RandBetween(0, 100);
+    let rewardType, rewardName, tileX, tileY;
+    
+    if (roll < 70)
+    {
+        // Credibility (common) - sprite index 18
+        rewardType = 'credibility';
+        rewardName = 'Credibility';
+        tileX = 18 % 8; // 2
+        tileY = Math.floor(18 / 8); // 2
+    }
+    else if (roll < 95)
+    {
+        // Countersuit (less common) - sprite index 19
+        rewardType = 'countersuit';
+        rewardName = 'Countersuit';
+        tileX = 19 % 8; // 3
+        tileY = Math.floor(19 / 8); // 2
+    }
+    else
+    {
+        // Exculpation (least common) - sprite index 20
+        rewardType = 'exculpation';
+        rewardName = 'Exculpation';
+        tileX = 20 % 8; // 4
+        tileY = Math.floor(20 / 8); // 2
+    }
+    
+    // Add to inventory
+    playerData.AddToInventory(rewardType, rewardName, tileX, tileY, 1);
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Missed Event Handling
+
+// Process missed events (called at day rollover)
+// Called BEFORE day advances, so currentGameTime represents the day that just ended
+function ProcessMissedEvents(currentGameTime)
+{
+    if (!currentGameTime)
+        return;
+    
+    // Get the date that just ended (current day before advancing)
+    let endedDay = currentGameTime.dayOfMonth;
+    let endedMonth = currentGameTime.month;
+    let endedYear = currentGameTime.daysElapsed >= 0 ? 1 : 0;
+    
+    // Mark the day that just ended's pending events as missed
+    let endedDayEvents = calendarEvents.filter(e => 
+        e.status === 'pending' &&
+        e.year === endedYear &&
+        e.month === endedMonth &&
+        e.day === endedDay
+    );
+    
+    for (let event of endedDayEvents)
+    {
+        event.status = 'missed';
+    }
+    
+    // Remove missed events from the day before the day that just ended (missed events are removed after 1 day)
+    let dayToRemove = endedDay - 1;
+    let dayToRemoveMonth = endedMonth;
+    let dayToRemoveYear = endedYear;
+    
+    if (dayToRemove < 1)
+    {
+        dayToRemoveMonth--;
+        dayToRemove = 28; // All months have 28 days
+        if (dayToRemoveMonth < 1)
+        {
+            dayToRemoveMonth = 12;
+            dayToRemoveYear--;
+        }
+    }
+    
+    let oldMissedEvents = calendarEvents.filter(e => 
+        e.status === 'missed' &&
+        e.year === dayToRemoveYear &&
+        e.month === dayToRemoveMonth &&
+        e.day === dayToRemove
+    );
+    
+    for (let event of oldMissedEvents)
+    {
+        RemoveEvent(event.id);
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Task System
+
+// Register a task
+function RegisterTask(taskId, data = {})
+{
+    calendarTasks[taskId] = {
+        active: true,
+        data: data
+    };
+}
+
+// Trigger a task (called when event is completed)
+function TriggerTask(taskId)
+{
+    if (!calendarTasks[taskId] || !calendarTasks[taskId].active)
+        return;
+    
+    // Handle specific tasks
+    if (taskId === 'sundayCoffee')
+    {
+        ScheduleSundayCoffee();
+    }
+    // Add more tasks here as needed
+}
+
+// Find next Sunday from current date
+function FindNextSunday(currentGameTime)
+{
+    if (!currentGameTime)
+        return null;
+    
+    let currentYear = currentGameTime.daysElapsed >= 0 ? 1 : 0;
+    let currentMonth = currentGameTime.month;
+    let currentDay = currentGameTime.dayOfMonth;
+    let currentDayOfWeek = currentGameTime.dayOfWeek;
+    
+    // Calculate days until next Sunday
+    let daysUntilSunday = (7 - currentDayOfWeek) % 7;
+    if (daysUntilSunday === 0)
+        daysUntilSunday = 7; // If today is Sunday, get next Sunday
+    
+    let nextSundayDay = currentDay + daysUntilSunday;
+    let nextSundayMonth = currentMonth;
+    let nextSundayYear = currentYear;
+    
+    // Handle month rollover
+    if (nextSundayDay > 28)
+    {
+        nextSundayDay -= 28;
+        nextSundayMonth++;
+        if (nextSundayMonth > 12)
+        {
+            nextSundayMonth = 1;
+            nextSundayYear++;
+        }
+    }
+    
+    return {
+        year: nextSundayYear,
+        month: nextSundayMonth,
+        day: nextSundayDay
+    };
+}
+
+// Schedule Sunday Coffee event
+function ScheduleSundayCoffee()
+{
+    if (!gameTime)
+        return;
+    
+    // Find next Sunday
+    let nextSunday = FindNextSunday(gameTime);
+    if (!nextSunday)
+        return;
+    
+    // Pick random NPC
+    if (!allNPCs || allNPCs.length === 0)
+        return;
+    
+    let randomNPC = allNPCs[RandInt(allNPCs.length)];
+    
+    // Create event
+    CreateCalendarEvent(
+        nextSunday.year,
+        nextSunday.month,
+        nextSunday.day,
+        randomNPC.surname,
+        randomNPC.houseAddress,
+        randomNPC.workAddress,
+        'sundayCoffee'
+    );
+    
+    // Update task data
+    if (calendarTasks['sundayCoffee'])
+    {
+        calendarTasks['sundayCoffee'].data.lastScheduledDate = nextSunday;
+    }
+}
+
+// Initialize Sunday Coffee task (call on game start)
+function InitializeSundayCoffee()
+{
+    if (!gameTime)
+        return;
+    
+    // Register task
+    RegisterTask('sundayCoffee', {
+        lastScheduledDate: null
+    });
+    
+    // If today is Sunday, schedule for today
+    if (gameTime.dayOfWeek === 0)
+    {
+        let randomNPC = allNPCs && allNPCs.length > 0 ? allNPCs[RandInt(allNPCs.length)] : null;
+        if (randomNPC)
+        {
+            let currentYear = gameTime.daysElapsed >= 0 ? 1 : 0;
+            CreateCalendarEvent(
+                currentYear,
+                gameTime.month,
+                gameTime.dayOfMonth,
+                randomNPC.surname,
+                randomNPC.houseAddress,
+                randomNPC.workAddress,
+                'sundayCoffee'
+            );
+            
+            calendarTasks['sundayCoffee'].data.lastScheduledDate = {
+                year: currentYear,
+                month: gameTime.month,
+                day: gameTime.dayOfMonth
+            };
+        }
+    }
+    else
+    {
+        // Schedule for next Sunday
+        ScheduleSundayCoffee();
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Success Notification
+
+function ShowSuccessNotification(text)
+{
+    successNotificationVisible = true;
+    successNotificationText = text;
+    successNotificationTimer.Set(3.0); // Show for 3 seconds
+}
+
+function UpdateSuccessNotification()
+{
+    if (successNotificationVisible && successNotificationTimer.Elapsed())
+    {
+        successNotificationVisible = false;
+        successNotificationTimer.UnSet();
+    }
+}
+
+function RenderSuccessNotification()
+{
+    if (!successNotificationVisible)
+        return;
+    
+    // Draw semi-transparent overlay
+    mainCanvasContext.fillStyle = 'rgba(0, 0, 0, 0.5)';
+    mainCanvasContext.fillRect(0, 0, mainCanvasSize.x, mainCanvasSize.y);
+    
+    // Modal dimensions
+    let modalWidth = 400;
+    let modalHeight = 120;
+    let modalX = mainCanvasSize.x / 2;
+    let modalY = mainCanvasSize.y / 2;
+    
+    // Draw modal background
+    mainCanvasContext.fillStyle = '#2a4a2a';
+    mainCanvasContext.fillRect(modalX - modalWidth/2, modalY - modalHeight/2, modalWidth, modalHeight);
+    
+    // Draw modal border
+    mainCanvasContext.strokeStyle = '#4aff4a';
+    mainCanvasContext.lineWidth = 4;
+    mainCanvasContext.strokeRect(modalX - modalWidth/2, modalY - modalHeight/2, modalWidth, modalHeight);
+    
+    // Draw text
+    DrawText(successNotificationText, modalX, modalY, 16, 'center', 1, '#4aff4a', '#000');
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Calendar Modal UI
+
+// Update calendar (called from game.js Update())
+function UpdateCalendar()
+{
+    if (!calendarOpen)
+        return;
+    
+    // Close calendar with Escape key
+    if (KeyWasPressed(27))
+    {
+        calendarOpen = false;
+        calendarSelectedDate = null;
+        return;
+    }
+    
+    UpdateSuccessNotification();
+}
+
+// Render calendar modal (called from game.js PostRender())
+function RenderCalendarModal()
+{
+    if (!calendarOpen)
+        return;
+    
+    // Draw semi-transparent overlay
+    mainCanvasContext.fillStyle = 'rgba(0, 0, 0, 0.7)';
+    mainCanvasContext.fillRect(0, 0, mainCanvasSize.x, mainCanvasSize.y);
+    
+    // Modal dimensions
+    let modalWidth = 600;
+    let modalHeight = 500;
+    let modalX = mainCanvasSize.x / 2;
+    let modalY = mainCanvasSize.y / 2;
+    
+    // Draw modal background
+    mainCanvasContext.fillStyle = '#333';
+    mainCanvasContext.fillRect(modalX - modalWidth/2, modalY - modalHeight/2, modalWidth, modalHeight);
+    
+    // Draw modal border
+    mainCanvasContext.strokeStyle = '#FFF';
+    mainCanvasContext.lineWidth = 3;
+    mainCanvasContext.strokeRect(modalX - modalWidth/2, modalY - modalHeight/2, modalWidth, modalHeight);
+    
+    if (calendarSelectedDate)
+    {
+        // Show date details view
+        RenderDateDetailsView(modalX, modalY, modalWidth, modalHeight);
+    }
+    else
+    {
+        // Show month view
+        RenderMonthView(modalX, modalY, modalWidth, modalHeight);
+    }
+}
+
+// Render month view
+function RenderMonthView(modalX, modalY, modalWidth, modalHeight)
+{
+    // Title
+    let monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    let monthName = monthNames[calendarViewMonth - 1];
+    DrawText(`CALENDAR - ${monthName.toUpperCase()} YEAR ${calendarViewYear}`, modalX, modalY - modalHeight/2 + 25, 14, 'center', 1, '#FFF', '#000');
+    
+    // Navigation buttons
+    let navButtonWidth = 60;
+    let navButtonHeight = 30;
+    let navButtonY = modalY - modalHeight/2 + 25;
+    
+    // Previous month button
+    let prevButtonX = modalX - modalWidth/2 + 50;
+    let prevButtonHover = (mousePos.x >= prevButtonX - navButtonWidth/2 && mousePos.x <= prevButtonX + navButtonWidth/2 &&
+                          mousePos.y >= navButtonY - navButtonHeight/2 && mousePos.y <= navButtonY + navButtonHeight/2);
+    
+    mainCanvasContext.fillStyle = prevButtonHover ? '#844' : '#644';
+    mainCanvasContext.fillRect(prevButtonX - navButtonWidth/2, navButtonY - navButtonHeight/2, navButtonWidth, navButtonHeight);
+    mainCanvasContext.strokeStyle = '#FFF';
+    mainCanvasContext.lineWidth = 2;
+    mainCanvasContext.strokeRect(prevButtonX - navButtonWidth/2, navButtonY - navButtonHeight/2, navButtonWidth, navButtonHeight);
+    DrawText('<', prevButtonX, navButtonY, 14, 'center', 1, '#FFF', '#000');
+    
+    if (MouseWasPressed() && prevButtonHover)
+    {
+        // Check bounds: can't go before Year 1 Month 1
+        if (!(calendarViewYear === 1 && calendarViewMonth === 1))
+        {
+            calendarViewMonth--;
+            if (calendarViewMonth < 1)
+            {
+                calendarViewMonth = 12;
+                calendarViewYear--;
+            }
+        }
+    }
+    
+    // Next month button
+    let nextButtonX = modalX + modalWidth/2 - 50;
+    let nextButtonHover = (mousePos.x >= nextButtonX - navButtonWidth/2 && mousePos.x <= nextButtonX + navButtonWidth/2 &&
+                          mousePos.y >= navButtonY - navButtonHeight/2 && mousePos.y <= navButtonY + navButtonHeight/2);
+    
+    mainCanvasContext.fillStyle = nextButtonHover ? '#844' : '#644';
+    mainCanvasContext.fillRect(nextButtonX - navButtonWidth/2, navButtonY - navButtonHeight/2, navButtonWidth, navButtonHeight);
+    mainCanvasContext.strokeStyle = '#FFF';
+    mainCanvasContext.lineWidth = 2;
+    mainCanvasContext.strokeRect(nextButtonX - navButtonWidth/2, navButtonY - navButtonHeight/2, navButtonWidth, navButtonHeight);
+    DrawText('>', nextButtonX, navButtonY, 14, 'center', 1, '#FFF', '#000');
+    
+    if (MouseWasPressed() && nextButtonHover)
+    {
+        // Check bounds: can't go after Year 1 Month 12 Day 28
+        if (!(calendarViewYear === 1 && calendarViewMonth === 12))
+        {
+            calendarViewMonth++;
+            if (calendarViewMonth > 12)
+            {
+                calendarViewMonth = 1;
+                calendarViewYear++;
+            }
+        }
+    }
+    
+    // Close button
+    let closeButtonX = modalX + modalWidth/2 - 30;
+    let closeButtonY = modalY - modalHeight/2 + 25;
+    let closeButtonSize = 20;
+    
+    let closeButtonHover = (mousePos.x >= closeButtonX - closeButtonSize/2 && mousePos.x <= closeButtonX + closeButtonSize/2 &&
+                           mousePos.y >= closeButtonY - closeButtonSize/2 && mousePos.y <= closeButtonY + closeButtonSize/2);
+    
+    mainCanvasContext.fillStyle = closeButtonHover ? '#F44' : '#844';
+    mainCanvasContext.fillRect(closeButtonX - closeButtonSize/2, closeButtonY - closeButtonSize/2, closeButtonSize, closeButtonSize);
+    mainCanvasContext.strokeStyle = '#FFF';
+    mainCanvasContext.lineWidth = 2;
+    mainCanvasContext.strokeRect(closeButtonX - closeButtonSize/2, closeButtonY - closeButtonSize/2, closeButtonSize, closeButtonSize);
+    DrawText('X', closeButtonX, closeButtonY, 12, 'center', 1, '#FFF', '#000');
+    
+    if (MouseWasPressed() && closeButtonHover)
+    {
+        calendarOpen = false;
+        return;
+    }
+    
+    // Calendar grid (4 weeks × 7 days = 28 days)
+    let gridStartX = modalX - modalWidth/2 + 50;
+    let gridStartY = modalY - modalHeight/2 + 80;
+    let cellWidth = 70;
+    let cellHeight = 60;
+    let cellSpacing = 5;
+    
+    // Day labels (Sun, Mon, Tue, Wed, Thu, Fri, Sat)
+    let dayLabels = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
+    for (let col = 0; col < 7; col++)
+    {
+        let labelX = gridStartX + col * (cellWidth + cellSpacing) + cellWidth/2;
+        let labelY = gridStartY - 20;
+        DrawText(dayLabels[col], labelX, labelY, 10, 'center', 1, '#AAA', '#000');
+    }
+    
+    // Draw calendar days
+    for (let day = 1; day <= 28; day++)
+    {
+        let week = Math.floor((day - 1) / 7);
+        let dayOfWeek = (day - 1) % 7;
+        
+        let cellX = gridStartX + dayOfWeek * (cellWidth + cellSpacing);
+        let cellY = gridStartY + week * (cellHeight + cellSpacing);
+        
+        // Check if this is current date
+        let currentYear = gameTime && gameTime.daysElapsed >= 0 ? 1 : 0;
+        let isCurrentDate = gameTime && 
+                           calendarViewYear === currentYear &&
+                           calendarViewMonth === gameTime.month &&
+                           day === gameTime.dayOfMonth;
+        
+        // Check if date has events
+        let hasEvents = DateHasEvents(calendarViewYear, calendarViewMonth, day);
+        let hasPendingEvents = DateHasPendingEvents(calendarViewYear, calendarViewMonth, day);
+        let hasMissedEvents = DateHasMissedEvents(calendarViewYear, calendarViewMonth, day);
+        
+        // Check if mouse is over this cell
+        let cellHover = (mousePos.x >= cellX && mousePos.x <= cellX + cellWidth &&
+                        mousePos.y >= cellY && mousePos.y <= cellY + cellHeight);
+        
+        // Determine cell color
+        let cellColor = '#222';
+        if (hasMissedEvents)
+            cellColor = '#422'; // Red for missed events
+        else if (hasPendingEvents)
+            cellColor = '#242'; // Green for pending events
+        else if (hasEvents)
+            cellColor = '#442'; // Yellow for completed events
+        else if (isCurrentDate)
+            cellColor = '#333'; // Darker for current date
+        
+        if (cellHover)
+            cellColor = '#444'; // Lighter on hover
+        
+        // Draw cell background
+        mainCanvasContext.fillStyle = cellColor;
+        mainCanvasContext.fillRect(cellX, cellY, cellWidth, cellHeight);
+        
+        // Draw cell border
+        mainCanvasContext.strokeStyle = isCurrentDate ? '#4a9eff' : '#666';
+        mainCanvasContext.lineWidth = isCurrentDate ? 3 : 1;
+        mainCanvasContext.strokeRect(cellX, cellY, cellWidth, cellHeight);
+        
+        // Draw day number
+        DrawText(day.toString(), cellX + cellWidth/2, cellY + 20, 14, 'center', 1, '#FFF', '#000');
+        
+        // Draw event indicator (small dot)
+        if (hasEvents)
+        {
+            let dotSize = 6;
+            let dotX = cellX + cellWidth/2;
+            let dotY = cellY + cellHeight - 12;
+            mainCanvasContext.fillStyle = hasMissedEvents ? '#F44' : (hasPendingEvents ? '#4F4' : '#FF4');
+            mainCanvasContext.beginPath();
+            mainCanvasContext.arc(dotX, dotY, dotSize, 0, Math.PI * 2);
+            mainCanvasContext.fill();
+        }
+        
+        // Handle click
+        if (cellHover && MouseWasPressed())
+        {
+            calendarSelectedDate = {
+                year: calendarViewYear,
+                month: calendarViewMonth,
+                day: day
+            };
+        }
+    }
+}
+
+// Render date details view
+function RenderDateDetailsView(modalX, modalY, modalWidth, modalHeight)
+{
+    // Title
+    let monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    let monthName = monthNames[calendarSelectedDate.month - 1];
+    DrawText(`${monthName.toUpperCase()} ${calendarSelectedDate.day}, YEAR ${calendarSelectedDate.year}`, modalX, modalY - modalHeight/2 + 25, 14, 'center', 1, '#FFF', '#000');
+    
+    // Back button
+    let backButtonX = modalX - modalWidth/2 + 50;
+    let backButtonY = modalY - modalHeight/2 + 25;
+    let backButtonWidth = 80;
+    let backButtonHeight = 30;
+    
+    let backButtonHover = (mousePos.x >= backButtonX - backButtonWidth/2 && mousePos.x <= backButtonX + backButtonWidth/2 &&
+                          mousePos.y >= backButtonY - backButtonHeight/2 && mousePos.y <= backButtonY + backButtonHeight/2);
+    
+    mainCanvasContext.fillStyle = backButtonHover ? '#844' : '#644';
+    mainCanvasContext.fillRect(backButtonX - backButtonWidth/2, backButtonY - backButtonHeight/2, backButtonWidth, backButtonHeight);
+    mainCanvasContext.strokeStyle = '#FFF';
+    mainCanvasContext.lineWidth = 2;
+    mainCanvasContext.strokeRect(backButtonX - backButtonWidth/2, backButtonY - backButtonHeight/2, backButtonWidth, backButtonHeight);
+    DrawText('BACK', backButtonX, backButtonY, 10, 'center', 1, '#FFF', '#000');
+    
+    if (MouseWasPressed() && backButtonHover)
+    {
+        calendarSelectedDate = null;
+        return;
+    }
+    
+    // Close button
+    let closeButtonX = modalX + modalWidth/2 - 30;
+    let closeButtonY = modalY - modalHeight/2 + 25;
+    let closeButtonSize = 20;
+    
+    let closeButtonHover = (mousePos.x >= closeButtonX - closeButtonSize/2 && mousePos.x <= closeButtonX + closeButtonSize/2 &&
+                           mousePos.y >= closeButtonY - closeButtonSize/2 && mousePos.y <= closeButtonY + closeButtonSize/2);
+    
+    mainCanvasContext.fillStyle = closeButtonHover ? '#F44' : '#844';
+    mainCanvasContext.fillRect(closeButtonX - closeButtonSize/2, closeButtonY - closeButtonSize/2, closeButtonSize, closeButtonSize);
+    mainCanvasContext.strokeStyle = '#FFF';
+    mainCanvasContext.lineWidth = 2;
+    mainCanvasContext.strokeRect(closeButtonX - closeButtonSize/2, closeButtonY - closeButtonSize/2, closeButtonSize, closeButtonSize);
+    DrawText('X', closeButtonX, closeButtonY, 12, 'center', 1, '#FFF', '#000');
+    
+    if (MouseWasPressed() && closeButtonHover)
+    {
+        calendarOpen = false;
+        calendarSelectedDate = null;
+        return;
+    }
+    
+    // Get events for this date
+    let events = GetEventsForDate(calendarSelectedDate.year, calendarSelectedDate.month, calendarSelectedDate.day);
+    
+    // Event list area
+    let listStartY = modalY - modalHeight/2 + 70;
+    let listItemHeight = 50;
+    let listItemSpacing = 10;
+    let maxVisibleItems = 7;
+    
+    if (events.length === 0)
+    {
+        DrawText('No events scheduled', modalX, modalY, 12, 'center', 1, '#AAA', '#000');
+    }
+    else
+    {
+        // Draw each event
+        for (let i = 0; i < events.length && i < maxVisibleItems; i++)
+        {
+            let event = events[i];
+            let itemY = listStartY + i * (listItemHeight + listItemSpacing);
+            
+            // Event background
+            let eventColor = '#222';
+            if (event.status === 'missed')
+                eventColor = '#422';
+            else if (event.status === 'pending')
+                eventColor = '#242';
+            else if (event.status === 'completed')
+                eventColor = '#442';
+            
+            mainCanvasContext.fillStyle = eventColor;
+            mainCanvasContext.fillRect(modalX - modalWidth/2 + 30, itemY, modalWidth - 60, listItemHeight);
+            
+            // Event border
+            mainCanvasContext.strokeStyle = '#666';
+            mainCanvasContext.lineWidth = 2;
+            mainCanvasContext.strokeRect(modalX - modalWidth/2 + 30, itemY, modalWidth - 60, listItemHeight);
+            
+            // Event text
+            let textX = modalX - modalWidth/2 + 50;
+            let textY = itemY + listItemHeight/2;
+            
+            // NPC name
+            DrawText(event.npcSurname, textX, textY - 10, 12, 'left', 1, '#FFF', '#000');
+            
+            // Addresses
+            DrawText(`Home: ${event.houseAddress}`, textX, textY + 5, 10, 'left', 1, '#AAA', '#000');
+            DrawText(`Work: ${event.workAddress}`, textX, textY + 18, 10, 'left', 1, '#AAA', '#000');
+            
+            // Status indicator
+            let statusText = '';
+            if (event.status === 'missed')
+                statusText = 'MISSED';
+            else if (event.status === 'pending')
+                statusText = 'PENDING';
+            else if (event.status === 'completed')
+                statusText = 'COMPLETED';
+            
+            if (statusText)
+            {
+                DrawText(statusText, modalX + modalWidth/2 - 50, textY, 10, 'right', 1, '#AAA', '#000');
+            }
+        }
+        
+        // Scroll indicator if more events
+        if (events.length > maxVisibleItems)
+        {
+            DrawText(`+${events.length - maxVisibleItems} more...`, modalX, modalY + modalHeight/2 - 30, 10, 'center', 1, '#AAA', '#000');
+        }
+    }
+}
+

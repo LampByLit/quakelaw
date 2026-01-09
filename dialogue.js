@@ -93,6 +93,19 @@ async function OpenDialogueModal(npc) {
                     return; // Already processing, don't start again
                 }
                 
+                // Mark event as completed immediately - speaking to judge on Monday completes the event, that's final
+                caseEvent.status = 'completed';
+                if (typeof RemoveEvent !== 'undefined')
+                {
+                    RemoveEvent(caseEvent.id);
+                }
+                
+                // Show success notification for event completion
+                if (typeof ShowSuccessNotification !== 'undefined')
+                {
+                    ShowSuccessNotification('Event attended: A Case of the Mondays');
+                }
+                
                 // Mark as initializing to prevent duplicate triggers
                 caseEvent.isInitializing = true;
                 caseEvent.initializationAttempts = (caseEvent.initializationAttempts || 0) + 1;
@@ -112,26 +125,18 @@ async function OpenDialogueModal(npc) {
                             HideLoadingNotification();
                         }
                         
-                        // Only complete event if initialization was successful
+                        // Update judge persona after case initialization
+                        if (result && typeof GetJudgePersona !== 'undefined')
+                        {
+                            const persona = GetJudgePersona();
+                            if (persona && persona.name)
+                            {
+                                npc.UpdatePersona(persona);
+                            }
+                        }
+                        
                         if (result)
                         {
-                            // Update judge persona after case initialization
-                            if (typeof GetJudgePersona !== 'undefined')
-                            {
-                                const persona = GetJudgePersona();
-                                if (persona && persona.name)
-                                {
-                                    npc.UpdatePersona(persona);
-                                }
-                            }
-                            
-                            // Mark event as completed only after successful initialization
-                            caseEvent.status = 'completed';
-                            if (typeof RemoveEvent !== 'undefined')
-                            {
-                                RemoveEvent(caseEvent.id);
-                            }
-                            
                             // Show success notification
                             if (typeof ShowSuccessNotification !== 'undefined')
                             {
@@ -146,9 +151,9 @@ async function OpenDialogueModal(npc) {
                         }
                         else
                         {
-                            // Initialization returned null/undefined - keep pending for retry
+                            // Initialization returned null/undefined - event is already completed, just log warning
                             caseEvent.isInitializing = false;
-                            console.warn('Case initialization returned no result, keeping event pending for retry');
+                            console.warn('Case initialization returned no result, but event was already marked as completed');
                             
                             if (typeof ShowSuccessNotification !== 'undefined')
                             {
@@ -163,21 +168,11 @@ async function OpenDialogueModal(npc) {
                             HideLoadingNotification();
                         }
                         
-                        // Error occurred - keep event pending for retry
+                        // Error occurred - event is already completed, just log error
                         caseEvent.isInitializing = false;
                         caseEvent.lastError = err.message || 'Unknown error';
                         console.error('Error initializing case:', err);
-                        
-                        // Allow retry up to 3 times
-                        if (caseEvent.initializationAttempts < 3)
-                        {
-                            console.warn(`Case initialization failed (attempt ${caseEvent.initializationAttempts}), will retry on next interaction`);
-                        }
-                        else
-                        {
-                            console.error('Case initialization failed after multiple attempts');
-                            // Could optionally mark as 'failed' status instead of 'pending'
-                        }
+                        // Event was already marked as completed, so no need to retry event completion
                     });
             }
         }

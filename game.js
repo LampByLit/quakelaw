@@ -880,6 +880,44 @@ function PostRender()
         DrawText('C', calButtonX, calButtonY, 16, 'center', 1, '#FFF', '#000');
     }
     
+    // Coin display HUD (below calendar button)
+    {
+        let coinDisplayX = 40;
+        let coinDisplayY = 190;
+        let coinDisplayWidth = 60;
+        let coinDisplayHeight = 24;
+        
+        // Draw background box
+        mainCanvasContext.fillStyle = '#333';
+        mainCanvasContext.fillRect(coinDisplayX - coinDisplayWidth/2, coinDisplayY - coinDisplayHeight/2, coinDisplayWidth, coinDisplayHeight);
+        
+        // Draw border
+        mainCanvasContext.strokeStyle = '#FFF';
+        mainCanvasContext.lineWidth = 1;
+        mainCanvasContext.strokeRect(coinDisplayX - coinDisplayWidth/2, coinDisplayY - coinDisplayHeight/2, coinDisplayWidth, coinDisplayHeight);
+        
+        // Draw coin icon (tileX=5, tileY=5 from tileImage)
+        if (tileImage && tileImage.complete)
+        {
+            let iconSize = 16;
+            let iconX = coinDisplayX - coinDisplayWidth/2 + 4;
+            let iconY = coinDisplayY - iconSize/2;
+            
+            mainCanvasContext.drawImage(
+                tileImage,
+                5 * tileSize, 5 * tileSize, // source coordinates (tileX=5, tileY=5)
+                tileSize, tileSize,
+                iconX, iconY,
+                iconSize, iconSize
+            );
+        }
+        
+        // Draw coin count (positioned after icon with padding)
+        let coinCount = playerData ? playerData.coins : 0;
+        let textX = coinDisplayX - coinDisplayWidth/2 + 24; // 4px padding after 16px icon
+        DrawText(coinCount.toString(), textX, coinDisplayY, 12, 'left', 1, '#FFD700', '#000');
+    }
+    
     // Reset button (top-right)
     {
         let buttonX = mainCanvasSize.x - 100;

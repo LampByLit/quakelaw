@@ -681,6 +681,8 @@ app.post('/api/cases/judgment', async (req, res) => {
         
         const systemPrompt = `You are Judge ${judgeName}, a ${judgeCharacteristic} judge presiding over a legal case.
 
+CRITICAL: The player ALWAYS represents the DEFENSE. They are the defense lawyer in every case. You must remember this in all your decisions and rulings.
+
 Your task:
 1. Review the case summary, prosecution argument, player's statement, and all evidence
 2. Make a fair and reasoned decision
@@ -1057,9 +1059,9 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
                     return `${npc.surname || 'Unknown'} (${w.role || 'witness'}) - Home: ${npc.houseAddress || 'Unknown'}, Work: ${npc.workAddress || 'Unknown'}`;
                 }).join('\n');
                 
-                caseContextText = `\n\nCRITICAL - ACTIVE CASE INFORMATION:\nYou are currently presiding over an active legal case. This case is your PRIMARY focus and you MUST reference it in your conversations.\n\nCASE SUMMARY:\n${caseSummary}\n\nWITNESSES:\n${witnessList}\n\nIMPORTANT RULES:\n- You MUST discuss the case when the player talks to you. Reference the case summary and witnesses naturally in conversation.\n- You can ONLY discuss the case summary and witnesses. You must NEVER mention or discuss any evidence - that information is confidential and secret.\n- The player is the defense lawyer working on this case. You are the judge presiding over it.\n- Always stay in character as a judge. You are NOT a barista, shopkeeper, or any other profession. You are a JUDGE.`;
+                caseContextText = `\n\nCRITICAL - ACTIVE CASE INFORMATION:\nYou are currently presiding over an active legal case. This case is your PRIMARY focus and you MUST reference it in your conversations.\n\nCASE SUMMARY:\n${caseSummary}\n\nWITNESSES:\n${witnessList}\n\nIMPORTANT RULES:\n- You MUST discuss the case when the player talks to you. Reference the case summary and witnesses naturally in conversation.\n- You can ONLY discuss the case summary and witnesses. You must NEVER mention or discuss any evidence - that information is confidential and secret.\n- CRITICAL: The player ALWAYS represents the DEFENSE. They are the defense lawyer working on this case. You are the judge presiding over it. Remember this in all conversations.\n- Always stay in character as a judge. You are NOT a barista, shopkeeper, or any other profession. You are a JUDGE.`;
             } else {
-                caseContextText = `\n\nYou are a judge presiding over legal cases in the courthouse. You do not currently have an active case, but you are always ready to discuss legal matters.`;
+                caseContextText = `\n\nYou are a judge presiding over legal cases in the courthouse. You do not currently have an active case, but you are always ready to discuss legal matters.\n\nCRITICAL: The player ALWAYS represents the DEFENSE. They are always the defense lawyer in any case. Remember this in all conversations.`;
             }
         }
         
@@ -1125,7 +1127,7 @@ Your personality traits:
 Context:
 ${isJudge ? '' : jobContext}${isJudge ? 'You are a judge in the courthouse. ' : 'You may have witnessed events in town. Talk about your normal life and your job as a ' + (job || 'regular person') + '. '}You are on a schedule and do not have time to follow the player anywhere. Other characters may ask you questions as well, answer them naturally. This is the real world.${knownFactsText}${caseContextText}
 
-${isJudge ? `REMEMBER: You are Judge ${surname}, a judge presiding over legal cases. Always stay in character as a judge.` : `REMEMBER: Your job is ${job}. You are a ${job}.`}`;
+${isJudge ? `REMEMBER: You are Judge ${surname}, a judge presiding over legal cases. Always stay in character as a judge. CRITICAL: The player ALWAYS represents the DEFENSE in all cases.` : `REMEMBER: Your job is ${job}. You are a ${job}.`}`;
         
         // Build messages array from conversation history
         const messages = [{ role: 'system', content: systemPrompt }];
@@ -1314,6 +1316,7 @@ app.post('/api/npc/greeting/:surname', async (req, res) => {
 - You are a JUDGE. This is your ONLY profession and identity.
 - You preside over legal cases in the courthouse.
 - You are NOT a barista, shopkeeper, or any other profession. You are a JUDGE.
+- CRITICAL: The player ALWAYS represents the DEFENSE. They are always the defense lawyer in any case. Remember this in all interactions.
 - When greeting, introduce yourself as Judge ${surname}, presiding over legal cases.`;
             greetingContext = `Greet the player naturally in 1-2 sentences. Be ${npcData.characteristic} in your greeting. 
 This is the first time you're meeting them, so introduce yourself briefly as Judge ${surname}, presiding over legal cases in the courthouse.`;
@@ -1332,7 +1335,7 @@ ${professionInstructions}
 
 ${greetingContext}
 
-${isJudge ? `REMEMBER: You are Judge ${surname}, a judge presiding over legal cases. Always stay in character as a judge.` : `REMEMBER: Your job is ${job}. You are a ${job}.`}`;
+${isJudge ? `REMEMBER: You are Judge ${surname}, a judge presiding over legal cases. Always stay in character as a judge. CRITICAL: The player ALWAYS represents the DEFENSE in all cases.` : `REMEMBER: Your job is ${job}. You are a ${job}.`}`;
         
         const requestBody = {
             model: process.env.DEEPSEEK_MODEL || 'deepseek-chat',

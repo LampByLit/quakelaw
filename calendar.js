@@ -629,18 +629,19 @@ function ScheduleCaseOfTheMondays()
     {
         let currentYear = GetCurrentYear(gameTime);
         
-        // Check if event already exists for today (including completed/removed events)
+        // Check if event already exists for today (only pending events)
         let existingEvents = calendarEvents.filter(e => 
             e.year === currentYear && 
             e.month === gameTime.month && 
             e.day === gameTime.dayOfMonth &&
-            e.taskId === 'caseOfTheMondays'
+            e.taskId === 'caseOfTheMondays' &&
+            e.status === 'pending'
         );
         if (existingEvents.length > 0)
         {
-            // Event already exists (may be pending, completed, or missed)
-            console.log(`[CALENDAR] ScheduleCaseOfTheMondays: Event already exists for today (${existingEvents.length} found, statuses: ${existingEvents.map(e => e.status).join(', ')})`);
-            // Don't create a new event - just update task data
+            // Event already exists and is pending - don't create a new one
+            console.log(`[CALENDAR] ScheduleCaseOfTheMondays: Pending event already exists for today`);
+            // Just update task data
             if (calendarTasks['caseOfTheMondays'])
             {
                 calendarTasks['caseOfTheMondays'].data.lastScheduledDate = {
@@ -652,24 +653,7 @@ function ScheduleCaseOfTheMondays()
             return;
         }
         
-        // Check if we already completed an event today (by checking task data)
-        // If lastScheduledDate is today, we already handled today's event
-        let shouldSkipToday = false;
-        if (calendarTasks['caseOfTheMondays'] && calendarTasks['caseOfTheMondays'].data.lastScheduledDate)
-        {
-            let lastScheduled = calendarTasks['caseOfTheMondays'].data.lastScheduledDate;
-            if (lastScheduled.year === currentYear && 
-                lastScheduled.month === gameTime.month && 
-                lastScheduled.day === gameTime.dayOfMonth)
-            {
-                console.log(`[CALENDAR] ScheduleCaseOfTheMondays: Event was already scheduled/completed for today, skipping. Will schedule for next Monday instead.`);
-                shouldSkipToday = true;
-            }
-        }
-        
-        if (!shouldSkipToday)
-        {
-            console.log(`[CALENDAR] ScheduleCaseOfTheMondays: No existing event found for today, creating new event.`);
+        console.log(`[CALENDAR] ScheduleCaseOfTheMondays: Creating new event for today.`);
         
         // Find courthouse building
         let courthouse = null;

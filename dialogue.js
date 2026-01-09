@@ -87,13 +87,41 @@ async function OpenDialogueModal(npc) {
             
             // CRITICAL: Mark event as completed and remove it IMMEDIATELY when dialogue opens with judge on Monday
             // This happens regardless of whether a case is already initialized
+            let caseEventId = null;
+            let shouldInitializeCase = false;
             if (caseEvent)
             {
+                // Store event ID before removal
+                caseEventId = caseEvent.id;
+                
                 // Mark event as completed immediately - speaking to judge on Monday completes the event, that's final
                 caseEvent.status = 'completed';
+                
+                // Remove event from calendar
+                let removed = false;
                 if (typeof RemoveEvent !== 'undefined')
                 {
-                    RemoveEvent(caseEvent.id);
+                    removed = RemoveEvent(caseEvent.id);
+                    console.log(`[DIALOGUE] Removed Case of the Mondays event (ID: ${caseEvent.id}): ${removed ? 'SUCCESS' : 'FAILED'}`);
+                }
+                else
+                {
+                    console.error('[DIALOGUE] RemoveEvent function is not defined!');
+                }
+                
+                // Verify event was actually removed
+                if (typeof GetEventsForDate !== 'undefined')
+                {
+                    let verifyEvents = GetEventsForDate(currentYear, gameTime.month, gameTime.dayOfMonth);
+                    let stillExists = verifyEvents.some(e => e.id === caseEventId);
+                    if (stillExists)
+                    {
+                        console.error(`[DIALOGUE] WARNING: Event ${caseEventId} still exists after removal attempt!`);
+                    }
+                    else
+                    {
+                        console.log(`[DIALOGUE] Verified: Event ${caseEventId} successfully removed from calendar.`);
+                    }
                 }
                 
                 // Show success notification for event completion
@@ -101,6 +129,21 @@ async function OpenDialogueModal(npc) {
                 {
                     ShowSuccessNotification('Event attended: A Case of the Mondays');
                 }
+                
+                // Update task data to mark that we completed today's event
+                // This prevents ScheduleCaseOfTheMondays from re-creating the event for today
+                if (typeof calendarTasks !== 'undefined' && calendarTasks['caseOfTheMondays'])
+                {
+                    calendarTasks['caseOfTheMondays'].data.lastScheduledDate = {
+                        year: currentYear,
+                        month: gameTime.month,
+                        day: gameTime.dayOfMonth
+                    };
+                    console.log(`[DIALOGUE] Updated task data to mark event completed for today (${currentYear}/${gameTime.month}/${gameTime.dayOfMonth})`);
+                }
+                
+                // Determine if we should initialize a case (only if event existed and was pending)
+                shouldInitializeCase = true;
             }
             
             // Also check if a case is already initialized to prevent duplicate initialization
@@ -110,18 +153,26 @@ async function OpenDialogueModal(npc) {
                 activeCase = GetActiveCase();
             }
             
-            // Only initialize a new case if one doesn't already exist
-            if (caseEvent && typeof InitializeNewCase !== 'undefined' && !activeCase)
+            // Only initialize a new case if one doesn't already exist and we found a pending event
+            if (shouldInitializeCase && typeof InitializeNewCase !== 'undefined' && !activeCase)
             {
+                // Get the event again to check initialization status (it may have been removed, so check calendarEvents directly)
+                let currentEvents = GetEventsForDate(currentYear, gameTime.month, gameTime.dayOfMonth);
+                let currentCaseEvent = currentEvents.find(e => e.id === caseEventId);
+                
                 // Prevent double-triggering if already initializing
-                if (caseEvent.isInitializing)
+                if (currentCaseEvent && currentCaseEvent.isInitializing)
                 {
+                    console.log('[DIALOGUE] Case initialization already in progress, skipping.');
                     return; // Already processing, don't start again
                 }
                 
-                // Mark as initializing to prevent duplicate triggers
-                caseEvent.isInitializing = true;
-                caseEvent.initializationAttempts = (caseEvent.initializationAttempts || 0) + 1;
+                // Mark as initializing to prevent duplicate triggers (if event still exists)
+                if (currentCaseEvent)
+                {
+                    currentCaseEvent.isInitializing = true;
+                    currentCaseEvent.initializationAttempts = (currentCaseEvent.initializationAttempts || 0) + 1;
+                }
                 
                 // Show loading notification
                 if (typeof ShowLoadingNotification !== 'undefined')
@@ -165,7 +216,12 @@ async function OpenDialogueModal(npc) {
                         else
                         {
                             // Initialization returned null/undefined - event is already completed, just log warning
-                            caseEvent.isInitializing = false;
+                            let currentEvents = GetEventsForDate(currentYear, gameTime.month, gameTime.dayOfMonth);
+                            let currentCaseEvent = currentEvents.find(e => e.id === caseEventId);
+                            if (currentCaseEvent)
+                            {
+                                currentCaseEvent.isInitializing = false;
+                            }
                             console.warn('Case initialization returned no result, but event was already marked as completed');
                             
                             if (typeof ShowSuccessNotification !== 'undefined')
@@ -182,8 +238,13 @@ async function OpenDialogueModal(npc) {
                         }
                         
                         // Error occurred - event is already completed, just log error
-                        caseEvent.isInitializing = false;
-                        caseEvent.lastError = err.message || 'Unknown error';
+                        let currentEvents = GetEventsForDate(currentYear, gameTime.month, gameTime.dayOfMonth);
+                        let currentCaseEvent = currentEvents.find(e => e.id === caseEventId);
+                        if (currentCaseEvent)
+                        {
+                            currentCaseEvent.isInitializing = false;
+                            currentCaseEvent.lastError = err.message || 'Unknown error';
+                        }
                         console.error('Error initializing case:', err);
                         // Event was already marked as completed, so no need to retry event completion
                     });

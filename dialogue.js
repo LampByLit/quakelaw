@@ -568,9 +568,9 @@ async function SendMessage() {
         if (!sessionId) {
             throw new Error('Failed to get session ID');
         }
-        // Get active case if talking to judge
+        // Get active case (for judge and for NPCs involved in cases)
         let activeCase = null;
-        if (currentDialogueNPC.isJudge && typeof GetActiveCase !== 'undefined') {
+        if (typeof GetActiveCase !== 'undefined') {
             activeCase = GetActiveCase();
         }
         

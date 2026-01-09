@@ -1140,6 +1140,7 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
         
         // For judge: load active case information (summary and witnesses only, NOT evidence)
         // OR completed case context (summary, prosecution, and ruling)
+        // For regular NPCs: check if they're involved in an active case and add role awareness
         let caseContextText = '';
         if (isJudge) {
             // Try to get active case from request (passed from client)
@@ -1169,6 +1170,42 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
                 caseContextText = `\n\nCOMPLETED CASE CONTEXT:\nYou have just completed presiding over a case and made your ruling. You can discuss this case with the player, including the case summary, prosecution argument, your ruling, and your reasoning.\n\nCASE SUMMARY:\n${caseSummary}\n\nPROSECUTION ARGUMENT:\n${prosecution}\n\nYOUR RULING:\n${ruling}\n\nVERDICT:\n${verdict}\n\nPUNISHMENTS:\n${punishmentsText}\n\nJOB CHANGES:\n${jobChangesText}\n\nIMPORTANT RULES:\n- You can discuss the case summary, prosecution argument, and your ruling freely with the player.\n- You can explain your reasoning and decision-making process.\n- You can answer questions about the case, the prosecution's arguments, and your ruling.\n- CRITICAL: The player ALWAYS represents the DEFENSE. They were the defense lawyer in this case. You are the judge who presided over it and made the ruling. Remember this in all conversations.\n- Always stay in character as a judge. You are NOT a barista, shopkeeper, or any other profession. You are a JUDGE.`;
             } else {
                 caseContextText = `\n\nYou are a judge presiding over legal cases in the courthouse. You do not currently have an active case, but you are always ready to discuss legal matters.\n\nCRITICAL: The player ALWAYS represents the DEFENSE. They are always the defense lawyer in any case. Remember this in all conversations.`;
+            }
+        } else {
+            // For regular NPCs: check if they're involved in an active case
+            const { activeCase } = req.body;
+            if (activeCase && activeCase.witnesses && Array.isArray(activeCase.witnesses)) {
+                // Check if this NPC is involved in the case
+                const npcInvolvement = activeCase.witnesses.find(w => {
+                    const npc = w.npc || {};
+                    return npc.surname === surname;
+                });
+                
+                if (npcInvolvement) {
+                    const role = npcInvolvement.role || 'witness';
+                    const caseSummary = activeCase.caseSummary || '';
+                    const roleLower = role.toLowerCase();
+                    
+                    // Determine if this is a defendant role (defendant, accused, etc.)
+                    const isDefendant = roleLower.includes('defendant') || 
+                                      roleLower.includes('accused') || 
+                                      roleLower.includes('appellant') ||
+                                      roleLower.includes('respondent');
+                    
+                    // Determine if this is a plaintiff role
+                    const isPlaintiff = roleLower.includes('plaintiff') || 
+                                       roleLower.includes('complainant');
+                    
+                    // Build case role context based on role type
+                    if (isDefendant) {
+                        caseContextText = `\n\nCRITICAL - YOU ARE A DEFENDANT IN AN ACTIVE CASE:\nYou are involved in an active legal case as a ${role}. This is a serious situation that affects your life.\n\nCASE SUMMARY:\n${caseSummary}\n\nYOUR SITUATION:\n- You are a ${role} in this case, meaning you are being accused or are defending yourself in court.\n- You may need legal defense and representation.\n- The player is a defense lawyer who could potentially help you with your case.\n- You should be aware of your involvement in this case and may be worried, defensive, or seeking help.\n- You can acknowledge your role in the case, though you may deny involvement based on your character (some defendants genuinely deny, others admit and seek help).\n- You can discuss the case situation naturally, but remember you're a ${role} who may need legal assistance.\n\nIMPORTANT: The player is a defense lawyer. They may be able to help you with your case. You can acknowledge your situation and discuss your need for legal defense if appropriate for your character.`;
+                    } else if (isPlaintiff) {
+                        caseContextText = `\n\nYOU ARE A PLAINTIFF IN AN ACTIVE CASE:\nYou are involved in an active legal case as a ${role}.\n\nCASE SUMMARY:\n${caseSummary}\n\nYOUR SITUATION:\n- You are a ${role} in this case, meaning you are bringing the case or making a claim.\n- You are involved in ongoing legal proceedings.\n- You can discuss your involvement in the case naturally.\n\nIMPORTANT: The player is a defense lawyer working on this case (representing the defense side).`;
+                    } else {
+                        // Witness or other role
+                        caseContextText = `\n\nYOU ARE A WITNESS IN AN ACTIVE CASE:\nYou are involved in an active legal case as a ${role}.\n\nCASE SUMMARY:\n${caseSummary}\n\nYOUR SITUATION:\n- You are a ${role} in this case, meaning you have information relevant to the case.\n- You may have witnessed events or have knowledge about the case.\n- You can discuss your involvement in the case naturally.\n\nIMPORTANT: The player is a defense lawyer working on this case.`;
+                    }
+                }
             }
         }
         
@@ -1232,7 +1269,7 @@ Your personality traits:
 - Keep your responses brief and character-appropriate
 
 Context:
-${isJudge ? '' : jobContext}${isJudge ? 'You are a judge in the courthouse. ' : 'You may have witnessed events in town. Talk about your normal life and your job as a ' + (job || 'regular person') + '. '}You are on a schedule and do not have time to follow the player anywhere. Other characters may ask you questions as well, answer them naturally. This is the real world.${knownFactsText}${caseContextText}
+${isJudge ? '' : jobContext}${isJudge ? 'You are a judge in the courthouse. ' : 'You may have witnessed events in town. Talk about your normal life and your job as a ' + (job || 'regular person') + '. '}You are on a schedule and do not have time to follow the player anywhere. Other characters may ask you questions as well, answer them naturally. This is the real world.${knownFactsText}${caseContextText}${!isJudge ? '\n\nGENERAL LEGAL AWARENESS:\n- You live in a town where legal cases happen regularly.\n- You know that the player is a defense lawyer who works on legal cases.\n- You understand that you or others in town might become involved in legal cases at some point.\n- If you were to become a defendant in a case, you would need legal defense and representation.\n- The player could potentially help with legal matters if needed.\n- This is general knowledge - you don\'t need to bring it up unless relevant to the conversation.' : ''}
 
 ${isJudge ? `REMEMBER: You are Judge ${surname}, a judge presiding over legal cases. Always stay in character as a judge. CRITICAL: The player ALWAYS represents the DEFENSE in all cases.` : `REMEMBER: Your job is ${job}. You are a ${job}.`}`;
         
@@ -1433,7 +1470,8 @@ ${job ? `- Your job is: ${job}. This is your ONLY profession.` : '- You have a r
 ${isLawyer ? '- You ARE a lawyer and work in the legal system. You understand legal matters and may work at the courthouse or a law firm.' : `- Your job is "${job}" - focus on this job.
 - REQUIRED: When greeting, say "I'm ${surname}, I'm a ${job}" - talk about YOUR job.`}`;
             greetingContext = `${jobContext}Greet the player naturally in 1-2 sentences. Be ${npcData.characteristic} in your greeting. 
-This is the first time you're meeting them, so introduce yourself briefly. Say your name and mention you're a ${job || 'regular person'}.`;
+This is the first time you're meeting them, so introduce yourself briefly. Say your name and mention you're a ${job || 'regular person'}. 
+You know the player is a defense lawyer in town, but you don't need to mention it unless it's relevant to your greeting.`;
         }
         
         const systemPrompt = `You are ${isJudge ? 'Judge ' : ''}${surname}, a ${npcData.characteristic} ${isJudge ? 'judge presiding over legal cases in a courthouse' : 'person living in a real town'}.

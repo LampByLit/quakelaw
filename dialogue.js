@@ -1387,14 +1387,145 @@ function InitJudgmentRulingModal() {
     // The modal can only be closed via OK button
 }
 
+///////////////////////////////////////////////////////////////////////////////
+// Rent Payment Modal
+
+let rentModalOpen = false;
+
+// Check if rent modal is open
+function IsRentModalOpen() {
+    return rentModalOpen;
+}
+
+// Show rent payment modal
+function ShowRentModal() {
+    if (rentModalOpen || typeof playerData === 'undefined') {
+        return;
+    }
+    
+    rentModalOpen = true;
+    
+    const modal = document.getElementById('rentModal');
+    const messageEl = document.getElementById('rentMessage');
+    const balanceEl = document.getElementById('rentBalance');
+    const okButton = document.getElementById('okRentModal');
+    
+    const rentAmount = 50;
+    const currentCoins = playerData.coins || 0;
+    const canAfford = currentCoins >= rentAmount;
+    
+    // Set message based on whether player can afford rent
+    if (canAfford) {
+        messageEl.textContent = `RENT DUE: $${rentAmount}\n\nYou have enough money to pay rent.`;
+        messageEl.style.color = '#fff';
+    } else {
+        messageEl.textContent = `RENT DUE: $${rentAmount}\n\nYou cannot afford rent!\n\nGAME OVER`;
+        messageEl.style.color = '#ff4444';
+    }
+    
+    // Show current balance
+    balanceEl.textContent = `Current Balance: $${currentCoins}`;
+    
+    // Show modal
+    modal.classList.add('open');
+    
+    // Wire up OK button (only once, on first call)
+    if (!okButton.hasAttribute('data-wired')) {
+        okButton.setAttribute('data-wired', 'true');
+        okButton.addEventListener('click', () => {
+            HandleRentPayment();
+        });
+    }
+    
+    console.log(`[RENT] Rent modal shown. Can afford: ${canAfford}, Balance: $${currentCoins}`);
+}
+
+// Handle rent payment
+function HandleRentPayment() {
+    if (!rentModalOpen || typeof playerData === 'undefined') {
+        return;
+    }
+    
+    const rentAmount = 50;
+    const currentCoins = playerData.coins || 0;
+    const canAfford = currentCoins >= rentAmount;
+    
+    if (canAfford) {
+        // Deduct rent
+        playerData.coins = Math.max(0, currentCoins - rentAmount);
+        playerData.rentPaidThisMonth = true;
+        
+        // Save game state
+        if (typeof SaveGameState === 'function') {
+            SaveGameState();
+        }
+        
+        console.log(`[RENT] Rent paid. Deducted $${rentAmount}. New balance: $${playerData.coins}`);
+        
+        // Close modal
+        CloseRentModal();
+    } else {
+        // Cannot afford rent - trigger game over
+        console.log('[RENT] Cannot afford rent - triggering game over');
+        
+        // Close modal first
+        CloseRentModal();
+        
+        // Trigger game over after a short delay
+        setTimeout(() => {
+            if (typeof player !== 'undefined' && player) {
+                player.Kill();
+            }
+            // Show game over message
+            if (typeof ShowErrorNotification !== 'undefined') {
+                ShowErrorNotification('You cannot afford rent. Game Over.');
+            }
+        }, 500);
+    }
+}
+
+// Close rent modal
+function CloseRentModal() {
+    if (!rentModalOpen) {
+        return;
+    }
+    
+    rentModalOpen = false;
+    
+    const modal = document.getElementById('rentModal');
+    if (modal) {
+        modal.classList.remove('open');
+    }
+    
+    console.log('[RENT] Rent modal closed');
+}
+
+// Initialize rent modal
+function InitRentModal() {
+    const modal = document.getElementById('rentModal');
+    
+    // Prevent closing by clicking outside modal
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            // Don't close - player must click OK button
+            e.stopPropagation();
+        }
+    });
+    
+    // Prevent closing by ESC key
+    // The modal can only be closed via OK button
+}
+
 // Initialize on page load
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
         InitDialogueModal();
         InitJudgmentRulingModal();
+        InitRentModal();
     });
 } else {
     InitDialogueModal();
     InitJudgmentRulingModal();
+    InitRentModal();
 }
 

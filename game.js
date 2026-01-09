@@ -135,6 +135,11 @@ class GameTime
             {
                 this.month = 1;
             }
+            // Reset rent payment flag for new month
+            if (typeof playerData !== 'undefined')
+            {
+                playerData.rentPaidThisMonth = false;
+            }
         }
         
         // Reset gossip flag for new day
@@ -234,6 +239,7 @@ class PlayerData
         this.bigBoomerangs = 0;
         this.coins = 20;
         this.inventory = []; // 16 slots (4x4 grid)
+        this.rentPaidThisMonth = false; // Track if rent has been paid this month
     }
     
     // Add item to inventory (returns true if added, false if full)
@@ -317,6 +323,7 @@ function Reset()
                 else if (localStorage.kbap_coins) playerData.coins = parseInt(localStorage.kbap_coins, 10); // Fallback for old saves
                 if (saved.playerData.boomerangs !== undefined) playerData.boomerangs = saved.playerData.boomerangs;
                 if (saved.playerData.bigBoomerangs !== undefined) playerData.bigBoomerangs = saved.playerData.bigBoomerangs;
+                if (saved.playerData.rentPaidThisMonth !== undefined) playerData.rentPaidThisMonth = saved.playerData.rentPaidThisMonth;
                 
                 // Load inventory
                 if (saved.playerData.inventory && Array.isArray(saved.playerData.inventory))
@@ -820,6 +827,38 @@ function Update()
     if (typeof UpdateLoadingNotification !== 'undefined')
     {
         UpdateLoadingNotification();
+    }
+    
+    // Check for rent payment due (07:03 on the 28th of every month)
+    // Initialize flag if not exists
+    if (typeof rentCheckDoneToday === 'undefined')
+    {
+        window.rentCheckDoneToday = false;
+        window.lastRentCheckDay = -1;
+    }
+    
+    // Reset flag when day changes
+    if (gameTime && window.lastRentCheckDay !== gameTime.dayOfMonth)
+    {
+        window.rentCheckDoneToday = false;
+        window.lastRentCheckDay = gameTime.dayOfMonth;
+    }
+    
+    // Check for rent payment
+    if (gameTime && playerData && !playerData.rentPaidThisMonth && 
+        gameTime.dayOfMonth === 28 && 
+        gameTime.gameHour >= 7.03 &&
+        !window.rentCheckDoneToday)
+    {
+        // Only trigger if rent modal is not already open
+        if (typeof IsRentModalOpen === 'undefined' || !IsRentModalOpen())
+        {
+            window.rentCheckDoneToday = true;
+            if (typeof ShowRentModal !== 'undefined')
+            {
+                ShowRentModal();
+            }
+        }
     }
         
 }
@@ -3709,7 +3748,8 @@ function SaveGameState()
             coins: playerData.coins,
             boomerangs: playerData.boomerangs,
             bigBoomerangs: playerData.bigBoomerangs,
-            inventory: playerData.inventory
+            inventory: playerData.inventory,
+            rentPaidThisMonth: playerData.rentPaidThisMonth
         }
     };
     

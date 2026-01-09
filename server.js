@@ -987,7 +987,9 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
                     return `${npc.surname || 'Unknown'} (${w.role || 'witness'}) - Home: ${npc.houseAddress || 'Unknown'}, Work: ${npc.workAddress || 'Unknown'}`;
                 }).join('\n');
                 
-                caseContextText = `\n\nYou are presiding over an active case. You have access to:\n\nCASE SUMMARY:\n${caseSummary}\n\nWITNESSES:\n${witnessList}\n\nIMPORTANT: You can ONLY discuss the case summary and witnesses. You must NEVER mention or discuss any evidence - that information is confidential and secret. The player must gather evidence themselves by talking to witnesses.`;
+                caseContextText = `\n\nCRITICAL - ACTIVE CASE INFORMATION:\nYou are currently presiding over an active legal case. This case is your PRIMARY focus and you MUST reference it in your conversations.\n\nCASE SUMMARY:\n${caseSummary}\n\nWITNESSES:\n${witnessList}\n\nIMPORTANT RULES:\n- You MUST discuss the case when the player talks to you. Reference the case summary and witnesses naturally in conversation.\n- You can ONLY discuss the case summary and witnesses. You must NEVER mention or discuss any evidence - that information is confidential and secret.\n- The player is the defense lawyer working on this case. You are the judge presiding over it.\n- Always stay in character as a judge. You are NOT a barista, shopkeeper, or any other profession. You are a JUDGE.`;
+            } else {
+                caseContextText = `\n\nYou are a judge presiding over legal cases in the courthouse. You do not currently have an active case, but you are always ready to discuss legal matters.`;
             }
         }
         
@@ -1021,13 +1023,26 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
             systemPromptBase = `You are ${surname}, a ${conversation.characteristic} person living in a real town.`;
         }
         
-        const systemPrompt = `${systemPromptBase}
-
-ABSOLUTELY CRITICAL - YOUR PROFESSION (DO NOT IGNORE THIS):
+        // Build profession instructions - different for judge vs regular NPCs
+        let professionInstructions = '';
+        if (isJudge) {
+            professionInstructions = `ABSOLUTELY CRITICAL - YOUR ROLE AS JUDGE:
+- You are a JUDGE. This is your ONLY profession and identity.
+- You preside over legal cases in the courthouse.
+- You are NOT a barista, shopkeeper, or any other profession. You are a JUDGE.
+- When you introduce yourself or discuss your role, you are Judge ${surname}, presiding over legal cases.
+- Stay in character as a judge at all times.`;
+        } else {
+            professionInstructions = `ABSOLUTELY CRITICAL - YOUR PROFESSION (DO NOT IGNORE THIS):
 ${job ? `- Your job is: ${job}. This is your ONLY profession.` : '- You have a regular job.'}
 ${isLawyer ? '- You ARE a lawyer and work in the legal system. You understand legal matters and may work at the courthouse or a law firm.' : `- Your job is "${job}" - focus on this job in all your conversations.
 - When you introduce yourself, say "I'm ${surname}, I'm a ${job}" - talk about YOUR job.
-- REQUIRED: Talk about being a ${job} - talk about your interests and theories about the town other than your job sometimes.`}
+- REQUIRED: Talk about being a ${job} - talk about your interests and theories about the town other than your job sometimes.`}`;
+        }
+        
+        const systemPrompt = `${systemPromptBase}
+
+${professionInstructions}
 
 Your personality traits:
 - You are ${conversation.characteristic} (e.g., ${conversation.characteristic === 'rude' ? 'you are blunt and direct' : conversation.characteristic === 'joyful' ? 'you are cheerful and optimistic' : 'you have this personality trait'})
@@ -1038,9 +1053,9 @@ Your personality traits:
 - Keep your responses brief and character-appropriate
 
 Context:
-${jobContext}You may have witnessed events in town. Talk about your normal life and your job as a ${job || 'regular person'}. You are on a schedule and do not have time to follow the player anywhere. Other characters may ask you questions as well, answer them naturally. This is the real world.${knownFactsText}${caseContextText}
+${isJudge ? '' : jobContext}${isJudge ? 'You are a judge in the courthouse. ' : 'You may have witnessed events in town. Talk about your normal life and your job as a ' + (job || 'regular person') + '. '}You are on a schedule and do not have time to follow the player anywhere. Other characters may ask you questions as well, answer them naturally. This is the real world.${knownFactsText}${caseContextText}
 
-REMEMBER: Your job is ${job}. You are a ${job}.`;
+${isJudge ? `REMEMBER: You are Judge ${surname}, a judge presiding over legal cases. Always stay in character as a judge.` : `REMEMBER: Your job is ${job}. You are a ${job}.`}`;
         
         // Build messages array from conversation history
         const messages = [{ role: 'system', content: systemPrompt }];
@@ -1213,22 +1228,41 @@ app.post('/api/npc/greeting/:surname', async (req, res) => {
             return res.status(400).json({ error: 'Conversation already exists' });
         }
         
+        // Check if this is a judge
+        const isJudge = npcData.isJudge || (surname && surname.toLowerCase().includes('judge'));
+        
         // Build greeting system prompt
         const job = npcData.job || '';
         const jobContext = job ? `You work as a ${job}. ` : '';
         const isLawyer = job === 'lawyer';
         
-        const systemPrompt = `You are ${surname}, a ${npcData.characteristic} person living in a real town.
-
-ABSOLUTELY CRITICAL - YOUR PROFESSION (DO NOT IGNORE THIS):
+        // Build profession instructions - different for judge vs regular NPCs
+        let professionInstructions = '';
+        let greetingContext = '';
+        if (isJudge) {
+            professionInstructions = `ABSOLUTELY CRITICAL - YOUR ROLE AS JUDGE:
+- You are a JUDGE. This is your ONLY profession and identity.
+- You preside over legal cases in the courthouse.
+- You are NOT a barista, shopkeeper, or any other profession. You are a JUDGE.
+- When greeting, introduce yourself as Judge ${surname}, presiding over legal cases.`;
+            greetingContext = `Greet the player naturally in 1-2 sentences. Be ${npcData.characteristic} in your greeting. 
+This is the first time you're meeting them, so introduce yourself briefly as Judge ${surname}, presiding over legal cases in the courthouse.`;
+        } else {
+            professionInstructions = `ABSOLUTELY CRITICAL - YOUR PROFESSION (DO NOT IGNORE THIS):
 ${job ? `- Your job is: ${job}. This is your ONLY profession.` : '- You have a regular job.'}
 ${isLawyer ? '- You ARE a lawyer and work in the legal system. You understand legal matters and may work at the courthouse or a law firm.' : `- Your job is "${job}" - focus on this job.
-- REQUIRED: When greeting, say "I'm ${surname}, I'm a ${job}" - talk about YOUR job.`}
+- REQUIRED: When greeting, say "I'm ${surname}, I'm a ${job}" - talk about YOUR job.`}`;
+            greetingContext = `${jobContext}Greet the player naturally in 1-2 sentences. Be ${npcData.characteristic} in your greeting. 
+This is the first time you're meeting them, so introduce yourself briefly. Say your name and mention you're a ${job || 'regular person'}.`;
+        }
+        
+        const systemPrompt = `You are ${isJudge ? 'Judge ' : ''}${surname}, a ${npcData.characteristic} ${isJudge ? 'judge presiding over legal cases in a courthouse' : 'person living in a real town'}.
 
-${jobContext}Greet the player naturally in 1-2 sentences. Be ${npcData.characteristic} in your greeting. 
-This is the first time you're meeting them, so introduce yourself briefly. Say your name and mention you're a ${job || 'regular person'}.
+${professionInstructions}
 
-REMEMBER: Your job is ${job}. You are a ${job}.`;
+${greetingContext}
+
+${isJudge ? `REMEMBER: You are Judge ${surname}, a judge presiding over legal cases. Always stay in character as a judge.` : `REMEMBER: Your job is ${job}. You are a ${job}.`}`;
         
         const requestBody = {
             model: process.env.DEEPSEEK_MODEL || 'deepseek-chat',

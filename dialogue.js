@@ -85,7 +85,14 @@ async function OpenDialogueModal(npc) {
             let events = GetEventsForDate(currentYear, gameTime.month, gameTime.dayOfMonth);
             let caseEvent = events.find(e => e.taskId === 'caseOfTheMondays' && e.status === 'pending');
             
-            if (caseEvent && typeof InitializeNewCase !== 'undefined')
+            // Also check if a case is already initialized to prevent duplicate initialization
+            let activeCase = null;
+            if (typeof GetActiveCase !== 'undefined')
+            {
+                activeCase = GetActiveCase();
+            }
+            
+            if (caseEvent && typeof InitializeNewCase !== 'undefined' && !activeCase)
             {
                 // Prevent double-triggering if already initializing
                 if (caseEvent.isInitializing)
@@ -299,7 +306,8 @@ async function GenerateGreeting(npc) {
                     surname: npc.surname,
                     characteristic: npc.characteristic,
                     emoji: npc.emoji,
-                    job: npc.job || '' // Ensure job is always a string
+                    job: npc.job || '', // Ensure job is always a string
+                    isJudge: npc.isJudge || false
                 }
             })
         });

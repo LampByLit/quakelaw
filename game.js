@@ -2585,6 +2585,7 @@ class Judge extends MyGameObject
         this.isJudge = 1;
         this.rotation = 1; // Facing south
         this.characteristic = null; // Will be set from persona
+        this.job = 'judge'; // Judge's profession
     }
     
     // Update judge persona
@@ -2595,6 +2596,8 @@ class Judge extends MyGameObject
             this.surname = persona.name;
             this.characteristic = persona.characteristic || 'serious';
         }
+        // Ensure job is always set to 'judge'
+        this.job = 'judge';
     }
     
     Render()

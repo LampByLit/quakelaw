@@ -1,0 +1,349 @@
+{
+  "id": 1224720,
+  "name": "THE PEOPLE v. MIKE COOK",
+  "name_abbreviation": "People v. Cook",
+  "decision_date": "1921-05-04",
+  "docket_number": "",
+  "first_page": "219",
+  "last_page": "228",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 219"
+    },
+    {
+      "type": "parallel",
+      "cite": "197 App. Div. 155"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "173 N. Y. 103",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2308640
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/173/0103-01"
+      ]
+    },
+    {
+      "cite": "116 U. S. 252",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3517105
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/116/0252-01"
+      ]
+    },
+    {
+      "cite": "64 N. E. 407",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "182 Mass. 22",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        828912
+      ],
+      "pin_cites": [
+        {
+          "page": "25"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/182/0022-01"
+      ]
+    },
+    {
+      "cite": "86 So. Rep. 919",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "case_ids": [
+        575605
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/148/0375-01"
+      ]
+    },
+    {
+      "cite": "270 Fed. Rep. 665",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6739707
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/270/0665-01"
+      ]
+    },
+    {
+      "cite": "186 N. Y. Supp. 215",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "113 Misc. Rep. 244",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        1224705,
+        1406477
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/39/0001-01",
+        "/misc/113/0244-01"
+      ]
+    },
+    {
+      "cite": "270 Fed. Rep. 315",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6737042
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/270/0315-01"
+      ]
+    },
+    {
+      "cite": "227 S. W. Rep. 486",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10316342
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/227/0486-01"
+      ]
+    },
+    {
+      "cite": "269 Fed. Rep. 080",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "105 S. E. Rep. 589",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Mont. 684",
+      "category": "reporters:state",
+      "reporter": "Mont.",
+      "case_ids": [
+        4727646
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mont/58/0684-01"
+      ]
+    },
+    {
+      "cite": "86 So. Rep. 602",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "case_ids": [
+        576416
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/148/0031-01"
+      ]
+    },
+    {
+      "cite": "105 S. E. Rep. 334",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "180 N. C. 744",
+      "category": "reporters:state",
+      "reporter": "N.C.",
+      "case_ids": [
+        8654888
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nc/180/0744-01"
+      ]
+    },
+    {
+      "cite": "105 S. E. Rep. 363",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 S. E. Rep. 771",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 Atl. Rep. 224",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "128 N. E. Rep. 273",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "weight": 3,
+      "opinion_index": 0
+    },
+    {
+      "cite": "253 U. S. 350",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        189381
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/253/0350-01"
+      ]
+    },
+    {
+      "cite": "92 U. S. 542",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8758
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/92/0542-01"
+      ]
+    },
+    {
+      "cite": "251 U. S. 146",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3681342
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "156"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/251/0146-01"
+      ]
+    },
+    {
+      "cite": "226 U. S. 192",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8286199
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/226/0192-01"
+      ]
+    },
+    {
+      "cite": "140 U. S. 545",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3554276
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/140/0545-01"
+      ]
+    },
+    {
+      "cite": "123 U. S. 623",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3523081
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/123/0623-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 763,
+    "char_count": 19487,
+    "ocr_confidence": 0.541,
+    "pagerank": {
+      "raw": 2.611694422944919e-07,
+      "percentile": 0.8205044000634786
+    },
+    "sha256": "ae5861a502851f9722ed39cec61b5376676424b5be18e8f06a112148a6adf3df",
+    "simhash": "1:7b337f743a3cf66f",
+    "word_count": 3297
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. MIKE COOK."
+    ],
+    "opinions": [
+      {
+        "text": "Hubbs, J.:\nUpon the trial of the defendant his counsel, by objections and exceptions to the rulings made by the court, raised the question that the defendant could not be legally convicted of the crime of violating the Liquor Tax Law because that law had been superseded and nullified by the adoption of the Eighteenth Amendment to the Constitution of the United States and the enactment of the National Prohibition Act (41 U. S. Stat. at Large, 305, chap. 83), being the act of October 28, 1919, known as the Volstead Act.\nThe first two sections of the Eighteenth Amendment read as follows:\n\u201c Section 1. After one year from the ratification of this article the manufacture, sale, or transportation of intoxicating liquors within, the importation thereof into, or the exportation thereof from the United States and all territory subject to the jurisdiction thereof for beverage purposes is hereby prohibited.\n\u201c Sec. 2. The Congress and the several States shall have concurrent power to enforce this article by appropriate legislation.\u201d (40 U. S. Stat. at Large, 1941, 1942.) That amendment was ratified on January 29, 1919.\nCongress, in pursuance of said second section of the Eighteenth Amendment, enacted the Volstead Act, which, in title II, section 1, provides as follows: \u201c The word \u2018 liquor \u2019 or the\nphrase \u2018 intoxicating liquor \u2019 shall he construed to include alcohol, brandy, whisky, rum, gin, beer, ale, porter, and wine, and in addition thereto any spirituous, vinous, malt, or fermented liquor, liquids, and compounds, whether medicated, proprietary, patented, or not, and by whatever name called, containing one-half of 1 per centum or more of alcohol by volume which are fit for use for beverage purposes.\u201d (41 U. S. Stat. at Large, 307, tit. 2, \u00a7 1.)\nBy section 3 of the same title it is provided that \u201clo person shall on or after the date when the Eighteenth Amendment to the Constitution of the United States goes into effect, manufacture, sell, barter, transport, import, export, deliver, furnish or possess any intoxicating liquor except as authorized in this act, and all the provisions of this act shall be liberally construed to the end that the use of intoxicating liquor as a beverage may be prevented.\u201d (41 U. S. Stat. at Large, 308, tit. 2, \u00a7 3.) Section 29 of the same title of the act provides the penalties for the violation thereof. (41 U. S. Stat. at Large, 316, tit. 2, \u00a7 29.)\nAfter the enactment of the Volstead Act, this State, by chapter 911 of the Laws of 1920, amended the State Liquor Tax Law (Consol. Laws, chap. 34). The evident intent of said amendment was to permit the sale by the holder of a liquor tax certificate of liquor containing not more than two and seventy-five hundredths per centum of alcohol by weight to be used for beverage purposes, under certain conditions and restrictions as provided in the act. The term \u201c liquors \u201d was defined in said act as containing \u201c At least one-half of one per centum of alcohol by weight.\u201d \u201c Intoxicating liquors \u201d were defined in said act as those containing more than two and seventy-five hundredths per centum of alcohol by weight and \u201c non-intoxicating beverages \u201d as liquors containing not more than two and seventy-five hundredths per centum of alcohol by weight, and used or intended to he used for beverage purposes. The act provided that it should he unlawful \u201c To manufacture, sell or transport intoxicating liquors [those containing more than two and seventy-five hundredths per centum of alcohol by weight] for beverage purposes within the State.\u201d The act also made it unlawful for any person who had not paid a tax as provided in the act to sell or give away any liquor containing at least one-half of one per centum of alcohol by weight. It provided penalties for the violation thereof different from those provided in the Volstead Act. (See Liquor Tax Law, \u00a7\u00a7 2,-36, 43, as amd. by Laws of 1920, chap. 911; Id., \u00a7 30, as added by Laws of 1920, chap. 911.)\nThere were, therefore, in existence at the same time two acts, the State Liquor Tax Law and the Volstead Act. The State act purported to make it lawful under certain conditions and restrictions for persons who had paid the liquor tax to traffic in liquor containing at least one-half of one per centum and not over two and seventy-five hundredths per centum of alcohol by weight, and the Volstead Act made it unlawful to traffic in liquor containing one-half of one per centum or more of alcohol by volume. In view of that situation, can it he held that the State act was a valid act, and that a violation of its provisions constituted a crime ?\nPrior to the enactment of the Eighteenth Amendment the regulation of the manufacture and sale of intoxicating liquors, apart from the interstate commerce regulations, was exercised exclusively by the States under the general police powers. (Mugler v. Kansas, 123 U. S. 623, 31 Law. Ed. 205; Matter of Rahrer, 140 U. S. 545; sub nom. Wilkerson v. Rahrer, 35 Law. Ed. 572; Purity Extract Co. v. Lynch, 226 U. S. 192, 57 Law. Ed. 184; Hamilton v. Kentucky Distilleries Co., 251 U. S. 146, 156, 64 Law. Ed. 194.)\nThe federal government is one of delegated powers. (United States v. Cruikshank, 92 U. S. 542.)\n\u201c The powers not delegated to the United States by the Constitution, nor prohibited by it to the States, are reserved to the States respectively, or to the people.\u201d (U. S. Const., 10th Amendt.) Statutes enacted by the different States to regulate the manufacture and sale of intoxicating liquors were enacted in the exercise of their acknowledged sovereignty under their reserved power, the police power, and the federal government had no power to enact laws upon the subject until such power was delegated by the Eighteenth Amendment.\nDoes the fact that the federal government has enacted the Volstead Act, in pursuance of the provisions of the Eighteenth Amendment, deprive the States of the reserved police power which they formerly possessed, and prevent them from legislating for the prohibition of the sale of intoxicating liquors? If not, can the State Liquor Tax Law he held to he \u201c appropriate legislation \u201d to enforce the Eighteenth Amendment within the meaning of section 2 thereof, which provides: \u201c The Congress and the several States shall have concurrent power to enforce this article by appropriate legislation.\u201d\nThe case of Rhode Island v. Palmer (253 U. S. 350, 64 Law. Ed. 946) makes it clear that such parts of the State Liquor Tax Law as purport to legalize the sale of liquors containing one-half of one per centum or more of alcohol by volume by persons who have paid a liquor tax are abrogated and inoperative because repugnant to the provisions of the Eighteenth Amendment, as construed by the Supreme Court of the United States in said case, where it is said in conclusions 6 and 7 of the opinion;\n\u201c 6. The first section of the Amendment \u2014 the one embodying the prohibition \u2014 is operative throughout the entire territorial limits of the United States, binds all legislative bodies, courts, public officers and individuals within those limits, and of its own force invalidates every legislative act \u2014 whether by Congress, by a State Legislature, or by a territorial assembly\u2014 which authorizes or sanctions what the section prohibits. 7. The second section of the Amendment \u2014 the one declaring ' The Congress and the several States shall have concurrent power to enforce this article by appropriate legislation \u2019 \u2014 does not enable Congress or the several States to defeat or thwart the prohibition, but only to enforce it by appropriate means.\u201d\nThe Eighteenth Amendment, however, does not purport to grant to Congress the exclusive power to legislate upon the question of traffic in intoxicating liquors. It grants to Congress only \u201c concurrent power \u201d and does not by its terms deprive the States of their reserved police power to prohibit such traffic. The words of the section are clear: \u201c The Congress and the several States shall have concurrent power to enforce this article by appropriate legislation.\u201d The States have, therefore, the same power which they had before the passage of the Eighteenth Amendment to prohibit traffic in intoxicating liquors and Congress has the added power given by such amendment. The power of the State to legislate on the subject is limited by the second section of the amendment to the passage of \u201c appropriate legislation \u201d to enforce such amendment and they cannot legally enact laws repugnant to those enacted by Congress upon the subject. State laws thereon, in so far as they conflict with and are repugnant to the Volstead Act are abrogated and nullified by that act, but in so far as they are \u201c appropriate legislation \u201d to enforce the said Eighteenth Amendment they are legal and enforcible. In the case of Commonwealth v. Nickerson (128 N. E. Rep. 273) the Supreme Court of Massachusetts said: \u201cWe are of opinion that the word * concurrent \u2019 in this connection means a power continuously existing for efficacious ends to be exerted in support of the main object of the amendment and making contribution to the same general aim according to the needs of the State, even though Congress also has exerted the power reposed in it by the amendment by enacting enforcing legislation operative throughout the extent of its territory. Legislation by the States need not be identical with that of Congress. It cannot authorize that which is forbidden by Congress. But the States need not denounce every act committed within their boundaries which is included within the inhibition of the Volstead Act, nor provide the same penalties therefor. It is conceivable also that a State may forbid under penalty acts not prohibited by the act of Congress. The concurrent power of the States may differ in means adopted provided it is directed to the enforcement of the amendment. Legislation by the several States appropriately designed to enforce the absolute prohibition declared by the Eighteenth Amendment is not void or inoperative simply because Congress, in performance of the duty cast upon it by that amendment, has defined and prohibited beverages and has established regulations and penalties concerning them. State statutes, rationally adapted to putting into execution the inexorable mandate against the sale of intoxicating liquors for beverage contained in section 1 of the amendment by different definitions, regulations and penalties from those contained in the Volstead Act and not in conflict with the terms of the Volstead Act, but in harmony therewith, are valid. Existing laws of that character are not suspended or superseded by the act of Congress. The fact that Congress has enacted legislation covering in general the field of national prohibition does not exclude the operation of appropriate stated legislation directed to the enforcement by different means of prohibition within the territory of the State.\u201d\nThe following cases enunciate the same principle: Ex parte Guerra (\u2014 Vt. \u2014, 110 Atl. Rep. 224) ; Jones v. Hicks (\u2014 Ga. \u2014, 104 S. E. Rep. 771) ; Scroggs v. State (\u2014 Ga. \u2014, 105 S. E. Rep. 363) ; State v. Fore (180 N. C. 744, 105 S. E. Rep. 334) ; City of Shreveport v. Marx (\u2014 La. \u2014, 86 So. Rep. 602) ; State ex rel. Stranahan v. District Court (58 Mont. 684, 194 Pac. Eep. 308) ; Allen v. Commonwealth (\u2014 Va. \u2014, 105 S. E. Rep. 589) ; Ex parte Crookshank (269 Fed. Rep. 080) ; Franklin v. State (\u2014 Tex. Crim. \u2014, 227 S. W. Rep. 486); Woods v. City of Seattle (270 Fed. Rep. 315) ; United States v. Peterson (268 id. 864) ; Ex parte Ramsey (265 id. 950). All of those cases grew out of the construction of laws existing at the time of the enactment of the Volstead Act. The following cases in this State hold that the amendment of the Liquor Tax Law, passed after the enactment of the Volstead Act. being chapter 911 of the Laws of 1920, the statute in question in this case, is enforcible and that a violation thereof constitutes a crime: People v. Foley (113 Misc. Rep. 244) ; People v. Mason (186 N. Y. Supp. 215) ; Ex parte Finegan (270 Fed. Rep. 665).\nThe only case which I have been able to find which seems to be in conflict is the case of State v. Green (\u2014 La. \u2014, 86 So. Rep. 919), where the court said: \u201cAct 66 of 1902, by prohibiting the selling of intoxicating liquors without a license, implies the right of any and every person to obtain the license. Such a law, if enacted subsequent to the adoption of the Eighteenth Amendment, would not be \u2018 appropriate legislation.\u2019 It would be absolutely violative of the amendment. The statute is altogether inconsistent with the constitutional amendment, and is therefore without effect.\u201d That case seems to be in conflict with the case of City of Shreveport v. Marx (supra), previously decided by the same court, and it is also in conflict with all other cases upon the question. In those cases it was held that the fact that the State statutes made it a crime to traffic in liquor, unless a license had been procured as provided in the State statutes, did not make the statutes void and unenforcible because in conflict with the Eighteenth Amendment or the Volstead Act. It was held that such parts of the statutes as provided for the sale of intoxicating liquors upon procuring a license were in conflict with the Eighteenth Amendment and the Volstead Act and were, therefore, void and unenforcible, but that the parts of such statutes as made it a crime to traffic in such liquors remained in full force and operation. In the case of Commonwealth v. Nickerson (supra) the court said:\n\u201c The general purpose of R. L. c. 100 is prohibition, except as local option manifested by annual votes in the several municipalities effectuated by the granting of licenses through municipal boards may result in a regulated method of sales by licenses. The burden of proving such authorization rests upon a defendant, however. Upon a complaint for an illegal sale the commonwealth makes out its case by showing a sale of intoxicating liquor. The defendant, in order to escape conviction, must prove his license. (R. L. c. 219, \u00a7 7; Commonwealth v. Regan, 182 Mass. 22, 25, 64 N. E. 407.) As matter of statutory construction, the prohibition is general, the license is exceptional. The latter is dependent upon the efficacy of a valid local vote and a genuine license. This being the purpose and plan of the statute, its prohibitory features are not so dependent upon those respecting license as to be swept away when those as to license are stricken down by the Eighteenth Amendment. The general rule of the statute continues to prevail, even though the law has so changed that the special defense can no longer be made out. It follows that R. L. c. 100 has not been abrogated by the Eighteenth Amendment and the Volstead Act. The sections under which the complaint was framed against the defendant are still operative and efficacious.\u201d\nThat opinion referred to a State statute which was in force when the Eighteenth Amendment was adopted, but I think the same principle applies to the statute in question in the case at bar. That statute prohibits the traffic in intoxicating liquors unless a liquor tax is paid and a certificate issued. The provision permitting such traffic upon payment of a tax is void, but the provision making it a crime to traffic therein remains in force.\nIt is a familiar principle that a statute may be unconstitutional in part and valid in part, if the parts which are void can be separated from those which are valid. (Presser v. Illinois, 116 U. S. 252; People ex rel. Devery v. Coler, 173 N. Y. 103.) I think that the statute in question can be so separated, and that the parts which prohibit traffic in liquor are valid and that a violation thereof constitutes a crime. Section 40 of said act (Laws of 1920, chap. 911) provides: \u201c \u00a7 40. If any section or provision of this act shall he held to he invalid, it is hereby pro-. vided that all other provisions of this act which are not expressly held to be invalid shall continue in full force and effect.\u201d\nThe fact that different penalties ave provided in the State statute and in the Volstead Act does not make the State statute void. (Commonwealth v. Nickerson, supra; Ex parte Crookshank, supra.)\nIf, however, the amendment of the Liquor Tax Law in question should be held to be unconstitutional and void, still the defendant was legally convicted. He was charged in the indictment with a violation of the Liquor Tax Law. The Liquor Tax Law of the State was amended by the amendment in question in 1920. If that amendment is unconstitutional and void, the Liquor Tax Law as it stood before that amendment is in force and operation, and the defendant was properly convicted thereunder. (People ex rel. Farrington v. Mensching, 187 N. Y. .8.) The indictment was properly found against the defendant \u2014 the court had authority to permit the amendment substituting the name of the defendant in place of the fictitious name contained in the indictment.\nThe judgment of conviction should he affirmed.\nAll concur.\nJudgment of conviction affirmed.\nSee La. R. S. \u00a7 910, as amd. by La. Acts of 1902, No. 66, p. 93; 1 Wolff Const. & Stat. La. 444. \u2014 [Rep.",
+        "type": "majority",
+        "author": "Hubbs, J.:"
+      }
+    ],
+    "attorneys": [
+      "J. M. Seymour, for the appellant.",
+      "Archibald M. Laidlaw, District Attorney, for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014 APPELLATE DIVISION \u2014 FOURTH DEPARTMENT.\nMay 4, 1921.\nTHE PEOPLE v. MIKE COOK.\n(197 App. Div. 155.)\n(1) Liquor Tax Law \u2014 Constitutionality\u2014Laws 1920, ch. 911\u2014 Extent of power of State to legislate for the purpose of enforcing Eighteenth Amendment to Federal Constitution.\nThe States have the same power they had before the adoption of the Eighteenth Amendment to the Federal Constitution to prohibit traffic in intoxicating liquors and Congress has the added power given by the amendment, but the power of the States to legislate on the subject is limited by the second section of the amendment to the passage of \u201cappropriate legislation\u201d to enforce such amendment, and they cannot legally enact laws repugnant to those enacted by Congress upon the subject.\n(2) Same.\nState laws in so far as they conflict with and are repugnant to the Volstead Act are abrogated and nullified by that act, but in so far as they are \u201cappropriate legislation\u201d to enforce said Eighteenth Amendment they are legal and enforcible.\n(3) Same.\nThe Liquor Tax Law, as amended by chapter 911 of the Laws of 1920, in so far as it permits the traffic in intoxicating liquors on the payment of a tax, is void, but it is valid in so far as it is made a crime to traffic in intoxicating liquors.\n(4) Same.\nThe defendant was charged with violating the Liquor Tax Law, and if the amendment were void, the act as it stood before the amendment is in force and operation and the defendant was properly convicted thereunder.\n(5) Same \u2014 Different penalties do not make statute void.\nThe fact that different penalties are provided in the State statute and in the Volstead Act does not make the State statute void.\n(6) Same \u2014 Defendant\u2019s name mat be substituted fob fictitious name IN INDICTMENT.\nThe indictment was properly found against the defendant, and the court had the power to permit an amendment substituting the defendant\u2019s real name in place of a fictitious name.\nAppeal by the defendant, Hike Cook, from a judgment of the County Court of Cattaraugus county, rendered on the 18th day of October, 1920, convicting him of violating the Liquor Tax Law of the State of New York.\nJ. M. Seymour, for the appellant.\nArchibald M. Laidlaw, District Attorney, for the respondent.\nSee People ex rel. Theodor Thomsen v. Com. of Correction, ante."
+  },
+  "file_name": "0219-01",
+  "first_page_order": 239,
+  "last_page_order": 248
+}

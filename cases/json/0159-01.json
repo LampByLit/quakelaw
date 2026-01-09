@@ -1,0 +1,782 @@
+{
+  "id": 807211,
+  "name": "THE PEOPLE v. EDWARD PEKARZ",
+  "name_abbreviation": "People v. Pekarz",
+  "decision_date": "1906-06",
+  "docket_number": "",
+  "first_page": "159",
+  "last_page": "174",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "20 N.Y. Crim. 159"
+    },
+    {
+      "type": "parallel",
+      "cite": "185 N.Y. 470"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y.",
+    "id": 24653,
+    "name": "New York Court of Appeals"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "2 N. Y. 193",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        492128
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/2/0193-01"
+      ]
+    },
+    {
+      "cite": "36 Pac. Rep. 205",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "case_ids": [
+        2886108
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ariz/4/0217-01"
+      ]
+    },
+    {
+      "cite": "157 Mass. 554",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        803805
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/mass/157/0554-01"
+      ]
+    },
+    {
+      "cite": "159 N. Y. 153",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "179 N. Y. 315",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        805381,
+        2318725
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/18/0516-01",
+        "/ny/179/0315-01"
+      ]
+    },
+    {
+      "cite": "163 N. Y. 11",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        40102
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/163/0011-01"
+      ]
+    },
+    {
+      "cite": "43 N. Y. 6",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2048157
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/43/0006-01"
+      ]
+    },
+    {
+      "cite": "16 N. Y. 501",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1297845
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/16/0493-01"
+      ]
+    },
+    {
+      "cite": "158 N. Y. 558",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        44190
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/158/0558-01"
+      ]
+    },
+    {
+      "cite": "174 N. Y. 36",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2310456
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/174/0036-01"
+      ]
+    },
+    {
+      "cite": "181 N. Y. 235",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2321848,
+        1189830
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/181/0235-01",
+        "/ny-crim/19/0360-01"
+      ]
+    },
+    {
+      "cite": "148 N. Y. 566",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2272143
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/148/0566-01"
+      ]
+    },
+    {
+      "cite": "178 N. Y. 91",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2316529,
+        805417
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/178/0091-01",
+        "/ny-crim/18/0233-01"
+      ]
+    },
+    {
+      "cite": "153 N. Y. 561",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2277618
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/153/0561-01"
+      ]
+    },
+    {
+      "cite": "106 N. Y. 298",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2210537
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/106/0298-01"
+      ]
+    },
+    {
+      "cite": "176 N. Y. 289",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2313552,
+        1187075
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/176/0289-01",
+        "/ny-crim/17/0528-01"
+      ]
+    },
+    {
+      "cite": "150 N. Y. 291",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2273986
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/150/0291-01"
+      ]
+    },
+    {
+      "cite": "131 N. Y. 651",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2247411
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/131/0651-01"
+      ]
+    },
+    {
+      "cite": "131 N. Y. 563",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1172800
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/10/0152-01"
+      ]
+    },
+    {
+      "cite": "179 N. Y. 408",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2318665,
+        805387
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/179/0408-01",
+        "/ny-crim/18/0536-01"
+      ]
+    },
+    {
+      "cite": "125 N. Y. 136",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1895874
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/125/0136-01"
+      ]
+    },
+    {
+      "cite": "20 Tex. App. 255",
+      "category": "reporters:state",
+      "reporter": "White & W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "29 Tex. App. 328",
+      "category": "reporters:state",
+      "reporter": "White & W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "10 Fed. Rep. 730",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6734851
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/10/0730-01"
+      ]
+    },
+    {
+      "cite": "49 Ind. 124",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1411850
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ind/49/0124-01"
+      ]
+    },
+    {
+      "cite": "159 Mass 125",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        799518
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/mass/159/0125-01"
+      ]
+    },
+    {
+      "cite": "139 N. Y. 559",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "137 N. Y. 353",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "130 N. Y. 520",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "99 U. S. 658",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "132 Mass. 218",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        2131633
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/mass/132/0218-01"
+      ]
+    },
+    {
+      "cite": "108 N. Y. 56",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2214382
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/108/0056-01"
+      ]
+    },
+    {
+      "cite": "165 N. Y. 594",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "71 N. Y. 461",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2167999
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/71/0461-01"
+      ]
+    },
+    {
+      "cite": "139 N. Y. 523",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "138 N. Y. 398",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1172705
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/10/0420-01"
+      ]
+    },
+    {
+      "cite": "148 N. Y. 506",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "133 N. Y. 544",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2251527
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/133/0544-01"
+      ]
+    },
+    {
+      "cite": "95 N. Y. 316",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2193660
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/95/0316-01"
+      ]
+    },
+    {
+      "cite": "12 Wkly. Dig. 501",
+      "category": "reporters:federal",
+      "reporter": "Wkly. Dig.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "55 N. Y. 634",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        517450,
+        517510
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/55/0634-01",
+        "/ny/55/0634-02"
+      ]
+    },
+    {
+      "cite": "97 N. Y. 66",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "36 N. Y. 282",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "87 N. Y. 514",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        549505
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/87/0514-01"
+      ]
+    },
+    {
+      "cite": "34 N. Y. 194",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "6 Park. Cr. Rep. 120",
+      "category": "reporters:state",
+      "reporter": "Park. Cr.",
+      "case_ids": [
+        1266832
+      ],
+      "pin_cites": [
+        {
+          "page": "125"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/park-crim-rep/6/0112-01"
+      ]
+    },
+    {
+      "cite": "1 Denio, 281",
+      "category": "reporters:state",
+      "reporter": "Denio",
+      "case_ids": [
+        483972
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/denio/1/0281-01"
+      ]
+    },
+    {
+      "cite": "18 N. Y. Crim. 516",
+      "category": "reporters:state",
+      "reporter": "N.Y. Crim.",
+      "case_ids": [
+        805381
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/18/0516-01"
+      ]
+    },
+    {
+      "cite": "148 N. Y. 556",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "pin_cites": [
+        {
+          "page": "569"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 N. Y. 190",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        16508
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/34/0190-01"
+      ]
+    },
+    {
+      "cite": "184 N. Y. 54",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2324641
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/184/0054-01"
+      ]
+    },
+    {
+      "cite": "19 N. Y. Crim. 360",
+      "category": "reporters:state",
+      "reporter": "N.Y. Crim.",
+      "case_ids": [
+        1189830
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/19/0360-01"
+      ]
+    },
+    {
+      "cite": "181 N. Y. 253",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "pin_cites": [
+        {
+          "page": "241"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 N. Y. Crim. 536",
+      "category": "reporters:state",
+      "reporter": "N.Y. Crim.",
+      "case_ids": [
+        805387
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/18/0536-01"
+      ]
+    },
+    {
+      "cite": "17 N. Y. Crim. 180",
+      "category": "reporters:state",
+      "reporter": "N.Y. Crim.",
+      "case_ids": [
+        1187033
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/17/0180-01"
+      ]
+    },
+    {
+      "cite": "173 N. Y. 122",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1187033,
+        2308590
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/17/0180-01",
+        "/ny/173/0122-01"
+      ]
+    },
+    {
+      "cite": "109 N. Y. 374",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        560532
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/109/0374-01"
+      ]
+    },
+    {
+      "cite": "179 N. Y. 315",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        805381,
+        2318725
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/18/0516-01",
+        "/ny/179/0315-01"
+      ]
+    },
+    {
+      "cite": "43 N. Y. 6",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2048157
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/43/0006-01"
+      ]
+    },
+    {
+      "cite": "16 N. Y. 501",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1297845
+      ],
+      "pin_cites": [
+        {
+          "page": "506"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/16/0493-01"
+      ]
+    },
+    {
+      "cite": "174 N. Y. 36",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2310456
+      ],
+      "pin_cites": [
+        {
+          "page": "46"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/174/0036-01"
+      ]
+    },
+    {
+      "cite": "179 N. Y. 408",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2318665,
+        805387
+      ],
+      "pin_cites": [
+        {
+          "page": "412"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/179/0408-01",
+        "/ny-crim/18/0536-01"
+      ]
+    },
+    {
+      "cite": "125 N. Y. 136",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1895874
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/125/0136-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1267,
+    "char_count": 31088,
+    "ocr_confidence": 0.574,
+    "pagerank": {
+      "raw": 1.529676319366453e-07,
+      "percentile": 0.6708676837916033
+    },
+    "sha256": "6b831c698c2a47659afdde020eae6a02ae80ec7e0ec7c575ab4e5f0ca094b1bc",
+    "simhash": "1:28d452e904c3295d",
+    "word_count": 5740
+  },
+  "last_updated": "2024-02-27T20:27:53.368575+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. EDWARD PEKARZ."
+    ],
+    "opinions": [
+      {
+        "text": "Vann, J.\nOn the 22d of May, 1905, the defendant was in-dieted for the crime of murder in the first degree, in that on the 24th of April, 1905, in the borough of Manhattan, county of New York, he willfully, feloniously and with malice aforethought, took the life of Sarah Eosenberg by beating her upon the head with a hammer and stabbing her in the throat with a knife. Upon his arraignment he pleaded \u201c not guilty \u201d and, as permitted by statute, added the specification \u201cthat he was insane when the offense was committed.\u201d (Code Cr. Pro. \u00a7 335.) His trial commenced on the 19th of June, 1905, and on the 28th of the same month the jury found him guilty of murder in the first degree as charged in the indictment.\nUpon the trial evidence was given tending to establish the following facts: The defendant, a native of Bohemia, came to this country on the 5th of January, 1905, when he was twenty-six years of age. He was a harnessmaker by trade, but had served three years in the army, and little else is known of his history before he came to the United States. He did not obtain employment for about three weeks after his arrival, and during that period he lived with his cousin, Mr. Ontl. He worked a short time in Brooklyn, but during the latter part of February he began to work for a harnessmaker named Scheider at 1784-First avenue in the city of Hew York, and continued in his employment until April 24th, the day of the homicide.\nAbout the middle of March he began to live in the apartments of Sarah Rosenberg, the deceased, and he continued to live there until the day of her death. Her rooms, which were on the second floor of Ho. 332 East 101st street, consisted of a parlor in front, with a kitchen and two bedrooms in the rear. They were all in a line, with a door opening from each into the next. The defendant occupied the rear bedroom, which he rented of the deceased, and these two persons were the only occupants of the apartments. Sarah Rosenberg was about seventy-five years of age, according to the testimony of a neighbor who had known her for a short time, but according to the judgment of the physician who performed the autopsy, she was about sixty.\nThe defendant drank to excess and was frequently intoxicated. On one occasion in March he was so drunk that Mr. Scheider, his employer, had to take him home because he could not take care of himself. Mr. Scheider testified that this was the only time he remembered seeing him in a drunken condition prior to the 24th of April, but that he drank so much that he remonstrated with him on the subject and told him to stop. He did not drink every day and lost but three days, in March and none in April. On Monday, April 24th, he began work at the usual hour and was \u201c half drunk \u201d when he came. During the forenoon he procured four or five pints of beer and apparently drank the most of it, but still he did his work all right and when he came in with the beer walked steadily and did not spill any. Notwithstanding \u201c he was drunk all the morning,\u201d he talked all right and did as much work as usual that forenoon. At noon he told Mr. Scheider that he wanted to go home and fix his bed, which was broken down the night before, and borrowed a heavy riveting hammer from him for that purpose. He also asked for a little money to pay for his luncheon and Mr. Scheider handed him a quarter. He then went away with the hammer in his hand. At about half-past three he came back, \u201c not so much drunk any more \u201d and showed a ten-dollar bill and one or two dollar bills to Mr. Scheider, who asked him where he got them and added, \u201c You had no money at noon time when you left here.\u201d The defendant answered, \u201c Well, I always got plenty of money.\u201d He had changed the clothes that he wore when he left and was wearing those he had on at the trial. He sat down, had a pint of beer and began to sing, when Mr. Scheider ordered him off his premises. At half-past nine that night he returned again and wanted to get a pint of beer, but Mr. Scheider would not let him. He said he was coming back to work the next morning, but was told that he was not wanted any more. On Wednesday following he came back for his tools, but was informed he could not have them until he brought the hammer back. He said, \u201c All right,\u201d went out and Mr. Scheider did not see him again until at the inquest held by the coroner.\nAbout a week prior to the 24th of April the defendant said to Mr. Scheider that he knew where Sarah Eosenberg kept her money, and when asked where it was, replied, \u201c Under the stove where other people keeps wood.\u201d\nFor five days after April 24th nothing was seen of Sarah Eosenberg by her neighbors, and as a stench began to come from her rooms, an entrance was forced and on the bed in the rear bedroom her dead body was found in an advance state of decomposition. It was clothed and lying across the bed, with the legs hanging down in front. The bed clothes were thrown . loosely over the body, a towel was spread over the face and the bed looked as if it had been used and not made up. A little bag or pouch was found tied with a cord about the neck. A hammer with blood spots on it was lying on the pillow about six inches from the head. It was the same hammer that the defendant had borrowed of his employer. There was no blood on the floor of the bedroom in which the body was found, but the bed and the cloth over the head were saturated with blood. The floor of the kitchen was covered with a dark substance like blood. On a dresser standing against the wall a bloody knife was found, which Mr. Scheider identified as one belonging to him, but which he had not lent to the defendant. The clothes which the defendant had on when he left his place of employment at noon on the 24th of April were found hanging in the room and the right leg. and seat of the trousers were covered with blood. There was a dollar and some change in a pocket of the vest.\nThe physician who made the autopsy found evidence of five separate blows upon the head, which fractured the skull in several places. The nose and both of the upper jaws were also fractured. He found an incised and punctured wound on each side of the neck, severing the main artery on either side. He was of the opinion, although he expressed it with some doubt, that the wounds in the neck were inflicted before death. The blows were sufficient to cause death and the cutting of the arteries, independent of the blows, would have caused death.\nTwo days later the defendant was arrested and, after having been warned that he need not answer any questions and that whatever he said would be used against him on his trial, he freely answered all questions that were put to him. When asked what he did with the old woman in 101st street he said that he \u201c brained her with a hammer.\u201d When searched at the police station, blood was found on his shoes and on the seat of his shirt and drawers, and when asked how it came there he said he did not know. The hammer, two knives and the clothing found at the flat were shown him and he identified the clothing as his own, the hammer and one of the knives as those used by him, but said \u201c bio,\u201d when asked as to the other knife. He stated, in substance, that he struck the old woman with the hammer in the kitchen and she fell to the floor, when he struck her again. He tore open her waist, pulled out a little pouch and took a ten-dollar bill and two one-dollar bills out of it. He saw that she was still breathing and, to make sure, cut her throat with a knife. He dragged the body from the kitchen through the next room into the bedroom and put it on the bed where it was found. When asked why he killed the old woman, he said he was under the influence of liquor and wanted money for more drink. The coroner, after the defendant had been duly warned as before, also asked him why he did it and he said that he was under the influence of liquor and in a state of passion; that he went home to get money and asked the old lady for some, but she gave him none. He knew she had money and the \u201c impulse of the moment came over \u201d him to kill her and get it. To the question whether the old woman kept money in the stove he answered, \u201c A little loose change,\u201d and added that he found a few pennies there.\nAt this time, which was seven or eight days after the homicide, the coroner observed that there was a tremor of his hands and head and a spontaneous contraction and dilation of the pupils of his eyes; that he had the symptoms of alcoholism, shifting on the chair from one side to the other, general nervousness, attempts to say something and stuttering, involuntary movements of the tongue, all of which symptoms the coroner said appeared after a debauch or severe drinking. The coroner was under the impression that he had been on debauch and was apparently recovering therefrom. Once he laughed in a peculiar manner, and when shown a letter from his mother he read it and wept, \u201c read it again, wept again and turned away.\u201d He said he was ready to sign a confession and leave the country at once.\nThe defendant was sworn as a witness in his own behalf and stated that prior to the 24th of April he drank heavily, not much during the week, but very heavily on Saturdays and Sundays. On the Saturday preceding the homicide he was paid ten dollars by Mr. Scheider and spent it in drink. He went to work Monday morning at seven without any breakfast and drank a glass of whisky and four or five pints of beer by noon. He then told Mr. Scheider that he did not feel like working in the afternoon as he was too drunk, borrowed a hammer to fix his bed and went home for the purpose. The old lady told him that she had fixed the bed, and, to use the defendant\u2019s own words, \u201c Thereupon I continued to talk words with her; thereupon the lady turned away to go into the other room, when I, from behind, knocked her down with the hammer. I looked at the lady as she was on the floor and she continued to breathe; thereupon I took a knife and cut her throat, when I noticed the cord around her neck. I lifted the cord and there was on it a little pouch. I opened it and there was twelve dollars in it, and I took them and put them in my pocket. I put on this suit, put the old lady on the bed, covered her and left. I went back to Seheider\u2019s place of business. I bought beer there. I don\u2019t know whether I sang a song there. I did not tell the police officer that I killed this old woman for the purpose \u00f3f getting money to buy more drink. I did not tell coroner Sch'oler that I went home to get money, as I had no money, or that I knew that this old woman had money, and that the reason I killed her was for the purpose of getting her money. I discovered that this woman had money when I picked up that cord and saw it there, that is, after the throat was cut. I did not go home that day with the intention of killing Mrs. Bosenberg. * * * I first realized what I had done to this woman as I came down into the street. I noticed that I had a different suit on, and then I tried to think over what I had done, and thereupon it appeared to my mind. I did not know what I was doing at the time in that house.\u201d He also swore that he tried to commit suicide twice, once before his arrest and once since.\nOn his cross- examination he said that he did not know why he killed the old woman, but knew that he killed her. He did not want money. He took the twelve dollars from her neck because she had no more use for it and used it himself. He did not know what he intended to do with the money when he took it. He did not look elsewhere in the room for money, and as he saw the woman in that condition he was overcome by anguish and ran away. He borrowed a hammer from his boss to fix the bed, got a quarter of a dollar from him for lunch, and spent ten cents of it for that purpose. He remembered distinctly what he had for lunch. On reaching home he unlocked the outer door of his bedroom and entered. He went to fix the bed but saw that it was already fixed. The bed had been made up, the water emptied and a new pitcher of water was on the washstand. After he saw that the bed was all right, he washed himself and went into the old lady\u2019s apartments, having the hammer in his hand. He wanted to show her he had the hammer and that he had intended to fix the bed, himself, but she told him that she had done it. She asked him why he was not working and he replied that he told the boss he was too much under the influence of liquor, but that he intended to go to work the next day and to have a good sleep first. She was standing in the kitchen by the stove with her back toward him when he struck her with the hammer in his right hand. She fell, making no sound. He struck her once more when she was on the floor. He did not know why he hit her twice and did not remember where he put the hammer. He carried her from the kitchen to the bedroom and laid her on the bed. He could not remember in what room it was that he stabbed her, but said that at the time he cut her with the knife he saw the pouch around the neck. He went from the kitchen to the bedroom and got the knife out of the top drawer of the bureau in order to cut her throat; returned to the kitchen and cut her throat. He thought she was already dead when he took the knife, and did not know why he took the knife or how many times he stabbed her with it. He did not wash his hands after he killed her, but changed his clothes because the others were too ugly. They were his working clothes, and it was a holiday, Easter Monday. His cross-examination closed as follows: \u201c I cannot make out how the blood got on my drawers, the devil knows it. I don\u2019t know whether I slipped or not while I was carrying the woman into the bedroom. It was when I was in the street that I looked at myself. I found that I had a different suit on than before, all that I had done then passed before my mind.\u201d\nDr. Mansen, a medical expert called for the defense, testified, in answer to a hypothetical question, that in his opinion the defendant was suffering from an acute attack of alcoholic mania and was insane at the time of the homicide. On his cross-examination, in answer to another hypothetical question, which substituted \u201c conscious \u201d of his acts, in place of \u201c unconscious,\u201d and assumed that the defendant asked the old woman for money, and, upon her refusing to give him any, struck her on the head with the hammer, took the purse, saw that she was still breathing, got a knife, cut her throat twice, took her into the bedroom, changed his clothes, locked the door, etc., he answered: \u201c That question, implying motive, would leave me in doubt. What I diagnose insanity upon, are two main features, here\u2014absence of motive and the intense fury of the crime.\u201d He further stated that if the defendant \u201c were conscious of his act he was in all probability sane.\u201d\nDr. McDonald, called as an expert by the People, in answer to the same hypothetical question that was first put to the defendant\u2019s expert, said that the defendant was sane but intoxicated at the time of the homicide.\nThe statement of the facts is our review upon the merits, for it is obvious therefrom that the evidence was ample to justify the jury in convicting the defendant of the crime charged either upon the theory of a deliberate and premeditated design to effect the death of the person killed, or upon the theory that the defendant was engaged in the commission of a felony affecting the person killed. (People v. Deacons, 109 N. Y. 374; People v. Sullivan, 173 N. Y. 122, 17 N. Y. Crim. 180.) The evidence, aside from the confession, is sufficient to sustain a verdict rendered on either theory, and, as the indictment was in the common-law form, it was supported by either kind of proof. Upon the question of insanity there was evidence to show that the defendant knew the nature and quality of the act he was doing and that he knew the act was wrong. (Penal Code, \u00a7 21.) He remembered what he did, even to the minute details, and must have been conscious of what he was doing. He knew that it was wrong, for he at once changed his bloody clothes, locked the door upon leaving, and when asked by his employer where he got the money, did not tell him. If he committed the act while in a state of voluntary intoxication, it is not deemed less criminal on that account, although the fact may be considered in determining the purpose, motive or intent. (Id. \u00a7 22; People v. Fish, 125 N. Y. 136.) All these questions were for the jury, and we do not think that their verdict was against the weight of evidence or against law, or that justice requires a new trial. (Code Crim. Pro. \u00a7 527.)\nWe, therefore, pass to the consideration of the exceptions, for the judgment should not be disturbed unless some reversible error, duly raised by objection and exception, requires a new trial.\nMrs. May Ontl, at whose house the defendant stayed for a few weeks after his arrival in this country, testified that at times he was intoxicated, and when under the influence of liquor frothed at the eyes and mouth; that his eyes stuck out -and he looked wild. She was then asked: \u201cNow, from the acts that you observed of the defendant in your presence during the times that you have testified to, were those acts those of a rational or irrational man ? \u201d Also the following: \u201c On the second Sunday that you saw the defendant you say that you -saw the defendant in a state of intoxication; he was foaming from the mouth; that his eyes were bulged; that he was untidy, and I ask you whether the acts which you observed impressed you\u2014whether the acts were those of a rational or irrational person ? \u201d\nThese questions were excluded upon the objection of the district attorney, and the defendant excepted.\nThe general rule running through the cases from an early day is that a lay witness may describe the acts of a person whose sanity is under investigation, and then state whether those acts impressed him at the time as rational or irrational. (People v. Spencer, 179 N. Y. 408, 412, 18 N. Y. Crim. 536; People v. Silverman, 181 N. Y. 253, 241, 19 N. Y. Crim. 360; Matter of Meyer, 184 N. Y. 54; Clapp v. Fullerton, 34 N. Y. 190.) The rule authorizes the witness to characterize the acts, but not the person doing the acts. The observer may state that the act impressed him as irrational, but not that the person impressed him as irrational. While an effort was made in the second question to present the subject in proper form, still the closing words called for a characterization of the person doing the acts, instead of a characterization of the acts themselves. Whether the distinction is logical or not, it seems to be well founded. Of course, when an act is characterized .-as rational or irrational, it necessarily means the act of the rational or irrational human being named and for the witness to express what is necessarily implied does not change. the necessary effect. On the other hand, it is to be observed that a direct answer to the questions as asked would involve the opinion of the witness upon the question the jury were to decide, which is contrary to the general principle governing opinions of lay witnesses. (People v. Strait, 148 N. Y. 556, 569.)\nWhile the ruling was technically correct, according to the authorities, we think it can be justified upon a broader and more satisfactory ground. The witness did not describe any act of the defendant, but simply his condition, and it was not for a lay witness to express an opinion as to mental soundness founded upon that condition. That he was intoxicated was a condition. That he was foaming from the mouth, that his eyes were bulging and that he was untidy, were simply descriptions of a condition, not a statement 'of acts done or words spoken. When the witness summarized her description she said, \u201c That is the way he looked.\u201d In other words, she simply described his appearance. If the defendant had done something or said something, the witness, after describing the act or repeating the words, could have expressed the opinion whether they impressed her at the time as rational or irrational. She could not, however, pronounce his mere condition or appearance rational or irrational, for that would lay before the jury the opinion of a non-expert in relation to a disease of the mind, which is never permitted. Such evidence would be unreliable and dangerous.\nThe alienist called by the defendant was asked some searching questions on his cross-examination by the district attorney in relation to his experience as a witness in other criminal eases, for the purpose, dvdy announced, of testing his qualification as an expert. Complaint is made that the cross-examination embraced collateral and irrelevant subjects, which did not affect the credibility of the witness. We think, however, that the evidence was properly received, as it bore upon the competency of the witness as an expert, which we have held to be a subordinate issue. (Hoag v. Wright, 174 N. Y. 36, 46.) In deciding that case we said: \u201c The competency of a witness (a professed expert) is a fact necessary to be known in order to learn the value of his opinion. While it is not an issue raised by the pleadings, it becomes a subordinate issue by the tender of the witness as an expert. As the opinion may determine the main issue, the question whether the opinion is relevant; that is, whether it is the opinion of one legally qualified to give it, is necessarily an incidental issue, as otherwise the main issue might be decided upon an irrelevant fact. It is incidental to the main issue because it attacks the foundation of the evidence, and it may be the only evidence received to establish the main issue.\u201d\nWe also declared that such a cross-examination should be confined within reasonable limits, and that limitation was not exceeded in the case now before us.\nThe trial court was asked to charge upon \u201c the subject of the good character of the defendant.\u201d During the colloquy which followed it was conceded by the counsel for the defendant that no evidence had been offered upon the subject, and this is in accordance with the record. The court thereupon said: \u201c The prosecution could not offer any evidence to the contrary. The law presumes him to be innocent. If you choose to offer evidence affirmatively as to his good character, the prosecution have a right to attack your proof and offer contrary proof. The law is silent as to character, but it presumes, as I have already said to the jury, the law presumes the defendant innocent. There is nothing touching character, gentlemen, nothing against the defendant, save the proof of this particular act.\u201d\nThe defendant\u2019s counsel, thereupon, asked the court to charge that \u201c in the absence of any testimony on the subject of the character of the defendant, the presumption is that the defendant\u2019s character was good, prior to this offense.\u201d The court said in reply: \u201c Oh, there is no evidence against it at all. I have said that to the jury already.\u201d The defendant\u2019s counsel then said: \u201c But I mean that the presumption that his character is good must be considered by the jury.\u201d The court declined to charge further upon the subject, but added: \u201cThere is no presumption against him at all. The presumptions are all in his favor on that head.\u201d\nThe only exception taken was to the refusal to charge the last request, which raised no error.\nUpon the trial of every indictment the defendant is presumed to he innocent. If a prima facie case is made out against him, he may show that his character was good, because such evidence bears upon the probability whether a person with such a character would commit the crime charged. If \u201c the other evidence is nearly balanced, but slightly preponderating against the defendant, the presumption from proof of good character is entitled to great weight and will often be sufficient to turn the scale and produce an acquittal.\u201d (Cancemi v. People, 16 N. Y. 501, 506; Remsen v. People, 43 N. Y. 6.) AVhen such evidence has been presented it is the duty of the court, if properly requested, to instruct the jury to consider it and to tell them the effect that it may have. (People v. Bonier, 179 N. Y. 315, 18 N. Y. Crim. 516.)\nAVhen, however, no evidence has been given upon the subject by the defendant, who alone can open the door, hi.s character is not in issue and he is not entitled to the instruction that the presumption that his character is good, must be considered by the jury.\u201d It is only affirmative proof of good character, quite independent of any presumption that one\u2019s character is good until shown to be bad, that bears on the probability of guilt and entitles the accused to an instruction that his character must be taken into consideration. The presumption of innocence is vital and must be charged if requested, but the presumption of good character, when unsupported by affirmative proof, is practically an abstraction and need not be charged, even if requested. So far as it exists at all, it applies to all persons alike and extends with the same force to a Caesar Borgia as to a Saint Jerome. A presumption in favor of one party that cannot be rebutted' by evidence given in behalf of the other, unless the former opens the door, is too feeble to be of practical value in the administration of justice and a charge upon the subject would do no good but lead to confusion. \u201c Where no evidence of general character has been given, the subject of character is not one for the consideration of the jury.\u201d (People v. Bodine, 1 Denio, 281; State v. Ford, 3 Strobhart, 517, 527; Donoghoe v. People, 6 Park. Cr. Rep. 120, 125; Ackley v. People, 9 Bar. 609; Underhill on Criminal Evidence, \u00a7 76.)\nWe find no error in the record that calls for a reversal. The defendant had a fair trial. USTo injustice was done him by any ruling of the court, nor was injustice done him by the verdict of the jury.\nThe judgment of conviction should be affirmed.\nCullen, Ch. J., Edward T. Bartlett, Werner, Willard Bartlett and Chase, JJ., concur; Gray, J., absent.\nJudgment of conviction affirmed.",
+        "type": "majority",
+        "author": "Vann, J."
+      }
+    ],
+    "attorneys": [
+      "Joseph S. Rosalsky and Abraham, Landau for appellant.",
+      "William Travers Jerome, District Attorney (Robert C. Taylor of counsel), for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "COURT OF APPEALS,\nJune, 1906.\nTHE PEOPLE v. EDWARD PEKARZ.\n(185 N. Y. 470.)\n(1) . Murder\u2014Sufficiency of Evidence.\nThe evidence upon the trial of an indictment for homicide, to which the defense of insanity was interposed, reviewed and held sufficient to justify a verdict convicting the defendant of the crime of murder in the first degree, either upon the theory of a deliberate and premeditated design to effect the death of the person killed or upon the theory that the defendant was engaged in the commission of a felony affecting the person killed.\n(2) . Witness\u2014Opinion of Nonexperts as to Mental Disease Inadmissible.\nA lay witness may state that the acts of a person whose sanity is under investigation impressed him as irrational, but not that the person impressed him as irrational; such witness cannot, however, describe merely the condition or appearance of the person, and pronounce it rational or irrational, since that would constitute the expression of the opinion of a non-expert in relation to a disease of the mind, which is never permitted.\n(3) . Experts\u2014Competency May Be Tested.\nThe competency of an expert may be tested upon cross-examination, although the inquiry embraces collateral matters, provided the examination is confined within reasonable limits.\n(4) . Presumption as to Good Character.\nWhen no evidence has been given upon the subject by the defendant, who alone can open the door, his character is not in issue and he is not entitled to the instruction \u201c that the presumption \u00a1that his character is good must be considered by the jury.\" It is only affirmative proof of good character, quite independent of' any presumption that one\u2019s character is good until shown to be bad, that bears on the probability of guilt and entitles the accused to an instruction that his character must be taken into consideration. The presumption of innocence is vital and must be charged if requested, but the presumption of good character, when unsupported by affirmative proof, is practically an abstraction and need not be charged, even if requested.\nAppeal from a judgment of the Court of General Sessions of the Peace in the county of 27ew York, rendered June 23, 1905, upon a verdict convicting the defendant of the crime of murder in the first degree.\nThe facts, so far as material, are stated in'the opinion.\nJoseph S. Rosalsky and Abraham, Landau for appellant.\nThe court erred in refusing to permit May Ontl to testify that the acts of the appellant were those of an irrational person. (Clapp v. Fullerton, 34 N. Y. 194; Matter of Ross, 87 N. Y. 514; People v. O'Brien, 36 N. Y. 282; People v. Conboy, 97 N. Y. 66; Hawlett v. Wood, 55 N. Y. 634; Hughes v. Griffith, 12 Wkly. Dig. 501; Holcomb v. Holcomb, 95 N. Y. 316; Paine v. Aldrich, 133 N. Y. 544; People v. Strait, 148 N. Y. 506; People v. Taylor, 138 N. Y. 398.) The examination of Dr. Manson on collateral matters was prejudicial and constitutes .reversible error. (McLaughlin v. N. Y. & M. V. Bank, 139 N. Y. 523; Nelson v. S. M. Ins. Co., 71 N. Y. 461; Finn V. Cassidy, 165 N. Y. 594; Slocovich v. O. M. Ins. Co., 108 N. Y. 56; Perkins v. Stickney, 132 Mass. 218; Spring Co. v. Edgar, 99 U. S. 658; S. & P. Mfg. Co. v. Phelps, 130 N. Y. 520; M. R. R. Co. v. Warren, 137 N. Y. 353; I. & S. C. Co. v. Tolson, 139 N. Y. 559; Donahoe v. R. R. Co., 159 Mass 125.) The court erred in refusing to charge the following request that in the absence of any testimony on the subject of the character of the witness that the presumption is that the defendant\u2019s character was good prior to this offense.\u201d (Fletcher v. State, 49 Ind. 124; United States v. Buntin, 10 Fed. Rep. 730; Lincecum v. State, 29 Tex. App. 328; Stephens v. State, 20 Tex. App. 255; United States v. Neverson, 1 Mackey [D. C.], 152.)\nWilliam Travers Jerome, District Attorney (Robert C. Taylor of counsel), for respondent.\nThe defense of insanity has not been sustained. (People v. Fish, 125 N. Y. 136; People v. Spencer, 179 N. Y. 408; People v. Minnaugh, 131 N. Y. 563; People v. Tice, 131 N. Y. 651; People v. Hoch, 150 N. Y. 291; People v. Ennis, 176 N. Y. 289; People v. Schuyler, 106 N. Y. 298; People v. Burgess, 153 N. Y. 561; People v. Mooney, 178 N. Y. 91.) The questions to Mrs. Ontl were properly excluded. (People v. Strait, 148 N. Y. 566; People v. Spencer, 179 N. Y. 408; People v. Silverman, 181 N. Y. 235.) The cross-examination of Dr. Manson was properly conducted and no error can be predicated thereon. (Hoag v. Wright, 174 N. Y. 36; People v. Tice, 131 N. Y. 651; People v. Braun, 158 N. Y. 558.) The refusal to charge as to the presumption of good character did not constitute error. (Cancemi v. People, 16 N. Y. 501; Remsen v. People, 43 N. Y. 6; People v. Elliott, 163 N. Y. 11; People v. Bonier, 179 N. Y. 315; People v. Hughson, 159 N. Y. 153; U. S. v. Buntin, 10 Fed. Rep. 730; Comm. v. Nagle, 157 Mass. 554;Comm. v. Worcester, Thach. Crim. Cas. 100; Chung Sing v. U. S., [Ariz.] 36 Pac. Rep. 205; Shorter v. People, 2 N. Y. 193.)"
+  },
+  "file_name": "0159-01",
+  "first_page_order": 181,
+  "last_page_order": 196
+}

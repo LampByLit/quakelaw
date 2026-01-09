@@ -1,0 +1,135 @@
+{
+  "id": 1228871,
+  "name": "THE PEOPLE v. HOWARD M. KEAVIN",
+  "name_abbreviation": "People v. Keavin",
+  "decision_date": "1924-04-18",
+  "docket_number": "",
+  "first_page": "314",
+  "last_page": "317",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 314"
+    },
+    {
+      "type": "parallel",
+      "cite": "123 Misc. 56"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Sup. Ct.",
+    "id": 8791,
+    "name": "New York Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "193 N. Y. 581",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        55795,
+        1194943
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/193/0581-01",
+        "/ny-crim/23/0114-01"
+      ]
+    },
+    {
+      "cite": "126 App. Div. 72",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        809114
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/22/0485-01"
+      ]
+    },
+    {
+      "cite": "112 N. Y. Supp. 555",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "case_ids": [
+        5632163
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/112/0555-01"
+      ]
+    },
+    {
+      "cite": "93 Misc. Rep. 701",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        1889372,
+        1215174
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc/93/0701-01",
+        "/ny-crim/34/0241-01"
+      ]
+    },
+    {
+      "cite": "27 Misc. Rep. 60",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        7818534
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/57/0936-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 323,
+    "char_count": 5587,
+    "ocr_confidence": 0.538,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.046046700019962555
+    },
+    "sha256": "d7780858be6ce700d349ae8a26b62559d091b6cb327b7cf542058f6acdd939af",
+    "simhash": "1:af764b1912e830d8",
+    "word_count": 977
+  },
+  "last_updated": "2024-02-27T16:15:52.747790+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. HOWARD M. KEAVIN."
+    ],
+    "opinions": [
+      {
+        "text": "Cunningham, J.:\nThe defendant has been indicted by the grand jury for murder in the first degree, it being charged that he shot and killed a police officer of the city of Geneva, Aeneas McDonald, with the \u201c deliberate and premeditated design to effect the death of the said Aeneas McDonald.\nThe defendant bases his motion upon the ground that he did not have a preliminary hearing before a magistrate upon the charge of murder in the first degree and that, therefore, he is entitled to inspect the minutes of the grand jury. Leave to inspect the minutes of the grand jury has been granted in some cases upon this ground. People v. Molineux, 27 Misc. Rep. 60; People v. Foody, 38 id. 357; People v. Klaw, 53 id. 158.\nLater cases hold that leave to inspect will not be granted merely because the defendant has not had a preliminary examination. People v. Wood, 93 Misc. Rep. 701; People v. Gossett, 112 N. Y. Supp. 555; Matter of Montgomery, 126 App. Div. 72.\nThe grand jury must inquire not only into \u201c the case of every person imprisoned in the jail of the county, on a criminal charge, and not indicted \u201d (Code Crim. Pro. \u00a7 260), but \u201c into all crimes committed or triable in the county.\u201d \u00a7 252. \u201c If a member of the grand jury know or have reason to believe, that a crime has been committed, which is triable in the county, he must declare the same to his fellow jurors, who must thereupon investigate the same.\u201d \u00a7 259.\nIt is provided that the proceedings of the grand jury must be kept secret and this is so even in a case in which the accused person has not had a preliminary hearing. Code Crim. Pro. \u00a7\u00a7 245, 265.\nThe legislature has prescribed the information to which the defendant is entitled. The indictment must contain \" a plain and concise statement of the act constituting the crime.\u201d \u00a7 275. \u201c The names of the witnesses examined before the grand jury, or whose depositions may have been read before them * * * must be indorsed upon the indictment.\u201d \u00a7271.\nThe legislature has thus endeavored to protect the rights of the accused person by directing that certain information shall be given to him before he is brought to trial.\nThe indictment in the present case does contain a plain and concise statement of the crime with which the defendant is charged and there is indorsed thereupon the names' of the witnesses appearing before the grand jury. As he has been given the information to which the legislature says he is entitled, I believe he should not be afforded an opportunity to inspect the minutes of the grand jury in order to enable him to prepare for trial.\nWhile it is the purpose of the law to afford an accused person every opportunity to show his innocence, still in carrying out this purpose the courts must bear in mind that the People have the right to insist upon the conviction and punishment of one who is guilty of a crime and that this right should not be impeded or impaired.\nI am of the opinion that the motion of the defendant should not be granted because he has not had a preliminary examination. The only other ground which the defendant urges upon this motion is that the evidence was insufficient to warrant the charge of murder in the first degree.\nIt is necessary that the grand jury have before it sufficient legal evidence which would \u201c if unexplained or uncontradicted, warrant a conviction by the trial jury.\u201d Code Crim. Pro. \u00a7\u00a7 256, 258.\nEven if illegal evidence has been produced before the grand jury, this would not authorize the court to set aside the indictment in this case provided the legal evidence was sufficient to warrant the indictment. Ho claim is made that defendant\u2019s constitutional rights were invaded by forcing him to be a witness against himself.\nMany of the facts upon which the People rely are publicly known, so they may he repeated here. It is claimed that the defendant was detected in the act of committing a burglary and that he was armed with a loaded revolver; that while trying to escape arrest he shot and wounded a railroad detective; that Officer McDonald was attempting to arrest him and that defendant shot and killed the officer; that he shot four times at the officer, two of these shots taking effect.\nFrom these facts a jury may draw the inference that the defendant acted with deliberation and premeditation. People v. Governale, 193 N. Y. 581; People v. Morse, 196 id. 306; People v. Sanducci, 195 id. 361.\nAs the defendant must stand trial upon the indictment, he will not be given the use of the grand jury minutes to assist him in preparing his defense.\nThe motion is denied.\nOrdered accordingly.",
+        "type": "majority",
+        "author": "Cunningham, J.:"
+      }
+    ],
+    "attorneys": [
+      "Nathan D. Lapham, District Attorney, for the People.",
+      "Charles E. Bostwick, for the defendant."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014ONTARIO COUNTY.\nApril 18, 1924.\nTHE PEOPLE v. HOWARD M. KEAVIN.\n(123 Misc. 56.)\nMurder in first degree \u2014 Motion for leave to inspect minutes of GRAND JURY, ON GROUND THAT DEFENDANT DID NOT HAVE PRELIMINARY HEARING BEFORE MAGISTRATE AND THAT EVIDENCE IS INSUFFICIENT TO SUSTAIN INDICTMENT, DENIED.\nA motion by defendant indicted for murder in the first degree for leave to inspect the minutes of the grand jury should not be granted on the ground that he did not have a preliminary hearing before a magistrate where the indictment contains a plain and concise statement of the crime charged and there is indorsed thereupon the names of the witnesses appearing before the grand jury.\nThe defendant is not entitled to have such motion granted upon the ground that the evidence was insufficient to warrant the charge against him.\nMotion by defendant for leave to inspect minutes of grand jury.\nNathan D. Lapham, District Attorney, for the People.\nCharles E. Bostwick, for the defendant."
+  },
+  "file_name": "0314-01",
+  "first_page_order": 330,
+  "last_page_order": 333
+}

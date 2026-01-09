@@ -1,0 +1,127 @@
+{
+  "id": 1228815,
+  "name": "THE PEOPLE v. SALVATORE CUCHIARA",
+  "name_abbreviation": "People v. Cuchiara",
+  "decision_date": "1924-05-08",
+  "docket_number": "",
+  "first_page": "331",
+  "last_page": "337",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 331"
+    },
+    {
+      "type": "parallel",
+      "cite": "209 App. Div. 326"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "144 App. Div. 282",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1198915
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/26/0175-01"
+      ]
+    },
+    {
+      "cite": "208 N. Y. 169",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        4520175
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/208/0169-01"
+      ]
+    },
+    {
+      "cite": "184 App. Div. 767",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1220750
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/37/0146-01"
+      ]
+    },
+    {
+      "cite": "216 N. Y. 471",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1215194,
+        4536371
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/34/0169-01",
+        "/ny/216/0471-01"
+      ]
+    },
+    {
+      "cite": "53 Hun, 437",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 522,
+    "char_count": 11893,
+    "ocr_confidence": 0.494,
+    "pagerank": {
+      "raw": 1.7282568620752163e-07,
+      "percentile": 0.7049891711833393
+    },
+    "sha256": "69db08e0a0bc6a9b39f550958549667235efdf61fc1c044d5b08aeb691f63e5d",
+    "simhash": "1:af5ac964803a9c30",
+    "word_count": 2078
+  },
+  "last_updated": "2024-02-27T16:15:52.747790+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. SALVATORE CUCHIARA."
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam :\nThe defendant demurred to the indictment on the ground that it charged more than one crime. There were two counts of the indictment; one sufficiently charges robbery in the first degree and the second count assault in the second degree; and it is claimed that it does not sufficiently appear that the crime charged in the first count arose out of the same transaction covering the crime charged in the second count. It appears that the two crimes were committed against the same person, on the same day, in the same town and county. It is true that the indictment should state distinctly the crime charged and with reasonable certainty the time and place of commission. The language should be plain and intelligible to the ordinary mind. It seems to us that this indictment plainly identifies the time, place and subject of the crime in such manner as to identify the two crimes charged as committed at one time and during one transaction. The two crimes may be stated in separate counts. (Code Crim. Proc. \u00a7\u00a7 275, 276, 279, 323.) It could not possibly be understood that the crime of robbery, coupled with an assault, could have been committed on a day fixed in a town named, against Joseph Leonard, and that an assault, accompanied with the acts which constitute robbery, was committed at a separate time, but against the same person, on the same day in the same town. (See People v. Emerson, 53 Hun, 437.)\nThe motion to dismiss the first count of the indictment was without merit. The language clearly and distinctly charged the crime of robbery in the first degree. (Penal Law, \u00a7\u00a7 2120, 2124.)\nThe defense claims that the witness Mildred Parker was an accomplice. She gave the chief testimony against the defendant. It cannot be said that the evidence justified the court in holding as a matter of law that she was an accomplice. While there was evidence which might justify the jury in-finding that she was an accomplice, yet it was not established with certainty that she had counseled, or induced, or encouraged the crime. Had she been indicted as a principal or as an acessory before the fact, upon the record in this case the jury would have been justified in acquitting her. (Penal Law, \u00a7 2; People v. Swersky, 216 N. Y. 471.)\nThe most serious question in the case arose in the following manner: At the close of the charge the defendant\u2019s attorney, Mr. Delaney, said: \u201c I ask your Honor to charge the jury that if they find Mildred Parker was an accomplice, that then under section 399 of the Code of Criminal Procedure they cannot convict the defendant unless her story is corroborated by such other evidence as tends to connect the defendant with the commission of the crime. The Court: I refuse to so charge, the jury may take all the evidence in the case and say from that evidence whether the defendant is guilty or innocent. * * * Mr. Delaney: I ask your Honor to charge the jury as matter of law that the woman Mildred Parker is or was an accomplice. The Court: I will leave that for the jury to say from the evidence in the case whether or not she is. * * * Mr. Delaney: I ask your Honor to charge the jury that if they come to the conclusion that the witness Mildred Parker was an accomplice that a conviction cannot be had upon her testimony unless it be corroborated by such other evidence as tends to connect the defendant with the commission of the crime. The Court: If they take into consideration her evidence alone I so charge, but I do now charge you have the right to take into consideration the guilt or innocence of the defendant from all the \u25a0 other evidence in the case.\u201d The court correctly defined an accomplice and in its charge said it was for the jury to determine whether or not Mildred Parker was an accomplice for the purpose of determining whether or not her evidence should be corroborated. The entire charge and the requests and rulings must be read to gain the full impression given the jury. The instructions were fair and plain and taken as a whole did not tend to prejudice the rights of the defendant. (Code Crim. Proc. \u00a7 542.) The charge upon the presumption of innocence is questioned by defendant, but was correct. (Code Crim Proc. \u00a7 389; People v. Mantin, 184 App. Div. 767.) If there was error in the remarks of the court in answer to the above request to charge we think it was not prejudicial to the defendant when taken in connection with the entire charge, and that the jury could not have been misled to the prejudice of the defendant by the ruling.\nThere was evidence in the case which satisfactorily proved the guilt of the defendant and upon which the jury were justified in finding his guilt beyond a reasonable doubt. Had the jury found that Mildred Parker was an accomplice, there was some evidence tending to corroborate her testimony and tending to connect the defendant with the commission of the crime. Anna Racquet knew the defendant, as well as the others who were said to have been connected with this crime. She knew that Joseph Leonard had been \u201c held up \u201d; she saw Mildred Parker with the defendant on the day the crime was charged to have been committed. She talked with him on the morning Leonard was \u201c held up,\u201d and said: \u201c I see you look worried, you are in trouble. He said: \u2018Yes.\u2019 * * * He said he wished he never went with the boys. * * * \u2018 I am sorry I went.\u2019 * * * He said he was sorry they took the girls with them and the girls would tell what happened.\u201d When he spoke of the girls he was talking of Mildred Parker and Mabel Cloud. On cross-examination the witness said that the defendant told her, when he had this conversation, that he had nothing to do with the \u201c hold up.\u201d This of course showed that he knew it had occurred. This testimony to some extent tends to connect defendant with the commission of the crime. The witness Purdy Jknows the defendant and knew Mildred Parker, Mabel Cloud, Maxwell and Herman. Purdy is a chauffeur engaged in an Albany taxi service. He received a call; Mabel Cloud and Joseph Leonard got into his car and they started for Snyder\u2019s Lake; they were held up; a machine passed them, a man jumped on the running board of his car, held a gun to his head and told him to hold up his hands. Another man covered Leonard and Miss Cloud. Witness\u2019 money was taken from him. ' The men told Leonard to get out of the car; they hit him with something and pulled the Cloud girl out. Then they ordered Purdy to drive as fast as he could. He saw Leonard the next morning at Dr. Garvey\u2019s house, near where they were held up. Dr. Garvey attended Leonard near the place of the \u201c hold up \u201d at three o\u2019clock a.m. of July 27, 1921. Leonard had a cut on his head, made by a blunt instrument; it might be the butt of a revolver. The testimony of these two witness corroborates the testimony of Mildred Parker.\nThe court imposed sentence upon the defendant that he be confined in Clinton prison at Dannemora at hard labor for the term of twenty years. The defendant turned to the court and said: \u201c You cocksucking son of bitch, I will kill you.\u201d Thereupon the court examined the record of convictions which the defendant had given and, before defendant had been taken from the court room, changed the term of the sentence to one for his natural life. The defendant then said: \u201c I thank you, you son of a bitch.\u201d The record indicates that defendant made a considerable disturbance in the court room.\nThe record of convicion of this defendant showed that he had before been convicted four times for felonies or attempted felonies, one of which was robbery in the first degree, for which he had served a sentence of ten years in State\u2019s prison. The-Penal Law (\u00a7 1942) provides: \u201cA person who, after having been three times convicted within this state, of felonies, or attempts to commit felonies, * * * commits a felony within this state, shall he sentenced upon conviction of such fourth, or subsequent, offense to imprisonment in a state prison for the term of his natural life * * But the indictment does not charge the former conviction. We consider that the reason given for the holdings in People v. Rosen (208 N. Y. 169) and People v. Bretton (144 App. Div. 282) is controlling in this case and that the sentence must be reduced to \u201c the term of twenty years.\u201d (Code Crim. Proc. \u00a7\u00a7 543, 541; Penal Law, \u00a7 2125.)\nThe sentence should be reduced to \u201c the term of twenty years,\u201d and with the sentence so reduced the judgment should be affirmed.\nThe sentence is reduced to \u201c the term of twenty years,\u201d and with the sentence so reduced the judgment is unanimously ..affirmed.",
+        "type": "majority",
+        "author": "Per Curiam :"
+      }
+    ],
+    "attorneys": [
+      "Joseph L. Delaney, for appellant.",
+      "Timothy J. Quillinan, District Attorney (John J. Kelly, Assistant District Attorney, of counsel), for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014APPELLATE DIVISION \u2014 THIRD DEPARTMENT.\nMay 8, 1924.\nTHE PEOPLE v. SALVATORE CUCHIARA.\n(209 App. Div. 326.)\n(1) Indictments \u2014 First count charges robbery, first degree; second COUNT ASSAULT, SECOND DEGREE \u2014 ALLEGATIONS SUFFICIENT TO SHOW THAT CRIME CHORGED IN SECOND COURT AROSE OUT OF SAME TRANSACTIONS.\nThe second count of an indictment charging the commission of an assault in the second degree alleges facts sufficient to show that it arose out of the same transaction as that on which the first count of the indictment for robbery in the first degree is based, where it is alleged that the assault occurred on the same day and in the same place and against the same person as is alleged in the first count of the indictment in reference to the charge of robbery.\n(2) Same \u2014 Witness for prosecution who was present at commission of crime not accomplice as matter of law.\nWhile there was some evidence which might have justified the jury in \u25a0 finding that a woman who was a witness for the prosecution was an accomplice, since she was present at the time the crime was committed, the evidence did not justify the trial court in holding, as a matter of law, that she was an accomplice.\n(3) Same \u2014 Charge of court as whole correctly stated law as to accomplice.\nThe charge of the court, taken as a whole, correctly defined an accomplice and stated the necessity- of corroborating the testimony of an accomplice, and the remarks made by the judge in answer to requests by the defendant\u2019s counsel to charge that a conviction could not be.had on the testimony of the witness who was alleged to be an accomplice, unless it was corroborated by other evidence tending to connect the defendant with the commission of the crime, were not prejudicial when taken in connection with the entire charge.\n(4) Same \u2014 Remarks by court in answer to requests by defendant to charge not judicial \u2014 Alleged accomplice\u2019s testimony was corroborated.\nFurthermore, the testimoy of the alleged accomplice was corroborated by other witnesses whose testimony tended to show that the defendant was connected with the commission of the crime charged.\n(5) Same \u2014 Resentence of defendant under Penal Law, \u00a7 1924, for life ON CONVICTION FOR ROBBERY, FIRST DEGREE, ON GROUND THAT HE HAD BEEN CONVICTED FOUR TIMES BEFORE OF FELONIES OR ATTEMPTED FELONIES IMPROPER SINCE PRIOR CONVICTIONS WERE NOT ALLEGED.\nThe trial court did not have power under section 1942 of the Penal Law to resentence the defendant for life on conviction for first degree robbery after sentence of twenty years had been imposed, on the ground that he had been previously convicted four times for felonies or attempts to commit felonies, since the indictment did not charge the former convictions. The sentence is reduced by the Appellate Division, under sections 541 and 543 of the Code of Criminal Procedure and section 2125 of the Penal Law, to twenty years.\nAppeal by the defendant, Salvatore Cucchiara, from a judgment of the county court of the county of Rensselaer, rendered on the 2d day of February, 1922, convicting him of the crime of robbery in the first degree and assult in the second degree.\nJoseph L. Delaney, for appellant.\nTimothy J. Quillinan, District Attorney (John J. Kelly, Assistant District Attorney, of counsel), for respondent."
+  },
+  "file_name": "0331-01",
+  "first_page_order": 347,
+  "last_page_order": 353
+}

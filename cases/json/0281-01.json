@@ -1,0 +1,459 @@
+{
+  "id": 1228819,
+  "name": "THE PEOPLE v. CHARLES W. RENDIGS",
+  "name_abbreviation": "People v. Rendigs",
+  "decision_date": "1924-04-08",
+  "docket_number": "",
+  "first_page": "281",
+  "last_page": "302",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 281"
+    },
+    {
+      "type": "parallel",
+      "cite": "13 Misc. 32"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Ct. Gen. Sess.",
+    "id": 9672,
+    "name": "New York Court of General Sessions"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "196 N. Y. 506",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        4463074,
+        4463318
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/196/0506-01",
+        "/ny/196/0506-02"
+      ]
+    },
+    {
+      "cite": "132 App. Div. 146",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1194889
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/23/0441-01"
+      ]
+    },
+    {
+      "cite": "69 Hun, 197",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "case_ids": [
+        1172750
+      ],
+      "pin_cites": [
+        {
+          "page": "200"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/10/0456-01"
+      ]
+    },
+    {
+      "cite": "143 N. Y. 383",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2262126
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/143/0383-01"
+      ]
+    },
+    {
+      "cite": "1 Park. Cr. Rep. 272",
+      "category": "reporters:state",
+      "reporter": "Park. Cr.",
+      "case_ids": [
+        11259155
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/park-crim-rep/1/0272-01"
+      ]
+    },
+    {
+      "cite": "17 South. 284",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Fla. 289",
+      "category": "reporters:state",
+      "reporter": "Fla.",
+      "case_ids": [
+        1080163
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/fla/35/0289-01"
+      ]
+    },
+    {
+      "cite": "173 N. Y. 395",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1187041,
+        2308662
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "495, 511"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/17/0225-01",
+        "/ny/173/0395-01"
+      ]
+    },
+    {
+      "cite": "178 N. Y. 516",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2316578,
+        805410
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/178/0516-01",
+        "/ny-crim/18/0356-01"
+      ]
+    },
+    {
+      "cite": "100 Misc. Rep. 92",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        1216946,
+        718971
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/35/0515-01",
+        "/misc/100/0092-01"
+      ]
+    },
+    {
+      "cite": "76 Misc. Rep. 581",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        7656160
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/137/0239-01"
+      ]
+    },
+    {
+      "cite": "155 App. Div. 711",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1204300
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/29/0240-01"
+      ]
+    },
+    {
+      "cite": "98 Misc. Rep. 555",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        714496,
+        1216957
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc/98/0555-01",
+        "/ny-crim/35/0357-01"
+      ]
+    },
+    {
+      "cite": "53 Mass. 225",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        1976825
+      ],
+      "pin_cites": [
+        {
+          "page": "229"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/53/0225-01"
+      ]
+    },
+    {
+      "cite": "126 App. Div. 665",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        809111
+      ],
+      "pin_cites": [
+        {
+          "page": "672"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/22/0400-01"
+      ]
+    },
+    {
+      "cite": "146 App. Div. 266",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1198905
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/26/0268-01"
+      ]
+    },
+    {
+      "cite": "33 Hun, 505",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 N. Y. 117",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        521489
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "121"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/59/0117-01"
+      ]
+    },
+    {
+      "cite": "139 App. Div. 572",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        7658153,
+        1196835
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/124/0044-01",
+        "/ny-crim/25/0032-01"
+      ]
+    },
+    {
+      "cite": "53 N. Y. 164",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        512897
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/53/0164-01"
+      ]
+    },
+    {
+      "cite": "157 N. Y. 528",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2295628
+      ],
+      "pin_cites": [
+        {
+          "page": "536"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/157/0528-01"
+      ]
+    },
+    {
+      "cite": "205 N. Y. 91",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1200393,
+        4499895
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/27/0153-01",
+        "/ny/205/0091-01"
+      ]
+    },
+    {
+      "cite": "9 Yerg. (Tenn.) 347",
+      "category": "reporters:state",
+      "reporter": "Yer.",
+      "case_ids": [
+        8542388
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tenn/17/0347-01"
+      ]
+    },
+    {
+      "cite": "63 Ind. 502",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1510346
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/63/0502-01"
+      ]
+    },
+    {
+      "cite": "1 Okla. 396",
+      "category": "reporters:state",
+      "reporter": "Okla.",
+      "case_ids": [
+        62743
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/okla/1/0396-01"
+      ]
+    },
+    {
+      "cite": "188 App. Div. 424",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1222190
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/38/0007-01"
+      ]
+    },
+    {
+      "cite": "175 N. Y. 315",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2311609
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/175/0315-01"
+      ]
+    },
+    {
+      "cite": "196 N. Y. 372",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        810763,
+        4463115
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/24/0083-01",
+        "/ny/196/0372-01"
+      ]
+    },
+    {
+      "cite": "195 N. Y. 1",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1194937,
+        6040325
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/23/0242-01",
+        "/ny/195/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1321,
+    "char_count": 44782,
+    "ocr_confidence": 0.533,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.04604148736084614
+    },
+    "sha256": "551cfa826f6950ebfa7cd20575cdbe78a3179857674dcd08919c7330503fe1e2",
+    "simhash": "1:822f66fae7d47e03",
+    "word_count": 7783
+  },
+  "last_updated": "2024-02-27T16:15:52.747790+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. CHARLES W. RENDIGS."
+    ],
+    "opinions": [
+      {
+        "text": "Collins, J.:\nThe defendant was indicted for the crime of perjury. A demurrer to the indictment was filed. Subsequently a motion to dismiss the indictment was made and withdrawn upon the \u25a0contention being urged that it was necessary that an inspection of the grand jury minutes be had before such a motion would be available. Motion to inspect the minutes was, therefore, made and submitted. The demurrer was argued, and agreement had that this court would pass upon both the demurrer and the motion to inspect the grand jury minutes, a copy of the minutes to be furnished to the judge and the. merits of the motion to inspect be considered with the aid of the grand jury minutes. The merits of both the demurrer and the motion to inspect are so involved one with the other that I deem it better to pass upon the whole subject-matter in one opinion.\nThe indictment charges the defendant Charles W. Rendigs with perjury, committed as follows, in substance:\nOn the 18th day of April, 1923, at a term of the Court of General Sessions of the county of \u00a1New York, the Hon. Charles C. \u00a1Nbtt, Jr., a judge in said court, presiding, the issues theretofore joined in a criminal action between the People and Edward M. Fuller upon a certain indictment then and there in the said court, pending against said Edward M. Fuller and one William F. McGee, wherein and whereby the grand jury of the county of \u00a1New York did accuse the said Edward M. Fuller and the said William F. McGee of the crime of conducting and operating a bucket shop and of the crime of making and offering to make and assist in making and in offering to make in a bucket shop, contracts respecting the sale of securities, came on to be tried in due form of law; that, upon the said trial and before the said judge one William J. Fallon, an attorney and counselor at law appeared in person and acted as counsel on such trial; that the defendant Charles W. Rendigs was then and there duly drawn as a juror and duly examined as to his qualifications to serve as a juror upon the trial of the said issues so joined, as aforesaid, and was then and there duly sworn and took his corporal oath before the said judge that he would true answers make to all questions put to him on the several challenges prescribed by law touching his competency as an impartial juror on the said trial of the said issues between the said People and the said Edward M. Fuller, such defendant as aforesaid; that the said judge then and there having sufficient authority to administer the said oath to the said Charles W. Bendigs; that upon the said examination of the said Charles W. Bendigs so drawn and sworn, it then and there became and was material whether the said Charles W. Bendigs then knew, and had personal acquaintance and had personal transactions with, the said William F. McGee, joined as a defendant with the said Edward M. Fuller, in the indictment hereinbefore mentioned and described, and with the said William J. Fallon, such attorney and counsel as aforesaid, and with the said Edward M. Fuller, the said defendant on trial as aforesaid.\nAnd that the said Charles W. Bendigs so sworn on the said trial on his said examination feloniously, corruptly, knowingly, willfully and maliciously before the said Hon. Charles C. Hott, Jr., did feloniously swear, depose and say, among other things, in substance and to the effect following that is to say:\n\u201c That he, the said Charles W. Bendigs did not know and had no personal acquaintance with and had no personal transactions with the said William F. McGee; that he, the said Charles W. Bendigs did not then know and had xio personal acquaintance with and had no personal transactions with the said William J. Fallon; and that the said Charles W. Bendigs, did not then know and had no personal acquaintance with and had no personal transactions with the said Edward M. Fuller.\n\u201c Whereas, in truth and in fact, he, the said Charles W. Bendigs, did at the time of his said examination as aforesaid, and for a long time theretofore, know and have personal aequaintance with and had personal transactions with the said William F. McGee, and he, the said Charles W. Eendigs, at the time of his said examination as aforesaid, and for a long time theretofore, know and have a personal acquaintance with and had personal transactions with the said William J. Fallon, and he, the said Charles W. Eendigs, did at the time of his said examination as aforesaid, and for a long time theretofore, know and have a personal acquaintance with and had personal transactions with the said Edward M. Fuller; all of which he, the said Charles W. Eendigs, at the time he so as aforesaid feloniously and falsely swore, deposed and said, well knew;\n\u201c That after the said examination said Charles W. Eendigs as aforesaid was duly sworn as a juror and served as such juror throughout the trial of the issues so joined as aforesaid between the People and said Edward M. Fuller. And so the Grand Jury aforesaid do say that the said Charles W. Eendigs in the manner and form aforesaid, feloniously, corruptly, knowingly, wilfully, maliciously and falsely did commit wilful and corrupt perjury, against the form of the statute in such case made and provided, and against the peace of the People of Mew York and their dignity.\u201d\nThe demurrer is based on the ground that the acts charged in said indictment do not constitute a crime, and the defendant urges in his brief that it does not appear from the face of the indictment that there was any definite issue on any of the jurors\u2019 qualifications before the court; that as the Code of Criminal Procedure provides that in order to create an issu\u00e9 upon a challenge, the cause of challenge must be alleged, the failure to state a particular cause of challenge which created the alleged issue in the indictment is fatal to the indictment, and that the allegations of fact recited in the indictment are in any event immaterial upon any phase of the crime charged-\nSection 1620 of the Penal Law, defining perjury, so far as it is material to this case, provides as follows: \u201c A person who swears or affirms that he will truly testify * * * in an action, or a special proceeding, or upon any hearing, or inquiry, or on any occasion in which an oath is required by law, * * * or for the ends of public justice, or may lawfully be administered, and who in such action or proceeding, or on such hearing, inquiry or other occasion, wilfully and knowingly testifies, * * * or states in his testimony, * * * any material matter to be true which he knows to be false, is guilty of perjury.\u201d\nSections 1621 to 1624 provide, in substance, that irregularities in the administering or in the form, or that defendant was not competent or that he did not know the materiality is no defense. It is sufficient that he actually was permitted to give such testimony.\nDo the acts complained of in the indictment constitute perjury within the meaning of the statute is the first subject for consideration. It is held in People ex rel. Hegeman v. Corrigan, 195 N. Y. 1, that the testimony the falsity of which is charged must be material. There must be criminal intent. It is not necessary to establish any other intent than that specified in the statute, but the testimony must be given willfully and knowingly, and the affiant must know that the testimony is false, and in People v. Teal, 196 N. Y. 372, that materiality is an essential ingredient of the crime.\nDoes the indictment meet these tests ? In the case of People v. Martin, 175 N. Y. 315, the court said: \u201cIn other words, the purpose of this statute was to include within the definition of the crime of perjury the taking of any and every false and \u2022corrupt oath, unless it was purely voluntary and extra judicial, in not being required, authorized or permitted by any law that might be enforced or carried into effect in our jurisdiction or elsewhere, or in not being necessary for the prosecution or defense of a private right, or for the ends of public justice wherever sought to be administered.\u201d\nStrange as it may seem, there does not appear to be any case in the state made the subject of reported opinion, that perjury was committed by a juror in the examination of a talesman on his voir dire. It was indirectly passed upon, however, in People ex rel. Nunns v. County Court, 188 App. Div. 424, which was a contempt proceeding punishing a juror for a false statement made on his examination not under oath. The court said (on p. 436), Hr. Justice Jenks writing the opinion: \u201c There is no proof that the relator was sworn on the voir dire, and hence there was no pain of perjury.\u201d\nIn that case the juror was asked, before being sworn as a juror, whether he said he knew the defendant, and he answered he did not. It was subsequently discovered that he did, and he was punished for contempt and the judgment affirmed in the above case.\nThere is abundance of authority, however, throughout the United States that the giving of false testimony of a juror, examined on his voir dire, is perjury. 1 Thompson Trials, \u00a7 115; Finch v. United States, 1 Okla. 396; Commonwealth v. Stockley, 10 Leigh (Va.), 678; State v. Howard, 63 Ind. 502; State v. Wall, 9 Yerg. (Tenn.) 347; Hilliard v. State, 14 Lea (Tenn.), 48; Ex parte De Martini, 190 Pac. Rep. (Cal.) 468.\nIn the De Martini case the court said: \u201c The oath of a prospective juror on his voir dire examination binds him, under the pains and penalties of perjury, to truthfully answer the questions that may be propounded to him by either court or counsel. * * * and to hold otherwise would certainly be to open the door wide to all forms of collusion in the selection of jurors, if false answers knowingly and corruptly made under such circumstances can be given with impunity.\u201d\nThat proper examination of a talesman on his voir dire to test his qualifications as a juror is material, generally speaking, is beyond question, and but for the importance of this case and the strenuous energy with which it was urged in the argument, that the questions propounded as indicated in the indictment did not constitute perjury, the. foregoing would be perhaps sufficient on this subject.\nIt would seem that scarcely any judicial inquiry could he more important and material than that directed to the selection of a fair, unbiased and impartial jury for the determination of an issue in a criminal action.\nIn People v. Cosmo, 205 N. Y. 91, Judge Werner said at page 95: \u201c The sacredness and importance of the right to trial by jury is attested by the arrangement, no less than by the language, of our Constitution. The first great demand of that charter of our rights is that \u2018 no member of this state shall be disfranchised, or deprived of any of the rights or privileges secured to any citizen thereof, unless by the law of the land, or the judgment of his peers \u2019 (Art. 1, sec. 1), and the second is that \u2018 trial by jury in all cases in which it has been heretofore used shall remain inviolate forever.\u2019 (Art. 1, sec.\n\u201c From time immemorial a common law jury has consisted of twelve men. When or how that number acquired its historic sacredness no one can tell, for the origin of the institution itself has been lost in the darkness of antiquity. Much less does history inform us with exactnesses to the ancient qualifications required of these twelve. * * * From this short and imperfect reference to the history of the subject we perceive that although the jury as an institution reaches backward beyond the memory or knowledge of man, it has had to be adapted to the ever-changing conditions brought about by the progress of the centuries. Through it all, only two things have remained fixed and immovable.' The common law jury must have twelve men, and these twelve, although taken from a class whose general qualifications may be arbitrarily fixed by law,\" are chosen by a selective process which, although constantly changing in form, is always designed to secure the service of intelligent and impartial citizens who will be alike the conservators of the state and the rights of the individual. * * * But the method of securing that right, in respect of selecting men who are deemed qualified to act as jurors, is one of legislative cognizance which is subject to any change that does not trench upon the fundamental right. (People v. Dunn, 157 N. Y. 528, 536; Stokes v. People, 53 N. Y. 164.) \u201d\nAnd in the case of People ex rel. Nunns v. County Court, supra, Hr. Justice Jenks said, in commenting upon testimony of a talesman, somewhat similar to that in this case (p. 440) : \u201c If the relator did know the defendants and their place, he had fair notice that he was objectionable from the viewpoint of the People. He was chargeable with notice that his avowal of such knowledge might prompt further questions aimed toward bias, or subject him to a challenge peremptorily; on the other hand, his disclaimer of such knowledge would naturally satisfy his examiner as to any objection founded upon that knowledge. If the relator appeared as of the first twelve persons approved as indifferent, he must be sworn. (Code Crim. Proc. \u00a7 387.) This falsehood of the relator represented him as an indifferent juror, so far as a test applied by the People was concerned. And so far this falsehood tended to impede or to frustrate the administration of justice, to violate the rights of the People as represented in their legal tribunal that was to be constituted by a judge and twelve indifferent jurymen. This falsehood was uttered during the sitting of the court and in its immediate view or presence. And I think that such behavior was within the statutory words, \u2018 tending * * * to impair the respect due to its authority.\u2019 The authority of the court is the official power of the court. (Anderson\u2019s Law Diet. \u2018Authority.\u2019 ) The official power of the court was to try the indictment with the jury. The securing of the jury prescribed by law was within the authority \u2022committed by law to the court in the last instance, and was within its supervision. And this was a falsehood by a proposed juror, conscious that the purpose of the inquiry was as to his indifference, whereby he impaired the respect due to the court which required the truth.\u201d\nThe court, undoubtedly, was presiding at the trial and had the authority to administer the oath to the proposed juror, and the indictment so alleges. The Code of Criminal Procedure provides grounds upon which a proposed juror may be challenged for cause, and likewise provides that both the People and the defendant have, as a matter of right, the power to peremptorily challenge jurors in a number limited by the Code, and section 383 of the Code provides that a juror challenegd may be examined as a witness and is bound to answer every question pertinent to the inquiry therein. Section 376 of the Code provides, in relation to the particular causes of challenge, challenege for so-called actual bias, as follows (subd. 2): \u201c For the existence of a state of mind on the part of the juror, in reference to the case, or to either party, which satisfies the \u2022court, in the exercise of a sound discretion, that such juror cannot try the issue impartially and without prejudice to the substantial rights of the party challenging, and which is known in this Code as actual bias,\u201d etc.\nThe allegation in the indictment is that defendant was asked if he knew the defendant Fuller, the defendant McGee, the counsel Fallon, and if he had any personal acquaintance or ever had any personal transaction with either of the three; the defendant answered that he did not know, that he did not have any personal acquaintance and never had any personal transaction with either of the three, and this is set forth at length in the indictment. It is urged that even though swearing falsely in an examination on the voir dire is, as a general proposition, perjury, that whether or not the defendant knew either of the three persons named was in itself immaterial, for the reason that mere acquaintance was not sufficient to disqualify the defendant as a juror, or that he might have had some personal transaction was not of itself sufficient to disqualify him as a juror, and hence the questions and answers were not of that materiality upon which an indictment for perjury could be predicated, even though the indictment alleges, as is in this case, that the answers given to the questions asked were false and untrue.\nThe general rule is that the materiality must appear on the face of the indictment, but it is sufficient if it charges generally that the evidence was material. People v. Tillman, 139 App. Div. 572. In that case the court said (p. 574): \u201c It is conceded that it is not necessary that the indictment should set forth the facts upon which the materiality of the evidence depends, and that it is sufficient if it charges generally that the evidence was material, and this rule of law appears to be fully sustained by the authorities. (Wood v. People, 59 N. Y. 117; People v. Grimshaw, 33 Hun, 505; 30 Cyc. 1434, 1435, 1436; 16 Ency. Pl. & Pr. 343, 344; 2 Bishop New Crim. Proc. [4th ed.] sec. 921; 2 Wharton Crim. Law [10th ed.], sec. 1304.) \u201d\nThis rule, however, requires that the materiality must appear on the face of the indictment, even though it is alleged that the testimony stated to constitute perjury is immaterial. In People v. Peck, 146 App. Div. 266 the o,curt said (p. 268) : \u201c Willfully and knowingly testifying to an immaterial fact is not perjury. (People v. Teal, 196 N. Y. 372.) The indictment does not in words charge that any or all of the statements therein alleged to have been made by defendant were material or were of and concerning a matter material in the proceeding then being conducted by the examiner,, It is not necessary that the indictment so charge, provided the facts, which are set forth therein, are sufficient in themselves to show that the sworn statements alleged to be false were material. But the materiality must be shown in the indictment itself either by direct statement or by the facts stated therein. (Wood v. People, 59 N. Y. 117, 121; People v. Gillette, 126 App. Div. 665, 672; Commonwealth v. Pollard, 53 Mass. 225, 229.) \u201d\nAnd in People v. Morrison, 98 Misc. Rep. 555, following the reasoning in the Peck case, the court held that where the facts alleged negatived the materiality of testimony and showed that it must have been immaterial the indictment is had on demurrer. JSTott, J. (on _p. 557), stating the rule, said: \u201c There is no doubt of the general rule that an allegation in an indictment for perjury that the testimony is material is sufficient. * * * But where the facts further alleged in the indictment negative the materiality of the testimony and show that it must have been immaterial, the indictment is bad on demurrer in spite of the allegation contained therein that the testimony was material.\u201d\nIt is held to the same effect in People v. Moris, 155 App. Div. 711, and People v. Webber, 76 Misc. Rep. 581. In the Moris case the court said (p. 712): \u201c The test is whether the statement could properly have influenced the court which was investigating the bastardy proceeding upon any question which was before it for its determination. The testimony need not be direct proof upon the issue. If the false statement is circumstantially material or tends to support and give credit to the witness in respect of the main fact, it is sufficient to sustain a charge of perjury.\u201d\nIn People v. Brill, 100 Misc. Rep. 92, the court held that testimony constituting perjury must be material to the issue, and if the testimony is willfully false and is material for any purpose under the issue and is received, even though it might have been excluded under some rule of admissibility, it is perjury.\nThe defendant, as indicated above, contends that the allegation of materiality in the indictment is negatived by the questions asked and the answers given, on the ground that in and of themselves they were immaterial, and cites a number of cases, holding to the effect that mere acquaintance of a juror with the counsel in the case or with the parties to the action was not sufficient to disqualify him as a juryman, and concludes, therefore, the questions asked to ascertain that fact, together with the answers given, are immaterial and, therefore, not the subject of indictment. I do not believe that such cases. apply, for the reason that they arise where the evidence discloses that full examination had been had, and the fact of mere acquaintance was the only circumstance appearing in the record, while in the instant case the query was put to the tales-man as to whether or not he knew, had personal acquaintance with or transactions with Fuller, McGee or Fallon, and he answered \u201c Ffo.\u201d This, naturally, precluded the asking of further questions and the eliciting of information or the likelihood of eliciting information that might or would disclose a degree of intimacy and extent of acquaintance or a nature of a transaction which would in and of itself enable the court to determine under the section relating to actual bias, that the juror was disqualified to serve as a juror, and, too, questions that would follow an affirmative answer that the talesman knew, and so forth, might bring out answers that would apprise the counsel for the People to the extent that would justify or perhaps impel him to use one of his peremptory challenges. It seems to me, therefore, that it cannot be successfully maintained that the questions or answers are in and of themselves immaterial; but, on the contrary, their materiality appears both in fact as well as alleged in the indictment, both by direct statements and by natural inference to be drawn from the facts stated. I have reached the conclusion, therefore, that the indictment sufficiently charges the crime stated, and the demurrer must be overruled.\nIn passing upon this question, I am, of course, acting upon the face of the indictment and passing on the demurrer, solely, though I am enlightened by the testimony contained in the minutes of the grand jury, which are before me, but am, nevertheless, mindful that on the subject of demurrer I am confined to the so-called \u201c four corners of the indictment,\u201d and that the rule of criminal pleading requires that all the elements which enter into the definition of the defense must be stated in the indictment and that the indictment must charge both the crime and the act or acts constituting it, and the omission of either is fatal. People v. Corbalis, 178 N. Y. 516; People v. Albow, 140 id. 130.\nThe defendant further contended that inasmuch as the indictment did not directly state a challenge as to general qualifications, a challenge for actual bias or a challenge for implied bias was formally made, and that the questions asked and answers given applied to one of those challenges; that the indictment was, therefore, defective. I cannot agree with that statement, though further will be stated on this point, in consideration of the motion for inspection of the grand jury minutes. But in this connection I am of the opinion that in any event the statement of a pending particular challenge, if any, need not be made in the indictment. It is sufficient to state that a trial or judicial proceeding was in process; that the person alleged to have committed the perjury was sworn, and that an examination was being conducted; that the proceeding was regular and within the scope of the authority of the court, and that the questions and answers stated to have constituted perjury were asked and answered, and that they were material, and the facts as stated in the indictment disclosed that they were material, and that the crime itself is charged. All of this appears in the indictment in this case, and is in full conformity with the rule stated in People v. Albow, supra, 134 \u201c that the offense must be charged in plain and intelligible language, and that the indictment must set forth all the essential elements of the crime, is and ought to be preserved alike for the protection of the accused and in the interest of the certain and orderly administration of the criminal law.\u201d\nThis disposes of the consideration of the subject as to the demurrer, and that of the motion to inspect the grand jury minutes remains. The defendant in his moving papers on his motion for an inspection of the grand jury minutes stated: \u201c I am informed by my counsel and verily believe that he made a motion to dismiss the indictment herein which said motion came on for hearing on the 27th day of December, 1923, * * * that upon argument thereon, the district attorney interposed a preliminary objection, as I am informed, to the effect that the motion was premature, and that it had to be predicated upon the testimony had before the grand jury and as a result of said objection, my counsel withdrew the motion to dismiss the said indictment pending the present motion made by him in my behalf for an inspection of the minutes of the grand jury.\u201d Counsel for the defendant in his affidavit in the moving papers stated: \u201c I make this application for an inspection of the minutes of the grand jury upon which this indictment was found, not for the purpose of putting the People\u2019s testimony in the hands of the defendant nor for the purpose of assisting him for preparation of the trial but for the purpose of enabling the defendant to make a motion to-set aside the indictment on the grounds that the defendant\u2019s constitutional rights have been invaded, in that the evidence received by the grand jury is insufficient to support the indictment and that illegal evidence is the sole basis therefor, and that the facts in this case come within the rule laid down by the Court of Appeals in People v. Glen, 173 N. Y. 395.\u201d The defendant further amplified the grounds of his motion (a) that the evidence received by the grand jury is insufficient to support the indictment; (b) that no proper, competent or legal evidence was submitted to the grand jury herein; (c) that incompetent and illegal evidence was submitted to the grand jury; (d) that whatever evidence was submitted to the grand jury was insufficient in law and did not, as a matter of law, constitute any crime. It was consented, as aforestated, that the minutes of the grand jury be submitted to the court and that the question be passed upon on the theory of whether or not the defendant had any reasonable ground to base a motion to set aside the indictment on the grounds stated in his motion for an inspection. There is no necessity, therefore, of considering under what circumstances the defendant would as of right be entitled to an inspection of the grand jury minutes except within the scope indicated.\nThe cases of People v. Glen, 173 N. Y. 395, and People v. Sexton, 187 id. 495, 511, are leading authorities stating the principle that the court can set aside an indictment even though not on the ground specified in section 313 of the Code of Criminal Procedure, where any citizen is deprived of his constitutional rights, and wherever it has been made to appear that it has been found without evidence or upon incompetent and illegal testimony and that a grand jury \u201c should only find an indictment when all the evidence, taken together, is such as in their judgment would, if unexplained or uncontradicted, warrant a conviction by a trial jury.\u201d\nUpon the argument of the demurrer it was disclosed that counsel for the defendant was fairly familiar with everything that could be contained in the minutes of the grand jury, and the motion for inspection of the minutes was rather supplemental to the relief sought for, namely, to bring about the dismissal of the indictment either on demurrer or on motion to dismiss.\nStress was laid on the- fact that formal challenge was not interposed as to either general qualifications or actual or implied bias at the time of the examination of the proposed juror, the defendant under oath. And the brief submitted on the demurrer by the defendant urges that the failure to so challenge is fatal to the indictment. Because of my view stated in considering the demurrer, whatever virtue there is in the point that formal separate challenges were not interposed is considered by me on this motion. In fact, there is nothing else for determination as all of the essential elements heretofore referred to were made the subject of full and complete, and in my opinion, sufficient testimony before the grand jury.\nThe minutes do not disclose that there was any testimony before the grand jury to the effect that either before or after the defendant, Charles W. Bendigs, was sworn on his voir dire on the trial of the said Edward M. Fuller, a formal challenge,, either as to his general qualifications as a juror, or for actual Mas or for implied bias was interposed. The minutes disclose that Eendigs was selected from a special panel in regular method and form and duly sworn by the clerk reading to him the oath as follows: \u201cYou do solemnly swear that you will true answers make to all questions put to you on the several challenges touching your competency as an impartial juror between the People of the State of ISTew York and Edward M. Fuller, the defendant, so help you God.\u201d\nBlack\u2019s Dictionary defines voir dire as follows: \u201c To speak the truth. This phrase denotes the preliminary examination which the court may make of one presented as a witness or juror, where his competency, interest, etc., is objected to.\u201d\nBouvier states under title of voir dire: \u201c A suitable inquiry is permissible in order to ascertain whether a juror has any bias, and this must be conducted under the supervision of the court and be largely left to its sound discretion. * * * The court may assume an exclusive examination of jurors, though it is the better practice to allow counsel to examine. Jones v. State, 35 Fla. 289; 17 South. 284.\u201d\nAnd in 40 Cyc. 217, it stated: \u201c Literally ' to speak the truth.\u2019 Defers to an oath administered to a proposed witness or juror, and also to the examination itself, to ascertain whether he possesses the required qualifications, he being sworn to make true answers to the questions about to be asked him concerning the matter,\u201d and in 24 Cyc. 345, under the title \u201c Swearing Jurors on Voir Dire.\u201d \u201cJurors when examined as to their qualifications should be sworn upon their voir dire, and the parties cannot claim the right to examine jurors before they are sworn. The jurors may be sworn collectively, and the form of oath unless prescribed by statute is not material; nor-is it necessary, if a juror has been sworn on his voir dire by the court to answer all questions truthfully, that the oath should be readministered when the juror is sent before triers.\u201d\"\nThe Code of Criminal Procedure, sections 359 to 387, both inclusive, provides for challenges to jurors, and the manner and method of making them. Section 382 provides in relation to challenge of an individual juror: \u201cIf the facts be denied, the challenge must be tried by the court which must either allow or disallow the same and direct an entry accordingly on the minutes. If a challenge be allowed, the juror must be discharged.\u201d\nSection 383 provides: \u201cUpon the trial of a challenge to an individual juror, the juror challenged may be examined as a witness, to prove or disprove the challenge; and is bound to answer every question pertinent to the inquiry therein.\u201d\nSection 384 is as follows: \u201c Other witnesses may also be examined on either side; and the rules of evidence applicable to the trial of other issues, govern the admission or exclusion of testimony, on the trial of the challenge.\u201d\nSection 371 of the Code of Criminal Procedure provides as follows: \u201c A challenge must be taken when the juror appears, and before he is sworn; but the court may, in its discretion, for good cause, set aside a juror at any time before evidence is given in the action.\u201d In my opinion, this section means, so far as its mandatory feature applies, before he is impanelled or sworn as a juror, and does not impair the judicial propriety of a trial or inquiry under oath of a talesman to ascertain his qualifications and fitness as a juror, without a challenge for cause having been first formally and in express terms submitted or made (People v. Thayer, 61 Mise. Rep. 573, 575), especially when counsel on both sides, with the consent of the court agree to this method of procedure. There does not seem to be any Code provision directly providing the method to be followed as to the preliminary examination of jurors other than as stated.\nIn actual practice in ordinary cases a jury of twelve is called and general questions are asked by both sides of the whole twelve without formal challenge being stated. If answers are given to the questions asked which disclose a cause for challenge then the challenge is submitted and the court rules thereon, and either the People or the defendant may, of course, exercise a peremptory challenge either without examining or as a result of reply given by a juror on examination. This practice seems to be general throughout the State.\nIn cases of importance, on agreement of counsel, with the consent of the court, an examination of the jurors called on a panel is conducted by the examination of the jurors individually and the proposed juror or talesman is sworn. This is \u2022called examination on the voir dire. In the Court of General Sessions a blank form is used headed \u201c Challenge Sheet,\u201d with the title of the court, the title of the action, name of the judge, nature of the offense, the date when the indictment was filed, with this statement: \u201cNotice to defendant at beginning of examination of jurors upon the voir dire. If you intend to challenge an individual juror, you must do so when he appears and before he is sworn. Do you waive the further giving of this notice ?\u201d Then follows: \u201c Number of Peremptory Challenges: 30, if crime is punishable by death; 20, if for life or 10 years or more; 5 in all other cases.\u201d Code Crim. Pro. \u00a7 373. This heading of the so-called challenge sheet is read by the clerk on the calling of the case for trial. Jurors are then separately drawn, the oath is administered and the examination is proceeded with; as a general rule, all subjects of challenge are made the basis of the examination as a result of previous understanding without the necessity of counsel stating: \u201cI challenge the general qualifications of the juror\u201d and then proceeding and exhausting the examination on that head, and giving way to opposing counsel before further proceeding, and then resuming in the same way as to implied bias and then as to actual bias. Of course, if objection is made to considering all subjects of challenge under the one examination, the court would direct the interposition of formal challenge and examination as above indicated.\nWhile the application of the strict rule has required immemorially the interposition of formal challenge before examination, the practice has been otherwise. 1 Thompson Trials (2d ed.), \u00a7 101. In Carnal v. People (1851), 1 Park. Cr. Rep. 272, Mr. Justice Mitchell of the General Term said: \u201c It is first objected by the district attorney that no cause of challenge to the favor was specified, and that the challenge was therefore a nullity. Such seems to have been deemed the rule, if the court below choose to insist on such a rule, and to require the facts to be stated. But the practice has been different, and it has almost invariably been allowed in this city to the challenger first to interrogate the juror and get the facts from him, and then to argue on the evidence, as it may thus appear, whether he is admissible or not. And in conformity with this practice it is a frequent thing for the court to prescribe certain questions to be put to every juror, which he is to answer, and no specific cause of challenge is stated until these answers are given. Such is the course adopted in the United States courts in Philadelphia on the trials for alleged treason, now pending, and such also was the course of another branch of that court in Boston, within a few months, on similar trials. The same usage probably prevails throughout the State.\u201d\nIn Foster\u2019s Case, 13 Abb. Pr. (N. S.) 372, it was held by Cardozo, J., among other things, (3) that the oath of a juror, challenged and sworn for examination, need not specify the ground of challenge, unless this be required by counsel, at the time. The court said (p. 374) : \u201c But, moreover, the prison- \u201e er\u2019s counsel did not even then ask that he should be sworn upon each challenge separately, and, as the specification of the ground or cause of challenge was not made until after the juror had been sworn as a witness, the issue could not be specified in the oath otherwise than it was. If the prisoner\u2019s counsel wanted-the oath to refer to the cause of challenge, he should have assigned the cause at the time of challenge, instead of challenging generally, and stating the ground after the oath, or else he should have requested that the witness be reswom after the cause of challenge was assigned.\u201d\nIn fact, it may be said to be a general practice, permitted in criminal trials and indorsed by our higher courts, for counsel with the approval of the court, \u201c in advance of the selection of a jury, and before any of the panel has been examined,\u201d to provide for \u201c the mode and order of that selection,\u201d and to proceed with an examination of each juror, submitting the challenge, if any, by each of the parties at the close of such examination. It seems that under such circumstances it is assumed that a challenge was made as to each particular juror. In People v. Miles, 143 N. Y. 383, Finch, J., writing the opinion, said: \u201c In advance of the selection of a jury, and before any of the panel had been examined, the mode and order of that selection came up for discussion. The court allowed the parties to choose whether all peremptory challenges should be reserved until twelve jurors had been provisionally selected, or whether the case of each juror should be fully settled before leaving the witness stand, and if accepted the final oath be at once administered. The parties chose the latter method and the court assented. .Thereupon * * * was called and sworn as to his qualification as a juror. He was examined by the prosecution and at the close of that examination the prisoner\u2019s counsel asked if the juror was satisfactory to the People, to which the district attorney replied, \u2018 We do not challenge him for bias nor for favor.\u2019 \u201d\nIn People v. Larubia, 69 Hun, 197, 200, the court said: \u201c It will be seen that it was the understanding of all the parties as to what the nature of the challenges were. We find the People, upon the juror being sworn, conducting an examination upon the assumption that a challenge had been interposed for implied bias upon one or more of the causes stated in the Code, and also a challenge for actual bias for the cause stated in the Code; and at the conclusion of the examination appears a statement that the People withdrew the challenge. Then the prisoner cross-examines the juror as though the challenge had been renewed upon his behalf; and at the end of the examination, the counsel submits the challenge for cause, which challenge is overruled and an exception is taken. It is clear that it was the understanding of the court and counsel that a challenge for actual bias was pending and such challenge was overruled by the court. In fact, the only provisions for the examination of a juror arise upon the trial of a challenge to a juror, and the court had no authority to proceed unless the challenge was before it.\u201d\nIn People v. Hosier, 132 App. Div. 146; affd. 196 N. Y. 506, Ingraham, J., said (at p. 147) : \u201c The record does not -disclose that a challenge was interposed as to each of these jurors, but the district attorney and counsel for the defendant examined each of the proposed jurors, and no objection was taken to the questions upon the ground that' no challenge had been interposed. I think we must assume that there was such a challenge and that the questions were asked to determine the competency of each particular juror.\u201d\nIn view of what appears to be the general practice, can it be said that, because of the general provisions of the Code of Criminal Procedure and the failure to strictly apply them, in the method of specifically challenging preliminarily to conducting an examination of jurors, it could so far inure to the advantage of the talesman being examined on his voir dire that because a formal challenge was not separately interposed he could avoid the pain of perjury if he swore falsely ? Or can it be said that because of such method of procedure the materiality of the questions asked or the answers made cannot be determined ? I think not. It seems to me that the practice for examination of talesmen as referred to is regular and allowable in practice. But the best that could be said, in any event, is that it is irregular, and it does seem reasonable that the provisions of the Penal Law, sections 1621, 1624, above cited, providing in effect that it is no defense that an oath was administered in an irregular manner or that the form was irregular, and that it is sufficient that he was actually permitted to give such testimony and that witnesses\u2019 knowledge of the materiality is not necessary, and the line of cases to the same effect would apply.\nThe defendant\u2019s counsel contends that, while the method of procedure in the examination of jurors on the voir dire is binding upon counsel in a case, who agreed to the method of examination without the necessity of formal challenge, preceding the examination, such agreement is not binding upon a juror examined on his voir dire. This argument seems to me untenable.\nIt follows, therefore, that it was not necessary to present evidence to the grand jury that a talesman was formally and separately challenged as to each subject of challenge provided by law before the examination was conducted to warrant the conclusion of materiality or to justify the finding of an indictment. The oath administered by the court, as read by the clerk: \u201c That you will true answers make to all questions put to you on the several challenges touching your competency as an impartial juror,\u201d etc., is controlling to place responsibility on a juror for the testimony given by him under such oath. In my judgment, the other testimony before the grand jury was, as I have previously stated, entirely sufficient, if uncontradicted or unexplained, to justify the finding of the indictment. I am forced to the conclusion, therefore, that the granting of a motion to inspect the minutes of the grand jury to enable the defendant to make a motion to set aside the indictment would be of no avail and am constrained to deny the motion.\nThe demurrer is overruled, and the motion to inspect the. minutes of the grand jury is denied.\nOrdered accordingly.",
+        "type": "majority",
+        "author": "Collins, J.:"
+      }
+    ],
+    "attorneys": [
+      "Snitkin & Goodman (Leonard A. Snitkin and Samuel R. Golding, of counsel), for the motion.",
+      "Joab H. Banton, District Attorney (Hugo Wintner, of counsel), opposed."
+    ],
+    "corrections": "",
+    "head_matter": "COURT OF GENERAL SESSIONS \u2014 NEW YORK COUNTY.\nApril 8, 1924.\nTHE PEOPLE v. CHARLES W. RENDIGS.\n(13 Misc. 32.)\n(1) Perjury \u2014 Juror on being asked on his examination whether or NOT HE KNEW OR HAD PERSONAL ACQUAINTANCE OR TRANSACTIONS WITH DEFENDANTS OR THEIR ATTORNEY, FALSELY ANSWERED \u201cNO.\u201d\nAn indictment charging the defendant with perjury, in that on-being examined as a juror in a criminal case and asked whether or not he knew or had personal acquaintance or transactions with the defendants or their attorney he falsely answered \u201cno,\u201d is sufficient on demurrer. The false statement alleged is material.\n(2) Same \u2014 Indictment sufficient on demurrer \u2014 Statement of pending CHALLENGE, IF ANY, NEED NOT BE MADE IN INDICTMENT.\nThe statement in such a ease of a pending challenge to the juror, if any, need not be made in the indictment. It is sufficient to state that a trial or judicial proceeding was in process; that the person alleged to have committed the perjury was sworn, and that an examination was being conducted; that the proceeding was regular and within the scope of the authority of the court, and that the questions and answers stated to have constituted perjury were asked and answered, and that they were material, and the facts as stated in the indictment disclosed that they were material, and that the crime itself is charged.\n(3) Same \u2014 Motion to inspect grand jury minutes denied.\nThe defendant\u2019s motion to inspect the minutes of the grand jury to enable him to make a motion to set aside the indictment should be denied.\nDemurrer and motion for inspection of grand jury minutes.\nSnitkin & Goodman (Leonard A. Snitkin and Samuel R. Golding, of counsel), for the motion.\nJoab H. Banton, District Attorney (Hugo Wintner, of counsel), opposed."
+  },
+  "file_name": "0281-01",
+  "first_page_order": 297,
+  "last_page_order": 318
+}

@@ -1,0 +1,70 @@
+{
+  "id": 807179,
+  "name": "THE PEOPLE v. MARTIN CONLON",
+  "name_abbreviation": "People v. Conlon",
+  "decision_date": "1906-12-07",
+  "docket_number": "",
+  "first_page": "448",
+  "last_page": "450",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "20 N.Y. Crim. 448"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 App. Div. 170"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 293,
+    "char_count": 5192,
+    "ocr_confidence": 0.537,
+    "pagerank": {
+      "raw": 2.496688680927349e-07,
+      "percentile": 0.8090809541405696
+    },
+    "sha256": "3feab9aed3587eef92582b3f9a6dd53811cd03e3d0f5c8bb6bbd7b21c22f8a37",
+    "simhash": "1:b0cf32ed808ee5cb",
+    "word_count": 933
+  },
+  "last_updated": "2023-07-14T16:43:28.778390+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. MARTIN CONLON."
+    ],
+    "opinions": [
+      {
+        "text": "Ingraham, J.:\nThe defendant was convicted of larceny of the sum of $1,800, the property of one Ensign or one Darrah, the proceeds of a note given to the defendant by Ensign for discount. It is undisputed that Darrah owned a note made by one Beecher, of New Haven, Conn., dated June 23, 1902, and payable four months after date; that he delivered this note to one Sharp, with instructions to have the note discounted; that subsequently this note was received by Ensign from one Whelply, with instructions to get the note discounted, deduct ten per cent from it and to pay Whelply the balance of the money; that about the 1st of July, 1902, Ensign delivered this note to the defendant for the purpose of getting it discounted, Ensign stating' to the defendant that they could get ten per cent commissions if he could get the note discounted; that the defendant delivered the note to one Mor den and sent him to Mew Haven to see if the note was genuine, and if it was, to get it discounted there; that Mor den took the note to Mew Haven, sold it for $2,000 and returned with that $2,000 to Mew York; Mor den testified that upon arriving at Mew York he met the defendant, went with him to a hotel, and after deducting the expenses of his trip to Mew Haven and the commissions that he had paid there, he delivered the balance of the money that he had received to the defendant. The defendant denies that he met Mor den at this hotel on the evening of Mor den\u2019s return to Mew York, or that he received the money.\nThe only question of fact, therefore, was whether or not the defendant received the money from Mor den; for the defendant does not allege that he ever returned the money to Ensign from whom he received the note, or accounted for it to any one else. The defendant upon this appeal appears mainly to rest his case upon the claim that this verdict of the jury was not sustained by the evidence, and for that reason the court should order a new trial. We have examined this evidence and are .at a loss to see how such a claim could be made, or how the jury could have come to any conclusion except one which would result in the conviction of the defendant.\nMor den testified that he arrived in Mew York with the very same bills that he had received from Atwater who discounted the note, less $75 that he had paid to a broker, and $20 that he had paid to another man and his expenses of the trip; that he met the defendant at the Grand Union Hotel; that he figured out the expenses and commissions that were paid and handed the balance of the money, about $1,800, to the defendant; that the defendant then gave him $100 out of the money, and the defendant put the money in his pocket. Mor den\u2019s testimony as to what happened at the hotel is corroborated by Albinger, who was present at the -hotel with Borden and the defendant. Borden further testified that on the following day the defendant came to his office and gave him $1,500 with a request that Borden should open a bank account in his own name and deposit the money in it. This was on the 18th of July, 1902, and on that day Borden opened the bank account and deposited the $1,500 in it; that subsequently all this money was drawn out by the direction of the defendant and the money was all appropriated by the defendant for his own purposes. This evidence was also corroborated by Albinger and by one Horwitz, who was present when the defendant gave the $1,500 to Borden and requested Borden to deposit it in his bank to his credit. He also corroborates Borden in relation to the defendant\u2019s obtaining checks upon this bank account.\nIn the face of this testimony it is quite apparent that the defendant\u2019s denial of having received this money is substantially uncorroborated and could not have justified the court in advising the jury to acquit the defendant or in granting a new trial on the ground that the verdict is against the weight of evidence. The court submitted the case to the jury by a perfectly fair charge to.which no exception was taken, no request to charge being submitted to the court. There are questions as to ruling on evidence which we have considered but find no error.\nA consideration of the whole case has satisfied us that the defendant had a fair trial; that all of his rights were fully protected by the court and a consideration of the whole testimony has satisfied us that the defendant is guilty.\nIt follows that the judgment appealed from should be affirmed.\nPatterson, McLaughlin, Laughlin and Clarke, JJ., concurred.\nJudgment affirmed.",
+        "type": "majority",
+        "author": "Ingraham, J.:"
+      }
+    ],
+    "attorneys": [
+      "Martin Gonion, appellant in person.",
+      "Robert G. Taylor, for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT\u2014APP. DIVISION-FIRST DEPARTMENT,\nDec. 7, 1906.\nTHE PEOPLE v. MARTIN CONLON.\n(116 App. Div. 170.)\nLarceny\u2014Appropriating Proceeds of Note.\nEvidence sustaining a judgment convicting defendant of larceny in appropriating proceeds of a note which he had been given to discount for another considered and conviction sustained.\nAppeal by the defendant, Martin Conlon, from a judgment of the Court of General Sessions of the Peace in and for the county of New York, rendered on the 13th day of April, 1904, convicting the defendant of the crime of grand larceny in the first degree.\nMartin Gonion, appellant in person.\nRobert G. Taylor, for the respondent."
+  },
+  "file_name": "0448-01",
+  "first_page_order": 470,
+  "last_page_order": 472
+}

@@ -1,0 +1,70 @@
+{
+  "id": 1224764,
+  "name": "THE PEOPLE v. LOUIS FISHMAN",
+  "name_abbreviation": "People v. Fishman",
+  "decision_date": "1922-06",
+  "docket_number": "",
+  "first_page": "537",
+  "last_page": "539",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 537"
+    },
+    {
+      "type": "parallel",
+      "cite": "118 Misc. 738"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Ct. Gen. Sess.",
+    "id": 9672,
+    "name": "New York Court of General Sessions"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 260,
+    "char_count": 4765,
+    "ocr_confidence": 0.513,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.04507227115728534
+    },
+    "sha256": "7c2a9685c138af06733c07848c618a671bae9bff0543a6a406e3513058554d8d",
+    "simhash": "1:b0307c48a5cae7c0",
+    "word_count": 818
+  },
+  "last_updated": "2023-07-14T18:56:16.069757+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. LOUIS FISHMAN."
+    ],
+    "opinions": [
+      {
+        "text": "Nott, J.:\nThe indictment alleges that the defendant on the 7th day of January, 1922, stole from a certain corporation called Herman & Fishman, Inc., \u201c a quantity of cloth of an amount and description to the grand jury aforesaid unknown and of the value of $7,000, and a number of machines of a number and description to the said grand jury likewise unknown and of the value of $2,500.\u201d\nIt appears that the defendant was the treasurer of the company and that between the day in question and January 9th certain property of the company disappeared and the defendant stated to the other officers that he had sold the same to his father-in-law. There is also the evidence of \u00e1 truckman who testified that on the 7th day of January, 1922, at the defendant\u2019s request, he removed two loads consisting of some machines, woolens and silks to 427 Fourth avenue. There is nothing in the testimony, however, that shows that the defendant\u2019s father-in-law was at that address.\nThe indictment must be dismissed for the following reasons:\nFirst. The defendant is entitled to a reasonable description of the property alleged to have been stolen where that is possible. The indictment alleges that the amount and description of this property is unknown, to the grand jury, but the reason that it is unknown is that no description of it was elicited from the witnesses.\nSecond. There is no competent evidence before the grand jury of the value of the property. The witness Herman, who was president of the company and who is in the clothing business, was asked what the value of the machinery was and stated that it was $9,500. He gave no testimony whatever as to the .quantity or quality of the cloth in the place nor its value. The indictment alleges that the value of the machinery was $2,500 and of the cloth $7,000, but there is nothing in the testimony before the grand jury upon which that allegation of the indictment could be based. Ho questions were asked tending in any respect to qualify Herman as an expert as to the value of the machinery or to show that he had any knowledge thereof.\nThird. The following question was put to the witness Herman : \u201c Did he [defendant] say anything to you about going into business with him and doing Mr. Kessler out of business % \u201d In reply thereto the witness answered that about three months ago the defendant proposed to him a scheme whereby Herman was to enter into a conspiracy with the defendant and his father-in-law, the result of which would have been to cheat Kessler, who was the secretary of the company and one of the owners of the corporation. This transaction was not connected in any way, either in point of time or method, with, the larceny from the corporation, set up in the indictment. It was not competent as a similar transaction under any of the well-known exceptions to the general rule that an independent crime cannot be proved against a defendant. It was evidence that was highly prejudicial and would require a reversal of a judgment of conviction if admitted on the trial.\nThe indictment is dismissed, with leave to the district attorney to resubmit to another grand jury.\nOrdered accordingly.",
+        "type": "majority",
+        "author": "Nott, J.:"
+      }
+    ],
+    "attorneys": [
+      "Joab H. Banton, District Attorney (Felix C. Benvenga, of counsel), for plaintiff.",
+      "Samuel Falk, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "COURT OF GENERAL SESSIONS \u2014 COUNTY OF NEW YORK.\nJune, 1922.\nTHE PEOPLE v. LOUIS FISHMAN.\n(118 Misc. 738.)\nLarceny \u2014 Failure op indictment to describe property stolen \u2014 Inspection OP MINUTES OP GRAND JURY \u2014 WHEN INDICTMENT WILL BE DISMISSED.\nAn indictment for grand larceny should give a reasonable description of the property alleged to have been stolen, if possible.\nDefendant was charged by indictment with stealing from a corporation of which he was the treasurer \u201ca quantity of cloth of an amount and description to the grand jury aforesaid unknown and of the value of $7,000 and a number of machines of a number and description to the said grand jury likewise unknown and of the value of $2,500.\u201d There was no competent evidence before the grand jury as to the value of the said property, no description of the property was elicited from the witnesses, and testimony relating to a transaction not connected in any way, either in point of time or method, with the larceny charge was received. Held, that a motion to dismiss the indictment made after an inspection of the minutes of the grand jury will be granted, with leave to resubmit the case. The testimony as to the independent transaction if admitted upon the trial would require the reversal of a judgment of conviction.\nMotion to dismiss an indictment charging the defendant with the crime of grand larceny in the first degree. The motion was made after the granting of a motion to inspect the minutes of the testimony before the grand jury.\nJoab H. Banton, District Attorney (Felix C. Benvenga, of counsel), for plaintiff.\nSamuel Falk, for defendant."
+  },
+  "file_name": "0537-01",
+  "first_page_order": 557,
+  "last_page_order": 559
+}

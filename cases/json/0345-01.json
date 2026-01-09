@@ -1,0 +1,126 @@
+{
+  "id": 1228810,
+  "name": "THE PEOPLE v. ERNEST G. J. MEYER",
+  "name_abbreviation": "People v. Meyer",
+  "decision_date": "1924-05-17",
+  "docket_number": "",
+  "first_page": "345",
+  "last_page": "347",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 345"
+    },
+    {
+      "type": "parallel",
+      "cite": "123 Misc. 243"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Sup. Ct.",
+    "id": 8791,
+    "name": "New York Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "103 N. Y. 487",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2205013
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/103/0487-01"
+      ]
+    },
+    {
+      "cite": "4 N. Y. Crim. Rep. 230",
+      "category": "reporters:state",
+      "reporter": "N.Y. Crim.",
+      "case_ids": [
+        797864
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/4/0230-01"
+      ]
+    },
+    {
+      "cite": "95 N. Y. 624",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2193622
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/95/0624-01"
+      ]
+    },
+    {
+      "cite": "213 N. Y. 368",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        68648,
+        1209664
+      ],
+      "pin_cites": [
+        {
+          "page": "375"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/213/0368-01",
+        "/ny-crim/32/0421-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 242,
+    "char_count": 4207,
+    "ocr_confidence": 0.506,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.046040328992153594
+    },
+    "sha256": "21034d110c7440cdfb199974d4428cbe4f05ab26b78e359a1c4e499d54b1502f",
+    "simhash": "1:2e9bc03e6ede0fb4",
+    "word_count": 699
+  },
+  "last_updated": "2024-02-27T16:15:52.747790+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. ERNEST G. J. MEYER."
+    ],
+    "opinions": [
+      {
+        "text": "Carswell, J.:\nThis is a motion for a certificate of reasonable doubt. The defendant was convicted of the crime of manslaughter in the second degree. Several grounds are urged as warranting the granting of a certificate by this court. One is that the indictment does not state facts sufficient to constitute a crime or the crime of which the defendant has been convicted. In People v. Willett, 213 N. Y. 368, 375, it is said: \u201c Unless a. motion founded upon the indictment and the insufficiency thereof is made before or at the time when the defendant is called for judgment the. objections thereto are waived.\u201d Code Crim. Proc., \u00a7\u00a7 323, 331, 467, 469; People v. D\u2019Argencour, 95 N. Y. 624; People v. Wiechers, 179 id. 459; People v. Sheffield-Farms-Slawson-Decker Co., 206 id. 79. It not appearing herein that any such motion was made the claim that the indictment is insufficient in law may not be considered upon the appeal from the judgment of conviction herein. Therefore, that ground will not sustain the granting of this motion, even assuming, although not deciding, that the indictment was and is insufficient in law. Another ground urged is that there was error in the charge. The matter which is assigned as being error was apparently taken from the charge in People v. Buddensieck, 4 N. Y. Crim. Rep. 230; affd., 103 N. Y. 487. This, therefore, constitutes no error. Another ground urged is that the trial court committed reversible error in its rulings upon the admission and exclusion of evidence. I have carefully considered all that has been urged under this head and have arrived at the conclusion that' no error of a character that would warrant the disturbing' of the conviction herein was committed in the rulings upon the evidence proffered or adduced. The final ground urged is that the defendant\u2019s guilt was not established beyond a reasonable doubt. It is urged that, giving full value to all the evidence, it does not constitute the crime of manslaughter in the second degree; nor does it present a basis with respect to fact that would permit of a jury being permitted to decide that such a crime had been committed under the circumstances disclosed in the evidence. I have considered carefully the arguments and the citations with respect thereto made by the counsel for the defendant (who was not the counsel upon the trial) and have arrived at the conclusion that a question of fact was presented, upon the evidence adduced, which would sustain the finding that the defendant was guilty of culpable negligence and of the crime of which he was convicted. Without detailing the argument of the defendant under this head it may be said that much of it is founded upon inaccurate premises, that is, that- while many of his. conclusions naturally flow from the premises he assumes, the premises he assumes are not- conclusive in that they are incomplete and, therefore, inaccurate. This being so, his conclusions so founded may not be accepted. The motion is denied.\nOrdered accordingly.",
+        "type": "majority",
+        "author": "Carswell, J.:"
+      }
+    ],
+    "attorneys": [
+      "Charles J. Dodd, District Attorney (James I. Cuff, Assistant District Attorney, of counsel), for the People.",
+      "Emanuel Celler and Meyer Kraushaar, for the defendant."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014 SPECIAL TERM \u2014 KINGS COUNTY.\nMay 17, 1924.\nTHE PEOPLE v. ERNEST G. J. MEYER.\n(123 Misc. 243.)\nManslaughter in second degree \u2014 Motion for certificate of reasonable doubt \u2014 Insufficiency of indictment cannot be considered on motion \u2014 Error in charge, and in admission and exclusion of evidence, AND FAILURE OF PROOF BEYOND REASONABLE DOUBT NOT SUSTAINED\u2014 Motion denied.\nWhere the insufficiency o\u00ed the indictment is not quest\u2019oned before or at the time when the defendant is called for judgment the objections thereto are waived and may not be considered on a motion for a certificate of reasonable doubt after the conviction of the defendant of the crime of manslaughter in the second degree.\nOn a motion for a certificate of reasonable doubt alleged errors in the charge, in the adnrss'.on and exclusion of evidence, and the allegation that the defendant\u2019s guilt was not established beyond a reasonable doubt are not sustained and the motion should be denied.\nMotion by defendant for a certificate of reasonable doubt.\nCharles J. Dodd, District Attorney (James I. Cuff, Assistant District Attorney, of counsel), for the People.\nEmanuel Celler and Meyer Kraushaar, for the defendant."
+  },
+  "file_name": "0345-01",
+  "first_page_order": 361,
+  "last_page_order": 363
+}

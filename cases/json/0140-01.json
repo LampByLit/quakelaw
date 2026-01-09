@@ -1,0 +1,77 @@
+{
+  "id": 807207,
+  "name": "THE PEOPLE v. EDWARD T. JOHNSTON",
+  "name_abbreviation": "People v. Johnston",
+  "decision_date": "1906-05",
+  "docket_number": "",
+  "first_page": "140",
+  "last_page": "142",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "20 N.Y. Crim. 140"
+    },
+    {
+      "type": "parallel",
+      "cite": "112 App. Div. 812"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "45 Hun, 34",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 250,
+    "char_count": 4253,
+    "ocr_confidence": 0.576,
+    "pagerank": {
+      "raw": 5.71796845636144e-07,
+      "percentile": 0.949924879790289
+    },
+    "sha256": "6229c8dde1dce5569ba121b4a1a6245b2382b17df9a55ac26eae06e32b4a0bb3",
+    "simhash": "1:723875ae966308e9",
+    "word_count": 755
+  },
+  "last_updated": "2024-02-27T20:27:53.368575+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. EDWARD T. JOHNSTON."
+    ],
+    "opinions": [
+      {
+        "text": "Chester, J.:\nThe evidence was sufficient to sustain the conviction, but the defendant insists that the Court of Special Sessions had no jurisdiction to try him, because in the information the crime of petit larceny was not charged as a first offense, such court being a court of limited jurisdiction and being given jurisdiction under the statute (Code Crim. Proc. \u00a7 56, subd. 1) of trying the charge of \u201c petit larceny, charged as a first offense.\u201d This question has been expressly determined adversely to the contention of the defendant in the case of People v. Cook (45 Hun, 34) where Smith, P. J., in writing for the court, says: \u201c It is also contended that courts of Special Sessions can only try cases of petit larceny, \u2018 charged as a first offense.\u2019 (Code of Crim. Pro. \u00a7 56, sub. 1.) We do not understand that it is essential to the jurisdiction of a Court of Special Sessions, in a ease of petit larceny, that the information or the warrant should allege that the crime charged is a first offense. If it be a first offense in fact, the court has jurisdiction to try the case, and it is to be deemed a first offense unless the contrary is charged. But if such allegation is material for any purpose the defendant is not harmed by its omission. The provision requiring such allegation is, in the interest of the public, to prevent criminals guilty of a second offense from escaping the full measure of punishment imposed by statute (Penal Code, \u00a7688), and which courts of Special Sessions have not the power to inflict.\u201d\nThe defendant also urges that the court erred in excluding evidence offered by him to show that the charge was not a first offense in fact. The offer, however, fell far short of this. The offer was that the same complainant had laid information against this defendant on a charge of larceny upon which a warrant was issued against the prisoner and upon which he was arrested prior to being arrested on this charge, but there was no offer to show that the offense charged in that information was one committed by the defendant prior to the one for which he was being tried, and it is not to be presumed that he would care to confess the commission of an earlier offense to exclude the court of jurisdiction when the only other effect of such confession would be to subject himself to a prosecution which might result in a much more severe punishment than could be imposed for a first offense.\nThe judgment should be affirmed.\nAll concurred, except Parker, P. J., not voting.\nJudgment of conviction affirmed.",
+        "type": "majority",
+        "author": "Chester, J.:"
+      }
+    ],
+    "attorneys": [
+      "A. Armstrong, for the appellant.",
+      "Daniel J. Finn and W. L. Kiley, for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT-APP. DIVISION\u2014THIRD DEPARTMENT,\nMay, 1906.\nTHE PEOPLE v. EDWARD T. JOHNSTON.\n(112 App. Div. 812.)\n' (1). Petit Larceny\u2014Jurisdiction of Special Sessions.\nA court of Special Sessions has jurisdiction to try a case of petit larceny when a first offense, although the information does not charge the crime to have been a first offense.\n(2). Same\u2014Evidence.\nIt is not error to exclude an offer by the defendant to show that the same complainant had laid an information against the defendant for larceny, upon which a warrant had been issued and upon which he had been arrested prior to his arrest in the case\n\u25a0 at bar, when there is no offer to show that the offense charged in that information was committed by defendant prior to the one for which he is on trial.\nAppeal by the defendant, Edward T. Johnston, from that part of a judgment of the County Court of Warren county, entered in the office of the cleric of the county of Warren on the 11th day of November, 1905, which affirms a judgment of the Court of Special Sessions of the village of Glens Falls, rendered on the 3d day of March, 1905, convicting the defendant of the crime of petit larceny.\nThe defendant was convicted of the crime of petit larceny on a trial before a Court of Special Sessions held by the police justice of Glens Falls, and sentenced to sixty-one days in the Albany Penitentiary. On an appeal to the County Court the sentence was modified to a fine of fifty dollars, and to confinement in the Warren county jail for fifty days if the fine was not paid, and as so modified affirmed. From the judgment of affirmance the defendant has appealed.\nA. Armstrong, for the appellant.\nDaniel J. Finn and W. L. Kiley, for the respondent."
+  },
+  "file_name": "0140-01",
+  "first_page_order": 162,
+  "last_page_order": 164
+}

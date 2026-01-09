@@ -1,0 +1,193 @@
+{
+  "id": 1224703,
+  "name": "THE PEOPLE v. WILLIAM KUPPERSCHMIDT",
+  "name_abbreviation": "People v. Kupperschmidt",
+  "decision_date": "1921-07-08",
+  "docket_number": "",
+  "first_page": "263",
+  "last_page": "266",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 263"
+    },
+    {
+      "type": "parallel",
+      "cite": "197 App. Div. 675"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "84 Misc. Rep. 356",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        3183950
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/146/0073-01"
+      ]
+    },
+    {
+      "cite": "159 App. Div. 19",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        5318565
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/159/0019-01"
+      ]
+    },
+    {
+      "cite": "174 App. Div. 470",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        3179641,
+        1217004
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/160/0459-01",
+        "/ny-crim/35/0145-01"
+      ]
+    },
+    {
+      "cite": "140 App. Div. 910",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2502756,
+        2505925,
+        2513797,
+        2508711,
+        2513062,
+        2522602,
+        2512987,
+        2509904,
+        2504595,
+        2503732,
+        2520539,
+        2520727,
+        2508248,
+        2506905,
+        2523990,
+        2503515,
+        2503864
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/140/0910-17",
+        "/ad/140/0910-02",
+        "/ad/140/0910-06",
+        "/ad/140/0910-12",
+        "/ad/140/0910-08",
+        "/ad/140/0910-10",
+        "/ad/140/0910-11",
+        "/ad/140/0910-04",
+        "/ad/140/0910-05",
+        "/ad/140/0910-14",
+        "/ad/140/0910-01",
+        "/ad/140/0910-07",
+        "/ad/140/0910-16",
+        "/ad/140/0910-15",
+        "/ad/140/0910-09",
+        "/ad/140/0910-03",
+        "/ad/140/0910-13"
+      ]
+    },
+    {
+      "cite": "179 N. Y. 540",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2318684,
+        2318742
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/179/0540-02",
+        "/ny/179/0540-01"
+      ]
+    },
+    {
+      "cite": "92 App. Div. 205",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        5821277,
+        805343
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/87/0358-01",
+        "/ny-crim/18/0240-01"
+      ]
+    },
+    {
+      "cite": "5 Park. Cr. Rep. 351",
+      "category": "reporters:state",
+      "reporter": "Park. Cr.",
+      "case_ids": [
+        1262846
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/park-crim-rep/5/0351-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 355,
+    "char_count": 6208,
+    "ocr_confidence": 0.519,
+    "pagerank": {
+      "raw": 2.318106840827791e-07,
+      "percentile": 0.78918674409203
+    },
+    "sha256": "0ae262dfdd8423e83c9a48b255c71b66c0309287e8ee8c09cd0def4ce96ca462",
+    "simhash": "1:835d93c64368f427",
+    "word_count": 1090
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. WILLIAM KUPPERSCHMIDT."
+    ],
+    "opinions": [
+      {
+        "text": "Smith, J.:\nThe defendant was convicted in part upon the testimony of the thief who stole the goods, and the trial judge charged the jury that the thief was not an accomplice of the defendant and that, therefore, they might convict upon the testimony of the thief without further corroboration, warning the jury, however, that they should accept with caution the testimony of one who was before them confessing his guilt. This charge raises the only question for our consideration. It has been held in this State that a thief is not an accomplice of the receiver in the crime of receiving stolen goods. (People v. Cook, 5 Park. Cr. Rep. 351; People v. Ammon, 92 App. Div. 205; affd. 179 N. Y. 540; People v. Levine, 140 App. Div. 910.) And there are obiter expressions to the same effect. (People v. Zimmer, 174 App. Div. 470; People v. Hyde, 156 id. 628.) In the Third and Fourth Departments, however, it has been held that the thief is an accomplice of the receiver of the stolen goods. (See People v. Willard, 159 App. Div. 19; People v. Markus, 168 id. 184; People v. Kudon, 173 id. 342; People v. Ansteth, 84 Misc. Rep. 356.)\nIn other States we find authority divided. In Arizona, Colorado, Georgia, Indiana, Iowa, Minnesota, Missouri, New Jersey, Oklahoma, Oregon, Tennessee and Utah the law seems to be established that the thief is not an accomplice of the receiver of stolen goods so as to require corroboration of his testimony as against the receiver. The contrary rule seems to have been held in Arkansas, California, Illinois, Kansas, Pennsylvania and Texas.\nThe cases in the Third and Fourth Departments holding that the thief is an accomplice of the receiver of stolen goods contain no discussion of the question but rather an assumption of the rule of law and the discussion is confined to the sufficiency of the corroboration. Upon an examination of the authorities and upon a consideration of the logical results of such a holding, I am led to the conviction that the authorities in the Third and Fourth Departments are not well founded, and that the thief is not an accomplice of the receiver of stolen goods, so that his testimony as against such receiver does not require corroboration within the requirements of the criminal law. It is difficult, if not impossible, to lay down any guiding principle which will apply to all cases in determining what is an accomplice within this provision of section 399 of the Code of Criminal Procedure. In this case, however, the conclusion is simplified by the nature of the crime. The thief may sell the goods to an innocent purchaser and the purchaser is guilty of no crime. If the sale be made to a party who has knowledge of the fact that the goods are stolen, the purchaser is guilty of a crime. To hold that the thief is an accomplice in the crime of criminally receiving if the purchaser has knowledge of the theft, and that no such crime is committed either by the purchaser or the thief in the sale of such goods if the thief does not know that the purchaser had knowledge of the theft, makes the criminality of the thief in such crime dependent solely upon his knowledge of the knowledge of the purchaser that the goods have been stolen. I know of no principle of the common law and of no statute which makes the test of criminality the knowledge of facts by a third party. If the thief is not guilty of a crime in making a sale to an innocent third party, he cannot be guilty of a crime in making the sale to a third party with notice of the fact that the goods were stolen. One act is morally as culpable as the other. Where the act is one that is made criminal solely by the knowledge of the receiver of the goods, I cannot see by any reasonable rule of law how the thief can become an accomplice in the crime which depends upon such knowledge.\nThe judgment should be affirmed.\nDowling, J., concurs.\nPage, J.:\nI concur in the result of Mr. Justice Smith\u2019s opinion. In my opinion the thief is not the accomplice of the receiver of the goods stolen, except where the stealing of the particular goods is induced or procured by the receiver, in which as the main purpose of the theft is to dispose of the particular goods to the receiver, and it is through his incitement and inducement that the theft is committed, they are both united in a common plan to steal goods for the purpose of disposing of them to the receiver; and, therefore, I am of opinion that not alone would the receiver be the accomplice of the thief in the larceny, but the thief would he the accomplice in the receiving.\nIn the case under consideration the receiver merely advertised his business by telling the thief that if he had goods to dispose of he would take them from him. There was no inducement to the particular theft. The evidence tended to show the guilty knowledge of the receiver, and no corroboration was necessary of the thief\u2019s testimony.\nClarke, P. J., and Greenbaum, J., concur.\nJudgment affirmed.",
+        "type": "majority",
+        "author": "Smith, J.: Page, J.:"
+      }
+    ],
+    "attorneys": [
+      "George Z. Medalie, of counsel (Kopp & Perlman, attorneys), for the appellant.",
+      "Robert S. Johnstone, Assistant District Attorney, of counsel (Felix C. Benvenga with him on the brief; Edward Swann, District Attorney), for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014 APPELLATE DIVISION \u2014 FIRST DEPARTMENT.\nJuly 8, 1921.\nTHE PEOPLE v. WILLIAM KUPPERSCHMIDT.\n(197 App. Div. 675.)\nCriminally receiving stolen property \u2014 Thief not accomplice of person RECEIVING PROPERTY WHERE THEFT NOT INDUCED BY LATTER \u2014 CORROBORA- , TION OF TESTIMONY OF THIEF NOT NECESSARY.\nOn a prosecution for criminally receiving stolen property, the thief who stole the property is not an accomplice of the defendant where the stealing of the goods was not induced or procured by the defendant, and hence the testimony of the thief against the defendant does not require corroboration.\nAppeal by the defendant, William Kupperschmidt, from a judgment of the Court of General Sessions of the Peace in and for the county of New York, rendered on the 16th day of April, 1920, convicting him of the crime of criminally receiving stolen property,in the first degree in violation of section 1308 of the Penal Law. (See Laws of 1916, chap. 366, amdg. said \u00a7 1308. Since amd. by Laws of 1920, chap. 570.)\nGeorge Z. Medalie, of counsel (Kopp & Perlman, attorneys), for the appellant.\nRobert S. Johnstone, Assistant District Attorney, of counsel (Felix C. Benvenga with him on the brief; Edward Swann, District Attorney), for the respondent."
+  },
+  "file_name": "0263-01",
+  "first_page_order": 283,
+  "last_page_order": 286
+}

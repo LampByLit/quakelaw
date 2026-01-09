@@ -1,0 +1,551 @@
+{
+  "id": 1224688,
+  "name": "THE PEOPLE v. BENJAMIN GITLOW",
+  "name_abbreviation": "People v. Gitlow",
+  "decision_date": "1921-04-01",
+  "docket_number": "",
+  "first_page": "120",
+  "last_page": "156",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 120"
+    },
+    {
+      "type": "parallel",
+      "cite": "195 App. Div. 773"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "125 N. Y. 324",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1895837
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/125/0324-01"
+      ]
+    },
+    {
+      "cite": "199 N. Y.. 505",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        4475315
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "510"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/199/0505-01"
+      ]
+    },
+    {
+      "cite": "254 U. S. 135",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1160472
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/254/0135-01"
+      ]
+    },
+    {
+      "cite": "41 Hun, 23",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 La. 226",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5309192
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/115/0126-01"
+      ]
+    },
+    {
+      "cite": "87 Fed. Rep. 324",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3838873
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/87/0324-01"
+      ]
+    },
+    {
+      "cite": "187 App. Div. 604",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1220778
+      ],
+      "pin_cites": [
+        {
+          "page": "610, 611"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/37/0462-01"
+      ]
+    },
+    {
+      "cite": "235 U. S. 432",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675327
+      ],
+      "pin_cites": [
+        {
+          "page": "438"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/235/0432-01"
+      ]
+    },
+    {
+      "cite": "17 Johns. 475",
+      "category": "reporters:state",
+      "reporter": "Johns.",
+      "case_ids": [
+        6065182
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/johns/17/0373-01"
+      ]
+    },
+    {
+      "cite": "9 Wheat. 1",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1421263
+      ],
+      "pin_cites": [
+        {
+          "page": "188"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/22/0001-01"
+      ]
+    },
+    {
+      "cite": "66 App. Div. 25",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4867595
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/66/0025-01"
+      ]
+    },
+    {
+      "cite": "149 N. Y. 117",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        27481
+      ],
+      "pin_cites": [
+        {
+          "page": "122, 123"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/149/0117-01"
+      ]
+    },
+    {
+      "cite": "154 App. Div. 413",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1204305
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/29/0066-01"
+      ]
+    },
+    {
+      "cite": "195 N. Y. 377",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        4461335
+      ],
+      "pin_cites": [
+        {
+          "page": "381"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/195/0377-01"
+      ]
+    },
+    {
+      "cite": "98 Minn. 380",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        8890312
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/minn/98/0380-01"
+      ]
+    },
+    {
+      "cite": "148 N. Y. 360",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2272012
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/148/0360-01"
+      ]
+    },
+    {
+      "cite": "183 App. Div. 55",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1218382
+      ],
+      "pin_cites": [
+        {
+          "page": "62"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/36/0472-01"
+      ]
+    },
+    {
+      "cite": "182 N. Y. 415",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2323050,
+        1189847
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/182/0415-01",
+        "/ny-crim/19/0524-01"
+      ]
+    },
+    {
+      "cite": "238 U. S. 383",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3676010
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/238/0383-01"
+      ]
+    },
+    {
+      "cite": "250 U. S. 616",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3684158
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/250/0616-01"
+      ]
+    },
+    {
+      "cite": "177 Mass. 267",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        26049
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/177/0267-01"
+      ]
+    },
+    {
+      "cite": "249 U. S. 211",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3689118
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/249/0211-01"
+      ]
+    },
+    {
+      "cite": "244 Fed. Rep. 535",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6741203
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/244/0535-01"
+      ]
+    },
+    {
+      "cite": "143 U. S. 110",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137513
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/143/0110-01"
+      ]
+    },
+    {
+      "cite": "96 N. Y. 408",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        556071
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/96/0408-01"
+      ]
+    },
+    {
+      "cite": "8 Johns. 290",
+      "category": "reporters:state",
+      "reporter": "Johns.",
+      "case_ids": [
+        2134480
+      ],
+      "pin_cites": [
+        {
+          "page": "297"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/johns/8/0290-01"
+      ]
+    },
+    {
+      "cite": "194 U. S. 279",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3630888
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/194/0279-01"
+      ]
+    },
+    {
+      "cite": "86 N. J. Law, 120",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        223604
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/njl/86/0120-01"
+      ]
+    },
+    {
+      "cite": "236 U. S. 273",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8286834
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/236/0273-01"
+      ]
+    },
+    {
+      "cite": "71 Wash. 185",
+      "category": "reporters:state",
+      "reporter": "Wash.",
+      "case_ids": [
+        568269
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash/71/0185-01"
+      ]
+    },
+    {
+      "cite": "167 N. W. Rep. 345",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "140 Minn. 112",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        8888410
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/minn/140/0112-01"
+      ]
+    },
+    {
+      "cite": "165 U. S. 275",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8298391
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/165/0275-01"
+      ]
+    },
+    {
+      "cite": "171 N. Y. 423",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2305272,
+        1186125
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/171/0423-01",
+        "/ny-crim/16/0555-01"
+      ]
+    },
+    {
+      "cite": "254 U. S. 325",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1160828
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/254/0325-01"
+      ]
+    },
+    {
+      "cite": "141 Minn. 263",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        173321
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/minn/141/0263-01"
+      ]
+    },
+    {
+      "cite": "253 U. S. 350",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        189381
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/253/0350-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2154,
+    "char_count": 77644,
+    "ocr_confidence": 0.528,
+    "pagerank": {
+      "raw": 3.316657548413281e-07,
+      "percentile": 0.8727688371020859
+    },
+    "sha256": "c172691e4712eab6c93c68119f7380106e06cd3ec1b6bba3fcf038f865e6486e",
+    "simhash": "1:b6a2457ce49f7be9",
+    "word_count": 12749
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. BENJAMIN GITLOW."
+    ],
+    "opinions": [
+      {
+        "text": "Laughlin, J.:\nThe manifesto condemns the Socialist party and moderate Socialism for confining their advocacy of the overthrow of government to constitutional amendments brought about by the exercise of the elective franchise, and it repudiates that method as wholly inadequate to accomplish the purposes of the Left Wing and asserts that they can only be accomplished by a revolution brought about by a mass strike of the proletariat. It does not definitely define who constitute the proleteriat but it evidently means those of the working classes who have no property, for it states, in effect, that the concentration of industry and social developments generally \u201c conservatized the skilled workers \u201d and \u201c developed' the proletariat of unskilled laborers massed in the basic industries,\u201d and that this proletariat, \u201c expropriated of all property \u201d and denied access to the American Federation of Labor Unions, required a\u2019 labor movement of its own, which became a revolutionary industrial unionism, which \u201c was a recognition of the fact that extra-parliamentary action was necessary to accomplish the revolution, that the political state should be destroyed and a new proletarian state of the organized producers constructed in order to realize socialism.\u201d It further states that the Socialist party repudiated the form of industrial unionism and \u201cstill more emphatically repudiated its revolutionary political implications, clinging to petty bourgeois parliamentarism and reform\u201d; that the dominant Socialism in the Socialist party united with the aristocracy of labor and the middle class and necessarily developed all the evils of the dominant Socialism of Europe and abandoned the \u201c immediate revolutionary task of reconstructing unionism, on the basis of which alone a militant mass Socialism could emerge,\u201d and stultified \u201c working-class political action,\u201d by limiting such action \u201c to elections and participation in legislative reform activity\u201d; that the effect of this was to draw \u201c more and more proletarian masses in the party, who required simply the opportunity to initiate a revolutionary proletarian policy,\u201d and that the war and the proletarian revolution in Russia provided the opportunity; that under the impulse of its membership, the Socialist party adopted a militant declaration against the war, but its officials-sabotaged this declaration and adopted a policy of \u201c petty, bourgeois pacifism,\u201d and the bureaucracy of the party united with the bourgeois People\u2019s Council, which accepted the Wilson peace and betrayed those who opposed the war. It then condemns those in charge of the Socialist party for their reactionary policy in repudiating the policy of the Russian and German Communists and \u201c refusing affiliation with the Communist International of Revolutionary Socialism,\u201d and states, in effect, that owing to the aggrandizement of \u201c American Capitalism \u201d by the war and its preparation to meet the crisis in the days-to come, the immediate task of the Left Wing is modified but its general character is not altered, and that this is the moment of \u201c revolutionary struggle \u201d but \u201c not the moment of revolution \u201d because \u201c American capitalism \u201d is developing a brutal campaign of terrorism against the militant proletariat, and that these conditions \u201c will necessarily produce proletarian action against capitalism \u201d and that \u201c strikes are developing which verge on revolutionary action, and in which the suggestion of proletarian dictatorship is apparent, the striker-workers trying to usurp functions of municipal government, as in Seattle and Winnipeg.\u201d The article then denounces the Socialist party and labor unions for favoring relief to the working classes only through lawful constitutional methods and states that there is a tendency on the part of workers \u201c to initiate mass strikes,\u201d and that such strikes will be the determining feature of proletarian action and they must be used to broaden the strike and \u201c to make it general and militant,\u201d first using it for political objectives, finally developing \u201c the mass political strike against Capitalism and the State.\u201d It next advises \u201c the militant mass movements \u201d in the American Federation of Labor \u201c to split the old unions \u201d and to break their power, and the organization of the \u201c mass of the unorganized industrial proletariat,\u201d thereby \u201c developing reserves for the ultimate conquest of power.\u201d It then states that a class struggle of a political nature is first to be waged for \u201c immediate concessions \u201d and the final conquering of power \u201c by organizing the industrial government of the working classes,\u201d but that \u201c the direct objective is the conquest by the proletariat of the power of the State,\u201d and that this is to be done not by capturing \u201c the bourgeois parliamentary State \u201d but by conquering and destroying it, and, therefore, \u201c Revolutionary Socialism \u201d repudiates the policy of introducing Socialism by legislative measures on the basis of the existing State. It also states that it is necessary for the proletariat to \u201c expropriate all these by the conquest of the power of the State,\u201d all the political power, the army, police, industry and the press, \u201c before it can begin the task of introducing Socialism,\u201d because as long as the bourgeois State exists \u201c the capitalist class can baffle the will of the proletariat,\u201d and that \u201c Revolutionary Socialism \u201d proposes to ' conquer the power of the State \u201c by class action of the proletariat,\u201d but that parliamentary action is necessary \u201c in the process of developing the final action,\u201d and that the conquest of the power of the State \u201c is an extra-parliamentary act \u201d and will be accomplished not by \u201c legislative representatives of the proletariat but by the mass power of the proletariat in action and that the \u201c supreme power of the proletariat inheres in the political mass strike.\" It further states that it is necessary to organize a new State in the form of \u201c Communist Socialism\u2014 the government of the producers \u201d in which \u201c the proletariat as a class alone counts \u201d and which is \u201c based directly upon the industrial, organized producers, upon the industrial unions or Soviets, or a combination of both.\u201d The article points out that both anarchists and revolutionary Socialists intend to abolish the State, but that the anarchists in eagerness so to do fail to realize that the State is necessary \u201c in the transition period,\u201d and that the revolutionary Socialists intend to conquer the State by revolution starting with strikes of protest, developing into \u201c mass political strikes and then into revolutionary mass action \u201d and the \u201c annihilation \u201d of the State and the introduction of \u201c the transition proletarian State functioning as a revolutionary dictatorship,\u201d which is necessary \u201c to coerce and suppress the bourgeois,\u201d and that during the period of such coercion and suppression the proletarian dictatorship represents the proletariat as the ruling class \u201c which is now supreme,\u201d and the full conditions of Communist Socialism will be developed and when all industries are nationalized, a new government is developed, \u201c which is no longer government in the old sense,\u201d for it \u201c concerns itself with the management of production and not with the government of persons,\u201d and that \u201c out of workers\u2019 control of industry, introduced by the proletariat dictatorship, there develops the complete structure of Communist Socialism \u2014 industrial self-government of .the communistically organized producers,\u201d and the bourgeois having been completely expropriated \u201c economically and politically,\u201d the dictatorship ends and in its place comes \u201c the full and free social and individual autonomy of the Communist order.\u201d The manifesto closes by stating that \u201c the organ of the international revolutionary proletariat \u201d is th\u00e9 \u201c Communist International, issuing directly out- of the proletarian revolution in action and in process of development \u201d which wages war \u201c equally against the dominant moderate Socialism and Imperialism \u201d and \u201c issues its challenge to the conscious, virile elements of the proletariat, calling them to the final struggle against capitalism,\u201d and \u201c issues its call to the subject peoples of the world,\u201d and that their revolt is \u201c a necessary phase of the world struggle against capitalist Imperialism,\u201d and that, therefore, it \u201c offers an organization and a policy that may unify all the revolutionary forces of the world for the conquest of power and for Socialism,\u201d and that although \u201c the revolutionary epoch of the final struggle may \u201d last \u201c for years and tens of years \u201d the Communist International \u201c offers a policy and program immediate and ultimate in scope, that provides for the immediate class struggle against Capitalism, in its revolutionary implication, and for the final act of the conquest of power,\u201d and that the proletariat of the world has been called \u201c to the final struggle \u201d by the Communist International. The Left Wing program, published in the same issue of The Revolutionary Age, outlines the preliminary steps for organization and co-operation leading to the final mass strike; and the \u201c Communist Program,\u201d also published therein, to the same effect as the Left Wing manifesto but in some respects broader and bolder, is accepted and summarized. The manifesto advocates the doctrine that the present machinery of our government, which it is claimed is capitalistic, notwithstanding the fact that the majority rule through universal suffrage and no man\u2019s vote or voice in the government counts for more than that of another, should be overthrown and replaced by a government exclusively by the working classes and applicable to production only and on the Russian Soviet order. The churches, schools, colleges, and other educational institutions are to be confiscated; but we are not informed concerning the use, if any, to which they are to be put. The doctrine advocated is, that during the reign of the proletarian dictatorship, during which it is admitted that it will be necessary to use force in conquering' the bourgeois and expropriating all property, mankind will be so changed that the people will no longer require to be governed. No precedent is pointed to tending to justify these expectations for the realization of this illusory Utopia, under which there shall be only such government as may be had through \u201c Workers, councils and similar organizations.\u201d But the proletarian dictatorship as it exists in Russia is referred to with approval as the first great victory and as illustrative of the transition period. The history of the world would seem to indicate that if these expectations are to be realized, there must necessarily be a very prolonged transition period of the proletarian dictatorship, for the overthrow of governments resulting in a proletarian dictatorship is to be brought about by teaching class hatred and revenge. Russia is proudly pointed to as an example of a proletarian dictatorship. The current reports of conditions there show what might be expected from such doctrines, and according to those reports the most barbaric punishment, torture, cruelty and suffering are inflicted upon the bourgeois including all members of labor unions and the peasantry, and those who do not submit to the proletarian dictatorship are either starved to death or shot, and the survivors are evidently being disciplined by starvation, torture and imprisonment, to the point that they will live in harmony without being governed by the State. Those advocating this doctrine are unwilling to await the practical working of their theories in Russia; and it is fairly to be inferred from some of the statements in the manifesto that their reasons for this are fear that, owing to the fact that Russia is largely an agricultural country, the scheme may not he successful if confined to that country and, therefore, they deem it necessary at once to make the revolutionary struggle world wide, deeming that greater headway may he made in industrial centers where the proletariat greatly outnumbers the bourgeois. Hence it is that we find these doctrines principally advocated by those who come from Russia and bordering countries and their descendants, as is the appellant.\nIt is perfectly plain that the plan and purpose advocated by the appellant and those associated with him in this movement contemplate the overthrow and destruction of the governments of the United States and of all the States, not by the free action of the majority of the people through the ballot box in electing representatives to authorize a change of government by amending or changing the Constitution, as to which in view of the recent decision of the Supreme Court of the United States sustaining the Eighteenth Amendment to the Federal Constitution (Rhode Island v. Palmer, 253 U. S. 350) there seems to be little, if any, limitation, but by immediately organizing the industrial proletariat into militant Socialist unions and at the earliest opportunity through mass strike and force and violence, if necessary, compelling the government to cease to function, and then through a proletarian dictatorship, taking charge of and appropriating all property and administering it and governing through such dictatorship until such time as the proletariat is permitted to administer and govern it. They do not announce in advance how the dictator is to be chosen or just what kind of a government they expect ultimately to have; but they make it quite plain that the property of the States and nation shall be taken over, and that every individual who has any property shall not only be deprived of it but also be deprived of any voice in the affairs of the State, such as they may be, under a government which is not to govern the people but only production. They do not expressly advocate the use of weapons or physical force in accomplishing these results; but they are chargeable with knowledge that their aims and ends cannot be accomplished without force, violence and bloodshed, and, therefore, it is reasonable to construe what they advocate as intending the use of all means essential to the success of 'their program.\nAfter the assassination of President McKinley by an anarchist on the 6th of September, 1901, it was deemed that our laws were inadequate for the protection of organized government, and it appears by Senate Document No. 26 of the 125th Session in 1902 that a committee of the Senate reported for enactment certain statutes creating and defining the crime of criminal anarchy, which were enacted as sections 468-a to 468-e, inclusive, of the Penal Code by chapter 371 of the Laws of 1902. In 1909, by the Consolidated Laws (Chap. 40; Laws of 1909, chap. 88), these provisions, together with sections 461 and 469 of the Penal Code, became sections 160 to 166, inclusive, of the Penal Law. The provisions of sections 160 and 161, with which only we are now concerned, are as follows:\n\u201c \u00a7 160. Criminal anarchy defined. Criminal anarchy is the doctrine that organized government should be overthrown by force or violence, or by assassination of the executive head or of any of the executive officials of government, or by any unlawful means. The advocacy of such doctrine either by word of mouth or writing is a felony.\n\u201c \u00a7 161. Advocacy of criminal anarchy. Any person who:\n\u201c 1. By word of mouth or writing advocates, advises or teaches the duty, necessity or propriety of overthrowing or overturning organized government by force or violence, or by assassination of the executive head or of any of the executive officials of government, or by any unlawful means; or,\n\u201c 2. Prints, publishes, edits, issues or knowingly circulates, sells, distributes or publicly displays any book, paper, document, or written or printed matter in any form, containing or advocating, advising or teaching the doctrine that organized government should he overthrown by force, violence or any unlawful means; or,\n\u201c 3. Openly, wilfully and deliberately justifies by word of mouth or writing the assassination or unlawful killing or assaulting of any executive or other officer of the United States or of any State or of any civilized nation having an organized government because of his official character, or any other crime, with intent to teach, spread or advocate the propriety of the doctrines of criminal anarchy; or,\n\u201c 4. Organizes or helps to organize or becomes a member of or voluntarily assembles with any society, group or assembly of persons formed to teach or advocate such doctrine,\n\u201c Is guilty of a felony and punishable by imprisonment for not more than ten years, or by a fine of not more than five thousand dollars, or both.\u201d\nCounsel for the appellant contends that these provisions should be so construed as to limit their application to the then recognized doctrine of anarchists for the destruction of all government by assassination and force and thus to end all government, and that the conviction of the appellant thereunder cannot be sustained for the reason that it was not shown that he advocated the destruction of all government by assassination and force, for although he has clearly advocated the overthrow and destruction of all existing governments, it is claimed that the doctrine he advocated contemplates the formation of a government, upon such overthrow and destruction, by a proletariat dictatorship and ultimately by the proletariat. In support, of this contention, certain parts of the report of the committee reporting the draft of the laws are quoted as follows:\n\u201c The assassination of the late President McKinley by an anarchist who avowedly had no personal grievance against his victim, aroused the people of the nation to the recognition of the fact which thoughtful observers had already appreciated some time before, namely, that immigration of recent years had made the United States the abiding place of numbers of foreigners who, without understanding of our institutions, had brought with them views and prejudices formerly unknown in our country, and doctrines which, if put into effect, would subvert not merely our or any particular form of government, but organized government everywhere. * * *\n\u201c It is not a particular crime \u2014 the murder or attempt at murder of any particular individual \u2014 which is to be prevented by additional penal legislation or for which additional punishment is to be provided, but rather the prevention of the spreading of doctrines hostile to the safety of our government and of all government, which inevitably tend to lead those who profess them to commit crimes or at least prepare them mentally for their commission. This problem \u2014 of reaching those who profess and teach the doctrines of anarchy, without themselves attempting or committing or inciting others to attempt or commit any particular crime \u2014 is a difficult one. All will agree, however, that anarchy, by which we mean the doctrine that organized government, of whatever nature, whether republican or monarchial, should be overthrown by force, is a criminal doctrine, the teaching and spreading of which should be prevented by penal legislation. * * *\n\u201c Organized government must be maintained. To attack it, to preach the doctrine that it should be overthrown, is not the right of any one. * * * When it ceases, every individual is the prey of his fellows and will have no rights at all except those he can maintain by force.\u201d\nIn order properly to construe these provisions of the Penal Law, it is advisable, I think, to consider first what authority the Legislature had to enact laws designed to maintain existing government against overthrow and destruction by forbidding the advocacy within this State of their overthrow and destruction. I am of opinion that it was entirely competent for the Legislature to make it a crime to advocate within this State the overthrow of the government of the United States or of this or any sister State by any means or method other than constitutional means or methods. It is not necessary to decide whether the interests of the several States in the maintenance of other civilized governments is such that it is competent for the Legislature to prohibit the advocacy within the State of the overthrow or destruction of any other government by any means not authorized for the change or overthrow of such governments, for the doctrines plainly advocate the overthrow of all existing government, and the conviction of the appellant rests on the advocacy by him of the overthrow of our own government, and every State is interested in the preservation of our National and State governments, and it is, therefore, competent for a State under its police power to enact laws for the protection thereof. (State v. Gilbert, 141 Minn. 263; affd., sub nom. Gilbert v. Minnesota, 254 U. S. 325.) Counsel for the appellant contends that these provisions of the Penal Law, unless confined to prohibiting the advocacy of doctrines of anarchy in its strict sense, would be unconstitutional as constituting an abridgement of personal liberty guaranteed by section 1 of the Fourteenth Amendment to the Federal Constitution, and of the freedom of speech and of writing and publishing one\u2019s sentiments and the freedom of the press, preserved by article 1, section 8, of the State Constitution, and he also contends that the enactment of these provisions does not constitute due process of law and, therefore, is in violation of section 6 of article 1 of the State Constitution and of section 1 of the Fourteenth Amendment to the Federal Constitution. Manifestly, the argument based on lack of due process needs no extended consideration for he has had and is having due process of law which entitles him to a hearing and determination by a court of competent jurisdiction. Section 8 of article 1 of the State Constitution provides as follows: \u201c Every citizen may freely speak, write and publish his sentiments on all subjects, being responsible for the abuse of that right; and no law shall he passed to restrain or abridge the liberty of speech or of the press.\u201d Under the provisions imposing a responsibility upon the citizen for the abuse of the right freely to speak, write or publish his sentiments on all subjects, the citizen not only becomes responsible to any one injured by the abuse of this right but, consistently with these constitutional provisions and with section 1 of the Fourteenth Amendment to the Federal Constitution, he may also be made answerable to the State criminally therefor. (Gilbert v. Minnesota, supra; People v. Most, 171 N. Y. 423; Robertson v. Baldwin, 165 U. S. 275; Schenck v. United States, 249 id. 47; Frohwerk v. United States, Id. 204; State v. Moilen, 140 Minn. 112, 167 N. W. Rep. 345; State v. Fox, 71 Wash. 185; affd., sub nom. Fox v. Washington, 236 U. S. 273; Patterson v. Colorado, 205 id. 454; Gompers v. Bucks Stove & Range Co., 221 id. 418, 439; Goldman v. United States, 245 id. 474; State v. Quinlan, 86 N. J. Law, 120; State v. Boyd, Id. 75; affd., 87 id. 328; Turner v. Williams, 194 U. S. 279.) In Turner v. Williams (supra) the court, in sustaining the constitutionality of an act of Congress (32 U. S. Stat. at Large, 1213, chap. 1012; Id. 1214, \u00a7 2) providing for the exclusion of aliens \u201c who believe in or advocate the overthrow by force or violence of the Government of the United States or of all government,\u201d announced a general doctrine as follows: \u201c As long as human governments endure they cannot be denied the power of self-preservation.\u201d In Schenck v. United States (supra) a conviction was sustained under the Espionage Act for conspiracy to circulate among men called and accepted for military service, a circular tending to and intended to influence them to obstruct the draft, without proof that it had such effect. In Gilbert v. Minnesota (supra) a similar conviction under a broader State statute was sustained, and it was held that the interest of the State in preserving the Union and the several States warranted the enactment of the statute. In State v. Moilen (supra) a statute declaring and defining the crime of criminal' syndicalism, and prohibiting the advocacy of sabotage or other methods of terrorism as a means of accomplishing industrial or political aims, was sustained as constitutional. In State v. Fox (supra) a statute (Rem. & Bal. Code, \u00a7 2564) making it a crime to edit or publish an article advocating, encouraging or inciting, or having a tendency to encourage or incite the commission of a crime, breach of the peace or act of violence, \u201c or which shall tend to encourage or advocate disrespect for law or for any court or courts of justice,\u201d was sustained as not in violation of the constitutional right of freedom of the press. In People v. Most (supra) the court, in sustaining the conviction of the defendant for publishing an article calculated to incite a breach of the peace for violation of section 675 of the Penal Code, making it a misdemeanor for any person willfully and wrongfully to commit any act seriously endangering the public peace, said: \u201c Mr. Justice Story defined the phrase [liberty of the press] to mean 'that every man shall have a right to speak, write and print his opinions upon any subject whatsoever, without any prior restraint, so always, that he does not injure any other person in his rights, person, property or reputation; and so always, that he .does not thereby disturb the public peace, or attempt to subvert the government.\u2019 (Story\u2019s Commentaries on the Constitution, \u00a7 1874.) The Constitution does not protect a publisher from the consequences of a crime committed by the act of publication. It does not shield a printed attack on private character, for the same section [of the State Constitution] from which the above quotation is taken expressly sanctions criminal prosecution for libel. It does not permit the advertisement of lotteries, for the next section prohibits lotteries and the sale of lottery tickets. It does not permit the publication of blasphemous or obscene articles, as the authorities uniformly hold. (People v. Ruggles, 8 Johns. 290, 297; People v. Muller, 96 N. Y. 408; In re Rapier, 143 U. S. 110.) It places no restraint upon the power of the Legislature to punish the publication of matter which is injurious to society according to the standard of the common law. It does not deprive the State of the primary right of self-preservation. It does not sanction unbridled license, nor authorize the publication of articles prompting the commission of murder or the overthrow of government by force. All courts and commentators contrast the liberty of the press with its licentiousness, and condemn as not sanctioned by the Constitution of any State, appeals designed to destroy the reputation of the citizen, the-peace of society or the existence of the government. (Story on the Const., \u00a7 1878; Cooley on Constitutional Limitations, 518; Ordronaux on Constitutional Legislation, 237; Tiedeman on Police Powers, \u00a7 81.)\u201d\nIn an excellent article written by Henry W. Bikle on the \u201c Jurisdiction of the United States over Seditious Libel,\u201d published in 50 (O. S.) American Law Register, 1, he quotes from Folkard\u2019s \u201c Slander and Libel\u201d (Chap. XXXIII, p. 368) as follows: \u201c It is necessarily incident to every permanent form or system of government to make provision, not merely for its continuance, but for its secure continuance. To that security the confidence and esteem of the people is indispensable; and, therefore, it is essential to prohibit malicious attempts to produce the mischiefs of political revolution, by rendering the established constitution odious to the society which has adopted it. The State and Constitution being the common heritance, every attack, made upon them, which affects their permanence and security, is in a degree an attack upon every individual and concerns the rights of all. It is, therefore, a maxim of the law of England, flowing by natural consequence and easy deduction frpm the great principle of self-defence, to consider as libels or misdemeanors every species of attack by writing or speaking, the object of which is wantonly to defame that economy, order and constitution of things which make up the general system of the law and government of the country.\u201d\nMr. Bikle summarizes his views on page 24 as follows: \u201c The form of government of the United States contains within itself the means of changing either its policy or its structure by constitutional measures. The advocate of such changes who urges the exercise of constitutional rights for dislodging the party in power or for amending the Constitution can with perfect propriety, we think, claim that he is within the protection of the [first] constitutional amendment. It is when he passes this line and urges illegal and unconstitutional measures to replace the governing party or to overthrow the form of government, that there arises an abuse of that liberty of speech and of the press, which is intended to be secured to the people.\u201d Tiedeman on the \u201c Limitations of Police Power,\u201d in section 81 at page 192, says: \u201c So, also, it is not to be inferred from the prohibition of a censorship of the press, that the press can without liability for its wrongful use, make use of the constitutional privilege for the purpose of inciting the people to the commission of crime against the public. The newspapers of anarchists and nihilists cannot be subjected to a censorship, or be absolutely suppressed; but if the proprietors should in their columns publish inflammatory appeals to the passion of discontents, and urge them to the commission of crimes against the public or against the individual, they may very properly be punished, and without doubt, the right to the continued publication may be forfeited as a punishment for the crime.\u201d\nSo zealously do the courts uphold the constitutional provisions relating to the freedom of speech and of the press and to personal liberty, that they construe legislation designed to prevent the abuse of those rights so as to prohibit only what is essential to prevent the abuse at which the statutes are aimed .(State v. Fox, supra); and the courts in construing such statutes have in some instances said that the danger to be apprehended from a doctrine, the advocacy of which is lawfully and constitutionally forbidden, must be present or immediate (Schenck v. United States, supra; Masses Pub. Co. v. Patten, 244 Fed. Rep. 535; revd., 246 id. 24; Colyer v. Skeffington, 265 id. 17); and in other decisions it is stated that a question of proximity and degree is involved, and that the \u201c natural tendency and reasonably probable \u201d effect of the words used must be to accomplish the evil which it is the purpose of the statute to guard against. (Debs v. United States, 249 U. S. 211; Commonwealth v. Peaslee, 177 Mass. 267; Abrams v. United States, 250 U. S. 616, dissenting opinion by Mr. Justice Holmes at p. 627; Shaefer v. United States, 251 id. 466; Pierce v. United States, 252 id. 239.) I am.of opinion that the common-law theory of proximate causal. connection between the acts prohibited and the danger apprehended therefrom, which is the basis of the comments of the courts to which reference has been'made, has no application here. The articles in question are not a discussion of ideas and theories. They advocate a doctrine deliberately determined upon and planned for militantly disseminating a propaganda advocating that it is'the duty and necessity of the proletariat engaged in industrial pursuits to organize to such an extent that, by massed strike, the wheels of government may ultimately be stopped and the government overthrown, and all public and private property expropriated and nationalized and administered for a time through a proletarian dictatorship and thereafter, in some manner not very definitely disclosed, administered by and for the entire proletariat. I cannot subscribe to the doctrine that it is not competent for the Legislature to forbid the advocacy of such a doctrine designed and intended to overthrow government in this manner, until it can be shown that there is a present or immediate danger that it will be successful, for such legislation would afford no adequate protection against the apprehended danger, because it is evident that the organization of the proletariat as advised and urged, and the spread of the pernicious doctrine, are to be effected in the main secretly; for we are not informed who is to determine when the time for massed strikes will be ripe or who is to call them, and it -is evident that a law so limited might only become effective simultaneously with the overthrow of government, when there would be neither prosecuting officers nor courts for the prosecution and punishment .of the crimes. In so far, therefore, as it is competent for the Legislature to enact laws to prevent the overthrow of government by unauthorized means, I am of opinion that the initial and every other act knowingly committed for the accomplishment of that purpose may be forbidden and declared to be a crime. We must assume that the Legislature deemed that, unless the advocacy of such a doctrine was prohibited, there was danger that sooner or later the government might be overthrown thereby. That, I think, was sufficient to warrant the enactment of the statute. I know of no right on the part of the aliens who are members of the Left Wing and here merely by sufferance of our government, to advocate the overthrow of our constitutional form of government by unlawful means; and surely naturalized citizens who have sworn to uphold the Constitution have no right to advocate its overthrow otherwise than through the ballot box and as provided for its amendment, nor have native-born citizens of alien parentage, such as the appellant is, or any other citizen, such right, and they should not be heard to invoke the protection of the Constitution against their prosecution for acts, deliberately performed, calculated and intended to overthrow and nullify it by unauthorized means. (See State v. Gilbert, supra.) The doctrines advocated are not harmless. They are a menace, and it behooves Americans to be on their guard to meet and combat the movement, which, if permitted to progress as contemplated, may undermine and endanger our cherished institutions of liberty and equality. But if immigration is properly supervised and restricted and the people become aroused to the danger to be apprehended from the propaganda of class prejudice and hatred \u2014 by a very small minority mostly of foreign birth, which has for its object not only the overthrow of government but the destruction of civilization and all the innumerable benefits it has brought to mankind \u2014 there can be no doubt but that the God-fearing, liberty-loving Americans both in the urban and rural communities, who appreciate the equal opportunities for all for bettering their status and for advancement afforded by our constitutional form of government, under which the majority rule, and have made and are making sacrifices to improve their condition and that of their families, and to accumulate property for themselves and those who come after them, will see to it that these pernicious doctrines are not permitted to take root in America. Since it is competent for the Legislature to enact laws for the preservation of the State and \u00a1Nation, the laws required for that purpose rest in the legislative discretion, and if they are reasonably adapted to that end and are based on danger reasonably to be apprehended, even though not present or immediate, they may not be annulled by the courts either on the theory that it would be wiser to leave it to the people to meet the pernicious doctrines by argument, or that they unnecessarily restrict the freedom of speech or of the press or of personal liberty. The Legislature within its authority has spoken for the People, and it is the duty of the courts to enforce the law.\nThe learned counsel for the appellant contends that the general words \u201c or by any unlawful means,\u201d contained in sections 160 and 161 of the Penal Law, are limited and restricted by the preceding provisions and, under the rule noscitur a sociis or the rule ejusdem generis, are to be construed as limited to unlawful means of a like nature to those thereinbefore specified, and that, therefore, those sections relate only to the advocacy of overthrowing or overturning organized government by force or violence, or by assassination of the executive head or of an executive official, and like acts. I am unable to agree with that construction and am of opinion that each of the clauses is to be given separate effect. I think the Legislature specified the known acts and means then and theretofore advocated for the overthrowing and overturning of governments, and that it inserted the words \u201c or by any unlawful means \u201d to cover the advocacy of any new scheme that might be devised for overthrowing or overturning government in an unauthorized manner; but if the Legislature did not then have in mind or foresee that such a scheme for overthrowing government as the appellant advocated might thereafter he devised and advocated, that would afford no obstacle to a construction of these statutes which forbids the advocacy of such a doctrine. (United States v. Mosley, 238 U. S. 383; Louisville & Nashville R. R. Co. v. Layton, 243 id. 617; People v. Abeel, 182 N. Y. 415; People v. Hamilton, 183 App. Div. 55, 62; People ex rel. McClelland v. Roberts, 148 N. Y. 360; State ex rel. City of Minneapolis v. St. Paul, M. & M. R. Co., 98 Minn. 380, 25 R. C. L. 778.) That, I think, is the plain effect of the language employed, and it is a general rule of construction that the Legislature must have intended what it plainly and unequivocally did; and if the language employed is plain, it affords conclusive evidence of the intent of the Legislature. (People v. Luhrs, 195 N. Y. 377, 381; Newell v. People, 7 id. 9, 98; People ex rel. Darling v. Warden of City Prison, 154 App. Div. 413; Tompkins v. Hunter, 149 N. Y. 117, 122, 123; McCluskey v. Cromwell, 11 id. 593; People ex rel. Smith v. Gilon, 66 App. Div. 25; Gibbons v. Ogden, 9 Wheat. 1, 188; Jackson v. Lewis, 17 Johns. 475.) There would be some force in the contention of the appellant if the wording of the statute were \u201c or by any other unlawful means,\u201d but it does not so provide. Statutes making it a crime for two or more persons to conspire to obstruct the administration of the law or the administration of justice, even where such acts by individuals were not declared to be unlawful, have frequently been sustained. (Drew v. Thaw, 235 U. S. 432, 438; People ex rel. Childs v. Knott, 187 App. Div. 604, 610, 611.) The words \u201cunlawful means\u201d as used in the statute need not be construed as limiting the provisions thereof to the advocacy of the overthrow of government by the commission of a crime, and may be held to have been used in the sense of unauthorized by law, in which sense those words are sometimes used in criminal statutes. (MacDaniel v. United States, 87 Fed. Rep. 324; State v. Savant, 115 La. 226. See, also, Century Dictionary, vol. 8, p. 6625.)\nBut if these statutory provisions required a construction that the doctrines advocated must in and of themselves he illegal, in the sense that they advocate the commission of a crime, the scheme and program advocated by the appellant and others as shown by the manifesto and Left Wing program, if they' do not as a matter of law require the construction that they advocate the overthrow of government by illegal means involving the commission of a crime, warranted a finding to that effect by the jury.\nIt will be observed that the statutes make the advocacy of the doctrine a crime, without regard to criminal intent. The doing of a lawfully prohibited act, in and of itself, without regard to intent, may constitute the crime (People v. Schaeffer, 41 Hun, 23); but the language of these statutes is quite general and, therefore, I think it is essential that the forbidden doctrine be knowingly advocated with a view to the accomplishment of the forbidden purpose. The guilt of the appellant could not be declared as a matter of law, but-1 think the court might have instructed the jury that the advocacy of the doctrine of these articles violated the provisions of the statutes. (Horning v. District of Columbia, 254 U. S. 135.) In the case at bar it was not denied that the appellant knowingly advocated the forbidden doctrine for the purpose of overthrowing government as therein advised. It was conceded that the defendant in part owned and controlled and was the business manager' of The Revolutionary Age, and that he was a member of the National Council of the \u201c Left Wing Section of the Socialist Party,\u201d and that he not only had knowledge of the publication of the manifesto but was responsible therefor and for its sale, circulation and distribution.\nIn arguing that the defendant by these articles has not advocated the use of force, his counsel says: \u201c If the republic of Hayti has peaceably surrendered its government to the United States, we may have overthrown that government wrongfully, but we have not done it by force or violence or by unlawful means. So in the academically possible event of our peaceably surrendering our own republic to the government of a foreign power. And if a peaceable mass demonstration of all or a large part of the people of any country should prevail upon all the officers of government to cease functioning, and a new set of officials chosen under a new constitution thereafter functioned in fact, without opposition, there again there would have been an overthrow, not affirmatively lawful, perhaps, hut not unlawful in its means.\u201d We are not now concerned with the action of our government in Hayti, and the verdict of the jury is an answer to this argument in so far as- it implies that the appellant and those associated with him did no more than to advocate that the people of this State and country prepare themselves for a peaceable surrender of our republic to a foreign power, or to advocate that through a peaceable mass demonstration of the proletariat, all the officers of our State and National governments may he prevailed upon to cease functioning and that a new set of officers may he chosen under a new Constitution without the use or exertion of force or violence. The defendant and his fellow-socialists of the Left Wing knew perfectly well that such results could not he peaceably accomplished, and moreover they are not advocating a change in the Constitution- or a new Constitution or government. They are plainly advocating the destruction of all existing government. The only practical difference between the doctrines advocated by them and the doctrine of anarchy pure and simple is, that they intend to utilize the existing government temporarily while organizing the proletariat for mass strike, and they intend a proletarian dictatorship for a period after the overthrow of the government, and after that a government of production only, which they call Communist Socialism. They cannot evade the statutes on this theory, for plainly the Legislature did not recognize the right to destroy all existing government provided the advocates of the doctrine by which this is to he accomplished contemplate setting up some other form of government, temporarily to be succeeded by another form of government, concerning which their doctrines are nebulous.\nThe appellant contends that he was prejudiced by testimony given by a member of the Winnipeg bar, called by the People, showing what the mass strike to which the manifesto referred with apparent approval was. That testimony tends to show that the strike stopped the organized government of the city and that a committee of the strikers took charge of and conducted the affairs of the city in their own way. It is said in behalf of the appellant that he may not have known precisely the form the strike took in Winnipeg or the action of the strikers, and that the reference thereto in the manifesto may have been based on newspaper dispatches or inaccurate information with respect to the strike in Winnipeg. The article does not purport to show the source of the information of the author, but since it was written more than six weeks after the commencement of the strike, which afforded ample time to obtain complete information with regard thereto, and there being no evidence to the contrary, the jury were justified in inferring that the author and the appellant had general knowledge of the conditions existing in Winnipeg, and that the action- of the mass strike as there conducted was cited as showing the manner in which the appellant and his fellow-members of the Left Wing were advocating the overthrow of government. The testimony was not extended to any acts on the part of the strikers beyond those plainly advocated by the manifesto with respect to mass strikes as the method by which the proletariat expects to overthrow government and take charge thereof through a proletarian dictatorship.\nThe court in instructing the jury drew attention to that part of the manifesto and to the evidence with respect to the Winnipeg strike, and then said, \u201c You have heard the evidence of what did occur at Winnipeg. Was that a violation of law ? \u201d Counsel for the appellant excepted generally to the language of the court in instructing the jury on mass action and general strikes, and especially in calling attention \u201c to what happened in Winnipeg with reference to its hearing on mass action and general strikes.\u201d Appellant now complains of the action of the court in leaving it to the jury to say whether what occurred in, Winnipeg was lawful, hut no specific exception was taken to that being left to the jury. The court merely left that evidence to the jury as illustrative of what the appellant and others were advocating. There was no evidence with respect to the laws of Canada, and it is perfectly plain that the court meant and the jury must have understood, that they were to determine whether snch a mass strike if it occurred here would have been lawful. It is obvious that it would be unlawful for the proletariat, by means of a mass strike, to oust the regularly constituted officials of a municipality here from their official positions and to take over and usurp their functions and administer the affairs of the municipality through a proletarian dictatorship or committee, for that would be in violation of the Constitution and of the laws of the State. Hot only, therefore, was the evidence not prejudicial to the appellant, bnt I think it was entirely competent.\nThe appellant also contends that the court erred in receiving improper testimony and in permitting the persistent use of improper methods by the assistant district attorney, and took part in exaggerating trivialities and in opening leads into extraneous matters, to the prejudice of the defendant. The evidence to which this criticism is addressed relates to the place of and the circumstances attending the printing and publication of the articles, the methods of conducting the business and distributing the articles, the constitution of the Socialist party and appellant\u2019s connection with it and with the schism therein by which the left Wing, which he joined, was formed, and the fact that citizenship was not a requisite to membership therein, and that many of its members were aliens. Counsel for the appellant is right in contending that since the defendant admitted responsibility for the publication and circulation of the .articles, including responsibility for the doctrines therein advocated, proof of the other facts to which he objected was not strictly required, for I am of opinion that the violation of the statutes was sufficiently shown by those provisions of the articles which are free from ambiguity. In some respects, however, the doctrines advocated in the articles are vague and indefinite, and, therefore, the circumstances under which they were prepared, published and circulated, and the purposes of the Socialist party to which appellant and his fellow-members of the Left Wing had been members, and from which they had seceded on the ground that, the doctrines advocated by that party were not sufficiently radical, were admissible in aid of the construction of the manifesto. The objections having been overruled, most of the facts thus sought to be proved were admitted, and with respect to those not so admitted it is evident that there was no doubt concerning them, for they stand uncontroverted. The only effect given to these facts was in shedding light on the construction of the manifesto, for the court in submitting the case to the jury made it perfectly clear that the guilt of the defendant was to be determined from the contents of the articles published, and they were submitted to the jury by consent. I am, therefore, of opinion that the evidence was properly received. The conduct of the prosecuting attorney, of which complaint is made, was largely with respect to the admission of the evidence to which reference has been made; but it also relates to repeated attempts to prove acts in connection with the Winnipeg strike, which were excluded by the court. In respect to some of these matters, the criticism is well founded, for there was undue persistence in offering evidence after like evidence had been excluded; but we think no error was committed to the substantial prejudice of the defendant. Error is also predicated on the summing up by the assistant district attorney, but no complaint was made at the time and no objection was taken thereto and no ruling or instruction to the jury was asked thereon and, therefore, these matters are not presented for review. (People v. Loose, 199 N. Y.. 505, 510; People v. Pindar, 210 id. 191, 196.) The appellant had been permitted to address the jury personally, and this was followed by a summation in his behalf by a very able and experienced. counsel, whose argument extended to a very wide latitude. In answering these arguments, the assistant district attorney quite freely expressed his opinion with respect to the effect of and the consequences that would follow a mass strike and the overthrow of government thereby. If the appellant claimed prejudice in this respect, he should have objected at the time, so that the court might have ruled whether the manifesto, fairly construed, contemplated the acts which the People claimed it advised and advocated; and if the rulings were not satisfactory, he should have excepted, and the exception would have presented for review the correctness of the rulings and the point whether or not the defendant was prejudiced. (People v. Loose, supra; People v. Pindar, supra.) What is expected will ultimately follow the overthrow of government as advocated by the defendant and others is not made entirely clear by the manifesto. Whether such failure is owing to the fact that the advocates of the doctrine do not know themselves, or whether it has been deliberately concealed in an effort to avoid criminal responsibility, was a fair matter of comment by the representative of the People and for determination by the jury. It is equally clear that the assistant district attorney was justified in arguing and the jury were justified in finding that, notwithstanding the fact that there is in these articles no express advocacy of force and violence in overthrowing government, the use of force and violence is plainly impliedly advocated, for no sane man could expect that, confronted with a mass strike, the constituted authorities of a municipality or state or nation would abandon their duties and surrender their authority to or that public or private property would be given up to a proletarian mob without the use of force or violence. Counsel for appellant contends, in effect, that the advocates of this doctrine honestly believed that when confronted with the mob in mass strike, owners whose property was theretofore under the protection of the government, whether such property consists of the plants and residences of the capitalists, or of the private property and residences of workmen in the cities, villages and towns, or of the farms in the country, will surrender it without the use of force and violence; but that is too incredible to require discussion. When people combine and advocate such doctrines, there must necessarily be great latitude for reading-between the lines to determine what is implied in the doctrine, and they should be held responsible for advocating what they must know is involved in the doctrine and will be essential to the accomplishment of their purpose. That, in effect, is what the assistant district attorney argued, and he was clearly within his rights in so doing. Excepting in extreme cases where the evidence is insufficient to sustain a conviction, or there is grave doubt with respect thereto, which is not the case here, review on appeal should be confined to the exceptions.\nThe complaint as to the attitude of the court is largely with respect to remarks made during the introduction of the evidence, to which reference has been made, and with respect thereto and ruling thereon and suggestions by which hearsay evidence concerning the Winnipeg strike was excluded. With reference to these matters we find no ground for just criticism for it was entirely proper that the trial court should make suggestions with a view to receiving the evidence offered so far as it was deemed competent, and to eliminating that which was deemed incompetent.\nIt is further contended that the court erred in suggesting the existence of a conspiracy. That is predicated on certain remarks made during the course of the trial to which no exception was taken. It is to be borne in mind that the appellant was indicted jointly with others, and while he admitted responsibility for the articles, he did not admit that he wrote them or that he had formally approved them. The remarks of the court were with respect to the evidence offered to show that the articles were formally approved hy the Left Wing of the Socialist party of which he was a member, and that the appellant in publishing and circulating the articles was carrying into effect the action of his party. The only reference made by the court to a conspiracy was in sustaining an objection made by counsel for the appellant to a question as to whether one Larkin at the last session of the delegates of the Left Wing had led cheers for the socialist revolution. The court stated that the appellant was being tried for the language used in these articles, and asked how it could be material whether at some prior time he had united in cheers for the socialist revolution or whether one of his fellow-conspirators had led cheers for it. In this connection the court further said, \u201c I say \u2018 fellow conspirators/ because there is a committee here which published this paper,\u201d and added that all of the members of the committee might be considered as conspiring and uniting together for its publication. Counsel for appellant thereupon objected to the use of the word \u201c conspiracy,\u201d as meaning more than \u201c thus uniting,\u201d whereupon the court withdrew the remark in so far as it implied wrongdoing, and counsel for the defendant expressed satisfaction therewith and took no exception. Manifestly the defendant was not prejudiced by these remarks.\nIt is also claimed that the court erred in commenting on the defendant\u2019s failure to take the stand and in interfering with his address to the jury. The defendant was stating to the jury what he and his fellow-socialists of the Left Wing were informed the war was fought for, and what they understood was the effect of the peace treaty. The court interrupted on the ground that appellant was stating matters not shown to be facts. The appellant thereupon said that the manifesto touched upon those matters; and the court answered that he might use the language of the manifesto but could not make a speech beyond such language. Counsel for appellant thereupon asserted that his client had a right to explain the meaning of the manifesto. That, however, he was not attempting to do. The court then, evidently assuming that the appellant and his counsel were insisting that the statement of facts .he was making was an explanation of the manifesto, answered that he had no right to explain its meaning because he had not subjected himself to cross-examination, and an exception was taken by the defendant. It is quite evident that the court did not mean literally that the appellant was not at liberty to take up and discuss what was meant by any particular part of the manifesto, but merely that under the guise of explaining the meaning of the manifesto he was not to be permitted to make statements of fact not in evidence with respect to the reasons why the manifesto was promulgated. The court also precluded the appellant from illustrating his views, by reference to conditions he claimed existed in Russia but which were not shown by the evidence. There was no error in these rulings.\nError is also predicated on the instructions of the court to the effect that the jury must take the law from the court and not from counsel, and that the criminal anarchy statutes were the law of the State, and that it was so established by the similar case of People v. Most (supra). The court was right in instructing the jury. that the stautes were constitutional; and there was no error in stating to the jury that he deemed this view sustained by the decision cited.\nIt is further claimed that the court in instructing the jury gave too narrow a definition to the statutory crime. The court stated the statutory definition and that the jury must find .beyond a reasonable doubt that there was an organized government in this State and country, and that these articles advocated the duty, necessity or propriety of overthrowing or overturning it. To this counsel for the appellant excepted, and he thereupon requested the court to charge, in effect, that the statute merely meant to prohibit the advocacy .of a doctrine for the overthrow of all government, and that it did not forbid the advocacy of a change of control of the government from one class or group to another, even though such change should be accompanied by drastic or complete changes in the form and policy of the government. That request was properly refused. It was not applicable to the facts. The doctrine advocated by the appellant is not for a change of control of the government, but is for the annihilation of existing governments in general. We are not now concerned with the question as to whether the appellant on these facts could be convicted under this statute for advocating the overthrow of a foreign government. It must be assumed that the conviction followed the charge, under which the appellant could only be convicted if he advocated in violation of these statutes the overthrow of our own State or National government. It is perfectly clear that the doctrines that he advocates are general with respect to all governments, but the jury did not have before them the forms of other governments or the lawful methods for a change thereof, and were given clearly to understand that they were dealing with the defendant for acts committed within the jurisdiction of this State and with respect to our State and National governments. A later request by counsel for appellant to charge, which was granted, shows that he claimed that the prohibitions in the statute are confined to violations of our laws.\nIt is further contended that the court erred in refusing to. charge the appellant\u2019s fourth request, that \u201c unlawful means includes only conduct of the same character as force and violence.\u201d The court before concluding the main charge took up the appellant\u2019s requests and charged some, and charged others in a modified form; but made no reference to the fourth. At the close of the charge the court gave the appellant an exception to the requests that had been refused. The court in the main charge instructed the jury that our Constitution provided lawful means for overthrowing, the government, and that any means advocated, advised or taught for the' overthrow of organized government, other than those recognized hy law, are unlawful; and that under the law of this State the teaching of such a doctrine is a crime. The court, however, modified these instructions by charging the defendant\u2019s fifth request, which was that the statute only forbids the advocacy of the overthrow of government by \u201c those means which now constitute criminal offences under the laws of this State,\u201d and that it does not include any means or action that the jury might disapprove of or might deem should be declared unlawful, but added that under the laws of this State it is unlawful to take private property without compensation or to conspire to injure the public health or trade or commerce. There was no exception to this modification. The defendant\u2019s fourth request placed too narrow a construction on the statute, and the instructions given were most favorable to the appellant.\nCounsel for the defendant complains now of an additional charge with respect to larceny and conspiracy given in charging the fifth request, and of an observation made by the court expressing serious doubt in so charging the fifth request. It is claimed that the court thereby, in effect, placed upon the appellant the burden of establishing the legality of any unparliamentary or extra-constitutional means advocated by him. The court did not place any burden on the appellant, but merely left it to the jury to determine whether the doctrine advocated by him involves the overthrow of the government by force or violence or any unlawful means.\nComplaint is also made of the charge with respect to criminal conspiracy and what strikes are lawful. The court charged that strikes in and of themselves are not violations of law, and that persons employed in any calling, trade or handicraft are by express provisions of law permitted to assemble and peaceably cooperate for the purpose of obtaining an advance in the rate of wages or compensation or of maintaining such rate, but that the statutes make it a misdemeanor for two or more persons to conspire to commit an act injurious to the public health, to the public morals, or to trade or commerce, or for the perversion or obstruction of justice or of the due administration of the law; and then left it to the jury to say whether the doctrines advocated by these articles were for the overthrow of the government by the acts of two or more persons in violation of those statutes. I am of the opinion that these instructions were proper and that the jury were warranted in finding that the appellant advocated the overthrow of the government by acts which would constitute a violation of our Conspiracy Law (Penal Law, \u00a7\u00a7 580, 582). The court to some extent particularized with respect to the conspiracy statutes by leaving it to the jury to say whether the doctrines advocated the taking of private property unlawfully, or the doing of acts injurious to trade or commerce, for the purpose of accomplishing the overthrow of the government. There was no exception taken with regard to this particularization or with respect to any of the matters so particularized. Counsel for the defendant cites section 580 of the Penal Law and People v. Flack (125 N. Y. 324); National Protective Assn. v. Cumming (170 id. 315); Bossert v. Dhuy (221 id. 342), and Auburn Draying Co. v. Wardell (227 id. 1), as holding that a criminal intent is an essential element of the crime of conspiracy, and says that the court did not leave any question of criminal intent to the jury. There was no request to have the jury instructed on this point, and no exception taken to the charge on the ground that it did not embrace that element. It is, therefore, too late now to complain of what might have been remedied had the attention of the court been drawn to the point.\nIt is also claimed that the court erred in reading to the jury extracts from the constitution of the Socialist party. That constitution was in evidence, and it appeared that at a convention of the party held in Madison Square Garden in June, 1919, a split occurred on which the militant socialists, including the appellant, who were unwilling to be contented with advocating the overthrow of goverment by parliamentary or constitutional methods, seceded and formed the Left Wing. The language of the manifesto and the Left Wing program is, as has been seen, to some extent vague and ambiguous. The defendant .having been a member of the Socialist party and having advocated the secession and the formation of the Left Wing, the constitution with which he and his associates were dissatisfied was properly considered in determining the meaning of the Left Wing manifesto.\nThe appellant finally draws attention to other parts of the charge which he claims conveyed to the jury minor implications prejudicial to him. They relate, among other things, to instructions to the jury that the doctrines advocated by the appellant were to be determined by the consideration of the articles as a whole, and not by particular parts to which his counsel had drawn attention, and to definitions of \u201c proletariat,\u201d' \u201c bourgeois \u201d and \u201c capitalism.\u201d The court was right in charging that the jury should consider the entire manifesto in determining whether appellant advocated a doctrine prohibited by the statutes. The court quoted definitions from standard authorities and writings, and manifested a willingness to charge any definition desired by the appellant, but no request was. made to supplement the definitions given or to charge otherwise.\nIt follows that the judgment of conviction should be affirmed.\nClarke, P. J., Smith, Page and Merrell, JJ., concur.\nJudgment and order affirmed.",
+        "type": "majority",
+        "author": "Laughlin, J.:"
+      }
+    ],
+    "attorneys": [
+      "Swinburne Hale of counsel (Walter Nelles and Murray C. Bernays with him on the brief; Charles Recht, attorney), for the appellant.",
+      "John Caldwell Myers, Deputy Assistant District Attorney, of counsel (Robert S. Johnstone and Alexander I. Rorke, Assistant District Attorney, with him on the brief; Edward Swann, District Attorney), for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014 APPELLATE DIVISION \u2014 FIRST DEPARTMENT.\nApril 1, 1921.\nTHE PEOPLE v. BENJAMIN GITLOW.\n(195 App. Div. 773.)\n(1) Criminal anarchy \u2014 Conviction for publication of manifesto in aid of communist struggle \u2014 Penal Law, sections 160-166 constitutional.\nThe owner and publisher of The Revolutionary Age, a paper devoted to the international communist struggle, who published a manifesto advocating the overthrow of government, State and national, not by-constitutional means, but by revolution brought about by mass strike, which must of necessity involve violence, and further advocating a temporary dictatorship after which a government, only of production, shall exist which shall be followed by a nebulous theory of government by the proletariat, was properly convicted of criminal anarchy under sections 160-166 of the Penal Law.\n(2) Same.\nIt was entirely competent for the legislature to make it a crime to advocate within this State the overthrow of the government of the United States or of this or any sister State by any means or method other than constitutional means or methods.\n(3) Same.\nSections 160-166 of the Penal Law, relating to criminal anarchy, do not offend against the guaranty of personal liberty under section 1 of the Fourteenth Amendment to the Federal Constitution, or due process of law guaranteed by article 1, section 6, and freedom of speech, etc., guaranteed by article 1, section 8, of the State Constitution, the latter section making the speaker or writer responsible for the abuse of the right given, since under such provision a citizen not only becomes responsible to any one injured by the abuse of this right, but, consistently with these constitutional provisions and with the Fourteenth Amendment to the Federal Constitution, he may also be made answerable to the State criminally therefor.\n(4) Same \u2014 Restraint on passage of such law by Constitution of United States.\nThe Constitution of the United States places no restraint on the power of the legislature to punish the publication of matter which is injurious to society according to the standard of the common law; neither does it deprive the State of the primary right of self preservation, nor does it sanction unbridled license or authorize the publication of articles prompting the commission of murder or the overthrow of the government by force.\n(5) Same \u2014 Construction op legislation preventing abuse op free speech.\nSo zealously do the courts uphold the constitutional provision relating to freedom of speech and of the press, and to personal liberty, that they construe legislation designed to prevent the abuse of those rights so as to prohibit only what is essential to prevent the abuse of those rights at which the statutes are aimed.\n(6) Same \u2014 Common-law theory of causal connection between acts, prohibited and danger apprehended not applicable to criminal ANARCHY.\nOn a charge of criminal anarchy under the Penal Law, the common-law theory of proximate causal connection between the acts prohibited and the danger apprehended, does not exist where the articles written are not a discussion of ideas or theories, but advocates a doctrine deliberately determined upon and planned for militantly disseminating propaganda to the effect that it is the duty and necessity of the proletariat to organize and, by mass strike, to stop the wheels of the government, to overthrow the government itself, to expropriate and nationalize public and private property and to administer it through a proletariat dictatorship, in some manner not very definitely disclosed, by and for the entire proletariat.\n(7) Same.\nTherefore, in so far as it is competent for the legislature to enact laws to prevent the overthrow of the government by unauthorized means, the initial and every other act knowingly committed for the accomplishment of that purpose may be forbidden and declared to be a crime.\n(8) Same \u2014 Words \"by any unlawful means\u201d as used in Penal Law, sections 160, 161 construed.\nThe words \"by any unlawful means,\u201d as used in sections 160 and 161 of the Penal Law, are not limited or restricted by the preceding - pro-, visions, and under the rule noscitv/r a sociis or the rule ejusdem generis are not to be construed as limited to unlawful means already known or of a like nature to those therein specified, but should be construed to extend to cover the advocacy of any scheme that might be devised for overthrowing or overturning the government in an unauthorized manner.\n(9) Same.\nSuch words need not be construed as limiting the provisions of the statute to the advocacy of the overthrow of the government by the commission, of a crime, but may be held to have been used in the sense of \u201cunauthorized by law.\u201d\n(10) Same \u2014 Criminal intent.\nHowever, as the statute is quite general arid makes the advocacy of criminal anarchy a crime, without regard to criminal intent, it is essential that the forbidden doctrine be knowingly advocated with a view to the accomplishment of the forbidden purpose.\n(11) Same \u2014 Evasion op statute by claiming use op existing government.\nOne advocating the doctrines of Communist Socialism cannot evade sections 160-166 of the Penal Law, defining and punishing criminal anarchy, on the ground that by such doctrine it is intended to utilize the existing government temporarily while organizing the proletariat for mass strike, and then establish a proletarian dictatorship for a period after the overthrow of the government, and after that a government of production only, while anarchy pure and simple advocates the destruction of all governments.\n(12) Same \u2014 Evidence.\nOn a prosecution for criminal anarchy based on the publication of the aforesaid manifesto, held, that evidence by a member of the bar of a foreign city showing the nature and effect of a mass strike in said city to which the manifesto referred was competent and not prejudicial to the defendant;\n(13) Same \u2014 Argument op counsel.\nThat evidence as to the circumstances under which the articles forming the basis of the prosecution were prepared, published and circulated was admissible in aid of the construction of ambiguous provisions therein;\n(14) Same.\nThat although undue persistence by the prosecuting attorney in offering evidence after like evidence had been excluded was subject to criticism, it did not substantially prejudice the defendant;\n(15) Same.\nThat the argument of the assistant district attorney was not prejudicial to the defendant;\n(16) Same \u2014 Limitation on argument op dependant.\nThat the defendant was properly precluded in Ms argument to the jury from making statements of fact not in evidence, under the guise of explaining the manifesto;\n(17) Same \u2014 Instruction.\nThat the instructions and refusals to charge by the trial court were not prejudicial to the defendant;\n(18) Same \u2014 Conspiracy in violation op Penal Law, sections 580, 582.\nThat the jury were warranted in finding that the defendant advocated the overthrow of the government by acts which would constitute a conspiracy in violation of sections 580 and 582 of the Penal Law.\nAppeal by the defendant, Benjamin Gitlow, from a judgment of the Supreme Court, rendered on the 5th day of February, 1920, convicting him of the crime of criminal anarchy, and also from orders denying defendant\u2019s motions to set aside the verdict and in arrest of judgment.\nThe appellant and three others were jointly indicted on three counts on the 26th day of November, 1919, by a grand jury, duly impaneled at an extraordinary trial term of the Supreme Court duly convened by the Governor. The first count charges that on the 5th day of July, 1919, defendants feloniously advocated, advised and taught the duty, necessity and propriety of overthrowing and overturning organized government by force, violence and unlawful means by certain writings then and there procured, prepared, composed, circulated and distributed by the defendants and caused to be circulated and distributed by them among divers people in the county of blew York, which writings are set forth in the indictment and consist of \u201c The Left Wing Manifesto.\u201d The manifesto was published in the issue of July 5, 1919, of The Revolutionary Age, a weekly publication devoted to the international Communist struggle. The second count charges the defendant with having committed the crime by feloniously printing, publishing, editing, issuing and knowingly circulating, selling, distributing and publicly displaying and causing and procuring to be printed, published, edited, issued and knowingly circulated, sold, distributed and displayed the said issue of The Revolutionary Age \u00a1containing certain writings advocating, advising and teaching the doctrine that organized government should be overthrown by force, violence and unlawful means, and charges that the writings are the same as those set forth in the first count. The third count charges that the defendants were evil-disposed and pernicious persons and of most wicked and turbulent dispositions and unlawfully, wickedly and maliciously intending and contriving to disturb the public peace and to excite discontent and disaffection and to excite the good citizens of the State to hatred and contempt of the government and the Constitution of this State, and to solicit, incite, encourage, persuade and procure divers persons to commit acts of violence upon the persons and property of divers of the good citizens aforesaid and to raise and make insurrections, riots, routs, unlawful assemblies and breaches of the peace within the State, and to obstruct the laws and government thereof and to oppose and prevent their due execution, and to procure and obtain arms and ammunition for the more effectual carrying into effect their said most wicked and unlawful intentions and contrivances, on or about said 5th of July, 1919, in the county of New York, by certain writings by the defendants then and there distributed among and displayed to and caused to be distributed among and displayed to the said divers persons, which writings are the same as those set forth in the first count and which writings did unlawfully, willfully and wrongfully solicit and encourage and attempt and endeavor to incite, persuade and procure the said persons to commit such acts of violence upon the persons and property of the good citizens aforesaid, and to raise and make insurrections, riots, routs and unlawful assemblies and breaches of the peace within the State, and to obstruct the laws and government thereof and to oppose and prevent their due execution, and to procure and obtain arms and ammunition wherewith and whereby to execute and consummate their said most wicked and unlawful purposes, to the serious danger of the public peace of the State and open outrage of the public decency thereof. The third count was withdrawn on the trial and a general verdict of guilty was rendered on the other two counts.\nAppellant was tried separately. At the commencement of the trial and before any evidence was taken, appellant through his counsel admitted full responsibility under sections 160 and 161 of the Penal Law for the publication and circulation of the manifesto as charged in the indictment. The manifesto set forth in the indictment was shown to have been published in the issue of The Revolutionary Age of July 5, 1919.\nSwinburne Hale of counsel (Walter Nelles and Murray C. Bernays with him on the brief; Charles Recht, attorney), for the appellant.\nJohn Caldwell Myers, Deputy Assistant District Attorney, of counsel (Robert S. Johnstone and Alexander I. Rorke, Assistant District Attorney, with him on the brief; Edward Swann, District Attorney), for the respondent."
+  },
+  "file_name": "0120-01",
+  "first_page_order": 140,
+  "last_page_order": 176
+}

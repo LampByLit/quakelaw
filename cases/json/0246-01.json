@@ -1,0 +1,94 @@
+{
+  "id": 807189,
+  "name": "THE PEOPLE v. HENRY SNYDER",
+  "name_abbreviation": "People v. Snyder",
+  "decision_date": "1906-01",
+  "docket_number": "",
+  "first_page": "246",
+  "last_page": "249",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "20 N.Y. Crim. 246"
+    },
+    {
+      "type": "parallel",
+      "cite": "110 App. Div. 699"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "97 N. Y. 64",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "pin_cites": [
+        {
+          "page": "78"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "180 N. Y. 148",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2320261
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/180/0148-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 321,
+    "char_count": 5310,
+    "ocr_confidence": 0.507,
+    "pagerank": {
+      "raw": 4.666970501906556e-08,
+      "percentile": 0.29226723256838527
+    },
+    "sha256": "fb1986e9790792a207317eb0c6ef571f8441b023d996e4b97f2d3c7971fbce03",
+    "simhash": "1:20907c5af6924cea",
+    "word_count": 934
+  },
+  "last_updated": "2024-02-27T20:27:53.368575+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. HENRY SNYDER."
+    ],
+    "opinions": [
+      {
+        "text": "Houghton, J.:\nThe defendant was indicted for the crime\nof grand larceny committed on the 20th of February, 1905, in feloniously obtaining certain merchandise by false representations and personation.\nUnder the name of Harry Farr, and under the firm style of John Farr & Bro., the defendant opened correspondence with a Cincinnati packing company with regard to the purchase of hams, bacon and lard. The company directed its representative in Hew York city to visit the defendant\u2019s place of business for the purpose of procuring his order for goods, and the defendant then stated that he was a brother of John Farr, engaged in business with him, and that John was in the West Indies, and that while the firm was not rated, the rating of his brother John could be found in Dun\u2019s Mercantile Agency. Upon investigation it was found that the commercial rating of John Farr was good, and relying upon the defendant\u2019s statements, the agent of the packing company recommended to his principal acceptance of the defendant\u2019s order. Thereupon the defendant, in the firm name of John Farr & Bro., ordered more than $500 worth of provisions, which were delivered to him. The defendant\u2019s name was not Farr, but either Snyder or Hager don, under both of which he was known. He is not a brother of John Farr, nor was he engaged in business with him, nor did any such firm exist as John Farr & Bro. That the defendant obtained from the possession of the true owner personal property of the value' of more than $500 by aid of fraudulent and false representa-' tion and pretense was quite conclusively proven, and having done so he was guilty of the crime of grand larceny, for which\" he was convicted. (Penal Code, \u00a7\u00a7 528, 530.)\nIt is urged that the false pretenses related to the ability of the defendant to pay, and that, therefore^ under the provisions of section 544 of. the Penal Code, they must have been in -writing and signed in order to constitute a crime. The false representations proved against the defendant did not relate to his means or ability to pay, but they were representations of an independent fact, that he was a member of a firm, one of the partners of which was his brother, and had a good financial standing and rating. Such false representation is of an independent fact not relating solely to financial ability, and it is not necessary that it should be in writing and signed in order to be criminal. (People v. Rothstein, 180 N. Y. 148.)\nIt is also .insisted that there is no proof that the defendant intended to defraud the owners of their property or appropriate it to his own use. The defendant must be presumed to have intended the natural and probable consequences of his oun acts. (People v. Conroy, 97 N. Y. 64, 78.) He represented that he was a brother and partner of a business man in good standing, and because of that asked the owners to deliver to him certain property. The jury had a right to find that by his false representations he intended to induce the owners to part with their\" property and to appropriate it to his own use. The court left' to the jury the question as to- whether or not the defendant intended to obtain possession of the goods in question by the false representations \"which he was proven to have made; and also the question as to whether or not the owners relied upon those representations in delivering them to him. Both were questions for them to determine, and the evidence justified their verdict. Complaint is made that the court in his charge did not use the term \u201c felonious \u201d in instructing the jury as to the defendant\u2019s intent. This omission did no harm, and its use would not have enlightened the jury to any greater extent than did the charge as given.\nUSTo errors were committed upon the trial in the receipt or rejection of evidence, or in the refusals to charge, which call for a reversal of the judgment, and it must be affirmed.\nO\u2019Brien, P. J., Ingraham, Laughlin and Clarke, JJ,, concurred.\nJudgment affirmed.",
+        "type": "majority",
+        "author": "Houghton, J.:"
+      }
+    ],
+    "attorneys": [
+      "R. J. Haire, for the appellant.",
+      "Robert S. Johnstone, deputy assistant district attorney, for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Supreme Court\u2014Appellate Division\u2014First Department.\nJanuary, 1906.\nTHE PEOPLE v. HENRY SNYDER.\n(110 App. Div. 699.)\n1. Larceny\u2014Obtaining Goods by False Representation\u2014Penal Code, Secs. 528-530.\nOne who obtains goods over $500 in value by falsely representing that he is the brother of a person of good financial rating and that he is engaged in business with him as a member of a firm bearing the name of such person and himself as brother, which firm does not exist, is guilty of grand larceny under sections 528 and 530 of the Penal Code.\n2. Same\u2014Penal Code, Sec. 544.\nSuch false representations do not relate to the defendant\u2019s ability to pay and need not be in writing and signed as required by section 544 of the Penal Code in order to constitute a crime. Under such circumstances the questions as to whether the defendant intended to obtain the goods by false representations and whether the vendor relied thereon in selling the goods are for the jury.\nAppeal by the defendant, Henry Snyder, from a judgment of the Court of General Sessions of the Peace in and for the city and county of Hew York, rendered on the 2d day of May, 1905, upon the verdict of a jury convicting the defendant of the crime of grand larceny.\nR. J. Haire, for the appellant.\nRobert S. Johnstone, deputy assistant district attorney, for the respondent."
+  },
+  "file_name": "0246-01",
+  "first_page_order": 268,
+  "last_page_order": 271
+}

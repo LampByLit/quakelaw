@@ -1,0 +1,106 @@
+{
+  "id": 1228861,
+  "name": "MATTER OF JAMES GILCHRIST",
+  "name_abbreviation": "In re Gilchrist",
+  "decision_date": "1924-03-26",
+  "docket_number": "",
+  "first_page": "267",
+  "last_page": "269",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 267"
+    },
+    {
+      "type": "parallel",
+      "cite": "208 App. Div. 497"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "206 App. Div. 813",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4773029,
+        4774215,
+        4777000,
+        4774316,
+        4772653,
+        4774668,
+        4774927,
+        4771601,
+        4774577,
+        4772725,
+        4776087,
+        4772282,
+        4771549
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ad/206/0813-05",
+        "/ad/206/0813-04",
+        "/ad/206/0813-12",
+        "/ad/206/0813-07",
+        "/ad/206/0813-08",
+        "/ad/206/0813-02",
+        "/ad/206/0813-09",
+        "/ad/206/0813-06",
+        "/ad/206/0813-01",
+        "/ad/206/0813-10",
+        "/ad/206/0813-11",
+        "/ad/206/0813-13",
+        "/ad/206/0813-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 262,
+    "char_count": 4171,
+    "ocr_confidence": 0.485,
+    "pagerank": {
+      "raw": 1.0809635788257891e-07,
+      "percentile": 0.5624965007612412
+    },
+    "sha256": "e8e84a00b678ebba16e0fd36c33008e3a29aae7cc16323df6550b50bac0e138d",
+    "simhash": "1:3d21559feca57a5b",
+    "word_count": 679
+  },
+  "last_updated": "2024-02-27T16:15:52.747790+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "MATTER OF JAMES GILCHRIST."
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam:\nThe learned and experienced referee who heard the testimony in this proceeding has reported to this court his findings of fact sustaining the charges of misconduct against the respondent contained in the petition upon which this proceeding was instituted.\nThe charges are three in number. According to the first, the respondent was retained by a woman client to endeavor to obtain a divorce for her, and while the relation of attorney and client was still subsisting between them, the respondent accepted a retainer from the woman\u2019s hubsand (with the wife\u2019s consent), and brought an action on his behalf for a divorce against the woman. The respondent continued to carry on the action so instituted against the woman without ceasing to be her attorney as well. According to the other two charges, the respondent as counsel for the plaintiffs in two uncontested matrimonial actions, presented the respective cases to a Special Term of the Supreme Court, held in Herkimer county, where the justice presiding ruled against the respondent\u2019s contentions and announced his determination, dismissing one of the actions and denying judgment in the other. Thereafter the respondent omitting to enter judgment in either of the cases in accordance with the determination of the Special Term, and without taking any steps to vacate or set aside such determination, and without obtaining or even asking for the court\u2019s permission, caused these same two cases to be put on the calendar of two succeeding Special Terms in Herkimer county, at the first of which he annouced the cases as \u201c ready \u201d and at the second responded \u201c ready \u201d when one of the cases was called, all with the intention of presenting these cases for a hearing a second time in disregard of the previous unfavorable determinations.\nA careful examination of the testimony taken at the hearing has brought us to the same conclusion reached by the learned referee. We cannot accept the explanations respecting his conduct offered by the defendant. They are improbable and inconsistent with the natural inferences to be drawn from the evidence. We find the misconduct fully established. The respondent cannot excuse his practices on the basis of youth or inexperience. He is about fifty years of age, has been a member of the bar for about twenty years and seems to have enjoyed a considerable practice. His conduct as outlined above merits our severe condemnation and renders it our duty to enter a disciplinary order.\nWe have, therefore, determined to suspend the respondent from his office of attorney and counselor at law for one year and thereafter until the further order of this court.\nAll concur.\nReport of referee confirmed, and order entered suspending the respondent from practice as an attorney for one year and thereafter until the further order of the court.",
+        "type": "majority",
+        "author": "Per Curiam:"
+      }
+    ],
+    "attorneys": [
+      "Charles L. DeAngelis, District Attorney, D. Francis Searle and John C. Davies, for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014APPELLATE DIVISION \u2014\nMarch 26, 1924.\nMATTER OF JAMES GILCHRIST.\n(208 App. Div. 497.)\nAttorney and client \u2014 Disciplinary proceedings \u2014 Attorney suspended TOR ONE YEAR AND UNTIL FURTHER ORDER OF COURT FOR INSTITUTING DIVORCE ACTION FOR HUSBAND AFTER BEING RETAINED BY WIFE, AND FOB PLACING TWO MATRIMONIAL ACTIONS ON CALENDAR AFTER THEY HAD BEEN DISMISSED BY SPECIAL TERM.\nThe respondent is suspended from practice as an attorney and counselor at law for one year and thereafter until further order of the court for bringing a divorce action in favor of a husband after he had been retained by the wife to institute a divorce action for her and while the relation of attorney and client was still existing between them, and for placing two uncontested matrimonial actions on. the calendar, and responding that he was ready when the eases were called, without the consent of the court after the same had been heard at a prior Special Term and the justice presiding thereat had ruled against his contention and announced his determination dismissing one of the. actions and denying judgment in the other.\nDisciplinary proceedings instituted on the petition of the district attorney of Oneida county. (See 206 App. Div. 813).\nCharles L. DeAngelis, District Attorney, D. Francis Searle and John C. Davies, for the respondent."
+  },
+  "file_name": "0267-01",
+  "first_page_order": 283,
+  "last_page_order": 285
+}

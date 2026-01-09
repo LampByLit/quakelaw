@@ -1,0 +1,258 @@
+{
+  "id": 1224693,
+  "name": "THE PEOPLE v. GEORGE STUYVESANT",
+  "name_abbreviation": "People v. Stuyvesant",
+  "decision_date": "1921-07-01",
+  "docket_number": "",
+  "first_page": "266",
+  "last_page": "270",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 266"
+    },
+    {
+      "type": "parallel",
+      "cite": "197 App. Div. 641"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "185 N. Y. 645",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "220 N. Y. 123",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        298138,
+        1216988
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/220/0123-01",
+        "/ny-crim/35/0402-01"
+      ]
+    },
+    {
+      "cite": "213 N. Y. 600",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        68754,
+        1209507
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/213/0600-01",
+        "/ny-crim/32/0395-01"
+      ]
+    },
+    {
+      "cite": "123 App. Div. 822",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        809066
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/22/0101-01"
+      ]
+    },
+    {
+      "cite": "146 N. Y. S. 253",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "case_ids": [
+        3186960
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/146/0253-01"
+      ]
+    },
+    {
+      "cite": "169 App. Div. 145",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1211599
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/33/0390-01"
+      ]
+    },
+    {
+      "cite": "123 App. Div. 665",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        809251
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/22/0142-01"
+      ]
+    },
+    {
+      "cite": "164 App. Div. 119",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        3223157,
+        1209590
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/149/0819-01",
+        "/ny-crim/32/0172-01"
+      ]
+    },
+    {
+      "cite": "79 Misc. 457",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        1204290,
+        1865835
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/29/0183-01",
+        "/misc/79/0457-01"
+      ]
+    },
+    {
+      "cite": "154 App. Div. 413",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1204305
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/29/0066-01"
+      ]
+    },
+    {
+      "cite": "136 N. Y. S. 155",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "case_ids": [
+        7656521
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/136/0155-01"
+      ]
+    },
+    {
+      "cite": "136 N. Y. S. 154",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "case_ids": [
+        7656492
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/136/0154-01"
+      ]
+    },
+    {
+      "cite": "204 N. Y. 397",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2363338,
+        1200380
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/204/0397-01",
+        "/ny-crim/27/0041-01"
+      ]
+    },
+    {
+      "cite": "173 App. Div. 179",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1215157
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/34/0555-01"
+      ]
+    },
+    {
+      "cite": "194 App. Div. 822",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1224715
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/39/0080-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 438,
+    "char_count": 7661,
+    "ocr_confidence": 0.549,
+    "pagerank": {
+      "raw": 6.315005732208552e-08,
+      "percentile": 0.3883510196926539
+    },
+    "sha256": "01d3c28618200086cc9b830e7363bc27821bc43940b69b7050b37444538f4c12",
+    "simhash": "1:236ece81e13fb87b",
+    "word_count": 1339
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. GEORGE STUYVESANT."
+    ],
+    "opinions": [
+      {
+        "text": "Greenbaum, J.:\nThere is no question that defendant on February 26, 1921, the date of his arrest, had a loaded revolver concealed upon his person and that he then exhibited no license for carrying a revolver. As matter of fact it was uncontradictedly established upon the trial that on October 16, 1920, a license had been issued to defendant pursuant to section 1897 of the Penal Law of this State by a police justice at the city of Troy and that at the time of his arrest the license had not been revoked.\nSection 1898 of the Penal Law provides among other things: \u201c The possession, by any person other than a public officer, of any of the weapons specified in section eighteen hundred and ninety-seven of this chapter, concealed or furtively carried on the person, or of the possession of any instrument specified in the last preceding section except as permitted therein, is presumptive evidence of carrying, or concealing, or possessing, with intent to use the same in violation of this article.\u201d\nThe officer was justified in arresting the defendant in the absence of proof that a license had been issued to him. The possession of the revolver under the circumstances was presumptive evidence of a violation of the law. But there is nothing in either section 1897 or 1898 of the Penal Law which requires the licensee to have the license with him at the time he is carrying a concealed firearm.\nIn People v. Meyer (194 App. Div. 822) the defendant, who drove a motor car in Brooklyn, failed to show an operator\u2019s license to the police officer when asked to do so, and was charged with violation of section 289 of the Highway Law, which provides that the failure of a licensee to \u201c exhibit his license to any magistrate, motor vehicle inspector, police officer, constable or other competent authority, shall be presumptive evidence that said person is not duly licensed under this article.\u201d (See Highway Law, \u00a7 289, subd. 1, added by Laws of 1910, chap. 374, as amd. by Laws of 1917, chap. 769, and Laws of 1919, chap. 472.) The court held upon appeal that the failure to exhibit a license if in fact he had one was no basis for conviction. It was only presumptive evidence. To the same effect is People v. Miles (173 App. Div. 179).\nThe judgment of conviction is reversed and a new trial ordered.\nClarke, P. J., Dowling, Smith, and Page, JJ., concur.\nJudgment reversed and new trial ordered. Settle order on notice.\nNOTE ON PENAL CODE, \u00a7 1897, CARRYING AND USE OF DANGEROUS WEAPONS.\nThis section is amended, by Laws 1921, chap. 297; Laws 1922, chap. 198, in many particulars.\nThe prohibition of the possession of dangerous weapons enumerated where such possession is not casual, is not unconstitutional. (People v. Persee, 204 N. Y. 397. See also People v. Ryan, 136 N. Y. S. 154; People v. Pegnatoro, 136 N. Y. S. 155; People v. City Prison, 154 App. Div. 413.)\nThe prosecution need not prove that defendant had no license. (People v. Grass, 79 Misc. 457.)\nThe term of imprisonment for the felonies created by this section is prescribed by section 1935. (Op. Atty.-Gen. 906.)\nThe first paragraph of section 1897 specifies three distinct crimes\u2014 attempt to use, carrying or possessing, and carrying and possessing with intent to use. (People v. Grass, 79 Misc. 457.)\nAn intent to use is not necessary in a prosecution for having a weapon in possession. (People v. Persee, 204 N. Y. 397.)\nPossession must be such as places the weapon within the immediate control and reach of the accused. (People v. Persee, 204 N. Y. 397.)\nPossession of a razor by a barber for use in his trade, even if it is on his person, is not within this section. (People v. Crescuoli, 164 App. Div. 119.)\nA \u201c nicked \u201d razor has been held to be a dangerous weapon. (Id.)\nThe ingredients of the offense described in the fifth paragraph are (a) that the person be over sixteen years of age; (b) that the pistol, revolver, or other firearm be concealed upon his person; and (c) that he has no written license therefor. Intent is not an element of this crime. (People v. Grass, 79 Misc. 457; People v. Demores, 123 App. Div. 665.)\nPossession of a revolver by an alien is a violation of this section, regardless of his intent. (People v. Sausa, 169 App. Div. 145.)\nCarrying of concealed weapons on one\u2019s own premises is prohibited by this section. (People v. Demores, 123 App. Div. 665.)\nPossession of firearms by a duly licensed pawnbroker as unredeemed pledges is not denounced by this section. (People v. Fallon, 146 N. Y. S. 253.)\nAppointees of the commissioner of agriculture may carry pistols to kill diseased animals. (Op. Atty.-Gen. 631.)\nA game protector is a peace officer who may carry a pistol without a license. (Op. Atty.-Gen. 636.)\nA village policeman is not authorized to carry a revolver outside the village except when executing criminal process. (Op. Atty.-Gen. 534.)\nA magistrate may grant a license to one not a resident of the territory over which he has jurisdiction. He cannot charge a fee for issuing a license. (Op. Atty.-Gen. 579.)\nOne who openly examines a pistol handed him by another cannot be convicted of carrying the same \u201cconcealed.\u201d (People v. Carvetto, 123 App. Div. 822.)\nWhere a person kills another while carrying a pistol in violation of this section it cannot on that account be said that the killing was done while engaged in a felony. (People v. Marendi, 213 N. Y. 600.)\nWhere a defendant was convicted under this section of carrying a bludgeon, and the evidence showed that when arrested there was found secreted about his clothing what had evidently at one time been part of a boy\u2019s baseball bat, it was held that the question \"whether this was a \u201cbludgeon\u201d was one for the jury. (People v. McPherson, 220 N. Y. 123.)\nThe section does not prevent the possession by United States reserve officers of pistols which they are, by army regulations, required to possess. (Op. Atty.-Gen., 23 St. Dept. Rep. 708.)\nA licensee is not required to have the license with him. (People v. Stuyvesant, 197 App. Div. 641.)\nA person may not be indicted for a violation of this section because a revolver is found in his residence while it is being searched by a police officer under a void search warrant. (People v. Kimmey, 185 N. Y. 645.)",
+        "type": "majority",
+        "author": "Greenbaum, J.:"
+      }
+    ],
+    "attorneys": [
+      "Moses A. Sachs, of counsel (Moses H. Hoenig with him on the brief), for the appellant.",
+      "Michael J. Driscoll, of counsel (Edward Swann, District Attorney), for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014APPELLATE DIVISION FIRST DEPARTMENT\nJuly 1, 1921.\nTHE PEOPLE v. GEORGE STUYVESANT.\n(197 App. Div. 641.)\n(1) Carrying concealed weapons \u2014 Where license has been issued AND NOT REVOKED.\nA judgment convicting the defendant of the crime of carrying a loaded revolver concealed upon his person will be reversed and a new trial granted where it appears that a license had been duly issued to the defendant and at the time of his arrest it had not been revoked.\n(2) Same \u2014 Penal Law, \u00a7\u00a7 1897, 1898 \u2014 Failure to exhibit license not A BASIS FOR CONVICTION BUT JUSTIFIES ARREST.\nSections 1897 and 1898 of the Penal Law do not require a licensee to have the license with him at the time he is carrying a concealed weapon. The failure of the defendant to exhibit a license, if in fact he had one, was not a basis for conviction, although it justified the officer in making the arrest. It was only presumptive evidence.'\nAppeal by the defendant, George Stuyvesant, from a judgment of the Court of Special Sessions of the City of Hew York held in and for the borough of Manhattan, rendered on the 5th day of April, 1921, convicting him of the crime of unlawfully possessing and concealing a firearm in violation of section ' 1897 of the Penal Law.\nMoses A. Sachs, of counsel (Moses H. Hoenig with him on the brief), for the appellant.\nMichael J. Driscoll, of counsel (Edward Swann, District Attorney), for the respondent."
+  },
+  "file_name": "0266-01",
+  "first_page_order": 286,
+  "last_page_order": 290
+}

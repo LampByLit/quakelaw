@@ -1,0 +1,138 @@
+{
+  "id": 1224724,
+  "name": "THE PEOPLE v. GEORGE BACKER",
+  "name_abbreviation": "People v. Backer",
+  "decision_date": "1920-11",
+  "docket_number": "",
+  "first_page": "17",
+  "last_page": "20",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 17"
+    },
+    {
+      "type": "parallel",
+      "cite": "113 Misc. 400"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Ct. Gen. Sess.",
+    "id": 9672,
+    "name": "New York Court of General Sessions"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "204 N. Y. 108",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2364933
+      ],
+      "pin_cites": [
+        {
+          "page": "121"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/204/0108-01"
+      ]
+    },
+    {
+      "cite": "55 N. Y. 367",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        517485
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/55/0367-01"
+      ]
+    },
+    {
+      "cite": "5 Hun, 626",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "146 N. Y. 406",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2268521,
+        2268588
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/146/0406-01",
+        "/ny/146/0406-02"
+      ]
+    },
+    {
+      "cite": "12 Misc. Rep. 392",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        340550
+      ],
+      "pin_cites": [
+        {
+          "page": "394"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc/12/0392-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 369,
+    "char_count": 7245,
+    "ocr_confidence": 0.53,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.045806917700607255
+    },
+    "sha256": "42b46990d7eada4ef512d52f154af5069cf71c1ade5119e3360fda71aca8cef5",
+    "simhash": "1:38174da64ddc52a7",
+    "word_count": 1199
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. GEORGE BACKER."
+    ],
+    "opinions": [
+      {
+        "text": "Mulqueen, J.:\nThis is a motion by the defendant to dismiss an indictment for perjury, alleged to have been committed by the defendant when called as a witness before a joint legislative committee created by a concurrent resolution of the Senate and Assembly adopted on April 18, 1919, and'continued with added powers by subsequent concurrent resolutions of the Senate and Assembly adopted on April 24, 1920, and September 24, 1920, respectively. By the resolution of April 24, 1920, the time for the committee to make its final report to the Legislature was extended to March 1, 1921; and by the resolution of September 24, 1920, the committee was authorized and empowered to hold such hearings and investigations as it might be advised \u201c during or between sessions of the Legislature.\u201d\nThe power of the Legislature to appoint the committee and to authorize it to conduct the investigation is not disputed. But the defendant claims that the only way in which a legislative committee may be empowered to sit and function after adjournment of the Legislature is by bill, or, in other words, by a statute, enacted by the Legislature and approved by the Governor or passed over his veto. The defendant has cited cases in other States in which it was held that the power of a legislative committee to sit and function after the Legislature has adjourned must be conferred by statute, and that a concurrent resolution will not suffice to enable it to function after the Legislature has adjourned. Cases in other jurisdictions take a contrary view.\nAs we are not without authority in this State, I do not consider it necessary to discuss such cases in detail.\nIt is provided by article III, section 14, of the Constitution of New York, that \u201c Mo law shall be enacted except by bill.\u201d The \u201c law \u201d there referred to means statute law \u2014 the enacted law governing the relations between the State and its inhabitants and the relations of its inhabitants one with another. \u201c A concurrent resolution of the two houses is not a statute \u201d (People ex rel. Argus Co. v. Palmer, 12 Misc. Rep. 392, 394; affd., on opinion of Special Term, 146 N. Y. 406), not \u201ca law.\u201d But it is law in the sense that it is an authorized act of the legislative body. It is effective for the purpose for which it was adopted and what is done pursuant thereto is lawfully done. The adoption of a concurrent resolution, while not in a technical sense the enactment of a bill or the passage of a law, is, nevertheless, a lawful act of the Legislature, an act which it has power to perform. And such a resolution providing for the appointment of a joint committee and conferring certain powers on such committee is, so to speak, the law by which such committee is created and under and by virtue of which it acts. It is, in other words, the charter which contains the grant of power.\nThere is no specific authority in the Constitution of this State for the adoption or passage of concurrent resolutions. But there is nothing in the Constitution which prohibits their passage; and unless expressly prohibited by the Constitution, the legislative power is unrestricted and unlimited. (People v. Learned, 5 Hun, 626.) The legislative power of the State is vested in the Senate and Assembly. (N. Y. Const., art. III, \u00a7 1.) Those bodies may create committees or even commissions by concurrent resolution as well as by act (People v. Learned, supra) ; and they may confer upon such committees or commissions such power as they are not prohibited by express provision of the Constitution from conferring. I find nothing in the Constitution which prohibits the Legislature either from appointing committees by concurrent resolution or from authorizing committees by such a resolution to sit and function during recess of the Legislature or between sessions thereof. The purpose for which legislative committees are generally appointed is to conduct investigations into matters of public concern with a view to proposing remedial legislation. Such investigations are more or less protracted and', consequently, it is usually provided by the resolution that the committee may sit and act during recess or after adjournment of the Legislature. Such is the case here. From time immemorial the practice of conferring power on legislative committees by concurrent resolution to sit and function between sessions of the Legislature has been exercised in this State. As early as 1846 the learned John Van Buren, then Attorney General of the State, rendered an opinion in which he held that a resolution empowering a legislative committee to sit, if necessary, during the recess of the Legislature and to report to the next Legislature was valid. Since then innumerable legislative committees have been appointed in this State by concurrent resolutions and empowered by the resolutions to sit during recess or after adjournment of the Legislature, and, so far as I can ascertain, no one has ever thought of disputing the authority or legality of the conferring of such a power by resolution of the two houses. This fact alone would seem entitled to controlling weight on the question of constitutionality. (People ex rel. Williams v. Dayton, 55 N. Y. 367.) Furthermore, a general statute of this State (Code Civ. Proc., \u00a7 854) expressly recognizes the power of \u201cA committee of either house of the Legislature, or a joint committee thereof,, duly empowered by resolution or' act to sit and take testimony during the session of the Legislature or after the adjournment thereof.\u201d (See Matter of Barnes, 204 N. Y. 108, 121, opin. of Werner, J.)\nThere being no constitutional inhibition upon the power of the Senate and Assembly to confer power upon the committee' to sit during the recess or after the adjournment of the Legislature, the contention of the defendant that such a power could. not be granted by concurrent resolution is, I think, without merit. It follows that the motion should be denied and that the defendant must plead to the indictment.\nMotion denied.",
+        "type": "majority",
+        "author": "Mulqueen, J.:"
+      }
+    ],
+    "attorneys": [
+      "Blandy, Mooney & Shipman (Edmund L. Mooney, Robert E. Manley and Charles T. B. Rowe, of counsel), for defendant.",
+      "Samuel Untermyer, Special Assistant District Attorney (Robert S. Johnstone, Assistant District Attorney, and Stanley L. Richter, Special Assistant District Attorney, of counsel), for People."
+    ],
+    "corrections": "",
+    "head_matter": "COURT OF GENERAL SESSIONS \u2014 COUNTY OF NEW YORK.\nNovember, 1920.\nTHE PEOPLE v. GEORGE BACKER.\n(113 Misc. 400.)\n(1) Perjury \u2014 A joint legislative committee created by concurrent RESOLUTION HAS POWER TO ACT DURING RECESS OP LEGISLATURE \u2014 CODE Civ. Pro., \u00a7 854.\nThe power of a joint legislative committee to sit and function during the recess of the legislature may be constitutionally conferred by concurrent resolution, and the recognition of such power is also found in section 854 of the Code of Civil Procedure.\n(2) Same \u2014 Motion to dismiss indictment.\nWhere defendant was indicted for perjury alleged to have been committed as a witness on a hearing before a joint legislative committee created by a concurrent resolution, his motion to dismiss the indictment, on the ground that the committee was not created by a duly enacted statute, will be denied and defendant ordered to plead to the indictment.\nMotion to dismiss indictment.\nBlandy, Mooney & Shipman (Edmund L. Mooney, Robert E. Manley and Charles T. B. Rowe, of counsel), for defendant.\nSamuel Untermyer, Special Assistant District Attorney (Robert S. Johnstone, Assistant District Attorney, and Stanley L. Richter, Special Assistant District Attorney, of counsel), for People."
+  },
+  "file_name": "0017-01",
+  "first_page_order": 37,
+  "last_page_order": 40
+}

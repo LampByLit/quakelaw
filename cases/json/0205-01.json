@@ -1,0 +1,267 @@
+{
+  "id": 1224694,
+  "name": "THE PEOPLE v. AUGUSTUS DRUM PORTER",
+  "name_abbreviation": "People v. Porter",
+  "decision_date": "1921-04",
+  "docket_number": "",
+  "first_page": "205",
+  "last_page": "214",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 205"
+    },
+    {
+      "type": "parallel",
+      "cite": "115 Misc. 301"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Ct. Gen. Sess.",
+    "id": 9672,
+    "name": "New York Court of General Sessions"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "213 N. Y. 37",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1209522,
+        68743
+      ],
+      "pin_cites": [
+        {
+          "page": "42"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/32/0232-01",
+        "/ny/213/0037-01"
+      ]
+    },
+    {
+      "cite": "159 App. Div. 9",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "187 N. Y. 551",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2328316,
+        2328325
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/187/0551-01",
+        "/ny/187/0551-02"
+      ]
+    },
+    {
+      "cite": "19 N. Y. Crim. 541",
+      "category": "reporters:state",
+      "reporter": "N.Y. Crim.",
+      "case_ids": [
+        1189848
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/19/0541-01"
+      ]
+    },
+    {
+      "cite": "108 App. Div. 234",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1189848,
+        3106943
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/19/0541-01",
+        "/nys/95/0636-01"
+      ]
+    },
+    {
+      "cite": "40 N. Y. 1",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        503131
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/40/0001-01"
+      ]
+    },
+    {
+      "cite": "11 Allen, 243",
+      "category": "reporters:state",
+      "reporter": "Allen",
+      "case_ids": [
+        313812
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/93/0243-01"
+      ]
+    },
+    {
+      "cite": "151 App. Div. 790",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        7654962
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/137/0019-01"
+      ]
+    },
+    {
+      "cite": "156 App. Div. 618",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        3159544,
+        1204306
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "627"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/141/1089-01",
+        "/ny-crim/29/0547-01"
+      ]
+    },
+    {
+      "cite": "190 N. Y. 566",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        4458290,
+        4458451
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/190/0566-01",
+        "/ny/190/0566-02"
+      ]
+    },
+    {
+      "cite": "121 App. Div. 393",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "143 N. Y. 455",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1171571
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/9/0377-01"
+      ]
+    },
+    {
+      "cite": "107 Misc. Rep. 268",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        1220716
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/37/0487-01"
+      ]
+    },
+    {
+      "cite": "154 N. Y. 770",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2279560,
+        2279348
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/154/0770-01",
+        "/ny/154/0770-02"
+      ]
+    },
+    {
+      "cite": "20 App. Div. 363",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2308992
+      ],
+      "pin_cites": [
+        {
+          "page": "365"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/20/0363-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 772,
+    "char_count": 18185,
+    "ocr_confidence": 0.536,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.0458053732090172
+    },
+    "sha256": "7e6982d0e85f5c783bfd6b4cc78a8c13892b4945d6fde6d73ca8ae698008bfb8",
+    "simhash": "1:30d98afd458fd698",
+    "word_count": 3128
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. AUGUSTUS DRUM PORTER."
+    ],
+    "opinions": [
+      {
+        "text": "Bosalsky, J.:\nOn March 22, 1920, the defendant was indicted by the grand jury upon three counts, the first and second of which allege that the defendant committed the crime of wilfully omitting to perform a public duty enjoined by law upon him as a public officer (Penal Law, \u00a7 1841) ; and the third count alleges that the defendant committed the crime of attempting, by means of a threat, to deter and prevent an executive officer from performing a duty imposed by law upon such officer. (Penal Law, \u00a7 1824.) On consent of the district attorney, the defendant was furnished with a copy of the- minutes of the grand jury, and he now moves to set aside the indictment, principally on the ground that it was founded upon the uncorroborated testimony of accomplices. (Code Crim. Proc., \u00a7 399.)\nIt is necessary briefly to refer to some of the proof presented to the grand jury with a view to determining whether the claim of the defendant warrants the deduction that police officers Wheelwright and Sorger are accomplices, and if so, whether the record is barren of proof tending to corroborate their testimony. Police officers Wheelwright and Sorger, on the night of November 12, 1919, went to the premises 324 West Ninety-sixth street, in the borough of Manhattan, county of New York, for the purpose of ascertaining whether one Adele Goodell conducted an apartment on the third floor of said premises in a disorderly manner. They secreted themselves on the landing between the third and fourth floors of this building and kept the apartment of the Goodell woman under observation, and at about 11 o\u2019clock that night they saw the defendant and a woman enter the Goodell apartment. The police effected an entrance into the apartment and immediately proceeded to the second bedroom; they forced the door and entered the room, in which they found the defendant dressed in his underwear and wearing his socks, and the woman was entirely nude, lying in bed. Police Officer Wheelwright told the defendant that he was going to place the woman who was with him in the room under arrest. The defendant told Officer Wheelwright that he wanted to speak to him, and they both went into an adjoining room, while Police Officer Sorger remained in the room with the woman. The defendant then told Wheelwright that he was Third Deputy Police Commissioner Porter and showed his credentials. Officer Wheelwright told him that he was sorry but that he must arrest the woman, and upon being told by the defendant not to do so, Officer Wheelwright conferred with Officer Sorger and told him who the defendant was; whereupon these officers permitted the defendant and the woman to leave the premises without arresting her. The police, however, arrested the Groodell woman on a charge of keeping a disorderly house. It was stated by both sides that she was tried in the Court of Special Sessions and acquitted of this charge.\nFrom the evidence it is clear that the only reasonable conclusion to be drawn is that Police Officers Wheelwright and Sorger conspired with the defendant not to arrest the woman referred to in the indictment as Jane Doe. In the criminal arrangement to aid the defendant in liberating this woman, these officers must be condemned as accomplices as a matter of law. Their misconduct brings them within the generally accepted test that \u201c To constitute an accomplice one must be so connected with a crime that at common law he might himself have been convicted either as the principal or as an accessory before the fact. To warrant such a conviction the one accused must have taken part in the perpetration of, or preparation for, the crime, with intent to assist in the crime. Every act which may have a tendency to assist in the perpetration of the crime is not, of absolute necessity, criminal. Before it will have that effect it must have been done with the intention on the part of the actor that it shall aid in the commission of the crime.\u201d (People v. Zucker, 20 App. Div. 363, 365, 154 N. Y. 770; People v. Bright, 203 id. 73; People v. Sweeney, 213 id. 37; People v. Swersky, 216 id. 471; People v. Cohen, 223 id. 406; People v. Doyle, 107 Misc. Rep. 268.)\nThe People contend that the acts charged against the defendant in the first count, namely, \u201c that the defendant unlawfully did fail, refuse and neglect to direct and command Police Officers Wheelwright and Sorger to arrest Jane Doe, but, on the contrary, he wilfully did direct and command them not to arrest Jane Doe,\u201d were of such a character that they could be committed only by a superior officer, and that since neither police officer possessed the power and authority of a deputy police commissioner,' it was legally impossible for the police officers to participate in any of these acts. The police officers could not, of course, be guilty of these acts charged against the defendant with respect to his directing, inducing or commanding them not to arrest the \u201c woman,\u201d since they possessed none of the powers of the defendant. But the learned district attorney overlooks a very important and material allegation contained in this count, namely, \u201c that the defendant wilfully did fail, refuse and neglect to arrest Jane Doe.\u201d With respect to this allegation, the law and the rules of the police department impose a plain duty not only upon the deputy police commissioner, but upon every police officer, to arrest and apprehend persons committing crimes and violating the laws of the State of New York and the ordinances of the city of New York. It is manifest that the acts charged against the defendant and the police officers come within this allegation of the indictment. From the evidence before the grand jury, the only inference to be drawn is that the defendant and the officers were concerned in the crime of wilfully omitting to perform a public duty enjoined by law upon public officers for failing, neglecting and refusing to arrest Jane Doe. This is the gist of the crime charged in the first and second counts, and this is the crime that the defendant and the police officers were all capable of committing. They were all concerned in the scheme not to arrest Jane Doe, and each one of the public officers aided and abetted the other in the commission of the crime. (Penal Law, \u00a7 2.) When the defendant, as charged in the first count, wilfully directed and commanded the police officers, in violation of their duty, not to arrest Jane Doe and permit her to go free, and the police officers, yielding to his inducement, direction and command, failed to arrest her for a violation of the law committed in their presence, all of the parties to this arrangement and understanding became members of the same conspiracy to violate their duty as public officers, and they all became concerned in the crime of wilfully omitting to perform a public duty enjoined by law upon them as public officers.\nThe fact that Officers Wheelwright and Sorger may, for some reason, be incapable of committing the same or some of the acts attributed to the defendant with respect to his public duty, is not material (People v. McKane, 143 N. Y. 455), so long as the police officers were concerned with him in the commission of the substantive crime charged against him in the first count. It is impossible to segregate the acts of the alleged criminality on the part of the defendant and the two police officers. According to the district attorney\u2019s own theory of the case, he specifically, in the second count, charges the police officers with wilful neglect of duty, and the defendant with having aided and abetted them .in the commission of that crime.\nIt is urged by the People that inasmuch as the police officers under threats and coercion of their superior \u2014 the defendant\u2014 obeyed his direction not to arrest Jane Doe, they cannot be deemed accomplices, but should be viewed as \u201c victims.\u201d To adopt this suggestion, that the police officers be regarded as victims instead of perpetrators of or participants in the crime charged in the first and second counts, would be introducing a dangerous doctrine into the criminal law, and would be subversive of the best interests of organized society. It is essential to an orderly administration of justice that no discretion be vested in a police officer to flout a duty enjoined upon him by law where there is proof that the criminal law has been violated. A public officer should be held to a strict performance of and responsibility for the duties which the law enjoins upon him.\nWhile it may be conceded that the official position of the defendant may have instilled fear in the police officers that if they did not obey him they might be oppressed or penalized, nevertheless, such a belief on their part cannot excuse their conduct of granting immunity to a violator of the law. The police officers were not subjected to duress when they yielded to the command of the defendant not to arrest Jane Doe. If the defendant had threatened the police officers with instant death or grievous bodily harm unless they obeyed him and the police officers entertained reasonable apprehension for their lives or safety, then and then only, could their failure to arrest Jane Doe be legally excused. Section 859 of the Penal Law embodies the recognized and well-established rule on this subject. \" This section provides as follows: \u201c Where a crime is committed or participated in by two or more persons, and is committed, aided, or participated in by any one of them, only because, during the time of its commission, .he is compelled to do, or to aid or participate in the act, by. threats of another person engaged in the act or omission, and reasonable apprehension on his part of instant death or grievous bodily harm, in case he refuses, the threats and apprehension constitute duress, and excuse him.\u201d\nProf. Wharton, in his celebrated Treatise on Criminal Law, in discussing the question of acts committed by a person due to coercion, compulsion and duress, states the following: \u201c The fact that a crime is committed under coercion and compulsion, in fear of instant death, may be set up as a defense to the prosecution for the commission of such crime; .but, to be available as a defense, the fear must be well-founded, and immediate and actual danger of death or great bodily harm must be present, and the compulsion must be of such a character as to leave no opportunity to accused for escape or self-defense in equal combat. It would be a most dangerous rule if a defendant could shield himself from prosecution for crime by merely setting up a fear from or because of a threat of a third person (section 383). The fact that an act is done by an officer of the government, or an agent or representative of the government acting under the direction of a superior officer of the government, will not constitute a ground of defense, and exempt the person so acting from personal liability for the wrongful act; the official position affords no immunity from criminal prosecution.\u201d (Section 377.) The same rule applies with respect to the omission to perform an act enjoined by law.\nIn People ex rel. Eggers v. Bingham (121 App. Div. 393; affd., 190 N. Y. 566), the court said: \u201c Even if he (the relator being a police officer) refrained from the performance of his duty in obedience to the request of Howell, this cannot of course excuse his conduct. If he had knowledge that the law was being violated, it was his duty to suppress the violation; but if in failing to do this he acted under orders of his superior, we think the punishment was too severe.\u201d (P. 595.)\nIt is also urged that the police officers cannot be deemed accomplices of the defendant with respect to the third count because they could not be indicted for the same crime. This contention is without force. The question whether a witness is the accomplice of a defendant depends not upon the charge in the indictment, but upon the evidence establishing that the witness was jointly concerned with the defendant in the commission of a crime. This rule is very tersely stated by Mr. Justice McLaughlin in People v. Hyde (156 App. Div. 618, 627), in which case the eminent and learned jurist said: \u201c But in the nature of things, one is or is not an accomplice of another, not because he is or is not indictable for the same or another offense, or by reason of the form of the punishment which the statute has prescribed, but by reason of what he has done, and of the part which he has taken in the commission of the crime, and it would seem, under section 2 of the Penal Law, that notwithstanding the giving and the receiving of a bribe are made distinct crimes, yet the giver may be indicted as a principal in the crime of receiving, and vice versa.\u201d (P. 627.)\nPeople v. Maynard (151 App. Div. 790) is to the same effect.\nIn People v. Hyde (supra), the learned judge further said: \u201c The subject was discussed at some length by the Supreme Court of Massachusetts in Commonwealth v. Smith (11 Allen, 243), the question being whether a suborner of perjury was an accessory before the fact of the perjurer. The court said: \u2018 The crime of subornation of perjury is clearly in its nature that of an accessory before the fact to the perjury. Both perjury and subornation are felonies under our statute, being punishable by imprisonment in the State prison. * * * Whoever procures a felony to be committed, though it be by the intervention of a third person, is an accessory before the fact, for it is not necessary that there should be any direct communication between the accessory and the principal. * * * And the accessory is a felon, though his felony is different in kind from that of the principal. * * * So it is said to be a principle in law which can never be controverted, that he who procures a felony to be done is a felon. * * * We cannot see that the application of these principles is changed when the crime of the accessory before the fact is made by statute a substantive felony. The object of making it a substantive felony may be either to provide a distinct or milder punishment upon conviction, or to authorize the indictment and conviction of the accessory where the principal has not been convicted.\u2019\n\u201c In People v. Evans (40 N. Y. 1) it -was held that the subornation of perjury may not be proved by the uncorroborated testimony of the person suborned, and in People v. Gilhooley (108 App. Div. 234, 19 N. Y. Crim. 541; affd., 187 N. Y. 551) it was assumed that the perjurer was the accomplice of the suborner.\u201d\nFrom these cases it is apparent that it does not necessarily follow, because a witness who committed certain acts cannot be convicted of the precise crime as the person with whom he was concerned in the commission of a crime, he is not to he deemed an accomplice. This theory has also been exploded with respect to the relationship between a thief and the receiver. Larceny and criminally receiving stolen property are separate and distinct crimes, and still the courts have held that the thief is an accomplice of the receiver. (People v. Willard, 159 App. Div. 9; People v. Markus, 168 id. 184; People v. Kudon, 173 id. 342.)\nThe third count of the indictment would he valid if the proof established that the police officers and the defendant had not entered into a conspiracy to violate the law. The fact that the defendant, by means of a threat, procured the police officers to violate their duty, does not relieve them from being accomplices in the crime charged under section 1841 of the Penal Law. It, therefore, makes no difference that the police officers could not he prosecuted under section 1824 of the Penal Law, since the defendant, as has already been shown, could be indicted under section 2 of the Penal Law, as a principal in the crime committed by the police officers, and they in turn, could only he indicted for aiding and abetting the defendant in the crime committed by him. (Penal Law, \u00a7 1841.)\nThe next question to be determined is whether there was any evidence corroborating the testimony of Police Officers Wheelwright and Sorger to have warranted the grand jury in returning an indictment against the defendant. I have carefully read the testimony of Police Officer Cushing and I fail to find anything in his testimony which in the slightest degree tends to corroborate his brother officers.\nThe Code of Criminal Procedure expressly provides that: \u201c A conviction cannot be had upon the testimony of an accomplice, unless he be corroborated by such other evidence as tends to connect the defendant with the commission of the crime.\u201d (Code Crim. Proc., \u00a7 399.) It also provides that an indictment should not he found by the grand jury unless \u201c all the evidence before them, taken together, is such as in their judgment would, if unexplained or uncontradicted, warrant a conviction by the trial jury.\u201d (Section 258.)\nIt is manifest, therefore, that if the only testimony before the grand jury is the testimony of accomplices, it cannot be said to be sufficient, if unexplained or uncontradicted, to warrant a conviction by the trial jury. (People v. Sweeney, 213 N. Y. 37, 42.)\nThese considerations lead me to the conclusion that the case against the defendant rests entirely upon the uncorroborated testimony of two accomplices and that the grand jury, therefore, was not justified in presenting the defendant for trial.'\nThe motion of the defendant to set aside the indictment is granted, but with leave to the district attorney to resubmit the charges to the same or another grand jury.\nMotion granted.",
+        "type": "majority",
+        "author": "Bosalsky, J.:"
+      }
+    ],
+    "attorneys": [
+      "Martin W. Littleton, for defendant.",
+      "Edward Swann, District Attorney; Felix C. Benvenga, Assistant District Attorney, for People."
+    ],
+    "corrections": "",
+    "head_matter": "COURT OF GENERAL SESSIONS \u2014 COUNTY OF NEW YORK.\nApril, 1921.\nTHE PEOPLE v. AUGUSTUS DRUM PORTER.\n(115 Misc. 301.)\nIndictment \u2014 Uncorroborated testimony of police officers \u2014 Accomplices \u2014 Indictment dismissed.\nWhere an indictment is found solely upon the uncorroborated testimony of police officers, who are to be deemed the accomplices of the defendant in the crimes charged against him, a motion to dismiss the indictment will be granted with leave to resubmit the case to the grand jury.\nMotion to set aside indictment.\nMartin W. Littleton, for defendant.\nEdward Swann, District Attorney; Felix C. Benvenga, Assistant District Attorney, for People."
+  },
+  "file_name": "0205-01",
+  "first_page_order": 225,
+  "last_page_order": 234
+}

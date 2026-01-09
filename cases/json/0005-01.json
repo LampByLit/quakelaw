@@ -1,0 +1,327 @@
+{
+  "id": 1224704,
+  "name": "MATTER OF JULIUS J. POPPER",
+  "name_abbreviation": "In re Popper",
+  "decision_date": "1920-11-05",
+  "docket_number": "",
+  "first_page": "5",
+  "last_page": "13",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 5"
+    },
+    {
+      "type": "parallel",
+      "cite": "193 App. Div. 505"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "168 Mass. 169",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        471505
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/168/0169-01"
+      ]
+    },
+    {
+      "cite": "142 App. Div. 352",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1196812
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/25/0477-01"
+      ]
+    },
+    {
+      "cite": "36 N. Y. 651",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        498960
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/36/0651-01"
+      ]
+    },
+    {
+      "cite": "167 N. Y. 314",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2297674
+      ],
+      "pin_cites": [
+        {
+          "page": "320"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/167/0314-01"
+      ]
+    },
+    {
+      "cite": "137 App. Div. 770",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2525297
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/137/0770-01"
+      ]
+    },
+    {
+      "cite": "6 N. Y. 651",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "86 N. Y. 563",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        546191
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/86/0563-01"
+      ]
+    },
+    {
+      "cite": "211 Mass. 187",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        476950
+      ],
+      "pin_cites": [
+        {
+          "page": "192"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/211/0187-01"
+      ]
+    },
+    {
+      "cite": "8 N. Y. 216",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2010487
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/8/0216-01"
+      ]
+    },
+    {
+      "cite": "11 Allen, 473",
+      "category": "reporters:state",
+      "reporter": "Allen",
+      "case_ids": [
+        313712
+      ],
+      "pin_cites": [
+        {
+          "page": "480"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/93/0473-01"
+      ]
+    },
+    {
+      "cite": "107 U. S. 265",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3499860
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/107/0265-01"
+      ]
+    },
+    {
+      "cite": "80 Conn. 140",
+      "category": "reporters:state",
+      "reporter": "Conn.",
+      "case_ids": [
+        797741
+      ],
+      "pin_cites": [
+        {
+          "page": "147"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/conn/80/0140-01"
+      ]
+    },
+    {
+      "cite": "243 U. S. 46",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3691673
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/243/0046-01"
+      ]
+    },
+    {
+      "cite": "221 N. Y. 81",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1958543
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/221/0081-01"
+      ]
+    },
+    {
+      "cite": "181 App. Div. 488",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2934667
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/181/0488-01"
+      ]
+    },
+    {
+      "cite": "178 App. Div. 585",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2904050
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/178/0585-01"
+      ]
+    },
+    {
+      "cite": "203 N. Y. 613",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2365760,
+        2361927
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/203/0613-01",
+        "/ny/203/0613-02"
+      ]
+    },
+    {
+      "cite": "143 App. Div. 229",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        7658679
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/128/0168-01"
+      ]
+    },
+    {
+      "cite": "158 N. Y. 216",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        43836
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/158/0216-01"
+      ]
+    },
+    {
+      "cite": "126 App. Div. 665",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        809111
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/22/0400-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 777,
+    "char_count": 16596,
+    "ocr_confidence": 0.516,
+    "pagerank": {
+      "raw": 2.6951011612914026e-07,
+      "percentile": 0.8279368797176978
+    },
+    "sha256": "0d319f0d19c58f34399b73f670f399c7e8f17db33e36c17ec4cc9e23829f3569",
+    "simhash": "1:356e84e5ae876a36",
+    "word_count": 2940
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "MATTER OF JULIUS J. POPPER."
+    ],
+    "opinions": [
+      {
+        "text": "Clarke, P. J.:\nThe respondent was admitted to practice as an attorney and counselor at law at a term of the Appellate Division, First Department, in November, 1901, and was practicing as such in the First Judicial District at the time he committed the acts complained of.\nThe respondent is charged in the petition with having given false testimony when a witness before a naval court martial.\nUpon the hearing before the learned official referee a transcript of the record of a courtmartial held in the Brooklyn Navy Yard June 4 to June 10, 1919, at which Ensign Paul Beck, Pay Corps, U. S. N. R. F., was tried, was admitted in evidence by consent and marked petitioner\u2019s Exhibit 3, and this stipulation was entered into on the record:\n\u201c In June, 1919, one Paul Beck, as Ensign in the Pay Corps of the U. S. N. R. F., was tried at a general court martial held in the Navy Yard, Brooklyn; that he was charged among other things with receiving money for procuring the acceptance of certain persons for enlistment in the United States Navy; that prior to his enlistment in the Navy, Beck was an office associate of the respondent; that the respondent was called by the Government as a witness to testify upon the said court martial; that he testified; that Petitioner\u2019s Exhibit 3 offered in evidence is a transcript of-the testimony which the respondent gave while a witness in the said court martial proceedings; that prior to the giving of such testimony he was sworn to tell the truth, the whole truth and nothing but the truth regarding the matters about which he might be questioned.\u201d\nThat transcript of the record shows that the respondent was called as a witness for the prosecution and was duly sworn. He testified among other things as follows: \u201c Mr. Beck was associated with me in the office at 291 Broadway, and Mr. Beck did business, that of investments, and I at the same time had an account with him wherein and whereby he would give me money to credit to his account, and then I would charge disbursements against that account. [A paper was put in evidence showing that account.] Q. Generally speaking, Mr. Popper, without going into details, the Judge Advocate had put in evidence here this yellow sheet which you say contains an entry of sums of money which, according to your testimony was paid to you, either by the accused or by some one else for the accused. Was any of these sums of money paid to you by any person seeking enlistment or enrollment in the Navy, or had been enlisted or enrolled in the Navy? A. No, sir. Q. Not one of them? A. No, sir. Q. Did you know young Price, Irving Price ? A. I believe I met him. Q. Was any money paid by Irving Price to you for the benefit of the accused? A. No, sir. Q. Or by his father, Joseph Price? A. No, sir. Q. His father testified that he gave you twenty-five dollars and that you put it in an envelope and marked the accused\u2019s name on it, and put it in your safe. Did any such transaction occur ? A. No, sir; that is not true. Q. That is false you say ? A. Yes, sir. * * * Q. Will you swear that Mr. Price, Mr. Joseph Price, did not hand you some money for Mr. Beck? A. Yes, sir; I positively deny that he did so.\u201d\nIt appeared in evidence that under the courtmartial proceeding it is required that every witness before being excused from attendance at the court shall be given an opportunity to read over his testimony after it is written out, or to have the same read in open court, and is then called upon to state under oath whether the testimony is correctly reported, and if not, what corrections, if any, should be made in the same. At the close of his testimony he was directed by the court to report the following day at 1 P. M. for the purpose of verifying or correcting his testimony.\nIn this intervening period of time Ensign Beck, through his counsel, offered to change his plea of not guilty, which he had already entered before the court, and to enter a plea of guilty to most of the specifications of the charge which was presented against him and that offer was accepted. Beck also expressed his desire to make full confession as to all the matters in which he was involved. The respondent was informed that he would he called before the courtmartial. to verify his testimony and that, in view of the fact that Ensign Beck was about to make a full confession, any misstatements which he had made would very probably be brought to light. When he was called before the court he was informed that his oath previously taken was still binding and stated that he had read over the testimony given by him on the fifth day of the trial.\n\u201c The Judge Advocate [to the witness] : Is your testimony correct as recorded? The Witness: It is not correct as recorded. The Judge Advocate: What changes do you wish to make therein? What is not correct? The Witness: I wish to change my testimony with respect to the Price transaction. I want to, if the Court please, I want to state that I have decided that I want to tell the truth on that and not shield the accused. The transaction is different from what I have stated it, and so, I would like an opportunity to state the exact truth as to just how this transaction came about, so far as my knowledge of it is concerned; if the Court will permit me. * * * Mr. Price came into the office and offered me twenty-five dollars in cash, as I recall it, whether twenty-five dollars or twenty dollars in cash, and he said to me to give this to Mr. Beck. I had never been formally introduced to Mr. Price, but I had seen him the day that they had gone on the Atlantic City trip, the meeting was right in front of my office, and I- had seen old man Price standing there with his wife, and he was pointed out to me by Mr. Beck, and so when the father of Mr. Price came into the office this day, when he told me he was Mr. Price, I knew him, knew who he was and he offered this money to me. I told him that I did not dare to accept it, and he says, \u2018 well,\u2019 \u2014 I don\u2019t recall exactly what he said, but he says, \u2018I want to leave this for Mr. Beck.\u2019 So I says, \u2018 If you want to, put it in an envelope addressed to Mr. Beck, you can leave it but I will not accept it.\u2019 I don\u2019t know for certain that this money was part of any agreement by reason of the enrollment of his soiq hut I assume that that was the situation and, therefore, I would not accept it. So Mr. Price then put the money in an envelope, and I don\u2019t believe that I put Mr. Beck\u2019s name on it, Major, but the envelope was left there for Mr. Beck, and when Mr. Beck came in I handed it to Mr. Beck and when Mr. Beck opened it I saw there was money in it, and he gave me the money and asked me to credit the money on his account, and I am quite certain that this is that $25 which appears on his account.\u201d\nIt, therefore, appears from his own testimony that the respondent, when a witness under oath, for the purpose of shielding an office associate upon trial before a naval court-martial, deliberately and knowingly gave false testimony as to the material fact at issue upon said trial.\nIt is true that before the conclusion of the trial he recanted, admitted the falsity of his prior testimony and told the truth in regard to the transaction inquired of, hut this was after he had been informed that the accused had pleaded guilty and had expressed his intention of making a full confession, and that that confession would bring to light any misstatements in his own testimony.\nThere is no dispute upon this proceeding as to the foregoing facts. Counsel for the respondent claims that the evidence before the referee is barren of any proof or admission that the courtmartial was properly constituted, that any offense had been committed of which it had jurisdiction, or that an oath was administered by the person authorized to administer it in any form authorized by law. It is enough to say that no such question can he raised before this court upon this record because the transcript of the proceedings of the court-martial was admitted in evidence by consent; that transcript shows the witness was duly sworn, and also it was stipulated upon the record here that prior to the giving of his testimony respondent was sworn to tell the truth, the whole truth and nothing but the truth regarding matters about which he might be questioned. After making such admission and stipulations regarding matters which could have easily been proved upon the reference if objection had been made or if the petitioner had been put to strict proof, it is too late to question them now. Counsel also claims that the respondent in swearing to statements which are alleged to be false but which were corrected by him while still on the witness stand did not commit perjury. (Citing People v. Gillette, 126 App. Div. 665.)\nIt is of little moment whether respondent was guilty of technical perjury or not.\nThis proceeding is not a criminal prosecution. (Matter of Randel, 158 N. Y. 216; Matter of Spenser, 143 App. Div. 229; affd., 203 N. Y. 613.) It is a disciplinary proceeding by the court to determine whether one of its officers continues to bear that good character which it is not only necessary for him to possess in order to gain admittance to the bar, but also to preserve in order to retain his office as an attorney and counselor at law.\nThis court said in Matter of Branch (178 App. Div. 585) : \u201c It has been many times held by this court that disciplinary proceedings are instituted * * * solely for the purpose of maintaining the dignity and honor of the profession, disciplining unworthy members thereof or vindicating them when unjustly accused. The purpose is to exercise the great and summary power of the court not for the benefit of a complaining individual, but for the good of the community, and to uphold the administration of justice by securing decent and upright conduct by the officers thereof.\u201d\nAnd in Matter of Flowerman (181 App. Div. 488) this court said: \u201c Disciplinary proceedings are not instituted for the purpose of collecting debts owing by an attorney to his client, but for the purpose of inquiring into the professional conduct of the attorney and to determine whether said attorney is a fit person to continue in the exercise of the responsible and honorable office of attorney and counselor at law.\u201d\nIn Matter of Rouss (221 N. Y. 81) the Court of Appeals said: \u201c Membership in the bar is a privilege burdened with conditions. A fair private and professional character is one of them. Compliance with that condition is essential at the moment of admission; hut it is equally essential afterwards (Selling v. Rarford, 243 U. S. 46; Matter of Durant, 80 Conn. 140, 147). Whenever the condition is broken, the privilege is lost. To refuse admission to an unworthy applicant is not to punish him for past offenses. The examination into character, like the examination into learning, is merely a test of fitness. To strike the unworthy lawyer from the roll is not to add to the pains and penalties of crime. The examination into character is renewed; and the test of fitness is no longer satisfied. For these reasons courts have repeatedly said that disbarment is not punishment (Ex parte Wall, 107 U. S. 265; Matter of Randall, 11 Allen, 473, 480; Matter of Randel, 15 8 N. Y. 216; Boston Bar Assn. v. Casey, 211 Mass. 187, 192; Matter of Durant, supra). \u2018 The question is,\u2019 said Lord Mansfield, \u2018 whether, after the conduct of this man, it is proper that he should continue a member of a profession which should stand free from all suspicion \u2019 (Ex parte Brounsall, Cowp. 829). \u2018 It is not,\u2019 he continued, \u2018 by way of punishment; but the court, on such cases, exercise their discretion whether a man whom they have formerly admitted, is a proper person to he continued on the roll or not.\u2019 This ruling was announced after consultation with all the judges, \u2018 as it is for the dignity of the profession that a solemn opinion should he given.\u2019 On that high plane the jurisdiction was thus early placed, and in that high spirit it has been exercised. Even pardon will not elude it. Pardon blots out the offense, and all its penalties, forfeitures and sentences; but the power to disbar remains (Matter of ---, an Attorney, 86 N. Y. 563).\u201d (See, also, Matter of Percy, 3 6 N. Y. 651; Boston Bar Assn. v. Greenhood, 168 Mass. 169; Matter of Alexander, 137 App. Div. 770; Matter of Heymann, 156 id. 73; Matter of Langslow, 167 N. Y. 314, 320.)\nThe question, therefore, is not whether the respondent under the strict and technical rules of the criminal law could be convicted upon this evidence of the crime of perjury, but whether his conduct exhibits such moral delinquency as establishes his professional unfitness. From the facts proven we may fairly infer that the change in his evidence did not come from a stricken conscience impelling him to recant and tell the truth, but, having learned that the accused before the court-martial, in whose behalf he had testified falsely, had thereafter pleaded guilty and was about to make a full confession, respondent changed his testimony to save himself and to prevent criminal prosecution for willful perjury.\nIn Percy\u2019s Case (36 N. Y. 651) the court said: \u201c It is true that to warrant a removal, the character must be bad in such respects as shows the party unsafe and unfit to be entrusted with the powers of the profession. There are many vices, that render the character more or less bad, that have no such tendency. But a want of credibility upon oath does not come within this class. When there can be no reliance upon the word or oath of a party, he is, manifestly, disqualified, and, when such fact satisfactorily appears, the court not only have the power, but it is their duty to strike the party from the roll of attorneys.\u201d\nFor the giving of false testimony and the making of false affidavits this court has disbarred attorneys in the following cases: Matter of Klatzkie (142 App. Div. 352); Matter of Gotthein (153 id. 779) ; Matter of Smith (148 id. 291) ; Matter of Levine (Id. 296) ; Matter of Nichols (165 id. 901), and Matter of Zatulove (156 id. 79).\nThe giving of false testimony strikes at the very heart of the judicial system. That an officer of the court should countenance it in another is intolerable. That he should himself be guilty of such, an offense against good morals and the public weal is not to be condoned. By such conduct he has forfeited the confidence of the court and his right to its continued certificate of good character and integrity. While the acts done were not done in his capacity as an attorney, they evidence such moral obliquity as warrants the court in saying that he no longer possesses that good character which is essential to his continuance in an honorable profession. He is, therefore, disbarred.\nLaughlin, Dowling, Smith and Greenbaum, JJ., concur.\nRespondent disbarred. Settle order on notice.",
+        "type": "majority",
+        "author": "Clarke, P. J.:"
+      }
+    ],
+    "attorneys": [
+      "Einar Chrystie, for the petitioner.",
+      "Thomas & Houghton (Charles Goldzier of counsel), for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014 APPELLATE DIVISION \u2014 FIRST DEPARTMENT.\nNovember 5, 1920.\nMATTER OF JULIUS J. POPPER.\n(193 App. Div. 505.)\n(1) Attorney \u2014 Disbarment for false testimony at court martial.\nAttorney at law disbarred for giving false testimony when a witness before a naval court martial, which testimony was given to shield another person charged with receiving money for procuring the acceptance of certain persons for enlistment in the United States navy.\n(2) Same.\nWhere a transcript of the proceedings of the court martial was admitted in evidence in the disciplinary proceeding by consent, the respondent cannot attack the jurisdiction of the court martial or maintain that the oath was administered to the respondent by a person not authorized by law, etc.\n(3) Same \u2014 Subsequent admission before court martial that testimony was false \u2014 Technical perjury not essential to disbarment.\nAlthough the respondent, having given false testimony afterwards admitted it to be false before the court martial, upon discovering that the person whom he was attempting to shield had made a confession, and although he may not have been technically guilty of the crime of perjury, he should be disbarred.\n(4) Same.\nMoreover, it is immaterial that the respondent when giving the false testimony was not acting in his capacity as an attorney, for his conduct shows such moral obliquity as warrants the court in saying that he no longer possesses that good character that is essential to his continuance in an honorable profession.\nDisciplinary proceedings instituted by the Association of the Bar of the City of Mew York.\nEinar Chrystie, for the petitioner.\nThomas & Houghton (Charles Goldzier of counsel), for the respondent."
+  },
+  "file_name": "0005-01",
+  "first_page_order": 25,
+  "last_page_order": 33
+}

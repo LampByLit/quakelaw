@@ -1,0 +1,250 @@
+{
+  "id": 1228879,
+  "name": "THE PEOPLE v. MICHAEL JERNATOWSKI",
+  "name_abbreviation": "People v. Jernatowski",
+  "decision_date": "1924-05",
+  "docket_number": "",
+  "first_page": "325",
+  "last_page": "331",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 325"
+    },
+    {
+      "type": "parallel",
+      "cite": "238 N.Y. 188"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y.",
+    "id": 24653,
+    "name": "New York Court of Appeals"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "141 App. Div. 408",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1196836
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/25/0259-01"
+      ]
+    },
+    {
+      "cite": "37 N. Y. 413",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2043954
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/37/0413-01"
+      ]
+    },
+    {
+      "cite": "106 Ga. 447",
+      "category": "reporters:state",
+      "reporter": "Ga.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "134 N. C. 622",
+      "category": "reporters:state",
+      "reporter": "N.C.",
+      "case_ids": [
+        11273771
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nc/134/0622-01"
+      ]
+    },
+    {
+      "cite": "50 N. Y. 598",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2059723
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/50/0598-01"
+      ]
+    },
+    {
+      "cite": "2 Park. Cr. Rep. 16",
+      "category": "reporters:state",
+      "reporter": "Park. Cr.",
+      "case_ids": [
+        881710
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/park-crim-rep/2/0016-01"
+      ]
+    },
+    {
+      "cite": "49 Barb. 217",
+      "category": "reporters:state",
+      "reporter": "Barb.",
+      "case_ids": [
+        2244840
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/barb/49/0217-01"
+      ]
+    },
+    {
+      "cite": "1 Park. Cr. Rep. 659",
+      "category": "reporters:state",
+      "reporter": "Park. Cr.",
+      "case_ids": [
+        11260488
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/park-crim-rep/1/0659-01"
+      ]
+    },
+    {
+      "cite": "10 N. Y. 120",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2013367
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/10/0120-01"
+      ]
+    },
+    {
+      "cite": "36 Wis. 226",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8706099
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wis/36/0226-01"
+      ]
+    },
+    {
+      "cite": "13 Wend. 159",
+      "category": "reporters:state",
+      "reporter": "Wend.",
+      "case_ids": [
+        2015675
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wend/13/0159-01"
+      ]
+    },
+    {
+      "cite": "230 N. Y. 221",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        294357
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/230/0221-01"
+      ]
+    },
+    {
+      "cite": "106 Ga. 447",
+      "category": "reporters:state",
+      "reporter": "Ga.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 N. C. 622",
+      "category": "reporters:state",
+      "reporter": "N.C.",
+      "case_ids": [
+        11273771
+      ],
+      "pin_cites": [
+        {
+          "page": "628"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nc/134/0622-01"
+      ]
+    },
+    {
+      "cite": "10 N. Y. 120",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2013367
+      ],
+      "pin_cites": [
+        {
+          "page": "146"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/10/0120-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 550,
+    "char_count": 11195,
+    "ocr_confidence": 0.496,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.04604766532720633
+    },
+    "sha256": "e9461e7a7f68d0a2b81e66a5eeb8c34b4402013298cbe07ffb3c0a8ba129e3cb",
+    "simhash": "1:27dc7e0cdc35c564",
+    "word_count": 1958
+  },
+  "last_updated": "2024-02-27T16:15:52.747790+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. MICHAEL JERNATOWSKI."
+    ],
+    "opinions": [
+      {
+        "text": "Hiscock, Ch. J.:\nThe defendant has been convicted of the crime of murder in the first degree committed upon a woman named Hanover.\nThe background of this alleged crime was a railroad strike in Buffalo. The decedent\u2019s husband was a foreman in the employ of the railroad company and stayed at his post when the strike occurred. It does not appear whether the defendant was a striker but apparently he had a vicious animosity toward those who continued in or entered into the employ of the railroad company at the time of the strike. As standing out against this background the jury were entitled to find the following facts, among others:\nOn the night of the homicide defendant and several other young men, after spending the evening on the streets and in various resorts, at a late hour passed a house where lived the decedent, her husband and a son with his wife and young child. After the defendant and one or two others had gone a short distance beyond this house one of the number said that he had seen a man or men in the Hanover yard and the defendant, saying something about strikebreakers or scabs and one of the gang making a vile threat, the defendant and his brother started on a run toward the Hanover house, stopping in front thereof. There were lights in the house which could be seen from the outside and the deceased, who was standing close to the window, called out, \u201c Get away from there,\u201d \u201c What do you fellows want here,\u201d \u201c What are you doing there,\u201d or something like that, and immediately defendant and his brother fired several shots into the house and one of these shots fired by defendant killed the decedent.\nOn these facts and others of a more or less formal character the trial court permitted the jury to find that defendant was guilty of murder in the first degree under those provisions of section 1044 of the Penal Law which declare that\n\u201c The killing of a human being, unless it is excusable or justifiable, is murder in the first degree, when committed * * *\n\u201c 2. By an act imminently dangerous to others, and evincing a depraved mind, regardless of human life, although withqut a premeditated design to effect the death of any individual.\u201d'\nIt is true that the trial judge in his charge did give irrelevant definitions of murder when the homicide is committed intentionally with or without deliberation and premeditation. We shall assume that those definitions had no applicability to the facts of this case and if we thought that it was possible that the jury had been led into convicting the defendant on a wrong theory we should of course feel obligated\" to grant a new trial. We think, however, that the jury were not misled in this respect but that, as stated by the appellant in his present brief, the trial was clearly conducted on the theory that the-defendant, if guilty of murder in the first degree, was thus guilty under that subdivision of the statute which we have quoted and that, therefore, no harm was done by these references by the trial judge to other definitions of murder and to-which no exception was taken.\nThe substantial complaint made by appellant\u2019s counsel and the only one which requires any consideration is that in order-to constitute the crime of which defendant has been convicted there must have been present in his mind at the time he fired! the shot which killed the decedent, a specific and well-defined intention to kill someone and that there was no evidence of such intention. That is the only question which we find it necessary to discuss even briefly \u2014 whether an intent to kill is made a necessary element by the statute under which the defendant has been convicted. We do not think that it is.\nIt is certain that neither principles of fundamental justice nor the more technical rules of criminal law demand that such intent should be made a necessary ingredient of this class of murders. Where a person, as the jury found this defendant did, aware that there are human beings in a house, fires several shots into it, knowing that some one may be killed and with reckless indifference whether he is or not, he ought not to be relieved from the natural consequences of hia act because at the time he fired he did not say or think \u201c I am going to kill.\u201d\nHeithcr was such intent necessary in order to supply the element of malice and willful and felonious conduct which were charged in the indictment and which were essential to establish the crime of murder under this statute as against defendant. What was held in the case of People v. Nichols (230 N. Y. 221) is applicable to this question in this case. There the defendant had been convicted of murder in the first degree because in a conspiracy to rob a shopkeeper; a companion had killed the proposed victim and in answer to certain arguments made in behalf of the defendant we had occasion to discuss the effect of the evidence that defendant was engaged in the commision of another felony as sustaining his conviction for murder. We held that evidence of his engagement in the commission of this other felony \u2014 the robbery of the shopkeeper \u2014 supplied necessary proof of the malice and felonious intent necessary to sustain a conviction of murder in the first degree.\nSo in this case when the defendant fired two or more shots into the house where he knew that there were human beings he committed an act which the jury certainly could say was imminently dangerous and which evinced a wicked and depraved mind regardless of human life and which amply supplied the evidence of malice and felonious intent which were charged in the indictment and proof of which was necessary to establish the crime of murder in the first degree. Therefore, if we were interpreting for the first time the statute under \u25a0consideration we should hold that an act such as this supplied all of its requirements and furnished all of the elements of murder as defined by it, although there was no specific intent to kill but only a reckless indifference whether some one was killed as a natural consequence of the act performed. But as a matter of fact we do not think that we are presented with a new question but rather, we think that this statute has already been interpreted.\nWith the exception of a word which we do not think makes any difference in its meaning as applicable to this case it is a re-enactment of a provision defining murder in the first degree found in the first Revised Statutes, and that provision in turn was substantially a re-enactment of what had been the common law. This enactment of the Revised Statutes was early considered in the case of Darry v. People (10 N. Y. 120, 146), where several elaborate opinions were written and where it was held under the statute pertaining to this class of homicides that proof of an intent to kill some one was not necessary to a conviction of murder in the first degree, it being said \u201c that the subdivision in question (re-enacted in the provision now under discussion) does embrace those cases where an intent to take life exists, which is not directed to any particular individual, but is general and indiscriminate. The language of the subdivision, however, at the same time shows that it was not intended to be confined to those cases, but was designed to include another class, closely akin to and almost identical with those, in which death is produced by acts putting the lives of many in jeopardy, under circumstances evincing great depravity and utter recklessness in regard to human life.\u201d \u25a0 This view, in some form or other, also finds support in the following decisions: People v. Enoch (13 Wend. 159); Penn v. Lewis (Addison [Pa.], 283); State v.. Capps (134 N. C. 622, 628); Stovall v. State (106 Ga. 447); Hogan v. State (36 Wis. 226).\nTherefore, we think that this defendant\u2019s barbarous and depraved conduct as found by the jury amply justified his conviction and that the judgment should be affirmed.\nOardozo, Pound, McLaughlin, Cbane, Andrews and Lehman, JJ., concur.\nJudgment of conviction affirmed.",
+        "type": "majority",
+        "author": "Hiscock, Ch. J.:"
+      }
+    ],
+    "attorneys": [
+      "H. B. Butterfield and Charles D. Stickney for appellant.",
+      "Guy B. Moore, District Attorney (Walter F. Hofheins of counsel), for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "COURT OF APPEALS.\nMay, 1924.\nTHE PEOPLE v. MICHAEL JERNATOWSKI.\n(238 N. Y. 188.)\n(1) Murder \u2014 Conviction op depen ant indicted for murder in the first DEGREE, UNDER SECTION 1044 PENAL CODE, FOR KILLING OP WOMAN, BY SHOTS FIRED INTO A HOUSE IN WHICH THERE WERE SEVERAL HUMAN BEINGS.\nUnder the statute (Penal Law, \u00a7 1044), the killing of a human being, unless it is excusable or justifiable, is murder in the first degree, when committed .by an act imminently dangerous to others, and evincing a depraved mind, regardless of human life, although without a premeditated design to effect the death of any individual. An intent to kill is not a necessary element under the statute, and if a person, aware that there are human beings in a house, fires several shots into it, knowing that some one may be killed and with reckless indifference whether any one is or not, he ought not to be relieved from the natural consequences of his act.\n(2) Same \u2014 When intent to kill not a necessary element op the CRIME UNDER THE STATUTE.\nWhere defendant fired two or more shots into a house where he knew there were human beings, one of which shots killed a woman in the house, he committed an act which a jury certainly could say was imminently dangerous and which evinced a wicked and depraved mind regardless of human life and which amply supplied evidence of malice and felonious intent charged in the indictment and necessary to be proved to establish the crime of murder in the first degree. Defendant\u2019s acts supplied all the requirements of the statute and furnished all of the elements of murder as defined by it, although there was no specific intent to kill but only a reckless indifference whether some one was killed as a natural consequence of the act.\n(3) Same.\nThe statute in question is a substantial re-enactment of a provision defining murder in the first degree found in the first Revised Statutes and that provision in turn was substantially a re-enactment of what had been the common law. This enactment of the Revised Statutes was early considered and applied in the ease of Darry v. People (10 H. T. 120, 146) which supports the view here being adopted.\nPeople v. Jernatowski, Supreme Court, Erie county, April 30, 1923, affirmed.\nAppeal fro-m a judgment of the Supreme Court rendered April 30, 1923, at a trial term for the county of Erie, upon a verdict convicting the defendant of the crime of murder in the first degree.\nH. B. Butterfield and Charles D. Stickney for appellant.\nThe defendant is not guilty of murder as a matter of law. (Darry v. People, 10 N. Y. 120; People v. Sheriff, 1 Park. Cr. Rep. 659; People v. Sheehan, 49 Barb. 217; People v. Fuller, 2 Park. Cr. Rep. 16.) The jury were so improperly and insufficiently instructed that reversible error lies therein. (Foster v. People, 50 N. Y. 598.)\nGuy B. Moore, District Attorney (Walter F. Hofheins of counsel), for respondent.\nThe defendant is guilty of murder as a matter of law. (Darry v. People, 10 N. Y. 120; Pennsylvania v. Lewis, Addison, 283; Russel v. State, 38 Tex. Cr. Rep. 596; State v. Capps, 134 N. C. 622; Stovall v. State, 106 Ga. 447; Fitzgerald v. People, 37 N. Y. 413; People v. Darragh, 141 App. Div. 408.)"
+  },
+  "file_name": "0325-01",
+  "first_page_order": 341,
+  "last_page_order": 347
+}

@@ -1,0 +1,89 @@
+{
+  "id": 1224756,
+  "name": "THE PEOPLE EX REL. JOSEPH LE CARTA v. WARDEN OF THE PENITENTIARY",
+  "name_abbreviation": "People ex rel. Le Carta v. Warden of Penitentiary",
+  "decision_date": "1922-02",
+  "docket_number": "",
+  "first_page": "443",
+  "last_page": "446",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 443"
+    },
+    {
+      "type": "parallel",
+      "cite": "118 Misc. 109"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Sup. Ct.",
+    "id": 10096,
+    "name": "New York Supreme Court Special Term"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "184 App. Div. 177",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "198 App. Div. 384",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1224763
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/39/0317-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 336,
+    "char_count": 6409,
+    "ocr_confidence": 0.538,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.04581019974523611
+    },
+    "sha256": "599f5ba3c5024d0ec02b6864c68a35feec44918cf770fa97b9a41b0dce7a5773",
+    "simhash": "1:0e7ee591d672cfa0",
+    "word_count": 1119
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE EX REL. JOSEPH LE CARTA v. WARDEN OF THE PENITENTIARY."
+    ],
+    "opinions": [
+      {
+        "text": "Gannon, J.:\nOn December 19, 1919, relator was committed to the New York County Penitentiary, convicted of manslaughter in the first degree on a plea of guilty. The learned justice indorsed upon the commitment a certificate to the effect that on the date of sentence relator had been in jail for upwards of ten months, and stated: \u201c This commitment is indorsed under section 2193 of the Penal Law.\u201d The section referred to in the foregoing statement reads as follows:\n\u201c Section 2193. Calculating form of imprisonment. Any time spent by a person convicted of a crime in a prison or jail prior to his conviction and before sentence has been pronounced upon him, shall become and be calculated as a part of the term of the sentence imposed upon him, whether such sentence is an indeterminate one or for a definite period of time; and such 'time shall, in addition to the time allowed for good conduct and earned as compensation, be deducted from the term of the sentence so imposed, under the provisions of article nine of the prison law. Where such person is subject to parole by the board of parole for state prisons, the time spent by him in any prison or jail before his conviction and the imposition of sentence, shall likewise he calculated as a part of the term, of the sentence imposed upon him, or be deducted from the term of such sentence in addition to other allowances of time provided for by article nine of the prison law for the purpose of such parole. At the time of commitment as provided in section four hundred and eighty-seven of the code of criminal procedure, it shall be the duty of the judge to indorse upon the commitment papers the length of time spent by the person convicted in a prison or jail prior to his conviction and before sentence which is to be calculated as part of the term of sentence imposed upon such person.\u201d\nThe parole board of the city of New York fixed the time of detention at three years, and if they had given credit to the prisoner for the time served before sentence he would now be at liberty. They claim, however, that the section quoted above only applies to the State Parole Board and to State institutions. Counsel for the relator argues very earnestly that the employment of a semicolon between the word \u201c time \u201d and the word \u201c and \u201d in the above section of the Penal Law indicates the intention of the Legislature to apply the first part of the act to all jails and to all sentences, and the latter part thereof to State jails and the State board. I believe that intelligent punctuation is an aid to the discovery of the meaning of the author, and that properly employed it is just as informing as the language itself; but punctuation may not be given such construction as to destroy the plain intent of words. This punctuation does not lend itself to the language. It may have been inexpertly used, or it may even have resulted from careless proofreading. If its importance be modified under either theory the section would appear plainly and without ambiguity to be limited to State institutions; Counsel asks: \u201c Can it seriously be contended that if a prisoner is committed to State prison for three years, another prisoner can be committed from the same place for the same offense by the same judge for three years in the penitentiary, plus a possible one or two years that he may have spent in jail prior to his conviction ? \u201d The answer to that is that the Appellate Division in the case of People ex rel. White v. Warden (198 App. Div. 384), held in effect that the Legislature had declared for a one-year imprisonment in some parts of the State and for a possible three-year imprisonment in other parts for the same offense, because provisions of the Penal Law are general and do not affect or modify special provisions of the Parole Commission Law. The decisions in the White Case and in People ex rel. Pinchback v. Warden (184 App. Div. 177) have placed the Parole Commission Law in a secure position. The higher courts have drawn around her form the solemn circle of their protection. The one element about which there can be no doubt, however, is that the learned justice who sentenced the prisoner intended by his indorsement that the time already served should be calculated as a part of the term. I do not intend that the prisoner shall suffer if it ultimately appear that the committing justice was right and the parole hoard wrong. Therefore, the writ is dismissed, with the suggestion to the counsel for the relator that they appeal and apply for the admission of the prisoner to reasonable bail, under section 127 6 of the Civil Practice Act.\nWrit dismissed.",
+        "type": "majority",
+        "author": "Gannon, J.:"
+      }
+    ],
+    "attorneys": [
+      "Sydney S. Jalcut, for relator.",
+      "John E. Ruston, District Attorney (Harry E. Anderson, Assistant District Attorney, of counsel), for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014 SPECIAL TERM \u2014 KINGS COUNTY.\nFebruary, 1922.\nTHE PEOPLE EX REL. JOSEPH LE CARTA v. WARDEN OF THE PENITENTIARY.\n(118 Misc. 109.)\nCriminal procedure \u2014 Commitment to New York county penitentiary\u2014 Calculating term op imprisonment \u2014 Indorsement on commitment under Penal Law, \u00a7 2193 \u2014 Local board of parole refused to GIVE CREDIT FOR TIME SPENT IN JAIL BEFORE SENTENCE \u2014 DISMISSAL OF WRIT OF HABEAS CORPUS-SUGGESTION THAT RELATOR TAKE AN APPEAL AND APPLY FOR ADMISSION TO BAIL UNDER CIVIL PRACTICE ACT, \u00a7 1276.\nUpon the date that relator was sentenced upon his plea of guilty of manslaughter in the first degree, the justice, as in duty bound by section 487 of the Code of Criminal Procedure, indorsed upon the commitment of defendant to the New York county penitentiary a certificate to the effect that he had been in jail for upwards of ten months, with a statement that said indorsement was made under the provisions of section 2193 of the Penal Law. The parole board of the city of New York fixed the term of relator\u2019s detention at three years and he would now be at liberty had he been given credit for the time served in jail before sentence. The parole board claimed that said section only applied to the state parole board and to state institutions. Upon dismissing a writ of habeas corpus with the suggestion that relator take an appeal and apply under section 1276 of the Civil Practice Act for his admission to bail, held, that by his indorsement upon the commitment the justice intended that the time already served by relator should be calculated as a part of the term of his sentence.\nWrit of habeas corpus.\nSydney S. Jalcut, for relator.\nJohn E. Ruston, District Attorney (Harry E. Anderson, Assistant District Attorney, of counsel), for respondent."
+  },
+  "file_name": "0443-01",
+  "first_page_order": 463,
+  "last_page_order": 466
+}

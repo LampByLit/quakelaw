@@ -1,0 +1,70 @@
+{
+  "id": 1228878,
+  "name": "THE PEOPLE v. JOSEPH DOMAGALA",
+  "name_abbreviation": "People v. Domagala",
+  "decision_date": "1924-10-08",
+  "docket_number": "",
+  "first_page": "513",
+  "last_page": "514",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 513"
+    },
+    {
+      "type": "parallel",
+      "cite": "123 Misc. 757"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Erie Cty. Ct.",
+    "id": 9569,
+    "name": "County Court of New York, Erie County"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 200,
+    "char_count": 2655,
+    "ocr_confidence": 0.514,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.04529177136874264
+    },
+    "sha256": "4cde2b6e157deb63d8318a15f642840e4e3472953d44da674c21cfc6613db2fc",
+    "simhash": "1:1ea50f7b9e687ad1",
+    "word_count": 428
+  },
+  "last_updated": "2023-07-14T15:16:59.476267+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. JOSEPH DOMAGALA."
+    ],
+    "opinions": [
+      {
+        "text": "Noonan, J.:\nFrom a judgment of conviction for violating section 290, subdivision 3, of the Highway Law, which reads as follows, \u201c Whoever operates a motor vehicle while in an intoxicated condition shall be guilty of a misdemeanor,\u201d an appeal has been taken to this court.\nAbout three-thirty p.m. two police officers found the respondent, in an intoxicated condition, in his automobile, which was parked directly across the street, with the front wheels squarely against the curb.\nIt is obvious that the judgment of conviction must stand or fall upon the construction given to the word \u201c operate.\u201d Having in mind the meaning given to \u201c operate \u201d in similar cases, the following definitions are applicable in this case: \u201c To put in action and supervise the working of: as to operate a machine \u201d (29 Cyc. 1496; Standard Dict.) ; \u201c cause to move or perform the acts desired; as to operate a machine\" (Cent. Dict.) ; \u201c to bring about a specified result \u201d (29 Cyc. 1496).\nThe respondent started his motor six different times, and every time, when he attempted to throw it into gear*, the motor stalled. Counsel for the respondent insists that the law was not violated until or unless the automobile was moved along the street. This claim is clearly untenable. Under any of the above definitions, the respondent began to violate the law the instant he began to manipulate the machinery of the motor for the purpose of putting the automobile into motion. The fact that the motor was not powerful enough to force the automobile over the curb without stopping is no defense.\nThe judgment of conviction is affirmed. Let an order be entered accordingly.\nOrdered accordingly.",
+        "type": "majority",
+        "author": "Noonan, J.:"
+      }
+    ],
+    "attorneys": [
+      "William J. Bullion, for the appellant.",
+      "Guy B. Moore, district attorney (William H. Hartzberg, assistant district attorney, of counsel), for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "COUNTY COURT \u2014ERIE COUNTY.\nOctober 8, 1924.\nTHE PEOPLE v. JOSEPH DOMAGALA.\n(123 Misc. 757.)\nMotor vehicle \u2014 Operating while intoxicated \u2014 Highway Law, | 290, STARTING MOTOR CONSTITUTES OPERATION.\nThe starting of a motor in an automobile constitutes operation of the automobile within the . meaning of subdivision 3 of section 290 of the Highway Law, which provides that any person who operates a motor vehicle while in an intoxicated condition shall be guilty of a misdemeanor, and, therefore, the defendant was properly convicted under that subdivision since it appears that he, while intoxicated, started the motor in his automobile, which was facing the curb, and attempted to start the automobile but failed to do so because the motor stalled when the automobile came in contact with the curb.\nAppeal from a judgment of conviction.\nWilliam J. Bullion, for the appellant.\nGuy B. Moore, district attorney (William H. Hartzberg, assistant district attorney, of counsel), for the respondent."
+  },
+  "file_name": "0513-01",
+  "first_page_order": 529,
+  "last_page_order": 530
+}

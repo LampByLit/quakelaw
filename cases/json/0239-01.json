@@ -1,0 +1,176 @@
+{
+  "id": 807188,
+  "name": "THE PEOPLE v. ABRAHAM H. HUMMEL",
+  "name_abbreviation": "People v. Hummel",
+  "decision_date": "1906-01",
+  "docket_number": "",
+  "first_page": "239",
+  "last_page": "246",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "20 N.Y. Crim. 239"
+    },
+    {
+      "type": "parallel",
+      "cite": "49 Misc. 136"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Sup. Ct.",
+    "id": 8791,
+    "name": "New York Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "161 U. S. 591",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5701603
+      ],
+      "pin_cites": [
+        {
+          "page": "600"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/161/0591-01"
+      ]
+    },
+    {
+      "cite": "142 U. S. 547",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3557472
+      ],
+      "pin_cites": [
+        {
+          "page": "562"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/142/0547-01"
+      ]
+    },
+    {
+      "cite": "150 N. Y. 346",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2274095
+      ],
+      "pin_cites": [
+        {
+          "page": "353"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/150/0346-01"
+      ]
+    },
+    {
+      "cite": "125 N. Y. 324",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1895837
+      ],
+      "pin_cites": [
+        {
+          "page": "334"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/125/0324-01"
+      ]
+    },
+    {
+      "cite": "69 N. Y. 607",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        530652,
+        530630
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/69/0607-01",
+        "/ny/69/0607-02"
+      ]
+    },
+    {
+      "cite": "5 Hun, 620",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": 0
+    },
+    {
+      "cite": "150 N. Y. 365",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2274150
+      ],
+      "pin_cites": [
+        {
+          "page": "379"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/150/0365-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 598,
+    "char_count": 14886,
+    "ocr_confidence": 0.481,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.028928134420192066
+    },
+    "sha256": "ecfa369d9610b430d11d2d8f6b2d52b61b4377916e15b2526b32d1377cd1487b",
+    "simhash": "1:ae2c69ebf40da77c",
+    "word_count": 2590
+  },
+  "last_updated": "2024-02-27T20:27:53.368575+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. ABRAHAM H. HUMMEL."
+    ],
+    "opinions": [
+      {
+        "text": "Woodward, J.:\nThe defendant stands convicted, by the verdict of a jury, of the crime or crimes defined by subdivisions 1, 3 and 6 of section 168 of the Penal Code1, and of section 148 of the Penal Code; and he asks for a certificate of reasonable doubt as to the lawfulness of his conviction, under the provisions of section 527 of the Code of Criminal Procedure. The purpose of this certificate is to stay the execution of the judgment of conviction, pending an appeal, where it shall be made to appear to a Justice of the Supreme Court that \u201c there is reasonable doubt whether the judgment should stand, but not otherwise;\u201d and it is clearly the policy of the State to save convicted persons from incarceration, so long as there is any such reasonable doubt of the lawfulness of their conviction. Our system of jurisprudence contemplates, not only a trial of the accused by a jury of his peers, after an indictment by a grand jury, but a fair and impartial trial. (People v. McLaughlin, 150 N. Y. 365, 379; People v. Mull, 167 id. 247, 253, and authority there cited.) \u25a0 It demands that, before any man shall be deprived of his liberty, he shall have had a trial by jury, and that the trial shall be free from errors prejudicial to the rights of the defendant; and to this end the provision of the Code of Criminal Procedure permits a Justice of the Supreme Court, in the exercise of a judicial discretion, to postpone the execution of judgment while questions of fact or law, going to the merits of the question, are being reviewed before the proper tribunals. If the defendant is finally adjudged to be guilty of the crime as charged, his term of imprisonment is not lessened; while, if he is not lawfully adjudged guilty, he is saved the humiliation of an imprisonment for which there is no redress. As has been well said by Mr. Justice Truax: \u201c On an application for a stay of proceedings in a criminal ease it is not necessary that the judge to whom the application is made should be satisfied that the \u2022judgment will be reversed. It is enough that he is satisfied that a question of law is raised sufficient for the consideration of the \u2022appellate tribunal. On such application it is not required that 'the judge to whom the application is made should determine whether the error complained of warrants the granting of a new trial, for the granting or refusing of a new trial is vested in the appellate court, which may \u2018 order a new trial if it be \u25a0satisfied that the verdict against the prisoner was against the weight of evidence or against law, or that justice requires a new \u2022trial, whether any exception shall have been taken or not in the court below.\u2019 \u201d\nViewed from this' standpoint, and without assuming to say \u2022that the questions raised are such as to compel reversal on the part of an appellate court, I am of the opinion that there are at 'least two questions of law which are deserving of consideration, and that they present that reasonable doubt which the statute \u25a0contemplates. Under the provisions of section 399 of the Code of Criminal Procedure, a \u201c conviction cannot be had upon the testimony of an accomplice unless he be corroborated by such 1 other evidence as tends to connect the defendant with the com- ' mission of the crime.\u201d The principal question in dispute upon 'the trial was whether the testimony of Dodge, a confessed perjurer and accomplice, if the crime charged was in fact com.mitted, was corroborated by \u201c such other evidence as tends to .connect the defendant with the commission of the crime.\u201d Without going into an analysis of the evidence, or undertaking .to pass upon that question, it seems to me that the learned justice presiding at the trial came dangerously near to usurping \"one of the prerogatives of the jury, when in his charge he declar\u00e9d: \u201c Now, as a matter of law, I charge you that there is other evidence which tends to corroborate him if you shall believe it to be true. Its truth is for you to determine, and not for me. But if you find it to be true, then you may find that there was evidence tending to corroborate him. If you find it to be untrue, then it is without corroboration, and there can be no conviction.\u2019\u2019\nPractically the charge directed the jury that, if they believed the testimony produced on the part of the People, and alleged to be in corroboration of Dodge, they were to find that there was such corroboration, or at least that they might find such corroboration; thus, in effect, limiting the province of the jury to determining, not the weight and sufficiency of the corroboration, but the truth of the testimony offered in that behalf. In considering a somewhat similar charge, the Court of Appeals say: \u201c Their attention is thus directed to the evidence of inculpation merely; its weight is stated to them as sufficient in law to sustain a conviction for the graver offense; so that the question of fact to which their minds are turned relates to the credibility of certain witnesses, and not to the weight or measure of their testimony, or the existence of the intent. How far that testimony was modified or neutralized by that produced by the defendant, or what inferences should be drawn from any of it, is virtually excluded from their inquiry. If you believe certain witnesses, say the court, the verdict follows. This was overstepping the province of the judge. . . . It is true the question was not taken absolutely from the jury by the court; this was beyond its power (People v. Howell, 5 Hun, 620; affirmed, 69 N. Y. 607); but the opinion of the judge, considered as an opinion on the weight of evidence, was stated much stronger that it ought to have been, and was calculated to make an erroneous impression upon the minds of the jurors, and with that impression, carrying into' the jury room the weight of the opinion, it cannot be said that the prisoner had, at the outset of their deliberations, an even chance that the conclusion of the jury would be unbiased.\u201d\nWhere is the distinction in principle between these cases ? To charge, as a matter of law, that there was evidence to corroborate Dodge-, leaving the jury to determine merely the credibility of the witnesses, was to take from them, in effect, the question of the sufficiency of the corroboration. It might very well be that the jury, left to its own deliberations, might conclude that the evidence in corroboration was entirely insufficient to tend to connect the defendant with the crime; and while, as suggested by the Court of Appeals in People v. Flack (125 N. Y. 324, 334), \u201c Jurors may be perverse; the ends of justice may be defeated by unrighteous verdicts, but so- long as the functions of the judge and jury are distinct, the one responding to the law, the other to the facts, neither can invade the- province of the other without destroying the significance of trial by court and jury.\u201d The rule appears to be well settled that, where the trial judge is satisfied that there is testimony fairly tending to connect the defendant with the commission of the crime, he is bound to submit the case to- the jury who are the sole judges whether the evidence relied upon to corroborate the accomplice is sufficient. (People v. Mayhew, 150 N. Y. 346, 353, and authorities there cited.)\nIt seems to me that there is a reasonable doubt whether the learned trial justice did not take from the jury a very essential question of fact, to the substantial prejudice- of the rights of the defendant; and I do not think the error, if it be error, was corrected by the charge as finally made to the jury. The defendant was entitled to have the law clearly and concisely stated.\nI am equally persuaded that the defendant has a right to a review of the ruling of the learned court upon the question of the witnesses Kaffenburgh and Cohen. These witnesses were called by the People and refused to answer certain questions on the ground that they would tend to incriminate them. They were intimately connected with the defendant, having been clerks or employees in his office, and the court was asked to charge: \u201c The fact that the witnesses Kaffenburgh and Cohen declined to testify upon the ground that their answers might tend to incriminate them creates no presumption against them and in particular none against the defendant.\u201d The learned district attorney, in his summing up to the jury, commented upon the fact that the defendant called no witnesses and pointed out that these particular witnesses refused to' answer, though apparently in a position where they might have known of the facts; and the refusal of the court to charge as requested, if error, could not have failed to be prejudicial to the defendant. Why should the fact that a witness, for his own protection, refuses to answer a question under his constitutional pdivilege, be permitted to prejudice the defendant ? It might be that the answer, if fully and truly given, would show that the witness, rather than the defendant, had been guilty of the very crime charged in the indictment. The United States Supreme Court, in commenting upon a similar provision in the Federal Constitution, say: \u201c The reason given by Counselman for his refusal to answer the questions was that his answer might tend to criminate him, and showed that his apprehension was that, if he answered the questions truly and fully (as he was bound to do if he should answer them at all), the answers might show that lie had committed a crime against the Interstate Commerce Act, for which he might be prosecuted. His answers, therefore, would be testimony against himself, and he would be compelled to give them in a criminal case.\u201d \u201c It is impossible,\u201d continue the court in the same case (Counselman v. Hitchcock, 142 U. S. 547, 562), \u201cthat the meaning of the constitutional provision can only be, that a person shall not be compelled to be a witness against himself in a criminal prosecution against himself. It would doubtless cover such cases; but it is not limited to them.\nThe object was to insure that a person should not be compelled, when acting as a witness in any investigation, to give testimony which might tend to show that he himself had committed a crime: The privilege is limited to criminal matters-, but it is as broad as the mischief against which it seeks to- guard.\u201d\nIf the People call witnesses who demand their privilege, can it be that the defendant is to be prejudiced by this fact? It is the duty of the People in a criminal charge to establish all the facts going to 'make the crime and to fasten it upon the defendant, and the fact that a witness refuses to answer questions because they are likely to criminate him is hardly evidence that some one else has committed a crime. The defendant is not obliged to defend; he may rely upon theweakness of the People\u2019s case and, in such a case-, he is at a disadvantage if he must be presumed to- be guilty because some witness, ''called by the People, is afraid to- answer questions. In Brown v. Walker (161 U. S. 591, 600), the court, while not questioning the doctrine of the Counselman case1, supra say: \u201c The danger of extending the principle announced in Counselman v. Hitchcock is that the privilege may be put forward for a sentimental reason, or for a purely fanciful protection of the witness against an imaginary danger, and for the- real purpose of securing immunity to-some third person, who is interested in concealing the facts to which he would testify.\u201d Obviously, if the jury might presume, from the fact that a witness refused to testify under his constitutional privilege, that he would give testimony adverse to the defendant if he spoke, the discussion of the court is without force. I have very grave doubts of the correctness of the ruling upon this request to charge. It is not entirely free from doubt in my mind whether, under all the circumstances of this case, the refusal to charge was error; but I have such doubts upon the question that I think I would be justified in granting the certificate in this case upon this particular point. In the somewhat h\u00e1sty examination which I have been able to make, I do not find a direct and conclusive authority upon the point; and, if it was error, it is certain that the defendant has not had the fair and impartial 'trial which the law demands for every man charged \u2018with a crime.\nVarious other questions have been raised and urged before me, but I do- not feel that there is occasion for discussing them. The questions will no doubt be presented on appeal, and the Appellate\u2019Division has the power to grant any relief to which the defendant may be entitled. On this application I am only called upon to determine whether* there is a reasonable doubt as to whether the judgment should stand, and I am convinced that there is such a doubt.\nThe application for a certificate of reasonable doubt will be granted.\nApplication granted.",
+        "type": "majority",
+        "author": "Woodward, J.:"
+      }
+    ],
+    "attorneys": [
+      "John B. Stanchfield, for application.",
+      "Howard S. Gans, opposed."
+    ],
+    "corrections": "",
+    "head_matter": "Supreme Court\u2014Special Term.\nJanuary, 1906.\nTHE PEOPLE v. ABRAHAM H. HUMMEL.\n(49 Misc. 136.)\n1. Stay of Proceedings After Conviction.\nWhen one convicted of crime has appealed, it is the duty of a justice of the Supreme Court to grant a certificate of reasonable doubt if he is satisfied that a question of law is raised sufficient for the consideration of the appellate tribunal.\n2. Trial\u2014Charge to Jury\u2014Comments on Weight or Effect of Evidence\u2014Corroboration of Accomplice.\nWhere the principal question in dispute on the trial was whether a confessed perjurer and accomplice, who testified, to the commission of the crime, was corroborated by such other evidence as tended to connect the defendant with the commission of the crime, and the court charged the jury that there was other evidence which tended to corroborate him, if they believed it to be true, thus limiting the province of the jury to determining, not the weight and sufficiency of the corroboration, but the truth of the testimony offered in that behalf, a question sufficient for the consideration of the appellate tribunal is raised.\n3. Same\u2014Charge as to Refusal of Witness to Testify.\nWhere witnesses, called by the People, who had been intimately connected with the defendant, declined to testify on the ground that their answers might tend to incriminate them, and where the district attorney, in summing up, commented on the fact that the defendant called no witnesses and pointed out that these particular witnesses refused to answer, though apparently in a position where they might have known the facts, and the court refused to charge that their refusal to testify created no presumption against them and, in particular, none against the defendant, a like question is raised.\nApplication to a Justice of the Supreme Court for a certificate of reasonable doubt as to the lawfulness of the conviction, under the provisions of section 527 of the Code of Criminal Procedure.\nJohn B. Stanchfield, for application.\nHoward S. Gans, opposed."
+  },
+  "file_name": "0239-01",
+  "first_page_order": 261,
+  "last_page_order": 268
+}

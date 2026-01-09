@@ -1,0 +1,70 @@
+{
+  "id": 1228880,
+  "name": "PEOPLE EX REL. MARY BELDSTEIN v. WALTER N. THAYER",
+  "name_abbreviation": "People ex rel. Beldstein v. Thayer",
+  "decision_date": "1923-12",
+  "docket_number": "",
+  "first_page": "37",
+  "last_page": "40",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 37"
+    },
+    {
+      "type": "parallel",
+      "cite": "121 Misc. 745"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Ulster Cty. Ct.",
+    "id": 9932,
+    "name": "County Court of New York, Ulster County"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 308,
+    "char_count": 6008,
+    "ocr_confidence": 0.531,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.045292178604756476
+    },
+    "sha256": "14d306fe6ee9cdfc7b959fd8747fef5ab716fa3b0117398da0ca37c1bc4d3f07",
+    "simhash": "1:ff56ce973e234a3e",
+    "word_count": 1043
+  },
+  "last_updated": "2023-07-14T15:16:59.476267+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "PEOPLE EX REL. MARY BELDSTEIN v. WALTER N. THAYER."
+    ],
+    "opinions": [
+      {
+        "text": "Fowler, J.:\nThe relator seeks the release of George Beldstein, an inmate of the above institution, under a petition for a writ of habeas corpus.\nThe said George Beldstein was held under a criminal charge in Erie county in 1918; a doubt existing as to his sanity proceedings were taken and he was found insane, and committed to Matteawan State Hospital, there to be kept and detained until he became sane, upon which happening he was to be returned to the sheriff of Erie county for trial.\nLater, and in 1922, upon a finding by the State commission for mental defectives, he was sent to the above institution at Napanoch, as a person mentally defective. \u2022\nUnder the law as it was at the time of the arrest of the defendant, the mental condition of the alleged criminal might be determined in two ways: (1) Insanity might be made a specification of a plea of not guilty (Code Crim. Pro. \u00a7 658) and the question submitted to the jury, the test being whether the defendant at the time of the commission of the alleged criminal act knew the quality and nature of the act, and knew the act was wrong; (2) though not set up as a defense, insanity might operate to postpone trial, for where at or before trial there is reason to believe the defendant insane, the court might investigate, and if insanity be found, the defendant be ordered confined in an asylum until his sanity had been restored, at which time he should be returned for trial (Code Crim. Pro. \u00a7 836), the test in such case being whether the defendant has the ability of mind to understand -the nature of the crime charged and to properly consult and advise with counsel.\nIn each of the cases above the test as to insanity under the law differed from the test applied by the medical profession. The alleged criminal might be insane as judged by medical science, yet his form of insanity not be such as would be a \u2022defense to the criminal charge, nor be ground for postponement of trial.\nIn 1919 the legislature first recognized the mental condition known as mental defectiveness. Laws of 1919, chap. 633. This is a condition of mind which is a departure from the \u2022general normal, but which is not a diseased condition, or insanity. A person held upon a criminal charge may, before or after trial, be examined, and if his condition is so pronounced as to require his supervision, control and care, for his own welfare, or that of the community, the court may direct his commitment to an institution for mental defectives. \u00a7 24-a. It would seem that the statute does not so provide, that such an order should not be made until after the trial on the criminal charge, unless the mental defect is such as to make it \u2022appear that the accused has not the ability of mind to understand the nature of the crime charged, and to properly consult and advise with counsel. In any event the law had not been enacted at the time of the commitment of this defendant. The \u2022court having jurisdiction did all that it could at that time have done \u2014 committed him under section 836 of the Code of Criminal Procedure, directing his return for trial when he should no longer be insane.\nThe single issue before me is, therefore, is Beldstein insane ? On this issue the only expert opinion I have to assist me is-that of Dr. Thayer, superintendent at Napanoch, for whose opinion I have the greatest respect. Dr. Thayer testified that the defendant is not insane, hut that he is a mental defective,, and questioned the wisdom of releasing him. Not being insane, however, he must be returned to the court having jurisdiction of him under the criminal charge. Such court may place him upon trial under the indictment, or it may, under the Mental Deficiency Law (Laws, of 1919, chap. 633), before or after trial, commit him to some institution.\nI am not holding that the defendant is not a mental defective, nor that he may safely be released, but only that he is not at this time insane, and that he must now return to the court which in effect postponed his trial on a criminal charge until he recovered his sanity.\nThe attorney-general argues that the State should determine-the particular institution in which its wards should be cared for. This is not questioned. But to what extent is Beldstein a ward of the State \\ His\u2019 indictment did not make him such except for the purpose of putting him on trial for crime. He becomes a ward of the State by reason of an order of a competent tribunal which declared him insane, and because of the terms of this order, he now being sane, he is returned for trial.\nOrder may be submitted upon notice to the attorney-general..\nOrdered accordingly.",
+        "type": "majority",
+        "author": "Fowler, J.:"
+      }
+    ],
+    "attorneys": [
+      "Maynard C. Schaus, for relator.",
+      "Carl Sherman, Attorney-General (John C. Smith, Deputy Attorney-General, of counsel), for Walter N. Thayer, Jr., superintendent."
+    ],
+    "corrections": "",
+    "head_matter": "COUNTY COURT \u2014 ULSTER COUNTY.\nDecember, 1923.\nPEOPLE EX REL. MARY BELDSTEIN v. WALTER N. THAYER.\n(121 Misc. 745.)\nHabeas corpus \u2014 Commitment to state hospital under Code Criminal Procedure, Section 836 \u2014 Subsequent transfer to state institution for mental defectives \u2014 Defendant must be returned to Court HAVING JURISDICTION OF THE CRIMINAL CHARGE.\nAbout four years after a defendant under indictment in Erie county had been committed to Matteawan State Hospital by an order granted under section 836 of the Code of Criminal Procedure directing that when he became sane he should be returned to the sheriff for trial, he was, upon a find\u2019ng of the state commission for mental defectives that he was a person mentally defective, sent to a state institution for defective delinquents, the superintendent of which institution, upon the return of a writ of habeas corpus seeking defendant\u2019s release, testified that he was not insane but that he was a mental defective and questioned the wisdom of releasing him. Held, that the defendant not being insane must be returned to the court having jurisdiction to try the indictment, and an order to that effect may be submitted upon notice to the attorney-general.\nWrit of habeas corpus.\nMaynard C. Schaus, for relator.\nCarl Sherman, Attorney-General (John C. Smith, Deputy Attorney-General, of counsel), for Walter N. Thayer, Jr., superintendent."
+  },
+  "file_name": "0037-01",
+  "first_page_order": 53,
+  "last_page_order": 56
+}

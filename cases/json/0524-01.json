@@ -1,0 +1,288 @@
+{
+  "id": 1224758,
+  "name": "THE PEOPLE v. PETER NUNZIATO",
+  "name_abbreviation": "People v. Nunziato",
+  "decision_date": "1922-05-31",
+  "docket_number": "",
+  "first_page": "524",
+  "last_page": "529",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 524"
+    },
+    {
+      "type": "parallel",
+      "cite": "233 N.Y. 394"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y.",
+    "id": 24653,
+    "name": "New York Court of Appeals"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "224 N. Y. 463",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1220755,
+        85670
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/37/0206-01",
+        "/ny/224/0463-01"
+      ]
+    },
+    {
+      "cite": "206 N. Y. 67",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1200387,
+        60533
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/27/0313-01",
+        "/ny/206/0067-01"
+      ]
+    },
+    {
+      "cite": "214 N. Y. 53",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        72104
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/214/0053-01"
+      ]
+    },
+    {
+      "cite": "194 N. Y. 148",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "193 N. Y. 446",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        55970
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/193/0446-01"
+      ]
+    },
+    {
+      "cite": "219 N. Y. 18",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1956936,
+        1217008
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/219/0018-01",
+        "/ny-crim/35/0027-01"
+      ]
+    },
+    {
+      "cite": "217 N. Y. 199",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        75801,
+        1215193
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/217/0199-01",
+        "/ny-crim/34/0227-01"
+      ]
+    },
+    {
+      "cite": "42 Mich. 270",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "97 Mass. 578",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "192 N. Y. 331",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        54752,
+        809239
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/192/0331-01",
+        "/ny-crim/22/0376-01"
+      ]
+    },
+    {
+      "cite": "202 N. Y. 389",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        4484676
+      ],
+      "pin_cites": [
+        {
+          "page": "397"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/202/0389-01"
+      ]
+    },
+    {
+      "cite": "215 N. Y. 285",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1211659,
+        74316
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/33/0244-01",
+        "/ny/215/0285-01"
+      ]
+    },
+    {
+      "cite": "212 N. Y. 231",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1209539,
+        67021
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/32/0014-01",
+        "/ny/212/0231-01"
+      ]
+    },
+    {
+      "cite": "121 N. Y. 449",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        566625
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/121/0449-01"
+      ]
+    },
+    {
+      "cite": "193 N. Y. 46",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        55850,
+        1194917
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/193/0046-01",
+        "/ny-crim/23/0069-01"
+      ]
+    },
+    {
+      "cite": "219 N. Y. 18",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1956936,
+        1217008
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/219/0018-01",
+        "/ny-crim/35/0027-01"
+      ]
+    },
+    {
+      "cite": "192 N. Y. 331",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        54752,
+        809239
+      ],
+      "pin_cites": [
+        {
+          "page": "345"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/192/0331-01",
+        "/ny-crim/22/0376-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 486,
+    "char_count": 10457,
+    "ocr_confidence": 0.538,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.04581039280668487
+    },
+    "sha256": "b378a16cea7aa1bf7bd166786912cb3e3dd1adf0aa1340432d92e859231e6d3e",
+    "simhash": "1:5946ece6f60080df",
+    "word_count": 1805
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. PETER NUNZIATO."
+    ],
+    "opinions": [
+      {
+        "text": "McLaughlin, J.:\nThe defendant and three others, Joseph Alfano, Alphonse Verona, and Frank Cassessa, were jointly indicted for the killing, on the 23d of February, 1921, of Wilfred Kotkov, while in the act of robbing him. Defendant had a separate trial which resulted in a verdict of guilty of murder in the first degree, upon which the judgment of conviction was entered.\nAfter a careful consideration of the record and briefs of counsel, I am satisfied the defendant had a fair trial, was justly convicted, and that no errors were committed at the trial which would justify this court in interfering with the judgment. Indeed, I am unable to see how the jury could have rendered a different verdict. There is an abundance of evidence to establish that the four persons indicted deliberately entered into a scheme to rob someone; that while carrying out that scheme, Kotkov was struck on the head by the defendant, or one of the others, with a piece of iron, knocked down and rendered unconscious ; that while in that condition, substantially everything of value on his person was taken from him; that he died within a short time thereafter from the effect of the blow.\nThe guilt of the defendant was so clearly established that the judgment of conviction would he affirmed without opinion were it not for the fact that to do so might he construed as approving one ruling made by the trial judge during the course of the trial. After the defendant was taken into custody, he, in the presence of the three confederates, several police officers, including Detectives Zeman and Krummell, made a full and complete statement as to the planning of the robbery and the part played by each of the assassins in carrying it out \u2014 including the assault which resulted in the death of Kotkov. The confession was written on a typewriter by Krummell as it was made. After it was finished it was read to the defendant, then handed to him and he read it himself, after which it was signed by him in the presence of the persons named.\nThat the defendant made the confession voluntarily, not induced by the pressure of fear or influence of hope of some benefit to be derived therefrom, and with full knowledge of his legal rights, was established by the testimony of the People\u2019s witnesses Zeman and Krummell. The testimony of the witness Zeman was apparently so satisfactory to the defendant\u2019s counsel that he did not even cross-examine him. After the direct examination of Krummell had been completed, the People offered the confession in evidence. Defendant\u2019s counsel asked before it was received that he be accorded the privilege of cross-examining the witness as to its admissibility. This privilege was accorded him and the witness subjected to a searching cross-examination \u2014 the result of which did not in any material respect change the testimony given on direct. After the cross-examination had been completed, counsel announced: \u201c That is all for this witness. I would like to offer evidence to refute the competency of this statement.\u201d By the Court: \u201c I will take that in your defense. I will not take it preliminarily; I will not take it now. I will admit the evidence.\u201d A colloquy then followed between the court and counsel, at the conclusion of which the paper was received in evidence, to which defendant\u2019s counsel excepted.\nThis is the ruling to which reference has been made. It is strenuously urged that this ruling was erroneous and a majority of the court is of that opinion. Personally, I do not think, in view of what had transpired at the time it was made, that it was. The confession had been established by the testimony of two witnesses and defendant\u2019s counsel did not in any way indicate to the court, other than by the statement quoted, what evidence he had that he would like to offer, or what witnesses he had that he would like to have testify to contradict them. In fairness to the trial court I think counsel should have made a specific statement on this subject. The general statement that he would like \u201c to offer evidence to refute the competency of this statement \u201d was not sufficient, especially in view of the fact that the truth of the testimony of one of the witnesses was not even tested by a cross-examination.\nThe limit to which a preliminary examination may be pursued before a confession is received in evidence must, necessarily, be determined, in some measure at least, by the sound judgment and discretion of the trial judge. (People v. Kinney, 202 N. Y. 389, 397.) Had counsel made a specific statement as to the evidence he had, or the witnesses he would like to have testify, and the court had then ruled as it did, it would' have been error. The rule is well settled, in this State at least, that where, in a criminal prosecution, a paper alleged to be a written confession by defendant is offered in evidence against him, and he objects to its admission and offers to prove, at that stage of the trial, that the paper was procured from him by such threats and promises, or under such circumstances as, if established, would render it inadmissible, it is the duty of the trial judge to receive the evidence thus offered before deciding as to the competency of the confession itself. It is error to admit the paper without first receiving and considering such evidence. (People v. Rogers, 192 N. Y. 331, 345; People v. Brasch, 193 N. Y. 46; People v. Fox, 121 N. Y. 449.)\nI do not think counsel brought himself within this rule. He made no offer to prove. He did not indicate in any way what he had reason to believe he could prove. The competency of a confession, after such evidence has been received and considered, presents a mixed question of law and fact, which the trial court must pass upon. If, at the conclusion of the trial, a question of fact is presented as to whether the confession were voluntarily made, then that question must be submitted to the jury to he by it determined. It was so submitted in the present case, with instructions that if the jury found \u201c it was obtained solely through fear induced by threats or violence made on the part of the police officers, then you should reject the statement entirely and not consider it in the case at all.\u201d While a majority of the court is of the opinion that the ruling was erroneous, we are all agreed if it were it constituted an unsubstantial error. The guilt of the defendant was fully proven. His own testimony tended in no small degree to establish it. It is inconceivable, had the trial judge then received the evidence which was offered as a part of the defense, that the confession would have been rejected. Indeed, the main facts stated in the confession were proven aliunde with great fullness and detail. The statute directs that where guilt is clearly established, the court must disregard unsubstantial errors. (Code of Criminal Procedure, \u00a7 542; People v. Trybus, 219 N. Y. 18; People v. Sarzano, 212 N. Y. 231; People v. Ferola, 215 N. Y. 285.) The ruling must be here so regarded.\nThe judgment of conviction should be affirmed.\nHiscock, Ch. J., Hogan, Cardozo, Pound, Crane, and Andrews, JJ., concur.\nJudgment of conviction affirmed.",
+        "type": "majority",
+        "author": "McLaughlin, J.:"
+      }
+    ],
+    "attorneys": [
+      "Edward J. Reilly, for appellant.",
+      "Joseph Lonardo and Dana Wallace, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "COURT OF APPEALS.\nMay 31, 1922.\nTHE PEOPLE v. PETER NUNZIATO.\n(233 N. Y. 394.)\n(1) Murder in first degree \u2014 Sufficiency of evidence to warrant CONVICTION.\nUpon consideration of the record and briefs on appeal from a judgment of conviction of murder in the first degree, held, that the defendant had a fair trial, was justly convicted, and that no errors were committed at the trial which would justify this court in interfering with the judgment.\n(2) Same \u2014 Refusal of trial judge to accept preliminary evidence OFFERED IN REFUTATION OF COMPETENCY OF WRITTEN CONFESSION ERROR.\nThe rule is well settled in this State that where, in a criminal prosecution, a paper alleged to be a written confession by defendant is offered in evidence against him, and he objects to its admission and offers to prove, at that stage of the trial, that the paper was procured from him by such threats and promises, or under such circumstances as, if established, would render it inadmissible, it is the duty of the trial judge to receive the evidence thus offered before deciding as to the competency of the confession itself. It is error to admit the paper without first receiving and considering such evidence.\n(3) Same.\nWhere, upon a trial for murder, the People offer in evidence an alleged written confession of the defendant and the latter\u2019s counsel, after cross-examining a witness called by the People for the purpose of establishing said confession, states, \u2018\u2018 I would like to offer evidence to refute the competency of this statement, \u201d it is error for the court to refuse to take the offered testimony preliminarily and to admit the confession with permission to defendant to offer his testimony in refutation as part of his defense.\n(4) Same \u2014 Error unsubstantial where guilt is fully proven \u2014 Unsubstantial ERRORS MUST BE DISREGARDED.\nThe error, however, was unsubstantial where the guilt of the defendant was fully proven, and the statute directs that where guilt is clearly established this court must disregard unsubstantial errors. (Code Crim. Pro., \u00a7 542.)\n(Argued April 20, 1922;\ndecided May 31, 1922.)\nAppeal from a judgment of the Queens County Court, rendered April 18, 1921, at a Trial Term, upon a verdict convicting the defendant of the crime of murder in the first degree.\nEdward J. Reilly, for appellant.\nThe court\u2019s refusal to permit the question of the admissibility of the defendant\u2019s alleged confession to he tried as a question of fact at the time the confession was made and before the same was admitted was erroneous. (People v. Rogers, 192 N. Y. 331; Comm. v. Curtis, 97 Mass. 578; People v. Knapp, 42 Mich. 270; 3 Greenl. on Ev. [15th ed.], \u00a7 30; People v. Taranto, 217 N. Y. 199.)\nJoseph Lonardo and Dana Wallace, for respondent.\nAssuming that a technical error was committed by the trial judge in ruling upon the preliminary proof, it was not such a material error as tended to prejudice defendant\u2019s substantial rights, and in the promotion of consummate justice this court will disregard the same, especially where guilt has been clearly established. (People v. Trybus, 219 N. Y. 18; People v. Brash, 193 N. Y. 446; People v. Randazzio, 194 N. Y. 148; People v. Buffom, 214 N. Y. 53; People v. Taranto, 217 N. Y. 199; People v. Giusto, 206 N. Y. 67; People v. Chapman, 224 N. Y. 463.)"
+  },
+  "file_name": "0524-01",
+  "first_page_order": 544,
+  "last_page_order": 549
+}

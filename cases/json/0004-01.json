@@ -1,0 +1,83 @@
+{
+  "id": 1228827,
+  "name": "THE PEOPLE v. THOMAS FALASCO",
+  "name_abbreviation": "People v. Falasco",
+  "decision_date": "1923-10",
+  "docket_number": "",
+  "first_page": "4",
+  "last_page": "6",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 4"
+    },
+    {
+      "type": "parallel",
+      "cite": "121 Misc. 538"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Ct. Gen. Sess.",
+    "id": 9672,
+    "name": "New York Court of General Sessions"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "162 Mass. 206",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        794627
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/162/0206-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 277,
+    "char_count": 4885,
+    "ocr_confidence": 0.525,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.046042452668089914
+    },
+    "sha256": "5dba9f1bf4b23b7081ee653dd12a31c43064f4206a61eb7d167ea155f08971ee",
+    "simhash": "1:a89aced8420a20d4",
+    "word_count": 813
+  },
+  "last_updated": "2024-02-27T16:15:52.747790+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. THOMAS FALASCO."
+    ],
+    "opinions": [
+      {
+        "text": "Mancuso, J.:\nThis is a motion to dismiss an indictment found against the defendants charging each of them with the crime of assault in the first degree, as a second offense, and assault in the second degree, as a second offense.\nThe indictment alleges that \u201con the 8th day of June, 1923, in the County of Hew York, one Pietro Gini, with force and arms, in and upon one Herman Gabbe, did wilfully and-feloniously make an assault with a certain knife which the said Pietro Gini in his right hand then and there had and held, and did then and there wilfully and feloniously strike, beat, stab, cut, bruise and wound, with intent to wilfully and feloniously kill, the said Herman Gabbe;\n\u201c And that the defendants were then and there feloniously concerned in the commission of the said assault and felony by the said Pietro Gini in the manner and form aforesaid, and did then and there feloniously aid and abet him in the commission of the same, and did then and there feloniously counsel, command, induce and procure him, the said Pietro Gini, to do and commit the said assault and felony in the manner and form aforesaid.\u201d\nThis is a superseding indictment resulting from an indictment previously found and which was dismissed under section 292-a of the Code of Criminal Procedure which reads as follows : \u201c If there be at any time pending against the same defendant, two indictments for the same offense; or two indictments for the same matter, although charged as different offenses, the indictment first found, shall be deemed to be superseded by such second indictment, and shall be set aside.\u201d\nCounsel argues that the superseding indictment, namely, the one under consideration at the present time, should be dismissed because the evidence offered before the grand jury does not constitute the commission of any offense, and that the evidence received by that body was insufficient to warrant the finding of said indictment, and his contention is based upon the fact that on the superseding indictment the witnesses to the occurrence, Gabbe and Gini, were not recalled, but that the only witnesses examined were Officer Anthony Braunworth, Officer Charles Harson, William Hannah, Charles Starapoli and James Di Pietro, who testified merely as to the offense previously committed by the defendants, and as the record of the jury now stands there was not a scintilla of evidence to show that the defendants were guilty of violating section 240 of the Penal Law.\nAn examination of the original indictment and the present indictment shows that both indictments were returned by the same grand jury, namely, the July grand jury, and that on the finding of the present indictment, that is, the superseding\u2019 indictment, the witnesses Gabhe and Gini were not recalled.\nIt is my opinion that it was not necessary for the same grand jury to have recalled Gabbe and Gini in view of the fact that the grand jury had already heard their testimony on the original indictment, and that where an indictment is quashed or dismissed the same grand jury can properly find and return a new indictment, if it involves the same offense and the same matter, without examining the witnesses anew.\nIn the case of Commonwealth v. Clune, 162 Mass. 206, the court held as follows: \u201c The plea in abatement was not well founded. It was not necessary for the grand jury to examine the witnesses anew before finding the second indictment, and the fact that some of the grand jurors who found the original indictment were absent when the second indictment was found, and that others were present when the second indictment was found who were absent on the former occasion, did not render the indictment invalid.\u201d\nIt appears conclusively, therefore, that the omission on the part of the grand jury to recall the witnesses Gabbe and Gini did not render the indictment invalid or insufficient on account of the fact that the same grand jury heard these witnesses on the same matter, and a recalling of the same witnesses would the original indictment which was for the same offense and for have been superfluous and unnecessary.\nTherefore, for the reasons above stated, the motion to dismiss the indictment on the grounds urged by counsel is hereby denied with leave to renew.\nOrdered accordingly.",
+        "type": "majority",
+        "author": "Mancuso, J.:"
+      }
+    ],
+    "attorneys": [
+      "Joab H. Banton, District Attorney, for People.",
+      "Smitkin & Goodman, for defendants."
+    ],
+    "corrections": "",
+    "head_matter": "COURT OF GENERAL SESSIONS \u2014 COUNTY OF NEW YORK.\nOctober, 1923.\nTHE PEOPLE v. THOMAS FALASCO.\n(121 Misc. 538.)\nIndictment \u2014 When gband juby may betubn a supebseding indictment WITHOUB BE-EXAMINATION OF CEBTAIN WITNESSES.\nWhen an indictment has been dismissed the grand jury that returned it may properly find and return a superseding indictment which involves the same offense and the same matter without re-examining certain of the witnesses sworn before the grand jury when the original indictment was found.\nMotion to dismiss indictment.\nJoab H. Banton, District Attorney, for People.\nSmitkin & Goodman, for defendants."
+  },
+  "file_name": "0004-01",
+  "first_page_order": 20,
+  "last_page_order": 22
+}

@@ -1,0 +1,202 @@
+{
+  "id": 807170,
+  "name": "THE PEOPLE v. DAVID LEWIS",
+  "name_abbreviation": "People v. Lewis",
+  "decision_date": "1906-03",
+  "docket_number": "",
+  "first_page": "48",
+  "last_page": "51",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "20 N.Y. Crim. 48"
+    },
+    {
+      "type": "parallel",
+      "cite": "111 App. Div. 558"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "14 N. Y. Crim. 174",
+      "category": "reporters:state",
+      "reporter": "N.Y. Crim.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "170 N. Y. 584",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2303704,
+        2303683
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/170/0584-01",
+        "/ny/170/0584-02"
+      ]
+    },
+    {
+      "cite": "16 N. Y. Crim. 235",
+      "category": "reporters:state",
+      "reporter": "N.Y. Crim.",
+      "case_ids": [
+        1186151
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/16/0235-01"
+      ]
+    },
+    {
+      "cite": "66 App. Div. 534",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1186151,
+        7688415
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/16/0235-01",
+        "/nys/73/0236-01"
+      ]
+    },
+    {
+      "cite": "111 N. Y. 569",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2218112
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/111/0569-01"
+      ]
+    },
+    {
+      "cite": "153 U. S. 308",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3577051
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/153/0308-01"
+      ]
+    },
+    {
+      "cite": "63 Ind. 567",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1510263
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/63/0567-01"
+      ]
+    },
+    {
+      "cite": "82 Mass. (16 Gray) 237",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Park. Cr. Rep. 134",
+      "category": "reporters:state",
+      "reporter": "Park. Cr.",
+      "case_ids": [
+        1262862
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/park-crim-rep/5/0134-01"
+      ]
+    },
+    {
+      "cite": "63 Hun. 579",
+      "category": "reporters:state",
+      "reporter": "Hun.",
+      "case_ids": [
+        1172854
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/10/0192-01"
+      ]
+    },
+    {
+      "cite": "150 N. Y. 365",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2274150
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/150/0365-01"
+      ]
+    },
+    {
+      "cite": "21 Hun, 311",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 394,
+    "char_count": 7492,
+    "ocr_confidence": 0.566,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.028927169112948285
+    },
+    "sha256": "7dcc9c7baa4224c96500d5d43a344eefe6833c35e316069c01c51cc0b49b7e38",
+    "simhash": "1:ab92d2f3a7c5da71",
+    "word_count": 1298
+  },
+  "last_updated": "2024-02-27T20:27:53.368575+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. DAVID LEWIS."
+    ],
+    "opinions": [
+      {
+        "text": "McLaughlin, J.:\nThe defendant, with others, was tried upon an indictment containing three counts charging him with (1) burglary in the third degree, (2) grand larceny in the .first degree, and (3) receiving stolen goods. At the beginning of the trial, upon motion of the district attorney, the court granted permission to withdraw the counts of grand larceny and burglary, and the trial then proceeded under, and the case was submitted to the jury on, the third count. The defendant was. convicted and thereupon made a motion for arrest of judgment, which was granted, and the People appeal.\nThe motion was granted, as appears from the statement of the learned trial judge and the briefs presented, upon the ground that the third count, under which the trial and conviction were had, standing by itself, did not state facts sufficient to constitute a crime and the defect in the indictment were not cured, notwithstanding reference was made to the preceding counts which set out the material facts omitted in the third count, under the authority of People v. Werbin (21 Hun, 311).\nIf we were disposed to follow the Werbin case, which we are not, it would not be difficult to distinguish it from the case now before us. The indictment was found and the indictment had in that case prior to the adoption of the Code of Criminal Procedure, which provides (\u00a7\u00a7 285, 542, 684) that an indictment is not sufficient, nor is the trial, judgment or other proceedings thereon affected by reason of an imperfection in matter of form which does not tend to the prejudice of the substantial rights of the defendant upon the merits, and that all technical objections must be disregarded which do not prejudice the defendant in such respect. There the defendant was indicted for arson. There were three counts in the indictment, two of which were abandoned by the entry of a nolle prosequi. Immediately upon such entry being made, defendant\u2019s counsel moved to discharge the defendant upon the ground that the third count was insufficient. The motion was denied, and on appeal the court held that the effect of the nolle prosequi was to strike out the first and second counts; that those counts having been in effect expunged, the third count was insufficient because its essential elements of time and place rested upon reference to allegations in that respect contained in the other counts. The Code of Criminal Procedure abolishes a nolle prosequi (\u00a7672). But even if the withdrawing of the first and second counts were to be considered in effect the same as the entry of a nolle prosequi, the Werbin case would not apply because there, as soon as the first and second counts had been abandoned, the objection was taken that the third count did not justify a conviction, while here no such objection was made until after the defendant had been convicted, and it must be held, under the authority of People v. McLaughlin (150 N. Y. 365) that the failure to object was in effect a consent by defendant that the first and second counts be retained for the purpose of explaining the references contained in the third count, and that when retained for that purpose the third count was sufficient.\nIt is unquestionably true that an indictment must contain every essential element of the crime charged, and the charge must be made directly and not inferentially, but it is equally true that a count in an indictment is good if the facts there stated, and those stated in a preceding count to which reference is made by apt and appropriate words, contain all the essential elements of the crime charged against the defendant and for which he is tried. (People v. Danihy, 63 Hun. 579; People v. Graves, 5 Park. Cr. Rep. 134; People v. McLaughlin, supra; Commonwealth v. Clapp, 82 Mass. (16 Gray) 237; State v. Dufour, 63 Ind. 567; Blitz v. United States, 153 U. S. 308; Crain v. United States, 162 id. 625.) The purpose of an indictment is to inform the defendant, at the time he is arraigned, of the crime which he is accused of having committed, to the end that he may prepare for and properly defend himself at the trial. This purpose is accomplished where there are several counts in an indictment, some of which are abandoned, if the count or counts under which the trial proceeds fully set out the facts constituting the crime either directly or by reference to preceding counts. Such reference draws to and embodies in the count under which the trial is had a statement of the facts omitted.\nThis defendant knew, at the time he was arraigned, that the third count in the indictment charged him with having received, at the time and place stated, the property mentioned in the first two counts in the indictment, knowing such property to have been stolen. It charged him with having knowingly received \u201c on the day and in the year aforesaid, at the borough and county aforesaid, the same goods, chattels and personal property mentioned, described and set forth in the second count of this indictment, to which reference is hereby made.\u201d That he knew this is obvious from the fact that he proceeded with the trial and in no way questioned the validity of this count until after he had been convicted. The indictment fully advised the defendant of the crime with which he was charged. It enabled him to prepare his defense. It protects him against a subsequent prosecution for the same offense. This is all that is required in an indictment. (People v. Weldon, 111 N. Y. 569; People v. Herlihy, 66 App. Div. 534, 16 N. Y. Crim. 235; affd., 170 N. Y. 584.)\nIf the foregoing views be correct, then it follows that the. order appealed from should be reversed, the motion in arrest of judgment denied, and the matter remitted to the Court of General Sessions of the Peace in and for the county of Hew York to proceed according to law and to render such judgment against defendant as it may be advised.\nO\u2019Brien, P. J., Ingraham, Clarke and Houghton, JJ., concurred.\nOrder reversed and motion denied, matter remitted to Court \u25a0 of General Sessions.\nSee Note on Indictment, 14 N. Y. Crim. 174.",
+        "type": "majority",
+        "author": "McLaughlin, J.:"
+      }
+    ],
+    "attorneys": [
+      "Robert C. Taylor, for the appellant.",
+      "Leonard A. Snitkin, for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "THE PEOPLE v. DAVID LEWIS.\nSUPREME COURT\u2014APP. DIVISION\u2014FIRST DEPARTMENT,\nMarch, 1906.\n(111 App. Div. 558.)\n(1). Trial.\u2014When Withdrawal of Counts in an Indictment Does Not Invalidate Conviction Under Remaining Counts.\nAlthough on the trial of an indictment charging (1) burglary in the third degree, (2) grand larceny in the first degree, (3) receiving stolen goods, the prosecution abandoned the first and second counts, a motion to arrest judgment after a conviction on the third count should not he granted when the point that the third count became defective by the withdrawal of the first and second counts was not raised until after the conviction. In the absence of such objection, the withdrawn counts remain in the indictment for the purpose of explaining the references contained in the third count, and if when retained for that purpose the third count is sufficient, arrest of judgment should not he granted.\n'(2). Code Grim. Proo. \u00a7 672\u2014Nolle Prosequi Abolished.\nThe nolle prosequi is abolished by section 672 of the Code of Criminal Procedure.\nAppeal by the plaintiff, The People of the State of Hew York, from an order of the Court of General Sessions of the Peace in and for the city and county of Hew York, entered in the office of the clerk of said court on the 6th day of February, 1906, granting a motion in arrest of judgment.\nRobert C. Taylor, for the appellant.\nLeonard A. Snitkin, for the respondent."
+  },
+  "file_name": "0048-01",
+  "first_page_order": 70,
+  "last_page_order": 73
+}

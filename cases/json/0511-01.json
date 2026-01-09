@@ -1,0 +1,370 @@
+{
+  "id": 1224755,
+  "name": "BUFFALO GRAVEL CORPORATION v. GUY B. MOORE, DISTRICT ATTORNEY",
+  "name_abbreviation": "Buffalo Gravel Corp. v. Moore",
+  "decision_date": "1922-05-03",
+  "docket_number": "",
+  "first_page": "511",
+  "last_page": "524",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 511"
+    },
+    {
+      "type": "parallel",
+      "cite": "201 App. Div. 242"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "92 App. Div. 569",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        5104591
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/92/0569-01"
+      ]
+    },
+    {
+      "cite": "173 N. Y. 629",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2308571,
+        2308663
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/173/0629-02",
+        "/ny/173/0629-01"
+      ]
+    },
+    {
+      "cite": "75 App. Div. 11",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        7705155
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/77/0805-01"
+      ]
+    },
+    {
+      "cite": "184 U. S. 540",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3626047
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/184/0540-01"
+      ]
+    },
+    {
+      "cite": "112 N. E. Rep. 664",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "273 Ill. 194",
+      "category": "reporters:state",
+      "reporter": "Ill.",
+      "case_ids": [
+        2406468
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill/273/0194-01"
+      ]
+    },
+    {
+      "cite": "66 N. E. Rep. 349",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "201 Ill. 236",
+      "category": "reporters:state",
+      "reporter": "Ill.",
+      "case_ids": [
+        5592624
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill/201/0236-01"
+      ]
+    },
+    {
+      "cite": "177 U. S. 28",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5705470
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/177/0028-01"
+      ]
+    },
+    {
+      "cite": "232 U. S. 700",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3672671
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/232/0700-01"
+      ]
+    },
+    {
+      "cite": "167 Mich. 477",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1611640
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/167/0477-01"
+      ]
+    },
+    {
+      "cite": "187 N. Y. 8",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2328269
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/187/0008-01"
+      ]
+    },
+    {
+      "cite": "168 N. Y. 89",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2299588
+      ],
+      "pin_cites": [
+        {
+          "page": "96, 101"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/168/0089-01"
+      ]
+    },
+    {
+      "cite": "69 Misc. Rep. 215",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        3312233
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/126/0775-01"
+      ]
+    },
+    {
+      "cite": "140 App. Div. 595",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2515651
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/140/0595-01"
+      ]
+    },
+    {
+      "cite": "2 Johns. Ch. 281",
+      "category": "reporters:state",
+      "reporter": "Johns. Ch.",
+      "case_ids": [
+        1178115
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/johns-ch/2/0281-01"
+      ]
+    },
+    {
+      "cite": "3 Hun, 84",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 N. Y. 23",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2164969
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/67/0023-01"
+      ]
+    },
+    {
+      "cite": "225 N. Y. 89",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1961332
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/225/0089-01"
+      ]
+    },
+    {
+      "cite": "103 Misc. Rep. 639",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 App. Div. 260",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2538384
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/135/0260-01"
+      ]
+    },
+    {
+      "cite": "35 Misc. Rep. 392",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        7756952
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/71/0977-01"
+      ]
+    },
+    {
+      "cite": "12 Abb. N. C. 446",
+      "category": "reporters:state",
+      "reporter": "Abb. N. Cas.",
+      "case_ids": [
+        1952442
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/abbn-cas/12/0446-01"
+      ]
+    },
+    {
+      "cite": "14 Barb. 425",
+      "category": "reporters:state",
+      "reporter": "Barb.",
+      "case_ids": [
+        4918420
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "450"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/barb/14/0425-01"
+      ]
+    },
+    {
+      "cite": "118 Misc. Rep. 61",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        751759
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc/118/0061-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 960,
+    "char_count": 25440,
+    "ocr_confidence": 0.523,
+    "pagerank": {
+      "raw": 4.942552523364223e-07,
+      "percentile": 0.9347380870467737
+    },
+    "sha256": "cc3c935772c544428cbb5a69cc1a8a6f63ff1a76010ff76049a231647ed62808",
+    "simhash": "1:6da215034989bfdb",
+    "word_count": 4273
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "BUFFALO GRAVEL CORPORATION v. GUY B. MOORE, DISTRICT ATTORNEY."
+    ],
+    "opinions": [
+      {
+        "text": "Hubbs, J.:\nThe respondents, who were engaged in the sand and gravel business in the city of Buffalo, were indicted by the grand jury of Erie county for violating the provisions of sections 340 and 341 of the General Business Law (Consol. Laws, chap. 20; Laws of 1909, chap. 25), known as the Donnelly Anti-Trust Act. After such indictment, they commenced an action in equity against the district attorney of Erie county to enjoin him from prosecuting them under said indictment. The complaint alleges that said statute is unconstitutional and void, that the plaintiffs have no adequate remedy at law, and that a prosecution under the indictment would work irreparable injury.\nThe defendant demurred to the complaint on the grounds that the court has not jurisdiction of the subject of the action and that the complaint does not state facts sufficient to constitute a cause of action. The Special Term overruled the demurrer (118 Misc. Rep. 61) and the defendant has appealed.\nThe question presented here is whether or not a court of equity has jurisdiction, at the suit of an indicted party, to enjoin the prosecution of a criminal action. Ho case in this State has been found where a court of equity has exercised such jurisdiction. There are cases where a court of equity has enjoined the enforcement of a municipal ordinance, in cases where its enforcement would affect property rights and work irreparable injury, upon the ground that it was unconstitutional. (Wood v. City of Brooklyn, 14 Barb. 425; Schuster v. Metropolitan Board of Health, 49 id. 450; Manhattan Iron Works Company v. French, 12 Abb. N. C. 446; United Traction Co. v. City of Watervliet, 35 Misc. Rep. 392; Ulster Square Dealer v. Fowler, 58 id. 325; Buffalo Fertilizer Co. v. Town of Cheektowaga, 61 id. 404; Star Co. v. Brush, 103 id. 631; 104 id. 404; City of New York v. New York Mutual Gas Light Co., 135 App. Div. 260.)\nIn United Traction Co. v. City of Watervliet (supra), an action to restrain city officials from enforcing a void ordinance, Mr. Justice Chester said: \u201cIt should be borne in mind that this action is not brought by a person under arrest, or who is threatened with arrest. It is not brought to determine the guilt or innocence of a defendant charged with a misdemeanor. If it were, a court of equity could not be successfully appealed to to restrain the prosecution.\u201d The same language was used by Mr. Justice Giegerich in Star Co. v. Brush (103 Misc. Rep. 639), which was also an action against city officials to restrain the enforcement of a void ordinance. The statement distinguishes all of the cases above cited from the case at bar, where the plaintiffs have been indicted by a grand jury at a term of the Supreme Court. Persons who are threatened with damage to property rights and irreparable injury by the threatened enforcement of a void ordinance have no redress, before arrest or indictment, except an action in equity to restrain the enforcement of such void ordinance, but a person who has been arrested or indicted for violating such ordinance has a complete and adequate remedy.\nThe case of Municipal Gas Co. v. Public Service Commission (225 N. Y. 89), holds nothing to the contrary. That was a civil action to restrain the enforcement of a statute which fixed the sum at which the plaintiff could sell gas in the city of Albany. That action was based upon the alleged fact that the price fixed had, because of changed conditions, become inadequate.\nCases in other jurisdictions where it has been held that a court of equity has power, in proper cases, to restrain the enforcement of a void statute have been called to our attention. It is necessary that we decide whether or not it is advisable to import into this jurisdiction such doctrine and thereby bring about a radical and most far-reaching innovation in our system of jurisprudence. It has been generally understood that no such power exists in a court of equity in this State.\nIn Wallack v. Society, etc. (67 N. Y. 23), an action was commenced in equity to enjoin the bringing of actions against the plaintiff to recover penalties on the ground that the statute authorizing such actions was unconstitutional and void. The plaintiff was the proprietor of Wallack\u2019s Theatre, in New York city, and the complaint alleged that, if actions were commenced to recover a one-hundred-dollar penalty for each performance given in said theatre without complying with the terms of the statute which the plaintiff alleged was void, it would work irreparable injury to the plaintiff and cause him great damage. The defendant demurred to the complaint. The demurrer was sustained and the judgment was affirmed by the General Term (See 3 Hun, 84) and by the Court of Appeals. It thus appears that the question was raised in that case in the same way that it is here, and the same argument, that the demurrer admits all of the material allegations of the complaint, was available to the plaintiff there, as it is here. The Court of Appeals held that a court of equity was without jurisdiction, saying: \u201c The unconstitutionality of the act of 1872 would be a perfect defence to a prosecution for the penalties given by it, and the question as to the constitutionality of the act has not been determined. It would, doubtless, be convenient for the plaintiff to have the judgment of the court upon the constitutionality of the act before subjecting himself to liability for accumulated penalties. But this is not a ground for equitable interference, and to make it a ground of jurisdiction in such cases would, in the general result, encourage, rather than restrain, litigation. Uor can the prosecution for the penalties be restrained in this action, on the ground that it is a suit in the nature of a bill of peace. The plaintiff does not bring it in behalf of himself and others claiming the same right. It does not appear that the validity of the law is questioned by any other person. The judgment in the action would only bind the parties to it. (Eldridge v. Hill, 2 Johns. Ch. 281.)\u201d\nIn Lee v. O\u2019Malley (140 App. Div. 595) an action was commenced to restrain the district attorney and others from enforcing a statute, the violation of which would subject the plaintiff to actions for penalties and make him guilty of a crime. The complaint alleged that the enforcement of the law would work irreparable injury to the plaintiff, that it would lead to repeated actions for penalties, and that he had no adequate remedy at law. The complaint set out the facts upon which said conclusions were based. A motion was made by the plaintiff for a temporary injunction. Upon that motion the complaint and affidavits filed by the plaintiff to show irreparable injury were not disputed by the defendant. The Special Term held that the statute in question was unconstitutional and granted a temporary injunction. (69 Misc. Rep. 215.) The Appellate Division reversed, holding that a court of equity had no jurisdiction.\nIt is elementary that \u201c Equity will not interfere to prevent the enforcement of the criminal law.\u201d That rule has never been departed from in a case in this State where a person had been indicted and seeks to avoid a trial on the indictment by bringing an action in a court of equity to restrain the enforcement of the statute under which he was indicted on the ground that it is void.\nThere are at least three ways in which the plaintiffs could raise the question that the statute for the violation of which they have been indicted is unconstitutional and void \u2014 either by motion to dismiss, by habeas corpus or by plea. Those are the methods which have always been followed in this State. They afford the plaintiffs and all others full protection and ample opportunity to raise the question which it is sought to raise in this action. To permit a person in an action in equity to test the constitutionality of a statute under which he has been indicted would result in a radical change in procedure and would often lead to great delay in the enforcement of the criminal law. It is a trite saying that the speedy enforcement of the criminal law is of more importance than the extent of the penalty imposed. To hold that equity has such jurisdiction would, as stated by Judge Andrews in Wallack v. Society, etc. (supra), \u201cin the general result, encourage, rather than restrain, litigation.\u201d The delay which has already occurred in this case is a good illustration of what would often, happen. The procedure which has always been followed in this State is adequate for the protection of persons arrested or indicted, and a court of equity should not assume jurisdiction in this case.\nAssuming, however, that the conclusion which we have reached is wrong, we think that the Special Term erred in holding sections 340 and 341 of article 22 of the General Business Law (Consol. Laws, chap. 20; Laws of 1909, chap. 25) unconstitutional. Sections 340 and 341 constitute a verbatim reenactment of sections 1 and 2 of chapter 690 of the Laws of 1899, known as the Donnelly Anti-Trust Act, and also as the Anti-Monopoly Act, which re-enacted and amended sections 1 and 2 of chapter 383 of the Laws of 1897 and which was substantially a codification of the common law upon the subject. (Matter of Davies, 168 N. Y. 89, 96, 101.\nThat statute was enacted to prevent the formation and maintenance of unlawful combinations in restraint of trade and to prevent the creation of monopolies \u201c in the manufacture, production or sale in .this State of any article or commodity of common use.\u201d Section 341 prescribed the punishment for the violation of section 340. By chapter 633 of the Laws of 1910, section 341 was re-enacted and amended so as to increase the maximum fine which might be imposed upon a corporation and by enacting a Statute of Limitations of two years. Chapter 490 of the Laws of 1918 amended section 340 by adding thereto the following: \u201c The provisions of this article shall not apply to co-operative associations, corporate or otherwise, of farmers, gardeners or dairymen, including live stock farmers and fruit growers, nor to contracts, agreements or arrangements made by such associations.\u201d The amending statute restated section 340 verbatim and added the amendment but did not in words repeal the section as it stood before. The section was again amended by chapter 712 of the Laws of 1921. Section 580 of the Penal Law defined conspiracy and made it a misdemeanor. Prior to 1918, and at the time the plaintiffs were indicted, it read as follows:\n\u201c \u00a7 580. Definition and punishment of conspiracy. If two or more persons conspire: * * * 6. To commit any act injurious to the public health, to public morals, or to trade or commerce, or for the perversion or obstruction of justice, or of the due administration of the laws, Each of them is guilty of a misdemeanor.\u201d\nChapter 491 of the Laws of 1918 amended section 582 of the Penal Law, which enumerated certain combinations not unlawful, by adding: \u201c Associations, corporate or otherwise, of farmers, gardeners or dairymen, including live stock farmers and fruit growers, engaged in making collective sales or marketing for its members or shareholders of farm, orchard or dairy products produced by its members or shareholders are not conspiracies. Contracts, agreements, arrangements or combinations heretofore or hereafter made by such associations or the members, officers or directors thereof in making such collective sales and marketing and prescribing the terms and conditions thereof are not conspiracies and they shall not be construed to be injurious to trade or commerce.\u201d The effect of said amendments, if - they are constitutional, and do not abrogate the statutes as they existed before, is to exempt the persons, associations and corporations named from the operation of the statutes as they existed before the amendments.\nIt is the contention of the respondents that the enactment of said amendments, chapters 490 and 491 of the Laws of 1918, had the effect of rendering sections 340 and 341 of the General Business Law unconstitutional, because such amendments created an arbitrary discrimination in violation of the equal protection clause of section 1 of the Fourteenth Amendment to the United States Constitution, and also in violation of section 6 of article 1 of the Constitution of the State, which provides that: \u201c No person shall * * * be deprived of life, liberty or property without due process of law,\u201d and that said amendments resulted in repealing said sections 340 and 341 of the General Business Law and subdivision 6 of section 580 of the Penal Law, thereby deleting all statutory regulations covering the subject of combinations and monopolies in this State. The Special Term has sustained the respondents\u2019 contention.\nThe Donnelly Anti-Trust Act, before the amendment of 1918, had been in force in the same statutory form in this State since the enactment of chapter 600 of the Laws of 1899, which re-enacted and amended chapter 383 of the Laws of 1897. It had been declared constitutional by the Court of Appeals. (Hatter of Davies, supra.) It had been enforced by the courts in mmy cases. It applied to the people cf the State, associations and corporations, generally, and it embodied the long-settled policy of the State upon that subject. It contained no arbitrary discriminations offensive to the Fourteenth Amendment of the United States Constitution or to the State Constitution. If it does now, after such amendment, it is solely because of the amendment. The amending act repeated the language of the original act and then added the provision excepting agriculturists from its provisions.\nThe concededly valid provisions of the act as it stood before the amendment and the alleged invalid amendment do not form an inseparable whole which cannot stand because one of its parts is invalid. If the amendment is void, it cannot nullify the statute which had been held to be constitutional.\nThe question, often troublesome, as to whether a statute would have been enacted by a Legislature without the provisions which are attacked as unconstitutional, is not present in this case, as the amendment in question was passed long after the original act. Hot until 1918 did the Legislature attempt to limit the general application of the act. If the Legislature, when it passed the amendment, enacted an unconstitutional amendment, that was a nullity. It did not change the original act, because it was itself void and inoperative from its inception. It could not operate to suspend or change the validity of the original statute which was valid and must stand as it did before the passage of the unconstitutional amendment. The Legislature had no intention of repealing the prior statute; its purpose was to amend it; and it was so stated in the act in the following words: \u201c is hereby amended to read as follows.\u201d (People ex rel. Farrington v. Mensching, 187 N. Y. 8; People v. Eberle, 167 Mich. 477; affd., sub nom. Eberle v. Michigan, 232 U. S. 700; Waters-Pierce Oil Co. v. Texas, 177 U. S. 28; Truax v. Corrigan, \u2014 U. S. \u2014; 66 Law. Ed. \u2014 [U. S. Adv. Ops. 1921-22, No. 5, January 16, 1922, p. 132] ; People ex rel. Akin v. Butler St. Foundry & Iron Co., 201 Ill. 236; 66 N. E. Rep. 349; Miller v. Sincere, 273 Ill. 194; 112 N. E. Rep. 664; Davis v. Wallace, \u2014 U. S. \u2014; 66 Law Ed. \u2014 [U. S. Adv. Ops. 1921-22, No. 6, February 1, 1922, p. 191].)\nThe respondents seek to distinguish the case of People ex rel. Farrington v. Mensching (supra) and the other cases above cited, on the ground that the amendments of the statute referred to in those cases were all illegal and unconstitutional, while, they contend, that the amendment in this case is valid and repealed the older statute. Their position is stated in the brief of the learned counsel for the respondents as follows: \u201c These amending statutes show a change in the policy of the State which, prior thereto, was to condemn the contracts, agreements, arrangements and combination, of all persons and corporations, in restraint of trade. The policy of the State was changed in 1918 to grant to farmers, gardeners and dairymen the right to make contracts, agreements, arrangements and combinations, which, prior thereto, would have been held to be in restraint of trade. These grants to farmers, gardeners and dairymen are valid and constitutional enactments of the Legislature. But as they are valid and constitutional, any other statute, which makes criminal the doing of acts by other than farmers, gardeners and dairymen, when those acts are permitted and allowed to be done by farmers, gardeners and dairymen, is unconstitutional and void and has been repealed.\u201d The respondents assume that the amendment constituted a grant of a right or privilege to the class named in it. It did not. It limited the operation of the original statute by excluding from its operation agriculturists, who, before the amendment, were included. If the amendment is valid, then it constitutes a legal exception to the provisions of the original act and they stand together. If it is invalid, it falls.\nThe respondents rely largely upon the cases of Connolly v. Union Sewer Pipe Co. (184 U. S. 540) ; People v. Niagara Fruit Co. (75 App. Div. 11; affd., 173 N. Y. 629), and People v. Windholz (92 App. Div. 569).\nThe Connolly case has no application, as the offending provision in the Illinois Anti-Trust Statute (Ill. Laws of 1893, pp. 182, 184, \u00a7 9) being construed in that case constituted an inseparable part of the statute as originally passed by the Legislature, and the court held that it could not determine the intent of the Legislature after the unconstitutional part had been eliminated.\nIn the case of People v. Niagara Fruit Co., the court expressly stated that it did not decide the question raised here.\nThe case of People v. Windholz was decided by a divided court, and the point that an amending provision, if unconstitutional, does not invalidate the existing statute, was not called to the attention of the court and was not discussed in the opinion. The question was treated as though the statute as amended was the original statute, and the question as to severability of a statute after amendment in connection with class discrimination was not discussed.\nIn the case at bar the Special Term held that the amendment was valid and within the police power of the Legislature, and that the amendment repealed the original statute by implication, or rendered it unconstitutional because the amendment established an illegal discrimination against those not in the class excepted by the amendment from the operation of the statute; that it made the original statute void under section 1 of the Fourteenth Amendment to the United States Constitution and under section 6 of article 1 of the State Constitution. Stating it another way, the court held that the amendment itself was valid, but that it made the statute which it amended unconstitutional. The court reached that conclusion because it decided that the amendment, in connection with the amendment to section 582 of the Penal Law, and the amendment of the Membership Corporations Law by chapter 655 of the Laws of 1918, which added article 13-A relating to the formation and powers of co-operative agricultural, dairy and horticultural associations, evinced a change of State policy upon the question, and established an intent upon the part of the Legislature to permit combinations which the original act prohibited, to wit, combinations of agriculturists. It also decided that when the Legislature passed the amendment it knew that it was discriminating against those not in the expected class and that by passing such amendment which changed the policy of the State, it intended to repeal the prior statute or make it unconstitutional and void. If such decision is correct, the Legislature accomplished exactly the same result as it would have accomplished if it had repealed the original statute. That is, it made it legal for agriculturists to combine because of the amendment, and it is legal for the respondents and all others because the amendment repealed the original statute.\nSuch decision involves the necessity of holding that the Legislature, by passing the amendment, did an idle and useless act. There would be no need of a statute empowering agriculturists to form combinations if the original act were repealed, for the repeal of that law would operate to permit them to form combinations the same as it would permit the plaintiffs to do so. In passing the amendments to section 340 of the General Business Law and section 582 of the Penal Law, it restated the original acts and placed in the statutes a restatement of those laws with the amendment to each, without repealing the original sections, when all it had to do to effect the same result was to pass an act repealing the original acts. Such holding infers that the Legislature was not frank and sincere, hut that it attempted to do by an indirect method that which could have been accomplished much better by a direct repeal of the statutes.\nIt is very apparent that what the Legislature attempted to do and intended to do was to preserve the old law and to engraft upon it an exception exempting agriculturists from its operation. The amendment passed in the endeavor to carry out such intention was either constitutional or unconstitutional. If unconstitutional, the old statute stands in full force and the amendment falls. If valid, then the Legislature acted within the police power and engrafted upon the statute a constitutional amendment and the statute stands with the amendment.\nTo say that an amendment contains an unlawful discrimination within the meaning of the Federal and State Constitutions and for that reason makes a prior valid statute unconstitutional reverses the natural order. The amendment is either unconstitutional and falls or it is valid and stands with the original statute. (Waters-Pierce Oil Co. v. Texas, 177 U. S. 28; Miller v. Sincere, 273 Ill. 194; 112 N. E. Rep. 664; People v. Eberle, 167 Mich. 477; affd., sub nom. Eberle v. Michigan, 232 U. S. 700.) In either event, the statute under which the indictment was found was a valid, existing statute.\nWe have examined the other questions raised by the respondents and they do not affect the decision which we have reached. We decline to pass upon the constitutionality of the amendment to section 340 of the General Business Law, as the question is only indirectly involved and has not been briefed by the appellant.\nThe order overruling the demurrer should be reversed, with costs, the demurrer sustained, with costs, and the complaint dismissed, with costs.\nAll concur.\nOrder reversed, with ten dollars costs and disbursements, demurrer sustained, and complaint dismissed, with costs.\nSince amd. by Laws of 1919, chap. 485, and Laws of 1922, chaps. 447, 448. \u2014 [Rep.",
+        "type": "majority",
+        "author": "Hubbs, J.:"
+      }
+    ],
+    "attorneys": [
+      "Guy B. Moore, District Attorney of Erie county, in person (Timothy N. Pfeffer, of counsel), for the appellant.",
+      "Penney, Killeen & Nye (Henry W. Killeen, James O. Moore and John A. Kelly, of counsel), for the respondents.",
+      "Charles D. Newton, Attorney-General (C. T. Dawes, Deputy Attorney-General, of counsel), for the State of ISTew York.",
+      "Seward A. Miller (P. C. J. De Angelis, of counsel), for the Dairymen\u2019s League Co-operative Association, Inc., intervenor."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014 APPELLATE DIVISION \u2014 FOURTH DEPARTMENT.\nMay 3, 1922.\nBUFFALO GRAVEL CORPORATION v. GUY B. MOORE, DISTRICT ATTORNEY.\n(201 App. Div. 242.)\nInjunction \u2014 Prosecution op indictment under unconstitutional STATUTE WILL NOT BE ENJOINED \u2014 REMEDY BY MOTION TO DISMISS, BY HABEAS CORPUS OR BY PLEA \u2014 EQUITY WILL NOT INTERFERE WITH ENFORCEMENT OF CRIMINAL LAW-GENERAL BUSINESS LAW, \u00a7\u00a7 340, 341, NOT UNCONSTITUTIONAL EVEN IF LAWS OF 1918, CHAP. 490, AMENDING \u00a7 340, IS UNCONSTITUTIONAL \u2014 ORIGINAL STATUTE AND AMENDMENT DO NOT FORM INSEPARABLE WHOLE \u2014 IF AMENDMENT VOID, OLD STATUTE STANDS AND AMENDMENT FAILS.\nThe prosecution of one indicted under, an alleged unconstitutional statute will not be restrained by a court of equity.\nIt seems that there are, at least, three ways that the constitutionality of a statute may be raised by one indicted thereunder, namely, by motion to dismiss, by habeas corpus or by plea.\nIt seems, that equity will not interfere to prevent the enforcement of the criminal law.\nSections 340 and 341 of the General Business Law were not made unconstitutional by chapter 490 of the Laws of 1918 which amended section 340, although such amendment may be unconstitutional, as the amendment was enacted long after the original statute and the two do not form an inseparable whole. If the amendment is void, the old statute stands and the amendment falls.\nAppeal by the defendant, Guy B. Moore, from an order of the Supreme Court, made at the Erie Special Term and entered in the office of the clerk of the county of Erie on the 17th day of February, 1922, overruling defendant\u2019s demurrer to the complaint.\nThe order overruled the demurrer of the defendant to the complaint, and ordered final judgment for the relief demanded in the complaint, to wit, that the defendant, the district attorney for Erie county, be restrained from proceeding against the plaintiffs under an indictment duly found against them by a grand jury of Erie county, unless the defendant served an answer within twenty days. The issue was brought on and tried as a contested motion.\nGuy B. Moore, District Attorney of Erie county, in person (Timothy N. Pfeffer, of counsel), for the appellant.\nPenney, Killeen & Nye (Henry W. Killeen, James O. Moore and John A. Kelly, of counsel), for the respondents.\nCharles D. Newton, Attorney-General (C. T. Dawes, Deputy Attorney-General, of counsel), for the State of ISTew York.\nSeward A. Miller (P. C. J. De Angelis, of counsel), for the Dairymen\u2019s League Co-operative Association, Inc., intervenor."
+  },
+  "file_name": "0511-01",
+  "first_page_order": 531,
+  "last_page_order": 544
+}

@@ -1,0 +1,77 @@
+{
+  "id": 1224701,
+  "name": "THE PEOPLE v. SANTO MANFREDONIO",
+  "name_abbreviation": "People v. Manfredonio",
+  "decision_date": "1922-01",
+  "docket_number": "",
+  "first_page": "41",
+  "last_page": "43",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 41"
+    },
+    {
+      "type": "parallel",
+      "cite": "117 Misc. 632"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Cty. Ct.",
+    "id": 9694,
+    "name": "New York County Court"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "27 N. Y. Crim. 16",
+      "category": "reporters:state",
+      "reporter": "N.Y. Crim.",
+      "opinion_index": -1
+    }
+  ],
+  "analysis": {
+    "cardinality": 309,
+    "char_count": 4606,
+    "ocr_confidence": 0.538,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.04506555176305706
+    },
+    "sha256": "4c75618064e813eb94ca2f35fe3135caeb66cfd112fbf16e611158191f0387bf",
+    "simhash": "1:1f0ceebed8aba40c",
+    "word_count": 808
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. SANTO MANFREDONIO."
+    ],
+    "opinions": [
+      {
+        "text": "Gibbs, J.:\nThe defendant was indicted for bigamy. Upon arraignment he pleaded guilty to the indictment and is now awaiting sentence. Counsel for the defendant now calls the court\u2019s attention to the fact that while the defendant was lawfully married he contracted a second marriage with one who was also lawfully married. The question now arises whether the defendant is guilty of the crime charged, in view of the fact that the spouse of his second marriage could not have lawfully entered into said marriage. There appear to be no cases in point in the State of New York. There are, however, a number of English cases which hold both ways.\nIn Reg. v. Fanning, 10 Cox C. C. 411, it was held that where a man who was a Protestant and legally married and remarried by a Roman Catholic clergyman to a Roman Catholic woman while his wife was still living, having represented himself to the woman as a Roman Catholic, he was not guilty of the crime charged, the reason being that such a marriage was not recognized by the law and, therefore, was a nullity. Judge O\u2019Hagan, dissenting, said, that the word \u201c marry,\u201d as used in the second part of the statute, meant the act of going through such a ceremony as, but for the former marriage, would have constituted a valid marriage. This language has been followed in a great many cases in England and in this country. (Reg. v. Brawn, 1 C. & K. 144, and Reg. v. Allen, 12 Cox C. C. 193.)\nWharton on Criminal Law, in section 2020, says as follows: \u201c Ho defense that bigamous marriage was voidable. The offense consisting in entrapping another into marital intercourse on a false plea, it is no defense that the second marriage was void on other grounds than that of bigamy; or where the second marriage was within the prohibited degrees or was prohibited on the ground of difference of race; * * * But an informal or imperfect ceremony, not based on the assent of the parties or followed by cohabitation, will not sustain an indictment.\u201d\nIn the case of Reg. v. Allen, supra, the defendant, while his second wife was alive, married a niece of his former deceased wife. The last marriage was within the prohibited degrees of affinity and void. It was held that the defendant was guilty of bigamy. The court, commenting on the case of Reg. v. Fanning, supra, said: \u201c How, the words \u2018 shall marry another person/ may well be taken to mean shall \u2018 go through the form and ceremony of marriage with another person.\u2019 The words are fully capable of being so construed without being forced or strained, and as a narrower construction would have the effect of leaving a portion of the mischief untouched, which it must have been the intention of the Legislature to provide against, and thereby, as is fully admitted by those who contend for it, of bringing a grave reproach on the law, we think we are warranted in inferring that the words were used in the sense we have referred to, and that we shall best give effect to the legislative intention by holding such a case as the present to be within their meaning. To assume that the words must have such a construction as would exclude it because the second marriage must be one which but for the bigamy would have been as binding as the first, appears to us to be begging the entire question, and to be running directly counter to the wholesome canon of construction which prescribes that, where the language will admit of it, a statutory enactment shall be so construed as to make the remedy coextensive with the mischief it is intended to prevent.\u201d\nIt is my opinion that the New York State statute should be construed as intending that any person who is legally married and goes through a ceremony of marriage recognized by the law of this State with another person, whether she is able to enter into the marriage contract or not, is guilty of the crime of bigamy.\nMotion denied.",
+        "type": "majority",
+        "author": "Gibbs, J.:"
+      }
+    ],
+    "attorneys": [
+      "Edward J. Glennon, District Attorney (George B. DeLuca, Assistant District Attorney, of counsel), for People.",
+      "Samuel Goldstein, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "COUMTY COURT \u2014BRONX COUNTY.\nJanuary, 1922.\nTHE PEOPLE v. SANTO MANFREDONIO.\n(117 Misc. 632.)\nBigamy \u2014 One legally married who goes through ceremony with ANOTHER ALSO LAWFULLY MARRIED, IS GUILTY OF BIGAMY.\nWhere one legally married contracts the second marriage in this state with one who at the time was also lawfully married, he is guilty of bigamy under the laws of the state of New York, and where at his arraignment upon an indictment charging Mm with the crime of bigamy, he pleads guilty, a motion in arrest of judgment will be denied.\nMotion in arrest of judgment.\nEdward J. Glennon, District Attorney (George B. DeLuca, Assistant District Attorney, of counsel), for People.\nSamuel Goldstein, for defendant.\nSee note, 27 N. Y. Crim. 16."
+  },
+  "file_name": "0041-01",
+  "first_page_order": 61,
+  "last_page_order": 63
+}

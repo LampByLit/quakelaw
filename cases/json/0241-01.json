@@ -1,0 +1,320 @@
+{
+  "id": 1228818,
+  "name": "THE PEOPLE v. WILLIAM H. ANDERSON",
+  "name_abbreviation": "People v. Anderson",
+  "decision_date": "1924-03",
+  "docket_number": "",
+  "first_page": "241",
+  "last_page": "261",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 241"
+    },
+    {
+      "type": "parallel",
+      "cite": "122 Misc. 801"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Sup. Ct.",
+    "id": 8791,
+    "name": "New York Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "142 N. Y. 334",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2260170
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/142/0334-01"
+      ]
+    },
+    {
+      "cite": "213 N. Y. 680",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        68689,
+        68732
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/213/0680-01",
+        "/ny/213/0680-02"
+      ]
+    },
+    {
+      "cite": "162 App. Div. 859",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        5551510,
+        1207911
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/148/0155-01",
+        "/ny-crim/31/0392-01"
+      ]
+    },
+    {
+      "cite": "153 N. Y. 576",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2277628
+      ],
+      "pin_cites": [
+        {
+          "page": "588"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/153/0576-01"
+      ]
+    },
+    {
+      "cite": "34 N. Y. 351",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        16525
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/34/0351-01"
+      ]
+    },
+    {
+      "cite": "165 Fed. Rep. 273",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        1886896
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/165/0273-01"
+      ]
+    },
+    {
+      "cite": "35 Cal. 503",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2305305
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/35/0503-01"
+      ]
+    },
+    {
+      "cite": "139 Fed. Rep. 961",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        1892383
+      ],
+      "pin_cites": [
+        {
+          "page": "969"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/139/0961-01"
+      ]
+    },
+    {
+      "cite": "31 Pac. 45",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 Cal. 171",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2338711
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/96/0171-01"
+      ]
+    },
+    {
+      "cite": "14 Cal. App. 224",
+      "category": "reporters:state",
+      "reporter": "Cal. App.",
+      "case_ids": [
+        4583585
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app/14/0224-01"
+      ]
+    },
+    {
+      "cite": "182 N. Y. 415",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2323050,
+        1189847
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/182/0415-01",
+        "/ny-crim/19/0524-01"
+      ]
+    },
+    {
+      "cite": "116 Fed. Rep. 352",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Misc. Rep. 295",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        1847253,
+        1192239
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc/57/0295-01",
+        "/ny-crim/21/0535-01"
+      ]
+    },
+    {
+      "cite": "145 App. Div. 695",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1198970
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/26/0227-01"
+      ]
+    },
+    {
+      "cite": "86 Penn. St. 353",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1056616
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/86/0353-01"
+      ]
+    },
+    {
+      "cite": "34 Neb. 325",
+      "category": "reporters:state",
+      "reporter": "Neb.",
+      "case_ids": [
+        4430379
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/neb/34/0325-01"
+      ]
+    },
+    {
+      "cite": "169 App. Div. 22",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1211576
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/33/0445-01"
+      ]
+    },
+    {
+      "cite": "202 N. Y. 456",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1199046,
+        4489127
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/26/0367-01",
+        "/ny/202/0456-01"
+      ]
+    },
+    {
+      "cite": "140 App. Div. 591",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1196821
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/25/0173-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1477,
+    "char_count": 40864,
+    "ocr_confidence": 0.512,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.04604129429939738
+    },
+    "sha256": "1f6b424a88bd40a727178dbeaad9d8dc85796f1d8a18299428295dec2b2d41ec",
+    "simhash": "1:2227e60004898a6a",
+    "word_count": 6973
+  },
+  "last_updated": "2024-02-27T16:15:52.747790+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. WILLIAM H. ANDERSON."
+    ],
+    "opinions": [
+      {
+        "text": "Wagner, J.:\nThe within application, pursuant to Code of Criminal Procedure, sections 527-529, is for a certificate that there is reasonable doubt in the belief of the court that the judgment of conviction of the defendant for the crime of forgery in the third degree, for which crime he has been sentenced to state\u2019s prison for a term of from one to two years, will stand.\nThe indictment contains two counts, the first alleging in substance that on March 9, 1921, the defendant, then an officer' of the Anti-Saloon League, with intent to defraud, falsely made and caused to be made in a certain book of account known as the journal, belonging to and appertaining to the business of the Anti-Saloon League, a false entry set forth in full therein. This count was framed under that subdivision of the-Penal Law, section. 889, hereinafter in this opinion referred to as the second subdivisions 1, 2 and 3, providing as follows: \u201c A person who, with intent to defraud or to conceal any larceny or misappropriation by any person of any money or property:\n\u201c 1. Alters, erases, obliterates or destroys an account, book of accounts, record, or writing, belonging to, or appertaining to the business of, a corporation, association, public office or officer, partnership, or individual; or\n\u201c 2. Makes a false entry in any such account or book of accounts; or,\n\u201c 3. Willfully omits to make true entry of any material particular in any such account or book of accounts, made, written, or kept by him or under his direction,\n\u201c Is guilty of forgery in the third degree.\u201d\nThe remaining count in substance alleges that on said date the defendant, an officer and employee of the league, did feloniously falsify an account book known as the journal belonging to and appertaining to the business of the league by making the same false entry, and was framed under that subdivision of the Penal Law, section 889, hereinafter referred to as the first subdivision 1 thereof:\n\u201c A person who:\n\u201c 1. Being an officer or in the employment of a corporation, association, partnership or individuals falsifies, or unlawfully and corruptly alters, erases, obliterates or destroys any accounts, books of accounts, records, or other writing, belonging to or appertaining to the business of the corporation, association or partnership or individuals; * * *\n\u201c Is guilty of forgery in the third degree.\u201d\nA general verdict of guilty was rendered by the jury upon the submission of both counts of the indictment.\nThe proof shows that the false entry referred to in the indictment (People\u2019s Exhibit 5-A) was made in the said journal pursuant to the written direction- of the defendant to the head bookkeeper, in form as follows:\n\u201c Mr. Potter: Transfer from salary account. O. B. Phil-\nlips $4,400 to his expense account.\n\u201c (Signed) William H. Anderson.\u201d\nBy this entry the books of account were made to show that the sum of $4,400, which had been paid as salary and commissions to one Phillips, a collector employed by the league under written contract, for the year beginning May 1, 1920, and ending April 30, 1921, had been improperly or erroneously credited as a payment by the league of salary and commissions to him, and that the said sum should have been charged as a payment by the league to Phillips as and for expenses ostensibly but not actually incurred by him in its behalf; in other words, it was claimed that by the false entry the league\u2019s books of account purported to show that out of the sum of $18,893.80 which had been properly paid and credited by the league toward Phillips\u2019 salary and commission the sum of $4,400 had been erroneously credited as a payment thereon, and should have \u2014 and was, by virtue of such false entry \u2014 credited on the books as a payment by the league to Phillips for expenses, so that the books were so changed as to falsely show that there was still due, unpaid and owing to Phillips the sum of $4,400 for that fiscal year.\nThe general tenor of the court\u2019s charge with respect to the law of the requirements of proof as to the two counts may be shown from the following part of the charge:\n\u201c * * * Under the first count of the indictment an intent to defraud someone or some corporation is essential, and the defendant\u2019s guilt cannot be established unless it appear from the facts and circumstances and the entries themselves or in some way that there was an intention on his part to defraud; that there was an intention when he made the alterations or directed that they be made; that there was an intention on Ms part to thereby defraud someone or some corporation.\n\u201c To establish the defendant\u2019s guilt under the second count of the indictment it must appear that there was an intentional falsification or an unlawful or corrupt alteration of an account or books of account which false entry may be used \u2014 and I emphasize the words \u2018 may be/ used to the prejudice of the rights of the corporation, the owner of the account books \u2014 the corporation in this case, or bind such corporation or is capable of being used as legal proof at some time, or in some way, or at some place, against such corporation.\u201d\nThis excerpt sufficiently illustrates the law of the case as reiterated five different times during the court\u2019s charge to the jury in substantially similar form, and the theory upon which the case was to them submitted.\nThe first specification of error relates to the charge of the court, where in respect to the first count, the jury were instructed as to the necessity of their finding an intent to defraud' somebody or some corporation in order to warrant a conviction thereunder in that the court misinterpreted the scope of the section by enlarging the character of the object of the intended fraud, and did not define that such intent to defraud should be limited to the Anti-Saloon League, the owner of the books in which the entries were made. Succinctly, do the second subdivisions 1 and 2 of the Penal Law, section 889, require to maintain an indictment that the fraudulent intent be directed against the owner of the books of account? Argument for that construction appears to center, or as may be more properly termed, to gravitate upon obiter in People v. Drown, 140 App. Div. 591, adopted by the Court of Appeals in People ex rel. Isaacson v. Fallon, 202 N. Y. 456, and reiterated in People v. Fish, 169 App. Div. 22, as the settled doctrine that the object in view of the statute was to protect the corporation, association, partnership or individual who owned the books from-being defrauded by means of false entries or alterations therein.. and as \u201c a protection against domestic or internal attack, against treachery and betrayal from within, and so read, all of its parts are consistent, and the statute itself is reasonable.\u201d It can hardly be gainsaid that in this expression of opinion the court was viewing the statute as a whole, considering, first, the broad and general policy underlying the demand for its enactment, and, second, the legislative purpose that gave it birth. The theory and content of the entire third degree forgery statute were alone there adverted to; no allusion to the mental element as a necessary ingredient of the crime, namely, the intent or defraud, contained in any particular subdivision was made or intended. Latent doubt, however, is dissipated, and uncertainty must succumb to conviction when are considered the actual situations of the cases apropos to which the observation was made. In People v. Brown, supra, the defendants, who had made a false statement of their financial condition to an agency, founded on false entries in their books of account, were copartner owners of the business itself. Likewise, in the Fallon Case, supra, the omission of the entry of the transaction was by the owner, and by the bookkeeper under the direction and with the approval of the employer himself in People v. Fish. All were decided on the basis of the common-law doctrine recognized by the statute that a false entry in one\u2019s own books of account does not constitute a forgery. Contrasting the legislative purpose in making the statute applicable to persons who are under duties as employees, or of a like character, to keep true books of account of their employer\u2019s business, and retaining the distinction of the common law in the absence of imperative indication of its disuse, and since the first subdivision of section 889 expressly limits its application to employees and officers (the basis of the second count), obviously the general purport of the section rather than an interpretation of an isolated part of the subdivision on which the first count is based was the subject of the court\u2019s contention, and \u25a0such observation can in nowise aid in delimiting any part of the latter.\nAuthority, both judicial and statutory, is replete in discountenance of the point raised. The history of the section, with its genesis in 2 Revised Statutes, 703, section 36, and 2 Revised Statutes, 675, section 46, providing that where intent to defraud is required, it shall be sufficient if such intent be to defraud anybody or an individual, and carrying the same \u25a0directly into the provisions of the forgery section, later taken ever into the Penal Code, sections 718 and 721, and in turn incorporated into the present Penal Law, sections 3 and 921, would seem conclusive. The last provisions, exact counterparts of their ancestors in the above-mentioned sections of the Penal Law read:\n\u201c \u00a7 3. Construction of terms. In construing this chapter [i.e., the Penal Law] or an indictment or other pleading in a \u2022case observed, except when a contrary intent is plainly declared in the provision to be construed, or plainly apparent from the \u2022context thereof: * * *\n\u201c 5. Where an intent to defraud constitutes a part of a \u25a0crime, it is not necessary to aver or prove an intent to defraud any particular person.\u201d\nThe Penal Law, section 921, provides: \u201c Whenever, by any \u25a0of the provisions of this chapter, an intent to defraud is required, in order to constitute an offense, it is sufficient if an intent appears to defraud any person, association or body politic or corporate, whatever.\u201d\nThe explanation of the omission of these words verbatim in the Penal Code and Penal Law, theretofore contained in the statute against forgery, is expressed by the commissioners of the Code in their note to the draft of the act that \u201c the section in the text will also include the provisions of 2 Revised Statutes, section 46.\u201d For all purposes, therefore, those provisions requiring that there be no intent to defraud any particular person must be read in the second subdivisions 1 and 2 of the Penal Law, section 889', upon which the first count of the-indictment is drawn. That section is not alone barren of any declaration restricting such intent to any particular person, but likewise it is unapparent that such intent must occur either in the section itself or its context embodying other methods of the commission of the offense under the chapter, or article, on forgery. An intent to defraud is requisite in a number of its sections. See section 881 relating to uttering forged instruments; section 883, relating to uttering a writing signed with the wrongdoer\u2019s name; section 884, defining forgery in the first degree; section 887, defining forgery in the second degree; section 889, first, subdivision numbers 2 and 4, and second subdivisions 1, 2 and 3, defining forgery in the third degree; section 890, relating to an officer of a corporation selling fraudulent shares of stock; section 891, relating to the forging of passage tickets. In none is its object particularized, in none is any special declaration made. On the other hand, there is no difficulty in detecting circumstances where the intent must be directed to defraud a particular person. We need not traverse foreign ground for example. In the very section on which the indictment is drawn, in the second subdivision 4 thereof, the intent to defraud is limited to the defrauding of creditors. Larceny by trick and by false pretense (Penal Law, \u00a7 1290) instances such view, where \u201c an intent to deprive or defraud the true owner of his property \u201d is requisite to proof of that crime.\nJudicial interpretation has wrought the same result. In the absence of statute it has been held sufficient to charge an intent to defraud in forgery cases in general terms, without specification. Roush v. State, 34 Neb. 325; McClure v. Commonwealth, 86 Penn. St. 353; Riley v. State, 44 S. W. Rep. (Tex.) 498. Under the statute, the courts of this state haVe so held (People v. Hoyt, 145 App. Div. 695), and clearly so respecting the crime set forth in this indictment. People v. Hegeman, 57 Misc. Rep. 295, is controlling. The indictment there was under the same section on which the first count here was drawn. In speaking of the necessary elements of the crime Mr. Justice Dowling clearly set forth the rule as follows: \u201c It is, of course, not essential to the existence of an intent to defraud that the design should be to deprive some one of personal or real property; it may as well exist' in the design to deprive some one of a right. Bor is it necessary to have in mind the defrauding of a particular person if the consequences of the act would necessarily or might possibly be to defraud any person. But here must be at all events a possibility of some person being defrauded of something. The crime involves moral turpitude. Section 718 of the Penal Code (Penal Law, \u00a7 3, supra) renders it unnecessary to aver or prove an intent to defraud any particular person, but by section 721, Penal Code, (Penal Law, \u00a7 921, supra) it suffices if the intent appears to defraud any person, association or body politic or corporation whatsoever. This is in accord with an early rule enunciated by Lord Chief Justice Tindale, 5 Car. & P. 266, cited with approval by the United States Supreme Court in Horman v. United States, 116 Fed. Rep. 352, as follows: \u2018 Where a statute directs that in order to complete an offense it must have been with intent to injure or defraud any person, there is no occasion that any malice or ill-will should subsist against the person whose property is so destroyed. It is a malicious act in contemplation of law when a man willfully does that which is illegal and which in its necessary consequence must injure his neighbor.\u2019 \u201d Pp. 304, 305.\nColby\u2019s Criminal Law (Vol. 1, p. 587) sums up the requirement as follows: \u201c There need not be an intent to defraud any particular person, because a general intent to defraud is sufficient to constitute the crime; for if a person do an act the probable consequence of which is to defraud, it will in contemplation of law constitute a fraudulent intent.\u201d\nIt follows that the charge of the trial court, in the respect objected to and now alleged as erroneous, was a correct statement of the law and raises no plausible or arguable aspect of error.\nThe trial court\u2019s charge of the law applicable to the second count supra, is likewise the source of specification of error in that, in substance, the jury were instructed that to constitute the crime therein charged an intent to defraud was not necessary to be shown, but that an intentional falsification knowingly done or an unlawful or corrupt alteration of an account or book of account satisfied the requirement of those subdivisions of the section. It is true as a matter of law that it is competent for the legislature to prohibit the doing of a particular act and to provide a penalty for the violation of the prohibition, and the intention with which the act is done or the lack of any criminal intent in the premises may be immaterial unless such intent is made a part of the offense by the statute itself, and whether or not such intention is necessary is a matter of construction to be determined from the language of the statute in view of its manifest purpose and design. The presumption, however, is that when an act is made a crime by statute the statute is to be construed in the light of the common law in this respect and the existence of criminal intent to be regarded as essential. The court in the case at bar so charged, instructing the jury that a conviction under the second count required their finding that the defendant knowingly and intentionally directed \u25a0 falsification of the books or unlawfully and corruptly directed the alteration. That this was an essential element of the crime is observable from the phraseology of the section, where the qualifying terms \u201c unlawfully and corruptly \u201d are included in the crime. Inadvertence is not prescribed. Mistake or accident is not punishable. The falsification must be knowingly and intentional; the alteration corrupt and unlawful. The section, within its comers, forecloses the necessity for seeking assistance of meaning aliunde. The claim of counsel, however, reaches further. It seeks to extend by implication the requirements of proof as to the mental element essential to the commission of the crime entailed in the second count, what is known in law as a special or specific criminal intent, i.e., the integration of a distinct intent to defraud as part of the crime, in such way striving to read thereinto one of the common-law elements. That a statute is simply a fresh part of legal matter dipped into the previously existing ocean of law and, therefore, subject to all the old attractions, as has been said, is only partially true; in so far as it carried with it the requirement of criminal intent, not mentioned though discernible, it loses none of its prior identity. The other ingredients do not fare so well under our system of codification; as to them the desire for retention and the extent thereof are maintaind by expression. Elements become defunct not by escape of attention, but by the unwillingness of detainer. People v. Abeel, 182 N. Y. 415, is completely refutative. The indictment was grounded on subdivision 3 of the second part of section 889 of the Penal Law. The court held that the doctrines and principles of common-law forgery were not to be ipso facto read into the present statute, saying: \u201c The most obvious feature of this statute is that it adds to the list of forgeries several that were not known to the common law or to our statutes as they existed prior to 1884. And since it is beyond dispute that the act charged against the defendant is not one that would have constituted the crime of forgery under the common law or the earlier statutes, it is evident that it will not be profitable to discuss the eases decided under the law as it then stood. The power of the legislature to designate as statutory offenses acts that were lawful and innocent at common law is not challenged by the defe\u00f1se and, indeed, is too well established to permit of doubt or discussion at this late day.\u201d\nThe case is extremely valuable by way of illustration from three aspects: Firstly, it recognizes the statutory crime of forgery as complete in itself and unburdened with the requirements of common law; in other words, that the statute does not attempt to be absorptive and coextensive in that respect. Secondly, as to the subdivision of the identical section here concerned, the falsity referred to must be with knowledge (the law of the instant charge). And, furthermore, that intent to defraud is not a necessary attribute to statutory forgery in the third degree under another subdivision of section 889. At page 421 the court said: \u201cAnd that is why the legislature has found it necessary to frame statutes so broad as to include in the category of forgeries many acts which are criminal in their tendency and effect but do not fall within the earlier-definitions of that crime. One needs only to glance over the-chapter on forgeries in the Penal Code to appreciate how manifold are the methods by which the crime of forgery may be committed. In one class of cases the intent to defraud is of the essence of the crime. In another class the commission of the act presupposes criminal intent. In still another class the-mere commission of the act constitutes the crime without -reference to criminal intent. The section under discussion (514) is fairly illustrative of this condition. Its first subdivision deals -with the corrupt falsification, alteration, erasure, obliteration and destruction of corporate, copartnership and individual books of account. Subdivision 2 relates to the forging, alteration or counterfeiting of letters, telegrams, etc., with intent to injure or defraud when the act injures any other person in his good name, standing, position or general reputation. The third subdivision is the one relied upon by the prosecution, and the-fourth deals with the forgery of tickets of admission and the-like, in which the element of fraud is also an essential ingredient.\u201d And specially significant is the inferential allusion to the 1st subdivision of section 514, identical with the basis of the second count here, as one of the instances where intent to defraud need not be proved.\nThe same court in the Isaacson Case, supra, demonstrated that the falsification by an employee or official of an association- or corporation, under the 1st subdivision of section 889, is unlawful per se as a statutory crime, distinguishing it from the section underlying the first count of this indictment where an intent to defraud was a constituent part of the crime when it said at page 464: \u201cThe first part of section 889 of the Penal Law refers to acts by an officer or employee of a corporation, association, partnership or individual which are in themselves unlawful, while the last part of the section quoted refers to other acts of a person, where they are done or where a true entry of a material particular is omitted, with intent to defraud, or to conceal any larceny, or misappropriation by any person of any money or property.\u201d\nIn addition, a survey of the statute itself is illuminative and strengthens the conclusion. To ascertain and declare the intent of its framers the statute in its entirety and not partially must be scrutinized. Assurance of its non-necessity in the 1st subdivision is found in its inclusion in the 2d and 4th and nonappearance in the 1st and 3d subdivisions. Design, not oversight, is the strong if not only permissible inference that can be derivable from the section itself. Cognate statutes of other jurisdictions have been similarly read. People v. Tomalty 14 Cal. App. 224, relying on the previous decision in People v. O\u2019Brien, 96 Cal. 171, involved a statute making criminal the alteration or falsifying of the whole or any part of certain records, maps, etc., by an officer having custody thereof. A like contention was there advanced as to the validity of the indictment in not alleging that the acts charged were not committed with the intent to defraud some one and as to the refusal of the trial court to charge that an intent to defraud was essential to constitute the crime. These points were disposed of as follows (p. 229) : \u201c It is claimed that the indictment is fatally defective in not alleging that the alteration or falsification was done with intent to defraud some one. But the section under which the indictment was framed does not make a fraudulent purpose an ingredient of the offense, and it has accordingly been so held. People v. O\u2019Brien, 96 Cal. 171, 31 Pac. 45. As was indicated in the O\u2019Brien case the very wide range permitted in the punishment, which may in the discretion of the trial judge be a light fine only, indicates that the legislature intended to cover cases involving little or no moral turpitude. We do not doubt that a falsification of a public record willfully and knowingly made is prohibited and punished under this statute without regard to the existence of any purpose to defraud. Such is clearly the rule laid down in People v. O\u2019Brien, supra. * * * Neither did the court err in refusing appellant\u2019s instruction to the effect that the people must prove the allegation of fraud. As we have before seen, such allegation is surplusage and not an essential element of the offense under the statute.\u201d\nBaron Manin in Reg. v. Asplin, 12 Cox C. C. 391, so construed the English statute (24 & 25 Vict. chap. 98, \u00a7 37) prohibiting false entries in marriage registers. Failure to prove that the entry was fraudulent was urged as a ground for dismissal. The objection was overruled and the jury told that \u201c the sole question was whether the prisoner, well knowing his name was Asplin, had signed his name George Bichardson; if so, he was guilty.\u201d The baron, further, refused to reserve any of the points for the Court of Criminal Appeal.\nThe charge at bar, requiring that the falsification be made with knowledge of falsity, purposely, or intentional, was a correct construction of the section and in line with the well-defined judicial meaning of the word. This state of mind was referred to as \u201cdeliberate intention \u201d in Reg. v. Downes, 13 Cox C. C. 111, and \u201cwittingly, subtilly \u201d in 5 Elizabeth, chapter 14. No other intent is necessary than the intentional doing of the act the statute forbids, says Bishop in 1 Criminal Law, page 428. Sanborn, J., in United States v. 99 Diamonds, 139 Fed. Rep. 961, 969, speaking of a similar statute, took the same view in quoting Abbott in his Law Dictionary, at page 478: \u201cIn the more important uses, in jurisprudence, of \u2018 false \u2019 and \u2018 falsely, they usually import somewhat more than the vernacular sense of erroneous or untrue. They are oftenest used to characterize a wrongful or criminal act, such as involves an error or untruth intentionally and knowingly put forwrad. A thing is called false, when it is made or done with knowledge, actual or constructive, that it is untrue or illegal; or is said to be done falsely, when the meaning is that the party is in fault for its error.\u201d\nThe fallacy of defendant\u2019s claim lies in the attempt to inject into the defense covered by the 1st subdivision a specific intent which the legislature has not seen fit to include as an ingredient of the crime therein provided against, and in failing to recognize the distinction between the two subdivisions above discussed in that the one requires antecedent fraudulent intent, while the other makes criminal an act knowingly done which has a tendency to subsequently effect injury or fraud. The former is not exclusively confined to employees and officers; the latter is, and the act is unlawfully itself because of the tendency toward actual resulting injury irrespective of any prior intent by the actor at the time the falsification was made.\nIn submitting the case to the jury and defining the law applicable to the second count, in its requirement that the entries made be in some manner capable of use to the prejudice of or as proof at some time against the owner, the court apparently modeled its charge from the definition of such prime rendered in the Isaacson Case, supra. There the court said: \u201c The falsification of the books of a corporation, association, public office or officer, partnership or individual by any person when the act or omission of an act constituting the falsification binds the corporation, association, public office or officer, partnership or individual, or appears to be capable of being used as legal proof at some time, or in some way or at the same place, against such corporation, association, public office or officer, partnership- or individual, is and should be, forgery.\u201d\nThe point is now made, though the charge was unexcepted to, that it was improper to submit that question to the jury, since it constituted a question of law for the court. Defendant\u2019s counsel has submitted no authority for this contention; the court, after an exhaustive search, has found none. But, after all, the law proceeds on principle and not merely by precedent, and principle, upholds the course taken. Forgery has always demanded that the entry, alteration or document be to the prejudice of a right. 4 Black. Com. 247. \u201c Any writing, which, if genuine, would operate as the foundation of another man\u2019s liability or the evidence of his right.\u201d 3 Greenl. Ev. \u00a7 103. This part of the statute punishes acts because of their tendency to injure and effect damage and fraud. The legislature has crystallized in statutory form the public interest in the integrity of such accounts. The act, therefore, must possess efficacy in law, real or apparent. Might it expose one to legal process or risk, irrespective of carrying with it elements of ultimate success? Is it apparently sufficient to constitute prima facie proof ? Does it speak a language different in legal effect from that it originally spoke, though its invalidity may be established by extrinsic facts? These are the tests. They are at most tests of evidence. All false entries \u2014 as the court below pointed out to the jury \u2014 are not criminal. They must tend to the result inhibited. At times a question of law is presented and must be decided as such, as where the paper or instrument is so palapably invalid that under no circumstances could it serve as the basis of a claim, or where the alteration is innocuous. People v. Tomlinson, 35 Cal. 503, involved a meaningless paper; Rex v. Richards, Russ. & Ry. 193, had to do with a promissory note devoid of signature. Both instance the exception. The question is not unlike reasonable time for delivery. A question of law for the court or a fact for the jury depends on the concomitant circumstances. Plain, certain and undoubted inferences from facts dictate the one course; variable instances the other. The court decides whether .the facts can be susceptible of an inference of negligence; \"whether they do or not is relegated to the triers of fact. Could this entry have the effect, or tendency thereto, made offensive by the statute ? Could it by some contingency be said to bring about the result? Neff v. United States, 165 Fed. Rep. 273. That called for judicial determination. Whether it did or not was a jury function upon which the Court did not, and could not, transgress.\nConfirmation, however, is derived from analogy. The materiality and influence of a false pretense presents a mixed question of fact and law in this state. Thomas v. People, 34 N. Y. 351, established the rule. The opinion of Wright, J., said: \u201c * * * the materiality and the influence of the pretences in question is for the jury to determine, on evidence, by verdict; unless some inducing circumstances upon the face of the indictment show that the pretences are clearly immaterial and could not influence credit. The averment of the pretences by the indictment is only to give the defendant notice of what may be proved against him; the mode of obtaining need not be pleaded; and if any pretence is capable of defrauding, that is sufficient. How, take the two pretences averred in the indictment, viz., that he was a chaplain in the army, just returned from the army, and wanted money to get home with, confessed by the plea to have been made, and to have been false, and to have induced credit, and to have induced a parting thereon of money, and to have been uttered with intent to defraud; \u2022and it may be correctly argued, that with such legal surrounding, they are quite sufficient to uphold the conviction. A court cannot say, as a matter of law, that these were not material representations, and were not calculated to deceive, and to induce credit; and were not within the statute, which speaks of obtaining by \u2018 any false pretence.\u2019 * * * Lord Denman, C. J., with the concurrence of all the judges, said: We can easily conceive how a belief that the defendant was a captain in the army might lead the other party to give the security; but that is a matter to be shown in the evidence.\u2019 \u201d\nThe concurring opinion held it a jury question, Smith, J., saying: \u201c The only question in this case is, whether the false pretences charged in the indictment were capable of defrauding, or, in other words, whether the court can say, as a matter of law, that Ludington could not have been, and was not, deceived by them. * * * But the false representations made by him, to the effect that he was a chaplain in the army, and that he was a friend of Wise & Go., of Lafayette, were of such a nature, that it is impossible to assert that Ludington was not deceived by. them, in respect to Thomas\u2019s ability to pay.\u201d\nThat court expressly reiterated the rule in People v. Peckens, 153 N. Y. 576, 588. The Appellate Division of this department in People v. Markheim, 162 App. Div. 859; affd., 213 N. Y. 680, applied it to the presentation of a fraudulent claim upon a contract of insurance. The plea of not guilty and the presumption of innocence in criminal cases would make erroneous any other instruction. It may be added that on six different occasions during the charge the court amply explained to the jury this phase of the law, and no claim was then, made of inadequacy.\nThe identical conclusion must be reached were the rule otherwise, thus negativing possibility of prejudice to the defendant. As a matter of law, the court not alone would have been justified, but compelled to hold that the entries were capable of use to the prejudice and as proof against the Anti-Saloon League or another at some time or by some reason. There was evidence that, at defendant\u2019s direction, the transfer was made on the league\u2019s books in order that Phillips might be saved from the duty of paying to the federal and state governments income tax on the amount shown. Prior to the change the books properly showed that the league had paid to him his salary and commissions for the year, in the sum of $18,893.80. The books thereafter showed that the sum of $4,400 had been erroneously paid as salary and commissions, but were paid on account of expenses incurred by him. Again, the written contract by Phillips with the league provided for an amount certain as to his salary and commissions, with a specific provision that his expenses should, in addition, be paid. No deduction was to be made from commissions ; they were to be paid in addition, and not chargeable against his account. Prior to the entries the books showed payment in full to him. The basis for a claim existed, and the books might be used in its aid. Assuming, therefore, merit in the contention \u2014 though the law, as I have stated above, is to the contrary \u2014 no prejudice could ensue and the verdict could not be disturbed. Ming v. Corbin, 142 N. Y. 334.\nThe final ground of alleged error founds itself on the refusal of the court t-o charge a request made by the defendant\u2019s counsel at the conclusion of the main charge. The prosecution, in its cross-examination of the defendant, had questioned him as to the source from which he had obtained, long previous, certain moneys alleged to have been expended by him on behalf of the Anti-Saloon League and which the league had agreed some time later to reimburse him for when informed and acquainted with the prior expenditures. In referring to these two matters in its main charge the court instructed the jury as follows: \u201c This defendant here cannot be convicted because of any testimony he gave respecting King or Mann, or because of any discrepancy between his testimony here and his statement to the board of directors of the league, whether they seem reasonable or unreasonable, whether you believe them to be true or false. This defendant cannot be convicted here for any such thing, and these matters are only to be considered by you in passing upon his credibility as a witness, and also upon his motive and intent in doing the things and making the alterations in the books with which he is charged.\u201d And at defendant\u2019s request charged: \u201c The evidence established an. indebtedness of the Anti-Saloon League to the defendant in the sum of $24,700, with interest as of April 9, 1919 (Rec. p. 867).\u201d\nFollowing this, defendant\u2019s counsel requested the court to charge: \u201c The defendant is not charged with fraudulently causing the board of directors of the Anti-Saloon League to establish an indebtedness to him in the sum of $24,700, or in any sum, and the testimony as to the source from which the defendant obtained that money and as to how that money was spent, is immaterial to this case and must be disregarded by you. The resolution of the board of directors of the corporation, dated April 9, 1919, establishes the indebtedness, and in this case you are not allowed to determine the validity of that resolution or of the indebtedness created thereby.\u201d\nThis request was refused, and error is claimed. That these matters could be considered as affecting the credibility of the witness and upon his motive and intent is clear. Equally so is the fact that the jury did not have before them the question of validity of the indebtedness to the defendant, evidenced by the resolution of the league. The law as thus charged was accepted by the defendant\u2019s counsel without complaint. The refused request improperly contained a proposition contrary to the law as formerly charged, as well as combined several distinct matters. It was counsel\u2019s duty to separate them if he desired a reiterated ruling as to each. The court was under no such duty where the law of each proposition had been previously and separately charged.\nA review or discussion of the evidence adduced upon the trial is unnecessary in view of the application now addressed to the court. It is sufficient to state that the ease involved questions of fact and that the verdict of the jury, who were the sole judges thereof, was supported by sufficient evidence. The court can see in the record no substantial right of the defendant invaded or placed in jeopardy, or any reasonable ground for belief that the evridet was against the weight of evidence or the law, or that any error of the law was committed, or that justice requires a new trial. No question of law is presented sufficient for or meriting the consideration of an appellate tribunal. It is only when such a state of doubt as to the lawfulness of the conviction exists in the court\u2019s mind that it can exercise its power to grant a certificate of reasonable doubt.\nMotion for a certificate is accordingly denied.\nOrdered accordingly.",
+        "type": "majority",
+        "author": "Wagner, J.:"
+      }
+    ],
+    "attorneys": [
+      "Joab H. Banton, District Attorney (Ferdinand I. P\u00e9cora,. Assistant Dist\u00f1ct Attorney, of counsel),. for People.",
+      "Charles S. Whitman, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014 SPECIAL TERM \u2014 NEW YORK.\nMarch, 1924.\nTHE PEOPLE v. WILLIAM H. ANDERSON.\n(122 Misc. 801.)\n(1) Forgery in third degree \u2014 Indictment charging superintendent OP ANTI-SALOON LEAGUE WITH FALSIFYING BOOKS OF LEAGUE CONTAINING two counts \u2014 Penal Law \u00a7 889, second subdivisions 1, 2 and 3j SECOND COUNT UNDER PENAL LAW, \u00a7 889, FIRST SUBDIVISION 1.\nUpon the prosecution of the superintendent of the Anti-Saloon League for the crime of forgery in the third degree under an indictment charging falsification of the books of the league, the first count being drawn under the second subdivisions 1, 2 and 3 of section 89 of the Penal Law, and the second count being drawn under the first subdivision 1 of said section, it was not error for the court in charging under the first count as to the necessity of the jury finding an intent to defraud, to fail to state that such intent should be limited to the Anti-Saloon League, the owner of the books in which the entries were made.\n(2) Same \u2014 Not error for court to fail to state that intent to DEFRAUD UNDER FIRST COUNT SHOULD BE LIMITED TO OWNERS OF BOOKS-Proper to instruct jury that to constitute crime under second COUNT INTENT TO DEFRAUD WAS NOT NECESSARY. TO BE SHOWN-KNOWLEDGE OF FALSITY, PURPOSELY OR INTENTIONALLY, SUFFICIENT.\nIt was proper for the court to instruct the jury as to the second \u25a0 count that to constitute the crime therein charged an intent to defraud was not necessary to be shown but that an intentional falsification: knowingly done or an unlawful or corrupt alteration of an account or book of account satisfied the requirements of the statute.\n(3) Same \u2014 Proper to nr struct jury that to constitute crime under-SECOND COUNT INTENT TO DEFRAUD WAS NOT NECESSARY TO BE SHOWN. As affecting the defendant\u2019s credibility as a witness and as bearing upon his motive and intent it was proper for the court to instruct the jury as to the testimony previously given by the defendant as to the-sources of money received and expended by him.\n(4) Same \u2014 Motion for certificate of reasonable doubt denied.\nA motion for a certificate of reasonable doubt should be denied since-no substantial right of the defendant has been invaded or any reasonable ground for belief established that the verdict was against the weight of the evidence or the law, or that justice requires a new trial,, and since no question of law is presented sufficient for or meriting the consideration of an appellate tribunal.\nMotion for a certificate of reasonable doubt.\nJoab H. Banton, District Attorney (Ferdinand I. P\u00e9cora,. Assistant Dist\u00f1ct Attorney, of counsel),. for People.\nCharles S. Whitman, for defendant."
+  },
+  "file_name": "0241-01",
+  "first_page_order": 257,
+  "last_page_order": 277
+}

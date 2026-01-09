@@ -1,0 +1,70 @@
+{
+  "id": 1228870,
+  "name": "THE PEOPLE v. CHARLES B. LOWE",
+  "name_abbreviation": "People v. Lowe",
+  "decision_date": "1924-06-06",
+  "docket_number": "",
+  "first_page": "438",
+  "last_page": "443",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 438"
+    },
+    {
+      "type": "parallel",
+      "cite": "209 App. Div. 499"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 459,
+    "char_count": 8819,
+    "ocr_confidence": 0.483,
+    "pagerank": {
+      "raw": 4.666970501906556e-08,
+      "percentile": 0.2925180193903197
+    },
+    "sha256": "509876ccf57ba1eae4e926973e06f5d5dadb7bb2f0db92d29dc1bce22fc20833",
+    "simhash": "1:97a9d7b94706f4fb",
+    "word_count": 1574
+  },
+  "last_updated": "2023-07-14T15:16:59.476267+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. CHARLES B. LOWE."
+    ],
+    "opinions": [
+      {
+        "text": "Smith, J.\nSection 956 of the Penal Law (as added by Laws of 1913, chap. 500) is as follows:\n\u201c A person engaged in the business of purchasing and selling as a broker stocks, bonds or other evidences of debt of corporations, companies or associations, who\n\u201c 1. Having in his possession, for safe keeping or otherwise, stocks, bonds or other evidences of debt of a corporation, company or association belonging to a customer, without having any lien thereon or any special property therein, pledges or disposes thereof without such customer\u2019s consent; or\n\u00ab2. * * *\n\u201c Is guilty of a felony, punishable by a fine of not more than five thousand dollars or by imprisonment for not more than two years, or by both.\n\u201c Every member of a firm of brokers, who either does, or consents or assents to the doing of any act which by the provisions of this or the last preceding section is made a felony, shall he guilty thereof.\u201d\nThe defendant was a member of the brokerage firm of Still-well, Leffier & Lowe. He was a young man about twenty-six years old and was a member of the Consoldated Stock Exchange, being the only one of the firm capable of conducting trades on the floor of the Stock Exchange. Stillwell, the head of the firm, was an older man and practically controlled the actions of the firm. The duties of the defendant required him to be continuously on the floor of the Exchange during its open hours. He received orders by telephone from the office of the firm and executed the orders without any authority except in connection with the execution of the orders. The defendant as floor member usually made the sale without any information as to the name of the party for whom the sale was made. The firm was strictly a commission concern, having customers for whom they bought and sold stocks on margin, and from whom they sometimes received stocks for sale not included in the margin account.\nAt the time of the happening of the events for which the defendant was indicted and convicted, a man named Lyendecker was trading through the defendant\u2019s firm, having a margin account with them. About April 24, 1922, Lyendecker gave an order to the defendant\u2019s firm through one Morris, called a customer\u2019s man, to sell 1,000 shares of Oklahoma Producing and \u00a1Refining Corporation stock at three and one-half. He had not at that time delivered any shares of Oklahoma stock to the defend ant\u2019s firm. During the next few days he canceled the order and gave another order which he subsequently canceled and then again gave an order to sell at three and one-hali. On April 28th he brought into the defendant\u2019s firm and gave to- Morris 1,000 shares of Oklahoma stock. He received a receipt showing that this stock was received \u201c on account.\u201d When he brought the stock in it it was under his order to sell at three and one-half, but he claims to have later in the same day canceled that order. On April 29th 500 shares of this stock were sold by the firm through Seligman & Go. and on May 8th another 500 shares were sold by the firm through Herman Brothers, a Consolidated Exchange house. There was no proof that the defendant had anything to do with the sale of the first 500 shares of stock and there was no direct proof that he had anything to do with the sale of the second 500 shares of stock, although there is some evidence with reference to this latter sale that he knew something about it at the time of the sale. There was no proof that either sale took place on the floor of the Exchange of which the defendant was the firm\u2019s sole member, and he testified that he did not participate in either of the sales, or have any knowledge thereof. There was some evidence on the part of the People that the defendant sometime after May 8th, and before the failure of the firm in June, had some knowledge of the fact that the stock had been sold and by-implication approved of the sale.\nThe judgment must be reversed for an error in the charge.\nThe section of the Penal Law quoted above has this clause: \u201c Every member of a firm of brokers, who either does, or consents or assents to the doing of any act which by the provisions of this or the last preceding section is made a felony, shall be guilty thereof.\u201d The court, in charging the jury, said: \u201c The laws says that any member of a firm who consents or assents to the act being done is equally guilty. How, both those words, * consent \u2019 and * assent \u2019 have definite meanings. I suppose a fair and simple definition of \u2018 consent \u2019 would be to say that it indicates a willingness that something about to be done shall be done. That is consent to an act. Assent to an act on the contrary means an approval of something that is already done.\u201d The court by this charge instructed the jury that if there was anything in the acts of the defendant after the sale that indicated an approval on his part of what had already been done that made him guilty of the crime charged in the indictment. Emphasis is laid by the trial judge upon this definition of assent by frequent repetitions, and when the jury came in for further instruction he repeated the same definition of \u201c assent \u201d and applied it to the acts of the defendant or the possible knowledge of the defendant after the sales. He emphasizes the point by saying: \u201c Any member of the firm * * * who assents to it being done after it has been done is guilty of this crime under this section against frauds and cheats on the part of the brokers.\u201d\nWhile we think there is and must be a distinction between the words \u201c consent \u201d and \u201c assent,\u201d as used in the Penal Law, we do not think that there was any legislative intent to- charge one with a crime who after the commission of the act learned thereof and expressed either by word of mouth or by silence an approval thereof. The section quoted says: \u201c Consents, or assents to the doing of any act.\u201d This clearly means an active acquiescence by \u201c consent \u201d or a silent acquiescence by \u201c assent \u201d with knowledge of the proposed act, but they both refer to conduct on the part of the defendant before or at the time of the happening of the act. The definitions given of the words \u201c consent \u201d and \u201c.assent \u201d in the dictionaries, and even in the cases cited by the brief on the part of the People indicate that there is a difference between the words \u201c consent \u201d and \u201c assent,\u201d but nowhere is there a statement that consent or assent .after the doing of the act in question brought it within the prohibition of the section of the Penal Law. A criminal statute must be construed most strictly in favor of the party charged with crime.\nThe proof of the defendant\u2019s participation in the sales was apparently so slight, and his knowledge or assent to the sales before or at the time they were made was so doubtful, that the error of the judge in charging as above might very well have caused the jury to convict the defendant on the ground that there was some proof that he had knowledge of the sale and approved thereof sometime after the sale.\nTor this error the judgment of conviction should be reversed and a new trial granted.\nDowling, Merrell, Tincii and McAvoy, JJ., concur.\nJudgment reversed and new trial granted. Settle order on notice.",
+        "type": "majority",
+        "author": "Smith, J."
+      }
+    ],
+    "attorneys": [
+      "T. Channon Press (Robert S. Johnstone of counsel; Stanley L. Richter with him on the brief), for appellant.",
+      "Joab H. Banton, District Attorney (Felix C. Benvenga, Assistant District Attorney, of counsel; Howard Hilton Spellman, Deputy Assistant District Attorney, with him on the brief), for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014 APPELLATE DIVISION \u2014 FIRST DEPARTMENT.\nJune 6, 1924.\nTHE PEOPLE v. CHARLES B. LOWE.\n(209 App. Div. 499.)\n(1) Brokers \u2014 Disposal by broker op customer\u2019s securities without CONSENT IN VIOLATION OP PENAL LAW, \u00a7 956.\nOn a criminal prosecution for violation of section 956 of the Penal Daw, making it a crime for a broker to sell securities without the consent of the customer, and providing that every member of a firm of brokers who either does or consents or assents to the doing of any act which constitutes a violation of the section shall be guilty, it is reversible error for the court to charge that the jury might find the defendant guilty if, although he had no knowledge of the sale, he thereafter assented to it or approved of the same.\n(2) Same \u2014 \u201cAssents\u201d as used in statute refers to act prior to or at TIME OF SALE.\nThe word \u201cassents\u201d as used in the statute, while it may differ in meaning from the word \u201cconsents\u201d as used therein, refers to an act prior to or at the time of the sale of the securities.\nAppeal by the defendant, Charles B. Lowe, from a judgment of the Court of General Sessions of the Peace of the City and County of Hew York, rendered on the 28th day of March, 1923, convicting him of disposing of a. customer\u2019s securities without his consent in violation of section 956 of the Penal Law.\nT. Channon Press (Robert S. Johnstone of counsel; Stanley L. Richter with him on the brief), for appellant.\nJoab H. Banton, District Attorney (Felix C. Benvenga, Assistant District Attorney, of counsel; Howard Hilton Spellman, Deputy Assistant District Attorney, with him on the brief), for the respondent."
+  },
+  "file_name": "0438-01",
+  "first_page_order": 454,
+  "last_page_order": 459
+}

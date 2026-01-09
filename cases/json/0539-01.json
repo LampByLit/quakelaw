@@ -1,0 +1,77 @@
+{
+  "id": 1228877,
+  "name": "THE PEOPLE v. HORACE BISSELL",
+  "name_abbreviation": "People v. Bissell",
+  "decision_date": "1924-11-08",
+  "docket_number": "",
+  "first_page": "539",
+  "last_page": "542",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 539"
+    },
+    {
+      "type": "parallel",
+      "cite": "123 Misc. 863"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Oneida Cty. Ct.",
+    "id": 9605,
+    "name": "County Court of New York, Oneida County"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "187 N. Y. Supp. 395",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 346,
+    "char_count": 6208,
+    "ocr_confidence": 0.467,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.04529156775073572
+    },
+    "sha256": "9abd7fb879c4c4be61aa98899eaf7413baedb24c4fed2a3b28c03af1cdb4b397",
+    "simhash": "1:821e6c86d10f8742",
+    "word_count": 1044
+  },
+  "last_updated": "2024-02-27T16:15:52.747790+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. HORACE BISSELL."
+    ],
+    "opinions": [
+      {
+        "text": "Hazard, J.:\nUpon this motion coming up for hearing, the representative of the eomplaintant makes certain preliminary objections, the purport of which is that under section 5 of chapter 547 of the Laws of 1922, being the Children\u2019s Court Act, so-called, and subdivisions 3, 4, and 5 of that section, the children\u2019s qourt has exclusive original jurisdiction in bastardy cases. The preliminary objection was taken under advisement and the whole matter submitted. While it is doubtless true that original jurisdiction is given to the children\u2019s court, this Blatter does not involve a question of \u201c original jurisdiction.\u201d' Authority for this special proceeding is found in sections 878-880 of the Code of Criminal Procedure. In section 45 of the dhildren\u2019s Court Act it is provided: \u201c All provisions of the penal law or code of criminal procedure or other statutes inconsistent with or repugnant to any of the provisions of this .act shall be considered inapplicable to the cases arising under this act. All statutes and laws, not inconsistent with these provisions, relating to courts exercising general jurisdiction shall apply with full force and effect, except as herein otherwise specifically provided. Chapter four hundred and eighty-nine, laws of nineteen hundred and fifteen, is hereby repealed.\u201d\nIt is probably true that some parts of sections 846 and 848, and perhaps some other sections in chapter 1 of title 5 of the Code of Criminal Procedure are thereby abrogated. The provision above quoted from section 45 of the Children\u2019s Court Act may raise a serious question as to those provisions contained in chapter 2 of title 5 of the Code of Criminal Procedure with reference to appeals from orders of filiation, but that question need not be decided here, as this is not an appeal. What is now before the court is in the nature of a special proceeding under sections 878 and 880 of the Code of Criminal Procedure for the discharge of the defendant from imprisonment. I do not think that the law authorizing this proceeding now before the court is repealed or abrogated. It is not inconsistent with or repugnant to any of the provisions of the Children\u2019s Court Act. That act has doubtless taken away frorii the county court original jurisdiction of bastardy cases. It has probably taken away from the county court the power to hear appeals from bastardy cases, but it does not follow that it was not intended to leave in the county court the right to hear an application of an imprisoned defendant for discharge from his imprisonment. Repeal by implication is not favored in law, and where a subsequent statute is to some extent in conflict with a previous one, it is the policy of the law to give both effect, if possible. People ex rel. Shipston v. Thompson, 187 N. Y. Supp. 395.\nAs sections 878-880 of the Code of Criminal Procedure do not seem to be repealed either in fact or by implication, I think the preliminary objection must be overruled. We thus come to the merits of the application.\nDefendant was after trial held as the putative father of a bastard child and required to give an undertaking for the payment of $5 a week for the support of that child, and $150 costs of the proceeding. This bond he has failed to give and he now makes an affidavit that he is unable to do so ; that he has no property, and asks to be relieved from jail where he has been, it seems, for two months past. Some claim is made by the prosecution that the defendant\u2019s, failure to furnish bail is contumacious^ and a strong disinclination so to do is rather apparent from the reading of his affidavits. He denies the paternity of the child, but that matter has been settled adversely to him in the children\u2019s court and is not an open question here. While there may be a limit to which this imprisonment should be carried, I am compelled to conclude that that limit has not yet been reached. My comprehension of bastardy proceedings is that they are somewhat coercive in their nature and quasi-criminal. Defendant is now in jail because of these facts and the purpose of this coercion is to compel him to do his plain duty by his putative child. As the matter stands, I am not convinced that at the present time the defendant has exhausted his resources and that he cannot furnish some security if he wishes, and, therefore, for the present at least his application will be denied.",
+        "type": "majority",
+        "author": "Hazard, J.:"
+      }
+    ],
+    "attorneys": [
+      "Searle & Searle, for the defendant and the motion.",
+      "F. A. Watters, opposed."
+    ],
+    "corrections": "",
+    "head_matter": "COUNTY COURT \u2014 ONEIDA COUNTY.\nNovember 8, 1924.\nTHE PEOPLE v. HORACE BISSELL.\n(123 Misc. 863).\n(1) Bastardy \u2014 Application op putative father op bastard child por DISCHARGE PROM IMPRISONMENT PURSUANT TO CODE OP CRIMINAL PRO- '\u25a0 cedur\u00e9, \u00a7\u00a7 878-880.\nThe power of the County Court to determine an application of an imprisoned putative father in bastardy proceedings for discharge from imprisonment is not abrogated or repealed by subdivisions 3, 4 and 5 of \u00a7 5 of the Children\u2019s Court Act (Laws 1922, eh. 549) which conferred on the Children\u2019s Court exclusive original jurisdiction in bastardy cases and withdrew from other courts the power of original jurisdiction in such cases.\n(2) Same \u2014 County Court has jurisdiction.\nAccordingly, the County Court has jurisdiction to hear and determine the application of the defendant, the putative father of a bastard child, for discharge from imprisonment, since the application is in the nature of a special proceeding, permitted by sections 878-880 of the Code of Criminal Procedure, which sections neither in fact nor by implication seem to be repealed. Moreover, the application does not involve a question of original jurisdiction.\n(3) Same \u2014 Defendant\u2019s application denied where he has not. exhausted HIS RESOURCES AND SHOWS LACK OF GOOD FAITH.\n\u2018Defendant\u2019s application for release from confinement will be denied, though he has been in jail for two months, since it appears that; he baa. neither exhausted all his resources nor exhibited goocl f^ith.\nDependant, 'held upon an order of filiation m children\u2019s court, Oneida county, requiring him to' give a bond for the support of a bastard child, makes this application under sections 878-880 of the Code of Criminal Procedure to be discharged from imprisonment.\nSearle & Searle, for the defendant and the motion.\nF. A. Watters, opposed."
+  },
+  "file_name": "0539-01",
+  "first_page_order": 555,
+  "last_page_order": 558
+}

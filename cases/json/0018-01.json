@@ -1,0 +1,121 @@
+{
+  "id": 1228876,
+  "name": "THE PEOPLE v. JOHN BOTT",
+  "name_abbreviation": "People v. Bott",
+  "decision_date": "1923-08",
+  "docket_number": "",
+  "first_page": "18",
+  "last_page": "22",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 18"
+    },
+    {
+      "type": "parallel",
+      "cite": "121 Misc. 360"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Sup. Ct.",
+    "id": 8791,
+    "name": "New York Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "18 L. R. A. 476",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "year": 1914,
+      "pin_cites": [
+        {
+          "parenthetical": "N. S."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "205 N. Y. 91",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1200393,
+        4499895
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/27/0153-01",
+        "/ny/205/0091-01"
+      ]
+    },
+    {
+      "cite": "96 N. Y. 188",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        555974
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/96/0188-01"
+      ]
+    },
+    {
+      "cite": "18 N. Y. 128",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2021216
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/18/0128-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 532,
+    "char_count": 8503,
+    "ocr_confidence": 0.554,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.04604747226575758
+    },
+    "sha256": "d40ef536958238ebd6f6a91307b7ceffe2127f6da2f2d518ea862e0c964b180c",
+    "simhash": "1:334fb13eed57a657",
+    "word_count": 1496
+  },
+  "last_updated": "2024-02-27T16:15:52.747790+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. JOHN BOTT."
+    ],
+    "opinions": [
+      {
+        "text": "Rodenbeck, J.:\nThe State Constitution guarantees the defendant a tria? by the \u201c judgment of his peers.\u201d Art. 1, \u00a7 1. This guaranty has appeared in the above language in every Constitution adopted by this State. Const. 1777, art. XIII; 1821, art. VII, \u00a7 1; 1846, art. 1, \u00a7 1; 1894, art. 1, \u00a7 1. It must be assumed that it has a specific- meaning and is intended to express some notion as to a procedure which was to be protected and guaranteed by its incorporation in the fundamental law. The language came from the Magna Charta where it is recited that no free man shall be taken, or imprisoned, or disseized, or outlawed, or exiled, or any wise destroyed, but by the lawful judgment of his peers or by the law of the land. Black. Comm. (1857) Book IV. *349; 1 Stubbs Const. History of England (1903), 577. When embodied in that instrument it had a well-known meaning. As originally understood it did not point to jury trial (1 Pollock & M. Hist. Eng. L. 173, note) and was not synonymous with trial by jury (Forsyth Jur. T. 91; Lesser Jury Sys. chap. XI), but \u201cin course of time the cry for judicium parium is (to the great distortion of history) supposed to find its satisfaction in trial by jury\u201d (1 Pollock & M., supra, 594), and Blackstone refers to it as meaning: \u201c A tribunal composed of twelve good men and true \u2018 boni homines,\u2019 usually vassals or tenants of the lord, being the equals or peers of the parties litigant; and, as the lord\u2019s vassals judged each other in the lord\u2019s courts so the King\u2019s vassals, or the lords themselves, judged each other in the King\u2019s court.\u201d 3 Black. Comm. (1857) 349.\nBut in this country where titles of nobility were abolished, the words \u201c judicium parium \u201d could not have had the meaning they had abroad. The framers of the original Constitution knew what the term meant and evidently intended to guarantee some form of trial against assault by the legislature. They could not have intended to guarantee merely a trial by jury for that right is specifically protected by another section of the Constitution (Art. 1, \u00a7 2). They meant to provide for a particular kind of jury. In the debate in connection with the adoption of the Constitution of 1846 a member proposed to eliminate the expression entirely as a meaningless phrase (Debates N. Y. State Const. Conv. 1846, p. 418), but the convention retained it as prior and subsequent conventions did as expressing some substantial guaranty of civil rights. If the framers of the State Constitution merely intended to guarantee a trial by jury they would have used the expression \u201c jury trial,\u201d as does the federal Constitution in criminal cases (Art. III, \u00a7 3) with the design of leaving the qualifications of the jury in such cases, and jury trials in civil cases, to the several States. Federalist, Ho. LXXXIII, by Alexander Hamilton. While there were to be no titles of nobility under the first Constitution, there would be conditions, however, of inequality as to civil rights among the inhabitants of the new republic. Slavery had not been abolished and above all there were many inhabitants who were not citizens and whose views might be antagonistic to those of the new government and its members. The danger of trial and conviction by those who were not on a political parity or \u201c judicium parium \u201d was a real and pressing one when the first Constitution was adopted and it has been guarded against ever since by preserving in the Constitution the expression \u201c judgment of his peers,\u201d which was so much more vividly understood in 1777, and by providing by statute that none but citizens should act as jurymen. By placing the guaranty in the Constitution the State has protected it against abolition by the legislature and against waiver by a defendant. This was to be a government by its citizens (Art. 2, \u00a7 1), and it was quite natural that jury service should be limited to citizens. This guaranty was both a protection and a privilege. It seems reasonable that the idea of government by its citizens should be carried into the judicial system and that the Constitution should provide that no \u201c member \u201d of the State should be deprived of any of his rights or privileges secured to any \u201c citizen,\u201d \u201c unless by the law of the land, or the judgment of his peers.\u201d Art. 1, \u00a7 1. To still further safeguard it, there is no provision for waiver as there is in civil trials (Art. 1, \u00a7 2), so that in a criminal case in which a jury trial is guaranteed by the Constitution there may be no waiver of a jury trial or a consent .to a trial by a less number than that contemplated by the Constitution. Cancemi v. People, 18 N. Y. 128. There is here no question of waiver, therefore, by failure to object or by negligence in the examination of the jury. The objection urged is one which survives the verdict and is available even if known to the defendant. The objection goes to the fundamental composition of the tribunal which is not within the control of the parties. People v. Bork, 96 N. Y. 188; Maurer v. People, 43 id. 1; Cancemi v. People, supra.\nBut even if this were not so and citizenship were not a constitutional qualification of a juryman, nevertheless it is of such magnitude and importance as to justify a new trial when the objection is not discovered in the exercise of reasonable diligence until after the trial. The statutory qualifications of a juryman are rarely inquired into, but on the contrary it is uniformly assumed that every juryman summoned is a citizen and otherwise generally qualified as required by statute. The examination on voir dire is almost universally directed to his bias, prejudice and partiality and it is not strange that neither the district attorney nor the defendant\u2019s counsel asked the jurymen in this instance if they were citizens. In the face of an almost universal practice of accepting the persons chosen by public officers to serve as jurymen as statutably qualified, it would be straining for a reason not based upon experience to say that the defendant should have asked the jury in this instance whether or not they were citizens. The question of age is sometimes brought out in the examination by counsel but usually because of the appearance of some juryman, but there is nothing in the appearance of an ordinary man to indicate whether or not he is a citizen. A man above or below the required age or one lacking the property qualifications (People v. Cosmo, 205 N. Y. 91) may make an excellent juryman. These are formal prerequisites. But not so with the qualification of citizenship. There is no presumption that an alien owing allegiance to a foreign government can act acceptably where the life of a citizen is at stake. A jury entirely made up of those not qualified as to age, residence or property may still render an impartial and just verdict but one made up entirely of aliens to try a citizen is fundamentally obnoxious. And if it is proper to convict of homicide with one alien, where shall the line be drawn when the number of those disqualified by alienage becomes sufficiently serious to vitiate the verdict ? The defect in the personnel of the jury in this instance is too grave and profound to pass over with a mere expression of opinion that the defendant ought to' have discovered the disqualification before trial. We pride ourselves that under our judicial system a plea of guilty to a charge of murder in the first degree will not be accepted and that however guilty the accused may appear to be, he is presumed to be innocent and is entitled to a fair and impartial trial and to have his guilt established beyond a reasonable doubt, and it would seem like a travesty indeed on these principles to hold that he can have such a trial when one or more of the jurymen are aliens and to call his conviction under such circumstances a \u201cjudgment of his peers.\u201d See 18 L. R. A. 476; 50 L. R. A. (1914) (N. S.) 973. Motion for a new trial granted.\nOrdered accordingly.",
+        "type": "majority",
+        "author": "Rodenbeck, J.:"
+      }
+    ],
+    "attorneys": [
+      "William F. Love, District Attorney, opposed.",
+      "Charles B. Bechtold, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014 SPECIAL TERM \u2014 MONROE COUNTY.\nAugust, 1923.\nTHE PEOPLE v. JOHN BOTT.\n(121 Misc. 360.)\nTrial \u2014 Where one op jury was later pound to be an alien dependantwill BE GRANTED A NEW TRIAL.\nWhere after a conviction of murder in the first degree it was discovered that one who sat as a juror was an alien, defendant\u2019s motion for a new trial will be granted upon the ground that his constitutional right to a trial by the \u201cjudgment of his peers\u2019\u2019 was invaded.\nMotion for a new trial.\nWilliam F. Love, District Attorney, opposed.\nCharles B. Bechtold, for defendant."
+  },
+  "file_name": "0018-01",
+  "first_page_order": 34,
+  "last_page_order": 38
+}

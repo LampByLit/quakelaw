@@ -1,0 +1,148 @@
+{
+  "id": 1224762,
+  "name": "THE PEOPLE v. HARRY COOPER",
+  "name_abbreviation": "People v. Cooper",
+  "decision_date": "1922-03-03",
+  "docket_number": "",
+  "first_page": "452",
+  "last_page": "458",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 452"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "175 N. Y. 353",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2311562
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/175/0353-01"
+      ]
+    },
+    {
+      "cite": "18 N. Y. 155",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2021213
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "160"
+        },
+        {
+          "page": "211, 213"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/18/0155-01"
+      ]
+    },
+    {
+      "cite": "18 N. J. Eq. 397",
+      "category": "reporters:state",
+      "reporter": "N.J. Eq.",
+      "case_ids": [
+        805215
+      ],
+      "pin_cites": [
+        {
+          "page": "399"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nj-eq/18/0397-01"
+      ]
+    },
+    {
+      "cite": "131 App. Div. 174",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2565269
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/131/0174-01"
+      ]
+    },
+    {
+      "cite": "209 N. Y. 207",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        62274,
+        1206181
+      ],
+      "pin_cites": [
+        {
+          "page": "210"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/209/0207-01",
+        "/ny-crim/30/0065-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 579,
+    "char_count": 11616,
+    "ocr_confidence": 0.537,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.04581097199103114
+    },
+    "sha256": "b32f73b28b2b94157ea97b6f735048edff36c1e85248ff499c34db6ccc416fa2",
+    "simhash": "1:2285886465ae9dc5",
+    "word_count": 1986
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. HARRY COOPER."
+    ],
+    "opinions": [
+      {
+        "text": "Kelly, J.:\nIt is provided in the Penal Law:\n\u201c \u00a7 1530. Public nuisance defined. A ' public nuisance \u2019 is a crime against the order and economy of the State, and consists in unlawfully doing an act, or omitting to perform a duty, which act or omission:\n\u201c1. Annoys, injures or endangers the comfort, repose, health or safety of any considerable number of persons; or,\n\u201c 2. Offends public decency; or,\n\u201c 3. Unlawfully interferes with, obstructs, qr tends to obstruct, or renders dangerous for passage, a lake, or a navigable river, bay, stream, canal or basin, or a stream, creek or other body of water which has been dredged or cleared at public expense, or a public park, square, street or highway; or,\n\u201c4. In any way renders a considerable number of persons insecure in life;, or the use of property.\u201d\nIt is provided in section 1532:\n\u201c \u00a7 1532. ' Maintaining nuisance. A person who commits or maintains a public nuisance, the punishment for which is not specially prescribed, or who wilfully omits or refuses to perform any legal duty relating to the removal of such a public nuisance, is guilty of a misdemeanor.\u201d\nThe premises complained of consist of a three-story house with rear buildings, located at 182 Jackson street, in the Green-point section of Brooklyn. The defendant conducted a laundry on the street floor of the premises, in which were operated six washing machines, four on one side and two on the other. The motive power was steam from a boiler in a building at the rear. The premises were formerly occupied by an express business. The building was owned by defendant\u2019s wife. The business was incorporated in November, 1919. Prior to incorporation the defendant personally owned the building.\nThe date of maintenance of the nuisance is alleged to be January 1, 1921, to April 1, 1921. It will be noted that this was after the incorporation, and defendant argues that the nuisance, if maintained, was so maintained by the corporation and not by defendant. But defendant was apparently the man in charge, was at one time president and at the date of the alleged crime was treasurer of \u2019 the corporation. I think the evidence was sufficient to hold him personally for the crime, if a crime was committed. There is no dispute that he was the man actually conducting the business and he could not escape responsibility for a crime by pleading agency.\nThere are two serious questions presented by the appeal:\n1. Whether, conceding the facts as stated by the witnesses for the prosecution, the evidence proved maintenance of a public nuisance as distinguished from a private nuisance.\n2. Whether there was any authority in law for the order directing defendant to abate the nuisance and that in default it should be abated by the sheriff.\nOonsidering the questions in inverse order: Section 953 of the Code of Criminal Procedure provides that where a person is convicted of maintaining a public nuisance and sentenced to punishment, the court may in its judgment direct that the nuisance be abated \u2014 but in the case at bar the defendant, who is not shown to be the owner of the property (indeed the proof shows that the laundry is owned and operated by a corporation, not a party to the criminal action), is ordered to abate the nuisance, and upon his default the sheriff is directed to abate the nuisance forthwith. Ho notice has been given the owner of the laundry business. What the defendant or the sheriff is to do is not stated. A laundry is not a nuisance per se. The locality described in the order is 182 Jackson avenue in the borough of Brooklyn. The laundry in question is at 182 Jackson street. I do not know of any Jackson avenue in the borough of Brooklyn, although there is a Jackson street, and a Jackson court and a Jackson place.\nBut I have grave doubt as to the legality of the order of abatement. The district attorney says in his points: \u201c The district attorney contends that it is within the power of the court to issue an order to abate the nuisance in any case where it finds the defendant guilty of maintaining such nuisance. Although appellant may not have owned the premises in question individually, the court found him guilty of the offense charged, and its order pursuant to such finding could be enforced in so far as appellant\u2019s connection with the said nuisance caused or continued its existence.\u201d Ho statute or authority is cited for this proposition.\nIn my opinion there is grave doubt whether the evidence of the witnesses for the prosecution established the crime of maintaining a public nuisance. That the noise and vibration caused by the machinery and the odor, said to be offensive, of the soap and other materials used in washing, annoyed the witnesses living next door may be conceded. This might be ground for a private action for injunctive relief, but I doubt whether the acts complained of measure up to an act which \u201c annoys, injures or endangers the comfort, repose, health or safety of any considerable number of persons.\u201d In People v. Kings County Iron Foundry (209 N. Y. 207, 210), Cullen, Ch. J., said: \u201c The expression \u2018 any considerable number of persons \u2019 is used solely for the purpose of differentiating a public nuisance, which is subject to indictment, from a private nuisance. But a considerable number of persons does not necessarily mean a very great or any particular number of persons. The travelers on a highway of a sparsely settled country town and those moving along the densely thronged city street are equally a considerable number of persons, and an illegal obstruction of a highway in the town and that of a city street are equally public nuisances.\u201d And in People v. Transit Development Co. (131 App. Div. 174), Hr. Justice Miller, writing for this court, in reversing a conviction for the maintaining of a public nuisance, said (at p. 178) : \u201c It is important at this point to observe the distinction between public and private nuisance. Blackstone defines \u2018 public or common nuisance \u2019 to be those \u2018 which affect the public, and are an annoyance to all the king\u2019s subjects;\u2019 and \u2018 private nuisances \u2019 to be \u2018 anything done to the hurt or annoyance of the lands, tenements, or hereditaments of another.\u2019 A public nuisance is a thing which \u2018 in its nature, or its consequences, is a nuisance, an injury or a damage to all persons who come within the sphere of its operation, though it may be in greater or less degrees \u2019 (Soltau v. De Held, 9 Eng. L. & Eq. 104, 111) ; a nuisance is public \u2018 when it affects the rights enjoyed by citizens as part of the public; as the right of navigating a river, or traveling on a public highway; rights to which every citizen is entitled.\u2019 (King v. Morris & Essex R. R. Co., 18 N. J. Eq. 397, 399.) * * * It is elementary that a private person cannot prosecute a suit for a public nuisance; though he may suffer injury, it is common to the public and can only be redressed by the State, either by indictment or by a suit to abate the nuisance. Though, where an individual suffers peculiar or special damage, not common to the public, the nuisance is as to him private, and he may have his action for damages or, in a proper case, may invoke the equity power of the court. (See Doolittle v. Supervisors of Broome Co., 18 N. Y. 155, 160; Kavanagh v. Barber, 131 id. 211, 213; Ackerman v. True, 175 N. Y. 353.) For the interference with the comfortable enjoyment of their homes, for the injury to their property, the owners thereof have an appropriate remedy, if there be a nuisance; but, as to each of them, the nuisance is private and does not become public, merely because a considerable number may be injured; for, otherwise, it would follow that, in case of special injury to each of a considerable number, no private suit could be maintained. Hence, while the evidence of annoyance and discomfort to those dwelling in the vicinity of the alleged nuisance was relevant, the case has to be considered solely from the aspect of the public or common rights invaded.\u201d\nIn the absence of any evidence that the alleged noise, vibration, odors, etc., annoy or inconvenience any one on the public street or at any other place, save that three individuals out of all the occupants of a six-story tenement on one side and one individual on the other side of the building complained of testify to these grievances against the defendant, I think there is not sufficient evidence in the record to justify the conviction of the defendant of a crime.\nIn my opinion the judgment and order for abatement of the alleged nuisance should be reversed.\nThe judgment of the Court of Special Sessions convicting defendant of maintaining a public nuisance, and order for abatement thereof, should be reversed and the defendant discharged.\nBlackmar, P. J., Jaycox, Manning and Young, JJ., concur.\nJudgment of conviction by the Court of Special Sessions, and order of abatement, reversed and defendant discharged.",
+        "type": "majority",
+        "author": "Kelly, J.:"
+      }
+    ],
+    "attorneys": [
+      "I. Maurice Wormser (Louis Ferkin with him on the brief), for the appellant.",
+      "John Francis Moore, Assistant District Attorney (John E. Ruston, District Attorney, and Harry G. Anderson, Assistant District Attorney, with him on the brief), for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014APPELLATE DIVISION \u2014 SECOND DEPARTMENT.\nMarch 3, 1922.\nTHE PEOPLE v. HARRY COOPER.\n(1) Public nuisance \u2014 Treasurer and manager op corporation may be HELD PERSONALLY LIABLE POR.\nThe treasurer and manager of a corporation which maintains a public nuisance may be convicted under section 1530 of the Penal Law of maintaining a public nuisance.\n(2) Same \u2014 Abatement\u2014Court has no power to order a treasurer and MANAGER OP A LAUNDRY CORPORATION TO ABATE THE NUISANCE, ETC., WITHOUR PROCEEDINGS AGAINST CORPORATION.\nOn the conviction of the defendant, as an individual, who was the treasurer and manager of a laundry corporation, for maintaining a public nuisance, the court did not have the power to order the defendant to abate the nuisance, and that in default of abating the nuisance, it should be abated by the sheriff, without procedings taken against the corporation.\n(3) Same \u2014 Laundry in residential section not a public nuisance\u2014 Penal Law, \u00a7 1430.\nThe noise and vibration caused by the machinery in a laundry and the odor, said to be offensive, of the soap and other materials used in washing, which the evidence for the prosecution showed annoyed a few people living in adjoining houses, did not amount to a public nuisance within the meaning of section 1530, subdivision 1, of the Penal Law, which defines a public nuisance as the unlawfully doing of an act which \"annoys, injures or endangers the comfort, repose, health or safety of any considerable number of persons.\u201d\n(4) Same \u2014 Evidence necessary.\nIn the absence of any evidence that the alleged noise, vibration, odors, etc., annoyed or inconvenienced any one on the public street or at any other place, save three individuals out of all the occupants of a six-story tenement on one side of the laundry and one individual, an occupant of the building on the other side of the laundry, there was not sufficient evidence on which to convict the defendant of the crime of maintaining a public nuisance.\nAppeal by the defendant, Harry Cooper, from a judgment of the Court of Special Sessions of the City of New York, Borough of Brooklyn, rendered on the 13th day of June, 1921, convicting him of the crime of maintaining a public nuisance, and also from an order of said court made on the 17th day of June, 1921, directing him to abate the nuisance in thirty days, and further directing that, in case of his default, the sheriff of the county of Kings abate the nuisance forthwith.\nI. Maurice Wormser (Louis Ferkin with him on the brief), for the appellant.\nJohn Francis Moore, Assistant District Attorney (John E. Ruston, District Attorney, and Harry G. Anderson, Assistant District Attorney, with him on the brief), for the respondent."
+  },
+  "file_name": "0452-01",
+  "first_page_order": 472,
+  "last_page_order": 478
+}

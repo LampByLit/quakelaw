@@ -1,0 +1,95 @@
+{
+  "id": 1224679,
+  "name": "THE PEOPLE v. SEVEN HUNDRED AND THIRTY-EIGHT BOTTLES OF LIQUOR",
+  "name_abbreviation": "People v. Seven Hundred & Thirty-Eight Bottles of Liquor",
+  "decision_date": "1921-07",
+  "docket_number": "",
+  "first_page": "270",
+  "last_page": "275",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 270"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 Misc. 252"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Cty. Ct.",
+    "id": 9694,
+    "name": "New York County Court"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "116 Misc. Rep. 243",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        747837
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc/116/0243-01"
+      ]
+    },
+    {
+      "cite": "251 U. S. 385",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3680880
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/251/0385-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 516,
+    "char_count": 10219,
+    "ocr_confidence": 0.517,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.04580421484032467
+    },
+    "sha256": "ecaab4f7832a0dbc1cb06ce54f7d3faee51ca0c9ee12c294625d253472a1bae6",
+    "simhash": "1:8bc19c7aebde782d",
+    "word_count": 1765
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. SEVEN HUNDRED AND THIRTY-EIGHT BOTTLES OF LIQUOR."
+    ],
+    "opinions": [
+      {
+        "text": "McKelvey, J.:\nOn or about the 10th day of May, 1921, the sheriff of the county of Saratoga entered certain premises located about four miles from the city of Saratoga Springs and seized a large quantity of liquors, which were found in one'of the rooms of the building. This entry and seizure was made under the supposed authority of a search warrant which had been issued by the city judge of Saratoga Springs. It is conceded here, however, that that court was without jurisdiction to issue such warrant, for the reason that it is not a court of record, and the entry and seizure must, therefore, be treated in this proceeding as having been conducted without the aid of a legal search warrant or other valid process.\nThe district attorney of the county, disregarding the search warrant, served upon the alleged owner the usual notice of a hearing to determine the disposition of the liquor so seized, and on the return day evidence was offered by the People as to the facts and circumstances surrounding the seizure. It further developed that in a replevin suit, subsequently brought, the liquors had passed out of the possession of the sheriff and into the custody of the coroner of the county, who now holds the same, although, I think, without legal authority, as the statute provides that replevin process does not lie in such cases.\nAt the close of the People\u2019s evidence, I entertained a motion made by the claimant\u2019s counsel for the dismissal of the proceedings and the return of the liquor, which was predicated upon the claim that the seizure without warrant was illegal, and that all of the evidence secured as the result of such seizure had been improperly received by the court. I then notified counsel for the claimant that if the decision of the court on that point should be adverse to him, an opportunity would be provided for the submission of further proof, if desired.\nBy the provisions of subdivision 5, section 117a of the Code of Criminal Procedure, any peace officer finding a person in the act of transporting intoxicating liquors contrary to law must seize the same and proceed against the person thus found and the liquors thus transported; and by subdivision 6 of the same section it is also declared that such peace officer may seize without warrant liquors held in unlawful possession by any person except in his own dwelling.\nUnder these provisions there is no requirement for a search warrant, it being obvious that the purpose of the statute would, in many instances, be defeated by the lapse of time necessary to prepare the document and secure the signature of a judge of a court of record. But the seizure of property without warrant has, from time immemorial, been generally disapproved in this State and nation, as it is offensive to our traditional ideas of government and tends to compel a defendant to disclose evidence against himself and surrender his property for that purpose without process of law, and I have serious doubt whether ultimately such practice will be approved, in view of the expressions contained in the decisions of the United States Supreme Court in Amos v. United States (U. S. Sup. Ct. Advance Opinions, 10, page 316), decided February 28, 1921, and Silverthorne Lumber Company v. United States, 251 U. S. 385. The recent holding of the judges of New York county, where the subject is being much debated at the present time, tend to the same conclusion. An illustration of such decisions is the opinion of Judge Tiernan in Matter of Horschler, 116 Misc. Rep. 243.\nUnder these decisions, it is certainly true that if this were a strictly criminal proceeding, arising out of the arrest of a defendant, the evidence obtained under this illegal search warrant would not he admissible over the defendant\u2019s objection, and his discharge would follow.\nIn any event, resort to the harsh and unusual remedy of search and seizure without warrant should be had only in those cases clearly within the purview of the statute; and in any instance where search and seizure is made, I am of the opinion that the officers of the law should be prepared to justify the same by proof of a violation of the statute. Thus, when subdivision 6 declares that there may he a seizure of liquors without warrant whenever any peace officer shall find any person \u201c in the unlawful possession thereof outside of his private dwelling,\u201d such officer should know, or at least have probable cause to believe, that the possession is unlawful and that the place is not the \u201c private dwelling \u201d of the owner. In other words, I do not think the basic principles of our constitutional government would permit of search and seizure without warrant under any other conditions; and the least that can he said of these portions of the statute is that they must be strictly construed.\nIndeed section 25 of the National Prohibition Act expressly prohibits even a search warrant for the searching of a private dwelling, except where there is an unlawful sale therein.\nBut in the consideration of a statute, so important in its purpose and so far-reaching in its effect, it is not fitting that a County Court of one of the many counties of the State should condemn its principle or unduly limit its effect; and until the law has been interpreted by a more authoritative tribunal, I feel it is my duty to apply the statute as it is written in terms. To do this in the present case, without danger of injustice to either side, requires additional proof, which the person claiming the liquor seized and now involved in this proceeding may supply, if he cares to do so.\nThe question of the legality of this seizure depends entirely upon whether the place was the \u201c private dwelling \u201d of the owner. If it was such \u201c private dwelling \u201d then the seizure was unlawful, and the liquors must be returned, regardless of all other considerations; because, under those circumstances, all of the evidence produced before the court was secured in violation of the constitutional rights of the owner, and the seizure itself was without justification in law. If, on the other hand, 'the place was not the \u201c private dwelling \u201d of the owner, the seizure was lawful under the statute as it is written, and before the owner may claim the return of his liquors he must prove that he comes within one of the exceptions stated in section 1213 of the Penal Law.\nUpon this question of the identity and character of the place some proof was offered at the hearing, but not enough to satisfy the court. The district attorney asserted that the burden of proving that the place was a \u201c private dwelling \u201d of the owner was upon the latter, while the learned counsel for the claimant contended that it was a necessary element of the People\u2019s case to negative this exception of the statute. This was the main question which the court reserved for decision at the close of the People\u2019s case.\nAfter careful consideration, I deem it my duty to hold and decide that the burden of proof upon this feature of the case is upon the owner of the liquor, by virtue of the provisions of section 1216 of the Penal Law, which reads, in part, as follows: \u201c and- the burden of proof shall be upon the possessor in any action concerning the same to prove that such liquor was lawfully acquired, possessed and used.\u201d\nTo provide the owner with an opportunity to meet this burden, I direct that another hearing be had at my chmabers in Saratoga Springs on July thirtieth, at ten a.m., unless the parties shall agree upon an earlier date; and at that time I will hear such evidence upon this point as the alleged owner of the liquor cares to submit. If his proof satisfies me that the place was his \u201c private dwelling \u201d within the meaning of the. statute, I will dismiss the proceeding and order the return of' the goods.\nA very recent decision of Judge Cooper of the United States District Court of New York in Connelly Case, and partially, reported in the newspapers of this date, would then control.\nIf the proof is not satisfactory on this point I will order the forfeiture of the liquors unless the owner can justify his possession in some other manner.\nI do not recall that the claimant filed a formal answer at the last hearing, hut if he desires to do so on the date fixed, I will permit it, so that he may definitely raise such questions as may be desired.\nOrdered accordingly.",
+        "type": "majority",
+        "author": "McKelvey, J.:"
+      }
+    ],
+    "attorneys": [
+      "Charles B. Andrus, District Attorney, for the People.",
+      "Leary & Fullerton (William J. Fallon, of counsel), for Isadore Rapaport, claimant."
+    ],
+    "corrections": "",
+    "head_matter": "COUNTY COURT \u2014 SARATOGA COUNTY\nJuly, 1921.\nTHE PEOPLE v. SEVEN HUNDRED AND THIRTY-EIGHT BOTTLES OF LIQUOR.\n(116 Misc. 252.)\n(1) Intoxicating liquor \u2014 Seizure without search warrant.\nThe seizure of property without a search warrant is offensive to our traditional ideas of govenment and tends to compel a defendant to disclose evidence against himself and to surrender his property for that purpose, without due process of law.\n(2) Same \u2014 Penal Law, \u00a7 1216 \u2014 Burden oe proof upon owner to show SEIZURE WAS MADE IN HIS PRIVATE DWELLING.\nIn a proceeding under the Excise Law to determine the disposition of intoxicating liquor, the unauthorized search warrant, by virtue of which it was seized, was disregarded and upon the return day of the usual notice, which had been given to the alleged owner of the liquor, evidence as to the facts and circumstances attending the seizure was given. Held, that under section 1216 of the Penal Law the burden of proof was upon the alleged owner to show that the place where the liquor was seized was his \u201cprivate dwelling,\u201d and that it was not a necessary element of the People\u2019s case to negative this exception of subdivision 6 of section 802-b of the Code of Criminal Procedure.\n(3) Same.\nIf, by evidence submitted on a further hearing, the alleged owner satisfies the court that the place was his \u201cprivate dwelling\u201d within the meaning of the statute, the proceeding herein will be dismissed with direction for a return of the liquor to him, but if the proof is not satisfactory, a forfeiture of the liquor will be ordered unless the owner can justify his possession thereof in some other manner.\nPboceediitg- to determine the disposition, of liquor, seized pursuant to provisions of Excise Law.\nCharles B. Andrus, District Attorney, for the People.\nLeary & Fullerton (William J. Fallon, of counsel), for Isadore Rapaport, claimant."
+  },
+  "file_name": "0270-01",
+  "first_page_order": 290,
+  "last_page_order": 295
+}

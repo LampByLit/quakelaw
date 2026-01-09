@@ -1,0 +1,161 @@
+{
+  "id": 1224689,
+  "name": "THE PEOPLE v. MICHAEL RUSSELL ET AL.",
+  "name_abbreviation": "People v. Russell",
+  "decision_date": "1921-06-10",
+  "docket_number": "",
+  "first_page": "247",
+  "last_page": "255",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 247"
+    },
+    {
+      "type": "parallel",
+      "cite": "197 App. Div. 239"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "196 App. Div. 950",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4626982,
+        4626683,
+        4625181,
+        4628574,
+        4626719
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ad/196/0950-03",
+        "/ad/196/0950-01",
+        "/ad/196/0950-05",
+        "/ad/196/0950-02",
+        "/ad/196/0950-04"
+      ]
+    },
+    {
+      "cite": "212 N. Y. 393",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        66961,
+        1207923
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/212/0393-01",
+        "/ny-crim/31/0449-01"
+      ]
+    },
+    {
+      "cite": "223 N. Y. 406",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        81745,
+        1218257
+      ],
+      "pin_cites": [
+        {
+          "page": "423"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ny/223/0406-01",
+        "/ny-crim/36/0419-01"
+      ]
+    },
+    {
+      "cite": "202 N. Y. 77",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        4484466,
+        1198983
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ny/202/0077-01",
+        "/ny-crim/26/0089-01"
+      ]
+    },
+    {
+      "cite": "212 N. Y. 402",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "218 N. Y. 584",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        77903
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ny/218/0584-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 777,
+    "char_count": 16312,
+    "ocr_confidence": 0.525,
+    "pagerank": {
+      "raw": 5.298132930532853e-08,
+      "percentile": 0.3322931182474345
+    },
+    "sha256": "f78402a3a485fbc2a8359335dc84363cdd85b8a1e5f2630eb323264fdff739a3",
+    "simhash": "1:30d8e1b326fca871",
+    "word_count": 2853
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. MICHAEL RUSSELL ET AL."
+    ],
+    "opinions": [
+      {
+        "text": "Rich, J.:\nOn the night of November 29, 1919, one Nels Anderson, a Finnish sailor, claimed to have been robbed of three dollars in money and a gold-filled watch.\nThe complainant arrived in New York city on the afternoon of November 29, 1919. After engaging a room in Henry street in the borough of Brooklyn, he purchased a bottle of whisky and proceeded to a dance hall in a remote outlying district in the borough, where he remained until some time after midnight. He drank the entire contents of his whisky bottle, and between three and three-thirty o\u2019clock in the morning, though it was raining, he was wandering aimlessly about the streets in the vicinity of the dance hall. Anderson seems to be somewhat hazy as to his movements between the time he left the dance hall, a little after midnight, and three-thirty o\u2019clock in the morning. He testified, however, that the appellant, who was a police officer, accosted him and asked if he had committed murder. He says the officer said: \u201c One man got killed last night. * * * Show your hand, if you got any blood on your hand;\u201d that the officer then went to a telephone on a pole in the street and said: \u201c \u2018 I have got here a fellow with black hair and an overcoat on, and I think he is the fellow.\u2019 Then he said something about a hallway, but I can\u2019t remember what it was, because I was afraid, because I thought what kind of trouble I got in, so I didn\u2019t take notice of everything that he was telling.\u201d He says the defendant placed him in a hallway and said he would return; that he did return half an hour later and took from his person three dollars in money, together with a gold-plated Elgin watch, substituting a nickel one.\nAfterward the complainant found his way to the Fort Hamilton Parkway station, where he made a complaint. He was taken to a police station, and after this, accompanied by Sergeant Rooney of the police, went out Fort Hamilton Parkway between Fifty-second and Fifty-third streets, and when opposite defendant, who was on patrol duty, the police sergeant called him over to him. The sergeant testified: \u201c Patrolman Russell was walking on Fort Hamilton avenue in the direction of Sixtieth street, and he had a man in citizen\u2019s clothes with him, and I seen them coming toward me before I got right up with them, and I had my chauffeur stop the machine when we got opposite them. I called Russell over to me, over toward the machine, and while he was coming over I got out of the machine on the roadway, and both him and the man in citizen\u2019s clothes had their hands in their overcoat pockets. I told them to take their hands out of their pockets. I called Nels Anderson around and placed him opposite the two men, close to a lamp post, a gas lamp that was burning. I asked Anderson if he had seen these men before, and he answered and said, \u2018 Yes, that is the policeman.\u2019 I said, \u2018 How about this other man ? Have you seen him before ?\u2019 After a slight hesitation, he says, \u2018 He looks like him.\u2019 He immediately followed that with the assertion, \u2018 Yes, that is the man that was with him.\u2019 I told the two of them to get into the automobile. They got in the seat with me, in the rear seat, and I put Anderson on the front seat with the chauffeur, and the five of us, with another officer \u2014 he stood on the running board\u2014 came in to the station house. Q. When he made this statement right in the presence of Officer Russell and this other man, what did Officer Russell and the other man say? Did they make any reply at all? A. Officer Russell. said that he never seen this man before.\u201d\nAfter a careful reading of the evidence, I am of the opinion that, in view of the obvious condition of complainant at that time, all uniforms looked alike to him and that he would have identified any person wearing a uniform that the sergeant produced. The only competent evidence upon the trial tending to connect the defendant with the commission of the crime, or even to show that a crime had been committed, was that given by the sailor, to which I have referred, except that a police officer testified to hearing some utterances of the defendant over the telephone, which, if made, would tend to corroborate the testimony of the complainant that the defendant did use the telephone after he had accosted him.\nThere was ill feeling on the part of the captain of the precinct toward the defendant, and without attempting to make any investigation other than to hear the story of the drunken sailor, he informed the defendant, who, so far as the evidence shows, had been a faithful officer for three years, \u201c I think you are guilty. I am going to lock you up.\u201d He said he searched the defendant, did not find the watch, but did find several bills, each rolled separately, in defendant\u2019s outside coat pocket. Much was made of this fact, though there is no claim that the bills taken from complainant were rolled separately. Defendant denied that he had ever seen the complainant prior to the time he was hailed by Sergeant Rooney in the street and arrested. He denied that the bills referred to were rolled separately, and claimed that they were neatly folded and that he had fifteen dollars and ninety cents in his pocket at the time. He accounts for his movements at the time, and from his testimony it appears that while patrolling his beat and at about ten minutes to three in the morning he heard screams, and while he was investigating, he met Cahill, the codefendant, and shortly afterward one O\u2019Keefe, a special officer engaged in home defense duty. O\u2019Keefe thought the noise might be from a house between Eighth and \u00a1Ninth avenues, where there had been trouble earlier in the evening. He says that he left his regular post and O\u2019Keefe and Cahill accompanied him to the house, but that it was quiet. If this testimony is true, it accounts for his leaving his post. It was 3:30 a. m. at this time, and defendant reported at box 15 that he was off post. He says that later police whistles were heard, and O\u2019Keefe started down Fortieth street to investigate, 'while defendant stood on Fort Hamilton Parkway and Thirty-ninth street in company with two sailors, five civilians, and a milkman. O\u2019Keefe returned, and defendant rang up box 15 again, reporting that he was on police duty and would be unable to get to box 16 in time. Defendant again heard whistles, and hailed a taxicab on Fort Hamilton Parkway, in which defendant, O\u2019Keefe and Cahill rode to Forty-ninth street, where he met Officer Brundrick, who informed him of a fire in another precinct. Defendant\u2019s testimony as to his whereabouts at the time when complainant claims that he was robbed is fully corroborated by home defense guard O\u2019Keefe. .\nThe whole case hinges upon the identification of the defendant by the complainant, who must have been intoxicated at the time of the commission of the alleged crime. An officer who drove the automobile in which he was riding at about 6 o\u2019clock in the morning noticed the odor of whisky on him. He was in a condition, I believe, when he would identify any person the sergeant might point out as the criminal. I agree with the learned justice who granted the certificate in this case, that \u201c There is reasonable doubt whether Anderson was robbed at all\".\u201d He was not searched, and his testimony in the Magistrate\u2019s Court leaves me in doubt as to whether he had a watch. In answer to a question as to what time he had left the dance hall, he said he did not know, \u201c I had no watch,\u201d which he qualified by \u201c I didn\u2019t look at the watch.\u201d There was an entire failure on the part\" of the People to establish the guilt of the defendant beyond a reasonable doubt, and the judgment of conviction should be reversed for this reason.\nThere is another reason, however, why this judgment cannot be sustained. Upon the direct examination of Sergeant Rourke, he was permitted to testify over defendant\u2019s objection and exception: \u201c He stated to me that he met a patrolman, accompanied by a citizen; that the patrolman told him he was looking for somebody in connection with a murder, and brought him over to a telephone pole and opened the box and said something in the box; that he later closed the door and told him he guessed he was not the fellow, and walked him around several blocks and took him into a hallway and told him to stay there until he would call for him. He stated that he thought there was something funny, and he took a roll of bills out of his pocket and shoved that down underneath his undershirt, and that after a while the ofiicer came back, and went through him and took out three dollars from his pocket and a gold-filled watch and chain, and put back an Ingersoll watch in his pocket \u2014 Nels Anderson\u2019s. He stated that he told the officer that that was not his watch and he did not want it, and gave it back to him; that the officer then took him outside and told him to go about his business, and that he went up to the elevated station and told the ticket agent.\u201d The evidence was hearsay, clearly improper and incompetent. It is true that the-court stated that the testimony was admitted subject to its being connected with the defendant, and that if it was not connected it would be stricken out, but this did not mitigate the error. The fact is that it was not stricken out. It was offered for the purpose of strengthening the complainant\u2019s story, and the jury were permitted to infer from the fact that it' was not stricken out that it had been connected with the defendant.\nThere is another reason why I think this judgment should be reversed, and in this I speak for myself alone. Sergeant Rooney, while upon the stand, was permitted to testify \u2014 and I have already referred to his testimony \u2014 that Anderson identified defendant. The identity of the defendant was a serious question upon the trial. The weight of the evidence was to the effect that this defendant was not the person who robbed complainant, if he was robbed, and yet upon that material point the People were permitted to show that the complainant identified the defendant as the man who stole his watch and money. This was a violation of the rule established in People v. Jung Hing (212 N. Y. 393).\nI advise that the judgment of conviction be reversed and a new trial granted.\nBlackmar, P. J., and Mills, J., concur; Putnam, J., reads for affirmance, with whom Jaycox, J., concurs.",
+        "type": "majority",
+        "author": "Rich, J.:"
+      },
+      {
+        "text": "Putnam, J. (dissenting) :\nThe feature of this case is that a policeman of three years\u2019 service has been convicted of robbing a sailor. When appellant was apprehended he was promptly locked up, and his fellow-officers, including the precinct captain, are witnesses for the prosecution. Such facts suggest a personal animus, which the defense has emphasized, and is one of the considerations moving the majority for reversal.\nThis precise circumstance, that suggests contrivance on the part of the People\u2019s witnesses, however, justifies what would otherwise be a technical error in admitting evidence. Hostility from the other officials may give a. coloring of testimony, and even lead one to ask if the narrative of the seaman, Nels Anderson, was not largely a product of suggestion leading him to make out a case against an unpopular fellow-officer. When such discredit is attempted, it is right to show the consistency of the People\u2019s witness, by earlier statements before he had become subject to any of these influences. (People v. Bertlini, 218 N. Y. 584.) In view of this acknowledged principle, I cannot regard it as error to receive evidence of Anderson\u2019s original identification, although at a stage of the trial before Anderson had been sought to he discredited. In the Jung Hing case the court recognized the exception where the witness is \u201c under the imputation that his story is a recent fabrication.\u201d (212 N. Y. 402.) The propriety of this ruling must be tested by the trial as a whole, not by an accidental order of proof which is in the discretion of the trial court. (People v. Barnes, 202 N. Y. 77.) Hence in my view there was no error in receiving testimony to the original identification.\nThis entire case leaves no satisfactory ground to substitute the findings of this court, which reviews upon a printed record, for that of the jurors who saw and heard the witnesses. The testimony of appellant\u2019s supporting witness Cahill, in my view, was most damaging; since the narrative of his aimless saunterings with Russell at 3 a. m. in a November rain storm strains credulity. The issue of identification is one of fact, and no adequate ground is shown to reject the jury\u2019s finding. (People v. Cohen, 223 N. Y. 406, 423.)\nAllowing Police Sergeant Rourke to testify to the declarations of Anderson at 4 a. m. that morning, when first brought to the police station, is claimed to be error. No identification had then taken place. Its importance was that at the first moment Anderson had made a complaint. He stated that he had been robbed and described the robber. The objection then raised was that defendant was not present when this complaint was received \u2014 an objection that misunderstood the grounds for its admission. It is not necessary to fall back on the rule that in rape, offenses of larceny and such crimes, the fact of an early and prompt complaint by the victim is relevant. (Wigmore Ev., \u00a7 1142; Stephens Dig. Ev., art. 8.) A Finnish seaman telling of his robbery by an officer in uniform may properly fall under the exception, by which a prior consistent statement is \u201c receivable to repel the suggestion of recent contrivance, upon a general principle applicable to all witnesses.\u201d (Wigmore, \u00a7 1762.) These are not objective facts, but merely declarations manifesting a state and attitude of mind, and are, therefore, exceptions to the hearsay rule. (1 Greenl. Ev., \u00a7 123.) Hence the objection made that defendant was not present was properly overruled.\nAs a whole, the trial was fair to appellant, although his counsel sought to call Anderson a Bolshevist.\nWith no good exception and nowhere any substantial error, I cannot vote to reverse, much as I share in the natural reluctance to condemn one of the city police.\nJaycox, J., concurs.\nJudgment of conviction reversed upon reargument, and new trial granted.",
+        "type": "dissent",
+        "author": "Putnam, J. (dissenting) :"
+      }
+    ],
+    "attorneys": [
+      "Robert H. Elder (Otho S. Bowling and Charles E. Russell with him on the brief), for the appellant.",
+      "Ralph E. Hemstreet, Assistant District Attorney (Harry E. Lewis, District Attorney, and Harry C. Anderson, Assistant District Attorney, with him on the brief), for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014 APPELLATE DIVISION-SECOND DEPARTMENT.\nJune 10, 1921.\nTHE PEOPLE v. MICHAEL RUSSELL ET AL.\n(197 App. Div. 239.)\n(1) Grand larceny \u2014 First degree evidence \u2014 Evidence not sustaining CONVICTION OF POLICE OFFICER CONVICTED WHILE ON DUTY.\nOn a prosecution for grand larceny in the first degree charged against a police officer who, it was alleged, while on duty, stole a watch and money from the complainant, evidence examined, and held, that the defendant\u2019s guilt was not established beyond a reasonable doubt.\n\u2022 (2) Same \u2014 Testimony by another officer as to statement made by COMPLAINING WITNESS IS HEARSAY.\nTestimony of a police officer offered by the prosecution in which he stated what the complainant said to him while not in the presence of the defendant was hearsay, clearly improper and incompetent, and should have been rejected.\n(3) Same \u2014 Trial\u2014Statement by court that if testimony was not CONNECTED WITH DEFENDANT IT WOULD BE STRICKEN OUT, ERROR IF IT WAS NOT STRICKEN OUT.\nA statement by the court that the testimony was admitted subject to its being connected with the defendant, and that if it was not connected it would be stricken out, did not cure the error, where in fact it was not stricken out.\n(4) Same \u2014 Evidence that complainant identified defendant impboper.\nIt was reversible error to permit the People to show that the complainant identified the defendant as the man who stole his watch and money, since the weight of the evidence was to the effect that the defendant was not the person who robbed complainant, if he was robbed.\n(Per Rich, J.)\nPutnam and Jaycox, JJ., dissent, with opinion.\nReargument of an appeal by the defendant, Michael Russell, from a judgment of the Supreme Court, rendered on the 8th day of March, 1920, convicting him of the crime of grand larceny in the first degree. (See 196 App. Div. 950.)\nRobert H. Elder (Otho S. Bowling and Charles E. Russell with him on the brief), for the appellant.\nRalph E. Hemstreet, Assistant District Attorney (Harry E. Lewis, District Attorney, and Harry C. Anderson, Assistant District Attorney, with him on the brief), for the respondent."
+  },
+  "file_name": "0247-01",
+  "first_page_order": 267,
+  "last_page_order": 275
+}

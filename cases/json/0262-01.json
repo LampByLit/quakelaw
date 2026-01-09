@@ -1,0 +1,66 @@
+{
+  "id": 807165,
+  "name": "THE PEOPLE v. ANTONIO STROLLA",
+  "name_abbreviation": "People v. Strolla",
+  "decision_date": "1906-10",
+  "docket_number": "",
+  "first_page": "262",
+  "last_page": "262",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "20 N.Y. Crim. 262"
+    },
+    {
+      "type": "parallel",
+      "cite": "186 N.Y. 526"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y.",
+    "id": 24653,
+    "name": "New York Court of Appeals"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 102,
+    "char_count": 1272,
+    "ocr_confidence": 0.523,
+    "sha256": "597888b2426818d3ed6ddb92cc74dfd236ddf7220674de97477f19807e1b592d",
+    "simhash": "1:9824248005309112",
+    "word_count": 212
+  },
+  "last_updated": "2023-07-14T16:43:28.778390+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. ANTONIO STROLLA."
+    ],
+    "opinions": [
+      {
+        "text": "Counsel for the defendant assigned at the time of his arraignment continues until the disposition of the appeal, unless such counsel voluntarily withdraw from the case or the relations as counsel are otherwise terminated. A new assignment of counsel is now unnecessary. Motion to dismiss appeal denied. Appeal to be perfected in sixty days; in default thereof the district attorney is at liberty to renew the motion to dismiss.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "William Travers Jerome, District Attorney (Robert C. Taylor of counsel), for motion.",
+      "James E. Brande opposed."
+    ],
+    "corrections": "",
+    "head_matter": "Court of Appeals.\nOctober, 1906.\nTHE PEOPLE v. ANTONIO STROLLA.\n(186 N. Y. 526.)\n1. Trial\u2014Assigned Counsel.\nA new assignment of counsel is unnecessary on appeal as the counsel for defendant assigned at the time of the arraignment continues until the disposition of the appeal, unless such counsel voluntarily withdraw from the ease or the relations as counsel are otherwise terminated.\nMotion to dismiss an appeal from a judgment of the Supreme Court, rendered April 30, 1906, at a Trial Term for the county of New York, upon a verdict convicting the defendant for the crime of murder in the first degree.\nThe motion was made on the grounds that the appellant had failed to file the return or taken any steps to prosecute the appeal.\nWilliam Travers Jerome, District Attorney (Robert C. Taylor of counsel), for motion.\nJames E. Brande opposed."
+  },
+  "file_name": "0262-01",
+  "first_page_order": 284,
+  "last_page_order": 284
+}

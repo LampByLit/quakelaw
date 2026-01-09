@@ -1,0 +1,143 @@
+{
+  "id": 1224736,
+  "name": "THE PEOPLE EX REL. PARIS v. WARDEN STATE PRISON",
+  "name_abbreviation": "People ex rel. Paris v. Warden State Prison",
+  "decision_date": "1922-01",
+  "docket_number": "",
+  "first_page": "421",
+  "last_page": "429",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 421"
+    },
+    {
+      "type": "parallel",
+      "cite": "111 Misc. 44"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Sup. Ct.",
+    "id": 10096,
+    "name": "New York Supreme Court Special Term"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "176 App. Div. 401",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1217024
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/35/0386-01"
+      ]
+    },
+    {
+      "cite": "179 App. Div. 792",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1218374
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/36/0123-01"
+      ]
+    },
+    {
+      "cite": "242 U. S. 27",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3933964
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/242/0027-01"
+      ]
+    },
+    {
+      "cite": "141 N. Y. 288",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2258387
+      ],
+      "pin_cites": [
+        {
+          "page": "293"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/141/0288-01"
+      ]
+    },
+    {
+      "cite": "181 N. Y. 398",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1189831,
+        2321719
+      ],
+      "pin_cites": [
+        {
+          "page": "402"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/19/0383-01",
+        "/ny/181/0398-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 582,
+    "char_count": 15377,
+    "ocr_confidence": 0.532,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.04580826913074855
+    },
+    "sha256": "e28ecdc5d13eb02e055afb2832363ce76d3b7e03719efcee8566c2da7550bd66",
+    "simhash": "1:872be7c673de250e",
+    "word_count": 2666
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE EX REL. PARIS v. WARDEN STATE PRISON."
+    ],
+    "opinions": [
+      {
+        "text": "Angell, J.:\nThis is a writ of habeas corpus to test the legality of further detention of relator in State prison. The relator was indicted for assault in the second degree, and pleaded guilty before the county judge of Bronx county. This was on November 19, 1920, and the commitment was made the same day.\nThere is an unexplained difference between the relator and the respondent as to the exact terms of the sentence imposed. As shown by the return to the writ of habeas corpus the sentence was as follows:\n\u201c It is Ordered and Adjudged by the Court, that the said Joseph A. Paris for the felony aforesaid whereof he is convicted, be imprisoned in the State Prison at Sing Sing at hard labor, under an indeterminate sentence, the maximum of such imprisonment to be five years and - months, and the minimum thereof two years and six months.\n\u201c After serving one year of the aforesaid, sentence, the defendant is to he returned to the County Court of Bronx County for final disposition.\u201d\nThe counsel for the relator has furnished an extract from the minutes of the clerk of the county of Bronx, certified to by the county clerk, which shows the form of judgment to be as follows:\n\u201cIt is hereby Ordered that Joseph A. Paris he confined in State Prison under an indeterminate sentence the minimum of which shall be not less than two years and six months and the maximum thereof not more than five years; and it is further\n\u201c Ordered: That after said Joseph A. Paris shall have served one year of said sentence he is to he returned to the County Court of Bronx County and placed on probation for the balance of said term.\u201d\nI cannot understand why there should be this variation. It is not important, however, in determining the merits of this case. If the relator is returned to Bronx county \u201c for final disposition \u201d of his case as stated in the return, the result will in all probability he that he will he \u201c placed on probation for the balance of said term \u201d as required hv the judgment in the form certified to by the county clerk.\nMore than a year having expired, it is contended on behalf of the relator that he is illegally detained and that he should be returned to Bronx County Court for final disposition in accordance with the judgment. The respondent has refused to return the relator, upon the advice of the Attorney General, who contends that the portion of the sentence relating to his return at the expiration of one year is illegal. This claim of illegality is based upon the amendment to section 2188 of the Penal Law (under which relator was sentenced), made by chapter 568 of the Laws of 1920, in effect May 8, 1920, which added to the section, as it had previously existed, the following sentence: \u201c Provided, however, that the imprisonment directed by the judgment, shall not be suspended or interrupted after such imprisonment shall have commenced.\u201d\nThe terms \u201c judgment \u201d and \u201c sentence,\u201d as used in the statute, are synonymous. (People v. Canepi, 181 N. Y. 398, 402.)\nSection 2188 has been frequently amended. It is one of the important sections of the Penal Law, governing, as it does, the sentencing of all prisoners. The successive amendments extending over a period of many years present an interesting study of the progress which has marked the administration of criminal law in this State. The first amendment of importance bearing upon the question under consideration was that made by chapter 279 of the Laws of 1893. This provided that the court might suspend sentence during the good behavior of the person convicted where the maximum term for his offense did not exceed ten years and where he had never before been convicted of a felony. By an amendment made by chapter 457 of the Laws of 1918 the court was given power, except in certain cases (and this case is not within the exception), to suspend sentence, or impose sentence and suspend the execution of the whole or part of the judgment, and, in either case, to place the defendant on probation in accordance with the provisions of section 11a of the Code of Criminal Procedure.\nIt seems to he conceded that under the amendment to the section made in 1918, the court had the power to impose such a sentence as was imposed in the instant case, unless such power was taken away by the amendment of 1920.\nThe power of the court at common law to suspend a sentence had for a long time been asserted by eminent authorities on criminal jurisprudence, and had been established by the practice of the courts of this and other States. (People ex rel. Forsyth v. Court of Sessions, 141 N. Y. 288, 293.) The Supreme Court of the United States, however, seems to have laid down a different doctrine in the opinion of Chief Justice White in Ex parte United States (242 U. S. 27). Yet as the question is not a federal one, the law as enunciated by the .Court of Appeals in the Forsyth Case has been followed in this State. (People ex rel Hirschberg v. Seeger, 179 App. Div. 792.)\nThere was some doubt, however, as to the power of the court to suspend execution of a sentence actually imposed, prior to the amendment of 1918 to section 2188. (People v. Boehm, 176 App. Div. 401.) Because of questions which had arisen in that and other cases, it would seem that the amendment of 1918 was passed. It was evidently considered that enlightened views of penology established, or at least indicated, that the best results from' the punishment of criminals were to be obtained where the sentence was indeterminate, and where a power of suspending the whole or a part thereof existed. This was supposed to give an incentive to good behavior and right living on the part of prisoners under sentence in institutions in the State.\nIt was undoubtedly on this theory, and in supposed accordance with section 2188, that the County Court of Bronx county imposed the sentence above quoted. That such action was justified in this instance is established, because upon the return of the writ the warden stated that relator had been a model prisoner continuously since his confinement at Comstock.\nThe Attorney General puts an interpretation upon the amendment of 1920 which prohibits such a sentence as was given in this case. He construes the words \u201c shall not be suspended or interrupted,\u201d as taking away from the court the power to suspend in part the execution of a sentence. It is stated in his brief that to give the court such power interferes with the work of the board of parole for State prisoners; that the prison department \u201c demanded \u201d the enactment of this provision to remove the conflict between section 2188 and the State Parole Law.\nTo give the words the interpretation which the respondent seeks to have given them, renders nugatory practically the whole of section 2188. The section, almost in its entirety, is based upon the power of the court to suspend in whole or in part the execution of a sentence imposed. What becomes, if this contention is to prevail, of these expressions in the section: \u201c a court * * * may suspend sentence or impose sentence and suspend the execution of the whole or a part of the judgment * * *. No provision of this chapter or of the code of criminal procedure or of any general statute shall be construed to prevent the court or magistrate authorized to impose sentence from exercising discretion to suspend sentence or suspend the execution of the whole or a part of the judgment or to place on probation as hereinabove provided. If sentence shall have been suspended or, if sentence shall have been imposed and execution of the whole or a part of the judgment shall have been suspended * * * the court or magistrate * * * may issue process; * * * if sentence shall have been imposed and execution of the whole or a part of the judgment suspended, * * * [the court] may modify the judgment * * *.\u201d\nIt will thus be seen how the power of the court to suspend the execution of the whole or a part of a sentence runs all through this section, and that if this power is taken away by the amendment of 1920, the whole section is rendered virtually meaningless. The section is of such importance that its meaning cannot be lightly destroyed.\nThe specific wording of the amendment of 1920, taken in connection with the wording of the other parts of the section, negatives the contention of the Attorney General. When an imprisonment is terminated because a part of the sentence imposed is suspended, or the prisoner is ordered back before the court to be placed on probation, or for any other purpose, the imprisonment is not \u201c suspended \u201d or \u201c interrupted.\u201d It is ended. While, if the prisoner commits a further offense during the probation period he may be sent back to prison, he is sent back for a specific time then fixed. The fact that this may be for a part of the time for which he was originally sentenced does not render the total time he serves one imprisonment, and does not make the time he was released a suspension or interruption of the original sentence. This is borne out by the last sentence (prior to the 1920 amendment) of section 2188. It provides: \u201c If sentence shall have been suspended or, if sentence shall have been imposed and execution of the whole or a part of the judgment shall have been suspended, at any time thereafter within the longest period for which a defendant might have been committed in the first instance or, if the defendant is on probation and the period of probation exceeds the period for which the defendant might have been sentenced, at any time while the defendant remains on probation, the court or magistrate having jurisdiction may issue process for the rearrest of the defendant, and when such defendant is arraigned may, if sentence shall have been suspended, impose any sentence or make any commitment which might have been imposed or made at the time of conviction or may, if sentence shall have been imposed and execution of the whole or a part of the judgment suspended, revoke the order suspending execution of judgment and order, executed the judgment or the part thereof the execution of which shall have been suspended or may modify the judgment so as to provide for the imposition of any punishment which might have been imposed at the time of the conviction.\u201d\nPowers specifically conferred in plain language which is not open to question as to its meaning, cannot be taken away by words whose interpretation and application are open to serious doubt. Powers clearly given must be as clearly taken away. If it was the intention of the Legislature to take away from the courts the power to suspend the execution of a part of a sentence imposed, it was a simple thing to frame language which would do this. The Legislature could have stated its intention in so many words. If that had been its intent, it would have rewritten entirely section 2186, for without these provisions it is but a shell. That the collective legislative mind had any thought of such an interpretation as the Attorney General contends for, I cannot believe. It would have been a decisive step backward in criminal administration. There is nothing to indicate that this was contemplated by the Legislature.\nThe respondent contends that the provision in the judgment in question that relator should be brought back to Bronx county at the end of one year \u201c for final disposition,\u201d is no' part of the sentence. This argument seems to me specious. The provision quoted was a vital part of the sentence. It must all be considered together. It was all one act. It is in the court record as a part of the sentence, and as such it is made a part of the return to the writ which is before this court.\nThe amendment of 1920 accomplished a purpose, but not, it seems to me, the purpose contended for by the Attorney General. The amendment presumably means that there can be no interruption or suspension of the sentence originally imposed. That is a fair construction of it. It is not forced. It gives it a real and a reasonable meaning. It will prevent a court, after a prisoner has begun service of a sentence imposed, from calling him back for resentence or release, or probation, or any other action favorable or detrimental to the prisoner, which was not provided for in the original sentence. Counsel for respondent states in his brief that there has been much complaint of this on the part of the parole board and the prison authorities. The amendment remedies that grievance. And that, it seems to me, was what it was intended to do.\nMy attention has been .called to the case of People ex rel. Turtona v. Jennings, a Special Term decision, not reported. There the relator was sentenced to imprisonment for a term of seven years, with the provision that execution of six years of the term be suspended. The court held that because of the 1920 amendment to section 2188, suspension of the sentence was unauthorized, and the relator must serve the seven-year sentence. With the reasoning of that opinion, and with its results, I am not in accord.\nAn order will be made to remand the relator to the County Court of Bronx county for final disposition of his case.\nOrdered accordingly.",
+        "type": "majority",
+        "author": "Angell, J.:"
+      }
+    ],
+    "attorneys": [
+      "Fabricant & Collings, counsel voluntary defender\u2019s committee (Frank H. Cronkhite, of counsel), for relator.",
+      "Charles D. Newton, Attorney General (Henry C. Henderson, Deputy Attorney General, and Wyman S. Bascom, District Attorney, Washington county, of counsel), for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014 SPECIAL TERM \u2014 WASHINGTON.\nJanuary, 1922.\nTHE PEOPLE EX REL. PARIS v. WARDEN STATE PRISON.\n(111 Misc. 44.)\n(1) Procedure \u2014 Suspension op sentence in whole or in part.\nUnder section 2188 of the Penal Law, as amended by chapter 457 of the Laws of 1918, the court has power to suspend the execution of the whole or a part of a sentence, and such power was not taken away by chapter 568 of the Laws of 1920, in effect May 8, 1920, which added to such section a provision \"that the imprisonment directed by the judgment shall not be suspended or interrupted after such imprisonment shall have commenced\u201d; said amendment fairly construed means that there can be no interruption or suspension of a sentence originally imposed.\n(2) Same.\nWhen an imprisonment is terminated because a part of the sentence imposed is suspended or the prisoner is ordered back before the court to be placed on probation, or for any other purpose, the imprisonment is not \"suspended\u201d or \"interrupted\u201d; it is ended.\n(3) Same \u2014 Indeterminate sentence op not less .than two years, etc.\u2014 Direction that after one year dependant shall be placed on probation \u2014 Penal Law, \u00a7 2188, as amended.\nAn indeterminate sentence of confinement in a state prison of not less than two years and six months and not more than five years, coupled with a direction that after the prisoner should have served one year he should be returned to the court which imposed the sentence and \u201cplaced upon probation for the balance of said term,\" is legal under section 2188 of the Penal Law, as amended in 1918, though the sentence and the commitment thereunder were made after the amendment of 1920 to said section.\n(4) Same.\nWhere more than one year has expired since the imposition ol the sentence, the relator, on writ of habeas corpus to test the legality of his further detention in state prison, will be granted an order remanding him to the court which imposed the sentence for final disposition of his ease.\nHabeas corpus.\nFabricant & Collings, counsel voluntary defender\u2019s committee (Frank H. Cronkhite, of counsel), for relator.\nCharles D. Newton, Attorney General (Henry C. Henderson, Deputy Attorney General, and Wyman S. Bascom, District Attorney, Washington county, of counsel), for respondent."
+  },
+  "file_name": "0421-01",
+  "first_page_order": 441,
+  "last_page_order": 449
+}

@@ -1,0 +1,70 @@
+{
+  "id": 1224700,
+  "name": "THE PEOPLE v. MORRIS ISSENOFF",
+  "name_abbreviation": "People v. Issenoff",
+  "decision_date": "1922-01",
+  "docket_number": "",
+  "first_page": "40",
+  "last_page": "41",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 40"
+    },
+    {
+      "type": "parallel",
+      "cite": "117 Misc. 608"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Ct. Gen. Sess.",
+    "id": 9672,
+    "name": "New York Court of General Sessions"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 162,
+    "char_count": 2308,
+    "ocr_confidence": 0.524,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.04506534814505014
+    },
+    "sha256": "61f7506588a392f07b754e69b1b64d174b9a49cbe9059a5371b5a1083c681806",
+    "simhash": "1:808eba385bd23530",
+    "word_count": 368
+  },
+  "last_updated": "2023-07-14T18:56:16.069757+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. MORRIS ISSENOFF."
+    ],
+    "opinions": [
+      {
+        "text": "Nott, J.:\nThe defendant\u2019s contention is that he was convicted of criminally receiving stolen property on the theory that he aided and abetted one Bleiweis and others in the commission of a crime. The moving affidavit then sets forth that the indictment charging Bleiweis and the others with the commission of the crime had been dismissed subsequent to the conviction of the defendant, and that this dismissal of that indictment establishes the fact that those defendants were innocent of the crime and that therefore Issenoff could not be guilty of aiding and abetting in the commission thereof.\nWhether the dismissal, subsequent to the trial of this action, of the other defendants\u2019 indictment could be deemed to be newly discovered evidence, within the meaning of the statute, is doubtful but it is not necessary to decide that question at the present time. The fallacy of the defendant\u2019s contention consists in the assumption that an order dismissing an indictment is necessarily an adjudication that the defendant is innocent. It may, and very often does, simply adjudge that for various reasons the defendant\u2019s guilt cannot be established. In this case, however, the moving affidavit is erroneous in its allegation that the indictment has been dismissed. An examination of the records of the court shows that an order has been entered merely discharging bail and the indictment is still pending.\nHo ground, therefore, is presented justifying the granting of the motion and it must be denied.\nMotion denied.",
+        "type": "majority",
+        "author": "Nott, J.:"
+      }
+    ],
+    "attorneys": [
+      "Slade & Slade (David Slade, of counsel), for motion.",
+      "Joab H. Banton, District Attorney (Felix C. Benvenga, of counsel), in opposition."
+    ],
+    "corrections": "",
+    "head_matter": "COURT OF GENERAL SESSIONS \u2014NEW YORK COUNTY.\nJanuary, 1922.\nTHE PEOPLE v. MORRIS ISSENOFF.\n(117 Misc. 608.)\nCriminal procedure \u2014 Discharging bail where indictment for grand LARCEINY PENDING, NOT GROUND FOR NEW TRIAL OF ONE CONVICTED OP RECEIVING STOLEN PROPERTY.\nWhere an indictment for grand larceny is still pending the fact that an order has been entered discharging the bail for defendant is not ground for a new trial of one convicted of criminally receiving the alleged stolen property.\nMotion for a new trial on the ground of newly discovered evidence, made after judgment convicting defendant of criminally receiving stolen property in the first degree.\nSlade & Slade (David Slade, of counsel), for motion.\nJoab H. Banton, District Attorney (Felix C. Benvenga, of counsel), in opposition."
+  },
+  "file_name": "0040-01",
+  "first_page_order": 60,
+  "last_page_order": 61
+}

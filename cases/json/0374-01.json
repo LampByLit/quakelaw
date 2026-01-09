@@ -1,0 +1,164 @@
+{
+  "id": 1224761,
+  "name": "THE PEOPLE EX REL. MARCI v. HANLEY, AS WARDEN, ETC.",
+  "name_abbreviation": "People ex rel. Marci v. Hanley",
+  "decision_date": "1921-12",
+  "docket_number": "",
+  "first_page": "374",
+  "last_page": "376",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 374"
+    },
+    {
+      "type": "parallel",
+      "cite": "117 Misc. 455"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Sup. Ct.",
+    "id": 10096,
+    "name": "New York Supreme Court Special Term"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "219 U. S. 210",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653522
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/219/0210-01"
+      ]
+    },
+    {
+      "cite": "206 N. Y. 46",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        60448,
+        1203095
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/206/0046-01",
+        "/ny-crim/28/0092-01"
+      ]
+    },
+    {
+      "cite": "151 App. Div. 561",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2645697
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/151/0561-01"
+      ]
+    },
+    {
+      "cite": "150 N. Y. Supp. 596",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "case_ids": [
+        5568737
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/150/0596-01"
+      ]
+    },
+    {
+      "cite": "133 N. Y. 207",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2251365
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/133/0207-01"
+      ]
+    },
+    {
+      "cite": "143 App. Div. 579",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2488800
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/143/0579-01"
+      ]
+    },
+    {
+      "cite": "86 App. Div. 9",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1187018,
+        7669253
+      ],
+      "pin_cites": [
+        {
+          "page": "13"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/17/0455-01",
+        "/nys/83/0245-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 267,
+    "char_count": 3964,
+    "ocr_confidence": 0.528,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.04581077892958238
+    },
+    "sha256": "6f30b0dc84fc847450ef67aadc87fdae1d2514a5f05ed2e32b722feadf05005a",
+    "simhash": "1:94fa40ea849449c1",
+    "word_count": 685
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE EX REL. MARCI v. HANLEY, AS WARDEN, ETC."
+    ],
+    "opinions": [
+      {
+        "text": "Burr, J.:\nThis is a proceeding instituted on a writ of habeas corpus obtained by the relator, Marci, directed to the warden of the city prison. The warden has duly made a return to the said writ which states in substance that the relator was convicted by City Magistrate Sweetser on the 4th day of October, 1921, for the offense of disorderly conduct, pertaining to a breach of the peace, and was sentenced to the workhouse for a period of six months.\nThe relator raises an issue concerning an alleged endorsement on the affidavit for the offense of disorderly conduct to which he pleaded guilty. Relator contends that he was sentenced to pay a fine of fifty dollars and to serve three months in the penitentiary and that thereafter the city magistrate changed this decision and sentenced him to a term of six months in the workhouse.\nThe relator is precluded from going behind the commitment of the magistrate. That is the final determination of the issue. The warden holds the relator by virtue of such commitment.\nA warrant of commitment of an inferior court is conclusive and the facts may not be inquired into. (People ex rel. Smith v. Van De Carr, 86 App. Div. 9, 13; People ex rel. St. Clair v. Davis, 143 id. 579.)\nSection 88, subdivision 3, of the Inferior Criminal Courts Act of the City of New York, concerning a commitment of persons convicted of disorderly conduct, provides: \u201c The magistrate may commit such person, whether male or female, in the boroughs of Manhattan, Brooklyn, Queens and The Bronx, to the workhouse on Blackwell\u2019s Island, and in the borough of Richmond to the said workhouse or to the county jail, for a definite term, not exceeding six months.\u201d\nIt is, therefore, evident the city magistrate had jurisdiction to commit relator to the workhouse for a period of six months. The relator being committed by a final order of a court of competent jurisdiction, the writ of habeas corpus will not lie. (See Code Civ. Proc., \u00a7 2016, subd. 2; Civil Practice Act, \u00a7 1231, subd. 2.)\nA commitment by a city magistrate having summary jurisdiction of an offense (disorderly conduct) is in itself a final judgment. (People ex rel. St. Clair v. Davis, 143 App. Div. 579; People ex rel. Kuhn v. P. E. House of Mercy, 133 N. Y. 207; Cohen v. Warden, 150 N. Y. Supp. 596; People ex rel. Price v. Hayes, 151 App. Div. 561; Matter of Cropsey v. Tiernan, 172 id. 435.)\nA writ of habeas corpus cannot be made to perform the function of a writ of error. Upon habeas corpus proceedings the court examines only the power and - authority of the court to act, not the correctness of its conclusions. Delator\u2019s remedy, if any, is by appeal. (People ex rel. Hubert v. Kaiser, 206 N. Y. 46; Matter of Gregory, 219 U. S. 210.)\nAs the city magistrate had jurisdiction of the person and of the offense and had the authority to inflict the punishment, the writ of habeas corpus is dismissed and relator remanded to the workhouse under the judgment of conviction.\nWrit dismissed.",
+        "type": "majority",
+        "author": "Burr, J.:"
+      }
+    ],
+    "attorneys": [
+      "Meyer Greenberg, for relator.",
+      "Edward Swann, District Attorney, and Michael J. Driscoll, Deputy Assistant District Attorney, opposed."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014 SPECIAL TERM.\nDecember, 1921.\nTHE PEOPLE EX REL. MARCI v. HANLEY, AS WARDEN, ETC.\n(117 Misc. 455.)\n(1) Sentence \u2014 Change of, cannot be baised by habeas cobpus.\nUnder section 88(3) of the Inferior Criminal Courts Act, a -magistrate-in the city of New York, upon convicting a defendant of disorderly conduct, may lawfully impose a sentence of six months in the workhouse, and a warrant of commitment reciting such a sentence is a final judgment, reviewable only by an appeal.\n(2) Same.\nA defendant so convicted and sentenced is precluded from showing oir habeas corpus that the magistrate, after sentencing him to pay a fine and serve three months in the penitentiary, changed the decision and: imposed the sentence recited in the warrant of commitment, and the writ of habeas corpus will be dismissed and relator remanded.\nHabeas corpus.\nMeyer Greenberg, for relator.\nEdward Swann, District Attorney, and Michael J. Driscoll, Deputy Assistant District Attorney, opposed."
+  },
+  "file_name": "0374-01",
+  "first_page_order": 394,
+  "last_page_order": 396
+}

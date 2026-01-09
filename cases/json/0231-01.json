@@ -1,0 +1,333 @@
+{
+  "id": 1228832,
+  "name": "THE PEOPLE v. AUGUSTUS F. TOOHILL",
+  "name_abbreviation": "People v. Toohill",
+  "decision_date": "1924-03-05",
+  "docket_number": "",
+  "first_page": "231",
+  "last_page": "241",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 231"
+    },
+    {
+      "type": "parallel",
+      "cite": "208 App. Div. 174"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "1 Cush. 189",
+      "category": "reporters:state",
+      "reporter": "Cush.",
+      "case_ids": [
+        1980641
+      ],
+      "pin_cites": [
+        {
+          "page": "216"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/55/0189-01"
+      ]
+    },
+    {
+      "cite": "1 Allen, 575",
+      "category": "reporters:state",
+      "reporter": "Allen",
+      "case_ids": [
+        2095318
+      ],
+      "pin_cites": [
+        {
+          "page": "581"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/83/0575-01"
+      ]
+    },
+    {
+      "cite": "217 N. Y. 172",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        75778,
+        1215173
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/217/0172-01",
+        "/ny-crim/34/0201-01"
+      ]
+    },
+    {
+      "cite": "168 N. Y. 264",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2299526
+      ],
+      "pin_cites": [
+        {
+          "page": "297"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/168/0264-01"
+      ]
+    },
+    {
+      "cite": "80 N. Y. 373",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "205 N. Y. 275",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        4500515,
+        1200463
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/205/0275-01",
+        "/ny-crim/27/0197-01"
+      ]
+    },
+    {
+      "cite": "191 N. Y. 210",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        809040,
+        51763
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/22/0228-01",
+        "/ny/191/0210-01"
+      ]
+    },
+    {
+      "cite": "186 N. Y. 4",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        807208,
+        2327180
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/20/0378-01",
+        "/ny/186/0004-01"
+      ]
+    },
+    {
+      "cite": "104 N. Y. 591",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2206865
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/104/0591-01"
+      ]
+    },
+    {
+      "cite": "156 Mass. 196",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        810873
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/156/0196-01"
+      ]
+    },
+    {
+      "cite": "148 N. Y. 95",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2272105
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/148/0095-01"
+      ]
+    },
+    {
+      "cite": "56 N. Y. 591",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        519290
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/56/0591-01"
+      ]
+    },
+    {
+      "cite": "58 N. Y. 555",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2158441
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/58/0555-01"
+      ]
+    },
+    {
+      "cite": "133 Pa. St. 293",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        812896
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/133/0293-01"
+      ]
+    },
+    {
+      "cite": "4 Met. 43",
+      "category": "reporters:state",
+      "reporter": "Met.",
+      "case_ids": [
+        2065755
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "49"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/45/0043-01"
+      ]
+    },
+    {
+      "cite": "8 Met. 235",
+      "category": "reporters:state",
+      "reporter": "Met.",
+      "case_ids": [
+        1964685
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/49/0235-01"
+      ]
+    },
+    {
+      "cite": "132 Mass. 16",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        2131603
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "20"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/132/0016-01"
+      ]
+    },
+    {
+      "cite": "209 N. Y. 311",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        62208,
+        1206228
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/209/0311-01",
+        "/ny-crim/30/0373-01"
+      ]
+    },
+    {
+      "cite": "199 N. Y. 1",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        810743,
+        4474079
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/24/0461-01",
+        "/ny/199/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 875,
+    "char_count": 20473,
+    "ocr_confidence": 0.513,
+    "pagerank": {
+      "raw": 1.1203788946002219e-07,
+      "percentile": 0.5732998333107452
+    },
+    "sha256": "a6a001d65fdeea3aad3cddc1abcc5cf509272e18cebaef013e82867b585661c8",
+    "simhash": "1:3ad668d6a7e468d3",
+    "word_count": 3523
+  },
+  "last_updated": "2024-02-27T16:15:52.747790+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. AUGUSTUS F. TOOHILL."
+    ],
+    "opinions": [
+      {
+        "text": "Cochrane, P. J. :\nPrior to March 23, 1921, the firm of Dunn & Co. was doing a stock brokerage business at No. 32 Broadway, Hew York city. On that day the business was- taken over and continued at the same place by the firm of Dillon & Co., composed of Daniel Dillon and Edward H. Post. On April 28, 1921, Post withdrew from the firm and the business was continued by Daniel Dillon under the same firm name. The defendant was an employee acting as business solicitor for Dunn & Co. and also subsequently for Dillon & Co. On August 11, 1921, he executed and caused or permitted to be filed in the county clerk\u2019s office of Hew York county, a certificate stating that he was conducting and transacting the business of general stock brokerage at Ho. 32 Broadway, Hew York city, under the firm name and style of Dillon & Co., and that he had the sole and exclusive right and authority to use the firm name of Dillon & Co. and that he was the only person then conducting and transacting the said business under the said firm name. On or about the same day he delivered to the Chatham and Phoenix Hational Bank of Hew York a duplicate of said certificate and a letter signed by him and countersigned by Edward H. Post as cashier and that the bank was to recognize and pay only such checks as should bear the said signatures. He also at the same time delivered to the bank a signature card stating the depositor\u2019s name to be Dillon & Co. and containing the signatures of A. F. Toohill and Edward FT. Post, as cashier. Simultaneously with the delivery of said papers an account of Dillon & Co. with said bank was opened with an initial deposit of nearly $10,000. Dillon & Co. had a branch office in Albany. On August 15, 1921, an employee at the Albany office called on Mr. Fay Shaul at his place of business in Amsterdam, FT. Y., and had a conversation with him concerning the purchase of stock which purchase on that day did not materialize. The following day the representative of the Albany office telephoned Mr. Shaul and as a result of this telephone conversation the latter gave an order for the purchase of 100 shares of United Drug Company stock at the price of fifty-five and one-half. This order was telephoned from the Albany office of Dillon & Co. to its Flew York office over the private wire of that firm. The following morning Mr. Shaul received a letter from Dillon & Co. confirming the purchase of 100 shares of United Drug Company stock and stating: \u201c Inasmuch as you desire to buy this stock outright we would request that you forward us remittance for the total amount involved, i.e., $5,565.00.\u201d The same day Mr. Shaul mailed to Dillon & Co. at FTo. 32 Broadway, Flew York city, his check for $5,565 on the Montgomery County Trust Company at Amsterdam. On August 18, 1921, he received from Dillon & Go. by mail a receipt for the amount of the check accompanied by a letter stating: \u201c We are handing you herewith our receipt for our remittance of $5,565 which has been duly credited to your purchase of one hundred shares of the United Drug at fifty-five and one-half.\u201d The Shaul check was indorsed by Dillon & Co., using a rubber stamp for that purpose, and deposited in the account of Dillon & Co. at the Chatham and Phoenix National Bank and in due course was paid by the trust company at Amsterdam. Shaul never received the stock certificate. Eepeated efforts by letters and telephone messages from the Albany office brought faithful promises to send the certificate. Shaul personally visited the New York office but did not see the defendant nor could he get any satisfactory information concerning either his money or the stock for the payment of which it had been given. It appears from the evidence that Dillon & Co. gave several successive orders to different brokers for the purchase on margin of United Drug Company stock, but the stock was subsequently sold in each instance by direction of Dillon & Co. and was not received by said firm nor by the defendant. On September 15, 1921, the defendant executed to Daniel Dillon a power of attorney to sign, indorse and deliver checks, notes and all evidences of indebtedness of Dillon & Co. and to deposit all cheeks made to the order of said firm and to make and deliver all contracts of said firm and delivered the same to the Chatham and Phoenix National Bank with a letter stating that in the future all negotiable instruments or contracts of the firm were to bear the sole signature of Daniel Dillon and withdrawing the authority of Edward N. Post to countersign such negotiable instruments or contracts. A few days thereafter Dillon & Co. went into involuntary bankruptcy.\nThe foregoing facts establish a case of larceny by some person or persons. A fiduciary relationship existed between Dillon & Co. and Shaul and a misapplication or misappropriation of his money constituted a larcenous conversion thereof. (People v. Meadows, 199 N. Y. 1; Britton v. Ferrin, 171 id. 235.)\nThe defense is that in signing the certificate filed in the county clerk\u2019s office and in delivering to the New York bank the papers to which reference has been made, the defendant was acting for the accommodation of Daniel Dillon, the former proprietor, who was to be absent from New York for some time and on the statement of Dillon\u2019s attorney that said papers were necessary so that the defendant might sign the firm checks in DilIon\u2019s absence; that he did not understand or appreciate the significance or purport of said papers; that there was in fact no change in the business; that the defendant continued merely an employee of Dillon; that with the exception of checks signed by him he performed no further or different duties than formerly; that he was absent from the New York office the greater part of the time soliciting business as he had formerly done; that he signed Dillon & Co. checks in blank and a number thereof at the same time on different occasions so that they might be used as required during his absence from the office; that such checks were turned over to the cashier signed by the defendant in blank using the signature Dillon & Co. and all of them were filled in and used by said cashier; that the defendant had no knowledge of the deposits made in the bank or of the checks drawn against such deposits or of the bank balances; that he exercised no authority or control over the other employees and gave no instructions in regard to the management of the business; that he did not see the Shaul check and knew nothing of Shaul or of his transaction with Dillon & Co.; in other words, that he was not responsible for the larceny in question. His certificate in the county clerk\u2019s office and the papers deposited by him with the bank were evidence against him, but notwithstanding such evidence his explanation of his relations to Dillon & Co. exonerated him from liability provided he could persuade the jury to accept such explanation.\nThe prosecution called as witnesses four residents of Amsterdam and vicinity who had similar experiences as Mr. Shaul with Dillon & Co. In each instance the district attorney with much minuteness and particularity showed the transaction substantially the same as the transaction with Mr. Shaul. Thus there were proved four independent crimes in addition to the one charged in the indictment. This evidence was received for the purpose of showing the criminal intent of the defendant. There is no doubt about the general rule in regard to such evidence or the exception to the rule on which exception the prosecution relies to justify such evidence. The difficulty is in applying the exception to the facts of particular cases. The rule and the exception have been the subject of frequent discussions by the courts of this and other jurisdictions. The prosecution relies largely on the case of People v. Katz (209 N. Y. 311). In that case the court after stating the general rule that a man cannot be convicted of one crime by proof that he committed another continued at page 327 as follows (the italics being mine) : \u201c There are various recognized exceptions to this rule, however, and one of them is that when guilty knowledge, quite commonly called intent, is an essential ingredient of the crime charged, evidence is admissible of similar crimes or acts committed or attempted at or about the same time by the person charged. The reasons for the rule and the exception are equally simple and obvious. The general rule is rooted in the principle that a man may not be convicted of one crime simply because he may be shown guilty of another when there is no connection betiveen the two. Simple proof showing that A. shot B. at one time and place throws no light upon the charge that A. poisoned C. at another time and place. In either of these cases guilty knowledge or intent is inferable from the nature and surroundings of each act, and each must be judged on its own circumstances. Quite another principle is to be invoked, however, when guilt cannot be predicated upon the mere commission of the act charged as a crime. In such a case the general rule gives way to the exception under which guilty knowledge of a defendant may be proved by evidence of his complicity in similar offenses under such circumstances as to support the inference that the act charged was not innocently or inadvertently committed. Familiar illustrations of this exception to the general rule are to be found in cases of uttering counterfeit money, in forgery, in obtaining money under false pretenses, and in receiving stolen property. (Commonwealth v. Jackson, 132 Mass. 16; Commonwealth v. Bigelow, 8 Met. 235; Commonwealth v. Stone, 4 Met. 43; Helm\u2019s Case, 1 City Hall Rec. 46; Smith\u2019s Case, 1 id. 49; Commonwealth v. Johnson, 133 Pa. St. 293; Coleman v. People, 58 N. Y. 555; Copperman v. People, 56 N. Y. 591; People v. McClure, 148 N. Y. 95; Commonwealth v. Russell, 156 Mass. 196; People v. Everhardt, 104 N. Y. 591; People v. Dolan, 186 N. Y. 4; People v. Heff, 191 N. Y. 210; People v. Marrin, 205 N. Y. 275.)\u201d At first glance the Katz case might seem to support the contention of the prosecution. I think, however, there is a broad distinction between that case and this. An examination of all the above cases as well as many others where the commission of a crime has been proved other than the one charged fails to disclose any in which there was' not some personal act or declaration of the defendant involved in both of the alleged crimes. It was the similarity between those personal and individual acts which reflected light on his mental attitude. In Helm\u2019s Case (1 City Hall Rec. 46) it was said: \u201c The testimony offered is clearly admissible in establishing the scienter.\u201d In People v. Shulman (80 N. Y. 373) the court quotes with approval as follows: \u201c In Wharton\u2019s American Criminal Law (6th ed., \u00a7 649) it is said: \u2018 Where the scienter or quo animo is requisite to and constitutes a necessary and essential part of the crime with which the person is charged, and proof of such guilty knowledge or malicious intention is indispensable to establish his guilt in regard to the transaction in question, testimony of such acts, conduct, or declarations of the accused as tend to establish such knowledge or intent is competent,' notwithstanding they may constitute in law a distinct crime.\u2019 * * * And in Stephen\u2019s Digest of Evidence (May\u2019s ed., p. 56) the rule is laid down as follows : ' When there is a question whether a person said or did something, the fact that he said or did something of the same sort on a different occasion may be proved, if it shows the existence on the occasion in question of any intention, knowledge, good or bad faith, malice, or other state of mind, or of any state of body or bodily feeling, the existence of which is in issue or is deemed to be relevant to the issue.\u2019 \u201d In Commonwealth v. Jackson (132 Mass. 16) it is said: \u201cIt is the knowledge which it may be inferred he must have derived from other transactions, and not the intent that the defendant had in other transactions, that renders the evidence admissible, as affording just ground for inference against him as to intent in the matter under examination.\u201d (See, also, People v. Molineux, 168 N. Y. 264, 297; People v. Neff, 191 id. 210, 225.) Here there is no evidence that the defendant had any personal knowledge of any of the facts constituting the Shaul transaction or the transactions of the four other witnesses in question. How then could the testimony of those four witnesses throw any light on the question as to whether or not the defendant participated in or was responsible for the crime against Shaul? The real issue was not whether the property had been stolen but whether the defendant was the thief. The objectionable evidence leaves the mind exactly where it finds it so far as that question is concerned. It is not every case where intent is involved that evidence of other crimes by the defendant may be proved. The circumstances must be such \u201c as to support the inference that the act charged was not innocently or inadvertently committed.\u201d The indictment charges the defendant jointly with four others with the commission of this crime. The defendant claims that he was made the scapegoat of others. When the testimony of the four witnesses in question was concluded the mind is brought no nearer to a determination of that question for the simple reason that not a single act or statement of the defendant has been established and, therefore, no inference as to his larcenous intent can be drawn which could not equally be drawn from the Shaul transaction without reference to the other transactions. The distinction above, noted likewise appears in the case of People v. Hudson Valley Construction Company (217 N. Y. 172), another ease relied on by the prosecution. There one of the defenses was \u201c that the property was appropriated openly and avowedly, under a claim of title preferred in good faith,\u201d and it was held that acts of the defendant in other similar transactions were admissible as bearing on the question of the intent of the defendant. Here no acts or words of the defendant appear in any of the other alleged crimes and because of that fact no inference is deducible therefrom which strengthens the claim that he was actuated by a larcenous intent.\nIn charging the jury the court, adopting some of the language of the Katz case, said: \u201c This testimony was admitted solely on the question of the guilty knowledge or intent of the defendant. In other words guilty knowledge of a defendant in such a case as this may be proved by evidence of his complicity in similar offenses under such circumstances as to support the inference that the act charged was not innocently or inadvertently committed. It is for you to determine whether or not those transactions furnish any proof of guilty knowledge of the defendant in the transaction with which the defendant is charged.\u201d This charge certainly did not minimize but aggravated the mischief accomplished by the evidence. There is no doubt about the accuracy of the charge as an abstract proposition. The error consists in the application of the proposition to the present case. There was no actual or personal complicity of the defendant in similar offenses under such circumstances as, in the language of the Katz case, \u201c to support the inference that the act charged was not innocently or inadvertently committed,\u201d and again as stated in said case there was \u201c no connection between the \u201d various crimes. It was, therefore, error for the court to permit the jury \u201c to determine whether or not those transactions furnish any proof of guilty knowledge of the defendant in the transaction with which the defendant is charged.\u201d\nThe evidence was not only inadmissible but highly prejudicial. In Commonwealth v. Shepard (1 Allen, 575, 581) the court said, in commenting on this kind of evidence: \u201c It is a dangerous species of evidence, not only because it requires a defendant to meet and explain other acts than those charged against him, and for which he is on trial, but also because it may lead the jury to violate the great principle, that a party is not to be convicted of one crime by proof that he is guilty of another. For this reason, it is essential to the rights of the accused that, when such evidence is admitted, it should be carefully limited and guarded by instructions to the jury, so that its operation and effect may be confined to the single legitimate purpose for which it is competent. Roscoe Crim. Ev. 90, 94. Rex v. Ball, Russ. & Ry. 132. Commonwealth v. Eastman, 1 Cush. 189, 216.\u201d In Copperman v. People (56 N. Y. 591) the court says: \u201c I agree with the learned counsel for the prisoner, that guilty knowledge is a delicate question, and I concur fully with the position that courts should be cautious in receiving evidence of outside facts upon that question, and that all facts which do not directly bear upon the question should \u2022 be excluded.\u201d In Commonwealth v. Jackson (132 Mass. 16, 20) it is said: \u201cEvidence of the commission of other crimes by a defendant may deeply prejudice him with the jury, while it does not legally bear upon his case. * * * Such evidence compels the defendant to meet charges of which the indictment gives him no information, confuses him in his defense, raises a variety of issues, and thus diverts the attention of the jury from the one immediately before it; and, by showing the defendant to have been a knave on other occasions, creates a prejudice which may cause injustice to be done him.\u201d\nAs I have before indicated, the People made out a case against the defendant. The latter presented his explanation. The sufficiency thereof was a question for the determination of the jury. It was the right of the defendant to have a fair trial and to have the question of his guilt or innocence determined on competent evidence. If I am right in my reasoning, incompetent evidence was received, the tendency of which was to arouse the indignation of the jury and to prevent the defendant from receiving the impartial consideration of the case to which he was entitled.\nThe judgment of conviction- should be reversed and a new trial granted.\nAll concur; McCann, J., voting for reversal and dismissal of the indictment on the ground that the indictment was improperly found in Montgomery county.\nJudgment of conviction reversed on the law and new trial granted.\nSee Chase\u2019s Steph. Dig. Ev. (2nd Am. ed.) p. 42, art. 11. \u2014 [Bep.",
+        "type": "majority",
+        "author": "Cochrane, P. J. :"
+      }
+    ],
+    "attorneys": [
+      "Robert H. Elder (Otho S. Bowling, of counsel), for the-appellant.",
+      "N. J. Herrick, for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014APPELLATE DIVISION \u2014 THIRD DEPARTMENT.\nMarch 5, 1924.\nTHE PEOPLE v. AUGUSTUS F. TOOHILL.\n(208 App. Div. 174.)\n(1) Grand larceny, first decree \u2014 Customer of stockbroker sent CHECK TO PAY FOR STOCK \u2014 CHECK WAS CASHED \u2014 CUSTOMER NEVER RECEIVED STOCK OR RETURN OF MONEY \u2014 LARCENY BY SOME PERSON ESTABLISHED \u2014 DEFENSE THAT DEFENDANT WAS MERELY ONE OF SEVERAL EMPLOYEES OF BROKER AND KNEW NOTHING OF TRANSACTION \u2014 It WAS REVERSIBLE ERROR TO ADMIT EVIDENCE OF EXPERIENCES OF FOUR OTHER \u25a0CUSTOMERS SIMILAR TO THAT OF CUSTOMER IN QUESTION FOR PURPOSE \u25a0OF SHOWING CRIMINAL INTENT.\nIn a prosecution for grand larceny, first degree, growing out of the fact that a customer of a stockbroker sent the broker a cheek, which was later cashed, to pay for stock but never received the stock or had \u25a0his money returned, thus establishing larceny by some person or persons, where the defense was that the defendant was merely one of several employees of the broker and knew nothing of the transaction, it was reversible error to admit evidence of the experiences of four other customers of the broker similar to that of the customer in question for the purpose of showing criminal intent, in the absence of evidence that the defendant had a part in the other transactions.\n(2) Same \u2014 Evidence\u2014Error for court to leave to jury question WHETHER SAID EVIDENCE FURNISHED PROOF OF GUILTY KNOWLEDGE OF DEFENDANT.\nThe instruction to the jury that they were to determine whether or not the evidence of the four other customers furnished any proof of guilty knowledge of the defendant in the transaction in qu\u00e9stion was-erroneous and tended to aggravate the mischief accomplished by said, evidence.-\nAppeal by the defendant, Augustus F. Toohill, from a judgment of the County Court of Montgomery county, rendered on the 10th day of July, 1923, convicting him of the crime of\u2019 grand larceny in the first degree.\nRobert H. Elder (Otho S. Bowling, of counsel), for the-appellant.\nN. J. Herrick, for the respondent."
+  },
+  "file_name": "0231-01",
+  "first_page_order": 247,
+  "last_page_order": 257
+}

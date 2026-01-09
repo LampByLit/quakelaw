@@ -1,0 +1,581 @@
+{
+  "id": 1224731,
+  "name": "THE PEOPLE v. HERBERT W. SMITH",
+  "name_abbreviation": "People v. Smith",
+  "decision_date": "1921-12-13",
+  "docket_number": "",
+  "first_page": "383",
+  "last_page": "389",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 383"
+    },
+    {
+      "type": "parallel",
+      "cite": "232 N.Y. 239"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y.",
+    "id": 24653,
+    "name": "New York Court of Appeals"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "164 N. Y. 470",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "1 Park. Cr. Rep. 256",
+      "category": "reporters:state",
+      "reporter": "Park. Cr.",
+      "case_ids": [
+        11259100
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/park-crim-rep/1/0256-01"
+      ]
+    },
+    {
+      "cite": "28 Hun, 1",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": -1
+    },
+    {
+      "cite": "101 N. Y. 642",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2201576,
+        2201435,
+        2201565
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/101/0642-02",
+        "/ny/101/0642-01",
+        "/ny/101/0642-03"
+      ]
+    },
+    {
+      "cite": "37 Hun, 194",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": -1
+    },
+    {
+      "cite": "23 N. Y. Supp. 23",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "case_ids": [
+        5773788
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nys/23/0023-01"
+      ]
+    },
+    {
+      "cite": "50 N. Y. 416",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2059628
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/50/0416-01"
+      ]
+    },
+    {
+      "cite": "186 N. Y. 15",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "103 N. Y. 655",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2205011,
+        2205085
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/103/0655-02",
+        "/ny/103/0655-01"
+      ]
+    },
+    {
+      "cite": "5 N. Y. Cr. Rep. 23",
+      "category": "reporters:state",
+      "reporter": "N.Y. Crim.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "217 N. Y. 380",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "198 N. Y. 396",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        810732,
+        58181
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/24/0441-01",
+        "/ny/198/0396-01"
+      ]
+    },
+    {
+      "cite": "75 App. Div. 39",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1187053
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/17/0018-01"
+      ]
+    },
+    {
+      "cite": "174 N. Y. 505",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2310443,
+        2310470
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/174/0505-02",
+        "/ny/174/0505-01"
+      ]
+    },
+    {
+      "cite": "57 Hun, 83",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": -1
+    },
+    {
+      "cite": "78 N. Y. 5",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "184 N. Y. 241",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "229 N. Y. 331",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "230 N. Y. 229",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "197 N. Y. 152",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        810741,
+        4463998
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/24/0255-01",
+        "/ny/197/0152-01"
+      ]
+    },
+    {
+      "cite": "228 N. Y. 574",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1965529,
+        1965364
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/228/0574-01",
+        "/ny/228/0574-02"
+      ]
+    },
+    {
+      "cite": "45 N. Y. 217",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "227 N. Y. 386",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "224 N. Y. 474",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "64 N. Y. 497",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "217 N. Y. 373",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1215154,
+        75695
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/34/0289-01",
+        "/ny/217/0373-01"
+      ]
+    },
+    {
+      "cite": "13 Ga. 68",
+      "category": "reporters:state",
+      "reporter": "Ga.",
+      "case_ids": [
+        1376077
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ga/13/0068-01"
+      ]
+    },
+    {
+      "cite": "57 Ark. 1",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1324615
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ark/57/0001-01"
+      ]
+    },
+    {
+      "cite": "83 Ga. 92",
+      "category": "reporters:state",
+      "reporter": "Ga.",
+      "case_ids": [
+        73389
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ga/83/0092-01"
+      ]
+    },
+    {
+      "cite": "105 La. 696",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2504348
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/la/105/0696-01"
+      ]
+    },
+    {
+      "cite": "1 Kan. 340",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        63999
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/kan/1/0340-01"
+      ]
+    },
+    {
+      "cite": "23 Utah, 212",
+      "category": "reporters:state",
+      "reporter": "Utah",
+      "case_ids": [
+        8871572
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/utah/23/0212-01"
+      ]
+    },
+    {
+      "cite": "149 N. Y. 106",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        27448
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/149/0106-01"
+      ]
+    },
+    {
+      "cite": "146 U. S. 140",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3564613
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/146/0140-01"
+      ]
+    },
+    {
+      "cite": "224 N. Y. 463",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1220755,
+        85670
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/37/0206-01",
+        "/ny/224/0463-01"
+      ]
+    },
+    {
+      "cite": "96 App. Div. 33",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        5132483
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ad/96/0033-01"
+      ]
+    },
+    {
+      "cite": "227 N. Y. 382",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1963513,
+        1222187
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/227/0382-01",
+        "/ny-crim/38/0146-01"
+      ]
+    },
+    {
+      "cite": "184 N. Y. 237",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        807210,
+        2324604
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/20/0036-01",
+        "/ny/184/0237-01"
+      ]
+    },
+    {
+      "cite": "206 N. Y. 516",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1203131,
+        60407
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/28/0247-01",
+        "/ny/206/0516-01"
+      ]
+    },
+    {
+      "cite": "30 Am. Rep. 69",
+      "category": "reporters:state_regional",
+      "reporter": "Am. Rep.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "77 Miss. 693",
+      "category": "reporters:state",
+      "reporter": "Miss.",
+      "case_ids": [
+        8836577
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/miss/77/0693-01"
+      ]
+    },
+    {
+      "cite": "40 Ala. 334",
+      "category": "reporters:state",
+      "reporter": "Ala.",
+      "case_ids": [
+        3152533
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ala/40/0334-01"
+      ]
+    },
+    {
+      "cite": "46 Tex. Cr. App. 562",
+      "category": "reporters:state",
+      "reporter": "Tex. Crim.",
+      "case_ids": [
+        175285
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex-crim/46/0562-01"
+      ]
+    },
+    {
+      "cite": "230 N. Y. 221",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        294357
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/230/0221-01"
+      ]
+    },
+    {
+      "cite": "197 N. Y. 383",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        4463011
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/197/0383-01"
+      ]
+    },
+    {
+      "cite": "228 N. Y. 574",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1965529,
+        1965364
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/228/0574-01",
+        "/ny/228/0574-02"
+      ]
+    },
+    {
+      "cite": "227 N. Y. 382",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1963513,
+        1222187
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/227/0382-01",
+        "/ny-crim/38/0146-01"
+      ]
+    },
+    {
+      "cite": "184 N. Y. 237",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        807210,
+        2324604
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/20/0036-01",
+        "/ny/184/0237-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 569,
+    "char_count": 11875,
+    "ocr_confidence": 0.527,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.04580749688495352
+    },
+    "sha256": "e0fbcf8f359ee33337cb23192e0a89ce5e3ed8b29ee3ad6037047b93ce8c28e6",
+    "simhash": "1:babfc0590a04e361",
+    "word_count": 2075
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. HERBERT W. SMITH."
+    ],
+    "opinions": [
+      {
+        "text": "Hiscock, Ch. J.:\nOn ample evidence we must assume that the jury found that the defendant broke into the store of one Johnson under circumstances which constituted the crime of burglary in the third degree; that by means of a burglar alarm the proprietor was advised of what was occurring and that he and his son, armed with firearms, quickly proceeded to the store, where they found the defendant still engaged in the commission of his crime; that the latter under threats of death surrendered and the proprietor and his son took him into actual custody, searching him and taking from his possession various articles, including a pistol, and thereafter placed him in a chair; that they still further consummated their capture and custody of him by placing handcuffs upon him and again commanding him to be seated in a chair, which he did; that then the proprietor stepped to a telephone and the son stepped behind the counter, leaning his gun against the latter, and the defendant sprang for and seized the. gun, which was discharged, causing the death of the son, and the defendant then, with an accompaniment of force, escaped from the store.\nUnder these circumstances, in respect of which there was no substantial dispute, the court, both by what it charged and by what it refused to charge in response to defendant\u2019s requests, in effect instructed the jury as matter of law that the defendant was engaged in the commission of the crime of burglary until he left the store, and that, therefore, he was engaged in the commission of such crime at the time the homicide occurred, and accordingly might be convicted of murder in the first degree. Presence upon the premises was thus made conclusive evidence of continuance in commission of the underlying crime. This was the only theory upon which the case was left to the jury, and their verdict clearly shows that they followed these instructions of the court. The question is whether these instructions were correct.\nIn cases of homicide committed in connection with crimes such as burglary, larceny or robbery, presence at the time of the homicide upon the premises which were the scene of the original crime, or prior departure therefrom, has been regarded as an important circumstance in determining whether the original crime was still in process of commission.\nIn various cases prior departure by the criminal from the premises for the purpose of escape has been regarded as decisively indicating that commission of the underlying crime had been terminated. (People v. Huter, 184 N. Y. 237; People v. Marwig, 227 N. Y. 382.) On the other hand, while presence upon the premises at the time the homicide was committed has been regarded as very important as indicating that the criminal was still engaged in the commission of the original crime, such presence became important because it was a circumstance tending to show, in connection with other facts, that the homicide was actually committed in the course of and for the purpose of carrying out the original crime. Thus, in one case the criminal killed one who resisted his attempts to secure the desired booty; in another case the criminal shot and killed because his burglarious presence in a house at night had been discovered; in another one he killed the person who threatened to interfere with his escape, either with or without booty. (People v. Schleiman, 197 N. Y. 383; People v. Walters, 228 N. Y. 574; People v. Nichols, 230 N. Y. 221.)\nIn each of these cases the homicide was in some degree connected with and incidental to the original crime. Presence upon the premises contributed to such a situation. But there is nothing in these cases or in the statute defining burglary in the third degree that makes presence upon the premises conclusive evidence of a continuance in commission of the crime of burglary if it appears that as matter of fact such crime has been terminated before the homicide was committed. Such I think may be the present case.\nThe evidence warrants the view that the acts performed by the proprietor and his son in apprehending, searching and handcuffing the defendant were sufficient to constitute an arrest (Code Crim. Proc., \u00a7\u00a7 167, 183-185), and that thereafter defendant performed no further acts in continuance of his original crime of burglary. Under these circumstances we think it should not have been held as matter of law that the defendant was still engaged in the crime of burglary when the homicide occurred, but.that it should have been submitted to the jury to decide whether the commission of this crime had been terminated.\nOf course, this does not mean that every temporary superiority which a householder or storekeeper may secure in a struggle with a criminal could or should be regarded as an arrest or break in the crime which the latter was engaged in committing. Fine distinctions ought not to be drawn for the benefit of one who enters upon property for the purpose of committing the crime of burglary or robbery and frequently prepared and disposed to commit, if necessary, the more serious one of murder. But it is a long distance from such a situation to the present case. This defendant had been subjected to complete custody. There had been placed upon him that symbol of subjection to the law than which none is more significant \u2014 handcuffs. The proprietor regarded the custody so complete that he stepped to the telephone to inform his wife that they had captured the burglar. It seems extravagant to say as matter of law that a man thus cast was still engaged in committing a burglary even though overconfidence permitted his custody to become ineffective.\nBut lastly it is said that even though the jury should take the view above outlined it would then he entitled to find that the defendant was engaged in an escape from an arrest for felony when the homicide occurred and that thus the basis would still continue for the conviction which has been found. It is possible that the evidence now before us would sustain that conclusion. We do not decide that question. The case has not been tried on that theory. The jury has not considered any such issue and we do not feel that in a case involving a charge of murder in the first degree we ought to substitute speculation for reality and sustain a conviction erroneously secured on one theory on the conjecture that it would have followed just the same if the correct theory had been applied.\nSome of my associates also think that the conduct of the sheriff in taking to the jury while in their deliberations the handcuffs defendant wore when the gun was discharged which caused the homicide was such serious misconduct as to call for a new trial. That the misconduct of the sheriff was serious and reprehensible admits of no debate. If, however, the views already expressed prevail, a new trial must follow, and it becomes unnecessary to discuss the questions presented by the improper acts referred to.\nThe judgment of conviction should be reversed and a new trial granted.\nHogan, Pound, McLaughlin, and Andrews, JJ., concur; Cardozo and Crane, JJ., dissent.\nJudgment of conviction reversed, etc.",
+        "type": "majority",
+        "author": "Hiscock, Ch. J.:"
+      }
+    ],
+    "attorneys": [
+      "David F. Lee, for appellant.",
+      "Ward N. Truesdell, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "COURT OF APPEALS.\nDecember 13, 1921.\nTHE PEOPLE v. HERBERT W. SMITH.\n(232 N. Y. 239.)\n(1) Murder in the first degree \u2014 When presence upon premises not CONCLUSIVE EVIDENCE OF CONTINUANCE IN COMMISSION OF CRIME OF BURGLARY.\nIn cases of homicide committed in connection with crimes such as burglary, larceny or robbery, presence at the time of the homicide upon the premises, which were the scene of the original crime, or prior departure therefrom, has been regarded as an important circumstance in determining whether the original crime was still in process of commission. Presence upon the premises, however, is not conclusive evidence of a continuance in commission of the crime of burglary if it appears that as matter of fact such crime has been terminated before the homicide was committed.\n(2) Same \u2014 Whether commission of crime had been terminated question FOR THE JURY.\nWhere, upon trial of an indictment for murder in the first degree, alleged to have been committed by defendant while attempting to escape from a store which he had broken into under circumstances which constituted the crime of burglary in the third degree, the evidence warrants the view that acts performed by the proprietor and his son in apprehending, searching and handcuffing the defendant were sufficient to constitute an arrest and that thereafter defendant performed no further acts in continuance of his original crime of burglary, it should not have been held, as matter of law, that the defendant was still engaged in the crime of burglary when the homicide occurred, but it should have been submitted to the jury to decide whether the commission of this crime had been terminated.\n(3) Same \u2014 Conviction secured on erroneous theory not sustained on CONJECTURE THAT IT WOULD HAVE FOLLOWED IE CORRECT THEORY HAD BEEN APPLIED.\nIn a case involving a charge of murder in the first degree a conviction erroneously secured on one theory will not be sustained on the conjecture that it would have followed just the same if the correct theory had been applied, where the jury has not considered any such issue.\n(4) Same \u2014 Misconduct oe sheriff with jury.\nThe taking by the sheriff to the jury, while in their deliberations, of the handcuffs defendant wore when the gun was discharged which caused the homicide, constituted serious and reprehensible misconduct.\nAppeal from a judgment of the Supreme Court, rendered April 7, 1921, at a Trial Term for the county of Chenango, upon a verdict convicting the defendant of the crime of murder in the first degree.\nDavid F. Lee, for appellant.\nThe trial court erred in charging the jury that if the defendant committed the crime of burglary, third degree, he was engaged in the commission of the crime until he left the building. (Hames v. State, 46 Tex. Cr. App. 562; Allen v. State, 40 Ala. 334; Strait v. State, 77 Miss. 693; Adkinson v. State, 30 Am. Rep. 69; People v. Spohr, 206 N. Y. 516; People v. Huter, 184 N. Y. 237.) The trial court erred in its refusal to charge as to the legal effect of the abandonment of the criminal enterprise by the defendant prior, to the homicide. (People v. Marwig, 227 N. Y. 382; People v. Young, 96 App. Div. 33; People v. Chapman, 224 N. Y. 463.) The sheriff, the jury and the officers in charge of jury were guilty of misconduct that was prejudicial. (Mattox v. United States, 146 U. S. 140; People v. Gallo, 149 N. Y. 106; State v. Morgan, 23 Utah, 212; Madden v. State, 1 Kan. 340; State v. Ned, 105 La. 696; Shaw v. State, 83 Ga. 92; Vaughn v. State, 57 Ark. 1; Cooper v. State, 13 Ga. 68; People v. Sprague, 217 N. Y. 373.)\nWard N. Truesdell, for respondent.\nThe trial court made no error in charging the jury. If the defendant committed the crime of burglary in the third degree he was engaged in the commission of a crime until he left the building. (Dolan v. People, 64 N. Y. 497; People v. Chapman, 224 N. Y. 474; People v. Marwig, 227 N. Y. 386; Ruloff v. People, 45 N. Y. 217; People v. Walters, 228 N. Y. 574; People v. Giro, 197 N. Y. 152; People v. Nichols, 230 N. Y. 229; People v. Michalow, 229 N. Y. 331; People v. Huter, 184 N. Y. 241.) The sheriff, the jury and the officer in charge of the jury were not guilty of misconduct that was prejudicial. (People v. Gallagher, 78 N. Y. 5; People v. Flack, 57 Hun, 83, 174 N. Y. 505, 75 App. Div. 39; People v. Thompson, 198 N. Y. 396; People v. Sprague, 217 N. Y. 380; People v. Druse, 5 N. Y. Cr. Rep. 23, 103 N. Y. 655; People v. Dolan, 186 N. Y. 15; People v. Gaffney, 14 Abb. Pr. [N. S.] 36, 50 N. Y. 416; Moses v. Central Park, N. & E. R. R. Co., 23 N. Y. Supp. 23; People v. Seeley, 37 Hun, 194, 101 N. Y. 642; People v. Draper, 28 Hun, 1; People v. Carnal, 1 Park. Cr. Rep. 256; People v. Priori, 164 N. Y. 470.)"
+  },
+  "file_name": "0383-01",
+  "first_page_order": 403,
+  "last_page_order": 409
+}

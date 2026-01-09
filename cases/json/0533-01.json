@@ -1,0 +1,227 @@
+{
+  "id": 1228863,
+  "name": "THE PEOPLE ex rel. GEORGE W. BRYANT v. THE SHERIFF OF ERIE COUNTY",
+  "name_abbreviation": "People ex rel. Bryant v. Sheriff of Erie County",
+  "decision_date": "1924-11-05",
+  "docket_number": "",
+  "first_page": "533",
+  "last_page": "539",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 533"
+    },
+    {
+      "type": "parallel",
+      "cite": "123 Misc. 859"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Sup. Ct.",
+    "id": 8791,
+    "name": "New York Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "199 U. S. 401",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3643682
+      ],
+      "pin_cites": [
+        {
+          "page": "411"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/199/0401-01"
+      ]
+    },
+    {
+      "cite": "232 U. S. 138",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3671937
+      ],
+      "pin_cites": [
+        {
+          "page": "144"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/232/0138-01"
+      ]
+    },
+    {
+      "cite": "236 U. S. 373",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8287428
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/236/0373-01"
+      ]
+    },
+    {
+      "cite": "149 N. Y. 195",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        27529
+      ],
+      "pin_cites": [
+        {
+          "page": "205"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/149/0195-01"
+      ]
+    },
+    {
+      "cite": "222 N. Y. 416",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        80117
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/222/0416-01"
+      ]
+    },
+    {
+      "cite": "214 N. Y. 121",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        72091,
+        1211612
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/214/0121-01",
+        "/ny-crim/33/0001-01"
+      ]
+    },
+    {
+      "cite": "106 N. Y. 293",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2210425
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/106/0293-01"
+      ]
+    },
+    {
+      "cite": "16 Wall. 36",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        411261
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/83/0036-01"
+      ]
+    },
+    {
+      "cite": "74 N. Y. 509",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        534700
+      ],
+      "pin_cites": [
+        {
+          "page": "522"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/74/0509-01"
+      ]
+    },
+    {
+      "cite": "106 U. S. 629",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3497477
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/106/0629-01"
+      ]
+    },
+    {
+      "cite": "219 U. S. 128",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653271
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/219/0128-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 646,
+    "char_count": 11498,
+    "ocr_confidence": 0.494,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.04604592777416753
+    },
+    "sha256": "f33d5de59b235d876affa946ab05c1fa77cd112621186ac002bca29dd8c4e442",
+    "simhash": "1:12e61b96e2d478db",
+    "word_count": 1883
+  },
+  "last_updated": "2024-02-27T16:15:52.747790+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE ex rel. GEORGE W. BRYANT v. THE SHERIFF OF ERIE COUNTY."
+    ],
+    "opinions": [
+      {
+        "text": "Pooley, J.:\nThe relator has been arrested on the charge of violation of the Oivil Eights Law, article V-A, sections 53 to 56, inclusive, added by Laws 1923, chap. 664, effective Hay 23, 1923, and comes into court pursuant to a writ of habeas corpus, claiming that the law is unconstitutional, and that he should, therefore, be discharged.\n' The sections in question read as follows:\n\u201c \u00a7 53. Copies of documents and statements to be filed.\u2014 Every existing membership corporation, and every existing unincorporated association having a membership of twenty or more persons, which corporation or association\u2019requires an oath as a prerequisite or condition of membership, other than a labor union or a benevolent order mentioned in the benevolent orders law, within thirty days after this article takes effect, and every such corporation or association hereafter organized, within ten days after the adoption thereof, shall file with the secretary of state a sworn copy of its constitution, by-laws, rules, regulations and oath of membership, together with a roster of its membership and a list of its officers for the current year. * * *\n\u201c \u00a7 54. Eesolutions concerning political matters. \u2014 Every such corporation or association shall, within ten days after the adoption thereof, file in the office of the secretary of state every resolution, or the minutes of any action of such corporation or association, providing for concerted action of its members or of a part thereof to promote or defeat legislation, federal, state or municipal, or to support or to defeat any candidate for political office.\n\u201c \u00a7 55. Anonymous communications prohibited. \u2014 It shall be unlawful for any such corporation or association to send, deliver, mail or transmit to any person in this state who is not a member of such corporaton or association any anonymous letter, document, leaflet or other written or printed matter, and all such letters, documents, leaflets or other written or printed matter, intended for a person not a member of such corporation or association, shall bear on the same the name of such corporation or association and the names of the officers thereof together with the addresses of the latter.\n\u201c\u00a7 56. Offenses; penalties. \u2014 * *\nThis legislation is apparently aimed at the organization known as the Ku Klux Klan, although it is not specifically namei. All the briefs submitted, as well as the oral arguments, assume the applicability, and the court may indulge in the assumption.\nThe proceeding by habeas corpus is one of several proper methods to test the rights of the relator, but under it we are confined to the statute itself, regardless of extraneous facts, and solely as regards the relator himself. Engel v. O\u2019Malley, 219 U. S. 128.\nThe statute is assailed on the ground that it is class legislation, wrongfully restricting the personal liberty of certain citizens, in an unreasonable and arbitrary manner.\nIt cannot be questioned that the legislature has the power to enact laws applicable to particular classes, under the police power of the state, having regard to the public safety, the protection of public morals and general welfare of the people.\nThe court starts with the presumption that the statute is valid, the deliberate enactment of the law-making power, and that it is to determine whether or not the act is unreasonable and arbitrary.\nIt may be assumed that the legislature informed itself of conditions bearing upon the proposed legislation. These conditions probably are not such as would enable the court to take judicial notice of them, but the legislature could well have learned of the acts of the klan. It is a matter of common knowledge that this organization functions largely at night, its members disguised by hoods and gowns and doing things calculated to strike terror into the minds of the people. It is claimed that they are organized against certain of the citizens by- reason of race or religion. This, of course, cannot be tolerated under our form of government. If what is claimed of it is true, it strikes at fundamental principles of our government, principles that have been recognized as the foundation of our liberties. If they are true, the state has the power to eradicate them and is not required to await active violations before enacting legislation. It may anticipate them. If it is not true, the members should be the first to make it manifest. The organization is the same in name as, or similar to, that of an organization following the Civil War, and it appears to have adopted many of the details of regalia and procedure. It is unfortunate, as I view it, in adopting the name of an organization which was disposed of by proclamations of the president and was prosecuted in the courts. A culmination was reached by the enactment, in 1871, of the statute (17 U. S. Stat. at Large, 13), which came to be known as the Federal Ku Klux Law, forbidding disguises and interference with freedmen\u2019s rights. This enactment was challenged in U. S-v, Harris, 106 U. S. 629, but not upon the ground that it transcended the inherent power of government.\nThe state is bound to maintain order within its boundaries, promote the general welfare, protect its citizens in their personal and- property rights. In doing so, the legislature has been called upon frequently to enact what has been denominated class, legislation, and has been upheld by the courts.\n\u201cThe police power so called inheres in every sovereignty, and is essential to the maintenance of public order and the preservation of mutual rights from the disturbing conflicts which would arise, in- the absence of any controlling, regulating authority, and has been constantly exercised by the legislature in a great variety of cases.\u201d Bertholf v. O\u2019Reilly, 74 N. Y. 509, 522.\nA few references may be made, notably, The SlaughterHouse Cases, 16 Wall. 36, and Munn v. Illinois, 4 Otto, 114, which- Andrews, J., in Bertholf Case, supra, says (p. 523) \u201c may be deemed to have carried the right of legislative interference with private rights and property to its utmost limit, but they illustrate the scope of the police power in legislation; * * * \u00bb The adulteration of milk. People v. West, 106 N. Y. 293. The restriction of hours of labor. People v. Klinek Packing Co., 214 N. Y. 121. The Agricultural Law, restricting the handling of milk or cream for shipment to any city, as a business, without having an office within the state and a license. People v. Beakes Dairy Co., 222 N. Y. 416. In this last case the court says (p. 429) : \u201c Whatever might be said of the statute as \u2018 class legislation \u2019 * * * is answered, by People v. Havnor, 149 N. Y. 195, 205. The statute there under consideration placed barbers in a class by themselves and then subdivided the class between barbers in Hew York and Saratoga and barbers elsewhere for the purpose of regulating their right to work on Sunday; but Vann, J., said, \u2018 the statute treats all barbers alike within the same localities, * * *) There is no constitutional prohibition against class legislation as such if the classification is based on some reasonable ground, and is not essentially arbitrary.\u201d\nComing, then, to the question whether or not the legislation is unreasonable, arbitrary and discriminatory, it j.s urged that the act exempts all labor organizations and the twenty-six benevolent orders mentioned in the Benevolent Orders Law. These organizations and their purposes are well known, many of them having been in existence for many years. Many of them are oath-bound and secret. But we hear of no complaints against them regarding violation of the peace or interfering with the rights of others. If it should appear that any one of them or any group of them was violating the law, they might be promptly and effectively proceeded against.\nAs is well said in Miller v. Wilson, 236 U. S. 373, 383: It is a \u201c well-established principle that the legislature is not bound, in order .to support the constitutional validity- of its regulation, to extend it to all eases which it might possibly reach. Dealing with practical exigencies, the legislature may be guided by experience. Patsone v. Pennsylvania, 232 U. S. 138, 144. It is free to recognize degrees of harm, and it may confine its restrictions to those classes of eases where the need is deemed to be clearest. As has been said, it may \u2018 proceed cautiously, step by step,\u2019 and \u2018 if an. evil is. specially experienced in a particular branch of business \u2019 it is not necessary that the' prohibition \u2018 should be couched in all-embracing terms.\u2019 Carroll v. Greenwich Insurance Co., 199 U. S. 401, 411. If the law presumably hits, the evil where it is most felt, it is not to be overthrown because there are other instances to which it might have been applied.\u201d\nSome features of the statute are criticised in the able brief of counsel for the relator, but in my view it is unnecessary to further extend the discussion. The statute does not invade the rights of this relator and the motion to dismiss the proceeding should be denied.",
+        "type": "majority",
+        "author": "Pooley, J.:"
+      }
+    ],
+    "attorneys": [
+      "Grass, Grass & Gerken (Louis E. Fuller, of counsel), for the relator.",
+      "Guy B. Moore, district attorney, for the respondent.",
+      "Carl Sherman, attorney-general, for the state.",
+      "Henry W. Killeen, as amicus curiae."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014ERIE COUNTY.\nNovember 5, 1924.\nTHE PEOPLE ex rel. GEORGE W. BRYANT v. THE SHERIFF OF ERIE COUNTY.\n(123 Misc. 859)\n(1) Civil Bights Law, article v-a, \u00a7\u00a7 53, 56 \u2014 Habeas Corpus \u2014 Neglect-TO FILE COPIES OF DOCUMENTS, ETC., RELATING TO Ku KLUX KlAN.\nThe legislature has the authority, under the police power of the state, to enact laws applicable to particular classes, having regard to the maintenance of public order, the preservation of mutual rights, the protection of public morals and the general welfare of the people. There is no constitutional prohibition against class legislation as such, if the classification is based on some reasonable ground and is not essentially arbitrary.\n(2) Same.\nSections 63-56 of article V-A of the Civil Bights Law compelling every existing membership corporation, every existing unincorporated association and every such corporation or association thereafter organized, having a membership of twenty or more persons and requiring an oath as a prerequisite or condition of membership, other than a labor union or a benevolent order mentioned in the Benevolent Orders Law, to file with the secretary of state a sworn copy of its constitution, by-laws, oath and roster of membership, and every resolution providing for concerted action in political affairs, and prohibiting the dissemination of anonymous communications concerning such corporation or association, is constitutional and valid under the police power of the state and is neither unreasonable, arbitrary nor discriminatory. Moreover, the statute does not contravene the prohibition against legislation applicable to particular classes.\n(3) Same.\nAccordingly, a habeas corpus proceeding to discharge the relator from custody, following his arrest for the violation of sections 53-56 of article V-A of the Civil Bights Law, on the ground that the statute is unconstitutional, should be dismissed, where it is evident that the legislation apparently was aimed at the organization known as the Eu Elux Elan and that the statute is a deliberate enactment of the legislature, prompted by the state\u2019s duty to maintain order, promote the general welfare and protect its citizens in their personal and property rights.\nHabeas corpus proceeding.\nGrass, Grass & Gerken (Louis E. Fuller, of counsel), for the relator.\nGuy B. Moore, district attorney, for the respondent.\nCarl Sherman, attorney-general, for the state.\nHenry W. Killeen, as amicus curiae."
+  },
+  "file_name": "0533-01",
+  "first_page_order": 549,
+  "last_page_order": 555
+}

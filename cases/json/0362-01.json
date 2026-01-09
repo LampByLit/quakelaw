@@ -1,0 +1,70 @@
+{
+  "id": 1224726,
+  "name": "THE PEOPLE EX REL. DANA WALLACE v. ADAM CHRISTMANN",
+  "name_abbreviation": "People ex rel. Wallace v. Christmann",
+  "decision_date": "1921-12",
+  "docket_number": "",
+  "first_page": "362",
+  "last_page": "364",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 362"
+    },
+    {
+      "type": "parallel",
+      "cite": "117 Misc. 528"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Sup. Ct.",
+    "id": 8791,
+    "name": "New York Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 222,
+    "char_count": 3877,
+    "ocr_confidence": 0.558,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.045067384325119315
+    },
+    "sha256": "31187a7e0c13be84e7e79d90b80570561ed1f38367d0ef9e168ff3d92238cb02",
+    "simhash": "1:02130b26b5a39e85",
+    "word_count": 648
+  },
+  "last_updated": "2023-07-14T18:56:16.069757+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE EX REL. DANA WALLACE v. ADAM CHRISTMANN."
+    ],
+    "opinions": [
+      {
+        "text": "Cropsey, J.:\nThe district attorney seeks a writ of prohibition to restrain a Municipal Court justice from trying an action in replevin to recover the possession of liquor seized without warrant from the private dwelling of the plaintiff in the replevin action. The legislation passed early this year (Laws of 1921, chaps. 155, 156) prescribes certain proceedings and remedies in the enforcement of prohibition. Among other things a proceeding in rem against seized liquor is provided under certain conditions, and where such proceedings lie I think it was the intention of the Legislature to have the seized liquor kept in official custody until the determination thereof. Chapter 156, above mentioned, adds section 802b to the Criminal Code. It provides for the seizure under a search warrant of liquor illegally possessed. It states that liquor thus seized, \u201cshall hot be taken from the custody of the peace officer making the seizure by a writ of replevin or other process, while the proceeding or trial is pending.\u201d Later on the same section provides that \u201c Whenever a peace officer shall find any person * * * in the unlawful possession thereof [of intoxicating liquor] outside of his private dwelling, he may, without a warrant, seize any and all such intoxicating liquor * * *.\u201d The officer so seizing the liquor must make a return of his proceedings as provided, which return shall be deemed a complaint \u201c and the provisions of this section relating to proceedings for seizure pursuant to a warrant shall apply to such liquor * * From these provisions I think it plain that where liquors are seized without a warrant, provided the seizure was under the conditions permitted by the statute referred to, they shall be kept in the possession of the peace officer pending the disposition of the trial and proceeding the same as if they had been seized under a warrant. In the present case the liquors were taken from the private dwelling of the person who claimed the ownership of them and the lawful right to retain them. The criminal charge against that person has been dismissed. The proceeding in rem against the liquor is still pending. The alleged owner of the liquor has sued in the Municipal Court in replevin to recover it. If the seizure of the liquor had been made as provided by the statute in question, although without a warrant, I should have no hesitancy in holding that the replevin action could not be maintained pending the disposition of the proceeding in rem. But the seizure was concededly without right. The liquor was found in and taken from the private dwelling of its owner without a warrant. This is not permitted by the statute. In fact, possession of liquor in a person\u2019s private dwelling is excepted from the list of cases in which it may be seized without a warrant. And where there has been such an illegal seizure there is no basis for the proceeding in rem. For the purposes of this case the situation is the same as though the statutes above mentioned had not been passed. Hence it follows that the owner of the liquor may maintain his action in replevin to recover it.\nMotion denied.",
+        "type": "majority",
+        "author": "Cropsey, J.:"
+      }
+    ],
+    "attorneys": [
+      "Joseph Lonardo, Assistant District Attorney, for motion.",
+      "William J. Spalkchaver, for respondent Hufner."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014QUEENS COUNTY.\nDecember, 1921.\nTHE PEOPLE EX REL. DANA WALLACE v. ADAM CHRISTMANN.\n(117 Misc. 528.)\nIntoxicating liquors \u2014 Seizure without warrant in private dwelling \u2014When writ of prohibition will not issue to restrain replevin\u2014 Code Crim. Proc., \u00a7 802b.\nWhere, without a search warrant, liquors are seized in and taken from the private dwelling of the owner of the liquor, an action in replevin lies, and a motion to restrain the trial of the action pending the disposition of a proceeding m rem under section 802b of the Code of Criminal Procedure against the liquor so seized, will be denied.\nApplication for writ of prohibition.\nJoseph Lonardo, Assistant District Attorney, for motion.\nWilliam J. Spalkchaver, for respondent Hufner."
+  },
+  "file_name": "0362-01",
+  "first_page_order": 382,
+  "last_page_order": 384
+}

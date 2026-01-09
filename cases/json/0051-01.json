@@ -1,0 +1,982 @@
+{
+  "id": 1228811,
+  "name": "THE PEOPLE v. JOSEPH GAYDICA; THE PEOPLE v. SAMUEL MOSKOWITZ; THE PEOPLE v. JAMES M. FINLAY",
+  "name_abbreviation": "People v. Gaydica",
+  "decision_date": "1923-12",
+  "docket_number": "",
+  "first_page": "51",
+  "last_page": "107",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 51"
+    },
+    {
+      "type": "parallel",
+      "cite": "122 Misc. 31"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Kings Cty. Ct.",
+    "id": 9088,
+    "name": "County Court of New York, Kings County"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "166 N. Y. 305",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2287031
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/166/0305-01"
+      ]
+    },
+    {
+      "cite": "205 N. Y. 336",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        4500819
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/205/0336-01"
+      ]
+    },
+    {
+      "cite": "134 N. Y. 418",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2252967
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/134/0418-01"
+      ]
+    },
+    {
+      "cite": "149 N. Y. 23",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        27364
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/149/0023-01"
+      ]
+    },
+    {
+      "cite": "57 N. Y. 567",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        5137154
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/57/0567-01"
+      ]
+    },
+    {
+      "cite": "65 Misc. Rep. 549",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        389023
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc/65/0549-01"
+      ]
+    },
+    {
+      "cite": "28 App. Div. 37",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2373489
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/28/0037-01"
+      ]
+    },
+    {
+      "cite": "155 App. Div. 586",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2673591
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/155/0586-01"
+      ]
+    },
+    {
+      "cite": "33 Misc. Rep. 790",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        1623753
+      ],
+      "year": 1907,
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc/33/0790-01"
+      ]
+    },
+    {
+      "cite": "26 App. Div. 487",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        5665047
+      ],
+      "weight": 2,
+      "year": 1898,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/50/0369-01"
+      ]
+    },
+    {
+      "cite": "142 N. Y. 134",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2260220
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/142/0134-01"
+      ]
+    },
+    {
+      "cite": "110 N. Y. 145",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2215780
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/110/0145-01"
+      ]
+    },
+    {
+      "cite": "72 N. Y. 211",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        532746
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/72/0211-01"
+      ]
+    },
+    {
+      "cite": "66 N. Y. 181",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2163340
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/66/0181-01"
+      ]
+    },
+    {
+      "cite": "11 N. Y. 432",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2014735
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/11/0424-01"
+      ]
+    },
+    {
+      "cite": "8 N. Y., 222",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2010547
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/8/0222-01"
+      ]
+    },
+    {
+      "cite": "5 N. Y. 48",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        6095590
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/5/0048-01"
+      ]
+    },
+    {
+      "cite": "112 Mass. 96",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        2111253
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/112/0096-01"
+      ]
+    },
+    {
+      "cite": "61 N. Y. 178",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        525404
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/61/0178-01"
+      ]
+    },
+    {
+      "cite": "66 N. Y. 182",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 App. Div. 356",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2293311
+      ],
+      "weight": 3,
+      "year": 1898,
+      "pin_cites": [
+        {
+          "page": "487"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/12/0356-01"
+      ]
+    },
+    {
+      "cite": "62 Misc. Rep. 269",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        383210
+      ],
+      "weight": 2,
+      "year": 1901,
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc/62/0269-01"
+      ]
+    },
+    {
+      "cite": "224 N. Y. 436",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        85540
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/224/0436-01"
+      ]
+    },
+    {
+      "cite": "47 App. Div. 428",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        7760283
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/62/0453-01"
+      ]
+    },
+    {
+      "cite": "156 N. Y. 109",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        41467
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/156/0109-01"
+      ]
+    },
+    {
+      "cite": "150 App. Div. 98",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2625685
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/150/0098-01"
+      ]
+    },
+    {
+      "cite": "61 N. Y. 17",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "year": 1913,
+      "opinion_index": 0
+    },
+    {
+      "cite": "209 N. Y. 115",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        62069,
+        1206231
+      ],
+      "pin_cites": [
+        {
+          "page": "123"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/209/0115-01",
+        "/ny-crim/30/0052-01"
+      ]
+    },
+    {
+      "cite": "103 N. Y. 487",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2205013
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/103/0487-01"
+      ]
+    },
+    {
+      "cite": "4 N. Y. Cr. Rep. 230",
+      "category": "reporters:state",
+      "reporter": "N.Y. Crim.",
+      "case_ids": [
+        797864
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "266"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/4/0230-01"
+      ]
+    },
+    {
+      "cite": "60 N. Y. 278",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        523206
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/60/0278-01"
+      ]
+    },
+    {
+      "cite": "82 N. Y. 65",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2177239
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/82/0065-01"
+      ]
+    },
+    {
+      "cite": "206 N. Y. 373",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        60626,
+        1203147
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/206/0373-01",
+        "/ny-crim/28/0285-01"
+      ]
+    },
+    {
+      "cite": "53 N. Y. 262",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 N. Y. 239",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2255048
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/135/0239-01"
+      ]
+    },
+    {
+      "cite": "137 N. Y. 100",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        20110
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/137/0100-01"
+      ]
+    },
+    {
+      "cite": "199 N. Y. 388",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        4476954
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/199/0388-01"
+      ]
+    },
+    {
+      "cite": "214 N. Y. 316",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        72223
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/214/0316-01"
+      ]
+    },
+    {
+      "cite": "190 N. Y. 481",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        4459976
+      ],
+      "pin_cites": [
+        {
+          "page": "487"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/190/0481-01"
+      ]
+    },
+    {
+      "cite": "138 Mass. 498",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        762424
+      ],
+      "pin_cites": [
+        {
+          "page": "500"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/138/0498-01"
+      ]
+    },
+    {
+      "cite": "172 App. Div. 117",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2867067
+      ],
+      "pin_cites": [
+        {
+          "page": "118"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/172/0117-01"
+      ]
+    },
+    {
+      "cite": "166 App. Div. 81",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1209637
+      ],
+      "pin_cites": [
+        {
+          "page": "82"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/32/0526-01"
+      ]
+    },
+    {
+      "cite": "74 Misc. Rep. 362",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Misc. Rep. 353",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        5652215
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/134/0409-01"
+      ]
+    },
+    {
+      "cite": "88 Misc. Rep. 124",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        5569934
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "158"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/151/0651-01"
+      ]
+    },
+    {
+      "cite": "126 App. Div. 72",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        809114
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/22/0485-01"
+      ]
+    },
+    {
+      "cite": "178 N. Y. 254",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2316570,
+        805334
+      ],
+      "pin_cites": [
+        {
+          "page": "258"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/178/0254-01",
+        "/ny-crim/18/0259-01"
+      ]
+    },
+    {
+      "cite": "91 App. Div. 457",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        5814570
+      ],
+      "pin_cites": [
+        {
+          "page": "461"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/87/0069-01"
+      ]
+    },
+    {
+      "cite": "184 App. Div. 260",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1220705
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "262"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/37/0029-01"
+      ]
+    },
+    {
+      "cite": "46 Hun, 66",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": 0
+    },
+    {
+      "cite": "118 N. Y. 424",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2227361
+      ],
+      "pin_cites": [
+        {
+          "page": "432"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/118/0424-01"
+      ]
+    },
+    {
+      "cite": "160 N. Y. 302",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        33834
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/160/0302-01"
+      ]
+    },
+    {
+      "cite": "133 N. Y. 583",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2251353
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/133/0583-01"
+      ]
+    },
+    {
+      "cite": "128 N. Y. 455",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2241415
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/128/0455-01"
+      ]
+    },
+    {
+      "cite": "97 N. Y. 507",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2195168
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/97/0507-01"
+      ]
+    },
+    {
+      "cite": "163 N. Y. 527",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        40138
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "533"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/163/0527-01"
+      ]
+    },
+    {
+      "cite": "24 Misc. Rep. 361",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        3417463
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/53/0695-01"
+      ]
+    },
+    {
+      "cite": "158 N. Y. Supp. 572",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "case_ids": [
+        3165612
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/158/0572-01"
+      ]
+    },
+    {
+      "cite": "20 Misc. Rep. 213",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        3468679
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/45/0911-01"
+      ]
+    },
+    {
+      "cite": "187 N. Y. 495",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1192232,
+        2328267
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "511"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/21/0009-01",
+        "/ny/187/0495-01"
+      ]
+    },
+    {
+      "cite": "173 N. Y. 395",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1187041,
+        2308662
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "400"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/17/0225-01",
+        "/ny/173/0395-01"
+      ]
+    },
+    {
+      "cite": "202 N. Y. 618",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        4488515
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/202/0618-01"
+      ]
+    },
+    {
+      "cite": "143 App. Div. 251",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        7660913,
+        1198910
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/128/0549-01",
+        "/ny-crim/26/0001-01"
+      ]
+    },
+    {
+      "cite": "153 N. Y. 576",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2277628
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/153/0576-01"
+      ]
+    },
+    {
+      "cite": "105 App. Div. 149",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1189856
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/19/0399-01"
+      ]
+    },
+    {
+      "cite": "4 N. Y. Cr. Rep. 193",
+      "category": "reporters:state",
+      "reporter": "N.Y. Crim.",
+      "case_ids": [
+        797880
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/4/0193-01"
+      ]
+    },
+    {
+      "cite": "106 N. Y. 502",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2210535
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "538"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/106/0502-01"
+      ]
+    },
+    {
+      "cite": "60 Misc. Rep. 3",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        5629254
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "8"
+        },
+        {
+          "page": "55, 56, 57"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/112/0706-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2825,
+    "char_count": 115954,
+    "ocr_confidence": 0.53,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.04604052205360235
+    },
+    "sha256": "93641f2de79c0daf39ca41b3e7b9fc639d2845b08a8837960e013503f298fdd4",
+    "simhash": "1:ba232cc0f76e7480",
+    "word_count": 20110
+  },
+  "last_updated": "2024-02-27T16:15:52.747790+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. JOSEPH GAYDICA. THE PEOPLE v. SAMUEL MOSKOWITZ. THE PEOPLE v. JAMES M. FINLAY"
+    ],
+    "opinions": [
+      {
+        "text": "McLaughlin, J.:\nThese are motions to dismiss separate indictments found' against each of the defendants above named accusing them; under the first count of the crime of manslaughter in the first degree and under the second count of the crime of manslaughter in the first degree in each instance excepting as to the defendant Finlay who is by the second count accused of the crime of manslaughter in the second degree.\nThe first counts appear to be, and upon the argument were conceded to be, found on the theory of public nuisance (a misdemeanor) committed and maintained by the defendants and resulting in the death of a named person, while the second counts are upon the culpable negligence theory. The second counts should have all been found, if found at all, as manslaughter in the second degree and not the first degree as in the instances of Moskowitz and Gaydica.\nThe defense say that the second count is for that reason worthless, that it must fail and be dismissed, and in support of that argument cite People v. Foster, 60 Misc. Rep. 3, 8, and People v. Quartararo, 76 id. 55, 56, 57. Their contention is that the second count of the indictments charges a crime, to wit, manslaughter in the first degree, but does not state facts constituting that crime or the converse; they state acts Avhieh constitute manslaughter in the second degree as defined by the legislature but do not charge that crime. In the latter case, quoting from the opinion of Judge Crane, it is said: \u201cAn indictment which alleged a crime but did- not state the acts constituting that crime would be bad. Likewise, an indictment which stated the acts without alleging the crime charged against the defendant would also be bad. Further, if the indictment charged one crime and the facts alleged showed that not that crime but some other had been committed, here also the indictment would be defective, as the indictment must not only charge a crime but allege the acts constituting the crime charged. People v. Dumar, 106 N. Y. 502; People v. Stark, 136 id. 538; People v. Klipfel, 160 id. 371; People v. Kane, 161 id. 380; People v. Corbalis, 178 id. 516.\n\u201c In the latter case, although the indictment charged a crime, it was held bad as it did not contain a statement of the acts showing the commission of the crime charged, but in place thereof a recital of the statutes violated in the words of the statute.\n\u201c The indictment in this case is clearly bad in that it charges the defendant with a crime punishable with ten years in State prison, whereas the acts alleged to constitute the crime show the commission of an entirely distinct offense punishable by a \u25a0one year term.\u201d\nAn indictment must contain \u201c a plain and concise statement \u2022of the act constituting the crime, without unnecessary repetition \u201d (Code Crim. Pro. \u00a7 275), and it is of no moment if the name of the crime be incorrectly stated in the accusatory \u25a0clause of the indictment if the specific allegations of the fact are sufficient, for the latter in such case control the character of the crimes presented by the indictment. People v. Sullivan, 4 N. Y. Cr. Rep. 193. It is acts charged which constitute the crime. People v. Seeley, 105 App. Div. 149; People v. Perckens, 153 N. Y. 576. These cases are cited with approval in People v. Miller, 143 App. Div. 251; affd., 202 N. Y. 618, on the opinion below.\nThe defendants are charged with manslaughter and the facts alleged constitute manslaughter. The variance in degree cannot surprise them. Section 444 of the Code of Criminal Procedure provides that upon an indictment for a crime consisting of different degrees, the jury may find the defendant not guilty of the degree charged in the indictment and guilty of any degree inferior thereto.\nThe indictments grew out of an accident, the collapse of the American Theatre, so called, on the 29th day of November, 1921. This building fell while in course of erection resulting in the death of at least two persons. On the 17th day of January, 1922, and before the indictments were found the former district attorney started the conduct of a public hearing before Chief Magistrate McAdoo as a \u201c John Doe \u201d proceeding during-which hearing 1,100 pages of testimony were taken before it was concluded on March 15, 1922, the magistrate announcing that he would receive a complaint under section 1052 of the Penal Law against these defendants and also one Kavanaugh.\nAt that hearing interested persons were allowed to testify only upon waiving immunity. Counsel was permitted only by courtesy and was limited in cross-examination to his own client.\nThe magistrate further said \u201c as this inquiry has been of a public nature, it is the privilege and right of the district attorney to present the facts of this case to the grand jury without further intervening magisterial action if he so desires.\u201d This was done by the district attorney. On the morning of March 18, 1922, the defendants were arraigned to plead to these indictments found within two days. The learned district attorney remarks in his brief that there was unseemly haste in the preparation of these indictments. This could but lead to disaster. The John Doe proceedings took from start to finish about two months, the presentation of the case to the grand jury but two days. The stenographer who took the testimony in the John Doe proceeding before the chief magistrate was called before the grand jury, and after testifying that he had taken down in shorthand and transcribed that public testimony before the chief magistrate and having identified the book wherein it was written, the grand jury was allowed to hear the testimony thus previously given in public, in lieu of having the witnesses called before it. The witnesses whose testimony was thus repeated to the grand jury by the stenographer who had taken it down and then used against the defendant Moskowitz were James Kavanaugh, Charles J, Plankens and James M. Finlay, and against the defendant Joseph Gaydica were James Kavanaugh, Charles J. Plankens, James M. Finlay and Sylvester Rosenthal, and against James M. Finlay were James Kavanaugh, Charles J. Plankens and Sylvester Rosenthal. These witnesses on the public hearing before the chief magistrate were not called before the grand jury to repeat their testimony.\nThere had been no cross-examination of these men on the public hearing as it was not permitted. It must be borne in mind also that this reading of testimony was as against all of the men indicted for there was but one presentation of the case to the grand jury and the reading of all of this testimony inte the grand jury minutes was had before consideration of the case of the grand jury and the finding of the indictments.\nSimilar testimony was offered by another stenographer (Mr. Herzog) as to what Mr. Kavanaugh had said in the office of\u2019 the district attorney on Hovember 30, 1921, and the interview thus taken down was repeated to the grand jury, and used against the defendants.\nA statement made by Sylvester Rosenthal, in the district attorney\u2019s office, prior to the hearing before the grand jury was proved by the testimony of a stenographer who said that she had taken down that testimony and then proceeded to read it to the grand jury; Miss Malloy was similarly questioned, and she read what she had taken down at the time Rosenthal was questioned in the office of the district attorney, and all this is also part of the \u201c evidence \u201d against these defendants.\nThere are other statements made by persons not before the grand jury, which statements had been taken in the district attorney\u2019s office, or elsewhere, in shorthand, on occasions prior to the grand jury meeting; these statements after having been testified to by the stenographer who took them, were read to the grand jury, and each was given an exhibit number, and each is part of the \u201c evidence \u201d on which these indictments rest.\nExhibit Ho. 13 is the statement of Joseph Gaydica; a second statement also appears to have been made in the district attorney\u2019s office, in the presence of the district attorney, and one or two of his assistants; Mr. Thatcher appears also to have been present, and to have asked Gaydica questions and to have argued with him. On a later occasion,'in the same place, in the presence of three of the assistants to the district attorney, and of Mr. Thatcher, the statement of Gaydica was resumed; and the questioning by various persons present' is shown in the minutes. Gaydica was questioned five days later before Judge Lewis, Mr. Thatcher and others, as appears by their testimony taken in the district attorney\u2019s office; Mr. Gaydica then was succeeded by other witnesses and the testimony of Gaydica was later resumed. Apparently other people were questioned during the same conversation and in the presence of these officials, and in Gaydica\u2019s presence, and the testimony is thus mingled. This \u201c second hand \u201d matter was presented to the grand jury as \u201c evidence \u201d against Moskowitz and Finlay.\nExhibit 17 is the Finlay statement made in the district attorney\u2019s office prior to the hearing of the grand jury. Exhibit 18 is the statement of Kavanaugh, made in the district attorney\u2019s office in the presence of various people, including Mr. Thatcher and a Mr. Bloom, a lawyer. Similar statements by others than the defendants made outside of the grand jury room, and repeated to the grand jury in the manner aforesaid were used by it against Moskowitz, Gaydica and Finlay and are shown as Exhibits 32, 33 and 34. This repeated testimony was of course hearsay as to these defendants beyond any question, and could no more be repeated to the grand jury by one who had heard it than any other indirect testimony not binding these defendants could be submitted to it as the basis for an indictment.\nSection 255 of the Code of Criminal Procedure: \u201c Evidence receivable before the grand jury \u2014 In the investigation of a charge for the purpose of indictment, a grand jury can receive no other evidence than: (1) such as given by witnesses produced and sworn before them or furnished by legal documentary evidence; or (2) the deposition of a witness in the cases mentioned in third subdivision of section 8.\u201d\nSection 256: \u201c The grand jury can receive none hnt legal evidence.\u201d\nThe statements that were read to the grand jury were not depositions. On the face of them they were ex parte statements. People were called to the district attorney\u2019s office and they were questioned, and what they said was taken steno-graphically. Even Hr. Thatcher, a building contractor employed by the district attorney, was present during parts of this examination and himself asked questions. Ho one was under oath, and the witnesses were not subjected to any cross-examination, and there was no opportunity for it. This made the testimony incompetent since section 8 requires that the deposition shall have been made when cross-examination was permitted, and only such a deposition is usable under section 255. Yet all of this matter was read to the grand jury.\nIn presenting the facts to the grand jury, the cases of all four men who were indicted were presented together. In other words, witnesses against Hoskowitz, the owner, Gaydica, who supplied the steel, Kavanaugh, who erected it, and Einlay, the steel inspector for the city, together with the statements of each of these individuals, were presented together and then the grand jury was permitted to find indictments against all. There was no distinction made between the various individuals and the various interests concerned.\nOf course the statements of a defendant may be presented to the grand jury as against him to prove admissions against interest, if any there be, but the statement of one made under the circumstances here narrated outside the grand jury room is not competent to prove anything against another. Such statements are not competent evidence against any person other than the person making them, and then again the statements themselves are competent only to the extent of admissions against interest legally and competently made.\nThe other statements are mere hearsay and must of necessity be subtracted from the proof that the grand jury considered.\nThe court has the power to set aside an indictment on grounds not mentioned in section 313 of the Code of Criminal Procedure, for it has been held that so far as section 313 is intended to regulate only matters of procedure which involve no constitutional rights, it is valid and must be obeyed by the court, but to the extent that it may destroy, curtail, affect or ignore the constitutional rights of a defendant, it has no force and is void. People v. Glen, 173 N. Y. 395. This case upholds the decisions prior to the amendment of 1897 which held that this section could not limit or interfere with the inherent power of the courts to dismiss indictments upon other substantial grounds than those enumerated in the section. It is clear that when it appears that the legal evidence received by a grand jury is insufficient to support an indictment (or that illegal evidence is the basis for an indictment) the defendant has a constitutional right to make a motion to dismiss, notwithstanding the limited provisions of section 313. People v. Sexton, 187 N. Y. 495; People v. Sweeney, 213 id. 37.\nAn indictment is aided by' the presumption that it is based upon legal and sufficient evidence (People v. Glen, supra), but the presumption must give way to the fact when it is not so based and an indictment must be quashed on the ground that incompetent, immaterial or illegal evidence was given before the grand jury where there is not enough competent evidence to suppoit it and even if there be if it clearly appear that the illegal evidence improperly influenced the minds of' the grand jury. People v. Farrell, 20 Misc. Rep. 213; People v. Osborne, 158 N. Y. Supp. 572 ; People v. Winant, 24 Misc. Rep. 361; People v. Hayes, 28 id. 93. The grand jury min-utes abound in incompetent and immaterial evidence other than hereinbefore stated, and it will serve the purpose to indicate but a few instances.\nAn iron and steel worker, not an expert, who had worked on the job testified that in most jobs there were anchor bolts and holes for anchor bolts; that a truss buckled due to the fault of the material in that it was too light to carry its own weight and that was why they had to lash the Umber to it to get it up. This was in conflict to the testimony of the people\u2019s expert and engineer who testified to the contrary that the truss was of proper weight and that the buckling was due to the way in which the aforesaid witness and his associates handled the steel \u2022and further that the buckling was corrected. This witness then went on to say that h\u00a7 asked several people why such a frame was not in and that he never could find out why; that every truss he had seen on jobs and a dozen he had put up himself had such a frame to the peak of the truss but that there had been none on this job. This was clearly incompetent not only because the witness was not an expert and was not qualified as such, but also as being clearly hearsay.\nAnother witness testified as to the defendant Moskowitz: \u201c Q. Was he the superintendent of erection on the job? A. As far as I know he was.\u201d Still another testified: \u201c I didn\u2019t know who he was then, I thought he was the engineer then, but afterwards I found out that he was one of the owners of the building. He was always giving orders what was to be done on the job, that\u2019s why I thought he was an engineer. Q. Did he give any orders to you that you remember ? A. Not to me but to Kavanaugh and the other bosses he would give them.Q. Kavanaugh was your boss? A. Yes, sir. Q. Do you remember anything he told Kavanaugh to do at any time ? A. Not that I can remember. Q. You mean he gave orders to Kavanaugh but you don\u2019t remember just what they were is that what you mean ? A. Yes, sir.\u201d\nA builder testified that he usually had a superintendent on jobs as large as the American Theatre and that the usual duties of the superintendent were to watch the progress of the work of the men immediately under his own charge as well as to watch the other members in the performance of their work; to see that the lines are properly followed and that levels are kept, to see that there is a co-ordination between the different contractors and to see that the respective members carry on their respective portions. This was clearly incompetent and illegal as to the defendants with reference to whom the inquiry was being conducted. Whether the witness, Thatcher, in his work usually had or had not a superintendent and what the usual duties of that superintendent were was entirely incompetent and irrelevant and such testimony should not have been considered.\nThere seems to have arisen a discussion between the witness engineer and a grand juryman as to what would be a better proposition, assuming that a man found his foundation a half inch lower than the level he should come to. This, of course, was entirely beyond the inquiry, as the exercise of judgment, either one way or the other, should not have been the basis for an indictment for manslaughter even as against one who exercised the judgment, and certainly since the defendant Gaydiea did not have even the opportunity of passing upon the question as to the wedging of the column or the grouting thereof, the discussion could have no competency or relevancy as to him.\nThe superintendent of buildings gave testimony with reference to the duties of the inspector, Finlay, and his superiors and of the customs of the building department generally. His testimony resolved itself into a discussion as to whether the system in operation in the building department was a proper one or not. His testimony had nothing to do with the defendants Gaydiea and Moskowitz, and was clearly illegal and incompetent as to them. He testified to nothing which Moskowitz or Gaydiea had done or omitted to do. He was permitted, however, to give very damaging illegal testimony, that he was informed that the iron supports had temporary guides to brace the master truss and that he thought that was a great error. He was not qualified as an expert and he did not testify in this respect to anything he saw but to his conclusions based upon what some one told him and even the name of the some one was not disclosed. He was also permitted to tell about his reason for going before the last legislature with an appeal to license builders and erectors.\nThe testimony of the witness Thatcher consisted entirely of conclusions and opinions of the witness as to the reason for the collapse and was incompetent and illegal. He was called as an expert. The circumstances under which expert testimony is admissible have long been settled in this State. The leading case upon the subject is the case of Dougherty v. Milliken, 163 N. Y. 527. In that case, which has been followed by a long line of cases supporting it, the court laid down the following rules with respect to expert testimony and its admissibility at pages 533 and 534: \u201cIt may be broadly stated as a general proposition that there are two classes of eases in which expert testimony is admissible. To the one class belong these cases in which the conclusions to be drawn by the jury depend upon the existence of facts which are not common knowledge and which are peculiarly within the knowledge of men whose experience or study enables them to speak with authority upon the subject. If, in such cases, the jury with all the facts before them can form a conclusion thereon, it is their sole province-to do so. In the other class w\u00e9 find those cases in which the conclusions to be drawn from the facts stated, as well as knowledge of the facts themselves, depend upon professional or scientific knowledge or skill not within the range of ordinary training or intelligence. In such cases not only the facts, but the conclusions to which they lead, may be testified to by qualified experts. The distinction between these two kinds of testimony is apparent. In the one instance the facts are to be stated by the experts and the conclusion is to be drawn by the jury; in the other, the expert states the facts and gives his conclusion in the form of an opinion which may be accepted or rejected by the jury.\n\u201c The next step in the logical development of this inquiry is to ascertain to which of these two classes the case at bar belongs.. If the knowledge of the experts consists in descriptive facts which can be intelligently communicated to others not familiar with the subject, the case belongs to the first class. If the subject is one as to which expert skill or knowledge can be communicated to others not versed in the particular science or art only in the form of reasons, arguments or opinions, then it belongs to the second class. (Ferguson v. Hubbell, 97 N. Y. 507; Roberts v. N. Y. El. R. R. Co., 128 N. Y. 455; Schneider v. Second Ave. R. R. Co., 133 N. Y. 583; Parish v. Baird, 160 N. Y. 302; Van Wycklen v. City of Brooklyn, 118 N. Y. 424, 432; Schwander v. Birge, 46 Hun, 66.) The mere statement of this rule seems, of necessity, to place this case in the first class. The structure which collapsed and caused the plaintiff\u2019s injuries was a simple derrick such as is common for the hoisting of heavy materials. The particular defect in construction alleged consisted in the improper anchorage of two-derricks to a single eyebolt placed between them. Whether this was defective, and therefore negligent, construction, depended upon the amount and kind of strain to which the eye-bolt was subjected, its size, its inherent tensile strength and the character of its fastening into its base. These were subjects upon which the testimony of men skilled and experienced in the construction and use of derricks and their constituent parts could properly be received. But such testimony, within the limitations of the rule above adverted to, should have consisted wholly of facts from which a jury of average intelligence could form a conclusion as to the safety or sufficiency of the method of construction employed. It was the province of the jury, not of the experts, to determine the latter question. In this view of the case, it was obvious error to permit the experts to express opinions which practically decided the only question that was to be submitted to the jury.\u201d\nThis case has been cited with approval to date, and as recently as People v. Polstein, 184 App. Div. 260, 262; affd., in the Court of Appeals, Judge Page, reading the opinion in the Appellate Division, says: \u201c Experts were allowed to testify as to the facts and to state the load that the wall properly \u2022constructed would have safely sustained at this point and the load that rested upon the wall at the time of the collapse.\n\u201c All of the facts that were necessary to allow an inference to be drawn as to what caused the collapse were placed before the jury. The question that the defendant sought to have answered was what in the opinion of the expert caused the \u25a0collapse.\n\u201c With all the evidence before the jury they were entirely competent to draw this inference for themselves, and the mere expression of the opinion of the experts would not have aided them.\n\u201c In my opinion this case comes within the first rule as to \u25a0expert testimony laid down by Judge Werner in Dougherty v. Milliken (163 N. Y. 527, 533) where the conclusion that could be drawn by the jury depends upon the existence of facts which are not of common knowledge and which are peculiarly within the knowledge of men whose experience or study enables them to speak with authority upon the subject, in which case experts give the facts to the jury while the jury must draw the conclusion. This rule was applied in Nelson v. Young (91 App. Div. 457, 461) in which a building in the course of reconstruction collapsed, whereby plaintiff\u2019s intestate was killed. An official who had inspected the building after testifying to the facts as he found them was asked, \u2018 What was your conclusion ? \u2019 The objection was sustained and the appellate court upheld the ruling.\u201d\nResort to expert testimony was both prudent and necessary. Without it there is nothing in the grand jury minutes to prove any cause for the collapse of the building, but the expert testimony must be as to facts which he should have described and detailed to the jury. With these facts before them the jury would be entirely competent to draw their own conclusions. The testimony of this witness, an expert of acknowledged standing, is made up of his conclusions, discloses no detail of facts or construction and is vague, uncertain, contradictory and unsatisfactory, due no doubt in large part to the fact that the learned district attorney continually endeavored to lead, having one thought in mind, while the witness had another which he was seeking to express. This led to confusion, misunderstanding and a bad record which is fatal to the indictments.\nThese indictments charge failure to comply with the laws of the State of New York, the provisions of the Building Code of the city of New York and the ordinances of the city of New York. No law of the State of New York, no provision of the Building Code of the city of New York, no ordinance of the city of New York is disclosed by the minutes as brought to the attention of the grand jury. Bills of particulars of the sections of the Building Code or other statutes or ordinances alleged to have been violated and stating also the particular acts of the defendants alleged to have been contrary to the law, and acts alleged to have been committed by them which caused or contributed to the deaths of the persons mentioned in said indictments were heretofore ordered by this court, but the district attorney has failed to comply and refuses to comply therewith. That in itself should dispose of these indictments. The defendants are entitled to be advised of the crimes with which they are charged and by a plain and concise statement of the acts constituting the crime. The indictments do not contain such a plain and concise statement and do not set forth facts constituting a crime in that they charge violations of the laws of the State of New York, the Building Code of the city of New York and the ordinances of the city of New York, one or many crimes we cannot tell. Moskowitz is the owner of the property, Gaydica is the iron contractor and Finlay the building inspector. Obviously the duties or obligations cast upon these defendants by statute or even under the common law in respect of the erection of the building, design, plan, workmanship, materials, labor, supervision, observation of plan, would be essentially different and whereas one by course of conduct or otherwise might offend in some particular the law, some particular statute, ordinance or provision of the Building Code, another would not. The language of the indictment is general in its charges and is also suggestive of duplicity. One alleged act of commission or omission set forth in the indictments might justify a misdemeanor or felony charge under one statute or ordinance while another may be so justified under another statute or ordinance.\nIn the absence of the bill of particulars the indictments are insufficient.\nThe learned district attorney promptly, in the public interest, with commendable zeal and conspicuous ability, with diligence and painstaking effort inquired into the cause of the collapse of the building, examined witnesses and conducted a public hearing before a magistrate over a period of two months. The indictment, however, was found with unseemly haste \u25a0 within two days and without the careful deliberation attendant \u25a0 upon the conduct of the John Doe proceeding and to this,, to., some extent, at least, seems due the condition of the grand jury evidence hereinbefore referred to and commented upon.\nWithout this incompetent testimony there is not sufficient competent and legal evidence to sustain the indictment, and the indictments must, therefore, be dismissed.\nIn People v. Glen, 173 N. Y. 395, 400, the court said: \u201c But our courts have also always asserted and exercised the power to set aside indictments whenever it has been made to appear that they have been found without evidence, or upon, illegal and incompetent testimony (citing cases). This power, is based upon the inherent right and duty of the courts to \u25a0 protect the citizen in his constitutional prerogatives and to prevent oppression or persecution. It is a power which the legis- \u25a0. lature can neither curtail nor abolish, and, to the extent that legislative enactments are designed to effect either of these ends, they are unconstitutional.\u201d\nTo the same effect is People v. Sexton, 187 N. Y. 495, 511, where the court said: \u201c Wherever it clearly appears, therefore, that the legal evidence received hy the grand jury is insufficient to support an indictment; or that illegal evidence is the sole basis for an indictment, the person indicted has a constitutional right to make a motion to dismiss, notwithstanding the provisions of the Code to the contrary.\u201d See, also, People v. Borgstrom, 178 N. Y. 254, 258; Matter of Montgomery, 126 App. Div. 72; People v. Jakeway, 88 Misc. Rep. 124; People v. Klaw, 53 id. 158.\nCounsel ask, however, \u201c for some expression from the court which may probably save future district attorneys from indulging in useless prosecutions, save part of the community from being stirred up or inflamed when there is no just cause for it, save reputable citizens from the shame incident to an indictment, save their families from .the worry and heartache, yes, and save the family of the unfortunate deceased person from the hope of revenge which is the natural human instinct when harm comes to a dear one, and possibly save all from making capital out of the misfortune of others.\u201d\nTo this request considering only the record before me in this criminal proceeding as an entirety, competent and incompetent evidence alike, I may, to some extent, accede although my consideration and conclusions have no legal controlling or binding effect upon any of those above mentioned.\nThe district attorney now urges that the first count of the indictments is predicated upon the theory that each of the defendants committed and maintained a nuisance which is made by section 1532 of the Penal Law a misdemeanor, and that while engaged in committing this misdemeanor, affecting the person of the person killed and as the result thereof and through their act, procurement or omission, the said person was so killed. There were separate indictments and each defendant was individually so charged.\nA public nuisance is defined by section 1530 of the Penal Law: \u201c A \u2018 public nuisance \u2019 is a crime against the order and economy of the State, and consists in unlawfully doing an act, or omitting to perform a duty, which act or omission: * * * endangers the safety of any considerable number of persons, or * * * in any way renders a considerable number of persons insecure in life * * *.\u201d\nThis is a codification of the common law. Nuisance has been further defined by the courts. In People v. Harris, 74 Misc. Rep. 353 (The Triangle Fire Case), the defendants were indicted for manslaughter in the first degree because they were guilty of maintaining a nuisance under section 1530 of the Penal Law in that they kept the doors of their factory locked, bolted and fastened during working hours, which, in itself, was also a violation of section 80 of the Labor Laiv. Demurrers were disallowed, the court saying: \u201c If in that way the defendants rendered a considerable number of persons insecure in life, they maintained a public nuisance according to the terms of section 1530, which provides that a public nuisance consists in unlawfully doing an act which in any way renders a considerable number of persons insecure in life. The Penal Law provides that one who maintains a public nuisance is guilty of a misdemeanor. The allegations of this count charge that the defendants, while engaged in the commission of a misdemeanor, feloniously caused the death of decedent.\u201d (Words italicized by the court.) People v. Harris, 74 Misc. Rep. 362.\n\u201c The purpose of the statute is to prevent the recurrence of the nuisance, not to punish, although punishment must he prescribed in order to make the statute effective. Then it is neither essential nor logical to consider the intent of the maker of the nuisance.\u201d People v. High Ground Dairy Co., 166 App. Div. 81, 82.\nIt is well-settled law that in the creation or maintenance of a nuisance, which is a misdemeanor, all persons committing or participating in the crime may be held as principals. In such case \u201c the agent is nevertheless held responsible if he had in any sense a control over the place or thing from which the nuisance arises.\u201d People v. Weeks, 172 App. Div. 117, 118. Judge Jenks cites this from Wharton on Criminal Law (Vol. 2, 11th ed., by Kerr), section 1688. He also quotes the language of Holmes, J., for the court in Commonwealth v. Patterson, 138 Mass. 498, 500, \u201c a certain degree of permanence * * * is usually a part of the conception of a nuisance.\u201d\nOne of the leading cases in the State in connection with nuisance is that of Melker v. City of New York, 190 N. Y. 481, 487, in which the plaintiff sued for personal injuries sustained in connection with the explosion of fireworks in Madison Square: \u201c For time out of mind the term Inuisance \u2019 has been regarded as incapable of definition so as to fit all eases, because the controlling facts are seldom alike, and each case stands on its own footing. We are not aided by the classification into public and private nuisance, because the difference between them does not depend on the nature of the thing done, hut on the fact that one affects the public at large and the other a limited number only. The primary meaning of the word suggested by its derivation, is that which injures, or, in the quaint phrase of ancient times, \u2018 that which worketh hurt.\u2019 The injury may be to person or property, to health, comfort, safety or morality. * * *\n\u201c Locality, surroundings, methods, the degree of danger, and the custom of the country are the important factors. The firing of a cannon loaded with grape shot, if in a city or village, would be a nuisance as a matter of law; if in a remote place far from the habitations of men, it might be a nuisance as a matter of fact, and if against the face of a precipice, no nuisance at all.\u201d\nAt page 490 of this opinion it is said: \u201cA nuisance does not rest upon the degree of care used, for that presents a question of negligence, but on the degree of danger existing even with the best of care. Degree implies gradation and.gradation depends upon circumstances. When the degree of danger is obvious, so extreme as to invite calamity, a nxxisance per se exists, bxxt when the danger is so secret in nature that the cause of an accidexxt canxxot be discovered axxd according to all experience is neither imminent nor extreme, it is xxot a nxxisance per se, although the jury may find it a nuisance in fact.\u201d\nIn order to maixxtain the theory that the building in qxxestion constituted a nxxisance, it must appear that the defendants intended it shoxxld be construed in a manner which proved to be improper, that they knew or ought to have known that sxxch manner of construction was improper and that sxxch improper construction caused the ixxjxxries complained of.\nHot one of the three facts mentioxxed above has been established by the grand jury minutes.\nIn the case of Herman v. City of Buffalo, 214 N. Y. 316, the court said at pages 320 and 321: \u201c The creation or participation in the creation of the dangerous condition must have been with the consciousness and understanding on the part of the appellant that it was creating it; or it must have been obvioxxs and almost certain to a reasonably piuxdent maxi, while the acts were being performed on the part of the appellant, that those acts would create or help to create it. The conditioxi must have been a purpose or object of the appellant; it mxxst have intended to effect it; or its acts have been so reckless and unwarranted that that intention must be conclusively implied. This is not declaring that it must have ixitended the danger or the catastrophe. It must have intended the condition, bxxt, having that intention, may have thought it was not dangerous or been thoughtless in regard to it. It must have violated the absolute duty of refraining from the participating acts, not merely the relative duty of exercising reasonable care, foresight and prudence in their performance. The wrongfulness must have been in the acts themselves rather than in the failure to use the requisite degree of care in doing them, and therein lies the distinction, under the facts of this case, between nuisanee and negligence. The one is a violation of an absolute duty, the other a failure to use the degree of care required in the particular circumstances \u2014 a violation of a relative duty. A nuisance may be created or maintained with the highest degree of care and the negligence of a defendant, unless in exceptional cases, is not material. To illustrate, because the distinction is narrow in basis of operation, in case the appellant had applied to the eastern side of the wall, after the columns and trusses were placed, powerful presses for the purpose of moving it and the natural and obvious effect of the moving was a collapse, it would have committed a wrongful act, because it intended the dangerous condition, violated the absolute duty of refraining from intentionally moving the wall, created a nuisance and been absolutely liable, regardless of the degree of care with which the presses were placed and applied, to a third person rightfully upon the structure and injury by its collapse. If the filling of the excavation upon the east of the wall, hereinafter described, were for the purpose and with the intention of pushing the wall into the deflection, the appellant caused the nuisance; if it were for the purpose of obliterating the excavation, the appellant did not cause a nuisance, unless it obviously and almost certainly to a reasonably prudent man would have deflected the wall, and a lack of requisite care would be the sole basis of its liability. (Hogle v. Franklin Mfg. Co., 199 N. Y. 388; Engel v. The Eureka Club, 137 N. Y. 100; Lamming v. Galusha, 135 N. Y. 239.)\u201d\nI might further refer to the concurring opinion of Bartlett, Ch. J., at page 325 of the case above cited: \u201c Where the charge of maintaining a dangerous nuisance is based upon the fall of an improperly constructed building, it must appear, in order to render the owner thereof liable as such (1) that he intended it should be constructed in the manner that proved to be improper; (2) that he knew or ought to have known that such manner of construction was improper; and (3) that such improper construction caused the injury complained of.\n\u201c Where the injury is due, not to improper construction inherent in the plan, but to the failure to construct in accordance with a proper plan, the liability of those who thus fail to follow the plan sounds in negligence and not in nuisance.\n\u201c Where injury is due to improper construction inherent in the plan, a municipal corporation owning the building may nevertheless avoid liability for its fall if it appear that the plan was prepared for it by a competent independent architect, upon whose judgment and advice the municipal officers relied, unless the plan was so obviously bad as to suggest insecurity to an ordinarily and reasonably prudent owner.\u201d\nReviewing the whole of the grand jury minutes, competent and incompetent evidence alike, the building plans were prepared by a competent architect and were approved by the building department September 15, 1921. The first set of steel plans were prepared by a competent engineer and the second or redesigned plans were also prepared by competent engineers. These plans were filed as an amendment September 19, 1921. The original plan had been approved and the examiner took up-his work on the amended plan and on October 7, 1921, made some suggestions of amendment, eight in number, and on October 25, 1921, suggested thirteen more amendments. These were all taken up with the department and the first eight either agreed upon or waived on October 14, 1921, while the second thirteen which included so many of the first eight as were not disposed of were agreed upon or waived on October 28, 1921. As the plan examiner says: \u201c They were approved on November 2, 1921, with a few amendments.\u201d\nWhen the plans were filed on September 19, 1921, the steel was ordered from the American Bridge Company and was delivered on the job before any of the plan amendments were suggested or any agreed upon and the amendments were suggested after the greater part of the steel work was up and completed but some of the steel work provided in the original p\u00edan was not up for the reason that one of the brick walls was not yet built up sufficiently. The balance of the steel work was left in such shape that amendments might be readily complied with but the steel would have to be ordered; therefore, there were no lugs on certain steel members as already built in. The examiner says that the building department has a system of amendments with the iron line and everything on the plans not required by an amendment or prohibited by an amendment may go ahead, the plans to that extent being partially approved. That is what was done here. The inspector reported back from time to time as the building progressed. He saw nothing dangerous or alarming. In fact he said he considered it a first class job. He is a man over sixty years of age with many years experience. The plan examiner did not consider the progress of the work under the plan, without the amendments, at all dangerous; in fact he approved the plan and permitted the work to go on subject to the amendments suggested to be attended to afterwards. That is the practice of the building department. If the construction were unsafe he would have issued or had issued and served a written peremptory order of the superintendent of buildings in accordance with article 32, section 655, of the Building Code which reads as follows: \u201c When a violation is a misdemeanor. Any person who shall receive and fail to comply with any written peremptory order of the Superintendent of Buildings issued only when an immediate compliance with such order is essential to the public peace or safety, within the time specified in such order, shall be guilty of a misdemeanor.\u201d\nThese plans, structural and steel alike, were checked by the architect who was hired to supervise and consult, but not to superintend.\nThere is no testimony that the building as planned was dangerous or unsafe; in fact the expert called for the people says that the strength of the steel structure was sufficient to carry the load which it was expected to carry and the roof.\nThe defendant Moskowitz hired a competent architect to draw his plans, the arehitcet hired a competent engineer for the steel plan, Moskowitz hired a competent steel man to do the work who through his two engineers, both competent men, redesigned the work which was checked by the architect. Even if the plans were all wrong, which they were not, and even if they indicated a dangerous or unsafe condition, Moskowitz did not know nor should he have known anything about it. As to Gaydica, he relied upon his engineers and his experience; in fact the plans were redesigned by his engineers, and there is nothing to show that he knew their contents or that they provided for a dangerous and unsafe condition which he should have detected, while as to Finlay as an inspector he has no fixed duties by statute or rule and he did not detect or know of any dangerous or unsafe condition of the building as planned. He could not be expected to criticise the plans in any event. The facts do not in any wise justify or sustain the charge of nuisance. On the whole record before the grand jury, competent and incompetent testimony alike, were the defendants culpably negligent in the construction of this building and, therefore, guilty of manslaughter in the second degree? I think not.\n\u00a1Negligence is defined as: \u201cA negligent offense is an offense which ensues from a defective discharge of a duty, which defect could have been avoided by the exercise, by the offender, of that care which is usual, under similar circumstances, with prudent persons of the same class.\u201d Whart. Crim. Law (11th ed.), \u00a7 162.\nThe Court of Appeals in an early case (Rosenplaenter v. Roessle, 53 N. Y. 262) defined it, at page 268, as follows: \u201c To neglect means to omit, as to neglect business, or payment, or duty, or work, and is generally used in this sense. It does not generally imply carelessness or imprudence, but simply an omission to do or perform some work, duty or act.\u201d\nIt is contended for the defense that since the adoption of the Penal Law, section 22 (Penal Code), no act' or omission is a crime unless established by statute and that there is no longer any common-law crime in this state, citing People v. Knapp, 206 N. Y. 373, and Brinckerhoff v. Bostwick, 99 id. 186, 190, but in the Knapp Case the duty referred to was in fact a statutory duty, while in the latter case the words \u201c a liability created by law \u201d were held to mean \u201c a liability created by statute,\u201d not to a common-law liability. This is important here for the reason that the indictment says that the defen dan t was charged with the duty (among others) to erect such iron and steel and to cause the same to be erected in compliance with the laws of the state of New York, and that he failed in such duty imposed by the laws of the state of New York and the ordinances of the city of New York. This charges a statutory and not a common-law duty. This is due to the form of the indictment. I do not mean to say that duties, violations of which constitute negligence, may not arise in several ways. They may be created by statute or ordinances, by contract, or from the relation of the parties as in case of a master and servant, bailor and bailee, carrier and passenger or consignee.\nThere can be no doubt as to the general rule of proximate cause. It is thus stated in 29 Cyc. 488: \u201c A. In general. Although a defendant may be negligent in the performance of some duty owed to the person injured no liability attaches unless such negligent act was the proximate cause of the injury. The same rules are to be applied in determining the question whether an act is the proximate cause, whether such act is in violation of a statute or of some duty under general principles of law.\u201d\nThe general rule is that to render a person liable his negligence need not be the sole cause of the injury. It is sufficient that his negligence, concurring with one or more efficient causes, other than the plaintiff\u2019s own fault, is the proximate cause of the injury. So that where two causes combine to produce injuries, a person is not relieved from liability because he is responsible for only one of them, but there must be concurrence and there is no concurrence shown here.\nThe testimony of the expert for the People is that something happened above. That something was the proximate cause of this accident. Nobody seems to know what that something was and the photographs add confusion to confusion for they show much buckling steel, breaks in steel, broken and fallen brick walls, loose mortar, broken concrete; in fact a total and complete collapse.\nQuoting the language of Judge Earl in Hun v. Cary, 82 N. Y. 65, 71: \u201c It is impossible to give the measure of culpable negligence for all cases, as the degree of care required depends upon the subjects to which it is to be applied. (First Natl. Bank v. Ocean Natl. Bank, 60 N. Y. 278.) What would be slight neglect in the care of a quantity of .iron might be gross neglect in the care of a jewel. What would be slight neglect in the care exercised in the affairs of a turnpike corporation, or even a manufacturing corporation, might be gross neglect in the care exercised in the management of a savings bank intrusted with the savings of a multitude of poor people, depending for its life upon credit and liable to be wrecked by the breath of suspicion.\u201d\nThe General Term in the first department in 1886, Mr. Justice Daniels writing for the court, defined \u201c culpable negligence \u201d as follows: \u201c What the law designed to render criminal was such a careless act or omission on the part of accused as will endanger the personal safety or life of another, and which, by the exercise of reasonable attention and exertion would be avoided. As much as that is a duty which every person owes to another and it was upon the failure to observe the requirements of this rule that his liability to conviction by the jury was placed by the court.\u201d\nThe charge to the jury in People v. Buddensieck, 4 N. Y. Cr. Rep. 230, 266, and approved in the Court of Appeals (103 N. Y. 487) was: \u201c And that: \u2018 The jury must not only find that the evidence establishes, before they can convict the presence of mere ordinary negligence on the part of the defendant, but they must find it in such extreme degree as the use of the term \u201c culpable negligence \u201d imports in the section of the Code referred to.\u2019\n\u201c And \u2018 If the evidence leaves the jury in doubt as to whether such a degree of negligence exists as the statute thus contemplates, they must find its presence not proven, and acquit the defendant; that is, if they entertain a fair and reasonable doubt as to the establishment of such a degree of negligence as the Code contemplates by use of the word \u201c culpable.\u201d \u2019\n\u201c And ' the jury must find beyond a reasonable doubt that the defendant by his procurement or culpable act, through unlawful negligence or reckless means, occasioned the death of Lewis Walters, otherwise they must render a verdict of not guilty.\u2019\n\u201c And \u2018 if the defendant did exercise such ordinary and usual care and caution, as men generally in the performance of their business affairs are accustomed to exercise the jury must find that the killing charged in the indictment was misadventure and not crime, and the defendant must be acquitted.\u2019 \u201d\nThey were further directed that \u201c if they were of the opinion that the defendant, though practically unskilled as a builder, provided what he believed to be proper materials for the erection of such building; that his contracts were with persons whom he regarded as competent to perform the labor required of them; that he expended his moneys and devoted his time in and about such erection with the honest purpose and intention that such buildings, when completed, should be safe and suitable for the uses for which they were intended; then and in such case the jury must find that the falling of such building was misadventure, the act charged not a crime, and the defendant must be acquitted.\u201d\nJudge Cullen for the Court of Appeals in People v. Rosenheimer, 209 N. Y. 115, 123, says: \u201c A distance separates the negligence which renders one criminally liable from that which establishes civil liability,\u201d and such, is the conclusion in the recent case of United States v. Gears (The Knickerbocker Theatre, Washington, D. C.) : \u201cA much higher degree of negligence is required to sustain an indictment charging manslaughter in the taking the life of a human being in consequence of a grossly negligent act or an act of reckless indifference than is required to maintain a civil action for death or injury caused by negligence.\u201d\nThe culpable negligence theory is to be found in the second count of the indictments against Moskowitz and Gaydica where, under paragraph C, are the fourteen items as follows:\nHe omitted and neglected:\n1. To anchor the trusses to the walls, and to cause the same to be anchored.\n2. To install cross frame bracing between the trusses, and to cause the same to be installed.\n3. To install sway braces in all bays between trusses, and to cause the same to be installed.\n4. To install struts connecting the bottom of a certain longitudinal truss with the north wall of said building, and to cause the same to be installed.\n5. To exercise proper care and precaution in the erection of a certain steel column in the northwest corner of said building supporting the westerly end of said longitudinal truss, and to cause the same to be so exercised.\n6. To provide and install proper materials to support said column at its footing, and to cause the same to be provided and installed.\nY. To erect said column properly or to plumb same, and to cause the same to be properly erected and plumbed.\n8. To install the proper number and size of bolts, bearings, connections and other materials to be used in the erection of said iron and steel, and to cause the same to be installed.\n9. He erected the said column in the northwest corner of the building, there being no proper plans and details on file in the office of the superintendent of buildings, and caused the same to be erected.\n10. He erected the column in the northwest corner of said building in a reckless and negligent manner, and caused the same to be so erected.\n11. He omitted and neglected to properly secure said column both at its base and at its top, and to cause the .same to be so properly secured.\n12. He erected the said iron and steel and practically completed the same and caused the said iron and steel to be so erected and practically completed before the plans for same were approved by the superintendent of buildings and proper permit issued therefor; in violation of the ordinances of the city of Hew York.\n13. He erected steel trusses that did not comply with the ordinances of the city of Hew York in weight and structure to support the load which said trusses were intended and required to bear, and caused the same to be so erected.\n14. He omitted and neglected to install one-inch plates on the top of the pilasters supporting the ends of the trusses, and to cause the same to be installed.\nWhile as to Finlay it is charged as to each of these specifications that he neglected to require or neglected to prevent, as the case may be.\nParagraph \u201c D \u201d then charges, as a conclusion, but without stating the connection, that in consequence of the aforesaid acts and omissions the building was designed, manufactured and erected by the defendant and was suffered and permitted to be designed in such a careless manner, in consequence whereof the building fell, and killed, etc.\nIt may be well to call attention to certain sections of the Building Code. Article 1, section 1, subdivision 3, provides: \u201c This chapter is hereby declared to be remedial and shall be \u2022construed liberally to secure the beneficial interests and purposes thereof.\u201d\nArticle 1, section 3, subdivision 1, provides: \u201c Before the construction or alteration of any building * * * is commenced, the owner or lessee * * * shall submit to the Superintendent of Buildings a detailed statement in triplicate of the specifications * * * and such plans and structural detailed drawings of the proposed work as the Superintendent of Buildings may require * * *.\u201d\nPausing here, instead of returning to this section, the only thing absolutely required is a detailed statement in triplicate of the specifications. Only such plans and structural detailed drawings are required as the superintendent of buildings may desire.\nArticle 1, section 3, subdivision 5, provides for amendments.\nArticle 1, section 5, subdivision 1, is as follows:\n\u201c Certificate of Occupancy. New Buildings. No building hereafter erected shall be occupied or used in whole or in part for any purpose whatever unless a certificate of occupancy shall have been issued by the Superintendent of Buildings certifying that such building conforms substantially to the approved plans and specifications and the requirements of this chapter applying to buildings of its class and kind.\u201d\nArticle 3, section 53, is as follows:\n\u201c Loads. Subdivision 1. Dead load. The term \u2018 dead load \u2019 means the weight of walls, partitions, framing, floors, roofs and all permanent construction entering into any building.\n\u201c Subdivision 2. Live load. The term \u2018 live load \u2019 means all forms of loading other than the weight of the material entering into the construction of the building.\u201d\nThese two subdivisions may well be read in connection with article 3, section 50, subdivision 2, which reads as follows:\n\u201c Factors of safety. Where the unit stress of any material is not prescribed in this chapter the relation of allowable unit stress to ultimate strength shall he as 1 to 4 for metal, as 1 to fl for timber, and as 1 to 10 for natural or artificial stones and brick or stone masonry. But wherever working stresses are prescribed in this chapter, the said working stresses shall be-used.\u201d\nAt the time of the collapse, the trusses were not carrying anywhere near the dead load for which they had been designed inasmuch as there were no partitions or floors and the ceiling was but partly on them. Moreover, the live load refers primarily to snow and wind and there was no snow resting upon the roof so that the stress upon the trusses was very much less than that which they were designed to carry, even disregarding the factor of safety provision.\nArticle 15, section 305, subdivision 2, is as follows:\n\u201c Lateral bracing. All trusses shall he held rigidly in position by efficient systems of lateral or sway bracing.\u201d\nArticle 15, section 309, is as follows:\n\u201c Templates. When any lintel, beam, girder or truss is supported at either end by a wall or pier, it shall be properly anchored thereto and shall rest upon the template or shoe of cast iron, steel or stone of such design and dimensions as to safely distribute its load on the masonry, except that when beams not exceeding six inches in depth are placed not more than thirty inches on centres, no templates shall be required.\u201d\nThe templates provided for the piers and upon which the trusses rested were two in number, one upon the other and one a half inch thick and the other five-eighths of an inch in thickness. No one has ever attempted to testify that these were not amply sufficient. Originally, one-half inch templates were provided and later upon the request of the examiner the thickness was increased to more than one inch, although he only required one inch templates.\nMoreover, with respect to the anchorage, the only testimony in the grand jury minutes is that given by Sullivan on page 25, where he said that there was anchorage imbedded in the pilasters in which the transverse trusses were anchored.\nArticle 32, section 654, subdivision 1, provides for penalties and provides for a penalty, in case of any violation of the chapter, in the sum of not less than ten dollars nor more than fifty dollars. Subdivision 3 provides that any person served with a notice to remove a violation or to comply with any requirement of the chapter, who fails to comply with said notice within ten days shall pay a penalty of not less than fifty dollars nor more than two hundred and fifty dollars. The balance of this section provides for the jurisdiction of penalty actions, their discontinuance upon the removal of the violation and the power of the superintendent of buildings to remit the penalty.\nArticle 32,'section 655, is as follows:\n\u201c When a violation is a misdemeanor. Any person who shall receive and fail to comply with any written peremptory order of the Superintendent of Buildings issued only when an immediate compliance with such order is essential to the public peace or safety, within the time specified in such order shall be guilty of a misdemeanor.\u201d\nNo one would have the right to design or erect a truss which was not capable of sustaining the requisite stress or strain, even if approved by the examiner. No one would have the right to erect an unsafe building even under the approval of the superintendent of buildings. No one would controvert this. Conversely, it seems equally clear that a request or objection by a plan examiner has not any virtue in itself. A request or objection is not good merely because made by a plan examiner nor is that which is objected to made unsafe or improper' because of the objection. ' Nowhere in the law is this power given to a plan examiner who admittedly on his own statement is not even an engineer. Nor, indeed, could this extraordinary, unlimited and unqualified power be given by statute or ordinance, even if attempted.\nThe owner and builder, however, before he may use the building erected must obtain a certificate of occupancy. When the time has arrived for obtaining that, if there are points of disagreement between him and the superintendent of buildings, a mandamus proceeding may then be brought to compel the superintendent to issue the certificate. The question of whether the superintendent or the builder was correct will then be determined in court upon the testimony of engineers. In the instant case the defendant Gaydiea had a perfect right to disagree if he desired with the requests made and to await the proper time for settling the difference upon competent engineering evidence. The parts which had not been installed at the time of the collapse could have been installed at any time.\nThe roof rested upon the purlins which in turn rested on the tops of the trusses. The ceiling hung from the bottom chords of the trusses. The plans show a complete passageway around the trusses on all four sides of the building and in addition a passageway down the center. The parts which it is claimed were omitted between the trusses were center cross-framing and sway braces in all bays instead of in alternate bays. The center cross-framing was run from the peak of one truss to the tension tie of the next truss and vice versa,. When the term \u201c tension tie \u201d is used, it is to be remembered that roof trusses are constructed of two trusses joined at the peak. The tension tie mentioned connects the bottom chords of the two halves. This member is in tension as opposed to the compression in which the top chords of the trusses are. The tension member keeps the two halves from pulling apart and carries no weight, and in addition is the means of sustaining the furring and metal lathing for the plaster, which forms the ceiling of the auditorium, for without these tie pieces there would be nothing to hang the ceiling to.\nThat the absence of the center cross-framing between the peaks of the trusses and these light tension ties could cause the collapse seems inconceivable. There were some twenty-one purlins running the entire length of the building and passing along the top chords of the trusses and making in a sense twenty-one complete bars or pieces of steel. There was in addition a brace running the entire length of the building and connecting the tension ties of the trusses and making in a sense one complete bar or piece of steel. These twenty-two pieces were not sufficient to prevent the collapse once it started. Can it be seriously contended that the absence of the cross-framing as described would have done what these twenty-two pieces could not do? Moreover, the sway bracing was really rods and when we look at the roof framing plan upon which there is marked out in red additional rods required, we find that they were but eight in number in addition to the thirty-two already provided. The sway bracing as installed is shown upon the model presented to the court and is so trifling in dimensions and strength as to make it impossible to seriously consider it as preventing the collapse. The fact that the requirement of sway bracing in every bay and center cross-framing in every bay is an engineering problem is more evidently shown by the fact that in the approved Kleinert plan, a grand jury exhibit, sway bracing was only required in three bays out of seven and cross-framing in only a like number. Article 15, section 305, subdivision 2, as quoted above, shows that the Building Code requires only efficient systems of lateral (cross-framing) or sway bracing.\nArticle 15, section 309, of the Building Code provides for proper anchorage and not for any particular kind of anchorage.. Beyond this, however, is the testimony of Sullivan in the grand jury room to the effect that the trusses were anchored, evidently - by the bricking in, and the further fact that there is not a line shown on any plan to provide for anchors. Plans are drawn by means of lines and circles and anchor bolts or rods require \u25a0 lines. To say that because the trusses'at their extremities had; holes in them, meant that those holes were there for anchor-rods has about the same weight as saying that because the templates did not have holes in them, as they did not, that, therefore, anchor rods were not required. In addition, Aere is a difference of opinion among engineers as to what is proper anchorage. Continental engineers are entirely against anchor rods. This is for the reason that if anchor rods are installed, in case of a fire or collapse from one reason or another, the only effect of the anchor rods would be to make reasonably certain that the trusses or beams would pull the walls in upon those in the building. It is for a like reason that from time immemorial beams which are put in our houses are sawed on the bias at their ends so that in case of fire, the beams will fall into the building and not pull the walls in on top of the occupants or firemen. If more need be said on the subject of anchorage, it is a matter of common knowledge that steel is susceptible in some degree to heat and cold and contracts and expands in response thereto. It is for this reason, we all know, that bridges are so constructed at either end as to give play to contraction and expansion of the bridge.\nOn the request or objection sheet of the examiner there is a check against every request or objection. It was conceded upon the argument that that meant that every one of the requests or objections had been agreed upon or waived. Since there was no writing on the roof framing plan in the upper right-hand corner with reference to anchorage, although there was with reference to some of the requests or objections, it must be assumed that the examiner was satisfied with the anchorage as provided, just as he was with reference to everything else except three details written in, or else that he had waived it.\nWith respect to the channel on the Spencer street or east end of the building, that was to carry hollow tile. As the hollow tile had not been put in place, the absence of that channel, of course, had nothing to do with the collapse.\nWith reference to the request of the examiner, \u201cBrace bottom chord of truss 1 to pier * * * in lieu of knee braeing,\u201d it should be sufficient to say that that request was ambiguous in that there were three piers between the jog in the wall and the Bedford avenue or west end of the building. Moreover, these three piers were below the bottom chord of the truss and were the shortest piers in the entire building. Mo one has questioned but that that brace could have been installed at any time and no one should question but that the defendant had a right to clear up the ambiguity either by further reference to the examiner or upon endeavoring to obtain his certificate of occupancy.\nReferring again to the piers on the north wall at the point where it collapsed, it should be noted that not only were these piers shorter than any other piers in the structure, but that they were less thick than any other piers. The north wall was a twelve-inch wall. The other piers in the building including the width of the wall were twenty-eight inches thick. The width of the three piers on the north wall at the place where it collapsed including the width of the wall.was but twenty inches thick. From the longitudinal truss to the north wall there ran three rafters or beams which rested in it. When this is remembered, the fact that the single brace from the longitudinal truss to the north wall or to one of the piers in the north wall had not been installed loses very much of its weight. Thus it appears that some of the requests of the examiner were unreasonable and improper; that the time within which to comply had not expired; that the examiner had not arbitrary power; that the members suggested could have still been put in; that the job was not finished; that no certificate of occupancy had been asked; that the absence of parts not yet put in did not cause the collapse.\nReviewing the alleged acts of culpable negligence:\n(1) Is not true; the trusses were properly anchored, as testified to by Sullivan;\n(4) The suggestion of the examiner is in this respect ambiguous and uncertain, requiring explanation and pointing out of exact location which was not done by the examinerr leaving the matter still to be attended to; furthermore while the steel workers were on the job the wall had not yet been built high enough to do this at any point, and the People\u2019s expert says that their absence did not cause the collapse;\n(8) There is no proof at all to sustain this charge;\n(12) Is only partly true; the plans had been partially approved and work permitted but they had not been finally approved in that all of the suggestions of the plan examiner had not been either waived or agreed upon;\n(13) There is no proof at all to sustain this at any point;\n(14) The proof is that one and one-eighth inch plates were installed and accepted.\nAll of the other of the fourteen particular charges had to do with the erection of a certain column except (2) as to the cross-framing and (3) as to the sway braces which could have been put in later and the absence of which, as Mr. Thatcher, the People\u2019s expert, said, did not cause the collapse. He says that after the building started to go the absence of these members added to the extent of the collapse but there is no statement of fact and nothing to show that their presence would even have lessened in some degree the extent of the collapse which, however, is not the question here, for the absence of these members at the time was, as he testifies, not the cause of the collapse.\nMuch is said about the column, but the photograph of the column offered by the district attorney is said by both Kavanaugh and the People\u2019s expert to show the condition of the column at the base. It shows it well blocked, level and plumb. THe original plans show this column. They were approved by the building department. A concrete base four by four feet was built by the bricklayers or their subcontractors. They built it too low so that when the column was lifted to it there was a gap. The steel erectors, Pluckham & Kavanaugh, their man Sullivan in charge, lifted the column with the derrick and inserted a steel plate. This plate was sixteen by twenty; the base of the column was twenty by twenty. The plate was two inches thick. The plate was placed so that the column was on center two inches overlapping on each side. Mortar was placed on the cement base to level before the plate was placed on it. The expert for the People says that when the plate was under the pier it was on a sound footing and that if it had been bolted down it would not have avoided the accident.\nIt appears that this column was out of plumb and that it was plumbed by striking with a maul at the bottom and that when Kavanaugh, who did this plumbing, left it it was absolutely level and well blocked. The column had moved ofi center in plumbing leaving a full space of four inches and this space was filled in with one-half inch plates extending more than the width of the base of the column so that these plates projected on both sides and also some three and one-half inches in front, they being about seven inches deep. Under these plates four steel wedges were driven in. Finlay, the building department inspector, one of the defendants, says that he directed this to be done and that it be grouted also. Grouting is the distribution of a cement mixture about the base of the column, usually about one-half inch in thickness.\nGaydica noticed this column out of plumb and called the attention of the erectors to it and they (the erectors) went back and plumbed it (Gaydica not being present) by striking with a maul before the other plates and wedges were put under it. It was fastened at the top and not at the bottom and bore no weight at the time. Accounting for it being out of plumb the erectors say that the practice is to set the column first and later plumb it. Their theory is that one of the many five-ton trucks running in and out of the job may have struck the column and thrown it out of plumb, but that had been corrected and the column blocked as shown in the photograph with a complete sound and level base before the accident.\nThe People\u2019s expert says that in his opinion the column-was thrown out of plumb by strain; that something buckled above; that the plumbing of the column only added to the strain and that the column went back again out of plumb because the cause of the strain, whatever it was, was not Temoved. With the column on a level base, well blocked, as the expert admitted, it does not seem possible that the column could again go out of plumb unless a heavy truck or something similar struck it, and negligence in that direction is not charged here. The expert says that bolting of the base of the column to the pier is not usual, and that if it had been done it would not have avoided the accident.\nWere bolting to have been done the bolts would have been inserted in the cement base which was the work of the foundation man who built the pier short. The pier was short of the proper level and the difference was made up with steel plates, which is not unusual. The People\u2019s expert, the steel erectors, the steel contractor, the steel workers, all say that that is usually done and that such a base is proper and safe. Sullivan, the foreman of the iron workers, testifies that when the plate was under the pier it was on a sound footing. The People\u2019s expert testified that the trusses figured all right; that there was enough steel, provided the column was all right. His theory of the accident is that something happened up above, a budding as he terms it, but no cause for the buckling or yielding, whatever he may mean, is given. There is an entire absence of proof of proximate cause or any cause. All that appears is that an accident happened from a cause or causes unknown. Even if there were a proximate cause and negligence and culpable negligence on the part of some one, it must be shown to be legal negligence of Moskowitz to sustain an indictment against him, and similarly as to Gaydica or Finlay to sustain an indictment against either of them.\nThe defendant Moskowitz was the owner with one Rosenthal of the land whereon the building was in course of erection. They engaged an architect to \u201c draw the plans for a certain sum of money, to have them passed in the building department and afterwards supervise the erection of the building.\u201d This is the architect\u2019s testimony and also that of Moskowitz and Eosenthal. The construction they contracted out to various contractors; the brick and foundation work to Canella Brothers, the steel to Gaydica and so on so that every particle of work to be done and material to be furnished was contracted out. There was no superintendent on the job. They bought no material; they hired no men. Moskowitz and Eosenthal were careful to let out their contracts to men competent and skilled in their respective lines, and in some instances gave the contract to the highest bidder. Moskowitz and Eosenthal operate a moving picture theatre already built and this building when completed was also to be so used by them. They were not builders. Moskowitz has a master plumber\u2019s license and some years ago worked at the trade but he is not a builder and frankly says so. They consulted the architect from time to time. Moskowitz knew nothing about bricks, mortar, cement or steel construction, stress or strain and had no knowledge of building beyond the plumbing end of it. He had a sign up, Eosenthal & Moskowitz, builders and owners, but the use of the word \u201c builders \u201d meant no more than owners in this instance for the facts show that they w\u00e9re not the builders but that the various contractors were the builders.\n\u201c Q. Mr. Moskowitz, you had a sign put on the shanty, Eosenthal & Moskowitz, Builders and Owners? Is that correct? A. Yes, sir. Q. So you and your partner were the builders there? A. However you would call us, we were the owners. Q. You took the responsibility of letting out the contracts to the different contractors? A. Yes, sir.\u201d Page 358 of the grand jury minutes.\nThe testimony shows Moskowitz on the job a great deal but it does not show him participating in or directing the building or doing anything that an owner who has contracted out all of the work should not do. Similarly as to Gaydica, he let out the construction work to Pluckham & Kavanaugh. His agreement with them follows:\n\" Contract between Joseph Gaydica PaHy of the First PaH and Pluckham & Cavanaugh PaHies of the Second ParL\n\u201c Party of the second part agrees to erect all Structural Steel Work according to plans and building department regulations for Theatre Building to be erected at Bedford & Park Avenues, Brooklyn, H. Y. for the sum of one thousand seven hundred and fifty ($1750.00) dollars.\n\u201c Party of the second part agrees to hire none but union help fully protected by the Compensation laws and to supply all necessary tools and hoisting apparatus.\n\u201c Party of the second part agrees to protect the party of first part against accidents to the public.\n\u201c Party of the first part reserves the right to cancel this contract if parties of the second part fail to appear on the job ready for work three days after final notice.\n\u201c Party of the first part agrees to make payments as the work progresses.\u201d\nHe did not take any part in the construction of the steel edifice. Pluckham & Kavanaugh entered upon performance of the contract and did the construction work.\nAn owner subletting the entire work to independent subcontractors is not liable for the negligence of any of the latter, being answerable only for his personal affirmative negligence while actually participating in the work, and that rule applies also to a contractor subcontracting his work.\nIt is a well-recognized fact that building operations can be conducted safely and that they are not inherently dangerous. McCafferty v. S. D. & P. M. R. R. Co., (1874) 61 N. Y. 17.8; Parsan v. Johnson, (1913) 208 id. 337; Hyman v. Barrett, (1918), 224 id. 436; Von Lengerke v. City of New York, (1912) 150 App. Div. 98.\nSuch being the case, the authorities universally hold that one who employs an independent contractor to conduct building operations in his behalf is not liable for the negligence of the latter, whether such employer be the owner of the property that is being improved (Engel v. Eureka, [1893] supra; Berg v. Parsons, [1898] 156 N. Y. 109; Wolf v. American Tract Society, [1900] 164 id. 30; Burke v. Ireland, [1901] 166 id. 305, revg. 47 App. Div. 428; Hyman v. Barrett, [1918] 224 N. Y. 436), or a contractor who has sublet his work, either in whole or in part, to an independent subcontractor (McCafferty v. S. D. & P. M. R. R. Co., [1874] supra; Dorn v. Snare & Triest Co., [1909] 62 Misc. Rep. 269; Von Lengerke v. City of New York, [1912] supra); for under such circumstances the employer is only liable for affirmative negligence on his part while actively participating in the actual conduct of the work. Burke v. Ireland, (1901) supra, revg. 47 App. Div. 428; Parsan v. Johnson, 1913) supra; Pitcher v. Lennon, (1896) 12 App. Div. 356; Burke v. Ireland, (1898) 26 id. 487.\nThus in Von Lengerke v. City of New York, (1912) supra, Mr. Justice McLaughlin, in delivering the opinion of the court, said at the bottom of page 104 et seq.: \u201c Third as to the defendants Eidlitz. The finding of the jury that the damage sustained by the plaintiffs was due to their negligence is against the evidence, and for that reason the court properly dismissed the complaint as to them. There is absolutely no evidence that they, or their servants, were in any way negligent. They took no part in the excavating and never attempted to supervise or direct what was to be done in any way. They had a right to sublet the contract to a competent person, and the evidence shows that the subcontractor was such. Pilhington was an independent contractor, and they could not be made liable for his negligence. Plaintiff\u2019s counsel recognizes this rule, but contends that the case comes within the exception, which is that liability cannot be avoided where the thing contracted to-be done is a nuisance or dangerous per se. This contention is undoubtedly true, but as above shown, the excavation was not work of such character. It was not a nuisance, not dangerous, per se. Had Pilkington followed the plan in making the tunnel, it would not, at any place, have come within eight feet of the pipe which was broken and would have been at least two feet east of the intervening pipe. The defendants Eidlitz are, therefore, not liable for Pilkington\u2019s negligence.\u201d\nIn Dorn v. Snare & Triest Co., (1909) 62 Misc. Rep. 269, the court held, quoting verbatim from the head note, as follows: \u201cWhere a corporation, which has contracted with a municipality to erect a bridge, enters into a subcontract for the iron and steel work, and an employee of the subcontractor, by negligently dropping a tool, injures one directly beneath him who sues the principal contractor and recovers judgment against it; and where upon the trial the court charges the jury that they must find for the plaintiff if they find that the workman' who dropped the tool was employed by the defendant, but for the defendant, if they find he was employed by the subcontractor, and withdraws from the jury any question as to the bona fides of the contract between the principal contractor and the subcontractor; and where the proof shows the workman was employed by the subcontractor, the judgment upon a verdict for the plaintiff must be reversed upon appeal, although there is evidence in the case from which the jury might have inferred that the contract was a mere cloak to shield the defendant from liability for n'egligence in such cases, if that question had been submitted to them.\u201d\nIn McCafferty v. S. D. & P. M. R. R. Co., (1874) supra, Judge Earl, in delivering the opinion of the court, said at page 181: \u201c This is not a case where the defendant contracted for work to be done which would necessarily produce the injuries complained of. They were caused by the unskillful and negligent manner in which the blasts were conducted. The injuries were not occasioned in consequence of the omission of any duty which was incumbent on the defendant. It had let the contract, so far as appears, to a competent person, and had provided in the contract that he should be responsible for any damage occasioned by the blasting\u2019. The defendant did not authorize or permit a nuisance upon its premises. If it had, it would have been liable for any damage occasioned by the nuisance. Hence, if the defendant can be held liable in this case, it must be upon the naked ground that it is responsible for the careless acts of the subcontractor\u2019s servants, over whom it had no control. There is no authority in this state for imposing such a liability under such a state of facts.\u201d\nThe reasoning underlying this rule of law is admirably discussed and set forth in the scholarly opinion of Chief Judge Andrews in the case of Engle v. Eureka Club, (1893) 137 N. Y. 100, wherein he says at page 103 et seq.: \u201c It is the general rule that a party injured by the negligence of another must seek his remedy against the person whose actual negligence it was which caused the injury, and that such person alone is liable. (King v. N. Y. Cen. & H. R. R. R. Co., 66 N. Y. 182.) The case of master and servant is an exception, and the negligence of the latter is imputable to the master where the servant, in doing the act which occasions the injury is acting within the scope of his employment. This is acting within the scope of his employment. This exception rests upon most satisfactory reason, because the servant in the case supposed is acting in place of the master and by his appointment, and the master, who selects and controls the servant, makes the servant his representative in his business.\n\u201c But the exigencies in affairs frequently require persons exercising independent employments should be entrusted by owners of property with its improvement, and in various relations and under varying conditions they are employed, not as servants, but as independent contractors to execute contracts which the person who secures their services is unable to execute himself, or the execution of which he prefers to commit to another. The duty which the contractor owes is defined by the contract or implied therefrom. In such cases the maxim qui fad per alium> fadt per se has no appropriate application and there is no reason founded upon public policy or the relations between the parties to the contract, which should subject one party to the contract to liability to third persons for the negligence of the other. The principle that no liability on the part of the innocent party in such case exists has become the settled doctrine of our law. It leaves an adequate remedy to the party injured, against the real author of the wrong. There are well understood exceptions to this rule of exemption. Cases of statutory duty imposed upon individuals or corporations; of contracts which are unlawful, or which provide for the doing of acts which when performed will create a nuisance,\u2014 are exceptions. In cases of the first mentioned class the power and duty imposed cannot be delegated so as to exempt the person who accepts the duty imposed, from responsibility; and in those of the second class exemption from liability would be manifestly contrary to public policy, since it would shield the one who directed the commission of the wrong. (Citing cases.) There are cases of still another class where the thing contracted to be done is necessarily attended with danger, however skilfully and carefully performed, or, in the language of Judge Dillon, is \u2018 intrinsically dangerous \u2019 in which case it is held that the party who lets the contract to do the act cannot thereby escape from the responsibility for any injury resulting from its execution although the act to be performed may be lawful (2 Dillon on Municipal Corp., sec. 1029, and cases cited). But if the act to be done may be safely done in the exercise of due care although in the absence of such care injurious consequences to third persons would be likely to result, then the contractor alone is liable, provided it was his duty under the contract to exercise such care. (McCafferty v. S. D. & P. M. R. R. Co., 61 N. Y. 178; Connere v. Hennessy, 112 Mass. 96; Butler v. Hunter, supra.)\u201d\nIn Berg v. Parsons, (1896) 156 N. Y. 109, Judge Martin \"used the following language, at page 112: \u201c The rule chat where the relation of master and servant or principal and agent \u2022does not exist, but an injury results from negligence in the performance of work by a contractor the party with whom he contracts is not responsible for his negligence or that of his servants, is well established by the authorities in this State. (Blake v. Ferris, 5 N. Y. 48; Pack v. Mayor, etc., 8 N. Y., 222; Kelly v. Mayor, etc., 11 N. Y. 432; McCafferty v. S. D. & P. M. R. R. Co., 61 N. Y. 178; King v. N. Y. C. & H. R. R. R. Co., 66 N. Y. 181; Town of Pierrepont v. Loveless, 72 N. Y. 211; Ferguson v. Hubbell, 97 N. Y. 507; Herrington v. Village of Lansingburgh, 110 N. Y. 145; Boemer v. Striker, 142 N. Y. 134.)\nAt page 115, Judge Martin continues: \u201c There are certain exceptional cases where a person employing a contractor is liable which, briefly stated, are: Where the employer personally interferes with the work, and the acts performed by him occasion the injury; where the thing contracted to be done is unlawful; where -the acts performed create a public nuisance; and where an employer is bound by a statute to do a thing efficiently and an injury results from its inefficiency. Manifestly, this case falls within none of the exceptions to which we have referred. There was no interference by the defendant. The thing (this was a case of injuries caused by blasting rock in making an excavation) contracted to be done was .lawful. The work did not constitute a public nuisance, and there was no statute binding the defendant to efficiently perform it. In none of those exceptional cases does the question of negligence arise. There the action is based upon the wrongful act of the party, and may be maintained against the author or the person performing or continuing it. In the case at bar the work contracted for was lawful and necessary for the improvement and use of the defendant\u2019s property. Consequently no liability can be based upon the illegality of the transaction, but it must stand upon the negligence of the contractor or his employee alone.\u201d\nSupervision, however vigilant, if confined to enforcing the terms of the contract or subcontract does not constitute participation such as would render the owner or contractor liable for the negligence of the contractor or subcontractor.\nBecognizing the natural desire of any employer of an independent contractor to be sure that his contractor is actually fulfilling the terms of his agreement, the law permits him to inspect and supervise the work as it progresses without incurring liability for the negligence of the contractor, provided he refrains from becoming an actual participant in the work and merely confines himself to such general supervision as may be necessary to insure him full and proper performance of the duty of the contractor or subcontractor as the case may be. Pack v. Mayor, etc., of N. Y., (1853) 8 N. Y. 222; Burke v. Ireland, (1898) 26 App. Div. 487; Hawke v. Brown, (1898) 28 id. 37; Doremus v. Auerbach, (1919) 176 id. 512; Jaskoey v. Consolidated Cas Co., (1900) 33 Misc. Rep. 790; Wettje v. Silverman, (1907) 52 id. 567; Jacoby v. Browning, (1918) 105 id. 312.\nIn discussing such right of supervision, Mr. Justice Mullen, in Jacoby v. Browning, (1918) supra, says at page 313 : \u201c The defendant, who was the owner of the land upon which the hotel was erected, gave out contracts to different people for the doing of all the numerous items of work. His position thus was the same as the very common one of a general contractor who lets out all the work to subcontractors. He had architects and a superintendent, and the latter and he himself were shown to-have closely watched the construction. But their vigilant supervision was only such as they were entitled to exercise. It is settled law that the general contractor has the right of general supervision in so far as it is necessary to insure full and proper performance by the subcontractors, and that it is only when he goes beyond the limits of that right and commits \u2018 some affirmative act of negligence, as by taking some part in the performance of the work than such general supervision as is necessary to insure its performance/ that he is chargeable. Joyce v. Convent Avenue Construction Co., 155 App. Div. 586. It may be difficult to say just what intrusion or participation in the work, by a general contractor, is enough to make him liable for its negligent performance, and it would be unwise to attempt to lay down any precise rules upon the subject; but it is safe to say that the general contractor is not expected to be a mere interested on-looker, without the ability to complain and criticise and thus indirectly to suggest, for if that were to be the measure of it, the so-called right of supervision would be a vain and empty thing. The rule must receive a practical construction, and while, on the one hand, it is important to see to it that a general contractor who does not keep within the bounds of his proper supervisory powers be not allowed to seek refuge behind the independent contractor rule, it is equally important on the other hand, to see to it that a general contractor who does keep within those bounds be not denied a complete opportunity to compel proper and stipulated performance by the subcontractors.\u201d\nIn Hawke v. Brown, (1898) 28 App. Div. 37, Mr. Justice Green, in delivering the opinion of the court, used the following language, at page 43: \u201c When a contractor takes entire control of the work, the employer not interfering, the employer \u2014supposing there was no negligence in the selection of the contractor, and that the work contracted for was lawful \u2014 is not liable to third persons for injuries to such parties by the contractor\u2019s negligence, or the negligence of his subordinates. But any interference, assumption of control or directions given by the owners of buildings, being erected for him by contractors, in work done in obedience to such directions. * * * In other words, the employer may make himself liable by interfering with the contractor and assuming control of the work, or some part of it, so that the relation of master and servant arises, or so that an injury ensues which is traceable to his interference. But the mere \u2022 fact that the employer retains a general supervision over the work for the purpose of satisfying himself that the contractor carries out the stipulations of his contract, does not make him responsible for the negligence of the contractor.\u201d\nThe extent of such right of supervision is illustrated in the decision of Burke v. Ireland, (1898) 26 App. Div. 487, where it was held that the fact that a contract made by the owner with the principal contractor provided that the owner should have the right to inspect the materials and workmanship, modify the plans and vary the work, and that the work should be done under the direction of the owner\u2019s architect, does not alter the owner\u2019s position as regards his liability.\nSuch right of supervision is optional with the employer as he owes no duty of active vigilance to third parties where the work is in charge of an independent contractor.\nAs we have seen from. the discussion under the previous points, one who employs an independent contractor is liable for the negligence of the latt\u00e9r only where he actually participates in the work that he has let out. Pitcher v. Lennon, (1896) 12 App. Div. 356. Necessarily, therefore, he is under no duty to use active vigilance to see that the independent contractors perform their work in accordance with the terms of their contract, and in a skillful and proper manner. Joyce v. Convent Ave. Construction Co., (1913) 155 App.. Div. 586; Hawke v. Brown, (1898) 28 id. 37.\nIn Joyce v. Convent Ave. Construction Co., supra, it was held that an owner of premises who contracts for the erection of a Building thereon owes no duty of active vigilance to protect the employees of one contractor from those of another. This rule is merely the logical corollary to the one which only imposes liability upon the employer if he participates personally in the conduct of the work.\nTo hold an employer liable for the negligent selection of an incompetent contractor, the clearest evidence of such incompetency and of knowledge thereof on the part of the employer is required, the mere occurrence of a catastrophe being insufficient in itself to prove such incompetency.\nIn reading the authorities which we have been previously discussing one frequently meets the phrase that where the employer retains a \u201c competent independent contractor \u201d he is not liable. Naturally, the question arises as to whether or not he could he charged with liability for selecting one who was incompetent. While an extensive search of the reported cases does not disclose a single case in which an employer was held liable solely upon the ground of a faulty selection, Mr. Justice Lehman, in Mehler v. Fisch, (1910) 65 Misc. Rep. 549, at page 550, discloses the evidence of incompetency which was introduced to hold the employer liable and held it to he insufficient. He said: \u201c Nor can the judgment be sustained upon the theory that the owner did not exercise due care in engaging competent contractors. Even if the owner is under a duty, the plaintiff has not shown any failure to perform it. The work done here was not hazardous nor requiring great skill. The contractors, while not long in this country and just beginning to work for themselves, testified that they have had long experience as journeymen in work of this kind. Absolutely the only evidence of incompetency is the fall of the scaffold.\u201d\nFrom the language of the court in that case it is evident that even if there be a duty on the part of the employer to select a competent independent contractor, a violation thereof is not shown by proving that the party selected by him has not been in business for any great length of time and that a catastrophe has resulted in the course of the work that he has undertaken.\nEven in a civil case mere proof of a collapse does not make out a prima facie case against a particular contractor, under the doctrine of res ipsa loquitur where the work of construction has been done, or is being done by more than one contractor.\nConceding for the sake of argument that the doctrine of res ipsa loquitur applies to collapses because it is a matter of common knowledge that buildings do not collapse if properly constructed, the doctrine goes no further than holding that the collapse is prima facie evidence of the negligence of someone, but it does not go to the extent of fixing which one, of a number of contractors, is liable for such negligence. Wolf v. American Tract Society, supra.\nIn the last cited case the owner of the property in question was erecting a building and had let out the work of construction to nineteen independent contractors. During the course of the progress of the work an employee of one of the contractors was hit by a brick which fell from the upper part of the building. There was no proof as to who started the brick in motion but a recovery was permitted in the court below against the contractor who had charge of the carpentry work and the one who had charge of the masonry work. In delivering the opinion of the appellate court which held the judgment of the lower court should be reversed, Judge O\u2019Brien very ably disposed of the argument that a prima facie case was made out under the doctrine of res ipsa loquitur, using the following language \u2022 at page 33 et seq.: \u201c We agree with the court below that this is a case where the maxim res ipsa loquitur applies. There is a presumption that the plaintiff\u2019s injury was the result of negligence (Mullen v. St. John, 57 N. Y. 567; Hogan v. Mann. R. Co., 149 N. Y. 23; Kearney v. London, etc., Ry. Co., L. R. [5 Q. B.] 411; Volkmar v. Manhattan R. Co., 134 N. Y. 418). But that presumption did not complete the proof which it was incumbent upon the plaintiff to make before the case could be submitted to the jury. In a case like this, where the building-in process of construction is in charge of numerous contractors and their workmen, each independent of the other, and none of them subject to the control or direction of the other, some proof must be given to enable the jury to point out or identify the author of the wrong-. There is no principle that I am aware of that would make all of the contractors, or all of the workmen engaged in erecting this building liable in solido. And yet there is just as much reason for that as there is for Holding two of these contractors for no other reason than that one of them had charge of the carpenter work and the other of the mason work. The plaintiff, we must assume, suffered injury from the negligence of someone; but I am not aware of any ground, any reason or law, for imputing the wrong to the two contractors who are defendants, or for selecting them from all the others as responsible to the plaintiff, unless they can conclusively show that they are not. Where there is no proof where the brick came from, except that it came from the building, and nothing to identify the person who set it in motion, it cannot he said that the plaintiff has made out a case for the jury. The presumption does not go far enough, since the party chargeable with the act from which the'injury resulted has not been identified but that important fact is left entirely to conjecture. There is no principle of law that will permit the plaintiff to proceed upon the theory that anyone in any way connected with the work, or any one or more of them that he chooses to select, must respond to him in damages for the injury. If the plaintiff was unable to give proof pointing to the party responsible for the injury, there is no reason why the innocent and the guilty should be held in a body upon the presumption that some or all were negligent. * * *\n\u201c Cases must occasionally happen where the person really responsible for a personal injury cannot be identified or pointed out by proof, as in this case, and then it is far better and more consistent with reason and law that the injury should go without redress than that innocent persons should be held reponsible upon some strained construction of the law developed for the occasion. The idea suggested in this case that all or any of the nineteen contractors may be held since the plaintiff is unable by proof to identify the real author of the wrong is born of necessity, but embodies the principle so far reaching and dan- . gerous that it cannot receive the sanction of the court.\u201d\nThe doctrine of Wolf v. American Tract Society, supra, in-the logical reasoning of Judge O\u2019Brien therein contained, has been repeatedly approved and followed by the courts and it is. the undisputed law of this State. Hardie v. Boland Co., 205 N. Y. 336; Francis v. Gaffey, 211 id. 47.\nThere was no competent evidence whatever that the defendant Finlay was charged by law with any duty with respect to the construction of the building.\nThis defendant, not being the owner, constructor or contractor engaged in the construction of this building, was a mere interloper, unless it can be shown that he had some duty to perform, enjoined by law, arising out of his employment by the superintendent of buildings as an inspector of iron and steel construction. Such a duty before it can exist must be prescribed by statute or ordinance, and it does not arise out of any relationship of the defendant to the construction of the building recognized at common law. There is not a statute- or ordinance which prescribes the duties of the defendant, and so far as the evidence discloses, there was no rule or regulation of the borough president or of the superintendent of buildings, promulgated as required by law, which defined any such duty. The bureau of buildings is created by virtue of the provisions of sections 405-414 of the Greater Few York charter. Section 406 prescribes the duties of the superintendent of buildings and provides for, and gives him the power to appoint, inspectors within the limits of his appropriation. It further provides that the \u201c Superintendent of Buildings shall have power to designate in writing one of the inspectors so appointed by him * * * to perform such duties as said Superintendent may direct.\u201d Section 409 provides the method by which the president of a borough shall have power to establish general rules and regulations for the administration of the building department of his borough. However, there is no evidence, claim or \u2022 suggestion here that any president of this borough ever established such rules and regulations, or that this defendant\u2019s duties were prescribed by any such rules or regulations.\nArticle 1, section 7, paragraphs 1 and 2 of the Building Code provide that the superintendents of buildings shall have power to adopt certain rules, etc., but such rules shall not become effective until they have been published in the City Record on eight successive Mondays, or until a public hearing on the same shall have been held. There is no evidence, claim or suggestion that any such rules existed, or that any such rules prescribed the duties of this defendant. Inasmuch as a rule adopted and promulgated as above provided would have the same force and effect as any provision of the Building Code, of which this court takes judicial notice, it appears as a matter of fact that no rules such as are provided for by the Building Code have ever been adopted by the superintendent of buildings of the borough of Brooklyn. Therefore, the prosecution fails, at the outset, so far as this defendant Finlay is concerned, in that it will never be able to show what, if any, were the duties of this defendant enjoined by lato, the violation of which it is essential to establish before this defendant could be held responsible for the collapse of the building upon any theory.\nThe testimony of the superintendent of buildings before the grand jury is replete with incompetent statements as to the duties of this defendant. Of course, such testimony cannot be considered in support of these indictments; but the introduction of such testimony before the grand jury was highly prejudicial and explains perhaps why the grand jury returned indictments against this defendant, which otherwise -would have-been highly improbable.\nMoreover I find that there was no evidence that the defendant violated any duty; even if it be assumed that his duties w\u00e9re as charged in the indictments, or that he was guilty of any negligent acts or omissions.\nAs regards specification (1) there is nothing in the plans as finally approved which calls for anchors. The plans show-two holes in the base of each roof truss, but the purpose of these holes is not indicated. There are no lines to indicate bars. While the Building Code provides that a truss which is supported on either end by a wall or pier \u201c shall be properly anchored thereto \u201d it does not provide as to the kind of anchor.age. In this case the ends of the trusses were imbedded in-the brick wall, which in itself necessarily served as an anchor. Vertical bars imbedded in the piers and projecting through the holes in the base of the trusses, which is the method of anchoring contended for by the district attorney, are not called for either in the approved plans or in the Building Code; and such a method of anchoring would Be a menace to the safety -of the walls, by reason of the fact that the expansion and contraction of the roof trusses, seventy-five feet long, would tend to push the walls outward and again draw them inward.\nAs regards specifications (2) and (3), wherein it is sought to predicate negligence upon the fact that cross-framing and sway bracing in every bay had not yet been installed, it is sufficient answer that the building was not yet completed, and that the building was not yet completed, and that if finally deemed necessary, these members could have been easily installed at any time before final inspection and the certificate of occupancy had been issued. It was the prerogative of the constructor and of the steel contractors to install the different members called for by the plans at such a time during the period of construction as they reasonably deemed proper. This defendant had, no- right to. dictate the sequence in which the different steel members should be placed.\nThe other numbered specifications have been sufficiently considered heretofore. Furthermore, it can hardly be contended that it was the duty of this defendant to remain constantly' at this building during the progress of the work to ascertain whether the construction of the building in all its details was progressing according to his conception of safe construction. His reports, together with his testimony before Chief Magistrate McAdoo, both introduced in evidence, show that he had over one hundred other buildings under construction to inspect and that he made an average of twelve inspections a day and promptly and daily reported thereon.\nPublic nuisance and the elements thereof, acts of culpable negligence, proximate cause, identification of culpably negligent parties must all be proved beyond a reasonable doubt before a conviction may be had in a criminal cause and that could not as a legal proposition be done upon the record before me nor is a prima facie case made out.\nThe guilt of the defendants in the cases of People v. Buddensieck, 4 N. Y. Cr. Rep. 230, and People v. Polstein, 184 App. Div. 260, both cases of manslaughter by culpable negligence, was legally and well and promptly established by competent evidence, which is not the case here. In the language of the Court of Appeals in Burke v. Ireland, 166 N. Y. 305, 315: \"After a careful examination of the case, we can see only a most sad and unfortunate accident, for the result of which the defendant, within acknowledged principles of law, cannot be held liable.\u201d\nDisposition might have been made of these indictments upon \u2022the demurrers, for they are plainly demurrable, but inasmuch as that would under the circumstances, in my opinion, reach only to the form of these indictments, I have thought it better to grant the motions for dismissal and at the same time review the entire record as though the evidence were all competent and apply the law thereto.\nThe indictments are dismissed.\nOrdered accordingly.",
+        "type": "majority",
+        "author": "McLaughlin, J.:"
+      }
+    ],
+    "attorneys": [
+      "John E. Ruston, District Attorney, Kings county (Ralph E.. Hemstreet and Benjamin T. Hook, Assistant District Attorneys, of counsel), for People.",
+      "Richards, Smyth & Conway (Albert E. Conway, of counsel), for defendant Gaydica.",
+      "Maier Steinbrink (Frank E. Johnson, of counsel), for defendant Moskowitz.",
+      "Frederick S. Mariyn, for defendant Finlay."
+    ],
+    "corrections": "",
+    "head_matter": "COUNTY COURT \u2014 KINGS COUNTY.\nDecember, 1923.\nTHE PEOPLE v. JOSEPH GAYDICA. THE PEOPLE v. SAMUEL MOSKOWITZ. THE PEOPLE v. JAMES M. FINLAY\n(122 Misc. 31.)\n(1) Indictment \u2014 Collapse op theatre \u2014 When court has inherent POWER TO SET ASIDE INDICTMENT-CONSTITUTIONAL RIGHT OP DEPENDANT TO MOVE TO DISMISS.\nThe court has inherent power to set aside an indictment upon grounds other than those enumerated' in section 3d3 of the Code of Criminal Procedure, and when the legal evidence received by the grand jury is insufficient to support an indictment or it is based upon illegal evidence the defendant has a constitutional right to make a motion to dismiss the indictment.\n(2) Same \u2014 When presumption that indictment is pound on legal EVIDENCE PAILS.\nThe presumption that an indictment is based upon legal and sufficient evidence must give way when such is not the fact, and an indictment must be dismissed on the ground that incompetent, immaterial or illegal evidence was given before the grand jury where there is not enough competent evidence to support it, and even if thereby, if it clearly appears that the illegal evidence improperly influenced the minds of the grand jurors.\n(3) Same.\nIn a \u201cJohn Doe\u201d proceeding conducted by the district attorney over a period of two months following the collapse of a theatre building while in course of construction, resulting in the loss of human life, interested persons were allowed to testify only upon waiving immunity and counsel was permitted only by courtesy and was limited in cross-examination to his own. client. After 1,100 pagos of testimony had been taken and before the conclusion of the public hearing the magistrate announced that he would receive, a complaint under section 1052 of the Penal Law which defines manslaughter in the second degree. By separate indictments containing two counts found within two days of the conclusion of the \u201cJohn Doe\u201d proceeding, the owner of the building, the person who supplied the steel for its construction and the steel inspector, were charged with manslaughter in the first degree except that by the second count of the indictment against the steel inspector he was charged with manslaughter in the second degree. Upon motion to dismiss the indictments it was conceded that the first counts were found upon the theory of public nuisance, a misdemeanor under section 153-2 of the Penal Law, while the second counts were found upon the theory of culpable negligence. Held, that all of the second counts should have been found, if at all, for manslaughter in the second degree, and not in the first degree, as in the instances of the owner of the building and the person who supplied the steel.\n(4) Same. \u25a0\nThe stenographer who took the testimony in the \u201cJohn Doe\u201d proceeding was called before the grand jury and after testifying that he had taken said testimony in shorthand and transcribed it, the grand jury was allowed to hear Mm read it, in lieu of having the witnesses called and sworn. There was but one presentation of the cases of all the defendants and said testimony was read into the minutes of the grand jury before the consideration of tlie cases by it, and the finding of the indictments. Held, that as the minutes of the grand -jury abounded in other incompetent and immaterial evidence the motion to dismiss the indictments will be granted upon the ground that without such incompetent testimony there was not sufficient competent and legal evidence to sustain them.\n(6) Same \u2014 When testimony op expert witness incompetent and ILLEGAL.\nThe testimony of an expert witness of acknowledged standing, as to the reason for the collapse of the building, made up of his conclusions disclosing no detail of facts or construction which he should have described and detailed to the grand jury for its consideration, was clearly incompetent and illegal.\n(-6) Same \u2014 Failure op. district attorney to comply with order op court requiring bill op particulars. __\nThe indictments charged failure to comply with the laws of the State of New York, the provisions of the Building Code of the city of New York and the city ordinances, but no law of the State, no provision of said Building Code and no ordinance of the city was disclosed by the minutes of the grand jury as having been brought to its attention. Held, that the failure and refusal of the .district attorney to comply with an order of the court requiring bills of particular's of the section of the Building Code or other statutes or ordinances alleged to have been violated and stating also the particular acts of the defendants alleged to have been contrary to law, and acts alleged to have been committed by them which caused or contributed to the deaths of the .persons mentioned in the indictments, was itself a sufficient reason to dispose of the indictments, as in the absence of the bill of particulars they were insufficient.\n(7) Same \u2014 Necessary proof to sustain a count that a building was A PUBLIC NUISANCE.\nIn order to maintain the theory that the building in question constituted a public nuisance as charged by the first count of the indictments it must be made to appear that the defendants intended it should be constructed in a manner which proved to be improper, that they knew or ought to have known that such manner of construction was improper and that it caused the loss of human life, but not one of these three facts was established by the minutes of the grand jury; there was no testimony that the building as planned was dangerous or unsafe and the expert called for the people swore that the strength of the steel structure was sufficient to carry the load which it was expected to carry and the roof.\n(.8) Same.\nUpon the consideration of the competent and incompetent testimony alike, the defendants were not culpably negligent in the construction of the building and were, therefore, not guilty of manslaughter in the-second degree, as charged.\nMotions to dismiss indictments.\nJohn E. Ruston, District Attorney, Kings county (Ralph E.. Hemstreet and Benjamin T. Hook, Assistant District Attorneys, of counsel), for People.\nRichards, Smyth & Conway (Albert E. Conway, of counsel), for defendant Gaydica.\nMaier Steinbrink (Frank E. Johnson, of counsel), for defendant Moskowitz.\nFrederick S. Mariyn, for defendant Finlay."
+  },
+  "file_name": "0051-01",
+  "first_page_order": 67,
+  "last_page_order": 123
+}

@@ -1,0 +1,225 @@
+{
+  "id": 1224734,
+  "name": "THE PEOPLE v. SAM MIGNANO",
+  "name_abbreviation": "People v. Mignano",
+  "decision_date": "1922-05-03",
+  "docket_number": "",
+  "first_page": "484",
+  "last_page": "493",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 484"
+    },
+    {
+      "type": "parallel",
+      "cite": "201 App. Div. 106"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "207 N. Y. 560",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        4514081,
+        1204327
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/207/0560-01",
+        "/ny-crim/29/0286-01"
+      ]
+    },
+    {
+      "cite": "186 App. Div. 248",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1220759
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/37/0350-01"
+      ]
+    },
+    {
+      "cite": "72 Penn. St. 60",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        434742
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/72/0060-01"
+      ]
+    },
+    {
+      "cite": "168 N. Y. 293",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "186 App. Div. 534",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1220767
+      ],
+      "pin_cites": [
+        {
+          "page": "536"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ny-crim/37/0400-01"
+      ]
+    },
+    {
+      "cite": "232 N. Y. 264",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1224748,
+        1898119
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "270"
+        },
+        {
+          "page": "283, 293"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ny-crim/39/0402-01",
+        "/ny/232/0264-01"
+      ]
+    },
+    {
+      "cite": "139 N. Y. 73",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1172852
+      ],
+      "pin_cites": [
+        {
+          "page": "84, 85"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ny-crim/10/0486-01"
+      ]
+    },
+    {
+      "cite": "192 N. Y. 421",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        54703
+      ],
+      "pin_cites": [
+        {
+          "page": "433"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ny/192/0421-01"
+      ]
+    },
+    {
+      "cite": "178 N. Y. 247",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2316545,
+        805405
+      ],
+      "pin_cites": [
+        {
+          "page": "253"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ny/178/0247-01",
+        "/ny-crim/18/0251-01"
+      ]
+    },
+    {
+      "cite": "159 N. Y. 346",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        32732
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ny/159/0346-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 913,
+    "char_count": 19613,
+    "ocr_confidence": 0.517,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.04580807606929979
+    },
+    "sha256": "8531c26480b7f11bdee16afb0b648d67acadb60d356ae1d0136a722579ff1466",
+    "simhash": "1:38cee66b925a72f1",
+    "word_count": 3503
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. SAM MIGNANO."
+    ],
+    "opinions": [
+      {
+        "text": "Kiley, J.:\nIt is conceded in this case that the defendant in this action, on the 10th day of July, 1918, killed Joseph Marzio by shooting him; the bullet entered the head over the left eye. Defendant fled the jurisdiction of the court. The crime was committed at Malden, Ulster county, N. Y. On the 11th day of May, 1921, he was indicted by a grand jury of that county, charging him with manslaughter in the first degree. Upon the trial under that indictment he was convicted as charged and sentenced to not less than six nor more than twelve years in State prison. This appeal is from such judgment of conviction. The defendant admitted the killing but urged that the homicide was justifiable, that he shot in self-defense. For some time before the shooting defendant and his family and deceased and his family lived in a double house on property known as the Staples brickyard near Malden, Ulster county; both families had small children; a lady in the neighborhood gave to the defendant\u2019s boy a box of trinkets, among which was a small chain or piece of one. Marzio\u2019s wife claimed that the chain was one they brought from Italy and that defendant\u2019s son had stolen it. Defendant offered to wager and did wager a dollar that the woman in the neighborhood gave the chain to his boy. They, defendant and Marzio, went to the woman\u2019s house and asked her and she confirmed defendant\u2019s claim. Marzio offered to pay the dollar but defendant refused to accept, and Marzio said he would buy the beer; he started toward the hotel in the neighborhood, went there, defendant followed and. both bought drinks. Defendant started toward home, Marzio followed, overtaking defendant some little distance toward their home along the State road. They had an altercation, called each other\u2019s wives and each other liars; defendant swears that Marzio came towards him fumbling at his hip pocket and he, defendant, took the revolver from his side coat pocket, where he was in the habit of carrying it; that Marzio was twelve or fourteen feet from him and facing him and coming toward him; that he told him to go home; Marzio stopped, turned away, the defendant standing still and still presenting his gun. Marzio turned again, came toward the defendant with raised hand or hands, and when within eight or nine feet of him the defendant fired, striking Marzio as aforesaid over the left eye, piercing the brain. Marzio fell to the ground, was alive but unconscious when approached a few minutes after by one living in the neighborhood, who found a razor clasped in his right hand. He was taken to a hospital and died that night from his injuries. Defendant fled, going to New Jersey, and stayed for over two years, when he had his wife procure an attorney for his defense and thus returned and gave himself up, surrendered to the authorities of Ulster county. His excuse for running away given under oath, he went upon the stand in his own defense, was that he was afraid of the dead man\u2019s friends. He could not tell who they were, but claimed to be impelled to run with that idea. Both parties were Italians. The evidence in full, as only briefly reviewed here, would support a verdict of acquittal. The jury found otherwise. Were the jurors influenced in reaching that verdict by certain evidence and the attitude of the court and district attorney with reference thereto, claimed to be error upon this appeal ? It is as follows: \u201c District Attorney (cross-examining the defendant) : Q. Did you while living at Newburgh, before you went to Mechanicsville, draw a gun and shoot at John Delaya ? Mr. Canfield: Objected to as incompetent, improper and immaterial. The Court: Overruled. By the Court: Answer yes or no whether you shot at this other man? A. Yes. By District Attorney Traver: Q. Did you hit him ? A. I want to tell you. Q. Did you shoot him? A. Yes; I want to tell you the truth why I shot. Q. When you shot, immediately after that, did you go away from home and go to Mechanicsville? A. I didn\u2019t run away; I move up there. Q. Did you go to Mechanicsville? A. When I shoot I left the man; two or three shots. Q. When you shot you left ? A. I no can hurt him, I just scared him, no shells in gun, just fire to scare. Q. Wasn\u2019t the reason why you shot at him, because you thought he was too friendly with your wife? A. He was talking to somebody else. Q. Wasn\u2019t that the reason you shot at him, or wasn\u2019t it; was the reason why you shot at John Delaya because he had been trying to do something to your wife? A. He was, before that, somebody told me all the time, and I want to scare him. Q. After you shot at him where did you go ? A. Mechanicsville. Q. You went up there alone ? A. I went alone after a week or so\u2014 Q. After a while your family come ? Mr. Canfield: He is entitled to finish his answer. District Attorney: I am not obliged to take everything the witness says in answer to my question. The Court: Go ahead. Q. After you shot at this man you went to Mechanicsville ? A. I go to Mechanicsville. Q. \u00a1Right away ? A. Sure, right away.\u201d After considerable questioning of the same kind without any objection from defendant\u2019s counsel, the following took place: \u201c Q. You don\u2019t go back to Newburgh? A. No. Q. You never have been back there since ? A. I don\u2019t remember. Q. Have you been back, or, haven\u2019t you, or, don\u2019t you know? A. Didn\u2019t go to Newburgh any more after I left.\u201d I think it may be held that all of this evidence harks back to the objection made and above quoted, and that it is all tainted with the same vice, if vice there be. The question presented is this, was it competent to give evidence of a separate and distinct crime committed by the defendant, other than that charged in the indictment? The Newburgh incident dates back many years before the crime and time alleged in the indictment. In People v. Molineux (168 N. Y. 293), Judge Werner, after discussing the question of permitting evidence of crimes other than that alleged in the indictment, says: \u201c \u2018 Logically, the commission of an independent offense is not proof in itself of the commission of another crime. Yet it cannot be said to be without influence on the mind, for certainly if one be shown to be guilty of another crime equally heinous, it will prompt a more ready belief that he might have committed the one with which he is charged; it, therefore, predisposes the mind of the juror to believe the prisoner guilty.\u2019 \u201d This is quoted by the judge from Shaffner v. Commonwealth (72 Penn. St. 60), and he then proceeds as follows: \u201c The exceptions to the rule cannot be stated with categorical precision. Generally speaking, evidence of other crimes is competent to prove the specific crime charged when it tends to establish (1) motive; (2) intent; (3) the absence of mistake or accident; (4) a common scheme or plan embracing the commission of two or more crimes so related to each other that proof of one tends to establish the others; (5) the identity of the person charged with the commission of the crime on trial.\u201d (Whart. Crim. Ev. [9th ed.], \u00a7 48; Underh. Ev., \u00a7 58; Abb. Tr. Br., \u00a7 598.) I think we may go one step farther and hold that when the defendant in a criminal action goes upon the stand in his own behalf, he may be interrogated upon cross-examination as to any crimes he has theretofore committed, but for the sole purpose of affecting his credibility as a witness, the same as a defendant in any other action. (People v. Johnston, 186 App. Div. 248, and cases cited.) Judge Miller, in People v. Pettanza (207 N. Y. 560), shows the vice of bolstering up a case, not strong primarily, with evidence of this kind. Assuming the most favorable attitude we can toward the evidence criticized, viz., that it might have been offered to affect his credibility, the jury is nowhere advised of that fact. The district attorney did not so state when he offered it, and the judge did not refer to it in his charge. The argument of the district attorney when he presented the People\u2019s case to the jury is reported in the record in full. He did not tell the jury that the evidence of the Eewburgh affair was given to them to affect the defendant\u2019s credibility. On the contrary, his argument in that regard was to the effect that, having committed that crime and admitted it, it was evidence that he committed the crime with which he was charged. He approached the subject as follows: \u201c The story told by the defendant reminds one of a very old proverb, to all familiar, \u2018 he who fights and runs away, may live to fight another day,\u2019 and I am going to paraphrase that, and say, defendant\u2019s story reminds me of what I am going to paraphrase in this case, as \u2018 he who shoots and runs away may live to shoot another day.\u2019 \u201d This is followed with observations on this line of testimony justifying the assertion that it was not introduced to affect the credibility of the defendant but in support of the crime charged in the indictment. The closing paragraph of the discussion upon that subject is significant in denoting its purpose: \u201c I say, he shot and ran away that time, and the evidence in this case, from his own lips, warrants that statement, and having shot and run away the first time, he imagines, perhaps, he can pursue the same tactics the second time, and he shot and ran away the second time.\u201d The evidence and the argument of the district attorney was to the effect that the defendant was criminally inclined; that shooting was his rule rather, than the exception, and that it was potent evidence of his probable guilt of the specific crime charged against him. This case was too close to hold that such evidence did not influence the jury. A very good foundation existed and was laid for an acquittal on the plea of self-defense. The defendant\u2019s reputation came through the ordeal much better than that of Marzio. Defendant was forty-four years old, the other man twenty-six. Defendant left the hotel for his home alone and ahead of the deceased. He followed and started the quarrel. Marzio had been informed by an uninterested party that his claim to the chain was wrong; he was irritated and made the first advance; the defendant and one other disinterested witness swore his hand was up before he was shot. Defendant swore he could not tell if he had anything in his hand; but he knew the favorite weapon of the Sons of Italy. He warned him to go home; Marzio hesitated, turned, but returned to the attack, his hand still up, the older man stood still covering his assailant with his gun, and still telling him to desist. He came on and defendant shot him, and when he fell a razor was clasped in his right hand. It is urged that the defendant should have avoided the shooting, but in the light of later events it might have been dangerous; Marzio was the younger man, with a razor in his hand, and defendant\u2019s back turned in an effort to escape, the race might well have been won by the younger man. The jury could well have found that the defendant had the right to refuse to take the chance, and that he adopted the wiser course. The trial was not fair, the defendant did not have a fair chance, the least of which chance he should have had would have been for the court in his charge to the jury to have said that the evidence of the Newburgh incident was not received for the purpose of proving the guilt of the defendant, hut to let them say whether it affected his credibility.\nThe judgment should be reversed and a new trial granted.\nAll concur, except Hinman, J., dissenting, with an opinion.",
+        "type": "majority",
+        "author": "Kiley, J.:"
+      },
+      {
+        "text": "Hinman, J. (dissenting) :\nI favor an affirmance of the judgment of conviction. The defendant has taken a human life when in fact he was in full command of the situation. While he was not required to exercise the best judgment that the situation required of him when viewed in the light of what we know to he the facts, nevertheless I am not in favor of relaxing the wise rule laid down in People v. Kennedy (159 N. Y. 346), where the court said of the self-defense rule: \u201c Before a party can justify the taking of life in self-defense, he must show that there was reasonable ground for believing he was in great peril; that the killing was necessary for his escape, and that no other safe means was open to him. When one believes himself about to be attacked by another, and to receive great bodily injury, it is his duty to avoid the attack if in his power to do so, and the right of attack for the purpose of. self-defense does not arise until he has done everything in his power to avoid its necessity.\u201d (See, also, People v. Koepping, 178 N. Y. 247, 253.)\nMany of our rules of justice mean injustice in some individual cases but are necessary in order that justice may prevail in the average case. They are laid down for the protection of society and if we relax them we encourage irresponsibility, which is one of the faults in present-day law making and law enforcement. It may well be that the defendant believed he was in great danger but I am unable to convince myself that he did in fact act in self-defense as that act is defined in the statute and has been interpreted by the courts. According to the defendant\u2019s own account he was too precipitate. It was only 7:30 in an evening of early July when the days are longest. He says it was light and all the evidence in the case indicates the same thing. Other witnesses saw plainly for a distance of at least one hundred feet. The deceased was moving slowly, walking. There was no sudden movement. The defendant makes no claim that he saw anything in deceased\u2019s hand that he believed to be a revolver. There is no foundation for the argument that defendant thought the razor was a revolver. Deceased was eight or nine feet away when he was shot. The deceased could plainly see the revolver in defendant\u2019s hand. If the razor was in deceased\u2019s hand the defendant could have seen it. I believe it was in his hand. It was found there. \u00a1Nobody but deceased or defendant could have put it there. I cannot believe that deceased found it and grasped it after he was shot in the brain, which must have caused instant unconsciousness. I believe the fair deduction to be made is that defendant did actually see the razor and was seized with an impulse to shoot which he did; but the deceased was not within striking distance and the defendant with his revolver was in command of the situation. He could have retreated. He could have warned that he would shoot. He did not do all in his power to avoid the necessity of shooting and had he done what was within his power there was no imminent danger of any design to injure him being accomplished.\nHis flight after the shooting tends to reveal his own sense of guilt. His fear of Marzio\u2019s friends or of the \u201c black hand \u201d is apparently an artifice since he did voluntarily return and gave himself up. The matter of his self-defense was a plain question of fact for the jury and their finding is well, sustained by the evidence.\nSix years or less in prison is not too great a penalty for the needless taking of a human life. Even if in an individual sense of justice to defendant, he might be exonerated for having believed himself in danger, I believe the law should be vindicated by his punishment as an object lesson to others. The law recognizes no apology for undue haste. There must be reasonable ground for believing that one is in peril and in addition there must be imminent danger of the threatened injury being accomplished. (Penal Law, \u00a7 1055.)\nHaving reached the conclusion that the facts do not warrant a reversal of the jury\u2019s holding that defendant did not act in self-defense, the question raised as to his former shooting affair is not serious. The defendant\u2019s character' and reputation for being \u201c always peaceable \u201d had been put in issue by the defendant\u2019s character witness. He was on the stand himself and was subject to cross-examination as to any vicious or criminal act of his life. (People v. Hinksman, 192 N. Y. 421, 433.) The extent to which this may be carried is discretionary with the trial court and will not be reviewed in the absence of an abuse of discretion. (People v. Webster, 139 N. Y. 73, 84, 85.) The evidence elicited showed that instead of being a peaceable citizen he had previously resorted to the use of this same deadly weapon which he had unlawfully possessed for years, to redress a personal wrong; that his explanation of his use of blank cartridges on that occasion was unsatisfactory in view of his having fled the city of Newburgh right after the shooting and that he never returned to that city. No exception was taken to the remarks of counsel in summing up and no ruling or charge was requested and no question of law is presented for review. (People v. Slover, 232 N. Y. 264, 270; People v. Cummins, 209 id. 283, 293; People v. Keller, 186 App. Div. 534, 536.) The remarks of the district attorney were not unjust to defendant. In fact, I see no reason for the application of any principle of abstract justice in behalf of this defendant. He had able counsel and a fair judge. I say this from personal knowledge of them. None but the established rules should be applied. This is not a death case. (Code Crim. Proc., \u00a7 528.) Errors which do not affect the substantial rights of the defendant must he disregarded. (Code Crim. Proc., \u00a7 542.) The result was just in my opinion and the sentence was most moderate.\nI favor an affirmance.\nJudgment of conviction reversed and new trial granted.",
+        "type": "dissent",
+        "author": "Hinman, J. (dissenting) :"
+      }
+    ],
+    "attorneys": [
+      "Brinnier, Canfield & Brinnier (Palmer Canfield, of counsel), for the appellant.",
+      "Frederick G. Traver (Frank W. Brooks, of counsel), for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014 APPELLATE DIVISION \u2014 THIRD DEPARTMENT.\nMay 3, 1922.\nTHE PEOPLE v. SAM MIGNANO.\n(201 App. Div. 106.)\nManslaughter, \u2019 first degree \u2014 Evidence\u2014Error to permit district ATTORNEY TO CROSS-EXAMINE DEFENDANT AS TO COMMISSION OF INDEPENDENT CRIME WHERE PURPOSE WAS NOT LIMITED TO CREDIBILITY OF DEFENDANT.\nOn a prosecution for manslaughter in the first degree in which the defendant claimed self-defense and the evidence was such that the jury might well have acquitted the defendant on that ground, it was reversible error for the court to permit the district attorney, over the objection of the defendant\u2019s attorney, to cross-examine the defendant as to the commission of a prior crime which was wholly independent of the crime charged, and to bring out the fact that the defendant after the commission of the prior crime fled, as he did after the commission of the crime with which he was charged in the indictment, where it was not stated by the district attorney that the purpose of the cross-examination was to affect the defendant\u2019s credibility as a witness and the court in its charge did not so limit the evidence, and the district attorney in summing up not only did not so limit the evidence, but argued that the defendant\u2019s conduct after the commission of the prior crime was evidence as to his commission of the crime charged, on the theory that the defendant was criminally inclined.\nWhen the defendant takes the stand in his own behalf, he may be interrogated upon cross-examination as to any mimes he has theretofore committed, but for the sole purpose of affecting his credibility as a witness the same as a defendant in any other action.\nHinman, J., dissents, with opinion.\nAppeal by the defendant, Sam Mignano, from a judgment of the County Court of the county of Ulster, rendered on the 28th day of November, 1921, convicting him of the crime of manslaughter in the first degree, and also from an order made on the same day denying defendant\u2019s motion for a new trial made upon the minutes.\nBrinnier, Canfield & Brinnier (Palmer Canfield, of counsel), for the appellant.\nFrederick G. Traver (Frank W. Brooks, of counsel), for the respondent."
+  },
+  "file_name": "0484-01",
+  "first_page_order": 504,
+  "last_page_order": 513
+}

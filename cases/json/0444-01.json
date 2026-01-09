@@ -1,0 +1,180 @@
+{
+  "id": 1228869,
+  "name": "THE PEOPLE EX REL. JULES C. RABINER v. WARDEN OF CITY PRISONS",
+  "name_abbreviation": "People ex rel. Rabiner v. Warden of City Prisons",
+  "decision_date": "1924-07-02",
+  "docket_number": "",
+  "first_page": "444",
+  "last_page": "450",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 444"
+    },
+    {
+      "type": "parallel",
+      "cite": "209 App. Div. 795"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "198 App. Div. 384",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1224763
+      ],
+      "pin_cites": [
+        {
+          "page": "387"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/39/0317-01"
+      ]
+    },
+    {
+      "cite": "209 App. Div. 521",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4727238
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/209/0521-01"
+      ]
+    },
+    {
+      "cite": "205 App. Div. 840",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4678944,
+        4676002,
+        4682659,
+        4690028,
+        4688367,
+        4688464,
+        4697362,
+        4699730,
+        4712787,
+        4686709,
+        4703895,
+        4694171,
+        4686588,
+        4693214
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/205/0840-02",
+        "/ad/205/0840-11",
+        "/ad/205/0840-03",
+        "/ad/205/0840-14",
+        "/ad/205/0840-05",
+        "/ad/205/0840-04",
+        "/ad/205/0840-09",
+        "/ad/205/0840-01",
+        "/ad/205/0840-07",
+        "/ad/205/0840-08",
+        "/ad/205/0840-10",
+        "/ad/205/0840-13",
+        "/ad/205/0840-12",
+        "/ad/205/0840-06"
+      ]
+    },
+    {
+      "cite": "116 Misc. Rep. 758",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        747794
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc/116/0758-01"
+      ]
+    },
+    {
+      "cite": "234 N. Y. 502",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1969181
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/234/0502-01"
+      ]
+    },
+    {
+      "cite": "199 App. Div. 30",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1224745
+      ],
+      "pin_cites": [
+        {
+          "page": "38"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/39/0339-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 598,
+    "char_count": 13086,
+    "ocr_confidence": 0.474,
+    "pagerank": {
+      "raw": 2.4288617615489323e-07,
+      "percentile": 0.8018257048963087
+    },
+    "sha256": "b459648de2cfa585e524ba567a5831e59d6e4360e7a2793aa1471d62a2ef5794",
+    "simhash": "1:05fb38bccfafcc6a",
+    "word_count": 2236
+  },
+  "last_updated": "2024-02-27T16:15:52.747790+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE EX REL. JULES C. RABINER v. WARDEN OF CITY PRISONS."
+    ],
+    "opinions": [
+      {
+        "text": "Dowling, J.:\nOn January 25, 1924, the relator was sentenced to be imprisoned in the penitentiary of the county of New York, upon the plea of guilty in the Court of General Sessions of the Peace of the city and county of New York for the crime of hypothecation of customer\u2019s securities in violation of section 956 of the Penal Law (as added by Laws of 1913, chap. 500). By an indorsement on the commitment by the direction of the court at the request of defendant the sentence was stayed until February 8, 1924. It appears that after spending seventy-seven days in the penitentiary under his said indeterminate sentence he was conditionally paroled. On May 13, 1924, the parole commission revoked the said parole of relator and duly issued a warrant and rearrested him.\nThis revocation of parole was made upon the ground as stated in the warrant, \u201c that the said probationer has not earned the 1001 marks allotted by this Commission.\u201d Relator thereupon sued out the present writ of habeas corpus claiming in substance that the parole commission had no power to revoke its conditional parole and that his rearrest and imprisonment was illegal and unlawful. After a hearing on the writ of habeas corpus, the special term dismissed the writ and remanded the relatro to the custody of the warden of the penitentiary under the commitment of the Court of General Sessions which had been returned as the cause of his detention. From that order the present appeal is taken.\nAt the outset it is well to remember what the real purpose of the Parole Commission Act is. As was said by the present writer in People ex rel. Kipnis v. McCann (199 App. Div. 30, 38) : \u201c The plain purpose of the Parole Commission Act is to- give every person who has- been convicted of a crime in cities of the first class, punishable by imprisonment in the places specified in the act, an opportunity to benefit by the disciplinary, correctional and reformatory purposes of the institutions under the jurisdiction of the department of correction, unless the trial court deems the offender mentally or physically incapable of being substantially benefited thereby. The legislation has for its object moral reformation rather than punishment, and it is, therefore, \u2018 wholesome in its character, and the courts should be reluctant to thwart or impede its efficiency.\u2019 \u201d (Affd., 234 N. Y. 502.)\nThe power of the parole commission to retake a paroled prisoner has already been passed on by this court. In People ex rel. Romain v. Parole Commission (116 Misc. Rep. 758) Mr. Justice McAvoy said: \u201c The law permits that body to retake conditionally released prisoners during the maximum term of sentence (\u00a75) and to make rules regulating recapture of such prisoners. Presumably, a rale allowing the recapture of a prisoner conditionally released may be made which permits the commission to issue its warrant when one of its officers reports a violation of a parole condition, and the determination thus made is not reviewable under the scheme of the law, else every recapture would lead to a trial of the issue. Did the prisoner violate the parole? The conditional parole is not a right, but a privilege in the discretion of the commission, and its revocation and the proof on which that act is done is also within the regulatory power of that body. The paroled prisoner is until discharged finally constructively in imaginative jail limits, which may be narrowed or widened as appears proper to the commission during the maximum term of the sentence fixed by law at not more than three years. This power of recapture and recommitment appears to be almost arbitrarily under the law, but, at any rate, it is not an unconstitutional grant of power by the legislature as appears from an examination of appellate rulings in the Elmira Reformatory cases', where similar exercises of power by the board of managers of that institution have been sustained.\u201d Affd., 205 App. Div. 840.)\nThe nature of the parole granted by the commission has recently been passed upon by this court in People ex rel. Hannon v. Warden of Penitentiary, N. Y. Co. (209 App. Div. 521), wherein Mr. Justice Smith quoted with approval the paragraph above set forth from the Romain case.\nWe start, therefore, with the proposition that a conditional parole is not a right, but it is a privilege which may be revoked in the discretion of the commission.\nBut the learned counsel for the appellant argues that since the amendment of sections 696 and 697 of the Code of Criminal Procedure by chapter 478 of the Laws of 1921, those sections apply to, and prescribe, the necessary procedure in violation of parole, and confer upon a paroled prisoner the right to a jury trial of the issue of facts as to whether he has violated his parole. These sections, as thus amended, read as follows:\n\u201c \u00a7 696. Conditional pardon; procedure on violation of. If any person who has been discharged from imprisonment, by virtue of any parole, conditional pardon, or conditional commutation of his sentence, shall violate such condition or neglect to perform it, his parole, pardon or commutation shall he void and he shall be remanded to the place of his former imprisonment and there confined for the nnexpired term for which he had been sentenced. When complaint, upon oath, shall be made to a magistrate, that any such person, within his county, has violted or failed to perform the condition of hia parole, pardon or commutation, the magistrate shall issue a warrant as provided in chapter two, title three, part four \u2022of this act. When the defendant shall have been brought before him, the magistrate shall forthwith make an order that the defendant show cause why his parole, pardon or commutation shall not be adjudged void, and he should not be remanded to the place of his former imprisonment for the unexpired term of his sentence. The order shall set forth the facts which constitute the violation of or the neglect to perform the condition of the parole, pardon or commutation. The defendant shall plead to said order in writing. If the defendant admits the facts the magistrate shall adjudge his parole, pardon or commutation void and shall commit, him to the place of imprisonment from which he had been discharged upon his parole, pardon or commutation. The warrant may also be issued by any of the courts mentioned in this section upon the like complaint as if application is made to a magistrate.\n\u201c \u00a7 697. Trial. If the defendant shall deny any material fact, the issue so joined shall be tried by a jury in the Supreme Court or the county court. Upon such trial the People and the defendant shall each be allowed five peremptory challenges, and no more. Upon the return of the verdict the court shall, without delay, proceed to judgment. If judgment is rendered against the defendant it shall adjudge that his parole, pardon or commutation is void, and shall commit him to the place of imprisonment from which he had been discharged, upon his parole, pardon or commutation, there to be confined for that portion of the term of his former sentence\nwhich had not expired, when he had been discharged by virtue \u25a0of the parole, pardon or commutation.\u201d\nI do not believe that these amendments to the Code of Criminal Procedure are applicable to cities of the first class, \u2022or that they operate to repeal pro tmto the provisions of the Parole Commission Law. That law (Laws of 1915, chap. 579) bears for its title: \u201cAn act extending and developing the reformatory and correctional functions of workhouses-, penitentiaries and reformatories under the jurisdiction of departments of correction in cities of the first class, providing for the sentence, commitment, parole, conditional discharge and reapprehension of persons committed to such institutions and for the establishment of a parole commission in such cities.\u201d It was amended in important particulars by chapter 287 of the Laws of 1916, and by chapter 242 of the Laws of 1919. In its original and amended condition alike, this law prescribes a complete, -comprehensive and exclusive procedure for (among other things) -paroles and conditional discharges of prisoners committed to workhouses, penitentiaries and reformatories in cities of the first class, wherein there is a department of correction having jurisdiction of such institutions. It was intended to apply only to such cities, but as to them it furnished the only regulation for the matters therein included. I do not believe that any subsequent legislative enactment by way of amendment either of the Penal Law or Code of Criminal Procedure could operate as a repeal, modification or restriction of the system created by the Parole Commission Law, unless the intention to make such repeal or changes apply to cities of the first class, as well as to the State at large, was clearly expressed. There is no intention so declared in the amendments of the Code of Criminal Procedure in question. As was said by Mr. Presiding Justice Blackmar in People ex rel. White v. Commission of Correction (198 App. Div. 384, 387): \u201c I conclude that in view of the fact that the Parole Commission Law is special n its application to certain localities in the state, and the Penal Law is general in its application to the state at large, there is not such a necessary conflict as works a repeal of the Parole Commission Law as to the offense of receiving stolen property in the second degree. Both of these acts can be given force and effect. The Penal Law is applicable to the state at large. Except in cities of the first class, it is given full force and scope, leaving untouched the application of the Parole Commission Law to cities of the first class.\u201d\nFurthermore, even if the sections of the Code of Criminal Procedure quoted were held controlling of the procedure to be followed in cases of violation of parole, they would not be helpful to the appellant herein. The jury trial provided for by these sections, where applicable, is of the issue as to whether the defendant has violated or neglected to perform any condition of his parole. The act is one committed by defendant after his parole, or which he has failed to perform thereafter. That is not the charge against this defendant. He is not charged with violating his parole. He has been adjudged by the parole commission not to have earned the favor mistakenly given him of a conditional parole. Obviously, that is not an issue of fact which a jury should decide. To allow them to do so would be to substitute their judgment for that of the parole commission on a matter which calls for the discretion and determination of the latter alone.\nThe order appealed from should, therefore, 'be affirmed.\nClarke, P. J., Smith, McAvoy and Martin, JJ., concur.\nI\nOrder affirmed.",
+        "type": "majority",
+        "author": "Dowling, J.:"
+      }
+    ],
+    "attorneys": [
+      "Morris & Samuel Meyers (Louis W. Stotesbury of counsel; Samuel Meyers with him on the brief), for the appellant.",
+      "Joab H. Banton, District Attorney (Michael J. Driscoll, Deputy Assistant District Attorney, of counsel), for the respondent.",
+      "George P. Nicholson, Corporation Counsel (John F. O\u2019Brien of counsel; Russell Lord Tarbox with him on the brief), for The City of New York as amicus curiae."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014 APPELLATE DIVISION \u2014 FIRST DEPARTMENT.\nJuly 2, 1924.\nTHE PEOPLE EX REL. JULES C. RABINER v. WARDEN OF CITY PRISONS.\n(209 App. Div. 795.)\n(1) Parole \u2014 Revocation of parole of prisoner convicted in New York CITY ON GROUND THAT PAROLE WAS MISTAKENLY GRANTED \u2014 PAROLE COMMISSION HAS POWER TO RETAKE PAROLED PRISONER ARBITRARILY.\nA conditional parole granted under the Parole Commission Law to a prisoner convicted in the city of New York is not a right but it is a privilege which may be revoked in the discretion of the commission.\n(2) Same \u2014 Code of Criminal Procedure, \u00a7\u00a7 696, 697 as amd. providing FOR SEIZURE OF VIOLATION OF PAROLE NOT APPLICABLE TO CITIES OF FIRST CLASS AND DO NOT AFFECT PAROLE COMMISSION LAW.\nSections 696 and 697 of the Code of Criminal Procedure, as amended by chapter 478 of the Laws of 1921, regulating the procedure for the retaking and reconfining of a prisoner who has been paroled, and providing for a trial of the issue of a violation of the eonditon of the parole, do not apply to the city of New York nor do they operate to repeal pro tanto the provisions of the Parole Commission Law.\n(3) Same \u2014 Said sections do not apply where parole revoked because MISTAKENLY GRANTED.\nFurthermore, even if those sections of the Code of Criminal Procedure did apply to the city of New York, the relator would not have been entitled to a trial, since he was not rearrested on the ground that he had violated his parole but upon the ground that the parole had been granted to him under the mistaken belief that he had earned the same under the rules of the parole commission.\nAppeal by the relator, Jules 0. Rabiner, from an order of the Supreme Court, made at the New York Special Term and entered in the office of the clerk of the county of New York on the 23rd day of May, 1924, dismissing a writ of habeas corpus and remanding relator to the custody of the warden of the New York County Penitentiary.\nMorris & Samuel Meyers (Louis W. Stotesbury of counsel; Samuel Meyers with him on the brief), for the appellant.\nJoab H. Banton, District Attorney (Michael J. Driscoll, Deputy Assistant District Attorney, of counsel), for the respondent.\nGeorge P. Nicholson, Corporation Counsel (John F. O\u2019Brien of counsel; Russell Lord Tarbox with him on the brief), for The City of New York as amicus curiae."
+  },
+  "file_name": "0444-01",
+  "first_page_order": 460,
+  "last_page_order": 466
+}

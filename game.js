@@ -3471,6 +3471,25 @@ function ExitInterior()
         return;
     }
     
+    // Prevent exit while case initialization is in progress (only if in courthouse)
+    if (typeof caseInitializationLock !== 'undefined' && caseInitializationLock) {
+        // Check if we're in the courthouse
+        let isInCourthouse = false;
+        if (typeof gameObjects !== 'undefined') {
+            for (let obj of gameObjects) {
+                if (obj.isBuilding && obj.buildingType === 'court' && obj.interior === currentInterior) {
+                    isInCourthouse = true;
+                    break;
+                }
+            }
+        }
+        
+        if (isInCourthouse) {
+            console.log('[CASE] Blocked interior exit - case initialization in progress');
+            return;
+        }
+    }
+    
     // Don't allow exit immediately after entering (cooldown period)
     if (!interiorExitCooldown.Elapsed())
         return;

@@ -1,0 +1,281 @@
+{
+  "id": 1228865,
+  "name": "THE PEOPLE v. JAMES W. ELLIOTT AND WILLIAM C. BENTLEY",
+  "name_abbreviation": "People v. Elliott",
+  "decision_date": "1924-08-14",
+  "docket_number": "",
+  "first_page": "490",
+  "last_page": "493",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 490"
+    },
+    {
+      "type": "parallel",
+      "cite": "123 Misc. 602"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Ct. Gen. Sess.",
+    "id": 9672,
+    "name": "New York Court of General Sessions"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "132 Fed. Rep. 789",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        1895488
+      ],
+      "pin_cites": [
+        {
+          "page": "791"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/132/0789-01"
+      ]
+    },
+    {
+      "cite": "68 Fla. 433",
+      "category": "reporters:state",
+      "reporter": "Fla.",
+      "case_ids": [
+        1027871
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/fla/68/0433-01"
+      ]
+    },
+    {
+      "cite": "193 Mich. 476",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1628549
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/193/0476-01"
+      ]
+    },
+    {
+      "cite": "193 Mich. 17",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1628583
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/193/0017-01"
+      ]
+    },
+    {
+      "cite": "114 Fed. Rep. 995",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6723153
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/114/0995-01"
+      ]
+    },
+    {
+      "cite": "194 U. S. 572",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3631062
+      ],
+      "pin_cites": [
+        {
+          "page": "578"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/194/0572-01"
+      ]
+    },
+    {
+      "cite": "163 Fed. Rep. 30",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        1910993
+      ],
+      "pin_cites": [
+        {
+          "page": "32"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/163/0030-01"
+      ]
+    },
+    {
+      "cite": "254 U. S. 71",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1160439
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/254/0071-01"
+      ]
+    },
+    {
+      "cite": "168 N. Y. 89",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2299588
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/168/0089-01"
+      ]
+    },
+    {
+      "cite": "167 App. Div. 384",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2807858
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/167/0384-01"
+      ]
+    },
+    {
+      "cite": "161 U. S. 591",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5701603
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/161/0591-01"
+      ]
+    },
+    {
+      "cite": "98 N. C. 599",
+      "category": "reporters:state",
+      "reporter": "N.C.",
+      "case_ids": [
+        11275547
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nc/98/0599-01"
+      ]
+    },
+    {
+      "cite": "199 U. S. 372",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3642901
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/199/0372-01"
+      ]
+    },
+    {
+      "cite": "233 N. Y. 526",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1967240,
+        1967115
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/233/0526-01",
+        "/ny/233/0526-02"
+      ]
+    },
+    {
+      "cite": "198 App. Div. 918",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2389024,
+        2381889,
+        2380931,
+        2385518,
+        2392015,
+        2382386,
+        2381623
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/198/0918-01",
+        "/ad/198/0918-03",
+        "/ad/198/0918-07",
+        "/ad/198/0918-05",
+        "/ad/198/0918-02",
+        "/ad/198/0918-04",
+        "/ad/198/0918-06"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 366,
+    "char_count": 5564,
+    "ocr_confidence": 0.512,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.04604631389706504
+    },
+    "sha256": "28ff95a5cfc9c3e1167cf8d9f32289721bcc13a67918a2a8da62a04dce961641",
+    "simhash": "1:0c757658b7833948",
+    "word_count": 948
+  },
+  "last_updated": "2024-02-27T16:15:52.747790+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. JAMES W. ELLIOTT AND WILLIAM C. BENTLEY."
+    ],
+    "opinions": [
+      {
+        "text": "Rosalsky, J.:\nThe testimony of the defendant Bentley before a referee in bankruptcy was received and used by the grand jury as evidence against him to establish the falsity of the statements and representations set forth in the indictment with respect to securities of a corporation offered to the public for sale and distribution.\nIt is contended that the admission of Bentley\u2019s testimony given in the bankruptcy proceedings prejudiced his rights before the grand jury and that it was received in violation of subdivision 9 of section 7 of the Bankruptcy Act, which, among other things, provides as follows: \u201c But no testimony given by him [bankrupt] shall be offered in evidence against him in any criminal proceeding.\u201d\nThis ground of objection is well taken. In People v. Donnenfeld, 198 App. Div. 918; affd., 233 N. Y. 526, the court said: \u201c The examination of defendant in reference to the testimony given by him in the bankruptcy proceedings, over the objection and exception of his counsel, was prejudicial error; the testimony being received in violation of section 7, subdivision 9, of the Bankruptcy Act. (See 30 U. S. Stat. at Large, 548, \u00a7 7, subd. 9.)\u201d This decision was affirmed by the Court of Appeals without any opinion.\nIt is urged) by the district attorney that, inasmuch as no opinion was written by the Court of Appeals, it is doubtful whether that learned tribunal considered those cases where a person gives testimony under the aegis of an immunity statute either in the federal or state courts and where such immunity is confined solely to the particular sovereignty and does not extend beyond its jurisdiction (Jack v. Kansas, 199 U. S. 372; Hale v. Henkel, 201 id. 43; Queen v. Boyes, 1 B. & S. 311; King of the Two Sicilies v. Willcox, 7 State Trials (N. S.), 1049, 1068; State v. March, 1 Jones (N. C.) 526; State v. Thomas, 98 N. C. 599; Brown v. Walker, 161 U. S. 591; Matter of Werner, 167 App. Div. 384; People ex rel. Morse v. Nussbaum, 55 id. 245; revd. on other grounds, 168 N. Y. 89) and that had the Court of Appeals followed these cases supra, it is most likely that it would not have affirmed the decision of the Appellate Division.\nI have no right to assume that the court of last resort in passing upon the effect of the testimony given by a bankrupt failed to consider the leading cases dealing with immunity provisions. To my mind, the cases cited by the learned district attorney are not applicable to the question submitted for determination, for the reason that under the Constitution of the United States (Art. I, \u00a7 8, subd. 4), it is provided that the congress shall have the power to establish \u201c uniform laws on the subject of bankruptcies throughout the United States,\u201d and, to give effect to the Bankruptcy Act, it seems to me that the congress was vested with power to provide that no testimony given by a bankrupt \u201c shall be offered in evidence against him in any criminal, proceeding.\u201d The Bankruptcy Act being the supreme law of the land, is binding on both the state and federal courts.\nThe provision of section 7 of the Bankruptcy Act is not a substitute for the Fifth Amendment (Arndstein v. McCarthy, 254 U. S. 71); it \u201cgoes beyond and outside of the Fifth Amendment.\u201d Johnson v. U. S., 163 Fed. Rep. 30, 32. The Bankruptcy Act (\u00a7 7) does not declare that the bankrupt shall be exempt from prosecution, \u201c but only, in a case of prosecution, his testimony cannot be used against him. The two things are different and cannot be confounded.\u201d Burrell v. Montana, 194 U. S. 572, 578.\nWhile in Matter of Nachman, 114 Fed. Rep. 995, a district judge held that the bankruptcy provision (\u00a7 7, supra) only protects the bankrupt against the use of his testimony in a prosecution in the courts of the United States, and that his testimony can not be used in a prosecution against him instituted in the state courts because such courts are not created by acts of congress, nevertheless, the better view upholds the doctrine announced in the Donnenfeld case to the effect that this provision is binding upon the state courts. People v. Lay, 193 Mich. 17; People v. Lay, 193 Mich. 476; Clark v. State, 68 Fla. 433; People v. Donnenfeld, supra; United States v. Goldstein, 132 Fed. Rep. 789, 791.\nHaving reached the conclusion that the grand jury was without authority to consider Bentley\u2019s testimony in the bankruptcy proceeding, and there being no other evidence to sustain the indictment, which was founded principally upon Bentley\u2019s testimony, the motion to set aside the indictment is, therefore, granted.\nMotion to set aside indictment granted, with leave to the district attorney to resubmit the charge to the same or another grand jury.\nOrdered accordingly.",
+        "type": "majority",
+        "author": "Rosalsky, J.:"
+      }
+    ],
+    "attorneys": [
+      "John C. Curtin, for the motion.",
+      "Joab H. Banton, district attorney (Felix C. Benvenga, and William B. Maloney, assistant district attorneys, of counsel), opposed."
+    ],
+    "corrections": "",
+    "head_matter": "COURT OF GENERAL SESSIONS \u2014NEW YORK COUNTY.\nAugust 14, 1924.\nTHE PEOPLE v. JAMES W. ELLIOTT AND WILLIAM C. BENTLEY.\n(123 Misc. 602.)\nFraud \u2014 Motion to set aside indictment based on proceeding before REFEREE IN BANKRUPTCY.\nDefendant's motion to set aside an indictment predicated upon testimony given by Mm before a referee in a bankruptcy proceeding will \u00a1be granted since, under subdivision 9 of section 7 of the Bankruptcy\nAct, providing that no testimony given 'by a bankrupt shall be offered in evidence against him in any criminal proceeding, the grand jury was without authority to consider defendant\u2019s testimony in the bankruptcy proceeding.\nMotion to set aside indictment of bankrupt.\nJohn C. Curtin, for the motion.\nJoab H. Banton, district attorney (Felix C. Benvenga, and William B. Maloney, assistant district attorneys, of counsel), opposed."
+  },
+  "file_name": "0490-01",
+  "first_page_order": 506,
+  "last_page_order": 509
+}

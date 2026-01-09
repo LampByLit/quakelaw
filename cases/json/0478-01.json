@@ -1,0 +1,82 @@
+{
+  "id": 1224732,
+  "name": "THE PEOPLE v. CLAIR WHITCOMB",
+  "name_abbreviation": "People v. Whitcomb",
+  "decision_date": "1922-03",
+  "docket_number": "",
+  "first_page": "478",
+  "last_page": "480",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 478"
+    },
+    {
+      "type": "parallel",
+      "cite": "118 Misc. 615"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Sup. Ct.",
+    "id": 8791,
+    "name": "New York Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "67 N. Y. 218",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2165053
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/67/0218-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 210,
+    "char_count": 2991,
+    "ocr_confidence": 0.551,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.04580768994640228
+    },
+    "sha256": "f8100477d91bc2ac38d5fdc07e25a2b792d6446e552e68a5e0933f683f4f185a",
+    "simhash": "1:7a7127ed4c376044",
+    "word_count": 533
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. CLAIR WHITCOMB."
+    ],
+    "opinions": [
+      {
+        "text": "Rodenbeck, J.:\nThere is no authority for the practice which the district attorney seeks to follow in this case. The defendant Clair Whitcomb pleaded guilty in Steuben county to an indictment for abandonment and was thereafter paroled in the custody of the parole officer of that county. Since his parole he has been indicted for forgery in Allegany county committed prior to his act of abandonment. There is no authority for his arrest while under parole. He cannot be arrested under the indictment under these circumstances any more than he could he if he were actually confined in a State prison. He is under probation. There is no authority for revoking the parole simply to enable the district attorney to arrest him under the indictment for forgery. If his parole is broken it is the duty of the court to sentence him and he will then he in the same situation as he is now in so far as being immune from arrest is concerned. A convict may be indicted and tried for an offense committed prior or subsequent to the crime for which he has been convicted or paroled. (13 C. J. 919; Thomas v. People, 67 N. Y. 218; notes to L. R. A. 1915E, 363; 41 L. R. A. [N. S.] 1095.) His production at the time of the trial is usually regulated by statute. The proper procedure seems to be to obtain an order for his production from the court in which the indictment is moved. Formerly this was accomplished by a writ of habeas corpus (Code Civ. Proc., \u00a7 2008), but the practice has been changed so as to secure the presence of the prisoner by an order of the court. (Code Crim. Proc., \u00a7 10c; Laws of 1920, chap. 920, \u00a7 2.) The language of this section is not as broad as it might he (compare Bd. of Stat. Constr. 251), since it provides only for the production of a prisoner to testify who may he detained in a \u201c jail or prison,\u201d but by a process of construction the language may he extended to include a prisoner on parole, and irrespective of the statute he may be required to attend under the inherent power of the Supreme Court. (13 C. J. 921. ) Motion denied.\nOrdered accordingly.",
+        "type": "majority",
+        "author": "Rodenbeck, J.:"
+      }
+    ],
+    "attorneys": [
+      "Lee Fasset, District Attorney, for motion."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014ALLEGANY COUNTY.\nMarch, 1922.\nTHE PEOPLE v. CLAIR WHITCOMB.\n(118 Misc. 615.)\nPractice \u2014 Dependant on parole cannot be arrested upon later indictment for prior offense \u2014 Court may direct parole officer to produce HIM IN COURT.\nWhere after defendant had entered a plea of guilty to an indictment for abandonment he was paroled, he cannot be arrested upon a later indictment for an offense committed prior to his act of abandonment, and a motion to revoke his parole simply to enable the district attorney to arrest him under the later indictment will be denied.\nThe defendant, however, under the inherent power of the court, may be brought to trial upon the later indictment by an order of the court directing the parole officer to produce the defendant at the trial.\nApplication ex parte for revocation of parole after conviction and for authority to arrest.\nLee Fasset, District Attorney, for motion."
+  },
+  "file_name": "0478-01",
+  "first_page_order": 498,
+  "last_page_order": 500
+}

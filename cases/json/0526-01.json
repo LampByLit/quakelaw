@@ -1,0 +1,137 @@
+{
+  "id": 1228823,
+  "name": "THE PEOPLE v. JAMES HAYES",
+  "name_abbreviation": "People v. Hayes",
+  "decision_date": "1924-11-13",
+  "docket_number": "",
+  "first_page": "526",
+  "last_page": "533",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 526"
+    },
+    {
+      "type": "parallel",
+      "cite": "210 App. Div. 549"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "237 N. Y. 463",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1228829,
+        1901790
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/41/0172-01",
+        "/ny/237/0463-01"
+      ]
+    },
+    {
+      "cite": "231 N. Y. 111",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        92496,
+        1224716
+      ],
+      "pin_cites": [
+        {
+          "page": "116"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/231/0111-01",
+        "/ny-crim/39/0184-01"
+      ]
+    },
+    {
+      "cite": "236 N. Y. 306",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        11279073,
+        1226154
+      ],
+      "pin_cites": [
+        {
+          "page": "308"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/236/0306-01",
+        "/ny-crim/40/0516-01"
+      ]
+    },
+    {
+      "cite": "215 N. Y. 592",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1211616,
+        74133
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/33/0397-01",
+        "/ny/215/0592-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 573,
+    "char_count": 14820,
+    "ocr_confidence": 0.492,
+    "pagerank": {
+      "raw": 1.6925016990209463e-07,
+      "percentile": 0.6994629802741396
+    },
+    "sha256": "a679ebd2fa50a64ac10609e726fab410084126a9492e531ecbadbfdfd2b86895",
+    "simhash": "1:b3047661e946a2d0",
+    "word_count": 2496
+  },
+  "last_updated": "2024-02-27T16:15:52.747790+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. JAMES HAYES."
+    ],
+    "opinions": [
+      {
+        "text": "Hinman, J.:\nThe main questions raised by the appellant relate to the corroboration of the testimony of an accomplice. \u201c A conviction cannot be had upon the testimony of an accomplice, unless he be corroborated by such other evidence as tends to connect the defendant with the commission of the crime.\u201d (Code Crim. Proc. \u00a7 399.) This corroboration by \u201cother evidence\u201d differs from that of the corroboration of a confession. (Code Crim. Proc. \u00a7 395.) There the statute requires \u201c additional proof that the crime charged has been committed.\u201d There must be evidence in addition to the confession simply to prove the corpus delicti. (People v. Roach, 215 N. Y. 592.) The required corroboration of an accomplice differs also from the \u201c other evidence \u201d which the law requires in the conviction of rape. \u201cNo .conviction can be had for rape or defilement upon the testimony of the female defiled, unsupported by other evidence.\u201d (Penal Law, \u00a7 2013.) The \u201c other evidence \u201d required in a rape case \u201c must be of such -character as tends to establish, -first, that the crime of rape was committed by somebody and, second, that the defendant was the one who committed the crime * * * and whether consisting of acts or admissions must extend to every material fact essential to constitute the crime.\u201d (People v. Downs, 236 N. Y. 306, 308.) In a case of corroboration of an accomplice., u the corroborative evidence need not .show the commission of the crime; it_need not show that defendant was connected with the commission of the crime. * * * It is enough if it tends to connect the defendant with the commission of the crime in such a way as may reasonably satisfy the jury that the accomplice is telling the truth. The corroboration is not restricted to any particular point. * * * It may vary in its nature according to the circumstances of the particular case. Matters in themselves of seeming indifference or light trifles of the time and place of persons meeting may so harmonize with the accomplice\u2019s narrative as to have a tendency to furnish the necessary connection between defendant and the crime.\u201d (People v. Dixen, 231 N. Y. 111, 116.)\nWe have here in this case not only the question whether the fact relied upon as \u201c other evidence \u201d to corroborate the testimony of accomplices did tend to connect -the -defendant with the cojnmission of the crime, but we also have the question whether the witness testifying to this fact was himself an accomplice. Four boys stole blankets, sheets, towels, clocks and other property from closed cottages on Brant and Schroon lakes in Warren county. They were witnesses against the defendant. Their combined testimony was to the effect that they brought the property to the defendant at Saratoga Springs at night; that in the morning they bargained with the defendant concerning the price; that he paid them money for the property; that they left the property with him; that this was repeated several times; that at no time did he inquire as to where they got the goods nor was he told; that- he suggested certain property that he would buy; that \u201che said he didn\u2019t want anything from right around * * * Saratoga \u201d and not to bring the \u201c stuff \u201d there until after dark. There was ample testimony tending to corroborate their story of the steal- - ing but none of that testimony tended to connect the defendant with the stealing. There was no evidence that the defendant ever came into possession of any of the property, other than the testimony of the thieves themselves. There was no \u201c other evidence \u201d that any of it was disposed of through his participation in any way. There was no \u201c other evidence \u201d that the thieves were in Saratoga at or about that time or that they talked with the defendant or were in his company at or about the date of the alleged sale, with one possible exception upon which the appeal hinges. The only independent evidence relied upon by the People to corroborate the accomplices with respect to connecting the defendant with the commission of the crime was that of a fifth boy, named Baker,, who testified to having overheard a conversation between the defendant and one McOaulliffe, the ringleader of the thieves, a week or more before the thefts of the property, in which conversation Baker says that the defendant was asked if he would buy blankets and stuff from camps and if he would buy stolen property, and that the defendant replied, \u201c Tes, anything.\u201d McOaulliffe testified to this same conference with the defendant and says that the defendant told him he would buy \u201c blankets and such things \u201d; that \u201c he would take anything I brought.\u201d McOaulliffe further testified with reference to Baker\u2019s guilty knowledge of MeCaulliffe\u2019s plan to steal and sell prior to and prompting the conference with the defendant. Baker had previously denied explicitly that McCaulliffe said anything about stealing any property before they went to the defendant. When McCaulliffe was called to testify he swore that Baker introduced him to the defendant on that- day, which Baker had previously denied, . and then McCaulliffe. testified on cross-examination as follows: \u201c Q. It was Baker invited you into this proposition? A. He invited me to meet Hayes. Q. For what purpose, did he say ? A. Why, he said that Hayes would buy anything I would bring him. \u25a0 Q. So that Baker and you did talk over as to what you were going to do? A. Baker and I did; yes.- Q. And Baker and you decided, according to your story now, that you were going to see Hayes in order to find a customer for this stuff which you were going to steal; is that right? A. That is right. Q. So that Baker was in on that with you ? A. He was, on the introduction ; he wasn\u2019t in on anything else. Q, And you say that Baker knew what you were going to do and was helping it along by providing a customer for you? A. Yes.\u201d Baker was then recalled for further cross-examination, wherein he finally admitted that he took McCaulliffe to the defendant for the purpose of selling \u201c some stuff \u201d to the defendant. Baker was then asked on cross-examination:. \u201c Q. So you knew all about this scheme of burglarizing these cottages? (By Mr. Atkinson: I object to it. Objection sustained and exception.) Q. You then knew, on the day that you came to Ballston and \u25a0 to Saratoga of the plan that McCaulliffe was to burglarize the cottages and sell the stuff to Hayes? (By Mr. Atkinson: I object to it as incompetent, irrelevant and immaterial. Sustained and exception.)\u201d\nThe four witnesses who said they stole the property and delivered it to the defendant were clearly accomplices. (People v. Kuppersehmidt, 237 N. Y. 463.) \u201c The test is whether the alleged accomplice can be indicted for the offense.\u201d Under the Penal Law, section 2, \u201c principal \u201d is defined as follows: \u201c A person concerned in the commission of a crime, whether he directly commits the act constituting the offense or aids and abets in its commission, and whether present or. absent, and a person who directly or indirectly counsels, commands, induces or procures another to commit a crime, is a ' principal/ \u201d Under this legislative definition of guilty participation in the crime, constituting the commission of the crime itself as a principal, and assuming the availability of Baker\u2019s testimony to corroborate the accomplices\u2019 story that the defendant expressed willingness to commit the crime by agreeing to buy stolen property, there was sufficient evidence to tend to connect defendant with the crime. The evidence was sufficient to prove that he was an accomplice and thus a principal, under the legislative definition of the latter term. . Even though it did not tend to show that the defendant directly committed the act of receiving, it did tend to show that he aided and abetted in its commission and that he' indirectly if not directly induced these boys of seventeen, eighteen or nineteen years of age to commit the crime. It was unnecessary to corroborate the testimony as to his further guilty participation in the crime as narrated by the other accomplice.\nThis brings us, however, to the other horn of the dilemma of the People in the proof of its case against the defendant. Did the witness Baker take such guilty part in the commission of this crime as to constitute him an accomplice and thus destroy the independent value of his testimony as corroboration of the testimony in question? If the defendant by proof of his expressed willingness to buy the stolen property was an accomplice and as such was connected with the commission of the crime, we cannot avoid the conclusion that he who, knowing of the contemplated crime, invites one of his fellows to meet the defendant as a likely purchaser of the goods to be stolen, with the intention that his act shall aid in the consummation of the crime, and witnesses the declaration by the defendant of his willingness to aid in its- commission, is likewise \u201c concerned \u201d in the commission of the crime as an accomplice and could be indicted and convicted of the offense as a principal under the Penal Law, section. 2. The question is whether the undisputed evidence points to Baker as one of the material links in the chain of guilty participants in the commission of this crime, whether he deliberately helped to supply the customer for property which he knew was to be stolen. If so, he intended to aid in the commission of the crime with guilty knowledge and was an accomplice. If thus shown to be an accomplice himself, his testimony itself required corroboration and there being no corroboration, the conviction would be illegal. We think it cannot be held as matter of law, upon the testimony in this case, that Baker wag an accomplice. He finally admitted that*he took Mc-Caulliffe to the defendant for the purpose of selling him \u201c some stuff/\u2019 The real question, however, is whether he knew that this \u201c stuff \u201d was to be stolen. If he did have this knowledge at the time, he was an accomplice, otherwise not, McGaulliffe, whose testimony on that subject we have quoted, testified to his conclusion that Baker knew the property was to be stolen or at least one could infer that such was the conclusion intended by McGaulliffe, but McGaulliffe gave no facts to support that conclusion. Baker had previously denied that McGaulliffe said anything about stealing any property before they went to see the defendant. Baker did not afterward take back that statement or modify it. The question of his guilty knowledge when he was aiding and abetting MeCaulliffe in selling \u201c some stuff,\u201d as Baker expressed it, was one for the jury. This question was submitted to the jury by the court and they have said that Baker was not an accomplice.\nWe think, however, that there was reversible error i\u00f1 the exclusion of Baker\u2019s testimony on his cross-examination where he was directly asked the vital question whether Baker had guilty knowledge when he went to the defendant\u2019s! place of business. McCaulliffe had given his conclusion susceptible of the interpretation that Baker had such knowledge. Baker had previously denied that he had such knowledge from McCaulliffe. The defendant was not concluded by his statement and he might have acquired knowledge in some other way. We think the defendant had a right to ask him directly on cross-examination as to whether he had knowledge that the property was to be stolen and that the exclusion of that evidence was prejudicial. If Baker had answered that question in the affirmative, it would have determined conclusively that he was an accomplice.\nThe judgment should be reversed because of this error and a new trial ordered.\nAll concur.\nJudgment of conviction reversed on the law and new trial ordered.",
+        "type": "majority",
+        "author": "Hinman, J.:"
+      }
+    ],
+    "attorneys": [
+      "Butter, Kilmer & Corbin (Harold H. Corbin of counsel), for the appellant.",
+      "Charles B. Andrus, district attorney (J. W. Atkinson of counsel), for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014 APPELLATE DIVISION \u2014 THIRD DEPARTMENT.\nNovember 13, 1924.\nTHE PEOPLE v. JAMES HAYES.\n(210 App. Div. 549.)\n(1) Receiving stolen property \u2014 Accomplices\u2014Corroboration\u2014Code Grim. Pro., \u00a7 399.\nOn a prosecution for criminally receiving stolen property the thieves, who testified that the property which the defendant purchased and received was stolen by them and taken by them to the defendant in the night time, were sufficiently corroborated under section 399 of the Code of Criminal Procedure by a witness who testified that prior to the commission of the crime he introduced the leader of the thieves to the defendant and overheard a conversation between the leader and the defendant in which the defendant stated, in response to a question by the leader if the defendant would buy blankets and stuff from camps and other stolen property, that he would purchase any property brought to him.\n(2) Same \u2014 Evidence established that dependant was principal under Penal Law, \u00a7 2.\nThe testimony by the corroborating witness that the defendant expressed willingness to commit the crime by agreeing to 'buy stolen property, was sufficient evidence to tend to connect the defendant with the crime, since it established that he was an accomplice and, therefore, a principal as defined by section 2 of the Penal Law.\n(3) Same.\nIf the corroborating witness knew of the contemplated crime at the ' time he introduced the leader of the thieves to the defendant and made the introduction with the intention that the defendant should aid in the consummation of the crime and was present at the time defendant declared his willingness to purchase the stolen property, the witness was concerned in the commission of the crime as an accomplice and his testimony would not be sufficient corroboration under section 399 of the Code of Criminal Procedure.\n(4) Same.\nIt cannot be held as a matter of law upon the testimony which was permitted to be introduced that the corroborating witness was an accomplice and knew that the crime was to be committed at the time he introduced the leader o\u00a3 the thieves, since he testified that he did not have such knowledge and the only opposing testimony was that of one of the thieves who testified to a conclusion that the witness knew prior to the introduction that the property was to be stolen. The question of the witness\u2019 guilty knowledge at the time he made the introduction of the leader of the thieves to the defendant was for the jury.\n(5) Same.\nIt was reversible error for the court to refuse to permit the corroborating witness to answer, on cross-examination, a question whether before he introduced the leader of the thieves to the defendant he knew of the contemplated crime.\nAppeal by the defendant, James Hayes, from a judgment of the county court of the county of Saratoga, rendered on the 3d day of July, 1924, convicting him of the crime of criminally receiving stolen property in violation of section 1308 of the Penal Law.\nButter, Kilmer & Corbin (Harold H. Corbin of counsel), for the appellant.\nCharles B. Andrus, district attorney (J. W. Atkinson of counsel), for the respondent."
+  },
+  "file_name": "0526-01",
+  "first_page_order": 542,
+  "last_page_order": 549
+}

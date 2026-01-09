@@ -1,0 +1,136 @@
+{
+  "id": 1228834,
+  "name": "THE PEOPLE v. CORAL H. STRYKER",
+  "name_abbreviation": "People v. Stryker",
+  "decision_date": "1924-10-07",
+  "docket_number": "",
+  "first_page": "514",
+  "last_page": "516",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 514"
+    },
+    {
+      "type": "parallel",
+      "cite": "124 Misc. 1"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Sup. Ct.",
+    "id": 8791,
+    "name": "New York Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "205 App. Div. 265",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4707601
+      ],
+      "pin_cites": [
+        {
+          "page": "268"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/205/0265-01"
+      ]
+    },
+    {
+      "cite": "224 N. Y. 269",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        85645
+      ],
+      "pin_cites": [
+        {
+          "page": "279"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/224/0269-01"
+      ]
+    },
+    {
+      "cite": "201 N. Y. 271",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        14267
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/201/0271-01"
+      ]
+    },
+    {
+      "cite": "209 N. Y. 115",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        62069,
+        1206231
+      ],
+      "pin_cites": [
+        {
+          "page": "121"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/209/0115-01",
+        "/ny-crim/30/0052-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 292,
+    "char_count": 4049,
+    "ocr_confidence": 0.534,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.0460434179753337
+    },
+    "sha256": "910b5d4376e19ed90d6ec55fd2acff472e09f701447057357dc63e24b2130c2a",
+    "simhash": "1:a3258b786f796caa",
+    "word_count": 678
+  },
+  "last_updated": "2024-02-27T16:15:52.747790+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. CORAL H. STRYKER."
+    ],
+    "opinions": [
+      {
+        "text": "Hill, J. :\nThe defendant was arrested upon a warrant issued by a justice of the peace, charging him with operating a motor vehicle while intoxicated. The justice, under section 290-a of the Highway Law (as added by Laws of 1924, chap. 360), suspended defendant\u2019s license to operate a motor vehicle during the pendency and until the determination of this case. The matter is brought on as a motion. It will be assumed that such procedure brings up the matter for review under that, portion of the law (section 290-a of the Highway Law) which provides: \u201c Eevocation or suspension hereunder shall be deemed an administrative act reviewable by the Supreme Court as such.\u201d\nThe defendant was held to await the action of the grand jury, and of course there has not been a final determination of the criminal charge. The suspension of the license is attacked upon two grounds \u2014 one that it is meting out punishment prior to conviction in a criminal proceeding, and the other that the right to operate an automobile is a property right, and that it violates the State and Federal Constitutions, by depriving the licensee thereof without due process. Chief Justice Cullen, writing in People v. Rosenheimer (209 N. Y. 115, 121) says: \u201c * * * The whole of this argument rests on the proposition that in operating a motor vehicle the operator exercises a privilege which might be denied him, and not a tight, and that in a case of a privilege the legislature may prescribe on what conditions it shall be exercised. This principle was recognized by us in the case of Ives v. South Buffalo Ry. Co. (201 N. Y. 271). In that case we conceded that in a work of such a nature that the legislature might prohibit its exercise altogether, it might prescribe the terms on which it could be carried on.\u201d\nThe Rosenheimer Case (supra) has been cited with approval in Fougera & Co. v. City of New York (224 N. Y. 269, 279) ; People ex rel. Price v. Sheffield Farms Co. (225 id. 25, 33; Matter of Dobosen v. Mescall (205 App. Div. 265, 268) ; People v. Martin (203 id. 423, 426).\nExtreme measures seem to be necessary at the present time to preserve the lives and property of those using our public highways. It may, with force, be asserted that to an extent this suspension of an operator\u2019s license in advance of conviction partakes of the nature of punishment in advance of a trial, but necessity of wholesome restraint is so compelling that the decisions above cited are fully justified, and this court is pleased to adopt their reasoning. The defendant does not raise the question but what the suspension was in accordance with section 290-a of the Highway Law as added in 1924. The attack upon the legality of the suspension solely involved the constitutionality of the act. I hold and determine that, the act is constitutional.\nAn order may be made denying the motion of the defendant and continuing the suspension. ' .",
+        "type": "majority",
+        "author": "Hill, J. :"
+      }
+    ],
+    "attorneys": [
+      "A. L. O\u2019Connor, district attorney, for the plaintiff.",
+      "John G. Johnson, for the defendant."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014 SPECIAL TERM \u2014 DELAWARE COUNTY.\nOctober 7, 1924.\nTHE PEOPLE v. CORAL H. STRYKER.\n(124 Misc. 1.)\n(1) Motor vehicle \u2014 Suspension op license \u2014 Intoxication op driver\u2014 License to operate motor not properly right.\nA motor vehicle operator does not exercise a right, though licensed, hut rather a privilege which may he denied him. Furthermore, the legislature may prescribe on what conditions the privilege shall be exercised.\n(2) Same \u2014 Highway Law, \u00a7 290-a, is constitutional.\n- Accordingly, defendant\u2019s motion to review the suspension of his license to operate a motor vehicle, made pursuant to section 290-a of the Highway Law (as added by Laws of 1924, chap. 360), pending the determination of a charge of operating a motor vehicle while intoxicated, should be denied and the suspension continued, since the statute, under which the suspension was directed, is constitutional and a valid exercise of legislative power.\nMotion to review suspension of defendant\u2019s license to operate motor vehicle during pendency and until determination of case.\nA. L. O\u2019Connor, district attorney, for the plaintiff.\nJohn G. Johnson, for the defendant."
+  },
+  "file_name": "0514-01",
+  "first_page_order": 530,
+  "last_page_order": 532
+}

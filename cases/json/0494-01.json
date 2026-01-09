@@ -1,0 +1,390 @@
+{
+  "id": 1228824,
+  "name": "THE PEOPLE v. MORRIS MARKAN AND AMEL R. CARLSON",
+  "name_abbreviation": "People v. Markan",
+  "decision_date": "1924-09-22",
+  "docket_number": "",
+  "first_page": "494",
+  "last_page": "512",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 494"
+    },
+    {
+      "type": "parallel",
+      "cite": "123 Misc. 689"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Ct. Gen. Sess.",
+    "id": 9672,
+    "name": "New York Court of General Sessions"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "136 N. Y. 423",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1172832
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/10/0260-01"
+      ]
+    },
+    {
+      "cite": "49 N. Y. 137",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2057527
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/49/0137-01"
+      ]
+    },
+    {
+      "cite": "5 Barb. 203",
+      "category": "reporters:state",
+      "reporter": "Barb.",
+      "case_ids": [
+        5777424
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/barb/5/0203-01"
+      ]
+    },
+    {
+      "cite": "53 N. Y. 179",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 N. Y. 648",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2272085
+      ],
+      "pin_cites": [
+        {
+          "page": "651"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/148/0648-01"
+      ]
+    },
+    {
+      "cite": "40 N. Y. 1",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        503131
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/40/0001-01"
+      ]
+    },
+    {
+      "cite": "187 N. Y. 410",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        807187,
+        2328259
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/20/0569-01",
+        "/ny/187/0410-01"
+      ]
+    },
+    {
+      "cite": "170 App. Div. 30",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1215195
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/34/0123-01"
+      ]
+    },
+    {
+      "cite": "136 App. Div. 303",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        810777
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/24/0279-01"
+      ]
+    },
+    {
+      "cite": "100 N. Y. 590",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2199638
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/100/0590-01"
+      ]
+    },
+    {
+      "cite": "143 App. Div. 534",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1198956
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/26/0085-01"
+      ]
+    },
+    {
+      "cite": "122 App. Div. 706",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1192172
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/21/0549-01"
+      ]
+    },
+    {
+      "cite": "215 N. Y. 126",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        74105,
+        1211615
+      ],
+      "pin_cites": [
+        {
+          "page": "140"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/215/0126-01",
+        "/ny-crim/33/0093-01"
+      ]
+    },
+    {
+      "cite": "150 N. Y. 346",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2274095
+      ],
+      "pin_cites": [
+        {
+          "page": "353"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/150/0346-01"
+      ]
+    },
+    {
+      "cite": "231 N. Y. 111",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        92496,
+        1224716
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/231/0111-01",
+        "/ny-crim/39/0184-01"
+      ]
+    },
+    {
+      "cite": "96 N. Y. 149",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        556167
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/96/0149-01"
+      ]
+    },
+    {
+      "cite": "106 N. Y. 288",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2210466
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/106/0288-01"
+      ]
+    },
+    {
+      "cite": "223 N. Y. 406",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        81745,
+        1218257
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "426"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/223/0406-01",
+        "/ny-crim/36/0419-01"
+      ]
+    },
+    {
+      "cite": "213 N. Y. 37",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1209522,
+        68743
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/32/0232-01",
+        "/ny/213/0037-01"
+      ]
+    },
+    {
+      "cite": "77 App. Div. 396",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        7676294,
+        1187054
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/79/0340-01",
+        "/ny-crim/17/0150-01"
+      ]
+    },
+    {
+      "cite": "173 N. Y. 395",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1187041,
+        2308662
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "495"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/17/0225-01",
+        "/ny/173/0395-01"
+      ]
+    },
+    {
+      "cite": "196 N. Y. 372",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        810763,
+        4463115
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/24/0083-01",
+        "/ny/196/0372-01"
+      ]
+    },
+    {
+      "cite": "126 App. Div. 665",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        809111
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/22/0400-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1141,
+    "char_count": 37697,
+    "ocr_confidence": 0.493,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.046042066545192405
+    },
+    "sha256": "1e26ac00dc4c673fcfd92db0bb752351ac6ea00b69749f5e96d3546b4ad05f79",
+    "simhash": "1:fde64108ec823604",
+    "word_count": 6411
+  },
+  "last_updated": "2024-02-27T16:15:52.747790+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. MORRIS MARKAN AND AMEL R. CARLSON."
+    ],
+    "opinions": [
+      {
+        "text": "Collins, J.:\nThe defendants were indicted for subornation of perjury, on two indictments. An inspection of the minutes of the grand, jury was granted, .and this is a motion to dismiss or set aside both indictments made on the minutes, on the ground, principally, that the evidence was insufficient to sustain the indictments.\nEach indictment charges both defendants with the crime on two counts, one indictment of having suborned one Charles Kaplan, the other, one Bernard Goldstein, to swear falsely, materially, before Hon. Daniel F. Cohalan, in a trial in Special Term, Supreme Court, Hew York county, on. June 29, 1923, in an action pending between the Yellow Cab Manufacturing Company and the Checker Cab Manufacturing Company and others, one count alleging that the crime was wholly committed in Hew York county, the other that the crime was partly committed in Chicago, 111., and partly in Hew York.\nThe Yellow Cab Company in a proceeding before the secretary of state of Hew York to set aside the registration of a trade mark of the Checker Cab Company filed among other papers two affidavits, one purporting to have been made by Charles Kaplin, the other by Bernard Goldstine, dated December 24, 1922, and sworn to in Chicago before a notary public, to the effect that they each had purchased from the Yellow Cab Company and used, and there were in general use in Chicago in October, 1920, taxicabs of particular checker design and model. This design the \u201cYellow\u201d' company claim had been imporperly appropriated by the \u201c Checker \u201d company and instituted an action for an injunction, etc., against the \u201c Checker \u201d company. The trial referred to in the indictment followed. Both Kaplan -and Goldstein testified on the trial in behalf of the defendant \u201c Checker \u201d company and repudiated the affidavits referred to-, insisting they were forgeries and pointed out the irregularities in the spelling of their names on the affidavits, which were contrary to the correct spelling, and denied every element in connection with the stated making of the affidavits including time, place and appearance before a notary. In the month of October following, and before the case was decided, both testified again before Judge Cohalan and stated under oath that they had sworn falsely before him in the preceding June- and that the affidavits had in fact been made by them at the time and place and before the notary stated, that the representations made by them on the trial in June were deliberately false and untrue, and that they had been induced corruptly to swear falsely before him in June by the defendants named in this \u2022indictment. The alleged false swearing and subornation is the basis of this indictment.\nThe defendants- contend, as one of the grounds for setting aside the indictment that the acts complained of do not constitute the crime of subornation of perjury, for the reason that the persons alleged to have sworn falsely on the trial corrected their testimony before the conclusion of the trial and determination of the case; hence, \u201c that would destroy the crime of perjury; and consequently would destroy any crime of subornation of perjury\u201d for the reason that \u201csubornation of perjury can be predicated only upon the crime of perjury committed; and if by correcting the testimony, the crime of perjury was removed or done away with, then likewise any subornation, if such there had been, would likewise be removed and done away with. There would, in short, be no crime either of perjury or subornation of perjury.\u201d The cases of People v. Gillette, 126 App. Div. 665, and People v. Glass, 191 id. 483, are urged to support the theory that perjury is cured by correction at any time during a trial; and People v. Teal, 196 N. Y. 372, that, \u201c If the person alleged to have been suborned has not committed perjury the alleged suborner cannot be held guilty of subornation of perjury \u201d and that not even an attempt to commit the crime, therefore, can be sustained.\nThe logic of the contention is forceful, but I do not think the premises are sound as it .affects the instant case as based upon the decisions cited. In People v. Gillette, supra, defendant on a trial in which it was alleged he committed perjury corrected on cross-examination a statement made by him on direct examination.- The court stated (p. 673), commenting on the conflict: \u201c Even if it be assumed that the answers were false and made with the intention of misleading or deciving [referring to testimony on direct], an indictment for perjury. could not be predicated thereon, inasmuch as immediately thereafter he fully explained the nature of the account and the source from which the fund came. A judicial investigation or trial has for its sole object the ascertainment of the truth that justice may be done. It holds out every inducement to \u00e1 witness to tell the truth by inflicting severe penalties upon those who do not. This inducement would be destroyed if a witness could not correct a false statement except by running the risk of being indicted and convicted for perjury.\u201d And in People v. Glass, supra, the court said (p. 486), approving the Gillette case, where contradictory testimony was given on direct and cross-examination, construing the perjury statute: \u201c Yor can it refer to a case where the second statement is part and parcel of one oral examination- in. which counsel upon cross-examination succeeds in breaking down the direct evidence, compelling a witness to .admit the truth.\u201d In the instant case direct examination and cross-examination had been completed in the month of June, and in the October following the court, not having decided the case, allowed the same witnesses to come in and correct their testimony, as above stated. The oases referred to did not go to the extent of holding that after an interval of several months the correction of testimony indicating the utter falsity of that previously given would destroy perjury, nor did they hold even by inference, as contended by the defendants in this case, that correction at any time before the termination of a trial by decision would cure perjury committed. In People v. Teal, supra, the court held that there could be no subornation of perjury where there was no perjury, basing its conclusion on the premises that the testimony alleged to be perjury suborned was not material and, therefore, not perjury and hence, there could be no subornation of perjury. In the instant case, the testimony given in June by Kaplan and Goldstein was material, and if false, was perjury as defined by statute, if not cured by the testimony given in October. The Teal case did not go to the extent of holding even in effect that there could be no subornation of perjury nor attempted subornation of perjury unless the facts warranted a conviction of the principal of perjury.\nI am unwilling to decide that correction made at any time 'in a case of false testimony even though an appreciable interval elapsed between the giving of the false testimony and the correction cures perjury if committed, nor in my opinion do the decisions referred to justify such a conclusion, nor am I willing to decide that even if a subsequent correction did cure, not even an attempted subornation of perjury could be sustained. I may say in passing that it might well be, in a proper case, that an indictment charging subornation of perjury may be sustained if the proof would warrant a conviction only of attempted subornation of perjury; however, I have reached a conclusion in the determination to the merits of the pending motion that renders it unnecessary to definitely determine the motion on the contention here involved.\nBefore the grand jury Kaplan and Goldstein testified to the false swearing, as alleged. The minutes of the trial before Judge Oohalan were properly introduced in evidence, showing the precise nature of the testimony in June and of that in October. They both admitted, in addition, that the contents of the original affidavits were in fact false, that their signatures to the affidavits were in fact misspelled, in that Kaplan was spelled K-a-p-l-i-n, and Goldstein\u2019s name was spelled G-o-l-d-s-t-i-n-e; that this was done deliberately by them at the time of the making and signing of the affidavits, with intent to protect themselves if trouble resulted, and that they had at the time a mental reservation to avail themselves of the misspellings in this respect, if occasion would in their judgment render it necessary.\nIt seems to me, after a careful study of all of their testimony before the grand jury, that the conclusion is irresistible that their motive was to deny absolutely, if questioned, the fact that they had made the affidavits. Goldstein testified that he signed his name as stated, without even knowing what the contents of the affidavit were at the time, and Kaplan, that he did know what the contents of the affidavit were, that the contents of the affidavit were absolutely false. They testified that they saw both defendants in Chicago in a law office and that each told the defendants after a copy of the affidavit had been shown that the affidavits were false, that the names were misspelled, but they did in fact make the affidavits and they were persuaded by the defendants to come to Yew York and swear that the affidavits were forgeries and that the defendants, through counsel, advised them to give their evidence, stoutly maintaining the forgery and expressing indignation against those responsible for using the false instruments; that they gave testimony accordingly in Chicago by depositions to the effect as stated. Goldstein testified that Carlson introduced him to the defendant Markan and was told in Markan\u2019s presence that it would he necessary for him to go to New York. He said to Markan: \u201c Now listen, this is a pretty dangerous test to undertake. I do not want to go to New York without knowing just where I fit,\u201d and that Markan replied to him in the presence of Carlson: \u201c Several are going. All will he taken care of. \u25a0There is going to be a little pot for the three of you, and I will guarantee each of you are going to receive the sum you ask for.\u201d This, after some conversation had been had about compensating them for their time occupied in Chicago on the basis of the time they would have earned while operating their taxicabs, Kaplan and Goldstein each being taxicab owners and drivers. That they did come to New York in company with the defendant Carlson, had their expenses paid and were entertained on the train; that they had been previously promised that they would be well paid for the giving of their testimony; that in New York they were well entertained, their expenses paid and they gave their testimony with more urging of the nature as stated and were praised for their merit in testifying; that after the trial they remained a couple of days and then went to Kalamazoo, Mich., where there was a plant of the defendant \u201c Checker \u201d company, at the suggestion of the defendant Markan. After they had informed Markan and Carlson- that they would be in peril in Chicago by reason of having given testimony in New York, due to the fact that they had incurred the hostility of their fellow taxi men who were interested in the \u201c Yellow \u201d company they intimated that their opportunity for livelihood, for the time being, was destroyed so far as Chicago was concerned; that their expenses were paid at Kalamazoo, where they remained for a few days, and where, after many discussions with- the defendants Markan and Carlson and others, they were given the sum of $1,000 each, Kaplan and Goldstein stating that it was given to them in payment or part payment for their perjured testimony; that subsequently they saw the defendants and demanded more money from them and were refused and that then they made a statement to some representative of the \u201c Yellow \u201d company to the effect of their having given false testimony and came on to Hew York and testified in October. The effect of their testimony in October, however, seemingly had no effect on the result of the case for the reason that judgment was rendered in favor of the defendant \u201c Checker \u201d company or rather, injunction was denied to the \u201c Yellow \u201d company, notwithstanding the trial court was fully informed of all of the circumstances as stated.\nIt is deserving of comment here that in so far as the issue between the \u201c Yellow \u201d company and the \u201c Checker \u201d company was concerned it was just as advantageous to the \u201c Checker \u201d company that the affidavits filed with the secretary of state were false, as it was to prove they were fraudulent, except perhaps, that the use of fraudulent affidavits might indicate perfidy of purpose in an effort to indicate that the \u201c Yellow \u201d company had previously used the same design as that of the \u201c Checker \u201d company.\nEvidence was introduced before the grand jury of the testimony given by the two indicted defendants, before the trial judge in October, after Kaplan and Goldstein had given their testimony contradicting their former testimony. The testimony of both defendants Markan and Carlson was to the effect that they were officers of the defendant \u201c Checker \u201d company; that Carlson had been directed after the filing of the affidavits which they believed to be untrue, to go to Chicago and inquire into the subject; that, among others, Kaplan and Goldstein were sent for; that Carlson testified that he, pursuant to such direction, showed them a copy of the affidavits and inquired as to their connection with them; that both Kaplan and Goldstein insisted that the affidavits were forgeries and pointed out the misspellings just as they had in their testimony and depositions. before Judge Cohalan, and that the statement purported to have been verified by them in their affidavit was absolutely untrue and that both expressed great indignation that they were being used in such manner, and that they did give testimony accordingly in the deposition that was taken; that the only consideration given them at the time was compensation for the loss of time, $45, and subsequently they were asked to come to New York and testify; that their expenses would be paid and any loss would be made up to them that they had sustained, and that they did come to New York and testified and both defendants Markan and Carlson ever believed what was testified to by Kaplan and Goldstein to be true, and they were impelled to that conclusion by reason of their belief of the falsity of the affidavits within their knowledge and the urging that the signatures were not the signatures of the two as stated; that after the testimony of Kaplan and Goldstein had been given, they were advised to go to Kalamazoo, where there was a plant of the defendant \u201c Checker \u201d company, because Kaplan and Goldstein had insisted that they were deprived of an opportunity of a livelihood in Chicago for the time being; that when in Kalamazoo, Mich., both men insisted it would be a long time before they could re-establish themselves in business, and that eventually, in order to compensate the men for their loss in time and to make up for the evil consequences attending their coming to New York and testifying as stated, Markan paid each of them $1,000, both defendants stoutly maintaining that was the sole purpose in the making of such payment.\nIt seems to me that the determination of the motion depends upon whether or not the admission of the defendants of the payment of this $1,000 furnishes a sufficient corroboration under the statute, in that it tends to connect the defendants with the commission of the crime, sufficiently to justify the sustaining of the indictment. All of the other acts admitted, as to meeting and confermg with and bringing Kaplan and Goldstein to New York to testify, are entirely consistent with a lawful purpose. An action was pending between the \u201c Yellow \u201d company and the \u201c Checker \u201d company that was of great importance to the defendant \u201c Checker \u201d company; in fact, its life as a corporation, in so far as the use of its taxis of the type and design used were concerned, was dependent upon the determination of that suit. There was a full justification for an eagerness on the part of the defendant \u201c Checker \u201d company to legitimately obtain witnesses to testify in behalf of the defendant so that it is not corroborative of the testimony of Kaplan and Goldstein within the meaning of the statute in the mere fact that they did come to New York and testify; though they were promised to have their expenses defrayed and reasonable allowances for their loss of time, this could be done legitimately and consistently in the trial of a case where the persons seeking such testimony believed it to be true. There is no other corroborative evidence tending to connect the defendants in the case before the grand jury.\nSection 258 of the Code of Criminal Procedure provides as follows: \u201c The grand jury ought to find an indictment, when all the evidence before them, taken together, is such as in their judgment would, if unexplained or uncontradicted, warrant a conviction by the trial jury.\u201d\nIf the evidence received by a grand jury is insufficient to support an indictment within the scope of the section quoted it is the duty of a court to grant a motion to dismiss or set aside the indictment. (People v. Glen, 173 N. Y. 395; People v. Sexton, 187 id. 495.)\nSection 399 of the Code of Criminal Procedure provides as follows: \u201c A conviction cannot be had upon the testimony of an accomplice, unless he be corroborated by such other evidence as tends to connect the defendant with the commission of the crime.\u201d\nThe suborner and perjurer are joint principals, hence accomplices. (People v. Martin, 77 App. Div. 396.) The necessity for corroboration as provided by statute applies to an indictment as well as to a trial and the indictment can be set aside at any time when it appears that the evidence before the grand jury was insufficient on which to sustain it. (People v. Sweeney, 213 N. Y. 37.)\nThe nature and quality of corroboration required as applicable to the case at bar have been extensively passed upon by the courts. In People v. Cohen (223 N. Y. 406), the court said (p. 426) : \u201c \u2018 It is not necessary that the corroborative evidence of itself should be sufficient to show the commission of a crime or to connect the defendant with it; nor need such evidence be wholly inconsistent with the defendant\u2019s innocence; it is sufficient if there is some evidence fairly tending to connect the defendant with the commission of the crime; and it is then for the jury to determne whether the corroboration is sufficient to satisfy the jury of the defendant\u2019s guilt.\u2019 (People v. Elliott, 106 N. Y. 288.) The statute does not require that the whole case should be proved outside of the testimony of the accomplice, but simply requires evidence from an independent source of some material fact tending to show not only that a crime has been committed but that the defendant was implicated in it. (People v. Hooghkerk, 96 N. Y. 149.)\u201d\nAnd in People v. Dixon (231 N. Y. 111), the court said (pp. 116, 117), making a summary of the principles declared in the leading cases on the subject: \u201c The \u2018 other evidence \u2019 must be such \u2018 as tends to connect the defendant with the commission of the crime.\u2019 The corroborative evidence need not show the commission of the crime; it need not' show that defendant was connected with the commission of the crime. (People v. Mayhew, 150 N. Y. 346, 353; People v. Cohen, 223 N. Y. 406, 426.) It is enough if it tends to connect the defendant with the commission of the crime in such a way as may reasonably satisfy the jury that the accomplice is telling the truth. The corroboration is not restricted to any particular points. Its connection with defendant\u2019s own statements and denials should be considered. (People v. Becker, 215 N. Y. 126, 140.) It may vary in its nature according to the circumstances of the particular case. Matters in themselves of seeming indifference or light trifles of the time and place of persons meeting may so harmonize with the accomplice\u2019s narrative as to have a tendency to furnish the necessary connection between the defendant and the crime.\u201d\nIn People v. Eaton (122 App. Div. 706), the court held the requirement of section 399 of the Code of Criminal Procedure that the testimony of an accomplice must be corroborated by evidence tending to connect the defendant with the crime is satisfied when the defendant himself gives such testimony. And in People v. Josephs, 143 App. Div. 534, the court held that evidence corroborating the testimony of an accomplice must connect the defendant with the crime itself, not merely with the person who committed it. At p. 536, it said: \u201cThe rule of law applicable to this situation is that the question whether there be any evidence tending to connect a defendant with the commission of a crime, where the main proof is that of an accomplice, is a question of law for the court, and its sufficiency a question of fact for the jury.\u201d (Citing People v. Plath, 100 N. Y. 590; People v. Mayhew, 150 id. 346; People v. O\u2019Farrell, 175 id. 323; People v. Patrick, 182 id. 131; People v. Kathan, 136 App. Div. 303; People v. Weiss, 129 id. 671.)\nIn People v. Goodman (170 App. Div. 30), the court held that the requirement of the statute is that corroboration must be by evidence tending to connect the defendant with the commission of the crime and facts claimed to be in corroboration of the testimony of an accomplice have no significance as establishing or tending to establish the commission of a crime if consistent with lawful conduct.\nIn considering declarations or admissions of a defendant the whole declaration must he taken together where use of it is made in a judicial proceeding. (People ex rel. Perkins v. Moss, 187 N. Y. 410.)\nIt would follow, in considering the testimony of the two defendants on the trial before Judge Cohalan which was introduced before the grand jury, that the whole testimony should be considered in connection with the admission of a payment of $1,000, and the circumstances and explanations made by them have some bearing and must be considered in connection with the admission itself, bearing in mind, of course, the' principles stated in People v. Dixon (supra); People v. Eaton (supra), and People v. Goodman (supra).\nIn the Moss case the court said (at p. 428): \u201c It is well settled that where use is made in a judicial proceeding of a prior declaration the entire declaration at the time made so far as relevant must be taken together; a party may not utilize only so much of the declaration as is for his benefit, but he must also admit that which is against his interests, and the whole must stand or fall together.\u201d\nGreenleaf on Evidence (Vol. 1 [16th ed.], \u00a7 201) states the rule regarding admissions as follows: \u201c But though the whole of what he said at the same time, and relating to the same subject, must be given in evidence, yet it does not follow that all the parts of the statement are to be regarded as equally worthy of credit; but it is for the jury to consider, under all the circumstances, how much of the whole statement they deem worthy of belief, including as well the facts asserted by the party in his own favor, as those making against him.\u201d\nThe necessity for corroboration and the soundness of the reason for the rule is forcibly evident in this case. The named perjurers swore falsely in the affidavits filed with the secretary of state, and this at a time when it could not be said that the defendants had any connection with them whatever. When swearing falsely they deliberately misspelled their names, apparently for the purpose of more effectively denying that they had sworn to the affidavits if in their judgment it became desirable. They swore falsely in the deposition taken in Chicago. They swore falsely in the testimony given before Judge Cohalan in June. At least they swore falsely on these occasions, if their testimony before Judge Cohalan in October and before the grand jury finding the indictment is to be believed. There would be nothing in this case indicating which is the truth except their own statement but for the fact that a Chicago notary public before whom the affidavits were sworn to testified before the grand jury that they were actually sworn to before him. But for this, there would not be any corroborative evidence as to what constituted the perjury, the testimony in June or the testimony in October.\nPerjury required corroboration at common law, and was an exception to the general rule that accomplices need not be corroborated. Under an English statute (5 Eliz. chap. 9, \u00a7 6) a person convicted of perjury could not thereafter be received as a witness, \u201c to be sworn in any manner or cause whatsoever, until the judgment against him be reversed.\u201d (People v. Evans, 40 N. Y. 1.) The court said (p. 4) : \u201c This imposition of the statute of conviction for perjury, in addition to the severe punishment prescribed, was not imposed so much by way of punishment to the party, as it was to prohibit the courts from receiving the oath of a person convicted of disregarding his obligation, and to save others from the peril of the testimony of persons who have proved themselves regardless of the obligation of an oath.\u201d\nIn his brief in opposition to the granting of this motion the district attorney has arranged in parallel columns the testimony of, and that which he believes to be corroboration of the testimony of the alleged perjurers, but seems to account everything corroboration which connects the defendants with the perjurers in the then pending case of the \u201cYellow\u201d company against the \u201c Checker \u201d company. Certainly, a connection with the perjurers, in bringing them to Yew York to testify in the case on trial does not establish a corrupt connection or a connection with the crime of perjury. The defendants were officers or employees of the \u201c Checker \u201d company, a defendant in the suit, and as has been previously stated the acts\" were legitimate unless they were intended to induce Kaplan and Goldstein to commit perjury and would not, as held in People v. Goodman (supra) have any significance as establishing or tending to establish the commission of a crime if consistent with lawful conduct. It seems that the only force that can attach to the district attorney\u2019s argument with any tangible degree of logical importance is that the sum of $1,000 was paid to each of the alleged perjurers. To what extent can it be successfully maintained that this payment constituted corroboration of a corrupt act suborning perjury? It is justification for suspicion, but this of itself is not sufficient. (People v. Owens, 148 N. Y. 648, 651.) In People v. Kathan (136 App. Div. 303), where payment was held not of itself to be corroboration of bribery, the court said (p. 307) : \u201c While criminal intent will be presumed from the commission of an act in its nature unlawful, the act itself being evidence of the intent, it is also true thai where an act becomes criminal only through the existence of a specific intent such intent must be proved.\u201d (Citing Stokes v. People, 53 N. Y. 179; Miller v. People, 5 Barb. 203; Lawson Presump. Ev. 473.)\nThe Kathan Case held that intimate relations, associations consistent with innocence, are not enough to presume guilt nor is the payment of money where the corpus delicti, if a crime was committed, was not the paying of the money but the agreement or understanding under which it is given; the intent in making the payment. In the instant case the payment of $1,000 each was a large sum, but can it be said to \u201c reasonably \u201d or \u201c fairly \u201d tend to connect the defendant with suborning Kaplan and Goldstein to commit perjury? If it is held to be corroboration tending to connect, it can only be so inferentially or in other words as a circumstance which in itself tends to connect, which makes it necessary of course to apply the rules of circumstantial evidence. People v. Bennett (49 N. Y. 137) lays down the rule (p. 144) as follows: \u201cIn determining a question of fact from circumstantial evidence, there are two general rules to be observed: 1. The hypothesis of delinquency or guilt should flow naturally from the facts proved and be consistent with them all. 2. The evidence must be such as to exclude, to a moral certainty, every hypothesis but that of his guilt of the offense imputed to him or in other words, the facts proved must all be consistent with and point to his guilt not. only, but they must be inconsistent with his innocence.\u201d\nArid to the same effect, People v. Harris (136 N. Y. 423). While I am mindful that under the decisions as held in People v. Dixon (supra), it is not necessary that the corroborative evidence of itself should he sufficient to show the commission of a crime or to connect the defendant with it; nor need such evidence be wholly inconsistent with the defendant\u2019s innocence; it is sufficient if there is some evidence fairly tending to connect the defendant with the commission of the crime. It is necessary that it be corroborative evidence or evidence \u201c reasonably \u201d or \" fairly \u201d tending to connect the defendant with the commission of the crime, and if the question as to whether or not it is corroboration depends upon circumstances then the rules, as quoted, of circumstantial evidence apply. It would seem that if the payment was as consistent with an innocent motive as a guilty one the rule would require the drawing of the innocent inference. In this case the persons alleged to have sworn falsely say the defendant suborned them. The defendants deny it, and enter into an explanation which if true clearly exculpates them from guilt. They do admit the payment of the amount stated. Is that evidence fairly tending to connect them with the crime? Their declarations before Judge Cohalan were presented to the grand jury, and as between the statements made by the alleged perjurers and the defendants I am convinced that not alone is the statement and explanation, of the defendants including payment as consistent with the innocence and explained motive as with a corrupt one, but I cannot escape the conclusion, after a careful consideration of all of the evidence before the grand jury, that the weight of evidence is entirely favorable to the explanation of the defendants and that all reasonable inferences that may be drawn establish the truth of their statement with much greater probative force than any deduction that can be drawn to the contrary by the conduct and testimony of the perjurers; that the conduct generally of the alleged perjurers seems to belie the truth of their statements that.they were suborned to commit perjury. The alleged perjurers assert, as has been said, that they swore falsely in their original affidavits and resorted to misspelling their names and practically admitted that they had a mental reservation at the time to deny the making of the affidavit if their safety required it. Is it likely that when they were originally spoken to on the subject of the affidavit and shown the copy of the affidavit by Carlson, they immediately stated that they made the affidavit \u2014 that it was false and that they used misspelled names in signing \u2014 as was their testimony before the grand jury, or is it more likely as testified by Carlson before the trial judge that they denied absolutely the making of the affidavit and expressed great indignation that they were being used as dupes ? It should be borne in mind as before indicated that it must have been clear to the mind of Carlson that if the affidavits were false, that information was as valuable to his corporation as the fact that they were fraudulent. Is if at all likely that one with common sense would not have made any suggestion whatever to Kaplan and Goldstein other than asking them to swear that the affidavits were forgeries? Would not Carlson in the very nature of things have at least first made an earnest effort to persuade both to testify to the fact that the affidavits were untrue ? It could be suggested that the perjurers would not be willing to stultify themselves and expose themselves to criminal prosecution, yet they did not hesitate to come to \u00a1New York to swear they falsely swore in June, and while it is likely that men would not be willing to go into another state to testify that they had made a false affidavit which was used in that state, is it not reasonable to conclude that there would at least have been some talk on the subject at the time? The perjurers say that without any discussion whatever after they had told the whole truth to-Carlson and Markan to the effect as stated, the suggestion came immediately that they swear that the affidavits were forgeries. Then, too, from all the evidence in the case it appears that both Markan and Carlson are well-educated men holding important and responsible positions in their firm. Is it not entirely reasonable to infer that they knew that a company as important as the \u201c Yellow Cab Company \u201d could in the injunction proceedings establish the truth that the affidavits were made, if in fact they were ? Was it not reasonable to assume that the \u201c Yellow \u201d company would bring the notary to \u00a1N\"ew York and the others present at the time of the execution of the affidavit to prove the circumstances of its making and execution ? Is it at all likely that two sensible men would take the chance to attempt to suborn perjured evidence, to assert a forgery under those circumstances, or is it not more likely that knowing the facts stated in the affidavits to be false and untrue, that having been told by Kaplan and Goldstein that they did not sign the affidavits and that the affidavits shown them had not been sworn to by them \u2014 that the signatures were not theirs but were forgeries, and that the misspelling showed the fact, that they believed the statements to be ti*ue, and eagerly sought the value of such testimony in a case of such vast importance to their company? Would not both perjurers have in view of their admissions of deceit and falsity in signing with motive indicated, be prone to assert when accosted, accused or questioned, that they never signed the affidavits ? In view of these circumstances, can they, repeating perjurers, be believed, when they testify to the contrary ? Is their testimony, so open to doubtful accuracy, corroborated by the admission of the defendants that they were paid money, from the mere fact that it was substantial, in view of the explanation made by defendants ? I think not. I am of the opinion that whatever corroboration force tending to connect the defendants with suborning perjury there could be in payment, as stated, was destroyed by the statement and explanation of the defendants, which was before the grand jury, the whole of which must be taken into consideration ; and by all the reasonable probabilities to be drawn from all of the evidence before the grand jury.\nI am forced, therefore, to the conclusion that there was no corroboration of the accomplices within the meaning of the statute, by such other-evidence as (\u201c reasonably \u201d or \u201cfairly \u201d) tends to connect the defendants with the commission of the crime, and that, as a matter of law, all the evidence before the grand jury, taken together, would be insufficient to warrant submission to a trial jury, and, therefore, grant the motion of the defendants.\nThe motion of the defendants to set aside the indictments is granted, with leave to the district attorney to resubmit the charge to this or another grand jury, on additional evidence.\nOrdered accordingly.",
+        "type": "majority",
+        "author": "Collins, J.:"
+      }
+    ],
+    "attorneys": [
+      "Joab H. Banton, district attorney (Frank F. Carstarphen assistant district attorney, of counsel), for the people.",
+      "Max D. Steuer (Robert S. Johnstone and Stanley L. Richter of counsel), for the defendants."
+    ],
+    "corrections": "",
+    "head_matter": "COURT OF GENERAL SESSIONS \u2014 NEW YORK COUNTY.\nSeptember 22, 1924.\nTHE PEOPLE v. MORRIS MARKAN AND AMEL R. CARLSON.\n(123 Misc. 689.)\n(1) Subornation op perjury \u2014 Code Criminal Procedure, \u00a7 399 \u2014 Payment OF $1,000 EACH TO WITNESSES TO COMPENSATE FOR LOSS OP TIME NOT SUFFICIENT CORROBORATION TO CONNECT DEPENDANTS WITH COMMISSION OP CRIME.\nUpon a motion to dismiss or set aside indictments charging defendants with having suborned two witnesses to swear falsely to material facts upon the trial of an action for an injunction involving defendants\u2019 company and a similar taxicab corporation it appears that the witnesses after testifying on the trial that the original affidavits were-false, subsequently repudiated their testimony before the case was decided by the trial justice and testified that they were induced by the defendants to swear falsely on the trial; that the defendants admitted payment of $1,000 to each witness to compensate him for loss, of time and the consequences attending their leaving Chicago and coming to New York for the trial.\nHeld, that the weight of evidence is entirely favorable to the explanation of the defendants that the sole purpose of making the payment was to compensate the witnesses for their loss of time, thus destroying whatever corroborative force tending to connect the defendants with suborning perjury there could be in the payment of the $1,000 to each witness.\n(2) Same.\nThat there was no corroboration of the accomplices within the meaning of section 399 of the Code of Criminal Procedure by such other evidence as tends to connect the defendants with the commission of the crime.\n(3) Same \u2014 Code Criminal Procedure, \u00a7 258.\nEvidence insufficient to warrant indictment under Code Criminal.' Procedure, \u00a7 258.\nMotion to dismiss or set aside indictments.\nJoab H. Banton, district attorney (Frank F. Carstarphen assistant district attorney, of counsel), for the people.\nMax D. Steuer (Robert S. Johnstone and Stanley L. Richter of counsel), for the defendants."
+  },
+  "file_name": "0494-01",
+  "first_page_order": 510,
+  "last_page_order": 528
+}

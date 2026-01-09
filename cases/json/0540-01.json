@@ -1,0 +1,70 @@
+{
+  "id": 1224766,
+  "name": "THE PEOPLE v. PETER BARBER",
+  "name_abbreviation": "People v. Barber",
+  "decision_date": "1922-06",
+  "docket_number": "",
+  "first_page": "540",
+  "last_page": "542",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 540"
+    },
+    {
+      "type": "parallel",
+      "cite": "118 Misc. 740"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Ct. Gen. Sess.",
+    "id": 9672,
+    "name": "New York Court of General Sessions"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 212,
+    "char_count": 3935,
+    "ocr_confidence": 0.502,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.045072474775292255
+    },
+    "sha256": "a571ba8793347d2644fc95bbdff9604a2271b7ebf21839c03785ec1eedbee0f1",
+    "simhash": "1:a84440fc3563e0f0",
+    "word_count": 686
+  },
+  "last_updated": "2023-07-14T18:56:16.069757+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. PETER BARBER."
+    ],
+    "opinions": [
+      {
+        "text": "Nott, J.:\nThis defendant was indicted for subornation of perjury in that he procured one Valente to falsely swear that he had served a summons in a civil action upon one Sirio, the present defendant being the plaintiff in that civil action.\nProof having been offered to the grand jury that Valente could not be found within the jurisdiction, his testimony taken in the Magistrate\u2019s Court was read before the grand jury, pursuant to sections 8 and 221b of the Code of Criminal Procedure. According to that testimony Valente informed the defendant that he was unable to serve Sirio and thereafter the defendant procured him to sign and swear to an affidavit without reading the contents to him or letting him know what they were, and he swore that he was in ignorance that he had ever signed an affidavit of service upon Sirio.\nIf Valente knowingly signed said affidavit, he is an accomplice of the defendant and his testimony required corroboration ; but if he signed in ignorance of the contents, and without perjurious intent, then he is not an accomplice and no corroboration of his testimony as such is required. Upon the testimony before the grand jury it is a question of fact whether or not he was an accomplice, which should be left to the jury.\nThe further point, however, is raised that even if he were not an accomplice there is only his oath against that of the defendant on the fact that he informed the defendant that he had not served Sirio and that the defendant, therefore, knew that the affidavit was false, and that it is a well-known principle of law that upon a trial for perjury there must be more than an oath against oath.\nWhile that contention may involve a serious question on the trial of the action, it has no application to the proceeding before the grand jury, for the reason that the defendant did not appear and was not sworn there. Section 258 of the Code of Criminal Procedure provides as follows: \u201c The grand jury ought to find an indictment, when all the evidence before them, taken together, is such as in their judgment would, if unexplained or uncontradicted, warrant a conviction by the trial jury.\u201d The grand jury, therefore, were hound in weighing the evidence to assume that it would he uncontradicted, in which case it would not he a question of oath against oath.\nThe motion, therefore, is denied.\nOrdered accordingly.",
+        "type": "majority",
+        "author": "Nott, J.:"
+      }
+    ],
+    "attorneys": [
+      "Joab H. Banton, District Attorney (Felix C. Benvenga, of counsel), for plaintiff.",
+      "Caesar B. F. Barra, for defendant."
+    ],
+    "corrections": "",
+    "head_matter": "COURT OF GENERAL SESSIONS \u2014 COUNTY OF NEW YORK.\nJune, 1922.\nTHE PEOPLE v. PETER BARBER.\n(118 Misc. 740.)\nSubornation op perjury \u2014 Indictment resting on testimony of one PERSON WILL NOT BE DISMISSED \u2014 WHETHER HE WAS ACCOMPLICE IS QUESTION FOR JURY.\nOne Y. testified before a magistrate that after he had informed defendant that he was unable to make service of the summons in a civil action in which said defendant was the plaintiff, he was induced by defendant to sign an affidavit without reading it and that he was in ignorance that he had ever signed and sworn to an affidavit of service of the summons upon the defendant named in said action. It being made- to appear that V. could not be found within the jurisdiction, his testimony was in the course of due procedure read before the grand jury and defendant was indicted for subornation of perjury. Meld, that whether Y. was an accomplice was a question of fact for a jury and a motion to dismiss the indictment will be denied.\nDefendant not having been sworn before the grand jury the principle of law that upon a trial for perjury there must be mor.e than an oath against oath, did not apply, as the grand jury in weighing the testimony of V. was bound under section 258 of the Code of Criminal Procedure to assume that it would be uncontradicted.\nMotion to dismiss the indictment, made after an inspection of the grand jury minutes, the defendant having been indicted for subornation of perjury.\nJoab H. Banton, District Attorney (Felix C. Benvenga, of counsel), for plaintiff.\nCaesar B. F. Barra, for defendant."
+  },
+  "file_name": "0540-01",
+  "first_page_order": 560,
+  "last_page_order": 562
+}

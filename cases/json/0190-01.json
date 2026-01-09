@@ -1,0 +1,259 @@
+{
+  "id": 1228874,
+  "name": "MATTER OF WILLIAM R. COCHRAN",
+  "name_abbreviation": "In re Cochran",
+  "decision_date": "1924-02-19",
+  "docket_number": "",
+  "first_page": "190",
+  "last_page": "195",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 190"
+    },
+    {
+      "type": "parallel",
+      "cite": "237 N.Y. 336"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y.",
+    "id": 24653,
+    "name": "New York Court of Appeals"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "24 N. Y. 78",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "147 N. Y. 296",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "6 Park. Cr. Rep. 355",
+      "category": "reporters:state",
+      "reporter": "Park. Cr.",
+      "case_ids": [
+        1266761
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/park-crim-rep/6/0347-01"
+      ]
+    },
+    {
+      "cite": "238 U. S. 264",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3676624
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/238/0264-01"
+      ]
+    },
+    {
+      "cite": "1 Cow. 221",
+      "category": "reporters:state",
+      "reporter": "Cow.",
+      "case_ids": [
+        2156660
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/cow/1/0221-01"
+      ]
+    },
+    {
+      "cite": "3 Cow. 355",
+      "category": "reporters:state",
+      "reporter": "Cow.",
+      "case_ids": [
+        2157951
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/cow/3/0355-01"
+      ]
+    },
+    {
+      "cite": "284 Fed. Rep. 604",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3600902
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/284/0604-01"
+      ]
+    },
+    {
+      "cite": "8 Conn. 375",
+      "category": "reporters:state",
+      "reporter": "Conn.",
+      "case_ids": [
+        6753467
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/conn/8/0375-01"
+      ]
+    },
+    {
+      "cite": "109 Mich. 588",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1478529
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/mich/109/0588-01"
+      ]
+    },
+    {
+      "cite": "67 How. Pr. 305",
+      "category": "reporters:state",
+      "reporter": "How. Pr.",
+      "case_ids": [
+        4561008
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/how-pr/67/0305-01"
+      ]
+    },
+    {
+      "cite": "249 U. S. 378",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3685630
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/249/0378-01"
+      ]
+    },
+    {
+      "cite": "204 N. Y. 108",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2364933
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/204/0108-01"
+      ]
+    },
+    {
+      "cite": "229 N. Y. 452",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        90841
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/229/0452-01"
+      ]
+    },
+    {
+      "cite": "101 N. Y. 245",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2201560
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/101/0245-01"
+      ]
+    },
+    {
+      "cite": "5 Hun, 317",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": -1
+    },
+    {
+      "cite": "188 App. Div. 424",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1222190
+      ],
+      "weight": 3,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/38/0007-01"
+      ]
+    },
+    {
+      "cite": "188 App. Div. 424",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1222190
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/38/0007-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 608,
+    "char_count": 10837,
+    "ocr_confidence": 0.491,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.046047086142860065
+    },
+    "sha256": "4083f0ef1512e468edc43911b4e2c68f713d60492cc02e09719c6c84b85b58bd",
+    "simhash": "1:8ff0b85184814eb7",
+    "word_count": 1902
+  },
+  "last_updated": "2024-02-27T16:15:52.747790+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "MATTER OF WILLIAM R. COCHRAN."
+    ],
+    "opinions": [
+      {
+        "text": "Andrews, J.:\nAfter a hearing before the Special Term, William R. Cochran was adjudged guilty of criminal contempt of court and his imprisonment for a term of ten days was directed. Upon his petition an order of certiorari was granted for a review of the proceedings in the Appellate Division. That court affirmed them and dismissed such petition.\nOne Carman Plant was on trial in Nassau county for criminally receiving stolen property. Cochran was called as a juror, examined and accepted by the district attorney, heard the evidence and thereafter having been sent to the jury room, deliberated with his fellow jurors as to the verdict. The result was a disagreement and the jury was discharged. The contempt proceedings followed. The charges against Cochran and the circumstances of his alleged offense are set out as they are required to be in the order adjudging him guilty. (Judiciary Law [Cons. Laws, ch. 30], sec. 752.) They are of two classes: First, alleged untrue statements made by him on his examination as to his qualifications as a juror, in that he falsely stated that he had no bias or prejudice that would affect his decision .and that he knew of no reason why he could not fairly try the case. Second, improper conduct in the jury room during the -deliberations of the jury, intended to affect the result \u2014 in that he stated facts to be in evidence as to which no testimony had been given; that he made a proposition to the jurors that they should acquit if one Smith, a stranger to the proceeding, would give a bond for Plant\u2019s future good behavior, and that he failed to keep his promise to render a decision on the evidence, to be a fair and impartial juror and to obey the instructions of the court, because believing the defendant to be guilty he still refused to vote for his conviction.\nAs to the charges of the first character we do not decide that if he falsely answered the questions of the district attorney whether under oath or not under oath he would be guilty of criminal contempt of court. (People ex rel. Nunns v. County Court, Nassau Co., 188 App. Div. 424.) We fail to find, however, any evidence whatever from which an inference can be drawn that, his answers in this respect were untrue at the time they were made. As to the second class of offenses they do not afford a basis for a charge of criminal contempt.\nFrom early times a writ of attaint was allowed to inquire whether a jury had given a false verdict. If the second jury found this to be the fact the judgment was reversed and the original panel punished. Although practically obsolete in Blackstone\u2019s day it was not formally abolished in England until 1825. Cumbrous and unsatisfactory, the practice of granting new trials took its place. Probably also it was never applicable to criminal prosecutions.\nAs to them and ordinarily applicable to them alone, a method of controlling the jury was at one time in use. Both judges and the Star Chamber asserted the right to themselves punish jurors for unsatisfactory verdicts of acquittal. Never conceded to be justified by the common law, said by writers and statesmen to be violent and tyrannical, claimed to be illegal by the Commons, there were still many precedents for this action. The last case we find reported occurred in 1670. One Bushell who was on the jury that acquitted Penn and Mead was fined and imprisoned. On habeas corpus the Common Pleas said this might not be done. It is true that the actual decision went no further than to' hold that the return which charged the juror with having voted for acquittal \u201c against full and manifest evidence \u201d without adding that he believed the evidence to be full and manifest is no cause of fine and imprisonment and also that he could not be imprisoned on the theory that in voting for acquittal he disobeyed the instructions of the court. (Bushell\u2019s Case, Vaughan, 135.) It is true, also, that the case was reversed as not cognizable by the Common Pleas. (Holdsworth Hist. of Eng. Law, vol. 1, p. 345.) Yet the opinion of Vaughan, Ch. J., was accepted as a correct statement of the law except as to certain counties where such action was expressly authorized by act of Parliament.\nIn this state \u201c attaints upon untrue verdicts \u201d were abolished in 1801 (L. 1801, ch. 90), and in the Revised Statutes of 1829' not only was this provision reenacted but the revisers attempted to restate the principles of the common law as to the rights of jurors: \u201c The residue new, but declaratory of a principle that has been sometimes disregarded.\u201d (R. S. [2d ed.] vol. 3, p. 741.) The section reads: \u201c attaints upon untrue verdicts are-abolished ; and for any verdict rendered by him, no juror shall be questioned, or be subject to any action or proceeding, civil or criminal, except to indictment for corrupt conduct in rendering such verdict, in the cases prescribed by law.\u201d (R. S. part 3, chap. 7, tit. 4, sec. 69.) Substantially the same provision was in the Code and is now in section 14 of the Civil Rights-Law.\nThe tendency then has been to relieve jurors of all liability for their verdicts. For.the result they need answer neither to-judge nor to litigants nor to third parties, with the one exception that they may be indicted for corrupt conduct. For may we limit too strictly their rights either under the common law or under the statute. It is not alone as to the final result\u2014 the verdict \u2014 that they are protected. Public policy requires that they be given the utmost freedom of debate as it requires it in the case of the legislature. True this may not apply to collateral matters. In Bushell\u2019s case the distinction was clearly drawn between two kinds of misconduct, a breach of their ministerial duty and of their judicial. Probably a juror who concealed a reporter in the jury room might be held guilty of contempt as would be the reporter himself. Or a juror who smuggled in intoxicating liquor and consumed it, or induced his fellows to do so. For probably may any juror called as a witness, in a proper proceeding assert that he is privileged from giving testimony as to occurrences in the jury room. What we do hold is that no juror may he punished for contempt for his part in any proceedings connected with the rendition of the verdict, because of discussions had, arguments used, state-merits made, for the reasons given by him for his vote or for the vote itself.\nIn the case before us each one of the alleged second class of offenses relates to arguments claimed to have been made in bad faith; statements of fact said to be false, and votes as to the verdict said to be knowingly perverse. Admitting all that is claimed, there is no basis for a finding that Cochran was guilty of criminal contempt. If in any of these respects-he was guilty of corrupt conduct, the only remedy is by indictment and by trial before a jury.\nThe order of the Appellate Division and the order of the Special Term punishing the relator for contempt must be reversed and the relator discharged from custody.\nHiscocit, Ch. J., Cardozo, Pound, McLaughlin, Crane and Lehman, JJ., concur.\nOrders reversed, etc.",
+        "type": "majority",
+        "author": "Andrews, J.:"
+      }
+    ],
+    "attorneys": [
+      "Franklin A. Goles, for appellant.",
+      "Charles B. Weeks, District Attorney (Charles I. Wood of counsel), for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "COURT OF APPEALS.\nFebruary 19, 1924.\nMATTER OF WILLIAM R. COCHRAN.\n(237 N. Y. 336.)\nJurors \u2014 Contempt\u2014Juror mat not be punished for contempt for his PART IN PROCEEDINGS CONNECTED WITH RENDITION OF VERDICT BECAUSE OF DISCUSSION, ARGUMENTS, STATEMENTS OR VOTE \u2014 WHERE GUILTY OF CORRUPT CONDUCT REMEDY IS BY INDICTMENT AND TRIAL BY JURY.\n1. No juror may be punished for contempt for his part in any proceedings connected with the rendition of the verdict, because of discussion had, arguments used, statements made, for the reason given by him for his vote or for the vote itself. If in any of .these respects he was guilty of corrupt conduct, the only remedy is by indictment and by trial before a jury. (Civil Bights Law, \u00a7 14.)\n2. Belator was adjudged guilty of criminal contempt of court, first, for alleged untrue statements made by him upon his examination as to his qualifications as a juror, and second, for improper conduct in the jury room during the deliberations of the jury, intended to affect the result \u2014 in that he stated facts to be in evidence as to which no testimony had been given; that he made a proposition to the jurors that they should acquit if a certain person, a stranger to the proceeding, would give a bond for the future good .behavior of the one on trial, and that he failed to keep his promise to render a decision on the evidence, to be a fair and impartial juror and to obey the instructions of the court, because believing the defendant to be guilty he still refused to vote for his conviction. Upon examination of -the return, upon certiorari to review th'e contempt proceedings, held, that there was no evidence whatever from which an inference could be drawn that relator\u2019s answers as to his qualifications were untrue at the time they were made and as to the second class of offenses they do not afford a basis for a charge of criminal contempt.\nMatter of Cochran, 203- App. Div. 870, reversed.\nAppeal from an order of the Appellate Division of the Supreme Court in the second judicial department, entered November 3, 1922, which dismissed a writ of certiorari and affirmed the determination of respondent, Justice of the Supreme Court, adjudging the petitioner guilty of criminal contempt of court.\nFranklin A. Goles, for appellant.\nThe proceedings taken against the relator, appellant, were in violation of section 14 of the Civil Rights Law. (People ex rel. Nunns v. County Court, 188 App. Div. 424; Wigmore on Evidence, \u00a7 2346.) The only power a court of record has to punish for a criminal' contempt is derived, defined and limited by section 750 of the Judiciary Law. (Rutherford v. Holmes, 5 Hun, 317; People ex rel. Munsell v. Ct. of O. & T., 101 N. Y. 245.)\nCharles B. Weeks, District Attorney (Charles I. Wood of counsel), for respondents.\nThe proceeding was properly instituted and the court had jurisdiction of the subject-matter and of the relator. (People ex rel. Munsell v. Ct. of O. & T., 101 N. Y. 245; Briddon v. Briddon, 229 N. Y. 452; People ex rel. Nunns v. County Court, 188 App. Div. 424; Matter of Barnes,. 204 N. Y. 108; Ex parte Hudgings, 249 U. S. 378; Stephenson v. Hanson, 67 How. Pr. 305; Matter of Chadwick, 109 Mich. 588; Holcomb v. Cornish, 8 Conn. 375; Matter of Atchison, 284 Fed. Rep. 604.) Upon proper evidence the relator was proven guilty of acts constituting criminal contempt of court, and the order adjudging him guilty of criminal contempt is fully sustained by the proof. (People ex rel. Nunns v. County Court, 188 App. Div. 424; Ex parte Hill,. 3 Cow. 355; Smith v. Thompson, 1 Cow. 221; McDonald v. Pless, 238 U. S. 264; People v. Zeiger, 6 Park. Cr. Rep. 355; People ex rel. Barnes v. Court of Sessions, 147 N. Y. 296; People v. Hackley, 24 N. Y. 78.)"
+  },
+  "file_name": "0190-01",
+  "first_page_order": 206,
+  "last_page_order": 211
+}

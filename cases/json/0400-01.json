@@ -1,0 +1,135 @@
+{
+  "id": 1224747,
+  "name": "THE PEOPLE EX REL. JOHN VINCENT WARD v. JOSEPH A. McCANN, WARDEN",
+  "name_abbreviation": "People ex rel. Ward v. McCann",
+  "decision_date": "1921-10",
+  "docket_number": "",
+  "first_page": "400",
+  "last_page": "402",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 400"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Sup. Ct.",
+    "id": 10096,
+    "name": "New York Supreme Court Special Term"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "149 N. Y. 195",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        27529
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/149/0195-01"
+      ]
+    },
+    {
+      "cite": "144 App. Div. 45",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "pin_cites": [
+        {
+          "page": "54"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "183 N. Y. 223",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        45811
+      ],
+      "pin_cites": [
+        {
+          "page": "226"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/183/0223-01"
+      ]
+    },
+    {
+      "cite": "223 N. Y. 307",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        81904,
+        1218248
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/223/0307-01",
+        "/ny-crim/36/0387-01"
+      ]
+    },
+    {
+      "cite": "116 Misc. Rep. 589",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        1224739,
+        747783
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/39/0315-01",
+        "/misc/116/0589-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 321,
+    "char_count": 4362,
+    "ocr_confidence": 0.536,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.045809620560889844
+    },
+    "sha256": "46ba91809b0f050ef479369142a6c4921558b95892dc77def5848b940350d0f8",
+    "simhash": "1:33352026c43f47b2",
+    "word_count": 757
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE EX REL. JOHN VINCENT WARD v. JOSEPH A. McCANN, WARDEN."
+    ],
+    "opinions": [
+      {
+        "text": "Kapper, J.:\nRelator, convicted of the crime of assault in the third degree and sentenced to the New York County Penitentiary under and pursuant to the provisions of the Parole Commission Act (Laws of 1915, chap. 579, as amd. by Laws of 1916, chap. 287), and after fifteen months of imprisonment, now seeks his discharge on habeas corpus upon the ground that the maximum imprisonment for his offense is one year (Penal Law, \u00a7 245), and that the parole commission is powerless to hold him beyond that period. His contention finds support in People ex rel. Kipnis v. Warden, 116 Misc. Rep. 589, but I am constrained to differ with the learned justice in the conclusion there reached. As I read the Parole Commission Act, I think its purpose was to subject all persons convicted of crime in cities of the first class whom the committing court did not regard as requiring a State prison sentence, to the disciplinary, reformatory and correctional powers of the parole commission. In this light definite, fixed punishments provided by the various penal statutes when the sentence is to the penitentiary must for that particular instance be deemed modified. I think this legislation has been fully upheld in People ex rel. Cerozsie v. Warden, 223 N. Y. 307, including the possible increased punishment permitted under it, for in that case, as at bar, the conviction was for assault in the third degree (see Court of Appeals record), and although the discussion there proceeded on the proposition of whether or not the law was ex post facto, yet that question could hardly have been decided as it was without an approval of the power to imprison as provided in the Parole Commission Act. The court says (p. 311) : \u201c In our opinion the statute in a real as well as in a technical and legal sense was in force at the time when the relator committed his crime and forewarned him, of the punishment which he might expect. As has been pointed out, it outlined a system of punishment such as has been inflicted upon him and it provided that in case he should be convicted after a commission had been appointed for administering the provisions of said statute he should be punished in accordance with its terms. Thereby it was indicated and he was fully warned before he committed his crime that in the city of New York there might at any time be adopted an altered form of punishment, which would be applied to him if he was convicted after its adoption.\u201d It is said that the Parole Commission Act, if literally followed, establishes different punishments in different parts of the State for the same offenses (People ex rel. White v. Comm\u2019r, etc., N. Y. L. J., Aug. 31, 1921), and that the act should, therefore, be limited to the periods of imprisonment elsewhere specifically prescribed. I do not think this view should obtain, as it was competent for the Legislature, in my opinion, to prescribe a different or greater punishment for the same offense in cities of the first class than in other parts of the State. In People ex rel. Armstrong v. Warden, 183 N. Y. 223, 226, the court says: \u201c Criminal laws are not necessarily unconstitutional even if they bear unequally upon persons in different parts of the State. The evil which the Legislature may have in view in passing such laws may exist only in the great cities of the State and have no existence in rural districts.\u201d And in Matter of Morgan, 144 App. Div. 45, 54, it was said: \u201c It has been held many times in this State that the Legislature had the power to discriminate between different parts of the State by requiring things to be done in one section of the State which were not required in another, and to make acts crimes in certain portions of the State which were not crimes in the rest.\u201d See also, People v. Havnor, 149 N. Y. 195. The writ should be dismissed and the relator remanded.\nWrit dismissed.",
+        "type": "majority",
+        "author": "Kapper, J.:"
+      }
+    ],
+    "attorneys": [
+      "Relator in person for motion.",
+      "Michael J. Driscoll, Deputy Assistant District Attorney, opposed."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014 SPECIAL TERM \u2014 QUEENS COUNTY.\nOctober, 1921.\nTHE PEOPLE EX REL. JOHN VINCENT WARD v. JOSEPH A. McCANN, WARDEN.\nAssault in third degree \u2014 Sentence upon conviction in city of New York may be fifteen months imprisonment \u2014 Parole Commission Act, AS AMENDED IN 1916 \u2014 -DISCHARGE OF HABEAS CORPUS, ON GROUND THAT under Penal Law, section 245, maximum sentence is one year, DENIED.\nHabeas corpus.\nRelator in person for motion.\nMichael J. Driscoll, Deputy Assistant District Attorney, opposed."
+  },
+  "file_name": "0400-01",
+  "first_page_order": 420,
+  "last_page_order": 422
+}

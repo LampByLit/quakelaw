@@ -1,0 +1,70 @@
+{
+  "id": 1224752,
+  "name": "THE PEOPLE v. DAVID GRANCE",
+  "name_abbreviation": "People v. Grance",
+  "decision_date": "1921-09",
+  "docket_number": "",
+  "first_page": "295",
+  "last_page": "296",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 295"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 Misc. 523"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Ct. Gen. Sess.",
+    "id": 9672,
+    "name": "New York Court of General Sessions"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 230,
+    "char_count": 3583,
+    "ocr_confidence": 0.534,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.04507084583123692
+    },
+    "sha256": "fbb5f0ba97f898b08e349e7d63565f771bb67ab402b4f6b139f62a8c5050c3c9",
+    "simhash": "1:07f4d250ab6137ef",
+    "word_count": 601
+  },
+  "last_updated": "2023-07-14T18:56:16.069757+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. DAVID GRANCE."
+    ],
+    "opinions": [
+      {
+        "text": "Nott, J.:\nAccording to the testimony of the police officer, a member of the traffic squad at Broadway and Barclay street, the defendant failed to stop upon signal by the officer, thereby narrowly escaping a collision with a truck. When the officer demanded the defendant\u2019s license card in order to make out a summons, the defendant refused to give it, and, according to the officer, shouted his refusal so that a crowd of several hundred people collected. The officer thereupon arrested the defendant upon, the charge of which he was finally convicted.\nThe provision of law which empowers an officer to issue a. summons instead of making an arrest (Inferior Crim. Courts Act, \u00a7 83, amd. by Laws of 1914, chap. 452, and Laws of 1919, chap. 516) contains no provision making it obligatory for the person arrested to identify himself. It merely makes it obligatory upon the officer to issue a summons instead of making the-arrest \u201c if he has a card or other token of identification.\u201d The defendant, therefore, had a right to refuse to identify himself to the officer and was guilty of no offense in so doing. It thereupon became, the officer\u2019s duty to. place him under arrest on the original charge, namely, offending against the traffic regulations.\nThe only remaining question is as to whether the defendant in refusing to identify himself did so in such a manner as to. be guilty of disorderly conduct tending to a breach of the peace. I do not think that the fact that he may have raised his voice and caused a crowd to collect amounts to such conduct. The officer specifically states that he used no profane or insulting-language, and it is common knowledge that the slightest disturbance on Broadway in the crowded hours will cause the collection of a crowd. On the officer\u2019s testimony, the defendant was guilty of a breach of the traffic rules and could have been convicted on that charge in the traffic court, but I do not think the facts show him to have been guilty of disorderly conduct tending to a breach of the peace.\nThe conviction is reversed on the law, the fine remitted, and the defendant discharged.\nOrdered accordingly.",
+        "type": "majority",
+        "author": "Nott, J.:"
+      }
+    ],
+    "attorneys": [
+      "James S. Watson (Charles Goldzier, of counsel), for appellant.",
+      "Edward Swann, District Attorney (William R. Maloney, of counsel), for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "COURT OF GENERAL SESSIONS \u2014 NEW YORK COUNTY.\nSeptember, 1921.\nTHE PEOPLE v. DAVID GRANCE.\n(116 Misc. 523.)\nArrest \u2014 Failure to stop automobile upon signal of traffic officer \u2014 Identification \u2014 When defendant may not be convicted of disorderly conduct \u2014 Consolidation Act, \u00a7 1459.\nWhile one offending against traffic regulations has a right to refuse to identify himself to the traffic officer, it is the duty of the latter to place the offender under arrest upon that charge.\nDefendant, while driving an automobile, narrowly escaped collision with a truck because of his failure to stop upon the signal of the traffic officer, and when the officer demanded his license card in order to make out a summons, the defendant, using no profane or insulting language, shouted his refusal so that a crowd gathered. Held, that while defendant could have been convicted of a breach of the traffic rules, his arrest and conviction on a charge of disorderly conduct tending to create a breach of the peace under section 1459 of the Consolidation Act was erroneous as matter of law, and the fine imposed will be remitted, the conviction reversed, and the defendant discharged.\nAppeal from a judgment of the City Magistrate\u2019s Court convicting the defendant of a violation of section 1459 of the Consolidation Act.\nJames S. Watson (Charles Goldzier, of counsel), for appellant.\nEdward Swann, District Attorney (William R. Maloney, of counsel), for respondent."
+  },
+  "file_name": "0295-01",
+  "first_page_order": 315,
+  "last_page_order": 316
+}

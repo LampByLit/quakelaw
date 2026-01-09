@@ -1,0 +1,187 @@
+{
+  "id": 807185,
+  "name": "THE PEOPLE v. WILLIAM H. SMITH",
+  "name_abbreviation": "People v. Smith",
+  "decision_date": "1906-05",
+  "docket_number": "",
+  "first_page": "134",
+  "last_page": "139",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "20 N.Y. Crim. 134"
+    },
+    {
+      "type": "parallel",
+      "cite": "113 App. Div. 396"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "101 Ala. 282",
+      "category": "reporters:state",
+      "reporter": "Ala.",
+      "case_ids": [
+        3333434
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ala/101/0282-01"
+      ]
+    },
+    {
+      "cite": "130 Mo. 196",
+      "category": "reporters:state",
+      "reporter": "Mo.",
+      "case_ids": [
+        835265
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mo/130/0196-01"
+      ]
+    },
+    {
+      "cite": "69 Mich. 363",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1321664
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/69/0363-01"
+      ]
+    },
+    {
+      "cite": "68 Vt. 125",
+      "category": "reporters:state",
+      "reporter": "Vt.",
+      "case_ids": [
+        4457488
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/vt/68/0125-01"
+      ]
+    },
+    {
+      "cite": "69 N. Y. 309",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        530681
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/69/0309-01"
+      ]
+    },
+    {
+      "cite": "27 Conn. 316",
+      "category": "reporters:state",
+      "reporter": "Conn.",
+      "case_ids": [
+        526541
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/conn/27/0316-01"
+      ]
+    },
+    {
+      "cite": "15 N. Y. Crim. Rep. 490",
+      "category": "reporters:state",
+      "reporter": "N.Y. Crim.",
+      "case_ids": [
+        1183402
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/15/0490-01"
+      ]
+    },
+    {
+      "cite": "19 N. Y. Crim. Rep. 460",
+      "category": "reporters:state",
+      "reporter": "N.Y. Crim.",
+      "case_ids": [
+        1189864
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "531"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/19/0460-01"
+      ]
+    },
+    {
+      "cite": "183 N. Y. 464",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1189864,
+        45974
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/19/0460-01",
+        "/ny/183/0464-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 583,
+    "char_count": 11538,
+    "ocr_confidence": 0.578,
+    "pagerank": {
+      "raw": 2.8755957041020497e-07,
+      "percentile": 0.8431543692315653
+    },
+    "sha256": "04634ecdb9f427a76e02adb23483a7c3f8b9a7665235a570c92e72bcb1a3c74b",
+    "simhash": "1:b242b72d7c5a9498",
+    "word_count": 2012
+  },
+  "last_updated": "2024-02-27T20:27:53.368575+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. WILLIAM H. SMITH."
+    ],
+    "opinions": [
+      {
+        "text": "Patterson, J.:\nThe defendant was tried in the Court of General Sessions of the Peace in and for the county of New York upon an indictment which charged him with the crime of assault in the first and second degrees, a second offense. It was alleged in the indictment that the accused, in the year 1901, had been convicted of a felony, to wit, an attempt to commit a crime of grand larceny in the second degree, and after such conviction was sentenced to imprisonment in the penitentiary; that thereafter and on the 29th day of December, 1904, he feloniously made an assault upon one William O\u2019Brien, whom he shot with intent to kill. Upon the trial of the indictment the defendant was found guilty and judgment was pronounced against him in due form of law. He appeals from that judgment.\nThere is no question of the first conviction. It was fully proven by record evidence and the identification of the defendant as the person convicted. It appeared in evidence that the defendant was the keeper of a drinking saloon, or so-called concert hall, on the Bowery, in the city of New York. Early on the morning of December 29, 1904, at about three o\u2019clock, several persons were assembled in the saloon. They were drinking and carousing. Among them was one William O\u2019Brien. He was talking in a loud voice and was evidently in anger. He referred to the defendant in insulting terms, called him a \u201c stool pigeon,\u201d and declared that he would \u201c get even \u201d with him. When those words were uttered by O\u2019Brien, he, the defendant, and a woman named Sadie Ennis formed a group and evidently had been talking together. They were standing in the rear of the defendant\u2019s saloon. O\u2019Brien left them and proceeded toward the front of the premises, going down some steps. When he reached the foot of the steps he was shot, the bullet striking him under.the region of the heart. There was testimony given by two boys, McGrivern and Brady (who saw the occurrence), that the shot was fired from a pistol in the hands of the defendant. Those witnesses give a circumstantial and detailed account of that occurrence, and from their statements, which are not contradicted in any substantial detail, it was. established that the shooting was done by the defendant. Another witness, Donovan, was in the rear of the room when the-excited talk was heard, and he also saw Smith, the defendant, shoot O\u2019Brien. There can be no possible doubt upon the testimony of the identification of the person who discharged the pistol. BTo witnesses were called by the defendant, and the case was left to the jury upon the evidence introduced by the-People.\nThe defendant asked for a reversal of the judgment on several grounds, the first being that the assistant district attorney in opening the case to the jury referred to a matter entirely irrelevant to the inquiry properly before them and which it is claimed must have affected, from the beginning, the minds of the jury adversely to the defense. In his opening address the-assistant district attorney stated that O\u2019Brien had been a witness on the trial of an indictment of a drunken policeman for-shooting another person; that the police officer and one Brennan were drinking in the defendant\u2019s saloon and after fighting there went to the sidewalk where the officer shot and killed Brennan. It was stated that O\u2019Brien was a witness of this occurrence and testified against the policeman, who was convicted. Several times during the trial counsel for the prosecution referred to that subject, his claim being that it was competent as evidence of motive on the part of the defendant to commit an assault on O\u2019Brien, who, by the testimony given on the trial of the police officer, exposed the disorderly character of the defendant\u2019s saloon. When the remarks were made by the prosecuting officer, the court, apparently of its own motion, suggested that the assistant district attorney confine himself to what. occurred at the time of the shooting of O\u2019Brien, and that if it became necessary to prove motive, it might be done thereafter. The defendant\u2019s counsel moved to withdraw a juror on the ground that the statements made by the counsel for the People were calculated to prejudice the defendant and it was not possible for him to obtain a fair and impartial trial; that motion was denied, and the defendant\u2019s counsel excepted.\nIt is apparent that in making the remarks which were thus criticised the assistant district attorney believed that it was competent for the prosecution to prove that Smith had a motive which might impel him to commit an act of violence upon the person of O\u2019Brien, and we are unable to see that there was an intention to create a prejudice in the minds of the jurors against the defendant. The remarks were not made heedlessly or impulsively or without regard to the defendant\u2019s rights. The prosecuting officer claimed at the trial, and it is now argued with considerable force, that the statements objected to were competent as evidence of motive. Those remarks, we think, do not come within the condemnation of such cases as People v. Wolf (183 N. Y. 464, 19 N. Y. Crim. Rep. 460) ; People v. Smith (162 id. 531); People v. Mull (167 id. 247, 15 N. Y. Crim. Rep. 490) and similar cases. We cannot say that it is misconduct on the part of a prosecuting officer in a criminal case to allude to facts and circumstances which he believes are connected with and germane to a charge contained in an indictment, especially where it is not at all clear that his\u2018contention in that regard is erroneous.\nIt is further claimed by the defendant that prejudicial error was committed by the court in permitting the prosecution on redirect examination to ask .certain questions of the witness O\u2019Brien, the person who was shot. That man was called by the People as a witness, and he simply testified that he was shot some time in the month of December, 1904. On cross-examination the witness was asked: \u201c Do you know who shot you ? \u201d He swore that it was not the defendant. The court asked him: \u201c Well, but you haven\u2019t told us yet who shot you? \u201d and the witness replied: \u201c Well, positively, I didn\u2019t see no man shoot me. I wouldn\u2019t accuse the party that shot me. I don\u2019t know who shot me.\u201d He said that \u201c positively, under (his) oath,\u201d he did not know who shot him. He further testified that he was in 23 Bowery (the defendant\u2019s saloon) on the night in question, and there had an altercation with the woman Sadie Ennis. He also stated that the stepfather of a man named Brennan asked him who shot him, and that he stated that he would settle it himself when he got out of the hospital. He was asked on his redirect examination whether he had not stated to one of the officers that it was \u201c Billy Smith \u201d who shot him, and he answered \u201c No.\u201d All this testimony on redirect examination seems to have been objected to on the ground that the prosecution could not contradict its own witness. It is evident that this witness was reluctant to testify, and was evasive and did not intend to incriminate the defendant. He had not been asked by the prosecution who shot him. That question was put by his own counsel, and on redirect examination the prosecution merely followed up an inquiry originating with the defense. Hothing was elicited prejudicial to the defendant.\nIt is contended that the trial judge erroneously refused to charge without qualification a request of the defendant\u2019s counsel, as follows: \u201c I ask your honor to charge the jury that the failure of the People to call Sadie Ennis may be taken as a circumstance;' if she was called, her' testimony would be adverse to the People\u2019s theory of the case.\u201d Before any reply was made to this by the court, the assistant district attorney requested the judge to charge that' the same proposition was applicable to the defendant\u2019s not calling Sadie Ennis. This woman was present in court during the trial. The court said: \u201c She was here and could be called by either side. Why should not that presumption apply to you as well as to the defendant? The rule, gentlemen, is that where there is an eye-witness to an occurrence, and it is in the power of either side to call that witness, and they do not call the witness, it is a fair inference that her testimony would be against the side failing to call her.\u201d\n\u201c A party\u2019s failure to call a witness whom he might call does not generally raise a presumption that his testimony would be unfavorable to such party, especially if such witness is equally accessible to both parties, or his testimony would be simply cumulative.\u201d . (Chase Steph. Dig. Ev. [2d. ed.] 314, citing Scovill v. Baldwin, 27 Conn. 316; Bleecker v. Johnston, 69 N. Y. 309; State v. Fitzgerald, 68 Vt. 125; Coleman v. State, 111 Tnd. 563; Cross v. Lake Shore, etc., R. Co., 69 Mich. 363; Kerstner v. Vorweg, 130 Mo. 196; Bates v. Morris, 101 Ala. 282.)\nWe do not think that the defendant was entitled to the instruction in the form in which he presented it. He asked the court to charge that the failure of the People to call this woman Ennis may be taken as a circumstance that if she were called her testimony would be adverse to the People\u2019s theory of the case. The most that he could have been entitled to was an instruction that under such circumstances the jury could take the fact into -consideration, not that the woman would positively testify against the People\u2019s whole case.\nOn the entire case we think it clear that the defendant was guilty of the crime for which he was convicted and that his rights were fully protected on the trial and that justice requires that the judgment should be affirmed.\nO\u2019Brien, P. J., Ingraham, Laughlin and Clarke, JJ., concurred.\nJudgment affirmed. Order filed.",
+        "type": "majority",
+        "author": "Patterson, J.:"
+      }
+    ],
+    "attorneys": [
+      "Lewis Stuyvesant Chanler, for appellant.",
+      "Robert S. Johnstone, for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT\u2014APP. DIVISION\u2014FIRST DEPARTMENT,\nMay, 1906.\nTHE PEOPLE v. WILLIAM H. SMITH.\n(113 App. Div. 396.)\n(1) . Trial\u2014When Opening by Prosecution Stating Motive for Crime not .Prejudicial 'to Accused\u2014Assault in Second Degree.\nA statement by the prosecution on a trial of a charge of assault, that B. who was shot, had in another criminal action testified against a police officer who shot a person in the present defendant\u2019s saloon, is not calculated to prejudice the defendant\u2019s case when the statement is made on the theory that such fact indicated a motive for the defendant to commit the crime.\n(2) . Same\u2014Evidence\u2014Proper Questions on Redirect Examination.\nWhen the person shot, called by the People, has refused to testify that the defendant shot him, and on cross-examination has stated that he did not know who shot him, it is not error to allow the prosecution to ask on redirect examination whether he had not stated to others that the defendant shot him.\n(3) . Same\u2014Charge to Jury.\nIt was not error to refuse to charge that the failure of the prosecution to call as1 a witness a person who was present at the shooting, and who was not called by the defendant' raises the presumption that her testimony would be adverse to the People. The most that the defendant was entitled to have charged was that the jury might take that fact into consideration.\nAppeal by the defendant, William H. Smith, from a judgment of the Court of General Sessions of the Peace in and for the county of Hew York in favor of the plaintiff, rendered on the 13th day of March, 1905, convicting the defendant of assault in the second degree as a second offense, and also from two orders respectively denying the defendant\u2019s motions for a new trial and in arrest of judgment.\nLewis Stuyvesant Chanler, for appellant.\nRobert S. Johnstone, for the respondent."
+  },
+  "file_name": "0134-01",
+  "first_page_order": 156,
+  "last_page_order": 161
+}

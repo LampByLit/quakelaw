@@ -1,0 +1,117 @@
+{
+  "id": 1224722,
+  "name": "THE PEOPLE v. JOHN ALABODA",
+  "name_abbreviation": "People v. Alaboda",
+  "decision_date": "1921-07-07",
+  "docket_number": "",
+  "first_page": "279",
+  "last_page": "284",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 279"
+    },
+    {
+      "type": "parallel",
+      "cite": "198 App. Div. 41"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "151 N. Y. 223",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        29828
+      ],
+      "pin_cites": [
+        {
+          "page": "228"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/151/0223-01"
+      ]
+    },
+    {
+      "cite": "89 App. Div. 245",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        7664113
+      ],
+      "pin_cites": [
+        {
+          "page": "247"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/86/0049-01"
+      ]
+    },
+    {
+      "cite": "109 N. Y. 110",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        560705
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/109/0110-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 563,
+    "char_count": 10804,
+    "ocr_confidence": 0.517,
+    "pagerank": {
+      "raw": 3.780074835146554e-07,
+      "percentile": 0.8965124993773769
+    },
+    "sha256": "e4aaf1100aa5851455ad717d12986123319b7b729e5e0927d9996c83b13f9309",
+    "simhash": "1:a2c8e2c24bdb2d57",
+    "word_count": 1963
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. JOHN ALABODA."
+    ],
+    "opinions": [
+      {
+        "text": "Woodward, J.:\nThere is very little dispute about the essential facts. The defendant went to the automobile livery of one Loukes, in the village of Port Henry, on -the 5th day of June, 1919, and hired a Ford automobile. He was to furnish his own oil and gasoline and to pay fifteen cents per mile for the actual mileage of the car, the destination being uncertain. Loukes testifies that he insisted that the car must be returned not later than seven o\u2019clock the next morning, and the defendant insists that there was no bargain as to the time he should keep the car; that Loukes said it was all right when he told him he did not know how long he would be gone. The fact that the condition of hiring was upon a mileage basis would seem to indicate that the defendant\u2019s theory of the hiring was at will rather than for a limited time, but in the view we take of the statute this is not very material. The defendant in fact did not return the car the next morning. On the contrary, he kept it for several days, driving it afternoons and evenings about the village of Port Henry, parking it in front of his home near the Loukes garage when it was not in use. It is not claimed that he made any effort to conceal the car, or evidenced any purpose inconsistent with his theory of the hiring. On the evening of the fourth day the defendant drove the car to Crown Point, seven or eight miles from Port Henry, where the car was disabled. The defendant returned to Port Henry and on the following morning sent his friend Zhanesky to Loukes to tell him of the condition of the car and its whereabouts, and the latter sent for the car and had it brought home. There appears to have been some effort at a settlement between the parties, and the matter drifted along for several months, when Loukes procured the indictment of the defendant upon the theory that he was guilty of larceny under the provisions of section 1293-a of the Penal Law, and upon the trial of the action the learned trial court charged the jury that under the statute \u201c any person who without the consent of the owner shall use or operate an automobile for his own profit, use or purpose, steals the same and is guilty of larceny.\u201d No exception was taken to this charge, but counsel for defendant asked the court to charge \u201c that if the defendant acquired the possession of the car with the consent of the owner, Mr. Loukes, that then the use thereof didn\u2019t constitute larceny, even if he retained it longer than it was agreed upon that he should retain it.\u201d The court charged this request \u201c with the modification that the defendant is not guilty so far as he used the car and kept within the consent given by the owner of the car,\u201d which, of course, practically rendered the charge negative upon the real question supposed to be at issue. The defendant then asked the court to charge \u201c that even if the defendant was required under the terms of the letting to return the car by seven o\u2019clock on the following morning, and if failing in that he retained the car under such circumstances that Loukes had knowledge of it and made no demand for its return, his consent to the further use may be inferred.\u201d This was charged, and the jury retired. Subsequently, the jury returned and asked for further instructions, and the court responded as follows: \u201c As far as I can go, gentlemen, is to say that the case turns, as I see it, upon the question of whether the defendant did have or did not have the consent of the owner, and that, under the circumstances testified to by the witnesses, is a question of fact for you to determine. If you reach the conclusion that the defendant in his use of this car during the time he had it in his possession had the consent of Mr. Loukes, the owner, to the use of the car, then there was no-crime committed here; but if you find that he used that car for his own purposes and his own profit, without the consent of the owner, then you could bring in a verdict of guilty. That is so far as I feel that I can go.\u201d-\nThe jury brought in a verdict of guilty, with a strong recommendation for clemency, and defendant moved to set aside the verdict as against the weight of evidence and contrary to the law; and the question is presented upon this appeal whether the court correctly stated the law to the jury.\nIt is conceded that at common law the defendant would not be guilty of any crime; he would not be liable at common law for conversion without a demand for the return of the property, he having come into possession lawfully. The statute here under consideration is penal in character; it makes that larceny which might not otherwise constitute the crime. In other words, it changes the common law upon the subject of larceny in respect to automobiles, establishing a different standard from that prevailing in respect to other personal property. Statutes changing the common law are to be strictly construed, and the latter will be held to be no further abrogated than the clear import of the language used in the statutes absolutely requires. (People v. Palmer, 109 N. Y. 110; Fitzgerald v. Quann, Id. 441; Dean v. M. E. R. Co., 119 id. 540.) The common law, which has the force of statutes until altered or repealed (Rosin v. Lidgerwood Mfg. Co., 89 App. Div. 245, 247, and authority there cited), is not presumed to be changed by any doubtful statutory provisions; the presumption is that no such change is intended, unless the statute is explicit and clear in that direction. (Jones v. City of Albany, 151 N. Y. 223, 228.) If we read the statute (Penal Law, \u00a7 1293-a) in the light of these principles we shall find that there is no effort to change the common law rule in relation to conversion, and that there has been no purpose on the part of the Legislature to deal with a case in which the person has come into possession of the property for his own purposes with the consent of the owner. The statute has full scope for useful operation when it is applied to the mischief sought to be remedied, without extending it to cases which were obviously not within the contemplation of the Legislature. It does not purport to deal with the matter of lawful possession for one\u2019s own use, or a violation of the obligation to return it at an agreed time, but has reference to a possession by a chauffeur or other person, \u201c who without the consent of the owner shall take, use, operate or remove, or cause to be taken, used, operated or removed, from a garage, stable, or other building or place or from any place or locality on a private or public highway, park, parkway, street, lot, field, inclosure or space, an automobile or motor vehicle, and operate or drive or cause the same to be operated or driven for his own profit, use or purpose.\u201d The possession by the chauffeur for the purposes of the owner often involves his operation of the machine with no apparent relation to the master\u2019s business, and, of course, gives opportunity for the abuse of this situation. The placing of a car in a garage for the purpose of repair, cleaning, oiling, etc., exposes the car to the same danger of use, and it is often necessary to try the machine to determine whether the repairs made are effective and operating correctly, and such operation is, of course, with the owner\u2019s implied consent, and if the person who is thus intrusted with the car for any of these purposes takes it and operates it, or permits it to be operated, for the profit or purpose of persons other than the owner, without the latter\u2019s consent, he is within the mischief of the statute; and it was this kind of a situation which the statute attempted to deal with. When a man goes to an automobile livery and hires an automobile from the owner he has it with the consent of such owner, and the Legislature cannot be presumed to have intended that the owner could by a limitation upon the time, about which there might easily be mistake, involve the hirer in a crime where no criminal intent was involved. It is not disputed in this case that the defendant hired the automobile for an indefinite distance; the compensation was agreed upon the basis of mileage, and if the prosecution\u2019s construction of the law is to prevail then if the car broke down so that it could not be returned before seven o\u2019clock the next morning and the defendant operated it subsequent to that time, in returning it to the owner, he would he guilty of a felony. No such absurdity was contemplated. Crime is not involved in a mere breach of contract, unless the Legislature has clearly and unmistakably decreed that this shall he the result. Assuming that the defendant did agree to have the car hack the next morning by seven o\u2019clock, he merely failed to keep his agreement \u2014 he breached the contract \u2014 and was liable for any damages resulting, hut he did not commit a crime, and it has never been the policy of the law to place it in the power of individuals to make that a crime which lacked the essential elements of an offense against society.\nIf the owner of the car had demanded the car, and the defendant had refused to deliver it, there would have been a conversion, entitling the owner to damages, with the aid of an execution against the body; but there is nothing in the statute which suggests an option on the part of an owner of a car to give his consent to the use of a vehicle in such a manner as to involve the hirer in a crime by a mere lapse of time.\nThe judgment appealed from should he reversed.\nAll concur.\nJudgment of conviction reversed and indictment dismissed..",
+        "type": "majority",
+        "author": "Woodward, J.:"
+      }
+    ],
+    "attorneys": [
+      "Fred W. Dudley, for the appellant.",
+      "O. Byron Brewster, District Attorney, for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014APPELLATE DIVISION \u2014 THIRD DEPARTMENT.\nJuly 7, 1921.\nTHE PEOPLE v. JOHN ALABODA.\n(198 App. Div. 41.)\n(1) Larceny \u2014 Penal Law, \u00a7 1293a.\nSection 1293a of the Penal Law, making it a crime to use, operate or remove an automobile from a garage or other building or place without the consent of the owner, and to operate or drive the same for the profit, use or purpose of the one taking it, was not intended to change the common-law rule as to conversion, and the Legislature did not purport to deal with a ease where a person has come into possession of an automobile for his own purposes with the consent of the owner.\n(2) Same \u2014 Failure to return hired automobile within time agreed DOES NOT CONSTITUTE VIOLATION OE PENAL LlAW, \u00a7 1293a.\nAccordingly, a person who hires an automobile from the owner does not commit the crime of larceny under said section by failing to return it to the owner within the time agreed upon.\nAppeal by the defendant, John Alaboda, from a judgment of the County Court of the county of Essex, rendered on the 28th day of October, 1920, convicting him of the crime of grand larceny in the second degree in violation of section 1293-a of the Penal Law.\nFred W. Dudley, for the appellant.\nO. Byron Brewster, District Attorney, for the respondent."
+  },
+  "file_name": "0279-01",
+  "first_page_order": 299,
+  "last_page_order": 304
+}

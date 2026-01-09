@@ -1,0 +1,440 @@
+{
+  "id": 1224733,
+  "name": "THE PEOPLE v. WINNE RADCLIFFE",
+  "name_abbreviation": "People v. Radcliffe",
+  "decision_date": "1921-12-13",
+  "docket_number": "",
+  "first_page": "394",
+  "last_page": "399",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 394"
+    },
+    {
+      "type": "parallel",
+      "cite": "232 N.Y. 249"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y.",
+    "id": 24653,
+    "name": "New York Court of Appeals"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "2 App. Div. 332",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2274768
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ad/2/0332-01"
+      ]
+    },
+    {
+      "cite": "203 N. Y. 484",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2362496,
+        1199025
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/203/0484-01",
+        "/ny-crim/26/0519-01"
+      ]
+    },
+    {
+      "cite": "216 N. Y. 324",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        4530811
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/216/0324-01"
+      ]
+    },
+    {
+      "cite": "195 N. Y. 361",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        6042061,
+        1194919
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/195/000?-01",
+        "/ny-crim/23/0389-01"
+      ]
+    },
+    {
+      "cite": "219 N. Y. 222",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1216986,
+        1957045
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/35/0280-01",
+        "/ny/219/0222-01"
+      ]
+    },
+    {
+      "cite": "58 N. Y. 354",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2158486
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/58/0354-01"
+      ]
+    },
+    {
+      "cite": "54 N. Y. 488",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        514606
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/54/0488-01"
+      ]
+    },
+    {
+      "cite": "138 N. Y. 601",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1172782
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/10/0399-01"
+      ]
+    },
+    {
+      "cite": "38 Hun, 500",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "opinion_index": -1
+    },
+    {
+      "cite": "113 App. Div. 396",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        807185
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/20/0134-01"
+      ]
+    },
+    {
+      "cite": "215 N. Y. 592",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1211616,
+        74133
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/33/0397-01",
+        "/ny/215/0592-01"
+      ]
+    },
+    {
+      "cite": "80 Miss. 491",
+      "category": "reporters:state",
+      "reporter": "Miss.",
+      "case_ids": [
+        374271
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/miss/80/0491-01"
+      ]
+    },
+    {
+      "cite": "27 Tex. App. 539",
+      "category": "reporters:state",
+      "reporter": "White & W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "101 Wis. 627",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        11283007
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/wis/101/0627-01"
+      ]
+    },
+    {
+      "cite": "144 Wis. 279",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8699675
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/wis/144/0279-01"
+      ]
+    },
+    {
+      "cite": "138 N. Y. 607",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        22240,
+        22273
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/138/0607-02",
+        "/ny/138/0607-01"
+      ]
+    },
+    {
+      "cite": "88 N. Y. 89",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "weight": 2,
+      "opinion_index": -1
+    },
+    {
+      "cite": "4 N. Y. Cr. Rep. 60",
+      "category": "reporters:state",
+      "reporter": "N.Y. Crim.",
+      "case_ids": [
+        797889
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny-crim/4/0060-01"
+      ]
+    },
+    {
+      "cite": "38 Hun, 428",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "weight": 2,
+      "opinion_index": -1
+    },
+    {
+      "cite": "179 N. Y. 267",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2318641,
+        805303
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/179/0267-01",
+        "/ny-crim/18/0509-01"
+      ]
+    },
+    {
+      "cite": "176 N. Y. 278",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2313545,
+        1187059
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/176/0278-01",
+        "/ny-crim/17/0517-01"
+      ]
+    },
+    {
+      "cite": "100 N. Y. 509",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "153 N. Y. 111",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2277553
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/153/0111-01"
+      ]
+    },
+    {
+      "cite": "194 App. Div. 946",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        4589312,
+        4591206,
+        4592423,
+        4595753,
+        4591724,
+        4591309,
+        4588367,
+        4591537,
+        4589493,
+        4603094,
+        4590071,
+        4589245,
+        4591991
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ad/194/0946-07",
+        "/ad/194/0946-13",
+        "/ad/194/0946-08",
+        "/ad/194/0946-06",
+        "/ad/194/0946-04",
+        "/ad/194/0946-03",
+        "/ad/194/0946-02",
+        "/ad/194/0946-09",
+        "/ad/194/0946-12",
+        "/ad/194/0946-11",
+        "/ad/194/0946-01",
+        "/ad/194/0946-05",
+        "/ad/194/0946-10"
+      ]
+    },
+    {
+      "cite": "88 N. Y. 81",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        550650
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/88/0081-01"
+      ]
+    },
+    {
+      "cite": "87 N. Y. 377",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        549433
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/87/0377-01"
+      ]
+    },
+    {
+      "cite": "101 Wis. 627",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        11283007
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wis/101/0627-01"
+      ]
+    },
+    {
+      "cite": "144 Wis. 279",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8699675
+      ],
+      "pin_cites": [
+        {
+          "page": "305"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wis/144/0279-01"
+      ]
+    },
+    {
+      "cite": "153 N. Y. 111",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2277553
+      ],
+      "pin_cites": [
+        {
+          "page": "115"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/153/0111-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 545,
+    "char_count": 12240,
+    "ocr_confidence": 0.533,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.04580788300785104
+    },
+    "sha256": "d9716d1fe0b28990f11e03e184148d5850464633b11f5d354aeb0c5b302fd4fd",
+    "simhash": "1:fe6f2c2b737f11c0",
+    "word_count": 2134
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. WINNE RADCLIFFE."
+    ],
+    "opinions": [
+      {
+        "text": "Pound, J.:\nDefendants were tried and convicted in Albany County Court on an indictment of robbery, first degree, charging that they, in the city of Albany on October 25, 1919, assaulted Joseph Argendorf, a farmer from Oneonta, and robbed him of a sum of money. The People\u2019s evidence is to the effect that when waiting for a train, complainant stopped in a saloon on Green street, listened to the music and drank with defendants who were strangers to him. When he left, the saloon at about eleven o\u2019clock at night they proposed to escort him to the depot and left with him. They knocked him down, took his money and ran away. He called for the police and shortly thereafter Radcliffe and Requa were arrested. Complainant identified them. Lorenz was found later. Lorenz and Radcliffe testified that they were all in the saloon drinking together but they denied that they left together and denied the robbery. Defendants contended that the People had failed to establish their guilt beyond a reasonable doubt because they called no witnesses of the robbery and particularly because they called no one from the saloon to corroborate complainant\u2019s testimony that he and defendants went out together. They also contended that it was a fair inference from the cross-examination of complainant that he did not in truth identify defendants except as one of the police officers forced him to say that they were the men who robbed him. This brief outline of the essential facts is necessary as a background for the alleged errors of law complained of.\nThe Appellate Division having reviewed the facts and being satisfied with the judgment of conviction thereon, reversed and ordered a new trial for errors of law \u201c committed on the charge of reasonable doubt.\u201d The general charge on this subject was in substance in language approved by this, court in People v. Barker (153 N. Y. 111, 115) and many other cases. The jury were instructed that in case of reasonable doubt as to defendants\u2019 guilt they were entitled to an acquittal. (Code Crim. Proc. \u00a7 389.) Reasonable doubt was defined as a doubt founded on the evidence after a fair, honest and conscientious consideration of all the evidence, and the jury were told more than once that defendants were presumed to he innocent so long as the jury had the slightest reasonable doubt as to their guilt.\nThe court was then requested by defendants\u2019 counsel to subdivide the general charge and charge in detail as follows:\n1. That not only may a reasonable doubt be founded on the evidence but it may be founded on the lack of evidence.\n2. That a reasonable doubt might arise by reason of the People\u2019s failure to call witnesses to corroborate complainant\u2019s .statement that he and defendants left the saloon together.\n3. That if the jury finds that the identification of the defendants or any of them by' the complainant was forced in any way by the police officer they may acquit on that alone.\nThese requests to charge were refused and an exception taken. The court, however, continued its instructions as follows:\n\u201c If you find that this identification by the complaining witness was forced by the police officers, and was not true, and there is a reasonable doubt in your minds as to the guilt or innocence of the defendants, after considering all of the other evidence in the ease, then you must acquit.\u201d\nTo this portion of the charge no exception was taken.\nDefendants\u2019 counsel then asked the court to charge the jury:\n\u201c If they have any doubt, founded on the evidence, no matter how slight that doubt may be, as to the guilt of the defendants, then they must acquit.\u201d\n\u201c The Court. If that doubt which you may have, after considering the evidence, is a reasonable doubt, as defined by the court, then it is your duty to give the defendants, and each of them, the benefit of that doubt and acquit them.\u201d\nDefendants\u2019 counsel further asked the court to charge the jury:\n\u201cHo matter how slight that doubt is that arises, so long as it is a reasonable doubt, coming from the evidence, then they must acquit.\n\u201c The- Court. Yes, I so charge.\u201d\nThe jury thereupon retired for deliberation.\nIt cannot be said that the evidence against defendants was so overwhelming as to render immaterial the rulings excepted to if they were erroneous. Defendants\u2019 contention is that they were thereby deprived of the benefit of reasonable doubt which might arise from insufficiency or lack of evidence. The charge as a whole was proper and it is quite impossible that the jury should have misapprehended it.\nThe jurors were instructed that it was their duty to judge the facts and to weigh the evidence and that if they had the slightest doubt of the guilt of the defendants, so long as it was a reasonable doubt, founded on the evidence, it was their duty to acquit. We may assume that they possessed sufficient intelligence to understand that the court intended to tell them that they were to consider not only the evidence that was given in the case but also whether there was an absence of material and convincing evidence. \u201c Any reasonable doubt founded on the evidence \u201d means \u201c any reasonable doubt arising out of evidence or lack of evidence.\u201d Defendants were not entitled to select the phraseology so long as the thought was once fairly expressed in the language of the judge. (Emery v. State, 101 Wis. 627; Hedger v. State, 144 Wis. 279, 305.)\nNo error arose from the refusal to charge specifically on doubt which might arise from failure to corroborate complainant\u2019s evidence that he left the saloon in defendants\u2019 company. When the judge properly submits to the jury a general charge on the subject of reasonable doubt, covering the entire field, he may not be required to subdivide his instructions and charge separately as to each particular bit of proof or failure of proof from which a reasonable doubt might arise as to the strength of a link in the chain of evidence. It is not error to refuse to call to the attention of the jury fragmentary portions of the evidence or gaps in the evidence with specific instructions that if a reasonable doubt arises therefrom the jury should acquit. This rule holds good even though in the abstract the proposition submitted is sound and in harmony with the court\u2019s theory of the case and with the general charge as given. A criminal trial might be interminable if counsel could compel the court to instruct the jury separately as to all' the details of the evidence and all the suggested failures of proof from which a reasonable doubt of guilt might spring. (O\u2019Connell v. People, 87 N. Y. 377; Walker v. People, 88 N. Y. 81.)\nThe serious question presented to the jury was whether defendants went out of the saloon with complainant and robbed him. If they did not go out together with him, they did not rob him; if the jury had any reasonable doubt of the truthfulness or sufficiency of complainant\u2019s narrative, the People\u2019s case collapsed on every controverted point.\nThe third request refused, as to the trustworthiness of complainant\u2019s evidence of identification, was improper. If the jury had any reasonable doubt as to the fact of identification it was their duty to acquit under the general instructions of the court. Only a narrow formalist could say, in substance, that the jury might have understood from the charge as made and the refusal .to charge as requested that they should convict although they had reasonable doubt as to the identity of the defendants with the robbers. Furthermore, the charge on this point as finally made was acceptable to defendants\u2019 counsel.\nThe last impression left on the minds of the jury must have been that if they had the slightest doubt on all the evidence, considering not only the proof offered but all failures of proof, as to whether defendants\u2019 guilt was satisfactorily shown, it was their duty to acquit.\nThe judgment of the Appellate Division should be reversed and that of the County Court affirmed.\nHiscock, Ch. J., Hogan, Cardozo, McLaughlin, Crane and Andrews, JJ., concur.\nJudgment accordingly.",
+        "type": "majority",
+        "author": "Pound, J.:"
+      }
+    ],
+    "attorneys": [
+      "Timothy E. Roland, District Attorney (John J. Conway, Jr., of counsel), for appellant.",
+      "Joseph L. Delaney, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "COURT OF APPEALS.\nDecember 13, 1921.\nTHE PEOPLE v. WINNE RADCLIFFE.\n(232 N. Y. 249.)\n(1) Robbery \u2014 Reasonable doubt \u2014 When jodge makes a general CHARGE UPON THE SUBJECT OF REASONABLE DOUBT CORRECTLY STATING THE LAW, IT IS NOT ERROR TO REFUSE TO SUBMIT PARTS OF EVIDENCE WITH SPECIFIC INSTRUCTIONS.\nWhen a judge upon the trial of a criminal action properly submits to the jury a general charge on the subject of reasonable doubt, covering the entire field, he may not be required to subdivide his instructions and charge separately as to each particular bit of evidence or lack of evidence from which a reasonable doubt might arise as to the strength of each link in the chain. It is not error to refuse to submit for the consideration of the jury fragmentary portions of the evidence or gaps in the evidence with specific instructions that if a reasonable doubt as to some fact essential to proof of guilt arises therefrom the' jury should acquit.\n(2) Same.\nWhere, upon the trial of three defendants indicted for robbery in the first degree, the jurors were instructed that it was their duty to judge the facts and to weigh the evidence and that if they had the slightest doubt of the guilt of the defendants, so long as it was a reasonable doubt, founded on the .evidence, it was their duty to acquit, it must be assumed that they possessed sufficient intelligence to understand that the court intended to tell them that they were to consider not only the evidence that was given in the case but also whether there was an absence of material and convincing evidence. \"Any reasonable doubt founded on the evidence\u201d means \"any reasonable doubt arising out of evidence or lack of evidence.\u201d Defendants were not entitled to select the phraseology so long as the thought was once fairly expressed in the language of the judge, and hence it was not error for the court to refuse to charge specifically on doubts claimed to arise from the failure of the prosecution to corroborate statements made by complainant as to facts antecedent to the robbery and also as to his identification of the defendants as the robbers.\n(People v. Radcliffe, 194 App. Div. 946, reversed.)\nAppeal from an order of the Appellate Division of the Supreme Court in the third judicial department, entered November 17, 1920, which reversed a judgment of the Albany County Court, rendered upon a verdict convicting the defendants of the crime of robbery in the first degree and granting a new trial.\nTimothy E. Roland, District Attorney (John J. Conway, Jr., of counsel), for appellant.\nThe charge of the judge presiding at this trial in reference to reasonable doubt was full and complete and in accord with the rulings of the leading cases of this State on that subject. (People v. Barker, 153 N. Y. 111; People v. Guidici, 100 N. Y. 509 ; People v. Tobin, 176 N. Y. 278; People v. Boggiano, 179 N. Y. 267; People v. Reavey, 38 Hun, 428; People v. Cruger, 4 N. Y. Cr. Rep. 60; Walker v. People, 88 N. Y. 89; People v. Pallister, 138 N. Y. 607; Hedger v. State, 144 Wis. 279; Emery v. State, 101 Wis. 627; Zwicker v. State, 27 Tex. App. 539; Mathis v. State, 80 Miss. 491.) The court did not commit error in refusing to charge that reasonable doubt might arise from the People\u2019s failure to call available witnesses. (People v. Roach, 215 N. Y. 592; People v. Smith, 113 App. Div. 396.) The court did not commit error in refusing the request of defendant\u2019s counsel to charge the jury that, if they found that the identification of the boys or any of them made by Argendorf was forced in any way by Sergeant Fisher, then they might acquit on that alone. (People v. Cruger, 38 Hun, 500; People v. Reavey, 38 Hun, 428; Walker v. People, 88 N. Y. 89; People v. Pallister, 138 N. Y. 601; Moody v. Osgood, 54 N. Y. 488; Slattery v. People, 58 N. Y. 354; People v. Smith, 219 N. Y. 222; People v. Roach, 215 N. Y. 592; People v. Sanducci, 195 N. Y. 361; People v. Schmidt, 216 N. Y. 324; People v. Wolter, 203 N. Y. 484.)\nJoseph L. Delaney, for respondent.\nThe court erred in refusing to charge the jury that not only may a reasonable doubt be founded on the evidence, but it may be founded on the lack of evidence. (People v. Friedland, 2 App. Div. 332.)"
+  },
+  "file_name": "0394-01",
+  "first_page_order": 414,
+  "last_page_order": 419
+}

@@ -1,0 +1,181 @@
+{
+  "id": 1228883,
+  "name": "THE PEOPLE v. PERFECTO CHEMICAL COMPANY, INCORPORATED",
+  "name_abbreviation": "People v. Perfecto Chemical Co.",
+  "decision_date": "1924-07-01",
+  "docket_number": "",
+  "first_page": "434",
+  "last_page": "438",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 N.Y. Crim. 434"
+    },
+    {
+      "type": "parallel",
+      "cite": "123 Misc. 443"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Ct. Spec. Sess.",
+    "id": 9249,
+    "name": "New York Court of Special Sessions"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "5 N. Y. Supp. 19",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "case_ids": [
+        3507026
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/5/0019-01"
+      ]
+    },
+    {
+      "cite": "174 App. Div. 108",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        3181856,
+        1216976
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "111"
+        },
+        {
+          "page": "189"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/160/0996-01",
+        "/ny-crim/35/0159-01"
+      ]
+    },
+    {
+      "cite": "153 App. Div. 234",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        3397506,
+        1203143
+      ],
+      "pin_cites": [
+        {
+          "page": "236"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/138/0007-01",
+        "/ny-crim/28/0299-01"
+      ]
+    },
+    {
+      "cite": "204 N. Y. Supp. 737",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "211 N. Y. 539",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        65254
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/211/0539-01"
+      ]
+    },
+    {
+      "cite": "190 App. Div. 378",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        1222178
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/38/0232-01"
+      ]
+    },
+    {
+      "cite": "197 N. Y. 254",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        810746,
+        4465068
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/24/0266-01",
+        "/ny/197/0254-01"
+      ]
+    },
+    {
+      "cite": "170 App. Div. 375",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2823902
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/170/0375-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 403,
+    "char_count": 8270,
+    "ocr_confidence": 0.483,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.04604805145010385
+    },
+    "sha256": "1bc94b7ac7e7518a845c0a657144b6bf9dd1a3d7f4ea6d6e759022df8e7f43c7",
+    "simhash": "1:58db78ab575bac22",
+    "word_count": 1413
+  },
+  "last_updated": "2024-02-27T16:15:52.747790+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. PERFECTO CHEMICAL COMPANY, INCORPORATED."
+    ],
+    "opinions": [
+      {
+        "text": "Freschi, J.:\nThis is a motion to vacate and set aside a judgment of conviction, adjudging the defendant corporation guilty of a violation of the Sanitary Code and imposing a fine of $250, which judgment was entered after the taking of proof by this court upon the default of the defendant to appear either by any of its duly constituted officers or by counsel. At no time, after the filing of the information herein has there been any appearance by the corporation.\nThis motion necessitates an examination of the law as to the method of acquiring jurisdiction over a corporation and relative to all proceedings subsequent to the filing of an information.\nSection 675 of the Code of Criminal Procedure, which provides the procedure for obtaining jurisdiction over a corporation charged with a crime upon the filing of a complaint or deposition before a magistrate, requires a ten days\u2019 notice to be given to the defendant; and, thereupon, the ease is to he heard in a preliminary hearing. In certain cases under the Inferior Criminal Courts Act the magistrate may sit as a Court of Special Sessions. This summons must be served on the president or other head of the corporation, secretary, cashier or managing agent thereof at least five days before the return date. Code Crim. Pro. \u00a7 677.\nWhen the charge has been examined and the proofs show that there is probable cause to believe that the corporation is guilty of the offense charged, the magistrate must make a certification accordingly and return the depositions as provided in the case of a natural person. Code Crim. Pro. \u00a7\u00a7 678, 679, 221.\nThe magistrate having heard the proofs in this case and the defendant corporation having waived through counsel further examination, the corporation was duly ordered to answer the charge before the Court of Special Sessions. Depositions were filed as required by section 221 of the Code of Criminal Procedure. The district attorney accordingly filed an information in this court on June 10, 1924, alleging the commission of a misdemeanor by the defendant in manufacturing and having for sale on November 16, 1923, an alleged deleterious drug preparation or dangerous hair dye for human use; and that information, based upon the prior proceedings before the magistrate, gave the Court of Special Sessions jurisdiction over the subject-matter. (People v. Perrin, 170 App. Div. 375; Code Crim. Pro. \u00a7 743. See also, People v. Dillon, 197 N. Y. 254; People v. Frocks, 190 App. Div. 378; People ex rel. Edison Electric Illuminating Co. v. Kernochan, 160 id. 105; affd. 211 N. Y. 539; Inferior Crim. Courts Act, \u00a7 31.)\nIt appears from the indorsement on the original papers filed in this court that when this case was called for pleading, the defendant corporation failed to appear and on June 26, 1924, an inquest was taken and the corporation was adjudged guilty and fined as above stated.\nThe defendant, now appearing at the same term at which the inquest was taken, through counsel files a motion to vacate and set aside the inquest and asks for a trial on the information in this court.\nThis motion raises the question of jurisdiction. Claim is made in the moving papers that the defendant has not had any notice whatsoever of the filing of the information herein or of the pleading date, or of the hearing that has been termed an inquest thereon. I find no provision in the Inferior Criminal Courts Act with respect to the manner in which the summons or notice shall be served upon a corporation charged with a criminal offense; and, therefore, I hold that, in the absence of any specific provision on this subject in the Inferior Criminal Courts Act, the practice and procedure in the Court of Special Sessions is the same as that in the higher courts. (See City of Buffalo v. Newbeck, 204 N. Y. Supp. 737; Code Crim. Pro. \u00a7 742; People v. Brown, 153 App. Div. 234, 236; Inferior Crim. Courts Act, \u00a7 31, subd. 4.) It has also been held that an information in this court takes the place of an indictment. (People v. Kalbfleisch Co., 174 App. Div. 108, 111; People ex rel. N. Y. Disposal Corp. v. Freschi, 173 id. 189.) The only provision of law that I believe applies to the present situation is to be found in section 681 of the Code of Criminal Procedure, under which the clerk of the court, upon the filing of an information by the district attorney, must issue a summons in the form prescribed by that section, requiring such corporation to appear and answer the indictment by a demurrer or written plea to be verified in like manner as a pleading in a civil action at a time and place to be specified in such summons. It further provides that the summons must be served at least five days before the return day fixed therein; and the service thereof must be made in the same manner as is provided for the service of a summons upon a corporation in a civil action. If the corporation fails to appear, judgment must be pronounced against it. Of course, a voluntary appearance by counsel for the corporation may take place without the service of a summons, the court thereby acquiring full jurisdiction over the corporation in the same manner as if the summons had been served. (People v. Equitable Gas Light Co., 5 N. Y. Supp. 19.\nIn the case at bar the record is wholly devoid of any proof that such service of a notice or summons was made according to the requirements of the last-mentioned statute; or that any counsel duly authorized appeared on behalf of the corporation; and I hold, therefore, that the entry of the judgment herein against this corporation was without due process of law and is clearly in violation of the Fourteenth Amendment of the Constitution of the United States. (City of Buffalo v. New-beck, supra.) Had this court acquired jurisdiction' over the defendant in the manner prescribed by law, this motion would have to be denied and the defendant left to his only remedy by appeal.\nThis court, not having obtained jurisdiction of the person of the defendant in the manner prescribed by the statute, had no power to adjudge the defendant guilty and to impose any punishment.\nThe motion to set aside the judgment should be granted and the fine remitted and the defendant corporation should have an opportunity to plead and to be heard on the complaint set forth in the information herein.\nMotion granted and case is ordered on the pleading calendar of this court for the date indicated.\nKernoghan, Oh. J., and Edwards, J., concur.\nOrdered accordingly.",
+        "type": "majority",
+        "author": "Freschi, J.:"
+      }
+    ],
+    "attorneys": [
+      "Daniel Direnzo, Deputy Assistant District Attorney, for the People.",
+      "Henry G. Wenzel, for the defendant."
+    ],
+    "corrections": "",
+    "head_matter": "COURT OF SPECIAL SESSIONS \u2014 NEW YORK CITY.\nJuly 1, 1924.\nTHE PEOPLE v. PERFECTO CHEMICAL COMPANY, INCORPORATED.\n(123 Misc. 443.)\n(1) Court of Special Sessions practice \u2014 Practice and procedure in higher courts applicable as to service of summons or notice .on CORPORATION CHARGED WITH CRIMINAL OFFENSE IN COURT OF SPECIAL Sessions.\nIn the absence of any specific provision in the Inferior Criminal Courts Act with respect to the manner in which a summons or notice shall he served on a corporation charged with a criminal offense, the practice and procedure in the Court of Special Sessions is the same as that in the higher courts.\n(2) Same \u2014 Motion to vacate judgment of conviction adjudging defendant corporation guilty of violation of Sanitary Code \u2014 Defendant ADJUDGED GUILTY ON FAILURE TO APPEAR-FAILURE TO SERVE NOTICE OR SUMMONS ON DEFENDANT TO CODE OF CRIMINAL PROCEDURE, g 689-Entry of judgment against defendant without due process of law AND VOID.\nAccordingly, a motion to vacate and set aside a judgment of conviction adjudging the defendant corporation guilty of violation of the Sanitary Code will be granted where the record is devoid of any proof that service was effected on the defendant in keeping with section 681 of the Code of Criminal Procedure, or that any one duly authorized appeared on behalf of the defendant since the entry of judgment was without due process of law; the court, not having obtained jurisdiction of the defendant in the manner prescribed by statute, had no power to adjudge the defendant guilty and impose any punishment.\nMotion to vacate and set aside a judgment of conviction, adjudging defendant guilty of a violation of the Sanitary Code.\nDaniel Direnzo, Deputy Assistant District Attorney, for the People.\nHenry G. Wenzel, for the defendant."
+  },
+  "file_name": "0434-01",
+  "first_page_order": 450,
+  "last_page_order": 454
+}

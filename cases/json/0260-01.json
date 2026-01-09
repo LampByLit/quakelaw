@@ -1,0 +1,70 @@
+{
+  "id": 1224691,
+  "name": "THE PEOPLE v. SEVENTEEN CASES OF PAUL JONES WHISKEY",
+  "name_abbreviation": "People v. Seventeen Cases of Paul Jones Whiskey",
+  "decision_date": "1921-07",
+  "docket_number": "",
+  "first_page": "260",
+  "last_page": "262",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 260"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 Misc. 282"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Sup. Ct.",
+    "id": 10096,
+    "name": "New York Supreme Court Special Term"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 230,
+    "char_count": 4251,
+    "ocr_confidence": 0.522,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.045064126437008634
+    },
+    "sha256": "17d7cd5498ac985468adac92e3bf4e692da2d35a7e144ce8755cfb9f15bfdeb6",
+    "simhash": "1:0962656852d9b07f",
+    "word_count": 740
+  },
+  "last_updated": "2023-07-14T18:56:16.069757+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. SEVENTEEN CASES OF PAUL JONES WHISKEY."
+    ],
+    "opinions": [
+      {
+        "text": "Gavegan, J.:\nThis motion for judgment raises the .question whether a demurrer may be interposed to a return by a peace officer who has seized intoxicating liquor without a warrant pursuant to subdivision 6 of section 802-b of the Code of Criminal Procedure, a new section added by chapter 156 of the Laws of 1921. That subdivision provides that an officer who has seized intoxicating liquor without a warrant \u201c shall make a return of his proceedings to a judge who would be authorized to issue a warrant for such a seizure, setting forth the grounds on which the seizure was made;\u201d that \u201c such return shall be deemed to be a complaint for the purposes of this section,\u201d and that \u201c the provisions of this section relating to proceedings for seizure pursuant to a warrant shall apply * * *.\u201d Subdivision 2 of the same section provides for the issuance of warrants to search for and to seize intoxicating liquor, same to be issued on a verified complaint. It also provides that the warrant shall contain a notice to all persons interested to appear before the judge issuing the warrant at a place and time therein specified, and to show cause why a forfeiture of the property should not he ordered; that on the said return day any person in interest \u201c may interpose an answer controverting the allegations of the complaint upon which such warrant was issued;\u201d that \u201cIf such answer is interposed the issue thus framed shall be deemed an action pending in the court of the judge or justice who issued the warrant,\u201d and that such issue \u201c shall be tried in said court as other issues of fact are tried therein, * * *.\u201d The section makes no express reference to an issue of law. But it would seem that the terms used are broad enough to include such an issue, and that an issue of law is to be raised by answer. The word \u201c other \u201d in \u201c other issues of fact \u201d need not be construed to eliminate issues of law from the class of issues which are to \u201c be deemed \u201d actions \u201c pending in the court of the judge or justice who issued the warrant.\u201d\nThe proponent of this motion argues that as the issue is \u201c deemed an action \u201d a demurrer to the complaint is authorized as in an action.\" But the provision reads that \u201c if such answer is interposed the issue thus framed shall be deemed an action * * The interposition of an answer excludes the idea of demurring. Until the answer is interposed there is no action. bTo complete analogy can be drawn between the situation here and the situation covered by sections 421 and 422 of the Code of Civil Procedure. Evidently the legislature intended that all issues should be raised by answer, and that thereafter the proceedings might conform to those in an action. That is in harmony with the new practice, soon to go into effect, in which the demurrer will have no place.\nThe motion is denied.\nMotion denied.",
+        "type": "majority",
+        "author": "Gavegan, J.:"
+      }
+    ],
+    "attorneys": [
+      "John P. O'Brien, corporation counsel, and Edward Swann, District Attorney (Peter L. F. Sabbatino, of counsel), for the People.",
+      "George L. Donnellan (John W. Clancy, of counsel), for claimant."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014 NEW YORK SPECIAL TERM.\nJuly, 1921.\nTHE PEOPLE v. SEVENTEEN CASES OF PAUL JONES WHISKEY.\n(116 Misc. 282.)\nIntoxicating liquors \u2014 When return of peace officer is complaint Under section 802-b (6) of the Code of Criminal Procedure\u2014 Answer \u2014 Demurrer.\nThe return of a peace officer who pursuant to subdivision 6 of section 802-b of the Code of Criminal Procedure (added by chap. 156 of the Laws of 1921) has seized intoxicating liquor without a search warrant, is a complaint for the. purposes of said section, subdivision 2 of which provides that on the return day of a search warrant issued on a complaint and containing a notice to all persons interested to appear and show cause why a forfeiture of the liquor seized by virtue of the warrant should not be ordered, anyone in interest may interpose an answer and that the issues thus framed shall be deemed an action pending in the court of the judge or justice who issued the warrant, and tried in said court as other issues of fact are tried therein. Held, that until an answer was served there was no action, but the interposition of an answer excludes the idea of demurring, and a motion for judgment on the pleadings will be denied.\nMotion for judgment.\nJohn P. O'Brien, corporation counsel, and Edward Swann, District Attorney (Peter L. F. Sabbatino, of counsel), for the People.\nGeorge L. Donnellan (John W. Clancy, of counsel), for claimant."
+  },
+  "file_name": "0260-01",
+  "first_page_order": 280,
+  "last_page_order": 282
+}

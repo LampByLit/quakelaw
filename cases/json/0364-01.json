@@ -1,0 +1,143 @@
+{
+  "id": 1224757,
+  "name": "THE PEOPLE v. CARMINE LICENZIATA",
+  "name_abbreviation": "People v. Licenziata",
+  "decision_date": "1921-12",
+  "docket_number": "",
+  "first_page": "364",
+  "last_page": "371",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 364"
+    },
+    {
+      "type": "parallel",
+      "cite": "199 App. Div. 106"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "168 N. Y. 604",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2299619
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/168/0604-01"
+      ]
+    },
+    {
+      "cite": "49 App. Div. 531",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2392395
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/49/0531-01"
+      ]
+    },
+    {
+      "cite": "173 N. Y. 122",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1187033,
+        2308590
+      ],
+      "pin_cites": [
+        {
+          "page": "123"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/17/0180-01",
+        "/ny/173/0122-01"
+      ]
+    },
+    {
+      "cite": "221 U. S. 280",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3658926
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/221/0280-01"
+      ]
+    },
+    {
+      "cite": "107 N. Y. 13",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2211821
+      ],
+      "pin_cites": [
+        {
+          "page": "33"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/107/0013-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 638,
+    "char_count": 14284,
+    "ocr_confidence": 0.522,
+    "pagerank": {
+      "raw": 8.170924208540368e-07,
+      "percentile": 0.974554114931025
+    },
+    "sha256": "934f19b6c2f9f048799b6d5d26d73e18a556fcdb20ecf8045307fc6d8c63e72a",
+    "simhash": "1:a7fce44878adbeb9",
+    "word_count": 2484
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. CARMINE LICENZIATA."
+    ],
+    "opinions": [
+      {
+        "text": "Manning, J.:\nThe jury found the defendant guilty of the crime of manslaughter under the first count of the indictment, and it appearing that he was previously convicted of a felony the court imposed a sentence of eighteen years and six months in the State prison. His counsel made a motion in arrest of judgment, on the ground that the facts stated did not constitute a crime and that the court had no jurisdiction of the subject-matter, which motion the court denied.\nIn his appeal from the judgment of conviction which is now before us, the main contention of the defendant is that no part of the crime with which he was charged was committed within the county of Kings, and that, therefore, the grand jury of that county had no right to indict him, nor had the court the power to try him within that county.\nThe indictment is in two counts, and charged the defendant with the crime of manslaughter in the first degree and also in the second degree. The first count, upon which the defendant was convicted, reads as follows:\n\u201c The defendant, on December 20, 1919, in the County of Kings, in unlawfully doing an act and omitting to perform a duty, endangered the health and safety of a considerable number of persons and rendered a considerable number of persons unsafe, in life, in that on December 20, 1919, in the County of Kings, defendant wilfully and feloniously purchased a quantity of methyl alcohol, a deadly poison, from one Samuel K. Saleeby, and one John Romanelli, to-be used for beverage purposes, which said methyl alcohol defendant thereafter transported to the County of New York and there wilfully and feloniously sold it to one Frank Lucibello, to he used for beverage purposes, and said methyl alcohol was thereafter transported into the State of Massachusetts and there delivered to one Joseph Kania and was drunk by him, causing his death at Chicopee Falls, Massachusetts, on December 26, 1919, whereby and as the result of the aforesaid acts and omissions the defendant did so kill said Joseph Kania, said homicide not being justifiable or excusable.\u201d\nThe second count, charging manslaughter by culpable negligence, has no bearing upon the question presented on this appeal. And in reference to the first count in the indictment, it was framed under section 1050 of the Penal Law, which reads, so far as pertinent to the matters in controversy, as follows: \u201c Such homicide is manslaughter in the first degree, when committed without a design to effect death: 1. By a person engaged in committing, or attempting to commit, a misdemeanor, affecting the person or property, either of the person killed, or of another; 2. * * *.\u201d The misdemeanor which the indictment charged the appellant with committing was a public nuisance, which is defined in section 1530 of the Penal Law, as follows: \u201c A \u2018 public nuisance \u2019 is a crime against the order and economy of the State, and consists in unlawfully doing an act, or omitting to perform a duty, which act or omission: 1. Annoys, injures or endangers the comfort, repose, health or safety of any considerable number of persons; or, * * 4. In any way renders a considerable number of persons insecure in life, or the use of property.\u201d\nThe undisputed facts in this case show that the defendant purchased, in the borough of Brooklyn, county of Kings, N. Y., a large quantity of what is known as wood alcohol, which is conceded to be a deadly poison, and that he made the purchase for the express purpose of, and with the then intention of selling it to the public as a beverage. He was engaged in business as a wholesale grocer in New York city, dealing in Italian specialties, and he admitted that he was in the market for the purchase of alcohol, and the \"purchase by him on the particular evening referred to in the testimony was 1,000 gallons of the mixture, for which he paid in cash the sum of $23,500. The proof also shows that the purchase of this poison by the defendant was made by him under circumstances which were clearly indicative of a wrongful and illegal situation and which clearly shows this defendant as an active participant in the doing of an unlawful act. The alcohol had been stolen from the lawful owner, and its purchase was made by the defendant from the person who had committed the theft. The purchase of this alcohol was made by the defendant in person. He attended to all the details of delivery to himself, took part in the process of siphoning the fluid out of the original drums in which it was contained into empty barrels which he brought to Brooklyn for the purpose, and transferred these barrels, twenty-one in number, and their contents in two truck-loads to his place of business in Manhattan. When he removed the alcohol to his store he proceeded to adulterate it and to change some of it into what he called whisky, and some of it into what he labeled as brandy. The decoction thus made by him he sold to a customer from Connecticut, and from there the prosecution proved that it found its way into a hotel at Chicopee Falls, Mass., and subsequently at such hotel it was purchased and drunk by one Joseph Kania, the deceased, whose death is admitted to have been caused by the drinking of the poison. The record also shows that the defendant had personal knowledge of the dangerous character of the alcohol which he purchased, and this on the occasion of its purchase by him and when he was personally superintending its transfer and delivery. In siphoning the liquid out of the drums and into the barrels, he accidentally swallowed some of it. It made him very ill, so ill, in fact, that he had to be taken to the neighboring drug store and there given an emetic and a quantity of milk in order to afford him the necessary relief. Notwithstanding this fact, the record shows that the defendant proceeded to sell and to distribute this poison after he had been further actually informed that the fluid was poison. All of these circumstances, in my opinion, tended to show on his part an utter disregard of the consequences of his unlawful act, his sole desire evidently being to reimburse himself with profits for the large amount of cash which he had expended in purchasing this mixture. When it is, therefore, asked, just what particular act or thing the defendant did in the county of Kings constituting an offense or a crime, it can be answered that he was there engaged in committing, or attempting to commit, a misdemeanor or public nuisance, which the statute defines as \u201c a crime against the order and economy of the State, and consists in unlawfully doing an act, or omitting to perform a duty, which act or omission: 1. Annoys, injures or endangers the comfort, repose, health or safety of any considerable number of persons; or-, * * * 4. In any way renders a considerable number of persons insecure in life, or the use of property.\u201d (Penal Law,\" \u00a7 1530.) It conclusively appears that he bought the poison in Kings county with the then intention of selling it as a beverage somewhere \u2014 exactly where is of no consequence. He carried the poisonous mixture into New York city and there finished the crime which he began in Brooklyn. To sell the poison he had to buy or procure it, and his wrongful act was a nuisance when he purchased for the purpose of selling, because his purchase was an important act or step in the crime of a continuous nature, such as the one under discussion. Preparation is always an essential part of crime, especially where the offense is completed, even though the final stage of the crime itself is consummated in a different place from where the preparation was made. (People v. Dimick, 107 N. Y. 13, 33; Strassheim v. Daily, 221 U. S. 280; People v. Sullivan, 173 N. Y. 122, 123.)\nThe defendant contends that section 134 of the Code of Criminal Procedure has reference to \u201c acts or effects thereof, constituting or requisite to the consummation of the offense,\u201d and his contention is that none of the effects of the crime occurred in Kings county. I cannot follow the reasoning, for to do so would give to the statute a construction that was never intended and which, to say the least, would be extremely technical. The statute affecting jurisdiction is section 134 of the Code of Criminal Procedure, which reads as follows: \u201c When a crime is committed, partly in one county and partly in another, or the acts or effects thereof, constituting or requisite to the consummation of the offense, occur in two or more counties, the jurisdiction is in either county.\u201d This statute is remedial in its character, and a careful reading of it, as well as an examination of cases wherein it was construed, will show that its object was to extend the lines of jurisdiction beyond the limits prescribed by the common law, and thus prevent a miscarriage of justice. (See People v. Mitchell, 49 App. Div. 531; affd., 168 N. Y. 604; People v. Hudson Valley Construction Co., 217 id. 172, 176.) The cases cited by the defendant are clearly distinguishable from the facts in the present case, and in my opinion do not sustain the principle contended for by the defendant.\nI, therefore, conclude that the court in Kings county had ample jurisdiction to try the case and that the objection thereto raised by the defendant was properly overruled by the trial court.\nThe only other point urged by the defendant as a ground for reversal refers to alleged errors by the trial court in the admission of evidence by a medical man of his opinion as to the cause of death of the deceased, and also the evidence of a Dr. Allyn, who gave opinion evidence as to the fact that wood alcohol is a poison and as to the lethal dose. These latter objections, in my opinion, have no substantial merit, and in fact they are not seriously urged as a ground of reversal upon this appeal. A careful examination of the record presented here shows that the learned trial judge exercised the utmost care and fairness in the conduct of the trial, and even charged more favorably to the defendant than the nature of the evidence warranted. His dismissal of the motion to dismiss on the ground of lack of jurisdiction succinctly states the crux of this case. He used the following language: \u201c Regarding that proposition \u2014 I have given a great deal of thought to it \u2014 and. while it may be argued that the misdemeanor which formed the basis of the charge upon which the conviction was founded had its inception in the county of New York, yet I cannot disassociate that particular overt act from the purchase of the alcohol in the county of Kings, at which time I think it must be conceded that the defendant intended to vend it, or that he purchased it with the intention of selling it. The case presents one of those instances of overlapping acts, partly committed in one county and partly in another, which I think permitted the grand jury of Kings county to find the indictment and that the court did have the essential jurisdiction to try the case.\u201d I entirely agree with the learned court\u2019s statement of the legal question, involved, and hence I conclude that the conviction of the defendant was a proper one and should he affirmed.\nBlackmar, P. J., Rich, Putnam, and Jaycox, JJ., concur.\nJudgment of conviction affirmed.",
+        "type": "majority",
+        "author": "Manning, J.:"
+      }
+    ],
+    "attorneys": [
+      "William M. K. Olcott ( George Z. Medalie and Neilson Olcott with him on the brief), for the appellant.",
+      "Ralph E. Hemstreet, Assistant District Attorney (Harry E. Lewis, District Attorney, and Harry O. Anderson, Assistant District Attorney, with him on the brief), for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014APPELLATE DIVISION \u2014 SECOND DEPARTMENT.\nTHE PEOPLE v. CARMINE LICENZIATA.\n(199 App. Div. 106.)\n(1) Manslaughter in first degree \u2014 Penal Law, \u00a7 1050 \u2014 Wood alcohol PURCHASED IN KINGS COUNTY TO BE SOLD AS BEVERAGE, ETC., IN NEW York County \u2014 Death op purchaser in Massachusetts.\nThe County Court of Kings county had jurisdiction under section 134 of the Code of Criminal Procedure of an indictment under section 1050 of the Penal Law, for the crime of manslaughter in the first degree alleged to have been committed by the defendant while engaged in committing a misdemeanor, a public nuisance, under section 1530 of the Penal Law, where it appears that the defendant purchased, in the county of Kings, a large quantity of wood alcohol, a deadly poison; that he made the purchase for the express purpose, and with the intention of selling it to the public as a beverage; that he made the purchase personally from a person who had stolen the alcohol and attended to all the details of delivery; that he had full and personal knowledge of the dangerous character of the alcohol; that he took the alcohol to his store in New York county, there adulterated it and sold and delivered a part thereof to a customer in Connecticut, and that a part thereof was subsequently purchased and drunk by the deceased in the State .of Massachusetts.\n(2) Same \u2014 Penal Law, \u00a7 1530.\nWhen the defendant purchased and received in the county of Kings the alcohol in question he was then engaged in committing or attempting to commit a misdemeanor, a public nuisance, within the meaning of section 1530 of the Penal Law, for his wrongful act was a nuisance when he purchased the liquor, for the purpose of selling it as a beverage, because his purchase was an important act or step in a crime of a continuous nature.\n(3) Same \u2014 Preparation essential part of crime.\nPreparation, is always an essential part of a crime, especially where the offense is completed, even though the final stage of the crime is consummated in a different place from where the preparation wa\u00e1 made.\n(4) Same \u2014 Code Crim. Pboc., \u00a7 134.\nTo give to the County Court of Kings county jurisdiction of the crime it was not essential, under section 134 of the Code of Criminal Procedure, that the effect of the crime must have occurred in that county.\n(5) Same.\nSection 134 of the Code of Criminal Procedure is remedial in its character and its object was to extend the lines of jurisdiction beyond the limits prescribed by the common law, and thus prevent a miscarriage of justice.\nAppeal by the defendant, Carmine Licenziata, from a judgment of the Supreme Court, entered in the office of the clerk of the county of Kings on the 2d day of December, 1920, convicting him of the crime of manslaughter in the first degree.\nWilliam M. K. Olcott ( George Z. Medalie and Neilson Olcott with him on the brief), for the appellant.\nRalph E. Hemstreet, Assistant District Attorney (Harry E. Lewis, District Attorney, and Harry O. Anderson, Assistant District Attorney, with him on the brief), for the respondent."
+  },
+  "file_name": "0364-01",
+  "first_page_order": 384,
+  "last_page_order": 391
+}

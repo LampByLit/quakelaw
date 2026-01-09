@@ -1,0 +1,117 @@
+{
+  "id": 1224685,
+  "name": "THE PEOPLE v. PINCUS GLICKMAN",
+  "name_abbreviation": "People v. Glickman",
+  "decision_date": "1920-12-10",
+  "docket_number": "",
+  "first_page": "33",
+  "last_page": "36",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 33"
+    },
+    {
+      "type": "parallel",
+      "cite": "194 App. Div. 103"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. App. Div.",
+    "id": 8994,
+    "name": "New York Supreme Court, Appellate Division"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [
+    {
+      "cite": "178 N. Y. 563",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2316552,
+        2316707
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/178/0563-01",
+        "/ny/178/0563-02"
+      ]
+    },
+    {
+      "cite": "85 App. Div. 556",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        7673601,
+        1187037
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "560"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/83/0372-01",
+        "/ny-crim/17/0436-01"
+      ]
+    },
+    {
+      "cite": "76 Hun, 330",
+      "category": "reporters:state",
+      "reporter": "Hun,",
+      "case_ids": [
+        1171535
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-crim/9/0178-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 354,
+    "char_count": 6721,
+    "ocr_confidence": 0.531,
+    "pagerank": {
+      "raw": 5.012607069963814e-08,
+      "percentile": 0.31600452381586724
+    },
+    "sha256": "80224502b333d9ca05220605ed5733c50235f9b4cb9e426ff7685115417e5ef7",
+    "simhash": "1:2efee092833b89c1",
+    "word_count": 1156
+  },
+  "last_updated": "2024-02-27T17:27:27.415264+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. PINCUS GLICKMAN."
+    ],
+    "opinions": [
+      {
+        "text": "Rich, J.:\nThe defendant has been convicted of a violation of section 225 of the Sanitary Code, which provides that it shall be the duty of every person who shall have contracted or undertaken, or shall be bound, to heat or to furnish heat for any building occupied as a home or place of residence, to heat or to furnish heat for every room occupied in such building, so that a minimum temperature of sixty-eight degrees Fahrenheit may be maintained. The amendment thereto in December, 1919, provided that \u201c in the absence of a contract or agreement to the contrary,\u201d the owner, agent or lessee shall be deemed to have contracted to furnish heat, wherever a building is heated by means of a furnace, boiler or other apparatus in control of the owner, agent or lessee. (See Cosby\u2019s Code of Ordinances [Anno. 1920], pp. 599, 617, 618.)\nIt appears that the corporation of which defendant is the president made an agreement on June 3, 1919, with the tenants of its premises. It apparently was arrived at after negotiations through the mayor\u2019s committee on rent profiteering. It contains no provision respecting the heating of the apartments occupied by the tenants but contains a provision that the tenants are to have the apartments at the rents stated until May 1, 1920. The violation for which defendant was convicted was found as a result of an inspection by a health department inspector on March 2, 1920.\nThe defendant attempted to show that he had an oral agreement with the tenants whereby he was not to be obliged to furnish steam heat. Defendant testified that at the time of the agreement a reduction in rents was granted, but this was ruled out. Every attempt by defendant\u2019s counsel to introduce evidence tending to show that in addition to the written agreement with his tenants, defendant had an oral agreement, whereby he was not to be required to furnish heat, was excluded on the objection of the district attorney. Mr. Goldsmith, of the mayor\u2019s committee on profiteering, under whose auspices the written agreement had been made, testified that after the execution of the paper writing there was a conference between defendant and his tenants at which the question of furnishing heat was discussed, but the trial court refused to permit him to state the conversation. One Handel, a tenant, was called by defendant. He testified he was one of the committeemen who represented the tenants at the conference before the mayor\u2019s committee. Defendant attempted to show through him that he had an oral agreement with the tenants whereby he was not required to furnish heat, but the trial court also refused to permit him to testify. Defendant\u2019s counsel then stated to the trial court that he had ten of the tenants present for the purpose of testifying to an alleged agreement that no heat was to be furnished by defendant, but the court refused his offer of proof, to which exception was taken.\nIt is contended by the appellant on this appeal that the exclusion of the evidence offered by defendant of an agreement between the tenants and the landlord that the latter was not to heat the building was fatal error, and that the parol evidence rule is not applicable when parol evidence is offered by a defendant to negative criminality in a criminal case, and, in any event, the parol evidence rule is not applicable to this case, 'because the controversy does not arise between parties to the written instrument. In support of his contention appellant relies on People v. Barringer (76 Hun, 330) and People v. Walker (85 App. Div. 556; affd., 178 N. Y. 563). It is contended on the part of the district attorney that the cases above referred to do not decide so broad a proposition as is contended by him; that they merely decide that where the accused could by parol evidence disprove a felonious intent, such parol evidence was admissible notwithstanding it seemed to vary the terms of a written instrument. An examination of the case first cited discloses that this is what was actually there decided. But as to the Walker Case, decided after the Barringer Case, it was in terms held that the parol evidence rule has no application in a criminal case. (People v. Walker, supra, 560.) The section under which the defendant was convicted provides that only in the absence of a contract or agreement to the contrary is it presumed that he has obligated himself to furnish heat. The terms \u201c contract or agreement \u201d as used in the section are defined to include oral as well as written agreements. I think that the defendant was entitled to show that a verbal agreement between his tenants existed, whereby he was not to furnish heat, and this irrespective of the written agreement respecting other matters not pertaining to the heating of the building.\nI think the trial court erred in excluding the testimony offered by defendant tending to show a verbal agreement with his tenants, and that the judgment must be reversed and a neW' trial ordered, and advise accordingly.\nJenks, P. J., Blackmar, Kelly and Jaycox, JJ., concur.\nJudgment of conviction of the Court of Special Sessions reversed and new trial ordered.",
+        "type": "majority",
+        "author": "Rich, J.:"
+      }
+    ],
+    "attorneys": [
+      "Luke D. Stapleton (Adolph Feldblum with him on the brief), for the appellant.",
+      "Ralph E. Hemstreet, Assistant District Attorney (Harry E. Lewis, District Attorney, with him on the brief), for the respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SUPREME COURT \u2014 APPELLATE DIVISION \u2014 SECOND DEPARTMENT.\nDecember 10, 1920.\nTHE PEOPLE v. PINCUS GLICKMAN.\n(194 App. Div. 103.)\nViolation of section 225 of Sanitary Code of the City of New York\u2014 Evidence \u2014 Admissibility of parol evidence to show that landlord HAD AGREEMENT WITH .TENANTS WHEREBY HE WAS NOT OBLIGED TO FURNISH HEAT.\nThe parol evidence rule has no application to a defendant in a criminal case.\nIt was error for the court on the trial of the defendant for violating section 225 'of the Sanitary Code of the City of New York requiring a person who shall be bound to heat any building occupied as a home or residence to heat or furnish heat for every room so that a minimum temperature of sixty-eight degrees shall be maintained, and providing that \u201cin the absence of a contract or agreement to the contrary,\u201d he shall be deemed to have agreed to furnish heat, to refuse to permit the defendant to introduce that he had a verbal agreement with his tenants whereby he was not obliged to furnish heat, though the tenants held under written leases.\nAppeal by the defendant, Pincus Glickman, from a judgment of the Court of Special Sessions of the City of New York, county of Kings, rendered on the 7th day of April, 1920, convicting him of the crime of violating section 225 of the Sanitary Code of the City of New York. (See Code of Ordinances of City of New York, chap. 20, \u00a7 225.)\nLuke D. Stapleton (Adolph Feldblum with him on the brief), for the appellant.\nRalph E. Hemstreet, Assistant District Attorney (Harry E. Lewis, District Attorney, with him on the brief), for the respondent."
+  },
+  "file_name": "0033-01",
+  "first_page_order": 53,
+  "last_page_order": 56
+}

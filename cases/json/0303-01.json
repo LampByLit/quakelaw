@@ -1,0 +1,70 @@
+{
+  "id": 1224683,
+  "name": "THE PEOPLE v. VLADISLAV SAVITCH",
+  "name_abbreviation": "People v. Savitch",
+  "decision_date": "1921-09",
+  "docket_number": "",
+  "first_page": "303",
+  "last_page": "304",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "39 N.Y. Crim. 303"
+    },
+    {
+      "type": "parallel",
+      "cite": "116 Misc. 531"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "N.Y. Ct. Gen. Sess.",
+    "id": 9672,
+    "name": "New York Court of General Sessions"
+  },
+  "jurisdiction": {
+    "id": 1,
+    "name_long": "New York",
+    "name": "N.Y."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 203,
+    "char_count": 2972,
+    "ocr_confidence": 0.525,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.04506331196498096
+    },
+    "sha256": "bcabc4de671a0fc961e1a10b4302d4d9942ea0d6f73505a48e888da4ff243cc5",
+    "simhash": "1:3451b6199261fc06",
+    "word_count": 525
+  },
+  "last_updated": "2023-07-14T18:56:16.069757+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE v. VLADISLAV SAVITCH."
+    ],
+    "opinions": [
+      {
+        "text": "Nott, J.:\nThe crime set forth in the indictment herein is alleged to have been committed on or about the loth day of April, 1921. It is conceded by the parties hereto, by written stipulation, that from 'May 30, 1920, to June 23, 1921, the defendant Savitch was the duly accredited consul general in the city of New York of the kingdom of the Serbs, Croats and Slovenes; that on June 23, 1921, the defendant\u2019s exequatur was revoked by the President of the United States. Three indictments were filed against the defendant herein on July 21, 1921, and a superseding indictment was filed on July 26, 1921. It therefore appears that at the time of the filing of the indictment the defendant was not acting as the consul of any foreign power.\nBy the act of March 3, 1911 (36 U. S. Stat. at Large, 1160; 40 id. 395) it is provided as follows: \u201c The jurisdiction vested in the courts of the United States in the cases and proceedings hereinafter mentioned, shall be exclusive of the courts of the several States: * * * Eighth. Of all suits and proceedings against ambassadors, or other public ministers, or their domestics, or domestic servants, or against consuls or vice-consuls.\u201d\nHad this indictment been filed prior to June 23, 1921, there is no doubt that this motion must have been granted, but on the day that the action was begun the defendant was no longer acting as consul of a foreign power.\nThe indictment does not allege or show on its face that the acts charged to have been committed by the defendant were done in an official capacity, or in any connection therewith, and I am of the opinion that as soon as he ceased to become a consul of a foreign power he became amenable to the State courts, at least for unofficial acts done by him during the time when he was serving as such consul.\nThe motion to dismiss the indictments is, therefore, denied.\nMotion denied.",
+        "type": "majority",
+        "author": "Nott, J.:"
+      }
+    ],
+    "attorneys": [
+      "Don Carlos Buell, for motion.",
+      "Edward Swann, Dist\u00f1ct Attorney (Ferdinand Q. Morton, of counsel), in opposition."
+    ],
+    "corrections": "",
+    "head_matter": "COURT OF GENERAL SESSIONS \u2014 COUNTY OF NEW YORK.\nSeptember, 1921.\nTHE PEOPLE v. VLADISLAV SAVITCH.\n(116 Misc. 531.)\nIndictment \u2014 Jurisdiction\u2014When former foreign consul amenable to our courts.\nWhen a consul of a foreign power, duly accredited to this country, ceases to be such, he is amenable to our courts for his unofficial acts done by him during the time he was consul here.\nWhere at the time of the filing of an indictment which does not on its face show that the acts charged to have been committed by defendant were done in an official capacity or in any connection therewith, he was not acting as consul for a foreign power, a motion to dismiss the indictment, on the ground that the crime charged was only triable in a federal court, will be denied.\nMotion to dismiss an indictment upon the ground that the action is triable only in the federal courts for the reason that the defendant was, at the time of. the commission of the alleged crime, consul-general of a foreign power.\nDon Carlos Buell, for motion.\nEdward Swann, Dist\u00f1ct Attorney (Ferdinand Q. Morton, of counsel), in opposition."
+  },
+  "file_name": "0303-01",
+  "first_page_order": 323,
+  "last_page_order": 324
+}

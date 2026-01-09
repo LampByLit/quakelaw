@@ -344,11 +344,39 @@ function ScheduleSundayCoffee()
         return;
     }
     
-    // Pick random NPC
+    // Pick random NPC - verify they exist and are valid
     if (!allNPCs || allNPCs.length === 0)
+    {
+        console.warn('ScheduleSundayCoffee: No NPCs available');
         return;
+    }
     
-    let randomNPC = allNPCs[RandInt(allNPCs.length)];
+    // Filter to only valid NPCs (must have surname and addresses)
+    let validNPCs = allNPCs.filter(npc => 
+        npc && 
+        npc.surname && 
+        npc.houseAddress !== null && npc.houseAddress !== undefined &&
+        npc.workAddress !== null && npc.workAddress !== undefined
+    );
+    
+    if (validNPCs.length === 0)
+    {
+        console.warn('ScheduleSundayCoffee: No valid NPCs found');
+        return;
+    }
+    
+    let randomNPC = validNPCs[RandInt(validNPCs.length)];
+    
+    // Verify NPC can be found by surname (double-check it's in allNPCs)
+    let verifiedNPC = GetNPCBySurname(randomNPC.surname);
+    if (!verifiedNPC)
+    {
+        console.warn(`ScheduleSundayCoffee: NPC ${randomNPC.surname} not found in allNPCs`);
+        return;
+    }
+    
+    // Use verified NPC
+    randomNPC = verifiedNPC;
     
     // Verify addresses by looking up buildings (ensure addresses are valid)
     let houseBuilding = FindBuildingByAddress(randomNPC.houseAddress);
@@ -409,33 +437,57 @@ function InitializeSundayCoffee()
             return;
         }
         
-        let randomNPC = allNPCs && allNPCs.length > 0 ? allNPCs[RandInt(allNPCs.length)] : null;
-        if (randomNPC)
+        // Get valid NPCs (must have surname and addresses)
+        let validNPCs = allNPCs && allNPCs.length > 0 ? 
+            allNPCs.filter(npc => 
+                npc && 
+                npc.surname && 
+                npc.houseAddress !== null && npc.houseAddress !== undefined &&
+                npc.workAddress !== null && npc.workAddress !== undefined
+            ) : [];
+        
+        if (validNPCs.length === 0)
         {
-            // Verify addresses by looking up buildings (ensure addresses are valid)
-            let houseBuilding = FindBuildingByAddress(randomNPC.houseAddress);
-            let workBuilding = FindBuildingByAddress(randomNPC.workAddress);
-            
-            // Use verified addresses (fallback to NPC's stored addresses if buildings not found)
-            let houseAddress = houseBuilding ? houseBuilding.address : randomNPC.houseAddress;
-            let workAddress = workBuilding ? workBuilding.address : randomNPC.workAddress;
-            
-            CreateCalendarEvent(
-                currentYear,
-                gameTime.month,
-                gameTime.dayOfMonth,
-                randomNPC.surname,
-                houseAddress,
-                workAddress,
-                'sundayCoffee'
-            );
-            
-            calendarTasks['sundayCoffee'].data.lastScheduledDate = {
-                year: currentYear,
-                month: gameTime.month,
-                day: gameTime.dayOfMonth
-            };
+            console.warn('InitializeSundayCoffee: No valid NPCs found');
+            return;
         }
+        
+        let randomNPC = validNPCs[RandInt(validNPCs.length)];
+        
+        // Verify NPC can be found by surname (double-check it's in allNPCs)
+        let verifiedNPC = GetNPCBySurname(randomNPC.surname);
+        if (!verifiedNPC)
+        {
+            console.warn(`InitializeSundayCoffee: NPC ${randomNPC.surname} not found in allNPCs`);
+            return;
+        }
+        
+        // Use verified NPC
+        randomNPC = verifiedNPC;
+        
+        // Verify addresses by looking up buildings (ensure addresses are valid)
+        let houseBuilding = FindBuildingByAddress(randomNPC.houseAddress);
+        let workBuilding = FindBuildingByAddress(randomNPC.workAddress);
+        
+        // Use verified addresses (fallback to NPC's stored addresses if buildings not found)
+        let houseAddress = houseBuilding ? houseBuilding.address : randomNPC.houseAddress;
+        let workAddress = workBuilding ? workBuilding.address : randomNPC.workAddress;
+        
+        CreateCalendarEvent(
+            currentYear,
+            gameTime.month,
+            gameTime.dayOfMonth,
+            randomNPC.surname,
+            houseAddress,
+            workAddress,
+            'sundayCoffee'
+        );
+        
+        calendarTasks['sundayCoffee'].data.lastScheduledDate = {
+            year: currentYear,
+            month: gameTime.month,
+            day: gameTime.dayOfMonth
+        };
     }
     else
     {

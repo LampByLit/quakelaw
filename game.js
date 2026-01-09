@@ -414,6 +414,17 @@ async function FullReset()
     delete localStorage.kbap_won;
     delete localStorage.kbap_bestTime;
     
+    // Clear calendar events and tasks
+    if (typeof calendarEvents !== 'undefined') {
+        calendarEvents = [];
+    }
+    if (typeof calendarTasks !== 'undefined') {
+        calendarTasks = {};
+    }
+    if (typeof nextEventId !== 'undefined') {
+        nextEventId = 1;
+    }
+    
     // Close dialogue modal if open (clears client-side conversation history)
     if (typeof CloseDialogueModal !== 'undefined') {
         CloseDialogueModal();

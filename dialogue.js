@@ -1087,9 +1087,8 @@ function CreateJudgmentEvidenceItem(result) {
         judgmentText += caseSummary + '\n';
     }
     
-    // Create evidence item name
-    const verdictText = result.playerWins ? 'WON' : 'LOST';
-    const evidenceName = `Court Ruling - Case ${String(caseNumber).padStart(4, '0')} (${verdictText})`;
+    // Create evidence item name (format: "0001 - Ruling")
+    const evidenceName = `${String(caseNumber).padStart(4, '0')} - Ruling`;
     
     // Create evidence item (similar to conversation evidence)
     const evidenceItem = {

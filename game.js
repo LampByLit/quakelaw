@@ -3799,7 +3799,7 @@ function RenderInventoryModal()
                 if (slotIndex < playerData.inventory.length && playerData.inventory[slotIndex])
                 {
                     let item = playerData.inventory[slotIndex];
-                    let isEvidence = item.type && (item.type.startsWith('evidence_') || item.type.startsWith('casefile_'));
+                    let isEvidence = item.type && (item.type.startsWith('evidence_') || item.type.startsWith('casefile_') || item.type.startsWith('judgment_'));
                     
                     // Draw item sprite
                     let spriteSize = slotSize - 8;
@@ -4192,7 +4192,7 @@ function RenderEvidenceViewModal() {
     mainCanvasContext.lineWidth = 2;
     mainCanvasContext.strokeRect(textAreaX - textAreaWidth/2, textAreaY - textAreaHeight/2 + 20, textAreaWidth, textAreaHeight);
     
-                    // Draw conversation text or case file text with proper word wrapping
+                    // Draw conversation text, case file text, or judgment text with proper word wrapping
     let text = null;
     if (item.metadata) {
         // Check if it's a case file
@@ -4200,6 +4200,8 @@ function RenderEvidenceViewModal() {
             text = item.metadata.caseFileText;
         } else if (item.metadata.conversationText) {
             text = item.metadata.conversationText;
+        } else if (item.metadata.judgmentText) {
+            text = item.metadata.judgmentText;
         }
     }
     

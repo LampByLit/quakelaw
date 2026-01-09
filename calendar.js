@@ -643,8 +643,8 @@ function RenderCalendarModal()
     mainCanvasContext.fillRect(0, 0, mainCanvasSize.x, mainCanvasSize.y);
     
     // Modal dimensions
-    let modalWidth = 600;
-    let modalHeight = 500;
+    let modalWidth = 480;
+    let modalHeight = 400;
     let modalX = mainCanvasSize.x / 2;
     let modalY = mainCanvasSize.y / 2;
     
@@ -756,11 +756,11 @@ function RenderMonthView(modalX, modalY, modalWidth, modalHeight)
     }
     
     // Calendar grid (4 weeks × 7 days = 28 days)
-    let gridStartX = modalX - modalWidth/2 + 50;
-    let gridStartY = modalY - modalHeight/2 + 80;
-    let cellWidth = 70;
-    let cellHeight = 60;
-    let cellSpacing = 5;
+    let gridStartX = modalX - modalWidth/2 + 40;
+    let gridStartY = modalY - modalHeight/2 + 70;
+    let cellWidth = 55;
+    let cellHeight = 50;
+    let cellSpacing = 4;
     
     // Day labels (Sun, Mon, Tue, Wed, Thu, Fri, Sat)
     let dayLabels = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
@@ -905,7 +905,7 @@ function RenderDateDetailsView(modalX, modalY, modalWidth, modalHeight)
     let listStartY = modalY - modalHeight/2 + 70;
     let listItemHeight = 50;
     let listItemSpacing = 10;
-    let maxVisibleItems = 7;
+    let maxVisibleItems = 5;
     
     if (events.length === 0)
     {

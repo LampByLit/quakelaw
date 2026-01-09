@@ -896,30 +896,10 @@ function PostRender()
         mainCanvasContext.lineWidth = 1;
         mainCanvasContext.strokeRect(coinDisplayX - coinDisplayWidth/2, coinDisplayY - coinDisplayHeight/2, coinDisplayWidth, coinDisplayHeight);
         
-        // Draw coin icon (sprite index 21: tileX=5, tileY=2 from tileImage)
-        if (tileImage && tileImage.complete)
-        {
-            let iconSize = 16;
-            let iconX = coinDisplayX - coinDisplayWidth/2 + 4;
-            let iconY = coinDisplayY - iconSize/2;
-            
-            // Sprite index 21: tileX = 21 % 8 = 5, tileY = Math.floor(21 / 8) = 2
-            let coinTileX = 21 % 8; // 5
-            let coinTileY = Math.floor(21 / 8); // 2
-            
-            mainCanvasContext.drawImage(
-                tileImage,
-                coinTileX * tileSize, coinTileY * tileSize,
-                tileSize, tileSize,
-                iconX, iconY,
-                iconSize, iconSize
-            );
-        }
-        
-        // Draw coin count (positioned after icon with padding)
+        // Draw coin count as "$x" format
         let coinCount = playerData ? playerData.coins : 0;
-        let textX = coinDisplayX - coinDisplayWidth/2 + 24; // 4px padding after 16px icon
-        DrawText(coinCount.toString(), textX, coinDisplayY, 12, 'left', 1, '#4F4', '#000');
+        let coinText = '$' + coinCount.toString();
+        DrawText(coinText, coinDisplayX, coinDisplayY, 12, 'center', 1, '#4F4', '#000');
     }
     
     // Reset button (top-right)

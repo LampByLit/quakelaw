@@ -1056,7 +1056,8 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
             playerWins: playerWins,
             punishments: punishments || [],
             ruling: ruling || 'The judge has made a decision.',
-            coinsAwarded: playerWins ? 20 : 0
+            coinsAwarded: playerWins ? 20 : 0,
+            prosecution: prosecution || ''
         };
         
         console.log('[JUDGMENT] ProcessFridayJudgment complete. Returning result');

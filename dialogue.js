@@ -1082,9 +1082,9 @@ function CreateJudgmentEvidenceItem(result) {
         judgmentText += 'No witnesses were punished.\n';
     }
     
-    if (caseSummary) {
-        judgmentText += '\n--- CASE SUMMARY ---\n';
-        judgmentText += caseSummary + '\n';
+    if (result.prosecution) {
+        judgmentText += '\n--- PROSECUTION ---\n';
+        judgmentText += result.prosecution + '\n';
     }
     
     // Create evidence item name (format: "0001 - Ruling")
@@ -1104,7 +1104,7 @@ function CreateJudgmentEvidenceItem(result) {
             coinsAwarded: result.coinsAwarded || 0,
             punishments: result.punishments || [],
             caseNumber: caseNumber,
-            caseSummary: caseSummary,
+            prosecution: result.prosecution || '',
             timestamp: Date.now()
         }
     };

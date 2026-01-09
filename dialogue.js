@@ -87,12 +87,20 @@ async function OpenDialogueModal(npc) {
     // Check if this is the judge on Monday - trigger case initialization
     if (npc.isJudge && typeof gameTime !== 'undefined' && gameTime.dayOfWeek === 1)
     {
+        // Prevent duplicate case initialization
+        if (caseInitializing) {
+            console.log('[CASE] Case initialization already in progress, ignoring judge interaction');
+            return;
+        }
+        
         // Check if there's a Case of the Mondays event today
         if (typeof GetEventsForDate !== 'undefined')
         {
             let currentYear = typeof GetCurrentYear !== 'undefined' ? GetCurrentYear(gameTime) : (gameTime.daysElapsed >= 0 ? 1 : 0);
             let events = GetEventsForDate(currentYear, gameTime.month, gameTime.dayOfMonth);
             let caseEvent = events.find(e => e.taskId === 'caseOfTheMondays' && e.status === 'pending');
+            
+            console.log(`[CASE] Checking for Case of the Mondays event. Found: ${caseEvent ? 'YES' : 'NO'}, Status: ${caseEvent ? caseEvent.status : 'N/A'}, Initializing: ${caseInitializing}`);
             
             // CRITICAL: Mark event as completed and remove it IMMEDIATELY when dialogue opens with judge on Monday
             // This happens regardless of whether a case is already initialized
@@ -165,23 +173,21 @@ async function OpenDialogueModal(npc) {
             // Only initialize a new case if one doesn't already exist and we found a pending event
             if (shouldInitializeCase && typeof InitializeNewCase !== 'undefined' && !activeCase)
             {
-                // Get the event again to check initialization status (it may have been removed, so check calendarEvents directly)
-                let currentEvents = GetEventsForDate(currentYear, gameTime.month, gameTime.dayOfMonth);
-                let currentCaseEvent = currentEvents.find(e => e.id === caseEventId);
-                
-                // Prevent double-triggering if already initializing
-                if (currentCaseEvent && currentCaseEvent.isInitializing)
+                // Double-check activeCase right before initialization (race condition protection)
+                let doubleCheckActiveCase = null;
+                if (typeof GetActiveCase !== 'undefined')
                 {
-                    console.log('[DIALOGUE] Case initialization already in progress, skipping.');
-                    return; // Already processing, don't start again
+                    doubleCheckActiveCase = GetActiveCase();
                 }
                 
-                // Mark as initializing to prevent duplicate triggers (if event still exists)
-                if (currentCaseEvent)
-                {
-                    currentCaseEvent.isInitializing = true;
-                    currentCaseEvent.initializationAttempts = (currentCaseEvent.initializationAttempts || 0) + 1;
+                if (doubleCheckActiveCase) {
+                    console.log('[CASE] Active case already exists on double-check, skipping initialization');
+                    return;
                 }
+                
+                // Set global flag to prevent duplicate initialization
+                caseInitializing = true;
+                console.log('[CASE] Set caseInitializing = true');
                 
                 // Show loading notification
                 if (typeof ShowLoadingNotification !== 'undefined')
@@ -210,6 +216,7 @@ async function OpenDialogueModal(npc) {
                         
                         if (result)
                         {
+                            console.log(`[CASE] Case initialized successfully. Case file: ${result.caseFileName}, Case number: ${result.caseNumber}`);
                             // Show success notification
                             if (typeof ShowSuccessNotification !== 'undefined')
                             {
@@ -224,14 +231,7 @@ async function OpenDialogueModal(npc) {
                         }
                         else
                         {
-                            // Initialization returned null/undefined - event is already completed, just log warning
-                            let currentEvents = GetEventsForDate(currentYear, gameTime.month, gameTime.dayOfMonth);
-                            let currentCaseEvent = currentEvents.find(e => e.id === caseEventId);
-                            if (currentCaseEvent)
-                            {
-                                currentCaseEvent.isInitializing = false;
-                            }
-                            console.warn('Case initialization returned no result, but event was already marked as completed');
+                            console.warn('[CASE] Case initialization returned no result, but event was already marked as completed');
                             
                             if (typeof ShowSuccessNotification !== 'undefined')
                             {
@@ -246,16 +246,17 @@ async function OpenDialogueModal(npc) {
                             HideLoadingNotification();
                         }
                         
-                        // Error occurred - event is already completed, just log error
-                        let currentEvents = GetEventsForDate(currentYear, gameTime.month, gameTime.dayOfMonth);
-                        let currentCaseEvent = currentEvents.find(e => e.id === caseEventId);
-                        if (currentCaseEvent)
+                        console.error('[CASE] Error during case initialization:', err);
+                        
+                        if (typeof ShowSuccessNotification !== 'undefined')
                         {
-                            currentCaseEvent.isInitializing = false;
-                            currentCaseEvent.lastError = err.message || 'Unknown error';
+                            ShowSuccessNotification('Error initializing case');
                         }
-                        console.error('Error initializing case:', err);
-                        // Event was already marked as completed, so no need to retry event completion
+                    })
+                    .finally(() => {
+                        // Always clear the initialization flag
+                        caseInitializing = false;
+                        console.log('[CASE] Set caseInitializing = false');
                     });
             }
         }
@@ -347,7 +348,15 @@ async function LoadConversationHistory(npc) {
         const response = await fetch(`/api/npc/conversation/${encodeURIComponent(npc.surname)}?sessionId=${encodeURIComponent(sessionId)}`);
         
         if (!response.ok) {
-            console.error('Failed to load conversation:', response.statusText);
+            // Handle different error status codes
+            if (response.status === 502) {
+                console.error(`[ERROR] Server error (502) loading conversation for ${npc.surname}. Server may be down or crashed.`);
+            } else if (response.status === 500) {
+                console.error(`[ERROR] Server error (500) loading conversation for ${npc.surname}`);
+            } else {
+                console.error(`[ERROR] Failed to load conversation for ${npc.surname}: ${response.status} ${response.statusText}`);
+            }
+            // Return empty conversation history on error
             conversationHistory = [];
             UpdateConversationDisplay();
             return;
@@ -358,7 +367,11 @@ async function LoadConversationHistory(npc) {
         UpdateConversationDisplay();
         
     } catch (error) {
-        console.error('Error loading conversation:', error);
+        // Network errors, JSON parse errors, etc.
+        console.error(`[ERROR] Error loading conversation for ${npc.surname}:`, error);
+        if (error.message && error.message.includes('502')) {
+            console.error('[ERROR] Server returned 502 Bad Gateway - server may have crashed. Please restart the server.');
+        }
         conversationHistory = [];
         UpdateConversationDisplay();
     }
@@ -800,6 +813,7 @@ let judgmentModalOpen = false;
 let currentJudgmentEvent = null;
 let currentJudgmentNPC = null;
 let judgmentProcessing = false; // Flag to prevent re-triggering while processing
+let caseInitializing = false; // Flag to prevent duplicate case initialization
 
 // Show judgment statement modal
 function ShowJudgmentStatementModal(activeCase, event, npc) {

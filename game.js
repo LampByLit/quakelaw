@@ -3954,20 +3954,17 @@ function DropEvidenceItem(slotIndex, item) {
         return;
     }
     
-    // Remove from inventory - find item by reference or by slotIndex
+    // Remove from inventory by slotIndex (most reliable method)
     let removed = false;
     if (slotIndex >= 0 && slotIndex < playerData.inventory.length) {
-        // Try to remove by slotIndex first
-        let inventoryItem = playerData.inventory[slotIndex];
-        if (inventoryItem === item || (inventoryItem.type === item.type && inventoryItem.name === item.name)) {
-            playerData.inventory.splice(slotIndex, 1);
-            removed = true;
-        }
+        // Remove the item at this slot index
+        playerData.inventory.splice(slotIndex, 1);
+        removed = true;
     }
     
-    // If not removed by slotIndex, try to find and remove by item reference
+    // If slotIndex removal didn't work, try to find and remove by item reference
     if (!removed) {
-        for (let i = 0; i < playerData.inventory.length; i++) {
+        for (let i = playerData.inventory.length - 1; i >= 0; i--) {
             if (playerData.inventory[i] === item || 
                 (playerData.inventory[i].type === item.type && playerData.inventory[i].name === item.name)) {
                 playerData.inventory.splice(i, 1);
@@ -3984,9 +3981,28 @@ function DropEvidenceItem(slotIndex, item) {
     
     SaveGameState();
     
-    // Create dropped evidence on ground at player position
+    // Create dropped evidence on ground behind player
     let dropPos = player.pos.Clone();
-    dropPos.AddXY(0, 0.5); // Slight offset in front of player
+    
+    // Drop behind player based on rotation
+    // rotation: 0=up, 1=right, 2=down, 3=left
+    // Behind = opposite direction: (rotation + 2) % 4
+    let behindRotation = (player.rotation + 2) % 4;
+    let dropOffset = 0.6; // Distance behind player
+    
+    if (behindRotation === 0) {
+        // Behind = up, so drop at negative Y
+        dropPos.AddXY(0, -dropOffset);
+    } else if (behindRotation === 1) {
+        // Behind = right, so drop at positive X
+        dropPos.AddXY(dropOffset, 0);
+    } else if (behindRotation === 2) {
+        // Behind = down, so drop at positive Y
+        dropPos.AddXY(0, dropOffset);
+    } else if (behindRotation === 3) {
+        // Behind = left, so drop at negative X
+        dropPos.AddXY(-dropOffset, 0);
+    }
     
     // Create dropped evidence object
     let droppedEvidence = new DroppedEvidence(dropPos, item);
@@ -4004,6 +4020,8 @@ class DroppedEvidence extends MyGameObject
         this.item = item;
         this.dropTime = gameTime ? gameTime.gameHour : 0;
         this.timeOffset = Rand(9);
+        this.pickupDelay = new Timer();
+        this.pickupDelay.Set(0.3); // Prevent pickup for 0.3 seconds after dropping
         // Note: Not setting isSmallPickup so it appears both indoors and outdoors
     }
     
@@ -4029,8 +4047,8 @@ class DroppedEvidence extends MyGameObject
         // Bob up and down like pickups
         this.height = .1 + .1 * Math.sin(2 * time + this.timeOffset);
         
-        // Let player pick it up
-        if (player && !player.IsDead() && player.IsTouching(this)) {
+        // Let player pick it up (only after delay has elapsed)
+        if (player && !player.IsDead() && this.pickupDelay.Elapsed() && player.IsTouching(this)) {
             this.Pickup();
         }
         

@@ -57,9 +57,6 @@ let evidenceNamingLastKey = null;
 let evidenceViewModalOpen = false;
 let evidenceViewItem = null;
 let evidenceViewScrollOffset = 0;
-let inventoryDragItem = null;
-let inventoryDragSlotIndex = -1;
-let inventoryDragStartPos = null;
 
 class GameTime
 {
@@ -3536,16 +3533,8 @@ function RenderInventoryModal()
                         DrawText(tooltipText, tooltipX + tooltipWidth/2, tooltipY, 10, 'center', 1, '#FFF', '#000');
                     }
                     
-                    // Handle drag start (mouse down on item)
-                    if (slotHover && mouseIsDown && !inventoryDragItem)
-                    {
-                        inventoryDragItem = item;
-                        inventoryDragSlotIndex = slotIndex;
-                        inventoryDragStartPos = new Vector2(mousePos.x, mousePos.y);
-                    }
-                    
-                    // Handle item click - only open evidence modal, don't drop on click
-                    if (slotHover && MouseWasPressed() && !inventoryDragItem)
+                    // Handle item click - open evidence modal
+                    if (slotHover && MouseWasPressed())
                     {
                         if (isEvidence)
                         {
@@ -3559,70 +3548,8 @@ function RenderInventoryModal()
         }
     }
     
-    // Handle drag and drop
-    if (inventoryDragItem)
-    {
-        // Check if mouse moved far enough to start dragging
-        if (inventoryDragStartPos)
-        {
-            let dragDistance = mousePos.Distance(inventoryDragStartPos);
-            if (dragDistance > 5) // 5 pixel threshold to start drag
-            {
-                // Draw dragged item at cursor position
-                let dragSpriteSize = slotSize;
-                let dragX = mousePos.x - dragSpriteSize/2;
-                let dragY = mousePos.y - dragSpriteSize/2;
-                
-                // Draw with transparency
-                mainCanvasContext.globalAlpha = 0.7;
-                if (tileImage && tileImage.complete)
-                {
-                    mainCanvasContext.drawImage(
-                        tileImage,
-                        inventoryDragItem.tileX * tileSize, inventoryDragItem.tileY * tileSize,
-                        tileSize, tileSize,
-                        dragX, dragY,
-                        dragSpriteSize, dragSpriteSize
-                    );
-                }
-                mainCanvasContext.globalAlpha = 1.0;
-            }
-        }
-        
-        // Check if mouse released
-        if (!mouseIsDown)
-        {
-            // Check if released outside inventory bounds
-            let inventoryBounds = {
-                left: modalX - modalWidth/2,
-                right: modalX + modalWidth/2,
-                top: modalY - modalHeight/2,
-                bottom: modalY + modalHeight/2
-            };
-            
-            if (mousePos.x < inventoryBounds.left || mousePos.x > inventoryBounds.right ||
-                mousePos.y < inventoryBounds.top || mousePos.y > inventoryBounds.bottom)
-            {
-                // Dropped outside inventory - drop the item
-                DropEvidenceItem(inventoryDragSlotIndex, inventoryDragItem);
-            }
-            
-            // Clear drag state
-            inventoryDragItem = null;
-            inventoryDragSlotIndex = -1;
-            inventoryDragStartPos = null;
-        }
-    }
-    
     // Draw instruction text at bottom
-    if (inventoryDragItem)
-    {
-        DrawText('Drag outside to drop | Press I or ESC to close', modalX, modalY + modalHeight/2 - 20, 10, 'center', 1, '#AAA', '#000');
-    }
-    else
-    {
-        DrawText('Click evidence to view | Drag to drop | Press I or ESC to close', modalX, modalY + modalHeight/2 - 20, 10, 'center', 1, '#AAA', '#000');
-    }
+    DrawText('Click evidence to view | Press I or ESC to close', modalX, modalY + modalHeight/2 - 20, 10, 'center', 1, '#AAA', '#000');
 }
 
 ///////////////////////////////////////////////////////////////////////////////

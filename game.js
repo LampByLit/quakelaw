@@ -230,7 +230,7 @@ class PlayerData
         this.healthMax = 3;
         this.boomerangs = 1;
         this.bigBoomerangs = 0;
-        this.coins = 0;
+        this.coins = 20;
         this.inventory = []; // 16 slots (4x4 grid)
     }
     

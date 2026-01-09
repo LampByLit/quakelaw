@@ -836,18 +836,6 @@ function PostRender()
         RenderInventoryModal();
     }
     
-    // mouse cursor (rendered last so it appears on top of everything, including inventory)
-    mainCanvas.style.cursor='none'; 
-    let mx = mousePos.x|0;
-    let my = mousePos.y|0;
-    let mw = 2;
-    let mh = 15;
-    mainCanvasContext.globalCompositeOperation = 'difference';
-    mainCanvasContext.fillStyle='#FFF'
-    mainCanvasContext.fillRect(mx-mw,my-mh,mw*2,mh*2);
-    mainCanvasContext.fillRect(mx-mh,my-mw,mh*2,mw*2);
-    mainCanvasContext.globalCompositeOperation = 'source-over';
-    
     // Render evidence naming modal if open
     if (evidenceNamingModalOpen)
     {
@@ -859,6 +847,18 @@ function PostRender()
     {
         RenderEvidenceViewModal();
     }
+    
+    // mouse cursor (rendered last so it appears on top of everything, including modals)
+    mainCanvas.style.cursor='none'; 
+    let mx = mousePos.x|0;
+    let my = mousePos.y|0;
+    let mw = 2;
+    let mh = 15;
+    mainCanvasContext.globalCompositeOperation = 'difference';
+    mainCanvasContext.fillStyle='#FFF'
+    mainCanvasContext.fillRect(mx-mw,my-mh,mw*2,mh*2);
+    mainCanvasContext.fillRect(mx-mh,my-mw,mh*2,mw*2);
+    mainCanvasContext.globalCompositeOperation = 'source-over';
 }
 
 function MazeDataPos(pos)
@@ -1071,7 +1071,8 @@ class Player extends MyGameObject
             PlaySound(11);
         }
     
-        if (MouseWasPressed() && (playerData.boomerangs|| playerData.bigBoomerangs))
+        // Don't allow boomerang throw if inventory modal is open
+        if (MouseWasPressed() && (playerData.boomerangs|| playerData.bigBoomerangs) && !inventoryOpen)
         {
             // throw boomerang
             let isBig = 0;
@@ -3458,6 +3459,7 @@ function RenderInventoryModal()
     let gridStartY = modalY - modalHeight/2 + 60;
     
     // Draw inventory grid
+    let tooltipsToDraw = []; // Collect tooltips to draw after all slots
     if (playerData && playerData.inventory)
     {
         for(let row = 0; row < gridRows; row++)
@@ -3510,7 +3512,7 @@ function RenderInventoryModal()
                         DrawText(item.quantity.toString(), slotX + slotSize - 4, slotY + slotSize - 4, 10, 'right', 1, '#FFF', '#000');
                     }
                     
-                    // Show tooltip for evidence items on hover
+                    // Collect tooltip info for evidence items on hover (draw after all slots)
                     if (slotHover && isEvidence && item.name)
                     {
                         let tooltipText = item.name;
@@ -3519,18 +3521,7 @@ function RenderInventoryModal()
                         let tooltipPadding = 8;
                         let tooltipWidth = tooltipText.length * 6 + tooltipPadding * 2;
                         let tooltipHeight = 20;
-                        
-                        // Draw tooltip background
-                        mainCanvasContext.fillStyle = 'rgba(0, 0, 0, 0.9)';
-                        mainCanvasContext.fillRect(tooltipX, tooltipY - tooltipHeight/2, tooltipWidth, tooltipHeight);
-                        
-                        // Draw tooltip border
-                        mainCanvasContext.strokeStyle = '#FFF';
-                        mainCanvasContext.lineWidth = 2;
-                        mainCanvasContext.strokeRect(tooltipX, tooltipY - tooltipHeight/2, tooltipWidth, tooltipHeight);
-                        
-                        // Draw tooltip text
-                        DrawText(tooltipText, tooltipX + tooltipWidth/2, tooltipY, 10, 'center', 1, '#FFF', '#000');
+                        tooltipsToDraw.push({ text: tooltipText, x: tooltipX, y: tooltipY, width: tooltipWidth, height: tooltipHeight });
                     }
                     
                     // Handle item click - open evidence modal
@@ -3546,6 +3537,22 @@ function RenderInventoryModal()
                 }
             }
         }
+    }
+    
+    // Draw tooltips after all slots (so they appear on top)
+    for (let tooltip of tooltipsToDraw)
+    {
+        // Draw tooltip background
+        mainCanvasContext.fillStyle = 'rgba(0, 0, 0, 0.9)';
+        mainCanvasContext.fillRect(tooltip.x, tooltip.y - tooltip.height/2, tooltip.width, tooltip.height);
+        
+        // Draw tooltip border
+        mainCanvasContext.strokeStyle = '#FFF';
+        mainCanvasContext.lineWidth = 2;
+        mainCanvasContext.strokeRect(tooltip.x, tooltip.y - tooltip.height/2, tooltip.width, tooltip.height);
+        
+        // Draw tooltip text
+        DrawText(tooltip.text, tooltip.x + tooltip.width/2, tooltip.y, 10, 'center', 1, '#FFF', '#000');
     }
     
     // Draw instruction text at bottom
@@ -3807,8 +3814,31 @@ function RenderEvidenceViewModal() {
     mainCanvasContext.strokeRect(closeButtonX - closeButtonSize/2, closeButtonY - closeButtonSize/2, closeButtonSize, closeButtonSize);
     DrawText('X', closeButtonX, closeButtonY, 12, 'center', 1, '#FFF', '#000');
     
+    // Draw drop button at top (next to close button)
+    let dropButtonWidth = 100;
+    let dropButtonHeight = 25;
+    let dropButtonX = modalX + modalWidth/2 - 140;
+    let dropButtonY = modalY - modalHeight/2 + 25;
+    let dropButtonHover = (mousePos.x >= dropButtonX - dropButtonWidth/2 && mousePos.x <= dropButtonX + dropButtonWidth/2 &&
+                          mousePos.y >= dropButtonY - dropButtonHeight/2 && mousePos.y <= dropButtonY + dropButtonHeight/2);
+    
+    mainCanvasContext.fillStyle = dropButtonHover ? '#F44' : '#844';
+    mainCanvasContext.fillRect(dropButtonX - dropButtonWidth/2, dropButtonY - dropButtonHeight/2, dropButtonWidth, dropButtonHeight);
+    mainCanvasContext.strokeStyle = '#FFF';
+    mainCanvasContext.lineWidth = 2;
+    mainCanvasContext.strokeRect(dropButtonX - dropButtonWidth/2, dropButtonY - dropButtonHeight/2, dropButtonWidth, dropButtonHeight);
+    DrawText('DROP', dropButtonX, dropButtonY, 11, 'center', 1, '#FFF', '#000');
+    
     // Handle close button click
     if (MouseWasPressed() && closeButtonHover) {
+        CloseEvidenceViewModal();
+        return;
+    }
+    
+    // Handle drop button click
+    if (MouseWasPressed() && dropButtonHover) {
+        // Drop the evidence item
+        DropEvidenceItem(evidenceViewItem.slotIndex, item);
         CloseEvidenceViewModal();
         return;
     }
@@ -3823,7 +3853,7 @@ function RenderEvidenceViewModal() {
     let textAreaX = modalX;
     let textAreaY = modalY;
     let textAreaWidth = modalWidth - 40;
-    let textAreaHeight = modalHeight - 120;
+    let textAreaHeight = modalHeight - 80; // Increased height since buttons moved to top
     
     // Text area background
     mainCanvasContext.fillStyle = '#222';
@@ -3886,14 +3916,13 @@ function RenderEvidenceViewModal() {
         DrawText('NO CONVERSATION DATA', textAreaX, textAreaY, 12, 'center', 1, '#AAA', '#000');
     }
     
-    // Draw buttons at bottom
+    // Draw back button at bottom
     let buttonY = modalY + modalHeight/2 - 35;
     let buttonWidth = 120;
     let buttonHeight = 30;
-    let buttonSpacing = 20;
     
     // Back/Close button
-    let backButtonX = modalX - buttonWidth/2 - buttonSpacing/2;
+    let backButtonX = modalX;
     let backButtonHover = (mousePos.x >= backButtonX - buttonWidth/2 && mousePos.x <= backButtonX + buttonWidth/2 &&
                           mousePos.y >= buttonY - buttonHeight/2 && mousePos.y <= buttonY + buttonHeight/2);
     
@@ -3904,27 +3933,9 @@ function RenderEvidenceViewModal() {
     mainCanvasContext.strokeRect(backButtonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
     DrawText('BACK', backButtonX, buttonY, 12, 'center', 1, '#FFF', '#000');
     
-    // Drop button
-    let dropButtonX = modalX + buttonWidth/2 + buttonSpacing/2;
-    let dropButtonHover = (mousePos.x >= dropButtonX - buttonWidth/2 && mousePos.x <= dropButtonX + buttonWidth/2 &&
-                          mousePos.y >= buttonY - buttonHeight/2 && mousePos.y <= buttonY + buttonHeight/2);
-    
-    mainCanvasContext.fillStyle = dropButtonHover ? '#F44' : '#844';
-    mainCanvasContext.fillRect(dropButtonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
-    mainCanvasContext.strokeStyle = '#FFF';
-    mainCanvasContext.lineWidth = 2;
-    mainCanvasContext.strokeRect(dropButtonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
-    DrawText('DROP', dropButtonX, buttonY, 12, 'center', 1, '#FFF', '#000');
-    
-    // Handle button clicks
-    if (MouseWasPressed()) {
-        if (backButtonHover) {
-            CloseEvidenceViewModal();
-        } else if (dropButtonHover) {
-            // Drop the evidence item
-            DropEvidenceItem(evidenceViewItem.slotIndex, item);
-            CloseEvidenceViewModal();
-        }
+    // Handle back button click
+    if (MouseWasPressed() && backButtonHover) {
+        CloseEvidenceViewModal();
     }
 }
 

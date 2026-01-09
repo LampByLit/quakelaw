@@ -1,0 +1,66 @@
+{
+  "id": 156053,
+  "name": "Eugene Johnson v. The State",
+  "name_abbreviation": "Johnson v. State",
+  "decision_date": "1893-01-18",
+  "docket_number": "No. 74",
+  "first_page": "464",
+  "last_page": "466",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "31 Tex. Crim. 464"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. Crim. App.",
+    "id": 8990,
+    "name": "Texas Court of Criminal Appeals"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 429,
+    "char_count": 7979,
+    "ocr_confidence": 0.586,
+    "pagerank": {
+      "raw": 3.2318579022708614e-07,
+      "percentile": 0.8677511700489102
+    },
+    "sha256": "7b0d73752672d1fc0ad3b5e57b2c0f136636075ccecf71c2caa03cf58a4c9295",
+    "simhash": "1:dc18fcf6f085fe9f",
+    "word_count": 1380
+  },
+  "last_updated": "2023-07-14T18:40:15.204563+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Eugene Johnson v. The State."
+    ],
+    "opinions": [
+      {
+        "text": "SIMKINS, Judge.\nAppellant was convicted in the County Court of Dallas County for libel, and sentenced to a fine of $100, from which judgment he appealed to this court.\nThe appellant published a defamatory article about one Owen L. Parry, a resident citizen of Dallas, in a newspaper called the 11 Kansas City Sunday Sun,\u201d which was circulated in Dallas County and City, in which the said Parry was charged with criminal intimacy, in Dallas City, with one Essie Watkins, a woman of dissolute character, and with malicious mischief in breaking a quantity of furniture and bnc-a-brac, and with drunkenness in a public place, to-wit, in the house of said Essie Watkins, and with disorderly conduct. An information was filed upon an affidavit made by the said Parry, charging that so much of the article which is set out is grossly libelous, and that while it charged no penal offense, it charged matters which were false and disgraceful to him as a member of society.\n1. Appellant complains, first, that the affidavit upon which the information was based did not begin, \u201cIn the name and by the authority of the State of Texas.\u201d This is unnecessary. Jefferson case, 24 Texas Ct. App.,535. The information did begin, \u201cIn the name and by the authority of the State of Texas,\u201d and that was sufficient.\n2. The appellant complains that the court erred in overruling his exception thereto, and in ruling out appellant\u2019s testimony when he sought to prove the truth of the libel, which he had a right to do, because the libel did allege penal offenses against the laws of the State. The statute declares that when a libel charges a penal offense, and states the time, place, and nature of the offense, the truth of the libel may be offered in evidence. If the penal offense is charged generally, without the specifications required, the truth can not be proved, though in fact the libel may be true. It is the policy of the law to suppress the publication of all scandalous matter which simply tends to bring disgrace and trouble upon the citizen, but it is not its policy to suppress the discovery of crime, whereby the State may be duly notified of its existence. It is matter \u201cproper for public information\u201d (Bill of Rights, section 8), for it always concerns the public interest that crimes be revealed and punished. But the law will permit no criminal charge to be publicly made by any person without such specific statement as to time, place, and the nature of the offense; and this charge must then be published at the peril of the party making it, for if it is false, he will be guilty of libel. If he makes the publication without the specifications, he will be guilty of libel, though the facts be true. The charges here made were sufficiently specific as to the penal offenses charged.\nThe libelee is charged with having lived with a prostitute for one year preceding the publication of the libel, at a certain designated house in Dallas City, both being unmarried, and with having displaced one Anzy, who,'however, kept up a secret intrigue with his old mistress; and this intrigue being discovered but a short time prior to the publication of the libel, the libelee had maliciously broken up and destroyed the furniture and bric-a-broc of the prostitute; also for drunkenness in a public place, and disorderly conduct, in violation of articles 337, 683, 144, and 314 of the Penal Code, defining said acts to be offenses against the penal laws;, and by the terms of the statute (article 642) the defendant was entitled to prove the truth of the allegations made in said libel. And the error assigned, that the court erred in excluding the questions propounded by defendant to the witness Essie Watkins, to prove the truth of the libelous matter, was well taken, as they tended directly to prove it, and were addressed to the witness, who was able to prove them if they were true; and the action of the court in excluding such testimony is certainly incomprehensible when considered in connection with the charge of the court,, that if the jury believed that the statements charged as a libel were true, they should acquit defendant.\n3. We think, too, the prosecuting officer, in his final argument to the jury, did an injury to the rights of the defendant by alluding to and commenting upon the defendant\u2019s failure to testify. Code Crim, Proc., art, 730, subdiv. 4, as amended by Laws 1889, p. 37; Hunt v. The State, 28 Texas Ct. App., 149.\n4. The charge of the court in the ninth paragraph, to the effect, \u201cthat the truth of any statement charged as a libel may be shown in justification by the defendant, where it is charged in the information that said statement is false,\u201d is certainly erroneous. It is not only inconsistent with the action of the court in ruling out the proof of the libelous matter, but is wholly unwarranted by the statute, which clearly defines in what cases proof of the truth of the libel is admissible. For the errors designated, the judgment is reversed and cause remanded.\nReversed and remanded.\nJudges all present and concurring.",
+        "type": "majority",
+        "author": "SIMKINS, Judge."
+      }
+    ],
+    "attorneys": [
+      "Edwards & Blewett, for the appellant.",
+      "R. L. Henry, Assistant Attorney-General, for the State."
+    ],
+    "corrections": "",
+    "head_matter": "Eugene Johnson v. The State.\nNo. 74.\nDecided January 18.\n1. Affidavit\u2014Information.\u2014It is not essential to the sufficiency of an information that the affidavit upon which it is based begins, \u201cIn the name and by the authority of the State of Texas.\u201d It is sufficient if, as in this case, the information itself begins with those words.\n2. Practice \u2014 Libel\u2014Evidence.\u2014Under our statute the truth of a libel may be proved in defense when it charges a penal offense, specifying the time,place, and nature of the offense. If it charges the penal offense generally, without the required specifications, the truth of the libel can not be offered in evidence, though it may in fact be true. In this case the libel charged the libelee with fornication; with maliciously breaking and destroying the furniture of another; and with drunkenness in a public place\u2014specifying particularly the times, places, and ingredients of each offense so charged. Under the statute, the defendant was entitled to prove, if he could, the truth of the matter alleged, and in rejecting evidence offered for that purpose the trial court erred.\n3. Same\u2014Privilege of Counsel .\u2014Prosecuting counsel was permitted in his closing argument to comment upon the failure of the defendant to testify in his own behalf. Held, reversible error.\n4. Same\u2014Libel-^Charge of the Court.\u2014The court instructed the jury to the effect, that \u201cthe truth of any statement charged as a libel may be shown in justification by the defendant, where it is charged in the information that the statement is false.\u201d Held error, as subversive of the statute, which clearly defines in what cases of libel proof of the truth thereof may be admitted.\nAppeal from the County Court of Dallas. Tried below before Hon. E. G. Bower, County Judge.\nThis is a conviction for libel of O. L. Parry, and is one of the series of Kansas City Sunday Sun cases. The penalty assessed was a fine of $100.\nBriefly stated, the libel alleged in the information charged, that for about a year previous to its publication the libelee, Parry, lived in fornication with one Essie Watkins, a notorious prostitute, both being unmarried, at a certain house in the city of Dallas; that during the said time he purchased a large quantity of liquors from the said Essie, for which he refused to pay; that finally discovering the said Essie in flagrante delicto with one Anzy, he became enraged and broke up and destroyed furniture and bric-a-broc belonging to the said Essie, of the value of many hundred dollars; and that on several occasions he visited the house of the said Essie in a state of beastly intoxication.\nNone of the rulings of the court involve the evidence delivered on the trial; and in so far as the reversal of the conviction is predicated upon excluded evidence, its substance is indicated in the opinion.\nEdwards & Blewett, for the appellant.\nR. L. Henry, Assistant Attorney-General, for the State."
+  },
+  "file_name": "0464-01",
+  "first_page_order": 484,
+  "last_page_order": 486
+}

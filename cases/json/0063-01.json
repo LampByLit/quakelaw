@@ -1,0 +1,66 @@
+{
+  "id": 156098,
+  "name": "W. C. Butler et al. v. The State",
+  "name_abbreviation": "Butler v. State",
+  "decision_date": "1892-06-08",
+  "docket_number": "No. 7830",
+  "first_page": "63",
+  "last_page": "64",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "31 Tex. Crim. 63"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. Crim. App.",
+    "id": 8990,
+    "name": "Texas Court of Criminal Appeals"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 213,
+    "char_count": 3329,
+    "ocr_confidence": 0.527,
+    "pagerank": {
+      "raw": 3.691841429800026e-07,
+      "percentile": 0.8925118800362493
+    },
+    "sha256": "b160be002b2e78b7dafa8813bf33f069fc56ca0c3be41fdbc75b2b9b64a1264f",
+    "simhash": "1:573ece04af1bcf99",
+    "word_count": 577
+  },
+  "last_updated": "2023-07-14T18:40:15.204563+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "W. C. Butler et al. v. The State."
+    ],
+    "opinions": [
+      {
+        "text": "DAVIDSON, Judge.\nAppellants were sureties upon the bail bond of one J. B. Nite. The bond was executed in January, 1891, requiring the presence of the principal before the District Court of Medina County on the thirteenth Monday after the first Monday in March, 1890, instead of 1891, as it should have been. Upon default by the principal, the bond was forfeited. The sureties, upon being cited, appeared and answered, and admitting the execution of the bond, they pleaded in avoidance the alteration of the bond subsequent to their signing it. This alteration consisted in changing the time of appearance of the principal from the date mentioned in the year 1890 to the corresponding time in 1891. This was a material alteration. The evidence is uncontradicted that the change in the bond was made, and so made without the knowledge or consent of the principal. If the alteration was made by the principal, it would be binding upon him, and in so far as he is concerned, a valid, legal obligation. Code Crim. Proc., art. 452, subdiv. 1. But such change in the terms of the bond is not binding upon the sureties. They were responsible only as they bound themselves.\nAs originally executed, the bond was not a valid legal undertaking, because it required the appearance of the principal at an impossible date and at a time long since past. Heath v. The State, 14 Texas Ct. App., 213; Collins v. The State, 16 Texas Ct. App., 274; Gragg v. The State, 18 Texas Ct. App., 295; Wegner v. The State, 28 Texas Ct. App., 419.\nWhile as to the principal the bond might be legal, if altered by him, yet this would not be so as to the sureties, because changed in its terms without their knowledge or consent. The judgment should have been rendered in favor of the sureties on the record before us. Judgment reversed and cause remanded.\nBeversed and remanded.\nJudges all present and concurring.",
+        "type": "majority",
+        "author": "DAVIDSON, Judge."
+      }
+    ],
+    "attorneys": [
+      "Rose & Preston, for appellants.",
+      "R. H. Harrison, Assistant Attorney-General, for the State."
+    ],
+    "corrections": "",
+    "head_matter": "W. C. Butler et al. v. The State.\nNo. 7830.\nDecided June 8.\n1. Bail Bond, Alteration of.\u2014The bail bond requiring the presence of' the principal before the District Court, fixed the time for such appearance on the thirteenth Monday after the first Monday in March, 1890, instead of 1891, as it should have been, said bond having been executed in January, 1891. After its execution, and without the knowledge or consent of either the principal or sureties therein, some one altered the bond, so as to make the year of the appeaance of the principal \u201c1891,\u201d instead of \u201c1890,\u201d as it was originally written. Held, that this was a material alteration, and that the sureties were discharged from their obligation on account thereof.\n2. Same\u2014Impossible Date.\u2014A bail bond which requires the appearance of the principal therein at an impossible date, and at a time long since passed,, is not a valid, legal undertaking which can be enforced in law.\nAppeal from the District Court of Medina. Tried below before Hon. Thos. M. Paschal.\nThis was a scire facias, upon a forfeited bail bond. In answer to the writ, the parties answered that the bond had been altered by some one unauthorized to change the same. The court held the answer insufficient in law, and rendered judgment declaring the judgment nisi final against the principal and sureties for the sum of $500.\nRose & Preston, for appellants.\nR. H. Harrison, Assistant Attorney-General, for the State."
+  },
+  "file_name": "0063-01",
+  "first_page_order": 83,
+  "last_page_order": 84
+}

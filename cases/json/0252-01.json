@@ -1,0 +1,186 @@
+{
+  "id": 156076,
+  "name": "Henry Jones v. The State",
+  "name_abbreviation": "Jones v. State",
+  "decision_date": "1892-11-05",
+  "docket_number": "No. 522",
+  "first_page": "252",
+  "last_page": "257",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "31 Tex. Crim. 252"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. Crim. App.",
+    "id": 8990,
+    "name": "Texas Court of Criminal Appeals"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "12 Mass., 17",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "pin_cites": [
+        {
+          "page": "18"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "26 Minn., 248",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        754155
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/minn/26/0248-01"
+      ]
+    },
+    {
+      "cite": "49 N. Y., 407",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2057477
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/49/0407-01"
+      ]
+    },
+    {
+      "cite": "43 N. H., 413",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "case_ids": [
+        4554792
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nh/43/0413-01"
+      ]
+    },
+    {
+      "cite": "60 Ind., 310",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1500683
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/60/0310-01"
+      ]
+    },
+    {
+      "cite": "141 Mass., 527",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        766245
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/141/0527-01"
+      ]
+    },
+    {
+      "cite": "11 Cush., 40",
+      "category": "reporters:state",
+      "reporter": "Cush.",
+      "case_ids": [
+        1970419
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/65/0040-01"
+      ]
+    },
+    {
+      "cite": "10 Vt., 225",
+      "category": "reporters:state",
+      "reporter": "Vt.",
+      "case_ids": [
+        613609
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/vt/10/0225-01"
+      ]
+    },
+    {
+      "cite": "7 Watts, 237",
+      "category": "reporters:state",
+      "reporter": "Watts",
+      "case_ids": [
+        1846821
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/watts/7/0237-01"
+      ]
+    },
+    {
+      "cite": "50 Mich., 475",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1393793
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/50/0475-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 630,
+    "char_count": 14318,
+    "ocr_confidence": 0.546,
+    "pagerank": {
+      "raw": 1.0660873268362473e-07,
+      "percentile": 0.5584080384609296
+    },
+    "sha256": "54cb2f158e805c6bfc9cb48dbf4bd72f0220a2d6a6ef9831e92443a831c75642",
+    "simhash": "1:c3f46141eb6c1397",
+    "word_count": 2527
+  },
+  "last_updated": "2024-02-27T17:11:38.849644+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Henry Jones v. The State."
+    ],
+    "opinions": [
+      {
+        "text": "SIMKINS, Judge.\nDefendant was convicted of disposing of mortgaged property, and sentenced to two years in the penitentiary, from which he appeals.\nThe defendant, a minor 17 years old, executed a mortgage to his landlord on his crop of 1891, to secure the balance of his indebtedness of 1890, and sold a bale of cotton without his consent. The only question in the case is, can a minor be held criminally responsible for disposing of mortgaged property ? To hold one responsible for fraudulently disposing of mortgaged property, there must be a valid and subsisting mortgage enforceable at law. However solemnty executed a conveyance or mortgage of personal property may be by a minor,, he may avoid it by sale or other act of disaffirmance. Mr. Jones, in his Chattel Mortgages (section 40), states the rule to be: \u201c The mortgage of a minor is voidable, and can be avoided by him at any time during his minority, or in a reasonable time thereafter, and an unconditional sale of the property is an avoidance of the contract.\u201d\nThe law holds that infants are lacking in judgment and understanding sufficient to enable them to guard their own interests, and the law protects them against their own improvidence and the designs of others, by allowing them to avoid any act, contract, or conveyance not manifestly for their interest; and the general rule seems to be, no express contract, when repudiated or disaffirmed by the minor, can be enforced against him. Even in case of necessaries, the recovery is not on the express contract or contract price, but on an implied contract based on the actual value of the goods and the fact that they were necessaries. Schoul. Dom. Rel., sec. 411; Wood v. Losey, 50 Mich., 475; Rundel v. Keeler, 7 Watts, 237; Bent v. Manning, 10 Vt., 225; Merriam v. Cunningham, 11 Cush., 40; Parsons v. Keys, 43 Texas, 557; Trainer v. Trumbull, 141 Mass., 527; Price v. Sanders, 60 Ind., 310.\nNow, courts refuse to enforce a contract against a minor when disaffirmed by Mm, and it is well settled he may repudiate any contract by refusal to pay, or by sale, and in other ways. If the statute prohibiting the sale of mortgaged property is to be construed as applying to him, then it strips him of the right to disaffirm the contract, the shield of protection given him by the common law, and places him helplessly in the grasp of his creditor, who under the threat of a criminal prosecution forbids the sale of his crop or the payment of its proceeds to himself. Such a contract can never be held for the benefit of the minor, and courts from the earliest times have refused to uphold contracts with penalties against minors. In the case of The State v. Howard, 88 North Carolina, 650, the court held that an indictment under a statute like ours forbidding the sale or disposal of a mortgaged crop, can not be sustained when it appears that the defendant is an infant. The alleged disposition was a disaffirmance of the contract, and rendered it void.\nSo in the case of The State v. Plaisted, 43 New Hampshire, 413, where a minor mortgaged a horse and sold it, the court held, that while an infant\u2019s mortgage on personal property was valid and binding until avoided, any act, as a sale of such property, showing his intentions not to be bound by said mortgage, is a sufficient avoidance of it.\nWe are of opinion that the sale of the bale of cotton violated no criminal statute, but on the contrary the act was simply a disaffirmance of the mortgage, and the special instruction given to the jury when they returned into court and asked instructions on this question was erroneous.\nThe judgment is reversed and the cause remanded.\nReversed and remanded.\nJudges all present and concurring.",
+        "type": "majority",
+        "author": "SIMKINS, Judge."
+      }
+    ],
+    "attorneys": [
+      "L. J. & A. B. Storey, for appellant.",
+      "No brief for the State has come into the hands of the Reporter."
+    ],
+    "corrections": "",
+    "head_matter": "Henry Jones v. The State.\nNo. 522.\nDecided November 5.\n1. Fraudulent Disposition of Mortgaged Property\u2014A Minor not Liable.\u2014A minor can not be held criminally responsible for disposing of mortgaged property.\n2. Same.\u2014An indictment under our statute, Penal Code, article 797, forbidding the sale or disposal of a mortgaged crop, can not be sustained where it appears that the accused is a minor.\n3. Effect of Disposition of Mortgaged Property by a Minor.\u2014 The disposition by a minor is a disaffirmance of his mortgage contract, and renders it void.\nAppeal from the District Court of Hays. Tried below before Hon. H. Teichmuller.\nAppellant was indicted for the fraudulent disposition of mortgaged property, to-wit, one bale of cotton. The trial resulted in his conviction, with punishment assessed at two years in the penitentiary.\nThe substance of the evidence, in brief, was, that defendant rented land from \"one W. O. Hutchison for the year 1891, and to secure a pre-existent debt and the rent he executed ea chattel mortgage to said Hutchison, amongst other property, upon his crop of corn and cotton to be grown on the land. He sold a bale of the cotton grown upon the land to one Hardy on the 11th of September, 1891, without the knowledge or consent of Hutchison.\nFor the defendant, the evidence established that he was born sometime in the year 1872, and that consequently he was a minor under the age of 21 years.\nThe court instructed the jury in the fifth paragraph of its charge, to-wit: \u201cThere are no facts in evidence, if you should find that defendant executed the mortgage as charged, and that he was a minor at the time, which would exempt him criminally from punishment by reason of such minority.\u201d\nDefendant requested the court to specially instruct the jury as follows, to-wit: \u201c1. If you find from the evidence that the mortgage given by the deiendant was made before he was 21 years of age, then you are instructed that he can not be convicted for a sale of the property described in the mortgage, and you will acquit him.\n\u201c2. If you find from the evidence that, the mortgage in this case was given for a debt that pre-existed at the time of the execution of the mortgage upon the property described in the mortgage, and that at the time of the execution of the instrument the defendant was a minor under the age of 21 years, then yoxr are instructed that such a mortgage would not be binding upon him, and a sale by him of any such property would not be an offense, and you will acquit him.\u201d\nThese requested instructions were refused, and defendant reserved his bill of exceptions.\nDefendant\u2019s second bill of exceptions shows, that after the jury had been sometime in retirement, considering of their verdict, they were upon their request brought back into court; whereupon one of their number said to the court: \u201cWe want you to explain section No. 5 of your charge. I understand it, but some of them do not.\u201d Thereupon the court delivered to them the following, to-wit: \u201c You are instructed, if you find from the evidence that the defendant did execute a mortgage as alleged, that the fact that he was a minor at the time, if you so find, does not make the mortgage void, constitutes no defense in the case, and does not exempt the defendant from responsibility. There being no facts shown in connection with the minority of defendant, that you may disregard the question of minority entirely, and that in rendering your verdict you will be governed by the instructions, regardless of paragraph No. 5 in the general charge.\u201d\nDefendant, by counsel, excepted to this charge, because said additional instruction was not requested by the jury, was not the law applicable to the case, was vague and indefinite, and was upon the weight and contradictory of the evidence, and was calculated to injure and prejudice the right of defendant.\nL. J. & A. B. Storey, for appellant.\nIn a prosecution for the fraudulent disposition of mortgaged property, it is a complete defense to the prosecution to show that at the time of the execution of the instrument the defendant was a minor, and that he had during his minority, within or a reasonable time thereafter, disavowed the mortgage by an unconditional sale of the property or otherwise; such an instrument is not legally binding upon him, could not be enforced by an action at law, and therefore not \u20181 a valid and subsisting mortgage. \u2019 \u2019 Jones on Chattel Mortgages, section 40, states the law to be: \u201c The mortgage of a minor is voidable, and can be avoided by him at any time during his minority, or in a reasonable time thereafter, and an unconditional sale of the property is an avoidance of the contract.\u201d 2 Wait\u2019s Act. and Def., 169; The State v. Plaisted, 43 N. H., 413; Chapin v. Shafer, 49 N. Y., 407; Miller v. Smith, 26 Minn., 248; Parker v. Lincoln, 12 Mass., 17, 18.\nA mortgage given by a minor, not to secure necessaries, but to secure a pre-existing debt, and therefore not for his benefit, coupled with a penalty, is void, and such an instrument can not serve as the basis for a criminal prosecution for a fraudulent disposition of mortgaged property.\nA mortgage given by a minor to secure a pre-existing debt, not for necessaries, is not binding upon him, and can be avoided by him at any time during his minority, or in a reasonable time thereafter, and an unconditional sale of the property is such an avoidance; such an instrument is not a sufficient basis for a criminal prosecution. Anson on Cont. ,106; Schouler Dom. Rel., secs. 401, 402, 404, 409, 424, 425.\nIt is conceded that ordinarily a minor is responsible for crimes committed by him after he has reached the age of discretion, and this idea seems to have misled the learned judge who tried the case below, for he denies the defense to the defendant, \u201c because there are no facts shown in connection with the minority which would exempt him from prosecution.\u201d What facts could affect the validity of the contract ? We suggest that he can not be held for any offense if one of its requisite elements is a contract made by him during his minority; for this class of offenses he can not be held, with or without facts shown in connection therewith. Before considering this question, however, it must be first determined whether or not a crime has been committed. If from the facts of the case the necessary indispensable elements of the offense of fraudulently disposing of mortgaged property can be obtained, then it will be time enough to consider whether or not the defendant is responsible for the act. The question is, has an offense been committed ? There are two necessary and indispensable elements in the crime charged, and they must exist at the same time, must concur, and must both continue to exist until the offense is complete.\nThe foundation of the charge is, \u201ca valid and subsisting mortgage,\u201d made by one competent to so contract and bind himself and his property; an instrument that can be enforced at law, not void or voidable. And then the offense becomes complete by the other element: a fraudulent disposition of the property, covered by the mortgage. Now, in this case at bar, can the two elements be found to exist at the same time, and made to combine, so as to complete the offense ? We have a mortgage executed by a minor. To give it its greatest dignity under the law\u2014voidable; that is, the minor at any time during his minority, by any act showing his disavowance (and Mr. Jones, in his excellent work on Mortgages, writing on this point, says that the most pointed and sure way is by an unconditional sale of the property), can render the instrument worthless, can avoid it by a sale of the property; and no criminal statutes with reference to property upon which are \u201cvalid and subsisting mortgages,\u201d can deprive him of this legal right to protect his property by avoiding a voidable mortgage, and it has been held that this is so even though he may have misrepresented his age. He proceeds to sell, to pursue the course pointed out by law for avoiding the instrument. Every act in consummating the sale, which the prosecution claims as an element of the offense, is an act of avoidance, is cutting away, destroying, taking out of the case the other element, the foundation of the offense, so that, by the time the sale is completed, there is no mortgage. The two elements of the offense can not be made to concur; the one destroys the other; they do not exist at the same time. When the last necessary element of the offense comes in, it forces out and destroys the first, renders the mortgage \u201cnot a valid and subsisting lien,\u201d and therefore not sufficient as the basis of a criminal prosecution. But we go a step further, and say, upon high authority, with full confidence, that the instrument in this case is absolutely void, for the reason that it was given by a minor, not to obtain necessities, but to secure a pre-existing debt; therefore not for his benefit, nor the benefit of his property, and is coupled with a penalty of forfeiture of his property, of his liberty, and citizenship. The first is expressed in the instrument, and would be sufficient to render it void; the last being a part of the laws of the State, thereby becomes a part of his contract. Schouler Horn. Bel.\nWe would most respectfully suggest, that if a minor is held incapable in law to bind himself and property by his solemn contract, it can certainly never be held, that by that same contract, which will not forfeit his title to property, he will forfeit his liberty and his citizenship, and in doing the very act pointed out to him by the law for disavowing a contract of his minority he becomes a felon. It seems to us that the proposition is too preposterous to admit of an argument in its favor.\nWe believe that this question is raised for the first time in this court. As it affects criminal cases, and in view of the very meager authority upon the subject obtained from analogous cases in our State decisions, a full and complete statement of the law governing the case is most respectfully requested, to the end that the defendant may have a new trial under the law as laid down by your honors, and that the jails of the State may not be filled with minors, whose only offense has been in removing from their property liens \u201c evidences of youthful indiscretion,\u201d in the manner and by the means pointed out to them by law, and that creditors may know that they can not collect their debts by a resort to a criminal prosecution when they could not collect them by a civil action at law.\nNo brief for the State has come into the hands of the Reporter."
+  },
+  "file_name": "0252-01",
+  "first_page_order": 272,
+  "last_page_order": 277
+}

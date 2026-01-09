@@ -1,0 +1,65 @@
+{
+  "id": 156129,
+  "name": "Charles Trent et al. v. The State",
+  "name_abbreviation": "Trent v. State",
+  "decision_date": "1892-11-05",
+  "docket_number": "No. 492",
+  "first_page": "251",
+  "last_page": "252",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "31 Tex. Crim. 251"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. Crim. App.",
+    "id": 8990,
+    "name": "Texas Court of Criminal Appeals"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 263,
+    "char_count": 3958,
+    "ocr_confidence": 0.563,
+    "pagerank": {
+      "raw": 5.192857005017072e-07,
+      "percentile": 0.9402059733984491
+    },
+    "sha256": "34c7ded0867363d271607fab09103a2339239dd8d38e277caea9aaec89bd5ca5",
+    "simhash": "1:7094127d10f2b82c",
+    "word_count": 655
+  },
+  "last_updated": "2023-07-14T18:40:15.204563+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Charles Trent et al. v. The State."
+    ],
+    "opinions": [
+      {
+        "text": "SIMKINS, Judge.\nDefendant and three others were jointly indicted for burglary and theft. The defendant was placed on trial, and convicted of burglary, and sentenced to two years in the penitentiary, from which judgment he appeals.\n1. On June 2, 1891, the store of A. Lowenstein, in Dallas County, was burglarized, and a quantity of clothing and other articles taken. The burglary was effected by breaking the front window with a rock, and taking out the goods through the opening. On trial the defendant objected to Officer ICerby stating that Lowenstein identified the property taken from his store. Conceding that idenification is hearsay, still defendant shows no injury, for Lowenstein himself testified in person to the same fact.\n2. There is no force in the second bill of exceptions taken to the court\u2019s refusal to charge the law applicable to accomplices\u2019 testimony. The witness Spivey was in no Sense an accomplice. There is no evidence of any fraudulent intent in his connection with the transaction.\n3. The fourth bill of exceptions presents no reversible error. The jury found Trent and Hays guilty of burglary, and sentenced them to the reformatory; and when informed that defendant Trent could not be sent to the reformatory, they retired, and returned a verdict sending both to the penitentiary. A new trial was granted to defendant Hays, and overruled as to Trent.\n4. As to the question of sufficiency of testimony, we think there is sufficient to sustain the verdict. Witness Spivey, a merchant, passed Lowenstein\u2019s, and saw the window broken in Lowenstein\u2019s store, and a vacant place from which goods were taken. In a short time after reaching his store, four negro boys, the defendant being one of them, came in with shirts, pants, and suspenders, which they offered for sale. He negotiated slowly, watching for an officer; but at length he bought the articles, and followed them up Main street, when he met an officer and described the boys to him, and they were arrested. Upon trial, the witness fully identified the defendant as being one of the four from whom he purchased the stolen articles. The judgment is affirmed.\nAffirmed.\nJudges all present and concurring.",
+        "type": "majority",
+        "author": "SIMKINS, Judge."
+      }
+    ],
+    "attorneys": [
+      "No brief on file for either party."
+    ],
+    "corrections": "",
+    "head_matter": "Charles Trent et al. v. The State.\nNo. 492.\nDecided November 5.\n1. Burglary and Theft\u2014Evidence in Identification of Property. The owner of the property stolen after a burglarious entry into his store house having testified to his identification of the property after it was stolen, held, that hearsay testimony of another witness to the effect that the owner identified the property is harmless error.\n2. Accomplice Testimony\u2014Charge of Court.\u2014It is proper, and the duty of the court, to refuse instructions as to accomplice testimony, where the evidence raises no such issue.\n3. Practice\u2014Verdict, Change of\u2014Reformatory\u2014Penitentiary.\u2014 Two parties being jointly on trial for burglary, and the jury having returned a verdict'finding both guilty, and affixing the punishment at confinement in the reformatory, they were informed that appellant could not be sent to the reformatory ; whereupon they reconsidered their verdict and assessed the punishment of both defendants in the penitentiary. Held, a new trial having been awarded the other defendant, there is no ground for complaint.\n4. Evidence Sufficient.\u2014See evidence stated in the opinion which is held amply sufficient to support a verdict and judgment for burglary.\nAppeal from the District Court of Dallas. Tried below before Hon. R. E. Burke.\nAppellant was jointly tried with John Hays and two other parties, on an indictment charging them with burglary and theft. Both he and Hays were found guilty, and their punishment assessed at two years (each) in the penitentiary. A new trial was awarded the defendant Hays. This is the second appeal taken in this case. See Hays et al. v. The State, 30 Texas Ct. App., 472.\nThe facts are sufficiently stated in the opinion of the court.\nNo brief on file for either party."
+  },
+  "file_name": "0251-01",
+  "first_page_order": 271,
+  "last_page_order": 272
+}

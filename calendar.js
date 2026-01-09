@@ -1291,6 +1291,10 @@ function RenderDateDetailsView(modalX, modalY, modalWidth, modalHeight)
             {
                 eventName = 'A Case of the Mondays';
             }
+            else if (event.taskId === 'fridayJudgement')
+            {
+                eventName = 'Friday Judgement';
+            }
             DrawText(eventName, textX, textY - 10, 12, 'left', 1, '#FFF', '#000');
             
             // Get current addresses from NPC (verify they're still accurate)

@@ -1,0 +1,66 @@
+{
+  "id": 156059,
+  "name": "Henry Boatmeyer v. The State",
+  "name_abbreviation": "Boatmeyer v. State",
+  "decision_date": "1893-01-21",
+  "docket_number": "No. 76",
+  "first_page": "473",
+  "last_page": "474",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "31 Tex. Crim. 473"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. Crim. App.",
+    "id": 8990,
+    "name": "Texas Court of Criminal Appeals"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 234,
+    "char_count": 3155,
+    "ocr_confidence": 0.558,
+    "pagerank": {
+      "raw": 2.3109114105947955e-07,
+      "percentile": 0.7884440366986647
+    },
+    "sha256": "de5981b1f721beff8808533eba759851c834d49508140ad5aadfc4254537a00e",
+    "simhash": "1:3d24180e00944db2",
+    "word_count": 558
+  },
+  "last_updated": "2023-07-14T18:40:15.204563+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Henry Boatmeyer v. The State."
+    ],
+    "opinions": [
+      {
+        "text": "DAVIDSON, Judge.\nAppellant was convicted of aggravated assault and battery, and his punishment assessed at a fine of $250 and six months imprisonment in the county jail.\nWhen the case was called for trial, the witnesses were placed under the rule.. During the trial it became necessary and of material interest to his defense for defendant to have the testimony of the assistant county attorney, Lemon, before the jury, and to this end offered him as a witness. He was rejected as a witness, because he had not been under the rule. Usually the legal discretion of a court exercised during a trial in reference to the enforcement or relaxation of the \u201crule\u201d will not be revised by the appellate court, but this is not always the case. The prime, as well as the ultimate, object of this statute is to secure a fair and impartial administration of the law, and to obtain a full and fair hearing of the testimony, and when necessary to attain these objects and purposes, the rule should be relaxed. From the very nature of the matter there can be no fixed rule in such state of case other than a due administration of the law. It is a practice alike familiar to the courts and the profession that this rule is relaxed in regard to attorneys of the court. Brown v. The State, 3 Texas Ct. App., 295; Johnson v. The State, 10 Texas Ct. App., 571; Roach v. The State, 41 Texas, 262; Sherwood v. The State, 42 Texas, 498. And we do not think it could be enforced as to attorneys engaged in the particular case on trial, for if such were the rule the State could thus be deprived of a prosecuting attorney, and the defendant of his counsel, and the rule be made paramount to the codes, defeat the very objects of its existence, and even infringe the Bill of Rights, wherein it is provided that the accused shall have the right to be heard by counsel, as well as by himself. The witness, under the facts of this case, should have been permitted to testify.\nThe judgment is reversed and the cause remanded.\nBevwsed and remanded.\nJudges all present and concurring.",
+        "type": "majority",
+        "author": "DAVIDSON, Judge."
+      }
+    ],
+    "attorneys": [
+      "Stillwell H. Russell, for appellant.",
+      "R. L. Henry, Assistant Attorney-General, for the State."
+    ],
+    "corrections": "",
+    "head_matter": "Henry Boatmeyer v. The State.\nNo. 76.\nDecided January 21.\nPlacing Witnesses Under Rule \u2014 Attorneys in the Case.\u2014Attorneys engaged in the prosecution or defense of a criminal trial do not come within the purview of the statute (Code of Criminal Procedure, article 662) authorizing the placing of witnesses under the rule, and the refusal of the court to allow the assistant county attorney engaged in the prosecution of the trial to testify as a witness, because he had not been placed under the rule, constitutes reversible error.\nAppeal from the County Court of Dallas. Tried below before Hon. E. G. Bower, County Judge.\nAppellant was prosecuted by information in the lower court for aggravated assault and battery, committed by him upon one John Annen, with a pistol, a deadly weapon. At the trial he was convicted by the court, a jury having been waived, his punishment being assessed at a fine of $250 and costs, for which judgment was rendered.\nIt is unnecessary to make a statement of facts in the case.\nStillwell H. Russell, for appellant.\nR. L. Henry, Assistant Attorney-General, for the State."
+  },
+  "file_name": "0473-01",
+  "first_page_order": 493,
+  "last_page_order": 494
+}

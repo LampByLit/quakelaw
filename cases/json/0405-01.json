@@ -1,0 +1,66 @@
+{
+  "id": 156089,
+  "name": "J. L. Scott v. The State",
+  "name_abbreviation": "Scott v. State",
+  "decision_date": "1892-12-21",
+  "docket_number": "No. 18",
+  "first_page": "405",
+  "last_page": "406",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "31 Tex. Crim. 405"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. Crim. App.",
+    "id": 8990,
+    "name": "Texas Court of Criminal Appeals"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 165,
+    "char_count": 2945,
+    "ocr_confidence": 0.579,
+    "pagerank": {
+      "raw": 4.076306636737454e-08,
+      "percentile": 0.006116316103127229
+    },
+    "sha256": "0beefeb16af2344b04a94f4262b207bf9a3d710c66fbba6af5349821bee76ed8",
+    "simhash": "1:2d51b5b7eba3b04d",
+    "word_count": 526
+  },
+  "last_updated": "2023-07-14T18:40:15.204563+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "J. L. Scott v. The State."
+    ],
+    "opinions": [
+      {
+        "text": "HURT, Presiding Judge.\nThis is a proceeding against plaintiff in error, an attorney at law, charging him with fraudulent conduct, namely, swindling, and having for its object to strike his name from the roll of attorneys. Upon a trial before the District Court of Bosque County, his name was stricken from the roll of practicing attorneys, and he endeavors to take the case to the Supreme Court by writ of error.\n1. This is a criminal case (The State v. Tunstall, 51 Texas, 81), and this court has exclusive jurisdiction in criminal cases. Const., art. 5, sec. 3.\n2. Being a criminal case, an appeal can not be effected by writ of error. This must be done by an appeal technically.\n3. Being a criminal case, this court has no authority to transfer the record to the Court of Civil Appeals. We therefore order the case stricken from the docket, with leave for the plaintiff in error to withdraw the record, if he desires.\nOrdered accordingly.\nJudges all present and concurring.",
+        "type": "majority",
+        "author": "HURT, Presiding Judge."
+      }
+    ],
+    "attorneys": [
+      "J. L. Scott, in proprio persona.",
+      "R. L. Henry, Assistant Attorney-General, for the State."
+    ],
+    "corrections": "",
+    "head_matter": "J. L. Scott v. The State.\nNo. 18.\nDecided December 21.\n1. Disbarment of Attorney at Law \u2014Jurisdiction. \u2014A proceeding against an attorney or counsellor at law, charging him with fraudulent or dishonorable conduct, and having for its object to strike him from the roll of practicing attorneys, is a criminal or quasi criminal case, from which an appeal can only lie to the Court of Criminal Appeals. Following The State v. Tunstall, 51 Texas. 81.\n2. Practice\u2014Writ of Error.\u2014l\u00edo writ of error lies from a judgment in a criminal case to the Court of Criminal Appeals. The jurisdiction of such court can alone he invoked by an appeal.\n3. Practice in Court of Criminal Appeals as to Writs of Error. On a proceeding instituted for that purpose in the court below, where appellant bad been disbarred as a practicing attorney of the law, and he sought to carry the case by writ of error to the Supreme Court, but the transcript had been filed in the Court of Criminal Appeals, and he filed a motion in the latter court to transfer the cause to the Court of Civil Appeals, upon the ground that said court had jurisdiction of the case, held, the case being a criminal case, the Court of Criminal Appeals was without authority to transfer it to the Court of Civil Appeals, and the motion was refused; and because this court has no jurisdiction over writs of error, the case is stricken from the docket.\nWrit of Error from the District Court of Bosque. Tried below before Hon. J. M. Hall.\nOn a proceeding in the District Court of Bosque County, instituted for that purpose, the name of J. L. Scott was stricken from the roll of attorneys, for fraudulent conduct as an attorney at law. He sued out a writ of error, and the record was filed in the Court of Criminal Appeals. He filed a motion to transfer the case from the Court of Criminal Appeals to the Court of Civil Appeals, at Galveston.\nJ. L. Scott, in proprio persona.\nR. L. Henry, Assistant Attorney-General, for the State."
+  },
+  "file_name": "0405-01",
+  "first_page_order": 425,
+  "last_page_order": 426
+}

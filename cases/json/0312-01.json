@@ -1,0 +1,90 @@
+{
+  "id": 156084,
+  "name": "Alf Crass v. The State",
+  "name_abbreviation": "Crass v. State",
+  "decision_date": "1892-11-30",
+  "docket_number": "No. 497",
+  "first_page": "312",
+  "last_page": "315",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "31 Tex. Crim. 312"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. Crim. App.",
+    "id": 8990,
+    "name": "Texas Court of Criminal Appeals"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "131 Mass., 588",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        2129940
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/131/0588-01"
+      ]
+    },
+    {
+      "cite": "101 Mass., 25",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        2144768
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/101/0025-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 515,
+    "char_count": 10510,
+    "ocr_confidence": 0.572,
+    "pagerank": {
+      "raw": 1.6889799734159467e-07,
+      "percentile": 0.6987411235172398
+    },
+    "sha256": "ec7ccbbc3f9447aedb9e8a335d46ada0e548ff2fc8fcb1291e7b9b1a1bd46ce6",
+    "simhash": "1:523f8021863c917b",
+    "word_count": 1880
+  },
+  "last_updated": "2024-02-27T17:11:38.849644+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Alf Crass v. The State."
+    ],
+    "opinions": [
+      {
+        "text": "DAVIDSON, Judge.\nAppellant was convicted of an assault with intent to murder one Walden, alleged to have been committed in March, 1891.\nIn the summer of 1891 he had been convicted of a similar assault upon the same party, which had occurred in December, 1890. Over appellant\u2019s objection, the prosecution was permitted to prove on the trial of this cause the prior assault and former conviction. In this case the State relied on circumstantial evidence. The evidence objected to was admitted to prove motive and ill will. Where a crime has been committed, and the circumstances point to the party on trial, charged with such crime, any fact tending to show him to be the perpetrator of the offense is admissible to prove motive, even though such fact or circumstance be remote; and it is competent to prove acts of the accused occurring prior to the assault under investigation when the acts themselves, taken in connection with other facts or circumstances, prove or tend to show the animus of the accused towards the assaulted party. Willson\u2019s Crim. Stat., secs. 1043, 1044. Appellant, at the date of the assault charged in this case, was under indictment for the former assault upon Walden, alleged to have been committed the previous December, which indictment was presented in court on February 19, 1891, less than one month prior to the assault charged in this case; and Walden was the principal witness for the State in that case. It was clearly permissible for the prosecution to prove the former assault, as well as the indictment predicated thereon. Dubose v. The State, 13 Texas Ct. App., 418; Taylor v. The State, 14 Texas Ct. App., 340; Powell v. The State, 13 Texas Ct. App., 244; Robinson v. The State, 16 Texas Ct. App., 347; Kunde v. The State, 22 Texas Ct. App., 65; Rucker v. The State, 7 Texas Ct. App., 549; Howard v. The State, 25 Texas Ct. App., 686; Anderson v. The State, 15 Texas Ct. App., 447; Johnson v. The State, 29 Texas Ct. App., 150; Brunet v. The State, 12 Texas Ct. App., 521; Blackwell v. The State, 29 Texas Ct. App., 195; Carr v. The State, 41 Texas, 543.\nThe record of appellant\u2019s conviction in the former case was also offered in evidence by the State, and objected to by appellant. The objections being overruled, appellant\u2019s counsel stated to the court that if the record was admissible, the State could prove the conviction without the necessity of reading the record to the jury, reserving his objections to the evidence because it was, in any form, inadmissible. That this testimony was admissible as tending to prove motive is, we think, hardly an open question in this State. Johnson v. The State, 29 Texas Ct. App., 150; Brunet v. The State, 12 Texas Ct. App., 521; Whart. Crim. Ev., sec. 602a.\n\u201cA prior judgment may also be admissible as part of the evidence on which the case for or against the appellant may be made out. * * * It may be relevant, also, to prove a former offense committed by the defendant as part of the system of crime of which the offense under trial is another part. If so, it is admissible to put in evidence the defendant\u2019s conviction of the former offense. * * * And a record of conviction of defendant in the same jurisdiction, being an adjudication in which the same parties were litigant, may be conclusive when showing a relevant fact.\u201d Whart. Crim. Ev., sec. 102a; Commonwealth v. Evans, 101 Mass., 25; Commonwealth v. Feldman, 131 Mass., 588.\nThis court said in Johnson\u2019s case: \u201c It was not error to admit in evidence against the defendant the indictments and records mentioned in defendant\u2019s bill of exceptions. This testimony was admissible to show motive for the commission of the murder, and to this purpose the testimony was restricted by the charge of the court.\u201d Johnson v, The State, 29 Texas Ct. App., 150.\nInasmuch as the appellant neither requested a special instruction nor excepted to the charge given in relation to accomplice testimony, we do not think, under the facts of this case, the evidence leaving it so very doubtful as to whether there was an accomplice, the judgment should be reversed because the word \u201caccomplice\u201d was not fully defined as understood in its broadest sense under article 741 of the Code of Criminal Procedure. Timbrook v. The State, 18 Texas Ct. App., 1; Zollicoffer v. The State, 16 Texas Ct. App., 312; Burke v. The State, 15 Texas Ct. App., 156.\nThe judgment is affirmed.\nAffirmed.\nJudges all present and concurring.",
+        "type": "majority",
+        "author": "DAVIDSON, Judge."
+      }
+    ],
+    "attorneys": [
+      "No briefs have come into the hands of the Reporter."
+    ],
+    "corrections": "",
+    "head_matter": "Alf Crass v. The State.\nNo. 497.\nDecided November 30.\n1. Circumstantial Evidence\u2014Motive\u2014Antecedent Acts and Conduct of Defendant.\u2014Where circumstantial evidence is relied on upon a trial for assault with intent to murder, it is always competent to prove acts of the accused prior to the assault under investigation, where such acts prove or tend to show the animus of the accused toward the assaulted party.\n2. Record Evidence in Another Case Admissible, when.\u2014Appellant having been indicted in two cases for assault with intent to murder the same party, and being upon his trial for the second assault, held, that the judgment and record of his conviction in the former case was admissible to prove motive, and also was relevant and admissible as part of the system of crime of which the offense under trial is another part.\n3. Charge of Court \u2014Accomplice Testimony.\u2014Where the evidence leaves it very doubtful as to whether there was an accomplice to the crime, and the charge of the court relative to accomplice testimony is not excepted to, nor a special instruction requested on that subject, a judgment of conviction will not be reversed because the word \u201c accomplice\u201d was not fully defined as understood in its broadest sense, under article 741 of the Code of Criminal Procedure.\nAppeal from the District Court of Bell. Tried below before Hon. James Boyd, Special Judge.\nAppellant was indicted for an assault with intent to murder one D. C. Walden, alleged to have been committed on the 8th day of March, 1891. He was convicted on his trial and his punishment assessed by the verdict and judgment at seven years imprisonment in the penitentiary.\nThe evidence shows, that prior to the trial in this case, defendant had been tried and convicted upon another indictment, which charged him also with another assault with intent to murder, alleged to have been committed by him on D. C. Walden, on the 19th day of December, 1890, and this indictment, together with the record in the previous case, was read in evidence, over defendant\u2019s objection, on the trial in this case.\nThe State was also permitted to prove, over defendant\u2019s objection, all the attendant facts and circumstances connected with the said shooting on the 19th of December, 1890.\nThe testimony of the State\u2019s principal witnesses, D. C. Walden, Mrs. D. C. Walden, and Miss Pearl Walden, shows a series of wrongs and outrages perpetrated by the defendant and one Jake Rampy, extending over a period of several months prior to the shooting on the 8th of March, and the facts attending the latter shooting are thus detailed in the testimony of the injured party, D. C. Walden, viz.:\nOn the night of March 8, 1891, I was going to bed about 9 o\u2019clock. The house fronts west. My room was the north room. My bed was in the southeast corner of the room, the head of the bed up in the corner, and space to walk between the bed and the east wall of the room. The lamp was on the mantlepiece, in north end of the room. I put my little boy in bed. I undressed and got in on southwest side of the bed. When I got in I was resting on my right elbow, lying somewhat on my right side, and reached down for the cover with my left hand. I was shot twice, and a third shot missed me. The shots came through the window near the portico on west side of the house, or the shots came through the south window of north room (as shown by plat). The first shot struck me in the left arm and broke it all to pieces, and it had to be amputated. The second one hit me in the hip. I fell over on the east side of the bed on to the floor, and the third shot missed me. My wife was between me and the window the shots came through, and the firing stopped. This was in Bell County, Texas, on the night of March 8, 1891. I did not seethe defendant shoot me on that night.\nMrs. Walden testified: That after the shooting she called to a neighbor to go for a doctor. That while she was standing on the portico, after the neighbor had left for the doctor, a man rose up from the window from which the shooting was done; he had been squatting down under the window. I did not see him until he got up and walked off to a little oak tree in the yard, where he stopped. As soon as I saw the man I took it to be the defendant, from his size, shape, and general appearance. The next morning saw tracks under the window where the man rose up. The tracks would compare very well with the tracks of defendant.\nSam Woodruff, a negro, testified to having been present with defendant and Jake Bampy, on the 19th of December, when defendant shot at Walden the first time. That subsequently defendant told him he could not get rid of that case unless Walden was put out of the way. That he agreed to kill Walden, and defendant furnished him with a pistol and a six-shooting shot gun to do it with. That instead of doing so, he carried the gun up the road, at night, set it up against the side of a tree, and shot the magazine off of it with the pistol; and when defendant asked him, afterwards, how the gun got so torn up, witness told him that he had gone after Walden, and that Walden had shot at him and hit the gun. Defendant said that he would go up there and see if Walden would shoot his gun; that he would kill Walden. Witness stated thatthis conversation occurred just before sundown; that about 9 or 10 o\u2019clock that night he heard two shots in the direction of Walden\u2019s house, and the next morning heard that Walden had been shot. This testimony as to the injury to defendant\u2019s gun, and that the magazine had been shot off, was corroborated by the testimony of other witnesses.\nW. S. Bose, testified: That from information he had received from Sam Woodruff, he found the piece of gun magazine under Jane Wood-ruff\u2019s house.\nScoge Seal testified to defendant\u2019s having admitted to him that he had shot Walden.\nThe defense was an alibi, which was testified to by defendant\u2019s father, mother, and brother. And defendant, as a witness in his own behalf, testified that he had not done the shooting.\nNo briefs have come into the hands of the Reporter."
+  },
+  "file_name": "0312-01",
+  "first_page_order": 332,
+  "last_page_order": 335
+}

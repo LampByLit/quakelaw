@@ -1,0 +1,66 @@
+{
+  "id": 156041,
+  "name": "W. F. Love v. The State",
+  "name_abbreviation": "Love v. State",
+  "decision_date": "1893-01-21",
+  "docket_number": "No. 27",
+  "first_page": "469",
+  "last_page": "470",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "31 Tex. Crim. 469"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. Crim. App.",
+    "id": 8990,
+    "name": "Texas Court of Criminal Appeals"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 216,
+    "char_count": 2823,
+    "ocr_confidence": 0.587,
+    "pagerank": {
+      "raw": 6.065644173010708e-07,
+      "percentile": 0.9551497017779801
+    },
+    "sha256": "a6cc190a4ab1f9e5afefb9481473757aa006b0f2809720c01ea643e41933ebc9",
+    "simhash": "1:7ecfc0b2c7f8aa16",
+    "word_count": 466
+  },
+  "last_updated": "2023-07-14T18:40:15.204563+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "W. F. Love v. The State."
+    ],
+    "opinions": [
+      {
+        "text": "SIMKINS, Judge.\nAppellant was convicted of pursuing the occupation of vending medicine without license, and fined in the sum of $262.50, from which he appealed to this court.\nConceding the sufficiency of the indictment and the correctness of the charge of the court, we do not think the evidence sufficient to support the charge. Appellant, as shown by the testimony, has been a colored Methodist preacher for thirty-four years, and for the past year or two was travelling with the Colored Methodist Conference as missionary in North Texas. While in the discharge of these clerical duties, for the purpose \u201c of sorter paying expenses,\u201d he sometimes sold, at 50 cents per bottle, a mixture which he called \u201cThe Oil of Life,\u201d and claimed to be a remedy for rheumatism.\u201d He sold three bottles of this mixture in Ellis County, while performing his missionary duties. Appellant testified that he was not in the business of selling this oil, but that his occupation and profession was that of a missionary preacher. There is nothing in the record suggesting that his occupation was that of a mere cover or excuse to enable him to sell said medicine. \u201cOccupation\u201d means a vocation, trade, or business in which one principally engages to make a living or to obtain wealth. Stanford\u2019s case, 16 Texas Ct. App., 331. Appellant can not be said to be \u201c one who travels for the purpose of vending medicine,\u201d which is the occupation the law proposes to tax. The judgment is reversed and the cause remanded.\nReversed and remanded.\nJudges all present and concurring.",
+        "type": "majority",
+        "author": "SIMKINS, Judge."
+      }
+    ],
+    "attorneys": [
+      "M. B. Templeton, for appellant.",
+      "R. L. Henry, Assistant Attorney-General, for the State."
+    ],
+    "corrections": "",
+    "head_matter": "W. F. Love v. The State.\nNo. 27.\nDecided January 21.\n1. Pursuing Occupation without Payment of Taxes and Obtaining License.\u2014See the opinion, for a state of facts held wholly insufficient to support a conviction for pursuing the occupation of selling medicine without first having paid the occupation tax and obtained a license therefor.\n2. Same \u2014 \u201cOccupation.\u201d\u2014\u201cOccupation\u201d means a vocation, trade, or business, in which one principally engages to make a living or to obtain wealth.\nAppeal from the County Court of Ellis. Tried below before Hon. B. McDaniel, County Judge.\nAppellant was prosecuted in the lower court, by information, for unlawfully pursuing and following the occupation of a travelling vender of medicine, without first having obtained a license therefor. At his trial he was convicted of said offense, his punishment being assessed at $262.50.\nThe occupation tax law, approved April 6, 1889, provides, among other matters, that there shall be levied and collected an occupation tax \u201c from every travelling person selling patent or other medicine $175, and no person shall so sell until said tax is paid.\u201d Gen. Laws 21st Leg., 24.\nThe facts are stated in the opinion.\nM. B. Templeton, for appellant.\nR. L. Henry, Assistant Attorney-General, for the State."
+  },
+  "file_name": "0469-01",
+  "first_page_order": 489,
+  "last_page_order": 490
+}

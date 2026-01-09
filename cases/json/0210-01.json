@@ -1,0 +1,79 @@
+{
+  "id": 155958,
+  "name": "Andrew Murio v. The State",
+  "name_abbreviation": "Murio v. State",
+  "decision_date": "1892-10-29",
+  "docket_number": "No. 463",
+  "first_page": "210",
+  "last_page": "211",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "31 Tex. Crim. 210"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. Crim. App.",
+    "id": 8990,
+    "name": "Texas Court of Criminal Appeals"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "108 Mass., 466",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        2106158
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/108/0466-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 292,
+    "char_count": 4188,
+    "ocr_confidence": 0.569,
+    "pagerank": {
+      "raw": 1.5571030805552607e-07,
+      "percentile": 0.6762911660100647
+    },
+    "sha256": "85a5491c66c28f99482c2081b2b801d19a5e8992baa1b3502a9c6e8b1f72f503",
+    "simhash": "1:1317a81f4c957ec6",
+    "word_count": 709
+  },
+  "last_updated": "2024-02-27T17:11:38.849644+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Andrew Murio v. The State."
+    ],
+    "opinions": [
+      {
+        "text": "SIMKINS, Judge.\nDefendant was convicted of receiving stolen property of the value of $20, and sentenced to two years in the penitentiary, from which he appeals.\nOn the night of March 30, 1892, a freight car loaded with coffee and other products, on the International & Great Northern Railway at Austin, was broken open and about 416 pounds of coffee taken therefrom. On the morning of April 1 a portion of this coffee, 164 pounds, was found in defendant\u2019s house, spread on the floor, and covering thrown over it to resemble a bed, and in the corner was a box marked \u201cA. Frank & Co., San Antonio.\u201d When the coffee was found, defendant hung his head and said nothing, but that he could not speak English nor the sheriff speak Spanish.\nThree witnesses, defendant\u2019s wife being one, proved that one Nestoro was indebted to defendant, and told him he had coffee which he had taken on a debt, and he wanted defendant to sell some of it on commission and pay himself, and he delivered the coffee to him for that purpose. That defendant is a Mexican and can not speak English. J. Reed, a wood dealer in Austin, testified to defendant\u2019s honesty and industry.\nThe only rebutting testimony was the witness Nestoro, who denied giving the coffee to defendant; but it was admitted that he was under indictment for the theft of the same goods. There is no question that the coffee found in defendant\u2019s possession had been stolen from the freight car on the International & Great Northern Railway. It was sufficiently identified. The only question that demands consideration is the sufficiency of the testimony to sustain the conviction.\nBefore he received the coffee defendant was informed by Nestoro that he, Nestoro, had taken the coffee in payment for a debt. Under the statute the party receiving the stolen property must know it was stolen (Penal Code, article 743; Wilson\u2019s case, 12 Texas Court of Appeals, 481); and guilty knowledge and the receiving of the stolen goods must concur. Arcia\u2019s case, 26 Texas Ct. App., 193; Nourse\u2019s case, 2 Texas Ct. App., 304. But guilty knowledge can be implied if defendant received the goods under circumstances sufficient to satisfy a man of ordinary intelligence and caution that the goods were stolen. Desty\u2019s Crim. Law, 147a; Commonwealth v. Firm, 108 Mass., 466. Conceding that defendant received the goods from the witness Nestoro to sell on commission, yet the fact that when Nestoro proposed to defendant to deliver him the coffee, defendant asked where he got it, strongly suggesting previous acquaintance with Mr. N'estoro alias Sanches (as he is called by defendant\u2019s wife and witness), and the further fact, that when Nestoro brings him the coffee, at night, it is unboxed and the packages are arranged in the form of a bed and covered, may have been regarded by the jury as ample proof of guilty knowledge, and we can not say that they are not justified in so finding.\nThe judgment is affirmed.\nAffirmed.\nJudges all present and concurring.",
+        "type": "majority",
+        "author": "SIMKINS, Judge."
+      }
+    ],
+    "attorneys": [
+      "A. S. Houston, for appellant.",
+      "No brief on file for the State."
+    ],
+    "corrections": "",
+    "head_matter": "Andrew Murio v. The State.\nNo. 463.\nDecided October 29.\n1. Receiving Stolen Property\u2014Guilty Knowledge.\u2014To constitute the crime of receiving stolen property, it is essential, under our statute, Penal Code, article 743, that the accused must have known, at the time he received it, that it was stolen; hut such guilty knowledge will be implied if the circumstances were such as should have been sufficient to satisfy a man of ordinary intelligence and caution that the property was stolen.\n2. Same.\u2014See the opinion for facts which are held amply sufficient to support a verdict and judgment of conviction for receiving stolen property.\nAppeal from the District Court of Travis. Tried below before Hon. James H. Robertson.\nThe indictment in this case charged appellant by two separate counts, the first for the theft of 416 pounds of coffee, and the second for receiving and concealing said coffee, knowing it to have been stolen. At his trial he was convicted under the second count for receiving and concealing said property, and given as his punishment two years confinement in the penitentiary.\nThe facts are sufficiently stated in the opinion.\nA. S. Houston, for appellant.\nNo brief on file for the State."
+  },
+  "file_name": "0210-01",
+  "first_page_order": 230,
+  "last_page_order": 231
+}

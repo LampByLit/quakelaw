@@ -1,0 +1,73 @@
+{
+  "id": 156131,
+  "name": "Dimitre O. Timatis v. The State",
+  "name_abbreviation": "Timatis v. State",
+  "decision_date": "1893-02-18",
+  "docket_number": "No. 134",
+  "first_page": "556",
+  "last_page": "557",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "31 Tex. Crim. 556"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. Crim. App.",
+    "id": 8990,
+    "name": "Texas Court of Criminal Appeals"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "20 S. W, Rep,, 832",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 203,
+    "char_count": 2913,
+    "ocr_confidence": 0.56,
+    "pagerank": {
+      "raw": 2.8651142789705816e-07,
+      "percentile": 0.842199294244568
+    },
+    "sha256": "a964410623c0b0bfcad4bf7e1a3afc89bdca4fbc834b679a7ce54a1082a96235",
+    "simhash": "1:ba39b111c51c3a42",
+    "word_count": 513
+  },
+  "last_updated": "2024-02-27T17:11:38.849644+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dimitre O. Timatis v. The State."
+    ],
+    "opinions": [
+      {
+        "text": "DAVIDSON, Judge.\nThis appeal is from a judgment assessing defendant\u2019s punishment at two years confinement in the penitentiary for theft. A statement of facts is not incorporated in the record.\nIn his motion for a new trial defendant alleges, that since his conviction he has discovered testimony by which it can be shown the value of the stolen property was less than $20, and in support thereof attaches to the motion an affidavit, signed by three parties, in which the value of the stolen property is placed at 50 cents per yard. The quantity of cloth alleged to have been stolen was thirty yards, and its value averred at $30. The court submitted only the felonious phase of the theft, and we will presume, in the absence of the facts, the testimony did not suggest the minor degree of the offense. By its averments, the indictment put the defendant upon notice that value would be a necessary issue on the trial, and it would be incumbent upon the prosecution to prove it to be $20 or more in order to sustain a conviction for felony. Indicted parties should use the necessary diligence to procure testimony relative to the issues necessarily involved in the case. The motion admits defendant\u2019s guilt. The court did not err in refusing the new trial. Haskins v. The State, 20 S. W, Rep,, 832.\nThe judgment is affirmed.\nAffirmed.\nSimkins, J., absent.",
+        "type": "majority",
+        "author": "DAVIDSON, Judge."
+      }
+    ],
+    "attorneys": [
+      "No brief for appellant.",
+      "R. L. Henry, Assistant Attorney-General, for the State."
+    ],
+    "corrections": "",
+    "head_matter": "Dimitre O. Timatis v. The State.\nNo. 134.\nDecided February 18.\nNew Trial\u2014Newly Discovered Evidence.\u2014After defendant\u2019s conviction as charged upon an indictment charging him with theft of property over the value of $20, he moved for a new trial, on the ground of newly discovered evidence, by which he proposed to prove that the stolen property was of less value than $20. Held, in the absence of a statement of facts, that the motion showed total want of diligence, and that the same being further an admission of defendant\u2019s theft of the property, was properly overruled.\nAppeal from the Criminal District Court of Galveston. Tried below before Hon. E. D. Cavin, District Judge.\nAppellant was tried in the court below upon an indictment charging him with the theft of one piece of woolen dress goods, containing thirty yards, and of the value of $30.\nThe result of the trial was his conviction as charged, and his punishment affixed at two years in the penitentiary.\nIn his motion for a new trial he alleges the facts, that he was tried without counsel; that the goods stolen were not worth $20 in value; that he was \u201c not aware that it was necessary to prove the value of the goods alleged to have been stolen in order to reduce the offense to. a misdemeanor.\u201d He prayed the court to grant him a new trial, in order that he might obtain the testimony of witnesses named in the motion, by whom he expected to prove the value of the property.\nNo statement of facts in the record.\nNo brief for appellant.\nR. L. Henry, Assistant Attorney-General, for the State."
+  },
+  "file_name": "0556-01",
+  "first_page_order": 576,
+  "last_page_order": 577
+}

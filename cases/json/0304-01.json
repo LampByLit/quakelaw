@@ -1,0 +1,66 @@
+{
+  "id": 155986,
+  "name": "J. B. Caston v. The State",
+  "name_abbreviation": "Caston v. State",
+  "decision_date": "1892-11-26",
+  "docket_number": "No. 499",
+  "first_page": "304",
+  "last_page": "306",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "31 Tex. Crim. 304"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. Crim. App.",
+    "id": 8990,
+    "name": "Texas Court of Criminal Appeals"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 336,
+    "char_count": 5217,
+    "ocr_confidence": 0.565,
+    "pagerank": {
+      "raw": 9.505882454708161e-08,
+      "percentile": 0.5210386783167668
+    },
+    "sha256": "98900d47287baf32430ceb7e2dec74b173a368a39366f9be91e46522ff7f8ded",
+    "simhash": "1:c2dde68a5ab522ac",
+    "word_count": 912
+  },
+  "last_updated": "2023-07-14T18:40:15.204563+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "J. B. Caston v. The State."
+    ],
+    "opinions": [
+      {
+        "text": "SIMKINS, Judge.\nAppellant was convicted of passing a forged instrument, and sentenced to two years in the penitentiary, from which sentence he appeals to this court.\n1. Defendant complains that the court overruled his objection to the forged instrument on the ground that under the statute regulating the admission of recorded instruments it had to be filed three days before trial, and notice given to opposite party, before the introduction in evidence. This law has no application, and there is nothing in the objection.\n2. Defendant complains that the court erred in recalling the jury, and charging them again, at their request. The court did not err. He could call back the jury at their own request for further instructions (Will-son\u2019s Criminal Statutes, section 2383), or he may have done so at his own volition (Benevides\u2019 case, ante, p. 173), and the additional instruction was the law\n3. The defendant complains of insufficiency of evidence to show guilty knowledge on the part of defendant. We think there is ample testimony. It appears that in December, 1890, defendant became the local agent of Collins and Armstrong to sell their organs and musical instruments in Temple, Bell County; sales to be made on time, and with mortgages, without which the company would not receive the notes. On July 4, 1891, he sold to W. L. Pace an organ, and took three notes, without a mortgage. On July 22 he delivered to Oscar Armstrong, the company\u2019s general agent, the three notes, secured by a mortgage on the organ, purporting to be executed by W. L. Pace.' This mortgage was introduced in evidence. W. L. Pace denied signing it, or in any way authorizing defendant to do so. Defendant himself took the stand, and said he did not know how the mortgage was made; that the said Pace was to get the instrument without a mortgage; and there were pending against him three other indictments for similar forgeries, but he knew nothing about them; that he was discharged by said company, and Pace had his place, and the company was trying to induce Pace to prosecute him; that the parties testifying against him were indebted to him, and he was trying to make them pay him.\nThe witnesses were placed on the stand, and proved the defendant was indebted to them. The jury found defendant guilty, and we see no reason to disturb the verdict.\nAffirmed.\nJudges all present and concurring.",
+        "type": "majority",
+        "author": "SIMKINS, Judge."
+      }
+    ],
+    "attorneys": [
+      "S. H. Hunter, Jr., for appellant.",
+      "R. L. Henry, Assistant Attorney-General, for the State."
+    ],
+    "corrections": "",
+    "head_matter": "J. B. Caston v. The State.\nNo. 499.\nDecided November 26.\n1. Forgery\u2014Evidence \u2014 Recorded Instruments.\u2014On a trial for forgery, where the indictment set out the alleged instrument, which was a purported mortgage, and at the trial the State offered the original mortgage in evidence, and its introduction was objected to by the defendant, upon the ground that it had not been filed three days before the trial, and notice given as is provided by the statute regulating the admission of recorded instruments, held, that the statute did not apply, and the objection was without merit.\n2. Recalling J\u00fary for Further Instructions.\u2014After a jury has retired under charge of the court to consider of the case, they may be recalled for additional instructions at their own request, or ex mero motu by the court.\n3. Fact Case.\u2014See evidence held amply sufficient to support a conviction for forgery.\nAppeal from the District Court of Bell. Tried below before Hon. James Boyd, Special Judge.\nUpon his trial for forgery, appellant was convicted in the lower court, and his punishment assessed at two years in the penitentiary.\nThe facts of the case are sufficiently stated in the opinion.\nS. H. Hunter, Jr., for appellant.\n1. The court erred in permitting the alleged forged instrument to be read as evidence in the trial of this case, when it appeared upon the face thereof that the same was a deed of trust, an instrument of record, and had not been filed among the papers of the case three days before trial, and notice given to opposite counsel of its use as evidence in the trial, nor any proof of its execution made.\nDeeds, deeds of trust, mortgages, bills of sale, and other instruments in writing which are required or permitted by law to be recorded, can not be read in evidence without proof of their execution, unless the same have been filed among the papers of the case, and notice of such filing given to the adverse party or his counsel at least three days before the trial of the case. Allison v. The State, 14 Texas Ct. App., 402; Morrow v. The State, 22 Texas Ct. App., 239; Timbrook v. The State, 18 Texas Ct. App., 1; Sayles\u2019 Civ. Stats., art. 2257, and notes.\n2. The court erred in giving an additional charge to the jury, in which they are charged to find the defendant guilty if they believe that the crime aforesaid was committed at any time within the past ten years preceding the filing of the indictment.\nAfter a charge of the court has been signed by the judge, filed in the court, and delivered to the jury, it is then a part and parcel of the record in the case, under which the defendant is entitled to the protection and privileges thereby secured, and it can not be materially altered, changed, or amended at the discretion of the court or the bidding of the jury.\nR. L. Henry, Assistant Attorney-General, for the State."
+  },
+  "file_name": "0304-01",
+  "first_page_order": 324,
+  "last_page_order": 326
+}

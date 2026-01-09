@@ -1,0 +1,66 @@
+{
+  "id": 156132,
+  "name": "John Myatt v. The State",
+  "name_abbreviation": "Myatt v. State",
+  "decision_date": "1893-02-04",
+  "docket_number": "No. 51",
+  "first_page": "523",
+  "last_page": "524",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "31 Tex. Crim. 523"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. Crim. App.",
+    "id": 8990,
+    "name": "Texas Court of Criminal Appeals"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 179,
+    "char_count": 2746,
+    "ocr_confidence": 0.562,
+    "pagerank": {
+      "raw": 2.0455799207530797e-07,
+      "percentile": 0.7547579028738741
+    },
+    "sha256": "724f8de20ce9f2f0af4c1ef6c592d64d5620b6e3acbfd01d07b49d3f21643f3d",
+    "simhash": "1:27478ce0a810da26",
+    "word_count": 477
+  },
+  "last_updated": "2023-07-14T18:40:15.204563+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "John Myatt v. The State."
+    ],
+    "opinions": [
+      {
+        "text": "DAVIDSON, Judge.\nThe indictment in this case, charging John Myatt with carrying a pistol, was properly certified to the County Court. Being informed by the sheriff that the grand jury should have indicted \u201c Marion,\u201d and not \u201cJohn\u201d Myatt, the clerk erased \u201cJohn,\u201d and inserted \u201cMarion\u201d in lieu of \u201cJohn\u201d-in the indictment, and issued a capias for the arrest of \u201c Marion.\u201d\nWhen the cause was called for trial the defendant moved to quash the indictment because of this alteration, called the attention of the court to the fact that he had a brother named \u201c John,\u201d and suggested his own name as \u201cMarion.\u201d The court thereupon ordered the name \u201cMarion\u201d stricken out and \u201cJohn\u201d inserted, and required defendant to plead to the indictment. He declined to do so, whereupon the court entered a plea of not guilty for him, and the cause proceeded to trial.\nThe act of the clerk was a nullity, did not affect the indictment, and it remained as if the alteration by the clerk had not occurred. When defendant suggested his name to be \u201cMarion\u201d it should have been so \u201cnoted upon the minutes of the court, the indictment corrected by inserting therein the name of the defendant as suggested by him, the style of the cause changed so as to give his true name, and the cause proceed as if the true name had been first recited in the indictment.\u201d Code Crim. Proc., art. 513. In refusing and failing to comply with this provision of the law the court erred, and for this error the judgment is reversed and the cause remanded.\nReversed and remanded.\nJudges all present and concurring.",
+        "type": "majority",
+        "author": "DAVIDSON, Judge."
+      }
+    ],
+    "attorneys": [
+      "No brief for appellant.",
+      "R. L. Henry, Assistant Attorney-General, for the State."
+    ],
+    "corrections": "",
+    "head_matter": "John Myatt v. The State.\nNo. 51.\nDecided February 4.\nPractice\u2014Where Defendant Suggests Different Name from that in Indictment.\u2014Article 513 of the Code of Criminal Procedure provides: \u201cIf the defendant or his counsel for him suggest that he bears some name different from that stated in the indictment, the same shall be noted upon the minutes of the court, the indictment corrected by inserting therein the name of the defendant as suggested by himself, the style of the cause changed so as to give his true name, and the cause proceed as if the true name had been first recited in the indictment.\u201d Held, that the refusal of the court to comply with the provisions of this article, at the instance and request of the defendant, constitutes reversible error.\nAppeal from the County Court of Brazos. Tried below before Hon. W. H. Harmon, County Judge.\nThis is an appeal from a judgment of conviction, upon a trial had in the court below, upon an indictment charging John Myatt with unlawfully carrying a pistol, the punishment being assessed at a fine of $25. A statement of the. facts is unnecessary.\nNo brief for appellant.\nR. L. Henry, Assistant Attorney-General, for the State."
+  },
+  "file_name": "0523-01",
+  "first_page_order": 543,
+  "last_page_order": 544
+}

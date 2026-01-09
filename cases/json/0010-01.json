@@ -1,0 +1,66 @@
+{
+  "id": 155952,
+  "name": "Jerry Overturf v. The State",
+  "name_abbreviation": "Overturf v. State",
+  "decision_date": "1892-04-20",
+  "docket_number": "No. 7525",
+  "first_page": "10",
+  "last_page": "11",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "31 Tex. Crim. 10"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. Crim. App.",
+    "id": 8990,
+    "name": "Texas Court of Criminal Appeals"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 125,
+    "char_count": 1399,
+    "ocr_confidence": 0.577,
+    "pagerank": {
+      "raw": 7.317852702137001e-08,
+      "percentile": 0.4387338798516825
+    },
+    "sha256": "9d627a0dad4d9a8156a6a91fefef9f21a093afb591fe71cffde78fcee083b7c5",
+    "simhash": "1:9fffc4bd02e22ece",
+    "word_count": 242
+  },
+  "last_updated": "2023-07-14T18:40:15.204563+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jerry Overturf v. The State."
+    ],
+    "opinions": [
+      {
+        "text": "DAVIDSON, Judge.\nAppellant was tried for and convicted of theft of coal, alleged to be the property of La Bryer. The evidence fails to show that any coal was ever taken by appellant from La Bryer.\nThe only coal taken by appellant was taken from along the right of . way of the Missouri, Kansas & Texas Railway Company; and this was not in the possession of La Bryer; but if in the possession of any one, it was in the possession of one Kelley, who gave appellant his authority and consent to take same.\nBecause the evidence does not support the conviction, the judgment is reversed and the cause remanded.\nReversed and remanded.\nJudges all present and concurring.",
+        "type": "majority",
+        "author": "DAVIDSON, Judge."
+      }
+    ],
+    "attorneys": [
+      "No brief for appellant.",
+      "JR. H. Harrison, Assistant Attorney-General, for the State,"
+    ],
+    "corrections": "",
+    "head_matter": "Jerry Overturf v. The State.\nNo. 7525.\nDecided April 20.\nFact Case.\u2014See opinion for evidence held wholly insufficient to support a conviction for theft of coal.\nAppeal from the County Court of Grayson. Tried below before Hon. E. P. Gregg, County Judge.\nAppellant was prosecuted by information for the theft of one ton of coal, of the value of $5.50. On his trial he was convicted, and his punishment assessed at a fine of $1 and one hour\u2019s imprisonment in the county jail. The facts are sufficiently stated in the opinion.\nNo brief for appellant.\nJR. H. Harrison, Assistant Attorney-General, for the State,\nin his brief, says, \u20186 If the court thinks the evidence sufficient to sustain the conviction, the judgment should be affirmed.\u201d"
+  },
+  "file_name": "0010-01",
+  "first_page_order": 30,
+  "last_page_order": 31
+}

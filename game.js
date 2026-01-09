@@ -4101,58 +4101,71 @@ function RenderEvidenceViewModal() {
 function DropItem(slotIndex, item) {
     if (!player || !playerData || !item) return;
     
-    // Remove from inventory by slotIndex (most reliable method)
-    let removed = false;
+    // First, verify the item exists in inventory and find its actual index
+    let actualIndex = -1;
     if (slotIndex >= 0 && slotIndex < playerData.inventory.length) {
-        // Remove the item at this slot index
-        playerData.inventory.splice(slotIndex, 1);
-        removed = true;
+        // Check if the item at this slot matches
+        let slotItem = playerData.inventory[slotIndex];
+        if (slotItem === item || 
+            (slotItem.type === item.type && slotItem.name === item.name)) {
+            actualIndex = slotIndex;
+        }
     }
     
-    // If slotIndex removal didn't work, try to find and remove by item reference
-    if (!removed) {
+    // If slotIndex doesn't match, search for the item
+    if (actualIndex === -1) {
         for (let i = playerData.inventory.length - 1; i >= 0; i--) {
             if (playerData.inventory[i] === item || 
                 (playerData.inventory[i].type === item.type && playerData.inventory[i].name === item.name)) {
-                playerData.inventory.splice(i, 1);
-                removed = true;
+                actualIndex = i;
                 break;
             }
         }
     }
     
-    if (!removed) {
-        // Item not found in inventory, but still drop it
-        console.warn('Item not found in inventory, but dropping anyway');
+    // Remove from inventory if found
+    if (actualIndex >= 0) {
+        playerData.inventory.splice(actualIndex, 1);
+    } else {
+        // Item not found in inventory, don't drop it (prevents duplication)
+        console.warn('Item not found in inventory, cannot drop');
+        return;
     }
     
     SaveGameState();
     
-    // Create dropped item on ground behind player
+    // Clone the item object to avoid reference issues
+    let clonedItem = {
+        type: item.type,
+        name: item.name,
+        tileX: item.tileX !== undefined ? item.tileX : 5,
+        tileY: item.tileY !== undefined ? item.tileY : 5,
+        quantity: item.quantity !== undefined ? item.quantity : 1
+    };
+    
+    // Create dropped item on ground in front of player (thrown forward)
     let dropPos = player.pos.Clone();
     
-    // Drop behind player based on rotation
+    // Drop in front of player based on rotation (throw forward, not behind)
     // rotation: 0=up, 1=right, 2=down, 3=left
-    // Behind = opposite direction: (rotation + 2) % 4
-    let behindRotation = (player.rotation + 2) % 4;
-    let dropOffset = 0.6; // Distance behind player
+    let dropOffset = 2.0; // Distance in front of player (increased to prevent immediate pickup)
     
-    if (behindRotation === 0) {
-        // Behind = up, so drop at negative Y
+    if (player.rotation === 0) {
+        // Facing up, so throw forward (negative Y)
         dropPos.AddXY(0, -dropOffset);
-    } else if (behindRotation === 1) {
-        // Behind = right, so drop at positive X
+    } else if (player.rotation === 1) {
+        // Facing right, so throw forward (positive X)
         dropPos.AddXY(dropOffset, 0);
-    } else if (behindRotation === 2) {
-        // Behind = down, so drop at positive Y
+    } else if (player.rotation === 2) {
+        // Facing down, so throw forward (positive Y)
         dropPos.AddXY(0, dropOffset);
-    } else if (behindRotation === 3) {
-        // Behind = left, so drop at negative X
+    } else if (player.rotation === 3) {
+        // Facing left, so throw forward (negative X)
         dropPos.AddXY(-dropOffset, 0);
     }
     
-    // Create dropped item object
-    let droppedItem = new DroppedEvidence(dropPos, item);
+    // Create dropped item object with cloned item
+    let droppedItem = new DroppedEvidence(dropPos, clonedItem);
     gameObjects.push(droppedItem);
 }
 

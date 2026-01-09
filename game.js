@@ -3782,9 +3782,9 @@ function RenderEvidenceViewModal() {
     mainCanvasContext.fillStyle = 'rgba(0, 0, 0, 0.8)';
     mainCanvasContext.fillRect(0, 0, mainCanvasSize.x, mainCanvasSize.y);
     
-    // Modal dimensions
-    let modalWidth = 600;
-    let modalHeight = 500;
+    // Modal dimensions (reduced size to fit on screen)
+    let modalWidth = 500;
+    let modalHeight = 400;
     let modalX = mainCanvasSize.x / 2;
     let modalY = mainCanvasSize.y / 2;
     
@@ -3800,7 +3800,22 @@ function RenderEvidenceViewModal() {
     // Draw title
     DrawText(item.name || 'EVIDENCE', modalX, modalY - modalHeight/2 + 25, 14, 'center', 1, '#FFF', '#000');
     
-    // Draw close button (X)
+    // Draw drop button at top left (before title)
+    let dropButtonWidth = 90;
+    let dropButtonHeight = 25;
+    let dropButtonX = modalX - modalWidth/2 + 20;
+    let dropButtonY = modalY - modalHeight/2 + 25;
+    let dropButtonHover = (mousePos.x >= dropButtonX - dropButtonWidth/2 && mousePos.x <= dropButtonX + dropButtonWidth/2 &&
+                          mousePos.y >= dropButtonY - dropButtonHeight/2 && mousePos.y <= dropButtonY + dropButtonHeight/2);
+    
+    mainCanvasContext.fillStyle = dropButtonHover ? '#F44' : '#844';
+    mainCanvasContext.fillRect(dropButtonX - dropButtonWidth/2, dropButtonY - dropButtonHeight/2, dropButtonWidth, dropButtonHeight);
+    mainCanvasContext.strokeStyle = '#FFF';
+    mainCanvasContext.lineWidth = 2;
+    mainCanvasContext.strokeRect(dropButtonX - dropButtonWidth/2, dropButtonY - dropButtonHeight/2, dropButtonWidth, dropButtonHeight);
+    DrawText('DROP', dropButtonX, dropButtonY, 11, 'center', 1, '#FFF', '#000');
+    
+    // Draw close button (X) at top right
     let closeButtonX = modalX + modalWidth/2 - 30;
     let closeButtonY = modalY - modalHeight/2 + 25;
     let closeButtonSize = 20;
@@ -3814,31 +3829,16 @@ function RenderEvidenceViewModal() {
     mainCanvasContext.strokeRect(closeButtonX - closeButtonSize/2, closeButtonY - closeButtonSize/2, closeButtonSize, closeButtonSize);
     DrawText('X', closeButtonX, closeButtonY, 12, 'center', 1, '#FFF', '#000');
     
-    // Draw drop button at top (next to close button)
-    let dropButtonWidth = 100;
-    let dropButtonHeight = 25;
-    let dropButtonX = modalX + modalWidth/2 - 140;
-    let dropButtonY = modalY - modalHeight/2 + 25;
-    let dropButtonHover = (mousePos.x >= dropButtonX - dropButtonWidth/2 && mousePos.x <= dropButtonX + dropButtonWidth/2 &&
-                          mousePos.y >= dropButtonY - dropButtonHeight/2 && mousePos.y <= dropButtonY + dropButtonHeight/2);
-    
-    mainCanvasContext.fillStyle = dropButtonHover ? '#F44' : '#844';
-    mainCanvasContext.fillRect(dropButtonX - dropButtonWidth/2, dropButtonY - dropButtonHeight/2, dropButtonWidth, dropButtonHeight);
-    mainCanvasContext.strokeStyle = '#FFF';
-    mainCanvasContext.lineWidth = 2;
-    mainCanvasContext.strokeRect(dropButtonX - dropButtonWidth/2, dropButtonY - dropButtonHeight/2, dropButtonWidth, dropButtonHeight);
-    DrawText('DROP', dropButtonX, dropButtonY, 11, 'center', 1, '#FFF', '#000');
-    
-    // Handle close button click
-    if (MouseWasPressed() && closeButtonHover) {
-        CloseEvidenceViewModal();
-        return;
-    }
-    
     // Handle drop button click
     if (MouseWasPressed() && dropButtonHover) {
         // Drop the evidence item
         DropEvidenceItem(evidenceViewItem.slotIndex, item);
+        CloseEvidenceViewModal();
+        return;
+    }
+    
+    // Handle close button click
+    if (MouseWasPressed() && closeButtonHover) {
         CloseEvidenceViewModal();
         return;
     }
@@ -3853,7 +3853,7 @@ function RenderEvidenceViewModal() {
     let textAreaX = modalX;
     let textAreaY = modalY;
     let textAreaWidth = modalWidth - 40;
-    let textAreaHeight = modalHeight - 80; // Increased height since buttons moved to top
+    let textAreaHeight = modalHeight - 100; // Space for title/buttons at top and back button at bottom
     
     // Text area background
     mainCanvasContext.fillStyle = '#222';

@@ -1351,7 +1351,11 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
                 const witnesses = activeCase.witnesses || [];
                 const witnessList = witnesses.map(w => {
                     const npc = w.npc || {};
-                    return `${npc.surname || 'Unknown'} (${w.role || 'witness'}) - Home: ${npc.houseAddress || 'Unknown'}, Work: ${npc.workAddress || 'Unknown'}`;
+                    const surname = npc && npc.surname ? npc.surname : 'Unknown';
+                    const role = w.role || 'witness';
+                    const houseAddress = npc && npc.houseAddress ? npc.houseAddress : 'Unknown';
+                    const workAddress = npc && npc.workAddress ? npc.workAddress : 'Unknown';
+                    return `${surname} (${role}) - Home: ${houseAddress}, Work: ${workAddress}`;
                 }).join('\n');
                 
                 caseContextText = `\n\nCRITICAL - ACTIVE CASE INFORMATION:\nYou are currently presiding over an active legal case. This case is your PRIMARY focus and you MUST reference it in your conversations.\n\nCASE SUMMARY:\n${caseSummary}\n\nWITNESSES:\n${witnessList}\n\nIMPORTANT RULES:\n- You MUST discuss the case when the player talks to you. Reference the case summary and witnesses naturally in conversation.\n- You can ONLY discuss the case summary and witnesses. You must NEVER mention or discuss any evidence - that information is confidential and secret.\n- CRITICAL: The player ALWAYS represents the DEFENSE. They are the defense lawyer working on this case. You are the judge presiding over it. Remember this in all conversations.\n- Always stay in character as a judge. You are NOT a barista, shopkeeper, or any other profession. You are a JUDGE.`;
@@ -1379,7 +1383,7 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
                 // Check if this NPC is involved in the case
                 const npcInvolvement = activeCase.witnesses.find(w => {
                     const npc = w.npc || {};
-                    return npc.surname === surname;
+                    return npc && npc.surname === surname;
                 });
                 
                 if (npcInvolvement) {
@@ -1609,9 +1613,12 @@ ${isJudge ? `REMEMBER: You are Judge ${surname}, a judge presiding over legal ca
         
     } catch (error) {
         console.error('Error in NPC conversation:', error);
+        console.error('Error stack:', error.stack);
+        console.error('Request body:', JSON.stringify(req.body, null, 2));
         res.status(500).json({ 
             error: 'Failed to process conversation',
-            message: error.message 
+            message: error.message,
+            details: process.env.NODE_ENV === 'development' ? error.stack : undefined
         });
     }
 });

@@ -904,7 +904,22 @@ function ShowJudgmentStatementModal(activeCase, event, npc) {
     const modal = document.getElementById('judgmentModal');
     if (modal) {
         modal.classList.add('open');
-        statementElement.focus();
+        
+        // Focus the textarea after modal is rendered
+        // Use requestAnimationFrame + setTimeout to ensure modal is fully visible and focusable
+        requestAnimationFrame(() => {
+            setTimeout(() => {
+                if (statementElement) {
+                    statementElement.focus();
+                    // Ensure focus worked - try again if needed
+                    if (document.activeElement !== statementElement) {
+                        setTimeout(() => {
+                            statementElement.focus();
+                        }, 50);
+                    }
+                }
+            }, 50);
+        });
     }
     
     // Initialize event handlers

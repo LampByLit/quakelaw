@@ -49,6 +49,7 @@ let loadingProgress = 0;
 let loadingMessage = '';
 let inventoryOpen = false;
 let inventoryButtonHover = false;
+let inventoryDropMode = false; // When true, next item clicked will be dropped
 let evidenceNamingModalOpen = false;
 let evidenceNamingInput = '';
 let evidenceNamingCallback = null;
@@ -221,13 +222,16 @@ class PlayerData
     // Add item to inventory (returns true if added, false if full)
     AddToInventory(type, name, tileX, tileY, quantity = 1)
     {
-        // Check if item already exists and is stackable
-        for(let i = 0; i < this.inventory.length; i++)
+        // Only coins can stack - check if item already exists and is a coin
+        if (type === 'coin')
         {
-            if (this.inventory[i] && this.inventory[i].type === type)
+            for(let i = 0; i < this.inventory.length; i++)
             {
-                this.inventory[i].quantity += quantity;
-                return true;
+                if (this.inventory[i] && this.inventory[i].type === type)
+                {
+                    this.inventory[i].quantity += quantity;
+                    return true;
+                }
             }
         }
         
@@ -663,6 +667,9 @@ function Update()
     // Don't open inventory if dialogue modal is open
     if (KeyWasPressed(73) && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()))
     {
+        if (inventoryOpen) {
+            inventoryDropMode = false; // Reset drop mode when closing
+        }
         inventoryOpen = !inventoryOpen;
     }
     
@@ -671,6 +678,7 @@ function Update()
     if (inventoryOpen && KeyWasPressed(27) && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()) && !evidenceNamingModalOpen && !evidenceViewModalOpen)
     {
         inventoryOpen = false;
+        inventoryDropMode = false; // Reset drop mode when closing
     }
         
 }
@@ -1554,13 +1562,11 @@ class Pickup extends MyGameObject
     {
         if (this.type==2)
         {
-            // heart container
+            // heart container - apply directly, don't add to inventory
             ++playerData.healthMax;
             player.healthMax = playerData.healthMax;
             player.Heal(1);
             PlaySound(4);
-            // Add to inventory
-            playerData.AddToInventory('heartContainer', 'Heart Container', 4, 5, 1);
         }
         else if (this.type==3)
         {
@@ -1580,14 +1586,9 @@ class Pickup extends MyGameObject
         }
         else
         {
-            // half or whole heart
+            // half or whole heart - apply directly, don't add to inventory
             player.Heal(.5+ this.type/2)
             PlaySound(3);
-            // Add to inventory (type 0 = half heart, type 1 = whole heart)
-            if (this.type == 0)
-                playerData.AddToInventory('halfHeart', 'Half Heart', 2, 5, 1);
-            else
-                playerData.AddToInventory('wholeHeart', 'Whole Heart', 3, 5, 1);
         }
         this.Destroy();
     }
@@ -3447,6 +3448,7 @@ function RenderInventoryModal()
     if (MouseWasPressed() && closeButtonHover)
     {
         inventoryOpen = false;
+        inventoryDropMode = false; // Reset drop mode when closing
         return;
     }
     
@@ -3506,8 +3508,8 @@ function RenderInventoryModal()
                         );
                     }
                     
-                    // Draw quantity if > 1
-                    if (item.quantity > 1)
+                    // Draw quantity if > 1 (only for coins)
+                    if (item.quantity > 1 && item.type === 'coin')
                     {
                         DrawText(item.quantity.toString(), slotX + slotSize - 4, slotY + slotSize - 4, 10, 'right', 1, '#FFF', '#000');
                     }
@@ -3524,10 +3526,16 @@ function RenderInventoryModal()
                         tooltipsToDraw.push({ text: tooltipText, x: tooltipX, y: tooltipY, width: tooltipWidth, height: tooltipHeight });
                     }
                     
-                    // Handle item click - open evidence modal
+                    // Handle item click
                     if (slotHover && MouseWasPressed())
                     {
-                        if (isEvidence)
+                        if (inventoryDropMode)
+                        {
+                            // Drop mode: drop the clicked item
+                            DropItem(slotIndex, item);
+                            inventoryDropMode = false; // Reset drop mode
+                        }
+                        else if (isEvidence)
                         {
                             // Open evidence viewing modal
                             OpenEvidenceViewModal(item, slotIndex);
@@ -3546,8 +3554,33 @@ function RenderInventoryModal()
         DrawText(tooltip.text, tooltip.x + tooltip.width/2, tooltip.y, 10, 'center', 1, '#FFF', '#000');
     }
     
+    // Draw DROP button
+    let dropButtonX = modalX - modalWidth/2 + 40;
+    let dropButtonY = modalY + modalHeight/2 - 30;
+    let dropButtonWidth = 80;
+    let dropButtonHeight = 25;
+    
+    // Check if mouse is over drop button
+    let dropButtonHover = (mousePos.x >= dropButtonX && mousePos.x <= dropButtonX + dropButtonWidth &&
+                          mousePos.y >= dropButtonY && mousePos.y <= dropButtonY + dropButtonHeight);
+    
+    // Draw drop button
+    mainCanvasContext.fillStyle = inventoryDropMode ? '#F44' : (dropButtonHover ? '#844' : '#644');
+    mainCanvasContext.fillRect(dropButtonX, dropButtonY, dropButtonWidth, dropButtonHeight);
+    mainCanvasContext.strokeStyle = '#FFF';
+    mainCanvasContext.lineWidth = 2;
+    mainCanvasContext.strokeRect(dropButtonX, dropButtonY, dropButtonWidth, dropButtonHeight);
+    DrawText(inventoryDropMode ? 'DROP MODE' : 'DROP', dropButtonX + dropButtonWidth/2, dropButtonY + dropButtonHeight/2, 10, 'center', 1, '#FFF', '#000');
+    
+    // Handle drop button click
+    if (MouseWasPressed() && dropButtonHover)
+    {
+        inventoryDropMode = !inventoryDropMode; // Toggle drop mode
+    }
+    
     // Draw instruction text at bottom
-    DrawText('Click evidence to view | Press I or ESC to close', modalX, modalY + modalHeight/2 - 20, 10, 'center', 1, '#AAA', '#000');
+    let instructionText = inventoryDropMode ? 'Click an item to drop it | Press DROP again to cancel' : 'Click evidence to view | Press I or ESC to close';
+    DrawText(instructionText, modalX, modalY + modalHeight/2 - 5, 10, 'center', 1, '#AAA', '#000');
 }
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -3930,20 +3963,9 @@ function RenderEvidenceViewModal() {
     }
 }
 
-function DropEvidenceItem(slotIndex, item) {
+// General function to drop any item from inventory
+function DropItem(slotIndex, item) {
     if (!player || !playerData || !item) return;
-    
-    // Only drop evidence items (other items can be extended later)
-    let isEvidence = item.type && item.type.startsWith('evidence_');
-    if (!isEvidence) {
-        // For now, just remove non-evidence items from inventory without dropping
-        // This can be extended later to create dropped items for other item types
-        if (slotIndex >= 0 && slotIndex < playerData.inventory.length) {
-            playerData.inventory.splice(slotIndex, 1);
-            SaveGameState();
-        }
-        return;
-    }
     
     // Remove from inventory by slotIndex (most reliable method)
     let removed = false;
@@ -3967,12 +3989,12 @@ function DropEvidenceItem(slotIndex, item) {
     
     if (!removed) {
         // Item not found in inventory, but still drop it
-        console.warn('Evidence item not found in inventory, but dropping anyway');
+        console.warn('Item not found in inventory, but dropping anyway');
     }
     
     SaveGameState();
     
-    // Create dropped evidence on ground behind player
+    // Create dropped item on ground behind player
     let dropPos = player.pos.Clone();
     
     // Drop behind player based on rotation
@@ -3995,9 +4017,14 @@ function DropEvidenceItem(slotIndex, item) {
         dropPos.AddXY(-dropOffset, 0);
     }
     
-    // Create dropped evidence object
-    let droppedEvidence = new DroppedEvidence(dropPos, item);
-    gameObjects.push(droppedEvidence);
+    // Create dropped item object
+    let droppedItem = new DroppedEvidence(dropPos, item);
+    gameObjects.push(droppedItem);
+}
+
+// Keep old function name for backwards compatibility with evidence view modal
+function DropEvidenceItem(slotIndex, item) {
+    DropItem(slotIndex, item);
 }
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -4007,7 +4034,10 @@ class DroppedEvidence extends MyGameObject
 {
     constructor(pos, item)
     {
-        super(pos, 5, 5, 0.5, 0.3); // tileX=5, tileY=5 (sprite index 45), size 0.5
+        // Use item's tileX/tileY if available, otherwise default to 5,5 (evidence sprite)
+        let tileX = item.tileX !== undefined ? item.tileX : 5;
+        let tileY = item.tileY !== undefined ? item.tileY : 5;
+        super(pos, tileX, tileY, 0.5, 0.3);
         this.item = item;
         this.dropTime = gameTime ? gameTime.gameHour : 0;
         this.timeOffset = Rand(9);

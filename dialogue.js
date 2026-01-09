@@ -992,14 +992,10 @@ async function SubmitJudgmentStatement() {
             if (result) {
                 console.log(`[JUDGMENT] Judgment complete. Player wins: ${result.playerWins}, Coins: ${result.coinsAwarded}, Punishments: ${result.punishments ? result.punishments.length : 0}`);
                 
-                // Show results in dialogue modal
+                // Show results in ruling modal (case will be cleared after player clicks OK)
                 await ShowJudgmentResults(result, judgmentNPC);
                 
-                // Clear active case
-                if (typeof ClearActiveCase !== 'undefined') {
-                    ClearActiveCase();
-                    console.log('[JUDGMENT] Active case cleared');
-                }
+                // Note: Case is now cleared in CloseJudgmentRulingModal after evidence is created
                 
                 // Show success notification
                 if (typeof ShowSuccessNotification !== 'undefined') {
@@ -1008,16 +1004,17 @@ async function SubmitJudgmentStatement() {
             } else {
                 console.error('[JUDGMENT] ProcessFridayJudgment returned null');
                 alert('Error processing judgment. Please try again.');
+                // Clear flag on error
+                judgmentProcessing = false;
             }
         } catch (error) {
             console.error('[JUDGMENT] Error processing judgment:', error);
             alert('Error processing judgment. Please try again.');
-        } finally {
-            // Always clear processing flag AFTER ruling is displayed
-            // This allows player to exit courtroom once judgment is complete
+            // Clear flag on error
             judgmentProcessing = false;
-            console.log('[JUDGMENT] Set judgmentProcessing = false - player can now exit courtroom');
         }
+        // Note: judgmentProcessing flag is now cleared in CloseJudgmentRulingModal
+        // after player clicks OK, not here
     } else {
         judgmentProcessing = false;
         console.log('[JUDGMENT] ProcessFridayJudgment function not available');
@@ -1046,150 +1043,211 @@ function FindJudgeNPC() {
     return null;
 }
 
-// Show judgment results in dialogue modal
+// Create evidence item from judgment results
+function CreateJudgmentEvidenceItem(result) {
+    // Get active case info for case number
+    let caseNumber = 'Unknown';
+    let caseSummary = '';
+    if (typeof GetActiveCase !== 'undefined') {
+        const activeCase = GetActiveCase();
+        if (activeCase && activeCase.caseNumber) {
+            caseNumber = activeCase.caseNumber;
+        }
+        if (activeCase && activeCase.caseSummary) {
+            caseSummary = activeCase.caseSummary;
+        }
+    }
+    
+    // Format judgment text
+    let judgmentText = 'COURT RULING\n';
+    judgmentText += '============\n\n';
+    judgmentText += result.ruling + '\n\n';
+    judgmentText += '--- VERDICT ---\n';
+    judgmentText += result.playerWins ? 'VERDICT: You WON the case!\n' : 'VERDICT: You LOST the case.\n';
+    
+    if (result.coinsAwarded > 0) {
+        judgmentText += `REWARD: $${result.coinsAwarded} coins\n`;
+    }
+    
+    judgmentText += '\n--- PUNISHMENTS ---\n';
+    if (result.punishments && result.punishments.length > 0) {
+        for (const p of result.punishments) {
+            if (p.punishmentType === 'corporeal') {
+                judgmentText += `- ${p.witnessSurname}: Corporeal punishment\n`;
+            } else if (p.punishmentType === 'banishment') {
+                judgmentText += `- ${p.witnessSurname}: Permanently banished\n`;
+            }
+        }
+    } else {
+        judgmentText += 'No witnesses were punished.\n';
+    }
+    
+    if (caseSummary) {
+        judgmentText += '\n--- CASE SUMMARY ---\n';
+        judgmentText += caseSummary + '\n';
+    }
+    
+    // Create evidence item name
+    const verdictText = result.playerWins ? 'WON' : 'LOST';
+    const evidenceName = `Court Ruling - Case ${String(caseNumber).padStart(4, '0')} (${verdictText})`;
+    
+    // Create evidence item (similar to conversation evidence)
+    const evidenceItem = {
+        type: `judgment_${Date.now()}`, // Unique type to prevent stacking
+        name: evidenceName,
+        tileX: 5,
+        tileY: 5,
+        quantity: 1,
+        metadata: {
+            judgmentText: judgmentText,
+            ruling: result.ruling,
+            playerWins: result.playerWins,
+            coinsAwarded: result.coinsAwarded || 0,
+            punishments: result.punishments || [],
+            caseNumber: caseNumber,
+            caseSummary: caseSummary,
+            timestamp: Date.now()
+        }
+    };
+    
+    return evidenceItem;
+}
+
+// Store current judgment result for OK button
+let currentJudgmentResult = null;
+
+// Show judgment ruling in dedicated modal
+function ShowJudgmentRulingModal(result) {
+    console.log('[JUDGMENT] ShowJudgmentRulingModal called');
+    
+    // Store result for OK button handler
+    currentJudgmentResult = result;
+    
+    const modal = document.getElementById('judgmentRulingModal');
+    const rulingTextEl = document.getElementById('judgmentRulingText');
+    const verdictEl = document.getElementById('judgmentVerdict');
+    const punishmentsEl = document.getElementById('judgmentPunishments');
+    const okButton = document.getElementById('okJudgmentRuling');
+    
+    // Set ruling text
+    rulingTextEl.textContent = result.ruling || 'The judge has made a decision.';
+    
+    // Set verdict
+    const verdictText = result.playerWins ? 'VERDICT: You WON the case!' : 'VERDICT: You LOST the case.';
+    verdictEl.textContent = verdictText;
+    verdictEl.className = 'verdict-section ' + (result.playerWins ? 'win' : 'lose');
+    
+    // Set punishments
+    if (result.punishments && result.punishments.length > 0) {
+        let punishmentsText = 'PUNISHMENTS:\n';
+        for (const p of result.punishments) {
+            if (p.punishmentType === 'corporeal') {
+                punishmentsText += `- ${p.witnessSurname}: Corporeal punishment\n`;
+            } else if (p.punishmentType === 'banishment') {
+                punishmentsText += `- ${p.witnessSurname}: Permanently banished\n`;
+            }
+        }
+        punishmentsEl.textContent = punishmentsText;
+    } else {
+        punishmentsEl.textContent = '';
+    }
+    
+    // Show modal
+    modal.classList.add('open');
+    
+    // Wire up OK button (only once, on first call)
+    if (!okButton.hasAttribute('data-wired')) {
+        okButton.setAttribute('data-wired', 'true');
+        okButton.addEventListener('click', () => {
+            if (currentJudgmentResult) {
+                CloseJudgmentRulingModal(currentJudgmentResult);
+            }
+        });
+    }
+    
+    console.log('[JUDGMENT] Judgment ruling modal displayed');
+}
+
+// Close judgment ruling modal and create evidence item
+function CloseJudgmentRulingModal(result) {
+    console.log('[JUDGMENT] Closing judgment ruling modal');
+    
+    const modal = document.getElementById('judgmentRulingModal');
+    modal.classList.remove('open');
+    
+    // Create evidence item (before clearing case, so we have case info)
+    const evidenceItem = CreateJudgmentEvidenceItem(result);
+    
+    // Add to inventory
+    if (typeof playerData !== 'undefined' && playerData.inventory) {
+        if (playerData.inventory.length < 16) {
+            playerData.inventory.push(evidenceItem);
+            console.log('[JUDGMENT] Evidence item created and added to inventory:', evidenceItem.name);
+            
+            // Save game state
+            if (typeof SaveGameState === 'function') {
+                SaveGameState();
+            }
+        } else {
+            console.warn('[JUDGMENT] Inventory is full! Cannot add judgment evidence.');
+            alert('Inventory is full! Judgment evidence could not be added.');
+        }
+    } else {
+        console.error('[JUDGMENT] Cannot access playerData or inventory');
+    }
+    
+    // Clear active case AFTER evidence is created
+    if (typeof ClearActiveCase !== 'undefined') {
+        ClearActiveCase();
+        console.log('[JUDGMENT] Active case cleared');
+    }
+    
+    // Clear judgment processing flag AFTER player acknowledges the ruling
+    // This allows player to exit courtroom once they've seen the results
+    if (typeof judgmentProcessing !== 'undefined') {
+        judgmentProcessing = false;
+        console.log('[JUDGMENT] Set judgmentProcessing = false - player can now exit courtroom');
+    }
+    
+    // Clear stored result
+    currentJudgmentResult = null;
+}
+
+// Show judgment results (now redirects to ruling modal)
 async function ShowJudgmentResults(result, npc) {
     console.log(`[JUDGMENT] ShowJudgmentResults called. NPC provided: ${npc ? 'YES' : 'NO'}, Player location: ${typeof currentInterior !== 'undefined' && currentInterior ? 'INTERIOR' : 'EXTERIOR'}`);
     
-    // CRITICAL: Ensure player is still in courthouse - if not, this is an error
-    if (typeof currentInterior === 'undefined' || !currentInterior) {
-        console.error('[JUDGMENT] ERROR: Player is not in interior! Player should be locked in courtroom.');
-        // Try to find judge as fallback
-        npc = FindJudgeNPC();
-        if (!npc) {
-            // Show results in alert as fallback
-            let message = result.ruling + '\n\n--- JUDGMENT RESULTS ---\n';
-            message += result.playerWins ? 'VERDICT: You WON the case!\n' : 'VERDICT: You LOST the case.\n';
-            if (result.coinsAwarded > 0) {
-                message += `REWARD: $${result.coinsAwarded} coins\n`;
-            }
-            if (result.punishments && result.punishments.length > 0) {
-                message += '\nPUNISHMENTS:\n';
-                for (const p of result.punishments) {
-                    if (p.punishmentType === 'corporeal') {
-                        message += `- ${p.witnessSurname}: Corporeal punishment\n`;
-                    } else if (p.punishmentType === 'banishment') {
-                        message += `- ${p.witnessSurname}: Permanently banished\n`;
-                    }
-                }
-            }
-            alert(message);
-            return;
-        }
-    }
-    
-    // If no NPC provided, try to find judge from current interior
-    if (!npc) {
-        npc = FindJudgeNPC();
-        if (!npc) {
-            console.error('[JUDGMENT] Cannot show results - judge not found');
-            // Show results in alert as fallback
-            let message = result.ruling + '\n\n--- JUDGMENT RESULTS ---\n';
-            message += result.playerWins ? 'VERDICT: You WON the case!\n' : 'VERDICT: You LOST the case.\n';
-            if (result.coinsAwarded > 0) {
-                message += `REWARD: $${result.coinsAwarded} coins\n`;
-            }
-            if (result.punishments && result.punishments.length > 0) {
-                message += '\nPUNISHMENTS:\n';
-                for (const p of result.punishments) {
-                    if (p.punishmentType === 'corporeal') {
-                        message += `- ${p.witnessSurname}: Corporeal punishment\n`;
-                    } else if (p.punishmentType === 'banishment') {
-                        message += `- ${p.witnessSurname}: Permanently banished\n`;
-                    }
-                }
-            }
-            alert(message);
-            return;
-        }
-    }
-    
-    // CRITICAL FIX: Open dialogue modal synchronously without async operations
-    // This prevents the game loop from running and potentially moving the player
-    if (!dialogueModalOpen) {
-        console.log('[JUDGMENT] Opening dialogue modal synchronously for judgment results');
-        currentDialogueNPC = npc;
-        dialogueModalOpen = true;
-        
-        // Update modal header
-        document.getElementById('npcName').textContent = npc.surname;
-        document.getElementById('npcEmoji').textContent = npc.emoji ? GetEmojiCharacter(npc.emoji) : '⚖️';
-        
-        // Show modal
-        const modal = document.getElementById('dialogueModal');
-        modal.classList.add('open');
-        
-        // Focus input
-        document.getElementById('playerMessageInput').focus();
-        
-        // Initialize conversation history as empty (we'll add the ruling immediately)
-        conversationHistory = [];
-    } else {
-        // Dialogue already open - just ensure we have the right NPC
-        if (currentDialogueNPC !== npc) {
-            currentDialogueNPC = npc;
-            document.getElementById('npcName').textContent = npc.surname;
-            document.getElementById('npcEmoji').textContent = npc.emoji ? GetEmojiCharacter(npc.emoji) : '⚖️';
-        }
-    }
-    
-    // Add ruling to conversation IMMEDIATELY (synchronously)
-    if (typeof conversationHistory === 'undefined') {
-        conversationHistory = [];
-    }
-    
-    conversationHistory.push({
-        role: 'npc',
-        message: result.ruling,
-        timestamp: Date.now()
-    });
-    
-    // Add results summary
-    let summary = '\n\n--- JUDGMENT RESULTS ---\n';
-    summary += result.playerWins ? 'VERDICT: You WON the case!\n' : 'VERDICT: You LOST the case.\n';
-    
-    if (result.coinsAwarded > 0) {
-        summary += `REWARD: $${result.coinsAwarded} coins\n`;
-    }
-    
-    if (result.punishments && result.punishments.length > 0) {
-        summary += '\nPUNISHMENTS:\n';
-        for (const p of result.punishments) {
-            if (p.punishmentType === 'corporeal') {
-                summary += `- ${p.witnessSurname}: Corporeal punishment\n`;
-            } else if (p.punishmentType === 'banishment') {
-                summary += `- ${p.witnessSurname}: Permanently banished\n`;
-            }
-        }
-    } else {
-        summary += '\nNo witnesses were punished.\n';
-    }
-    
-    conversationHistory.push({
-        role: 'system',
-        message: summary,
-        timestamp: Date.now()
-    });
-    
-    // Update display IMMEDIATELY (synchronously)
-    if (typeof UpdateConversationDisplay !== 'undefined') {
-        UpdateConversationDisplay();
-    }
-    
-    // Load conversation history in background (after ruling is shown)
-    // This is optional and won't affect the ruling display
-    if (typeof LoadConversationHistory !== 'undefined') {
-        LoadConversationHistory(npc).catch(err => {
-            console.warn('[JUDGMENT] Failed to load conversation history in background:', err);
-        });
-    }
+    // Show ruling in dedicated modal
+    ShowJudgmentRulingModal(result);
     
     console.log('[JUDGMENT] Judgment results displayed. Player should remain in courtroom.');
 }
 
+// Initialize judgment ruling modal (prevent ESC and outside clicks)
+function InitJudgmentRulingModal() {
+    const modal = document.getElementById('judgmentRulingModal');
+    
+    // Prevent closing by clicking outside modal
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            // Don't close - player must click OK button
+            e.stopPropagation();
+        }
+    });
+    
+    // Prevent closing by ESC key
+    // Note: We don't add ESC handler here because we want to prevent it entirely
+    // The modal can only be closed via OK button
+}
+
 // Initialize on page load
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', InitDialogueModal);
+    document.addEventListener('DOMContentLoaded', () => {
+        InitDialogueModal();
+        InitJudgmentRulingModal();
+    });
 } else {
     InitDialogueModal();
+    InitJudgmentRulingModal();
 }
 

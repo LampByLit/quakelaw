@@ -347,6 +347,97 @@ background: #844;
 .judgment-button.cancel:hover {
 background: #a66;
 }
+/* Judgment Ruling Modal Styles */
+#judgmentRulingModal {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.95);
+z-index: 1002;
+font-family: 'Press Start 2P', monospace;
+}
+#judgmentRulingModal.open {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.judgment-ruling-modal-content {
+background: #2a2a2a;
+border: 4px solid #fff;
+border-radius: 8px;
+width: 90%;
+max-width: 700px;
+max-height: 85vh;
+display: flex;
+flex-direction: column;
+box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+.judgment-ruling-header {
+background: #1a1a1a;
+padding: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-bottom: 2px solid #fff;
+}
+.judgment-ruling-header h2 {
+color: #fff;
+font-size: 14px;
+margin: 0;
+}
+.judgment-ruling-body {
+padding: 20px;
+flex: 1;
+overflow-y: auto;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.ruling-text {
+background: #1a1a1a;
+padding: 15px;
+border: 2px solid #444;
+color: #fff;
+font-size: 9px;
+line-height: 1.6;
+white-space: pre-wrap;
+word-wrap: break-word;
+}
+.verdict-section {
+background: #1a1a1a;
+padding: 15px;
+border: 2px solid #444;
+color: #fff;
+font-size: 10px;
+}
+.verdict-section.win {
+border-color: #4aff4a;
+background: #1a3a1a;
+}
+.verdict-section.lose {
+border-color: #ff4444;
+background: #3a1a1a;
+}
+.punishments-section {
+background: #1a1a1a;
+padding: 15px;
+border: 2px solid #444;
+color: #fff;
+font-size: 9px;
+line-height: 1.6;
+}
+.punishments-section:empty {
+display: none;
+}
+.judgment-ruling-actions {
+padding: 15px;
+display: flex;
+justify-content: center;
+border-top: 2px solid #444;
+}
 </style>
 </head>
 <body>
@@ -374,6 +465,23 @@ background: #a66;
 <div class="judgment-actions">
 <button id="cancelJudgment" class="judgment-button cancel">Cancel</button>
 <button id="submitJudgment" class="judgment-button">Submit Statement</button>
+</div>
+</div>
+</div>
+
+<!-- Judgment Ruling Modal -->
+<div id="judgmentRulingModal">
+<div class="judgment-ruling-modal-content">
+<div class="judgment-ruling-header">
+<h2>COURT RULING</h2>
+</div>
+<div class="judgment-ruling-body">
+<div id="judgmentRulingText" class="ruling-text"></div>
+<div id="judgmentVerdict" class="verdict-section"></div>
+<div id="judgmentPunishments" class="punishments-section"></div>
+</div>
+<div class="judgment-ruling-actions">
+<button id="okJudgmentRuling" class="judgment-button">OK</button>
 </div>
 </div>
 </div>

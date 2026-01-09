@@ -836,6 +836,7 @@ let currentJudgmentNPC = null;
 let judgmentProcessing = false; // Flag to prevent re-triggering while processing
 let caseInitializing = false; // Flag to prevent duplicate case initialization
 let caseInitializationLock = false; // Flag to lock player in courthouse during case initialization
+let judgmentModalEscHandler = null; // Store ESC key handler to prevent duplicates
 
 // Get bonuses from inventory for display
 function GetBonusesForDisplay() {
@@ -903,11 +904,16 @@ function ShowJudgmentStatementModal(activeCase, event, npc) {
         }
     }
     
-    // Clear statement
+    // Clear statement and CRITICAL: Enable input and submit button
     const statementElement = document.getElementById('judgmentStatement');
+    const submitBtn = document.getElementById('submitJudgment');
     if (statementElement) {
         statementElement.value = '';
+        statementElement.disabled = false; // CRITICAL FIX: Enable input field
         UpdateJudgmentWordCount();
+    }
+    if (submitBtn) {
+        submitBtn.disabled = false; // CRITICAL FIX: Enable submit button
     }
     
     // Show modal
@@ -962,13 +968,18 @@ function InitJudgmentModal() {
         };
     }
     
-    // ESC key to close
-    document.addEventListener('keydown', function escHandler(e) {
+    // ESC key to close - prevent duplicate listeners
+    if (judgmentModalEscHandler) {
+        document.removeEventListener('keydown', judgmentModalEscHandler);
+    }
+    judgmentModalEscHandler = function escHandler(e) {
         if (e.key === 'Escape' && judgmentModalOpen) {
             CloseJudgmentModal();
             document.removeEventListener('keydown', escHandler);
+            judgmentModalEscHandler = null;
         }
-    });
+    };
+    document.addEventListener('keydown', judgmentModalEscHandler);
 }
 
 // Update word count
@@ -1006,6 +1017,16 @@ function CloseJudgmentModal() {
     judgmentModalOpen = false;
     currentJudgmentEvent = null;
     currentJudgmentNPC = null;
+    
+    // CRITICAL FIX: Re-enable input and submit button when closing modal
+    const statementInput = document.getElementById('judgmentStatement');
+    const submitBtn = document.getElementById('submitJudgment');
+    if (statementInput) {
+        statementInput.disabled = false;
+    }
+    if (submitBtn) {
+        submitBtn.disabled = false;
+    }
     
     const modal = document.getElementById('judgmentModal');
     if (modal) {

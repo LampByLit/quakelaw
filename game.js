@@ -4377,10 +4377,14 @@ function FindValidPositionNearBuilding(building, preferredOffset = null, entityS
     
     // Try positions in a spiral pattern around the preferred position
     let searchRadius = 0.5;
-    const maxSearchRadius = 3.0;
-    const angleStep = Math.PI / 4; // 8 directions
+    const maxSearchRadius = 5.0; // Increased from 3.0 for better coverage
+    const angleStep = Math.PI / 6; // 12 directions for better coverage
     let attempts = 0;
-    const maxAttempts = 50;
+    const maxAttempts = 120; // Increased to allow more thorough search
+    
+    // Track best position found so far (even if on road)
+    let bestPos = null;
+    let bestPosOnRoad = false;
     
     while (attempts < maxAttempts && searchRadius <= maxSearchRadius)
     {
@@ -4394,33 +4398,41 @@ function FindValidPositionNearBuilding(building, preferredOffset = null, entityS
             // Check if area is clear (not solid terrain)
             if (level.IsAreaClear(testPos, entitySize))
             {
-                // Check if position is not on a road
                 let data = level.GetDataFromPos(testPos);
-                if (!data.road)
+                let isOnRoad = data.road;
+                
+                // Check if position doesn't overlap with other buildings
+                let tooCloseToBuilding = false;
+                for(let obj of gameObjects)
                 {
-                    // Check if position doesn't overlap with other buildings
-                    let tooCloseToBuilding = false;
-                    for(let obj of gameObjects)
+                    if (obj.isBuilding && obj !== building)
                     {
-                        if (obj.isBuilding && obj !== building)
+                        // Check if test position is inside another building's solid area
+                        let distToBuilding = testPos.Distance(obj.pos);
+                        let buildingSolidRadius = obj.size.x * 0.9; // Building solid area
+                        if (distToBuilding < buildingSolidRadius + entitySize + 0.3)
                         {
-                            // Check if test position is inside another building's solid area
-                            let distToBuilding = testPos.Distance(obj.pos);
-                            let buildingSolidRadius = obj.size.x * 0.9; // Building solid area
-                            if (distToBuilding < buildingSolidRadius + entitySize + 0.3)
-                            {
-                                tooCloseToBuilding = true;
-                                break;
-                            }
+                            tooCloseToBuilding = true;
+                            break;
                         }
                     }
-                    
-                    if (!tooCloseToBuilding)
+                }
+                
+                if (!tooCloseToBuilding)
+                {
+                    // Prefer positions not on roads
+                    if (!isOnRoad)
                     {
-                        // Found valid position - clear area and ensure it's walkable
+                        // Found ideal position - clear area and ensure it's walkable
                         level.FillCircleObject(testPos, entitySize + 0.3, 0); // Clear objects
                         level.FillCircleType(testPos, entitySize + 0.3, 1); // Ensure grass
                         return testPos;
+                    }
+                    else if (!bestPos)
+                    {
+                        // Save as fallback if we haven't found a non-road position yet
+                        bestPos = testPos.Clone();
+                        bestPosOnRoad = true;
                     }
                 }
             }
@@ -4434,8 +4446,42 @@ function FindValidPositionNearBuilding(building, preferredOffset = null, entityS
         searchRadius += 0.5;
     }
     
-    // Fallback: return preferred position anyway (shouldn't happen, but better than crashing)
-    console.warn(`Warning: Could not find valid position near building at ${building.pos.x}, ${building.pos.y}, using fallback`);
+    // Use best position found (even if on road) if available
+    if (bestPos)
+    {
+        level.FillCircleObject(bestPos, entitySize + 0.3, 0); // Clear objects
+        if (!bestPosOnRoad)
+        {
+            level.FillCircleType(bestPos, entitySize + 0.3, 1); // Ensure grass
+        }
+        return bestPos;
+    }
+    
+    // Final fallback: validate and use preferred position
+    // Check if fallback position is actually valid
+    let fallbackValid = level.IsAreaClear(basePos, entitySize);
+    if (!fallbackValid)
+    {
+        // Try to find ANY clear position near the building (last resort)
+        for(let radius = 1.0; radius <= 8.0; radius += 1.0)
+        {
+            for(let angle = 0; angle < Math.PI * 2; angle += Math.PI / 4)
+            {
+                let testPos = building.pos.Clone();
+                testPos.x += Math.cos(angle) * radius;
+                testPos.y += Math.sin(angle) * radius;
+                
+                if (level.IsAreaClear(testPos, entitySize))
+                {
+                    level.FillCircleObject(testPos, entitySize + 0.5, 0);
+                    level.FillCircleType(testPos, entitySize + 0.5, 1);
+                    return testPos;
+                }
+            }
+        }
+    }
+    
+    // Last resort: force clear the preferred position
     level.FillCircleObject(basePos, entitySize + 0.5, 0); // Clear objects
     level.FillCircleType(basePos, entitySize + 0.5, 1); // Ensure grass
     return basePos;

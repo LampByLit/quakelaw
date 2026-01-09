@@ -1079,11 +1079,6 @@ function GenerateNPCs()
         let workAddress = workAssignments[i];
         let job = jobAssignments[i] || npcJobs[RandInt(npcJobs.length)]; // Fallback to random job if somehow not assigned
         
-        // Debug: Log job assignment (remove after verification)
-        if (i < 5) {
-            console.log(`NPC ${surname}: job=${job}, workAddress=${workAddress}`);
-        }
-        
         // Create NPC (will spawn in house interior)
         let npc = new NPC(new Vector2(0, 0), surname, characteristic, emoji, spriteIndex, houseAddress, workAddress, job);
         
@@ -1101,6 +1096,56 @@ function GenerateNPCs()
         
         allNPCs.push(npc);
     }
+    
+    // Debug: Log all NPCs and their jobs
+    DebugLogAllNPCs();
+}
+
+// Debug function to display all NPCs and their jobs in the console
+function DebugLogAllNPCs()
+{
+    console.log('═══════════════════════════════════════════════════════════');
+    console.log(`NPC TOWN CENSUS - Total NPCs: ${allNPCs.length}`);
+    console.log('═══════════════════════════════════════════════════════════');
+    
+    // Group by job for easier reading
+    let npcsByJob = {};
+    for(let npc of allNPCs)
+    {
+        let job = npc.job || 'unemployed';
+        if (!npcsByJob[job])
+        {
+            npcsByJob[job] = [];
+        }
+        npcsByJob[job].push(npc);
+    }
+    
+    // Sort jobs alphabetically
+    let sortedJobs = Object.keys(npcsByJob).sort();
+    
+    // Display grouped by job
+    for(let job of sortedJobs)
+    {
+        let npcs = npcsByJob[job];
+        console.log(`\n${job.toUpperCase()} (${npcs.length}):`);
+        for(let npc of npcs)
+        {
+            let emojiCode = npc.emoji || '?';
+            let emojiChar = String.fromCodePoint(parseInt(emojiCode, 16));
+            console.log(`  • ${npc.surname} ${emojiChar} (${npc.characteristic})`);
+            console.log(`    House Address: ${npc.houseAddress} (where they start and return to)`);
+            console.log(`    Work Address: ${npc.workAddress} (where they go during work hours)`);
+        }
+    }
+    
+    // Summary statistics
+    console.log('\n═══════════════════════════════════════════════════════════');
+    console.log('SUMMARY:');
+    for(let job of sortedJobs)
+    {
+        console.log(`  ${job}: ${npcsByJob[job].length}`);
+    }
+    console.log('═══════════════════════════════════════════════════════════\n');
 }
 
 // Reset all NPCs at start of day (called at 06:59)

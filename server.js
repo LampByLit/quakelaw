@@ -70,12 +70,21 @@ async function loadConversation(sessionId, surname) {
     try {
         const filePath = getConversationFilePath(sessionId, surname);
         const data = await fs.readFile(filePath, 'utf8');
-        return JSON.parse(data);
+        try {
+            return JSON.parse(data);
+        } catch (parseError) {
+            // JSON parse error - file might be corrupted
+            console.error(`[ERROR] Failed to parse conversation file for ${surname} in session ${sessionId}:`, parseError);
+            // Return null to treat as if conversation doesn't exist
+            return null;
+        }
     } catch (error) {
         if (error.code === 'ENOENT') {
             // File doesn't exist, return null
             return null;
         }
+        // Log other errors but don't crash
+        console.error(`[ERROR] Error loading conversation for ${surname} in session ${sessionId}:`, error);
         throw error;
     }
 }
@@ -617,7 +626,7 @@ app.post('/api/cases/judgment', async (req, res) => {
         });
     }
 
-    const { caseSummary, prosecution, playerStatement, evidence, witnesses, judgePersona, isMissedEvent } = req.body;
+    const { caseSummary, prosecution, playerStatement, evidence, witnesses, judgePersona, bonuses, isMissedEvent } = req.body;
 
     if (!caseSummary) {
         return res.status(400).json({ error: 'Case summary is required' });
@@ -646,6 +655,30 @@ app.post('/api/cases/judgment', async (req, res) => {
         const judgeName = judgePersona.name;
         const judgeCharacteristic = judgePersona.characteristic;
         
+        // Build bonus information for prompt
+        let bonusInfo = '';
+        if (bonuses) {
+            const bonusParts = [];
+            
+            if (bonuses.credibility > 0) {
+                const boost = bonuses.credibility * 10;
+                bonusParts.push(`${bonuses.credibility} Credibility bonus(es) - This should influence your decision in the player's favor by approximately ${boost}%. The player's credibility and case strength should be viewed more favorably.`);
+            }
+            
+            if (bonuses.countersuit > 0) {
+                const boost = bonuses.countersuit * 15;
+                bonusParts.push(`${bonuses.countersuit} Countersuit bonus(es) - This should influence your decision in the player's favor by approximately ${boost}%. The player's legal position and counter-arguments should be viewed more favorably.`);
+            }
+            
+            if (bonuses.exculpation > 0) {
+                bonusParts.push(`${bonuses.exculpation} Exculpation document(s) - CRITICAL LEGAL OBLIGATION: The presence of exculpation documents means you are legally obligated to grant judgment in the player's favor. This is not optional - it is the law. You must rule that the player wins the case.`);
+            }
+            
+            if (bonusParts.length > 0) {
+                bonusInfo = '\n\nLEGAL BONUSES AND DOCUMENTS PRESENTED:\n' + bonusParts.join('\n\n') + '\n';
+            }
+        }
+        
         const systemPrompt = `You are Judge ${judgeName}, a ${judgeCharacteristic} judge presiding over a legal case.
 
 Your task:
@@ -655,7 +688,7 @@ Your task:
 4. Decide which witnesses (if any) should be punished and what type of punishment
 5. Write a 50-word ruling explaining your decision in your character's voice
 
-${isMissedEvent ? 'CRITICAL: The player missed the judgment hearing. They automatically LOSE the case, but you must still make punishment decisions based on the case merits.' : ''}
+${isMissedEvent ? 'CRITICAL: The player missed the judgment hearing. They automatically LOSE the case, but you must still make punishment decisions based on the case merits.' : ''}${bonusInfo}
 
 Return your response as a JSON object with this exact structure:
 {
@@ -673,7 +706,19 @@ Punishment types:
 
 If no witnesses should be punished, return empty array for punishments.`;
 
-        const userMessage = `Case Summary:\n${caseSummary}\n\nProsecution Argument:\n${prosecution || 'No prosecution argument.'}\n\nPlayer's Statement:\n${playerStatement || 'No statement provided.'}\n\nEvidence Presented:\n${evidenceText}\n\nWitnesses:\n${witnessesText}\n\nMake your judgment decision and write your ruling.`;
+        // Build bonus summary for user message
+        let bonusSummary = '';
+        if (bonuses) {
+            const bonusParts = [];
+            if (bonuses.credibility > 0) bonusParts.push(`Credibility: ${bonuses.credibility}`);
+            if (bonuses.countersuit > 0) bonusParts.push(`Countersuit: ${bonuses.countersuit}`);
+            if (bonuses.exculpation > 0) bonusParts.push(`Exculpation: ${bonuses.exculpation}`);
+            if (bonusParts.length > 0) {
+                bonusSummary = `\n\nLegal Bonuses/Documents Presented:\n${bonusParts.join(', ')}\n`;
+            }
+        }
+        
+        const userMessage = `Case Summary:\n${caseSummary}\n\nProsecution Argument:\n${prosecution || 'No prosecution argument.'}\n\nPlayer's Statement:\n${playerStatement || 'No statement provided.'}\n\nEvidence Presented:\n${evidenceText}\n\nWitnesses:\n${witnessesText}${bonusSummary}\n\nMake your judgment decision and write your ruling.`;
 
         const response = await fetch('https://api.deepseek.com/v1/chat/completions', {
             method: 'POST',
@@ -850,29 +895,54 @@ app.get('/api/npc/conversation/:surname', async (req, res) => {
         }
         
         const surname = req.params.surname;
-        const conversation = await loadConversation(sessionId, surname);
         
-        if (!conversation) {
+        // Validate surname parameter
+        if (!surname || typeof surname !== 'string' || surname.trim().length === 0) {
+            return res.status(400).json({ error: 'Invalid surname parameter' });
+        }
+        
+        try {
+            const conversation = await loadConversation(sessionId, surname);
+            
+            if (!conversation) {
+                return res.json({
+                    conversation: [],
+                    npcInfo: null
+                });
+            }
+            
+            // Validate conversation structure
+            if (!conversation.conversation || !Array.isArray(conversation.conversation)) {
+                console.warn(`[WARN] Invalid conversation structure for ${surname}, returning empty conversation`);
+                return res.json({
+                    conversation: [],
+                    npcInfo: null
+                });
+            }
+            
+            res.json({
+                conversation: conversation.conversation || [],
+                npcInfo: {
+                    surname: conversation.npcSurname || surname,
+                    characteristic: conversation.characteristic || null,
+                    emoji: conversation.emoji || null,
+                    job: conversation.job || ''
+                }
+            });
+        } catch (loadError) {
+            // If loadConversation throws, log it and return empty conversation
+            console.error(`[ERROR] Failed to load conversation for ${surname}:`, loadError);
             return res.json({
                 conversation: [],
                 npcInfo: null
             });
         }
-        
-        res.json({
-            conversation: conversation.conversation || [],
-            npcInfo: {
-                surname: conversation.npcSurname,
-                characteristic: conversation.characteristic,
-                emoji: conversation.emoji,
-                job: conversation.job || ''
-            }
-        });
     } catch (error) {
-        console.error('Error loading conversation:', error);
+        console.error('[ERROR] Unexpected error in conversation endpoint:', error);
+        // Always return a valid response, never let the request hang
         res.status(500).json({ 
             error: 'Failed to load conversation',
-            message: error.message 
+            message: error.message || 'Unknown error'
         });
     }
 });
@@ -1689,6 +1759,19 @@ setInterval(cleanupOldSessions, 60 * 60 * 1000);
 
 // Run cleanup on startup
 cleanupOldSessions();
+
+// Handle unhandled promise rejections to prevent crashes
+process.on('unhandledRejection', (error, promise) => {
+    console.error('[FATAL] Unhandled Promise Rejection:', error);
+    console.error('Stack:', error.stack);
+});
+
+// Handle uncaught exceptions to prevent crashes
+process.on('uncaughtException', (error) => {
+    console.error('[FATAL] Uncaught Exception:', error);
+    console.error('Stack:', error.stack);
+    // Don't exit - let the server continue running
+});
 
 // Serve the main HTML file
 app.get('/', (req, res) => {

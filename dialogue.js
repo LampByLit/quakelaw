@@ -257,6 +257,12 @@ async function OpenDialogueModal(npc) {
                         // Always clear the initialization flag
                         caseInitializing = false;
                         console.log('[CASE] Set caseInitializing = false');
+                        
+                        // Also clear the lock flag in case of error
+                        if (typeof caseInitializationLock !== 'undefined') {
+                            caseInitializationLock = false;
+                            console.log('[CASE] Cleared case initialization lock');
+                        }
                     });
             }
         }
@@ -819,6 +825,36 @@ let currentJudgmentEvent = null;
 let currentJudgmentNPC = null;
 let judgmentProcessing = false; // Flag to prevent re-triggering while processing
 let caseInitializing = false; // Flag to prevent duplicate case initialization
+let caseInitializationLock = false; // Flag to lock player in courthouse during case initialization
+
+// Get bonuses from inventory for display
+function GetBonusesForDisplay() {
+    if (!playerData || !playerData.inventory) {
+        return {
+            credibility: 0,
+            countersuit: 0,
+            exculpation: 0
+        };
+    }
+    
+    const bonuses = {
+        credibility: 0,
+        countersuit: 0,
+        exculpation: 0
+    };
+    
+    for (const item of playerData.inventory) {
+        if (item.type === 'credibility') {
+            bonuses.credibility += item.quantity || 1;
+        } else if (item.type === 'countersuit') {
+            bonuses.countersuit += item.quantity || 1;
+        } else if (item.type === 'exculpation') {
+            bonuses.exculpation += item.quantity || 1;
+        }
+    }
+    
+    return bonuses;
+}
 
 // Show judgment statement modal
 function ShowJudgmentStatementModal(activeCase, event, npc) {
@@ -832,6 +868,29 @@ function ShowJudgmentStatementModal(activeCase, event, npc) {
     const summaryElement = document.getElementById('judgmentCaseSummary');
     if (summaryElement && activeCase.caseSummary) {
         summaryElement.textContent = activeCase.caseSummary;
+    }
+    
+    // Set bonuses display
+    const bonusesElement = document.getElementById('judgmentBonuses');
+    if (bonusesElement) {
+        const bonuses = GetBonusesForDisplay();
+        const bonusParts = [];
+        
+        if (bonuses.credibility > 0) {
+            bonusParts.push(`Credibility: ${bonuses.credibility}`);
+        }
+        if (bonuses.countersuit > 0) {
+            bonusParts.push(`Countersuit: ${bonuses.countersuit}`);
+        }
+        if (bonuses.exculpation > 0) {
+            bonusParts.push(`Exculpation: ${bonuses.exculpation}`);
+        }
+        
+        if (bonusParts.length > 0) {
+            bonusesElement.textContent = bonusParts.join(' | ');
+        } else {
+            bonusesElement.textContent = 'No bonuses available';
+        }
     }
     
     // Clear statement

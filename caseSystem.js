@@ -501,6 +501,47 @@ function CreateCaseFileItem(caseSummary, witnesses, caseNumber) {
 async function InitializeNewCase() {
     console.log('Initializing new case...');
     
+    // 0. Lock player in courthouse during initialization
+    if (typeof caseInitializationLock !== 'undefined') {
+        caseInitializationLock = true;
+        console.log('[CASE] Locked player in courthouse during initialization');
+    }
+    
+    // Find and enter courthouse if not already inside
+    let courthouse = null;
+    if (typeof gameObjects !== 'undefined') {
+        for (let obj of gameObjects) {
+            if (obj.isBuilding && obj.buildingType === 'court') {
+                courthouse = obj;
+                break;
+            }
+        }
+    }
+    
+    // Enter courthouse if found and player is not already in it
+    if (courthouse) {
+        // Check if player is already in the courthouse interior
+        let isInCourthouse = false;
+        if (typeof currentInterior !== 'undefined' && currentInterior) {
+            // Check if current interior belongs to courthouse
+            if (courthouse.interior === currentInterior) {
+                isInCourthouse = true;
+            }
+        }
+        
+        if (!isInCourthouse) {
+            // Enter the courthouse
+            if (typeof EnterInterior !== 'undefined') {
+                console.log('[CASE] Entering courthouse for case initialization');
+                EnterInterior(courthouse);
+            }
+        } else {
+            console.log('[CASE] Player already in courthouse');
+        }
+    } else {
+        console.warn('[CASE] Courthouse not found, cannot lock player');
+    }
+    
     // 1. Generate new judge persona
     GenerateJudgePersona();
     
@@ -508,6 +549,11 @@ async function InitializeNewCase() {
     const caseFileName = await GetRandomUnusedCase();
     if (!caseFileName) {
         console.error('No case file available');
+        // Unlock player on early return
+        if (typeof caseInitializationLock !== 'undefined') {
+            caseInitializationLock = false;
+            console.log('[CASE] Unlocked player - no case file available');
+        }
         return null;
     }
     
@@ -515,6 +561,11 @@ async function InitializeNewCase() {
     const caseData = await LoadCaseData(caseFileName);
     if (!caseData) {
         console.error('Failed to load case data');
+        // Unlock player on early return
+        if (typeof caseInitializationLock !== 'undefined') {
+            caseInitializationLock = false;
+            console.log('[CASE] Unlocked player - failed to load case data');
+        }
         return null;
     }
     
@@ -577,6 +628,12 @@ async function InitializeNewCase() {
     currentCaseNumber++;
     
     console.log(`Case initialized: ${caseFileName}, ${witnesses.length} witnesses`);
+    
+    // Unlock player after initialization completes
+    if (typeof caseInitializationLock !== 'undefined') {
+        caseInitializationLock = false;
+        console.log('[CASE] Unlocked player from courthouse after initialization');
+    }
     
     return activeCase;
 }
@@ -838,7 +895,7 @@ async function ExecutePunishments(punishments) {
                         sessionId: sessionId,
                         fact: {
                             id: `punishment_${Date.now()}_${Math.random()}`,
-                            content: 'You have been brutally punished by the court for your testimony and should feel terrible about your actions in this case.',
+                            content: `${witnessSurname} has been brutally punished by the court for their testimony and should feel terrible about their actions in this case.`,
                             source: 'court',
                             learnedFrom: 'court',
                             timestamp: Date.now(),
@@ -927,6 +984,54 @@ function CollectEvidenceFromInventory() {
     return evidence;
 }
 
+// Collect bonuses from inventory (credibility, countersuit, exculpation)
+function CollectBonusesFromInventory() {
+    if (!playerData || !playerData.inventory) {
+        return {
+            credibility: 0,
+            countersuit: 0,
+            exculpation: 0
+        };
+    }
+    
+    const bonuses = {
+        credibility: 0,
+        countersuit: 0,
+        exculpation: 0
+    };
+    
+    for (const item of playerData.inventory) {
+        if (item.type === 'credibility') {
+            bonuses.credibility += item.quantity || 1;
+        } else if (item.type === 'countersuit') {
+            bonuses.countersuit += item.quantity || 1;
+        } else if (item.type === 'exculpation') {
+            bonuses.exculpation += item.quantity || 1;
+        }
+    }
+    
+    return bonuses;
+}
+
+// Consume all bonuses from inventory
+function ConsumeBonusesFromInventory() {
+    if (!playerData || !playerData.inventory) {
+        return;
+    }
+    
+    // Remove all bonus items
+    playerData.inventory = playerData.inventory.filter(item => {
+        return item.type !== 'credibility' && 
+               item.type !== 'countersuit' && 
+               item.type !== 'exculpation';
+    });
+    
+    // Save game state after consuming
+    if (typeof SaveGameState === 'function') {
+        SaveGameState();
+    }
+}
+
 // Process Friday Judgment (called when player submits statement or event is missed)
 async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
     console.log(`[JUDGMENT] ProcessFridayJudgment called. Statement length: ${playerStatement ? playerStatement.length : 0}, Missed: ${isMissedEvent}`);
@@ -982,26 +1087,35 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
             }
         }
         
-        // 3. Collect evidence from inventory
-        console.log('[JUDGMENT] Step 3: Collecting evidence from inventory');
+        // 3. Collect and consume bonuses from inventory (must happen before judgment)
+        console.log('[JUDGMENT] Step 3: Collecting and consuming bonuses from inventory');
+        const bonuses = CollectBonusesFromInventory();
+        console.log(`[JUDGMENT] Step 3: Bonuses found - Credibility: ${bonuses.credibility}, Countersuit: ${bonuses.countersuit}, Exculpation: ${bonuses.exculpation}`);
+        
+        // Consume all bonuses immediately on submission
+        ConsumeBonusesFromInventory();
+        console.log('[JUDGMENT] Step 3: All bonuses consumed from inventory');
+        
+        // 4. Collect evidence from inventory
+        console.log('[JUDGMENT] Step 4: Collecting evidence from inventory');
         const evidence = CollectEvidenceFromInventory();
-        console.log(`[JUDGMENT] Step 3 complete. Evidence items: ${evidence ? evidence.length : 0}`);
+        console.log(`[JUDGMENT] Step 4 complete. Evidence items: ${evidence ? evidence.length : 0}`);
         
-        // 4. Get judge persona
-        console.log('[JUDGMENT] Step 4: Getting judge persona');
+        // 5. Get judge persona
+        console.log('[JUDGMENT] Step 5: Getting judge persona');
         const judgePersona = GetJudgePersona();
-        console.log(`[JUDGMENT] Step 4 complete. Judge: ${judgePersona ? judgePersona.name : 'N/A'}`);
+        console.log(`[JUDGMENT] Step 5 complete. Judge: ${judgePersona ? judgePersona.name : 'N/A'}`);
         
-        // 5. Get witnesses list
-        console.log('[JUDGMENT] Step 5: Getting witnesses list');
+        // 6. Get witnesses list
+        console.log('[JUDGMENT] Step 6: Getting witnesses list');
         const witnesses = activeCase.witnesses.map(w => ({
             surname: w.npc.surname,
             role: w.role
         }));
-        console.log(`[JUDGMENT] Step 5 complete. Witnesses: ${witnesses.length}`);
+        console.log(`[JUDGMENT] Step 6 complete. Witnesses: ${witnesses.length}`);
         
-        // 6. Judge makes decision
-        console.log('[JUDGMENT] Step 6: Sending judgment request to server');
+        // 7. Judge makes decision
+        console.log('[JUDGMENT] Step 7: Sending judgment request to server');
         const judgmentResponse = await fetch('/api/cases/judgment', {
             method: 'POST',
             headers: {
@@ -1014,6 +1128,7 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
                 evidence: evidence,
                 witnesses: witnesses,
                 judgePersona: judgePersona,
+                bonuses: bonuses,
                 isMissedEvent: isMissedEvent
             })
         });
@@ -1024,27 +1139,27 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
         
         const judgmentData = await judgmentResponse.json();
         const { playerWins, punishments, ruling } = judgmentData;
-        console.log(`[JUDGMENT] Step 6 complete. Player wins: ${playerWins}, Punishments: ${punishments ? punishments.length : 0}`);
+        console.log(`[JUDGMENT] Step 7 complete. Player wins: ${playerWins}, Punishments: ${punishments ? punishments.length : 0}`);
         
-        // 7. Execute punishments
+        // 8. Execute punishments
         if (punishments && punishments.length > 0) {
-            console.log(`[JUDGMENT] Step 7: Executing ${punishments.length} punishments`);
+            console.log(`[JUDGMENT] Step 8: Executing ${punishments.length} punishments`);
             await ExecutePunishments(punishments);
-            console.log('[JUDGMENT] Step 7 complete');
+            console.log('[JUDGMENT] Step 8 complete');
         } else {
-            console.log('[JUDGMENT] Step 7: No punishments to execute');
+            console.log('[JUDGMENT] Step 8: No punishments to execute');
         }
         
-        // 8. Add coins if player won
+        // 9. Add coins if player won
         if (playerWins && typeof playerData !== 'undefined') {
             const oldCoins = playerData.coins || 0;
             playerData.coins = oldCoins + 20;
-            console.log(`[JUDGMENT] Step 8: Added $20 coins. Old: $${oldCoins}, New: $${playerData.coins}`);
+            console.log(`[JUDGMENT] Step 9: Added $20 coins. Old: $${oldCoins}, New: $${playerData.coins}`);
             if (typeof SaveGameState === 'function') {
                 SaveGameState();
             }
         } else {
-            console.log(`[JUDGMENT] Step 8: Player ${playerWins ? 'won but coins not added' : 'lost'}`);
+            console.log(`[JUDGMENT] Step 9: Player ${playerWins ? 'won but coins not added' : 'lost'}`);
         }
         
         // Hide loading notification

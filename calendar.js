@@ -390,21 +390,23 @@ async function ProcessMissedFridayJudgment(event)
     if (!event || event.taskId !== 'fridayJudgement')
         return;
     
-    console.log('Processing missed Friday Judgment event');
+    console.log('[MISSED JUDGMENT] Processing missed Friday Judgment event');
     
     // Get active case
     if (typeof GetActiveCase === 'undefined')
     {
-        console.warn('GetActiveCase function not available');
+        console.warn('[MISSED JUDGMENT] GetActiveCase function not available');
         return;
     }
     
     const activeCase = GetActiveCase();
     if (!activeCase)
     {
-        console.warn('No active case for missed Friday Judgment');
+        console.warn('[MISSED JUDGMENT] No active case for missed Friday Judgment');
         // Still mark event as missed
         event.status = 'missed';
+        // Remove the event since there's no case to process
+        RemoveEvent(event.id);
         return;
     }
     
@@ -417,28 +419,66 @@ async function ProcessMissedFridayJudgment(event)
             
             if (result)
             {
-                console.log('Missed judgment processed:', result);
+                console.log('[MISSED JUDGMENT] Missed judgment processed:', result);
                 
-                // Clear active case
-                if (typeof ClearActiveCase !== 'undefined')
+                // Remove the event after processing (case will be cleared when modal closes)
+                RemoveEvent(event.id);
+                console.log('[MISSED JUDGMENT] Event removed from calendar');
+                
+                // Show ruling modal regardless of where player is
+                // The modal will handle creating evidence and clearing the case when player clicks OK
+                if (typeof ShowJudgmentRulingModal !== 'undefined')
                 {
-                    ClearActiveCase();
+                    console.log('[MISSED JUDGMENT] Showing ruling modal');
+                    ShowJudgmentRulingModal(result);
+                    
+                    // Show success notification
+                    if (typeof ShowSuccessNotification !== 'undefined')
+                    {
+                        let notificationText = result.playerWins ? 'Case won!' : 'Case lost (missed judgment)';
+                        if (result.coinsAwarded > 0)
+                        {
+                            notificationText += ` +$${result.coinsAwarded}`;
+                        }
+                        if (result.playerReprimanded)
+                        {
+                            notificationText += ' | Reprimanded: -$20';
+                        }
+                        if (result.playerDisbarred)
+                        {
+                            notificationText = 'DISBARRED - Game Over';
+                        }
+                        ShowSuccessNotification(notificationText);
+                    }
                 }
-                
-                // Remove the event after processing
+                else
+                {
+                    console.error('[MISSED JUDGMENT] ShowJudgmentRulingModal function not available');
+                    // Fallback: clear case if modal function not available
+                    if (typeof ClearActiveCase !== 'undefined')
+                    {
+                        ClearActiveCase();
+                    }
+                }
+            }
+            else
+            {
+                console.error('[MISSED JUDGMENT] ProcessFridayJudgment returned null');
+                // Remove event even if processing failed
                 RemoveEvent(event.id);
             }
         }
         catch (error)
         {
-            console.error('Error processing missed Friday Judgment:', error);
+            console.error('[MISSED JUDGMENT] Error processing missed Friday Judgment:', error);
             // Remove event even if processing failed
             RemoveEvent(event.id);
         }
     }
     else
     {
-        // No active case, just remove the event
+        // No ProcessFridayJudgment function, just remove the event
+        console.warn('[MISSED JUDGMENT] ProcessFridayJudgment function not available');
         RemoveEvent(event.id);
     }
 }

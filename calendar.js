@@ -16,6 +16,17 @@ let nextEventId = 1;
 // Create a new event
 function CreateCalendarEvent(year, month, day, npcSurname, houseAddress, workAddress, taskId = null)
 {
+    // Validate that the NPC actually exists before creating the event
+    if (npcSurname)
+    {
+        let npc = GetNPCBySurname(npcSurname);
+        if (!npc)
+        {
+            console.warn(`CreateCalendarEvent: NPC ${npcSurname} does not exist in town, skipping event creation`);
+            return null;
+        }
+    }
+    
     let event = {
         id: nextEventId++,
         year: year,
@@ -154,6 +165,35 @@ function CheckAndCompleteCalendarEvents(npc, currentGameTime)
         
         // Show success notification
         ShowSuccessNotification('Meeting Successfully Attended');
+    }
+}
+
+// Validate and clean up calendar events - remove events for NPCs that no longer exist
+function ValidateCalendarEvents()
+{
+    if (!calendarEvents || calendarEvents.length === 0)
+        return;
+    
+    let eventsToRemove = [];
+    for (let event of calendarEvents)
+    {
+        // Check if event has an NPC surname
+        if (event.npcSurname && event.status === 'pending')
+        {
+            // Verify the NPC still exists
+            let npc = GetNPCBySurname(event.npcSurname);
+            if (!npc)
+            {
+                console.warn(`ValidateCalendarEvents: Removing event for non-existent NPC ${event.npcSurname}`);
+                eventsToRemove.push(event.id);
+            }
+        }
+    }
+    
+    // Remove invalid events
+    for (let eventId of eventsToRemove)
+    {
+        RemoveEvent(eventId);
     }
 }
 
@@ -351,27 +391,28 @@ function ScheduleSundayCoffee()
         return;
     }
     
-    // Filter to only valid NPCs (must have surname and addresses)
+    // Filter to only valid NPCs that actually exist in allNPCs (must have surname and addresses)
     let validNPCs = allNPCs.filter(npc => 
         npc && 
         npc.surname && 
         npc.houseAddress !== null && npc.houseAddress !== undefined &&
-        npc.workAddress !== null && npc.workAddress !== undefined
+        npc.workAddress !== null && npc.workAddress !== undefined &&
+        GetNPCBySurname(npc.surname) !== undefined // Double-check NPC exists
     );
     
     if (validNPCs.length === 0)
     {
-        console.warn('ScheduleSundayCoffee: No valid NPCs found');
+        console.warn('ScheduleSundayCoffee: No valid NPCs found in town');
         return;
     }
     
     let randomNPC = validNPCs[RandInt(validNPCs.length)];
     
-    // Verify NPC can be found by surname (double-check it's in allNPCs)
+    // Final verification - NPC must exist
     let verifiedNPC = GetNPCBySurname(randomNPC.surname);
     if (!verifiedNPC)
     {
-        console.warn(`ScheduleSundayCoffee: NPC ${randomNPC.surname} not found in allNPCs`);
+        console.warn(`ScheduleSundayCoffee: NPC ${randomNPC.surname} not found in allNPCs, cannot schedule`);
         return;
     }
     
@@ -437,28 +478,29 @@ function InitializeSundayCoffee()
             return;
         }
         
-        // Get valid NPCs (must have surname and addresses)
+        // Get valid NPCs that actually exist (must have surname and addresses)
         let validNPCs = allNPCs && allNPCs.length > 0 ? 
             allNPCs.filter(npc => 
                 npc && 
                 npc.surname && 
                 npc.houseAddress !== null && npc.houseAddress !== undefined &&
-                npc.workAddress !== null && npc.workAddress !== undefined
+                npc.workAddress !== null && npc.workAddress !== undefined &&
+                GetNPCBySurname(npc.surname) !== undefined // Double-check NPC exists
             ) : [];
         
         if (validNPCs.length === 0)
         {
-            console.warn('InitializeSundayCoffee: No valid NPCs found');
+            console.warn('InitializeSundayCoffee: No valid NPCs found in town');
             return;
         }
         
         let randomNPC = validNPCs[RandInt(validNPCs.length)];
         
-        // Verify NPC can be found by surname (double-check it's in allNPCs)
+        // Final verification - NPC must exist
         let verifiedNPC = GetNPCBySurname(randomNPC.surname);
         if (!verifiedNPC)
         {
-            console.warn(`InitializeSundayCoffee: NPC ${randomNPC.surname} not found in allNPCs`);
+            console.warn(`InitializeSundayCoffee: NPC ${randomNPC.surname} not found in allNPCs, cannot schedule`);
             return;
         }
         

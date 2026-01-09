@@ -1097,8 +1097,14 @@ function GenerateNPCs()
         allNPCs.push(npc);
     }
     
-    // Debug: Log all NPCs and their jobs
+    // Debug: Log all NPCs and their jobs (only once, final list)
     DebugLogAllNPCs();
+    
+    // Validate calendar events to remove any for NPCs that no longer exist
+    if (typeof ValidateCalendarEvents !== 'undefined')
+    {
+        ValidateCalendarEvents();
+    }
 }
 
 // Debug function to display all NPCs and their jobs in the console

@@ -3542,16 +3542,7 @@ function RenderInventoryModal()
     // Draw tooltips after all slots (so they appear on top)
     for (let tooltip of tooltipsToDraw)
     {
-        // Draw tooltip background
-        mainCanvasContext.fillStyle = 'rgba(0, 0, 0, 0.9)';
-        mainCanvasContext.fillRect(tooltip.x, tooltip.y - tooltip.height/2, tooltip.width, tooltip.height);
-        
-        // Draw tooltip border
-        mainCanvasContext.strokeStyle = '#FFF';
-        mainCanvasContext.lineWidth = 2;
-        mainCanvasContext.strokeRect(tooltip.x, tooltip.y - tooltip.height/2, tooltip.width, tooltip.height);
-        
-        // Draw tooltip text
+        // Draw tooltip text only (no background or border)
         DrawText(tooltip.text, tooltip.x + tooltip.width/2, tooltip.y, 10, 'center', 1, '#FFF', '#000');
     }
     

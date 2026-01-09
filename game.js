@@ -896,16 +896,20 @@ function PostRender()
         mainCanvasContext.lineWidth = 1;
         mainCanvasContext.strokeRect(coinDisplayX - coinDisplayWidth/2, coinDisplayY - coinDisplayHeight/2, coinDisplayWidth, coinDisplayHeight);
         
-        // Draw coin icon (tileX=5, tileY=5 from tileImage)
+        // Draw coin icon (sprite index 21: tileX=5, tileY=2 from tileImage)
         if (tileImage && tileImage.complete)
         {
             let iconSize = 16;
             let iconX = coinDisplayX - coinDisplayWidth/2 + 4;
             let iconY = coinDisplayY - iconSize/2;
             
+            // Sprite index 21: tileX = 21 % 8 = 5, tileY = Math.floor(21 / 8) = 2
+            let coinTileX = 21 % 8; // 5
+            let coinTileY = Math.floor(21 / 8); // 2
+            
             mainCanvasContext.drawImage(
                 tileImage,
-                5 * tileSize, 5 * tileSize, // source coordinates (tileX=5, tileY=5)
+                coinTileX * tileSize, coinTileY * tileSize,
                 tileSize, tileSize,
                 iconX, iconY,
                 iconSize, iconSize
@@ -915,7 +919,7 @@ function PostRender()
         // Draw coin count (positioned after icon with padding)
         let coinCount = playerData ? playerData.coins : 0;
         let textX = coinDisplayX - coinDisplayWidth/2 + 24; // 4px padding after 16px icon
-        DrawText(coinCount.toString(), textX, coinDisplayY, 12, 'left', 1, '#FFD700', '#000');
+        DrawText(coinCount.toString(), textX, coinDisplayY, 12, 'left', 1, '#4F4', '#000');
     }
     
     // Reset button (top-right)
@@ -1719,16 +1723,20 @@ class Pickup extends MyGameObject
             // 1 coin
             PlaySound(10);
             ++playerData.coins;
-            // Add to inventory (stack coins)
-            playerData.AddToInventory('coin', 'Coin', 5, 5, 1);
+            // Add to inventory (stack coins) - sprite index 21: tileX=5, tileY=2
+            let coinTileX = 21 % 8; // 5
+            let coinTileY = Math.floor(21 / 8); // 2
+            playerData.AddToInventory('coin', 'Coin', coinTileX, coinTileY, 1);
         }
         else if (this.type==4)
         {
             // 5 coin
             PlaySound(10);
             playerData.coins+=5;
-            // Add to inventory (stack coins)
-            playerData.AddToInventory('coin', 'Coin', 5, 5, 5);
+            // Add to inventory (stack coins) - sprite index 21: tileX=5, tileY=2
+            let coinTileX = 21 % 8; // 5
+            let coinTileY = Math.floor(21 / 8); // 2
+            playerData.AddToInventory('coin', 'Coin', coinTileX, coinTileY, 5);
         }
         else
         {

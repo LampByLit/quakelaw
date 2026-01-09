@@ -1073,7 +1073,14 @@ async function SubmitJudgmentStatement() {
                 
                 // Show success notification
                 if (typeof ShowSuccessNotification !== 'undefined') {
-                    ShowSuccessNotification(result.playerWins ? 'Case won! +$20' : 'Case lost');
+                    let notificationText = result.playerWins ? 'Case won! +$20' : 'Case lost';
+                    if (result.playerReprimanded) {
+                        notificationText += ' | Reprimanded: -$20';
+                    }
+                    if (result.playerDisbarred) {
+                        notificationText = 'DISBARRED - Game Over';
+                    }
+                    ShowSuccessNotification(notificationText);
                 }
             } else {
                 console.error('[JUDGMENT] ProcessFridayJudgment returned null');
@@ -1139,21 +1146,49 @@ function CreateJudgmentEvidenceItem(result) {
     judgmentText += '--- VERDICT ---\n';
     judgmentText += result.playerWins ? 'VERDICT: You WON the case!\n' : 'VERDICT: You LOST the case.\n';
     
+    // Show reprimand
+    if (result.playerReprimanded) {
+        judgmentText += '\n--- JUDGE REPRIMAND ---\n';
+        judgmentText += 'You have been officially reprimanded by the judge.\n';
+        judgmentText += 'FINE: -$20 coins\n';
+    }
+    
+    // Show disbarment
+    if (result.playerDisbarred) {
+        judgmentText += '\n--- DISBARMENT ---\n';
+        judgmentText += 'You have been DISBARRED by the judge.\n';
+        judgmentText += 'GAME OVER\n';
+    }
+    
     if (result.coinsAwarded > 0) {
-        judgmentText += `REWARD: $${result.coinsAwarded} coins\n`;
+        judgmentText += `\nREWARD: $${result.coinsAwarded} coins\n`;
+    } else if (result.coinsAwarded < 0) {
+        judgmentText += `\nFINE: $${Math.abs(result.coinsAwarded)} coins\n`;
     }
     
     judgmentText += '\n--- PUNISHMENTS ---\n';
     if (result.punishments && result.punishments.length > 0) {
         for (const p of result.punishments) {
+            const npcSurname = p.npcSurname || p.witnessSurname || 'Unknown';
+            const reason = p.reason ? ` (${p.reason})` : '';
             if (p.punishmentType === 'corporeal') {
-                judgmentText += `- ${p.witnessSurname}: Corporeal punishment\n`;
+                judgmentText += `- ${npcSurname}: Corporeal punishment${reason}\n`;
             } else if (p.punishmentType === 'banishment') {
-                judgmentText += `- ${p.witnessSurname}: Permanently banished\n`;
+                judgmentText += `- ${npcSurname}: Permanently banished${reason}\n`;
+            } else if (p.punishmentType === 'death') {
+                judgmentText += `- ${npcSurname}: Sentenced to death${reason}\n`;
             }
         }
     } else {
-        judgmentText += 'No witnesses were punished.\n';
+        judgmentText += 'No NPCs were punished.\n';
+    }
+    
+    if (result.jobChanges && result.jobChanges.length > 0) {
+        judgmentText += '\n--- JOB CHANGES ---\n';
+        for (const change of result.jobChanges) {
+            const reason = change.reason ? ` (${change.reason})` : '';
+            judgmentText += `- ${change.npcSurname}: Changed to "${change.newJob}"${reason}\n`;
+        }
     }
     
     if (result.prosecution) {
@@ -1177,6 +1212,9 @@ function CreateJudgmentEvidenceItem(result) {
             playerWins: result.playerWins,
             coinsAwarded: result.coinsAwarded || 0,
             punishments: result.punishments || [],
+            jobChanges: result.jobChanges || [],
+            playerReprimanded: result.playerReprimanded || false,
+            playerDisbarred: result.playerDisbarred || false,
             caseNumber: caseNumber,
             prosecution: result.prosecution || '',
             timestamp: Date.now()
@@ -1205,25 +1243,46 @@ function ShowJudgmentRulingModal(result) {
     // Set ruling text
     rulingTextEl.textContent = result.ruling || 'The judge has made a decision.';
     
-    // Set verdict
-    const verdictText = result.playerWins ? 'VERDICT: You WON the case!' : 'VERDICT: You LOST the case.';
+    // Set verdict with reprimand/disbarment info
+    let verdictText = result.playerWins ? 'VERDICT: You WON the case!' : 'VERDICT: You LOST the case.';
+    if (result.playerReprimanded) {
+        verdictText += '\n\n⚠️ OFFICIAL REPRIMAND: -$20 coins';
+    }
+    if (result.playerDisbarred) {
+        verdictText += '\n\n🚫 DISBARRED: Game Over';
+        verdictEl.className = 'verdict-section disbarred';
+    } else {
+        verdictEl.className = 'verdict-section ' + (result.playerWins ? 'win' : 'lose');
+    }
     verdictEl.textContent = verdictText;
-    verdictEl.className = 'verdict-section ' + (result.playerWins ? 'win' : 'lose');
     
-    // Set punishments
+    // Set punishments and job changes
+    let punishmentsText = '';
     if (result.punishments && result.punishments.length > 0) {
-        let punishmentsText = 'PUNISHMENTS:\n';
+        punishmentsText += 'PUNISHMENTS:\n';
         for (const p of result.punishments) {
+            const npcSurname = p.npcSurname || p.witnessSurname || 'Unknown';
+            const reason = p.reason ? ` (${p.reason})` : '';
             if (p.punishmentType === 'corporeal') {
-                punishmentsText += `- ${p.witnessSurname}: Corporeal punishment\n`;
+                punishmentsText += `- ${npcSurname}: Corporeal punishment${reason}\n`;
             } else if (p.punishmentType === 'banishment') {
-                punishmentsText += `- ${p.witnessSurname}: Permanently banished\n`;
+                punishmentsText += `- ${npcSurname}: Permanently banished${reason}\n`;
+            } else if (p.punishmentType === 'death') {
+                punishmentsText += `- ${npcSurname}: Sentenced to death${reason}\n`;
             }
         }
-        punishmentsEl.textContent = punishmentsText;
-    } else {
-        punishmentsEl.textContent = '';
     }
+    
+    if (result.jobChanges && result.jobChanges.length > 0) {
+        if (punishmentsText) punishmentsText += '\n';
+        punishmentsText += 'JOB CHANGES:\n';
+        for (const change of result.jobChanges) {
+            const reason = change.reason ? ` (${change.reason})` : '';
+            punishmentsText += `- ${change.npcSurname}: Changed to "${change.newJob}"${reason}\n`;
+        }
+    }
+    
+    punishmentsEl.textContent = punishmentsText;
     
     // Show modal
     modal.classList.add('open');
@@ -1273,6 +1332,21 @@ function CloseJudgmentRulingModal(result) {
     if (typeof ClearActiveCase !== 'undefined') {
         ClearActiveCase();
         console.log('[JUDGMENT] Active case cleared');
+    }
+    
+    // Handle disbarment (game over)
+    if (result.playerDisbarred) {
+        console.log('[JUDGMENT] Player disbarred - triggering game over');
+        // Trigger game over after a short delay to let player see the message
+        setTimeout(() => {
+            if (typeof player !== 'undefined' && player) {
+                player.Kill();
+            }
+            // Also show game over message
+            if (typeof ShowErrorNotification !== 'undefined') {
+                ShowErrorNotification('You have been DISBARRED. Game Over.');
+            }
+        }, 1000);
     }
     
     // Clear judgment processing flag AFTER player acknowledges the ruling

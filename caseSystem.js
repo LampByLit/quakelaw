@@ -879,14 +879,28 @@ async function ExecutePunishments(punishments) {
     const sessionId = getSessionId();
     
     for (const punishment of punishments) {
-        const { witnessSurname, punishmentType } = punishment;
+        // Support both "witnessSurname" (old) and "npcSurname" (new) for backwards compatibility
+        const npcSurname = punishment.npcSurname || punishment.witnessSurname;
+        const punishmentType = punishment.punishmentType;
+        const reason = punishment.reason || '';
         
-        if (!witnessSurname) continue;
+        if (!npcSurname) continue;
+        
+        // Check if NPC exists (not just witnesses, but any NPC)
+        const npc = typeof GetNPCBySurname !== 'undefined' ? GetNPCBySurname(npcSurname) : null;
+        if (!npc && !IsNPCBanished(npcSurname)) {
+            console.warn(`[JUDGMENT] NPC ${npcSurname} not found for punishment`);
+            continue;
+        }
         
         if (punishmentType === 'corporeal') {
             // Add known fact about brutal punishment
             try {
-                const response = await fetch(`/api/npc/gossip/add-fact/${encodeURIComponent(witnessSurname)}`, {
+                const factContent = reason 
+                    ? `${npcSurname} has been brutally punished by the court. ${reason}`
+                    : `${npcSurname} has been brutally punished by the court for their actions and should feel terrible about it.`;
+                
+                const response = await fetch(`/api/npc/gossip/add-fact/${encodeURIComponent(npcSurname)}`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -895,7 +909,7 @@ async function ExecutePunishments(punishments) {
                         sessionId: sessionId,
                         fact: {
                             id: `punishment_${Date.now()}_${Math.random()}`,
-                            content: `${witnessSurname} has been brutally punished by the court for their testimony and should feel terrible about their actions in this case.`,
+                            content: factContent,
                             source: 'court',
                             learnedFrom: 'court',
                             timestamp: Date.now(),
@@ -905,18 +919,73 @@ async function ExecutePunishments(punishments) {
                 });
                 
                 if (!response.ok) {
-                    console.warn(`Failed to add punishment fact to ${witnessSurname}`);
+                    console.warn(`Failed to add punishment fact to ${npcSurname}`);
                 } else {
-                    console.log(`[JUDGMENT] Applied corporeal punishment to ${witnessSurname}`);
+                    console.log(`[JUDGMENT] Applied corporeal punishment to ${npcSurname}`);
                 }
             } catch (error) {
-                console.error(`Error applying corporeal punishment to ${witnessSurname}:`, error);
+                console.error(`Error applying corporeal punishment to ${npcSurname}:`, error);
             }
-        } else if (punishmentType === 'banishment') {
-            // Permanently banish NPC
-            BanishNPC(witnessSurname);
-            console.log(`Banned NPC ${witnessSurname} from the game`);
+        } else if (punishmentType === 'banishment' || punishmentType === 'death') {
+            // Permanently banish NPC (death is same as banishment)
+            BanishNPC(npcSurname);
+            console.log(`[JUDGMENT] ${punishmentType === 'death' ? 'Sentenced to death' : 'Banned'} NPC ${npcSurname} from the game${reason ? ` - ${reason}` : ''}`);
         }
+    }
+}
+
+// Execute job changes from judgment decision
+async function ExecuteJobChanges(jobChanges) {
+    if (!jobChanges || jobChanges.length === 0) {
+        return;
+    }
+    
+    const sessionId = getSessionId();
+    
+    for (const change of jobChanges) {
+        const { npcSurname, newJob, reason } = change;
+        
+        if (!npcSurname || !newJob) {
+            console.warn('[JUDGMENT] Invalid job change entry:', change);
+            continue;
+        }
+        
+        // Find NPC and update job
+        const npc = typeof GetNPCBySurname !== 'undefined' ? GetNPCBySurname(npcSurname) : null;
+        if (npc) {
+            const oldJob = npc.job || 'unemployed';
+            npc.job = newJob;
+            console.log(`[JUDGMENT] Changed ${npcSurname}'s job from "${oldJob}" to "${newJob}"${reason ? ` - ${reason}` : ''}`);
+            
+            // Update job on server (conversation metadata)
+            try {
+                const response = await fetch(`/api/npc/update-job/${encodeURIComponent(npcSurname)}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        sessionId: sessionId,
+                        job: newJob
+                    })
+                });
+                
+                if (!response.ok) {
+                    console.warn(`Failed to update job on server for ${npcSurname}`);
+                } else {
+                    console.log(`[JUDGMENT] Updated job on server for ${npcSurname}`);
+                }
+            } catch (error) {
+                console.error(`Error updating job on server for ${npcSurname}:`, error);
+            }
+        } else {
+            console.warn(`[JUDGMENT] NPC ${npcSurname} not found for job change`);
+        }
+    }
+    
+    // Save game state after all job changes
+    if (typeof SaveGameState === 'function') {
+        SaveGameState();
     }
 }
 
@@ -1114,6 +1183,20 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
         }));
         console.log(`[JUDGMENT] Step 6 complete. Witnesses: ${witnesses.length}`);
         
+        // 6.5. Get all NPCs list (for judge powers)
+        console.log('[JUDGMENT] Step 6.5: Getting all NPCs list');
+        let allNPCsList = [];
+        if (typeof allNPCs !== 'undefined' && Array.isArray(allNPCs)) {
+            // Filter out banished NPCs and get NPC info
+            allNPCsList = allNPCs
+                .filter(npc => npc && npc.surname && !IsNPCBanished(npc.surname))
+                .map(npc => ({
+                    surname: npc.surname,
+                    job: npc.job || 'unemployed'
+                }));
+        }
+        console.log(`[JUDGMENT] Step 6.5 complete. All NPCs: ${allNPCsList.length}`);
+        
         // 7. Judge makes decision
         console.log('[JUDGMENT] Step 7: Sending judgment request to server');
         const judgmentResponse = await fetch('/api/cases/judgment', {
@@ -1129,7 +1212,8 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
                 witnesses: witnesses,
                 judgePersona: judgePersona,
                 bonuses: bonuses,
-                isMissedEvent: isMissedEvent
+                isMissedEvent: isMissedEvent,
+                allNPCs: allNPCsList
             })
         });
         
@@ -1138,28 +1222,54 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
         }
         
         const judgmentData = await judgmentResponse.json();
-        const { playerWins, punishments, ruling } = judgmentData;
-        console.log(`[JUDGMENT] Step 7 complete. Player wins: ${playerWins}, Punishments: ${punishments ? punishments.length : 0}`);
+        const { playerWins, playerReprimanded, playerDisbarred, punishments, jobChanges, ruling } = judgmentData;
+        console.log(`[JUDGMENT] Step 7 complete. Player wins: ${playerWins}, Reprimanded: ${playerReprimanded}, Disbarred: ${playerDisbarred}, Punishments: ${punishments ? punishments.length : 0}, Job changes: ${jobChanges ? jobChanges.length : 0}`);
         
-        // 8. Execute punishments
-        if (punishments && punishments.length > 0) {
-            console.log(`[JUDGMENT] Step 8: Executing ${punishments.length} punishments`);
-            await ExecutePunishments(punishments);
-            console.log('[JUDGMENT] Step 8 complete');
-        } else {
-            console.log('[JUDGMENT] Step 8: No punishments to execute');
+        // 8. Handle player reprimand (deduct $20)
+        if (playerReprimanded && typeof playerData !== 'undefined') {
+            const oldCoins = playerData.coins || 0;
+            playerData.coins = Math.max(0, oldCoins - 20);
+            console.log(`[JUDGMENT] Step 8: Player reprimanded. Deducted $20. Old: $${oldCoins}, New: $${playerData.coins}`);
+            if (typeof SaveGameState === 'function') {
+                SaveGameState();
+            }
         }
         
-        // 9. Add coins if player won
-        if (playerWins && typeof playerData !== 'undefined') {
+        // 9. Handle player disbarment (game over)
+        if (playerDisbarred) {
+            console.log('[JUDGMENT] Step 9: Player disbarred - triggering game over');
+            // Trigger game over after showing the ruling
+            // We'll set a flag and handle it after the ruling modal
+        }
+        
+        // 10. Execute punishments
+        if (punishments && punishments.length > 0) {
+            console.log(`[JUDGMENT] Step 10: Executing ${punishments.length} punishments`);
+            await ExecutePunishments(punishments);
+            console.log('[JUDGMENT] Step 10 complete');
+        } else {
+            console.log('[JUDGMENT] Step 10: No punishments to execute');
+        }
+        
+        // 11. Execute job changes
+        if (jobChanges && jobChanges.length > 0) {
+            console.log(`[JUDGMENT] Step 11: Executing ${jobChanges.length} job changes`);
+            await ExecuteJobChanges(jobChanges);
+            console.log('[JUDGMENT] Step 11 complete');
+        } else {
+            console.log('[JUDGMENT] Step 11: No job changes to execute');
+        }
+        
+        // 12. Add coins if player won (but not if reprimanded, as that's already handled)
+        if (playerWins && !playerReprimanded && typeof playerData !== 'undefined') {
             const oldCoins = playerData.coins || 0;
             playerData.coins = oldCoins + 20;
-            console.log(`[JUDGMENT] Step 9: Added $20 coins. Old: $${oldCoins}, New: $${playerData.coins}`);
+            console.log(`[JUDGMENT] Step 12: Added $20 coins. Old: $${oldCoins}, New: $${playerData.coins}`);
             if (typeof SaveGameState === 'function') {
                 SaveGameState();
             }
         } else {
-            console.log(`[JUDGMENT] Step 9: Player ${playerWins ? 'won but coins not added' : 'lost'}`);
+            console.log(`[JUDGMENT] Step 12: Player ${playerWins ? 'won but coins not added' : 'lost'}`);
         }
         
         // Hide loading notification
@@ -1169,9 +1279,12 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
         
         const result = {
             playerWins: playerWins,
+            playerReprimanded: playerReprimanded || false,
+            playerDisbarred: playerDisbarred || false,
             punishments: punishments || [],
+            jobChanges: jobChanges || [],
             ruling: ruling || 'The judge has made a decision.',
-            coinsAwarded: playerWins ? 20 : 0,
+            coinsAwarded: playerWins && !playerReprimanded ? 20 : (playerReprimanded ? -20 : 0),
             prosecution: prosecution || ''
         };
         

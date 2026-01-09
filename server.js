@@ -626,7 +626,7 @@ app.post('/api/cases/judgment', async (req, res) => {
         });
     }
 
-    const { caseSummary, prosecution, playerStatement, evidence, witnesses, judgePersona, bonuses, isMissedEvent } = req.body;
+    const { caseSummary, prosecution, playerStatement, evidence, witnesses, judgePersona, bonuses, isMissedEvent, allNPCs } = req.body;
 
     if (!caseSummary) {
         return res.status(400).json({ error: 'Case summary is required' });
@@ -679,6 +679,12 @@ app.post('/api/cases/judgment', async (req, res) => {
             }
         }
         
+        // Format all NPCs for AI (excluding banished ones)
+        let allNPCsText = 'No NPCs available.';
+        if (allNPCs && Array.isArray(allNPCs) && allNPCs.length > 0) {
+            allNPCsText = allNPCs.map(npc => `${npc.surname} (${npc.job || 'unemployed'})`).join(', ');
+        }
+        
         const systemPrompt = `You are Judge ${judgeName}, a ${judgeCharacteristic} judge presiding over a legal case.
 
 CRITICAL: The player ALWAYS represents the DEFENSE. They are the defense lawyer in every case. You must remember this in all your decisions and rulings.
@@ -690,23 +696,43 @@ Your task:
 4. Decide which witnesses (if any) should be punished and what type of punishment
 5. Write a 50-word ruling explaining your decision in your character's voice
 
+JUDGE POWERS: As the judge, you have the following additional powers you may exercise:
+- You can officially reprimand the player (costs them $20 coins) if their conduct was unprofessional
+- You can officially disbar the player (results in game over) if their conduct was extremely egregious or illegal - use this VERY RARELY, only for the most serious offenses
+- You can sentence any witness in any case to death (same as banishment)
+- You can banish, sentence to corporeal punishment, or sentence to death ANY NPC from town (not just witnesses) with good reason
+- You can change any NPC's job to whatever you want, including anything you fancy (e.g., "santa claus", "court jester", etc.) - use this creatively but with justification
+
 ${isMissedEvent ? 'CRITICAL: The player missed the judgment hearing. They automatically LOSE the case, but you must still make punishment decisions based on the case merits.' : ''}${bonusInfo}
 
 Return your response as a JSON object with this exact structure:
 {
     "playerWins": true or false,
+    "playerReprimanded": true or false,
+    "playerDisbarred": true or false,
     "punishments": [
-        {"witnessSurname": "Smith", "punishmentType": "corporeal"},
-        {"witnessSurname": "Jones", "punishmentType": "banishment"}
+        {"npcSurname": "Smith", "punishmentType": "corporeal", "reason": "Brief reason"},
+        {"npcSurname": "Jones", "punishmentType": "banishment", "reason": "Brief reason"},
+        {"npcSurname": "Brown", "punishmentType": "death", "reason": "Brief reason"}
+    ],
+    "jobChanges": [
+        {"npcSurname": "Smith", "newJob": "santa claus", "reason": "Brief reason"}
     ],
     "ruling": "Your 50-word ruling explaining the decision, punishments, and reasoning in your character's voice"
 }
 
 Punishment types:
-- "corporeal": Witness receives brutal punishment but remains in town
-- "banishment": Witness is permanently banished from the town
+- "corporeal": NPC receives brutal punishment but remains in town
+- "banishment": NPC is permanently banished from the town
+- "death": NPC is sentenced to death (same as banishment, permanently removed)
 
-If no witnesses should be punished, return empty array for punishments.`;
+Notes:
+- "npcSurname" can be ANY NPC in town, not just witnesses
+- "playerReprimanded" should be true if the player's conduct warrants a $20 fine
+- "playerDisbarred" should be true ONLY for extremely serious offenses (use VERY RARELY)
+- "jobChanges" allows you to change any NPC's job to anything you want
+- If no NPCs should be punished, return empty array for punishments
+- If no job changes are needed, return empty array for jobChanges`;
 
         // Build bonus summary for user message
         let bonusSummary = '';
@@ -720,7 +746,7 @@ If no witnesses should be punished, return empty array for punishments.`;
             }
         }
         
-        const userMessage = `Case Summary:\n${caseSummary}\n\nProsecution Argument:\n${prosecution || 'No prosecution argument.'}\n\nPlayer's Statement:\n${playerStatement || 'No statement provided.'}\n\nEvidence Presented:\n${evidenceText}\n\nWitnesses:\n${witnessesText}${bonusSummary}\n\nMake your judgment decision and write your ruling.`;
+        const userMessage = `Case Summary:\n${caseSummary}\n\nProsecution Argument:\n${prosecution || 'No prosecution argument.'}\n\nPlayer's Statement:\n${playerStatement || 'No statement provided.'}\n\nEvidence Presented:\n${evidenceText}\n\nWitnesses:\n${witnessesText}\n\nAll NPCs in Town:\n${allNPCsText}${bonusSummary}\n\nMake your judgment decision and write your ruling. You may use your judge powers to reprimand the player, disbar them (very rarely), punish any NPCs, or change any NPC's job.`;
 
         const response = await fetch('https://api.deepseek.com/v1/chat/completions', {
             method: 'POST',
@@ -768,8 +794,17 @@ If no witnesses should be punished, return empty array for punishments.`;
         if (typeof parsed.playerWins !== 'boolean') {
             parsed.playerWins = false;
         }
+        if (typeof parsed.playerReprimanded !== 'boolean') {
+            parsed.playerReprimanded = false;
+        }
+        if (typeof parsed.playerDisbarred !== 'boolean') {
+            parsed.playerDisbarred = false;
+        }
         if (!Array.isArray(parsed.punishments)) {
             parsed.punishments = [];
+        }
+        if (!Array.isArray(parsed.jobChanges)) {
+            parsed.jobChanges = [];
         }
         if (!parsed.ruling || typeof parsed.ruling !== 'string') {
             parsed.ruling = 'The judge has made a decision.';
@@ -777,13 +812,62 @@ If no witnesses should be punished, return empty array for punishments.`;
         
         res.json({
             playerWins: parsed.playerWins,
-            punishments: parsed.punishments,
+            playerReprimanded: parsed.playerReprimanded || false,
+            playerDisbarred: parsed.playerDisbarred || false,
+            punishments: parsed.punishments || [],
+            jobChanges: parsed.jobChanges || [],
             ruling: parsed.ruling
         });
     } catch (error) {
         console.error('Error getting judgment:', error);
         res.status(500).json({ 
             error: 'Failed to get judgment',
+            message: error.message 
+        });
+    }
+});
+
+// Update NPC job
+app.post('/api/npc/update-job/:surname', async (req, res) => {
+    try {
+        const sessionId = req.body.sessionId;
+        const surname = req.params.surname;
+        const { job } = req.body;
+        
+        if (!sessionId) {
+            return res.status(400).json({ error: 'Session ID is required' });
+        }
+        
+        if (!job || typeof job !== 'string') {
+            return res.status(400).json({ error: 'Job is required and must be a string' });
+        }
+        
+        // Load conversation to update job
+        const conversation = await loadConversation(sessionId, surname);
+        
+        if (conversation) {
+            conversation.job = job;
+            await saveConversation(sessionId, conversation);
+            res.json({ success: true, message: 'Job updated' });
+        } else {
+            // Create new conversation with just the job
+            const newConversation = {
+                npcSurname: surname,
+                job: job,
+                conversation: [],
+                metadata: {
+                    firstInteraction: Date.now(),
+                    lastInteraction: Date.now(),
+                    messageCount: 0
+                }
+            };
+            await saveConversation(sessionId, newConversation);
+            res.json({ success: true, message: 'Job created' });
+        }
+    } catch (error) {
+        console.error('Error updating NPC job:', error);
+        res.status(500).json({ 
+            error: 'Failed to update job',
             message: error.message 
         });
     }

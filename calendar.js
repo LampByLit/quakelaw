@@ -318,6 +318,7 @@ function ProcessMissedEvents(currentGameTime)
     let endedYear = GetCurrentYear(currentGameTime);
     
     // Mark the day that just ended's pending events as missed
+    // Exclude events that are already completed or removed
     let endedDayEvents = calendarEvents.filter(e => 
         e.status === 'pending' &&
         e.year === endedYear &&
@@ -334,9 +335,16 @@ function ProcessMissedEvents(currentGameTime)
         ProcessMissedFridayJudgment(missedJudgmentEvent);
     }
     
+    // Mark events as missed, but skip any that are already completed or being processed
     for (let event of endedDayEvents)
     {
-        event.status = 'missed';
+        // Double-check the event is still pending and hasn't been completed/removed
+        // This prevents race conditions where an event is completed but ProcessMissedEvents runs
+        let currentEvent = calendarEvents.find(e => e.id === event.id);
+        if (currentEvent && currentEvent.status === 'pending')
+        {
+            event.status = 'missed';
+        }
     }
     
     // Remove missed events from the day before the day that just ended (missed events are removed after 1 day)

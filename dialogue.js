@@ -83,7 +83,8 @@ async function OpenDialogueModal(npc) {
         {
             let currentYear = typeof GetCurrentYear !== 'undefined' ? GetCurrentYear(gameTime) : (gameTime.daysElapsed >= 0 ? 1 : 0);
             let events = GetEventsForDate(currentYear, gameTime.month, gameTime.dayOfMonth);
-            let caseEvent = events.find(e => e.taskId === 'caseOfTheMondays' && e.status === 'pending');
+            // Check for pending events first, but also allow completing missed events if player is attending
+            let caseEvent = events.find(e => e.taskId === 'caseOfTheMondays' && (e.status === 'pending' || e.status === 'missed'));
             
             if (caseEvent && typeof InitializeNewCase !== 'undefined')
             {
@@ -125,11 +126,20 @@ async function OpenDialogueModal(npc) {
                                 }
                             }
                             
-                            // Mark event as completed only after successful initialization
+                            // Mark event as completed and remove it immediately
+                            // Do this BEFORE any other operations to prevent race conditions
+                            // Set status to completed first, then remove - this ensures ProcessMissedEvents won't mark it as missed
                             caseEvent.status = 'completed';
+                            
+                            // Remove the event immediately to prevent it from being displayed as missed
                             if (typeof RemoveEvent !== 'undefined')
                             {
-                                RemoveEvent(caseEvent.id);
+                                let removed = RemoveEvent(caseEvent.id);
+                                if (!removed)
+                                {
+                                    // Event might have already been removed, or there's an issue
+                                    console.warn('Failed to remove Case of the Mondays event, it may have already been removed');
+                                }
                             }
                             
                             // Show success notification

@@ -237,17 +237,10 @@ class PlayerData
     // Add item to inventory (returns true if added, false if full)
     AddToInventory(type, name, tileX, tileY, quantity = 1)
     {
-        // Only coins can stack - check if item already exists and is a coin
+        // Coins are NOT added to inventory - they go directly to coin count
         if (type === 'coin')
         {
-            for(let i = 0; i < this.inventory.length; i++)
-            {
-                if (this.inventory[i] && this.inventory[i].type === type)
-                {
-                    this.inventory[i].quantity += quantity;
-                    return true;
-                }
-            }
+            return false; // Reject coins from inventory
         }
         
         // Find empty slot
@@ -754,6 +747,12 @@ function Update()
     if (typeof UpdateCalendar !== 'undefined')
     {
         UpdateCalendar();
+    }
+    
+    // Update success notification (must run every frame to update timer)
+    if (typeof UpdateSuccessNotification !== 'undefined')
+    {
+        UpdateSuccessNotification();
     }
         
 }
@@ -1700,23 +1699,15 @@ class Pickup extends MyGameObject
         }
         else if (this.type==3)
         {
-            // 1 coin
+            // 1 coin - goes directly to coin count, NOT inventory
             PlaySound(10);
             ++playerData.coins;
-            // Add to inventory (stack coins) - sprite index 21: tileX=5, tileY=2
-            let coinTileX = 21 % 8; // 5
-            let coinTileY = Math.floor(21 / 8); // 2
-            playerData.AddToInventory('coin', 'Coin', coinTileX, coinTileY, 1);
         }
         else if (this.type==4)
         {
-            // 5 coin
+            // 5 coin - goes directly to coin count, NOT inventory
             PlaySound(10);
             playerData.coins+=5;
-            // Add to inventory (stack coins) - sprite index 21: tileX=5, tileY=2
-            let coinTileX = 21 % 8; // 5
-            let coinTileY = Math.floor(21 / 8); // 2
-            playerData.AddToInventory('coin', 'Coin', coinTileX, coinTileY, 5);
         }
         else
         {
@@ -3642,12 +3633,6 @@ function RenderInventoryModal()
                         );
                     }
                     
-                    // Draw quantity if > 1 (only for coins)
-                    if (item.quantity > 1 && item.type === 'coin')
-                    {
-                        DrawText(item.quantity.toString(), slotX + slotSize - 4, slotY + slotSize - 4, 10, 'right', 1, '#FFF', '#000');
-                    }
-                    
                     // Collect tooltip info for evidence items on hover (draw after all slots)
                     if (slotHover && isEvidence && item.name)
                     {
@@ -4101,6 +4086,11 @@ function RenderEvidenceViewModal() {
 function DropItem(slotIndex, item) {
     if (!player || !playerData || !item) return;
     
+    // Coins cannot be dropped - they are not in inventory
+    if (item.type === 'coin') {
+        return;
+    }
+    
     // First, verify the item exists in inventory and find its actual index
     let actualIndex = -1;
     if (slotIndex >= 0 && slotIndex < playerData.inventory.length) {
@@ -4225,6 +4215,19 @@ class DroppedEvidence extends MyGameObject
     
     Pickup()
     {
+        // Coins cannot be picked up from dropped items - they go directly to coin count
+        if (this.item.type === 'coin') {
+            // Add to coin count instead of inventory
+            if (playerData) {
+                let coinAmount = this.item.quantity || 1;
+                playerData.coins += coinAmount;
+                SaveGameState();
+                PlaySound(10); // Use coin pickup sound
+                this.Destroy();
+            }
+            return;
+        }
+        
         // Add back to inventory if there's space
         if (playerData && playerData.inventory.length < 16) {
             playerData.inventory.push(this.item);

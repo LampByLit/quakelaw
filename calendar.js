@@ -563,7 +563,7 @@ function ShowSuccessNotification(text)
 {
     successNotificationVisible = true;
     successNotificationText = text;
-    successNotificationTimer.Set(2.5); // Show for 2.5 seconds
+    successNotificationTimer.Set(2.0); // Show for 2 seconds
 }
 
 function UpdateSuccessNotification()
@@ -571,6 +571,7 @@ function UpdateSuccessNotification()
     if (successNotificationVisible && successNotificationTimer.Elapsed())
     {
         successNotificationVisible = false;
+        successNotificationText = '';
         successNotificationTimer.UnSet();
     }
 }
@@ -580,12 +581,37 @@ function RenderSuccessNotification()
     if (!successNotificationVisible)
         return;
     
-    // Simple text at top of screen, no background or border
-    let textX = mainCanvasSize.x / 2;
-    let textY = 40; // Top of screen
+    // Calculate fade effect (fade out in last 0.3 seconds)
+    let timeRemaining = successNotificationTimer.Get();
+    let fadeAlpha = 1.0;
+    if (timeRemaining < 0.3)
+    {
+        fadeAlpha = Math.max(0, timeRemaining / 0.3);
+    }
     
-    // Draw text only (no background, no border)
-    DrawText(successNotificationText, textX, textY, 14, 'center', 1, '#4aff4a', '#000');
+    // Pop-up at top center of screen
+    let textX = mainCanvasSize.x / 2;
+    let textY = 50; // Top of screen
+    let padding = 15;
+    let fontSize = 16;
+    
+    // Measure text width (approximate)
+    let textWidth = successNotificationText.length * 8; // Rough estimate
+    let boxWidth = textWidth + padding * 2;
+    let boxHeight = fontSize + padding * 2;
+    
+    // Draw semi-transparent background
+    mainCanvasContext.fillStyle = `rgba(0, 0, 0, ${0.7 * fadeAlpha})`;
+    mainCanvasContext.fillRect(textX - boxWidth/2, textY - boxHeight/2, boxWidth, boxHeight);
+    
+    // Draw border
+    mainCanvasContext.strokeStyle = `rgba(74, 255, 74, ${fadeAlpha})`;
+    mainCanvasContext.lineWidth = 2;
+    mainCanvasContext.strokeRect(textX - boxWidth/2, textY - boxHeight/2, boxWidth, boxHeight);
+    
+    // Draw text with fade
+    let textColor = `rgba(74, 255, 74, ${fadeAlpha})`;
+    DrawText(successNotificationText, textX, textY, fontSize, 'center', 1, textColor, '#000');
 }
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -604,8 +630,6 @@ function UpdateCalendar()
         calendarSelectedDate = null;
         return;
     }
-    
-    UpdateSuccessNotification();
 }
 
 // Render calendar modal (called from game.js PostRender())

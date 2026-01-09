@@ -739,8 +739,8 @@ function Update()
     }
     
     // Check for map button hover and click
-    // Don't allow map to toggle if dialogue modal is open
-    if (!(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()))
+    // Don't allow map to toggle if dialogue modal or judgment modal is open
+    if (!(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()) && !(typeof IsJudgmentModalOpen !== 'undefined' && IsJudgmentModalOpen()))
     {
         let mapButtonX = 40;
         let mapButtonY = 210;
@@ -759,13 +759,13 @@ function Update()
     }
     else
     {
-        // Reset hover state when dialogue is open
+        // Reset hover state when dialogue or judgment modal is open
         mapButtonHover = false;
     }
     
     // Check for inventory key press (I key = 73)
-    // Don't open inventory if dialogue modal is open
-    if (KeyWasPressed(73) && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()))
+    // Don't open inventory if dialogue modal or judgment modal is open
+    if (KeyWasPressed(73) && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()) && !(typeof IsJudgmentModalOpen !== 'undefined' && IsJudgmentModalOpen()))
     {
         if (inventoryOpen) {
             inventoryDropMode = false; // Reset drop mode when closing
@@ -774,8 +774,8 @@ function Update()
     }
     
     // Check for calendar key press (C key = 67)
-    // Don't open calendar if dialogue modal is open
-    if (KeyWasPressed(67) && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()))
+    // Don't open calendar if dialogue modal or judgment modal is open
+    if (KeyWasPressed(67) && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()) && !(typeof IsJudgmentModalOpen !== 'undefined' && IsJudgmentModalOpen()))
     {
         if (calendarOpen) {
             calendarSelectedDate = null; // Reset selected date when closing
@@ -791,15 +791,15 @@ function Update()
     }
     
     // Check for town map key press (M key = 77)
-    // Don't toggle map if dialogue modal is open
-    if (KeyWasPressed(77) && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()))
+    // Don't toggle map if dialogue modal or judgment modal is open
+    if (KeyWasPressed(77) && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()) && !(typeof IsJudgmentModalOpen !== 'undefined' && IsJudgmentModalOpen()))
     {
         townMapVisible = !townMapVisible;
     }
     
     // Close inventory with Escape key
-    // Don't close inventory if dialogue modal, evidence naming modal, or evidence view modal is open (ESC closes those instead)
-    if (inventoryOpen && KeyWasPressed(27) && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()) && !evidenceNamingModalOpen && !evidenceViewModalOpen)
+    // Don't close inventory if dialogue modal, judgment modal, evidence naming modal, or evidence view modal is open (ESC closes those instead)
+    if (inventoryOpen && KeyWasPressed(27) && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()) && !(typeof IsJudgmentModalOpen !== 'undefined' && IsJudgmentModalOpen()) && !evidenceNamingModalOpen && !evidenceViewModalOpen)
     {
         inventoryOpen = false;
         inventoryDropMode = false; // Reset drop mode when closing
@@ -1344,6 +1344,15 @@ class Player extends MyGameObject
         
         // Don't process input if dialogue modal is open
         if (typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen())
+        {
+            this.nearBed = 0;
+            this.nearNPC = null;
+            super.Update();
+            return;
+        }
+        
+        // Don't process input if judgment modal is open
+        if (typeof IsJudgmentModalOpen !== 'undefined' && IsJudgmentModalOpen())
         {
             this.nearBed = 0;
             this.nearNPC = null;

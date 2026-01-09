@@ -806,6 +806,11 @@ function IsDialogueModalOpen() {
     return dialogueModalOpen;
 }
 
+// Check if judgment modal is open
+function IsJudgmentModalOpen() {
+    return judgmentModalOpen;
+}
+
 ///////////////////////////////////////////////////////////////////////////////
 // Friday Judgment Modal
 

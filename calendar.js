@@ -563,7 +563,7 @@ function ShowSuccessNotification(text)
 {
     successNotificationVisible = true;
     successNotificationText = text;
-    successNotificationTimer.Set(10.0); // Show for 10 seconds
+    successNotificationTimer.Set(2.5); // Show for 2.5 seconds
 }
 
 function UpdateSuccessNotification()

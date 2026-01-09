@@ -322,7 +322,7 @@ async function DistributeEvidenceToWitnesses(witnesses, evidence, individuals) {
     // Shuffle available NPCs for random assignment
     const shuffledNPCs = [...availableNPCs];
     for (let i = shuffledNPCs.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
+        const j = RandInt(i + 1);
         [shuffledNPCs[i], shuffledNPCs[j]] = [shuffledNPCs[j], shuffledNPCs[i]];
     }
     
@@ -384,6 +384,10 @@ async function DistributeEvidenceToWitnesses(witnesses, evidence, individuals) {
         // Replace found names with random NPCs
         for (const name of foundNames) {
             if (!otherNameMapping[name]) {
+                if (shuffledNPCs.length === 0) {
+                    // No available NPCs - skip replacement (shouldn't happen with 25 NPCs)
+                    continue;
+                }
                 if (npcIndex >= shuffledNPCs.length) {
                     // If we run out of NPCs, cycle back (shouldn't happen with 25 NPCs)
                     npcIndex = 0;

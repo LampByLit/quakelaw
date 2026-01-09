@@ -1333,7 +1333,7 @@ function RenderDateDetailsView(modalX, modalY, modalWidth, modalHeight)
             }
             else if (event.taskId === 'fridayJudgement')
             {
-                eventName = 'Friday Judgement';
+                eventName = 'Friday Judgment';
             }
             DrawText(eventName, textX, textY - 10, 12, 'left', 1, '#FFF', '#000');
             

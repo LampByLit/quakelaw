@@ -425,13 +425,21 @@ async function ProcessMissedFridayJudgment(event)
                     ClearActiveCase();
                 }
                 
-                // Event status will be set to 'missed' by ProcessMissedEvents
+                // Remove the event after processing
+                RemoveEvent(event.id);
             }
         }
         catch (error)
         {
             console.error('Error processing missed Friday Judgment:', error);
+            // Remove event even if processing failed
+            RemoveEvent(event.id);
         }
+    }
+    else
+    {
+        // No active case, just remove the event
+        RemoveEvent(event.id);
     }
 }
 
@@ -1128,10 +1136,10 @@ function RenderMonthView(modalX, modalY, modalWidth, modalHeight)
                            calendarViewMonth === gameTime.month &&
                            day === gameTime.dayOfMonth;
         
-        // Check if date has events
+        // Check if date has events (missed events are removed, so we don't check for them)
         let hasEvents = DateHasEvents(calendarViewYear, calendarViewMonth, day);
         let hasPendingEvents = DateHasPendingEvents(calendarViewYear, calendarViewMonth, day);
-        let hasMissedEvents = DateHasMissedEvents(calendarViewYear, calendarViewMonth, day);
+        let hasMissedEvents = false; // Missed events are removed immediately
         
         // Check if mouse is over this cell
         let cellHover = (mousePos.x >= cellX && mousePos.x <= cellX + cellWidth &&

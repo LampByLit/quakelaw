@@ -123,14 +123,10 @@ function DateHasPendingEvents(year, month, day)
 }
 
 // Check if date has missed events (for red highlighting)
+// NOTE: Missed events are now removed immediately, so this always returns false
 function DateHasMissedEvents(year, month, day)
 {
-    return calendarEvents.some(e => 
-        e.year === year && 
-        e.month === month && 
-        e.day === day &&
-        e.status === 'missed'
-    );
+    return false; // Missed events are removed immediately, not displayed
 }
 
 // Remove event by ID
@@ -338,37 +334,20 @@ function ProcessMissedEvents(currentGameTime)
         ProcessMissedFridayJudgment(missedJudgmentEvent);
     }
     
+    // Remove missed events immediately instead of marking them as missed
     for (let event of endedDayEvents)
     {
-        event.status = 'missed';
-    }
-    
-    // Remove missed events from the day before the day that just ended (missed events are removed after 1 day)
-    let dayToRemove = endedDay - 1;
-    let dayToRemoveMonth = endedMonth;
-    let dayToRemoveYear = endedYear;
-    
-    if (dayToRemove < 1)
-    {
-        dayToRemoveMonth--;
-        dayToRemove = 28; // All months have 28 days
-        if (dayToRemoveMonth < 1)
+        // Skip Friday Judgment events - they need special processing
+        if (event.taskId !== 'fridayJudgement')
         {
-            dayToRemoveMonth = 12;
-            dayToRemoveYear--;
+            RemoveEvent(event.id);
         }
-    }
-    
-    let oldMissedEvents = calendarEvents.filter(e => 
-        e.status === 'missed' &&
-        e.year === dayToRemoveYear &&
-        e.month === dayToRemoveMonth &&
-        e.day === dayToRemove
-    );
-    
-    for (let event of oldMissedEvents)
-    {
-        RemoveEvent(event.id);
+        else
+        {
+            // Friday Judgment events are handled by ProcessMissedFridayJudgment
+            // They will be removed after processing
+            event.status = 'missed';
+        }
     }
 }
 
@@ -1158,11 +1137,9 @@ function RenderMonthView(modalX, modalY, modalWidth, modalHeight)
         let cellHover = (mousePos.x >= cellX && mousePos.x <= cellX + cellWidth &&
                         mousePos.y >= cellY && mousePos.y <= cellY + cellHeight);
         
-        // Determine cell color
+        // Determine cell color (missed events are removed, so no red highlighting)
         let cellColor = '#222';
-        if (hasMissedEvents)
-            cellColor = '#422'; // Red for missed events
-        else if (hasPendingEvents)
+        if (hasPendingEvents)
             cellColor = '#242'; // Green for pending events
         else if (hasEvents)
             cellColor = '#442'; // Yellow for completed events
@@ -1190,7 +1167,7 @@ function RenderMonthView(modalX, modalY, modalWidth, modalHeight)
             let dotSize = 6;
             let dotX = cellX + cellWidth/2;
             let dotY = cellY + cellHeight - 12;
-            mainCanvasContext.fillStyle = hasMissedEvents ? '#F44' : (hasPendingEvents ? '#4F4' : '#FF4');
+            mainCanvasContext.fillStyle = hasPendingEvents ? '#4F4' : '#FF4'; // Green for pending, yellow for completed
             mainCanvasContext.beginPath();
             mainCanvasContext.arc(dotX, dotY, dotSize, 0, Math.PI * 2);
             mainCanvasContext.fill();
@@ -1281,11 +1258,9 @@ function RenderDateDetailsView(modalX, modalY, modalWidth, modalHeight)
             let event = events[i];
             let itemY = listStartY + i * (listItemHeight + listItemSpacing);
             
-            // Event background
+            // Event background (missed events are filtered out, so we don't need to handle them)
             let eventColor = '#222';
-            if (event.status === 'missed')
-                eventColor = '#422';
-            else if (event.status === 'pending')
+            if (event.status === 'pending')
                 eventColor = '#242';
             else if (event.status === 'completed')
                 eventColor = '#442';
@@ -1334,11 +1309,9 @@ function RenderDateDetailsView(modalX, modalY, modalWidth, modalHeight)
             DrawText(homeText, textX, textY + 5, 10, 'left', 1, '#AAA', '#000');
             DrawText(workText, textX, textY + 18, 10, 'left', 1, '#AAA', '#000');
             
-            // Status indicator
+            // Status indicator (missed events are filtered out)
             let statusText = '';
-            if (event.status === 'missed')
-                statusText = 'MISSED';
-            else if (event.status === 'pending')
+            if (event.status === 'pending')
                 statusText = 'PENDING';
             else if (event.status === 'completed')
                 statusText = 'COMPLETED';

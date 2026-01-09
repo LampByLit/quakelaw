@@ -54,6 +54,12 @@ async function OpenDialogueModal(npc) {
     // Check if this is the judge on Friday - trigger Friday Judgment
     if (npc.isJudge && typeof gameTime !== 'undefined' && gameTime.dayOfWeek === 5)
     {
+        // Prevent re-triggering if judgment is already processing
+        if (judgmentProcessing) {
+            console.log('[JUDGMENT] Judgment already processing, ignoring judge interaction');
+            return;
+        }
+        
         // Check if there's a Friday Judgment event today
         if (typeof GetEventsForDate !== 'undefined')
         {
@@ -61,15 +67,18 @@ async function OpenDialogueModal(npc) {
             let events = GetEventsForDate(currentYear, gameTime.month, gameTime.dayOfMonth);
             let judgmentEvent = events.find(e => e.taskId === 'fridayJudgement' && e.status === 'pending');
             
+            console.log(`[JUDGMENT] Checking for Friday Judgment event. Found: ${judgmentEvent ? 'YES' : 'NO'}, Status: ${judgmentEvent ? judgmentEvent.status : 'N/A'}, Processing: ${judgmentProcessing}`);
+            
             if (judgmentEvent && typeof GetActiveCase !== 'undefined' && typeof ProcessFridayJudgment !== 'undefined')
             {
                 const activeCase = GetActiveCase();
                 if (activeCase) {
+                    console.log('[JUDGMENT] Opening judgment statement modal');
                     // Show judgment statement modal
                     ShowJudgmentStatementModal(activeCase, judgmentEvent, npc);
                     return; // Don't open normal dialogue modal
                 } else {
-                    console.warn('Friday Judgment event found but no active case');
+                    console.warn('[JUDGMENT] Friday Judgment event found but no active case');
                 }
             }
         }
@@ -790,6 +799,7 @@ function IsDialogueModalOpen() {
 let judgmentModalOpen = false;
 let currentJudgmentEvent = null;
 let currentJudgmentNPC = null;
+let judgmentProcessing = false; // Flag to prevent re-triggering while processing
 
 // Show judgment statement modal
 function ShowJudgmentStatementModal(activeCase, event, npc) {
@@ -902,7 +912,16 @@ function CloseJudgmentModal() {
 
 // Submit judgment statement
 async function SubmitJudgmentStatement() {
-    if (!judgmentModalOpen || !currentJudgmentEvent) return;
+    if (!judgmentModalOpen || !currentJudgmentEvent) {
+        console.log('[JUDGMENT] SubmitJudgmentStatement called but modal not open or no event');
+        return;
+    }
+    
+    // Prevent double submission
+    if (judgmentProcessing) {
+        console.log('[JUDGMENT] Already processing, ignoring submit');
+        return;
+    }
     
     const statementInput = document.getElementById('judgmentStatement');
     const submitBtn = document.getElementById('submitJudgment');
@@ -918,9 +937,25 @@ async function SubmitJudgmentStatement() {
         return;
     }
     
+    console.log(`[JUDGMENT] Submitting statement (${words.length} words). Player location: ${typeof currentInterior !== 'undefined' && currentInterior ? 'INTERIOR' : 'EXTERIOR'}`);
+    
     // Store references before closing modal
     const judgmentEvent = currentJudgmentEvent;
     const judgmentNPC = currentJudgmentNPC;
+    
+    // CRITICAL FIX: Mark event as completed IMMEDIATELY to prevent re-triggering
+    if (judgmentEvent) {
+        console.log(`[JUDGMENT] Marking event ${judgmentEvent.id} as completed immediately`);
+        judgmentEvent.status = 'completed';
+        if (typeof RemoveEvent !== 'undefined') {
+            RemoveEvent(judgmentEvent.id);
+            console.log(`[JUDGMENT] Event ${judgmentEvent.id} removed from calendar`);
+        }
+    }
+    
+    // Set processing flag
+    judgmentProcessing = true;
+    console.log('[JUDGMENT] Set judgmentProcessing = true');
     
     // Disable input
     if (statementInput) statementInput.disabled = true;
@@ -932,23 +967,19 @@ async function SubmitJudgmentStatement() {
     // Process judgment
     if (typeof ProcessFridayJudgment !== 'undefined') {
         try {
+            console.log('[JUDGMENT] Starting ProcessFridayJudgment');
             const result = await ProcessFridayJudgment(statement, false);
             
             if (result) {
+                console.log(`[JUDGMENT] Judgment complete. Player wins: ${result.playerWins}, Coins: ${result.coinsAwarded}, Punishments: ${result.punishments ? result.punishments.length : 0}`);
+                
                 // Show results in dialogue modal
                 await ShowJudgmentResults(result, judgmentNPC);
-                
-                // Complete event
-                if (judgmentEvent) {
-                    judgmentEvent.status = 'completed';
-                    if (typeof RemoveEvent !== 'undefined') {
-                        RemoveEvent(judgmentEvent.id);
-                    }
-                }
                 
                 // Clear active case
                 if (typeof ClearActiveCase !== 'undefined') {
                     ClearActiveCase();
+                    console.log('[JUDGMENT] Active case cleared');
                 }
                 
                 // Show success notification
@@ -956,18 +987,97 @@ async function SubmitJudgmentStatement() {
                     ShowSuccessNotification(result.playerWins ? 'Case won! +$20' : 'Case lost');
                 }
             } else {
+                console.error('[JUDGMENT] ProcessFridayJudgment returned null');
                 alert('Error processing judgment. Please try again.');
             }
         } catch (error) {
-            console.error('Error processing judgment:', error);
+            console.error('[JUDGMENT] Error processing judgment:', error);
             alert('Error processing judgment. Please try again.');
+        } finally {
+            // Always clear processing flag
+            judgmentProcessing = false;
+            console.log('[JUDGMENT] Set judgmentProcessing = false');
+        }
+    } else {
+        judgmentProcessing = false;
+        console.log('[JUDGMENT] ProcessFridayJudgment function not available');
+    }
+}
+
+// Find judge NPC (even if player is outside courthouse)
+function FindJudgeNPC() {
+    // First try: if player is in interior and judge exists there
+    if (typeof currentInterior !== 'undefined' && currentInterior && currentInterior.judge) {
+        console.log('[JUDGMENT] Found judge in current interior');
+        return currentInterior.judge;
+    }
+    
+    // Second try: find courthouse building and get judge from its interior
+    if (typeof gameObjects !== 'undefined') {
+        for (let obj of gameObjects) {
+            if (obj.isBuilding && obj.buildingType === 'court' && obj.interior && obj.interior.judge) {
+                console.log('[JUDGMENT] Found judge in courthouse building interior');
+                return obj.interior.judge;
+            }
         }
     }
+    
+    console.warn('[JUDGMENT] Could not find judge NPC');
+    return null;
 }
 
 // Show judgment results in dialogue modal
 async function ShowJudgmentResults(result, npc) {
-    if (!npc) return;
+    console.log(`[JUDGMENT] ShowJudgmentResults called. NPC provided: ${npc ? 'YES' : 'NO'}, Player location: ${typeof currentInterior !== 'undefined' && currentInterior ? 'INTERIOR' : 'EXTERIOR'}`);
+    
+    // If no NPC provided or NPC is not accessible, try to find judge
+    if (!npc || (typeof currentInterior !== 'undefined' && !currentInterior)) {
+        npc = FindJudgeNPC();
+        if (!npc) {
+            console.error('[JUDGMENT] Cannot show results - judge not found');
+            // Show results in alert as fallback
+            let message = result.ruling + '\n\n--- JUDGMENT RESULTS ---\n';
+            message += result.playerWins ? 'VERDICT: You WON the case!\n' : 'VERDICT: You LOST the case.\n';
+            if (result.coinsAwarded > 0) {
+                message += `REWARD: $${result.coinsAwarded} coins\n`;
+            }
+            if (result.punishments && result.punishments.length > 0) {
+                message += '\nPUNISHMENTS:\n';
+                for (const p of result.punishments) {
+                    if (p.punishmentType === 'corporeal') {
+                        message += `- ${p.witnessSurname}: Corporeal punishment\n`;
+                    } else if (p.punishmentType === 'banishment') {
+                        message += `- ${p.witnessSurname}: Permanently banished\n`;
+                    }
+                }
+            }
+            alert(message);
+            return;
+        }
+    }
+    
+    // If player is outside, enter courthouse first
+    if (typeof currentInterior === 'undefined' || !currentInterior) {
+        console.log('[JUDGMENT] Player is outside, attempting to enter courthouse');
+        // Find courthouse building
+        if (typeof gameObjects !== 'undefined') {
+            for (let obj of gameObjects) {
+                if (obj.isBuilding && obj.buildingType === 'court') {
+                    console.log('[JUDGMENT] Found courthouse, entering interior');
+                    if (typeof EnterInterior !== 'undefined') {
+                        EnterInterior(obj);
+                        // Wait a moment for interior to load
+                        await new Promise(resolve => setTimeout(resolve, 100));
+                        // Get judge from interior
+                        if (currentInterior && currentInterior.judge) {
+                            npc = currentInterior.judge;
+                        }
+                    }
+                    break;
+                }
+            }
+        }
+    }
     
     // Open dialogue modal
     await OpenDialogueModal(npc);

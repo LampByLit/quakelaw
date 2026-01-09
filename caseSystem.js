@@ -291,9 +291,111 @@ function AssignNPCsToRolesFallback(individuals) {
 // Evidence Distribution
 
 // Distribute evidence to witness NPCs
-async function DistributeEvidenceToWitnesses(witnesses, evidence) {
+async function DistributeEvidenceToWitnesses(witnesses, evidence, individuals) {
     if (!witnesses || witnesses.length === 0 || !evidence || evidence.length === 0) {
         return;
+    }
+    
+    // Build name mapping: original individual names -> assigned NPC surnames
+    const nameMapping = {};
+    if (individuals && individuals.length > 0) {
+        individuals.forEach((individual, index) => {
+            if (witnesses[index] && witnesses[index].npc && witnesses[index].npc.surname) {
+                nameMapping[individual.name] = witnesses[index].npc.surname;
+            }
+        });
+    }
+    
+    // Get available NPCs for replacing other names (exclude witness NPCs and banished NPCs)
+    const witnessSurnames = new Set(witnesses.map(w => w.npc.surname));
+    const availableNPCs = [];
+    if (typeof allNPCs !== 'undefined' && Array.isArray(allNPCs)) {
+        for (const npc of allNPCs) {
+            if (npc && npc.surname && 
+                !witnessSurnames.has(npc.surname) && 
+                !IsNPCBanished(npc.surname)) {
+                availableNPCs.push(npc.surname);
+            }
+        }
+    }
+    
+    // Shuffle available NPCs for random assignment
+    const shuffledNPCs = [...availableNPCs];
+    for (let i = shuffledNPCs.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffledNPCs[i], shuffledNPCs[j]] = [shuffledNPCs[j], shuffledNPCs[i]];
+    }
+    
+    // Track replacements for other names (so same name always maps to same NPC)
+    const otherNameMapping = {};
+    let npcIndex = 0;
+    
+    // Common words to exclude (not person names)
+    const excludeWords = new Set(['The', 'A', 'An', 'This', 'That', 'These', 'Those', 
+        'He', 'She', 'It', 'They', 'We', 'You', 'I', 'Mr', 'Mrs', 'Ms', 'Dr', 
+        'Judge', 'Court', 'State', 'People', 'Appellant', 'Defendant', 'Plaintiff', 
+        'Witness', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 
+        'August', 'September', 'October', 'November', 'December', 'Monday', 'Tuesday', 
+        'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'Penal', 'Code', 
+        'Section', 'California', 'Michigan', 'Sacramento', 'Detroit', 'Pasadena']);
+    
+    // Function to transform evidence text by replacing all names
+    function transformEvidenceText(text) {
+        if (!text || typeof text !== 'string') {
+            return text;
+        }
+        
+        let transformed = text;
+        
+        // First, replace known individual names with their NPC surnames
+        for (const [originalName, npcName] of Object.entries(nameMapping)) {
+            // Use word boundaries to avoid partial matches
+            const regex = new RegExp(`\\b${originalName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'gi');
+            transformed = transformed.replace(regex, npcName);
+        }
+        
+        // Then, find and replace other person names (capitalized word sequences that look like names)
+        // Pattern: Two or more capitalized words in sequence (e.g., "First Last", "First Middle Last")
+        const namePattern = /\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+)+)\b/g;
+        const matches = Array.from(transformed.matchAll(namePattern));
+        const foundNames = new Set();
+        
+        for (const match of matches) {
+            const potentialName = match[1];
+            // Skip if already replaced, or if it contains excluded words
+            const words = potentialName.split(/\s+/);
+            const hasExcludedWord = words.some(word => excludeWords.has(word));
+            
+            if (!nameMapping[potentialName] && !hasExcludedWord) {
+                foundNames.add(potentialName);
+            }
+        }
+        
+        // Also check for single capitalized words that appear before common verbs (likely names)
+        const singleNamePattern = /\b([A-Z][a-z]{2,})\b(?=\s+(?:testified|said|stated|told|claimed|reported|witnessed|observed|noted|explained|described|indicated|mentioned|recalled|remembered|admitted|denied|confessed|declared|asserted|affirmed|alleged|contended|maintained|insisted|argued|suggested|proposed|recommended|requested|demanded|ordered|instructed|directed|commanded|required|asked|questioned|inquired|wondered|thought|believed|felt|knew|understood|realized|recognized|identified|discovered|found|learned|heard|saw|witnessed|observed|noticed|detected|perceived|sensed|experienced|encountered|met|visited|contacted|called|phoned|emailed|wrote|sent|received|gave|took|brought|carried|moved|left|arrived|departed|entered|exited|opened|closed|locked|unlocked|started|stopped|began|ended|continued|paused|waited|stayed|remained))/gi;
+        const singleMatches = Array.from(transformed.matchAll(singleNamePattern));
+        for (const match of singleMatches) {
+            const potentialName = match[1];
+            if (!nameMapping[potentialName] && !excludeWords.has(potentialName)) {
+                foundNames.add(potentialName);
+            }
+        }
+        
+        // Replace found names with random NPCs
+        for (const name of foundNames) {
+            if (!otherNameMapping[name]) {
+                if (npcIndex >= shuffledNPCs.length) {
+                    // If we run out of NPCs, cycle back (shouldn't happen with 25 NPCs)
+                    npcIndex = 0;
+                }
+                otherNameMapping[name] = shuffledNPCs[npcIndex];
+                npcIndex++;
+            }
+            const regex = new RegExp(`\\b${name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'g');
+            transformed = transformed.replace(regex, otherNameMapping[name]);
+        }
+        
+        return transformed;
     }
     
     // Distribute evidence equally among all witnesses
@@ -310,6 +412,9 @@ async function DistributeEvidenceToWitnesses(witnesses, evidence) {
         for (const fact of witnessEvidence) {
             try {
                 const factText = typeof fact === 'string' ? fact : fact.content || JSON.stringify(fact);
+                // Transform the evidence text to replace all names
+                const transformedText = transformEvidenceText(factText);
+                
                 const response = await fetch(`/api/npc/gossip/add-fact/${encodeURIComponent(witness.npc.surname)}`, {
                     method: 'POST',
                     headers: {
@@ -319,7 +424,7 @@ async function DistributeEvidenceToWitnesses(witnesses, evidence) {
                         sessionId: sessionId,
                         fact: {
                             id: `case_evidence_${Date.now()}_${Math.random()}`,
-                            content: factText,
+                            content: transformedText,
                             source: 'case',
                             learnedFrom: 'case',
                             timestamp: Date.now(),
@@ -428,7 +533,7 @@ async function InitializeNewCase() {
     ScheduleWitnessEvents(witnesses);
     
     // 7. Distribute evidence to witnesses
-    await DistributeEvidenceToWitnesses(witnesses, evidence);
+    await DistributeEvidenceToWitnesses(witnesses, evidence, individuals);
     
     // 8. Generate case summary
     const caseSummary = await GenerateCaseSummary(caseData, individuals, witnesses);
@@ -741,7 +846,7 @@ async function ExecutePunishments(punishments) {
                 if (!response.ok) {
                     console.warn(`Failed to add punishment fact to ${witnessSurname}`);
                 } else {
-                    console.log(`Applied corporeal punishment to ${witnessSurname}`);
+                    console.log(`[JUDGMENT] Applied corporeal punishment to ${witnessSurname}`);
                 }
             } catch (error) {
                 console.error(`Error applying corporeal punishment to ${witnessSurname}:`, error);
@@ -820,12 +925,16 @@ function CollectEvidenceFromInventory() {
 
 // Process Friday Judgment (called when player submits statement or event is missed)
 async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
+    console.log(`[JUDGMENT] ProcessFridayJudgment called. Statement length: ${playerStatement ? playerStatement.length : 0}, Missed: ${isMissedEvent}`);
+    
     const activeCase = GetActiveCase();
     
     if (!activeCase) {
-        console.error('No active case for Friday Judgment');
+        console.error('[JUDGMENT] No active case for Friday Judgment');
         return null;
     }
+    
+    console.log(`[JUDGMENT] Active case found. Summary: ${activeCase.caseSummary ? activeCase.caseSummary.substring(0, 50) + '...' : 'N/A'}`);
     
     try {
         // Show loading notification
@@ -833,16 +942,20 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
             ShowLoadingNotification('Judge is thinking...');
         }
         
+        console.log('[JUDGMENT] Step 1: Getting NPCs with facts for prosecution');
+        
         const sessionId = getSessionId();
         
         // 1. Get 10 random NPCs with facts for prosecution
         const npcsWithFacts = await GetRandomNPCsWithFacts(10);
         const npcSurnames = npcsWithFacts.map(n => n.surname);
+        console.log(`[JUDGMENT] Step 1 complete. Found ${npcsWithFacts.length} NPCs with facts`);
         
         // 2. Generate prosecution
         let prosecution = '';
         if (npcsWithFacts.length > 0) {
             try {
+                console.log('[JUDGMENT] Step 2: Generating prosecution');
                 const prosecutionResponse = await fetch(`/api/cases/prosecution?sessionId=${encodeURIComponent(sessionId)}`, {
                     method: 'POST',
                     headers: {
@@ -858,25 +971,33 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
                 if (prosecutionResponse.ok) {
                     const prosecutionData = await prosecutionResponse.json();
                     prosecution = prosecutionData.prosecution || '';
+                    console.log(`[JUDGMENT] Step 2 complete. Prosecution length: ${prosecution.length}`);
                 }
             } catch (error) {
-                console.error('Error generating prosecution:', error);
+                console.error('[JUDGMENT] Error generating prosecution:', error);
             }
         }
         
         // 3. Collect evidence from inventory
+        console.log('[JUDGMENT] Step 3: Collecting evidence from inventory');
         const evidence = CollectEvidenceFromInventory();
+        console.log(`[JUDGMENT] Step 3 complete. Evidence items: ${evidence ? evidence.length : 0}`);
         
         // 4. Get judge persona
+        console.log('[JUDGMENT] Step 4: Getting judge persona');
         const judgePersona = GetJudgePersona();
+        console.log(`[JUDGMENT] Step 4 complete. Judge: ${judgePersona ? judgePersona.name : 'N/A'}`);
         
         // 5. Get witnesses list
+        console.log('[JUDGMENT] Step 5: Getting witnesses list');
         const witnesses = activeCase.witnesses.map(w => ({
             surname: w.npc.surname,
             role: w.role
         }));
+        console.log(`[JUDGMENT] Step 5 complete. Witnesses: ${witnesses.length}`);
         
         // 6. Judge makes decision
+        console.log('[JUDGMENT] Step 6: Sending judgment request to server');
         const judgmentResponse = await fetch('/api/cases/judgment', {
             method: 'POST',
             headers: {
@@ -899,18 +1020,27 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
         
         const judgmentData = await judgmentResponse.json();
         const { playerWins, punishments, ruling } = judgmentData;
+        console.log(`[JUDGMENT] Step 6 complete. Player wins: ${playerWins}, Punishments: ${punishments ? punishments.length : 0}`);
         
         // 7. Execute punishments
         if (punishments && punishments.length > 0) {
+            console.log(`[JUDGMENT] Step 7: Executing ${punishments.length} punishments`);
             await ExecutePunishments(punishments);
+            console.log('[JUDGMENT] Step 7 complete');
+        } else {
+            console.log('[JUDGMENT] Step 7: No punishments to execute');
         }
         
         // 8. Add coins if player won
         if (playerWins && typeof playerData !== 'undefined') {
-            playerData.coins = (playerData.coins || 0) + 20;
+            const oldCoins = playerData.coins || 0;
+            playerData.coins = oldCoins + 20;
+            console.log(`[JUDGMENT] Step 8: Added $20 coins. Old: $${oldCoins}, New: $${playerData.coins}`);
             if (typeof SaveGameState === 'function') {
                 SaveGameState();
             }
+        } else {
+            console.log(`[JUDGMENT] Step 8: Player ${playerWins ? 'won but coins not added' : 'lost'}`);
         }
         
         // Hide loading notification
@@ -918,15 +1048,18 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
             HideLoadingNotification();
         }
         
-        return {
+        const result = {
             playerWins: playerWins,
             punishments: punishments || [],
             ruling: ruling || 'The judge has made a decision.',
             coinsAwarded: playerWins ? 20 : 0
         };
         
+        console.log('[JUDGMENT] ProcessFridayJudgment complete. Returning result');
+        return result;
+        
     } catch (error) {
-        console.error('Error processing Friday Judgment:', error);
+        console.error('[JUDGMENT] Error processing Friday Judgment:', error);
         
         // Hide loading notification
         if (typeof HideLoadingNotification !== 'undefined') {

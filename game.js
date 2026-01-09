@@ -3456,6 +3456,12 @@ function ExitInterior()
     if (!currentInterior)
         return;
     
+    // Prevent exit while judgment is processing
+    if (typeof judgmentProcessing !== 'undefined' && judgmentProcessing) {
+        console.log('[JUDGMENT] Blocked interior exit - judgment processing');
+        return;
+    }
+    
     // Don't allow exit immediately after entering (cooldown period)
     if (!interiorExitCooldown.Elapsed())
         return;

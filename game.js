@@ -56,6 +56,10 @@ let evidenceNamingDefaultName = '';
 let evidenceNamingLastKey = null;
 let evidenceViewModalOpen = false;
 let evidenceViewItem = null;
+let evidenceViewScrollOffset = 0;
+let inventoryDragItem = null;
+let inventoryDragSlotIndex = -1;
+let inventoryDragStartPos = null;
 
 class GameTime
 {
@@ -3532,28 +3536,93 @@ function RenderInventoryModal()
                         DrawText(tooltipText, tooltipX + tooltipWidth/2, tooltipY, 10, 'center', 1, '#FFF', '#000');
                     }
                     
-                    // Handle item click
-                    if (slotHover && MouseWasPressed())
+                    // Handle drag start (mouse down on item)
+                    if (slotHover && mouseIsDown && !inventoryDragItem)
+                    {
+                        inventoryDragItem = item;
+                        inventoryDragSlotIndex = slotIndex;
+                        inventoryDragStartPos = new Vector2(mousePos.x, mousePos.y);
+                    }
+                    
+                    // Handle item click - only open evidence modal, don't drop on click
+                    if (slotHover && MouseWasPressed() && !inventoryDragItem)
                     {
                         if (isEvidence)
                         {
                             // Open evidence viewing modal
                             OpenEvidenceViewModal(item, slotIndex);
                         }
-                        else
-                        {
-                            // Drop non-evidence items immediately
-                            playerData.inventory.splice(slotIndex, 1);
-                            SaveGameState();
-                        }
+                        // Non-evidence items: clicking does nothing (can be extended later for item details)
                     }
                 }
             }
         }
     }
     
+    // Handle drag and drop
+    if (inventoryDragItem)
+    {
+        // Check if mouse moved far enough to start dragging
+        if (inventoryDragStartPos)
+        {
+            let dragDistance = mousePos.Distance(inventoryDragStartPos);
+            if (dragDistance > 5) // 5 pixel threshold to start drag
+            {
+                // Draw dragged item at cursor position
+                let dragSpriteSize = slotSize;
+                let dragX = mousePos.x - dragSpriteSize/2;
+                let dragY = mousePos.y - dragSpriteSize/2;
+                
+                // Draw with transparency
+                mainCanvasContext.globalAlpha = 0.7;
+                if (tileImage && tileImage.complete)
+                {
+                    mainCanvasContext.drawImage(
+                        tileImage,
+                        inventoryDragItem.tileX * tileSize, inventoryDragItem.tileY * tileSize,
+                        tileSize, tileSize,
+                        dragX, dragY,
+                        dragSpriteSize, dragSpriteSize
+                    );
+                }
+                mainCanvasContext.globalAlpha = 1.0;
+            }
+        }
+        
+        // Check if mouse released
+        if (!mouseIsDown)
+        {
+            // Check if released outside inventory bounds
+            let inventoryBounds = {
+                left: modalX - modalWidth/2,
+                right: modalX + modalWidth/2,
+                top: modalY - modalHeight/2,
+                bottom: modalY + modalHeight/2
+            };
+            
+            if (mousePos.x < inventoryBounds.left || mousePos.x > inventoryBounds.right ||
+                mousePos.y < inventoryBounds.top || mousePos.y > inventoryBounds.bottom)
+            {
+                // Dropped outside inventory - drop the item
+                DropEvidenceItem(inventoryDragSlotIndex, inventoryDragItem);
+            }
+            
+            // Clear drag state
+            inventoryDragItem = null;
+            inventoryDragSlotIndex = -1;
+            inventoryDragStartPos = null;
+        }
+    }
+    
     // Draw instruction text at bottom
-    DrawText('Click item to drop | Press I or ESC to close', modalX, modalY + modalHeight/2 - 20, 10, 'center', 1, '#AAA', '#000');
+    if (inventoryDragItem)
+    {
+        DrawText('Drag outside to drop | Press I or ESC to close', modalX, modalY + modalHeight/2 - 20, 10, 'center', 1, '#AAA', '#000');
+    }
+    else
+    {
+        DrawText('Click evidence to view | Drag to drop | Press I or ESC to close', modalX, modalY + modalHeight/2 - 20, 10, 'center', 1, '#AAA', '#000');
+    }
 }
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -3723,11 +3792,48 @@ function HandleEvidenceNamingInput() {
 function OpenEvidenceViewModal(item, slotIndex) {
     evidenceViewModalOpen = true;
     evidenceViewItem = { item: item, slotIndex: slotIndex };
+    evidenceViewScrollOffset = 0; // Reset scroll when opening
 }
 
 function CloseEvidenceViewModal() {
     evidenceViewModalOpen = false;
     evidenceViewItem = null;
+    evidenceViewScrollOffset = 0;
+}
+
+// Word wrap text function
+function WrapText(text, maxWidth, context) {
+    let lines = [];
+    let paragraphs = text.split('\n');
+    
+    for (let para of paragraphs) {
+        if (!para.trim()) {
+            lines.push(''); // Preserve empty lines
+            continue;
+        }
+        
+        let words = para.split(' ');
+        let currentLine = '';
+        
+        for (let word of words) {
+            let testLine = currentLine ? currentLine + ' ' + word : word;
+            let metrics = context.measureText(testLine);
+            
+            if (metrics.width > maxWidth && currentLine) {
+                // Current line is too long, start a new line
+                lines.push(currentLine);
+                currentLine = word;
+            } else {
+                currentLine = testLine;
+            }
+        }
+        
+        if (currentLine) {
+            lines.push(currentLine);
+        }
+    }
+    
+    return lines;
 }
 
 function RenderEvidenceViewModal() {
@@ -3801,7 +3907,7 @@ function RenderEvidenceViewModal() {
     mainCanvasContext.lineWidth = 2;
     mainCanvasContext.strokeRect(textAreaX - textAreaWidth/2, textAreaY - textAreaHeight/2 + 20, textAreaWidth, textAreaHeight);
     
-    // Draw conversation text
+    // Draw conversation text with proper word wrapping
     if (item.metadata && item.metadata.conversationText) {
         // Draw text directly to preserve formatting
         mainCanvasContext.fillStyle = '#FFF';
@@ -3809,25 +3915,45 @@ function RenderEvidenceViewModal() {
         mainCanvasContext.textAlign = 'left';
         mainCanvasContext.textBaseline = 'top';
         
-        // Word wrap and draw text
+        // Word wrap the text
         let text = item.metadata.conversationText;
-        let lines = text.split('\n');
+        let wrappedLines = WrapText(text, textAreaWidth - 20, mainCanvasContext);
         let lineHeight = 14;
         let startY = textAreaY - textAreaHeight/2 + 30;
-        let maxLines = Math.floor(textAreaHeight / lineHeight) - 1;
-        let startLine = 0;
+        let maxVisibleLines = Math.floor(textAreaHeight / lineHeight) - 1;
         
-        // Simple scrolling could be added later if needed
-        for (let i = 0; i < Math.min(lines.length, maxLines); i++) {
-            let line = lines[startLine + i];
+        // Handle scrolling with mouse wheel or arrow keys
+        if (KeyWasPressed(38)) { // Up arrow
+            evidenceViewScrollOffset = Math.max(0, evidenceViewScrollOffset - 1);
+        }
+        if (KeyWasPressed(40)) { // Down arrow
+            evidenceViewScrollOffset = Math.min(wrappedLines.length - maxVisibleLines, evidenceViewScrollOffset + 1);
+        }
+        
+        // Draw visible lines
+        let startLine = evidenceViewScrollOffset;
+        for (let i = 0; i < Math.min(maxVisibleLines, wrappedLines.length - startLine); i++) {
+            let line = wrappedLines[startLine + i];
             if (line) {
-                // Truncate long lines
-                let maxChars = Math.floor(textAreaWidth / 6);
-                if (line.length > maxChars) {
-                    line = line.substring(0, maxChars - 3) + '...';
-                }
                 mainCanvasContext.fillText(line, textAreaX - textAreaWidth/2 + 10, startY + i * lineHeight);
             }
+        }
+        
+        // Draw scroll indicator if needed
+        if (wrappedLines.length > maxVisibleLines) {
+            let scrollBarX = textAreaX + textAreaWidth/2 - 15;
+            let scrollBarY = textAreaY - textAreaHeight/2 + 20;
+            let scrollBarHeight = textAreaHeight;
+            let scrollThumbHeight = (maxVisibleLines / wrappedLines.length) * scrollBarHeight;
+            let scrollThumbY = scrollBarY + (evidenceViewScrollOffset / (wrappedLines.length - maxVisibleLines)) * (scrollBarHeight - scrollThumbHeight);
+            
+            // Draw scrollbar track
+            mainCanvasContext.fillStyle = '#444';
+            mainCanvasContext.fillRect(scrollBarX, scrollBarY, 8, scrollBarHeight);
+            
+            // Draw scrollbar thumb
+            mainCanvasContext.fillStyle = '#888';
+            mainCanvasContext.fillRect(scrollBarX, scrollThumbY, 8, scrollThumbHeight);
         }
     } else {
         DrawText('NO CONVERSATION DATA', textAreaX, textAreaY, 12, 'center', 1, '#AAA', '#000');
@@ -3877,6 +4003,18 @@ function RenderEvidenceViewModal() {
 
 function DropEvidenceItem(slotIndex, item) {
     if (!player || !playerData || !item) return;
+    
+    // Only drop evidence items (other items can be extended later)
+    let isEvidence = item.type && item.type.startsWith('evidence_');
+    if (!isEvidence) {
+        // For now, just remove non-evidence items from inventory without dropping
+        // This can be extended later to create dropped items for other item types
+        if (slotIndex >= 0 && slotIndex < playerData.inventory.length) {
+            playerData.inventory.splice(slotIndex, 1);
+            SaveGameState();
+        }
+        return;
+    }
     
     // Remove from inventory - find item by reference or by slotIndex
     let removed = false;
@@ -4317,6 +4455,7 @@ function GenerateTown()
             let attempts = 0;
             const maxAttempts = 50;
             const minDistance = 6; // Minimum 6 tiles between building centers
+            const southEdgeMargin = 3; // Minimum distance from south edge of map
             
             // Try to find a valid position with proper spacing
             let placed = false;
@@ -4347,6 +4486,15 @@ function GenerateTown()
                 pos = cellPos.Clone().AddXY(offsetX, offsetY);
                 attempts++;
                 totalAttempts++;
+                
+                // Check if building would be too close to south edge
+                // Building uses size * 1.5 for clearance, so check that position + clearance doesn't reach south edge
+                let buildingClearance = buildingType.size * 1.5;
+                if (pos.y + buildingClearance >= levelSize - southEdgeMargin)
+                {
+                    // Too close to south edge, try again
+                    continue;
+                }
                 
                 // Check distance to all existing buildings
                 let tooClose = false;
@@ -4380,6 +4528,15 @@ function GenerateTown()
                 // Fallback: place at a random valid cell position
                 let fallbackCell = cellPositions[cellIndex % cellPositions.length];
                 pos = fallbackCell.Clone().AddXY(RandBetween(-3, 3), RandBetween(-3, 3));
+                
+                // Ensure fallback position also respects south edge constraint
+                let buildingClearance = buildingType.size * 1.5;
+                if (pos.y + buildingClearance >= levelSize - southEdgeMargin)
+                {
+                    // Adjust position to be further from south edge
+                    pos.y = levelSize - southEdgeMargin - buildingClearance - 1;
+                }
+                
                 console.warn(`Warning: Building ${buildingType.type} placed at fallback position after ${totalAttempts} attempts`);
             }
             

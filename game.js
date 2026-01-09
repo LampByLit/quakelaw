@@ -43,6 +43,7 @@ let timePaused = 0;
 let baseLevelColor = new Color(.1, .3, .1); // Base town color for day/night cycle
 let sleepFadeTimer = new Timer();
 let sleepFadeActive = 0;
+let gameOverTimer = new Timer();
 let resetButtonHover = 0;
 let isLoadingWorld = false;
 let loadingProgress = 0;
@@ -416,6 +417,7 @@ async function FullReset()
     winTimer.UnSet();
     sleepFadeActive = 0;
     sleepFadeTimer.UnSet();
+    gameOverTimer.UnSet();
     currentInterior = null;
     exteriorLevel = null;
     playerExteriorPos = null;
@@ -664,8 +666,34 @@ function Update()
     if (player && !paused && !winTimer.IsSet() && !player.IsDead())
         speedRunTime += timeDelta;
     
-    // restart if dead or won
-    if (player && (player.IsDead() || winTimer.IsSet()) && KeyWasPressed(27))
+    // Handle game over auto-reset
+    if (player && player.IsDead())
+    {
+        // Start the 5-second timer if not already started
+        if (!gameOverTimer.IsSet())
+        {
+            gameOverTimer.Set(5.0); // 5 seconds
+        }
+        
+        // Auto-reset after 5 seconds or when Escape/OK is pressed
+        if (gameOverTimer.Elapsed() || KeyWasPressed(27))
+        {
+            gameOverTimer.UnSet();
+            FullReset();
+            return; // Exit early to prevent other updates
+        }
+    }
+    else
+    {
+        // Clear timer if player is not dead
+        if (gameOverTimer.IsSet())
+        {
+            gameOverTimer.UnSet();
+        }
+    }
+    
+    // restart if won (separate from game over)
+    if (player && winTimer.IsSet() && KeyWasPressed(27))
     {
         Reset();
         InitTown();
@@ -1058,7 +1086,23 @@ function PostRender()
     if (player && player.IsDead())
     {
         bigText = 'Game Over!'
-        DrawText('Press Escape',mainCanvasSize.x/2, mainCanvasSize.y/2+80, 42);
+        // Show countdown or "Press OK" message
+        if (gameOverTimer.IsSet() && !gameOverTimer.Elapsed())
+        {
+            let timeLeft = Math.max(0, Math.ceil(-gameOverTimer.Get())); // Get() returns negative, so negate it
+            if (timeLeft > 0)
+            {
+                DrawText(`Resetting in ${timeLeft}...`, mainCanvasSize.x/2, mainCanvasSize.y/2+80, 42);
+            }
+            else
+            {
+                DrawText('Press OK', mainCanvasSize.x/2, mainCanvasSize.y/2+80, 42);
+            }
+        }
+        else
+        {
+            DrawText('Press OK', mainCanvasSize.x/2, mainCanvasSize.y/2+80, 42);
+        }
     }  
     DrawText(bigText,mainCanvasSize.x/2, mainCanvasSize.y/2-80, 72, 'center', 2, '#FFF');
    

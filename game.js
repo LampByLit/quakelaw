@@ -289,8 +289,6 @@ function Reset()
 {
     // load local storage
     playerData = new PlayerData();
-    if (localStorage.kbap_coins)
-        playerData.coins = parseInt(localStorage.kbap_coins, 10);
     
     // Initialize game time
     gameTime = new GameTime();
@@ -307,6 +305,7 @@ function Reset()
                 if (saved.playerData.health !== undefined) playerData.health = saved.playerData.health;
                 if (saved.playerData.healthMax !== undefined) playerData.healthMax = saved.playerData.healthMax;
                 if (saved.playerData.coins !== undefined) playerData.coins = saved.playerData.coins;
+                else if (localStorage.kbap_coins) playerData.coins = parseInt(localStorage.kbap_coins, 10); // Fallback for old saves
                 if (saved.playerData.boomerangs !== undefined) playerData.boomerangs = saved.playerData.boomerangs;
                 if (saved.playerData.bigBoomerangs !== undefined) playerData.bigBoomerangs = saved.playerData.bigBoomerangs;
                 

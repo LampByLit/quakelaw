@@ -1077,6 +1077,13 @@ function PostRender()
         DrawText('RESET', buttonX, buttonY, 12, 'center', 1, '#FFF', '#000');
     }
     
+    // "Press F to Speak" text below reset button
+    {
+        let textX = mainCanvasSize.x - 100;
+        let textY = 20 + 24; // Position below the reset button
+        DrawText('Press F to Speak', textX, textY, 10, 'center', 1, '#FFF', '#000');
+    }
+    
     // centered hud text
     let bigText = '';
     if (paused)

@@ -702,7 +702,7 @@ function Update()
             // Sync calendar view with current date
             if (gameTime)
             {
-                calendarViewYear = gameTime.daysElapsed >= 0 ? 1 : 0;
+                calendarViewYear = typeof GetCurrentYear !== 'undefined' ? GetCurrentYear(gameTime) : (gameTime.daysElapsed >= 0 ? 1 : 0);
                 calendarViewMonth = gameTime.month;
             }
         }
@@ -758,7 +758,7 @@ function Update()
             // Sync calendar view with current date when opening
             if (gameTime)
             {
-                calendarViewYear = gameTime.daysElapsed >= 0 ? 1 : 0;
+                calendarViewYear = typeof GetCurrentYear !== 'undefined' ? GetCurrentYear(gameTime) : (gameTime.daysElapsed >= 0 ? 1 : 0);
                 calendarViewMonth = gameTime.month;
             }
         }
@@ -790,6 +790,11 @@ function Update()
     if (typeof UpdateSuccessNotification !== 'undefined')
     {
         UpdateSuccessNotification();
+    }
+    
+    if (typeof UpdateLoadingNotification !== 'undefined')
+    {
+        UpdateLoadingNotification();
     }
         
 }
@@ -1041,6 +1046,11 @@ function PostRender()
     if (typeof RenderSuccessNotification !== 'undefined')
     {
         RenderSuccessNotification();
+    }
+    
+    if (typeof RenderLoadingNotification !== 'undefined')
+    {
+        RenderLoadingNotification();
     }
     
     // mouse cursor (rendered last so it appears on top of everything, including modals)

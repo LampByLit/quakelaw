@@ -57,33 +57,104 @@ async function OpenDialogueModal(npc) {
         // Check if there's a Case of the Mondays event today
         if (typeof GetEventsForDate !== 'undefined')
         {
-            let currentYear = gameTime.daysElapsed >= 0 ? 1 : 0;
+            let currentYear = typeof GetCurrentYear !== 'undefined' ? GetCurrentYear(gameTime) : (gameTime.daysElapsed >= 0 ? 1 : 0);
             let events = GetEventsForDate(currentYear, gameTime.month, gameTime.dayOfMonth);
             let caseEvent = events.find(e => e.taskId === 'caseOfTheMondays' && e.status === 'pending');
             
             if (caseEvent && typeof InitializeNewCase !== 'undefined')
             {
-                // Initialize new case (this will generate judge persona, select case, etc.)
-                InitializeNewCase().then(() => {
-                    // Update judge persona after case initialization
-                    if (typeof GetJudgePersona !== 'undefined')
-                    {
-                        const persona = GetJudgePersona();
-                        if (persona && persona.name)
-                        {
-                            npc.UpdatePersona(persona);
-                        }
-                    }
-                }).catch(err => {
-                    console.error('Error initializing case:', err);
-                });
-                
-                // Mark event as completed
-                caseEvent.status = 'completed';
-                if (typeof RemoveEvent !== 'undefined')
+                // Prevent double-triggering if already initializing
+                if (caseEvent.isInitializing)
                 {
-                    RemoveEvent(caseEvent.id);
+                    return; // Already processing, don't start again
                 }
+                
+                // Mark as initializing to prevent duplicate triggers
+                caseEvent.isInitializing = true;
+                caseEvent.initializationAttempts = (caseEvent.initializationAttempts || 0) + 1;
+                
+                // Show loading notification
+                if (typeof ShowLoadingNotification !== 'undefined')
+                {
+                    ShowLoadingNotification('Initializing new case');
+                }
+                
+                // Initialize new case (this will generate judge persona, select case, etc.)
+                InitializeNewCase()
+                    .then((result) => {
+                        // Hide loading notification
+                        if (typeof HideLoadingNotification !== 'undefined')
+                        {
+                            HideLoadingNotification();
+                        }
+                        
+                        // Only complete event if initialization was successful
+                        if (result)
+                        {
+                            // Update judge persona after case initialization
+                            if (typeof GetJudgePersona !== 'undefined')
+                            {
+                                const persona = GetJudgePersona();
+                                if (persona && persona.name)
+                                {
+                                    npc.UpdatePersona(persona);
+                                }
+                            }
+                            
+                            // Mark event as completed only after successful initialization
+                            caseEvent.status = 'completed';
+                            if (typeof RemoveEvent !== 'undefined')
+                            {
+                                RemoveEvent(caseEvent.id);
+                            }
+                            
+                            // Show success notification
+                            if (typeof ShowSuccessNotification !== 'undefined')
+                            {
+                                ShowSuccessNotification('Case initialized successfully');
+                            }
+                            
+                            // Schedule next Monday's event
+                            if (typeof TriggerTask !== 'undefined')
+                            {
+                                TriggerTask('caseOfTheMondays');
+                            }
+                        }
+                        else
+                        {
+                            // Initialization returned null/undefined - keep pending for retry
+                            caseEvent.isInitializing = false;
+                            console.warn('Case initialization returned no result, keeping event pending for retry');
+                            
+                            if (typeof ShowSuccessNotification !== 'undefined')
+                            {
+                                ShowSuccessNotification('Case initialization incomplete');
+                            }
+                        }
+                    })
+                    .catch((err) => {
+                        // Hide loading notification
+                        if (typeof HideLoadingNotification !== 'undefined')
+                        {
+                            HideLoadingNotification();
+                        }
+                        
+                        // Error occurred - keep event pending for retry
+                        caseEvent.isInitializing = false;
+                        caseEvent.lastError = err.message || 'Unknown error';
+                        console.error('Error initializing case:', err);
+                        
+                        // Allow retry up to 3 times
+                        if (caseEvent.initializationAttempts < 3)
+                        {
+                            console.warn(`Case initialization failed (attempt ${caseEvent.initializationAttempts}), will retry on next interaction`);
+                        }
+                        else
+                        {
+                            console.error('Case initialization failed after multiple attempts');
+                            // Could optionally mark as 'failed' status instead of 'pending'
+                        }
+                    });
             }
         }
     }

@@ -361,7 +361,7 @@ app.post('/api/cases/summary', async (req, res) => {
         });
     }
 
-    const { caseData, individuals, witnesses } = req.body;
+    const { caseData, individuals, witnesses, nameMapping } = req.body;
 
     if (!caseData) {
         return res.status(400).json({ error: 'Case data is required' });
@@ -371,15 +371,26 @@ app.post('/api/cases/summary', async (req, res) => {
         const caseText = JSON.stringify(caseData, null, 2);
         const witnessInfo = witnesses.map(w => `${w.name} (${w.role})`).join(', ');
         
+        // Build name mapping text for AI
+        let nameMappingText = '';
+        if (nameMapping && Object.keys(nameMapping).length > 0) {
+            nameMappingText = '\n\nNAME REPLACEMENT MAPPING (replace original names with NPC names):\n';
+            for (const [originalName, npcName] of Object.entries(nameMapping)) {
+                nameMappingText += `- "${originalName}" should be replaced with "${npcName}"\n`;
+            }
+        }
+        
         const systemPrompt = `You are a legal case summarizer. Create a concise 100-word summary of a legal case.
 
 IMPORTANT RULES:
 - Do NOT reveal the decision or outcome of the case
 - Only mention the witnesses and the originating circumstances that existed before the conclusion
 - Keep it exactly around 100 words
+- CRITICAL: Replace ALL original names from the case with the corresponding NPC names from the name mapping provided
+- When you see any name from the original case, you MUST use the NPC name from the mapping instead
 - Be clear and professional`;
 
-        const userMessage = `Case data:\n${caseText.substring(0, 30000)}\n\nWitnesses: ${witnessInfo}\n\nCreate a 100-word summary following the rules above.`;
+        const userMessage = `Case data:\n${caseText.substring(0, 30000)}\n\nWitnesses: ${witnessInfo}${nameMappingText}\n\nCreate a 100-word summary following the rules above. Remember to replace all original names with the NPC names from the mapping.`;
 
         const response = await fetch('https://api.deepseek.com/v1/chat/completions', {
             method: 'POST',

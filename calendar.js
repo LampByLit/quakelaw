@@ -7,8 +7,23 @@ let successNotificationVisible = false;
 let successNotificationTimer = new Timer();
 let successNotificationText = '';
 
+// Loading notification
+let loadingNotificationVisible = false;
+let loadingNotificationText = '';
+
 // Event ID counter (for unique event IDs)
 let nextEventId = 1;
+
+///////////////////////////////////////////////////////////////////////////////
+// Helper Functions
+
+// Get current year from game time
+function GetCurrentYear(gameTime)
+{
+    if (!gameTime)
+        return 1; // Default fallback
+    return gameTime.daysElapsed >= 0 ? 1 : 0;
+}
 
 ///////////////////////////////////////////////////////////////////////////////
 // Event Management
@@ -133,7 +148,7 @@ function CheckAndCompleteCalendarEvents(npc, currentGameTime)
         return;
     
     // Get current date
-    let currentYear = currentGameTime.daysElapsed >= 0 ? 1 : 0; // Year 1 for now
+    let currentYear = GetCurrentYear(currentGameTime);
     let currentMonth = currentGameTime.month;
     let currentDay = currentGameTime.dayOfMonth;
     
@@ -270,7 +285,7 @@ function ProcessMissedEvents(currentGameTime)
     // Get the date that just ended (current day before advancing)
     let endedDay = currentGameTime.dayOfMonth;
     let endedMonth = currentGameTime.month;
-    let endedYear = currentGameTime.daysElapsed >= 0 ? 1 : 0;
+    let endedYear = GetCurrentYear(currentGameTime);
     
     // Mark the day that just ended's pending events as missed
     let endedDayEvents = calendarEvents.filter(e => 
@@ -350,7 +365,7 @@ function FindNextSunday(currentGameTime)
     if (!currentGameTime)
         return null;
     
-    let currentYear = currentGameTime.daysElapsed >= 0 ? 1 : 0;
+    let currentYear = GetCurrentYear(currentGameTime);
     let currentMonth = currentGameTime.month;
     let currentDay = currentGameTime.dayOfMonth;
     let currentDayOfWeek = currentGameTime.dayOfWeek;
@@ -473,7 +488,7 @@ function FindNextMonday(currentGameTime)
     if (!currentGameTime)
         return null;
     
-    let currentYear = currentGameTime.daysElapsed >= 0 ? 1 : 0;
+    let currentYear = GetCurrentYear(currentGameTime);
     let currentMonth = currentGameTime.month;
     let currentDay = currentGameTime.dayOfMonth;
     let currentDayOfWeek = currentGameTime.dayOfWeek;
@@ -587,7 +602,7 @@ function InitializeCaseOfTheMondays()
     // If today is Monday, schedule for today
     if (gameTime.dayOfWeek === 1)
     {
-        let currentYear = gameTime.daysElapsed >= 0 ? 1 : 0;
+        let currentYear = GetCurrentYear(gameTime);
         
         // Check if event already exists for today
         let existingEvents = GetEventsForDate(currentYear, gameTime.month, gameTime.dayOfMonth);
@@ -665,7 +680,7 @@ function InitializeSundayCoffee()
     // If today is Sunday, schedule for today
     if (gameTime.dayOfWeek === 0)
     {
-        let currentYear = gameTime.daysElapsed >= 0 ? 1 : 0;
+        let currentYear = GetCurrentYear(gameTime);
         
         // Check if event already exists for today
         let existingEvents = GetEventsForDate(currentYear, gameTime.month, gameTime.dayOfMonth);
@@ -796,6 +811,61 @@ function RenderSuccessNotification()
     // Draw text with fade
     let textColor = `rgba(74, 255, 74, ${fadeAlpha})`;
     DrawText(successNotificationText, textX, textY, fontSize, 'center', 1, textColor, '#000');
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Loading Notification
+
+function ShowLoadingNotification(text)
+{
+    loadingNotificationVisible = true;
+    loadingNotificationText = text;
+}
+
+function HideLoadingNotification()
+{
+    loadingNotificationVisible = false;
+    loadingNotificationText = '';
+}
+
+function UpdateLoadingNotification()
+{
+    // Loading notifications don't auto-hide, they're manually controlled
+    // This function exists for consistency with other notification systems
+}
+
+function RenderLoadingNotification()
+{
+    if (!loadingNotificationVisible)
+        return;
+    
+    // Pop-up at top center of screen (below success notification if both are visible)
+    let textX = mainCanvasSize.x / 2;
+    let textY = 90; // Below success notification area
+    let padding = 15;
+    let fontSize = 16;
+    
+    // Measure text width (approximate)
+    let textWidth = loadingNotificationText.length * 8; // Rough estimate
+    let boxWidth = textWidth + padding * 2;
+    let boxHeight = fontSize + padding * 2;
+    
+    // Animated dots for loading indicator
+    let dotCount = (Math.floor(time / 0.5) % 4);
+    let loadingText = loadingNotificationText + '.'.repeat(dotCount);
+    
+    // Draw semi-transparent background
+    mainCanvasContext.fillStyle = 'rgba(0, 0, 0, 0.7)';
+    mainCanvasContext.fillRect(textX - boxWidth/2, textY - boxHeight/2, boxWidth, boxHeight);
+    
+    // Draw border (blue for loading)
+    mainCanvasContext.strokeStyle = 'rgba(74, 144, 255, 1.0)';
+    mainCanvasContext.lineWidth = 2;
+    mainCanvasContext.strokeRect(textX - boxWidth/2, textY - boxHeight/2, boxWidth, boxHeight);
+    
+    // Draw text
+    let textColor = 'rgba(74, 144, 255, 1.0)';
+    DrawText(loadingText, textX, textY, fontSize, 'center', 1, textColor, '#000');
 }
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -965,7 +1035,7 @@ function RenderMonthView(modalX, modalY, modalWidth, modalHeight)
         let cellY = gridStartY + week * (cellHeight + cellSpacing);
         
         // Check if this is current date
-        let currentYear = gameTime && gameTime.daysElapsed >= 0 ? 1 : 0;
+        let currentYear = gameTime ? GetCurrentYear(gameTime) : 1;
         let isCurrentDate = gameTime && 
                            calendarViewYear === currentYear &&
                            calendarViewMonth === gameTime.month &&

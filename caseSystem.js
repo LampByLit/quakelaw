@@ -95,6 +95,14 @@ async function ParseCase(caseData) {
 // Generate case summary (100 words, no decision)
 async function GenerateCaseSummary(caseData, individuals, witnesses) {
     try {
+        // Build name mapping: original individual names -> assigned NPC names
+        const nameMapping = {};
+        individuals.forEach((individual, index) => {
+            if (witnesses[index] && witnesses[index].npc && witnesses[index].npc.surname) {
+                nameMapping[individual.name] = witnesses[index].npc.surname;
+            }
+        });
+        
         const response = await fetch('/api/cases/summary', {
             method: 'POST',
             headers: {
@@ -106,7 +114,8 @@ async function GenerateCaseSummary(caseData, individuals, witnesses) {
                 witnesses: witnesses.map(w => ({
                     name: w.npc.surname,
                     role: w.role
-                }))
+                })),
+                nameMapping: nameMapping // Mapping of original names to NPC names
             })
         });
         
@@ -456,7 +465,7 @@ function ScheduleWitnessEvents(witnesses) {
     const maxWitnesses = Math.min(witnesses.length, 4);
     
     // Calculate current date
-    let currentYear = gameTime.daysElapsed >= 0 ? 1 : 0;
+    let currentYear = typeof GetCurrentYear !== 'undefined' ? GetCurrentYear(gameTime) : (gameTime.daysElapsed >= 0 ? 1 : 0);
     let currentMonth = gameTime.month;
     let currentDay = gameTime.dayOfMonth;
     let currentDayOfWeek = gameTime.dayOfWeek;
@@ -528,7 +537,7 @@ function ScheduleFridayJudgement() {
     }
     
     // Calculate next Friday
-    let currentYear = gameTime.daysElapsed >= 0 ? 1 : 0;
+    let currentYear = typeof GetCurrentYear !== 'undefined' ? GetCurrentYear(gameTime) : (gameTime.daysElapsed >= 0 ? 1 : 0);
     let currentMonth = gameTime.month;
     let currentDay = gameTime.dayOfMonth;
     let currentDayOfWeek = gameTime.dayOfWeek;

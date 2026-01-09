@@ -658,7 +658,7 @@ function Update()
     if (!inventoryOpen && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()))
     {
         let invButtonX = 40;
-        let invButtonY = 130;
+        let invButtonY = 140;
         let invButtonWidth = 30;
         let invButtonHeight = 30;
         
@@ -714,7 +714,7 @@ function Update()
     if (!(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()))
     {
         let mapButtonX = 40;
-        let mapButtonY = 220;
+        let mapButtonY = 210;
         let mapButtonWidth = 30;
         let mapButtonHeight = 30;
         
@@ -895,7 +895,7 @@ function PostRender()
     // Inventory button (below coin display)
     {
         let invButtonX = 40;
-        let invButtonY = 130;
+        let invButtonY = 140;
         let invButtonWidth = 30;
         let invButtonHeight = 30;
         
@@ -937,7 +937,7 @@ function PostRender()
     // Map button (below calendar button)
     {
         let mapButtonX = 40;
-        let mapButtonY = 220;
+        let mapButtonY = 210;
         let mapButtonWidth = 30;
         let mapButtonHeight = 30;
         

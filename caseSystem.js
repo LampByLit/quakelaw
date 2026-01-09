@@ -501,7 +501,13 @@ function CreateCaseFileItem(caseSummary, witnesses, caseNumber) {
 async function InitializeNewCase() {
     console.log('Initializing new case...');
     
-    // 0. Lock player in courthouse during initialization
+    // 0. Clear completed case context (from previous case)
+    if (typeof completedCaseContext !== 'undefined') {
+        completedCaseContext = null;
+        console.log('[CASE] Cleared completed case context');
+    }
+    
+    // 0.5. Lock player in courthouse during initialization
     if (typeof caseInitializationLock !== 'undefined') {
         caseInitializationLock = true;
         console.log('[CASE] Locked player in courthouse during initialization');

@@ -8,6 +8,9 @@ let isLoadingResponse = false;
 let isRecording = false;
 let recordingStartIndex = -1;
 
+// Store completed case context for judge discussion after ruling
+let completedCaseContext = null;
+
 // Initialize dialogue modal
 function InitDialogueModal() {
     const modal = document.getElementById('dialogueModal');
@@ -571,6 +574,12 @@ async function SendMessage() {
             activeCase = GetActiveCase();
         }
         
+        // Get completed case context if talking to judge and no active case
+        let completedCase = null;
+        if (currentDialogueNPC.isJudge && !activeCase && completedCaseContext) {
+            completedCase = completedCaseContext;
+        }
+        
         const response = await fetch(`/api/npc/conversation/${encodeURIComponent(currentDialogueNPC.surname)}?sessionId=${encodeURIComponent(sessionId)}`, {
             method: 'POST',
             headers: {
@@ -585,7 +594,8 @@ async function SendMessage() {
                     job: currentDialogueNPC.job || '', // Ensure job is always a string
                     isJudge: currentDialogueNPC.isJudge || false
                 },
-                activeCase: activeCase
+                activeCase: activeCase,
+                completedCase: completedCase
             })
         });
         
@@ -1328,7 +1338,25 @@ function CloseJudgmentRulingModal(result) {
         console.error('[JUDGMENT] Cannot access playerData or inventory');
     }
     
-    // Clear active case AFTER evidence is created
+    // Store completed case context for judge discussion (before clearing case)
+    if (typeof GetActiveCase !== 'undefined') {
+        const activeCase = GetActiveCase();
+        if (activeCase && result) {
+            completedCaseContext = {
+                caseSummary: activeCase.caseSummary || '',
+                prosecution: result.prosecution || '',
+                ruling: result.ruling || '',
+                playerWins: result.playerWins || false,
+                playerReprimanded: result.playerReprimanded || false,
+                playerDisbarred: result.playerDisbarred || false,
+                punishments: result.punishments || [],
+                jobChanges: result.jobChanges || []
+            };
+            console.log('[JUDGMENT] Stored completed case context for judge discussion');
+        }
+    }
+    
+    // Clear active case AFTER evidence is created and context is stored
     if (typeof ClearActiveCase !== 'undefined') {
         ClearActiveCase();
         console.log('[JUDGMENT] Active case cleared');

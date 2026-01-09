@@ -1131,10 +1131,11 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
         const isJudge = npcData.isJudge || (surname && surname.toLowerCase().includes('judge'));
         
         // For judge: load active case information (summary and witnesses only, NOT evidence)
+        // OR completed case context (summary, prosecution, and ruling)
         let caseContextText = '';
         if (isJudge) {
             // Try to get active case from request (passed from client)
-            const { activeCase } = req.body;
+            const { activeCase, completedCase } = req.body;
             if (activeCase) {
                 const caseSummary = activeCase.caseSummary || '';
                 const witnesses = activeCase.witnesses || [];
@@ -1144,6 +1145,20 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
                 }).join('\n');
                 
                 caseContextText = `\n\nCRITICAL - ACTIVE CASE INFORMATION:\nYou are currently presiding over an active legal case. This case is your PRIMARY focus and you MUST reference it in your conversations.\n\nCASE SUMMARY:\n${caseSummary}\n\nWITNESSES:\n${witnessList}\n\nIMPORTANT RULES:\n- You MUST discuss the case when the player talks to you. Reference the case summary and witnesses naturally in conversation.\n- You can ONLY discuss the case summary and witnesses. You must NEVER mention or discuss any evidence - that information is confidential and secret.\n- CRITICAL: The player ALWAYS represents the DEFENSE. They are the defense lawyer working on this case. You are the judge presiding over it. Remember this in all conversations.\n- Always stay in character as a judge. You are NOT a barista, shopkeeper, or any other profession. You are a JUDGE.`;
+            } else if (completedCase) {
+                // Completed case context - judge can discuss the full case including prosecution and ruling
+                const caseSummary = completedCase.caseSummary || '';
+                const prosecution = completedCase.prosecution || '';
+                const ruling = completedCase.ruling || '';
+                const verdict = completedCase.playerWins ? 'The defense won the case.' : 'The defense lost the case.';
+                const punishmentsText = completedCase.punishments && completedCase.punishments.length > 0
+                    ? completedCase.punishments.map(p => `- ${p.npcSurname || 'Unknown'}: ${p.punishmentType || 'punishment'} (${p.reason || 'no reason given'})`).join('\n')
+                    : 'No punishments were issued.';
+                const jobChangesText = completedCase.jobChanges && completedCase.jobChanges.length > 0
+                    ? completedCase.jobChanges.map(j => `- ${j.npcSurname || 'Unknown'}: Changed to "${j.newJob || 'unknown'}" (${j.reason || 'no reason given'})`).join('\n')
+                    : 'No job changes were made.';
+                
+                caseContextText = `\n\nCOMPLETED CASE CONTEXT:\nYou have just completed presiding over a case and made your ruling. You can discuss this case with the player, including the case summary, prosecution argument, your ruling, and your reasoning.\n\nCASE SUMMARY:\n${caseSummary}\n\nPROSECUTION ARGUMENT:\n${prosecution}\n\nYOUR RULING:\n${ruling}\n\nVERDICT:\n${verdict}\n\nPUNISHMENTS:\n${punishmentsText}\n\nJOB CHANGES:\n${jobChangesText}\n\nIMPORTANT RULES:\n- You can discuss the case summary, prosecution argument, and your ruling freely with the player.\n- You can explain your reasoning and decision-making process.\n- You can answer questions about the case, the prosecution's arguments, and your ruling.\n- CRITICAL: The player ALWAYS represents the DEFENSE. They were the defense lawyer in this case. You are the judge who presided over it and made the ruling. Remember this in all conversations.\n- Always stay in character as a judge. You are NOT a barista, shopkeeper, or any other profession. You are a JUDGE.`;
             } else {
                 caseContextText = `\n\nYou are a judge presiding over legal cases in the courthouse. You do not currently have an active case, but you are always ready to discuss legal matters.\n\nCRITICAL: The player ALWAYS represents the DEFENSE. They are always the defense lawyer in any case. Remember this in all conversations.`;
             }

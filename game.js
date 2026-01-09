@@ -1098,29 +1098,27 @@ function RenderMap()
             mainCanvasContext.lineWidth = 1;
             mainCanvasContext.strokeRect(cellX, cellY, cellSize, cellSize);
             
-            // Draw address numbers in this cell
+            // Draw address numbers in this cell (stacked vertically)
             let addresses = cellBuildings[cy][cx];
             if (addresses.length > 0)
             {
                 // Sort addresses for consistent display
                 addresses.sort((a, b) => a - b);
                 
-                // Display addresses (if multiple, show them stacked or comma-separated)
-                let addressText = addresses.join(', ');
-                let fontSize = 8;
+                // Calculate font size based on cell size and number of addresses
+                let fontSize = Math.min(8, Math.floor(cellSize / (addresses.length + 1)));
+                fontSize = Math.max(6, fontSize); // Minimum readable size
                 
-                // Adjust font size if text is too long
-                if (addressText.length > 8)
-                {
-                    fontSize = 7;
-                }
-                if (addressText.length > 12)
-                {
-                    fontSize = 6;
-                }
+                // Calculate spacing between stacked numbers
+                let totalHeight = addresses.length * fontSize * 1.2; // 1.2 for line spacing
+                let startY = cellY + cellSize/2 - totalHeight/2 + fontSize/2;
                 
-                // Draw address text in center of cell
-                DrawText(addressText, cellX + cellSize/2, cellY + cellSize/2, fontSize, 'center', 1, '#FFF', '#000');
+                // Draw each address number stacked vertically
+                for(let i = 0; i < addresses.length; i++)
+                {
+                    let addressY = startY + i * fontSize * 1.2;
+                    DrawText(addresses[i].toString(), cellX + cellSize/2, addressY, fontSize, 'center', 1, '#FFF', '#000');
+                }
             }
         }
     }

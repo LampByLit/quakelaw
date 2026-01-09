@@ -5,11 +5,14 @@ let dialogueModalOpen = false;
 let currentDialogueNPC = null;
 let conversationHistory = [];
 let isLoadingResponse = false;
+let isRecording = false;
+let recordingStartIndex = -1;
 
 // Initialize dialogue modal
 function InitDialogueModal() {
     const modal = document.getElementById('dialogueModal');
     const closeBtn = document.getElementById('closeModal');
+    const recordBtn = document.getElementById('recordButton');
     const sendBtn = document.getElementById('sendMessage');
     const input = document.getElementById('playerMessageInput');
     
@@ -28,6 +31,9 @@ function InitDialogueModal() {
         }
     });
     
+    // Record button handler
+    recordBtn.addEventListener('click', ToggleRecording);
+    
     // Send message handlers
     sendBtn.addEventListener('click', SendMessage);
     input.addEventListener('keypress', (e) => {
@@ -44,6 +50,15 @@ async function OpenDialogueModal(npc) {
     
     // Debug: Verify NPC has job
     console.log(`Opening dialogue with ${npc.surname}: job=${npc.job}, characteristic=${npc.characteristic}`);
+    
+    // Reset recording state
+    isRecording = false;
+    recordingStartIndex = -1;
+    const recordBtn = document.getElementById('recordButton');
+    if (recordBtn) {
+        recordBtn.textContent = 'Record';
+        recordBtn.classList.remove('recording');
+    }
     
     currentDialogueNPC = npc;
     dialogueModalOpen = true;
@@ -72,9 +87,16 @@ async function OpenDialogueModal(npc) {
 function CloseDialogueModal() {
     if (!dialogueModalOpen) return;
     
+    // Stop recording if active
+    if (isRecording) {
+        StopRecording();
+    }
+    
     dialogueModalOpen = false;
     currentDialogueNPC = null;
     conversationHistory = [];
+    isRecording = false;
+    recordingStartIndex = -1;
     
     const modal = document.getElementById('dialogueModal');
     modal.classList.remove('open');
@@ -84,6 +106,11 @@ function CloseDialogueModal() {
     
     // Clear conversation display
     document.getElementById('conversationHistory').innerHTML = '';
+    
+    // Reset record button
+    const recordBtn = document.getElementById('recordButton');
+    recordBtn.textContent = 'Record';
+    recordBtn.classList.remove('recording');
 }
 
 // Load conversation history from server
@@ -375,6 +402,132 @@ function GetEmojiCharacter(emojiCode) {
         // Fallback: return a default emoji
         return '😊';
     }
+}
+
+// Toggle recording state
+function ToggleRecording() {
+    if (!dialogueModalOpen || !currentDialogueNPC) return;
+    
+    if (isRecording) {
+        StopRecording();
+    } else {
+        StartRecording();
+    }
+}
+
+// Start recording conversation
+function StartRecording() {
+    isRecording = true;
+    recordingStartIndex = conversationHistory.length;
+    
+    const recordBtn = document.getElementById('recordButton');
+    recordBtn.textContent = 'Stop';
+    recordBtn.classList.add('recording');
+}
+
+// Stop recording and create evidence
+function StopRecording() {
+    if (!isRecording || !currentDialogueNPC) return;
+    
+    // Get recorded messages
+    const recordedMessages = conversationHistory.slice(recordingStartIndex);
+    
+    if (recordedMessages.length === 0) {
+        // No messages recorded, just stop
+        isRecording = false;
+        recordingStartIndex = -1;
+        const recordBtn = document.getElementById('recordButton');
+        recordBtn.textContent = 'Record';
+        recordBtn.classList.remove('recording');
+        return;
+    }
+    
+    // Prompt for evidence name
+    const evidenceName = prompt('Name this evidence:', `${currentDialogueNPC.surname} Conversation`);
+    
+    if (!evidenceName || evidenceName.trim() === '') {
+        // User cancelled or entered empty name
+        isRecording = false;
+        recordingStartIndex = -1;
+        const recordBtn = document.getElementById('recordButton');
+        recordBtn.textContent = 'Record';
+        recordBtn.classList.remove('recording');
+        return;
+    }
+    
+    // Format conversation text
+    const conversationText = FormatConversationText(recordedMessages, currentDialogueNPC.surname);
+    
+    // Create evidence item
+    // Sprite index 45: tileX = 45 % 8 = 5, tileY = Math.floor(45 / 8) = 5
+    const evidenceItem = {
+        type: `evidence_${Date.now()}`, // Unique type to prevent stacking
+        name: evidenceName.trim(),
+        tileX: 5,
+        tileY: 5,
+        quantity: 1,
+        metadata: {
+            conversationText: conversationText,
+            npcName: currentDialogueNPC.surname,
+            recordedTimestamp: Date.now(),
+            messages: recordedMessages
+        }
+    };
+    
+    // Add to inventory (need to access playerData from game.js)
+    if (typeof playerData !== 'undefined' && playerData.AddToInventory) {
+        // Add evidence directly to inventory array since it's non-stackable
+        if (playerData.inventory.length < 16) {
+            playerData.inventory.push(evidenceItem);
+            
+            // Save game state
+            if (typeof SaveGameState === 'function') {
+                SaveGameState();
+            }
+            
+            // Close dialogue and open inventory
+            CloseDialogueModal();
+            
+            // Open inventory (set inventoryOpen flag in game.js)
+            // Use a small delay to ensure modal is closed
+            setTimeout(() => {
+                // Set inventoryOpen directly (it's a global in game.js)
+                if (typeof inventoryOpen !== 'undefined') {
+                    inventoryOpen = true;
+                }
+            }, 100);
+        } else {
+            alert('Inventory is full! Cannot add evidence.');
+            isRecording = false;
+            recordingStartIndex = -1;
+            const recordBtn = document.getElementById('recordButton');
+            recordBtn.textContent = 'Record';
+            recordBtn.classList.remove('recording');
+        }
+    } else {
+        console.error('Cannot access playerData or AddToInventory');
+        alert('Error: Could not add evidence to inventory.');
+        isRecording = false;
+        recordingStartIndex = -1;
+        const recordBtn = document.getElementById('recordButton');
+        recordBtn.textContent = 'Record';
+        recordBtn.classList.remove('recording');
+    }
+}
+
+// Format conversation messages into readable text
+function FormatConversationText(messages, npcName) {
+    let text = `Conversation with ${npcName}\n`;
+    text += `Recorded: ${new Date().toLocaleString()}\n\n`;
+    text += '---\n\n';
+    
+    for (const msg of messages) {
+        const speaker = msg.role === 'player' ? 'You' : npcName;
+        const timestamp = new Date(msg.timestamp).toLocaleTimeString();
+        text += `[${timestamp}] ${speaker}:\n${msg.message}\n\n`;
+    }
+    
+    return text;
 }
 
 // Check if dialogue modal is open

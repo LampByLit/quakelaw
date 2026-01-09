@@ -299,13 +299,20 @@ function Reset()
                         let item = saved.playerData.inventory[i];
                         if (item)
                         {
-                            playerData.inventory.push(new InventoryItem(
+                            // Create inventory item, preserving all properties including metadata
+                            let inventoryItem = new InventoryItem(
                                 item.type,
                                 item.name,
                                 item.tileX,
                                 item.tileY,
                                 item.quantity || 1
-                            ));
+                            );
+                            // Preserve metadata if it exists (for evidence items)
+                            if (item.metadata)
+                            {
+                                inventoryItem.metadata = item.metadata;
+                            }
+                            playerData.inventory.push(inventoryItem);
                         }
                     }
                 }
@@ -3442,12 +3449,16 @@ function RenderInventoryModal()
                 let slotX = gridStartX + col * (slotSize + slotSpacing);
                 let slotY = gridStartY + row * (slotSize + slotSpacing);
                 
+                // Check if mouse is over this slot
+                let slotHover = (mousePos.x >= slotX && mousePos.x <= slotX + slotSize &&
+                                mousePos.y >= slotY && mousePos.y <= slotY + slotSize);
+                
                 // Draw slot background
-                mainCanvasContext.fillStyle = '#222';
+                mainCanvasContext.fillStyle = slotHover ? '#333' : '#222';
                 mainCanvasContext.fillRect(slotX, slotY, slotSize, slotSize);
                 
                 // Draw slot border
-                mainCanvasContext.strokeStyle = '#666';
+                mainCanvasContext.strokeStyle = slotHover ? '#888' : '#666';
                 mainCanvasContext.lineWidth = 2;
                 mainCanvasContext.strokeRect(slotX, slotY, slotSize, slotSize);
                 
@@ -3478,13 +3489,21 @@ function RenderInventoryModal()
                     {
                         DrawText(item.quantity.toString(), slotX + slotSize - 4, slotY + slotSize - 4, 10, 'right', 1, '#FFF', '#000');
                     }
+                    
+                    // Handle item click (drop item)
+                    if (slotHover && MouseWasPressed())
+                    {
+                        // Remove item from inventory
+                        playerData.inventory.splice(slotIndex, 1);
+                        SaveGameState();
+                    }
                 }
             }
         }
     }
     
     // Draw instruction text at bottom
-    DrawText('Press I or ESC to close', modalX, modalY + modalHeight/2 - 20, 10, 'center', 1, '#AAA', '#000');
+    DrawText('Click item to drop | Press I or ESC to close', modalX, modalY + modalHeight/2 - 20, 10, 'center', 1, '#AAA', '#000');
 }
 
 ///////////////////////////////////////////////////////////////////////////////

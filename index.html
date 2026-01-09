@@ -103,6 +103,28 @@ margin-right: 10px;
 font-size: 20px;
 margin-right: auto;
 }
+#recordButton {
+background: #44ff44;
+color: #000;
+border: 2px solid #fff;
+padding: 5px 10px;
+cursor: pointer;
+font-family: 'Press Start 2P', monospace;
+font-size: 10px;
+margin-right: 10px;
+}
+#recordButton:hover {
+background: #66ff66;
+}
+#recordButton.recording {
+background: #ff4444;
+color: #fff;
+animation: pulse 1s infinite;
+}
+@keyframes pulse {
+0%, 100% { opacity: 1; }
+50% { opacity: 0.7; }
+}
 #closeModal {
 background: #ff4444;
 color: #fff;
@@ -205,6 +227,7 @@ font-style: italic;
 <div class="modal-header">
 <span id="npcName">NPC Name</span>
 <span id="npcEmoji">😊</span>
+<button id="recordButton">Record</button>
 <button id="closeModal">X</button>
 </div>
 <div id="conversationHistory" class="conversation-area">

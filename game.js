@@ -379,12 +379,12 @@ function Reset()
     // Add boomerangs to inventory to match playerData counts
     while (invBoomerangs < playerData.boomerangs)
     {
-        playerData.AddToInventory('boomerang', 'Briefcase', 0, 5, 1);
+        playerData.AddToInventory('boomerang', 'Boomerang', 0, 5, 1);
         invBoomerangs++;
     }
     while (invBigBoomerangs < playerData.bigBoomerangs)
     {
-        playerData.AddToInventory('bigBoomerang', 'Big Briefcase', 7, 5, 1);
+        playerData.AddToInventory('bigBoomerang', 'Big Boomerang', 7, 5, 1);
         invBigBoomerangs++;
     }
     
@@ -392,7 +392,7 @@ function Reset()
     if (playerData.boomerangs === 0 && playerData.bigBoomerangs === 0 && (!playerData.inventory || playerData.inventory.length === 0))
     {
         playerData.boomerangs = 1;
-        playerData.AddToInventory('boomerang', 'Briefcase', 0, 5, 1);
+        playerData.AddToInventory('boomerang', 'Boomerang', 0, 5, 1);
     }
 }
 
@@ -1792,13 +1792,13 @@ class Boomerang  extends MyGameObject
         {
             playerData.bigBoomerangs++;
             // Always add back to inventory when caught (whether returning or new)
-            playerData.AddToInventory('bigBoomerang', 'Big Briefcase', 7, 5, 1);
+            playerData.AddToInventory('bigBoomerang', 'Big Boomerang', 7, 5, 1);
         }
         else
         {
             playerData.boomerangs++;
             // Always add back to inventory when caught (whether returning or new)
-            playerData.AddToInventory('boomerang', 'Briefcase', 0, 5, 1);
+            playerData.AddToInventory('boomerang', 'Boomerang', 0, 5, 1);
         }
         player.throwTimer.Set(.3);
         player.throwRotation=this.pos.Clone().Subtract(player.pos).Rotation();
@@ -3837,30 +3837,17 @@ function RenderInventoryModal()
                         );
                     }
                     
-                    // Collect tooltip info for items on hover (evidence, bonuses, boomerangs)
-                    if (slotHover && item.name)
+                    // Collect tooltip info for evidence items and bonus items on hover (draw after all slots)
+                    let isBonusItem = item.type === 'credibility' || item.type === 'countersuit' || item.type === 'exculpation';
+                    if (slotHover && item.name && (isEvidence || isBonusItem))
                     {
-                        // Check if item should show tooltip (evidence, bonuses, or boomerangs)
-                        let isBonus = item.type === 'credibility' || item.type === 'countersuit' || item.type === 'exculpation';
-                        let isBoomerang = item.type === 'boomerang' || item.type === 'bigBoomerang';
-                        
-                        if (isEvidence || isBonus || isBoomerang)
-                        {
-                            // For boomerangs, show "Briefcase" instead of "Boomerang"
-                            let tooltipText = item.name;
-                            if (item.type === 'boomerang') {
-                                tooltipText = 'Briefcase';
-                            } else if (item.type === 'bigBoomerang') {
-                                tooltipText = 'Big Briefcase';
-                            }
-                            
-                            let tooltipX = slotX + slotSize + 10;
-                            let tooltipY = slotY;
-                            let tooltipPadding = 8;
-                            let tooltipWidth = tooltipText.length * 6 + tooltipPadding * 2;
-                            let tooltipHeight = 20;
-                            tooltipsToDraw.push({ text: tooltipText, x: tooltipX, y: tooltipY, width: tooltipWidth, height: tooltipHeight });
-                        }
+                        let tooltipText = item.name;
+                        let tooltipX = slotX + slotSize + 10;
+                        let tooltipY = slotY;
+                        let tooltipPadding = 8;
+                        let tooltipWidth = tooltipText.length * 6 + tooltipPadding * 2;
+                        let tooltipHeight = 20;
+                        tooltipsToDraw.push({ text: tooltipText, x: tooltipX, y: tooltipY, width: tooltipWidth, height: tooltipHeight });
                     }
                     
                     // Handle item click

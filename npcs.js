@@ -1021,22 +1021,14 @@ function GenerateNPCs()
     // Create job assignments array
     let jobAssignments = [];
     
-    // Ensure at least 1 courthouse NPC is a lawyer
+    // All courthouse NPCs are lawyers
     if (courthouseNPCIndices.length > 0)
     {
-        // Pick a random courthouse NPC to be a lawyer
-        let lawyerIndex = courthouseNPCIndices[RandInt(courthouseNPCIndices.length)];
-        jobAssignments[lawyerIndex] = 'lawyer';
-        
-        // Assign other jobs to remaining courthouse NPCs
+        // Assign 'lawyer' to all courthouse NPCs
         for(let i = 0; i < courthouseNPCIndices.length; i++)
         {
             let npcIndex = courthouseNPCIndices[i];
-            if (jobAssignments[npcIndex] === undefined)
-            {
-                // Assign random job from pool
-                jobAssignments[npcIndex] = npcJobs[RandInt(npcJobs.length)];
-            }
+            jobAssignments[npcIndex] = 'lawyer';
         }
     }
     

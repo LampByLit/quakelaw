@@ -224,8 +224,19 @@ async function OpenDialogueModal(npc) {
     await LoadConversationHistory(npc);
     
     // If first interaction, generate greeting
+    // But check if judge is uninitialized first
     if (conversationHistory.length === 0) {
-        await GenerateGreeting(npc);
+        if (npc.isJudge && (!npc.characteristic || npc.characteristic === null)) {
+            // Judge is uninitialized - show busy message instead of greeting
+            conversationHistory.push({
+                role: 'npc',
+                message: "I'm too busy to speak right now. I'll be ready momentarily.",
+                timestamp: Date.now()
+            });
+            UpdateConversationDisplay();
+        } else {
+            await GenerateGreeting(npc);
+        }
     }
 }
 
@@ -336,10 +347,14 @@ async function GenerateGreeting(npc) {
         const loading = document.querySelector('.loading-indicator');
         if (loading) loading.remove();
         
-        // Add error message
+        // Add error message - check if judge is uninitialized
+        let errorMessage = `Hello! I'm ${npc.surname}.`;
+        if (npc.isJudge && (!npc.characteristic || npc.characteristic === null)) {
+            errorMessage = "I'm too busy to speak right now. I'll be ready momentarily.";
+        }
         conversationHistory.push({
             role: 'npc',
-            message: `Hello! I'm ${npc.surname}.`,
+            message: errorMessage,
             timestamp: Date.now()
         });
         UpdateConversationDisplay();
@@ -430,20 +445,17 @@ async function SendMessage() {
     // Clear input
     input.value = '';
     
-    // Check if judge is uninitialized
-    if (currentDialogueNPC.isJudge && typeof GetJudgePersona !== 'undefined') {
-        const judgePersona = GetJudgePersona();
-        if (!judgePersona || !judgePersona.name || !judgePersona.characteristic) {
-            // Judge is uninitialized - show busy message
-            conversationHistory.push({
-                role: 'npc',
-                message: "I'm too busy to speak right now. I'll be ready momentarily.",
-                timestamp: Date.now()
-            });
-            UpdateConversationDisplay();
-            ScrollToBottom();
-            return;
-        }
+    // Check if judge is uninitialized (characteristic is null)
+    if (currentDialogueNPC.isJudge && (!currentDialogueNPC.characteristic || currentDialogueNPC.characteristic === null)) {
+        // Judge is uninitialized - show busy message
+        conversationHistory.push({
+            role: 'npc',
+            message: "I'm too busy to speak right now. I'll be ready momentarily.",
+            timestamp: Date.now()
+        });
+        UpdateConversationDisplay();
+        ScrollToBottom();
+        return;
     }
     
     // Disable input while waiting for response
@@ -509,14 +521,10 @@ async function SendMessage() {
         
         // Add error message with more detail
         let errorMessage = "I'm having trouble responding right now. Please try again.";
-        // Check if judge is uninitialized
-        if (currentDialogueNPC.isJudge && typeof GetJudgePersona !== 'undefined') {
-            const judgePersona = GetJudgePersona();
-            if (!judgePersona || !judgePersona.name || !judgePersona.characteristic) {
-                errorMessage = "I'm too busy to speak right now. I'll be ready momentarily.";
-            }
-        }
-        if (error.message && error.message.includes('Failed to fetch') || error.message.includes('ERR_CONNECTION_RESET')) {
+        // Check if judge is uninitialized (characteristic is null)
+        if (currentDialogueNPC.isJudge && (!currentDialogueNPC.characteristic || currentDialogueNPC.characteristic === null)) {
+            errorMessage = "I'm too busy to speak right now. I'll be ready momentarily.";
+        } else if (error.message && (error.message.includes('Failed to fetch') || error.message.includes('ERR_CONNECTION_RESET'))) {
             errorMessage = "Cannot connect to server. Please make sure the server is running on port 3000.";
         }
         conversationHistory.push({

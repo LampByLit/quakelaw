@@ -64,6 +64,7 @@ class GameTime
         this.gameHoursPerRealSecond = 1.0 / this.realTimePerGameHour; // Hours of game time per real second
         this.realTimePerGameDay = this.realTimePerGameHour * 24; // 24 game hours = 600 seconds (10 minutes)
         this.daysPerMonth = 28; // Each month has 28 days (4 weeks)
+        this.gossipProcessedToday = false; // Track if gossip has been processed today
     }
     
     Update()
@@ -77,6 +78,13 @@ class GameTime
         
         // Convert to game hours (1 game hour = 25 real seconds)
         this.gameHour = 7.0 + (realTimeElapsed * this.gameHoursPerRealSecond);
+        
+        // Process gossip at 7:01 (once per day)
+        if (this.gameHour >= 7.01 && this.gameHour < 7.02 && !this.gossipProcessedToday)
+        {
+            ProcessDailyGossip();
+            this.gossipProcessedToday = true;
+        }
         
         // Check for day rollover at midnight (24:00)
         if (this.gameHour >= 24.0)
@@ -102,6 +110,9 @@ class GameTime
                 this.month = 1;
             }
         }
+        
+        // Reset gossip flag for new day
+        this.gossipProcessedToday = false;
         
         // Reset NPCs at start of new day (00:00)
         ResetNPCsForNewDay();
@@ -153,7 +164,8 @@ class GameTime
             daysElapsed: this.daysElapsed,
             month: this.month,
             dayOfMonth: this.dayOfMonth,
-            realTimeStart: this.realTimeStart
+            realTimeStart: this.realTimeStart,
+            gossipProcessedToday: this.gossipProcessedToday
         };
     }
     
@@ -167,6 +179,7 @@ class GameTime
             this.month = data.month || 1;
             this.dayOfMonth = data.dayOfMonth || 1;
             this.realTimeStart = data.realTimeStart || time;
+            this.gossipProcessedToday = data.gossipProcessedToday || false;
         }
     }
 }
@@ -3221,6 +3234,75 @@ function ExitInterior()
         currentInterior = null;
         exteriorLevel = null;
         playerExteriorPos = null;
+    }
+}
+
+// Process daily gossip at 7:01
+async function ProcessDailyGossip()
+{
+    if (!allNPCs || allNPCs.length === 0)
+        return;
+    
+    try {
+        // Collect NPC locations
+        const npcLocations = [];
+        for (const npc of allNPCs)
+        {
+            if (!npc || !npc.surname)
+                continue;
+            
+            // Get current interior address (if any)
+            let interiorAddress = null;
+            if (npc.currentInterior)
+            {
+                // Find the building that owns this interior
+                for (const obj of gameObjects)
+                {
+                    if (obj.isBuilding && obj.interior === npc.currentInterior)
+                    {
+                        interiorAddress = obj.address;
+                        break;
+                    }
+                }
+            }
+            
+            npcLocations.push({
+                surname: npc.surname,
+                currentInterior: interiorAddress,
+                workAddress: npc.workAddress || null,
+                houseAddress: npc.houseAddress || null,
+                characteristic: npc.characteristic || 'friendly'
+            });
+        }
+        
+        // Send to server
+        const sessionId = getSessionId();
+        if (!sessionId)
+        {
+            console.warn('Cannot process gossip: No session ID');
+            return;
+        }
+        
+        const response = await fetch(`/api/npc/gossip/process?sessionId=${encodeURIComponent(sessionId)}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ npcLocations: npcLocations })
+        });
+        
+        if (!response.ok)
+        {
+            const errorData = await response.json().catch(() => ({}));
+            console.warn('Failed to process gossip:', errorData);
+            return;
+        }
+        
+        const data = await response.json();
+        console.log(`Gossip processed: ${data.gossipCount} facts shared among ${npcLocations.length} NPCs`);
+        
+    } catch (error) {
+        console.error('Error processing daily gossip:', error);
     }
 }
 

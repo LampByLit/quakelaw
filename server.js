@@ -6,6 +6,7 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 const fs = require('fs').promises;
+const crypto = require('crypto');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -84,6 +85,115 @@ async function saveConversation(sessionId, conversationData) {
     await ensureSessionDir(sessionId);
     const filePath = getConversationFilePath(sessionId, conversationData.npcSurname);
     await fs.writeFile(filePath, JSON.stringify(conversationData, null, 2), 'utf8');
+}
+
+// ============================================================================
+// Gossip Network Functions
+// ============================================================================
+
+// Spread rates based on NPC characteristics
+const SPREAD_RATES = {
+    'gossipy': 0.9,
+    'talkative': 0.7,
+    'friendly': 0.6,
+    'reserved': 0.3,
+    'quiet': 0.2,
+    'shy': 0.15
+};
+const DEFAULT_SPREAD_RATE = 0.5;
+
+// Get spread rate for an NPC based on their characteristic
+function getSpreadRate(characteristic) {
+    return SPREAD_RATES[characteristic] || DEFAULT_SPREAD_RATE;
+}
+
+// Generate a unique fact ID from content, source, and timestamp
+function generateFactId(content, source, timestamp) {
+    const hash = crypto.createHash('md5').update(`${content}|${source}|${timestamp}`).digest('hex');
+    return `fact-${hash.substring(0, 12)}`;
+}
+
+// Extract sentences from text (split by sentence endings)
+function extractSentences(text) {
+    if (!text || typeof text !== 'string') return [];
+    
+    // Split by sentence endings, filter out empty/very short sentences
+    return text
+        .split(/[.!?]+/)
+        .map(s => s.trim())
+        .filter(s => s.length > 10); // Only meaningful sentences (at least 10 chars)
+}
+
+// Get gossip network file path
+function getGossipNetworkFilePath(sessionId) {
+    const sessionDir = getSessionDirPath(sessionId);
+    return path.join(sessionDir, 'gossip-network.json');
+}
+
+// Load gossip network
+async function loadGossipNetwork(sessionId) {
+    try {
+        const filePath = getGossipNetworkFilePath(sessionId);
+        const data = await fs.readFile(filePath, 'utf8');
+        return JSON.parse(data);
+    } catch (error) {
+        if (error.code === 'ENOENT') {
+            // File doesn't exist, return empty network
+            return { npcKnowledge: {} };
+        }
+        throw error;
+    }
+}
+
+// Save gossip network
+async function saveGossipNetwork(sessionId, networkData) {
+    await ensureSessionDir(sessionId);
+    const filePath = getGossipNetworkFilePath(sessionId);
+    await fs.writeFile(filePath, JSON.stringify(networkData, null, 2), 'utf8');
+}
+
+// Add a fact to an NPC's knowledge (with deduplication)
+async function addFactToNPC(sessionId, npcSurname, fact) {
+    const network = await loadGossipNetwork(sessionId);
+    
+    // Initialize NPC knowledge if it doesn't exist
+    if (!network.npcKnowledge[npcSurname]) {
+        network.npcKnowledge[npcSurname] = { knownFacts: [] };
+    }
+    
+    // Check for duplicates (by fact ID)
+    const existingFactIds = network.npcKnowledge[npcSurname].knownFacts.map(f => f.id);
+    if (!existingFactIds.includes(fact.id)) {
+        network.npcKnowledge[npcSurname].knownFacts.push(fact);
+        await saveGossipNetwork(sessionId, network);
+        return true; // Fact added
+    }
+    
+    return false; // Fact already exists
+}
+
+// Extract facts from a conversation message and add them to NPC knowledge
+async function extractAndAddFacts(sessionId, npcSurname, message, learnedFrom) {
+    const sentences = extractSentences(message);
+    const timestamp = Date.now();
+    let addedCount = 0;
+    
+    for (const sentence of sentences) {
+        const fact = {
+            id: generateFactId(sentence, npcSurname, timestamp),
+            content: sentence,
+            source: npcSurname,
+            learnedFrom: learnedFrom,
+            timestamp: timestamp,
+            type: learnedFrom === 'player' ? 'conversation' : 'gossip'
+        };
+        
+        if (await addFactToNPC(sessionId, npcSurname, fact)) {
+            addedCount++;
+        }
+    }
+    
+    return addedCount;
 }
 
 // Health check endpoint
@@ -292,6 +402,18 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
         const jobContext = job ? `You work as a ${job}. ` : '';
         const isLawyer = job === 'lawyer';
         
+        // Load NPC's known facts from gossip network
+        const gossipNetwork = await loadGossipNetwork(sessionId);
+        const npcKnowledge = gossipNetwork.npcKnowledge[surname];
+        let knownFactsText = '';
+        if (npcKnowledge && npcKnowledge.knownFacts && npcKnowledge.knownFacts.length > 0) {
+            const factsList = npcKnowledge.knownFacts
+                .slice(-10) // Last 10 facts to avoid token bloat
+                .map((fact, idx) => `${idx + 1}. "${fact.content}"`)
+                .join('\n');
+            knownFactsText = `\n\nYou know the following information from conversations and gossip:\n${factsList}\n\nYou can naturally reference this knowledge when talking to the player.`;
+        }
+        
         // Debug: Log what job is being used in prompt
         console.log(`[SERVER] ===== Building prompt for ${surname} =====`);
         console.log(`[SERVER] npcData.job="${npcData.job}", conversation.job="${conversation.job}", final job="${job}"`);
@@ -317,7 +439,7 @@ Your personality traits:
 - Keep your responses brief and character-appropriate
 
 Context:
-${jobContext}You may have witnessed events in town. Talk about your normal life and your job as a ${job || 'regular person'}. You are on a schedule and do not have time to follow the player anywhere. Other characters may ask you questions as well, answer them naturally. This is the real world.
+${jobContext}You may have witnessed events in town. Talk about your normal life and your job as a ${job || 'regular person'}. You are on a schedule and do not have time to follow the player anywhere. Other characters may ask you questions as well, answer them naturally. This is the real world.${knownFactsText}
 
 REMEMBER: Your job is ${job}. You are a ${job}.`;
         
@@ -430,6 +552,10 @@ REMEMBER: Your job is ${job}. You are a ${job}.`;
             timestamp: Date.now()
         };
         conversation.conversation.push(npcMessage);
+        
+        // Extract facts from player message and NPC response
+        await extractAndAddFacts(sessionId, surname, message, 'player');
+        await extractAndAddFacts(sessionId, surname, npcResponse.trim(), surname);
         
         // Update metadata
         conversation.metadata.lastInteraction = Date.now();
@@ -574,6 +700,201 @@ REMEMBER: Your job is ${job}. You are a ${job}.`;
         console.error('Error generating greeting:', error);
         res.status(500).json({ 
             error: 'Failed to generate greeting',
+            message: error.message 
+        });
+    }
+});
+
+// ============================================================================
+// Gossip Network Endpoints
+// ============================================================================
+
+// Get gossip network (for dev command)
+app.get('/api/npc/gossip/network', async (req, res) => {
+    try {
+        const sessionId = req.query.sessionId;
+        if (!sessionId) {
+            return res.status(400).json({ error: 'Session ID is required' });
+        }
+        
+        const network = await loadGossipNetwork(sessionId);
+        res.json(network);
+    } catch (error) {
+        console.error('Error loading gossip network:', error);
+        res.status(500).json({ 
+            error: 'Failed to load gossip network',
+            message: error.message 
+        });
+    }
+});
+
+// Get specific NPC's known facts (for dev command)
+app.get('/api/npc/gossip/facts/:surname', async (req, res) => {
+    try {
+        const sessionId = req.query.sessionId;
+        if (!sessionId) {
+            return res.status(400).json({ error: 'Session ID is required' });
+        }
+        
+        const surname = req.params.surname;
+        const network = await loadGossipNetwork(sessionId);
+        const npcKnowledge = network.npcKnowledge[surname];
+        
+        if (!npcKnowledge || !npcKnowledge.knownFacts || npcKnowledge.knownFacts.length === 0) {
+            return res.json({ 
+                surname: surname,
+                knownFacts: [],
+                count: 0
+            });
+        }
+        
+        res.json({
+            surname: surname,
+            knownFacts: npcKnowledge.knownFacts,
+            count: npcKnowledge.knownFacts.length
+        });
+    } catch (error) {
+        console.error('Error loading NPC facts:', error);
+        res.status(500).json({ 
+            error: 'Failed to load NPC facts',
+            message: error.message 
+        });
+    }
+});
+
+// Process daily gossip (called at 7:01 each day)
+app.post('/api/npc/gossip/process', async (req, res) => {
+    try {
+        const sessionId = req.query.sessionId;
+        if (!sessionId) {
+            return res.status(400).json({ error: 'Session ID is required' });
+        }
+        
+        const { npcLocations } = req.body; // Array of {surname, currentInterior, workAddress, houseAddress, characteristic}
+        
+        if (!npcLocations || !Array.isArray(npcLocations)) {
+            return res.status(400).json({ error: 'NPC locations array is required' });
+        }
+        
+        const network = await loadGossipNetwork(sessionId);
+        let gossipCount = 0;
+        
+        // Group NPCs by location
+        const locationGroups = {};
+        
+        for (const npc of npcLocations) {
+            // Group by currentInterior (same building)
+            const interiorKey = `interior:${npc.currentInterior || 'exterior'}`;
+            if (!locationGroups[interiorKey]) {
+                locationGroups[interiorKey] = [];
+            }
+            locationGroups[interiorKey].push(npc);
+            
+            // Group by workAddress (coworkers)
+            if (npc.workAddress) {
+                const workKey = `work:${npc.workAddress}`;
+                if (!locationGroups[workKey]) {
+                    locationGroups[workKey] = [];
+                }
+                if (!locationGroups[workKey].find(n => n.surname === npc.surname)) {
+                    locationGroups[workKey].push(npc);
+                }
+            }
+            
+            // Group by houseAddress (housemates)
+            if (npc.houseAddress) {
+                const houseKey = `house:${npc.houseAddress}`;
+                if (!locationGroups[houseKey]) {
+                    locationGroups[houseKey] = [];
+                }
+                if (!locationGroups[houseKey].find(n => n.surname === npc.surname)) {
+                    locationGroups[houseKey].push(npc);
+                }
+            }
+        }
+        
+        // Process gossip for each group
+        for (const groupKey in locationGroups) {
+            const group = locationGroups[groupKey];
+            
+            // Only process groups with 2+ NPCs
+            if (group.length < 2) continue;
+            
+            // For each pair in the group, have them share knowledge
+            for (let i = 0; i < group.length; i++) {
+                for (let j = i + 1; j < group.length; j++) {
+                    const npcA = group[i];
+                    const npcB = group[j];
+                    
+                    // Get their knowledge
+                    const knowledgeA = network.npcKnowledge[npcA.surname];
+                    const knowledgeB = network.npcKnowledge[npcB.surname];
+                    
+                    // NPC A shares with NPC B
+                    if (knowledgeA && knowledgeA.knownFacts) {
+                        const spreadRate = getSpreadRate(npcA.characteristic);
+                        for (const fact of knowledgeA.knownFacts) {
+                            if (Math.random() < spreadRate) {
+                                // Check if NPC B already knows this fact
+                                const bFacts = knowledgeB ? knowledgeB.knownFacts : [];
+                                if (!bFacts.find(f => f.id === fact.id)) {
+                                    // NPC B learns the fact
+                                    const newFact = {
+                                        ...fact,
+                                        learnedFrom: npcA.surname,
+                                        type: 'gossip'
+                                    };
+                                    if (!network.npcKnowledge[npcB.surname]) {
+                                        network.npcKnowledge[npcB.surname] = { knownFacts: [] };
+                                    }
+                                    network.npcKnowledge[npcB.surname].knownFacts.push(newFact);
+                                    gossipCount++;
+                                }
+                            }
+                        }
+                    }
+                    
+                    // NPC B shares with NPC A
+                    if (knowledgeB && knowledgeB.knownFacts) {
+                        const spreadRate = getSpreadRate(npcB.characteristic);
+                        for (const fact of knowledgeB.knownFacts) {
+                            if (Math.random() < spreadRate) {
+                                // Check if NPC A already knows this fact
+                                const aFacts = knowledgeA ? knowledgeA.knownFacts : [];
+                                if (!aFacts.find(f => f.id === fact.id)) {
+                                    // NPC A learns the fact
+                                    const newFact = {
+                                        ...fact,
+                                        learnedFrom: npcB.surname,
+                                        type: 'gossip'
+                                    };
+                                    if (!network.npcKnowledge[npcA.surname]) {
+                                        network.npcKnowledge[npcA.surname] = { knownFacts: [] };
+                                    }
+                                    network.npcKnowledge[npcA.surname].knownFacts.push(newFact);
+                                    gossipCount++;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        // Save updated network
+        await saveGossipNetwork(sessionId, network);
+        
+        res.json({
+            success: true,
+            message: `Processed gossip for ${npcLocations.length} NPCs`,
+            gossipCount: gossipCount,
+            groupsProcessed: Object.keys(locationGroups).length
+        });
+        
+    } catch (error) {
+        console.error('Error processing gossip:', error);
+        res.status(500).json({ 
+            error: 'Failed to process gossip',
             message: error.message 
         });
     }

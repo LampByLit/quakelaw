@@ -186,6 +186,64 @@ async function SendMessage() {
     
     if (!message) return;
     
+    // Check for dev command: npc.knownfacts
+    if (message.toLowerCase() === 'npc.knownfacts') {
+        // Fetch and display NPC's known facts
+        try {
+            const sessionId = getSessionId();
+            const response = await fetch(`/api/npc/gossip/facts/${encodeURIComponent(currentDialogueNPC.surname)}?sessionId=${encodeURIComponent(sessionId)}`);
+            
+            if (!response.ok) {
+                throw new Error('Failed to load facts');
+            }
+            
+            const data = await response.json();
+            const facts = data.knownFacts || [];
+            
+            // Add player message
+            conversationHistory.push({
+                role: 'player',
+                message: message,
+                timestamp: Date.now()
+            });
+            
+            // Format facts for display
+            let factsText = `${currentDialogueNPC.surname}'s Known Facts (${facts.length} total):\n\n`;
+            
+            if (facts.length === 0) {
+                factsText += 'No known facts yet.';
+            } else {
+                facts.forEach((fact, idx) => {
+                    const date = new Date(fact.timestamp);
+                    const dateStr = date.toLocaleString();
+                    const learnedFrom = fact.learnedFrom === 'player' ? 'player' : `${fact.learnedFrom} via gossip`;
+                    factsText += `${idx + 1}. [${dateStr}] "${fact.content}" (learned from: ${learnedFrom})\n`;
+                });
+            }
+            
+            // Add NPC response with facts
+            conversationHistory.push({
+                role: 'npc',
+                message: factsText,
+                timestamp: Date.now()
+            });
+            
+            UpdateConversationDisplay();
+            input.value = '';
+            return;
+        } catch (error) {
+            console.error('Error loading NPC facts:', error);
+            conversationHistory.push({
+                role: 'npc',
+                message: 'Error loading known facts.',
+                timestamp: Date.now()
+            });
+            UpdateConversationDisplay();
+            input.value = '';
+            return;
+        }
+    }
+    
     // Add player message to history immediately
     const playerMessage = {
         role: 'player',
@@ -213,6 +271,9 @@ async function SendMessage() {
     
     try {
         const sessionId = getSessionId();
+        if (!sessionId) {
+            throw new Error('Failed to get session ID');
+        }
         const response = await fetch(`/api/npc/conversation/${encodeURIComponent(currentDialogueNPC.surname)}?sessionId=${encodeURIComponent(sessionId)}`, {
             method: 'POST',
             headers: {
@@ -248,10 +309,14 @@ async function SendMessage() {
         const loading = document.querySelector('.loading-indicator');
         if (loading) loading.remove();
         
-        // Add error message
+        // Add error message with more detail
+        let errorMessage = "I'm having trouble responding right now. Please try again.";
+        if (error.message && error.message.includes('Failed to fetch') || error.message.includes('ERR_CONNECTION_RESET')) {
+            errorMessage = "Cannot connect to server. Please make sure the server is running on port 3000.";
+        }
         conversationHistory.push({
             role: 'npc',
-            message: "I'm having trouble responding right now. Please try again.",
+            message: errorMessage,
             timestamp: Date.now()
         });
         UpdateConversationDisplay();

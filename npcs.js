@@ -1110,48 +1110,18 @@ function GenerateNPCs()
 // Debug function to display all NPCs and their jobs in the console
 function DebugLogAllNPCs()
 {
-    console.log('═══════════════════════════════════════════════════════════');
     console.log(`NPC TOWN CENSUS - Total NPCs: ${allNPCs.length}`);
-    console.log('═══════════════════════════════════════════════════════════');
+    console.log('');
     
-    // Group by job for easier reading
-    let npcsByJob = {};
-    for(let npc of allNPCs)
+    // Simple numbered list format
+    for(let i = 0; i < allNPCs.length; i++)
     {
+        let npc = allNPCs[i];
         let job = npc.job || 'unemployed';
-        if (!npcsByJob[job])
-        {
-            npcsByJob[job] = [];
-        }
-        npcsByJob[job].push(npc);
+        console.log(`${i + 1}. ${npc.surname}, ${job}, home: ${npc.houseAddress}, work: ${npc.workAddress}`);
     }
     
-    // Sort jobs alphabetically
-    let sortedJobs = Object.keys(npcsByJob).sort();
-    
-    // Display grouped by job
-    for(let job of sortedJobs)
-    {
-        let npcs = npcsByJob[job];
-        console.log(`\n${job.toUpperCase()} (${npcs.length}):`);
-        for(let npc of npcs)
-        {
-            let emojiCode = npc.emoji || '?';
-            let emojiChar = String.fromCodePoint(parseInt(emojiCode, 16));
-            console.log(`  • ${npc.surname} ${emojiChar} (${npc.characteristic})`);
-            console.log(`    House Address: ${npc.houseAddress} (where they start and return to)`);
-            console.log(`    Work Address: ${npc.workAddress} (where they go during work hours)`);
-        }
-    }
-    
-    // Summary statistics
-    console.log('\n═══════════════════════════════════════════════════════════');
-    console.log('SUMMARY:');
-    for(let job of sortedJobs)
-    {
-        console.log(`  ${job}: ${npcsByJob[job].length}`);
-    }
-    console.log('═══════════════════════════════════════════════════════════\n');
+    console.log('');
 }
 
 // Reset all NPCs at start of day (called at 06:59)

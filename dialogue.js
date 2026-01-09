@@ -85,21 +85,10 @@ async function OpenDialogueModal(npc) {
             let events = GetEventsForDate(currentYear, gameTime.month, gameTime.dayOfMonth);
             let caseEvent = events.find(e => e.taskId === 'caseOfTheMondays' && e.status === 'pending');
             
-            // Also check if a case is already initialized to prevent duplicate initialization
-            let activeCase = null;
-            if (typeof GetActiveCase !== 'undefined')
+            // CRITICAL: Mark event as completed and remove it IMMEDIATELY when dialogue opens with judge on Monday
+            // This happens regardless of whether a case is already initialized
+            if (caseEvent)
             {
-                activeCase = GetActiveCase();
-            }
-            
-            if (caseEvent && typeof InitializeNewCase !== 'undefined' && !activeCase)
-            {
-                // Prevent double-triggering if already initializing
-                if (caseEvent.isInitializing)
-                {
-                    return; // Already processing, don't start again
-                }
-                
                 // Mark event as completed immediately - speaking to judge on Monday completes the event, that's final
                 caseEvent.status = 'completed';
                 if (typeof RemoveEvent !== 'undefined')
@@ -111,6 +100,23 @@ async function OpenDialogueModal(npc) {
                 if (typeof ShowSuccessNotification !== 'undefined')
                 {
                     ShowSuccessNotification('Event attended: A Case of the Mondays');
+                }
+            }
+            
+            // Also check if a case is already initialized to prevent duplicate initialization
+            let activeCase = null;
+            if (typeof GetActiveCase !== 'undefined')
+            {
+                activeCase = GetActiveCase();
+            }
+            
+            // Only initialize a new case if one doesn't already exist
+            if (caseEvent && typeof InitializeNewCase !== 'undefined' && !activeCase)
+            {
+                // Prevent double-triggering if already initializing
+                if (caseEvent.isInitializing)
+                {
+                    return; // Already processing, don't start again
                 }
                 
                 // Mark as initializing to prevent duplicate triggers

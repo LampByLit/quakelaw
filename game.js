@@ -58,6 +58,7 @@ let evidenceNamingLastKey = null;
 let evidenceViewModalOpen = false;
 let evidenceViewItem = null;
 let evidenceViewScrollOffset = 0;
+let townMapVisible = false; // Toggle for town grid map
 
 // Calendar system
 let calendarOpen = false;
@@ -734,6 +735,13 @@ function Update()
         calendarOpen = !calendarOpen;
     }
     
+    // Check for town map key press (M key = 77)
+    // Don't toggle map if dialogue modal is open
+    if (KeyWasPressed(77) && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()))
+    {
+        townMapVisible = !townMapVisible;
+    }
+    
     // Close inventory with Escape key
     // Don't close inventory if dialogue modal, evidence naming modal, or evidence view modal is open (ESC closes those instead)
     if (inventoryOpen && KeyWasPressed(27) && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()) && !evidenceNamingModalOpen && !evidenceViewModalOpen)
@@ -1007,61 +1015,120 @@ function MazeDataPos(pos)
 
 function RenderMap()
 {
-    // Minimap disabled for now - can re-enable later with town-specific logic
-    return;
-
-    let iconSize = 16;
-    let y = iconSize;
-    let w = 24;
-    let o = mainCanvasSize.x-levelMazeSize*w-10;
-
-    // show level number
-    y += 2*iconSize;
-
-    // mark room player is in as visited
-    if (levelMaze[MazeDataPos(player.pos)])
-        levelMaze[MazeDataPos(player.pos)] = -1;
-
-    let cellWidth = levelSize / levelMazeSize;
-    let playerMazeX = player.pos.x / cellWidth | 0;
-    let playerMazeY = player.pos.y / cellWidth | 0;
-
-    // render minimap
-    mainCanvasContext.strokeStyle='#000';
-    mainCanvasContext.lineWidth=2;
-    mainCanvasContext.strokeRect(o,10,w*levelMazeSize,w*levelMazeSize);
-    for(let y=levelMazeSize;y--;)
-    for(let x=levelMazeSize;x--;)
+    // Only show town map when toggled on and not in interior
+    if (!townMapVisible || currentInterior)
+        return;
+    
+    // Map dimensions
+    let mapSize = 140; // Fixed size
+    let mapPadding = 10;
+    let mapX = mapPadding;
+    let mapY = mainCanvasSize.y - mapSize - mapPadding;
+    
+    // Grid is 4x4 cells
+    let gridSize = 4;
+    let cellSize = mapSize / gridSize;
+    
+    // Calculate world cell size (same as in GenerateTown)
+    let worldCellSize = levelSize / 4;
+    
+    // Draw semi-transparent background
+    mainCanvasContext.fillStyle = 'rgba(0, 0, 0, 0.7)';
+    mainCanvasContext.fillRect(mapX, mapY, mapSize, mapSize);
+    
+    // Draw grid cells and collect buildings
+    let cellBuildings = []; // Array of arrays: cellBuildings[cellY][cellX] = [address1, address2, ...]
+    
+    // Initialize cell arrays
+    for(let cy = 0; cy < gridSize; cy++)
     {
-        let m = levelMaze[x+y*levelMazeSize];
-
-        let c = '#0004'; // unexplored invalid
-        if (m>0)
-            c = '#333'; // unexplored valid
-        if (m==-1) 
-            c = '#FFF'; // explored
-        if (x == playerMazeX && y == playerMazeY)
-            c = '#F00'; // player location
-
-        mainCanvasContext.fillStyle=c;
-        mainCanvasContext.fillRect(o+x*w,10+y*w,w,w);
-        if (m)
-            mainCanvasContext.strokeRect(o+x*w,10+y*w,w,w);
+        cellBuildings[cy] = [];
+        for(let cx = 0; cx < gridSize; cx++)
+        {
+            cellBuildings[cy][cx] = [];
+        }
     }
     
-    // draw the objects on the minimap
-    gameObjects.forEach(object=>
+    // Get all buildings and map them to grid cells
+    for(let obj of gameObjects)
     {
-        let r = object.radarSize;
-        if (r && levelMaze[MazeDataPos(object.pos)]<0)
+        if (obj.isBuilding && obj.address !== null && obj.address !== undefined)
         {
-            let p = object.pos.Clone(w/cellWidth).AddXY(o,10).Round();
-            mainCanvasContext.fillStyle=object==player?'#FFF':'#000';
-            mainCanvasContext.fillRect(p.x-r-1,p.y-r-1,2*r+2,2*r+2);
-            mainCanvasContext.fillStyle=object==player?'#000':object.isEnemy?'#F00':'#FFF';
-            mainCanvasContext.fillRect(p.x-r,p.y-r,2*r,2*r);
+            // Calculate which grid cell this building is in
+            let cellX = Math.floor(obj.pos.x / worldCellSize);
+            let cellY = Math.floor(obj.pos.y / worldCellSize);
+            
+            // Clamp to valid grid range (0-3)
+            cellX = Math.max(0, Math.min(3, cellX));
+            cellY = Math.max(0, Math.min(3, cellY));
+            
+            // Add address to cell
+            cellBuildings[cellY][cellX].push(obj.address);
         }
-    });
+    }
+    
+    // Calculate player's grid cell
+    let playerCellX = -1;
+    let playerCellY = -1;
+    if (player && !currentInterior)
+    {
+        playerCellX = Math.floor(player.pos.x / worldCellSize);
+        playerCellY = Math.floor(player.pos.y / worldCellSize);
+        playerCellX = Math.max(0, Math.min(3, playerCellX));
+        playerCellY = Math.max(0, Math.min(3, playerCellY));
+    }
+    
+    // Draw grid cells
+    for(let cy = 0; cy < gridSize; cy++)
+    {
+        for(let cx = 0; cx < gridSize; cx++)
+        {
+            let cellX = mapX + cx * cellSize;
+            let cellY = mapY + cy * cellSize;
+            
+            // Highlight player's cell
+            if (cx === playerCellX && cy === playerCellY)
+            {
+                mainCanvasContext.fillStyle = 'rgba(74, 255, 74, 0.3)';
+                mainCanvasContext.fillRect(cellX, cellY, cellSize, cellSize);
+            }
+            
+            // Draw cell border
+            mainCanvasContext.strokeStyle = '#666';
+            mainCanvasContext.lineWidth = 1;
+            mainCanvasContext.strokeRect(cellX, cellY, cellSize, cellSize);
+            
+            // Draw address numbers in this cell
+            let addresses = cellBuildings[cy][cx];
+            if (addresses.length > 0)
+            {
+                // Sort addresses for consistent display
+                addresses.sort((a, b) => a - b);
+                
+                // Display addresses (if multiple, show them stacked or comma-separated)
+                let addressText = addresses.join(', ');
+                let fontSize = 8;
+                
+                // Adjust font size if text is too long
+                if (addressText.length > 8)
+                {
+                    fontSize = 7;
+                }
+                if (addressText.length > 12)
+                {
+                    fontSize = 6;
+                }
+                
+                // Draw address text in center of cell
+                DrawText(addressText, cellX + cellSize/2, cellY + cellSize/2, fontSize, 'center', 1, '#FFF', '#000');
+            }
+        }
+    }
+    
+    // Draw outer border
+    mainCanvasContext.strokeStyle = '#FFF';
+    mainCanvasContext.lineWidth = 2;
+    mainCanvasContext.strokeRect(mapX, mapY, mapSize, mapSize);
 }
 
 ///////////////////////////////////////////////////////////////////////////////

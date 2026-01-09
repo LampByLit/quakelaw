@@ -430,6 +430,22 @@ async function SendMessage() {
     // Clear input
     input.value = '';
     
+    // Check if judge is uninitialized
+    if (currentDialogueNPC.isJudge && typeof GetJudgePersona !== 'undefined') {
+        const judgePersona = GetJudgePersona();
+        if (!judgePersona || !judgePersona.name || !judgePersona.characteristic) {
+            // Judge is uninitialized - show busy message
+            conversationHistory.push({
+                role: 'npc',
+                message: "I'm too busy to speak right now. I'll be ready momentarily.",
+                timestamp: Date.now()
+            });
+            UpdateConversationDisplay();
+            ScrollToBottom();
+            return;
+        }
+    }
+    
     // Disable input while waiting for response
     isLoadingResponse = true;
     const sendBtn = document.getElementById('sendMessage');
@@ -493,6 +509,13 @@ async function SendMessage() {
         
         // Add error message with more detail
         let errorMessage = "I'm having trouble responding right now. Please try again.";
+        // Check if judge is uninitialized
+        if (currentDialogueNPC.isJudge && typeof GetJudgePersona !== 'undefined') {
+            const judgePersona = GetJudgePersona();
+            if (!judgePersona || !judgePersona.name || !judgePersona.characteristic) {
+                errorMessage = "I'm too busy to speak right now. I'll be ready momentarily.";
+            }
+        }
         if (error.message && error.message.includes('Failed to fetch') || error.message.includes('ERR_CONNECTION_RESET')) {
             errorMessage = "Cannot connect to server. Please make sure the server is running on port 3000.";
         }

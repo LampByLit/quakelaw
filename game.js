@@ -725,6 +725,23 @@ function Update()
         inventoryOpen = !inventoryOpen;
     }
     
+    // Check for calendar key press (C key = 67)
+    // Don't open calendar if dialogue modal is open
+    if (KeyWasPressed(67) && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()))
+    {
+        if (calendarOpen) {
+            calendarSelectedDate = null; // Reset selected date when closing
+        } else {
+            // Sync calendar view with current date when opening
+            if (gameTime)
+            {
+                calendarViewYear = gameTime.daysElapsed >= 0 ? 1 : 0;
+                calendarViewMonth = gameTime.month;
+            }
+        }
+        calendarOpen = !calendarOpen;
+    }
+    
     // Close inventory with Escape key
     // Don't close inventory if dialogue modal, evidence naming modal, or evidence view modal is open (ESC closes those instead)
     if (inventoryOpen && KeyWasPressed(27) && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()) && !evidenceNamingModalOpen && !evidenceViewModalOpen)

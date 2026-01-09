@@ -175,6 +175,8 @@ function ValidateCalendarEvents()
         return;
     
     let eventsToRemove = [];
+    let sundayCoffeeToReschedule = [];
+    
     for (let event of calendarEvents)
     {
         // Check if event has an NPC surname
@@ -184,8 +186,18 @@ function ValidateCalendarEvents()
             let npc = GetNPCBySurname(event.npcSurname);
             if (!npc)
             {
-                console.warn(`ValidateCalendarEvents: Removing event for non-existent NPC ${event.npcSurname}`);
-                eventsToRemove.push(event.id);
+                // If it's a Sunday Coffee event, reschedule it instead of just removing
+                if (event.taskId === 'sundayCoffee')
+                {
+                    console.log(`ValidateCalendarEvents: NPC ${event.npcSurname} no longer exists, rescheduling Sunday Coffee event`);
+                    sundayCoffeeToReschedule.push(event);
+                    eventsToRemove.push(event.id);
+                }
+                else
+                {
+                    console.warn(`ValidateCalendarEvents: Removing event for non-existent NPC ${event.npcSurname}`);
+                    eventsToRemove.push(event.id);
+                }
             }
         }
     }
@@ -194,6 +206,12 @@ function ValidateCalendarEvents()
     for (let eventId of eventsToRemove)
     {
         RemoveEvent(eventId);
+    }
+    
+    // Reschedule Sunday Coffee events if needed
+    if (sundayCoffeeToReschedule.length > 0 && typeof ScheduleSundayCoffee !== 'undefined')
+    {
+        ScheduleSundayCoffee();
     }
 }
 

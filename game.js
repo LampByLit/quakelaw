@@ -49,6 +49,13 @@ let loadingProgress = 0;
 let loadingMessage = '';
 let inventoryOpen = false;
 let inventoryButtonHover = false;
+let evidenceNamingModalOpen = false;
+let evidenceNamingInput = '';
+let evidenceNamingCallback = null;
+let evidenceNamingDefaultName = '';
+let evidenceNamingLastKey = null;
+let evidenceViewModalOpen = false;
+let evidenceViewItem = null;
 
 class GameTime
 {
@@ -659,8 +666,8 @@ function Update()
     }
     
     // Close inventory with Escape key
-    // Don't close inventory if dialogue modal is open (ESC closes dialogue instead)
-    if (inventoryOpen && KeyWasPressed(27) && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()))
+    // Don't close inventory if dialogue modal, evidence naming modal, or evidence view modal is open (ESC closes those instead)
+    if (inventoryOpen && KeyWasPressed(27) && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()) && !evidenceNamingModalOpen && !evidenceViewModalOpen)
     {
         inventoryOpen = false;
     }
@@ -811,12 +818,6 @@ function PostRender()
 
     RenderMap();
     
-    // mouse cursor
-    mainCanvas.style.cursor='none'; 
-    let mx = mousePos.x|0;
-    let my = mousePos.y|0;
-    let mw = 2;
-    let mh = 15;
     // Display "F" prompt when near bed
     if (player && player.nearBed)
     {
@@ -828,17 +829,34 @@ function PostRender()
         DrawText('F', promptPos.x|0, promptPos.y|0, 24, 'center', 1, '#FFF', '#000');
     }
     
-    // mouse cursor
+    // Render inventory modal if open
+    if (inventoryOpen)
+    {
+        RenderInventoryModal();
+    }
+    
+    // mouse cursor (rendered last so it appears on top of everything, including inventory)
+    mainCanvas.style.cursor='none'; 
+    let mx = mousePos.x|0;
+    let my = mousePos.y|0;
+    let mw = 2;
+    let mh = 15;
     mainCanvasContext.globalCompositeOperation = 'difference';
     mainCanvasContext.fillStyle='#FFF'
     mainCanvasContext.fillRect(mx-mw,my-mh,mw*2,mh*2);
     mainCanvasContext.fillRect(mx-mh,my-mw,mh*2,mw*2);
     mainCanvasContext.globalCompositeOperation = 'source-over';
     
-    // Render inventory modal if open
-    if (inventoryOpen)
+    // Render evidence naming modal if open
+    if (evidenceNamingModalOpen)
     {
-        RenderInventoryModal();
+        RenderEvidenceNamingModal();
+    }
+    
+    // Render evidence view modal if open
+    if (evidenceViewModalOpen)
+    {
+        RenderEvidenceViewModal();
     }
 }
 
@@ -3466,6 +3484,7 @@ function RenderInventoryModal()
                 if (slotIndex < playerData.inventory.length && playerData.inventory[slotIndex])
                 {
                     let item = playerData.inventory[slotIndex];
+                    let isEvidence = item.type && item.type.startsWith('evidence_');
                     
                     // Draw item sprite
                     let spriteSize = slotSize - 8;
@@ -3490,12 +3509,43 @@ function RenderInventoryModal()
                         DrawText(item.quantity.toString(), slotX + slotSize - 4, slotY + slotSize - 4, 10, 'right', 1, '#FFF', '#000');
                     }
                     
-                    // Handle item click (drop item)
+                    // Show tooltip for evidence items on hover
+                    if (slotHover && isEvidence && item.name)
+                    {
+                        let tooltipText = item.name;
+                        let tooltipX = slotX + slotSize + 10;
+                        let tooltipY = slotY;
+                        let tooltipPadding = 8;
+                        let tooltipWidth = tooltipText.length * 6 + tooltipPadding * 2;
+                        let tooltipHeight = 20;
+                        
+                        // Draw tooltip background
+                        mainCanvasContext.fillStyle = 'rgba(0, 0, 0, 0.9)';
+                        mainCanvasContext.fillRect(tooltipX, tooltipY - tooltipHeight/2, tooltipWidth, tooltipHeight);
+                        
+                        // Draw tooltip border
+                        mainCanvasContext.strokeStyle = '#FFF';
+                        mainCanvasContext.lineWidth = 2;
+                        mainCanvasContext.strokeRect(tooltipX, tooltipY - tooltipHeight/2, tooltipWidth, tooltipHeight);
+                        
+                        // Draw tooltip text
+                        DrawText(tooltipText, tooltipX + tooltipWidth/2, tooltipY, 10, 'center', 1, '#FFF', '#000');
+                    }
+                    
+                    // Handle item click
                     if (slotHover && MouseWasPressed())
                     {
-                        // Remove item from inventory
-                        playerData.inventory.splice(slotIndex, 1);
-                        SaveGameState();
+                        if (isEvidence)
+                        {
+                            // Open evidence viewing modal
+                            OpenEvidenceViewModal(item, slotIndex);
+                        }
+                        else
+                        {
+                            // Drop non-evidence items immediately
+                            playerData.inventory.splice(slotIndex, 1);
+                            SaveGameState();
+                        }
                     }
                 }
             }
@@ -3504,6 +3554,459 @@ function RenderInventoryModal()
     
     // Draw instruction text at bottom
     DrawText('Click item to drop | Press I or ESC to close', modalX, modalY + modalHeight/2 - 20, 10, 'center', 1, '#AAA', '#000');
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Evidence naming modal
+
+function OpenEvidenceNamingModal(defaultName, callback) {
+    evidenceNamingModalOpen = true;
+    evidenceNamingInput = defaultName || '';
+    evidenceNamingDefaultName = defaultName || '';
+    evidenceNamingCallback = callback;
+}
+
+function CloseEvidenceNamingModal() {
+    evidenceNamingModalOpen = false;
+    evidenceNamingInput = '';
+    evidenceNamingDefaultName = '';
+    evidenceNamingCallback = null;
+}
+
+function RenderEvidenceNamingModal() {
+    // Draw semi-transparent overlay
+    mainCanvasContext.fillStyle = 'rgba(0, 0, 0, 0.8)';
+    mainCanvasContext.fillRect(0, 0, mainCanvasSize.x, mainCanvasSize.y);
+    
+    // Modal dimensions
+    let modalWidth = 400;
+    let modalHeight = 180;
+    let modalX = mainCanvasSize.x / 2;
+    let modalY = mainCanvasSize.y / 2;
+    
+    // Draw modal background
+    mainCanvasContext.fillStyle = '#333';
+    mainCanvasContext.fillRect(modalX - modalWidth/2, modalY - modalHeight/2, modalWidth, modalHeight);
+    
+    // Draw modal border
+    mainCanvasContext.strokeStyle = '#FFF';
+    mainCanvasContext.lineWidth = 3;
+    mainCanvasContext.strokeRect(modalX - modalWidth/2, modalY - modalHeight/2, modalWidth, modalHeight);
+    
+    // Draw title
+    DrawText('NAME EVIDENCE', modalX, modalY - modalHeight/2 + 25, 14, 'center', 1, '#FFF', '#000');
+    
+    // Draw input box
+    let inputWidth = modalWidth - 40;
+    let inputHeight = 40;
+    let inputX = modalX;
+    let inputY = modalY - 10;
+    
+    // Input background
+    mainCanvasContext.fillStyle = '#222';
+    mainCanvasContext.fillRect(inputX - inputWidth/2, inputY - inputHeight/2, inputWidth, inputHeight);
+    
+    // Input border
+    mainCanvasContext.strokeStyle = '#FFF';
+    mainCanvasContext.lineWidth = 2;
+    mainCanvasContext.strokeRect(inputX - inputWidth/2, inputY - inputHeight/2, inputWidth, inputHeight);
+    
+    // Draw input text (with cursor) - preserve case
+    let displayText = evidenceNamingInput || '';
+    let cursorBlink = (Math.floor(time * 4) % 2) === 0; // Blink cursor
+    
+    // Limit text width - truncate if too long
+    let maxChars = 30;
+    if (displayText.length > maxChars) {
+        displayText = displayText.substring(0, maxChars);
+    }
+    let textToShow = displayText + (cursorBlink ? '|' : '');
+    
+    // Draw text directly to preserve case (DrawText converts to uppercase)
+    mainCanvasContext.fillStyle = '#FFF';
+    mainCanvasContext.font = '900 12px "Press Start 2P"';
+    mainCanvasContext.textAlign = 'left';
+    mainCanvasContext.textBaseline = 'middle';
+    mainCanvasContext.fillText(textToShow, inputX - inputWidth/2 + 10, inputY);
+    
+    // Draw buttons
+    let buttonY = modalY + modalHeight/2 - 35;
+    let buttonWidth = 100;
+    let buttonHeight = 30;
+    let buttonSpacing = 20;
+    
+    // OK button
+    let okButtonX = modalX - buttonWidth/2 - buttonSpacing/2;
+    let okButtonHover = (mousePos.x >= okButtonX - buttonWidth/2 && mousePos.x <= okButtonX + buttonWidth/2 &&
+                        mousePos.y >= buttonY - buttonHeight/2 && mousePos.y <= buttonY + buttonHeight/2);
+    
+    mainCanvasContext.fillStyle = okButtonHover ? '#4A9' : '#4A6';
+    mainCanvasContext.fillRect(okButtonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
+    mainCanvasContext.strokeStyle = '#FFF';
+    mainCanvasContext.lineWidth = 2;
+    mainCanvasContext.strokeRect(okButtonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
+    DrawText('OK', okButtonX, buttonY, 12, 'center', 1, '#FFF', '#000');
+    
+    // Cancel button
+    let cancelButtonX = modalX + buttonWidth/2 + buttonSpacing/2;
+    let cancelButtonHover = (mousePos.x >= cancelButtonX - buttonWidth/2 && mousePos.x <= cancelButtonX + buttonWidth/2 &&
+                            mousePos.y >= buttonY - buttonHeight/2 && mousePos.y <= buttonY + buttonHeight/2);
+    
+    mainCanvasContext.fillStyle = cancelButtonHover ? '#F44' : '#844';
+    mainCanvasContext.fillRect(cancelButtonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
+    mainCanvasContext.strokeStyle = '#FFF';
+    mainCanvasContext.lineWidth = 2;
+    mainCanvasContext.strokeRect(cancelButtonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
+    DrawText('CANCEL', cancelButtonX, buttonY, 12, 'center', 1, '#FFF', '#000');
+    
+    // Handle button clicks
+    if (MouseWasPressed()) {
+        if (okButtonHover) {
+            // Confirm
+            let finalName = evidenceNamingInput.trim() || evidenceNamingDefaultName.trim();
+            if (finalName && evidenceNamingCallback) {
+                evidenceNamingCallback(finalName);
+            }
+            CloseEvidenceNamingModal();
+        } else if (cancelButtonHover) {
+            // Cancel
+            if (evidenceNamingCallback) {
+                evidenceNamingCallback(null);
+            }
+            CloseEvidenceNamingModal();
+        }
+    }
+    
+    // Handle keyboard input
+    HandleEvidenceNamingInput();
+}
+
+function HandleEvidenceNamingInput() {
+    // Handle Enter key (confirm)
+    if (KeyWasPressed(13)) { // Enter
+        let finalName = evidenceNamingInput.trim() || evidenceNamingDefaultName.trim();
+        if (finalName && evidenceNamingCallback) {
+            evidenceNamingCallback(finalName);
+        }
+        CloseEvidenceNamingModal();
+        return;
+    }
+    
+    // Handle Escape key (cancel)
+    if (KeyWasPressed(27)) { // Escape
+        if (evidenceNamingCallback) {
+            evidenceNamingCallback(null);
+        }
+        CloseEvidenceNamingModal();
+        return;
+    }
+    
+    // Handle Backspace
+    if (KeyWasPressed(8)) { // Backspace
+        evidenceNamingInput = evidenceNamingInput.slice(0, -1);
+        evidenceNamingLastKey = null;
+        return;
+    }
+    
+    // Process stored key character if available
+    if (evidenceNamingLastKey !== null) {
+        if (evidenceNamingInput.length < 50) { // Limit length
+            evidenceNamingInput += evidenceNamingLastKey;
+        }
+        evidenceNamingLastKey = null;
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Evidence view modal
+
+function OpenEvidenceViewModal(item, slotIndex) {
+    evidenceViewModalOpen = true;
+    evidenceViewItem = { item: item, slotIndex: slotIndex };
+}
+
+function CloseEvidenceViewModal() {
+    evidenceViewModalOpen = false;
+    evidenceViewItem = null;
+}
+
+function RenderEvidenceViewModal() {
+    if (!evidenceViewItem || !evidenceViewItem.item) {
+        CloseEvidenceViewModal();
+        return;
+    }
+    
+    let item = evidenceViewItem.item;
+    
+    // Draw semi-transparent overlay
+    mainCanvasContext.fillStyle = 'rgba(0, 0, 0, 0.8)';
+    mainCanvasContext.fillRect(0, 0, mainCanvasSize.x, mainCanvasSize.y);
+    
+    // Modal dimensions
+    let modalWidth = 600;
+    let modalHeight = 500;
+    let modalX = mainCanvasSize.x / 2;
+    let modalY = mainCanvasSize.y / 2;
+    
+    // Draw modal background
+    mainCanvasContext.fillStyle = '#333';
+    mainCanvasContext.fillRect(modalX - modalWidth/2, modalY - modalHeight/2, modalWidth, modalHeight);
+    
+    // Draw modal border
+    mainCanvasContext.strokeStyle = '#FFF';
+    mainCanvasContext.lineWidth = 3;
+    mainCanvasContext.strokeRect(modalX - modalWidth/2, modalY - modalHeight/2, modalWidth, modalHeight);
+    
+    // Draw title
+    DrawText(item.name || 'EVIDENCE', modalX, modalY - modalHeight/2 + 25, 14, 'center', 1, '#FFF', '#000');
+    
+    // Draw close button (X)
+    let closeButtonX = modalX + modalWidth/2 - 30;
+    let closeButtonY = modalY - modalHeight/2 + 25;
+    let closeButtonSize = 20;
+    let closeButtonHover = (mousePos.x >= closeButtonX - closeButtonSize/2 && mousePos.x <= closeButtonX + closeButtonSize/2 &&
+                            mousePos.y >= closeButtonY - closeButtonSize/2 && mousePos.y <= closeButtonY + closeButtonSize/2);
+    
+    mainCanvasContext.fillStyle = closeButtonHover ? '#F44' : '#844';
+    mainCanvasContext.fillRect(closeButtonX - closeButtonSize/2, closeButtonY - closeButtonSize/2, closeButtonSize, closeButtonSize);
+    mainCanvasContext.strokeStyle = '#FFF';
+    mainCanvasContext.lineWidth = 2;
+    mainCanvasContext.strokeRect(closeButtonX - closeButtonSize/2, closeButtonY - closeButtonSize/2, closeButtonSize, closeButtonSize);
+    DrawText('X', closeButtonX, closeButtonY, 12, 'center', 1, '#FFF', '#000');
+    
+    // Handle close button click
+    if (MouseWasPressed() && closeButtonHover) {
+        CloseEvidenceViewModal();
+        return;
+    }
+    
+    // Handle Escape key
+    if (KeyWasPressed(27)) {
+        CloseEvidenceViewModal();
+        return;
+    }
+    
+    // Draw conversation text area
+    let textAreaX = modalX;
+    let textAreaY = modalY;
+    let textAreaWidth = modalWidth - 40;
+    let textAreaHeight = modalHeight - 120;
+    
+    // Text area background
+    mainCanvasContext.fillStyle = '#222';
+    mainCanvasContext.fillRect(textAreaX - textAreaWidth/2, textAreaY - textAreaHeight/2 + 20, textAreaWidth, textAreaHeight);
+    
+    // Text area border
+    mainCanvasContext.strokeStyle = '#666';
+    mainCanvasContext.lineWidth = 2;
+    mainCanvasContext.strokeRect(textAreaX - textAreaWidth/2, textAreaY - textAreaHeight/2 + 20, textAreaWidth, textAreaHeight);
+    
+    // Draw conversation text
+    if (item.metadata && item.metadata.conversationText) {
+        // Draw text directly to preserve formatting
+        mainCanvasContext.fillStyle = '#FFF';
+        mainCanvasContext.font = '900 10px "Press Start 2P"';
+        mainCanvasContext.textAlign = 'left';
+        mainCanvasContext.textBaseline = 'top';
+        
+        // Word wrap and draw text
+        let text = item.metadata.conversationText;
+        let lines = text.split('\n');
+        let lineHeight = 14;
+        let startY = textAreaY - textAreaHeight/2 + 30;
+        let maxLines = Math.floor(textAreaHeight / lineHeight) - 1;
+        let startLine = 0;
+        
+        // Simple scrolling could be added later if needed
+        for (let i = 0; i < Math.min(lines.length, maxLines); i++) {
+            let line = lines[startLine + i];
+            if (line) {
+                // Truncate long lines
+                let maxChars = Math.floor(textAreaWidth / 6);
+                if (line.length > maxChars) {
+                    line = line.substring(0, maxChars - 3) + '...';
+                }
+                mainCanvasContext.fillText(line, textAreaX - textAreaWidth/2 + 10, startY + i * lineHeight);
+            }
+        }
+    } else {
+        DrawText('NO CONVERSATION DATA', textAreaX, textAreaY, 12, 'center', 1, '#AAA', '#000');
+    }
+    
+    // Draw buttons at bottom
+    let buttonY = modalY + modalHeight/2 - 35;
+    let buttonWidth = 120;
+    let buttonHeight = 30;
+    let buttonSpacing = 20;
+    
+    // Back/Close button
+    let backButtonX = modalX - buttonWidth/2 - buttonSpacing/2;
+    let backButtonHover = (mousePos.x >= backButtonX - buttonWidth/2 && mousePos.x <= backButtonX + buttonWidth/2 &&
+                          mousePos.y >= buttonY - buttonHeight/2 && mousePos.y <= buttonY + buttonHeight/2);
+    
+    mainCanvasContext.fillStyle = backButtonHover ? '#4A9' : '#4A6';
+    mainCanvasContext.fillRect(backButtonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
+    mainCanvasContext.strokeStyle = '#FFF';
+    mainCanvasContext.lineWidth = 2;
+    mainCanvasContext.strokeRect(backButtonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
+    DrawText('BACK', backButtonX, buttonY, 12, 'center', 1, '#FFF', '#000');
+    
+    // Drop button
+    let dropButtonX = modalX + buttonWidth/2 + buttonSpacing/2;
+    let dropButtonHover = (mousePos.x >= dropButtonX - buttonWidth/2 && mousePos.x <= dropButtonX + buttonWidth/2 &&
+                          mousePos.y >= buttonY - buttonHeight/2 && mousePos.y <= buttonY + buttonHeight/2);
+    
+    mainCanvasContext.fillStyle = dropButtonHover ? '#F44' : '#844';
+    mainCanvasContext.fillRect(dropButtonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
+    mainCanvasContext.strokeStyle = '#FFF';
+    mainCanvasContext.lineWidth = 2;
+    mainCanvasContext.strokeRect(dropButtonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
+    DrawText('DROP', dropButtonX, buttonY, 12, 'center', 1, '#FFF', '#000');
+    
+    // Handle button clicks
+    if (MouseWasPressed()) {
+        if (backButtonHover) {
+            CloseEvidenceViewModal();
+        } else if (dropButtonHover) {
+            // Drop the evidence item
+            DropEvidenceItem(evidenceViewItem.slotIndex, item);
+            CloseEvidenceViewModal();
+        }
+    }
+}
+
+function DropEvidenceItem(slotIndex, item) {
+    if (!player || !playerData || !item) return;
+    
+    // Remove from inventory - find item by reference or by slotIndex
+    let removed = false;
+    if (slotIndex >= 0 && slotIndex < playerData.inventory.length) {
+        // Try to remove by slotIndex first
+        let inventoryItem = playerData.inventory[slotIndex];
+        if (inventoryItem === item || (inventoryItem.type === item.type && inventoryItem.name === item.name)) {
+            playerData.inventory.splice(slotIndex, 1);
+            removed = true;
+        }
+    }
+    
+    // If not removed by slotIndex, try to find and remove by item reference
+    if (!removed) {
+        for (let i = 0; i < playerData.inventory.length; i++) {
+            if (playerData.inventory[i] === item || 
+                (playerData.inventory[i].type === item.type && playerData.inventory[i].name === item.name)) {
+                playerData.inventory.splice(i, 1);
+                removed = true;
+                break;
+            }
+        }
+    }
+    
+    if (!removed) {
+        // Item not found in inventory, but still drop it
+        console.warn('Evidence item not found in inventory, but dropping anyway');
+    }
+    
+    SaveGameState();
+    
+    // Create dropped evidence on ground at player position
+    let dropPos = player.pos.Clone();
+    dropPos.AddXY(0, 0.5); // Slight offset in front of player
+    
+    // Create dropped evidence object
+    let droppedEvidence = new DroppedEvidence(dropPos, item);
+    gameObjects.push(droppedEvidence);
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Dropped Evidence class
+
+class DroppedEvidence extends MyGameObject
+{
+    constructor(pos, item)
+    {
+        super(pos, 5, 5, 0.5, 0.3); // tileX=5, tileY=5 (sprite index 45), size 0.5
+        this.item = item;
+        this.dropTime = gameTime ? gameTime.gameHour : 0;
+        this.timeOffset = Rand(9);
+        // Note: Not setting isSmallPickup so it appears both indoors and outdoors
+    }
+    
+    Update()
+    {
+        // Check if 1 game hour has passed
+        if (gameTime) {
+            let currentHour = gameTime.gameHour;
+            let hoursPassed = currentHour - this.dropTime;
+            
+            // Handle day rollover (if dropped near midnight)
+            if (hoursPassed < 0) {
+                hoursPassed = (24 - this.dropTime) + currentHour;
+            }
+            
+            if (hoursPassed >= 1.0) {
+                // 1 game hour has passed, remove the evidence
+                this.Destroy();
+                return;
+            }
+        }
+        
+        // Bob up and down like pickups
+        this.height = .1 + .1 * Math.sin(2 * time + this.timeOffset);
+        
+        // Let player pick it up
+        if (player && !player.IsDead() && player.IsTouching(this)) {
+            this.Pickup();
+        }
+        
+        super.Update();
+    }
+    
+    Pickup()
+    {
+        // Add back to inventory if there's space
+        if (playerData && playerData.inventory.length < 16) {
+            playerData.inventory.push(this.item);
+            SaveGameState();
+            PlaySound(10); // Use coin pickup sound
+            this.Destroy();
+        }
+    }
+    
+    Render()
+    {
+        if (shadowRenderPass)
+            return;
+        
+        // Render like a pickup item
+        mainCanvasContext.save();
+        let drawPos = this.pos.Clone();
+        drawPos.y -= this.height;
+        drawPos.Subtract(cameraPos).Multiply(tileSize * cameraScale);
+        drawPos.Add(mainCanvasSize.Clone(.5));
+        mainCanvasContext.translate(drawPos.x|0, drawPos.y|0);
+        
+        let s = this.size.x * tileSize * cameraScale;
+        
+        // Draw sprite from tileImage
+        if (tileImage && tileImage.complete)
+        {
+            mainCanvasContext.drawImage(
+                tileImage,
+                this.tileX * tileSize, this.tileY * tileSize,
+                tileSize, tileSize,
+                -s, -s,
+                s * 2, s * 2
+            );
+        }
+        else
+        {
+            // Placeholder
+            mainCanvasContext.fillStyle = '#642';
+            mainCanvasContext.fillRect(-s, -s, s * 2, s * 2);
+        }
+        
+        mainCanvasContext.restore();
+    }
 }
 
 ///////////////////////////////////////////////////////////////////////////////

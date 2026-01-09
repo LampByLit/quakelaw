@@ -442,76 +442,74 @@ function StopRecording() {
         return;
     }
     
-    // Prompt for evidence name
-    const evidenceName = prompt('Name this evidence:', `${currentDialogueNPC.surname} Conversation`);
+    // Close dialogue modal first so naming modal can be shown
+    CloseDialogueModal();
     
-    if (!evidenceName || evidenceName.trim() === '') {
-        // User cancelled or entered empty name
-        isRecording = false;
-        recordingStartIndex = -1;
-        const recordBtn = document.getElementById('recordButton');
-        recordBtn.textContent = 'Record';
-        recordBtn.classList.remove('recording');
-        return;
-    }
-    
-    // Format conversation text
-    const conversationText = FormatConversationText(recordedMessages, currentDialogueNPC.surname);
-    
-    // Create evidence item
-    // Sprite index 45: tileX = 45 % 8 = 5, tileY = Math.floor(45 / 8) = 5
-    const evidenceItem = {
-        type: `evidence_${Date.now()}`, // Unique type to prevent stacking
-        name: evidenceName.trim(),
-        tileX: 5,
-        tileY: 5,
-        quantity: 1,
-        metadata: {
-            conversationText: conversationText,
-            npcName: currentDialogueNPC.surname,
-            recordedTimestamp: Date.now(),
-            messages: recordedMessages
-        }
-    };
-    
-    // Add to inventory (need to access playerData from game.js)
-    if (typeof playerData !== 'undefined' && playerData.AddToInventory) {
-        // Add evidence directly to inventory array since it's non-stackable
-        if (playerData.inventory.length < 16) {
-            playerData.inventory.push(evidenceItem);
-            
-            // Save game state
-            if (typeof SaveGameState === 'function') {
-                SaveGameState();
+    // Open naming modal with callback
+    const defaultName = `${currentDialogueNPC.surname} Conversation`;
+    if (typeof OpenEvidenceNamingModal === 'function') {
+        OpenEvidenceNamingModal(defaultName, (evidenceName) => {
+            if (!evidenceName || evidenceName.trim() === '') {
+                // User cancelled or entered empty name
+                isRecording = false;
+                recordingStartIndex = -1;
+                return;
             }
             
-            // Close dialogue and open inventory
-            CloseDialogueModal();
+            // Format conversation text
+            const conversationText = FormatConversationText(recordedMessages, currentDialogueNPC.surname);
             
-            // Open inventory (set inventoryOpen flag in game.js)
-            // Use a small delay to ensure modal is closed
-            setTimeout(() => {
-                // Set inventoryOpen directly (it's a global in game.js)
-                if (typeof inventoryOpen !== 'undefined') {
-                    inventoryOpen = true;
+            // Create evidence item
+            // Sprite index 45: tileX = 45 % 8 = 5, tileY = Math.floor(45 / 8) = 5
+            const evidenceItem = {
+                type: `evidence_${Date.now()}`, // Unique type to prevent stacking
+                name: evidenceName.trim(),
+                tileX: 5,
+                tileY: 5,
+                quantity: 1,
+                metadata: {
+                    conversationText: conversationText,
+                    npcName: currentDialogueNPC.surname,
+                    recordedTimestamp: Date.now(),
+                    messages: recordedMessages
                 }
-            }, 100);
-        } else {
-            alert('Inventory is full! Cannot add evidence.');
+            };
+            
+            // Add to inventory (need to access playerData from game.js)
+            if (typeof playerData !== 'undefined' && playerData.inventory) {
+                // Add evidence directly to inventory array since it's non-stackable
+                if (playerData.inventory.length < 16) {
+                    playerData.inventory.push(evidenceItem);
+                    
+                    // Save game state
+                    if (typeof SaveGameState === 'function') {
+                        SaveGameState();
+                    }
+                    
+                    // Open inventory
+                    setTimeout(() => {
+                        // Set inventoryOpen directly (it's a global in game.js)
+                        if (typeof inventoryOpen !== 'undefined') {
+                            inventoryOpen = true;
+                        }
+                    }, 100);
+                } else {
+                    // Inventory full - show error (could add in-game error message later)
+                    console.warn('Inventory is full! Cannot add evidence.');
+                }
+            } else {
+                console.error('Cannot access playerData or inventory');
+            }
+            
+            // Reset recording state
             isRecording = false;
             recordingStartIndex = -1;
-            const recordBtn = document.getElementById('recordButton');
-            recordBtn.textContent = 'Record';
-            recordBtn.classList.remove('recording');
-        }
+        });
     } else {
-        console.error('Cannot access playerData or AddToInventory');
-        alert('Error: Could not add evidence to inventory.');
+        // Fallback if modal function not available
+        console.error('OpenEvidenceNamingModal function not available');
         isRecording = false;
         recordingStartIndex = -1;
-        const recordBtn = document.getElementById('recordButton');
-        recordBtn.textContent = 'Record';
-        recordBtn.classList.remove('recording');
     }
 }
 

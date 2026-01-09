@@ -392,6 +392,25 @@ onkeydown = function(e)
         e.preventDefault(),ToggleDebugConsole();
     if (debug && document.activeElement && document.activeElement.type == 'textarea')
         return;
+    
+    // Handle text input for evidence naming modal
+    if (typeof evidenceNamingModalOpen !== 'undefined' && evidenceNamingModalOpen) {
+        // Don't process special keys here (Enter, Escape, Backspace handled separately)
+        if (e.keyCode === 13 || e.keyCode === 27 || e.keyCode === 8) {
+            keyInputData[e.keyCode]={isDown:1};
+            return;
+        }
+        
+        // Store the actual character for text input
+        if (e.key && e.key.length === 1) {
+            // Only allow printable characters
+            if (/[a-zA-Z0-9\s\-_.,!?'"]/.test(e.key)) {
+                if (typeof evidenceNamingLastKey !== 'undefined') {
+                    evidenceNamingLastKey = e.key;
+                }
+            }
+        }
+    }
         
     keyInputData[e.keyCode]={isDown:1};
 }

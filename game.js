@@ -502,10 +502,14 @@ function GenerateWorldAsync()
                                     // Generate NPCs after town is created (and all buildings have addresses)
                                     GenerateNPCs();
                                     
-                                    // Initialize calendar tasks (Sunday Coffee)
+                                    // Initialize calendar tasks (Sunday Coffee and Case of the Mondays)
                                     if (typeof InitializeSundayCoffee !== 'undefined')
                                     {
                                         InitializeSundayCoffee();
+                                    }
+                                    if (typeof InitializeCaseOfTheMondays !== 'undefined')
+                                    {
+                                        InitializeCaseOfTheMondays();
                                     }
                                     
                                     setTimeout(() => {
@@ -2540,11 +2544,22 @@ class Judge extends MyGameObject
     constructor(pos)
     {
         super(pos, 0, 0, 0.5, 0.4, 1); // Same size as player
-        this.surname = 'Judge';
+        this.surname = 'Judge'; // Will be updated with persona
         this.emoji = null; // No emoji for now (dialogue system will handle null)
         this.spriteIndex = 15; // Sprite index 15 from tiles.png
         this.isJudge = 1;
         this.rotation = 1; // Facing south
+        this.characteristic = null; // Will be set from persona
+    }
+    
+    // Update judge persona
+    UpdatePersona(persona)
+    {
+        if (persona && persona.name)
+        {
+            this.surname = persona.name;
+            this.characteristic = persona.characteristic || 'serious';
+        }
     }
     
     Render()
@@ -3725,7 +3740,7 @@ function RenderInventoryModal()
                 if (slotIndex < playerData.inventory.length && playerData.inventory[slotIndex])
                 {
                     let item = playerData.inventory[slotIndex];
-                    let isEvidence = item.type && item.type.startsWith('evidence_');
+                    let isEvidence = item.type && (item.type.startsWith('evidence_') || item.type.startsWith('casefile_'));
                     
                     // Draw item sprite
                     let spriteSize = slotSize - 8;
@@ -4118,8 +4133,18 @@ function RenderEvidenceViewModal() {
     mainCanvasContext.lineWidth = 2;
     mainCanvasContext.strokeRect(textAreaX - textAreaWidth/2, textAreaY - textAreaHeight/2 + 20, textAreaWidth, textAreaHeight);
     
-    // Draw conversation text with proper word wrapping
-    if (item.metadata && item.metadata.conversationText) {
+                    // Draw conversation text or case file text with proper word wrapping
+    let text = null;
+    if (item.metadata) {
+        // Check if it's a case file
+        if (item.metadata.caseFileText) {
+            text = item.metadata.caseFileText;
+        } else if (item.metadata.conversationText) {
+            text = item.metadata.conversationText;
+        }
+    }
+    
+    if (text) {
         // Draw text directly to preserve formatting
         mainCanvasContext.fillStyle = '#FFF';
         mainCanvasContext.font = '900 10px "Press Start 2P"';
@@ -4127,7 +4152,6 @@ function RenderEvidenceViewModal() {
         mainCanvasContext.textBaseline = 'top';
         
         // Word wrap the text
-        let text = item.metadata.conversationText;
         let wrappedLines = WrapText(text, textAreaWidth - 20, mainCanvasContext);
         let lineHeight = 14;
         let startY = textAreaY - textAreaHeight/2 + 30;

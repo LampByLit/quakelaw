@@ -51,6 +51,43 @@ async function OpenDialogueModal(npc) {
     // Debug: Verify NPC has job
     console.log(`Opening dialogue with ${npc.surname}: job=${npc.job}, characteristic=${npc.characteristic}`);
     
+    // Check if this is the judge on Monday - trigger case initialization
+    if (npc.isJudge && typeof gameTime !== 'undefined' && gameTime.dayOfWeek === 1)
+    {
+        // Check if there's a Case of the Mondays event today
+        if (typeof GetEventsForDate !== 'undefined')
+        {
+            let currentYear = gameTime.daysElapsed >= 0 ? 1 : 0;
+            let events = GetEventsForDate(currentYear, gameTime.month, gameTime.dayOfMonth);
+            let caseEvent = events.find(e => e.taskId === 'caseOfTheMondays' && e.status === 'pending');
+            
+            if (caseEvent && typeof InitializeNewCase !== 'undefined')
+            {
+                // Initialize new case (this will generate judge persona, select case, etc.)
+                InitializeNewCase().then(() => {
+                    // Update judge persona after case initialization
+                    if (typeof GetJudgePersona !== 'undefined')
+                    {
+                        const persona = GetJudgePersona();
+                        if (persona && persona.name)
+                        {
+                            npc.UpdatePersona(persona);
+                        }
+                    }
+                }).catch(err => {
+                    console.error('Error initializing case:', err);
+                });
+                
+                // Mark event as completed
+                caseEvent.status = 'completed';
+                if (typeof RemoveEvent !== 'undefined')
+                {
+                    RemoveEvent(caseEvent.id);
+                }
+            }
+        }
+    }
+    
     // Check and complete calendar events when player talks to NPC
     if (typeof CheckAndCompleteCalendarEvents !== 'undefined' && typeof gameTime !== 'undefined')
     {
@@ -307,6 +344,12 @@ async function SendMessage() {
         if (!sessionId) {
             throw new Error('Failed to get session ID');
         }
+        // Get active case if talking to judge
+        let activeCase = null;
+        if (currentDialogueNPC.isJudge && typeof GetActiveCase !== 'undefined') {
+            activeCase = GetActiveCase();
+        }
+        
         const response = await fetch(`/api/npc/conversation/${encodeURIComponent(currentDialogueNPC.surname)}?sessionId=${encodeURIComponent(sessionId)}`, {
             method: 'POST',
             headers: {
@@ -318,8 +361,10 @@ async function SendMessage() {
                     surname: currentDialogueNPC.surname,
                     characteristic: currentDialogueNPC.characteristic,
                     emoji: currentDialogueNPC.emoji,
-                    job: currentDialogueNPC.job || '' // Ensure job is always a string
-                }
+                    job: currentDialogueNPC.job || '', // Ensure job is always a string
+                    isJudge: currentDialogueNPC.isJudge || false
+                },
+                activeCase: activeCase
             })
         });
         

@@ -209,6 +209,336 @@ app.get('/health', (req, res) => {
     res.json({ status: 'ok' });
 });
 
+// ============================================================================
+// Case System Endpoints
+// ============================================================================
+
+// Get list of available case files
+app.get('/api/cases/list', async (req, res) => {
+    try {
+        const casesDir = path.join(__dirname, 'cases', 'json');
+        const files = await fs.readdir(casesDir);
+        const caseFiles = files.filter(f => f.endsWith('.json')).map(f => f);
+        res.json({ caseFiles });
+    } catch (error) {
+        console.error('Error listing case files:', error);
+        res.status(500).json({ 
+            error: 'Failed to list case files',
+            message: error.message 
+        });
+    }
+});
+
+// Load case data from file
+app.get('/api/cases/load/:filename', async (req, res) => {
+    try {
+        const filename = req.params.filename;
+        // Sanitize filename to prevent path traversal
+        const safeFilename = path.basename(filename);
+        if (!safeFilename.endsWith('.json')) {
+            return res.status(400).json({ error: 'Invalid file type' });
+        }
+        
+        const casePath = path.join(__dirname, 'cases', 'json', safeFilename);
+        const caseData = JSON.parse(await fs.readFile(casePath, 'utf8'));
+        res.json({ caseData });
+    } catch (error) {
+        console.error('Error loading case:', error);
+        res.status(500).json({ 
+            error: 'Failed to load case',
+            message: error.message 
+        });
+    }
+});
+
+// Parse case to extract individuals and evidence
+app.post('/api/cases/parse', async (req, res) => {
+    const apiKey = process.env.DEEPSEEK_API_KEY;
+    
+    if (!apiKey) {
+        return res.status(500).json({ 
+            error: 'DEEPSEEK_API_KEY environment variable is not set' 
+        });
+    }
+
+    const { caseData } = req.body;
+
+    if (!caseData) {
+        return res.status(400).json({ error: 'Case data is required' });
+    }
+
+    try {
+        // Extract case text (opinions, parties, etc.)
+        const caseText = JSON.stringify(caseData, null, 2);
+        
+        const systemPrompt = `You are a legal case analyzer. Extract key information from case documents.
+        
+Your task:
+1. Identify up to 4 individuals involved in the case (plaintiffs, defendants, witnesses, etc.)
+2. For each individual, identify their role (e.g., "estranged husband", "wife", "defendant", "plaintiff", "witness")
+3. Extract evidence and facts from the case (e.g., "Ross has been to jail before", "The property was valued at $13,000")
+
+Return your response as a JSON object with this exact structure:
+{
+    "individuals": [
+        {"name": "Individual Name", "role": "their role in the case"},
+        ...
+    ],
+    "evidence": [
+        "Fact 1 about the case",
+        "Fact 2 about the case",
+        ...
+    ]
+}
+
+Be concise. Extract only the most relevant individuals (up to 4) and key evidence/facts.`;
+
+        const response = await fetch('https://api.deepseek.com/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${apiKey}`
+            },
+            body: JSON.stringify({
+                model: process.env.DEEPSEEK_MODEL || 'deepseek-chat',
+                messages: [
+                    { role: 'system', content: systemPrompt },
+                    { role: 'user', content: `Parse this case:\n\n${caseText.substring(0, 50000)}` } // Limit size
+                ],
+                temperature: 0.3,
+                max_tokens: 2000
+            })
+        });
+
+        if (!response.ok) {
+            const errorData = await response.json().catch(() => ({}));
+            throw new Error(`API Error: ${response.status}`);
+        }
+
+        const data = await response.json();
+        const content = data.choices[0].message.content;
+        
+        // Try to parse JSON from response
+        let parsed;
+        try {
+            // Extract JSON from markdown code blocks if present
+            const jsonMatch = content.match(/```(?:json)?\s*(\{[\s\S]*\})\s*```/);
+            if (jsonMatch) {
+                parsed = JSON.parse(jsonMatch[1]);
+            } else {
+                parsed = JSON.parse(content);
+            }
+        } catch (e) {
+            // Fallback: try to extract JSON object
+            const jsonMatch = content.match(/\{[\s\S]*\}/);
+            if (jsonMatch) {
+                parsed = JSON.parse(jsonMatch[0]);
+            } else {
+                throw new Error('Failed to parse AI response as JSON');
+            }
+        }
+
+        res.json({
+            individuals: parsed.individuals || [],
+            evidence: parsed.evidence || []
+        });
+    } catch (error) {
+        console.error('Error parsing case:', error);
+        res.status(500).json({ 
+            error: 'Failed to parse case',
+            message: error.message 
+        });
+    }
+});
+
+// Generate case summary (100 words, no decision)
+app.post('/api/cases/summary', async (req, res) => {
+    const apiKey = process.env.DEEPSEEK_API_KEY;
+    
+    if (!apiKey) {
+        return res.status(500).json({ 
+            error: 'DEEPSEEK_API_KEY environment variable is not set' 
+        });
+    }
+
+    const { caseData, individuals, witnesses } = req.body;
+
+    if (!caseData) {
+        return res.status(400).json({ error: 'Case data is required' });
+    }
+
+    try {
+        const caseText = JSON.stringify(caseData, null, 2);
+        const witnessInfo = witnesses.map(w => `${w.name} (${w.role})`).join(', ');
+        
+        const systemPrompt = `You are a legal case summarizer. Create a concise 100-word summary of a legal case.
+
+IMPORTANT RULES:
+- Do NOT reveal the decision or outcome of the case
+- Only mention the witnesses and the originating circumstances that existed before the conclusion
+- Keep it exactly around 100 words
+- Be clear and professional`;
+
+        const userMessage = `Case data:\n${caseText.substring(0, 30000)}\n\nWitnesses: ${witnessInfo}\n\nCreate a 100-word summary following the rules above.`;
+
+        const response = await fetch('https://api.deepseek.com/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${apiKey}`
+            },
+            body: JSON.stringify({
+                model: process.env.DEEPSEEK_MODEL || 'deepseek-chat',
+                messages: [
+                    { role: 'system', content: systemPrompt },
+                    { role: 'user', content: userMessage }
+                ],
+                temperature: 0.5,
+                max_tokens: 200
+            })
+        });
+
+        if (!response.ok) {
+            throw new Error(`API Error: ${response.status}`);
+        }
+
+        const data = await response.json();
+        const summary = data.choices[0].message.content.trim();
+        
+        res.json({ summary });
+    } catch (error) {
+        console.error('Error generating case summary:', error);
+        res.status(500).json({ 
+            error: 'Failed to generate case summary',
+            message: error.message 
+        });
+    }
+});
+
+// Assign NPCs to case roles using AI
+app.post('/api/cases/assign-npcs', async (req, res) => {
+    const apiKey = process.env.DEEPSEEK_API_KEY;
+    
+    if (!apiKey) {
+        return res.status(500).json({ 
+            error: 'DEEPSEEK_API_KEY environment variable is not set' 
+        });
+    }
+
+    const { individuals, availableNPCs } = req.body;
+
+    if (!individuals || !Array.isArray(individuals) || individuals.length === 0) {
+        return res.status(400).json({ error: 'Individuals array is required' });
+    }
+
+    if (!availableNPCs || !Array.isArray(availableNPCs)) {
+        return res.status(400).json({ error: 'Available NPCs array is required' });
+    }
+
+    try {
+        const systemPrompt = `You are an NPC role assignment system. Match case individuals to NPCs based on their names and characteristics.
+
+For each individual from the case, select the best matching NPC from the available list. Consider:
+- Name similarity (if any)
+- Characteristic compatibility with the role
+- Overall fit
+
+Return your response as a JSON object with this exact structure:
+{
+    "assignments": [
+        {"npcSurname": "NPC Name", "role": "role from case", "individual": "individual name from case"},
+        ...
+    ]
+}
+
+Assign up to 4 NPCs (one per individual, or fewer if there are fewer individuals).`;
+
+        const userMessage = `Case individuals:\n${JSON.stringify(individuals, null, 2)}\n\nAvailable NPCs:\n${JSON.stringify(availableNPCs, null, 2)}\n\nMatch individuals to NPCs.`;
+
+        const response = await fetch('https://api.deepseek.com/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${apiKey}`
+            },
+            body: JSON.stringify({
+                model: process.env.DEEPSEEK_MODEL || 'deepseek-chat',
+                messages: [
+                    { role: 'system', content: systemPrompt },
+                    { role: 'user', content: userMessage }
+                ],
+                temperature: 0.5,
+                max_tokens: 1000
+            })
+        });
+
+        if (!response.ok) {
+            throw new Error(`API Error: ${response.status}`);
+        }
+
+        const data = await response.json();
+        const content = data.choices[0].message.content;
+        
+        // Parse JSON from response
+        let parsed;
+        try {
+            const jsonMatch = content.match(/```(?:json)?\s*(\{[\s\S]*\})\s*```/);
+            if (jsonMatch) {
+                parsed = JSON.parse(jsonMatch[1]);
+            } else {
+                parsed = JSON.parse(content);
+            }
+        } catch (e) {
+            const jsonMatch = content.match(/\{[\s\S]*\}/);
+            if (jsonMatch) {
+                parsed = JSON.parse(jsonMatch[0]);
+            } else {
+                throw new Error('Failed to parse AI response as JSON');
+            }
+        }
+
+        res.json({
+            assignments: parsed.assignments || []
+        });
+    } catch (error) {
+        console.error('Error assigning NPCs:', error);
+        res.status(500).json({ 
+            error: 'Failed to assign NPCs',
+            message: error.message 
+        });
+    }
+});
+
+// Add fact to NPC (for evidence distribution)
+app.post('/api/npc/gossip/add-fact/:surname', async (req, res) => {
+    try {
+        const sessionId = req.body.sessionId;
+        const surname = req.params.surname;
+        const { fact } = req.body;
+        
+        if (!sessionId) {
+            return res.status(400).json({ error: 'Session ID is required' });
+        }
+        
+        if (!fact || !fact.content) {
+            return res.status(400).json({ error: 'Fact with content is required' });
+        }
+        
+        const added = await addFactToNPC(sessionId, surname, fact);
+        
+        res.json({ 
+            success: added,
+            message: added ? 'Fact added' : 'Fact already exists'
+        });
+    } catch (error) {
+        console.error('Error adding fact to NPC:', error);
+        res.status(500).json({ 
+            error: 'Failed to add fact',
+            message: error.message 
+        });
+    }
+});
+
 // DeepSeek API proxy endpoint
 app.post('/api/deepseek', async (req, res) => {
     const apiKey = process.env.DEEPSEEK_API_KEY;
@@ -409,17 +739,37 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
         const job = conversation.job || '';
         const jobContext = job ? `You work as a ${job}. ` : '';
         const isLawyer = job === 'lawyer';
+        const isJudge = npcData.isJudge || (surname && surname.toLowerCase().includes('judge'));
         
-        // Load NPC's known facts from gossip network
-        const gossipNetwork = await loadGossipNetwork(sessionId);
-        const npcKnowledge = gossipNetwork.npcKnowledge[surname];
+        // For judge: load active case information (summary and witnesses only, NOT evidence)
+        let caseContextText = '';
+        if (isJudge) {
+            // Try to get active case from request (passed from client)
+            const { activeCase } = req.body;
+            if (activeCase) {
+                const caseSummary = activeCase.caseSummary || '';
+                const witnesses = activeCase.witnesses || [];
+                const witnessList = witnesses.map(w => {
+                    const npc = w.npc || {};
+                    return `${npc.surname || 'Unknown'} (${w.role || 'witness'}) - Home: ${npc.houseAddress || 'Unknown'}, Work: ${npc.workAddress || 'Unknown'}`;
+                }).join('\n');
+                
+                caseContextText = `\n\nYou are presiding over an active case. You have access to:\n\nCASE SUMMARY:\n${caseSummary}\n\nWITNESSES:\n${witnessList}\n\nIMPORTANT: You can ONLY discuss the case summary and witnesses. You must NEVER mention or discuss any evidence - that information is confidential and secret. The player must gather evidence themselves by talking to witnesses.`;
+            }
+        }
+        
+        // Load NPC's known facts from gossip network (for non-judge NPCs)
         let knownFactsText = '';
-        if (npcKnowledge && npcKnowledge.knownFacts && npcKnowledge.knownFacts.length > 0) {
-            const factsList = npcKnowledge.knownFacts
-                .slice(-10) // Last 10 facts to avoid token bloat
-                .map((fact, idx) => `${idx + 1}. "${fact.content}"`)
-                .join('\n');
-            knownFactsText = `\n\nYou know the following information from conversations and gossip:\n${factsList}\n\nYou can naturally reference this knowledge when talking to the player.`;
+        if (!isJudge) {
+            const gossipNetwork = await loadGossipNetwork(sessionId);
+            const npcKnowledge = gossipNetwork.npcKnowledge[surname];
+            if (npcKnowledge && npcKnowledge.knownFacts && npcKnowledge.knownFacts.length > 0) {
+                const factsList = npcKnowledge.knownFacts
+                    .slice(-10) // Last 10 facts to avoid token bloat
+                    .map((fact, idx) => `${idx + 1}. "${fact.content}"`)
+                    .join('\n');
+                knownFactsText = `\n\nYou know the following information from conversations and gossip:\n${factsList}\n\nYou can naturally reference this knowledge when talking to the player.`;
+            }
         }
         
         // Debug: Log what job is being used in prompt
@@ -430,7 +780,15 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
             console.error(`[SERVER] ERROR: ${surname} has NO JOB assigned!`);
         }
         
-        const systemPrompt = `You are ${surname}, a ${conversation.characteristic} person living in a real town.
+        // Build system prompt - special handling for judge
+        let systemPromptBase = '';
+        if (isJudge) {
+            systemPromptBase = `You are Judge ${surname}, a ${conversation.characteristic} judge presiding over legal cases in a courthouse.`;
+        } else {
+            systemPromptBase = `You are ${surname}, a ${conversation.characteristic} person living in a real town.`;
+        }
+        
+        const systemPrompt = `${systemPromptBase}
 
 ABSOLUTELY CRITICAL - YOUR PROFESSION (DO NOT IGNORE THIS):
 ${job ? `- Your job is: ${job}. This is your ONLY profession.` : '- You have a regular job.'}
@@ -447,7 +805,7 @@ Your personality traits:
 - Keep your responses brief and character-appropriate
 
 Context:
-${jobContext}You may have witnessed events in town. Talk about your normal life and your job as a ${job || 'regular person'}. You are on a schedule and do not have time to follow the player anywhere. Other characters may ask you questions as well, answer them naturally. This is the real world.${knownFactsText}
+${jobContext}You may have witnessed events in town. Talk about your normal life and your job as a ${job || 'regular person'}. You are on a schedule and do not have time to follow the player anywhere. Other characters may ask you questions as well, answer them naturally. This is the real world.${knownFactsText}${caseContextText}
 
 REMEMBER: Your job is ${job}. You are a ${job}.`;
         

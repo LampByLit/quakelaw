@@ -337,6 +337,10 @@ function TriggerTask(taskId)
     {
         ScheduleSundayCoffee();
     }
+    if (taskId === 'caseOfTheMondays')
+    {
+        ScheduleCaseOfTheMondays();
+    }
     // Add more tasks here as needed
 }
 
@@ -460,6 +464,186 @@ function ScheduleSundayCoffee()
     if (calendarTasks['sundayCoffee'])
     {
         calendarTasks['sundayCoffee'].data.lastScheduledDate = nextSunday;
+    }
+}
+
+// Find next Monday from current date
+function FindNextMonday(currentGameTime)
+{
+    if (!currentGameTime)
+        return null;
+    
+    let currentYear = currentGameTime.daysElapsed >= 0 ? 1 : 0;
+    let currentMonth = currentGameTime.month;
+    let currentDay = currentGameTime.dayOfMonth;
+    let currentDayOfWeek = currentGameTime.dayOfWeek;
+    
+    // Calculate days until next Monday (day 1)
+    let daysUntilMonday = (1 - currentDayOfWeek + 7) % 7;
+    if (daysUntilMonday === 0)
+        daysUntilMonday = 7; // If today is Monday, get next Monday
+    
+    let nextMondayDay = currentDay + daysUntilMonday;
+    let nextMondayMonth = currentMonth;
+    let nextMondayYear = currentYear;
+    
+    // Handle month rollover
+    if (nextMondayDay > 28)
+    {
+        nextMondayDay -= 28;
+        nextMondayMonth++;
+        if (nextMondayMonth > 12)
+        {
+            nextMondayMonth = 1;
+            nextMondayYear++;
+        }
+    }
+    
+    return {
+        year: nextMondayYear,
+        month: nextMondayMonth,
+        day: nextMondayDay
+    };
+}
+
+// Schedule Case of the Mondays event
+function ScheduleCaseOfTheMondays()
+{
+    if (!gameTime)
+        return;
+    
+    // Find next Monday
+    let nextMonday = FindNextMonday(gameTime);
+    if (!nextMonday)
+        return;
+    
+    // Check if event already exists for this date (prevent duplicates)
+    let existingEvents = GetEventsForDate(nextMonday.year, nextMonday.month, nextMonday.day);
+    if (existingEvents.some(e => e.taskId === 'caseOfTheMondays'))
+    {
+        // Event already exists, just update task data
+        if (calendarTasks['caseOfTheMondays'])
+        {
+            calendarTasks['caseOfTheMondays'].data.lastScheduledDate = nextMonday;
+        }
+        return;
+    }
+    
+    // Find courthouse building
+    let courthouse = null;
+    if (typeof gameObjects !== 'undefined')
+    {
+        for (let obj of gameObjects)
+        {
+            if (obj.isBuilding && obj.buildingType === 'court')
+            {
+                courthouse = obj;
+                break;
+            }
+        }
+    }
+    
+    if (!courthouse)
+    {
+        console.warn('ScheduleCaseOfTheMondays: Courthouse not found');
+        return;
+    }
+    
+    const courthouseAddress = courthouse.address;
+    
+    // Create event (no NPC, just location - judge is at courthouse)
+    CreateCalendarEvent(
+        nextMonday.year,
+        nextMonday.month,
+        nextMonday.day,
+        null, // No NPC - player talks to judge
+        null,
+        courthouseAddress, // Work address is courthouse
+        'caseOfTheMondays'
+    );
+    
+    // Update task data
+    if (calendarTasks['caseOfTheMondays'])
+    {
+        calendarTasks['caseOfTheMondays'].data.lastScheduledDate = nextMonday;
+    }
+}
+
+// Initialize Case of the Mondays task (call on game start)
+function InitializeCaseOfTheMondays()
+{
+    if (!gameTime)
+        return;
+    
+    // Check if task already initialized (prevent duplicates)
+    if (calendarTasks['caseOfTheMondays'])
+        return;
+    
+    // Register task
+    RegisterTask('caseOfTheMondays', {
+        lastScheduledDate: null
+    });
+    
+    // If today is Monday, schedule for today
+    if (gameTime.dayOfWeek === 1)
+    {
+        let currentYear = gameTime.daysElapsed >= 0 ? 1 : 0;
+        
+        // Check if event already exists for today
+        let existingEvents = GetEventsForDate(currentYear, gameTime.month, gameTime.dayOfMonth);
+        if (existingEvents.some(e => e.taskId === 'caseOfTheMondays'))
+        {
+            // Event already exists, just update task data
+            calendarTasks['caseOfTheMondays'].data.lastScheduledDate = {
+                year: currentYear,
+                month: gameTime.month,
+                day: gameTime.dayOfMonth
+            };
+            return;
+        }
+        
+        // Find courthouse building
+        let courthouse = null;
+        if (typeof gameObjects !== 'undefined')
+        {
+            for (let obj of gameObjects)
+            {
+                if (obj.isBuilding && obj.buildingType === 'court')
+                {
+                    courthouse = obj;
+                    break;
+                }
+            }
+        }
+        
+        if (!courthouse)
+        {
+            console.warn('InitializeCaseOfTheMondays: Courthouse not found');
+            return;
+        }
+        
+        const courthouseAddress = courthouse.address;
+        
+        CreateCalendarEvent(
+            currentYear,
+            gameTime.month,
+            gameTime.dayOfMonth,
+            null, // No NPC - player talks to judge
+            null,
+            courthouseAddress,
+            'caseOfTheMondays'
+        );
+        
+        calendarTasks['caseOfTheMondays'].data.lastScheduledDate = {
+            year: currentYear,
+            month: gameTime.month,
+            day: gameTime.dayOfMonth
+        };
+    }
+    else
+    {
+        // Schedule for next Monday
+        ScheduleCaseOfTheMondays();
     }
 }
 

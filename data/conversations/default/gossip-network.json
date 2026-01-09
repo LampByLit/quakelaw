@@ -1,0 +1,76 @@
+{
+  "npcKnowledge": {
+    "Howard": {
+      "knownFacts": [
+        {
+          "id": "case_evidence_1767936033543_0.16509219443731638",
+          "content": "A judgment was rendered in New York Supreme Court in favor of John Dickinson and John F. Whitney against Calvin P. Eaton.",
+          "source": "case",
+          "learnedFrom": "case",
+          "timestamp": 1767936033543,
+          "type": "case_evidence"
+        },
+        {
+          "id": "case_evidence_1767936033550_0.814274660919112",
+          "content": "Dickinson's claim against Eaton's estate was rejected by commissioners and he appealed to Circuit Court.",
+          "source": "case",
+          "learnedFrom": "case",
+          "timestamp": 1767936033550,
+          "type": "case_evidence"
+        }
+      ]
+    },
+    "Bailey": {
+      "knownFacts": [
+        {
+          "id": "case_evidence_1767936033556_0.5128803818868973",
+          "content": "The appeal bond was executed by Leander Chapman as principal and Edwin S. Lathrop as surety, not by Dickinson himself.",
+          "source": "case",
+          "learnedFrom": "case",
+          "timestamp": 1767936033556,
+          "type": "case_evidence"
+        },
+        {
+          "id": "case_evidence_1767936033564_0.3563543006419345",
+          "content": "The bond did not show Dickinson was a creditor or that his claim had been passed upon by commissioners.",
+          "source": "case",
+          "learnedFrom": "case",
+          "timestamp": 1767936033564,
+          "type": "case_evidence"
+        }
+      ]
+    },
+    "Baker": {
+      "knownFacts": [
+        {
+          "id": "case_evidence_1767936033569_0.4359414289100605",
+          "content": "Michigan law requires the claimant to give bond before an appeal can be allowed.",
+          "source": "case",
+          "learnedFrom": "case",
+          "timestamp": 1767936033569,
+          "type": "case_evidence"
+        },
+        {
+          "id": "case_evidence_1767936033576_0.7153217213865151",
+          "content": "The Supreme Court cited Massachusetts case Leach vs. Drake (16 Pick., 203) as precedent.",
+          "source": "case",
+          "learnedFrom": "case",
+          "timestamp": 1767936033576,
+          "type": "case_evidence"
+        }
+      ]
+    },
+    "Allen": {
+      "knownFacts": [
+        {
+          "id": "case_evidence_1767936033583_0.8971100772653124",
+          "content": "The Court found no valid bond was given by the appellant as required by statute.",
+          "source": "case",
+          "learnedFrom": "case",
+          "timestamp": 1767936033583,
+          "type": "case_evidence"
+        }
+      ]
+    }
+  }
+}

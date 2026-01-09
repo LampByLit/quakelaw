@@ -429,12 +429,14 @@ function StartRecording() {
 function StopRecording() {
     if (!isRecording || !currentDialogueNPC) return;
     
+    // Set isRecording to false immediately to prevent infinite recursion
+    isRecording = false;
+    
     // Get recorded messages
     const recordedMessages = conversationHistory.slice(recordingStartIndex);
     
     if (recordedMessages.length === 0) {
         // No messages recorded, just stop
-        isRecording = false;
         recordingStartIndex = -1;
         const recordBtn = document.getElementById('recordButton');
         recordBtn.textContent = 'Record';
@@ -442,22 +444,25 @@ function StopRecording() {
         return;
     }
     
+    // Store NPC reference before closing modal
+    const npcSurname = currentDialogueNPC.surname;
+    
     // Close dialogue modal first so naming modal can be shown
+    // Note: CloseDialogueModal checks isRecording, but we've already set it to false
     CloseDialogueModal();
     
     // Open naming modal with callback
-    const defaultName = `${currentDialogueNPC.surname} Conversation`;
+    const defaultName = `${npcSurname} Conversation`;
     if (typeof OpenEvidenceNamingModal === 'function') {
         OpenEvidenceNamingModal(defaultName, (evidenceName) => {
             if (!evidenceName || evidenceName.trim() === '') {
                 // User cancelled or entered empty name
-                isRecording = false;
                 recordingStartIndex = -1;
                 return;
             }
             
             // Format conversation text
-            const conversationText = FormatConversationText(recordedMessages, currentDialogueNPC.surname);
+            const conversationText = FormatConversationText(recordedMessages, npcSurname);
             
             // Create evidence item
             // Sprite index 45: tileX = 45 % 8 = 5, tileY = Math.floor(45 / 8) = 5
@@ -469,7 +474,7 @@ function StopRecording() {
                 quantity: 1,
                 metadata: {
                     conversationText: conversationText,
-                    npcName: currentDialogueNPC.surname,
+                    npcName: npcSurname,
                     recordedTimestamp: Date.now(),
                     messages: recordedMessages
                 }
@@ -502,7 +507,6 @@ function StopRecording() {
             }
             
             // Reset recording state
-            isRecording = false;
             recordingStartIndex = -1;
         });
     } else {

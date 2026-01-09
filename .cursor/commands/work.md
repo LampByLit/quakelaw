@@ -1,1 +1,1 @@
-/review your changes and make damn sure they work, then /push 
+/review your changes line by line and make damn sure they work, then PUSH the changes to github.

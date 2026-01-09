@@ -152,9 +152,10 @@ async function saveGossipNetwork(sessionId, networkData) {
     await fs.writeFile(filePath, JSON.stringify(networkData, null, 2), 'utf8');
 }
 
-// Add a fact to an NPC's knowledge (with deduplication)
+// Add a fact to an NPC's knowledge (with deduplication and 100-fact limit)
 async function addFactToNPC(sessionId, npcSurname, fact) {
     const network = await loadGossipNetwork(sessionId);
+    const MAX_FACTS_PER_NPC = 100;
     
     // Initialize NPC knowledge if it doesn't exist
     if (!network.npcKnowledge[npcSurname]) {
@@ -165,6 +166,13 @@ async function addFactToNPC(sessionId, npcSurname, fact) {
     const existingFactIds = network.npcKnowledge[npcSurname].knownFacts.map(f => f.id);
     if (!existingFactIds.includes(fact.id)) {
         network.npcKnowledge[npcSurname].knownFacts.push(fact);
+        
+        // Enforce 100-fact limit: remove oldest facts (FIFO) if exceeded
+        if (network.npcKnowledge[npcSurname].knownFacts.length > MAX_FACTS_PER_NPC) {
+            const excessCount = network.npcKnowledge[npcSurname].knownFacts.length - MAX_FACTS_PER_NPC;
+            network.npcKnowledge[npcSurname].knownFacts.splice(0, excessCount);
+        }
+        
         await saveGossipNetwork(sessionId, network);
         return true; // Fact added
     }
@@ -835,19 +843,13 @@ app.post('/api/npc/gossip/process', async (req, res) => {
                         const spreadRate = getSpreadRate(npcA.characteristic);
                         for (const fact of knowledgeA.knownFacts) {
                             if (Math.random() < spreadRate) {
-                                // Check if NPC B already knows this fact
-                                const bFacts = knowledgeB ? knowledgeB.knownFacts : [];
-                                if (!bFacts.find(f => f.id === fact.id)) {
-                                    // NPC B learns the fact
-                                    const newFact = {
-                                        ...fact,
-                                        learnedFrom: npcA.surname,
-                                        type: 'gossip'
-                                    };
-                                    if (!network.npcKnowledge[npcB.surname]) {
-                                        network.npcKnowledge[npcB.surname] = { knownFacts: [] };
-                                    }
-                                    network.npcKnowledge[npcB.surname].knownFacts.push(newFact);
+                                // NPC B learns the fact (addFactToNPC handles deduplication and limit)
+                                const newFact = {
+                                    ...fact,
+                                    learnedFrom: npcA.surname,
+                                    type: 'gossip'
+                                };
+                                if (await addFactToNPC(sessionId, npcB.surname, newFact)) {
                                     gossipCount++;
                                 }
                             }
@@ -859,19 +861,13 @@ app.post('/api/npc/gossip/process', async (req, res) => {
                         const spreadRate = getSpreadRate(npcB.characteristic);
                         for (const fact of knowledgeB.knownFacts) {
                             if (Math.random() < spreadRate) {
-                                // Check if NPC A already knows this fact
-                                const aFacts = knowledgeA ? knowledgeA.knownFacts : [];
-                                if (!aFacts.find(f => f.id === fact.id)) {
-                                    // NPC A learns the fact
-                                    const newFact = {
-                                        ...fact,
-                                        learnedFrom: npcB.surname,
-                                        type: 'gossip'
-                                    };
-                                    if (!network.npcKnowledge[npcA.surname]) {
-                                        network.npcKnowledge[npcA.surname] = { knownFacts: [] };
-                                    }
-                                    network.npcKnowledge[npcA.surname].knownFacts.push(newFact);
+                                // NPC A learns the fact (addFactToNPC handles deduplication and limit)
+                                const newFact = {
+                                    ...fact,
+                                    learnedFrom: npcB.surname,
+                                    type: 'gossip'
+                                };
+                                if (await addFactToNPC(sessionId, npcA.surname, newFact)) {
                                     gossipCount++;
                                 }
                             }
@@ -881,8 +877,7 @@ app.post('/api/npc/gossip/process', async (req, res) => {
             }
         }
         
-        // Save updated network
-        await saveGossipNetwork(sessionId, network);
+        // Note: Network is already saved by addFactToNPC after each fact addition
         
         res.json({
             success: true,

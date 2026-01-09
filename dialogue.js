@@ -569,15 +569,41 @@ async function SendMessage() {
             throw new Error('Failed to get session ID');
         }
         // Get active case (for judge and for NPCs involved in cases)
-        let activeCase = null;
+        let activeCaseRaw = null;
         if (typeof GetActiveCase !== 'undefined') {
-            activeCase = GetActiveCase();
+            activeCaseRaw = GetActiveCase();
+        }
+        
+        // Sanitize activeCase to remove circular references - only send what server needs
+        let activeCase = null;
+        if (activeCaseRaw) {
+            activeCase = {
+                caseSummary: activeCaseRaw.caseSummary || '',
+                witnesses: (activeCaseRaw.witnesses || []).map(w => ({
+                    role: w.role || 'witness',
+                    npc: {
+                        surname: w.npc?.surname || 'Unknown',
+                        houseAddress: w.npc?.houseAddress || 'Unknown',
+                        workAddress: w.npc?.workAddress || 'Unknown'
+                    }
+                }))
+            };
         }
         
         // Get completed case context if talking to judge and no active case
         let completedCase = null;
         if (currentDialogueNPC.isJudge && !activeCase && completedCaseContext) {
-            completedCase = completedCaseContext;
+            // completedCaseContext should already be sanitized, but ensure it's safe
+            completedCase = {
+                caseSummary: completedCaseContext.caseSummary || '',
+                prosecution: completedCaseContext.prosecution || '',
+                ruling: completedCaseContext.ruling || '',
+                playerWins: completedCaseContext.playerWins || false,
+                playerReprimanded: completedCaseContext.playerReprimanded || false,
+                playerDisbarred: completedCaseContext.playerDisbarred || false,
+                punishments: completedCaseContext.punishments || [],
+                jobChanges: completedCaseContext.jobChanges || []
+            };
         }
         
         const response = await fetch(`/api/npc/conversation/${encodeURIComponent(currentDialogueNPC.surname)}?sessionId=${encodeURIComponent(sessionId)}`, {

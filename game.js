@@ -844,7 +844,29 @@ function PostRender()
         DrawText(gameTime.GetDayName().toUpperCase(), x, y + 66, 12, 'center', 1, '#FFF', '#000');
     }
     
-    // Inventory button (below time/date)
+    // Coin display HUD (below time/date, above inventory button)
+    {
+        let coinDisplayX = 40;
+        let coinDisplayY = 90;
+        let coinDisplayWidth = 60;
+        let coinDisplayHeight = 24;
+        
+        // Draw background box
+        mainCanvasContext.fillStyle = '#333';
+        mainCanvasContext.fillRect(coinDisplayX - coinDisplayWidth/2, coinDisplayY - coinDisplayHeight/2, coinDisplayWidth, coinDisplayHeight);
+        
+        // Draw border
+        mainCanvasContext.strokeStyle = '#FFF';
+        mainCanvasContext.lineWidth = 1;
+        mainCanvasContext.strokeRect(coinDisplayX - coinDisplayWidth/2, coinDisplayY - coinDisplayHeight/2, coinDisplayWidth, coinDisplayHeight);
+        
+        // Draw coin count as "$x" format
+        let coinCount = playerData ? playerData.coins : 0;
+        let coinText = '$' + coinCount.toString();
+        DrawText(coinText, coinDisplayX, coinDisplayY, 12, 'center', 1, '#4F4', '#000');
+    }
+    
+    // Inventory button (below coin display)
     {
         let invButtonX = 40;
         let invButtonY = 110;
@@ -884,28 +906,6 @@ function PostRender()
         
         // Draw button text ('C')
         DrawText('C', calButtonX, calButtonY, 16, 'center', 1, '#FFF', '#000');
-    }
-    
-    // Coin display HUD (below calendar button)
-    {
-        let coinDisplayX = 40;
-        let coinDisplayY = 190;
-        let coinDisplayWidth = 60;
-        let coinDisplayHeight = 24;
-        
-        // Draw background box
-        mainCanvasContext.fillStyle = '#333';
-        mainCanvasContext.fillRect(coinDisplayX - coinDisplayWidth/2, coinDisplayY - coinDisplayHeight/2, coinDisplayWidth, coinDisplayHeight);
-        
-        // Draw border
-        mainCanvasContext.strokeStyle = '#FFF';
-        mainCanvasContext.lineWidth = 1;
-        mainCanvasContext.strokeRect(coinDisplayX - coinDisplayWidth/2, coinDisplayY - coinDisplayHeight/2, coinDisplayWidth, coinDisplayHeight);
-        
-        // Draw coin count as "$x" format
-        let coinCount = playerData ? playerData.coins : 0;
-        let coinText = '$' + coinCount.toString();
-        DrawText(coinText, coinDisplayX, coinDisplayY, 12, 'center', 1, '#4F4', '#000');
     }
     
     // Reset button (top-right)

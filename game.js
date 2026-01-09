@@ -63,6 +63,7 @@ let townMapVisible = false; // Toggle for town grid map
 // Calendar system
 let calendarOpen = false;
 let calendarButtonHover = false;
+let mapButtonHover = false;
 let calendarViewMonth = 1; // Current month being viewed (1-12)
 let calendarViewYear = 1; // Current year being viewed (starts at 1)
 let calendarSelectedDate = null; // { month, day } when viewing date details
@@ -657,7 +658,7 @@ function Update()
     if (!inventoryOpen && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()))
     {
         let invButtonX = 40;
-        let invButtonY = 110;
+        let invButtonY = 130;
         let invButtonWidth = 30;
         let invButtonHeight = 30;
         
@@ -682,7 +683,7 @@ function Update()
     if (!calendarOpen && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()))
     {
         let calButtonX = 40;
-        let calButtonY = 150;
+        let calButtonY = 175;
         let calButtonWidth = 30;
         let calButtonHeight = 30;
         
@@ -706,6 +707,31 @@ function Update()
     {
         // Reset hover state when calendar or dialogue is open
         calendarButtonHover = false;
+    }
+    
+    // Check for map button hover and click
+    // Don't allow map to toggle if dialogue modal is open
+    if (!(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()))
+    {
+        let mapButtonX = 40;
+        let mapButtonY = 220;
+        let mapButtonWidth = 30;
+        let mapButtonHeight = 30;
+        
+        // Check if mouse is hovering over map button
+        mapButtonHover = (mousePos.x >= mapButtonX - mapButtonWidth/2 && mousePos.x <= mapButtonX + mapButtonWidth/2 &&
+                         mousePos.y >= mapButtonY - mapButtonHeight/2 && mousePos.y <= mapButtonY + mapButtonHeight/2);
+        
+        // Check for map button click
+        if (MouseWasPressed() && mapButtonHover)
+        {
+            townMapVisible = !townMapVisible;
+        }
+    }
+    else
+    {
+        // Reset hover state when dialogue is open
+        mapButtonHover = false;
     }
     
     // Check for inventory key press (I key = 73)
@@ -847,7 +873,7 @@ function PostRender()
     // Coin display HUD (below time/date, above inventory button)
     {
         let coinDisplayX = 40;
-        let coinDisplayY = 90;
+        let coinDisplayY = 95;
         let coinDisplayWidth = 60;
         let coinDisplayHeight = 24;
         
@@ -869,7 +895,7 @@ function PostRender()
     // Inventory button (below coin display)
     {
         let invButtonX = 40;
-        let invButtonY = 110;
+        let invButtonY = 130;
         let invButtonWidth = 30;
         let invButtonHeight = 30;
         
@@ -890,7 +916,7 @@ function PostRender()
     // Calendar button (below inventory button)
     {
         let calButtonX = 40;
-        let calButtonY = 150;
+        let calButtonY = 175;
         let calButtonWidth = 30;
         let calButtonHeight = 30;
         
@@ -906,6 +932,27 @@ function PostRender()
         
         // Draw button text ('C')
         DrawText('C', calButtonX, calButtonY, 16, 'center', 1, '#FFF', '#000');
+    }
+    
+    // Map button (below calendar button)
+    {
+        let mapButtonX = 40;
+        let mapButtonY = 220;
+        let mapButtonWidth = 30;
+        let mapButtonHeight = 30;
+        
+        // Draw button background (hover state is set in Update())
+        let bgColor = mapButtonHover ? '#48F' : '#248';
+        mainCanvasContext.fillStyle = bgColor;
+        mainCanvasContext.fillRect(mapButtonX - mapButtonWidth/2, mapButtonY - mapButtonHeight/2, mapButtonWidth, mapButtonHeight);
+        
+        // Draw button border
+        mainCanvasContext.strokeStyle = '#FFF';
+        mainCanvasContext.lineWidth = 2;
+        mainCanvasContext.strokeRect(mapButtonX - mapButtonWidth/2, mapButtonY - mapButtonHeight/2, mapButtonWidth, mapButtonHeight);
+        
+        // Draw button text ('M')
+        DrawText('M', mapButtonX, mapButtonY, 16, 'center', 1, '#FFF', '#000');
     }
     
     // Reset button (top-right)

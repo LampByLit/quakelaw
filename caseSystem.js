@@ -1228,8 +1228,8 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
         }
         
         const judgmentData = await judgmentResponse.json();
-        const { playerWins, playerReprimanded, playerDisbarred, punishments, jobChanges, ruling } = judgmentData;
-        console.log(`[JUDGMENT] Step 7 complete. Player wins: ${playerWins}, Reprimanded: ${playerReprimanded}, Disbarred: ${playerDisbarred}, Punishments: ${punishments ? punishments.length : 0}, Job changes: ${jobChanges ? jobChanges.length : 0}`);
+        const { playerWins, playerReprimanded, playerDisbarred, coinsAwarded, punishments, jobChanges, ruling } = judgmentData;
+        console.log(`[JUDGMENT] Step 7 complete. Player wins: ${playerWins}, Reprimanded: ${playerReprimanded}, Disbarred: ${playerDisbarred}, Coins awarded: ${coinsAwarded || 0}, Punishments: ${punishments ? punishments.length : 0}, Job changes: ${jobChanges ? jobChanges.length : 0}`);
         
         // 8. Handle player reprimand (deduct $20)
         if (playerReprimanded && typeof playerData !== 'undefined') {
@@ -1266,16 +1266,17 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
             console.log('[JUDGMENT] Step 11: No job changes to execute');
         }
         
-        // 12. Add coins if player won (but not if reprimanded, as that's already handled)
-        if (playerWins && !playerReprimanded && typeof playerData !== 'undefined') {
+        // 12. Add coins awarded by judge (if any)
+        const awardAmount = coinsAwarded || 0;
+        if (awardAmount > 0 && typeof playerData !== 'undefined') {
             const oldCoins = playerData.coins || 0;
-            playerData.coins = oldCoins + 20;
-            console.log(`[JUDGMENT] Step 12: Added $20 coins. Old: $${oldCoins}, New: $${playerData.coins}`);
+            playerData.coins = oldCoins + awardAmount;
+            console.log(`[JUDGMENT] Step 12: Added $${awardAmount} coins. Old: $${oldCoins}, New: $${playerData.coins}`);
             if (typeof SaveGameState === 'function') {
                 SaveGameState();
             }
         } else {
-            console.log(`[JUDGMENT] Step 12: Player ${playerWins ? 'won but coins not added' : 'lost'}`);
+            console.log(`[JUDGMENT] Step 12: No coins awarded (amount: ${awardAmount})`);
         }
         
         // Hide loading notification
@@ -1290,7 +1291,7 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
             punishments: punishments || [],
             jobChanges: jobChanges || [],
             ruling: ruling || 'The judge has made a decision.',
-            coinsAwarded: playerWins && !playerReprimanded ? 20 : (playerReprimanded ? -20 : 0),
+            coinsAwarded: awardAmount,
             prosecution: prosecution || ''
         };
         

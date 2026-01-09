@@ -697,6 +697,7 @@ Your task:
 5. Write a 50-word ruling explaining your decision in your character's voice
 
 JUDGE POWERS: As the judge, you have the following additional powers you may exercise:
+- You can award coins of any amount (0 or any positive number) to the player for their work as lawyer. The amount is entirely up to your discretion based on the quality of their work, evidence presented, statement quality, and case complexity. There is no upper limit - award what you deem appropriate.
 - You can officially reprimand the player (costs them $20 coins) if their conduct was unprofessional
 - You can officially disbar the player (results in game over) if their conduct was extremely egregious or illegal - use this VERY RARELY, only for the most serious offenses
 - You can sentence any witness in any case to death (same as banishment)
@@ -710,6 +711,7 @@ Return your response as a JSON object with this exact structure:
     "playerWins": true or false,
     "playerReprimanded": true or false,
     "playerDisbarred": true or false,
+    "coinsAwarded": 0 or any positive number (the amount of coins you award to the player for their work as lawyer, based on your judgment of their performance),
     "punishments": [
         {"npcSurname": "Smith", "punishmentType": "corporeal", "reason": "Brief reason"},
         {"npcSurname": "Jones", "punishmentType": "banishment", "reason": "Brief reason"},
@@ -728,6 +730,7 @@ Punishment types:
 
 Notes:
 - "npcSurname" can be ANY NPC in town, not just witnesses
+- "coinsAwarded" should be a number >= 0. Award coins based on the quality of the player's work as lawyer - consider their evidence, statement quality, case complexity, and overall performance. There is no limit - award what you deem appropriate (could be 0, 10, 50, 100, 500, or any amount).
 - "playerReprimanded" should be true if the player's conduct warrants a $20 fine
 - "playerDisbarred" should be true ONLY for extremely serious offenses (use VERY RARELY)
 - "jobChanges" allows you to change any NPC's job to anything you want
@@ -809,11 +812,16 @@ Notes:
         if (!parsed.ruling || typeof parsed.ruling !== 'string') {
             parsed.ruling = 'The judge has made a decision.';
         }
+        // Validate coinsAwarded - must be a number >= 0
+        if (typeof parsed.coinsAwarded !== 'number' || parsed.coinsAwarded < 0) {
+            parsed.coinsAwarded = 0;
+        }
         
         res.json({
             playerWins: parsed.playerWins,
             playerReprimanded: parsed.playerReprimanded || false,
             playerDisbarred: parsed.playerDisbarred || false,
+            coinsAwarded: parsed.coinsAwarded || 0,
             punishments: parsed.punishments || [],
             jobChanges: parsed.jobChanges || [],
             ruling: parsed.ruling

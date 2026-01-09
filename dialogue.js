@@ -1083,7 +1083,10 @@ async function SubmitJudgmentStatement() {
                 
                 // Show success notification
                 if (typeof ShowSuccessNotification !== 'undefined') {
-                    let notificationText = result.playerWins ? 'Case won! +$20' : 'Case lost';
+                    let notificationText = result.playerWins ? 'Case won!' : 'Case lost';
+                    if (result.coinsAwarded > 0) {
+                        notificationText += ` +$${result.coinsAwarded}`;
+                    }
                     if (result.playerReprimanded) {
                         notificationText += ' | Reprimanded: -$20';
                     }
@@ -1156,6 +1159,12 @@ function CreateJudgmentEvidenceItem(result) {
     judgmentText += '--- VERDICT ---\n';
     judgmentText += result.playerWins ? 'VERDICT: You WON the case!\n' : 'VERDICT: You LOST the case.\n';
     
+    // Show coin award
+    if (result.coinsAwarded > 0) {
+        judgmentText += `\n--- COIN AWARD ---\n`;
+        judgmentText += `The judge awarded you $${result.coinsAwarded} coins for your work as lawyer.\n`;
+    }
+    
     // Show reprimand
     if (result.playerReprimanded) {
         judgmentText += '\n--- JUDGE REPRIMAND ---\n';
@@ -1168,12 +1177,6 @@ function CreateJudgmentEvidenceItem(result) {
         judgmentText += '\n--- DISBARMENT ---\n';
         judgmentText += 'You have been DISBARRED by the judge.\n';
         judgmentText += 'GAME OVER\n';
-    }
-    
-    if (result.coinsAwarded > 0) {
-        judgmentText += `\nREWARD: $${result.coinsAwarded} coins\n`;
-    } else if (result.coinsAwarded < 0) {
-        judgmentText += `\nFINE: $${Math.abs(result.coinsAwarded)} coins\n`;
     }
     
     judgmentText += '\n--- PUNISHMENTS ---\n';
@@ -1255,6 +1258,9 @@ function ShowJudgmentRulingModal(result) {
     
     // Set verdict with reprimand/disbarment info
     let verdictText = result.playerWins ? 'VERDICT: You WON the case!' : 'VERDICT: You LOST the case.';
+    if (result.coinsAwarded > 0) {
+        verdictText += `\n\n💰 COIN AWARD: +$${result.coinsAwarded}`;
+    }
     if (result.playerReprimanded) {
         verdictText += '\n\n⚠️ OFFICIAL REPRIMAND: -$20 coins';
     }

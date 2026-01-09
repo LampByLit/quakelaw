@@ -929,12 +929,6 @@ function PostRender()
         RenderCalendarModal();
     }
     
-    // Render success notification
-    if (typeof RenderSuccessNotification !== 'undefined')
-    {
-        RenderSuccessNotification();
-    }
-    
     // Render evidence naming modal if open
     if (evidenceNamingModalOpen)
     {
@@ -945,6 +939,12 @@ function PostRender()
     if (evidenceViewModalOpen)
     {
         RenderEvidenceViewModal();
+    }
+    
+    // Render success notification last (so it appears on top of everything)
+    if (typeof RenderSuccessNotification !== 'undefined')
+    {
+        RenderSuccessNotification();
     }
     
     // mouse cursor (rendered last so it appears on top of everything, including modals)

@@ -309,6 +309,18 @@ function ScheduleSundayCoffee()
     if (!nextSunday)
         return;
     
+    // Check if event already exists for this date (prevent duplicates)
+    let existingEvents = GetEventsForDate(nextSunday.year, nextSunday.month, nextSunday.day);
+    if (existingEvents.some(e => e.taskId === 'sundayCoffee'))
+    {
+        // Event already exists, just update task data
+        if (calendarTasks['sundayCoffee'])
+        {
+            calendarTasks['sundayCoffee'].data.lastScheduledDate = nextSunday;
+        }
+        return;
+    }
+    
     // Pick random NPC
     if (!allNPCs || allNPCs.length === 0)
         return;
@@ -339,6 +351,10 @@ function InitializeSundayCoffee()
     if (!gameTime)
         return;
     
+    // Check if task already initialized (prevent duplicates)
+    if (calendarTasks['sundayCoffee'])
+        return;
+    
     // Register task
     RegisterTask('sundayCoffee', {
         lastScheduledDate: null
@@ -347,10 +363,24 @@ function InitializeSundayCoffee()
     // If today is Sunday, schedule for today
     if (gameTime.dayOfWeek === 0)
     {
+        let currentYear = gameTime.daysElapsed >= 0 ? 1 : 0;
+        
+        // Check if event already exists for today
+        let existingEvents = GetEventsForDate(currentYear, gameTime.month, gameTime.dayOfMonth);
+        if (existingEvents.some(e => e.taskId === 'sundayCoffee'))
+        {
+            // Event already exists, just update task data
+            calendarTasks['sundayCoffee'].data.lastScheduledDate = {
+                year: currentYear,
+                month: gameTime.month,
+                day: gameTime.dayOfMonth
+            };
+            return;
+        }
+        
         let randomNPC = allNPCs && allNPCs.length > 0 ? allNPCs[RandInt(allNPCs.length)] : null;
         if (randomNPC)
         {
-            let currentYear = gameTime.daysElapsed >= 0 ? 1 : 0;
             CreateCalendarEvent(
                 currentYear,
                 gameTime.month,
@@ -382,7 +412,7 @@ function ShowSuccessNotification(text)
 {
     successNotificationVisible = true;
     successNotificationText = text;
-    successNotificationTimer.Set(3.0); // Show for 3 seconds
+    successNotificationTimer.Set(1.5); // Show for 1.5 seconds (brief)
 }
 
 function UpdateSuccessNotification()
@@ -399,27 +429,12 @@ function RenderSuccessNotification()
     if (!successNotificationVisible)
         return;
     
-    // Draw semi-transparent overlay
-    mainCanvasContext.fillStyle = 'rgba(0, 0, 0, 0.5)';
-    mainCanvasContext.fillRect(0, 0, mainCanvasSize.x, mainCanvasSize.y);
+    // Simple text at top of screen, no background or border
+    let textX = mainCanvasSize.x / 2;
+    let textY = 40; // Top of screen
     
-    // Modal dimensions
-    let modalWidth = 400;
-    let modalHeight = 120;
-    let modalX = mainCanvasSize.x / 2;
-    let modalY = mainCanvasSize.y / 2;
-    
-    // Draw modal background
-    mainCanvasContext.fillStyle = '#2a4a2a';
-    mainCanvasContext.fillRect(modalX - modalWidth/2, modalY - modalHeight/2, modalWidth, modalHeight);
-    
-    // Draw modal border
-    mainCanvasContext.strokeStyle = '#4aff4a';
-    mainCanvasContext.lineWidth = 4;
-    mainCanvasContext.strokeRect(modalX - modalWidth/2, modalY - modalHeight/2, modalWidth, modalHeight);
-    
-    // Draw text
-    DrawText(successNotificationText, modalX, modalY, 16, 'center', 1, '#4aff4a', '#000');
+    // Draw text only (no background, no border)
+    DrawText(successNotificationText, textX, textY, 14, 'center', 1, '#4aff4a', '#000');
 }
 
 ///////////////////////////////////////////////////////////////////////////////

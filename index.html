@@ -363,6 +363,175 @@ background: #844;
 .judgment-button.cancel:hover {
 background: #a66;
 }
+/* Claim Input Modal Styles */
+#claimModal {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.9);
+z-index: 1002;
+font-family: 'Press Start 2P', monospace;
+}
+#claimModal.open {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.claim-modal-content {
+background: #2a2a2a;
+border: 4px solid #fff;
+border-radius: 8px;
+width: 90%;
+max-width: 700px;
+max-height: 85vh;
+display: flex;
+flex-direction: column;
+box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+.claim-header {
+background: #1a1a1a;
+padding: 15px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-bottom: 2px solid #fff;
+}
+.claim-header h2 {
+color: #fff;
+font-size: 12px;
+margin: 0;
+}
+.claim-body {
+padding: 20px;
+flex: 1;
+overflow-y: auto;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.claim-fee-section {
+background: #1a1a1a;
+padding: 15px;
+border: 2px solid #444;
+}
+.claim-fee-section h3 {
+color: #4aff4a;
+font-size: 10px;
+margin: 0;
+}
+.claim-description-section,
+.claim-outcome-section {
+display: flex;
+flex-direction: column;
+flex: 1;
+}
+.claim-description-section label,
+.claim-outcome-section label {
+color: #fff;
+font-size: 10px;
+margin-bottom: 10px;
+}
+#claimDescription,
+#claimDesiredOutcome {
+background: #1a1a1a;
+border: 2px solid #444;
+color: #fff;
+font-family: 'Press Start 2P', monospace;
+font-size: 8px;
+padding: 10px;
+flex: 1;
+min-height: 150px;
+resize: vertical;
+}
+#claimDescription:focus,
+#claimDesiredOutcome:focus {
+outline: none;
+border-color: #4a9eff;
+}
+.claim-actions {
+padding: 15px;
+display: flex;
+justify-content: flex-end;
+gap: 10px;
+border-top: 2px solid #444;
+}
+.claim-button {
+background: #4a9eff;
+color: #fff;
+border: none;
+padding: 10px 20px;
+font-size: 10px;
+cursor: pointer;
+font-family: 'Press Start 2P', monospace;
+}
+.claim-button:hover {
+background: #6ab3ff;
+}
+.claim-button:disabled {
+background: #666;
+cursor: not-allowed;
+}
+.claim-button.cancel {
+background: #844;
+}
+.claim-button.cancel:hover {
+background: #a66;
+}
+/* Claim Ruling Modal Styles */
+#claimRulingModal {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.95);
+z-index: 1003;
+font-family: 'Press Start 2P', monospace;
+}
+#claimRulingModal.open {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.claim-ruling-modal-content {
+background: #2a2a2a;
+border: 4px solid #fff;
+border-radius: 8px;
+width: 90%;
+max-width: 700px;
+max-height: 85vh;
+display: flex;
+flex-direction: column;
+box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+.claim-ruling-header {
+background: #1a1a1a;
+padding: 15px;
+border-bottom: 2px solid #fff;
+}
+.claim-ruling-header h2 {
+color: #fff;
+font-size: 12px;
+margin: 0;
+}
+.claim-ruling-body {
+padding: 20px;
+flex: 1;
+overflow-y: auto;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.claim-ruling-actions {
+padding: 15px;
+display: flex;
+justify-content: flex-end;
+border-top: 2px solid #444;
+}
 /* Judgment Ruling Modal Styles */
 #judgmentRulingModal {
 display: none;
@@ -578,6 +747,52 @@ background: #6ab3ff;
 </div>
 <div class="judgment-ruling-actions">
 <button id="okJudgmentRuling" class="judgment-button">OK</button>
+</div>
+</div>
+</div>
+
+<!-- Claim Input Modal -->
+<div id="claimModal">
+<div class="claim-modal-content">
+<div class="claim-header">
+<h2>FILE A CLAIM</h2>
+<button id="closeClaimModal" class="claim-button cancel" style="padding: 5px 10px; font-size: 8px;">X</button>
+</div>
+<div class="claim-body">
+<div class="claim-fee-section">
+<h3>CLAIM FEE: $20 (Already Paid)</h3>
+</div>
+<div class="claim-description-section">
+<label>CLAIM DESCRIPTION (100 words maximum):</label>
+<textarea id="claimDescription" placeholder="Describe your claim..."></textarea>
+<div id="claimDescriptionWordCount" class="word-count">0/100 words</div>
+</div>
+<div class="claim-outcome-section">
+<label>DESIRED OUTCOME (100 words maximum, optional):</label>
+<textarea id="claimDesiredOutcome" placeholder="What outcome do you seek? (optional)"></textarea>
+<div id="claimOutcomeWordCount" class="word-count">0/100 words</div>
+</div>
+</div>
+<div class="claim-actions">
+<button id="cancelClaim" class="claim-button cancel">Cancel</button>
+<button id="submitClaim" class="claim-button">Submit Claim</button>
+</div>
+</div>
+</div>
+
+<!-- Claim Ruling Modal -->
+<div id="claimRulingModal">
+<div class="claim-ruling-modal-content">
+<div class="claim-ruling-header">
+<h2>CLAIM RULING</h2>
+</div>
+<div class="claim-ruling-body">
+<div id="claimRulingText" class="ruling-text"></div>
+<div id="claimVerdict" class="verdict-section"></div>
+<div id="claimPunishments" class="punishments-section"></div>
+</div>
+<div class="claim-ruling-actions">
+<button id="okClaimRuling" class="claim-button">OK</button>
 </div>
 </div>
 </div>

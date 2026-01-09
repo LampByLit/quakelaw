@@ -1059,6 +1059,31 @@ function CollectEvidenceFromInventory() {
     return evidence;
 }
 
+// Collect only recording evidence from player inventory (for claims)
+function CollectRecordingEvidenceFromInventory() {
+    if (!playerData || !playerData.inventory) {
+        return [];
+    }
+    
+    const evidence = [];
+    for (const item of playerData.inventory) {
+        // Only collect evidence_ type items (exclude judgment_, casefile_, claim_)
+        if (item.type && 
+            item.type.startsWith('evidence_') && 
+            !item.type.startsWith('judgment_') &&
+            !item.type.startsWith('casefile_') &&
+            !item.type.startsWith('claim_') &&
+            item.metadata) {
+            evidence.push({
+                name: item.name || 'Unnamed Evidence',
+                metadata: item.metadata
+            });
+        }
+    }
+    
+    return evidence;
+}
+
 // Collect bonuses from inventory (credibility, countersuit, exculpation)
 function CollectBonusesFromInventory() {
     if (!playerData || !playerData.inventory) {
@@ -1308,5 +1333,244 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
         
         return null;
     }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Claim Processing
+
+// Process a claim (called after judge agrees to hear it and player pays $20)
+async function ProcessClaim(claimDescription, desiredOutcome) {
+    console.log(`[CLAIM] ProcessClaim called. Description length: ${claimDescription ? claimDescription.length : 0}, Outcome length: ${desiredOutcome ? desiredOutcome.length : 0}`);
+    
+    try {
+        // Show loading notification
+        if (typeof ShowLoadingNotification !== 'undefined') {
+            ShowLoadingNotification('Judge is reviewing your claim and evidence...');
+        }
+        
+        const sessionId = getSessionId();
+        
+        // 1. Collect recording evidence from inventory
+        console.log('[CLAIM] Step 1: Collecting recording evidence from inventory');
+        const evidence = CollectRecordingEvidenceFromInventory();
+        console.log(`[CLAIM] Step 1 complete. Evidence items: ${evidence ? evidence.length : 0}`);
+        
+        // 2. Get judge persona
+        console.log('[CLAIM] Step 2: Getting judge persona');
+        const judgePersona = GetJudgePersona();
+        console.log(`[CLAIM] Step 2 complete. Judge: ${judgePersona ? judgePersona.name : 'N/A'}`);
+        
+        // 3. Get completed case context (if available)
+        let completedCase = null;
+        if (typeof completedCaseContext !== 'undefined' && completedCaseContext) {
+            completedCase = completedCaseContext;
+            console.log('[CLAIM] Step 3: Found completed case context');
+        } else {
+            console.log('[CLAIM] Step 3: No completed case context available');
+        }
+        
+        // 4. Get all NPCs list (for judge powers)
+        console.log('[CLAIM] Step 4: Getting all NPCs list');
+        let allNPCsList = [];
+        if (typeof allNPCs !== 'undefined' && Array.isArray(allNPCs)) {
+            // Filter out banished NPCs and get NPC info
+            allNPCsList = allNPCs
+                .filter(npc => npc && npc.surname && !IsNPCBanished(npc.surname))
+                .map(npc => ({
+                    surname: npc.surname,
+                    job: npc.job || 'unemployed'
+                }));
+        }
+        console.log(`[CLAIM] Step 4 complete. All NPCs: ${allNPCsList.length}`);
+        
+        // 5. Judge makes decision
+        console.log('[CLAIM] Step 5: Sending claim judgment request to server');
+        const claimResponse = await fetch('/api/claims/judgment', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                claimDescription: claimDescription || '',
+                desiredOutcome: desiredOutcome || '',
+                evidence: evidence,
+                completedCaseContext: completedCase,
+                judgePersona: judgePersona,
+                allNPCs: allNPCsList
+            })
+        });
+        
+        if (!claimResponse.ok) {
+            throw new Error('Failed to get claim judgment decision');
+        }
+        
+        const claimData = await claimResponse.json();
+        const { claimGranted, playerReprimanded, playerDisbarred, coinsAwarded, punishments, jobChanges, ruling } = claimData;
+        console.log(`[CLAIM] Step 5 complete. Claim granted: ${claimGranted}, Reprimanded: ${playerReprimanded}, Disbarred: ${playerDisbarred}, Coins awarded: ${coinsAwarded || 0}, Punishments: ${punishments ? punishments.length : 0}, Job changes: ${jobChanges ? jobChanges.length : 0}`);
+        
+        // 6. Handle player reprimand (deduct $20)
+        if (playerReprimanded && typeof playerData !== 'undefined') {
+            const oldCoins = playerData.coins || 0;
+            playerData.coins = Math.max(0, oldCoins - 20);
+            console.log(`[CLAIM] Step 6: Player reprimanded. Deducted $20. Old: $${oldCoins}, New: $${playerData.coins}`);
+            if (typeof SaveGameState === 'function') {
+                SaveGameState();
+            }
+        }
+        
+        // 7. Handle player disbarment (game over)
+        if (playerDisbarred) {
+            console.log('[CLAIM] Step 7: Player disbarred - triggering game over');
+            // Trigger game over after showing the ruling
+        }
+        
+        // 8. Execute punishments
+        if (punishments && punishments.length > 0) {
+            console.log(`[CLAIM] Step 8: Executing ${punishments.length} punishments`);
+            await ExecutePunishments(punishments);
+            console.log('[CLAIM] Step 8 complete');
+        } else {
+            console.log('[CLAIM] Step 8: No punishments to execute');
+        }
+        
+        // 9. Execute job changes
+        if (jobChanges && jobChanges.length > 0) {
+            console.log(`[CLAIM] Step 9: Executing ${jobChanges.length} job changes`);
+            await ExecuteJobChanges(jobChanges);
+            console.log('[CLAIM] Step 9 complete');
+        } else {
+            console.log('[CLAIM] Step 9: No job changes to execute');
+        }
+        
+        // 10. Add coins awarded by judge (if any)
+        const awardAmount = coinsAwarded || 0;
+        if (awardAmount > 0 && typeof playerData !== 'undefined') {
+            const oldCoins = playerData.coins || 0;
+            playerData.coins = oldCoins + awardAmount;
+            console.log(`[CLAIM] Step 10: Added $${awardAmount} coins. Old: $${oldCoins}, New: $${playerData.coins}`);
+            if (typeof SaveGameState === 'function') {
+                SaveGameState();
+            }
+        } else {
+            console.log(`[CLAIM] Step 10: No coins awarded (amount: ${awardAmount})`);
+        }
+        
+        // Hide loading notification
+        if (typeof HideLoadingNotification !== 'undefined') {
+            HideLoadingNotification();
+        }
+        
+        const result = {
+            claimGranted: claimGranted || false,
+            claimDescription: claimDescription || '',
+            desiredOutcome: desiredOutcome || '',
+            playerReprimanded: playerReprimanded || false,
+            playerDisbarred: playerDisbarred || false,
+            punishments: punishments || [],
+            jobChanges: jobChanges || [],
+            ruling: ruling || 'The judge has made a decision.',
+            coinsAwarded: awardAmount
+        };
+        
+        console.log('[CLAIM] ProcessClaim complete. Returning result');
+        return result;
+        
+    } catch (error) {
+        console.error('[CLAIM] Error processing claim:', error);
+        
+        // Hide loading notification
+        if (typeof HideLoadingNotification !== 'undefined') {
+            HideLoadingNotification();
+        }
+        
+        return null;
+    }
+}
+
+// Create evidence item from claim results
+function CreateClaimEvidenceItem(result) {
+    // Format claim text
+    let claimText = 'CLAIM RULING\n';
+    claimText += '============\n\n';
+    claimText += `Claim: ${result.claimDescription}\n\n`;
+    if (result.desiredOutcome) {
+        claimText += `Desired Outcome: ${result.desiredOutcome}\n\n`;
+    }
+    claimText += `Ruling: ${result.ruling}\n\n`;
+    claimText += `--- VERDICT ---\n`;
+    claimText += result.claimGranted ? 'VERDICT: Claim GRANTED\n' : 'VERDICT: Claim DENIED\n';
+    
+    // Show coin award
+    if (result.coinsAwarded > 0) {
+        claimText += `\n--- COIN AWARD ---\n`;
+        claimText += `The judge awarded you $${result.coinsAwarded} coins.\n`;
+    }
+    
+    // Show reprimand
+    if (result.playerReprimanded) {
+        claimText += '\n--- JUDGE REPRIMAND ---\n';
+        claimText += 'You have been officially reprimanded by the judge.\n';
+        claimText += 'FINE: -$20 coins\n';
+    }
+    
+    // Show disbarment
+    if (result.playerDisbarred) {
+        claimText += '\n--- DISBARMENT ---\n';
+        claimText += 'You have been DISBARRED by the judge.\n';
+        claimText += 'GAME OVER\n';
+    }
+    
+    claimText += '\n--- PUNISHMENTS ---\n';
+    if (result.punishments && result.punishments.length > 0) {
+        for (const p of result.punishments) {
+            const npcSurname = p.npcSurname || p.witnessSurname || 'Unknown';
+            const reason = p.reason ? ` (${p.reason})` : '';
+            if (p.punishmentType === 'corporeal') {
+                claimText += `- ${npcSurname}: Corporeal punishment${reason}\n`;
+            } else if (p.punishmentType === 'banishment') {
+                claimText += `- ${npcSurname}: Permanently banished${reason}\n`;
+            } else if (p.punishmentType === 'death') {
+                claimText += `- ${npcSurname}: Sentenced to death${reason}\n`;
+            }
+        }
+    } else {
+        claimText += 'No NPCs were punished.\n';
+    }
+    
+    if (result.jobChanges && result.jobChanges.length > 0) {
+        claimText += '\n--- JOB CHANGES ---\n';
+        for (const change of result.jobChanges) {
+            const reason = change.reason ? ` (${change.reason})` : '';
+            claimText += `- ${change.npcSurname}: Changed to "${change.newJob}"${reason}\n`;
+        }
+    }
+    
+    // Create evidence item name
+    const dateStr = new Date().toLocaleDateString();
+    const evidenceName = `Claim Ruling - ${dateStr}`;
+    
+    // Create evidence item
+    const evidenceItem = {
+        type: `claim_${Date.now()}`, // Unique type to prevent stacking
+        name: evidenceName,
+        tileX: 5,
+        tileY: 5,
+        quantity: 1,
+        metadata: {
+            claimText: claimText,
+            claimDescription: result.claimDescription,
+            desiredOutcome: result.desiredOutcome || '',
+            claimGranted: result.claimGranted,
+            ruling: result.ruling,
+            coinsAwarded: result.coinsAwarded || 0,
+            punishments: result.punishments || [],
+            jobChanges: result.jobChanges || [],
+            playerReprimanded: result.playerReprimanded || false,
+            playerDisbarred: result.playerDisbarred || false,
+            timestamp: Date.now()
+        }
+    };
+    
+    return evidenceItem;
 }
 

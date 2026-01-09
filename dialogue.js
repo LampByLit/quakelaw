@@ -613,6 +613,51 @@ async function SendMessage() {
         
         UpdateConversationDisplay();
         
+        // Check if judge agreed to hear a claim (look for claim agreement indicators in response)
+        // Only allow claims after a trial has been completed (when completedCaseContext exists)
+        if (currentDialogueNPC.isJudge && !isLoadingResponse && completedCaseContext) {
+            const lastMessage = conversationHistory[conversationHistory.length - 1];
+            if (lastMessage && lastMessage.role === 'npc') {
+                const responseText = lastMessage.message.toLowerCase();
+                // Check if judge agreed to hear claim (look for keywords like "hear", "will hear", "accept", "$20", etc.)
+                const claimAgreementPatterns = [
+                    /will hear.*claim/i,
+                    /i.*hear.*claim/i,
+                    /accept.*claim/i,
+                    /\$20.*claim/i,
+                    /claim.*\$20/i,
+                    /fee.*\$20/i,
+                    /\$20.*fee/i
+                ];
+                
+                const hasAgreementPattern = claimAgreementPatterns.some(pattern => pattern.test(responseText));
+                
+                // Also check if response mentions $20 and seems positive about hearing
+                const mentionsFee = /\$20/.test(responseText);
+                const seemsPositive = /(will|can|shall|agree|accept|yes|okay|ok)/i.test(responseText);
+                
+                if (hasAgreementPattern || (mentionsFee && seemsPositive)) {
+                    // Check if player has $20
+                    const playerCoins = typeof playerData !== 'undefined' && playerData ? (playerData.coins || 0) : 0;
+                    if (playerCoins >= 20) {
+                        // Deduct $20 immediately
+                        playerData.coins = playerCoins - 20;
+                        if (typeof SaveGameState === 'function') {
+                            SaveGameState();
+                        }
+                        console.log('[CLAIM] Judge agreed to hear claim. Deducted $20. New balance: $' + playerData.coins);
+                        
+                        // Show claim input modal after a short delay
+                        setTimeout(() => {
+                            ShowClaimInputModal();
+                        }, 500);
+                    } else {
+                        console.log('[CLAIM] Judge agreed but player cannot afford $20 fee');
+                    }
+                }
+            }
+        }
+        
     } catch (error) {
         console.error('Error sending message:', error);
         const loading = document.querySelector('.loading-indicator');
@@ -1571,16 +1616,406 @@ function InitRentModal() {
     // The modal can only be closed via OK button
 }
 
+///////////////////////////////////////////////////////////////////////////////
+// Claim Modal Functions
+
+let claimModalOpen = false;
+let claimProcessing = false;
+
+// Show claim input modal
+function ShowClaimInputModal() {
+    if (claimModalOpen) return;
+    
+    claimModalOpen = true;
+    
+    // Clear inputs
+    const descriptionInput = document.getElementById('claimDescription');
+    const outcomeInput = document.getElementById('claimDesiredOutcome');
+    if (descriptionInput) {
+        descriptionInput.value = '';
+        descriptionInput.disabled = false;
+    }
+    if (outcomeInput) {
+        outcomeInput.value = '';
+        outcomeInput.disabled = false;
+    }
+    
+    // Update word counts
+    UpdateClaimWordCount();
+    
+    // Enable submit button
+    const submitBtn = document.getElementById('submitClaim');
+    if (submitBtn) {
+        submitBtn.disabled = false;
+    }
+    
+    // Show modal
+    const modal = document.getElementById('claimModal');
+    if (modal) {
+        modal.classList.add('open');
+        
+        // Focus the description textarea after modal is rendered
+        requestAnimationFrame(() => {
+            setTimeout(() => {
+                if (descriptionInput) {
+                    descriptionInput.focus();
+                }
+            }, 50);
+        });
+    }
+    
+    // Initialize event handlers
+    InitClaimModal();
+}
+
+// Initialize claim modal handlers
+function InitClaimModal() {
+    const closeBtn = document.getElementById('closeClaimModal');
+    const cancelBtn = document.getElementById('cancelClaim');
+    const submitBtn = document.getElementById('submitClaim');
+    const descriptionInput = document.getElementById('claimDescription');
+    const outcomeInput = document.getElementById('claimDesiredOutcome');
+    
+    if (closeBtn) {
+        closeBtn.onclick = CloseClaimModal;
+    }
+    if (cancelBtn) {
+        cancelBtn.onclick = CloseClaimModal;
+    }
+    if (submitBtn) {
+        submitBtn.onclick = SubmitClaim;
+    }
+    if (descriptionInput) {
+        descriptionInput.oninput = UpdateClaimWordCount;
+        descriptionInput.onkeydown = (e) => {
+            if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+                e.preventDefault();
+                SubmitClaim();
+            }
+        };
+    }
+    if (outcomeInput) {
+        outcomeInput.oninput = UpdateClaimWordCount;
+    }
+    
+    // ESC key to close
+    document.addEventListener('keydown', function escHandler(e) {
+        if (e.key === 'Escape' && claimModalOpen) {
+            CloseClaimModal();
+            document.removeEventListener('keydown', escHandler);
+        }
+    });
+}
+
+// Update word count for claim inputs
+function UpdateClaimWordCount() {
+    const descriptionInput = document.getElementById('claimDescription');
+    const outcomeInput = document.getElementById('claimDesiredOutcome');
+    const descriptionCountEl = document.getElementById('claimDescriptionWordCount');
+    const outcomeCountEl = document.getElementById('claimOutcomeWordCount');
+    const submitBtn = document.getElementById('submitClaim');
+    
+    if (!descriptionInput || !descriptionCountEl) return;
+    
+    const descriptionText = descriptionInput.value.trim();
+    const descriptionWords = descriptionText.split(/\s+/).filter(w => w.length > 0);
+    const descriptionWordCount = descriptionWords.length;
+    const maxWords = 100;
+    
+    descriptionCountEl.textContent = `${descriptionWordCount}/${maxWords} words`;
+    descriptionCountEl.classList.remove('warning', 'error');
+    if (descriptionWordCount > maxWords) {
+        descriptionCountEl.classList.add('error');
+        if (submitBtn) submitBtn.disabled = true;
+    } else if (descriptionWordCount > maxWords * 0.9) {
+        descriptionCountEl.classList.add('warning');
+        if (submitBtn) submitBtn.disabled = false;
+    } else {
+        if (submitBtn) submitBtn.disabled = false;
+    }
+    
+    if (outcomeInput && outcomeCountEl) {
+        const outcomeText = outcomeInput.value.trim();
+        const outcomeWords = outcomeText.split(/\s+/).filter(w => w.length > 0);
+        const outcomeWordCount = outcomeWords.length;
+        
+        outcomeCountEl.textContent = `${outcomeWordCount}/${maxWords} words`;
+        outcomeCountEl.classList.remove('warning', 'error');
+        if (outcomeWordCount > maxWords) {
+            outcomeCountEl.classList.add('error');
+            if (submitBtn) submitBtn.disabled = true;
+        } else if (outcomeWordCount > maxWords * 0.9) {
+            outcomeCountEl.classList.add('warning');
+            if (submitBtn && !descriptionCountEl.classList.contains('error')) {
+                submitBtn.disabled = false;
+            }
+        }
+    }
+}
+
+// Close claim modal
+function CloseClaimModal() {
+    if (!claimModalOpen) return;
+    
+    claimModalOpen = false;
+    
+    const modal = document.getElementById('claimModal');
+    if (modal) {
+        modal.classList.remove('open');
+    }
+}
+
+// Submit claim
+async function SubmitClaim() {
+    if (!claimModalOpen || claimProcessing) {
+        return;
+    }
+    
+    const descriptionInput = document.getElementById('claimDescription');
+    const outcomeInput = document.getElementById('claimDesiredOutcome');
+    const submitBtn = document.getElementById('submitClaim');
+    
+    if (!descriptionInput) return;
+    
+    const claimDescription = descriptionInput.value.trim();
+    const desiredOutcome = outcomeInput ? outcomeInput.value.trim() : '';
+    
+    // Validate word count
+    const descriptionWords = claimDescription.split(/\s+/).filter(w => w.length > 0);
+    const outcomeWords = desiredOutcome.split(/\s+/).filter(w => w.length > 0);
+    
+    if (descriptionWords.length === 0) {
+        alert('Please enter a claim description.');
+        return;
+    }
+    
+    if (descriptionWords.length > 100) {
+        alert('Claim description is too long! Maximum 100 words.');
+        return;
+    }
+    
+    if (outcomeWords.length > 100) {
+        alert('Desired outcome is too long! Maximum 100 words.');
+        return;
+    }
+    
+    console.log(`[CLAIM] Submitting claim. Description: ${descriptionWords.length} words, Outcome: ${outcomeWords.length} words`);
+    
+    // Prevent double submission
+    claimProcessing = true;
+    
+    // Disable inputs
+    if (descriptionInput) descriptionInput.disabled = true;
+    if (outcomeInput) outcomeInput.disabled = true;
+    if (submitBtn) submitBtn.disabled = true;
+    
+    // Close claim modal
+    CloseClaimModal();
+    
+    // Process claim
+    if (typeof ProcessClaim !== 'undefined') {
+        try {
+            console.log('[CLAIM] Starting ProcessClaim');
+            const result = await ProcessClaim(claimDescription, desiredOutcome);
+            
+            if (result) {
+                console.log(`[CLAIM] Claim complete. Granted: ${result.claimGranted}, Coins: ${result.coinsAwarded}, Punishments: ${result.punishments ? result.punishments.length : 0}`);
+                
+                // Show results in ruling modal
+                await ShowClaimResults(result);
+                
+                // Show success notification
+                if (typeof ShowSuccessNotification !== 'undefined') {
+                    let notificationText = result.claimGranted ? 'Claim granted!' : 'Claim denied';
+                    if (result.coinsAwarded > 0) {
+                        notificationText += ` +$${result.coinsAwarded}`;
+                    }
+                    if (result.playerReprimanded) {
+                        notificationText += ' | Reprimanded: -$20';
+                    }
+                    if (result.playerDisbarred) {
+                        notificationText = 'DISBARRED - Game Over';
+                    }
+                    ShowSuccessNotification(notificationText);
+                }
+            } else {
+                console.error('[CLAIM] ProcessClaim returned null');
+                alert('Error processing claim. Please try again.');
+                claimProcessing = false;
+            }
+        } catch (error) {
+            console.error('[CLAIM] Error processing claim:', error);
+            alert('Error processing claim. Please try again.');
+            claimProcessing = false;
+        }
+    } else {
+        claimProcessing = false;
+        console.log('[CLAIM] ProcessClaim function not available');
+    }
+}
+
+// Store current claim result for OK button
+let currentClaimResult = null;
+
+// Show claim ruling in dedicated modal
+function ShowClaimRulingModal(result) {
+    console.log('[CLAIM] ShowClaimRulingModal called');
+    
+    // Store result for OK button handler
+    currentClaimResult = result;
+    
+    const modal = document.getElementById('claimRulingModal');
+    const rulingTextEl = document.getElementById('claimRulingText');
+    const verdictEl = document.getElementById('claimVerdict');
+    const punishmentsEl = document.getElementById('claimPunishments');
+    const okButton = document.getElementById('okClaimRuling');
+    
+    // Set ruling text
+    rulingTextEl.textContent = result.ruling || 'The judge has made a decision.';
+    
+    // Set verdict with reprimand/disbarment info
+    let verdictText = result.claimGranted ? 'VERDICT: Claim GRANTED' : 'VERDICT: Claim DENIED';
+    if (result.coinsAwarded > 0) {
+        verdictText += `\n\n💰 COIN AWARD: +$${result.coinsAwarded}`;
+    }
+    if (result.playerReprimanded) {
+        verdictText += '\n\n⚠️ OFFICIAL REPRIMAND: -$20 coins';
+    }
+    if (result.playerDisbarred) {
+        verdictText += '\n\n🚫 DISBARRED: Game Over';
+        verdictEl.className = 'verdict-section disbarred';
+    } else {
+        verdictEl.className = 'verdict-section ' + (result.claimGranted ? 'win' : 'lose');
+    }
+    verdictEl.textContent = verdictText;
+    
+    // Set punishments and job changes
+    let punishmentsText = '';
+    if (result.punishments && result.punishments.length > 0) {
+        punishmentsText += 'PUNISHMENTS:\n';
+        for (const p of result.punishments) {
+            const npcSurname = p.npcSurname || p.witnessSurname || 'Unknown';
+            const reason = p.reason ? ` (${p.reason})` : '';
+            if (p.punishmentType === 'corporeal') {
+                punishmentsText += `- ${npcSurname}: Corporeal punishment${reason}\n`;
+            } else if (p.punishmentType === 'banishment') {
+                punishmentsText += `- ${npcSurname}: Permanently banished${reason}\n`;
+            } else if (p.punishmentType === 'death') {
+                punishmentsText += `- ${npcSurname}: Sentenced to death${reason}\n`;
+            }
+        }
+    }
+    
+    if (result.jobChanges && result.jobChanges.length > 0) {
+        if (punishmentsText) punishmentsText += '\n';
+        punishmentsText += 'JOB CHANGES:\n';
+        for (const change of result.jobChanges) {
+            const reason = change.reason ? ` (${change.reason})` : '';
+            punishmentsText += `- ${change.npcSurname}: Changed to "${change.newJob}"${reason}\n`;
+        }
+    }
+    
+    punishmentsEl.textContent = punishmentsText;
+    
+    // Show modal
+    modal.classList.add('open');
+    
+    // Wire up OK button (only once, on first call)
+    if (!okButton.hasAttribute('data-wired')) {
+        okButton.setAttribute('data-wired', 'true');
+        okButton.addEventListener('click', () => {
+            if (currentClaimResult) {
+                CloseClaimRulingModal(currentClaimResult);
+            }
+        });
+    }
+    
+    console.log('[CLAIM] Claim ruling modal displayed');
+}
+
+// Close claim ruling modal and create evidence item
+function CloseClaimRulingModal(result) {
+    console.log('[CLAIM] Closing claim ruling modal');
+    
+    const modal = document.getElementById('claimRulingModal');
+    modal.classList.remove('open');
+    
+    // Create evidence item
+    const evidenceItem = CreateClaimEvidenceItem(result);
+    
+    // Add to inventory
+    if (typeof playerData !== 'undefined' && playerData.inventory) {
+        if (playerData.inventory.length < 16) {
+            playerData.inventory.push(evidenceItem);
+            console.log('[CLAIM] Evidence item created and added to inventory:', evidenceItem.name);
+            
+            // Save game state
+            if (typeof SaveGameState === 'function') {
+                SaveGameState();
+            }
+        } else {
+            console.warn('[CLAIM] Inventory is full! Cannot add claim evidence.');
+            alert('Inventory is full! Claim evidence could not be added.');
+        }
+    } else {
+        console.error('[CLAIM] Cannot access playerData or inventory');
+    }
+    
+    // Handle disbarment (game over)
+    if (result.playerDisbarred) {
+        console.log('[CLAIM] Player disbarred - triggering game over');
+        setTimeout(() => {
+            if (typeof player !== 'undefined' && player) {
+                player.Kill();
+            }
+            if (typeof ShowErrorNotification !== 'undefined') {
+                ShowErrorNotification('You have been DISBARRED. Game Over.');
+            }
+        }, 1000);
+    }
+    
+    // Clear claim processing flag
+    claimProcessing = false;
+    
+    // Clear stored result
+    currentClaimResult = null;
+}
+
+// Show claim results (redirects to ruling modal)
+async function ShowClaimResults(result) {
+    console.log('[CLAIM] ShowClaimResults called');
+    
+    // Show ruling in dedicated modal
+    ShowClaimRulingModal(result);
+    
+    console.log('[CLAIM] Claim results displayed.');
+}
+
+// Initialize claim ruling modal
+function InitClaimRulingModal() {
+    const modal = document.getElementById('claimRulingModal');
+    
+    // Prevent closing by clicking outside modal
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            // Don't close - player must click OK button
+            e.stopPropagation();
+        }
+    });
+}
+
 // Initialize on page load
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
         InitDialogueModal();
         InitJudgmentRulingModal();
         InitRentModal();
+        InitClaimRulingModal();
     });
 } else {
     InitDialogueModal();
     InitJudgmentRulingModal();
     InitRentModal();
+    InitClaimRulingModal();
 }
 

@@ -835,6 +835,207 @@ Notes:
     }
 });
 
+// Judge claim decision
+app.post('/api/claims/judgment', async (req, res) => {
+    const apiKey = process.env.DEEPSEEK_API_KEY;
+    
+    if (!apiKey) {
+        return res.status(500).json({ 
+            error: 'DEEPSEEK_API_KEY environment variable is not set' 
+        });
+    }
+
+    const { claimDescription, desiredOutcome, evidence, completedCaseContext, judgePersona, allNPCs } = req.body;
+
+    if (!claimDescription || claimDescription.trim() === '') {
+        return res.status(400).json({ error: 'Claim description is required' });
+    }
+
+    if (!judgePersona || !judgePersona.name || !judgePersona.characteristic) {
+        return res.status(400).json({ error: 'Judge persona is required' });
+    }
+
+    try {
+        // Format evidence for AI
+        let evidenceText = 'No evidence presented.';
+        if (evidence && evidence.length > 0) {
+            evidenceText = evidence.map((e, idx) => {
+                const meta = e.metadata || {};
+                const text = meta.conversationText || meta.content || JSON.stringify(meta);
+                return `${idx + 1}. ${e.name || 'Evidence'}: ${text.substring(0, 500)}`;
+            }).join('\n\n');
+        }
+        
+        const judgeName = judgePersona.name;
+        const judgeCharacteristic = judgePersona.characteristic;
+        
+        // Format all NPCs for AI (excluding banished ones)
+        let allNPCsText = 'No NPCs available.';
+        if (allNPCs && Array.isArray(allNPCs) && allNPCs.length > 0) {
+            allNPCsText = allNPCs.map(npc => `${npc.surname} (${npc.job || 'unemployed'})`).join(', ');
+        }
+        
+        // Format completed case context if available
+        let caseContextText = '';
+        if (completedCaseContext) {
+            caseContextText = `\n\nPREVIOUS CASE CONTEXT (This claim is being made after a trial has concluded):\n`;
+            if (completedCaseContext.caseSummary) {
+                caseContextText += `Case Summary: ${completedCaseContext.caseSummary}\n`;
+            }
+            if (completedCaseContext.ruling) {
+                caseContextText += `Previous Ruling: ${completedCaseContext.ruling}\n`;
+            }
+            if (completedCaseContext.playerWins !== undefined) {
+                caseContextText += `Previous Verdict: ${completedCaseContext.playerWins ? 'Player won' : 'Player lost'}\n`;
+            }
+        }
+        
+        const systemPrompt = `You are Judge ${judgeName}, a ${judgeCharacteristic} judge. A lawyer is making a POST-TRIAL CLAIM to you.
+
+CRITICAL: This is a claim made AFTER a trial has concluded. The player has already paid $20 for you to hear this claim. You have FULL DISCRETION to grant or deny this claim, and your decisions will have REAL CONSEQUENCES in the game.
+
+Your task:
+1. Review the claim description and desired outcome
+2. Review all recording evidence presented
+3. Consider any previous case context (if provided)
+4. Make a fair and reasoned decision about whether to GRANT or DENY the claim
+5. Decide on any punishments, rewards, or other actions
+6. Write a 50-word ruling explaining your decision in your character's voice
+
+JUDGE POWERS: As the judge, you have the following FULL POWERS you may exercise:
+- You can GRANT or DENY the claim entirely at your discretion
+- You can award coins of any amount (0 or any positive number) to the player or any NPC
+- You can officially reprimand the player (costs them $20 coins) if their conduct was unprofessional
+- You can officially disbar the player (results in game over) if their conduct was extremely egregious or illegal - use this VERY RARELY, only for the most serious offenses
+- You can banish, sentence to corporeal punishment, or sentence to death ANY NPC from town with good reason
+- You can change any NPC's job to whatever you want, including anything you fancy (e.g., "santa claus", "court jester", etc.) - use this creatively but with justification
+- You can punish or reward the PLAYER themselves if warranted
+
+IMPORTANT:
+- The player has already paid $20 to have you hear this claim
+- Your decisions have REAL CONSEQUENCES - they will be executed in the game
+- You are not bound by the desired outcome - you can grant, deny, or modify it as you see fit
+- Consider the claim's merit, evidence quality, and your judicial character
+- Be creative and decisive - your rulings matter
+
+Return your response as a JSON object with this exact structure:
+{
+    "claimGranted": true or false,
+    "playerReprimanded": true or false,
+    "playerDisbarred": true or false,
+    "coinsAwarded": 0 or any positive number (coins you award to the player, if any),
+    "punishments": [
+        {"npcSurname": "Smith", "punishmentType": "corporeal", "reason": "Brief reason"},
+        {"npcSurname": "Jones", "punishmentType": "banishment", "reason": "Brief reason"},
+        {"npcSurname": "Brown", "punishmentType": "death", "reason": "Brief reason"}
+    ],
+    "jobChanges": [
+        {"npcSurname": "Smith", "newJob": "santa claus", "reason": "Brief reason"}
+    ],
+    "ruling": "Your 50-word ruling explaining the decision, punishments, rewards, and reasoning in your character's voice"
+}
+
+Punishment types:
+- "corporeal": NPC receives brutal punishment but remains in town
+- "banishment": NPC is permanently banished from the town
+- "death": NPC is sentenced to death (same as banishment, permanently removed)
+
+Notes:
+- "npcSurname" can be ANY NPC in town, including the player if you want to punish them
+- "claimGranted" should be true if you grant the claim, false if you deny it
+- "coinsAwarded" should be a number >= 0. Award coins based on your judgment - there is no limit
+- "playerReprimanded" should be true if the player's conduct warrants a $20 fine
+- "playerDisbarred" should be true ONLY for extremely serious offenses (use VERY RARELY)
+- "jobChanges" allows you to change any NPC's job to anything you want
+- If no NPCs should be punished, return empty array for punishments
+- If no job changes are needed, return empty array for jobChanges`;
+
+        const userMessage = `Claim Description:\n${claimDescription}\n\n${desiredOutcome ? `Desired Outcome:\n${desiredOutcome}\n\n` : ''}Recording Evidence Presented:\n${evidenceText}${caseContextText}\n\nAll NPCs in Town:\n${allNPCsText}\n\nMake your claim decision and write your ruling. You have FULL DISCRETION to grant or deny this claim, and you may use all your judge powers to punish, reward, or take any action you deem appropriate. Your decisions will have real consequences in the game.`;
+
+        const response = await fetch('https://api.deepseek.com/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${apiKey}`
+            },
+            body: JSON.stringify({
+                model: process.env.DEEPSEEK_MODEL || 'deepseek-chat',
+                messages: [
+                    { role: 'system', content: systemPrompt },
+                    { role: 'user', content: userMessage }
+                ],
+                temperature: 0.5,
+                max_tokens: 500
+            })
+        });
+
+        if (!response.ok) {
+            throw new Error(`API Error: ${response.status}`);
+        }
+
+        const data = await response.json();
+        const content = data.choices[0].message.content;
+        
+        // Parse JSON from response
+        let parsed;
+        try {
+            const jsonMatch = content.match(/```(?:json)?\s*(\{[\s\S]*\})\s*```/);
+            if (jsonMatch) {
+                parsed = JSON.parse(jsonMatch[1]);
+            } else {
+                parsed = JSON.parse(content);
+            }
+        } catch (e) {
+            const jsonMatch = content.match(/\{[\s\S]*\}/);
+            if (jsonMatch) {
+                parsed = JSON.parse(jsonMatch[0]);
+            } else {
+                throw new Error('Failed to parse AI response as JSON');
+            }
+        }
+
+        // Validate response structure
+        if (typeof parsed.claimGranted !== 'boolean') {
+            parsed.claimGranted = false;
+        }
+        if (typeof parsed.playerReprimanded !== 'boolean') {
+            parsed.playerReprimanded = false;
+        }
+        if (typeof parsed.playerDisbarred !== 'boolean') {
+            parsed.playerDisbarred = false;
+        }
+        if (!Array.isArray(parsed.punishments)) {
+            parsed.punishments = [];
+        }
+        if (!Array.isArray(parsed.jobChanges)) {
+            parsed.jobChanges = [];
+        }
+        if (!parsed.ruling || typeof parsed.ruling !== 'string') {
+            parsed.ruling = 'The judge has made a decision.';
+        }
+        // Validate coinsAwarded - must be a number >= 0
+        if (typeof parsed.coinsAwarded !== 'number' || parsed.coinsAwarded < 0) {
+            parsed.coinsAwarded = 0;
+        }
+        
+        res.json({
+            claimGranted: parsed.claimGranted,
+            playerReprimanded: parsed.playerReprimanded || false,
+            playerDisbarred: parsed.playerDisbarred || false,
+            coinsAwarded: parsed.coinsAwarded || 0,
+            punishments: parsed.punishments || [],
+            jobChanges: parsed.jobChanges || [],
+            ruling: parsed.ruling
+        });
+    } catch (error) {
+        console.error('Error getting claim judgment:', error);
+        res.status(500).json({ 
+            error: 'Failed to get claim judgment',
+            message: error.message 
+        });
+    }
+});
+
 // Update NPC job
 app.post('/api/npc/update-job/:surname', async (req, res) => {
     try {
@@ -1167,7 +1368,7 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
                     ? completedCase.jobChanges.map(j => `- ${j.npcSurname || 'Unknown'}: Changed to "${j.newJob || 'unknown'}" (${j.reason || 'no reason given'})`).join('\n')
                     : 'No job changes were made.';
                 
-                caseContextText = `\n\nCOMPLETED CASE CONTEXT:\nYou have just completed presiding over a case and made your ruling. You can discuss this case with the player, including the case summary, prosecution argument, your ruling, and your reasoning.\n\nCASE SUMMARY:\n${caseSummary}\n\nPROSECUTION ARGUMENT:\n${prosecution}\n\nYOUR RULING:\n${ruling}\n\nVERDICT:\n${verdict}\n\nPUNISHMENTS:\n${punishmentsText}\n\nJOB CHANGES:\n${jobChangesText}\n\nIMPORTANT RULES:\n- You can discuss the case summary, prosecution argument, and your ruling freely with the player.\n- You can explain your reasoning and decision-making process.\n- You can answer questions about the case, the prosecution's arguments, and your ruling.\n- CRITICAL: The player ALWAYS represents the DEFENSE. They were the defense lawyer in this case. You are the judge who presided over it and made the ruling. Remember this in all conversations.\n- Always stay in character as a judge. You are NOT a barista, shopkeeper, or any other profession. You are a JUDGE.`;
+                caseContextText = `\n\nCOMPLETED CASE CONTEXT:\nYou have just completed presiding over a case and made your ruling. You can discuss this case with the player, including the case summary, prosecution argument, your ruling, and your reasoning.\n\nCASE SUMMARY:\n${caseSummary}\n\nPROSECUTION ARGUMENT:\n${prosecution}\n\nYOUR RULING:\n${ruling}\n\nVERDICT:\n${verdict}\n\nPUNISHMENTS:\n${punishmentsText}\n\nJOB CHANGES:\n${jobChangesText}\n\nIMPORTANT RULES:\n- You can discuss the case summary, prosecution argument, and your ruling freely with the player.\n- You can explain your reasoning and decision-making process.\n- You can answer questions about the case, the prosecution's arguments, and your ruling.\n- CRITICAL: The player ALWAYS represents the DEFENSE. They were the defense lawyer in this case. You are the judge who presided over it and made the ruling. Remember this in all conversations.\n- Always stay in character as a judge. You are NOT a barista, shopkeeper, or any other profession. You are a JUDGE.\n\nCLAIMS:\n- After a case is completed, the player may approach you to make a CLAIM.\n- A claim is a post-trial request where the player asks you to hear a new matter or reconsider something related to the case.\n- If the player requests to make a claim, you have FULL DISCRETION to agree to hear it or refuse.\n- If you agree to hear a claim, it costs the player $20 (they must have the funds).\n- You can refuse a claim for ANY reason you deem appropriate (frivolous, too soon after trial, lack of merit, etc.).\n- If you agree to hear a claim, you should mention the $20 fee in your response.\n- If the player cannot afford $20, you should refuse or tell them to come back when they have the funds.\n- When responding to claim requests, be decisive and clear about whether you will hear it or not.`;
             } else {
                 caseContextText = `\n\nYou are a judge presiding over legal cases in the courthouse. You do not currently have an active case, but you are always ready to discuss legal matters.\n\nCRITICAL: The player ALWAYS represents the DEFENSE. They are always the defense lawyer in any case. Remember this in all conversations.`;
             }

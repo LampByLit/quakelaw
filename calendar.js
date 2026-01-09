@@ -92,6 +92,29 @@ function RemoveEvent(eventId)
 ///////////////////////////////////////////////////////////////////////////////
 // Event Completion Detection
 
+// Helper function to find building by address (similar to NPC's FindBuildingByAddress)
+function FindBuildingByAddress(address)
+{
+    if (typeof gameObjects === 'undefined')
+        return null;
+    
+    for(let obj of gameObjects)
+    {
+        if (obj.isBuilding && obj.address === address)
+            return obj;
+    }
+    return null;
+}
+
+// Helper function to get NPC by surname
+function GetNPCBySurname(surname)
+{
+    if (typeof allNPCs === 'undefined')
+        return null;
+    
+    return allNPCs.find(npc => npc.surname === surname);
+}
+
 // Check and complete events when player talks to NPC
 function CheckAndCompleteCalendarEvents(npc, currentGameTime)
 {
@@ -327,14 +350,22 @@ function ScheduleSundayCoffee()
     
     let randomNPC = allNPCs[RandInt(allNPCs.length)];
     
+    // Verify addresses by looking up buildings (ensure addresses are valid)
+    let houseBuilding = FindBuildingByAddress(randomNPC.houseAddress);
+    let workBuilding = FindBuildingByAddress(randomNPC.workAddress);
+    
+    // Use verified addresses (fallback to NPC's stored addresses if buildings not found)
+    let houseAddress = houseBuilding ? houseBuilding.address : randomNPC.houseAddress;
+    let workAddress = workBuilding ? workBuilding.address : randomNPC.workAddress;
+    
     // Create event
     CreateCalendarEvent(
         nextSunday.year,
         nextSunday.month,
         nextSunday.day,
         randomNPC.surname,
-        randomNPC.houseAddress,
-        randomNPC.workAddress,
+        houseAddress,
+        workAddress,
         'sundayCoffee'
     );
     
@@ -381,13 +412,21 @@ function InitializeSundayCoffee()
         let randomNPC = allNPCs && allNPCs.length > 0 ? allNPCs[RandInt(allNPCs.length)] : null;
         if (randomNPC)
         {
+            // Verify addresses by looking up buildings (ensure addresses are valid)
+            let houseBuilding = FindBuildingByAddress(randomNPC.houseAddress);
+            let workBuilding = FindBuildingByAddress(randomNPC.workAddress);
+            
+            // Use verified addresses (fallback to NPC's stored addresses if buildings not found)
+            let houseAddress = houseBuilding ? houseBuilding.address : randomNPC.houseAddress;
+            let workAddress = workBuilding ? workBuilding.address : randomNPC.workAddress;
+            
             CreateCalendarEvent(
                 currentYear,
                 gameTime.month,
                 gameTime.dayOfMonth,
                 randomNPC.surname,
-                randomNPC.houseAddress,
-                randomNPC.workAddress,
+                houseAddress,
+                workAddress,
                 'sundayCoffee'
             );
             
@@ -768,9 +807,27 @@ function RenderDateDetailsView(modalX, modalY, modalWidth, modalHeight)
             // NPC name
             DrawText(event.npcSurname, textX, textY - 10, 12, 'left', 1, '#FFF', '#000');
             
+            // Get current addresses from NPC (verify they're still accurate)
+            let npc = GetNPCBySurname(event.npcSurname);
+            let houseAddress = event.houseAddress;
+            let workAddress = event.workAddress;
+            
+            // If NPC exists, verify addresses by looking up buildings
+            if (npc)
+            {
+                let houseBuilding = FindBuildingByAddress(npc.houseAddress);
+                let workBuilding = FindBuildingByAddress(npc.workAddress);
+                
+                // Use verified addresses from buildings (fallback to stored event addresses)
+                if (houseBuilding)
+                    houseAddress = houseBuilding.address;
+                if (workBuilding)
+                    workAddress = workBuilding.address;
+            }
+            
             // Addresses
-            DrawText(`Home: ${event.houseAddress}`, textX, textY + 5, 10, 'left', 1, '#AAA', '#000');
-            DrawText(`Work: ${event.workAddress}`, textX, textY + 18, 10, 'left', 1, '#AAA', '#000');
+            DrawText(`Home: ${houseAddress}`, textX, textY + 5, 10, 'left', 1, '#AAA', '#000');
+            DrawText(`Work: ${workAddress}`, textX, textY + 18, 10, 'left', 1, '#AAA', '#000');
             
             // Status indicator
             let statusText = '';

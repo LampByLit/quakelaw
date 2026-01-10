@@ -1335,10 +1335,14 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
                 conversation.job = npcData.job || '';
                 if (oldJob !== conversation.job) {
                     console.log(`[SERVER] Updated job for ${surname}: "${oldJob}" -> "${conversation.job}"`);
-                    // If job changed significantly, clear conversation history to prevent contamination
+                    // Track previous job in metadata to preserve memory while updating context
                     if (oldJob && oldJob !== '' && conversation.job && conversation.job !== '' && oldJob !== conversation.job) {
-                        console.log(`[SERVER] Job changed for ${surname}, clearing old conversation history to prevent contamination`);
-                        conversation.conversation = []; // Clear history when job changes
+                        // Store previous job in metadata for context in future conversations
+                        if (!conversation.metadata) {
+                            conversation.metadata = {};
+                        }
+                        conversation.metadata.previousJob = oldJob;
+                        console.log(`[SERVER] Job changed for ${surname} from "${oldJob}" to "${conversation.job}". Preserving conversation history.`);
                     }
                 }
             } else if (!conversation.job) {
@@ -1364,6 +1368,8 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
         
         // Build system prompt with NPC identity
         const job = conversation.job || '';
+        const previousJob = conversation.metadata?.previousJob || null;
+        const jobChanged = previousJob && previousJob !== job && job !== '';
         const jobContext = job ? `You work as a ${job}. ` : '';
         const isLawyer = job === 'lawyer';
         const isJudge = npcData.isJudge || (surname && surname.toLowerCase().includes('judge'));
@@ -1498,6 +1504,12 @@ ${isLawyer ? '- You ARE a lawyer and work in the legal system. You understand le
 - REQUIRED: Talk about being a ${job} - talk about your interests and theories about the town other than your job sometimes.`}`;
         }
         
+        // Add job change context if applicable
+        let jobChangeContext = '';
+        if (jobChanged && !isJudge) {
+            jobChangeContext = `\n\nIMPORTANT - JOB CHANGE:\n- You previously worked as a ${previousJob}, but your job has been changed to ${job}.\n- You remember all your previous conversations with the player from when you were a ${previousJob}.\n- However, you now work as a ${job} and should talk about your current job going forward.\n- You can acknowledge your job change if the player brings it up, but focus on your current profession.\n- Your memories and past conversations are still valid - you just have a new job now.\n`;
+        }
+        
         const systemPrompt = `${systemPromptBase}
 
 ${professionInstructions}
@@ -1511,7 +1523,7 @@ Your personality traits:
 - Keep your responses brief and character-appropriate
 
 Context:
-${isJudge ? '' : jobContext}${isJudge ? 'You are a judge in the courthouse. ' : 'You may have witnessed events in town. Talk about your normal life and your job as a ' + (job || 'regular person') + '. '}You are on a schedule and do not have time to follow the player anywhere. Other characters may ask you questions as well, answer them naturally. This is the real world.${knownFactsText}${caseContextText}${!isJudge ? '\n\nGENERAL LEGAL AWARENESS:\n- You live in a town where legal cases happen regularly.\n- You know that the player is a defense lawyer who works on legal cases.\n- You understand that you or others in town might become involved in legal cases at some point.\n- If you were to become a defendant in a case, you would need legal defense and representation.\n- The player could potentially help with legal matters if needed.\n- This is general knowledge - you don\'t need to bring it up unless relevant to the conversation.' : ''}
+${isJudge ? '' : jobContext}${isJudge ? 'You are a judge in the courthouse. ' : 'You may have witnessed events in town. Talk about your normal life and your job as a ' + (job || 'regular person') + '. '}You are on a schedule and do not have time to follow the player anywhere. Other characters may ask you questions as well, answer them naturally. This is the real world.${knownFactsText}${caseContextText}${jobChangeContext}${!isJudge ? '\n\nGENERAL LEGAL AWARENESS:\n- You live in a town where legal cases happen regularly.\n- You know that the player is a defense lawyer who works on legal cases.\n- You understand that you or others in town might become involved in legal cases at some point.\n- If you were to become a defendant in a case, you would need legal defense and representation.\n- The player could potentially help with legal matters if needed.\n- This is general knowledge - you don\'t need to bring it up unless relevant to the conversation.' : ''}
 
 ${isJudge ? `REMEMBER: You are Judge ${surname}, a judge presiding over legal cases. Always stay in character as a judge. CRITICAL: The player ALWAYS represents the DEFENSE in all cases.` : `REMEMBER: Your job is ${job}. You are a ${job}.`}`;
         
@@ -1559,10 +1571,18 @@ ${isJudge ? `REMEMBER: You are Judge ${surname}, a judge presiding over legal ca
             } else if (msg.role === 'npc') {
                 // Add job reminder before each NPC response in history (only for non-lawyers)
                 if (!isLawyer && job) {
-                    messages.push({ 
-                        role: 'system', 
-                        content: `Note: In this previous response, you were a ${job}.` 
-                    });
+                    // If job changed, provide context about the change in historical messages
+                    if (jobChanged && previousJob) {
+                        messages.push({ 
+                            role: 'system', 
+                            content: `Note: In this previous response, you were a ${previousJob}, but you are now a ${job}. Remember your current job when responding, but you still remember this past conversation.` 
+                        });
+                    } else {
+                        messages.push({ 
+                            role: 'system', 
+                            content: `Note: In this previous response, you were a ${job}.` 
+                        });
+                    }
                 }
                 messages.push({ role: 'assistant', content: msg.message });
             }

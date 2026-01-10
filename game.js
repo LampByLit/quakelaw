@@ -43,6 +43,7 @@ let timePaused = 0;
 let baseLevelColor = new Color(.1, .3, .1); // Base town color for day/night cycle
 let sleepFadeTimer = new Timer();
 let sleepFadeActive = 0;
+let sleepFadeStateApplied = 0; // Track if state changes have been applied at midpoint
 let gameOverTimer = new Timer();
 let resetButtonHover = 0;
 let lawSchoolButtonHover = false;
@@ -418,6 +419,7 @@ async function FullReset()
     // Reset game state variables
     winTimer.UnSet();
     sleepFadeActive = 0;
+    sleepFadeStateApplied = 0;
     sleepFadeTimer.UnSet();
     gameOverTimer.UnSet();
     currentInterior = null;
@@ -653,9 +655,51 @@ function Update()
     // Update sleep fade transition
     if (sleepFadeActive)
     {
+        let elapsed = 1.0 + sleepFadeTimer.Get(); // Get elapsed time (0 to 1.0)
+        
+        // Apply state changes at midpoint (0.5s) when screen is fully black
+        if (!sleepFadeStateApplied && elapsed >= 0.5)
+        {
+            sleepFadeStateApplied = 1;
+            
+            // Advance to next day
+            if (gameTime)
+                gameTime.Sleep();
+            
+            // Exit interior if in one
+            if (currentInterior)
+            {
+                // Remove furniture from game objects
+                gameObjects = gameObjects.filter(o => !o.isFurniture);
+                
+                // Restore exterior level
+                levelSize = 64;
+                levelCanvas.width = levelCanvas.height = levelSize * tileSize;
+                level = exteriorLevel;
+                if (level)
+                    level.Redraw();
+                
+                currentInterior = null;
+                exteriorLevel = null;
+                playerExteriorPos = null;
+            }
+            
+            // Teleport player to home spawn position (outside home, like game start)
+            if (playerHomePos)
+            {
+                player.pos.Copy(playerHomePos);
+                player.rotation = 1; // Face south
+            }
+            
+            // Save game state
+            SaveGameState();
+        }
+        
+        // Clean up when transition completes
         if (sleepFadeTimer.Elapsed())
         {
             sleepFadeActive = 0;
+            sleepFadeStateApplied = 0;
             sleepFadeTimer.UnSet();
         }
     }
@@ -950,9 +994,22 @@ function PreRender()
     // Apply sleep fade overlay if active
     if (sleepFadeActive)
     {
-        let fadeProgress = sleepFadeTimer.Get() / 1.0; // 1 second fade
-        fadeProgress = Clamp(fadeProgress, 0, 1);
-        mainCanvasContext.fillStyle = `rgba(0,0,0,${fadeProgress})`;
+        let elapsed = 1.0 + sleepFadeTimer.Get(); // Get elapsed time (0 to 1.0)
+        let opacity = 0;
+        
+        if (elapsed < 0.5)
+        {
+            // Fade out: 0 to 1 over first 0.5 seconds
+            opacity = elapsed * 2.0;
+        }
+        else
+        {
+            // Fade in: 1 to 0 over second 0.5 seconds
+            opacity = 2.0 - (elapsed * 2.0);
+        }
+        
+        opacity = Clamp(opacity, 0, 1);
+        mainCanvasContext.fillStyle = `rgba(0,0,0,${opacity})`;
         mainCanvasContext.fillRect(0,0,mainCanvasSize.x, mainCanvasSize.y);
     }
     
@@ -3799,41 +3856,13 @@ async function ProcessDailyGossip()
 
 function Sleep()
 {
-    // Start fade transition
+    // Start fade transition (1 second total: 0.5s fade out, 0.5s fade in)
     sleepFadeActive = 1;
-    sleepFadeTimer.Set(1.0); // 1 second fade
+    sleepFadeStateApplied = 0; // Reset flag for state changes
+    sleepFadeTimer.Set(1.0);
     
-    // Advance to next day
-    if (gameTime)
-        gameTime.Sleep();
-    
-    // Exit interior if in one
-    if (currentInterior)
-    {
-        // Remove furniture from game objects
-        gameObjects = gameObjects.filter(o => !o.isFurniture);
-        
-        // Restore exterior level
-        levelSize = 64;
-        levelCanvas.width = levelCanvas.height = levelSize * tileSize;
-        level = exteriorLevel;
-        if (level)
-            level.Redraw();
-        
-        currentInterior = null;
-        exteriorLevel = null;
-        playerExteriorPos = null;
-    }
-    
-    // Teleport player to home spawn position (outside home, like game start)
-    if (playerHomePos)
-    {
-        player.pos.Copy(playerHomePos);
-        player.rotation = 1; // Face south
-    }
-    
-    // Save game state
-    SaveGameState();
+    // State changes will be applied at midpoint (when screen is fully black)
+    // See Update() function for where this happens
 }
 
 function SaveGameState()

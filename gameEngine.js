@@ -324,8 +324,8 @@ function UpdateGameObjects()
         if (typeof currentInterior !== 'undefined' && currentInterior)
         {
             // Skip exterior objects when inside
-            // Buildings, stores, enemies, store items, pickups, and level exits are exterior-only
-            if (o.isBuilding || o.isStore || o.isEnemy || 
+            // Buildings, stores, enemies, store items, pickups, purchased items, and level exits are exterior-only
+            if (o.isBuilding || o.isStore || o.isEnemy || o.isPurchasedItem || 
                 (o.owner && o.owner.isStore) || // StoreItem
                 (o.isSmallPickup !== undefined) || // Pickup
                 (o.closeTimer !== undefined)) // LevelExit
@@ -342,8 +342,8 @@ function RenderGameObjects()
         if (typeof currentInterior !== 'undefined' && currentInterior)
         {
             // Skip exterior objects when inside
-            // Buildings, stores, enemies, store items, pickups, and level exits are exterior-only
-            if (o.isBuilding || o.isStore || o.isEnemy || 
+            // Buildings, stores, enemies, store items, pickups, purchased items, and level exits are exterior-only
+            if (o.isBuilding || o.isStore || o.isEnemy || o.isPurchasedItem || 
                 (o.owner && o.owner.isStore) || // StoreItem
                 (o.isSmallPickup !== undefined) || // Pickup
                 (o.closeTimer !== undefined)) // LevelExit

@@ -14,6 +14,9 @@ let completedCaseContext = null;
 // Document purchase state
 let pendingDocumentPurchase = null; // { document: {...}, npc: {...}, agreedPrice: number }
 
+// Claim filing state - track when judge has agreed to hear a claim
+let judgeAgreedToHearClaim = false;
+
 // Initialize dialogue modal
 function InitDialogueModal() {
     const modal = document.getElementById('dialogueModal');
@@ -338,6 +341,7 @@ function CloseDialogueModal() {
     isRecording = false;
     recordingStartIndex = -1;
     pendingDocumentPurchase = null; // Clear pending purchase when closing dialogue
+    judgeAgreedToHearClaim = false; // Clear claim agreement state when closing dialogue
     
     const modal = document.getElementById('dialogueModal');
     modal.classList.remove('open');
@@ -988,6 +992,43 @@ async function SendMessage() {
         }
     }
     
+    // Check if judge has already agreed to hear a claim and player is confirming
+    // Only allow claims after a trial has been completed (when completedCaseContext exists)
+    if (judgeAgreedToHearClaim && currentDialogueNPC && currentDialogueNPC.isJudge && completedCaseContext) {
+        const messageLower = message.toLowerCase();
+        // Check if player is confirming (yes, yes sir, okay, etc.)
+        const isConfirmation = /^(yes|yeah|yep|yup|ok|okay|sure|alright|all right|fine|deal|agreed|proceed|go ahead|let's do it|i agree|i'll do it|i will|understood|got it|i understand)(\s+(sir|ma'am|judge|your honor))?[.!]*$/i.test(message.trim());
+        
+        // Also check for filing-related confirmations
+        const isFilingConfirmation = /(file|submit|pay|clerk|paperwork|forms|proceed|go ahead)/i.test(messageLower);
+        
+        if (isConfirmation || isFilingConfirmation) {
+            // Check if player has $20 (should already be deducted, but double-check)
+            const playerCoins = typeof playerData !== 'undefined' && playerData ? (playerData.coins || 0) : 0;
+            if (playerCoins >= 0) { // Allow even if they have 0, since $20 was already deducted
+                // Add player message to history
+                conversationHistory.push({
+                    role: 'player',
+                    message: message,
+                    timestamp: Date.now()
+                });
+                UpdateConversationDisplay();
+                
+                // Clear the flag
+                judgeAgreedToHearClaim = false;
+                
+                // Show claim input modal after a short delay
+                setTimeout(() => {
+                    ShowClaimInputModal();
+                }, 500);
+                
+                // Clear input
+                input.value = '';
+                return;
+            }
+        }
+    }
+    
     // Add player message to history immediately
     const playerMessage = {
         role: 'player',
@@ -1202,8 +1243,22 @@ async function SendMessage() {
                 const mentionsFee = /\$20/.test(responseText);
                 const seemsPositive = /(will|can|shall|agree|accept|yes|okay|ok)/i.test(responseText);
                 
-                if (hasAgreementPattern || (mentionsFee && seemsPositive)) {
-                    // Check if player has $20
+                // Check for filing instructions (when judge tells player to file paperwork)
+                const filingInstructionPatterns = [
+                    /file.*paperwork/i,
+                    /file.*forms/i,
+                    /pay.*clerk/i,
+                    /file.*claim/i,
+                    /submit.*paperwork/i,
+                    /submit.*forms/i
+                ];
+                const hasFilingInstruction = filingInstructionPatterns.some(pattern => pattern.test(responseText));
+                
+                // Check if judge just agreed (first time)
+                const judgeJustAgreed = hasAgreementPattern || (mentionsFee && seemsPositive);
+                
+                // If judge just agreed, set flag and deduct $20
+                if (judgeJustAgreed && !judgeAgreedToHearClaim) {
                     const playerCoins = typeof playerData !== 'undefined' && playerData ? (playerData.coins || 0) : 0;
                     if (playerCoins >= 20) {
                         // Deduct $20 immediately
@@ -1213,13 +1268,24 @@ async function SendMessage() {
                         }
                         console.log('[CLAIM] Judge agreed to hear claim. Deducted $20. New balance: $' + playerData.coins);
                         
-                        // Show claim input modal after a short delay
-                        setTimeout(() => {
-                            ShowClaimInputModal();
-                        }, 500);
+                        // Set flag that judge has agreed (persists across messages)
+                        judgeAgreedToHearClaim = true;
+                        
+                        // If judge is also giving filing instructions in same message, open modal immediately
+                        if (hasFilingInstruction) {
+                            setTimeout(() => {
+                                ShowClaimInputModal();
+                            }, 500);
+                        }
                     } else {
                         console.log('[CLAIM] Judge agreed but player cannot afford $20 fee');
                     }
+                }
+                // If judge is giving filing instructions after already agreeing, open modal
+                else if (hasFilingInstruction && judgeAgreedToHearClaim) {
+                    setTimeout(() => {
+                        ShowClaimInputModal();
+                    }, 500);
                 }
             }
         }
@@ -2381,6 +2447,9 @@ let claimProcessing = false;
 // Show claim input modal
 function ShowClaimInputModal() {
     if (claimModalOpen) return;
+    
+    // Clear the agreement flag when modal opens
+    judgeAgreedToHearClaim = false;
     
     claimModalOpen = true;
     

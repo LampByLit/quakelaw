@@ -1368,7 +1368,7 @@ class NPC extends MyGameObject
                     emojiPos.Add(mainCanvasSize.Clone(.5));
                     
                     // Use dedicated emoji renderer for proper emoji display
-                    DrawEmoji(this.emoji, emojiPos.x|0, emojiPos.y|0, 16 * cameraScale, 'center');
+                    DrawEmoji(this.emoji, emojiPos.x|0, emojiPos.y|0, 12 * cameraScale, 'center');
                     
                     // Display NPC name when player is within 1 tile
                     if (player && player.pos)

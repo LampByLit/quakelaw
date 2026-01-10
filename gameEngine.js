@@ -155,9 +155,9 @@ class GameObject
                 }
                 else if (hasTerrainX)
                 {
-                    // Solid terrain allows 5% of X movement
-                    newPos.x = oldPos.x + moveX * 0.05;
-                    this.velocity.x *= 0.05;
+                    // Solid terrain allows 25% of X movement
+                    newPos.x = oldPos.x + moveX * 0.25;
+                    this.velocity.x *= 0.25;
                 }
                 else if (!level.IsAreaClear(testX, size, this))
                 {
@@ -179,9 +179,9 @@ class GameObject
                 }
                 else if (hasTerrainY)
                 {
-                    // Solid terrain allows 5% of Y movement
-                    newPos.y = oldPos.y + moveY * 0.05;
-                    this.velocity.y *= 0.05;
+                    // Solid terrain allows 25% of Y movement
+                    newPos.y = oldPos.y + moveY * 0.25;
+                    this.velocity.y *= 0.25;
                 }
                 else if (!level.IsAreaClear(testY, size, this))
                 {

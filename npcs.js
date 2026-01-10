@@ -38,7 +38,7 @@ let npcJobs = [
     'photographer', 'videographer', 'filmmaker', 'graphic designer',
     'coach', 'trainer', 'athlete', 'referee',
     'social worker', 'counselor', 'psychologist', 'psychiatrist',
-    'pilot', 'flight attendant', 'concierge', 'bellhop', 'maid', 'groundskeeper'
+    'pilot', 'flight attendant', 'concierge', 'pornographer', 'maid', 'groundskeeper'
 ];
 
 // Load NPC sprite images
@@ -133,13 +133,15 @@ class NPC extends MyGameObject
         // Pathfinding
         this.pathfindingTimer = new Timer();
         this.pathfindingTimer.Set(0.1); // Update pathfinding every 0.1 seconds
+        this.targetBuilding = null; // Building we're trying to reach (house or work)
+        this.failedDirections = []; // Track recently failed directions to avoid loops
         
         // Stuck detection
         this.lastPosition = this.pos.Clone();
         this.stuckTimer = new Timer();
         this.stuckTimer.Set(0); // Start checking immediately
-        this.stuckThreshold = 0.15; // Consider stuck if moved less than this in 2 seconds
-        this.stuckTime = 2.0; // Time before considering stuck
+        this.stuckThreshold = 0.15; // Consider stuck if moved less than this
+        this.stuckTime = 0.8; // Reduced from 2.0 - faster stuck detection
         this.detourAngle = 0; // Current detour angle when stuck
         
         // Interior tracking
@@ -513,7 +515,8 @@ class NPC extends MyGameObject
     }
     
     // Check if a position is clear of obstacles (buildings, rocks, solid terrain)
-    IsPositionClear(pos, checkDistance = 0.5)
+    // allowedBuilding: building we're allowed to approach (target building)
+    IsPositionClear(pos, checkDistance = 0.5, allowedBuilding = null)
     {
         // Check level collision
         if (!level.IsAreaClear(pos, this.collisionSize, this))
@@ -524,14 +527,36 @@ class NPC extends MyGameObject
         if (data.IsSolid())
             return false;
         
-        // Check distance to buildings (avoid getting too close)
+        // Check distance to buildings
         for(let obj of gameObjects)
         {
             if (obj.isBuilding && obj !== this)
             {
                 let distToBuilding = pos.Distance(obj.pos);
                 let buildingSolidRadius = obj.size.x * 0.9; // Building solid area
-                if (distToBuilding < buildingSolidRadius + this.collisionSize + 0.2)
+                let minDistance = buildingSolidRadius + this.collisionSize + 0.2;
+                
+                // If this is our target building, allow approaching the entrance area
+                if (obj === allowedBuilding)
+                {
+                    // Allow getting close to south entrance (south side of building)
+                    let southEdge = obj.pos.y + obj.size.y;
+                    let isNearSouthEntrance = (pos.y >= southEdge - 0.5 && pos.y <= southEdge + 1.0) &&
+                                             (Math.abs(pos.x - obj.pos.x) < obj.size.x + 0.5);
+                    
+                    // If near entrance, allow closer approach
+                    if (isNearSouthEntrance)
+                    {
+                        minDistance = buildingSolidRadius * 0.3; // Allow very close to entrance
+                    }
+                    else
+                    {
+                        // Still avoid other sides of target building, but less strictly
+                        minDistance = buildingSolidRadius * 0.7;
+                    }
+                }
+                
+                if (distToBuilding < minDistance)
                 {
                     return false;
                 }
@@ -542,19 +567,24 @@ class NPC extends MyGameObject
     }
     
     // Check if path ahead is clear (multi-step checking)
-    IsPathClear(direction, lookAheadDistance = 0.8)
+    // Increased lookahead for better obstacle detection
+    IsPathClear(direction, lookAheadDistance = 3.0, allowedBuilding = null)
     {
         let normalizedDir = direction.Clone().Normalize();
         
         // Check multiple points along the path for better obstacle detection
-        // Check at 0.5, 1.0, and 1.5 units ahead (or up to lookAheadDistance)
-        let checkDistances = [0.5, 1.0, Math.min(1.5, lookAheadDistance)];
+        // Increased check distances: 0.5, 1.0, 1.5, 2.0, 2.5, 3.0 (or up to lookAheadDistance)
+        let checkDistances = [];
+        for(let d = 0.5; d <= Math.min(lookAheadDistance, 3.0); d += 0.5)
+        {
+            checkDistances.push(d);
+        }
         
         for(let dist of checkDistances)
         {
             let checkPos = this.pos.Clone();
             checkPos.Add(normalizedDir.Clone().Multiply(dist));
-            if (!this.IsPositionClear(checkPos))
+            if (!this.IsPositionClear(checkPos, 0.5, allowedBuilding))
             {
                 return false; // Path blocked at this distance
             }
@@ -564,12 +594,12 @@ class NPC extends MyGameObject
     }
     
     // Find alternative direction when blocked (wider obstacle detection)
-    FindAlternativeDirection(targetDir, blockedDir)
+    // Expanded search arc and path memory to avoid loops
+    FindAlternativeDirection(targetDir, blockedDir, allowedBuilding = null)
     {
-        // Wider arc search: check ±45 degrees around target direction
-        // This helps find paths around rocks and other obstacles
-        const searchArc = PI / 4; // 45 degrees
-        const angleStep = PI / 12; // 15 degree increments
+        // Wider arc search: check ±90 degrees around target direction (expanded from ±45)
+        const searchArc = PI / 2; // 90 degrees
+        const angleStep = PI / 18; // 10 degree increments (finer resolution)
         
         // Score each direction by how clear the path is and how close to target
         let bestDir = null;
@@ -580,14 +610,19 @@ class NPC extends MyGameObject
         {
             let testDir = targetDir.Clone().Rotate(angle);
             
+            // Skip directions we recently failed with (path memory)
+            let angleKey = Math.round(angle * 100) / 100; // Round to avoid floating point issues
+            if (this.failedDirections.some(fd => Math.abs(fd - angleKey) < 0.1))
+                continue;
+            
             // Check if this direction has a clear path
-            if (this.IsPathClear(testDir))
+            if (this.IsPathClear(testDir, 3.0, allowedBuilding))
             {
                 // Score: prefer directions closer to target (smaller angle)
                 // Also prefer directions that have longer clear paths
                 let angleScore = 1.0 - (Math.abs(angle) / searchArc); // 1.0 at center, 0.0 at edges
-                let clearDistance = this.GetClearPathDistance(testDir);
-                let pathScore = Math.min(clearDistance / 2.0, 1.0); // Normalize to 0-1
+                let clearDistance = this.GetClearPathDistance(testDir, allowedBuilding);
+                let pathScore = Math.min(clearDistance / 3.0, 1.0); // Normalize to 0-1
                 
                 // Combined score: 60% angle preference, 40% path length
                 let totalScore = angleScore * 0.6 + pathScore * 0.4;
@@ -611,13 +646,13 @@ class NPC extends MyGameObject
         let perp1 = new Vector2(-blockedDir.y, blockedDir.x); // 90 degrees left
         let perp2 = new Vector2(blockedDir.y, -blockedDir.x); // 90 degrees right
         
-        if (this.IsPathClear(perp1))
+        if (this.IsPathClear(perp1, 3.0, allowedBuilding))
         {
             let blended = targetDir.Clone().Multiply(0.3).Add(perp1.Clone().Multiply(0.7));
             return blended.Normalize();
         }
         
-        if (this.IsPathClear(perp2))
+        if (this.IsPathClear(perp2, 3.0, allowedBuilding))
         {
             let blended = targetDir.Clone().Multiply(0.3).Add(perp2.Clone().Multiply(0.7));
             return blended.Normalize();
@@ -625,27 +660,43 @@ class NPC extends MyGameObject
         
         // Try opposite direction (back away)
         let opposite = blockedDir.Clone().Multiply(-1);
-        if (this.IsPathClear(opposite))
+        if (this.IsPathClear(opposite, 3.0, allowedBuilding))
         {
             return opposite.Normalize();
         }
         
-        // Last resort: try random direction
+        // Last resort: try random direction (but not one we recently failed with)
+        let attempts = 0;
+        while (attempts < 10)
+        {
+            let randomDir = RandVector(1).Normalize();
+            let randomAngle = Math.atan2(randomDir.y, randomDir.x) - Math.atan2(targetDir.y, targetDir.x);
+            let angleKey = Math.round(randomAngle * 100) / 100;
+            
+            if (!this.failedDirections.some(fd => Math.abs(fd - angleKey) < 0.1))
+            {
+                if (this.IsPathClear(randomDir, 2.0, allowedBuilding))
+                    return randomDir;
+            }
+            attempts++;
+        }
+        
+        // Ultimate fallback
         return RandVector(1).Normalize();
     }
     
     // Get the distance we can travel in a direction before hitting an obstacle
-    GetClearPathDistance(direction)
+    GetClearPathDistance(direction, allowedBuilding = null)
     {
         let normalizedDir = direction.Clone().Normalize();
-        let maxCheck = 2.5; // Maximum distance to check
+        let maxCheck = 4.0; // Increased from 2.5 for better lookahead
         let step = 0.3; // Check every 0.3 units
         
         for(let dist = step; dist <= maxCheck; dist += step)
         {
             let checkPos = this.pos.Clone();
             checkPos.Add(normalizedDir.Clone().Multiply(dist));
-            if (!this.IsPositionClear(checkPos))
+            if (!this.IsPositionClear(checkPos, 0.5, allowedBuilding))
             {
                 return dist - step; // Return last clear distance
             }
@@ -654,21 +705,44 @@ class NPC extends MyGameObject
         return maxCheck; // Path is clear for max distance
     }
     
-    // Improved pathfinding with obstacle avoidance
+    // Improved pathfinding with obstacle avoidance and context awareness
     UpdatePathfinding()
     {
         if (!this.targetPos)
             return;
         
+        // Update targetBuilding based on current state
+        if (this.currentState === 'travelingToWork')
+        {
+            this.targetBuilding = this.FindBuildingByAddress(this.workAddress);
+        }
+        else if (this.currentState === 'travelingToHouse')
+        {
+            this.targetBuilding = this.FindBuildingByAddress(this.houseAddress);
+        }
+        else
+        {
+            this.targetBuilding = null; // Not traveling to a building
+        }
+        
         let toTarget = this.targetPos.Clone().Subtract(this.pos);
         let distance = toTarget.Length();
         
-        if (distance < 0.3)
+        // If close to target building, allow getting very close to entrance
+        let arrivalDistance = 0.3;
+        if (this.targetBuilding && distance < this.targetBuilding.size.y + 1.5)
+        {
+            // When near target building, allow getting close to entrance
+            arrivalDistance = 0.5; // Slightly larger arrival distance for building entrance
+        }
+        
+        if (distance < arrivalDistance)
         {
             // Close enough, stop
             this.velocity.Set(0, 0);
             this.targetPos = null;
             this.detourAngle = 0;
+            this.failedDirections = []; // Clear path memory
             return;
         }
         
@@ -686,14 +760,21 @@ class NPC extends MyGameObject
                 let detourDir = targetDir.Clone().Rotate(this.detourAngle);
                 
                 // Try detour direction
-                if (this.IsPathClear(detourDir))
+                if (this.IsPathClear(detourDir, 3.0, this.targetBuilding))
                 {
                     targetDir = detourDir;
                 }
                 else
                 {
                     // Detour also blocked, try alternative
-                    targetDir = this.FindAlternativeDirection(targetDir, targetDir);
+                    // Record failed direction in path memory
+                    let failedAngle = Math.atan2(detourDir.y, detourDir.x) - Math.atan2(targetDir.y, targetDir.x);
+                    this.failedDirections.push(Math.round(failedAngle * 100) / 100);
+                    // Keep only recent failures (last 5)
+                    if (this.failedDirections.length > 5)
+                        this.failedDirections.shift();
+                    
+                    targetDir = this.FindAlternativeDirection(targetDir, targetDir, this.targetBuilding);
                 }
                 
                 // Reset stuck timer
@@ -702,19 +783,27 @@ class NPC extends MyGameObject
             }
             else
             {
-                // We're moving, reset stuck tracking
+                // We're moving, reset stuck tracking and clear some path memory
                 this.stuckTimer.Set(0);
                 this.lastPosition = this.pos.Clone();
                 this.detourAngle = 0;
+                // Clear old failed directions (keep only last 2)
+                if (this.failedDirections.length > 2)
+                    this.failedDirections = this.failedDirections.slice(-2);
             }
         }
         else
         {
             // Check if direct path is clear
-            if (!this.IsPathClear(targetDir))
+            if (!this.IsPathClear(targetDir, 3.0, this.targetBuilding))
             {
                 // Path blocked, find alternative
-                targetDir = this.FindAlternativeDirection(targetDir, targetDir);
+                // Record failed direction
+                this.failedDirections.push(0); // 0 = direct path failed
+                if (this.failedDirections.length > 5)
+                    this.failedDirections.shift();
+                
+                targetDir = this.FindAlternativeDirection(targetDir, targetDir, this.targetBuilding);
                 // Reset detour angle when we find a new path
                 this.detourAngle = 0;
             }
@@ -724,6 +813,11 @@ class NPC extends MyGameObject
                 if (Math.abs(this.detourAngle) > 0.01)
                 {
                     this.detourAngle *= 0.9; // Gradually return to direct path
+                }
+                // Clear path memory when moving successfully
+                if (this.failedDirections.length > 0 && movedDistance > 0.1)
+                {
+                    this.failedDirections = []; // Clear on successful movement
                 }
             }
         }

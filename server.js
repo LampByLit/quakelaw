@@ -927,10 +927,11 @@ CRITICAL: This is a claim made AFTER a trial has concluded. The player has alrea
 
 Your task:
 1. Review the claim description and desired outcome
-2. Review all recording evidence presented
+2. Review all recording and document evidence presented
 3. Consider any previous case context (if provided)
-4. Make a fair and reasoned decision about whether to GRANT or DENY the claim
+4. Grant the claim if it is reasonable, the player did pay for it after all.
 5. Decide on any punishments, rewards, or other actions
+6. Do not contempt just for filing the claim, do your job and make a fair decision
 6. Write a 50-word ruling explaining your decision in your character's voice
 
 JUDGE POWERS: As the judge, you have the following FULL POWERS you may exercise:
@@ -941,6 +942,7 @@ JUDGE POWERS: As the judge, you have the following FULL POWERS you may exercise:
 - You can banish, sentence to corporeal punishment, or sentence to death ANY NPC from town with good reason
 - You can change any NPC's job to whatever you want, including anything you fancy (e.g., "santa claus", "court jester", etc.) - use this creatively but with justification
 - You can punish or reward the PLAYER themselves if warranted
+- You can change any NPC's name eto whatever you want
 
 IMPORTANT:
 - The player has already paid $20 to have you hear this claim

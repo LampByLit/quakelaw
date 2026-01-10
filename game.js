@@ -773,10 +773,10 @@ function Update()
     }
     
     // Handle R key zoom out (keyCode 82 for 'R')
-    // Zoom out to 250% (2.5x) when R is held, smoothly interpolate
+    // Zoom out to 300% (3x wider view) when R is held, smoothly interpolate
     if (KeyIsDown(82)) // R key
     {
-        let targetScale = baseCameraScale * 2.5; // 250% zoom out
+        let targetScale = baseCameraScale / 3; // 300% zoom out (divide by 3 to make view 3x wider)
         // Smoothly interpolate towards target (lerp with factor ~0.05 per frame for slow, smooth transition)
         cameraScale = cameraScale + (targetScale - cameraScale) * 0.05;
     }

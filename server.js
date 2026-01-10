@@ -1477,7 +1477,7 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
                             .map((fact, idx) => `${idx + 1}. "${fact.content}"`)
                             .join('\n');
                         if (factsList) {
-                            knownFactsText = `\n\nYou know the following information from conversations and gossip:\n${factsList}\n\nYou can naturally reference this knowledge when talking to the player.`;
+                            knownFactsText = `\n\nYou know the following information from conversations and gossip:\n${factsList}\n\nIMPORTANT - SHARING INFORMATION:\n- You are generally open to sharing what you know with others, including the player.\n- When relevant to the conversation, actively bring up facts and rumors you know.\n- Don't wait to be asked - if you have interesting information that relates to what's being discussed, share it naturally.\n- Gossip and rumors are part of town life - you're comfortable talking about what you've heard.\n- Be conversational and engaging when sharing information - it makes you more interesting to talk to.\n- However, stay true to your ${conversation.characteristic} personality - some NPCs are more talkative than others, but most are willing to share what they know.`;
                         }
                     }
                 }

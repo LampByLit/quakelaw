@@ -50,6 +50,7 @@ let gameOverModalOpen = false;
 let gameOverFadeActive = false;
 let gameOverFadeTimer = new Timer();
 let resetButtonHover = 0;
+let resetInProgress = false; // Flag to prevent multiple simultaneous resets
 let lawSchoolButtonHover = false;
 let lawSchoolModalOpen = false;
 let storeButtonHover = false;
@@ -422,78 +423,108 @@ function Reset()
 
 async function FullReset()
 {
-    // Reset frame and time (from gameEngine.js)
-    frame = 0;
-    time = 1;
-    
-    // Reset speed run time
-    speedRunTime = 0;
-    
-    // Reset game state variables
-    winTimer.UnSet();
-    sleepFadeActive = 0;
-    sleepFadeStateApplied = 0;
-    sleepFadeTimer.UnSet();
-    gameOverTimer.UnSet();
-    CloseGameOverModal();
-    currentInterior = null;
-    exteriorLevel = null;
-    playerExteriorPos = null;
-    interiorExitCooldown.UnSet();
-    
-    // Clear all game state from localStorage
-    delete localStorage.kbap_coins;
-    delete localStorage.lawyer_gameState;
-    delete localStorage.kbap_warp;
-    delete localStorage.kbap_won;
-    delete localStorage.kbap_bestTime;
-    
-    // Clear calendar events and tasks
-    if (typeof calendarEvents !== 'undefined') {
-        calendarEvents = [];
-    }
-    if (typeof calendarTasks !== 'undefined') {
-        calendarTasks = {};
-    }
-    if (typeof nextEventId !== 'undefined') {
-        nextEventId = 1;
+    // Prevent multiple simultaneous resets
+    if (resetInProgress) {
+        console.log('Reset already in progress, ignoring duplicate call');
+        return;
     }
     
-    // Close dialogue modal if open (clears client-side conversation history)
-    if (typeof CloseDialogueModal !== 'undefined') {
-        CloseDialogueModal();
-    }
+    resetInProgress = true;
     
-    // Clear all NPCs from memory (before clearing conversations)
-    ClearNPCs();
-    
-    // Reset button is a dev tool - wipe entire /data folder
     try {
-        const response = await fetch('/api/npc/conversations/all', {
-            method: 'DELETE'
-        });
-        if (!response.ok) {
-            console.error('Failed to clear all conversations:', response.status, response.statusText);
-            // Continue anyway - will try to update jobs when conversations are loaded
-        } else {
-            const result = await response.json();
-            console.log(`Reset: Deleted entire /data folder (${result.deletedCount || 0} session(s), ${result.deletedFiles || 0} file(s))`);
+        // Reset frame and time (from gameEngine.js)
+        frame = 0;
+        time = 1;
+        
+        // Reset speed run time
+        speedRunTime = 0;
+        
+        // Reset game state variables
+        winTimer.UnSet();
+        sleepFadeActive = 0;
+        sleepFadeStateApplied = 0;
+        sleepFadeTimer.UnSet();
+        gameOverTimer.UnSet();
+        CloseGameOverModal();
+        currentInterior = null;
+        exteriorLevel = null;
+        playerExteriorPos = null;
+        interiorExitCooldown.UnSet();
+        
+        // Clear all game state from localStorage
+        delete localStorage.kbap_coins;
+        delete localStorage.lawyer_gameState;
+        delete localStorage.kbap_warp;
+        delete localStorage.kbap_won;
+        delete localStorage.kbap_bestTime;
+        
+        // Clear calendar events and tasks
+        if (typeof calendarEvents !== 'undefined') {
+            calendarEvents = [];
         }
-    } catch (error) {
-        console.error('Error clearing all conversations:', error);
-        // Continue anyway - worst case old conversations exist but will be updated with new jobs
+        if (typeof calendarTasks !== 'undefined') {
+            calendarTasks = {};
+        }
+        if (typeof nextEventId !== 'undefined') {
+            nextEventId = 1;
+        }
+        
+        // Close dialogue modal if open (clears client-side conversation history)
+        if (typeof CloseDialogueModal !== 'undefined') {
+            CloseDialogueModal();
+        }
+        
+        // Clear all NPCs from memory (before clearing conversations)
+        ClearNPCs();
+        
+        // Clear all cookies - completely wipe session
+        if (typeof document !== 'undefined' && document.cookie) {
+            // Get all cookies and delete them by setting expiration to past date
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                const cookie = cookies[i];
+                const eqPos = cookie.indexOf('=');
+                const name = eqPos > -1 ? cookie.substr(0, eqPos).trim() : cookie.trim();
+                // Delete cookie by setting it to expire in the past
+                // Also try with different path and domain combinations to ensure complete deletion
+                document.cookie = name + '=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/';
+                document.cookie = name + '=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/;domain=' + window.location.hostname;
+                document.cookie = name + '=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/;domain=.' + window.location.hostname;
+            }
+            console.log('Reset: Cleared all cookies');
+        }
+        
+        // Reset button is a dev tool - wipe entire /data folder
+        try {
+            const response = await fetch('/api/npc/conversations/all', {
+                method: 'DELETE'
+            });
+            if (!response.ok) {
+                console.error('Failed to clear all conversations:', response.status, response.statusText);
+                // Continue anyway - will try to update jobs when conversations are loaded
+            } else {
+                const result = await response.json();
+                console.log(`Reset: Deleted entire /data folder (${result.deletedCount || 0} session(s), ${result.deletedFiles || 0} file(s))`);
+            }
+        } catch (error) {
+            console.error('Error clearing all conversations:', error);
+            // Continue anyway - worst case old conversations exist but will be updated with new jobs
+        }
+        
+        // Clear session and stored session ID for cleanup
+        clearSession();
+        if (typeof localStorage !== 'undefined') {
+            localStorage.removeItem('lastSessionId');
+        }
+        getSessionId(); // Generate new session ID
+        
+        // Reset game state
+        Reset();
+        InitTown();
+    } finally {
+        // Always clear the flag, even if an error occurred
+        resetInProgress = false;
     }
-    
-    // Clear session and stored session ID for cleanup
-    clearSession();
-    if (typeof localStorage !== 'undefined') {
-        localStorage.removeItem('lastSessionId');
-    }
-    getSessionId(); // Generate new session ID
-    
-    // Reset game state
-    Reset();
-    InitTown();
 }
 
 function InitTown()
@@ -832,12 +863,12 @@ function Update()
         let buttonWidth = 80;
         let buttonHeight = 24;
         
-        // Check if mouse is hovering over button
-        resetButtonHover = (mousePos.x >= buttonX - buttonWidth/2 && mousePos.x <= buttonX + buttonWidth/2 &&
+        // Check if mouse is hovering over button (only if not in progress)
+        resetButtonHover = !resetInProgress && (mousePos.x >= buttonX - buttonWidth/2 && mousePos.x <= buttonX + buttonWidth/2 &&
                            mousePos.y >= buttonY - buttonHeight/2 && mousePos.y <= buttonY + buttonHeight/2);
         
-        // Check for reset button click
-        if (MouseWasPressed() && resetButtonHover)
+        // Check for reset button click (only if not in progress)
+        if (MouseWasPressed() && resetButtonHover && !resetInProgress)
         {
             FullReset();
         }
@@ -1291,18 +1322,25 @@ function PostRender()
         let buttonWidth = 80;
         let buttonHeight = 24;
         
-        // Draw button background (hover state is set in Update())
-        let bgColor = resetButtonHover ? '#F44' : '#844';
+        // Draw button background (disabled state if reset in progress)
+        let bgColor;
+        if (resetInProgress) {
+            bgColor = '#666'; // Gray when disabled
+        } else {
+            bgColor = resetButtonHover ? '#F44' : '#844';
+        }
         mainCanvasContext.fillStyle = bgColor;
         mainCanvasContext.fillRect(buttonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
         
         // Draw button border
-        mainCanvasContext.strokeStyle = '#FFF';
+        mainCanvasContext.strokeStyle = resetInProgress ? '#999' : '#FFF';
         mainCanvasContext.lineWidth = 2;
         mainCanvasContext.strokeRect(buttonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
         
         // Draw button text
-        DrawText('RESET', buttonX, buttonY, 12, 'center', 1, '#FFF', '#000');
+        let buttonText = resetInProgress ? 'RESETTING...' : 'RESET';
+        let textColor = resetInProgress ? '#AAA' : '#FFF';
+        DrawText(buttonText, buttonX, buttonY, 12, 'center', 1, textColor, '#000');
     }
     
     // Law School button (below reset button)

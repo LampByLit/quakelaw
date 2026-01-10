@@ -1553,8 +1553,8 @@ function GenerateNPCs()
         // Create NPC (will spawn in house interior)
         let npc = new NPC(new Vector2(0, 0), surname, characteristic, emoji, spriteIndex, houseAddress, workAddress, job);
         
-        // ~50% of NPCs can sell documents
-        npc.canSellDocuments = (RandInt(2) === 0);
+        // ~2/3 of NPCs can sell documents
+        npc.canSellDocuments = (RandInt(3) < 2);
         
         // Randomize schedule
         npc.RandomizeSchedule();

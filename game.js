@@ -5539,7 +5539,7 @@ function GenerateTown()
     }
     
     // Generate rocks randomly (no bushes/plants)
-    for(let i = 0; i < 200; i++)
+    for(let i = 0; i < 100; i++)
     {
         let pos = new Vector2(RandBetween(2, levelSize - 2), RandBetween(2, levelSize - 2));
         let data = level.GetDataFromPos(pos);

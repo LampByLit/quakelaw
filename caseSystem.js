@@ -1296,18 +1296,33 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
         if (awardAmount > 0 && typeof playerData !== 'undefined') {
             const oldCoins = playerData.coins || 0;
             playerData.coins = oldCoins + awardAmount;
-            console.log(`[JUDGMENT] Step 12: Added $${awardAmount} coins. Old: $${oldCoins}, New: $${playerData.coins}`);
+            console.log(`[JUDGMENT] Step 12: Added $${awardAmount} coins from judge. Old: $${oldCoins}, New: $${playerData.coins}`);
             if (typeof SaveGameState === 'function') {
                 SaveGameState();
             }
         } else {
-            console.log(`[JUDGMENT] Step 12: No coins awarded (amount: ${awardAmount})`);
+            console.log(`[JUDGMENT] Step 12: No coins awarded from judge (amount: ${awardAmount})`);
+        }
+        
+        // 13. Add automatic $20 win bonus if player won the case
+        if (playerWins && typeof playerData !== 'undefined') {
+            const oldCoins = playerData.coins || 0;
+            playerData.coins = oldCoins + 20;
+            console.log(`[JUDGMENT] Step 13: Player won case - added $20 win bonus. Old: $${oldCoins}, New: $${playerData.coins}`);
+            if (typeof SaveGameState === 'function') {
+                SaveGameState();
+            }
+        } else if (playerWins) {
+            console.log(`[JUDGMENT] Step 13: Player won case but playerData not available - cannot award $20 win bonus`);
         }
         
         // Hide loading notification
         if (typeof HideLoadingNotification !== 'undefined') {
             HideLoadingNotification();
         }
+        
+        // Calculate total coins awarded (judge award + win bonus)
+        const totalCoinsAwarded = awardAmount + (playerWins ? 20 : 0);
         
         const result = {
             playerWins: playerWins,
@@ -1316,7 +1331,7 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
             punishments: punishments || [],
             jobChanges: jobChanges || [],
             ruling: ruling || 'The judge has made a decision.',
-            coinsAwarded: awardAmount,
+            coinsAwarded: totalCoinsAwarded,
             prosecution: prosecution || ''
         };
         

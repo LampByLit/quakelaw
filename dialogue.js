@@ -1487,7 +1487,16 @@ function CreateJudgmentEvidenceItem(result) {
     // Show coin award
     if (result.coinsAwarded > 0) {
         judgmentText += `\n--- COIN AWARD ---\n`;
-        judgmentText += `The judge awarded you $${result.coinsAwarded} coins for your work as lawyer.\n`;
+        if (result.playerWins) {
+            const judgeAward = result.coinsAwarded - 20;
+            if (judgeAward > 0) {
+                judgmentText += `Total coins awarded: $${result.coinsAwarded} ($${judgeAward} from judge + $20 win bonus)\n`;
+            } else {
+                judgmentText += `Total coins awarded: $${result.coinsAwarded} ($20 win bonus)\n`;
+            }
+        } else {
+            judgmentText += `The judge awarded you $${result.coinsAwarded} coins for your work as lawyer.\n`;
+        }
     }
     
     // Show reprimand

@@ -1179,7 +1179,7 @@ function PostRender()
     // Display calendar-style time and date (top-left, center-aligned)
     if (gameTime)
     {
-        let x = 40; // Fixed left position
+        let x = 50; // Fixed left position
         let y = 10; // Start from top
         
         // Time at top (small) - center-aligned with other elements

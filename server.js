@@ -1871,42 +1871,49 @@ app.post('/api/npc/generate-document/:surname', async (req, res) => {
             : `[Document content unavailable]`;
         
         // Generate a title for the document
-        const titlePrompt = `Generate a short, professional title (3-8 words) for this ${documentType} document created by a ${job}. Just return the title, nothing else.`;
-        
-        const titleResponse = await fetch('https://api.deepseek.com/v1/chat/completions', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${apiKey}`
-            },
-            body: JSON.stringify({
-                model: process.env.DEEPSEEK_MODEL || 'deepseek-chat',
-                messages: [
-                    {
-                        role: 'system',
-                        content: `You are ${surname}, a ${characteristic} ${job}.`
-                    },
-                    {
-                        role: 'user',
-                        content: titlePrompt
-                    }
-                ],
-                temperature: 0.7,
-                max_tokens: 30
-            })
-        });
-        
         let documentTitle = `${surname}'s ${documentType.charAt(0).toUpperCase() + documentType.slice(1)} Document`;
-        if (titleResponse.ok) {
-            const titleData = await titleResponse.json();
-            if (titleData.choices && titleData.choices[0]) {
-                const generatedTitle = titleData.choices[0].message.content.trim();
-                // Clean up title (remove quotes, extra text)
-                documentTitle = generatedTitle.replace(/^["']|["']$/g, '').split('\n')[0].trim();
-                if (documentTitle.length > 60) {
-                    documentTitle = documentTitle.substring(0, 57) + '...';
+        try {
+            const titlePrompt = `Generate a short, professional title (3-8 words) for this ${documentType} document created by a ${job}. Just return the title, nothing else.`;
+            
+            const titleResponse = await fetch('https://api.deepseek.com/v1/chat/completions', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${apiKey}`
+                },
+                body: JSON.stringify({
+                    model: process.env.DEEPSEEK_MODEL || 'deepseek-chat',
+                    messages: [
+                        {
+                            role: 'system',
+                            content: `You are ${surname}, a ${characteristic} ${job}.`
+                        },
+                        {
+                            role: 'user',
+                            content: titlePrompt
+                        }
+                    ],
+                    temperature: 0.7,
+                    max_tokens: 30
+                })
+            });
+            
+            if (titleResponse.ok) {
+                const titleData = await titleResponse.json();
+                if (titleData.choices && titleData.choices[0]) {
+                    const generatedTitle = titleData.choices[0].message.content.trim();
+                    // Clean up title (remove quotes, extra text)
+                    documentTitle = generatedTitle.replace(/^["']|["']$/g, '').split('\n')[0].trim();
+                    if (documentTitle.length > 60) {
+                        documentTitle = documentTitle.substring(0, 57) + '...';
+                    }
                 }
+            } else {
+                console.warn('Title generation failed, using default title');
             }
+        } catch (titleError) {
+            // If title generation fails, use default title - don't fail the whole request
+            console.warn('Error generating document title:', titleError);
         }
         
         // Store document in conversation metadata (documents never change)
@@ -1918,7 +1925,14 @@ app.post('/api/npc/generate-document/:surname', async (req, res) => {
         };
         
         conversation.metadata.documents.push(document);
-        await saveConversation(sessionId, conversation);
+        
+        // Save conversation with error handling
+        try {
+            await saveConversation(sessionId, conversation);
+        } catch (saveError) {
+            console.error('Error saving conversation after document generation:', saveError);
+            // Still return the document even if save fails
+        }
         
         // Return document
         res.json({

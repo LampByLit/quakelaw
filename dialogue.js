@@ -504,7 +504,7 @@ async function SendMessage() {
     }
     
     // Check if player is asking about documents and NPC can sell
-    if (hasDocumentKeyword && currentDialogueNPC.canSellDocuments) {
+    if (hasDocumentKeyword && currentDialogueNPC && currentDialogueNPC.canSellDocuments) {
         // Check if player is asking about price or negotiating
         const isPriceQuery = /price|cost|how much|pay|afford/i.test(messageLower);
         const isNegotiation = /negotiate|deal|discount|lower|cheaper|bargain/i.test(messageLower);
@@ -523,6 +523,10 @@ async function SendMessage() {
                 }
                 
                 // Create document item
+                if (!currentDialogueNPC) {
+                    console.warn('Dialogue closed during document purchase');
+                    return;
+                }
                 const doc = pendingDocumentPurchase.document;
                 const documentItem = {
                     type: `document_${Date.now()}`, // Unique type to prevent stacking
@@ -594,19 +598,165 @@ async function SendMessage() {
                     }
                 }
             } else {
-                // Cannot afford
-                conversationHistory.push({
-                    role: 'player',
-                    message: message,
-                    timestamp: Date.now()
-                });
-                conversationHistory.push({
-                    role: 'npc',
-                    message: `I'm sorry, but you don't have enough coins. You need $${agreedPrice}, but you only have $${playerCoins}.`,
-                    timestamp: Date.now()
-                });
-                UpdateConversationDisplay();
+                // Cannot afford - use AI to generate natural response
                 input.value = '';
+                
+                // Disable input while waiting for response
+                isLoadingResponse = true;
+                const sendBtn = document.getElementById('sendMessage');
+                sendBtn.disabled = true;
+                input.disabled = true;
+                
+                // Show loading indicator
+                const loadingDiv = document.createElement('div');
+                loadingDiv.className = 'loading-indicator';
+                loadingDiv.textContent = `${currentDialogueNPC.surname} is thinking...`;
+                document.getElementById('conversationHistory').appendChild(loadingDiv);
+                ScrollToBottom();
+                
+                try {
+                    // Check if dialogue is still open
+                    if (!currentDialogueNPC) {
+                        throw new Error('Dialogue closed');
+                    }
+                    
+                    const sessionId = getSessionId();
+                    if (!sessionId) {
+                        throw new Error('Failed to get session ID');
+                    }
+                    
+                    // Construct message with context about insufficient funds
+                    // The server will add this to conversation history, so we don't add it locally
+                    // Format it naturally so it reads well in the conversation
+                    const contextMessage = `I'd like to buy the document, but I only have $${playerCoins} and it costs $${agreedPrice}`;
+                    
+                    // Get active case (for judge and for NPCs involved in cases)
+                    let activeCaseRaw = null;
+                    if (typeof GetActiveCase !== 'undefined') {
+                        activeCaseRaw = GetActiveCase();
+                    }
+                    
+                    // Sanitize activeCase to remove circular references
+                    let activeCase = null;
+                    if (activeCaseRaw) {
+                        activeCase = {
+                            caseSummary: activeCaseRaw.caseSummary || '',
+                            witnesses: (activeCaseRaw.witnesses || []).map(w => ({
+                                role: w.role || 'witness',
+                                npc: {
+                                    surname: w.npc?.surname || 'Unknown',
+                                    houseAddress: w.npc?.houseAddress || 'Unknown',
+                                    workAddress: w.npc?.workAddress || 'Unknown'
+                                }
+                            }))
+                        };
+                    }
+                    
+                    // Get completed case context if talking to judge and no active case
+                    let completedCase = null;
+                    if (currentDialogueNPC.isJudge && !activeCase && completedCaseContext) {
+                        completedCase = {
+                            caseSummary: completedCaseContext.caseSummary || '',
+                            prosecution: completedCaseContext.prosecution || '',
+                            ruling: completedCaseContext.ruling || '',
+                            playerWins: completedCaseContext.playerWins || false,
+                            playerReprimanded: completedCaseContext.playerReprimanded || false,
+                            playerDisbarred: completedCaseContext.playerDisbarred || false,
+                            punishments: completedCaseContext.punishments || [],
+                            jobChanges: completedCaseContext.jobChanges || []
+                        };
+                    }
+                    
+                    // Check again before making fetch call
+                    if (!currentDialogueNPC) {
+                        throw new Error('Dialogue closed');
+                    }
+                    
+                    // Call conversation API to get AI response
+                    const response = await fetch(`/api/npc/conversation/${encodeURIComponent(currentDialogueNPC.surname)}?sessionId=${encodeURIComponent(sessionId)}`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            message: contextMessage,
+                            npcData: {
+                                surname: currentDialogueNPC.surname,
+                                characteristic: currentDialogueNPC.characteristic,
+                                emoji: currentDialogueNPC.emoji,
+                                job: currentDialogueNPC.job || '',
+                                isJudge: currentDialogueNPC.isJudge || false
+                            },
+                            activeCase: activeCase,
+                            completedCase: completedCase
+                        })
+                    });
+                    
+                    if (!response.ok) {
+                        const errorData = await response.json().catch(() => ({}));
+                        throw new Error(errorData.error || `Failed to send message: ${response.statusText}`);
+                    }
+                    
+                    const data = await response.json();
+                    
+                    // Check if dialogue is still open before processing response
+                    if (!currentDialogueNPC) {
+                        console.warn('Dialogue closed during message processing');
+                        const loading = document.querySelector('.loading-indicator');
+                        if (loading) loading.remove();
+                        isLoadingResponse = false;
+                        sendBtn.disabled = false;
+                        input.disabled = false;
+                        return;
+                    }
+                    
+                    // Update conversation history with AI response
+                    // The server returns the full conversation including the player message and NPC response
+                    conversationHistory = data.conversation || [];
+                    
+                    // Remove loading indicator
+                    const loading = document.querySelector('.loading-indicator');
+                    if (loading) loading.remove();
+                    
+                    UpdateConversationDisplay();
+                    ScrollToBottom();
+                    
+                    // Re-enable input
+                    isLoadingResponse = false;
+                    sendBtn.disabled = false;
+                    input.disabled = false;
+                    
+                } catch (error) {
+                    console.error('Error getting AI response for insufficient funds:', error);
+                    const loading = document.querySelector('.loading-indicator');
+                    if (loading) loading.remove();
+                    
+                    // Fallback to a simple message if AI fails
+                    if (currentDialogueNPC) {
+                        // Add player message first if not already in history
+                        const lastMessage = conversationHistory[conversationHistory.length - 1];
+                        if (!lastMessage || lastMessage.role !== 'player' || lastMessage.message !== message) {
+                            conversationHistory.push({
+                                role: 'player',
+                                message: message,
+                                timestamp: Date.now()
+                            });
+                        }
+                        // Add NPC fallback message
+                        conversationHistory.push({
+                            role: 'npc',
+                            message: `I'm sorry, but you don't have enough coins. You need $${agreedPrice}, but you only have $${playerCoins}.`,
+                            timestamp: Date.now()
+                        });
+                        UpdateConversationDisplay();
+                    }
+                    
+                    // Re-enable input
+                    isLoadingResponse = false;
+                    sendBtn.disabled = false;
+                    input.disabled = false;
+                }
+                
                 return;
             }
         }
@@ -614,6 +764,12 @@ async function SendMessage() {
         // If asking about purchase, generate/fetch document
         if (messageLower.includes('purchase')) {
             try {
+                // Check if dialogue is still open
+                if (!currentDialogueNPC) {
+                    console.warn('Dialogue closed during document generation');
+                    return;
+                }
+                
                 const sessionId = getSessionId();
                 
                 // Add player message
@@ -648,7 +804,36 @@ async function SendMessage() {
                 });
                 
                 if (!response.ok) {
-                    throw new Error('Failed to generate document');
+                    // Try to get error details from response
+                    let errorMessage = 'Failed to generate document';
+                    let errorDetails = null;
+                    
+                    try {
+                        const errorData = await response.json();
+                        errorMessage = errorData.error || errorMessage;
+                        errorDetails = errorData;
+                    } catch (e) {
+                        // Response might not be JSON
+                        console.warn('Could not parse error response as JSON');
+                    }
+                    
+                    // Provide specific messages for common errors
+                    if (response.status === 502) {
+                        errorMessage = 'Server is not responding. Please make sure the server is running on port 3000.';
+                    } else if (response.status === 500) {
+                        errorMessage = errorMessage || 'Server error occurred while generating document.';
+                    } else if (response.status === 400) {
+                        errorMessage = errorMessage || 'Invalid request. Please check that the NPC has a valid job.';
+                    }
+                    
+                    console.error('Document generation failed:', {
+                        status: response.status,
+                        statusText: response.statusText,
+                        error: errorMessage,
+                        details: errorDetails
+                    });
+                    
+                    throw new Error(errorMessage);
                 }
                 
                 const data = await response.json();
@@ -657,6 +842,12 @@ async function SendMessage() {
                 // Remove loading
                 const loading = document.querySelector('.loading-indicator');
                 if (loading) loading.remove();
+                
+                // Check if dialogue is still open before storing purchase
+                if (!currentDialogueNPC) {
+                    console.warn('Dialogue closed during document generation');
+                    return;
+                }
                 
                 // Store pending purchase
                 pendingDocumentPurchase = {
@@ -698,9 +889,23 @@ async function SendMessage() {
                 const loading = document.querySelector('.loading-indicator');
                 if (loading) loading.remove();
                 
+                // Check if dialogue is still open
+                if (!currentDialogueNPC) {
+                    console.warn('Dialogue closed during error handling');
+                    return;
+                }
+                
+                // Use error message if available, otherwise use generic message
+                let errorMessage = "I'm having trouble preparing a document right now. Please try again later.";
+                if (error.message && error.message !== 'Failed to generate document') {
+                    errorMessage = error.message;
+                } else if (error.message && error.message.includes('Server is not responding')) {
+                    errorMessage = "I'm having trouble connecting to my document system. Please make sure the server is running.";
+                }
+                
                 conversationHistory.push({
                     role: 'npc',
-                    message: "I'm having trouble preparing a document right now. Please try again later.",
+                    message: errorMessage,
                     timestamp: Date.now()
                 });
                 UpdateConversationDisplay();
@@ -713,6 +918,10 @@ async function SendMessage() {
     // Check for dev command: npc.knownfacts
     if (message.toLowerCase() === 'npc.knownfacts') {
         // Fetch and display NPC's known facts
+        if (!currentDialogueNPC) {
+            console.warn('Dialogue closed, cannot fetch facts');
+            return;
+        }
         try {
             const sessionId = getSessionId();
             const response = await fetch(`/api/npc/gossip/facts/${encodeURIComponent(currentDialogueNPC.surname)}?sessionId=${encodeURIComponent(sessionId)}`);
@@ -730,6 +939,12 @@ async function SendMessage() {
                 message: message,
                 timestamp: Date.now()
             });
+            
+            // Check if dialogue is still open
+            if (!currentDialogueNPC) {
+                console.warn('Dialogue closed during facts fetch');
+                return;
+            }
             
             // Format facts for display
             let factsText = `${currentDialogueNPC.surname}'s Known Facts (${facts.length} total):\n\n`;
@@ -780,6 +995,12 @@ async function SendMessage() {
     // Clear input
     input.value = '';
     
+    // Check if dialogue is still open
+    if (!currentDialogueNPC) {
+        console.warn('Dialogue closed, cannot send message');
+        return;
+    }
+    
     // Check if judge is uninitialized (characteristic is null)
     if (currentDialogueNPC.isJudge && (!currentDialogueNPC.characteristic || currentDialogueNPC.characteristic === null)) {
         // Judge is uninitialized - show busy message
@@ -807,6 +1028,11 @@ async function SendMessage() {
     ScrollToBottom();
     
     try {
+        // Check if dialogue is still open before making API call
+        if (!currentDialogueNPC) {
+            throw new Error('Dialogue closed');
+        }
+        
         const sessionId = getSessionId();
         if (!sessionId) {
             throw new Error('Failed to get session ID');
@@ -849,6 +1075,11 @@ async function SendMessage() {
             };
         }
         
+        // Check again before making fetch call
+        if (!currentDialogueNPC) {
+            throw new Error('Dialogue closed');
+        }
+        
         const response = await fetch(`/api/npc/conversation/${encodeURIComponent(currentDialogueNPC.surname)}?sessionId=${encodeURIComponent(sessionId)}`, {
             method: 'POST',
             headers: {
@@ -874,6 +1105,15 @@ async function SendMessage() {
         }
         
         const data = await response.json();
+        
+        // Check if dialogue is still open before processing response
+        if (!currentDialogueNPC) {
+            console.warn('Dialogue closed during message processing');
+            const loading = document.querySelector('.loading-indicator');
+            if (loading) loading.remove();
+            return;
+        }
+        
         conversationHistory = data.conversation || [];
         
         // Remove loading indicator
@@ -936,7 +1176,7 @@ async function SendMessage() {
         
         // Check if judge agreed to hear a claim (look for claim agreement indicators in response)
         // Only allow claims after a trial has been completed (when completedCaseContext exists)
-        if (currentDialogueNPC.isJudge && !isLoadingResponse && completedCaseContext) {
+        if (currentDialogueNPC && currentDialogueNPC.isJudge && !isLoadingResponse && completedCaseContext) {
             const lastMessage = conversationHistory[conversationHistory.length - 1];
             if (lastMessage && lastMessage.role === 'npc') {
                 const responseText = lastMessage.message.toLowerCase();
@@ -987,7 +1227,7 @@ async function SendMessage() {
         // Add error message with more detail
         let errorMessage = "I'm having trouble responding right now. Please try again.";
         // Check if judge is uninitialized (characteristic is null)
-        if (currentDialogueNPC.isJudge && (!currentDialogueNPC.characteristic || currentDialogueNPC.characteristic === null)) {
+        if (currentDialogueNPC && currentDialogueNPC.isJudge && (!currentDialogueNPC.characteristic || currentDialogueNPC.characteristic === null)) {
             errorMessage = "I'm too busy to speak right now. I'll be ready momentarily.";
         } else if (error.message && (error.message.includes('Failed to fetch') || error.message.includes('ERR_CONNECTION_RESET'))) {
             errorMessage = "Cannot connect to server. Please make sure the server is running on port 3000.";
@@ -1096,6 +1336,10 @@ function StopRecording() {
     }
     
     // Store NPC reference before closing modal
+    if (!currentDialogueNPC) {
+        console.warn('Cannot save recording: dialogue already closed');
+        return;
+    }
     const npcSurname = currentDialogueNPC.surname;
     
     // Close dialogue modal first so naming modal can be shown

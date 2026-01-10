@@ -1039,7 +1039,7 @@ async function GetRandomNPCsWithFacts(count = 10) {
     return shuffled.slice(0, Math.min(count, shuffled.length));
 }
 
-// Collect all evidence from player inventory
+// Collect all evidence from player inventory (recordings and documents)
 function CollectEvidenceFromInventory() {
     if (!playerData || !playerData.inventory) {
         return [];
@@ -1047,8 +1047,11 @@ function CollectEvidenceFromInventory() {
     
     const evidence = [];
     for (const item of playerData.inventory) {
-        // Only collect evidence items (not case files)
-        if (item.type && item.type.startsWith('evidence_') && item.metadata) {
+        // Collect evidence_ type items (recordings) and document_ type items (documents)
+        // Exclude case files and other non-evidence items
+        if (item.type && 
+            item.metadata &&
+            (item.type.startsWith('evidence_') || item.type.startsWith('document_'))) {
             evidence.push({
                 name: item.name || 'Unnamed Evidence',
                 metadata: item.metadata
@@ -1059,7 +1062,7 @@ function CollectEvidenceFromInventory() {
     return evidence;
 }
 
-// Collect only recording evidence from player inventory (for claims)
+// Collect recording and document evidence from player inventory (for claims)
 function CollectRecordingEvidenceFromInventory() {
     if (!playerData || !playerData.inventory) {
         return [];
@@ -1067,13 +1070,14 @@ function CollectRecordingEvidenceFromInventory() {
     
     const evidence = [];
     for (const item of playerData.inventory) {
-        // Only collect evidence_ type items (exclude judgment_, casefile_, claim_)
+        // Collect evidence_ type items (recordings) and document_ type items (documents)
+        // Exclude judgment_, casefile_, claim_ items
         if (item.type && 
-            item.type.startsWith('evidence_') && 
+            item.metadata &&
+            (item.type.startsWith('evidence_') || item.type.startsWith('document_')) &&
             !item.type.startsWith('judgment_') &&
             !item.type.startsWith('casefile_') &&
-            !item.type.startsWith('claim_') &&
-            item.metadata) {
+            !item.type.startsWith('claim_')) {
             evidence.push({
                 name: item.name || 'Unnamed Evidence',
                 metadata: item.metadata

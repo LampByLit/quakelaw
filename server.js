@@ -671,7 +671,8 @@ app.post('/api/cases/judgment', async (req, res) => {
         if (evidence && evidence.length > 0) {
             evidenceText = evidence.map((e, idx) => {
                 const meta = e.metadata || {};
-                const text = meta.conversationText || meta.content || JSON.stringify(meta);
+                // Check for conversationText (recordings), documentText (documents), or content (other)
+                const text = meta.conversationText || meta.documentText || meta.content || JSON.stringify(meta);
                 return `${idx + 1}. ${e.name || 'Evidence'}: ${text.substring(0, 500)}`;
             }).join('\n\n');
         }
@@ -890,7 +891,8 @@ app.post('/api/claims/judgment', async (req, res) => {
         if (evidence && evidence.length > 0) {
             evidenceText = evidence.map((e, idx) => {
                 const meta = e.metadata || {};
-                const text = meta.conversationText || meta.content || JSON.stringify(meta);
+                // Check for conversationText (recordings), documentText (documents), or content (other)
+                const text = meta.conversationText || meta.documentText || meta.content || JSON.stringify(meta);
                 return `${idx + 1}. ${e.name || 'Evidence'}: ${text.substring(0, 500)}`;
             }).join('\n\n');
         }

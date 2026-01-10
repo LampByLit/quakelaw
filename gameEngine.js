@@ -427,9 +427,27 @@ onkeyup = function(e)
     if ( keyInputData[e.keyCode] ) keyInputData[e.keyCode].isDown=0;
 }
 
-function MouseWasPressed()  { return mouseIsDown && !mouseWasDown; }
-function KeyIsDown(key)     { return keyInputData[key]? keyInputData[key].isDown : 0; }
-function KeyWasPressed(key) { return KeyIsDown(key) && !keyInputData[key].wasDown; }
+function MouseWasPressed()  { 
+    // Block input if game over modal is open
+    if (typeof IsGameOverModalOpen !== 'undefined' && IsGameOverModalOpen()) {
+        return false;
+    }
+    return mouseIsDown && !mouseWasDown; 
+}
+function KeyIsDown(key) { 
+    // Block input if game over modal is open (except Escape key 27 for reset)
+    if (typeof IsGameOverModalOpen !== 'undefined' && IsGameOverModalOpen() && key !== 27) {
+        return false;
+    }
+    return keyInputData[key]? keyInputData[key].isDown : 0; 
+}
+function KeyWasPressed(key) { 
+    // Block input if game over modal is open (except Escape key 27 for reset)
+    if (typeof IsGameOverModalOpen !== 'undefined' && IsGameOverModalOpen() && key !== 27) {
+        return false;
+    }
+    return KeyIsDown(key) && !keyInputData[key].wasDown; 
+}
 function ClearInput()       { keyInputData.map(k=>k.wasDown=k.isDown=0);mouseIsDown=mouseWasDown=0; }
 
 ///////////////////////////////////////////////////////////////////////////////

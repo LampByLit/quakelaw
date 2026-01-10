@@ -782,6 +782,71 @@ font-family: 'Press Start 2P', monospace;
 background: #ff8888;
 }
 
+/* Game Over Modal Styles */
+#gameOverModal {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.98);
+z-index: 1004;
+font-family: 'Press Start 2P', monospace;
+pointer-events: auto;
+}
+#gameOverModal.open {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.game-over-modal-content {
+background: #1a0000;
+border: 6px solid #ff0000;
+border-radius: 8px;
+width: 90%;
+max-width: 600px;
+display: flex;
+flex-direction: column;
+box-shadow: 0 0 40px rgba(255, 0, 0, 0.6);
+animation: gameOverPulse 2s infinite;
+}
+@keyframes gameOverPulse {
+0%, 100% { box-shadow: 0 0 40px rgba(255, 0, 0, 0.6); }
+50% { box-shadow: 0 0 60px rgba(255, 0, 0, 0.9); }
+}
+.game-over-body {
+padding: 60px 40px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+align-items: center;
+text-align: center;
+}
+.game-over-title {
+color: #ff0000;
+font-size: 64px;
+margin: 0;
+text-shadow: 0 0 20px rgba(255, 0, 0, 0.8), 0 0 40px rgba(255, 0, 0, 0.5);
+letter-spacing: 4px;
+animation: gameOverTitlePulse 1.5s infinite;
+}
+@keyframes gameOverTitlePulse {
+0%, 100% { transform: scale(1); opacity: 1; }
+50% { transform: scale(1.05); opacity: 0.9; }
+}
+.game-over-message {
+color: #ff6666;
+font-size: 14px;
+line-height: 1.8;
+margin-top: 10px;
+}
+.game-over-countdown {
+color: #fff;
+font-size: 18px;
+margin-top: 20px;
+}
+
 /* Law School Modal Styles */
 #lawSchoolModal {
 display: none;
@@ -1023,6 +1088,17 @@ border: 2px solid #444;
 </div>
 <div class="penalty-actions">
 <button id="okPenaltyModal" class="penalty-button">OK</button>
+</div>
+</div>
+</div>
+
+<!-- Game Over Modal -->
+<div id="gameOverModal">
+<div class="game-over-modal-content">
+<div class="game-over-body">
+<h1 class="game-over-title">GAME OVER</h1>
+<div id="gameOverMessage" class="game-over-message"></div>
+<div id="gameOverCountdown" class="game-over-countdown"></div>
 </div>
 </div>
 </div>

@@ -46,6 +46,9 @@ let sleepFadeTimer = new Timer();
 let sleepFadeActive = 0;
 let sleepFadeStateApplied = 0; // Track if state changes have been applied at midpoint
 let gameOverTimer = new Timer();
+let gameOverModalOpen = false;
+let gameOverFadeActive = false;
+let gameOverFadeTimer = new Timer();
 let resetButtonHover = 0;
 let lawSchoolButtonHover = false;
 let lawSchoolModalOpen = false;
@@ -432,6 +435,7 @@ async function FullReset()
     sleepFadeStateApplied = 0;
     sleepFadeTimer.UnSet();
     gameOverTimer.UnSet();
+    CloseGameOverModal();
     currentInterior = null;
     exteriorLevel = null;
     playerExteriorPos = null;
@@ -742,6 +746,42 @@ function Update()
     // Handle game over auto-reset
     if (player && player.IsDead())
     {
+        // Show game over modal if not already shown
+        if (!gameOverModalOpen)
+        {
+            ShowGameOverModal();
+        }
+        
+        // Update countdown in modal
+        if (gameOverModalOpen)
+        {
+            const countdownEl = document.getElementById('gameOverCountdown');
+            if (countdownEl)
+            {
+                if (!gameOverTimer.IsSet())
+                {
+                    gameOverTimer.Set(5.0); // 5 seconds
+                }
+                
+                if (!gameOverTimer.Elapsed())
+                {
+                    let timeLeft = Math.max(0, Math.ceil(-gameOverTimer.Get())); // Get() returns negative, so negate it
+                    if (timeLeft > 0)
+                    {
+                        countdownEl.textContent = `Resetting in ${timeLeft}...`;
+                    }
+                    else
+                    {
+                        countdownEl.textContent = 'Press ESC to reset';
+                    }
+                }
+                else
+                {
+                    countdownEl.textContent = 'Resetting...';
+                }
+            }
+        }
+        
         // Start the 5-second timer if not already started
         if (!gameOverTimer.IsSet())
         {
@@ -1096,6 +1136,17 @@ function PreRender()
         mainCanvasContext.fillRect(0,0,mainCanvasSize.x, mainCanvasSize.y);
     }
     
+    // Apply game over fade to black overlay if active
+    if (gameOverFadeActive)
+    {
+        let elapsed = 1.0 + gameOverFadeTimer.Get(); // Get elapsed time (0 to 1.0)
+        // Fade out: 0 to 1 over 1 second, then stay at 1.0
+        let opacity = Math.min(elapsed, 1.0);
+        opacity = Clamp(opacity, 0, 1);
+        mainCanvasContext.fillStyle = `rgba(0,0,0,${opacity})`;
+        mainCanvasContext.fillRect(0,0,mainCanvasSize.x, mainCanvasSize.y);
+    }
+    
     // draw the level (bottom layer)
     if (currentInterior)
     {
@@ -1279,13 +1330,14 @@ function PostRender()
         DrawText('Store', buttonX, buttonY, 8, 'center', 1, '#FFF', '#000');
     }
     
-    // centered hud text
+    // centered hud text (only show if game over modal is not open)
     let bigText = '';
     if (paused)
         bigText = '-paused-'
     if (winTimer.IsSet())
         bigText = 'You Win!';
-    if (player && player.IsDead())
+    // Don't show "Game Over!" text if modal is open (modal handles display)
+    if (player && player.IsDead() && !gameOverModalOpen)
     {
         bigText = 'Game Over!'
         // Show countdown or "Press OK" message
@@ -1306,7 +1358,8 @@ function PostRender()
             DrawText('Press OK', mainCanvasSize.x/2, mainCanvasSize.y/2+80, 42);
         }
     }  
-    DrawText(bigText,mainCanvasSize.x/2, mainCanvasSize.y/2-80, 72, 'center', 2, '#FFF');
+    if (bigText)
+        DrawText(bigText,mainCanvasSize.x/2, mainCanvasSize.y/2-80, 72, 'center', 2, '#FFF');
    
     if (speedRunMode)
     {
@@ -1624,6 +1677,15 @@ class Player extends MyGameObject
         if (this.IsDead() || this.IsIntro())
         {
             // stop and do no more
+            return;
+        }
+        
+        // Don't process input if game over modal is open
+        if (gameOverModalOpen)
+        {
+            this.nearBed = 0;
+            this.nearNPC = null;
+            super.Update();
             return;
         }
         
@@ -6211,6 +6273,82 @@ function CloseStoreModal() {
     if (modal) {
         modal.classList.remove('open');
     }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Game Over Modal
+
+// Check if game over modal is open
+function IsGameOverModalOpen() {
+    return gameOverModalOpen;
+}
+
+// Show game over modal
+function ShowGameOverModal(message = '') {
+    if (gameOverModalOpen) return;
+    
+    gameOverModalOpen = true;
+    
+    // Start fade to black
+    gameOverFadeActive = true;
+    gameOverFadeTimer.Set(1.0); // 1 second fade
+    
+    const modal = document.getElementById('gameOverModal');
+    const messageEl = document.getElementById('gameOverMessage');
+    const countdownEl = document.getElementById('gameOverCountdown');
+    
+    if (!modal) {
+        console.warn('Game Over modal element not found');
+        return;
+    }
+    
+    // Set message if provided
+    if (messageEl && message) {
+        messageEl.textContent = message;
+    } else if (messageEl) {
+        messageEl.textContent = '';
+    }
+    
+    // Show modal
+    modal.classList.add('open');
+    
+    // Close any other open modals
+    if (typeof CloseDialogueModal !== 'undefined' && IsDialogueModalOpen()) {
+        CloseDialogueModal();
+    }
+    if (typeof CloseRentModal !== 'undefined' && IsRentModalOpen()) {
+        CloseRentModal();
+    }
+    if (typeof ClosePenaltyModal !== 'undefined' && IsPenaltyModalOpen()) {
+        ClosePenaltyModal();
+    }
+    if (storeModalOpen) {
+        CloseStoreModal();
+    }
+    if (lawSchoolModalOpen) {
+        CloseLawSchoolModal();
+    }
+    if (inventoryOpen) {
+        inventoryOpen = false;
+    }
+    
+    console.log('[GAME OVER] Game Over modal shown');
+}
+
+// Close game over modal
+function CloseGameOverModal() {
+    if (!gameOverModalOpen) return;
+    
+    gameOverModalOpen = false;
+    gameOverFadeActive = false;
+    gameOverFadeTimer.UnSet();
+    
+    const modal = document.getElementById('gameOverModal');
+    if (modal) {
+        modal.classList.remove('open');
+    }
+    
+    console.log('[GAME OVER] Game Over modal closed');
 }
 
 // Update store balance display

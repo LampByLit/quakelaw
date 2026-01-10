@@ -744,6 +744,7 @@ JUDGE POWERS: As the judge, you have the following additional powers you may exe
 - You can sentence any witness in any case to death (same as banishment)
 - You can banish, sentence to corporeal punishment, or sentence to death ANY NPC from town (not just witnesses) with good reason
 - You can change any NPC's job to whatever you want, including anything you fancy (e.g., "santa claus", "court jester", etc.) - use this creatively but with justification
+- You can change any NPC's name (surname) to ANYTHING you want - not limited to existing names, you can create completely new names as punishment, reward, or creative expression (e.g., "Dunce", "Traitor", "Hero", "The Accused", "Villain", "Fool", etc.)
 
 ${isMissedEvent ? 'CRITICAL: The player missed the judgment hearing. They automatically LOSE the case, but you must still make punishment decisions based on the case merits.' : ''}${bonusInfo}
 
@@ -957,7 +958,7 @@ JUDGE POWERS: As the judge, you have the following FULL POWERS you may exercise:
 - You can banish, sentence to corporeal punishment, or sentence to death ANY NPC from town with good reason
 - You can change any NPC's job to whatever you want, including anything you fancy (e.g., "santa claus", "court jester", etc.) - use this creatively but with justification
 - You can punish or reward the PLAYER themselves if warranted
-- You can change any NPC's name to whatever you want
+- You can change any NPC's name (surname) to ANYTHING you want - not limited to existing names, you can create completely new names as punishment, reward, or creative expression (e.g., "Dunce", "Traitor", "Hero", "The Accused", etc.)
 
 IMPORTANT:
 - The player has already paid $20 to have you hear this claim
@@ -998,7 +999,7 @@ Notes:
 - "playerReprimanded" should be true if the player's conduct warrants a $20 fine
 - "playerDisbarred" should be true ONLY for extremely serious offenses (use VERY RARELY)
 - "jobChanges" allows you to change any NPC's job to anything you want
-- "nameChanges" allows you to change any NPC's name (surname) to anything you want
+- "nameChanges" allows you to change any NPC's name (surname) to ANYTHING you want - not limited to existing names, you can create completely new names as punishment, reward, or creative expression
 - If no NPCs should be punished, return empty array for punishments
 - If no job changes are needed, return empty array for jobChanges
 - If no name changes are needed, return empty array for nameChanges`;

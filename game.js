@@ -724,6 +724,16 @@ function Update()
     // save data
     if (!speedRunMode)
         localStorage.kbap_coins = playerData.coins;
+    
+    // Check for game over due to negative money
+    if (player && !player.IsDead() && playerData && playerData.coins < 0)
+    {
+        console.log('[GAME OVER] Player money went below $0. Triggering game over.');
+        player.Kill();
+        if (typeof ShowErrorNotification !== 'undefined') {
+            ShowErrorNotification('You ran out of money. Game Over.');
+        }
+    }
         
     // update speed run time
     if (player && !paused && !winTimer.IsSet() && !player.IsDead())

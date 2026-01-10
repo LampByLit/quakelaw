@@ -503,15 +503,13 @@ async function SendMessage() {
         }
     }
     
-    // Check if player is asking about documents and NPC can sell
-    if (hasDocumentKeyword && currentDialogueNPC && currentDialogueNPC.canSellDocuments) {
-        // Check if player is asking about price or negotiating
-        const isPriceQuery = /price|cost|how much|pay|afford/i.test(messageLower);
-        const isNegotiation = /negotiate|deal|discount|lower|cheaper|bargain/i.test(messageLower);
+    // CRITICAL: Check for purchase completion FIRST, before checking for document keywords
+    // This allows "yes", "ok", "buy" etc. to complete purchases even if message doesn't contain "purchase"
+    if (pendingDocumentPurchase && currentDialogueNPC && currentDialogueNPC.canSellDocuments) {
         const isPurchase = /buy|purchase|take|yes|ok|okay|deal|agreed/i.test(messageLower);
         
         // If there's a pending purchase with agreed price, handle purchase
-        if (pendingDocumentPurchase && isPurchase && pendingDocumentPurchase.agreedPrice != null && typeof pendingDocumentPurchase.agreedPrice === 'number') {
+        if (isPurchase && pendingDocumentPurchase.agreedPrice != null && typeof pendingDocumentPurchase.agreedPrice === 'number') {
             const playerCoins = typeof playerData !== 'undefined' && playerData ? (playerData.coins || 0) : 0;
             const agreedPrice = pendingDocumentPurchase.agreedPrice;
             
@@ -760,6 +758,13 @@ async function SendMessage() {
                 return;
             }
         }
+    }
+    
+    // Check if player is asking about documents and NPC can sell (for generating new documents)
+    if (hasDocumentKeyword && currentDialogueNPC && currentDialogueNPC.canSellDocuments) {
+        // Check if player is asking about price or negotiating
+        const isPriceQuery = /price|cost|how much|pay|afford/i.test(messageLower);
+        const isNegotiation = /negotiate|deal|discount|lower|cheaper|bargain/i.test(messageLower);
         
         // If asking about purchase, generate/fetch document
         if (messageLower.includes('purchase')) {

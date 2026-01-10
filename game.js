@@ -526,7 +526,7 @@ function GenerateWorldAsync()
     setTimeout(() => {
         requestAnimationFrame(() => {
             loadingProgress = 0.1;
-            loadingMessage = 'Creating terrain...';
+            loadingMessage = 'Preparing world...';
             
             setTimeout(() => {
                     requestAnimationFrame(() => {
@@ -534,6 +534,11 @@ function GenerateWorldAsync()
                         GenerateTown();
                         
                         // Build navigation grid for NPC pathfinding (after all buildings are placed)
+                        if (isLoadingWorld)
+                        {
+                            loadingProgress = 0.77;
+                            loadingMessage = 'Preparing navigation...';
+                        }
                         if (typeof BuildNavigationGrid === 'function')
                         {
                             BuildNavigationGrid();
@@ -5305,7 +5310,6 @@ function GenerateTown()
     {
         loadingProgress = 0.15;
         loadingMessage = 'Creating terrain...';
-        RenderLoadingScreen();
     }
     
     baseLevelColor = new Color(.1, .3, .1); // greenish town color (base for day/night cycle)
@@ -5324,7 +5328,6 @@ function GenerateTown()
     {
         loadingProgress = 0.25;
         loadingMessage = 'Building roads...';
-        RenderLoadingScreen();
     }
     
     // Create road network (4x4 grid system)
@@ -5371,7 +5374,6 @@ function GenerateTown()
     {
         loadingProgress = 0.35;
         loadingMessage = 'Placing buildings...';
-        RenderLoadingScreen();
     }
     
     // Place buildings in grid cells
@@ -5579,7 +5581,6 @@ function GenerateTown()
     {
         loadingProgress = 0.55;
         loadingMessage = 'Finalizing terrain...';
-        RenderLoadingScreen();
     }
     
     // Draw the level
@@ -5591,7 +5592,6 @@ function GenerateTown()
     {
         loadingProgress = 0.6;
         loadingMessage = 'Building interiors...';
-        RenderLoadingScreen();
     }
     
     // Pre-generate all building interiors (for NPCs)
@@ -5646,7 +5646,6 @@ function GenerateAllInteriors(buildings)
         if (isLoadingWorld)
         {
             loadingProgress = 0.6 + (processed / totalBuildings) * 0.15; // 60% to 75%
-            RenderLoadingScreen();
         }
         // Skip if interior already exists
         if (building.interior)

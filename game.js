@@ -52,6 +52,7 @@ let gameOverFadeTimer = new Timer();
 let resetButtonHover = 0;
 let resetInProgress = false; // Flag to prevent multiple simultaneous resets
 let resetCooldown = new Timer(); // Cooldown timer to prevent rapid successive resets
+let resetButtonPressed = false; // Flag to track if reset button has been pressed (to hide it)
 let lawSchoolButtonHover = false;
 let lawSchoolModalOpen = false;
 let storeButtonHover = false;
@@ -851,11 +852,11 @@ function Update()
             gameOverTimer.Set(5.0); // 5 seconds
         }
         
-        // Auto-reset after 5 seconds or when Escape/OK is pressed
+        // Auto-refresh after 5 seconds or when Escape/OK is pressed
         if (gameOverTimer.Elapsed() || KeyWasPressed(27))
         {
             gameOverTimer.UnSet();
-            FullReset();
+            location.reload();
             return; // Exit early to prevent other updates
         }
     }
@@ -875,7 +876,8 @@ function Update()
         InitTown();
     }
     
-    // Check for reset button hover and click
+    // Check for reset button hover and click (only if button hasn't been pressed yet)
+    if (!resetButtonPressed)
     {
         let buttonX = mainCanvasSize.x - 50;
         let buttonY = 25;
@@ -889,8 +891,14 @@ function Update()
         // Check for reset button click (only if not in progress and cooldown expired)
         if (MouseWasPressed() && resetButtonHover && !resetInProgress && resetCooldown.Elapsed())
         {
+            resetButtonPressed = true; // Hide button after first press
             FullReset();
         }
+    }
+    else
+    {
+        // Reset hover state when button is hidden
+        resetButtonHover = false;
     }
     
     // Check for Law School button hover and click
@@ -1334,7 +1342,8 @@ function PostRender()
         DrawText('M', mapButtonX, mapButtonY, 16, 'center', 1, '#FFF', '#000');
     }
     
-    // Reset button (top-right)
+    // Reset button (top-right) - only show if not pressed yet
+    if (!resetButtonPressed)
     {
         let buttonX = mainCanvasSize.x - 50;
         let buttonY = 25;

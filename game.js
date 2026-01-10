@@ -529,13 +529,19 @@ function GenerateWorldAsync()
             loadingMessage = 'Creating terrain...';
             
             setTimeout(() => {
-                requestAnimationFrame(() => {
-                    // Generate town (this will also call GenerateAllInteriors which updates progress)
-                    GenerateTown();
-                    
-                    setTimeout(() => {
-                        requestAnimationFrame(() => {
-                            loadingProgress = 0.8;
+                    requestAnimationFrame(() => {
+                        // Generate town (this will also call GenerateAllInteriors which updates progress)
+                        GenerateTown();
+                        
+                        // Build navigation grid for NPC pathfinding (after all buildings are placed)
+                        if (typeof BuildNavigationGrid === 'function')
+                        {
+                            BuildNavigationGrid();
+                        }
+                        
+                        setTimeout(() => {
+                            requestAnimationFrame(() => {
+                                loadingProgress = 0.8;
                             loadingMessage = 'Spawning NPCs...';
                             
                             setTimeout(() => {

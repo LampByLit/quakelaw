@@ -6,6 +6,253 @@ let tileImage3 = null;
 let tileImage4 = null;
 let npcSpritesLoaded = 0;
 
+// Navigation grid for A* pathfinding
+let navigationGrid = null; // 64x64 grid: true = walkable, false = blocked
+let navigationGridSize = 64; // Match levelSize
+
+// Build navigation grid - marks walkable/unwalkable cells
+function BuildNavigationGrid()
+{
+    if (!level || typeof levelSize === 'undefined')
+        return;
+    
+    navigationGrid = [];
+    navigationGridSize = levelSize;
+    
+    // Initialize grid - all walkable by default
+    for(let y = 0; y < navigationGridSize; y++)
+    {
+        navigationGrid[y] = [];
+        for(let x = 0; x < navigationGridSize; x++)
+        {
+            navigationGrid[y][x] = true; // Default to walkable
+        }
+    }
+    
+    // Mark solid terrain and objects as unwalkable
+    for(let y = 0; y < navigationGridSize; y++)
+    {
+        for(let x = 0; x < navigationGridSize; x++)
+        {
+            let data = level.GetData(x, y);
+            if (data.IsSolid())
+            {
+                navigationGrid[y][x] = false; // Blocked
+            }
+        }
+    }
+    
+    // Mark building areas as unwalkable
+    for(let obj of gameObjects)
+    {
+        if (obj.isBuilding)
+        {
+            // Mark building area as unwalkable (circular area)
+            let buildingRadius = obj.size.x * 0.9; // Building solid radius
+            let centerX = obj.pos.x;
+            let centerY = obj.pos.y;
+            
+            // Mark all cells within building radius
+            for(let y = 0; y < navigationGridSize; y++)
+            {
+                for(let x = 0; x < navigationGridSize; x++)
+                {
+                    let cellX = x + 0.5; // Cell center
+                    let cellY = y + 0.5;
+                    let dist = Math.hypot(cellX - centerX, cellY - centerY);
+                    
+                    if (dist < buildingRadius)
+                    {
+                        navigationGrid[y][x] = false; // Blocked by building
+                    }
+                }
+            }
+        }
+    }
+}
+
+// A* pathfinding - returns array of waypoints (Vector2 positions) or null if no path
+function FindPathAStar(startPos, endPos)
+{
+    if (!navigationGrid || !startPos || !endPos)
+        return null;
+    
+    // Convert world positions to grid coordinates
+    let startX = Math.floor(startPos.x);
+    let startY = Math.floor(startPos.y);
+    let endX = Math.floor(endPos.x);
+    let endY = Math.floor(endPos.y);
+    
+    // Clamp to grid bounds
+    startX = Math.max(0, Math.min(navigationGridSize - 1, startX));
+    startY = Math.max(0, Math.min(navigationGridSize - 1, startY));
+    endX = Math.max(0, Math.min(navigationGridSize - 1, endX));
+    endY = Math.max(0, Math.min(navigationGridSize - 1, endY));
+    
+    // Check if start or end is blocked
+    if (!navigationGrid[startY][startX] || !navigationGrid[endY][endX])
+    {
+        // Try to find nearest walkable cell
+        let startFound = false;
+        let endFound = false;
+        
+        // Find nearest walkable cell for start
+        for(let radius = 1; radius <= 3 && !startFound; radius++)
+        {
+            for(let dy = -radius; dy <= radius; dy++)
+            {
+                for(let dx = -radius; dx <= radius; dx++)
+                {
+                    let testX = startX + dx;
+                    let testY = startY + dy;
+                    if (testX >= 0 && testX < navigationGridSize && 
+                        testY >= 0 && testY < navigationGridSize &&
+                        navigationGrid[testY][testX])
+                    {
+                        startX = testX;
+                        startY = testY;
+                        startFound = true;
+                        break;
+                    }
+                }
+                if (startFound) break;
+            }
+        }
+        
+        // Find nearest walkable cell for end
+        for(let radius = 1; radius <= 3 && !endFound; radius++)
+        {
+            for(let dy = -radius; dy <= radius; dy++)
+            {
+                for(let dx = -radius; dx <= radius; dx++)
+                {
+                    let testX = endX + dx;
+                    let testY = endY + dy;
+                    if (testX >= 0 && testX < navigationGridSize && 
+                        testY >= 0 && testY < navigationGridSize &&
+                        navigationGrid[testY][testX])
+                    {
+                        endX = testX;
+                        endY = testY;
+                        endFound = true;
+                        break;
+                    }
+                }
+                if (endFound) break;
+            }
+        }
+        
+        if (!startFound || !endFound)
+            return null; // Can't find walkable cells
+    }
+    
+    // A* algorithm
+    let openSet = [{x: startX, y: startY, g: 0, h: 0, f: 0, parent: null}];
+    let closedSet = {};
+    let cameFrom = {};
+    
+    // Heuristic function (Manhattan distance)
+    let heuristic = (x1, y1, x2, y2) => Math.abs(x1 - x2) + Math.abs(y1 - y2);
+    
+    while (openSet.length > 0)
+    {
+        // Find node with lowest f score
+        let currentIndex = 0;
+        for(let i = 1; i < openSet.length; i++)
+        {
+            if (openSet[i].f < openSet[currentIndex].f)
+                currentIndex = i;
+        }
+        
+        let current = openSet[currentIndex];
+        
+        // Check if we reached the goal
+        if (current.x === endX && current.y === endY)
+        {
+            // Reconstruct path
+            let path = [];
+            let node = current;
+            while (node)
+            {
+                // Convert grid coordinates back to world positions (cell centers)
+                path.unshift(new Vector2(node.x + 0.5, node.y + 0.5));
+                node = node.parent;
+            }
+            return path;
+        }
+        
+        // Move current from open to closed
+        openSet.splice(currentIndex, 1);
+        let key = `${current.x},${current.y}`;
+        closedSet[key] = true;
+        
+        // Check neighbors (4-directional: up, down, left, right)
+        let neighbors = [
+            {x: current.x, y: current.y - 1},
+            {x: current.x, y: current.y + 1},
+            {x: current.x - 1, y: current.y},
+            {x: current.x + 1, y: current.y}
+        ];
+        
+        for(let neighbor of neighbors)
+        {
+            // Check bounds
+            if (neighbor.x < 0 || neighbor.x >= navigationGridSize ||
+                neighbor.y < 0 || neighbor.y >= navigationGridSize)
+                continue;
+            
+            // Check if walkable
+            if (!navigationGrid[neighbor.y][neighbor.x])
+                continue;
+            
+            let neighborKey = `${neighbor.x},${neighbor.y}`;
+            if (closedSet[neighborKey])
+                continue;
+            
+            // Calculate g score (movement cost)
+            let g = current.g + 1;
+            
+            // Check if this neighbor is already in open set
+            let inOpenSet = false;
+            let neighborNode = null;
+            for(let node of openSet)
+            {
+                if (node.x === neighbor.x && node.y === neighbor.y)
+                {
+                    inOpenSet = true;
+                    neighborNode = node;
+                    break;
+                }
+            }
+            
+            if (!inOpenSet)
+            {
+                // Add to open set
+                let h = heuristic(neighbor.x, neighbor.y, endX, endY);
+                neighborNode = {
+                    x: neighbor.x,
+                    y: neighbor.y,
+                    g: g,
+                    h: h,
+                    f: g + h,
+                    parent: current
+                };
+                openSet.push(neighborNode);
+            }
+            else if (g < neighborNode.g)
+            {
+                // Found better path to this neighbor
+                neighborNode.g = g;
+                neighborNode.f = g + neighborNode.h;
+                neighborNode.parent = current;
+            }
+        }
+    }
+    
+    // No path found
+    return null;
+}
+
 // NPC management
 let allNPCs = []; // All NPCs in the game
 let npcSurnames = []; // Pool of unique surnames
@@ -135,6 +382,12 @@ class NPC extends MyGameObject
         this.pathfindingTimer.Set(0.1); // Update pathfinding every 0.1 seconds
         this.targetBuilding = null; // Building we're trying to reach (house or work)
         this.failedDirections = []; // Track recently failed directions to avoid loops
+        
+        // A* pathfinding
+        this.currentPath = null; // Array of waypoints from A* pathfinding
+        this.currentPathIndex = 0; // Current waypoint index in path
+        this.pathUpdateTimer = new Timer();
+        this.pathUpdateTimer.Set(2.0); // Recalculate path every 2 seconds (or when target changes)
         
         // Stuck detection
         this.lastPosition = this.pos.Clone();
@@ -728,11 +981,15 @@ class NPC extends MyGameObject
         return maxCheck; // Path is clear for max distance
     }
     
-    // Improved pathfinding with obstacle avoidance and context awareness
+    // Improved pathfinding using A* pathfinding with global map knowledge
     UpdatePathfinding()
     {
         if (!this.targetPos)
+        {
+            this.currentPath = null;
+            this.currentPathIndex = 0;
             return;
+        }
         
         // Update targetBuilding based on current state
         if (this.currentState === 'travelingToWork')
@@ -748,122 +1005,150 @@ class NPC extends MyGameObject
             this.targetBuilding = null; // Not traveling to a building
         }
         
-        let toTarget = this.targetPos.Clone().Subtract(this.pos);
-        let distance = toTarget.Length();
-        
-        // Check if we're very close to target building (within entry range)
-        let isVeryClose = false;
-        if (this.targetBuilding)
+        // Recalculate path if needed (target changed, timer elapsed, or no path)
+        let needsNewPath = false;
+        if (!this.currentPath || this.currentPath.length === 0)
         {
-            let distToBuilding = this.pos.Distance(this.targetBuilding.pos);
-            isVeryClose = (distToBuilding < this.targetBuilding.size.y + 1.5);
+            needsNewPath = true;
+        }
+        else if (this.pathUpdateTimer.Elapsed())
+        {
+            // Periodically recalculate to handle dynamic obstacles
+            needsNewPath = true;
+            this.pathUpdateTimer.Set(2.0);
         }
         
-        // If close to target building, match arrival distance to building entry trigger
-        let arrivalDistance = 0.3;
-        if (this.targetBuilding && isVeryClose)
+        // Calculate new path if needed
+        if (needsNewPath && navigationGrid)
         {
-            // Match building entry trigger distance: building.size.y + 1.0
-            arrivalDistance = this.targetBuilding.size.y + 1.0;
-        }
-        
-        if (distance < arrivalDistance)
-        {
-            // Close enough, stop
-            this.velocity.Set(0, 0);
-            this.targetPos = null;
-            this.detourAngle = 0;
-            this.failedDirections = []; // Clear path memory
-            return;
-        }
-        
-        // Normalize direction to target
-        let targetDir = toTarget.Clone().Normalize();
-        
-        // Check if stuck (not moving much)
-        let movedDistance = this.pos.Distance(this.lastPosition);
-        if (this.stuckTimer.Get() > this.stuckTime)
-        {
-            if (movedDistance < this.stuckThreshold)
+            this.currentPath = FindPathAStar(this.pos, this.targetPos);
+            this.currentPathIndex = 0;
+            
+            if (!this.currentPath || this.currentPath.length === 0)
             {
-                // We're stuck! Try a detour
-                this.detourAngle += RandBetween(PI/4, PI/2) * (Rand() > 0.5 ? 1 : -1);
-                let detourDir = targetDir.Clone().Rotate(this.detourAngle);
+                // No path found - fall back to direct movement
+                this.currentPath = null;
+            }
+        }
+        
+        // If we have a path, follow it
+        if (this.currentPath && this.currentPath.length > 0)
+        {
+            // Get current waypoint
+            if (this.currentPathIndex >= this.currentPath.length)
+            {
+                this.currentPathIndex = this.currentPath.length - 1;
+            }
+            
+            let waypoint = this.currentPath[this.currentPathIndex];
+            let toWaypoint = waypoint.Clone().Subtract(this.pos);
+            let distanceToWaypoint = toWaypoint.Length();
+            
+            // If we reached this waypoint, move to next
+            if (distanceToWaypoint < 0.5)
+            {
+                this.currentPathIndex++;
                 
-                // Try detour direction
-                if (this.IsPathClear(detourDir, 3.0, this.targetBuilding, isVeryClose))
+                // If we reached the end of the path, check if we're close enough to target
+                if (this.currentPathIndex >= this.currentPath.length)
                 {
-                    targetDir = detourDir;
+                    let distanceToTarget = this.pos.Distance(this.targetPos);
+                    let arrivalDistance = 0.3;
+                    if (this.targetBuilding)
+                    {
+                        arrivalDistance = this.targetBuilding.size.y + 1.0;
+                    }
+                    
+                    if (distanceToTarget < arrivalDistance)
+                    {
+                        // Reached target
+                        this.velocity.Set(0, 0);
+                        this.targetPos = null;
+                        this.currentPath = null;
+                        this.currentPathIndex = 0;
+                        return;
+                    }
+                    else
+                    {
+                        // Not close enough, recalculate path
+                        this.currentPath = FindPathAStar(this.pos, this.targetPos);
+                        this.currentPathIndex = 0;
+                        if (!this.currentPath || this.currentPath.length === 0)
+                        {
+                            this.currentPath = null;
+                        }
+                    }
+                }
+                
+                // Get next waypoint
+                if (this.currentPath && this.currentPathIndex < this.currentPath.length)
+                {
+                    waypoint = this.currentPath[this.currentPathIndex];
+                    toWaypoint = waypoint.Clone().Subtract(this.pos);
+                }
+            }
+            
+            // Move towards current waypoint
+            if (toWaypoint)
+            {
+                let targetDir = toWaypoint.Normalize();
+                this.velocity.Copy(targetDir).Multiply(this.moveSpeed);
+                
+                // Update rotation based on velocity
+                if (Math.abs(this.velocity.x) > Math.abs(this.velocity.y))
+                {
+                    this.rotation = this.velocity.x > 0 ? 1 : 3; // right or left
                 }
                 else
                 {
-                    // Detour also blocked, try alternative
-                    // Record failed direction in path memory
-                    let failedAngle = Math.atan2(detourDir.y, detourDir.x) - Math.atan2(targetDir.y, targetDir.x);
-                    this.failedDirections.push(Math.round(failedAngle * 100) / 100);
-                    // Keep only recent failures (last 5)
-                    if (this.failedDirections.length > 5)
-                        this.failedDirections.shift();
-                    
-                    targetDir = this.FindAlternativeDirection(targetDir, targetDir, this.targetBuilding, isVeryClose);
+                    this.rotation = this.velocity.y > 0 ? 2 : 0; // down or up
                 }
-                
-                // Reset stuck timer
-                this.stuckTimer.Set(0);
-                this.lastPosition = this.pos.Clone();
-            }
-            else
-            {
-                // We're moving, reset stuck tracking and clear some path memory
-                this.stuckTimer.Set(0);
-                this.lastPosition = this.pos.Clone();
-                this.detourAngle = 0;
-                // Clear old failed directions (keep only last 2)
-                if (this.failedDirections.length > 2)
-                    this.failedDirections = this.failedDirections.slice(-2);
             }
         }
         else
         {
-            // Check if direct path is clear
-            if (!this.IsPathClear(targetDir, 3.0, this.targetBuilding, isVeryClose))
+            // No path available - fall back to direct movement (old behavior)
+            let toTarget = this.targetPos.Clone().Subtract(this.pos);
+            let distance = toTarget.Length();
+            
+            // Check if we're very close to target building (within entry range)
+            let isVeryClose = false;
+            if (this.targetBuilding)
             {
-                // Path blocked, find alternative
-                // Record failed direction
-                this.failedDirections.push(0); // 0 = direct path failed
-                if (this.failedDirections.length > 5)
-                    this.failedDirections.shift();
-                
-                targetDir = this.FindAlternativeDirection(targetDir, targetDir, this.targetBuilding, isVeryClose);
-                // Reset detour angle when we find a new path
-                this.detourAngle = 0;
+                let distToBuilding = this.pos.Distance(this.targetBuilding.pos);
+                isVeryClose = (distToBuilding < this.targetBuilding.size.y + 1.5);
+            }
+            
+            // If close to target building, match arrival distance to building entry trigger
+            let arrivalDistance = 0.3;
+            if (this.targetBuilding && isVeryClose)
+            {
+                arrivalDistance = this.targetBuilding.size.y + 1.0;
+            }
+            
+            if (distance < arrivalDistance)
+            {
+                // Close enough, stop
+                this.velocity.Set(0, 0);
+                this.targetPos = null;
+                this.currentPath = null;
+                this.currentPathIndex = 0;
+                return;
+            }
+            
+            // Direct movement towards target
+            let targetDir = toTarget.Normalize();
+            this.velocity.Copy(targetDir).Multiply(this.moveSpeed);
+            
+            // Update rotation based on velocity
+            if (Math.abs(this.velocity.x) > Math.abs(this.velocity.y))
+            {
+                this.rotation = this.velocity.x > 0 ? 1 : 3; // right or left
             }
             else
             {
-                // Path is clear, gradually reduce detour if we were detouring
-                if (Math.abs(this.detourAngle) > 0.01)
-                {
-                    this.detourAngle *= 0.9; // Gradually return to direct path
-                }
-                // Clear path memory when moving successfully
-                if (this.failedDirections.length > 0 && movedDistance > 0.1)
-                {
-                    this.failedDirections = []; // Clear on successful movement
-                }
+                this.rotation = this.velocity.y > 0 ? 2 : 0; // down or up
             }
-        }
-        
-        // Set velocity towards target (or detour)
-        this.velocity.Copy(targetDir).Multiply(this.moveSpeed);
-        
-        // Update rotation based on velocity
-        if (Math.abs(this.velocity.x) > Math.abs(this.velocity.y))
-        {
-            this.rotation = this.velocity.x > 0 ? 1 : 3; // right or left
-        }
-        else
-        {
-            this.rotation = this.velocity.y > 0 ? 2 : 0; // down or up
         }
     }
     

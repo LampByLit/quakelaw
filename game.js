@@ -51,6 +51,7 @@ let gameOverFadeActive = false;
 let gameOverFadeTimer = new Timer();
 let resetButtonHover = 0;
 let resetInProgress = false; // Flag to prevent multiple simultaneous resets
+let resetCooldown = new Timer(); // Cooldown timer to prevent rapid successive resets
 let lawSchoolButtonHover = false;
 let lawSchoolModalOpen = false;
 let storeButtonHover = false;
@@ -70,6 +71,7 @@ let evidenceViewModalOpen = false;
 let evidenceViewItem = null;
 let evidenceViewScrollOffset = 0;
 let townMapVisible = false; // Toggle for town grid map
+let baseCameraScale = 2; // Base camera scale (default zoom level)
 
 // Calendar system
 let calendarOpen = false;
@@ -524,6 +526,8 @@ async function FullReset()
     } finally {
         // Always clear the flag, even if an error occurred
         resetInProgress = false;
+        // Set cooldown to prevent rapid successive clicks (2 seconds)
+        resetCooldown.Set(2.0);
     }
 }
 
@@ -531,6 +535,7 @@ function InitTown()
 {
     levelFrame = 0;
     cameraScale = 2;
+    baseCameraScale = 2;
     
     // clear everything
     StartTransiton();
@@ -767,6 +772,20 @@ function Update()
         }
     }
     
+    // Handle R key zoom out (keyCode 82 for 'R')
+    // Zoom out to 250% (2.5x) when R is held, smoothly interpolate
+    if (KeyIsDown(82)) // R key
+    {
+        let targetScale = baseCameraScale * 2.5; // 250% zoom out
+        // Smoothly interpolate towards target (lerp with factor ~0.05 per frame for slow, smooth transition)
+        cameraScale = cameraScale + (targetScale - cameraScale) * 0.05;
+    }
+    else
+    {
+        // Smoothly return to base scale when R is released
+        cameraScale = cameraScale + (baseCameraScale - cameraScale) * 0.05;
+    }
+    
     // save data
     if (!speedRunMode)
         localStorage.kbap_coins = playerData.coins;
@@ -812,7 +831,7 @@ function Update()
                     let timeLeft = Math.max(0, Math.ceil(-gameOverTimer.Get())); // Get() returns negative, so negate it
                     if (timeLeft > 0)
                     {
-                        countdownEl.textContent = `Resetting in ${timeLeft}...`;
+                        countdownEl.textContent = `Restarting in ${timeLeft}...`;
                     }
                     else
                     {
@@ -821,7 +840,7 @@ function Update()
                 }
                 else
                 {
-                    countdownEl.textContent = 'Resetting...';
+                    countdownEl.textContent = 'Press ESC to reset';
                 }
             }
         }
@@ -863,12 +882,12 @@ function Update()
         let buttonWidth = 80;
         let buttonHeight = 24;
         
-        // Check if mouse is hovering over button (only if not in progress)
-        resetButtonHover = !resetInProgress && (mousePos.x >= buttonX - buttonWidth/2 && mousePos.x <= buttonX + buttonWidth/2 &&
+        // Check if mouse is hovering over button (only if not in progress and cooldown expired)
+        resetButtonHover = !resetInProgress && resetCooldown.Elapsed() && (mousePos.x >= buttonX - buttonWidth/2 && mousePos.x <= buttonX + buttonWidth/2 &&
                            mousePos.y >= buttonY - buttonHeight/2 && mousePos.y <= buttonY + buttonHeight/2);
         
-        // Check for reset button click (only if not in progress)
-        if (MouseWasPressed() && resetButtonHover && !resetInProgress)
+        // Check for reset button click (only if not in progress and cooldown expired)
+        if (MouseWasPressed() && resetButtonHover && !resetInProgress && resetCooldown.Elapsed())
         {
             FullReset();
         }
@@ -1322,9 +1341,9 @@ function PostRender()
         let buttonWidth = 80;
         let buttonHeight = 24;
         
-        // Draw button background (disabled state if reset in progress)
+        // Draw button background (disabled state if reset in progress or on cooldown)
         let bgColor;
-        if (resetInProgress) {
+        if (resetInProgress || !resetCooldown.Elapsed()) {
             bgColor = '#666'; // Gray when disabled
         } else {
             bgColor = resetButtonHover ? '#F44' : '#844';
@@ -1333,13 +1352,13 @@ function PostRender()
         mainCanvasContext.fillRect(buttonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
         
         // Draw button border
-        mainCanvasContext.strokeStyle = resetInProgress ? '#999' : '#FFF';
+        mainCanvasContext.strokeStyle = (resetInProgress || !resetCooldown.Elapsed()) ? '#999' : '#FFF';
         mainCanvasContext.lineWidth = 2;
         mainCanvasContext.strokeRect(buttonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
         
         // Draw button text
-        let buttonText = resetInProgress ? 'RESETTING...' : 'RESET';
-        let textColor = resetInProgress ? '#AAA' : '#FFF';
+        let buttonText = 'RESET';
+        let textColor = (resetInProgress || !resetCooldown.Elapsed()) ? '#AAA' : '#FFF';
         DrawText(buttonText, buttonX, buttonY, 12, 'center', 1, textColor, '#000');
     }
     
@@ -1401,7 +1420,7 @@ function PostRender()
             let timeLeft = Math.max(0, Math.ceil(-gameOverTimer.Get())); // Get() returns negative, so negate it
             if (timeLeft > 0)
             {
-                DrawText(`Resetting in ${timeLeft}...`, mainCanvasSize.x/2, mainCanvasSize.y/2+80, 42);
+                DrawText(`Restarting in ${timeLeft}...`, mainCanvasSize.x/2, mainCanvasSize.y/2+80, 42);
             }
             else
             {

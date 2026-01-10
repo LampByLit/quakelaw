@@ -775,7 +775,21 @@ function Update()
     
     // Handle R key zoom out (keyCode 82 for 'R')
     // Zoom out to 300% (3x wider view) when R is held, smoothly interpolate
-    if (KeyIsDown(82)) // R key
+    // Only works outdoors when no modals are open
+    let canZoom = !currentInterior && // Must be outdoors
+                 !inventoryOpen &&
+                 !storeModalOpen &&
+                 !lawSchoolModalOpen &&
+                 !gameOverModalOpen &&
+                 !calendarOpen &&
+                 !evidenceNamingModalOpen &&
+                 !evidenceViewModalOpen &&
+                 !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()) &&
+                 !(typeof IsJudgmentModalOpen !== 'undefined' && IsJudgmentModalOpen()) &&
+                 !(typeof IsRentModalOpen !== 'undefined' && IsRentModalOpen()) &&
+                 !(typeof IsPenaltyModalOpen !== 'undefined' && IsPenaltyModalOpen());
+    
+    if (KeyIsDown(82) && canZoom) // R key
     {
         let targetScale = baseCameraScale / 3; // 300% zoom out (divide by 3 to make view 3x wider)
         // Smoothly interpolate towards target (lerp with factor ~0.05 per frame for slow, smooth transition)
@@ -783,7 +797,7 @@ function Update()
     }
     else
     {
-        // Smoothly return to base scale when R is released
+        // Smoothly return to base scale when R is released or conditions not met
         cameraScale = cameraScale + (baseCameraScale - cameraScale) * 0.05;
     }
     

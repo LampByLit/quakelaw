@@ -2750,6 +2750,22 @@ class Judge extends MyGameObject
         }
         
         mainCanvasContext.restore();
+        
+        // Display judge name when player is within 1 tile
+        if (player && player.pos)
+        {
+            let distance = this.pos.Distance(player.pos);
+            if (distance <= 1.0) // Within 1 tile
+            {
+                let namePos = this.pos.Clone();
+                namePos.y -= this.height + 0.6; // Above judge sprite
+                namePos.Subtract(cameraPos).Multiply(tileSize*cameraScale);
+                namePos.Add(mainCanvasSize.Clone(.5));
+                
+                // Draw judge name above sprite
+                DrawText(this.surname, namePos.x|0, namePos.y|0, 8 * cameraScale, 'center', 1, '#FFF', '#000');
+            }
+        }
     }
 }
 

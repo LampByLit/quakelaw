@@ -1887,139 +1887,238 @@ let currentClaimResult = null;
 function ShowClaimRulingModal(result) {
     console.log('[CLAIM] ShowClaimRulingModal called');
     
-    // Store result for OK button handler
-    currentClaimResult = result;
-    
-    const modal = document.getElementById('claimRulingModal');
-    const rulingTextEl = document.getElementById('claimRulingText');
-    const verdictEl = document.getElementById('claimVerdict');
-    const punishmentsEl = document.getElementById('claimPunishments');
-    const okButton = document.getElementById('okClaimRuling');
-    
-    // Set ruling text
-    rulingTextEl.textContent = result.ruling || 'The judge has made a decision.';
-    
-    // Set verdict with reprimand/disbarment info
-    let verdictText = result.claimGranted ? 'VERDICT: Claim GRANTED' : 'VERDICT: Claim DENIED';
-    if (result.coinsAwarded > 0) {
-        verdictText += `\n\n💰 COIN AWARD: +$${result.coinsAwarded}`;
-    }
-    if (result.playerReprimanded) {
-        verdictText += '\n\n⚠️ OFFICIAL REPRIMAND: -$20 coins';
-    }
-    if (result.playerDisbarred) {
-        verdictText += '\n\n🚫 DISBARRED: Game Over';
-        verdictEl.className = 'verdict-section disbarred';
-    } else {
-        verdictEl.className = 'verdict-section ' + (result.claimGranted ? 'win' : 'lose');
-    }
-    verdictEl.textContent = verdictText;
-    
-    // Set punishments and job changes
-    let punishmentsText = '';
-    if (result.punishments && result.punishments.length > 0) {
-        punishmentsText += 'PUNISHMENTS:\n';
-        for (const p of result.punishments) {
-            const npcSurname = p.npcSurname || p.witnessSurname || 'Unknown';
-            const reason = p.reason ? ` (${p.reason})` : '';
-            if (p.punishmentType === 'corporeal') {
-                punishmentsText += `- ${npcSurname}: Corporeal punishment${reason}\n`;
-            } else if (p.punishmentType === 'banishment') {
-                punishmentsText += `- ${npcSurname}: Permanently banished${reason}\n`;
-            } else if (p.punishmentType === 'death') {
-                punishmentsText += `- ${npcSurname}: Sentenced to death${reason}\n`;
+    try {
+        // Validate result
+        if (!result) {
+            console.error('[CLAIM] ShowClaimRulingModal: No result provided');
+            alert('Error: No claim result to display. Please try again.');
+            return;
+        }
+        
+        // Store result for OK button handler
+        currentClaimResult = result;
+        
+        // Get DOM elements with null checks
+        const modal = document.getElementById('claimRulingModal');
+        const rulingTextEl = document.getElementById('claimRulingText');
+        const verdictEl = document.getElementById('claimVerdict');
+        const punishmentsEl = document.getElementById('claimPunishments');
+        const okButton = document.getElementById('okClaimRuling');
+        
+        // Validate all required DOM elements exist
+        if (!modal) {
+            console.error('[CLAIM] ShowClaimRulingModal: claimRulingModal element not found');
+            alert('Error: Claim ruling modal not found. Please refresh the page.');
+            return;
+        }
+        if (!rulingTextEl) {
+            console.error('[CLAIM] ShowClaimRulingModal: claimRulingText element not found');
+            alert('Error: Claim ruling text element not found. Please refresh the page.');
+            return;
+        }
+        if (!verdictEl) {
+            console.error('[CLAIM] ShowClaimRulingModal: claimVerdict element not found');
+            alert('Error: Claim verdict element not found. Please refresh the page.');
+            return;
+        }
+        if (!punishmentsEl) {
+            console.error('[CLAIM] ShowClaimRulingModal: claimPunishments element not found');
+            alert('Error: Claim punishments element not found. Please refresh the page.');
+            return;
+        }
+        if (!okButton) {
+            console.error('[CLAIM] ShowClaimRulingModal: okClaimRuling button not found');
+            alert('Error: Claim ruling OK button not found. Please refresh the page.');
+            return;
+        }
+        
+        // Set ruling text
+        rulingTextEl.textContent = result.ruling || 'The judge has made a decision.';
+        
+        // Set verdict with reprimand/disbarment info
+        let verdictText = result.claimGranted ? 'VERDICT: Claim GRANTED' : 'VERDICT: Claim DENIED';
+        if (result.coinsAwarded > 0) {
+            verdictText += `\n\n💰 COIN AWARD: +$${result.coinsAwarded}`;
+        }
+        if (result.playerReprimanded) {
+            verdictText += '\n\n⚠️ OFFICIAL REPRIMAND: -$20 coins';
+        }
+        if (result.playerDisbarred) {
+            verdictText += '\n\n🚫 DISBARRED: Game Over';
+            verdictEl.className = 'verdict-section disbarred';
+        } else {
+            verdictEl.className = 'verdict-section ' + (result.claimGranted ? 'win' : 'lose');
+        }
+        verdictEl.textContent = verdictText;
+        
+        // Set punishments and job changes
+        let punishmentsText = '';
+        if (result.punishments && result.punishments.length > 0) {
+            punishmentsText += 'PUNISHMENTS:\n';
+            for (const p of result.punishments) {
+                const npcSurname = p.npcSurname || p.witnessSurname || 'Unknown';
+                const reason = p.reason ? ` (${p.reason})` : '';
+                if (p.punishmentType === 'corporeal') {
+                    punishmentsText += `- ${npcSurname}: Corporeal punishment${reason}\n`;
+                } else if (p.punishmentType === 'banishment') {
+                    punishmentsText += `- ${npcSurname}: Permanently banished${reason}\n`;
+                } else if (p.punishmentType === 'death') {
+                    punishmentsText += `- ${npcSurname}: Sentenced to death${reason}\n`;
+                }
             }
         }
-    }
-    
-    if (result.jobChanges && result.jobChanges.length > 0) {
-        if (punishmentsText) punishmentsText += '\n';
-        punishmentsText += 'JOB CHANGES:\n';
-        for (const change of result.jobChanges) {
-            const reason = change.reason ? ` (${change.reason})` : '';
-            punishmentsText += `- ${change.npcSurname}: Changed to "${change.newJob}"${reason}\n`;
+        
+        if (result.jobChanges && result.jobChanges.length > 0) {
+            if (punishmentsText) punishmentsText += '\n';
+            punishmentsText += 'JOB CHANGES:\n';
+            for (const change of result.jobChanges) {
+                const reason = change.reason ? ` (${change.reason})` : '';
+                punishmentsText += `- ${change.npcSurname}: Changed to "${change.newJob}"${reason}\n`;
+            }
+        }
+        
+        punishmentsEl.textContent = punishmentsText;
+        
+        // Show modal
+        modal.classList.add('open');
+        
+        // Wire up OK button (only once, on first call)
+        if (!okButton.hasAttribute('data-wired')) {
+            okButton.setAttribute('data-wired', 'true');
+            okButton.addEventListener('click', () => {
+                if (currentClaimResult) {
+                    CloseClaimRulingModal(currentClaimResult);
+                }
+            });
+        }
+        
+        console.log('[CLAIM] Claim ruling modal displayed successfully');
+    } catch (error) {
+        console.error('[CLAIM] Error in ShowClaimRulingModal:', error);
+        alert('Error displaying claim ruling. Please check the console for details.');
+        // Reset claim processing flag so user can try again
+        if (typeof claimProcessing !== 'undefined') {
+            claimProcessing = false;
         }
     }
-    
-    punishmentsEl.textContent = punishmentsText;
-    
-    // Show modal
-    modal.classList.add('open');
-    
-    // Wire up OK button (only once, on first call)
-    if (!okButton.hasAttribute('data-wired')) {
-        okButton.setAttribute('data-wired', 'true');
-        okButton.addEventListener('click', () => {
-            if (currentClaimResult) {
-                CloseClaimRulingModal(currentClaimResult);
-            }
-        });
-    }
-    
-    console.log('[CLAIM] Claim ruling modal displayed');
 }
 
 // Close claim ruling modal and create evidence item
 function CloseClaimRulingModal(result) {
     console.log('[CLAIM] Closing claim ruling modal');
     
-    const modal = document.getElementById('claimRulingModal');
-    modal.classList.remove('open');
-    
-    // Create evidence item
-    const evidenceItem = CreateClaimEvidenceItem(result);
-    
-    // Add to inventory
-    if (typeof playerData !== 'undefined' && playerData.inventory) {
-        if (playerData.inventory.length < 16) {
-            playerData.inventory.push(evidenceItem);
-            console.log('[CLAIM] Evidence item created and added to inventory:', evidenceItem.name);
-            
-            // Save game state
-            if (typeof SaveGameState === 'function') {
-                SaveGameState();
+    try {
+        // Get modal element with null check
+        const modal = document.getElementById('claimRulingModal');
+        if (!modal) {
+            console.error('[CLAIM] CloseClaimRulingModal: claimRulingModal element not found');
+            // Continue anyway - clear flags and handle result
+        } else {
+            modal.classList.remove('open');
+        }
+        
+        // Validate result before processing
+        if (!result) {
+            console.warn('[CLAIM] CloseClaimRulingModal: No result provided, skipping evidence creation');
+            claimProcessing = false;
+            currentClaimResult = null;
+            return;
+        }
+        
+        // Create evidence item
+        let evidenceItem = null;
+        if (typeof CreateClaimEvidenceItem === 'function') {
+            try {
+                evidenceItem = CreateClaimEvidenceItem(result);
+            } catch (error) {
+                console.error('[CLAIM] Error creating claim evidence item:', error);
             }
         } else {
-            console.warn('[CLAIM] Inventory is full! Cannot add claim evidence.');
-            alert('Inventory is full! Claim evidence could not be added.');
+            console.warn('[CLAIM] CreateClaimEvidenceItem function not available');
         }
-    } else {
-        console.error('[CLAIM] Cannot access playerData or inventory');
-    }
-    
-    // Handle disbarment (game over)
-    if (result.playerDisbarred) {
-        console.log('[CLAIM] Player disbarred - triggering game over');
-        setTimeout(() => {
-            if (typeof player !== 'undefined' && player) {
-                player.Kill();
+        
+        // Add to inventory
+        if (evidenceItem && typeof playerData !== 'undefined' && playerData.inventory) {
+            if (playerData.inventory.length < 16) {
+                playerData.inventory.push(evidenceItem);
+                console.log('[CLAIM] Evidence item created and added to inventory:', evidenceItem.name);
+                
+                // Save game state
+                if (typeof SaveGameState === 'function') {
+                    SaveGameState();
+                }
+            } else {
+                console.warn('[CLAIM] Inventory is full! Cannot add claim evidence.');
+                alert('Inventory is full! Claim evidence could not be added.');
             }
-            if (typeof ShowErrorNotification !== 'undefined') {
-                ShowErrorNotification('You have been DISBARRED. Game Over.');
-            }
-        }, 1000);
+        } else if (!evidenceItem) {
+            console.warn('[CLAIM] No evidence item to add to inventory');
+        } else {
+            console.error('[CLAIM] Cannot access playerData or inventory');
+        }
+        
+        // Handle disbarment (game over)
+        if (result.playerDisbarred) {
+            console.log('[CLAIM] Player disbarred - triggering game over');
+            setTimeout(() => {
+                if (typeof player !== 'undefined' && player) {
+                    player.Kill();
+                }
+                if (typeof ShowErrorNotification !== 'undefined') {
+                    ShowErrorNotification('You have been DISBARRED. Game Over.');
+                }
+            }, 1000);
+        }
+        
+        // Clear claim processing flag
+        claimProcessing = false;
+        
+        // Clear stored result
+        currentClaimResult = null;
+        
+        console.log('[CLAIM] Claim ruling modal closed successfully');
+    } catch (error) {
+        console.error('[CLAIM] Error in CloseClaimRulingModal:', error);
+        // Always clear flags even on error
+        claimProcessing = false;
+        currentClaimResult = null;
     }
-    
-    // Clear claim processing flag
-    claimProcessing = false;
-    
-    // Clear stored result
-    currentClaimResult = null;
 }
 
 // Show claim results (redirects to ruling modal)
 async function ShowClaimResults(result) {
     console.log('[CLAIM] ShowClaimResults called');
     
-    // Show ruling in dedicated modal
-    ShowClaimRulingModal(result);
-    
-    console.log('[CLAIM] Claim results displayed.');
+    try {
+        // Validate result
+        if (!result) {
+            console.error('[CLAIM] ShowClaimResults: No result provided');
+            alert('Error: No claim result to display. Please try again.');
+            return;
+        }
+        
+        // Show ruling in dedicated modal
+        ShowClaimRulingModal(result);
+        
+        console.log('[CLAIM] Claim results displayed.');
+    } catch (error) {
+        console.error('[CLAIM] Error in ShowClaimResults:', error);
+        alert('Error displaying claim results. Please check the console for details.');
+        // Reset claim processing flag so user can try again
+        if (typeof claimProcessing !== 'undefined') {
+            claimProcessing = false;
+        }
+    }
 }
 
 // Initialize claim ruling modal
 function InitClaimRulingModal() {
     const modal = document.getElementById('claimRulingModal');
+    
+    if (!modal) {
+        console.error('[CLAIM] InitClaimRulingModal: claimRulingModal element not found');
+        return;
+    }
     
     // Prevent closing by clicking outside modal
     modal.addEventListener('click', (e) => {
@@ -2028,6 +2127,8 @@ function InitClaimRulingModal() {
             e.stopPropagation();
         }
     });
+    
+    console.log('[CLAIM] Claim ruling modal initialized');
 }
 
 // Initialize on page load

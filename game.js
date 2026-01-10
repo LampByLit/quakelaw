@@ -1115,7 +1115,7 @@ function PostRender()
         mainCanvasContext.strokeRect(buttonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
         
         // Draw button text
-        DrawText('Law School', buttonX, buttonY, 10, 'center', 1, '#FFF', '#000');
+        DrawText('Law School', buttonX, buttonY, 8, 'center', 1, '#FFF', '#000');
     }
     
     // "Press F to Speak" text below Law School button

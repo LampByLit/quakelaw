@@ -271,8 +271,8 @@ class NPC extends MyGameObject
                     let workBuilding = this.FindBuildingByAddress(this.workAddress);
                     if (workBuilding)
                     {
-                        this.targetPos = workBuilding.pos.Clone();
-                        this.targetPos.y += workBuilding.size.y + 0.3;
+                        let preferredOffset = new Vector2(0, workBuilding.size.y + 0.3);
+                        this.targetPos = FindValidPositionNearBuilding(workBuilding, preferredOffset, this.collisionSize);
                     }
                 }
             }
@@ -285,8 +285,8 @@ class NPC extends MyGameObject
                 let workBuilding = this.FindBuildingByAddress(this.workAddress);
                 if (workBuilding)
                 {
-                    this.targetPos = workBuilding.pos.Clone();
-                    this.targetPos.y += workBuilding.size.y + 0.3;
+                    let preferredOffset = new Vector2(0, workBuilding.size.y + 0.3);
+                    this.targetPos = FindValidPositionNearBuilding(workBuilding, preferredOffset, this.collisionSize);
                 }
             }
         }
@@ -332,8 +332,8 @@ class NPC extends MyGameObject
                     let houseBuilding = this.FindBuildingByAddress(this.houseAddress);
                     if (houseBuilding)
                     {
-                        this.targetPos = houseBuilding.pos.Clone();
-                        this.targetPos.y += houseBuilding.size.y + 0.3;
+                        let preferredOffset = new Vector2(0, houseBuilding.size.y + 0.3);
+                        this.targetPos = FindValidPositionNearBuilding(houseBuilding, preferredOffset, this.collisionSize);
                     }
                 }
             }
@@ -346,8 +346,8 @@ class NPC extends MyGameObject
                 let houseBuilding = this.FindBuildingByAddress(this.houseAddress);
                 if (houseBuilding)
                 {
-                    this.targetPos = houseBuilding.pos.Clone();
-                    this.targetPos.y += houseBuilding.size.y + 0.3;
+                    let preferredOffset = new Vector2(0, houseBuilding.size.y + 0.3);
+                    this.targetPos = FindValidPositionNearBuilding(houseBuilding, preferredOffset, this.collisionSize);
                 }
             }
         }
@@ -541,31 +541,82 @@ class NPC extends MyGameObject
         return true;
     }
     
-    // Check if path ahead is clear
+    // Check if path ahead is clear (multi-step checking)
     IsPathClear(direction, lookAheadDistance = 0.8)
     {
-        let checkPos = this.pos.Clone();
         let normalizedDir = direction.Clone().Normalize();
-        checkPos.Add(normalizedDir.Clone().Multiply(lookAheadDistance));
-        return this.IsPositionClear(checkPos);
+        
+        // Check multiple points along the path for better obstacle detection
+        // Check at 0.5, 1.0, and 1.5 units ahead (or up to lookAheadDistance)
+        let checkDistances = [0.5, 1.0, Math.min(1.5, lookAheadDistance)];
+        
+        for(let dist of checkDistances)
+        {
+            let checkPos = this.pos.Clone();
+            checkPos.Add(normalizedDir.Clone().Multiply(dist));
+            if (!this.IsPositionClear(checkPos))
+            {
+                return false; // Path blocked at this distance
+            }
+        }
+        
+        return true; // All check points are clear
     }
     
-    // Find alternative direction when blocked
+    // Find alternative direction when blocked (wider obstacle detection)
     FindAlternativeDirection(targetDir, blockedDir)
     {
-        // Try perpendicular directions first (left and right relative to target)
+        // Wider arc search: check ±45 degrees around target direction
+        // This helps find paths around rocks and other obstacles
+        const searchArc = PI / 4; // 45 degrees
+        const angleStep = PI / 12; // 15 degree increments
+        
+        // Score each direction by how clear the path is and how close to target
+        let bestDir = null;
+        let bestScore = -1;
+        
+        // Check a wide arc around the target direction
+        for(let angle = -searchArc; angle <= searchArc; angle += angleStep)
+        {
+            let testDir = targetDir.Clone().Rotate(angle);
+            
+            // Check if this direction has a clear path
+            if (this.IsPathClear(testDir))
+            {
+                // Score: prefer directions closer to target (smaller angle)
+                // Also prefer directions that have longer clear paths
+                let angleScore = 1.0 - (Math.abs(angle) / searchArc); // 1.0 at center, 0.0 at edges
+                let clearDistance = this.GetClearPathDistance(testDir);
+                let pathScore = Math.min(clearDistance / 2.0, 1.0); // Normalize to 0-1
+                
+                // Combined score: 60% angle preference, 40% path length
+                let totalScore = angleScore * 0.6 + pathScore * 0.4;
+                
+                if (totalScore > bestScore)
+                {
+                    bestScore = totalScore;
+                    bestDir = testDir;
+                }
+            }
+        }
+        
+        if (bestDir)
+        {
+            // Blend with target direction for smoother movement
+            let blended = targetDir.Clone().Multiply(0.3).Add(bestDir.Clone().Multiply(0.7));
+            return blended.Normalize();
+        }
+        
+        // Fallback: Try perpendicular directions (left and right)
         let perp1 = new Vector2(-blockedDir.y, blockedDir.x); // 90 degrees left
         let perp2 = new Vector2(blockedDir.y, -blockedDir.x); // 90 degrees right
         
-        // Try left perpendicular
         if (this.IsPathClear(perp1))
         {
-            // Blend with target direction for smoother movement
             let blended = targetDir.Clone().Multiply(0.3).Add(perp1.Clone().Multiply(0.7));
             return blended.Normalize();
         }
         
-        // Try right perpendicular
         if (this.IsPathClear(perp2))
         {
             let blended = targetDir.Clone().Multiply(0.3).Add(perp2.Clone().Multiply(0.7));
@@ -579,19 +630,28 @@ class NPC extends MyGameObject
             return opposite.Normalize();
         }
         
-        // Try small angle variations
-        for(let angle = -PI/3; angle <= PI/3; angle += PI/12)
+        // Last resort: try random direction
+        return RandVector(1).Normalize();
+    }
+    
+    // Get the distance we can travel in a direction before hitting an obstacle
+    GetClearPathDistance(direction)
+    {
+        let normalizedDir = direction.Clone().Normalize();
+        let maxCheck = 2.5; // Maximum distance to check
+        let step = 0.3; // Check every 0.3 units
+        
+        for(let dist = step; dist <= maxCheck; dist += step)
         {
-            let rotated = blockedDir.Clone().Rotate(angle);
-            if (this.IsPathClear(rotated))
+            let checkPos = this.pos.Clone();
+            checkPos.Add(normalizedDir.Clone().Multiply(dist));
+            if (!this.IsPositionClear(checkPos))
             {
-                let blended = targetDir.Clone().Multiply(0.5).Add(rotated.Clone().Multiply(0.5));
-                return blended.Normalize();
+                return dist - step; // Return last clear distance
             }
         }
         
-        // Last resort: try random direction
-        return RandVector(1).Normalize();
+        return maxCheck; // Path is clear for max distance
     }
     
     // Improved pathfinding with obstacle avoidance
@@ -784,9 +844,9 @@ class NPC extends MyGameObject
                     let workBuilding = this.FindBuildingByAddress(this.workAddress);
                     if (workBuilding)
                     {
-                        // Target is south of building (entrance)
-                        this.targetPos = workBuilding.pos.Clone();
-                        this.targetPos.y += workBuilding.size.y + 0.3;
+                        // Target is south of building (entrance) - use FindValidPositionNearBuilding to avoid impassible terrain
+                        let preferredOffset = new Vector2(0, workBuilding.size.y + 0.3);
+                        this.targetPos = FindValidPositionNearBuilding(workBuilding, preferredOffset, this.collisionSize);
                     }
                 }
                 else if (this.currentState === 'travelingToHouse')
@@ -794,9 +854,9 @@ class NPC extends MyGameObject
                     let houseBuilding = this.FindBuildingByAddress(this.houseAddress);
                     if (houseBuilding)
                     {
-                        // Target is south of building (entrance)
-                        this.targetPos = houseBuilding.pos.Clone();
-                        this.targetPos.y += houseBuilding.size.y + 0.3;
+                        // Target is south of building (entrance) - use FindValidPositionNearBuilding to avoid impassible terrain
+                        let preferredOffset = new Vector2(0, houseBuilding.size.y + 0.3);
+                        this.targetPos = FindValidPositionNearBuilding(houseBuilding, preferredOffset, this.collisionSize);
                     }
                 }
                 

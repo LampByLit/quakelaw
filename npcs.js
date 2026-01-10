@@ -117,6 +117,7 @@ class NPC extends MyGameObject
         this.workAddress = workAddress;
         this.job = job; // NPC's profession (e.g., 'lawyer', 'judge', 'clerk', 'shopkeeper')
         this.isNPC = 1;
+        this.canSellDocuments = false; // Set during generation - ~50% of NPCs can sell documents
         
         // Movement properties
         this.moveSpeed = RandBetween(0.02, 0.05); // Very slow, graceful movement
@@ -1081,6 +1082,9 @@ function GenerateNPCs()
         
         // Create NPC (will spawn in house interior)
         let npc = new NPC(new Vector2(0, 0), surname, characteristic, emoji, spriteIndex, houseAddress, workAddress, job);
+        
+        // ~50% of NPCs can sell documents
+        npc.canSellDocuments = (RandInt(2) === 0);
         
         // Randomize schedule
         npc.RandomizeSchedule();

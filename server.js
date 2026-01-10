@@ -1623,6 +1623,221 @@ ${isJudge ? `REMEMBER: You are Judge ${surname}, a judge presiding over legal ca
     }
 });
 
+// Generate document for NPC (on demand, stored permanently)
+app.post('/api/npc/generate-document/:surname', async (req, res) => {
+    const apiKey = process.env.DEEPSEEK_API_KEY;
+    
+    if (!apiKey) {
+        return res.status(500).json({ 
+            error: 'DEEPSEEK_API_KEY environment variable is not set' 
+        });
+    }
+
+    try {
+        const sessionId = req.query.sessionId;
+        if (!sessionId) {
+            return res.status(400).json({ error: 'Session ID is required' });
+        }
+        
+        const surname = req.params.surname;
+        const { npcData } = req.body;
+        
+        if (!npcData || !npcData.job) {
+            return res.status(400).json({ error: 'NPC data with job is required' });
+        }
+        
+        // Load conversation to check if document already exists
+        let conversation = await loadConversation(sessionId, surname);
+        
+        // Initialize documents array in metadata if it doesn't exist
+        if (!conversation) {
+            conversation = {
+                npcSurname: surname,
+                characteristic: npcData.characteristic || '',
+                emoji: npcData.emoji || '',
+                job: npcData.job,
+                conversation: [],
+                metadata: {
+                    firstInteraction: Date.now(),
+                    lastInteraction: Date.now(),
+                    messageCount: 0,
+                    documents: []
+                }
+            };
+        } else if (!conversation.metadata) {
+            conversation.metadata = {
+                documents: []
+            };
+        } else if (!conversation.metadata.documents) {
+            conversation.metadata.documents = [];
+        }
+        
+        // Check if document already exists (documents never change)
+        if (conversation.metadata.documents.length > 0) {
+            // Return existing document
+            const existingDoc = conversation.metadata.documents[0];
+            return res.json({
+                document: {
+                    title: existingDoc.title,
+                    text: existingDoc.text,
+                    price: existingDoc.price
+                }
+            });
+        }
+        
+        // Generate new document based on NPC's job and characteristic
+        const job = npcData.job || '';
+        const characteristic = npcData.characteristic || '';
+        
+        // Determine document type based on job
+        let documentType = 'document';
+        let documentContext = '';
+        
+        if (job.includes('artist') || job.includes('painter') || job.includes('sculptor')) {
+            documentType = 'artwork';
+            documentContext = 'a piece of art, artwork description, or art critique';
+        } else if (job.includes('designer') || job.includes('architect')) {
+            documentType = 'design';
+            documentContext = 'a design document, specification, or design proposal';
+        } else if (job.includes('consultant') || job.includes('advisor')) {
+            documentType = 'consulting';
+            documentContext = 'a consulting report or professional advice document';
+        } else if (job.includes('writer') || job.includes('author') || job.includes('journalist')) {
+            documentType = 'writing';
+            documentContext = 'a written piece, article, or literary work';
+        } else if (job.includes('doctor') || job.includes('physician') || job.includes('medical')) {
+            documentType = 'prescription';
+            documentContext = 'a medical prescription, medical advice, or health consultation document';
+        } else if (job.includes('lawyer') || job.includes('attorney') || job.includes('legal')) {
+            documentType = 'legal';
+            documentContext = 'legal advice, legal opinion, or legal document';
+        } else {
+            documentType = 'professional';
+            documentContext = `a professional document related to their work as a ${job}`;
+        }
+        
+        // Generate base price (10-50 coins, influenced by characteristic)
+        let basePrice = 10 + Math.floor(Math.random() * 41); // 10-50
+        if (characteristic.includes('generous') || characteristic.includes('friendly')) {
+            basePrice = Math.max(10, Math.floor(basePrice * 0.8)); // 20% discount
+        } else if (characteristic.includes('greedy') || characteristic.includes('hostile')) {
+            basePrice = Math.min(50, Math.floor(basePrice * 1.2)); // 20% markup
+        }
+        
+        // Create prompt for document generation
+        const systemPrompt = `You are ${surname}, a ${characteristic} ${job}. Generate a unique, original ${documentContext} that reflects your profession and personality. The document should be professional, detailed, and appropriate for your job. Make it interesting and specific - not generic.`;
+        
+        const userPrompt = `Create a unique ${documentType} document. It should be substantial (at least 200-400 words), professional, and reflect your work as a ${job}. Be creative and specific - this is an original document you've created.`;
+        
+        const requestBody = {
+            model: process.env.DEEPSEEK_MODEL || 'deepseek-chat',
+            messages: [
+                {
+                    role: 'system',
+                    content: systemPrompt
+                },
+                {
+                    role: 'user',
+                    content: userPrompt
+                }
+            ],
+            temperature: 0.8,
+            max_tokens: 800
+        };
+        
+        const apiResponse = await fetch('https://api.deepseek.com/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${apiKey}`
+            },
+            body: JSON.stringify(requestBody)
+        });
+        
+        if (!apiResponse.ok) {
+            const errorData = await apiResponse.json().catch(() => ({}));
+            console.error('DeepSeek API Error:', errorData);
+            return res.status(apiResponse.status).json({ 
+                error: `AI API Error: ${apiResponse.status} ${apiResponse.statusText}`,
+                details: errorData
+            });
+        }
+        
+        const apiData = await apiResponse.json();
+        const documentText = apiData.choices && apiData.choices[0] 
+            ? apiData.choices[0].message.content.trim()
+            : `[Document content unavailable]`;
+        
+        // Generate a title for the document
+        const titlePrompt = `Generate a short, professional title (3-8 words) for this ${documentType} document created by a ${job}. Just return the title, nothing else.`;
+        
+        const titleResponse = await fetch('https://api.deepseek.com/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${apiKey}`
+            },
+            body: JSON.stringify({
+                model: process.env.DEEPSEEK_MODEL || 'deepseek-chat',
+                messages: [
+                    {
+                        role: 'system',
+                        content: `You are ${surname}, a ${characteristic} ${job}.`
+                    },
+                    {
+                        role: 'user',
+                        content: titlePrompt
+                    }
+                ],
+                temperature: 0.7,
+                max_tokens: 30
+            })
+        });
+        
+        let documentTitle = `${surname}'s ${documentType.charAt(0).toUpperCase() + documentType.slice(1)} Document`;
+        if (titleResponse.ok) {
+            const titleData = await titleResponse.json();
+            if (titleData.choices && titleData.choices[0]) {
+                const generatedTitle = titleData.choices[0].message.content.trim();
+                // Clean up title (remove quotes, extra text)
+                documentTitle = generatedTitle.replace(/^["']|["']$/g, '').split('\n')[0].trim();
+                if (documentTitle.length > 60) {
+                    documentTitle = documentTitle.substring(0, 57) + '...';
+                }
+            }
+        }
+        
+        // Store document in conversation metadata (documents never change)
+        const document = {
+            title: documentTitle,
+            text: documentText,
+            price: basePrice,
+            generatedAt: Date.now()
+        };
+        
+        conversation.metadata.documents.push(document);
+        await saveConversation(sessionId, conversation);
+        
+        // Return document
+        res.json({
+            document: {
+                title: documentTitle,
+                text: documentText,
+                price: basePrice
+            }
+        });
+        
+    } catch (error) {
+        console.error('Error generating document:', error);
+        console.error('Error stack:', error.stack);
+        res.status(500).json({ 
+            error: 'Failed to generate document',
+            message: error.message,
+            details: process.env.NODE_ENV === 'development' ? error.stack : undefined
+        });
+    }
+});
+
 // Generate greeting for first-time interaction
 app.post('/api/npc/greeting/:surname', async (req, res) => {
     const apiKey = process.env.DEEPSEEK_API_KEY;

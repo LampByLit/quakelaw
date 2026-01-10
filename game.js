@@ -45,6 +45,8 @@ let sleepFadeTimer = new Timer();
 let sleepFadeActive = 0;
 let gameOverTimer = new Timer();
 let resetButtonHover = 0;
+let lawSchoolButtonHover = false;
+let lawSchoolModalOpen = false;
 let isLoadingWorld = false;
 let loadingProgress = 0;
 let loadingMessage = '';
@@ -717,6 +719,24 @@ function Update()
         }
     }
     
+    // Check for Law School button hover and click
+    {
+        let buttonX = mainCanvasSize.x - 100;
+        let buttonY = 20 + 32; // Position below reset button, above "Press F"
+        let buttonWidth = 80;
+        let buttonHeight = 24;
+        
+        // Check if mouse is hovering over button
+        lawSchoolButtonHover = (mousePos.x >= buttonX - buttonWidth/2 && mousePos.x <= buttonX + buttonWidth/2 &&
+                               mousePos.y >= buttonY - buttonHeight/2 && mousePos.y <= buttonY + buttonHeight/2);
+        
+        // Check for Law School button click
+        if (MouseWasPressed() && lawSchoolButtonHover)
+        {
+            OpenLawSchoolModal();
+        }
+    }
+    
     // Check for inventory button hover and click
     // Don't allow inventory to open if dialogue modal is open
     if (!inventoryOpen && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()))
@@ -1077,10 +1097,31 @@ function PostRender()
         DrawText('RESET', buttonX, buttonY, 12, 'center', 1, '#FFF', '#000');
     }
     
-    // "Press F to Speak" text below reset button
+    // Law School button (below reset button, above "Press F")
+    {
+        let buttonX = mainCanvasSize.x - 100;
+        let buttonY = 20 + 32; // Position below reset button
+        let buttonWidth = 80;
+        let buttonHeight = 24;
+        
+        // Draw button background (hover state is set in Update())
+        let bgColor = lawSchoolButtonHover ? '#4A4' : '#484';
+        mainCanvasContext.fillStyle = bgColor;
+        mainCanvasContext.fillRect(buttonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
+        
+        // Draw button border
+        mainCanvasContext.strokeStyle = '#FFF';
+        mainCanvasContext.lineWidth = 2;
+        mainCanvasContext.strokeRect(buttonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
+        
+        // Draw button text
+        DrawText('Law School', buttonX, buttonY, 10, 'center', 1, '#FFF', '#000');
+    }
+    
+    // "Press F to Speak" text below Law School button
     {
         let textX = mainCanvasSize.x - 100;
-        let textY = 20 + 24; // Position below the reset button
+        let textY = 20 + 32 + 24; // Position below the Law School button
         DrawText('Press F to Speak', textX, textY, 10, 'center', 1, '#FFF', '#000');
     }
     
@@ -3925,7 +3966,7 @@ function RenderInventoryModal()
                 if (slotIndex < playerData.inventory.length && playerData.inventory[slotIndex])
                 {
                     let item = playerData.inventory[slotIndex];
-                    let isEvidence = item.type && (item.type.startsWith('evidence_') || item.type.startsWith('casefile_') || item.type.startsWith('judgment_'));
+                    let isEvidence = item.type && (item.type.startsWith('evidence_') || item.type.startsWith('casefile_') || item.type.startsWith('judgment_') || item.type.startsWith('document_'));
                     
                     // Draw item sprite
                     let spriteSize = slotSize - 8;
@@ -4319,7 +4360,7 @@ function RenderEvidenceViewModal() {
     mainCanvasContext.lineWidth = 2;
     mainCanvasContext.strokeRect(textAreaX - textAreaWidth/2, textAreaY - textAreaHeight/2 + 20, textAreaWidth, textAreaHeight);
     
-                    // Draw conversation text, case file text, or judgment text with proper word wrapping
+                    // Draw conversation text, case file text, judgment text, or document text with proper word wrapping
     let text = null;
     if (item.metadata) {
         // Check if it's a case file
@@ -4329,6 +4370,19 @@ function RenderEvidenceViewModal() {
             text = item.metadata.conversationText;
         } else if (item.metadata.judgmentText) {
             text = item.metadata.judgmentText;
+        } else if (item.metadata.documentText) {
+            // Format document text with header info
+            let docText = `${item.name}\n`;
+            docText += `By: ${item.metadata.npcName || 'Unknown'}\n`;
+            if (item.metadata.job) {
+                docText += `Profession: ${item.metadata.job}\n`;
+            }
+            if (item.metadata.purchasePrice) {
+                docText += `Purchased for: $${item.metadata.purchasePrice}\n`;
+            }
+            docText += '\n---\n\n';
+            docText += item.metadata.documentText;
+            text = docText;
         }
     }
     
@@ -5763,6 +5817,57 @@ function PlaySound(sound, p=0)
     }
 }
 
+///////////////////////////////////////////////////////////////////////////////
+// Law School Modal
+
+// Initialize Law School modal
+function InitLawSchoolModal() {
+    const modal = document.getElementById('lawSchoolModal');
+    const closeBtn = document.getElementById('closeLawSchoolModal');
+    
+    if (!modal || !closeBtn) {
+        console.warn('Law School modal elements not found');
+        return;
+    }
+    
+    // Close modal handlers
+    closeBtn.addEventListener('click', CloseLawSchoolModal);
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            CloseLawSchoolModal();
+        }
+    });
+    
+    // ESC key to close
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && lawSchoolModalOpen) {
+            CloseLawSchoolModal();
+        }
+    });
+}
+
+// Open Law School modal
+function OpenLawSchoolModal() {
+    if (lawSchoolModalOpen) return;
+    
+    lawSchoolModalOpen = true;
+    const modal = document.getElementById('lawSchoolModal');
+    if (modal) {
+        modal.classList.add('open');
+    }
+}
+
+// Close Law School modal
+function CloseLawSchoolModal() {
+    if (!lawSchoolModalOpen) return;
+    
+    lawSchoolModalOpen = false;
+    const modal = document.getElementById('lawSchoolModal');
+    if (modal) {
+        modal.classList.remove('open');
+    }
+}
+
 // load texture and building sprites, then kick off init!
 let tileImage = new Image();
 let tilesLoaded = 0;
@@ -5788,6 +5893,15 @@ tileImage2.onload = () => {
     }
 };
 tileImage2.src = 'tiles2.png';
+
+// Initialize Law School modal on page load
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+        InitLawSchoolModal();
+    });
+} else {
+    InitLawSchoolModal();
+}
 
 // Set up callback after both tiles load
 tilesLoadedCallback = () => {

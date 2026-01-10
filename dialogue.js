@@ -11,6 +11,9 @@ let recordingStartIndex = -1;
 // Store completed case context for judge discussion after ruling
 let completedCaseContext = null;
 
+// Document purchase state
+let pendingDocumentPurchase = null; // { document: {...}, npc: {...}, agreedPrice: number }
+
 // Initialize dialogue modal
 function InitDialogueModal() {
     const modal = document.getElementById('dialogueModal');
@@ -334,6 +337,7 @@ function CloseDialogueModal() {
     conversationHistory = [];
     isRecording = false;
     recordingStartIndex = -1;
+    pendingDocumentPurchase = null; // Clear pending purchase when closing dialogue
     
     const modal = document.getElementById('dialogueModal');
     modal.classList.remove('open');
@@ -466,6 +470,217 @@ async function SendMessage() {
     const message = input.value.trim();
     
     if (!message) return;
+    
+    // Check for document-related requests
+    const messageLower = message.toLowerCase();
+    const documentKeywords = ['document', 'documents', 'writing', 'report', 'paper', 'work', 'create', 'sell', 'buy', 'purchase', 'price', 'cost'];
+    const hasDocumentKeyword = documentKeywords.some(keyword => messageLower.includes(keyword));
+    
+    // Check if player is asking about documents and NPC can sell
+    if (hasDocumentKeyword && currentDialogueNPC.canSellDocuments) {
+        // Check if player is asking about price or negotiating
+        const isPriceQuery = /price|cost|how much|pay|afford/i.test(messageLower);
+        const isNegotiation = /negotiate|deal|discount|lower|cheaper|bargain/i.test(messageLower);
+        const isPurchase = /buy|purchase|take|yes|ok|okay|deal|agreed/i.test(messageLower);
+        
+        // If there's a pending purchase with agreed price, handle purchase
+        if (pendingDocumentPurchase && isPurchase && pendingDocumentPurchase.agreedPrice != null && typeof pendingDocumentPurchase.agreedPrice === 'number') {
+            const playerCoins = typeof playerData !== 'undefined' && playerData ? (playerData.coins || 0) : 0;
+            const agreedPrice = pendingDocumentPurchase.agreedPrice;
+            
+            if (playerCoins >= agreedPrice) {
+                // Purchase successful
+                playerData.coins = playerCoins - agreedPrice;
+                if (typeof SaveGameState === 'function') {
+                    SaveGameState();
+                }
+                
+                // Create document item
+                const doc = pendingDocumentPurchase.document;
+                const documentItem = {
+                    type: `document_${Date.now()}`, // Unique type to prevent stacking
+                    name: doc.title,
+                    tileX: 5, // Sprite index 21: tileX = 21 % 8 = 5
+                    tileY: 2, // tileY = Math.floor(21 / 8) = 2
+                    quantity: 1,
+                    metadata: {
+                        documentText: doc.text,
+                        npcName: currentDialogueNPC.surname,
+                        job: currentDialogueNPC.job || '',
+                        purchasePrice: agreedPrice,
+                        purchasedAt: Date.now()
+                    }
+                };
+                
+                // Add to inventory
+                if (typeof playerData !== 'undefined' && playerData.inventory) {
+                    if (playerData.inventory.length < 16) {
+                        playerData.inventory.push(documentItem);
+                        if (typeof SaveGameState === 'function') {
+                            SaveGameState();
+                        }
+                        
+                        // Add player message
+                        conversationHistory.push({
+                            role: 'player',
+                            message: message,
+                            timestamp: Date.now()
+                        });
+                        
+                        // Add NPC confirmation
+                        conversationHistory.push({
+                            role: 'npc',
+                            message: `Thank you! Here's your document. I've deducted $${agreedPrice} from your account.`,
+                            timestamp: Date.now()
+                        });
+                        
+                        UpdateConversationDisplay();
+                        input.value = '';
+                        
+                        // Clear pending purchase
+                        pendingDocumentPurchase = null;
+                        
+                        // Open inventory after a short delay
+                        setTimeout(() => {
+                            if (typeof inventoryOpen !== 'undefined') {
+                                inventoryOpen = true;
+                            }
+                        }, 500);
+                        
+                        return;
+                    } else {
+                        // Inventory full
+                        conversationHistory.push({
+                            role: 'player',
+                            message: message,
+                            timestamp: Date.now()
+                        });
+                        conversationHistory.push({
+                            role: 'npc',
+                            message: "I'd love to sell you the document, but your inventory is full! Make some space first.",
+                            timestamp: Date.now()
+                        });
+                        UpdateConversationDisplay();
+                        input.value = '';
+                        return;
+                    }
+                }
+            } else {
+                // Cannot afford
+                conversationHistory.push({
+                    role: 'player',
+                    message: message,
+                    timestamp: Date.now()
+                });
+                conversationHistory.push({
+                    role: 'npc',
+                    message: `I'm sorry, but you don't have enough coins. You need $${agreedPrice}, but you only have $${playerCoins}.`,
+                    timestamp: Date.now()
+                });
+                UpdateConversationDisplay();
+                input.value = '';
+                return;
+            }
+        }
+        
+        // If asking about documents or price, generate/fetch document
+        if (isPriceQuery || isNegotiation || /document|writing|report|paper|work|create|sell/i.test(messageLower)) {
+            try {
+                const sessionId = getSessionId();
+                
+                // Add player message
+                conversationHistory.push({
+                    role: 'player',
+                    message: message,
+                    timestamp: Date.now()
+                });
+                UpdateConversationDisplay();
+                
+                // Show loading
+                const loadingDiv = document.createElement('div');
+                loadingDiv.className = 'loading-indicator';
+                loadingDiv.textContent = `${currentDialogueNPC.surname} is preparing a document...`;
+                document.getElementById('conversationHistory').appendChild(loadingDiv);
+                ScrollToBottom();
+                
+                // Generate or fetch document
+                const response = await fetch(`/api/npc/generate-document/${encodeURIComponent(currentDialogueNPC.surname)}?sessionId=${encodeURIComponent(sessionId)}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        npcData: {
+                            surname: currentDialogueNPC.surname,
+                            characteristic: currentDialogueNPC.characteristic,
+                            emoji: currentDialogueNPC.emoji,
+                            job: currentDialogueNPC.job || ''
+                        }
+                    })
+                });
+                
+                if (!response.ok) {
+                    throw new Error('Failed to generate document');
+                }
+                
+                const data = await response.json();
+                const document = data.document;
+                
+                // Remove loading
+                const loading = document.querySelector('.loading-indicator');
+                if (loading) loading.remove();
+                
+                // Store pending purchase
+                pendingDocumentPurchase = {
+                    document: document,
+                    npc: currentDialogueNPC,
+                    agreedPrice: document.price // Start with base price
+                };
+                
+                // Add NPC response with document info and price
+                let npcResponse = `I have a document available: "${document.title}". `;
+                if (isNegotiation) {
+                    // Allow negotiation - NPC might lower price slightly
+                    const negotiationChance = Math.random();
+                    if (negotiationChance > 0.5) {
+                        // NPC agrees to lower price (10-20% discount)
+                        const discount = 0.1 + Math.random() * 0.1;
+                        const newPrice = Math.max(10, Math.floor(document.price * (1 - discount)));
+                        pendingDocumentPurchase.agreedPrice = newPrice;
+                        npcResponse += `I can offer it to you for $${newPrice} (down from $${document.price}). Would you like to buy it?`;
+                    } else {
+                        npcResponse += `I'm firm on the price: $${document.price}. Would you like to buy it?`;
+                    }
+                } else {
+                    npcResponse += `The price is $${document.price}. Would you like to buy it?`;
+                }
+                
+                conversationHistory.push({
+                    role: 'npc',
+                    message: npcResponse,
+                    timestamp: Date.now()
+                });
+                
+                UpdateConversationDisplay();
+                input.value = '';
+                return;
+                
+            } catch (error) {
+                console.error('Error generating document:', error);
+                const loading = document.querySelector('.loading-indicator');
+                if (loading) loading.remove();
+                
+                conversationHistory.push({
+                    role: 'npc',
+                    message: "I'm having trouble preparing a document right now. Please try again later.",
+                    timestamp: Date.now()
+                });
+                UpdateConversationDisplay();
+                input.value = '';
+                return;
+            }
+        }
+    }
     
     // Check for dev command: npc.knownfacts
     if (message.toLowerCase() === 'npc.knownfacts') {
@@ -638,6 +853,25 @@ async function SendMessage() {
         if (loading) loading.remove();
         
         UpdateConversationDisplay();
+        
+        // Check for document price mentions in NPC response (for negotiation)
+        if (currentDialogueNPC && currentDialogueNPC.canSellDocuments && pendingDocumentPurchase) {
+            const lastMessage = conversationHistory[conversationHistory.length - 1];
+            if (lastMessage && lastMessage.role === 'npc') {
+                const responseText = lastMessage.message;
+                // Look for price mentions in response (e.g., "$30", "30 coins", "30 dollars")
+                const priceMatch = responseText.match(/\$(\d+)|(\d+)\s*(coins?|dollars?|bucks?)/i);
+                if (priceMatch) {
+                    const mentionedPrice = parseInt(priceMatch[1] || priceMatch[2]);
+                    // Check if NPC agreed to a price (look for agreement keywords)
+                    const agreementKeywords = /agree|deal|ok|okay|yes|accept|fine|done/i;
+                    if (agreementKeywords.test(responseText)) {
+                        pendingDocumentPurchase.agreedPrice = mentionedPrice;
+                        console.log(`[DOCUMENT] Price negotiated to $${mentionedPrice}`);
+                    }
+                }
+            }
+        }
         
         // Check if judge agreed to hear a claim (look for claim agreement indicators in response)
         // Only allow claims after a trial has been completed (when completedCaseContext exists)

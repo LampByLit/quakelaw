@@ -122,8 +122,6 @@ class NPC extends MyGameObject
         // Movement properties
         this.moveSpeed = RandBetween(0.02, 0.05); // Very slow, graceful movement
         this.targetPos = null;
-        this.targetValid = false; // Whether current target is still valid
-        this.targetSetTime = 0; // When target was set
         this.currentState = 'atHouse'; // 'atHouse', 'exitingHouse', 'travelingToWork', 'enteringWork', 'atWork', 'exitingWork', 'travelingToHouse', 'enteringHouse'
         this.isIndoors = true; // Start indoors
         this.exitTargetPos = null; // Target position when exiting interior
@@ -132,19 +130,16 @@ class NPC extends MyGameObject
         this.departureTime = 0; // When to leave house for work
         this.returnTime = 0; // When to leave work for house
         
-        // Pathfinding - now uses steering system
+        // Pathfinding
         this.pathfindingTimer = new Timer();
-        this.pathfindingTimer.Set(0.2); // Check target validity every 0.2 seconds (steering updates every frame)
-        this.maxSteeringForce = 0.03; // Max acceleration per frame (smooth movement)
+        this.pathfindingTimer.Set(0.1); // Update pathfinding every 0.1 seconds
         
-        // Stuck detection - much faster now
+        // Stuck detection
         this.lastPosition = this.pos.Clone();
         this.stuckTimer = new Timer();
         this.stuckTimer.Set(0); // Start checking immediately
-        this.stuckThreshold = 0.08; // Consider stuck if moved less than this in 0.5 seconds
-        this.stuckTime = 0.5; // Time before considering stuck (much faster!)
-        this.stuckRecoveryAttempts = 0; // How many times we've tried to recover
-        this.maxStuckRecoveryAttempts = 5; // Max recovery attempts before recalculating target
+        this.stuckThreshold = 0.15; // Consider stuck if moved less than this in 2 seconds
+        this.stuckTime = 2.0; // Time before considering stuck
         this.detourAngle = 0; // Current detour angle when stuck
         
         // Interior tracking
@@ -546,34 +541,22 @@ class NPC extends MyGameObject
         return true;
     }
     
-    // Check if path ahead is clear (multi-step checking with wider cone)
-    IsPathClear(direction, lookAheadDistance = 2.5)
+    // Check if path ahead is clear (multi-step checking)
+    IsPathClear(direction, lookAheadDistance = 0.8)
     {
         let normalizedDir = direction.Clone().Normalize();
         
         // Check multiple points along the path for better obstacle detection
-        // Check further ahead with more samples for earlier detection
-        let checkDistances = [0.3, 0.6, 1.0, 1.5, 2.0, Math.min(2.5, lookAheadDistance)];
+        // Check at 0.5, 1.0, and 1.5 units ahead (or up to lookAheadDistance)
+        let checkDistances = [0.5, 1.0, Math.min(1.5, lookAheadDistance)];
         
-        // Also check slight angles (cone check) to catch obstacles we might graze
-        let checkAngles = [-0.15, 0, 0.15]; // Small angle variations
-        
-        for(let angle of checkAngles)
+        for(let dist of checkDistances)
         {
-            let testDir = normalizedDir.Clone();
-            if (angle !== 0)
+            let checkPos = this.pos.Clone();
+            checkPos.Add(normalizedDir.Clone().Multiply(dist));
+            if (!this.IsPositionClear(checkPos))
             {
-                testDir.Rotate(angle);
-            }
-            
-            for(let dist of checkDistances)
-            {
-                let checkPos = this.pos.Clone();
-                checkPos.Add(testDir.Clone().Multiply(dist));
-                if (!this.IsPositionClear(checkPos))
-                {
-                    return false; // Path blocked at this distance/angle
-                }
+                return false; // Path blocked at this distance
             }
         }
         
@@ -581,11 +564,11 @@ class NPC extends MyGameObject
     }
     
     // Find alternative direction when blocked (wider obstacle detection)
-    FindAlternativeDirection(targetDir, blockedDir, wideSearch = false)
+    FindAlternativeDirection(targetDir, blockedDir)
     {
-        // Wider arc search: check ±45 degrees normally, ±90 degrees when stuck
+        // Wider arc search: check ±45 degrees around target direction
         // This helps find paths around rocks and other obstacles
-        const searchArc = wideSearch ? PI / 2 : PI / 4; // 90 degrees when stuck, 45 normally
+        const searchArc = PI / 4; // 45 degrees
         const angleStep = PI / 12; // 15 degree increments
         
         // Score each direction by how clear the path is and how close to target
@@ -671,38 +654,11 @@ class NPC extends MyGameObject
         return maxCheck; // Path is clear for max distance
     }
     
-    // Check if NPC is stuck (not moving much)
-    IsStuck()
+    // Improved pathfinding with obstacle avoidance
+    UpdatePathfinding()
     {
-        let movedDistance = this.pos.Distance(this.lastPosition);
-        return this.stuckTimer.Get() > this.stuckTime && movedDistance < this.stuckThreshold;
-    }
-    
-    // Set target position (with validation)
-    SetTarget(pos)
-    {
-        if (!pos)
-        {
-            this.targetPos = null;
-            this.targetValid = false;
+        if (!this.targetPos)
             return;
-        }
-        
-        // Only update if target changed significantly (prevents jitter)
-        if (!this.targetPos || this.targetPos.Distance(pos) > 0.5)
-        {
-            this.targetPos = pos.Clone();
-            this.targetValid = true;
-            this.targetSetTime = time;
-            this.stuckRecoveryAttempts = 0; // Reset recovery attempts when target changes
-        }
-    }
-    
-    // Calculate seek force toward target
-    CalculateSeekForce()
-    {
-        if (!this.targetPos || !this.targetValid)
-            return new Vector2(0, 0);
         
         let toTarget = this.targetPos.Clone().Subtract(this.pos);
         let distance = toTarget.Length();
@@ -710,213 +666,34 @@ class NPC extends MyGameObject
         if (distance < 0.3)
         {
             // Close enough, stop
-            this.targetValid = false;
+            this.velocity.Set(0, 0);
             this.targetPos = null;
-            return new Vector2(0, 0);
+            this.detourAngle = 0;
+            return;
         }
         
-        // Calculate desired velocity
-        let desiredDir = toTarget.Clone().Normalize();
-        let desiredVel = desiredDir.Clone().Multiply(this.moveSpeed);
+        // Normalize direction to target
+        let targetDir = toTarget.Clone().Normalize();
         
-        // Seek force = desired velocity - current velocity
-        let seekForce = desiredVel.Clone().Subtract(this.velocity);
-        return seekForce;
-    }
-    
-    // Calculate obstacle avoidance force
-    CalculateObstacleAvoidance()
-    {
-        let avoidForce = new Vector2(0, 0);
-        let lookAhead = this.velocity.Clone().Normalize(1.5); // Look 1.5 units ahead
-        
-        // Check multiple directions around current velocity
-        let checkAngles = [-0.3, -0.15, 0, 0.15, 0.3]; // Wider cone check
-        let bestDir = null;
-        let bestScore = -1;
-        
-        for(let angle of checkAngles)
-        {
-            let testDir = this.velocity.Clone();
-            if (testDir.Length() < 0.01)
-            {
-                // If not moving, check direction to target
-                if (this.targetPos && this.targetValid)
-                {
-                    testDir = this.targetPos.Clone().Subtract(this.pos).Normalize();
-                }
-                else
-                {
-                    continue;
-                }
-            }
-            else
-            {
-                testDir.Normalize();
-            }
-            
-            if (angle !== 0)
-            {
-                testDir.Rotate(angle);
-            }
-            
-            // Check if this direction is clear
-            if (this.IsPathClear(testDir, 2.0))
-            {
-                // Score: prefer forward direction, but accept any clear path
-                let score = 1.0 - Math.abs(angle) / 0.5; // Prefer forward
-                if (score > bestScore)
-                {
-                    bestScore = score;
-                    bestDir = testDir;
-                }
-            }
-            else
-            {
-                // Path blocked, calculate avoidance force
-                let checkPos = this.pos.Clone().Add(testDir.Clone().Multiply(1.0));
-                if (!this.IsPositionClear(checkPos))
-                {
-                    // Steer away from obstacle
-                    let away = this.pos.Clone().Subtract(checkPos);
-                    away.Normalize();
-                    away.Multiply(0.05); // Avoidance strength
-                    avoidForce.Add(away);
-                }
-            }
-        }
-        
-        // If we found a clear direction, add slight steering toward it
-        if (bestDir && bestScore > 0.5)
-        {
-            let steerToClear = bestDir.Clone().Multiply(this.moveSpeed).Subtract(this.velocity);
-            steerToClear.Multiply(0.3); // Blend factor
-            avoidForce.Add(steerToClear);
-        }
-        
-        return avoidForce;
-    }
-    
-    // Calculate NPC avoidance force (improved)
-    CalculateNPCAvoidance()
-    {
-        let avoidForce = new Vector2(0, 0);
-        let avoidanceRadius = 1.0; // Slightly larger
-        let avoidanceStrength = 0.08; // Tuned for smoother avoidance
-        
-        // Only avoid when actually moving
-        if (this.velocity.Length() < 0.01)
-            return avoidForce;
-        
-        for(let obj of gameObjects)
-        {
-            if (obj.isNPC && obj !== this && !obj.isIndoors && !this.isIndoors)
-            {
-                let dist = this.pos.Distance(obj.pos);
-                if (dist < avoidanceRadius && dist > 0.01)
-                {
-                    // Calculate avoidance direction
-                    let away = this.pos.Clone().Subtract(obj.pos);
-                    away.Normalize();
-                    
-                    // Stronger when closer, but also consider relative velocity
-                    let force = avoidanceStrength / dist;
-                    
-                    // If NPCs are moving toward each other, increase avoidance
-                    let relativeVel = this.velocity.Clone().Subtract(obj.velocity);
-                    if (relativeVel.DotProduct(away) < 0)
-                    {
-                        force *= 1.5; // Stronger avoidance when heading toward each other
-                    }
-                    
-                    away.Multiply(force);
-                    avoidForce.Add(away);
-                }
-            }
-        }
-        
-        // Also avoid player if close
-        if (player && !this.isIndoors && !currentInterior)
-        {
-            let dist = this.pos.Distance(player.pos);
-            if (dist < avoidanceRadius && dist > 0.01)
-            {
-                let away = this.pos.Clone().Subtract(player.pos);
-                away.Normalize();
-                away.Multiply(avoidanceStrength / dist);
-                avoidForce.Add(away);
-            }
-        }
-        
-        return avoidForce;
-    }
-    
-    // Unified steering system - combines all forces
-    CalculateSteering()
-    {
-        let steering = new Vector2(0, 0);
-        
-        // 1. Seek target (primary force)
-        let seekForce = this.CalculateSeekForce();
-        steering.Add(seekForce);
-        
-        // 2. Avoid obstacles (secondary, but stronger when close)
-        let avoidForce = this.CalculateObstacleAvoidance();
-        steering.Add(avoidForce);
-        
-        // 3. Avoid other NPCs (tertiary)
-        let npcAvoidForce = this.CalculateNPCAvoidance();
-        steering.Add(npcAvoidForce);
-        
-        return steering;
-    }
-    
-    // Apply steering force as acceleration (smooth movement)
-    ApplySteering(steering)
-    {
-        // Clamp steering force to max acceleration
-        steering.ClampLength(this.maxSteeringForce);
-        
-        // Apply as acceleration
-        this.velocity.Add(steering);
-        
-        // Clamp to max speed
-        this.velocity.ClampLength(this.moveSpeed);
-    }
-    
-    // Improved pathfinding with unified steering system
-    UpdatePathfinding()
-    {
-        // Check if stuck and handle recovery
+        // Check if stuck (not moving much)
         let movedDistance = this.pos.Distance(this.lastPosition);
         if (this.stuckTimer.Get() > this.stuckTime)
         {
             if (movedDistance < this.stuckThreshold)
             {
-                // We're stuck!
-                this.stuckRecoveryAttempts++;
+                // We're stuck! Try a detour
+                this.detourAngle += RandBetween(PI/4, PI/2) * (Rand() > 0.5 ? 1 : -1);
+                let detourDir = targetDir.Clone().Rotate(this.detourAngle);
                 
-                if (this.stuckRecoveryAttempts >= this.maxStuckRecoveryAttempts)
+                // Try detour direction
+                if (this.IsPathClear(detourDir))
                 {
-                    // Too many attempts, invalidate target to force recalculation
-                    this.targetValid = false;
-                    this.targetPos = null;
-                    this.stuckRecoveryAttempts = 0;
-                    return;
+                    targetDir = detourDir;
                 }
-                
-                // Try wider search for alternative direction
-                if (this.targetPos && this.targetValid)
+                else
                 {
-                    let toTarget = this.targetPos.Clone().Subtract(this.pos);
-                    let targetDir = toTarget.Clone().Normalize();
-                    let altDir = this.FindAlternativeDirection(targetDir, targetDir, true); // Wide search
-                    
-                    // Apply strong steering toward alternative direction
-                    let recoveryForce = altDir.Clone().Multiply(this.moveSpeed).Subtract(this.velocity);
-                    recoveryForce.Multiply(0.5); // Strong recovery force
-                    this.velocity.Add(recoveryForce);
-                    this.velocity.ClampLength(this.moveSpeed);
+                    // Detour also blocked, try alternative
+                    targetDir = this.FindAlternativeDirection(targetDir, targetDir);
                 }
                 
                 // Reset stuck timer
@@ -928,23 +705,31 @@ class NPC extends MyGameObject
                 // We're moving, reset stuck tracking
                 this.stuckTimer.Set(0);
                 this.lastPosition = this.pos.Clone();
-                this.stuckRecoveryAttempts = 0;
                 this.detourAngle = 0;
             }
         }
         else
         {
-            // Update last position for stuck detection
-            if (this.stuckTimer.Get() > 0.1) // Update every 0.1s
+            // Check if direct path is clear
+            if (!this.IsPathClear(targetDir))
             {
-                this.lastPosition = this.pos.Clone();
-                this.stuckTimer.Set(0);
+                // Path blocked, find alternative
+                targetDir = this.FindAlternativeDirection(targetDir, targetDir);
+                // Reset detour angle when we find a new path
+                this.detourAngle = 0;
+            }
+            else
+            {
+                // Path is clear, gradually reduce detour if we were detouring
+                if (Math.abs(this.detourAngle) > 0.01)
+                {
+                    this.detourAngle *= 0.9; // Gradually return to direct path
+                }
             }
         }
         
-        // Calculate and apply steering
-        let steering = this.CalculateSteering();
-        this.ApplySteering(steering);
+        // Set velocity towards target (or detour)
+        this.velocity.Copy(targetDir).Multiply(this.moveSpeed);
         
         // Update rotation based on velocity
         if (Math.abs(this.velocity.x) > Math.abs(this.velocity.y))
@@ -1048,48 +833,48 @@ class NPC extends MyGameObject
         }
         else
         {
-            // Outdoors - update pathfinding with target persistence
-            // Check if we need to recalculate target (less frequently)
+            // Outdoors - update pathfinding
             if (this.pathfindingTimer.Elapsed())
             {
-                this.pathfindingTimer.Set(0.2); // Check target validity every 0.2 seconds
+                this.pathfindingTimer.Set(0.1);
                 
-                // Only recalculate target if:
-                // 1. No target set
-                // 2. Target is invalid
-                // 3. NPC is stuck (handled in UpdatePathfinding)
-                let needsNewTarget = !this.targetPos || !this.targetValid || this.IsStuck();
-                
-                if (needsNewTarget)
+                // Set target based on state
+                if (this.currentState === 'travelingToWork')
                 {
-                    // Set target based on state
-                    if (this.currentState === 'travelingToWork')
+                    let workBuilding = this.FindBuildingByAddress(this.workAddress);
+                    if (workBuilding)
                     {
-                        let workBuilding = this.FindBuildingByAddress(this.workAddress);
-                        if (workBuilding)
-                        {
-                            // Target is south of building (entrance) - use FindValidPositionNearBuilding to avoid impassible terrain
-                            let preferredOffset = new Vector2(0, workBuilding.size.y + 0.3);
-                            let newTarget = FindValidPositionNearBuilding(workBuilding, preferredOffset, this.collisionSize);
-                            this.SetTarget(newTarget);
-                        }
-                    }
-                    else if (this.currentState === 'travelingToHouse')
-                    {
-                        let houseBuilding = this.FindBuildingByAddress(this.houseAddress);
-                        if (houseBuilding)
-                        {
-                            // Target is south of building (entrance) - use FindValidPositionNearBuilding to avoid impassible terrain
-                            let preferredOffset = new Vector2(0, houseBuilding.size.y + 0.3);
-                            let newTarget = FindValidPositionNearBuilding(houseBuilding, preferredOffset, this.collisionSize);
-                            this.SetTarget(newTarget);
-                        }
+                        // Target is south of building (entrance) - use FindValidPositionNearBuilding to avoid impassible terrain
+                        let preferredOffset = new Vector2(0, workBuilding.size.y + 0.3);
+                        this.targetPos = FindValidPositionNearBuilding(workBuilding, preferredOffset, this.collisionSize);
                     }
                 }
+                else if (this.currentState === 'travelingToHouse')
+                {
+                    let houseBuilding = this.FindBuildingByAddress(this.houseAddress);
+                    if (houseBuilding)
+                    {
+                        // Target is south of building (entrance) - use FindValidPositionNearBuilding to avoid impassible terrain
+                        let preferredOffset = new Vector2(0, houseBuilding.size.y + 0.3);
+                        this.targetPos = FindValidPositionNearBuilding(houseBuilding, preferredOffset, this.collisionSize);
+                    }
+                }
+                
+                this.UpdatePathfinding();
             }
             
-            // Update pathfinding every frame for smooth steering (includes NPC avoidance)
-            this.UpdatePathfinding();
+            // Collision avoidance (only when outdoors)
+            if (!this.isIndoors)
+            {
+                this.AvoidOtherNPCs();
+            }
+            
+            // Limit velocity magnitude
+            let speed = this.velocity.Length();
+            if (speed > this.moveSpeed)
+            {
+                this.velocity.Normalize().Multiply(this.moveSpeed);
+            }
         }
         
         // Update walk animation and idle timer

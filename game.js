@@ -4797,13 +4797,26 @@ function LoadPurchasedItemSprites(callback)
                 callback();
         };
         img.onerror = () => {
-            // If sprite fails to load, still count it and proceed
-            console.warn(`Failed to load purchased item sprite: ${file}`);
-            loaded++;
-            if (loaded === total && callback)
-                callback();
+            // Retry without cache-busting in case of cached 404
+            let retryImg = new Image();
+            retryImg.onload = () => {
+                purchasedItemSprites[file] = retryImg;
+                loaded++;
+                if (loaded === total && callback)
+                    callback();
+            };
+            retryImg.onerror = () => {
+                // Final failure - will use placeholder in render
+                console.warn(`Failed to load purchased item sprite: ${file}`);
+                loaded++;
+                if (loaded === total && callback)
+                    callback();
+            };
+            // Retry with fresh request (no cache)
+            retryImg.src = file + '?nocache=' + Math.random();
         };
-        img.src = file;
+        // Load with cache-busting to avoid browser-cached 404 responses
+        img.src = file + '?v=1';
     });
 }
 

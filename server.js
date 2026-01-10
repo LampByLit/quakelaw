@@ -249,13 +249,42 @@ app.get('/api/cases/load/:filename', async (req, res) => {
         }
         
         const casePath = path.join(__dirname, 'cases', 'json', safeFilename);
-        const caseData = JSON.parse(await fs.readFile(casePath, 'utf8'));
+        console.log(`[CASE LOAD] Attempting to load case file: ${safeFilename}`);
+        console.log(`[CASE LOAD] Full path: ${casePath}`);
+        
+        // Check if file exists
+        try {
+            await fs.access(casePath);
+        } catch (accessError) {
+            console.error(`[CASE LOAD] File does not exist: ${casePath}`);
+            return res.status(404).json({ 
+                error: 'Case file not found',
+                message: `File ${safeFilename} does not exist`,
+                requestedFilename: safeFilename
+            });
+        }
+        
+        const fileContent = await fs.readFile(casePath, 'utf8');
+        const caseData = JSON.parse(fileContent);
+        console.log(`[CASE LOAD] Successfully loaded case: ${safeFilename}`);
         res.json({ caseData });
     } catch (error) {
-        console.error('Error loading case:', error);
+        console.error('[CASE LOAD] Error loading case:', error);
+        console.error('[CASE LOAD] Error stack:', error.stack);
+        console.error('[CASE LOAD] Requested filename:', req.params.filename);
+        
+        // Provide more specific error messages
+        let errorMessage = error.message;
+        if (error.code === 'ENOENT') {
+            errorMessage = `Case file not found: ${req.params.filename}`;
+        } else if (error instanceof SyntaxError) {
+            errorMessage = `Invalid JSON in case file: ${req.params.filename}`;
+        }
+        
         res.status(500).json({ 
             error: 'Failed to load case',
-            message: error.message 
+            message: errorMessage,
+            requestedFilename: req.params.filename
         });
     }
 });

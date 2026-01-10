@@ -722,7 +722,7 @@ function Update()
     // Check for Law School button hover and click
     {
         let buttonX = mainCanvasSize.x - 100;
-        let buttonY = 20 + 32; // Position below reset button, above "Press F"
+        let buttonY = 20 + 32; // Position below reset button
         let buttonWidth = 80;
         let buttonHeight = 24;
         
@@ -1097,7 +1097,7 @@ function PostRender()
         DrawText('RESET', buttonX, buttonY, 12, 'center', 1, '#FFF', '#000');
     }
     
-    // Law School button (below reset button, above "Press F")
+    // Law School button (below reset button)
     {
         let buttonX = mainCanvasSize.x - 100;
         let buttonY = 20 + 32; // Position below reset button
@@ -1116,13 +1116,6 @@ function PostRender()
         
         // Draw button text
         DrawText('Law School', buttonX, buttonY, 8, 'center', 1, '#FFF', '#000');
-    }
-    
-    // "Press F to Speak" text below Law School button
-    {
-        let textX = mainCanvasSize.x - 100;
-        let textY = 20 + 32 + 24; // Position below the Law School button
-        DrawText('Press F to Speak', textX, textY, 10, 'center', 1, '#FFF', '#000');
     }
     
     // centered hud text

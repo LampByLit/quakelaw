@@ -516,7 +516,8 @@ class NPC extends MyGameObject
     
     // Check if a position is clear of obstacles (buildings, rocks, solid terrain)
     // allowedBuilding: building we're allowed to approach (target building)
-    IsPositionClear(pos, checkDistance = 0.5, allowedBuilding = null)
+    // isVeryClose: if true, we're very close to target building and should allow entrance approach
+    IsPositionClear(pos, checkDistance = 0.5, allowedBuilding = null, isVeryClose = false)
     {
         // Check level collision
         if (!level.IsAreaClear(pos, this.collisionSize, this))
@@ -532,6 +533,24 @@ class NPC extends MyGameObject
         {
             if (obj.isBuilding && obj !== this)
             {
+                // If this is our target building and we're very close, skip collision check entirely
+                // This allows smooth approach to entrance without stuttering
+                if (obj === allowedBuilding && isVeryClose)
+                {
+                    // Check if we're near the entrance area (wider detection)
+                    let southEdge = obj.pos.y + obj.size.y;
+                    let isNearSouthEntrance = (pos.y >= southEdge - 1.0 && pos.y <= southEdge + 1.5) &&
+                                             (Math.abs(pos.x - obj.pos.x) < obj.size.x + 1.0);
+                    
+                    // If near entrance, allow it (no collision check for target building)
+                    if (isNearSouthEntrance)
+                    {
+                        continue; // Skip collision check for target building entrance
+                    }
+                    // If not near entrance but very close, still allow (we're approaching)
+                    continue;
+                }
+                
                 let distToBuilding = pos.Distance(obj.pos);
                 let buildingSolidRadius = obj.size.x * 0.9; // Building solid area
                 let minDistance = buildingSolidRadius + this.collisionSize + 0.2;
@@ -540,14 +559,15 @@ class NPC extends MyGameObject
                 if (obj === allowedBuilding)
                 {
                     // Allow getting close to south entrance (south side of building)
+                    // Wider entrance detection area to prevent stuttering
                     let southEdge = obj.pos.y + obj.size.y;
-                    let isNearSouthEntrance = (pos.y >= southEdge - 0.5 && pos.y <= southEdge + 1.0) &&
-                                             (Math.abs(pos.x - obj.pos.x) < obj.size.x + 0.5);
+                    let isNearSouthEntrance = (pos.y >= southEdge - 1.0 && pos.y <= southEdge + 1.5) &&
+                                             (Math.abs(pos.x - obj.pos.x) < obj.size.x + 1.0);
                     
                     // If near entrance, allow closer approach
                     if (isNearSouthEntrance)
                     {
-                        minDistance = buildingSolidRadius * 0.3; // Allow very close to entrance
+                        minDistance = buildingSolidRadius * 0.2; // Allow very close to entrance
                     }
                     else
                     {
@@ -568,14 +588,17 @@ class NPC extends MyGameObject
     
     // Check if path ahead is clear (multi-step checking)
     // Increased lookahead for better obstacle detection
-    IsPathClear(direction, lookAheadDistance = 3.0, allowedBuilding = null)
+    IsPathClear(direction, lookAheadDistance = 3.0, allowedBuilding = null, isVeryClose = false)
     {
         let normalizedDir = direction.Clone().Normalize();
+        
+        // When very close to target building, use shorter lookahead to prevent stuttering
+        let effectiveLookahead = isVeryClose ? 1.0 : Math.min(lookAheadDistance, 3.0);
         
         // Check multiple points along the path for better obstacle detection
         // Increased check distances: 0.5, 1.0, 1.5, 2.0, 2.5, 3.0 (or up to lookAheadDistance)
         let checkDistances = [];
-        for(let d = 0.5; d <= Math.min(lookAheadDistance, 3.0); d += 0.5)
+        for(let d = 0.5; d <= effectiveLookahead; d += 0.5)
         {
             checkDistances.push(d);
         }
@@ -584,7 +607,7 @@ class NPC extends MyGameObject
         {
             let checkPos = this.pos.Clone();
             checkPos.Add(normalizedDir.Clone().Multiply(dist));
-            if (!this.IsPositionClear(checkPos, 0.5, allowedBuilding))
+            if (!this.IsPositionClear(checkPos, 0.5, allowedBuilding, isVeryClose))
             {
                 return false; // Path blocked at this distance
             }
@@ -595,7 +618,7 @@ class NPC extends MyGameObject
     
     // Find alternative direction when blocked (wider obstacle detection)
     // Expanded search arc and path memory to avoid loops
-    FindAlternativeDirection(targetDir, blockedDir, allowedBuilding = null)
+    FindAlternativeDirection(targetDir, blockedDir, allowedBuilding = null, isVeryClose = false)
     {
         // Wider arc search: check ±90 degrees around target direction (expanded from ±45)
         const searchArc = PI / 2; // 90 degrees
@@ -616,12 +639,12 @@ class NPC extends MyGameObject
                 continue;
             
             // Check if this direction has a clear path
-            if (this.IsPathClear(testDir, 3.0, allowedBuilding))
+            if (this.IsPathClear(testDir, 3.0, allowedBuilding, isVeryClose))
             {
                 // Score: prefer directions closer to target (smaller angle)
                 // Also prefer directions that have longer clear paths
                 let angleScore = 1.0 - (Math.abs(angle) / searchArc); // 1.0 at center, 0.0 at edges
-                let clearDistance = this.GetClearPathDistance(testDir, allowedBuilding);
+                let clearDistance = this.GetClearPathDistance(testDir, allowedBuilding, isVeryClose);
                 let pathScore = Math.min(clearDistance / 3.0, 1.0); // Normalize to 0-1
                 
                 // Combined score: 60% angle preference, 40% path length
@@ -646,13 +669,13 @@ class NPC extends MyGameObject
         let perp1 = new Vector2(-blockedDir.y, blockedDir.x); // 90 degrees left
         let perp2 = new Vector2(blockedDir.y, -blockedDir.x); // 90 degrees right
         
-        if (this.IsPathClear(perp1, 3.0, allowedBuilding))
+        if (this.IsPathClear(perp1, 3.0, allowedBuilding, isVeryClose))
         {
             let blended = targetDir.Clone().Multiply(0.3).Add(perp1.Clone().Multiply(0.7));
             return blended.Normalize();
         }
         
-        if (this.IsPathClear(perp2, 3.0, allowedBuilding))
+        if (this.IsPathClear(perp2, 3.0, allowedBuilding, isVeryClose))
         {
             let blended = targetDir.Clone().Multiply(0.3).Add(perp2.Clone().Multiply(0.7));
             return blended.Normalize();
@@ -660,7 +683,7 @@ class NPC extends MyGameObject
         
         // Try opposite direction (back away)
         let opposite = blockedDir.Clone().Multiply(-1);
-        if (this.IsPathClear(opposite, 3.0, allowedBuilding))
+        if (this.IsPathClear(opposite, 3.0, allowedBuilding, isVeryClose))
         {
             return opposite.Normalize();
         }
@@ -675,7 +698,7 @@ class NPC extends MyGameObject
             
             if (!this.failedDirections.some(fd => Math.abs(fd - angleKey) < 0.1))
             {
-                if (this.IsPathClear(randomDir, 2.0, allowedBuilding))
+                if (this.IsPathClear(randomDir, 2.0, allowedBuilding, isVeryClose))
                     return randomDir;
             }
             attempts++;
@@ -686,17 +709,17 @@ class NPC extends MyGameObject
     }
     
     // Get the distance we can travel in a direction before hitting an obstacle
-    GetClearPathDistance(direction, allowedBuilding = null)
+    GetClearPathDistance(direction, allowedBuilding = null, isVeryClose = false)
     {
         let normalizedDir = direction.Clone().Normalize();
-        let maxCheck = 4.0; // Increased from 2.5 for better lookahead
+        let maxCheck = isVeryClose ? 2.0 : 4.0; // Shorter check when very close
         let step = 0.3; // Check every 0.3 units
         
         for(let dist = step; dist <= maxCheck; dist += step)
         {
             let checkPos = this.pos.Clone();
             checkPos.Add(normalizedDir.Clone().Multiply(dist));
-            if (!this.IsPositionClear(checkPos, 0.5, allowedBuilding))
+            if (!this.IsPositionClear(checkPos, 0.5, allowedBuilding, isVeryClose))
             {
                 return dist - step; // Return last clear distance
             }
@@ -728,12 +751,20 @@ class NPC extends MyGameObject
         let toTarget = this.targetPos.Clone().Subtract(this.pos);
         let distance = toTarget.Length();
         
-        // If close to target building, allow getting very close to entrance
-        let arrivalDistance = 0.3;
-        if (this.targetBuilding && distance < this.targetBuilding.size.y + 1.5)
+        // Check if we're very close to target building (within entry range)
+        let isVeryClose = false;
+        if (this.targetBuilding)
         {
-            // When near target building, allow getting close to entrance
-            arrivalDistance = 0.5; // Slightly larger arrival distance for building entrance
+            let distToBuilding = this.pos.Distance(this.targetBuilding.pos);
+            isVeryClose = (distToBuilding < this.targetBuilding.size.y + 1.5);
+        }
+        
+        // If close to target building, match arrival distance to building entry trigger
+        let arrivalDistance = 0.3;
+        if (this.targetBuilding && isVeryClose)
+        {
+            // Match building entry trigger distance: building.size.y + 1.0
+            arrivalDistance = this.targetBuilding.size.y + 1.0;
         }
         
         if (distance < arrivalDistance)
@@ -760,7 +791,7 @@ class NPC extends MyGameObject
                 let detourDir = targetDir.Clone().Rotate(this.detourAngle);
                 
                 // Try detour direction
-                if (this.IsPathClear(detourDir, 3.0, this.targetBuilding))
+                if (this.IsPathClear(detourDir, 3.0, this.targetBuilding, isVeryClose))
                 {
                     targetDir = detourDir;
                 }
@@ -774,7 +805,7 @@ class NPC extends MyGameObject
                     if (this.failedDirections.length > 5)
                         this.failedDirections.shift();
                     
-                    targetDir = this.FindAlternativeDirection(targetDir, targetDir, this.targetBuilding);
+                    targetDir = this.FindAlternativeDirection(targetDir, targetDir, this.targetBuilding, isVeryClose);
                 }
                 
                 // Reset stuck timer
@@ -795,7 +826,7 @@ class NPC extends MyGameObject
         else
         {
             // Check if direct path is clear
-            if (!this.IsPathClear(targetDir, 3.0, this.targetBuilding))
+            if (!this.IsPathClear(targetDir, 3.0, this.targetBuilding, isVeryClose))
             {
                 // Path blocked, find alternative
                 // Record failed direction
@@ -803,7 +834,7 @@ class NPC extends MyGameObject
                 if (this.failedDirections.length > 5)
                     this.failedDirections.shift();
                 
-                targetDir = this.FindAlternativeDirection(targetDir, targetDir, this.targetBuilding);
+                targetDir = this.FindAlternativeDirection(targetDir, targetDir, this.targetBuilding, isVeryClose);
                 // Reset detour angle when we find a new path
                 this.detourAngle = 0;
             }

@@ -624,7 +624,7 @@ async function SendMessage() {
                 }
                 
                 const data = await response.json();
-                const document = data.document;
+                const docData = data.document;
                 
                 // Remove loading
                 const loading = document.querySelector('.loading-indicator');
@@ -632,27 +632,27 @@ async function SendMessage() {
                 
                 // Store pending purchase
                 pendingDocumentPurchase = {
-                    document: document,
+                    document: docData,
                     npc: currentDialogueNPC,
-                    agreedPrice: document.price // Start with base price
+                    agreedPrice: docData.price // Start with base price
                 };
                 
                 // Add NPC response with document info and price
-                let npcResponse = `I have a document available: "${document.title}". `;
+                let npcResponse = `I have a document available: "${docData.title}". `;
                 if (isNegotiation) {
                     // Allow negotiation - NPC might lower price slightly
                     const negotiationChance = Math.random();
                     if (negotiationChance > 0.5) {
                         // NPC agrees to lower price (10-20% discount)
                         const discount = 0.1 + Math.random() * 0.1;
-                        const newPrice = Math.max(10, Math.floor(document.price * (1 - discount)));
+                        const newPrice = Math.max(10, Math.floor(docData.price * (1 - discount)));
                         pendingDocumentPurchase.agreedPrice = newPrice;
-                        npcResponse += `I can offer it to you for $${newPrice} (down from $${document.price}). Would you like to buy it?`;
+                        npcResponse += `I can offer it to you for $${newPrice} (down from $${docData.price}). Would you like to buy it?`;
                     } else {
-                        npcResponse += `I'm firm on the price: $${document.price}. Would you like to buy it?`;
+                        npcResponse += `I'm firm on the price: $${docData.price}. Would you like to buy it?`;
                     }
                 } else {
-                    npcResponse += `The price is $${document.price}. Would you like to buy it?`;
+                    npcResponse += `The price is $${docData.price}. Would you like to buy it?`;
                 }
                 
                 conversationHistory.push({

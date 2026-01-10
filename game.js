@@ -703,8 +703,8 @@ function Update()
     
     // Check for reset button hover and click
     {
-        let buttonX = mainCanvasSize.x - 100;
-        let buttonY = 20;
+        let buttonX = mainCanvasSize.x - 50;
+        let buttonY = 10;
         let buttonWidth = 80;
         let buttonHeight = 24;
         
@@ -721,8 +721,8 @@ function Update()
     
     // Check for Law School button hover and click
     {
-        let buttonX = mainCanvasSize.x - 100;
-        let buttonY = 20 + 32; // Position below reset button
+        let buttonX = mainCanvasSize.x - 50;
+        let buttonY = 10 + 32; // Position below reset button
         let buttonWidth = 80;
         let buttonHeight = 24;
         
@@ -1078,8 +1078,8 @@ function PostRender()
     
     // Reset button (top-right)
     {
-        let buttonX = mainCanvasSize.x - 100;
-        let buttonY = 20;
+        let buttonX = mainCanvasSize.x - 50;
+        let buttonY = 10;
         let buttonWidth = 80;
         let buttonHeight = 24;
         
@@ -1099,8 +1099,8 @@ function PostRender()
     
     // Law School button (below reset button)
     {
-        let buttonX = mainCanvasSize.x - 100;
-        let buttonY = 20 + 32; // Position below reset button
+        let buttonX = mainCanvasSize.x - 50;
+        let buttonY = 10 + 32; // Position below reset button
         let buttonWidth = 80;
         let buttonHeight = 24;
         

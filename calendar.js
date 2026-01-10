@@ -968,15 +968,6 @@ function RenderLoadingNotification()
     let dotCount = (Math.floor(time / 0.5) % 4);
     let loadingText = loadingNotificationText + '.'.repeat(dotCount);
     
-    // Draw semi-transparent background
-    mainCanvasContext.fillStyle = 'rgba(0, 0, 0, 0.7)';
-    mainCanvasContext.fillRect(textX - boxWidth/2, textY - boxHeight/2, boxWidth, boxHeight);
-    
-    // Draw border (blue for loading)
-    mainCanvasContext.strokeStyle = 'rgba(74, 144, 255, 1.0)';
-    mainCanvasContext.lineWidth = 2;
-    mainCanvasContext.strokeRect(textX - boxWidth/2, textY - boxHeight/2, boxWidth, boxHeight);
-    
     // Draw text
     let textColor = 'rgba(74, 144, 255, 1.0)';
     DrawText(loadingText, textX, textY, fontSize, 'center', 1, textColor, '#000');

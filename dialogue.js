@@ -475,6 +475,34 @@ async function SendMessage() {
     const messageLower = message.toLowerCase();
     const hasDocumentKeyword = messageLower.includes('purchase');
     
+    // Check if player is declining a pending purchase (must be checked before document keyword check)
+    if (pendingDocumentPurchase && currentDialogueNPC && currentDialogueNPC.canSellDocuments) {
+        const isDecline = /no|nope|not interested|decline|pass|skip|maybe later|not now/i.test(messageLower);
+        
+        if (isDecline) {
+            // Add player message
+            conversationHistory.push({
+                role: 'player',
+                message: message,
+                timestamp: Date.now()
+            });
+            
+            // NPC asks if they want another offer
+            conversationHistory.push({
+                role: 'npc',
+                message: "That's fine. Would you like to see another offer?",
+                timestamp: Date.now()
+            });
+            
+            // Clear pending purchase
+            pendingDocumentPurchase = null;
+            
+            UpdateConversationDisplay();
+            input.value = '';
+            return;
+        }
+    }
+    
     // Check if player is asking about documents and NPC can sell
     if (hasDocumentKeyword && currentDialogueNPC.canSellDocuments) {
         // Check if player is asking about price or negotiating
@@ -487,7 +515,7 @@ async function SendMessage() {
             const playerCoins = typeof playerData !== 'undefined' && playerData ? (playerData.coins || 0) : 0;
             const agreedPrice = pendingDocumentPurchase.agreedPrice;
             
-            if (playerCoins >= agreedPrice) {
+            if (playerCoins >= agreedPrice && typeof playerData !== 'undefined' && playerData) {
                 // Purchase successful
                 playerData.coins = playerCoins - agreedPrice;
                 if (typeof SaveGameState === 'function') {
@@ -539,8 +567,9 @@ async function SendMessage() {
                         // Clear pending purchase
                         pendingDocumentPurchase = null;
                         
-                        // Open inventory after a short delay
+                        // Close dialogue modal and open inventory after a short delay
                         setTimeout(() => {
+                            CloseDialogueModal();
                             if (typeof inventoryOpen !== 'undefined') {
                                 inventoryOpen = true;
                             }

@@ -779,8 +779,10 @@ Notes:
 - "playerReprimanded" should be true if the player's conduct warrants a $20 fine
 - "playerDisbarred" should be true ONLY for extremely serious offenses (use VERY RARELY)
 - "jobChanges" allows you to change any NPC's job to anything you want
+- "nameChanges" allows you to change any NPC's name (surname) to ANYTHING you want - not limited to existing names, you can create completely new names as punishment, reward, or creative expression
 - If no NPCs should be punished, return empty array for punishments
-- If no job changes are needed, return empty array for jobChanges`;
+- If no job changes are needed, return empty array for jobChanges
+- If no name changes are needed, return empty array for nameChanges`;
 
         // Build bonus summary for user message
         let bonusSummary = '';

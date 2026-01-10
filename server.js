@@ -6,6 +6,7 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 const fs = require('fs').promises;
+const fsSync = require('fs');
 const crypto = require('crypto');
 
 const app = express();
@@ -760,6 +761,9 @@ Return your response as a JSON object with this exact structure:
     "jobChanges": [
         {"npcSurname": "Smith", "newJob": "santa claus", "reason": "Brief reason"}
     ],
+    "nameChanges": [
+        {"npcSurname": "Smith", "newName": "Johnson", "reason": "Brief reason"}
+    ],
     "ruling": "Your 50-word ruling explaining the decision, punishments, and reasoning in your character's voice"
 }
 
@@ -864,6 +868,7 @@ Notes:
             coinsAwarded: parsed.coinsAwarded || 0,
             punishments: parsed.punishments || [],
             jobChanges: parsed.jobChanges || [],
+            nameChanges: parsed.nameChanges || [],
             ruling: parsed.ruling
         });
     } catch (error) {
@@ -975,6 +980,9 @@ Return your response as a JSON object with this exact structure:
     "jobChanges": [
         {"npcSurname": "Smith", "newJob": "santa claus", "reason": "Brief reason"}
     ],
+    "nameChanges": [
+        {"npcSurname": "Smith", "newName": "Johnson", "reason": "Brief reason"}
+    ],
     "ruling": "Your 50-word ruling explaining the decision, punishments, rewards, and reasoning in your character's voice"
 }
 
@@ -990,8 +998,10 @@ Notes:
 - "playerReprimanded" should be true if the player's conduct warrants a $20 fine
 - "playerDisbarred" should be true ONLY for extremely serious offenses (use VERY RARELY)
 - "jobChanges" allows you to change any NPC's job to anything you want
+- "nameChanges" allows you to change any NPC's name (surname) to anything you want
 - If no NPCs should be punished, return empty array for punishments
-- If no job changes are needed, return empty array for jobChanges`;
+- If no job changes are needed, return empty array for jobChanges
+- If no name changes are needed, return empty array for nameChanges`;
 
         const userMessage = `Claim Description:\n${claimDescription}\n\n${desiredOutcome ? `Desired Outcome:\n${desiredOutcome}\n\n` : ''}Recording Evidence Presented:\n${evidenceText}${caseContextText}\n\nAll NPCs in Town:\n${allNPCsText}\n\nMake your claim decision and write your ruling. You have FULL DISCRETION to grant or deny this claim, and you may use all your judge powers to punish, reward, or take any action you deem appropriate. Your decisions will have real consequences in the game.`;
 
@@ -1053,6 +1063,9 @@ Notes:
         if (!Array.isArray(parsed.jobChanges)) {
             parsed.jobChanges = [];
         }
+        if (!Array.isArray(parsed.nameChanges)) {
+            parsed.nameChanges = [];
+        }
         if (!parsed.ruling || typeof parsed.ruling !== 'string') {
             parsed.ruling = 'The judge has made a decision.';
         }
@@ -1068,6 +1081,7 @@ Notes:
             coinsAwarded: parsed.coinsAwarded || 0,
             punishments: parsed.punishments || [],
             jobChanges: parsed.jobChanges || [],
+            nameChanges: parsed.nameChanges || [],
             ruling: parsed.ruling
         });
     } catch (error) {
@@ -1120,6 +1134,72 @@ app.post('/api/npc/update-job/:surname', async (req, res) => {
         console.error('Error updating NPC job:', error);
         res.status(500).json({ 
             error: 'Failed to update job',
+            message: error.message 
+        });
+    }
+});
+
+// Update NPC name (surname)
+app.post('/api/npc/update-name/:surname', async (req, res) => {
+    try {
+        const sessionId = req.body.sessionId;
+        const oldSurname = req.params.surname;
+        const { newName } = req.body;
+        
+        if (!sessionId) {
+            return res.status(400).json({ error: 'Session ID is required' });
+        }
+        
+        if (!newName || typeof newName !== 'string' || newName.trim().length === 0) {
+            return res.status(400).json({ error: 'New name is required and must be a non-empty string' });
+        }
+        
+        const newSurname = newName.trim();
+        
+        // Load conversation with old surname
+        const conversation = await loadConversation(sessionId, oldSurname);
+        
+        if (conversation) {
+            // Update npcSurname in conversation
+            conversation.npcSurname = newSurname;
+            
+            // Save conversation with new surname (this will create new file)
+            await saveConversation(sessionId, conversation);
+            
+            // Try to delete old conversation file (if it exists and is different)
+            if (oldSurname !== newSurname) {
+                try {
+                    const oldFilePath = getConversationFilePath(sessionId, oldSurname);
+                    if (fsSync.existsSync(oldFilePath)) {
+                        fsSync.unlinkSync(oldFilePath);
+                        console.log(`[SERVER] Deleted old conversation file for ${oldSurname}`);
+                    }
+                } catch (deleteError) {
+                    // Non-critical - old file might not exist or be in use
+                    console.warn(`[SERVER] Could not delete old conversation file for ${oldSurname}:`, deleteError.message);
+                }
+            }
+            
+            res.json({ success: true, message: 'Name updated', oldSurname: oldSurname, newSurname: newSurname });
+        } else {
+            // No conversation exists - create new one with new name
+            const newConversation = {
+                npcSurname: newSurname,
+                job: '',
+                conversation: [],
+                metadata: {
+                    firstInteraction: Date.now(),
+                    lastInteraction: Date.now(),
+                    messageCount: 0
+                }
+            };
+            await saveConversation(sessionId, newConversation);
+            res.json({ success: true, message: 'Name created', oldSurname: oldSurname, newSurname: newSurname });
+        }
+    } catch (error) {
+        console.error('Error updating NPC name:', error);
+        res.status(500).json({ 
+            error: 'Failed to update name',
             message: error.message 
         });
     }

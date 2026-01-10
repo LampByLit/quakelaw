@@ -995,6 +995,61 @@ async function ExecuteJobChanges(jobChanges) {
     }
 }
 
+// Execute name changes from judgment decision
+async function ExecuteNameChanges(nameChanges) {
+    if (!nameChanges || nameChanges.length === 0) {
+        return;
+    }
+    
+    const sessionId = getSessionId();
+    
+    for (const change of nameChanges) {
+        const { npcSurname, newName, reason } = change;
+        
+        if (!npcSurname || !newName) {
+            console.warn('[JUDGMENT] Invalid name change entry:', change);
+            continue;
+        }
+        
+        // Find NPC and update surname
+        const npc = typeof GetNPCBySurname !== 'undefined' ? GetNPCBySurname(npcSurname) : null;
+        if (npc) {
+            const oldSurname = npc.surname;
+            npc.surname = newName;
+            console.log(`[JUDGMENT] Changed ${oldSurname}'s name to "${newName}"${reason ? ` - ${reason}` : ''}`);
+            
+            // Update name on server (conversation file)
+            try {
+                const response = await fetch(`/api/npc/update-name/${encodeURIComponent(oldSurname)}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        sessionId: sessionId,
+                        newName: newName
+                    })
+                });
+                
+                if (!response.ok) {
+                    console.warn(`Failed to update name on server for ${oldSurname}`);
+                } else {
+                    console.log(`[JUDGMENT] Updated name on server: ${oldSurname} -> ${newName}`);
+                }
+            } catch (error) {
+                console.error(`Error updating name on server for ${oldSurname}:`, error);
+            }
+        } else {
+            console.warn(`[JUDGMENT] NPC ${npcSurname} not found for name change`);
+        }
+    }
+    
+    // Save game state after all name changes
+    if (typeof SaveGameState === 'function') {
+        SaveGameState();
+    }
+}
+
 ///////////////////////////////////////////////////////////////////////////////
 // Friday Judgment Processing
 
@@ -1257,8 +1312,8 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
         }
         
         const judgmentData = await judgmentResponse.json();
-        const { playerWins, playerReprimanded, playerDisbarred, coinsAwarded, punishments, jobChanges, ruling } = judgmentData;
-        console.log(`[JUDGMENT] Step 7 complete. Player wins: ${playerWins}, Reprimanded: ${playerReprimanded}, Disbarred: ${playerDisbarred}, Coins awarded: ${coinsAwarded || 0}, Punishments: ${punishments ? punishments.length : 0}, Job changes: ${jobChanges ? jobChanges.length : 0}`);
+        const { playerWins, playerReprimanded, playerDisbarred, coinsAwarded, punishments, jobChanges, nameChanges, ruling } = judgmentData;
+        console.log(`[JUDGMENT] Step 7 complete. Player wins: ${playerWins}, Reprimanded: ${playerReprimanded}, Disbarred: ${playerDisbarred}, Coins awarded: ${coinsAwarded || 0}, Punishments: ${punishments ? punishments.length : 0}, Job changes: ${jobChanges ? jobChanges.length : 0}, Name changes: ${nameChanges ? nameChanges.length : 0}`);
         
         // 8. Handle player reprimand (deduct $20)
         if (playerReprimanded && typeof playerData !== 'undefined') {
@@ -1293,6 +1348,15 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
             console.log('[JUDGMENT] Step 11 complete');
         } else {
             console.log('[JUDGMENT] Step 11: No job changes to execute');
+        }
+        
+        // 11.5. Execute name changes
+        if (nameChanges && nameChanges.length > 0) {
+            console.log(`[JUDGMENT] Step 11.5: Executing ${nameChanges.length} name changes`);
+            await ExecuteNameChanges(nameChanges);
+            console.log('[JUDGMENT] Step 11.5 complete');
+        } else {
+            console.log('[JUDGMENT] Step 11.5: No name changes to execute');
         }
         
         // 12. Add coins awarded by judge (if any)
@@ -1334,6 +1398,7 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
             playerDisbarred: playerDisbarred || false,
             punishments: punishments || [],
             jobChanges: jobChanges || [],
+            nameChanges: nameChanges || [],
             ruling: ruling || 'The judge has made a decision.',
             coinsAwarded: totalCoinsAwarded,
             prosecution: prosecution || ''
@@ -1424,8 +1489,8 @@ async function ProcessClaim(claimDescription, desiredOutcome) {
         }
         
         const claimData = await claimResponse.json();
-        const { claimGranted, playerReprimanded, playerDisbarred, coinsAwarded, punishments, jobChanges, ruling } = claimData;
-        console.log(`[CLAIM] Step 5 complete. Claim granted: ${claimGranted}, Reprimanded: ${playerReprimanded}, Disbarred: ${playerDisbarred}, Coins awarded: ${coinsAwarded || 0}, Punishments: ${punishments ? punishments.length : 0}, Job changes: ${jobChanges ? jobChanges.length : 0}`);
+        const { claimGranted, playerReprimanded, playerDisbarred, coinsAwarded, punishments, jobChanges, nameChanges, ruling } = claimData;
+        console.log(`[CLAIM] Step 5 complete. Claim granted: ${claimGranted}, Reprimanded: ${playerReprimanded}, Disbarred: ${playerDisbarred}, Coins awarded: ${coinsAwarded || 0}, Punishments: ${punishments ? punishments.length : 0}, Job changes: ${jobChanges ? jobChanges.length : 0}, Name changes: ${nameChanges ? nameChanges.length : 0}`);
         
         // 6. Handle player reprimand (deduct $20)
         if (playerReprimanded && typeof playerData !== 'undefined') {
@@ -1461,6 +1526,15 @@ async function ProcessClaim(claimDescription, desiredOutcome) {
             console.log('[CLAIM] Step 9: No job changes to execute');
         }
         
+        // 9.5. Execute name changes
+        if (nameChanges && nameChanges.length > 0) {
+            console.log(`[CLAIM] Step 9.5: Executing ${nameChanges.length} name changes`);
+            await ExecuteNameChanges(nameChanges);
+            console.log('[CLAIM] Step 9.5 complete');
+        } else {
+            console.log('[CLAIM] Step 9.5: No name changes to execute');
+        }
+        
         // 10. Add coins awarded by judge (if any)
         const awardAmount = coinsAwarded || 0;
         if (awardAmount > 0 && typeof playerData !== 'undefined') {
@@ -1487,6 +1561,7 @@ async function ProcessClaim(claimDescription, desiredOutcome) {
             playerDisbarred: playerDisbarred || false,
             punishments: punishments || [],
             jobChanges: jobChanges || [],
+            nameChanges: nameChanges || [],
             ruling: ruling || 'The judge has made a decision.',
             coinsAwarded: awardAmount
         };
@@ -1564,6 +1639,14 @@ function CreateClaimEvidenceItem(result) {
         }
     }
     
+    if (result.nameChanges && result.nameChanges.length > 0) {
+        claimText += '\n--- NAME CHANGES ---\n';
+        for (const change of result.nameChanges) {
+            const reason = change.reason ? ` (${change.reason})` : '';
+            claimText += `- ${change.npcSurname}: Renamed to "${change.newName}"${reason}\n`;
+        }
+    }
+    
     // Create evidence item name
     const dateStr = new Date().toLocaleDateString();
     const evidenceName = `Claim Ruling - ${dateStr}`;
@@ -1584,6 +1667,7 @@ function CreateClaimEvidenceItem(result) {
             coinsAwarded: result.coinsAwarded || 0,
             punishments: result.punishments || [],
             jobChanges: result.jobChanges || [],
+            nameChanges: result.nameChanges || [],
             playerReprimanded: result.playerReprimanded || false,
             playerDisbarred: result.playerDisbarred || false,
             timestamp: Date.now()

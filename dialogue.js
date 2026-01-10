@@ -1915,6 +1915,14 @@ function CreateJudgmentEvidenceItem(result) {
         }
     }
     
+    if (result.nameChanges && result.nameChanges.length > 0) {
+        judgmentText += '\n--- NAME CHANGES ---\n';
+        for (const change of result.nameChanges) {
+            const reason = change.reason ? ` (${change.reason})` : '';
+            judgmentText += `- ${change.npcSurname}: Renamed to "${change.newName}"${reason}\n`;
+        }
+    }
+    
     if (result.prosecution) {
         judgmentText += '\n--- PROSECUTION ---\n';
         judgmentText += result.prosecution + '\n';
@@ -1937,6 +1945,7 @@ function CreateJudgmentEvidenceItem(result) {
             coinsAwarded: result.coinsAwarded || 0,
             punishments: result.punishments || [],
             jobChanges: result.jobChanges || [],
+            nameChanges: result.nameChanges || [],
             playerReprimanded: result.playerReprimanded || false,
             playerDisbarred: result.playerDisbarred || false,
             caseNumber: caseNumber,
@@ -2006,6 +2015,15 @@ function ShowJudgmentRulingModal(result) {
         for (const change of result.jobChanges) {
             const reason = change.reason ? ` (${change.reason})` : '';
             punishmentsText += `- ${change.npcSurname}: Changed to "${change.newJob}"${reason}\n`;
+        }
+    }
+    
+    if (result.nameChanges && result.nameChanges.length > 0) {
+        if (punishmentsText) punishmentsText += '\n';
+        punishmentsText += 'NAME CHANGES:\n';
+        for (const change of result.nameChanges) {
+            const reason = change.reason ? ` (${change.reason})` : '';
+            punishmentsText += `- ${change.npcSurname}: Renamed to "${change.newName}"${reason}\n`;
         }
     }
     
@@ -2773,6 +2791,15 @@ function ShowClaimRulingModal(result) {
             for (const change of result.jobChanges) {
                 const reason = change.reason ? ` (${change.reason})` : '';
                 punishmentsText += `- ${change.npcSurname}: Changed to "${change.newJob}"${reason}\n`;
+            }
+        }
+        
+        if (result.nameChanges && result.nameChanges.length > 0) {
+            if (punishmentsText) punishmentsText += '\n';
+            punishmentsText += 'NAME CHANGES:\n';
+            for (const change of result.nameChanges) {
+                const reason = change.reason ? ` (${change.reason})` : '';
+                punishmentsText += `- ${change.npcSurname}: Renamed to "${change.newName}"${reason}\n`;
             }
         }
         

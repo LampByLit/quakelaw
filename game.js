@@ -156,6 +156,24 @@ class GameTime
             }
         }
         
+        // On the 1st of every month, ensure Sunday Coffee is scheduled
+        if (this.dayOfMonth === 1)
+        {
+            if (typeof calendarEvents !== 'undefined' && typeof ScheduleSundayCoffee !== 'undefined')
+            {
+                // Check if there's already a pending Sunday Coffee event scheduled
+                let hasPendingSundayCoffee = calendarEvents.some(e => 
+                    e.taskId === 'sundayCoffee' && e.status === 'pending'
+                );
+                
+                // If no pending Sunday Coffee event exists, schedule one
+                if (!hasPendingSundayCoffee)
+                {
+                    ScheduleSundayCoffee();
+                }
+            }
+        }
+        
         // Reset gossip flag for new day
         this.gossipProcessedToday = false;
         

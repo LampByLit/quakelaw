@@ -1452,7 +1452,14 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
 - You preside over legal cases in the courthouse.
 - You are NOT a barista, shopkeeper, or any other profession. You are a JUDGE.
 - When you introduce yourself or discuss your role, you are Judge ${surname}, presiding over legal cases.
-- Stay in character as a judge at all times.`;
+- Stay in character as a judge at all times.
+
+JUDGE POWERS - CONTEMPT OF COURT:
+- You have the power to charge the player $50 for contempt of court at any time during conversation.
+- You can exercise this power whenever you deem the player's conduct disrespectful, disruptive, or inappropriate.
+- When you decide to charge for contempt, you MUST state it clearly in your dialogue (e.g., "I find you in contempt of court. You are fined $50." or "That's contempt of court. I'm charging you $50.").
+- The charge is automatic and immediate - you do not need to ask permission or wait for confirmation.
+- Use this power judiciously but you have full discretion to use it whenever appropriate based on the player's behavior or statements.`;
         } else {
             professionInstructions = `ABSOLUTELY CRITICAL - YOUR PROFESSION (DO NOT IGNORE THIS):
 ${job ? `- Your job is: ${job}. This is your ONLY profession.` : '- You have a regular job.'}
@@ -1580,6 +1587,49 @@ ${isJudge ? `REMEMBER: You are Judge ${surname}, a judge presiding over legal ca
             ? apiData.choices[0].message.content 
             : "I'm not sure how to respond to that.";
         
+        // Check for contempt of court charge (judge only)
+        let contemptCharged = false;
+        const contemptAmount = 50;
+        if (isJudge) {
+            const responseLower = npcResponse.toLowerCase();
+            
+            // Contempt-related keywords (must be present)
+            const contemptKeywords = [
+                'contempt',
+                'charge you',
+                'fine you',
+                'penalty'
+            ];
+            
+            // Amount-related keywords (must be present with contempt)
+            const amountKeywords = [
+                '$50',
+                '50',
+                'fifty dollars',
+                'fifty'
+            ];
+            
+            // Check for explicit patterns that combine contempt + amount
+            const chargePatterns = [
+                /(?:contempt|charge|fine|penalty).*?(?:\$50|50|fifty)/i,
+                /(?:\$50|50|fifty).*?(?:contempt|charge|fine|penalty)/i,
+                /find you in contempt.*?(?:\$50|50|fifty)/i,
+                /held in contempt.*?(?:\$50|50|fifty)/i,
+                /contempt of court.*?(?:\$50|50|fifty)/i
+            ];
+            
+            const hasChargePattern = chargePatterns.some(pattern => pattern.test(npcResponse));
+            
+            // Also check if both contempt keyword and amount are present (even if not adjacent)
+            const hasContemptKeyword = contemptKeywords.some(keyword => responseLower.includes(keyword));
+            const hasAmountKeyword = amountKeywords.some(keyword => responseLower.includes(keyword));
+            
+            if (hasChargePattern || (hasContemptKeyword && hasAmountKeyword)) {
+                contemptCharged = true;
+                console.log(`[CONTEMPT] Judge ${surname} charged player $${contemptAmount} for contempt of court`);
+            }
+        }
+        
         // Add NPC response to conversation
         const npcMessage = {
             role: 'npc',
@@ -1608,7 +1658,9 @@ ${isJudge ? `REMEMBER: You are Judge ${surname}, a judge presiding over legal ca
                 characteristic: conversation.characteristic,
                 emoji: conversation.emoji,
                 job: conversation.job || ''
-            }
+            },
+            contemptCharged: contemptCharged,
+            contemptAmount: contemptCharged ? contemptAmount : undefined
         });
         
     } catch (error) {

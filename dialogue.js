@@ -853,6 +853,39 @@ async function SendMessage() {
         
         UpdateConversationDisplay();
         
+        // Check for contempt of court charge from judge
+        if (currentDialogueNPC && currentDialogueNPC.isJudge && data.contemptCharged) {
+            const contemptAmount = data.contemptAmount || 50;
+            const currentCoins = typeof playerData !== 'undefined' && playerData ? (playerData.coins || 0) : 0;
+            
+            if (currentCoins >= contemptAmount) {
+                // Deduct contempt charge
+                playerData.coins = currentCoins - contemptAmount;
+                if (typeof SaveGameState === 'function') {
+                    SaveGameState();
+                }
+                console.log(`[CONTEMPT] Judge charged $${contemptAmount} for contempt. New balance: $${playerData.coins}`);
+            } else {
+                // Cannot afford - trigger game over
+                console.log(`[CONTEMPT] Player cannot afford $${contemptAmount} contempt charge. Triggering game over.`);
+                
+                // Close dialogue modal first
+                CloseDialogueModal();
+                
+                // Trigger game over after a short delay
+                setTimeout(() => {
+                    if (typeof player !== 'undefined' && player) {
+                        player.Kill();
+                    }
+                    // Show game over message
+                    if (typeof ShowErrorNotification !== 'undefined') {
+                        ShowErrorNotification('You cannot afford the contempt of court charge. Game Over.');
+                    }
+                }, 500);
+                return; // Exit early to prevent further processing
+            }
+        }
+        
         // Check for document price mentions in NPC response (for negotiation)
         if (currentDialogueNPC && currentDialogueNPC.canSellDocuments && pendingDocumentPurchase) {
             const lastMessage = conversationHistory[conversationHistory.length - 1];

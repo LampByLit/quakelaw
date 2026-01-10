@@ -1727,7 +1727,7 @@ app.post('/api/npc/generate-document/:surname', async (req, res) => {
         // Create prompt for document generation
         const systemPrompt = `You are ${surname}, a ${characteristic} ${job}. Generate a unique, original ${documentContext} that reflects your profession and personality. The document should be professional, detailed, and appropriate for your job. Make it interesting and specific - not generic.`;
         
-        const userPrompt = `Create a unique ${documentType} document. It should be substantial (at least 200-400 words), professional, and reflect your work as a ${job}. Be creative and specific - this is an original document you've created.`;
+        const userPrompt = `Create a unique ${documentType} document. It should be approximately 200 words (maximum 200 words), professional, and reflect your work as a ${job}. Be creative and specific - this is an original document you've created.`;
         
         const requestBody = {
             model: process.env.DEEPSEEK_MODEL || 'deepseek-chat',
@@ -1742,7 +1742,7 @@ app.post('/api/npc/generate-document/:surname', async (req, res) => {
                 }
             ],
             temperature: 0.8,
-            max_tokens: 800
+            max_tokens: 300
         };
         
         const apiResponse = await fetch('https://api.deepseek.com/v1/chat/completions', {

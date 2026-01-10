@@ -1141,7 +1141,7 @@ function Update()
         }
     }
     
-    // Check for random penalty at 07:05 (1/20 chance daily)
+    // Check for random penalty at 07:05 (3% chance daily)
     // Initialize flag if not exists
     if (typeof penaltyCheckDoneToday === 'undefined')
     {
@@ -1168,8 +1168,8 @@ function Update()
         {
             window.penaltyCheckDoneToday = true;
             
-            // 1/20 chance (5%)
-            if (Math.random() < 0.05)
+            // 3% chance
+            if (Math.random() < 0.03)
             {
                 if (typeof ShowPenaltyModal !== 'undefined')
                 {

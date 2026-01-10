@@ -1,0 +1,70 @@
+﻿{
+    "id":  4564496,
+    "name":  "Joe Purvis v. The State",
+    "name_abbreviation":  "Purvis v. State",
+    "decision_date":  "1908-01-15",
+    "docket_number":  "No. 4170",
+    "first_page":  "342",
+    "last_page":  "343",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 342"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  179,
+                     "char_count":  2977,
+                     "ocr_confidence":  0.566,
+                     "pagerank":  {
+                                      "raw":  5.4758315973793516E-07,
+                                      "percentile":  0.9457506982067294
+                                  },
+                     "sha256":  "b9664704a5b400792e6be5b0e10e3fa451676ab58a4937bcc7658b8b7959e9e4",
+                     "simhash":  "1:40c7824042729b76",
+                     "word_count":  517
+                 },
+    "last_updated":  "2023-07-14T19:59:32.944253+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Joe Purvis v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "RAMSEY, Judge.\nAppellant was charged by information filed in the county court of Tarrant County, on September 23d last, with unlawfully betting at a game of cards.\nThe validity of the affidavit and information is questioned for the reason that neither negative the fact that said game was played at a private residence occupied by a family. There is neither statement of facts nor bill of exceptions in the record. If, therefore, the affidavit and information charge an offense against the law, it must follow, under the well-settled rule of this court, that the conviction must be sustained. Under the Act of the Thirtieth Legislature, in respect to gaming, page 107, it is made a misdemeanor for any person to bet or wager any money \"at any game of any character whatever that can be played with cards, dice or dominoes.” As we understand this enactment, it makes such wager of money on a game of cards a misdemeanor, and this without reference to where the game is played. This statute does provide, among other things, that \"no person shall be indicted under this section for playing said game with dominoes or cards at a private residence occupied by a family,” but it does not excuse or exculpate- one from betting on such a game of cards if played in a private residence or for that matter elsewhere. This is a departure or an addition to the old statute, and it is intended to remedy the evil of gambling without reference to the shelter under which it was done.\nBeing of the opnion that the affidavit and information charged an offense, and there being neither statement of facts nor bill of exceptions in the record, it follows that the judgment should be affirmed, and it is so ordered.\nAffirmed.",
+                                          "type":  "majority",
+                                          "author":  "RAMSEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "No brief on file for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Joe Purvis v. The State.\nNo. 4170.\nDecided January 15, 1908.\n1.—Gaming—Information—Betting—Private Residence.\nUpon appeal from a conviction of unlawfully betting at a game played with cards where there was neither statement of facts nor bill of exceptions in the record, and the affidavit and information charged defendant with unlawfully betting at a game played with cards, the conviction was sustained.\n8.—Same—Statutes Construed.\nUnder the Act of the Thirtieth Legislature, page 107, it is made a misdemeanor for any person to bet or wager any money at any game of any character whatever, that can be played with cards, dice or dominoes; and this without reference to where the game is played, even if it be a private residence occupied by a family. This is a departure from the old statute.\nAppeal from the County Court of Tarrant. Tried below before the Hon. John L. Terrell.\nAppeal from a conviction of unlawfully betting at a game played with cards; penalty, a fine of $30.\nLeaving out the formal parts of the information, the same charged that defendant did then and there unlawfully bet and wager at a game played with cards, contrary, etc.\nThe opinion states the case.\nNo brief on file for appellant.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1184-01",
+    "first_page_order":  360,
+    "last_page_order":  361
+}

@@ -1,0 +1,240 @@
+﻿{
+    "id":  8547200,
+    "name":  "Dollie Henderson v. State",
+    "name_abbreviation":  "Henderson v. State",
+    "decision_date":  "1958-12-17",
+    "docket_number":  "No. 30,158",
+    "first_page":  "112",
+    "last_page":  "115",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 112"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "271 S.W. 2d 945",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10209737
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/271/0945-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "160 Texas Cr. Rep. 483",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2469974
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/160/0483-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "245 S.W. 2d 254",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10193749,
+                                          10193679
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/245/0254-02",
+                                            "/sw2d/245/0254-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "156 Texas Cr. Rep. 601",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2581698
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/156/0601-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "187 S.W. 481",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8248225,
+                                          8248179
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/187/0481-02",
+                                            "/sw/187/0481-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "79 Texas Cr. Rep. 605",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4725830
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/79/0605-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "6 S.W. 2d 353",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10286761
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/6/0353-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "109 Texas Cr. Rep. 474",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5152066
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/109/0474-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "29 S.W. 780",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  1
+                     },
+                     {
+                         "cite":  "34 Texas Cr. Rep. 144",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4483653
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/34/0144-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "300 S.W. 56",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10289705
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw/300/0056-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "108 Texas Cr. Rep. 169",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5142213
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/108/0169-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "176 S.W. 2d 955",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10224520
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/176/0955-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "146 Texas Cr. Rep. 582",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5298801
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/146/0582-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  293,
+                     "char_count":  4749,
+                     "ocr_confidence":  0.587,
+                     "pagerank":  {
+                                      "raw":  2.0475667843469531E-07,
+                                      "percentile":  0.7549851361990603
+                                  },
+                     "sha256":  "fce4087b1fc55a48a2f2e09b260918d78435d26d0678a28e65e35914abddb478",
+                     "simhash":  "1:57675c3561c3c3fc",
+                     "word_count":  811
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Dollie Henderson v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DICE, Judge.\nUpon a trial before the court without a jury, appellant was convicted as a second offender of the offense of unlawfully possessing policy paraphernalia and his punishment assessed at confinement in jail for 30 days.\nIn view of our disposition of the case a recitation of the facts is deemed unnecessary other than to observe that the state offered evidence in support of the allegations in both counts of the information which charged appellant with commission of the primary offense and with having been previously convicted of an offense of like character.\nThe punishment prescribed by Art. 642 Y.A.P.C., Sec. 2 for the offense of unlawfully possessing policy paraphernalia is “by fine of not less than One Hundred Dollars ($100) nor more than One Thousand Dollars ($1,000), or by imprisonment in the County jail for not less than thirty (30) days nor more than one (1) year, or by both such fine and imprisonment.”\nArt. 61 V.A.P.C. provides that “If it be shown on the trial of a misdemeanor that the defendant has been once before convicted of the same offense, he shall on a second conviction receive double the punishment prescribed for such offense in ordinary cases * *\nUnder these statutes the minimum jail time which could be assessed appellant as punishment upon his conviction as a second offender was imprisonment in the county jail for sixty (60) days.\nThe punishment assessed by the court of thirty (30) days in jail was below the minimum.\nIt has been held that the punishment assessed must always be within the minimum and maximum fixed by law and that on appeal a judgment assessing punishment less than the minimum provided by law will be reversed. Rutherford v. State, 79 Texas Cr. Rep. 605, 187 S.W. 481; Simmons v. State, 156 Texas Cr. Rep. 601, 245 S.W. 2d 254, and Ex Parte Stewart, 160 Texas Cr. Rep. 483, 271 S.W. 2d 945.\nFor the reason stated the judgment is reversed and the cause remanded.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "DICE, Judge."
+                                      },
+                                      {
+                                          "text":  "WOODLEY, Judge,\n(dissenting).\nThe complaint and information alleged the possession of policy paraphernalia on or about January 28, 1958, and further alleged that appellant, prior to the commission of said offense, had been previously convicted of possession of policy paraphernalia on July 15, 1957, in Cause No. 121426 in County Court at Law No. 3 of Harris County.\nTrial was to the court without a jury on a plea of not guilty, and resulted in the pronouncement and entry of judgment reading in part as follows:\n“The Court having heard the Information read and evidence submitted, finds the defendant guilty of unlawful possession of policy paraphernalia as charged as a second offender a misdemeanor, and assesses the punishment at confinement in jail for 30 days.\n“It is, therefore, considered, ordered and adjudged by the Court that the Defendant Dollie Henderson is guilty of the offense of unlawful possession of policy paraphernalia charged as a second offender a misdemeanor, as charged, * *\nIt will be noted that the trial judge made no specific finding that appellant had been previously convicted of the prior offense set out in the information. He simply returned a general judgment of guilty as charged in the information.\nThe same rule applies to such a judgment as applies to a general verdict by the jury. This court may apply such a verdict or judgment to any good count which finds sufficient support in the evidence. Taubert v. State, 146 Texas Cr. Rep. 582, 176 S.W. 2d 955; Briggs v. State, 108 Texas Cr. Rep. 169, 300 S.W. 56; Southern v. State, 34 Texas Cr. Rep. 144, 29 S.W. 780; Brunk v. State, 109 Texas Cr. Rep. 474, 6 S.W. 2d 353.\nBrunk v. State, supra, was a trial before the court. The information was in two counts, one charging the running of a tent show without a permit, and the other alleging that the tent show was run within 300 feet of certain business houses, both being-violations of a city ordinance. The judgment found Brunk guilty and assessed a fine of $110. This court held that the judgment could be applied to either count.\nIt is true that the allegation of a prior conviction for the purpose of enhancement of the punishment is not a separate “count” in an information or indictment, and it is equally true that the prior conviction does not change the primary oifense to some other oifense.\nHowever, if a judgment finding the defendant guilty of several offenses charged in separate counts of the information may be applied to one of such offenses, thus rejecting the finding on other counts, no reason appears why the judgment above quoted should not be applied to the primary offense.",
+                                          "type":  "dissent",
+                                          "author":  "WOODLEY, Judge,"
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "John Cutler, Houston, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Dollie Henderson v. State.\nNo. 30,158.\nDecember 17, 1958.\nJohn Cutler, Houston, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1400-01",
+    "first_page_order":  130,
+    "last_page_order":  133
+}

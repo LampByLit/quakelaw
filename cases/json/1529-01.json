@@ -1,0 +1,70 @@
+﻿{
+    "id":  8549718,
+    "name":  "William Hubbard v. State",
+    "name_abbreviation":  "Hubbard v. State",
+    "decision_date":  "1959-02-11",
+    "docket_number":  "No. 30,426",
+    "first_page":  "379",
+    "last_page":  "381",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 379"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  270,
+                     "char_count":  4254,
+                     "ocr_confidence":  0.576,
+                     "pagerank":  {
+                                      "raw":  1.4958196854378177E-07,
+                                      "percentile":  0.663858201771609
+                                  },
+                     "sha256":  "ea024d856193cb1407cf9c1cfe140fce328ccfa4b1f25268b76139bc47a44472",
+                     "simhash":  "1:250bc8f44cec6702",
+                     "word_count":  732
+                 },
+    "last_updated":  "2023-07-14T16:09:04.443318+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "William Hubbard v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nThe offense is negligent homicide of the second degree; the punishment, a fine of $500.\nCount 2 of the information alleged that appellant was engaged in the unlawful act of driving a truck on Wayne Street in a residential district of Houston at a greater speed than thirty miles per hour, an unlawful, imprudent and unreasonable speed. The information in Count 2 further alleged that while “engaged in said unlawful rate of speed” appellant caused the death of Pedro Ramirez, an occupant of an automobile “traveling on another public street and highway known as Engleford Street, by then and there negligently causing and permitting said truck driven by said defendant to collide with said automobile which was then and there occupied by the said Pedro Ramirez, * * *” thereby inflicting injuries which caused his death.\nAppellant, the evidence shows, was a truck driver for Parcel Service, Incorporated, and was driving a panel truck making deliveries on his regular route.\nWhile traveling south on Wayne Street at a speed of about thirty-five miles per hour, he approached the intersection of Wayne Street and Engleford Street. An automobile in which Pedro Ramirez was a passenger, and which was being driven by James Jackson, approached the intersection from the east.\nA collision occurred in the intersection and when the car came to rest it was headed in the general direction from which it came, in the ditch at the southwest corner of the intersection. The truck went across the ditch and onto the embankment and was lying on its left side.\nRamirez was thrown from the car and received injuries which caused his death at the scene of the collision. Appellant’s neck was broken.\nJames Jackson, called by the state, testified that as he entered the intersection, intending to make a left turn on to Wayne Street, he slowed down; signaled with his band for a left turn; looked both ways but did not see anything coming; that he made a left turn and headed south and the truck, traveling south on Wayne and driven by appellant, struck his rear right fender; that he never did see the truck before the collision, and could not say who entered the intersection first. “I never did see the truck. I just drove up there looking, I didn’t see anything, so I made my turn.”\nPictures of the truck and car and the testimony of other witnesses for the state reveal that the truck which appellant was driving was struck on the left side by the right front of the automobile in which the deceased was a passenger. Jackson, confronted with the pictures showing the damaged front end of his automobile, said: “I was hit there too, but I was hit here first.”\nThe question presented is whether the fact that appellant was driving the panel truck at a speed of thirty-five miles per hour in a thirty mile per hour zone at the time of the collision is sufficient to sustain his conviction for having caused the death of Ramirez.\nAppellant directs attention to Art. 1236 P.C. relating to negligent homicide which provides: “The homicide must be the consequence of the act done or attempted to be done.”\nAs we read the record the state proved that appellant was engaged in the unlawful act of driving the panel truck at a speed of more than thirty miles per hour when an automobile entered the intersection, made a left turn and ran into the side of the panel truck causing it to turn over and resulting in the death of a passenger in the car. There is nothing in the record to suggest that the collision would not have occurred with the same results had the truck been traveling at thirty miles per hour instead of thirty-five. No other negligent act or omission on the part of appellant is shown save excessive speed.\nWe do not pass upon the rights of anyone damaged by the collision in a civil action. We do find that the facts stated are insufficient to sustain the conviction of the truck driver for negligent homicide.\nThe judgment is reversed and the cause remanded.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Martin \u0026 Shoivn, by James J. Shown, Houston, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White, Monroe Northrop, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "William Hubbard v. State.\nNo. 30,426.\nFebruary 11, 1959.\nMartin \u0026 Shoivn, by James J. Shown, Houston, for appellant.\nDan Walton, District Attorney, Thomas D. White, Monroe Northrop, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1529-01",
+    "first_page_order":  397,
+    "last_page_order":  399
+}

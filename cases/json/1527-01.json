@@ -1,0 +1,70 @@
+﻿{
+    "id":  8549657,
+    "name":  "Ex Parte Michael H. Fitzpatrick",
+    "name_abbreviation":  "Ex parte Fitzpatrick",
+    "decision_date":  "1959-02-11",
+    "docket_number":  "No. 30,545",
+    "first_page":  "376",
+    "last_page":  "377",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 376"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  114,
+                     "char_count":  1183,
+                     "ocr_confidence":  0.562,
+                     "pagerank":  {
+                                      "raw":  1.2263261825296372E-07,
+                                      "percentile":  0.6046499236055848
+                                  },
+                     "sha256":  "47300e9456477217b4db56de06ea043d9d99c38b560cd0cfbbf53810873cf635",
+                     "simhash":  "1:481f5d9e6dac0ac7",
+                     "word_count":  197
+                 },
+    "last_updated":  "2023-07-14T16:09:04.443318+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte Michael H. Fitzpatrick."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nThe application by telegram for writ of habeas corpus alleged that relator was unlawfully restrained of his liberty under a show cause order in contempt issued by a corporation court judge.\nThe application was set for hearing before this court and relator was released upon bond.\nNo reason appears why a district judge in Potter or Randall County cannot hear the matter and grant such relief as relator may show himself entitled to.\nWhile this court has original jurisdiction to grant the writ of habeas corpus, we do so in cases such as this only when the relator has been unsuccessful in obtaining relief from a trial judge having similar jurisdiction.\nThe writ of habeas corpus will issue, returnable before Hon. E. E. Jordan, Judge of the 47th Judicial District of Texas, at the courthouse in Amarillo, Texas, instanter. Judge Jordan or any district judge designated by him will hear the evidence and render judgment the same as though the writ had been issued by the trial judge hearing the evidence.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Walter P. Wolfram, Amarillo, for relator.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte Michael H. Fitzpatrick.\nNo. 30,545.\nFebruary 11, 1959.\nWalter P. Wolfram, Amarillo, for relator.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1527-01",
+    "first_page_order":  394,
+    "last_page_order":  395
+}

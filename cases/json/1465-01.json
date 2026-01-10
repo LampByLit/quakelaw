@@ -1,0 +1,141 @@
+﻿{
+    "id":  8547859,
+    "name":  "Johnie (Son) Cooper v. State",
+    "name_abbreviation":  "Cooper v. State",
+    "decision_date":  "1959-01-14",
+    "docket_number":  "No. 30,309",
+    "first_page":  "205",
+    "last_page":  "206",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 205"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "169 S.W. 2d 181",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10202883
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/169/0181-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "145 Texas Cr. Rep. 460",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5292461
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/145/0460-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "206 S.W. 2d 1011",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10215906
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/206/1011-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "151 Texas Cr. Rep. 301",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2598765
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/151/0301-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "317 S.W. 2d 743",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10176579
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/317/0743-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "167 Texas Cr. Rep. 51",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          8546754
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/167/0051-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  90,
+                     "char_count":  776,
+                     "ocr_confidence":  0.59,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.20584636401581713
+                                  },
+                     "sha256":  "f7cadebb8075c17a994fcc09fc2c02dded1b9730f52a6a6d5dab16e7326e67cf",
+                     "simhash":  "1:3c7e0cee79ecdbef",
+                     "word_count":  141
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Johnie (Son) Cooper v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is the sale of whiskey in a dry area; the punishment, a fine of $200.00.\nAppellant plead guilty before the court without the intervention of a jury and cannot now be heard to complain that the state failed to prove the dry status of the area where the sale was made. A plea of guilty in a misdemeanor case admits the truth of each material averment in the information. Hunt v. State, 167 Texas Cr. Rep. 51, 317 S.W. 2d 743; Hinojosa v. State, 151 Texas Cr. Rep. 301, 206 S.W. 2d 1011; and Ex parte Clinnard, 145 Texas Cr. Rep. 460, 169 S.W. 2d 181.\nThe judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "No attorney for appellant of record on appeal.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Johnie (Son) Cooper v. State.\nNo. 30,309.\nJanuary 14, 1959.\nNo attorney for appellant of record on appeal.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1465-01",
+    "first_page_order":  223,
+    "last_page_order":  224
+}

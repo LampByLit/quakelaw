@@ -1,0 +1,144 @@
+﻿{
+    "id":  8546633,
+    "name":  "Travis Beneford Fance v. State",
+    "name_abbreviation":  "Fance v. State",
+    "decision_date":  "1958-11-19",
+    "docket_number":  "No. 30,073",
+    "first_page":  "32",
+    "last_page":  "34",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 32"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "353 U.S. 53",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          6159521
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/353/0053-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "219 S.W. 2d 467",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10200435
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/219/0467-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "153 Texas Cr. Rep. 242",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2586840
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/153/0242-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "177 S.W. 2d 970",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10224027,
+                                          10223988
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/177/0970-02",
+                                            "/sw2d/177/0970-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "147 Texas Cr. Rep. 6",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5299479
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/147/0006-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "322 S.W. 2d 260",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10161658
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/322/0260-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  283,
+                     "char_count":  3257,
+                     "ocr_confidence":  0.598,
+                     "pagerank":  {
+                                      "raw":  1.2682733345460517E-07,
+                                      "percentile":  0.6140686194446086
+                                  },
+                     "sha256":  "2f4be666d77c6b1d41f2c9153d4bc2438b9b7d196be9c7eabdeef27c74a6b1e6",
+                     "simhash":  "1:f13edab641a403f3",
+                     "word_count":  568
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Travis Beneford Fance v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is possession of policy paraphernalia; the punishment, 30 days in jail and a fine of $200.00.\nOfficer Bond of the vice squad of the Houston police department testified that on the day in question he was waiting on the Freeway in Houston when a 1957 orange and white Ford bear-mg’ Texas license RZ 4426 passed, that he had received information that such an automobile would be proceeding over this same roadway while in the act of transferring policy paraphernalia to the city of Dickinson, and that he gave chase. He stated that he pursued the Ford at a speed of approximately 90 miles per hour, during which time he observed it “whipping in and out of traffic,” that when he overtook the Ford he observed on the seat beside the appellant, who was traveling in the Ford alone, a sack which was shown to contain 36 policy plays from book 38, 49 policy plays from book 18, 30 policy plays from book 36, and 34 policy plays from book 27, all from T \u0026 L policy company, and $21.37 in money.\nAppellant did not testify or offer any evidence in his own behalf. We shall discuss the contentions advanced in brief and argument.\nHe first asserts that Article 642c, section 2, V.A.P.C., is unconstitutional. Such contention was decided adversely to appellant in Lee v. State, (page 608, this volume), 322 S.W. 2d 260, as was his contention that the information was defective in that the policy plays themselves were not set out therein haec verba.\nHe next contends that the court erred in permitting the state to introduce into evidence the money which was in the bags with the policy plays because the information did not charge the accused with the possession of money. We must necessarily hold the entire contents of the bag including the policy plays were admissible. The money could have been evidence only that the “slips of paper” which constitute the policy plays were what the state asserted them to be.\nHe further asserts that his arrest and the seizure of the bag on the automobile seat were unauthorized in the absence of a warrant in the hands of the arresting officer. It has been the consistent holding of this court that an automobile may be searched upon probable cause. Irwin v. State, 147 Texas Cr. Rep. 6, 177 S.W. 2d 970, and cases there cited. Here, we hold that information which the officer had received plus the traffic violations which he observed the appellant commit clearly authorized the appellant’s arrest. The mere fact that the appellant had gotten out of the city of Houston before he was arrested would not affect the officer’s duty to continue to pursue and arrest him. Minor v. State, 153 Texas Cr. Rep. 242, 219 S.W. 2d 467.\nWe do not construe the holding- of the Supreme Court of the United States in Roviaro v. U.S., 353 U.S. 53, 77 St. St. 623, 1 L. Ed. 2d 639, as holding that in all state court cases the name of the informer shall be supplied.\nFinding no reversible error, the judgment of the trial court is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "John Cutler, Houston, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White and Donald Stillwell, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Travis Beneford Fance v. State.\nNo. 30,073.\nNovember 19, 1958.\nJohn Cutler, Houston, for appellant.\nDan Walton, District Attorney, Thomas D. White and Donald Stillwell, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1328-01",
+    "first_page_order":  50,
+    "last_page_order":  52
+}

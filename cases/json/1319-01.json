@@ -1,0 +1,88 @@
+﻿{
+    "id":  2020861,
+    "name":  "MENDOZA v. STATE OF FLORIDA",
+    "name_abbreviation":  "Mendoza v. State",
+    "decision_date":  "1991-07-25",
+    "docket_number":  "Case No. 90-15427 (Lower Court Case No. 89-13733)",
+    "first_page":  "25",
+    "last_page":  "26",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 25"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "570 So.2d 322",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7495937
+                                      ],
+                         "year":  1990,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "336-337"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/570/0322-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  238,
+                     "char_count":  3080,
+                     "ocr_confidence":  0.848,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07304421995259183
+                                  },
+                     "sha256":  "5423c4b05e0894584f8a3114d1b2d10ed98ce605e4cd847c0b9f02ed79ee9639",
+                     "simhash":  "1:03dad64cbb088fa4",
+                     "word_count":  498
+                 },
+    "last_updated":  "2024-02-27T22:50:07.903550+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before LAZZARA, J."
+                                ],
+                     "parties":  [
+                                     "MENDOZA v STATE OF FLORIDA"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\n(Lazzara, J.)\nThe Appellant was charged in a seven count information with committing child abuse in violation of § 827.04(2), Fla. Stat. (1989). After a nonjury trial she was found not guilty as to Count I and guilty as to the remaining counts. She now complains that the trial court erred in finding her guilty. This Court agrees.\nAs to the convictions predicated on Counts II, IV, V, VI, and VII, the Appellee specifically alleged that the Appellant committed acts of child abuse as to certain named children. Although there is a passing reference in the record to the presence of children before the trial court, the Appellee at no time offered any proof, much less proof beyond a reasonable doubt, to sustain its allegations that the Appellant committed acts of child abuse as to these specifically alleged children.\nAs to Count III, the alleged victim of child abuse did testify. His testimony, as well as the testimony of the only other witness to testify for the Appellee (the Appellant’s daughter), established that the Appellant left her children with her daughter, told her daughter she would return in five minutes, but instead returned several days later with a boyfriend in a somewhat intoxicated condition. When the Appellant requested her children be returned to her, her daughter refused because the Appellant had no place to take the children. The Appellant then called the police.\nThe Court finds that this evidence is insufficient to sustain the trial court’s findings of guilt. That is, there is no evidence establishing that the Appellant acted in a willful, knowing, or culpably negligent manner which is required to sustain a conviction under this statute. See Hermanson v State, 570 So.2d 322, 336-337 (Fla. 2nd DCA 1990). Although the Appellant may have acted irresponsibly by leaving her children with her daughter for a longer period than she said she would, there is absolutely no evidence to suggest that in doing so any of her children were deprived of “necessary food, clothing, shelter or medical treatment” during her absence nor that during her absence she inflicted or permitted the infliction “of physical or mental injury” of her children.\nAccordingly, for the reasons expressed, the Appellant’s convictions are reversed and this cause is remanded to the trial court with instructions to discharge the Appellant.\nReversed and remanded with directions to discharge Appellant.\nEven had the Appellee established the identities and ages of the children alleged in Counts II, IV, V, VI, and VII, Appellant’s convictions as to these counts still could not be sustained based on this insufficiency of the evidence to establish gross or flagrant conduct evincing a reckless disregard for the health and safety of these children.",
+                                          "type":  "majority",
+                                          "author":  "(Lazzara, J.)"
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Daniel R. Kirkwood, Assistant Public Defender, for appellant.",
+                                       "Detria J. Liles, Assistant State Attorney, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "MENDOZA v STATE OF FLORIDA\nCase No. 90-15427 (Lower Court Case No. 89-13733)\nThirteenth Judicial Circuit, Hillsborough County\nJuly 25, 1991\nAPPEARANCES OF COUNSEL\nDaniel R. Kirkwood, Assistant Public Defender, for appellant.\nDetria J. Liles, Assistant State Attorney, for appellee.\nBefore LAZZARA, J."
+                 },
+    "file_name":  "1319-01",
+    "first_page_order":  43,
+    "last_page_order":  44
+}

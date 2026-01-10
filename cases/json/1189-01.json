@@ -1,0 +1,71 @@
+﻿{
+    "id":  4562183,
+    "name":  "Bob Smith v. The State",
+    "name_abbreviation":  "Smith v. State",
+    "decision_date":  "1908-01-15",
+    "docket_number":  "No. 4020",
+    "first_page":  "357",
+    "last_page":  "359",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 357"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "19 S. W. Rep., 353",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  239,
+                     "char_count":  3778,
+                     "ocr_confidence":  0.544,
+                     "sha256":  "ae9087ee982e014a08b74e9a5cc2b06917a95b1a38cef61c9d4e087dd0b7ebb9",
+                     "simhash":  "1:141a350ca0251c13",
+                     "word_count":  661
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Bob Smith v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "RAMSEY, Judge.—\nAppellant was charged by affidavit and information with opening a saloon in the City of Dallas on election day, and was convicted of the offense charged.\nThe only question worthy of consideration is as to whether the court erred in admitting in evidence, over objection of appellant, presented by proper bill, a liquor dealer’s bond issued to R. H. Smith in the absence of proof that R. H. Smith and Bob Smith were one and the same person. The testimony against appellant depended almost entirely upon the evidence of one Erastus Y. Boyle, the prosecuting witness, who testified substantially as. follows:\n“My name is Erastus Y. Boyle. I know Bob Smith, the defendant in this case. I never seen him to know him until the 31st of May, 1907. There was an election being held on that day for city offices. Bob Smith is engaged in the saloon business. His place of business was about 139 South Houston Street. I was in Bob Smith’s place of business on election day. I went in by the front door. I seen Bob Smith and two other men in Bob Smith’s saloon on that day. They were standing in the saloon talking. This occurred in Dallas County, State of Texas. Before going into the saloon I saw several men going in and out of the restaurant; whether they went into the saloon or not I do not know.”\nThe effect of this evidence was to affirm most unequivocally that the witness knew the appellant, Bob Smith, and that said Bob Smith was engaged in the saloon business in Dallas, and that his saloon was open, and that he was in it on election day. Under this condition of proof and under these facts, if it be conceded that it was error to admit the bond, it was immaterial. The information was drawn and conviction had under article 185, Penal Code, and all the State was required to prove was that defendant was engaged in the saloon business, and that the same was open by or Under the direction of appellant. This made out a case. It was not necessary for the State to show that the accused sold, gave away or offered to sell intoxicating liquors. See Crowell v. State, 35 Texas Crim. App., 596.\nThere is no error in the record that could, in our opinion, have prejudiced or did prejudice the appellant, and the judgment of the court below is therefore affirmed.\nAffirmed.\n[Motion for rehearing overruled without written opinion.—Reporter.]",
+                                          "type":  "majority",
+                                          "author":  "RAMSEY, Judge.—"
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "B. J. Micenheimer and A. S. Baskett, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Bob Smith v. The State.\nNo. 4020.\nDecided January 15, 1908.\n1. —Keeping Open Saloon on Election Day—Identity of Defendant.\nWhere upon trial for unlawfully keeping open saloon on election day, the evidence showed that the State’s witness knew the .defendant Bob Smith: that the latter was engaged in the saloon business; that defendant’s saloon was open on election day, and he was in it, the introduction of a liquor dealer’s bond issued to R. H. Smith, the defendant being charged in the information as Bob Smith, the same if error was immaterial. •\n2. —Same—Statutes Construed.\nUnder an information drawn under article 185, Penal Code, a conviction is sustained where the proof showed that defendant was engaged in the saloon business, and that the saloon was open on election day, by or under the direction of defendant; and it was not necessary to prove that the defendant sold, gave away or offered to sell intoxicating liquors. Following Crowell, 25 Texas Crim. App., 596.\nAppeal from the County Court of Dallas. Tried below before the Hon. Hiram F. Lively.\nAppeal from a conviction of unlawfully keeping open his saloon on election day; penalty, a fine of $100.\nThe opinion states the case.\nB. J. Micenheimer and A. S. Baskett, for appellant.\n—Upon question of insufficieppy of the evidence and insufficiency of information: Patton v. State, 19 S. W. Rep., 353.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1189-01",
+    "first_page_order":  375,
+    "last_page_order":  377
+}

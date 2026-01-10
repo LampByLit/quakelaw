@@ -1,0 +1,165 @@
+﻿{
+    "id":  2021291,
+    "name":  "GARCIA v. RUIZ",
+    "name_abbreviation":  "Garcia v. Ruiz",
+    "decision_date":  "1991-09-20",
+    "docket_number":  "Case No. 91-14306 CC 05",
+    "first_page":  "176",
+    "last_page":  "177",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 176"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Dade Cty. Ct.",
+                  "id":  14243,
+                  "name":  "Dade County Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "14306 CC 05",
+                         "category":  "reporters:state",
+                         "reporter":  "Cole. Cas.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "492 So. 2d 686",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7583790
+                                      ],
+                         "year":  1986,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/492/0686-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "16 Fla. Supp. 2d 86",
+                         "category":  "reporters:state",
+                         "reporter":  "Fla. Supp. 2d",
+                         "case_ids":  [
+                                          2029322
+                                      ],
+                         "year":  1986,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/fla-supp-2d/16/0086-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "34 Fla. Supp. 2d 117",
+                         "category":  "reporters:state",
+                         "reporter":  "Fla. Supp. 2d",
+                         "case_ids":  [
+                                          2032198
+                                      ],
+                         "year":  1989,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/fla-supp-2d/34/0117-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "39 Fla. Supp. 2d 216",
+                         "category":  "reporters:state",
+                         "reporter":  "Fla. Supp. 2d",
+                         "case_ids":  [
+                                          2015933
+                                      ],
+                         "weight":  2,
+                         "year":  1990,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "217"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/fla-supp-2d/39/0216-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "480 So. 2d 219",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7590660
+                                      ],
+                         "year":  1985,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/480/0219-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "426 So. 2d 958",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9537503
+                                      ],
+                         "year":  1983,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "961"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/426/0958-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  235,
+                     "char_count":  2959,
+                     "ocr_confidence":  0.912,
+                     "pagerank":  {
+                                      "raw":  5.12982294956584E-08,
+                                      "percentile":  0.3223033466429896
+                                  },
+                     "sha256":  "43f37937c87e50975ef165a9ba9265f213dc9ecbef2a51a4ae357c1cd40a649c",
+                     "simhash":  "1:b38e13e16b47b389",
+                     "word_count":  496
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "GARCIA v RUIZ"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nJOAN A. LENARD, County Judge.\nORDER ON DEFENDANTS MOTION TO DISMISS\nThis cause is before the Court on defendant’s motion to dismiss and the Court having held a hearing on September 11, 1991 and being fully advised in the premises hereby rules as follows:\nA statutory cause of action cannot be commenced until the plaintiff has complied with all conditions precedent. Ferry-Morse Seed Co. v Hitchcock, 426 So. 2d 958, 961 (Fla. 1983). A necessary precondition to an action for possession under the Residential Landlord Tenant Act, Chapter 83, Part II Fla. Stat. (“Act”), is service by the landlord on the tenant of a proper notice terminating the tenancy. Investment and Income Realty, Inc. v Bentley, 480 So. 2d 219 (5th DCA 1985); Metropolitan Dade County v Dansey, 39 Fla. Supp. 2d 216 (Dade Co. 1990).\nIn the present case the three day notice for nonpayment of rent served on the defendant and attached to the complaint is deficient for two independent reasons. First, the notice fails to state specifically the date by which the defendant was required to tender rent or vacate as required by § 83.56(3), Fla. Stat. Dansey, 39 Fla. Supp. 2d at 217; Cummings v Giles, 34 Fla. Supp. 2d 117 (Broward Co. 1989). Second, the notice fails to advise the defendant that the three day period excludes Saturdays, Sundays and legal holidays as required by § 83.56(3), Fla. Stat. Johnson v Kallioinen, 16 Fla. Supp. 2d 86 (15th Cir. 1986).\nPlaintiff argued at the hearing that defendant’s motion should not be granted because the defendant was not prejudiced by plaintiffs deficient notice. This argument is inapplicable because “prejudice” or “harm” to the defendant is an incorrect standard to apply in the present case. The requirement of proper notice as a necessary precondition to an eviction action is a jurisdictional one. It is irrelevant to this determination whether and to what extent the defendant was harmed or prejudiced by the deficient notice of termination. If the notice was not proper the court simply has no jurisdiction.\nThe complaint will be dismissed without prejudice and plaintiff will be allowed to file a new case upon meeting the necessary preconditions to a statutory action under § 83.56, Fla. Stat. This must be a new action, not an amended complaint in the present action. See Rolling Oaks Homeowner’s Association v Dade County, 492 So. 2d 686 (3d DCA 1986).\nIt is therefore ORDERED AND ADJUDGED as follows:\n1. This case be and the same is hereby DISMISSED without prejudice but without leave to amend.\n2. The Court retains jurisdiction to entertain a motion for attorney’s fees and costs.\nORDERED AND ADJUDGED in Chambers at Miami, Dade County, Florida this 20th day of September, 1991.",
+                                          "type":  "majority",
+                                          "author":  "JOAN A. LENARD, County Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Robert Wayne, Esquire, for plaintiff.",
+                                       "Daniel W. Barkley, Esquire, Legal Services of Greater Miami, Inc., for defendant."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "GARCIA v RUIZ\nCase No. 91-14306 CC 05\nCounty Court, Dade County\nSeptember 20, 1991\nAPPEARANCES OF COUNSEL\nRobert Wayne, Esquire, for plaintiff.\nDaniel W. Barkley, Esquire, Legal Services of Greater Miami, Inc., for defendant."
+                 },
+    "file_name":  "1443-01",
+    "first_page_order":  196,
+    "last_page_order":  197
+}

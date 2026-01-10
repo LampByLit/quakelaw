@@ -1,0 +1,70 @@
+﻿{
+    "id":  4565737,
+    "name":  "Katie May Brooks v. The State",
+    "name_abbreviation":  "Brooks v. State",
+    "decision_date":  "1908-01-29",
+    "docket_number":  "No. 4262",
+    "first_page":  "417",
+    "last_page":  "418",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 417"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  160,
+                     "char_count":  1841,
+                     "ocr_confidence":  0.618,
+                     "pagerank":  {
+                                      "raw":  8.0211479797491585E-08,
+                                      "percentile":  0.4647450488426159
+                                  },
+                     "sha256":  "582d2b03216d91a6b790ccfd7308ae2c136abc16d05bf2a88d01380266bd7dc3",
+                     "simhash":  "1:129cbf94502491a8",
+                     "word_count":  316
+                 },
+    "last_updated":  "2023-07-14T19:59:32.944253+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Katie May Brooks v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\nAppellant was convicted of carrying a pistol on and about her person. The evidence, in substance without repeating it verbatim, shows that appellant had been assaulted by her husband a time or two, for one of which assaults she had him arrested ; that fearing another assault from her husband she went to a neighbor’s a few blocks away from her residence and borrowed a pistol, carried it, in her hand under her apron and on the street, home. That in passing a business house she showed the pistol to the witness Hamilton, remarking, practically, that she intended to defend herself. An officer observed and followed her, and just as she got in front of her home arrested her and took the pistol. She stated to the officer at the time that she had borrowed it for the purpose stated. In substance, this is the case. We are of opinion this evidence is not sufficient to show a violation of the law. Under all of our decisions, a party would be justified in buying a pistol and carrying it home, and certainly the right would be none the less to borrow the same weapon and carry it home. We, therefore, conclude that this conviction should be set aside, as it is not supported by the facts.\nThe judgment is reversed and the cause is remanded.\nReversed and remanded.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Parker \u0026 Parker, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Katie May Brooks v. The State.\nNo. 4262.\nDecided January 29, 1908.\nCarrying Pistol—Innocent Intention.\nWhere upon trial for unlawfully carrying a pistol, the evidence showed that the defendant borrowed the pistol and carried it home, the conviction could not be sustained.\nAppeal from the County Court of Tarrant. Tried below before the Hon. John L. Terrell.\nAppeal from a conviction of unlawfully carrying a pistol; penalty, $300.\nThe opinion states the case.\nParker \u0026 Parker, for appellant.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1209-01",
+    "first_page_order":  435,
+    "last_page_order":  436
+}

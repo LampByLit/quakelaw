@@ -1,0 +1,93 @@
+﻿{
+    "id":  8549529,
+    "name":  "Erwin Brown v. State",
+    "name_abbreviation":  "Brown v. State",
+    "decision_date":  "1959-02-11",
+    "docket_number":  "No. 30,272",
+    "first_page":  "351",
+    "last_page":  "352",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 351"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "297 S.W. 2d 847",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10183047
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/297/0847-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 172",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2607102
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0172-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  126,
+                     "char_count":  1226,
+                     "ocr_confidence":  0.602,
+                     "pagerank":  {
+                                      "raw":  5.5276465409424152E-08,
+                                      "percentile":  0.34793881805464333
+                                  },
+                     "sha256":  "a81c5d4e4cf04e211c2c5c12da013ac5f2adcc51e4fcbf493011c2f549eebbbb",
+                     "simhash":  "1:ddf38892680c27a8",
+                     "word_count":  201
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Erwin Brown v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BELCHER, Judge.\nAppellant was convicted under Art. 527, Vernon’s Ann. P.C., of the offense of engaging in the showing and exhibition of lewd and lascivious motion pictures entitled “Eiffel” and his punishment assessed at 45 days in jail and a fine of $500.\nThe sufficiency of the evidence in the record before this court to sustain the conviction is challenged.\nThe statement of facts fails to contain any evidence showing that the motion pictures entitled “Eiffel,” on which the state relies for a conviction, were lewd and lascivious. The testimony reveals that said pictures were shown to the jury during the trial. However, none of the pictures are brought forward in the record and there is no testimony describing what they showed or portrayed.\nThe evidence is insufficient to support the conviction. Campbell v. State, 164 Texas Cr. Rep. 172, 297 S.W. 2d 847.\nThe judgment is reversed and the cause is remanded.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "BELCHER, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Jas. B. Turner and W. E. Martin, Houston, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White and David A. Gibson, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Erwin Brown v. State.\nNo. 30,272.\nFebruary 11, 1959.\nJas. B. Turner and W. E. Martin, Houston, for appellant.\nDan Walton, District Attorney, Thomas D. White and David A. Gibson, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1523-01",
+    "first_page_order":  369,
+    "last_page_order":  370
+}

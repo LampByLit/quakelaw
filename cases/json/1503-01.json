@@ -1,0 +1,567 @@
+﻿{
+    "id":  8548875,
+    "name":  "Johnie Hue Johnson v. State",
+    "name_abbreviation":  "Johnson v. State",
+    "decision_date":  "1958-12-17",
+    "docket_number":  "No. 30,162",
+    "first_page":  "289",
+    "last_page":  "300",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 289"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "17 S.W. 2d 1069",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10282729
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/17/1069-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "112 Texas Cr. Rep. 524",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5170998
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/112/0524-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "254 S.W. 2d 106",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10193197
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/254/0106-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "158 Texas Cr. Rep. 180",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2479241
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/158/0180-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "248 S.W. 2d 949",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10218759
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/248/0949-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "157 Texas Cr. Rep. 345",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2576914
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/157/0345-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "303 S.W. 2d 412",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10167390
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/303/0412-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "165 Texas Cr. Rep. 120",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2614092
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/165/0120-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "278 S.W. 2d 167",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10180094
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/278/0167-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "161 Texas Cr. Rep. 488",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2468156
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/161/0488-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "287 S.W. 2d 674",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10182716
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/287/0674-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 517",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2462979
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/162/0517-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "346 U.S. 545",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          6931649
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/346/0545-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "234 U.S. 91",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          675086
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/234/0091-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "120 U.S. 68",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          3467854
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/120/0068-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "187 S.W. 2d 575",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10210455
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/187/0575-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "148 Texas Cr. Rep. 372",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2605308,
+                                          2608311
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/148/0372-02",
+                                            "/tex-crim/148/0372-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "7 S.W. 2d 1091",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10288489
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/7/1091-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "110 Texas Cr. Rep. 308",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5155045
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/110/0308-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "171 S.W. 206",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8269873
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/171/0206-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "75 Texas Cr. Rep. 338",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4701335
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/75/0338-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "302 S.W. 2d 431",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10171372
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/302/0431-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "165 Texas Cr. Rep. 44",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2612361
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/165/0044-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "291 S.W. 2d 733",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10180707,
+                                          10180782
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/291/0733-01",
+                                            "/sw2d/291/0733-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 416",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2460713
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0416-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "261 S.W. 2d 706",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10185787
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/261/0706-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "159 Texas Cr. Rep. 175",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2474131
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/159/0175-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "3 S.W. 2d 87",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10280438
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/3/0087-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "109 Texas Cr. Rep. 121",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5150369
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/109/0121-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "244 S.W. 538",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10322908,
+                                          10323164
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw/244/0538-01",
+                                            "/sw/244/0538-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "92 Texas Cr. Rep. 395",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5020691
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/92/0395-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "288 S.W. 2d 77",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10162313
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/288/0077-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 609",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2463078
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/162/0609-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "109 S.W. 2d 352",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10252753
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/109/0352-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "36 S.W. 2d 470",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10263068,
+                                          2305631
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/36/0470-01",
+                                            "/tex/121/0014-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "121 Texas 14",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex.",
+                         "case_ids":  [
+                                          2305631
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex/121/0014-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "150 S.W. 2d 1000",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          2316477,
+                                          11614575
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex/136/0370-01",
+                                            "/sw2d/150/1000-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "136 Texas 370",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex.",
+                         "case_ids":  [
+                                          2316477
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex/136/0370-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "287 S.W. 2d 674",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10182716
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/287/0674-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 517",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2462979
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/162/0517-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  899,
+                     "char_count":  22331,
+                     "ocr_confidence":  0.58,
+                     "pagerank":  {
+                                      "raw":  2.0138480080659902E-07,
+                                      "percentile":  0.7445584665360799
+                                  },
+                     "sha256":  "ad7b24353858ebada5fb2447c50b7a0ab19ff35543447cff4614c8934d15e51f",
+                     "simhash":  "1:073e46a4e60d4a7b",
+                     "word_count":  3968
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Johnie Hue Johnson v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is murder; the punishment, four years.\nThe appellant’s husband was erring in the direction of the deceased, which ired the appellant no end. The sole defense was that the appellant shot the deceased in self defense.\nOne Mitchell testified that the appellant called the deceased over to her automobile and shot her twice. He stated that he saw no weapon in deceased’s hand as she approached the appellant’s automobile.\nEmma Sue Thompson testified that in a conversation with the appellant approximately two hours prior to the shooting the appellant had told her she intended to kill the deceased.\nAppellant, testifying in her own behalf, stated that she had caught her husband in bed with the deceased shortly before the homicide and, with the aid of a broomstick, had forced him to return to his connubial bed. She stated that on one occasion the deceased chased her with a butcher knife and threatened to kill her if necessary in order to get her husband away from her and that similar threats had been communicated to her. She stated that on the day of the homicide the deceased approached her automobile saying, “I told you I was going to take him and I am even if I have to kill you,” and was attempting to get something out of her purse when she shot her.\nThe state introduced that portion of the appellant’s confession which recited that the deceased had never threatened to kill the appellant, and the defense introduced the remainder thereof, which recited the husband trouble and, further, that she called the deceased who came to her automobile and when the deceased “reached in at me * * * I got my gun out of my purse and shot her twice.”\nThe jury resolved the issue of self defense against the appellant, and we shall discuss the questions raised by bills of exception in the order advanced in brief and argument by eminent counsel for the appellant.\nIt is first urged that the trial court erred in not charging the jury in accordance with the terms of Article 1224, V.A.P.C., as to her right to defend against a lesser or milder attack as distinguished from a deadly attack. In Herrera v. State 159 Texas Cr. Rep. 175, 261 S.W. 2d 706, in discussing the necessity of a charge under said article, we said, “It has been the consistent holding of this Court that the attack there referred to has reference to an actual attack; that it does not have reference to, nor is it applicable when the injured party is about to make an attack or is doing some act preparatory to the attack.” See also Montes v. State, 163 Texas Cr. Rep. 416, 291 S.W. 2d 733, and Booker v. State, 165 Texas Cr. Rep. 44, 302 S.W. 2d 431. In the case at bar, the appellant saw no weapon in the possession of the deceased, and the most that may be said of the appellant’s testimony is that the deceased was preparing to make an attack against her and the appellant was afraid that the deceased would kill her. Under such facts, there was no necessity of giving the charge requested.\nAfter the state had rested, the appellant called a witness who testified as to the appellant’s good reputation. When this witness was excused, appellant’s counsel stated, “If the Court please, I would like at this time to state our defense to the jury,” and the court replied, “I believe it is out of order after the beginning of your testimony.”\nWe observe at the outset that there was nothing new, complicated or unusual about appellant’s defense in the case at bar. Both parties were after the same man and were prone to resort to violence to attain their ends.\nReliance is had upon House v. State, 75 Texas Cr. Rep. 338, 171 S.W. 206. In that case the trial judge stated, “I will overrule the plain letter of the statute,” and this court concluded that he himself should be overruled. In the later case of McBride v. State, 110 Texas Cr. Rep. 308, 7 S.W. 2d 1091, we took another look at House and concluded as follows:\n“We are of opinion that, the statute having\u0027 expressly granted to the accused at a certain time, and place in said procedure the right to make the statement, such right, if properly claimed, eannot be arbitrarily denied him. But, to avail himself of such right, he must either assert it in its proper order as laid down in the statute or else show good reason for not so doing.”\nIn the case at bar, there is no explanation made as to why the appellant did not offer to make his opening statement at the time Article 642, Y.A.C.C.P., says it should have been made, and since she has shown no good reason for varying from the terms of the statute, we would not be inclined to reverse a trial judge who insisted that the procedure outlined in the statute be followed. McBride is cited with approval as late as Foster v. State, 148 Texas Cr. Rep. 372, 187 S.W. 2d 575, and we are inclined to follow it, especially in view of the nature of the case and the trial court’s qualification to the bill in which he certifies that appellant’s counsel had already explained to the panel the full nature of the defenses which she expected to prove.\nA request was made for a special venire. This trial was held after the effective date of the amendment of Article 601-A, V.A.C.C.P., in 1957, in a county in which the jury wheel was provided by law. Article 2094, V.A.C.S. The court’s qualification reflects that there had been called a regular panel of 100 jurors and that the jurors were present in the courtroom when appellant’s motion for a special venire was made. We are aware of no constitutional reason why the legislature mig*ht not enact Article 601-A, supra, which has been the law for more than twenty years, why its provisions could not be extended to include counties which do not have cities of certain population, or why the same should not be controlling here, and find no error in the court’s ruling in declining the request.\nThe Supreme Court of the United States, in an opinion by Justice Field in Hayes v. Missouri, 120 U.S. 68, 30 L. ed. 578, 7 Sup. Ct. 350, held that a state statute which provided for 15 peremptory challenges for the state in capital cases in cities having a population of over 100,000, while providing for only 8 challenges elsewhere in the statute, was not unconstitutional. See also Ocampo v. U.S., 234 U.S. 91, 58 L. ed. 1231, 34 Sup. Ct. 712; and Salsburg v. Maryland, 346 U.S. 545, 98 L. ed. 281, 74 Sup. Ct. 280, and the cases there cited.\nMoore v. State, 162 Texas Cr. Rep. 517, 287 S.W. 2d 674, the latest case relied upon by the appellant, was tried before the effective date of the 1957 amendment of Article 601-A, supra.\nA motion for continuance was filed due to the absence of the witness Sara Mae Fisher. No affidavit of said witness was attached to said motion nor to the motion for new trial, and no error is reflected in the action of the court in overruling- the same. Gonzales v. State, 161 Texas Cr. Rep. 488, 278 S.W. 2d 167, and Massoletti v. State, 165 Texas Cr. Rep. 120, 303 S.W. 2d 412.\nNo error is reflected in the action of the court in calling appellant’s case out of numerical order on his docket. Sowers v. State, 157 Texas Cr. Rep. 345, 248 S.W. 2d 949; Article 590, V.A.C.C.P.\nAppellants’ last complaint relates to proof by the state that the deceased was a person of kind and inoffensive disposition. In the relatively recent opinion of this court in Clark v. State, 158 Texas Cr. Rep. 180, 254 S.W. 2d 106, we reaffirmed the rule laid down in Martin v. State, 112 Texas Cr. Rep. 524, 17 S.W. 2d 1069, and held that under the terms of Article 1258, V.A.P.C., the following, but no more, might be proved:\n1. That the deceased was a man of violent or dangerous character.\n2. That the deceased was a man of kind and inoffensive disposition.\n3. That the deceased was a man who might be reasonably expected to execute a threat made.\nThe proof in the case at bar comes well within the statute and the holdings set forth above.\nFinding no reversible error, the judgment of the trial court is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      },
+                                      {
+                                          "text":  "DAVIDSON, Judge\n(dissenting).\nMore constitutional guarantees go here.\nThis appellant may have believed that she was entitled to the equal protection of the law and to the protection of equal laws, as guaranteed by the Constitution of this state and of the United States (Art. 1, Sec. 19, Constitution of Texas, and the Fourteenth Amendment to the Constitution of the United States), but she is not, according to the majority opinion in this case.\nThis appellant may have believed that the legislature of this state could not delegate to a district court the right to suspend a law of this state (Art. 1, Sec. 28, Constitution of Texas), but such is not now true.\nThis appellant may have believed that she was protected against being tried under a special law when a general law was applicable (Art. 3, Sec. 56, Constitution of Texas), but such is not now the case.\nThis appellant may have believed that under the Constitution and laws of this state she was protected by the judiciary of this state against the exercise of arbitrary powers, but she is not so protected.\nAre those statements true? If they are, our Constitution and its guarantees no longer exist. If this court can strike down and destroy the constitutional guarantees in the particulars mentioned, this court and any other court may likewise strike down the other provisions and guarantees contained in the Constitution.\nAppellant was indicted, tried, and convicted of the crime of murder with malice aforethought, which was a capital felony (Art. 47, P.C.).\nA “ ‘special venire’ is a writ issued in a capital case by order of the district court, commanding the sheriff to summon such a number of persons, not less than thirty-six, as the court may order, to appear before the court on a day named in the writ; from whom the jury for the trial of such case is to be selected.” (Art. 587, C.C.P.)\n“At any time after his arrest upon an indictment, the defendant may obtain an order for a special venire upon a written, motion supported by the affidavit of himself or counsel, stating that he expects to be ready for the trial of his case at the present term of the court. The State’s attorney may also obtain such order upon oral or written motion.” (Art. 588, C.C.P.)\nThose statutes mean exactly what they say — which is that one upon trial in a capital case has the right to a special venire from which the jury in the trial of such case is to be selected.\nThose statutes have been upon the statute books of this state ever since our original code was adopted. The legislature has never directly repealed them.\nThe legislature made provision, by statute, for the drawing of special venires generally, and also made special provision applicable in certain counties. Arts. 591 and 592, Vernon’s C.C.P.\nIt was not until 1937 that the legislature attempted to destroy the right of one to demand a special venire in a capital case and to force and require the accused, over his protest, to be tried by a jury not selected from a special venire. In that year, by Chap. 241, Acts of the Regular Session of the 45th Legislature, and appearing as Art. 601-A, Vernon’s C.C.P., the legislature, in counties having a population of 281,500 to 250,000, conferred upon “the Judge of the Court having jurisdiction of a capital case in which a motion for a special venire has been made” the arbitrary right to refuse a special venire in a capital case.\nIn 1949, by Chap. 623, Acts of the Regular Session of the 51st Legislature, Art. 601-A, Vernon’s C.C.P., was amended so as to delete therefrom reference to counties of certain population and make the statute apply to counties having therein a city of 231,500 population as shown by the preceding federal census.\nThe arbitrary right of the district judge in such counties to refuse a special venire was contained in both enactments.\nIn 1957, the legislature, by Chap. 327, Acts of the Regular Session of the 55th Legislature, again amended Art. 601-A, Vernon’s C:C.P., so as to strike therefrom all reference to population and make the provisions thereof applicable in all counties where jurors in civil or criminal cases are drawn from a jury wheel, “where as many as one hundred (100) jurors have been summoned in such county for regular service for the week in which such capital case is set for trial.” In such counties and under such conditions “the Judge of the Court having jurisdiction of a capital case in which a motion for special venire has been made, shall grant or refuse such motion for a special venire and upon such refusal require the case to be tried by regular jurors summoned for service in such county for regular service for the week in which such capital case is set for trial * *\nIt was by virtue of that statute that the trial court arbitrarily refused appellant’s request for a special venire and required her, over her protest, to be tried by a jury selected from the regularly drawn jurors.\nIt is that statute and the trial court’s use thereof and his action thereunder which I say violated appellant’s constitutional rights above mentioned.\nExactly what does Art. 601-A, Vernon’s C.C.P., do, and what construction should be given thereto? In the first instance, the statute does not repeal the law relative to special venires and the right of the accused to a special venire in a capital case, as expressly conferred by Arts. 587 and 588, C.C.P. Those statutes and the rights conferred thereby are left intact and the judge acting under Art. 601-A is perfectly at liberty, if he so chooses, to grant the request for a special venire, as provided in those statutes.\nWe art not, then, dealing here with any question of repeal by the legislature of the right of one upon trial for a capital felony to a special venire. We are here dealing with the right of the legislature to confer upon the district judge the arbitrary power to deny to an accused in jury-wheel counties the right to a special venire in a capital case. Such is the iniquitous thing the statute does, and therein lies the violation to this appellant of the constitutional guaranties mentioned.\nIn actual practice, here is what the legislature has done in the passage of Art. 601-A, Vernon’s C.C.P.: It has said to the. district judges in all jury-wheel counties: “You have the uncontrolled, unreviewable, and arbitrary power to deny to one upon trial for a capital felony the right to a special venire, as expressly conferred by Arts. 587 and 588, C.C.P.”\nThus the legislature has given to those district judges the unqualified right to suspend Arts. 587 and 588, C.C.P., at their will and pleasure, in direct violation of Art. 1, Sec. 28, of our Bill of Rights, which says that “No power of suspending laws in this State shall be exercised except by the Legislature.”\nBut Art. 601-A, Vernon’s C.C.P., did not stop there. It took from an accused the right to a special venire which is had by all others charged with and upon trial for a capital felony in counties where the jury wheel was not in force.\nA district judge in a non-jury-wheel county has no right to arbitrarily refuse a special venire in a capital case. He has that right in jury-wheel counties.\nThus, by that statute, appellant is a victim of class legislation in which and whereby she is deprived of the equal rights conferred by law upon and enjoyed by others similarly situated, and she is deprived of the protection of equal laws, as guaranteed by Art. 1, Sec. 19, of our Bill of Rights and the Fourteenth Amendment to the Constitution of the United States.\nIndeed, Art. 601-A, Vernon’s C.C.P., is violative of that provision of the Constitution (Art. 3, See. 56) which says that no special law shall be passed relating to the empaneling of petit juries.\nThe arbitrary right to require an accused in a capital felony case to be tried by a jury selected from jurors drawn from the jury wheel for a special week is special legislation touching the empanelling of petit juries in criminal cases and is forbidden by the Constitution.\nYes, this .appellant may have believed that the Constitution guaranteed to her the right to be tried as are others charged with the same character of offense, but, alas, she awakens to find out that those guarantees mean nothing and afford her no protection.\nTo the arbitrary and unlawful denial to this appellant of her right to be tried by a jury selected from a special venire drawn in accordance with law, I enter my solemn protest.\nThe right to a special venire is a valuable right. It gives to an accused notice of the names of those selected and from whom the jury in his case are to be selected. He is entitled to have a full day’s notice of those who have been summoned to serve on the venire (Art. 601, C.C.P.). He has the right to challenge the full array of those summoned on the special venire (Art. 608, C.C.P.).\nNone of those rights are accorded the accused when he is required to select a jury from those composing the jury for some week of court.\nThe construction that should be given to Art. 601-A, Vernon’s C.C.P., is that it furnishes the list from which those composing a special venire are to be drawn and summoned. As so construed, that statute is valid and carries out the intent of the legislature. It must be remembered that it is a cardinal rule of statutory construction that where a statute is susceptible of two constructions one of which destroys and the other sustains the statute, that which sustains will be adopted.\nThe construction which my brethren give to Art. 601-A, Vernon’s C.C.P., destroys it. The construction I would give sustains it and preserves to one upon trial in a capital case the right to be tried by a jury selected from a special venire.\nMy brethren cite and rely upon decisions of the Supreme Court of the United States which hold that a state legislature may regulate, by special or class legislation, the empanelling of juries without violating the equal protection clause of the Fourteenth Amendment to the Constitution of the United States.\nAs to such holding, I have only to say that it is directly contrary to Art. Ill, Sec. 56, of the Constitution of this state, which prohibits special or class legislation in the empanelling of juries, and that it is contrary to the holding of the Supreme Court of this state and of this court. See: Miller, et al, v. El Paso County, 136 Texas 370, 150 S.W. 2d 1000; City of Fort Worth v. Bobbitt, 121 Texas 14, 36 S.W. 2d 470; Brownfield, et al, v. Tongate, et al, 109 S.W. 2d 352; and Rios v. State, 162 Texas Cr. Rep. 609, 288 S.W. 2d 77.\nIn approving the validity of statutes based upon population, the courts of this state have always required that the population be predicated upon the last preceding federal census in order that the statute might not be special or class legislation.\nSo far as I am concerned, I am going to follow the mandate of our state Constitution and the construction placed thereon by our courts.\nThe decisions of the Supreme Court cited by my brethren are not applicable here, for another reason: Art. 601-A, Vernon’s C.C.P., does not abolish special venires in jury-wheel counties. It expressly authorizes special venires in those counties.\nThe statute is void because it gives to a district judge in jury-wheel counties the arbitrary right to accord to some defendants in capital cases a special venire and to deny it to others. It is the arbitrary power that Art. 601-A gives to a district judge to suspend or enforce at his will and pleasure the general law of this state according to each and every defendant upon trial of a capital felony the right to a special venire which renders that statute unconstitutional and the arbitrary power conferred thereby unenforceable.\nAs to the Moore case, supra, in which the right to a special venire was preserved and maintained and which my brethren say is not applicable here because Art. 601-A, Vernon’s C.C.P., was not in existence at the time that case was written, I call attention to the fact that the arbitrary power of a district judge to grant or refuse a special venire was contained in the prior statute of which Art. 601-A is an amendment.\nThe Moore case is express authority supporting my position that a trial judge is without authority to arbitrarily refuse a special venire in any capital felony case.\nI submit that this is the first time in the criminal jurisprudence of this state that the arbitrary denial of a special venire to one upon trial in a capital case has been approved and held not to be reversible error.\nIn the following cases such denial was held to be reversible error: Viley v. State, 92 Texas Cr. Rep. 395, 244 S.W. 538; Hatton v. State, 109 Texas Cr. Rep. 121, 3 S.W. 2d 87; and Moore v. State, 162 Texas Cr. Rep. 517, 287 S.W. 2d 674 (supra).\nTo me, the Constitution of this state is until yet the fundamental law of this land. Every citizen is entitled to its protecting guarantees. When those guarantees are destroyed it is indeed a sad day in this state.\nThis appellant was entitled to be tried in accordance with law. That right she did not receive.\nI dissent.\n“Art. 601-A, Vernon’s C.C.P. Special venire in certain counties.\n“In all counties of this State where jurors in either civil or criminal cases are drawn from a jury wheel as is now provided or may hereafter be provided by law and where as many as one hundred (100) jurors have been summoned in such county for regular service for the week in which such capital case is set for trial, the Judge of the Court having jurisdiction of a capital ease in which a motion for a special venire has been made, shall grant or refuse such motion for a special venire and upon such refusal require the ease to be tried by regular jurors summoned for service in such county for regular service for the week in which such capital case is set for trial and such additional talesmen as may be summoned by the Sheriff upon order of the Court as provided in Article 596 of the Code of .Criminal Procedure, but the Clerk of such Court shall furnish the defendant or his counsel a list of the persons summoned for jury service for such week upon application therefor.”",
+                                          "type":  "dissent",
+                                          "author":  "DAVIDSON, Judge"
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Harkness \u0026 Friedman, by Harry Friedman, Texarkana, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Johnie Hue Johnson v. State.\nNo. 30,162.\nDecember 17, 1958.\nMotion for Rehearing Overruled January 28, 1959.\nHarkness \u0026 Friedman, by Harry Friedman, Texarkana, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1503-01",
+    "first_page_order":  307,
+    "last_page_order":  318
+}

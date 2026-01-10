@@ -1,0 +1,148 @@
+﻿{
+    "id":  8551860,
+    "name":  "Heron Farias v. State",
+    "name_abbreviation":  "Farias v. State",
+    "decision_date":  "1959-03-25",
+    "docket_number":  "No. 30,531",
+    "first_page":  "546",
+    "last_page":  "550",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 546"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "320 S.W. 2d 13",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10155882
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/320/0013-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "268 SW. 2d 191",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10187451
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/268/0191-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "160 Texas Cr. Rep. 188",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2469836
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/160/0188-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "199 S.W. 2d 168",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10187174
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/199/0168-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "150 Texas Cr. Rep. 161",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2597871
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/150/0161-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "319 S.W. 2d 329",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10164309,
+                                          10164149
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/319/0329-02",
+                                            "/sw2d/319/0329-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  475,
+                     "char_count":  8939,
+                     "ocr_confidence":  0.555,
+                     "pagerank":  {
+                                      "raw":  6.5885094512799471E-08,
+                                      "percentile":  0.40315497158328534
+                                  },
+                     "sha256":  "67d44b0270bc8d86803bf70fbabf4fdabd2ad9563145ae1f1f555cfa0742aed9",
+                     "simhash":  "1:f74f972b450984ce",
+                     "word_count":  1528
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Heron Farias v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DICE, Judge.\nThe conviction is for murder without malice; the punishment, 3 years.\nIn view of our disposition of the case a recitation of the facts is deemed unnecessary.\nAppellant filed application for a suspended sentence, and in support thereof testified upon the trial that he had never been convicted of a felony and produced certain character witnesses who testified that his general reputation for truth and veracity and for being a peaceable and law-abiding citizen in the community where he lived was good.\nThe court, in his charge, submitted to the jury the issue of suspension of the sentence in the event they found appellant guilty.\nAfter return of the jury’s verdict and entry of judgment thereon, appellant sought a new trial on the ground of jury misconduct.\nIn the motion, which was duly verified and supported by the affidavit of one of the jurors, appellant alleged that in arriving at the penalty to be assessed by the jury “one of the jurors openly described and testified to all of the matters and facts concerning his experience with the law of suspended sentence and instructed the jury that as a matter of law and practice, the suspended sentence was bad and further instructed the jury incorrectly that the judge had the power and would in all probability grant probation to the the defendant and that such law concerning probation was a desirable and beneficial law and applicable to this case,” and “That such conduct was prejudicial and erroneous,” and “by reason of the interpretation placed upon the operation of the suspended sentence law and the declaration that there was available to the defendant the benefits of the adult probation law, which statement was incorrect, the jury did not consider or pass upon the issue of whether or not the defendant was entitled to a suspended sentence.”\nThe affidavit attached to the motion for new trial was executed by the Juror Raymond A. Weisman.\nIn his affidavit Juror Weisman, in describing the jury’s deliberations in arriving at its verdict, swore, in part, as follows:\n“After a lengthy discussion transpired, the Jury finally agreed that the defendant was guilty of murder without malice.\n“After reaching this conclusion, the Jury finally took the first vote as to the sentence to be imposed upon the defendant, Heron Farias.\n“This vote reflected that two (2) jurors, Mr. West and Mr. Clyde Allen, wished to impose a penalty of five (5) years, seven (7) jurors wanted to impose a penalty of either two (2) or three (3) years and three (3) jurors indicated that they did not want to impose any penalty but to assess a suspended sentence.\n“Following the first vote an extended discussion of the suspended sentence occurred. During this discussion Mr. West discussed at length the suspended sentence law and explained to the rest of the Jury the difference in a suspended sentence and a probated sentence. He pointed out that a person who received a suspended sentence was under no supervision by the court, whereas a person on probation had to be a real good boy and did not have to commit a felony, but the Judge could send him up for being drunk or disorderly. He further explained to the Jury that only the jury could give the defendant a suspended sentence hut that the Judge could probate this defendant’s sentence if he saw fit to do so. After this explanation and further extended discussion, the Jury agreed to compromise on a penalty of three (3) years and no further discussion or vote was had upon the question of whether or not the sentence assessed by the Jury would be suspended or not.”\nThe state filed no controverting answer to the motion and upon the hearing called no witnesses to testify.\nAt the hearing three of the jurors were called by the appellant to testify.\nJuror Weisman testified that the matters set forth in the affidavit\u0027 attached to the motion were true and the affidavit was offered in evidence by the appellant.\nJuror Pécora testified in substance that during the jury’s deliberation there was a discussion of the probation law and its application to the appellant but that he did not remember it being stated that the judge could “give probation to a sentenced man.”\nJuror West, who served as foreman of the jury, testified that during the jury’s deliberation and before arriving at a verdict in the case there was discussion with reference to the suspended sentence law, the probation law and the indeterminate sentence law; that he did not favor the suspended sentence law, but did favor the probation law and “I did the best I could, being a layman to explain the difference between suspended sentence and probation” and “I told them that that was just my opinion of that, that I wasn’t an attorney.” He further testified that “I didn’t know until afterwards that the judge couldn’t give probation in a capital case.” Nowhere in his testimony did he affirm or deny the statement attributed to have been made by him that the judge could grant probation to appellant in the case.\nFrom the evidence adduced it thus appears that during its deliberations, while discussing the penalty to be imposed upon appellant and the passing upon the issue of suspended sentence, the jury discussed the provisions of the Adult Probation Law and its applicability to the appellant in the case; further, that during the discussion, when three of the jurors were favoring a suspended sentence, the foreman, in arguing against a suspended sentence, stated that the judge could probate the appellant’s sentence if he saw fit. This statement of the juror was clearly a misstatement of the law. By the express provisions of Sec. 3, Art. 781d (Adult Probation and Parole Law of 1957), the courts of this state are without power to place a defendant on probation who has been convicted of murder. From the verdict subsequently agreed upon by the jury it is apparent that the three jurors who were favoring a suspended sentence abandoned their position.\nUnder the facts disclosed we are of the opinion that appellant has not received such a fair and impartial trial as would warrant the judgment of conviction to stand. See Art. 753, sub. 7. V.A.C.C.P.; Price v. State, 150 Texas Cr. Rep. 161, 199 S.W. 2d 168; Spriggs v. State, 160 Texas Cr. Rep. 188, 268 SW. 2d 191, and Mays v. State, (page 339, this volume), 320 S.W. 2d 13.\nOther contentions urged by appellant will not be discussed as they are not likely to arise upon another trial.\nFor the reason stated the judgment is reversed and the cause remanded.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "DICE, Judge."
+                                      },
+                                      {
+                                          "text":  "DAVIDSON, Judge\n(dissenting).\nIn the case of Salcido v. State, (page 173, this volume), 319 S.W. 2d 329, decided January 7,1959, my brethren — over my protest — affirmed a conviction carrying a punishment of thirty years in the penitentiary. During the jury’s deliberation in that case, it was stated as a fact that the defendant would be subject to pardon, parole, and time off for good behavior and would serve only one-third of the time to which he was sentenced.\nThe foregoing is taken from the syllabi of that case.\nIn my dissenting opinion in the Salcido case I pointed out that what was said in the jury room, during deliberations, relative to the time Salcido would receive under the pardon and parole laws were statements of facts but that such, in fact, were not true. I also pointed out that such discussion caused the jury to increase by twenty years the punishment assessed, which otherwise would not have been done.\nThat Salcido was injured by jury misconduct was definitely shown.\nNow, a little over two months after the Salcido case was written, here comes this case and the court reverses this three-year conviction because the jury was told, during- deliberations, that the trial court could extend parole or probation to one convicted of murder.\nThe holding in the Salcido case is not attempted to be distinguished from the instant case. No distinction exists nor is authorized.\nBoth cases involved jury misconduct, with the accused being injured as a result of that misconduct.\nIf this case is to be reversed, then the Salcido case is wrong and my brethren ought to reopen that case and reverse the conviction.\nIf the Salcido case is right and Salcido should serve the thirty years in the penitentiary, the instant case should be affirmed.\nTalk about “consistency!” How can such exist where this court makes “flesh out of one and fowl out of the other,” as has here been done ?\nSo long as my brethren elect to stand by the holding in the Salcido case and proclaim the conclusion there expressed as the law, in obedience thereto I must dissent to the reversal of this case.",
+                                          "type":  "dissent",
+                                          "author":  "DAVIDSON, Judge"
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Roger Butler, Robstown, Luther E. Jones, Jr. (By Roger Butler, of Counsel), for appellant.",
+                                       "Sam L. Jones, Jr., District Attorney, Corpus Christi, Nelson R. Sharpe, Assistant District Attorney, Kingsville, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Heron Farias v. State.\nNo. 30,531.\nMarch 25, 1959.\nRoger Butler, Robstown, Luther E. Jones, Jr. (By Roger Butler, of Counsel), for appellant.\nSam L. Jones, Jr., District Attorney, Corpus Christi, Nelson R. Sharpe, Assistant District Attorney, Kingsville, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1582-01",
+    "first_page_order":  564,
+    "last_page_order":  568
+}

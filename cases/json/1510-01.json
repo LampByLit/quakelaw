@@ -1,0 +1,93 @@
+﻿{
+    "id":  8549155,
+    "name":  "Ex Parte Adolph V. Siemon",
+    "name_abbreviation":  "Ex parte Adolph",
+    "decision_date":  "1958-12-17",
+    "docket_number":  "No. 30,179",
+    "first_page":  "313",
+    "last_page":  "315",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 313"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "284 S.W. 2d 721",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10183165
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/284/0721-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 293",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2463212
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/162/0293-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  239,
+                     "char_count":  3206,
+                     "ocr_confidence":  0.591,
+                     "pagerank":  {
+                                      "raw":  1.2240919645422112E-07,
+                                      "percentile":  0.6033533229157375
+                                  },
+                     "sha256":  "0fd2039c285cc4f6cf7599f2d41b89abe2f5e9e83a3d613c147ccc8ed41afdb2",
+                     "simhash":  "1:085580350e2d30d3",
+                     "word_count":  540
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte Adolph V. Siemon."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Judge.\nThis is an extradition case.\nThe governor of this state ordered appellant — relator in the court below — extradited to the State of West Virginia.\nThe requisition and accompanying papers of the governor of that state evidence the following:\nRelator was indicted, tried, and convicted in the State of West Virginia for the offense of embezzlement and his punishment fixed at “not less than one nor more than ten years, or until released on parole, as authorized by law.”\nIn obedience to that conviction, relator was incarcerated in the penitentiary of that state on the 22nd day of May, 1951, where he remained until the 29th day of February, 1952, at which time he was released on parole by order of the director of probation and parole.\nAmong other things, the agreement upon which the parole was granted was that relator would not violate the laws of that state, or of any state, or of the United States.\nThe agreement of parole made no reference to the penalty which would or might be imposed by a violation of the terms thereof — that is, whether the parole would or could be revoked because of a violation.\nThe West Virginia Board of Probation and Parole, in petition to the governor of that state, sought requisition because relator had been convicted in the federal court of the Eastern District of Louisiana of a felony.\nUpon that petition and the facts heretofore stated, the governor of the State of West Virginia issued his requisition to the governor of this state.\nUpon its face, the requisition says that it was issued because relator stood charged with the crime of “EMBEZZLEMENT AND WHO HAS VIOLATED THE TERMS OF HIS PAROLE.” (sic).\nThe governor of this state issued his executive warrant for the same reason.\nThere is nothing in this record showing that relator’s parole has been revoked, in fact, under the laws of the State of West Virginia. Such being true, the presumption attains that the laws of that state are the same as in this state. Ex parte Guinn, 162 Texas Cr. Rep. 293, 284 S.W. 2d 721.\nAll this record shows is that relator has been guilty of acts which would authorize revocation of his parole. Is extradition authorized under such state of facts?\nSec. 3 of Art. 1008a, Vernon’s C.C.P., appears to furnish the answer. Therein it is provided that extradition is authorized when, together with a copy of the indictment or a copy of the judgment of conviction, the demand for extradition is accompanied by a statement of the executive authority of the demanding state that the person sought to be extradited “has broken the terms of his * * * probation or parole.”\nIt is apparent, therefore, that under our statute the right exists to extradite for the purpose of revoking parole.\nThe judgment of the trial court remanding relator to the custody of the arresting officer is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Charles William Tessmer, Dallas, for appellant.",
+                                       "Henry Wade, Criminal District Attorney, John Mead, A. George Biggs, A. D. Jim Bowie, Assistants District Attorney, Dallas, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte Adolph V. Siemon.\nNo. 30,179.\nDecember 17, 1958.\nAppellant’s Motion for Rehearing Overruled (Without Written Opinion) January 28, 1959.\nCharles William Tessmer, Dallas, for appellant.\nHenry Wade, Criminal District Attorney, John Mead, A. George Biggs, A. D. Jim Bowie, Assistants District Attorney, Dallas, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1510-01",
+    "first_page_order":  331,
+    "last_page_order":  333
+}

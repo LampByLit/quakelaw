@@ -1,0 +1,95 @@
+﻿{
+    "id":  8548685,
+    "name":  "Aaron Gaines v. State",
+    "name_abbreviation":  "Gaines v. State",
+    "decision_date":  "1959-01-28",
+    "docket_number":  "No. 30,345",
+    "first_page":  "271",
+    "last_page":  "272",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 271"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "301 S.W. 2d 141",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10167440,
+                                          10167312
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/301/0141-02",
+                                            "/sw2d/301/0141-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 521",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2612789
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0521-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  159,
+                     "char_count":  1594,
+                     "ocr_confidence":  0.58,
+                     "pagerank":  {
+                                      "raw":  4.5651701101926378E-08,
+                                      "percentile":  0.2864338808942143
+                                  },
+                     "sha256":  "e0402c75aa6ec63a30e5766c18f0217eaaa943fc4825cf13b89b1f4b1a4a0793",
+                     "simhash":  "1:083418244da76ed1",
+                     "word_count":  272
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Aaron Gaines v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is transportation of beer in a dry area; the punishment, 3 months in jail and a fine of $500.00.\nIt was stipulated that Justice Precinct #1 of Concho County was a dry area. Terry, Constable of said precinct, testified that on the day in question he observed a gray Pontiac automobile being loaded with beer at a tavern in an adjoining precinct. He stated that after the automobile drove over into Precinct #1 he stopped the same, shone his flashlight in the rear, and observed nine cases of beer, that he asked the appellant, who was the driver, if he had any more beer, and the appellant replied in the affirmative; whereupon they opened the trunk of the automobile and there found one additional case of beer. He stated that he arrested one Robles, who was seated in the automobile, for being intoxicated and arrested the appellant for transporting.\nThe appellant did not testify or offer any evidence in his own behalf.\nBy brief, the appellant contends that the court committed fundamental error in failing to instruct the jury that appellant’s failure to testify should not be considered by them in reaching its verdict. This court has recently held in Galan v. State, 164 Texas Cr. Rep. 521, 301 S.W. 2d 141. that it is not error for the court to refuse such a charge when requested.\nFinding the evidence sufficient to sustain the conviction and no reversible error appearing, the judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "R. E. Murphey, Coleman, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Aaron Gaines v. State.\nNo. 30,345.\nJanuary 28, 1959.\nR. E. Murphey, Coleman, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1498-01",
+    "first_page_order":  289,
+    "last_page_order":  290
+}

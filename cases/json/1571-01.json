@@ -1,0 +1,315 @@
+﻿{
+    "id":  8551431,
+    "name":  "Joel Mason, alias Joe Mason v. State",
+    "name_abbreviation":  "Mason v. State",
+    "decision_date":  "1959-03-11",
+    "docket_number":  "No. 30,504",
+    "first_page":  "516",
+    "last_page":  "518",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 516"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "299 S.W. 2d 302",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10173146
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/299/0302-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 584",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2611965
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0584-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "210 S.W. 2d 165",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10189346
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/210/0165-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "151 Texas Cr. Rep. 575",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2594183
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/151/0575-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "106 S.W. 143",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "54 Texas Cr. Rep. 154",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "23 S.W. 794",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "32 Texas Cr. Rep. 377",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4473249
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/32/0377-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "215 S.W. 2d 184",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10246411
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/215/0184-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "152 Texas Cr. Rep. 446",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2590615
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/152/0446-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "154 S.W. 2d 459",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10219047
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/154/0459-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "142 Texas Cr. Rep. 411",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5808985
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/142/0411-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "97 S.W. 2d 471",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10253267
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/97/0471-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "131 Texas Cr. Rep. 166",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5240617
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/131/0166-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "88 S.W. 2d 1045",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10274232
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/88/1045-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "129 Texas Cr. Rep. 503",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5249010
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/129/0503-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "46 S.W. 2d 679",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10248482
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/46/0679-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "120 Texas Cr. Rep. 629",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5201509
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/120/0629-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "279 S.W. 265",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10293558
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/279/0265-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "102 Texas Cr. Rep. 588",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5113312
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/102/0588-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "286 S.W. 2d 157",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10168405
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/286/0157-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 390",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2464637
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/162/0390-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  353,
+                     "char_count":  5737,
+                     "ocr_confidence":  0.578,
+                     "pagerank":  {
+                                      "raw":  2.8440799005759862E-07,
+                                      "percentile":  0.8401551596251364
+                                  },
+                     "sha256":  "7f517d6e1ff9eb1c0fe80268a1bc1151b49d6d4ba288d67ebed3a9392c634b18",
+                     "simhash":  "1:e6ec07cb670e43ba",
+                     "word_count":  1000
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Joel Mason, alias Joe Mason v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DICE, Judge.\nThe conviction is for felony theft with two prior convictions for felonies less than capital alleged for the purpose of enhancement; the punishment, life imprisonment.\nThe indictment charged appellant with the theft of certain property from Joe Perrone which was described as “money of the United States of America of the value of more than ($50.00) Dollars.” This was a sufficient description of the money alleged to have been stolen. Edwards v. State, 162 Texas Cr. Rep. 390, 286 S.W. 2d 157.\nThe state’s testimony shows that the injured party, Joe Per-rone, operated the Perrone Food Market at 1600 East Sixth Street in the city of Austin. On the morning in question, around 9 A.M., Perrone, in preparing to make a bank deposit, placed between $250.00 and $350.00 in cash, and checks in excess of the amount of $500.00 in a billfold and put them in a drawer behind the counter. Perrone was then called out of the store and upon his return, around 9:30 A.M., discovered that the money and checks were missing. He then notified the police and after payment was stopped on some of the checks and new checks were given to him, his total loss suffered by reason of the theft was $491.00. Appellant was seen in the Food Market around 9 A.M. on the morning in question and on the same day appellant deposited to his account in the Texas State Bank in Austin currency in the amount of $225.00. Approximately a week after the money and checks were discovered missing appellant began cashing, with various individuals, checks which were identified as having been taken from the food store. Five of the stolen checks in the aggregate amount of $202.18 which had been cashed by appellant, two of which bore his endorsement, were introduced in evidence.\nThe state introduced in evidence records of appellant’s two prior convictions and it was stipulated that appellant had been so convicted and that the convictions were final.\nAs a witness in his own behalf appellant denied having stolen the money and checks from the injured party. Appellant admitted having cashed some of the stolen checks but testified that he received the checks from “some Spanish fellows” in the regular course of his employment at the Sunset Night Club. Appellant further admitted having made the bank deposit of $225.00 and testified that the money which he deposited came from tips he had saved and from money he had loaned his sister.\nThe court submitted the issue of appellant’s guilt to the jury under a charge on circumstantial evidence.\nAppellant insists that the evidence is insufficient to support his conviction because it does not show that he stole “money of the United States of America” from the injured party as alleged in the indictment. Appellant contends that there was a material variance between the pleadings and the proof with respect to the property alleged to have been stolen because the evidence, at most, showed that he took checks from the injured party rather than money as alleged. Appellant further insists that the court erred in admitting, over his objection, the evidence showing his possession of the checks and in refusing to instruct the jury that they could not consider such evidence in determing the question of appellant’s guilt of the theft of the money alleged to have been stolen.\n■ : The rule is well settled that from the possession by an accused of a part of the stolen property, theft of the whole may be inferred and a conviction sustained. 41A Texas Jur. par 237, page 234; Williams v. State, 102 Texas Cr. Rep. 588, 279 S.W. 265; Watters v. State, 120 Texas Cr. Rep. 629, 46 S.W. 2d 679; Norton v. State, 129 Texas Cr. Rep. 503, 88 S.W. 2d 1045; Miller v. State, 131 Texas Cr. Rep. 166, 97 S.W. 2d 471, and Dean v. State, 142 Texas Cr. Rep. 411, 154 S.W. 2d 459. Such rule, however, is applicable only when it is shown that the whole of the property was taken at one or the same time. Clark v. State, 152 Texas Cr. Rep. 446, 215 S.W. 2d 184.\nThe evidence in the present case clearly shows that the money and checks were taken from the Perrone Food Market at the same time. From the evidence showing appellant’s possession shortly after the theft of some of the stolen checks the jury was authorized to conclude that appellant also took the money stolen at the same time. The evidence showing that appellant stole the checks, although the indictment did not allege theft of the checks, was admissible to prove the theft of the money, the money and checks having been stolen at the same time. Davis v. State, 32 Texas Cr. Rep. 377, 23 S.W. 794, and Rose v. State, 54 Texas Cr. Rep. 154, 106 S.W. 143.\nAppellant’s last contention is that the evidence fails to show that he took money “of the United States of America” as alleged in the indictment. Appellant insists that the only evidence in the record is that he took “cash” or “money” without showing it was cash or money “of the United States of America.” The proof shows that between “$250.00 and $350.00” was taken. The figures mean “Two hundred and fifty Dollars” and “Three hundred and fifty Dollars” as fully and to the same extent as if they were so written. The proof showing that “dollars” were taken was sufficient to satisfy the allegation of the indictment that appellant took money “of the United States of America.” Bledsoe v. State, 151 Texas Cr. Rep. 575, 210 S.W. 2d 165, and Patrick v. State, 164 Texas Cr. Rep. 584, 299 S.W. 2d 302.\nFinding the evidence sufficient to sustain the conviction and no reversible error appearing, the judgment is affirmed.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "DICE, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Jack Garey, Austin, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Joel Mason, alias Joe Mason v. State.\nNo. 30,504.\nMarch 11, 1959.\nJack Garey, Austin, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1571-01",
+    "first_page_order":  534,
+    "last_page_order":  536
+}

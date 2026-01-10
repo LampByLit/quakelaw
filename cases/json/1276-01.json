@@ -1,0 +1,93 @@
+﻿{
+    "id":  4564054,
+    "name":  "Nick Mayberry v. The State",
+    "name_abbreviation":  "Mayberry v. State",
+    "decision_date":  "1908-02-19",
+    "docket_number":  "No. 4046",
+    "first_page":  "601",
+    "last_page":  "602",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 601"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "34 Texas Crim. Rep., 136",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4484465
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/34/0136-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "37 Texas Crim. Rep., 320",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          161336
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/37/0320-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  285,
+                     "char_count":  3811,
+                     "ocr_confidence":  0.622,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.15168509824317944
+                                  },
+                     "sha256":  "aff3103a1c14fc2d46a509f24848737999d17fcfa84355c911d1668d152b43c3",
+                     "simhash":  "1:0d8f32814c71714d",
+                     "word_count":  682
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Nick Mayberry v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\nAppellant was convicted of burglary, and his punishment assessed at two years confinement in the reformatory.\nThere are no bills of exception in the record; therefore, the questions in regard to matters of fact set up in the motion for a new trial cannot be considered or revised.\nThe serious question in the case is the sufficiency of the evidence. The charge was burglary with intent to commit theft. The conviction was for burglary. The facts, in substance, show, without going into detailed statement, that the alleged owner, Tate, had a small field rented in the western part of the town of Stephenville, consisting of two and one-half acres of land, which he had planted in sweet potatoes and peanuts. In the fall of 1906, he gathered the peanuts, vines and all, and put them in a small barn inside of the field. On the first day of December, he had been thrashing these peanuts and at noon he went to dinner, having thrashed two sacks of peanuts, which he carried away. He stopped at a neighbor’s for dinner, and en route on his return engaged in a conversation with a Mr. Hancock. While so engaged he saw two negro boys going in the direction of his barn. He remarked to Mr. Hancock, “Now, I will get them or catch them,” and started toward the barn. “As I passed the barn I could not see the defendant or the other boy. I rode past the barn to some bushes some one hundred and fifty steps below the barn, and behind the bushes. Then I could see the other boy in the potato patch immediately behind the barn, but did not see the defendant. I then went up to the barn and saw, when I got there, both boys coming out of the barn with some peanuts in a sack. I said to them, ‘What are you doing?’ and they said they were getting them some peanuts. I said to them, ‘Who told you that you could get them ?’ They said, The door was open and they just stepped in and got them some peanuts.” He. testified that he gave them no authority. They explained their possession of the sack by stating that they were going ’possum hunting, and carried the sack along in which to place their ’possums. The defendant introduced evidence showing that he and the other boy were going ’possum hunting on the occasion, and that they had been out before on ’possum hunts, and their testimony goes to show that it was a place where such animals were to be found.\nIn regard to the breaking, the testimony from the alleged owner is, that he latched the door, and took a little wagon-bed that was lying near by and propped the door with it, for the purpose of preventing the door from coming open. In the presence of one or two officers, appellant stated that the door was partially opened, something like eighteen or twenty inches, and that they pulled a little wagon-bed away from the door sufficiently to enter the house. Defendant testified that the door was open. The evidence shows this negro boy is about 14 years of age. We are of opinion that we would not be justified in reversing the judgment, and that the facts support the conviction.\nThe judgment is affirmed.\nAffirmed.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "W. S. Payne, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Nick Mayberry v. The State.\nNo. 4046.\nDecided February 19, 1908.\nBurglary—Sufficiency of Evidence.\nSee opinion for evidence held sufficient to support a conviction of burglary.\nAppeal from the District Court of Brath. Tried below before the Hon. W. J. Oxford.\nAppeal from a conviction of burglary; penalty, two years confinement in the reformatory.\nThe opinion states the case.\nW. S. Payne, for appellant.\n—On question of insufficiency of evidence: Day v. State, 27 Texas Crim. App., 143; Zollicoffer v. State, 16 Texas Crim. App., 312; Barnes v. State, 37 Texas Crim. Rep., 320; Black v. State, 18 Texas Crim. App., 124; Mask v. State, 34 Texas Crim. Rep., 136.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1276-01",
+    "first_page_order":  619,
+    "last_page_order":  620
+}

@@ -1,0 +1,196 @@
+﻿{
+    "id":  8549089,
+    "name":  "Hope Roy v. State",
+    "name_abbreviation":  "Roy v. State",
+    "decision_date":  "1958-11-12",
+    "docket_number":  "No. 30,100",
+    "first_page":  "307",
+    "last_page":  "309",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 307"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "282 S.W. 2d 873",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10184553,
+                                          10184566
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/282/0873-01",
+                                            "/sw2d/282/0873-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 115",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2461749
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/162/0115-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "248 S.W. 2d 159",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10194467
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/248/0159-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "157 Texas Cr. Rep. 301",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2573346
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/157/0301-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "240 S.W. 2d 774",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10214880
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/240/0774-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "156 Texas Cr. Rep. 228",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2581411
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/156/0228-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "245 S.W. 2d 497",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10203937
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/245/0497-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "156 Texas Cr. Rep. 652",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2579908
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/156/0652-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "83 S.W. 2d 974",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10262032
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/83/0974-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "129 Texas Cr. Rep. 134",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5248944
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/129/0134-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  214,
+                     "char_count":  2576,
+                     "ocr_confidence":  0.586,
+                     "pagerank":  {
+                                      "raw":  1.5258477161330689E-07,
+                                      "percentile":  0.670212047111627
+                                  },
+                     "sha256":  "31584813d8732a004bfa641e7f9c87fe27ff41abb3c1766ee22fcc15544c450c",
+                     "simhash":  "1:0fee28954e724a7c",
+                     "word_count":  452
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Hope Roy v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nThe offense is passing as true a forged instrument; the punishment, two years.\nAppellant, represented by counsel, waived a jury and pleaded guilty, and on the trial after the state had offered evidence sufficient to warrant her conviction, testified and admitted her guilt.\nThe requirements of the statute relating to trials of non-capital felony cases before the court on a plea of guilty were fully complied with.\nThe sole complaint appears to be that the trial judge did not see fit to grant probation.\nThe state correctly contends that this was a matter which rested solely in the discretion of the trial judge. Escobar v. State, 162 Texas Cr. Rep. 115, 282 S.W. 2d 873.\nThe judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      },
+                                      {
+                                          "text":  "ON APPELLANT’S MOTION FOR REHEARING\nDICE, Judge.\nAppellant insists that in view of the testimony in the record that she had never been in any kind of trouble and that she had a job, and her promise to make restitution to the bank of the money obtained in the forgery, the trial court abused his discretion in refusing to grant her a suspended sentence or a probated sence as recommended by the district attorney.\nIn Waldrop v. State, 129 Texas Cr. Rep. 134, 83 S.W. 2d 974, it.was held that in a trial before the court without a jury, the trial judge, in the exercise of his discretion, had the right to refuse a suspended sentence to the person found guilty of burglary even though such person offered testimony that he had never been convicted of a felony and of his previous good reputation as a law abiding citizen. In Brown v. State, 156 Texas Cr. Rep. 652, 245 S.W. 2d 497, it was held that where the issue of suspended sentence was submitted to a jury the question of whether or not the sentence should be suspended was within the jury’s discretion.\nThe right of parole or probation under the provisions of the Adult Probation and Parole Law, Art. 78ld, V.A.C.C.P., has been held to be a matter within the discretion of the trial court. Wilson v. State, 156 Texas Cr. Rep. 228, 240 S.W. 2d 774, and Ex Parte Pittman, 157 Texas Cr. Rep. 301, 248 S.W. 2d 159.\nWe find nothing in the record in the present cause which shows an abuse of judicial discretion on the part of the trial judge in refusing clemency to the appellant.\nThe motion for rehearing is overruled.\nOpinion approved by the Court.",
+                                          "type":  "rehearing",
+                                          "author":  "DICE, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "William E. Davenport, San Angelo, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Hope Roy v. State.\nNo. 30,100.\nNovember 12, 1958.\nMotion for Rehearing Overruled January 14, 1959.\nSecond Motion for Rehearing Overruled January 28, 1959.\nWilliam E. Davenport, San Angelo, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1508-01",
+    "first_page_order":  325,
+    "last_page_order":  327
+}

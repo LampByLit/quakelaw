@@ -1,0 +1,111 @@
+﻿{
+    "id":  8546505,
+    "name":  "Ex Parte Billy Joe Sisk",
+    "name_abbreviation":  "Ex parte Sisk",
+    "decision_date":  "1958-11-12",
+    "docket_number":  "No. 29,815",
+    "first_page":  "18",
+    "last_page":  "19",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 18"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "296 S.W. 2d 262",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10171124
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/296/0262-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "168 Texas Cr. Rep. 649",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "210 S.W. 2d 597",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10200704
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/210/0597-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "152 Texas Cr. Rep. 3",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2591024
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/152/0003-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  165,
+                     "char_count":  1873,
+                     "ocr_confidence":  0.585,
+                     "pagerank":  {
+                                      "raw":  7.3178527021370007E-08,
+                                      "percentile":  0.4388458554919611
+                                  },
+                     "sha256":  "05a9422aea3a40b905b47e34e735976b27c4855a58b8dcf2510d51c587b74133",
+                     "simhash":  "1:396f6a7a174e4192",
+                     "word_count":  309
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte Billy Joe Sisk."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nRelator, an inmate of the penitentiary, was charged by indictment with the capital felony of robbery with firearms.\nThe district attorney’s oral motion to dismiss the capital feature and prosecute for ordinary robbery was granted and relator waived a jury and pleaded guilty and the court assessed his punishment at eight years in the penitentiary.\nThe order dismissing the capital offense failed to reach the minutes of the court, and the judgment and sentence properly rendered and pronounced were, by clerical error, entered showing the offense to be “armed robbery.”\nNo appeal was perfected, but relator, after reaching the penitentiary, filed application for writ of habeas corpus in this court asserting that the conviction was void because of the errors and omissions above set out.\nBy nunc pro tunc proceedings in the trial court thereafter, the judgment and sentence have been corrected so as to truly reflect the proceedings in said court at the time of the original trial, and no appeal has been perfected.\nIts jurisdiction not having been divested by appeal, the trial court had the inherent power to correct the minutes so as to truly reflect the judgment, sentence and orders that had been actually rendered, pronounced and made at the time of the trial. Ex parte Brown, 152 Texas Cr. Rep. 3, 210 S.W. 2d 597; Ex parte Lyon, 168 Texas Cr. Rep. 649, 296 S.W. 2d 262.\nWe overrule the contention that failure to enter the order dismissing the capital feature of the case until the nunc pro tunc proceedings rendered the conviction void.\nThe relief prayed for is denied.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "William P. Buckner, III, and Charles H. Winston, Odessa, for relator.",
+                                       "George L. Fotoler, District Attorney, by George Gray, Assistant District Attorney, Odessa, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte Billy Joe Sisk.\nNo. 29,815.\nNovember 12, 1958.\nWilliam P. Buckner, III, and Charles H. Winston, Odessa, for relator.\nGeorge L. Fotoler, District Attorney, by George Gray, Assistant District Attorney, Odessa, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1311-01",
+    "first_page_order":  36,
+    "last_page_order":  37
+}

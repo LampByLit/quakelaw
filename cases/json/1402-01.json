@@ -1,0 +1,143 @@
+﻿{
+    "id":  8547216,
+    "name":  "Cornelious Hicks v. State",
+    "name_abbreviation":  "Hicks v. State",
+    "decision_date":  "1958-12-17",
+    "docket_number":  "No. 30,235",
+    "first_page":  "115",
+    "last_page":  "116",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 115"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "48 S.W. 2d 1005",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10262102
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/48/1005-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "120 Texas Cr. Rep. 154",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5200286
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/120/0154-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "298 S.W. 900",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10309372
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/298/0900-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "108 Texas Cr. Rep. 60",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5145645
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/108/0060-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "289 S.W. 2d 929",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10182953,
+                                          10182971
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/289/0929-01",
+                                            "/sw2d/289/0929-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 258",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2462337
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0258-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  145,
+                     "char_count":  1381,
+                     "ocr_confidence":  0.597,
+                     "pagerank":  {
+                                      "raw":  9.5367669216590031E-08,
+                                      "percentile":  0.5247684324452893
+                                  },
+                     "sha256":  "616bb0ccdb7223c89274c7b15e13b29e689f03cce956486aa14139d6c22bbc23",
+                     "simhash":  "1:9857a8a17b280313",
+                     "word_count":  236
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Cornelious Hicks v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is equipping a gaming house, as denounced by Article 629, V.A.P.C.; the punishment, thirty days in jail.\nNo statement of facts accompanies the record.\nThe state, through her district attorney, confesses error, and we agree. Bill of Exception No. 1 recites that the case was filed on February 24, called for trial on February 25, and that a motion for continuance which raised the question was overruled. Article 514, Y.A.C.C.P., provides that an accused shall have two days in which to prepare for trial. See also Pugh v. State, 163 Texas Cr. Rep. 258, 289 S.W. 2d 929, and Buckley v. State, 108 Texas Cr. Rep. 60, 298 S.W. 900, and the cases there cited. Bill of Exception No. 2 recites that the affidavit for the search warrant was read to the jury over the objection that it was hearsay. In Hamilton v. State, 120 Texas Cr. Rep. 154, 48 S.W. 2d 1005, and the cases there cited, this court has held that the admission of hearsay evidence of this nature calls for a reversal of the conviction.\nThe judgment is reversed and the cause remanded.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Duke \u0026 Melton (W. J. Duke and Gladys Melton), Dallas for appellant.",
+                                       "Henry Wade, Criminal District Attorney, William F. Tucker and A. D. Bowie, Assistants District Attorney, Dallas, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Cornelious Hicks v. State.\nNo. 30,235.\nDecember 17, 1958.\nDuke \u0026 Melton (W. J. Duke and Gladys Melton), Dallas for appellant.\nHenry Wade, Criminal District Attorney, William F. Tucker and A. D. Bowie, Assistants District Attorney, Dallas, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1402-01",
+    "first_page_order":  133,
+    "last_page_order":  134
+}

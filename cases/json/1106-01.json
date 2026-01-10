@@ -1,0 +1,147 @@
+﻿{
+    "id":  4561852,
+    "name":  "John Smith v. The State",
+    "name_abbreviation":  "Smith v. State",
+    "decision_date":  "1907-11-13",
+    "docket_number":  "No. 3860",
+    "first_page":  "80",
+    "last_page":  "82",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 80"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "48 S. W. Rep., 181",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "43 S. W. Rep., 342",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "37 Texas Crim. Rep., 147",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          161300
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/37/0147-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "47 S. W. Rep., 363",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "47 Texas Crim. Rep., 168",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4537693
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/47/0168-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "49 Texas Crim. Rep., 11",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4541097
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/49/0011-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "49 Texas Crim. Rep., 200",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4539881
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/49/0200-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "31 Texas Crim. Rep., 211",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          156056
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/31/0211-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  373,
+                     "char_count":  6770,
+                     "ocr_confidence":  0.565,
+                     "pagerank":  {
+                                      "raw":  7.3125853332191585E-07,
+                                      "percentile":  0.9685024107583107
+                                  },
+                     "sha256":  "6e739ffe8adbc86a3ed3636e8da076d09df687f09028a466010a0fd05d8ef5e4",
+                     "simhash":  "1:3ad1115d4b27b0d5",
+                     "word_count":  1214
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "John Smith v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\nThis is a conviction for arson, the . punishment being assessed at five years in the penitentiary.\nThe State relied in the main upon the testimony of Capers. His testimony shows him to be an accomplice, or partieeps criminis in the alleged burning. He was permitted, over appellant’s objection, to testify to numerous other cases of arson and conspiracy to commit arson, conspiracy to commit burglary, to burglarize a hotel and steal money, or to rob the hotel and to steal the money from the hotel. In some of these matters he implicates himself and appellant only, and in some others he includes a third party. These transactions were independent of the one for which this conviction was obtained. The court seemed to believe, from his qualification of the bill, that if there was a conspiracy to burn houses, that this would permit evidence of all the other cases of arson testified by Capers on the theory of system. Where evidence of an extraneous kind is admitted, it must be to show intent to develop the res gestee, identity of the defendant or show system. That a party may be systematically a thief, or destroyer of a house by burning, or in the participancy or execution of a crime, does not necessarily come within the exceptions above mentioned. To prove system in order to identify a parfy, or to show intent, is one thing, but to prove systematic crime, or that an accused is a confirmed violator of the law is a very different proposition. And extraneous crimes are not admissible, even under the exception to the rule, unless the testimony comes within one of the exceptions and this to connect the defendant with the crime for which he is being tried. This evidence does not come within these exceptions. The fact that other houses may have been burned, and appellant may have participated in them, does not, of itself, connect the defendant with the arson charged in the indictment under this record.\nA party can not be tried for various extraneous violations of the law in this way. He can only be tried for the offense for which he is being prosecuted, and not for those that are not charged against him in the particular indictment. Kelley v. State, 31 Texas Crim. Rep., 211; McAnally v. State, 7 Texas Ct. Rep., 327; Bryan v. State, 49 Texas Crim. Rep., 200, 15 Texas Ct. Rep., 33; Davenport v. State, 49 Texas Crim. Rep., 11, 14 Texas Ct. Rep., 263; Maxwell v. State, 9 Texas Ct. Rep., 244; Glenn v. State, 8 Texas Ct. Rep., 561; Henard v. State, 47 Texas Crim. Rep., 168, 10 Texas Ct. Rep., 32; Smith v. State, 7 Texas Ct. Rep., 343; Barnett v. State, 7 Texas Ct. Rep., 391; Smith v. State, 7 Texas Ct. Rep., 919; Denton v. State, 1 Texas Ct. Rep., 568; Long v. State, 47 S. W. Rep., 363. For this error the judgment must be reversed.\nThere is another bill of exceptions in this record that we think requires attention. The rule was invoked and Stallworth was called as a witness; and over the exception of the appellant was excused from the rule. He was city marshal of the City of Marlin. He was permitted to remain in the room and to sit by and assist the county attorney in the management of the case, as far as the examination of the witnesses were concerned, by suggestions and otherwise, and was subsequently permitted to testify. The court signed this bill by saying that the witness, being a peace officer, and the county attorney having desired his presence in the court room, he was permitted to stay.\nExcusing witnesses from the rule is largely a matter of discretion with the court, and usually to sustain alleged error it must be shown that this discretion has been abused. This, however, is not a personal but a judicial discretion, and the rights of the parties, and other matters of the case should be taken into consideration. In exercising this discretion, it has been held not to be error that a deputy sheriff and other officers of the court, whose services are necessary about the court room, may be exempted from the rule. Williams \u0026 Gordon v. State, 37 Texas Crim. Rep., 147; Brite v. State, 43 S. W. Rep., 342; Johnican v. State, 48 S. W. Rep., 181.\nA city marshal, while he is in a certain sense a peace officer, is \u0027not an officer of the district court. The sheriff and his deputies, who wait upon the court may be excused if their services are necessary in carrying on the business of the court and waiting upon it, but this applies to officers of the court whose duties are to wait upon the court. These duties do not pertain to the office of city marshal and if for any reason he should be called on duty to wait upon the court, this matter should be shown so as to explain why he is excused from being placed under the rule. But here we have a city marshal, not an officer of the court, brought in as a witness and excused from the rule and permitted to sit by the county attorney and suggest questions and other matters of that sort in aid of the prosecution. In order for this to be justified, there must be, in our judgment, some good reason shown. The mere fact that the city marshal is a peace officer is not sufficient, as we understand this statute, to excuse him from the rule and there is no reason shown why he should have been excused. Upon another trial of this cause, this should be avoided.\nThe other matters, we think will hardly occur upon another trial.\nThe judgment is reversed and the cause remanded.\nReversed and remanded.\nHenderson, Judge, absent.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "E. W. Bounds, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "John Smith v. The State.\nNo. 3860.\nDecided November 13, 1907.\n1. —Arson—Extraneous Offenses—Evidence.\nExtraneous crimes are not admissible, even under the exception to the rule, unless the testimony comes within one of the exceptions and this to connect the defendant with the crime for which he is being tried. The fact that other houses may have been burned, and defendant may have participated in them does not of itself connect him with the arson charged in the indictment.\n2. —Same—Witness Under Rule—Discretion of Court—Officer of the Court— City Marshal.\nThe discretion of the court to excuse a witness from the rule is a judicial and not a personal discretion, and while it has been held that officers of the trial court may be exempted from the rule, this does not include a city marshal who is not an officer of the trial court, and to excuse him from the rule there must be some good reason shown.\nAppeal from the District Court of Falls. Tried below before the Hon. Sam B. Scott.\nAppeal from a conviction of arson; penalty, five years imprisonment in the penitentiary.\nThe opinion states the case.\nE. W. Bounds, for appellant.\nOn question of invoking the rule: Heath v. State, 7 Texas Crim. App., 464; Wellhousen v. State, 30 Texas Crim. App., 633.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1106-01",
+    "first_page_order":  98,
+    "last_page_order":  100
+}

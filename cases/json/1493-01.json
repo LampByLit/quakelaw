@@ -1,0 +1,431 @@
+﻿{
+    "id":  8548503,
+    "name":  "Harry O. Skaggs v. State",
+    "name_abbreviation":  "Skaggs v. State",
+    "decision_date":  "1958-12-03",
+    "docket_number":  "No. 30,132",
+    "first_page":  "254",
+    "last_page":  "258",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 254"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "188 S.W. 2d 393",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10194592
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/188/0393-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "148 Texas Cr. Rep. 445",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2604845
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/148/0445-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "12 S.W. 408",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "6 S.W. 184",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "68 S.W. 796",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "162 S.W. 2d 706",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10220157
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/162/0706-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "144 Texas Cr. Rep. 272",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5292809
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/144/0272-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "146 S.W. 2d 381",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10223611
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/146/0381-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "140 Texas Cr. Rep. 593",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5799981
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/140/0593-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "277 S.W. 2d 723",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10184627
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/277/0723-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "161 Texas Cr. Rep. 436",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2465057
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/161/0436-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "225 S.W. 2d 420",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10199437
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/225/0420-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "154 Texas Cr. Rep. 70",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2586734
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/154/0070-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "262 S.W. 2d 501",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10191152
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/262/0501-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "159 Texas Cr. Rep. 263",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2474885
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/159/0263-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "289 S.W. 2d 593",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10177394
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/289/0593-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 185",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2460295
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0185-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "301 S.W. 2d 154",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10168632
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/301/0154-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 537",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2612538
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0537-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "290 S.W. 2d 521",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10176603
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/290/0521-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 587",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2461890
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0587-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "272 S.W. 2d 103",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10187136
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/272/0103-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "160 Texas Cr. Rep. 441",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2469722
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/160/0441-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "237 S.W. 2d 305",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10196015
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/237/0305-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "155 Texas Cr. Rep. 488",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2581030
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/155/0488-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "187 S.W. 2d 80",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10194089
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/187/0080-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "148 Texas Cr. Rep. 341",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2606134
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/148/0341-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "38 S.W. 2d 85",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10247735
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/38/0085-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "117 Texas Cr. Rep. 335",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5189143
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/117/0335-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "123 S.W. 597",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "57 Texas Cr. Rep. 220",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2373039
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/57/0220-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "311 S.W. 2d 410",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10169010,
+                                          10168892
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/311/0410-02",
+                                            "/sw2d/311/0410-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  473,
+                     "char_count":  7666,
+                     "ocr_confidence":  0.583,
+                     "pagerank":  {
+                                      "raw":  2.015073736702809E-07,
+                                      "percentile":  0.7446897483212341
+                                  },
+                     "sha256":  "8709dc1e67c367893685b808c0c2dd2db24aaa34b2cb2121834e65465e31e834",
+                     "simhash":  "1:a55f8bb56606feb6",
+                     "word_count":  1348
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Harry O. Skaggs v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DICE, Judge.\nThe conviction is for the subsequent offense of driving a motor vehicle upon a public highway while intoxicated; the punishment, 6 months in jail and a fine of $500.\nA former appeal by appellant from the conviction was dismissed by this court for want of a sentence. Skaggs v. State, 166, Texas Cr. Rep. 88, 311 S.W. 2d 410. Subsequent to the order dismissing the appeal, sentence was duly pronounced upon appellant and his appeal from the conviction is now before us.\nThe state’s witness Loren C. Trent, testified that on the morning of January 19, 1956, he was driving his pick-up truck on U. S. Highway 281 in Childress County, and as he was turning off the highway his vehicle was struck from behind by a 1950 Dodge automobile; that when he got out of his pick-up he saw the appellant on the highway forty or fifty feet east of him; that appellant came to within ten or twenty feet of him and then walked back and sat down on the front of the automobile; that no one was with appellant or in his automobile at the time and that he did not get close enough to appellant to smell his breath.\nHighway Patrolman Curtis Gallihon testified that on the morning in question he came upon the scene of the collision and observed the appellant; that he could smell alcohol on appellant’s breath, he staggered when he walked, had vomited near the automobile, and expressed in his opinion that appellant was intoxicated. Highway Patrolmen Clinton Culp and Sheriff Gaylor Smith, who observed appellant after the collision, both testified that they could smell alcohol on his breath and based upon their observation of him expressed their opinion that appellant was on such occasion intoxicated.\nThe state offered in evidence certified copies of the complaint, information and judgment in Cause No. 3369, styled The State of Texas v. Harry O. Skaggs, on the docket of the county court of Donley County wherein the defendant in said cause was, on the 15th day of August, 1950, convicted of the misdemeanor offense of driving while intoxicated. Appellant was identified by the witness Truett Behrens as the person so convicted.\nAppellant did not testify but called his wife as a witness in his behalf, who testified that for several years prior to the date of the collision appellant had been sick and vomited every day unless he was taking medicine.\nWe shall discuss the contentions presented by appellant in his brief and in oral argument.\nAppellant first insists that the court erred in overruling his application for a continuance because of the absence of the witnesses Marie Shoe and Johnnie E. McKinney. The application must be treated as a subsequent application as the case had been previously continued on application of appellant because of the absence of his wife. Goode v. State, 57 Texas Cr. Rep. 220, 123 S.W. 597, and Weaver v. State, 117 Texas Cr. Rep. 335, 38 S.W. 2d 85. The application did not allege that the absent testimony could not be procured from any other source known to the appellant as is required by Art. 544 V.A.C.C.P. for a subsequent application for continuance. We find no error in the court’s refusal of the application. Weaver v. State, supra, and France v. State, 148 Texas Cr. Rep. 341, 187 S.W. 2d 80.\nAppellant insists that the court erred in permitting the state to introduce in evidence certified copies of the record in Cause No. 3369 on the docket of the county court of Donley County in making proof of the prior misdemeanor conviction alleged in the indictment. Appellant objected to such evidence on the ground that the originals were the best evidence; that the copies had not been filed in the cause for three days and notice given of such filing; that the judgment did not describe the offense for which the accused was convicted and was not signed by the judge. It has been the holding of this court that certified copies of court records are admissible to prove a prior conviction and without having first been filed in the cause and notice given of such filing. Amos v. State, 155 Texas Cr. Rep. 488, 237 S.W. 2d 305; Hooper v. State, 160 Texas Cr. Rep. 441, 272 S.W. 2d 103; McGowen v. State, 163 Texas Cr. Rep. 587, 290 S.W. 2d 521, and Roberts v. State, 164 Texas Cr. Rep. 537, 301 S.W. 2d 154. The fact that the judgment in the prior misdemeanor conviction did not show by name the offense for which the accused was convicted did not render it invalid. Johnson v. State, 163 Texas Cr. Rep. 185, 289 S.W. 2d 593. The judgment found the accused guilty as charged in the information and when read in connection therewith, sufficiently shows the offense for which the accused was convicted. Frazier v. State, 159 Texas Cr. Rep. 263, 262 S.W. 2d 501; nor was the judgment invalid because it was not shown to have been signed by the judge. McGowen v. State ,supra.\nWe find no merit in appellant’s contention that the court erred in permitting the officers to describe the appellant’s acts, conduct and appearance after the collision upon which they based their opinion of his intoxication, over the objection that at such time he was under arrest. The officers did not quote anything said by appellant but only described his apperance and the manner of his speech and walk. Such testimony has been held to be admissible. Post v. State, 154 Texas Cr. Rep. 70, 225 S.W. 2d 420, and Piester v. State, 161 Texas Cr. Rep. 436, 277 S.W. 2d 723. The cases of Apodaca v. State, 140 Texas Cr. Rep. 593, 146 S.W. 2d 381, and Beachem v. State, 144 Texas Cr. Rep. 272, 162 S.W. 2d 706, cited by appellant are not here controlling because in both cases the accused was compelled by the officers to do certain acts while under arrest for the purpose of being identified or determining whether he was intoxicated. In the present case appellant was not requested by the officers to do any act or speak any words.\nWe further find no error in the court’s action in permitting the witness Truett Behrens to testify that to his personal knowledge R. Y. King was the county attorney of Donley County during the month of August 1950.\nIn De Lucenay v. State, 68 S.W. 796, it is stated:\n“It is a well-established exception to the general rule that the official character of a public officer need not be proved by commission, or through written evidence, or his right to act as such officer, unless on an issue directly between the officer and the public. This character of proof may be made by parol evidence, and is sufficient in this character of case if it shows him to be a de facto officer. Woodson v. State, 24 Texas App. 153, 6 S.W. 184; Jacobs v. State, 28 Texas App. 79, 12 S.W. 408.”\nAppellant moved to quash the indictment on the ground that the allegations were insufficient to charge a former conviction and were mere conclusions of the pleader. We do not deem it necessary to here set out the allegations of the indictment but observe that they are substantially the same as those in the indictment in Broughton v. State, 148 Texas Cr. Rep. 445, 188 S.W. 2d 393, which was held sufficient to charge an offense under Art. 802b Y.A.P.C.\nWe find the evidence sufficient to sustain the conviction and overrule appellant’s contention that the evidence is insufficient to show that he was the driver of the automobile on the occasion in question and to sustain the allegation of the indictment as to the prior conviction.\nThe judgment is affirmed.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "DICE, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "W. T. Link, Clarendon, for appellant.",
+                                       "John T. Forbis, District Attorney, Childress, and Leon Dong-las, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Harry O. Skaggs v. State.\nNo. 30,132.\nDecember 3, 1958.\nMotion for Rehearing Overruled December 21, 1958.\nW. T. Link, Clarendon, for appellant.\nJohn T. Forbis, District Attorney, Childress, and Leon Dong-las, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1493-01",
+    "first_page_order":  272,
+    "last_page_order":  276
+}

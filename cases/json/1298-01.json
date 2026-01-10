@@ -1,0 +1,163 @@
+﻿{
+    "id":  2021336,
+    "name":  "MATURO, et al. v. CITY OF CORAL GABLES, et al.",
+    "name_abbreviation":  "Maturo v. City of Coral Gables",
+    "decision_date":  "1991-09-06",
+    "docket_number":  "Case No. 90-194 AP",
+    "first_page":  "6",
+    "last_page":  "7",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 6"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "195 So.2d 31",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9765080,
+                                          9764808
+                                      ],
+                         "year":  1967,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/195/0031-02",
+                                            "/so2d/195/0031-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "47 L.Ed.2d 342",
+                         "category":  "reporters:federal",
+                         "reporter":  "L. Ed. 2d",
+                         "year":  1976,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "96 S.Ct. 1148",
+                         "category":  "reporters:federal",
+                         "reporter":  "S. Ct.",
+                         "year":  1976,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "424 U.S. 934",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          12040839,
+                                          12040745,
+                                          12041004,
+                                          12040948,
+                                          12040793,
+                                          12040701,
+                                          12040895
+                                      ],
+                         "year":  1976,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/424/0934-04",
+                                            "/us/424/0934-02",
+                                            "/us/424/0934-07",
+                                            "/us/424/0934-06",
+                                            "/us/424/0934-03",
+                                            "/us/424/0934-01",
+                                            "/us/424/0934-05"
+                                        ]
+                     },
+                     {
+                         "cite":  "522 F.2d 897",
+                         "category":  "reporters:federal",
+                         "reporter":  "F.2d",
+                         "case_ids":  [
+                                          1112066
+                                      ],
+                         "year":  1976,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/f2d/522/0897-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "219 So.2d 760",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9824904
+                                      ],
+                         "year":  1969,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/219/0760-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "383 So.2d 1127",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9621630
+                                      ],
+                         "year":  1980,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/383/1127-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  200,
+                     "char_count":  2019,
+                     "ocr_confidence":  0.889,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07305367996358089
+                                  },
+                     "sha256":  "045e305c755ef0e68addabcba64ffe373b139ebaadb701fb46b3b2170c415981",
+                     "simhash":  "1:b84e275147444a2c",
+                     "word_count":  324
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before NADLER, CAPUA, FERRO, JJ."
+                                ],
+                     "parties":  [
+                                     "MATURO, et al. v CITY OF CORAL GABLES, et al."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nFERRO, J.\nThis appeal follows a final order of an administrative tribunal (the Coral Gables City Commission) granting a zoning variance to the Appellee, MINORCA CORPORATION.\nIn City of Coral Gables v Geary, 383 So.2d 1127 (Fla. 3d DCA 1980), the court stated that the granting of a variance can be justified and possibly required where there is a hardship unique to an individual owner and that a “peculiar characteristic of a particular parcel constitutes a classic hardship”.\nThe record of the proceeding below indicates that the applicant set forth evidence of a “hardship” before the City Commission. The hardship arose from circumstances peculiar to the property where only five of the seven lots owned by the applicant could be used for development. The parcel is located in two different jurisdictions causing this unusual situation.\nThe courts have clearly stated that they are not empowered to substitute their judgment for that of legislative and administrative bodies exercising objectives unless their action is shown to be “clearly arbitrary, capricious, or unreasonable, and having no substantial relation to the public health, safety, or welfare.” Bay View Investment, Inc. v Gringsby, 219 So.2d 760 (Fla. 2d DCA 1969); Construction Industry Association of Sonoma County v City of Petaluma, 522 F.2d 897 (9th Cir. 1976), cert. denied 424 U.S. 934, 96 S.Ct. 1148, 47 L.Ed.2d 342 (1976); Miami v Zorovich, 195 So.2d 31 (Fla. 3d DCA 1967). It is clear from the evidence in the record, as stated above, that the City’s objective was reasonable and there is competent evidence to support the commission’s decision.\nTherefore, based upon the foregoing, we affirm the decision of the City Commission.",
+                                          "type":  "majority",
+                                          "author":  "FERRO, J."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "John G. Fletcher, Esquire, for appellant.",
+                                       "Robert D. Zahner, Esquire and F.W. Guilford, Esquire, for appellees."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "MATURO, et al. v CITY OF CORAL GABLES, et al.\nCase No. 90-194 AP\nEleventh Judicial Circuit, Dade County\nSeptember 6, 1991\nAPPEARANCES OF COUNSEL\nJohn G. Fletcher, Esquire, for appellant.\nRobert D. Zahner, Esquire and F.W. Guilford, Esquire, for appellees.\nBefore NADLER, CAPUA, FERRO, JJ."
+                 },
+    "file_name":  "1298-01",
+    "first_page_order":  26,
+    "last_page_order":  27
+}

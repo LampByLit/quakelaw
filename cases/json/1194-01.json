@@ -1,0 +1,117 @@
+﻿{
+    "id":  4565576,
+    "name":  "Luke Moore v. The State",
+    "name_abbreviation":  "Moore v. State",
+    "decision_date":  "1908-01-22",
+    "docket_number":  "No. 4222",
+    "first_page":  "364",
+    "last_page":  "367",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 364"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "71 S. W. Rep., 944",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "47 S. W. Rep., 642",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "39 Texas Crim. Rep., 619",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4489474
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/39/0619-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "53 Cal., 415",
+                         "category":  "reporters:state",
+                         "reporter":  "Cal.",
+                         "case_ids":  [
+                                          2344477
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/cal/53/0415-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "31 Texas Crim. Rep., 359",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          156122
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/31/0359-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  538,
+                     "char_count":  11824,
+                     "ocr_confidence":  0.584,
+                     "pagerank":  {
+                                      "raw":  2.5191678516998218E-07,
+                                      "percentile":  0.8113229767449762
+                                  },
+                     "sha256":  "7634a650d082f07f617cc62e68a0a83805c09b36047f866ae03089b6d3fb3076",
+                     "simhash":  "1:36aeeca7bf96d451",
+                     "word_count":  2064
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Luke Moore v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "RAMSEY, Judge.\nAppellant was charged by indictment in the District Court of Dallas County, with the offense of burglary, and on trial was found guilty by the jury, and his punishment assessed at five years confinement in the penitentiary.\nNumerous grounds are urged by appellant, both in his brief and on oral argument by his counsel, why this judgment and conviction should be set aside. Among other grounds, it is urged that the court erred in failing to charge on circumstantial evidence. It would, of course, be conceded that if the testimony against appellant was wholly circumstantial, this complaint would be sustained. We do not, however, believe that this contention of fact made by appellant is supported by the record. Aside from the testimony of Miss Kate McConnell, in answer to questions propounded to her by counsel on both sides, in which there was evidence of direct identification of appellant with the crime charged, the following answer of this witness, in response to a question by the court, will demonstrate that whatever issue might be made as to its accuracy, that the identification of the party who made the entry into the house where the witness was, was both positive and complete. She says, “I will say to the jury that the defendant is the man who was in my room that night. I am positive about it.” In this state of the record we are clear that the court was not called on to give a charge on the subject of circumstantial evidence.\nAgain, it is urged that the court erred in the eleventh paragraph of his charge to the jury on the subject of the burden of proof. Under this contention, appellant submits the following proposition: “Under the law the State, in order to sustain the allegations contained in an indictment against the defendant, must assume the burden of establishing the guilt of the defendant by competent evidence beyond a reasonable doubt, and the jury must require of the State before they would be warranted in convicting the defendant of the offense alleged in the indictment a preponderant weight of evidence, in all of which the jury must be instructed by the court.” The charge given, in the respects complained of, carefully guarded every right of the defendant. In the first place there was a general charge that in all criminal cases the burden of proof is on the State. Again, the jury were instructed that the defendant is presumed to be innocent until his guilt is established by legal evidence beyond a reasonable doubt. Further, the jury were charged that, if the evidence raised in their minds a reasonable doubt as to the presence of the defendant at the place where the offense was committed, at the time of the commission thereof, they would find the defendant not guilty; and again, the court gave the following charge: “If from all the evidence in this case 3rou have a reasonable doubt as to whether or not the defendant is the person who entered the house of W. C. McConnell as charged in the indictment, you will acquit the defendant.” As we conceive, the charge of the court on this subject, taken as a whole, was not only without objection, but was an admirable presentation of the law of burden of proof and reasonable doubt.\nAs further ground of reversal, it is urged by counsel that there was error in the action of the court in refusing to comply with the request of the jury to have read to them by the official stenographer, a part of the testimony of the witnesses as to the location of the house alleged to have been entered, and as to how high the moon was. It appears from the record that this request was made to the court at night, and that in response thereto, after some inquiry had been made, the court advised the jury that the stenographer had gone home; but that as soon as he could get him that he would have the testimony read to them as requested. A short time after this, and without additional or further request from the jury, a verdict of guilty was returned. It was, of course, clearly the right of the jury to have the testimony requested read to them; but where, as in this case, they returned a verdict without pressing further their request, it must be assumed that it was no longer desirable or necessary to have their memories refreshed by having the testimony read to them. We do not, therefore, believe there was any error in this action of the court.\nBy bill of exceptions, No. 5, complaint is made that the court erred in permitting counsel for the State to require the defendant to answer, on cross-examination, the question: “What were you sick of?” And that the answer, which the court required to be made: “Well, I had a bad disease,” was injurious and hurtful to his ease, and calculated to disturb the judgment of the jury, to inflame their passions and prejudice them against appellant. In this case appellant, among other things, interposed the defense of an alibi, and claimed to be sick. The truthfulness of the alibi as well as the good faith of his claim of sickness was seriously contested by the State, and was sharply controverted in the evidence. In this state of the record, and for the purpose of disproving the claim of sickness, it was unquestionably permissible for the State, on cross-examination, to interrogate him (appellant) in respect to the nature and character of the sickness, and as to whether it was of such severity as to either prevent him or make it improbable that he could be on the street or out of his room at night. The fact that the testimony should develop a disease or ailment not to his credit, would not change, it seems to us, the rule or the right of the State to inquire into this matter.\nProbably the most serious question arising in the case is the question made by counsel for appellant in his brief, and argued orally with great earnestness and zeal, that the verdict of the jury is unsupported by the evidence, in that there was no sufficient evidence to show or prove that the entry was with the specific intent of committing the crime of theft as averred in the indictment. That this intent must be shown by the -evidence, and that the burden to show same beyond reasonable doubt rests on the State, must be conceded. It is clearly held in the case of Black v. State, 18 Texas Crim. App., 134, that such intent, however, may be shown by circumstances. This rule is supported by all of the decisions. We are confronted then with the question as to whether, in the light of all the circumstances, the jury were justified in deducing the conclusion, from the facts of the whole case, that at the time of the entry in question the appellant did have the intent to commit theft. That the entry was made unlawfully is directly affirmed by the testimony of the prosecuting witness. It is not claimed nor contended that he was there by authority or invitation. His purpose in being there was evil. Counsel for appellant insists that it is likely, if he was there at all, that his mission was to commit rape, or murder, or some other crime. The verdict of the jury affirming that his intent was to commit theft finds support in the fact that it does not appear he had any ill will against any member of the household, or that he knew that same was inhabited by females. Again, the location of the room, the presence of the head of the household, and other circumstances might seem reasonably to rebut the presumption that he intended to commit the crime of rape, which must inevitably have the effect to alarm the household and bring not only probable detection but practically certain capture. Again, the witness, Miss McConnell, testifies that her attention was attracted as by the action of some one moving around. The young girls both had on rings, and Miss McConnell testifies that appellant, when she awoke, had hold of her hand. We must, in a ease like this, have some respect for the verdict of the jury. They are essentially the arbiters under certain restrictions of all questions of fact; both their integrity and intelligence are vouched for by their selection, without objection by both counsel for the State and the defendant. Again, the verdict has received the approval of the judge of the court trying the case; he had the opportunity of seeing the witnesses, and had better opportunities than we have to judge in the first instance, both in respect to their credibility, and the weight to be given to their testimony. He is something more than a mere disinterested moderator of a forensic contest. By law he is charged with the responsibility of deciding on the sufficiency of the evidence which the jury has acted on to support their verdict. Yielding the respect, which the law requires, to the verdict of the jury and the action of the court, we hold against the contention of appellant that the verdict is unsupported in that there was not sufficient evidence of an intent to commit theft; but that judged in the light of all the circumstances, the verdict of the jury is supported by the evidence. Alexander v. State, 31 Texas Crim. Rep., 359; Painter v. State, 26 Texas Crim. App., 454; People v. Soto, 53 Cal., 415. The record shows that in every stage of the trial, the rights of the defendant were carefully guarded; the charge of the court submits every issue as favorably as the defendant could have required, and we, therefore, hold that the judgment of the court below should be in all things affirmed, and it is accordingly so ordered.\nAffirmed.\n[Motion for rehearing overruled without written opinion.—Beporter.]",
+                                          "type":  "majority",
+                                          "author":  "RAMSEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Louis Wilson, for appellant.—On",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Luke Moore v. The State.\nNo. 4222.\nDecided January 22, 1908.\n1. —Burglary—Circumstantial Evidence—Charge of Court—Identity.\nWhere upon trial for burglary the evidence established the identity of defendant in a direct and positive manner, there was no error in not submitting a charge on circumstantial evidence.\n2. —Same—Charge of Court—Reasonable Doubt—Burden of Proof.\nWhere upon trial for burglary the court charged the jury that the burden of proof rested upon the State; that defendant’s innocence was presumed, and that in case of a reasonable doubt he was entitled to acquittal, there was no error.\n3. —Same—Practice in District Court—Recalling Witness—Official Stenographer.\nWhere upon trial for burglary the jury requested to have read for them by the official stenographer a part of the testimony, and the court advised the jury that he would try to comply with their request, but a short time thereafter, the jury returned a verdict of guilty without waiting for said testimony, there was no error.\n4. —Same—Evidence—Cross-Examination—Alibi.\nWhere upon trial for burglary, defendant had testified to an alibi, claiming that he was sick, and could not have been present at the commission of the offense, there was no error in permitting the State on cross-examination to inquire into the character of such sickness, to which defendant replied that he had a bad disease.\n5. —Same—Intent to Commit Theft—Sufficiency of Evidence.\nWhere upon trial for burglary defendant’s intent to commit theft was shown circumstantially to the satisfaction of the jury, and the trial court, such verdict would not be set aside on appeal on the presumption that defendant had an intent to commit some other felony.\nAppeal from the Criminal District Court of Dallas. Tried below before the Hon. W. W. Nelms.\nAppeal from a conviction of burglary; penalty, five years imprisonment in the penitentiary.\nThe opinion states the case.\nLouis Wilson, for appellant.—On\nquestion of charging on circumstantial evidence, Clifton v. State, 39 Texas Crim. Rep., 619; 47 S. W. Rep., 642. On question of specific intent to steal: Harris v. State, 20 Texas Crim. App., 652; Black v. State, 18 Texas Crim. App., 124; Minter v. State, 71 S. W. Rep., 944; 5 Am. \u0026 Eng. Ency. of Law, note 45.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1194-01",
+    "first_page_order":  382,
+    "last_page_order":  385
+}

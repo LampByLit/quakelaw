@@ -1,0 +1,70 @@
+﻿{
+    "id":  8551654,
+    "name":  "Ex Parte Guinon Burns",
+    "name_abbreviation":  "Ex parte Burns",
+    "decision_date":  "1959-03-25",
+    "docket_number":  "No. 30,564",
+    "first_page":  "533",
+    "last_page":  "534",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 533"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  91,
+                     "char_count":  887,
+                     "ocr_confidence":  0.571,
+                     "pagerank":  {
+                                      "raw":  1.4459702208510869E-07,
+                                      "percentile":  0.6540887132801951
+                                  },
+                     "sha256":  "b75916e4ec8363059154d011640791440de4409b1ea78b55d6d9341626da0121",
+                     "simhash":  "1:41025817e0a13d39",
+                     "word_count":  160
+                 },
+    "last_updated":  "2023-07-14T16:09:04.443318+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte Guinon Burns."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThis is an appeal from an order of the district court of El Paso County remanding relator to the custody of the sheriff of said county for delivery to an agent of the State of New Mexico.\nThe demand of the Governor of the State of New Mexico alleges that relator is charged with the crime of “attempt to commit sodomy.” There is no such offense in Texas. 12 Texas Juris, sec. 58, p. 301. There is no showing in this record as to the laws of New Mexico. It therefore follows that it is not shown that relator is substantially charged in the demanding state with a crime under the laws of that state as is required by Section 3 of Article 1008a, V.A.C.C.P.\nThe judgment is reversed and the cause remanded.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Fryer, Milstead \u0026 Luscombe, El Paso, for relator.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte Guinon Burns.\nNo. 30,564.\nMarch 25, 1959.\nFryer, Milstead \u0026 Luscombe, El Paso, for relator.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1577-01",
+    "first_page_order":  551,
+    "last_page_order":  552
+}

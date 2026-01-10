@@ -1,0 +1,125 @@
+﻿{
+    "id":  4562237,
+    "name":  "Rice Williams v. The State",
+    "name_abbreviation":  "Williams v. State",
+    "decision_date":  "1908-01-29",
+    "docket_number":  "No. 4177",
+    "first_page":  "430",
+    "last_page":  "432",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 430"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "35 Texas Crim. Rep., 391",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          158578,
+                                          158579
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/35/0391-01",
+                                            "/tex-crim/35/0391-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "43 S. W. Rep., 519",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "38 Texas Crim. Rep., 459",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2362881
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/38/0459-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "50 Texas Crim. Rep., 282",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2368664
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/50/0282-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "97 S. W. Rep., 483",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "97 S. W. Rep., 483",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  372,
+                     "char_count":  6416,
+                     "ocr_confidence":  0.58,
+                     "pagerank":  {
+                                      "raw":  1.6343475431493036E-07,
+                                      "percentile":  0.6898220707075973
+                                  },
+                     "sha256":  "5b772cc857a3f874a13384b33a9f661be06cb31313dfbda3ab5962cb198d8b42",
+                     "simhash":  "1:138f219ff8a8df8d",
+                     "word_count":  1092
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Rice Williams v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "RAMSEY, Judge.\n—Appellant was convicted in the county court of Johnson County for unlawfully selling intoxicating liquors in violation of the local option law.\nThere are no bills of exception in the record, except those questioning the validity of the local option election, and the only questions of consequence arising are the motion of counsel for defendant to quash the indictment, and his objection to the orders, judgments and entries in the commissioners\u0027 court of Johnson County, touching the prohibition election in said county and the steps thereafter taken to make the result of said election effective. Complaint is made in the motion that the indictment is defective in that it is not distinctly averred that the commissioners court declared the result of the election held in said county on April 7, 1904, by an order of said court declaring the result as required by law. To sustain this contention reliance is had upon the proposition substantially that the indictment must allege that the result of the election was declared by the commissioners court, having in mind evidently the cases of Boone v. State, 10 Texas Crim. App., 418; Akin v. State, 14 Texas Crim. App., 142; Donaldson v. State, 15 Texas Crim. App., 25; and Stallworth v. State, 18 Texas Crim. App., 378. It should, in fairness, be stated that the language of many of the early decisions of this court would seem to lend strong support to appellant’s contention’. However, in the recent case of Stephens v. State, 97 S. W. Rep., 483, appealed from Johnson County, almost the identical question here raised was ruled adversely to the contention of appellant. In that ease the indictment read as follows: “Said Charley Stephens did then and there unlawfully sell intoxicating liquors to J. A. Hill after the qualified voters of said county had determined at an election held in accordance with the laws of the State of Texas, that the sale of intoxicating liquors should be prohibited in said county, and after the commissioners court of said county had made an order prohibiting the sale of intoxicating liquors in said county, and after said order had. been published according to law.” The indictment in this case is a faithful reproduction, indeed almost a literal copy of the indictment considered in the Stephens case, supra. In the last named case the validity of said indictment was raised by motion in arrest of judgment; but it is not believed that additional force can be lent to the objection by the mere change in form or manner in which it is presented. Passing on this identical question in the Stephens case, Judge Henderson said: “While there is no direct averment of the fact that the commissioners court had declared the result, it is shown that the voters had determined in favor of prohibition as to the sale of intoxicating liquors, and that the commissioners court had made an order prohibiting the sale of intoxicating liquors, which embraced the proposition that they had declared the result. There was no error in the action of the court in this regard.” In view -of this decision we do not feel ourselves at liberty to institute a new rule unless we were clear that the Stephens’ decision did not correctly decide the law of the case.\nComplaint is made of the alleged misconduct of the county attorney in his closing address to the jury, but what purports to be a bill of exceptions contained in the record is neither signed nor approved by the trial judge, and cannot, therefore, be considered.\nThe proof in the case is conflicting. The prosecuting witness, John Hall, testifies distinctly that on the 10th day of January, 1907, he got a half pint of whisky from appellant, Rice Williams, for which he paid him 25 cents. This is denied by Williams, who testifies that some time near the day mentioned by prosecuting witness he gave him some whisky; that Hall at the time was drunk, and he never sold Hall any whisky in his life. In addition to this appellant introduced two witnesses, Ferguson and Matteson, both- of whom testified to their acquaintance with Hall for many years, and that his general reputation for truth and veracity in the community in which he lived was bad. It appears that Hall had resided in Cleburne and Johnson County most all the time for almost thirty-two years. Whatever view personally we are inclined to take of the credibility of the witnesses, we are not at liberty under the well settled rules of this court to disturb the verdict of the jury affirming appellant’s guilt.\nFinding no error in the record, the judgment of the court below is affirmed.\nAffirmed.",
+                                          "type":  "majority",
+                                          "author":  "RAMSEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Odell \u0026 Johnson, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Rice Williams v. The State.\nNo. 4177.\nDecided January 29, 1908.\n1. —Local Option—Indictment—Election, Result of.\nWhere upon trial for violation of the local option law, the indictment charged that the defendant did then and there unlawfully sell intoxicating liquors to prosecutor, after the qualified voters of the county\u0027 had determined at an election held in accordance with the laws of the State of Texas that the sale of intoxicating liquors should be prohibited therein, and after the commissioners court of said county had made an order prohibiting the sale of intoxicating liquors in said county, and after said order had been published according to law, was sufficient on motion to quash. Following Stephens v. State, 97 S. W. Rep., 483.\n2. —Same—Bill of Exceptions—Argument of Counsel.\nWhere upon appeal from a conviction of violating the local option law, the bill of exceptions disclosing the objection to the argument of State’s counsel was neither signed nor approved by the trial judge it could not be considered.\n3.—Same—Sufficiency of Evidence,\nWhere upon trial for a violation of the local option law, the evidence was conflicting, and the jury settled the conflict against the defendant, the verdict will not be disturbed.\nAppeal from the County Court of Johnson. Tried below before the Hon. F. E. Adams.\nAppeal from a conviction of a violation of the local option law; penalty, a fine of $25 and twenty days confinement in the county jail.\nThe opinion states the case.\nOdell \u0026 Johnson, for appellant.\n—On question of indictment: Carnes v. State, 50 Texas Crim. Rep., 282; 17 Texas Ct. Rep., 526, and cases cited in opinion; also, Youngman v. State, 38 Texas Crim. Rep., 459; 43 S. W. Rep., 519; Stewart v. State, 35 Texas Crim. Rep., 391.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1216-01",
+    "first_page_order":  448,
+    "last_page_order":  450
+}

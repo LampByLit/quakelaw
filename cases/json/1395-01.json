@@ -1,0 +1,135 @@
+﻿{
+    "id":  8547162,
+    "name":  "Les Davis v. State",
+    "name_abbreviation":  "Davis v. State",
+    "decision_date":  "1958-11-12",
+    "docket_number":  "No. 30,116",
+    "first_page":  "109",
+    "last_page":  "110",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 109"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "308 S.W. 2d 503",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10171215
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/308/0503-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 427",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2609725
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0427-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "297 S.W. 2d 166",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10168021
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/297/0166-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "64 Texas Cr. Rep. 113",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "228 S.W. 2d 863",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10211982
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/228/0863-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "154 Texas Cr. Rep. 512",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2583468
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/154/0512-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  177,
+                     "char_count":  1984,
+                     "ocr_confidence":  0.578,
+                     "pagerank":  {
+                                      "raw":  9.1412108292796334E-08,
+                                      "percentile":  0.5079139749074174
+                                  },
+                     "sha256":  "850e1ab5a6dbc86f1f48512b5bef8e30785fd4791b425c7ab5939d93bead01e1",
+                     "simhash":  "1:7b081e342f8e5ad0",
+                     "word_count":  336
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Les Davis v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is transporting whiskey in a dry area; the punishment, a fine of $250.00.\nSheriff Fenton testified that as he passed the appellant in his automobile the appellant accelerated the speed of the automobile which he was driving, that the witness gave chase, observed the appellant run through a red light and into a rock wall. Fenton stated that as he approached the appellant’s automobile on foot the appellant said, “You got me,” and at the same time he observed on the floorboard of the appellant’s automobile a full pint of whiskey plus another pint containing some whiskey which had the cap removed, and there was whiskey on the floorboard. His testimony was corroborated by that of his deputy.\nThe appellant did not testify or offer any evidence in his own behalf.\nAppellant’s sole contention is that it was incumbent upon the state to introduce evidence .which would negative the exception contained in Article 666-28a, V.A.P.C., which provides that it is lawful to transport intoxicants from “a place where the sale thereof is legal to a place where the possession thereof is legal.” This court has heretofore held that it is incumbent upon the appellant to bring himself within, such exception. See Brooks v. State, 154 Texas Cr. Rep. 512, 228 S.W. 2d 863; Martin v. State, 64 Texas Cr. Rep. 113, 297 S.W. 2d 166; and Evans v. State, 164 Texas Cr. Rep. 427, 308 S.W. 2d 503. In Evans, we said:\n“An examination of the statement of facts reveals no evidence upon which the jury could base a finding that appellant purchased the beer for his own consumption, or that he was transporting it from a place where the sale thereof was legal. For both reasons, appellant failed to bring himself within the exception contained in Art. 666-23a, Sec. (1), V.A.P.C., above quoted.”\nThe judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "R. E. Murphey, Coleman, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Les Davis v. State.\nNo. 30,116.\nNovember 12, 1958.\nR. E. Murphey, Coleman, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1395-01",
+    "first_page_order":  127,
+    "last_page_order":  128
+}

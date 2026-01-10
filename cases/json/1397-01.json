@@ -1,0 +1,137 @@
+﻿{
+    "id":  8547181,
+    "name":  "Phillip M. Deem v. State",
+    "name_abbreviation":  "Deem v. State",
+    "decision_date":  "1958-11-12",
+    "docket_number":  "No. 30,087",
+    "first_page":  "110",
+    "last_page":  "112",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 110"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "255 S.W. 988",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10336517
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/255/0988-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "96 Texas Cr. Rep. 121",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5071211
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/96/0121-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "158 S.W. 516",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8287628
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/158/0516-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "70 Texas Cr. Rep. 631",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2379928,
+                                          2380472
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/70/0631-02",
+                                            "/tex-crim/70/0631-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "88 S.W. 206",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "47 Texas Cr. Rep. 26",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4539682
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/47/0026-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  292,
+                     "char_count":  3836,
+                     "ocr_confidence":  0.591,
+                     "pagerank":  {
+                                      "raw":  5.4717025984050847E-08,
+                                      "percentile":  0.343277349374423
+                                  },
+                     "sha256":  "54a124a2e2609fa913a0b8a045f10ad0e781c8ab4cae2a5b3682a28260991b38",
+                     "simhash":  "1:365ac259531c71c9",
+                     "word_count":  666
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Phillip M. Deem v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nThe offense is felony theft; the punishment, three years.\nThe indictment alleged the theft of six suits of clothes of the value of $160 each from Ray R. Elliott who, the evidence shows, was general manager of Sakowitz Brothers and as such had the\u0027 care, control, custody and management of. all of the merchandise they had for sale.\nAppellant was a salesman employed by Sakowitz Brothers.\nThe state elected to prosecute for the theft of one suit which was that introduced in evidence as State’s Exhibit 1.\nThis suit was recovered by City Detective C. L. Franklin, of the Houston Police Department, from one Wilford Macey upon information he received from appellant, who told him that he had taken it from Sakowitz Brothers and sold it to Macey. Macey testified that he purchased the suit from appellant for $35 or $40 at his (Macey’s) bar.\nManager Elliott testified that the suit was one of some 54 missing, his identification being based upon the stock control records of the company and the labels in the suit, which he said established that it was a suit which Sakowitz Brothers had ordered and received but which they had not sold.\nThe value of the suit and of the coat alone was shown to be more than $50.\nIn addition to his oral confession, appellant made two written confessions, one of which included theft of suits from Byrds, a former employer.\nA portion of this confession was not offered by the state but by appellant.\nIn confessing the theft of suits from Byrds, appellant said that he first took the pants and the next day the coat to a locker in the bus station from where he delivered it in pursuance of an agreement with the purchaser made before the taking of the pants.\nIn the same confession he said that he took suits from Sako-witz Brothers “the same way I got the suits from Byrds.”\nUpon these portions of the confession omitted by the\u0027 state and offered by appellant, it is contended that the court should have submitted an issue or instructed an acquittal on the ground of variance. We do not agree.\nThere was but one design, impulse and purpose on appellant’s part in connection with State’s Exhibit 1. The taking of the pants and the coat, which together composed the suit of clothes, though removed from the store separately, was a part of that one design which was to unlawfully acquire the suit of clothes and sell it in accordance with his prior agreement with Macey.\nUnder these facts the separate removal of the pants and coat composing the suit of clothes would constitute theft of a suit of clothes. See Branch’s Ann. P.C. 2d Ed., Sec. 2618, Vol. 5, p. 68, citing Flynn v. State, 47 Texas Cr. Rep. 26, 88 S.W. 206; Wilson v. State, 70 Texas Cr. Rep. 631, 158 S.W. 516; Moore v. State, 96 Texas Cr. Rep. 121, 255 S.W. 988.\nThe rule relied upon by appellant arises where such taking is the result of a separate, independent impulse or intent, in which event each taking is a separate crime.\nThe trial court did not err in refusing to submit to the jury an issue as to the voluntary character of the written confessions.\nThe confessions had been proved and admitted in evidence without objection before appellant’s wife gave the testimony regarding a promise made to her and communicated to appellant. Appellant’s verbal confession which led to the recovery of the suit was in evidence without objection and was to the same effect as the written confessions.\nThe evidence is sufficient to sustain the conviction and no reversible error appearing, the judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Martin \u0026 Shown, Houston, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White and Charles C. Castles, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Phillip M. Deem v. State.\nNo. 30,087.\nNovember 12, 1958.\nMotion for Rehearing Overruled December 17, 1958.\nMartin \u0026 Shown, Houston, for appellant.\nDan Walton, District Attorney, Thomas D. White and Charles C. Castles, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1397-01",
+    "first_page_order":  128,
+    "last_page_order":  130
+}

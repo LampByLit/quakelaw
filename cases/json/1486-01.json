@@ -1,0 +1,141 @@
+﻿{
+    "id":  8548261,
+    "name":  "Ex Parte Eddie Hooper, Wanda Hooper, and Nell Early",
+    "name_abbreviation":  "Ex parte Hooper",
+    "decision_date":  "1958-12-10",
+    "docket_number":  "No. 30,320",
+    "first_page":  "232",
+    "last_page":  "233",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 232"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "288 S.W. 2d 773",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10180740
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/288/0773-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 639",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2464591
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/162/0639-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "261 S.W. 2d 844",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10185867
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/261/0844-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "159 Texas Cr. Rep. 161",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2475194
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/159/0161-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "312 S.W. 2d 673",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10176915
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/312/0673-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "166 Texas Cr. Rep. 189",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2615168
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/166/0189-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  126,
+                     "char_count":  1084,
+                     "ocr_confidence":  0.599,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.2058537003508699
+                                  },
+                     "sha256":  "2fb722c9fc8798262c82fb95ba1b2eedea01964195db433f3a834dfb77c64f08",
+                     "simhash":  "1:e55fac17226e05dc",
+                     "word_count":  189
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte Eddie Hooper, Wanda Hooper, and Nell Early."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nA prior appeal of this extradition case was reversed. Ex parte Eddie Hooper, et al, 166 Texas Cr. Rep. 189, 312 S.W. 2d 673.\nAnother hearing has been held, and the case is again before us on appeal.\nNo statement of facts approved by the trial court or counsel appears in the record. The one bill of exception complains of the refusal of the trial court to hear evidence tending to mitigate appellants’ guilt of the offense with which they stand charged in the demanding state. Such was not admissible. Article 1008a, Section 20, V.A.C.C.P.; Ex parte Thompson, 159 Texas Cr. Rep. 161, 261 S.W. 2d 844; and Ex parte Cuttrell, 162 Texas Cr. Rep. 639, 288 S.W. 2d 773.\nThe order of the trial court remanding the relators to the custody of the sheriff of Midland County for delivery to an agent of the State of Iowa is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "George T. Thomas, Big Spring, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte Eddie Hooper, Wanda Hooper, and Nell Early.\nNo. 30,320.\nDecember 10, 1958.\nMotion for Rehearing Overruled January 21, 1959.\nGeorge T. Thomas, Big Spring, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1486-01",
+    "first_page_order":  250,
+    "last_page_order":  251
+}

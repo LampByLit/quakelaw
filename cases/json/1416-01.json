@@ -1,0 +1,178 @@
+﻿{
+    "id":  2021364,
+    "name":  "STATE OF FLORIDA v. LONG",
+    "name_abbreviation":  "State v. Long",
+    "decision_date":  "1991-08-05",
+    "docket_number":  "Case No. 91-374-MMA",
+    "first_page":  "144",
+    "last_page":  "147",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 144"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Okaloosa Cty. Ct.",
+                  "id":  14340,
+                  "name":  "Okaloosa County Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "13 L.Ed. 487",
+                         "category":  "reporters:federal",
+                         "reporter":  "L. Ed.",
+                         "year":  1963,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "85 S.Ct. 426",
+                         "category":  "reporters:federal",
+                         "reporter":  "S. Ct.",
+                         "year":  1963,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "480"
+                                           }
+                                       ],
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "379 U.S. 559",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          11731648
+                                      ],
+                         "year":  1963,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "563"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/379/0559-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "34 So.2d 91",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "year":  1948,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "744 F.Supp. 1094",
+                         "category":  "reporters:federal",
+                         "reporter":  "F. Supp.",
+                         "case_ids":  [
+                                          7393949
+                                      ],
+                         "weight":  2,
+                         "year":  1990,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/f-supp/744/1094-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "418 U.S. 323",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          6173012
+                                      ],
+                         "weight":  3,
+                         "year":  1974,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "340"
+                                           },
+                                           {
+                                               "page":  "3007"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/418/0323-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "382 So.2d 687",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9579782
+                                      ],
+                         "weight":  2,
+                         "year":  1980,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/382/0687-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "408 U.S. 104",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          1782877
+                                      ],
+                         "weight":  3,
+                         "year":  1972,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/408/0104-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  583,
+                     "char_count":  8403,
+                     "ocr_confidence":  0.919,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07305638282386348
+                                  },
+                     "sha256":  "ad254500cbd9294699b36c9af3e08034b961ebbc4e74cce0c1878be7735ccaa0",
+                     "simhash":  "1:a54379a20a18896b",
+                     "word_count":  1319
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "STATE OF FLORIDA v LONG"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nT. PATTERSON MANEY, County Judge.\nTHIS CAUSE came before the court for hearing on the defendant’s motion to dismiss the indictment for violation of FS § 817.567. Apparently, this is a case of first impression.\nThe indictment alleges that “between October and November, 1990”, Jean Long “claim(ed) orally and/or in writing, to possess an academic degree ... or title associated with said degree . . . when she, in fact had not been awarded such degree.” The motion posited two grounds for dismissal: (1) that the statute is unconstitutional or unconstitutionally applied and, (2) there are no material disputed facts and the undisputed facts do not establish a prima facie violation of law. The defendant’s memorandum in support of the motion notes that she was “a candidate in a political race for an elected office”, although the indictment does not so allege.\nTo support her first ground, the defendant argues that the statute “restrict(s) and inhibit(s) pure political speech without any requirement of criminal or fraudulent intent” in violation of the State and Federal Constitutions. Article 1, Section 4 of the State Constitution specifically limits the state guaranteed right by stating “Every person . . . may speak, write and publish his sentiments on all subjects but shall be responsible for the abuse of that right.” (emphasis added.) It is well settled that the Federal protection of speech also has limits, albeit narrowly defined limits. Grayned v City of Rockford, 408 U.S. 104, 92 S.Ct. 2294, 33 L.Ed. 2d 222 (1972). Courts have approved limitations on speech relating to fighting words and obscenity, libel, slander, invasion of privacy, intentional infliction of emotional distress and harassing telephone calls. State v Elder, 382 So.2d 687 (Fla. 1980) Gertz v Robert Welch, Inc., 418 U.S. 323, 340, 94 S.Ct. 2997, 3007, 41 L.Ed.2d 789 (1974).\nBy memorandum, Mrs. Long asserts that as “a candidate in a political race for an elected office . . . her claims and statements are absolutely protected.” Such an argument cannot succeed. In striking Canon 7(B)(1)(c) of the Florida Code of Judicial Conduct, Judge Stafford recently observed, “Campaign rhetoric which is untruthful or deceptive, . . . cannot be tolerated.” American Civil Liberties Union of Florida, Inc., and John Roe v The Florida Bar, and the Florida Judicial QuaMcations Commission, 744 F.Supp. 1094 (N.D. Fla. 1990), TCA 90-40122-WS. While noting Florida’s “compelling interest” in preserving integrity in the context of judicial elections, Judge Stafford did not address the proscription against misrepresentation of identity, qualifications, present position or other fact. A.C.L.U. and Roe, supra. This court’s reading of the ACLU opinion is that some restriction of judicial candidates’ speech is constitutionally permissible given the compelling interest of the public and the courts’ presumption favoring disclosure of information. Certainly the state has a compelling interest for truth in all elections and, indeed, society has such an interest in the relations between its members.\nSimply stated, the electoral process is at the very core of the American experiment and experience in democracy. Wide differences in viewpoint and policy positions are not only tolerated but encouraged. That said, a person, even a candidate, does not have a constitutionally protected right to lie or misstate facts.\nThe defendant argues that the statute does not require intent or distinguish between a joke and a serious statement; a mistake and a fraudulent statement. The Court’s role is not to judge the wisdom of the legislature’s policy, but to apply the constitutional plumb line to legislative enactments. Defendant’s assertion encompasses several arguments, each of which are rejected. First, it is an “overbreadth” argument, but Florida law is well established that doubts about a statute’s constitutionality should be resolved in favor of constitutionality. State v Elder, 382 So.2d 687 (1980).\n... we are mindful of our responsibilities to resolve all doubts as to the validity of a statute in favor of its constitutionality, provided the statute may be given a fair construction that is consistent with the state and federal constitutions as well as with the legislative intent, (citations omitted) Elder, supra at 690. Second, the defendant challenges the statute for failing to include specific intent as an element of the crime. It is well settled that the legislature can dispense with the element of intent and punish particular acts without regard to mental attitude. Ex parte Stoddard, 34 So.2d 91 (1948).\nThe defendant has placed much reliance on her status as an office holder and, prior to that, as a candidate for elective political office. Such reliance is misplaced and, in fact, the indictment makes no mention of the defendant’s campaign or office. The act does not apply just to politicians or the exposition of political ideas. The statute says “No person in the state may claim . . . (etc)”, (emphasis added.) The statute prohibits the act of misrepresenting one’s academic credentials as opposed to prohibiting the exercise of free speech or political speech. It prohibits a misstatement of fact, perfidy, mendacity and dissemblance. “It has never been deemed an abridgement of freedom of speech or press to make a course of conduct illegal merely because the conduct was in part initiated, evidenced or carried out by means of language, either spoken, written or printed.” Cox v Louisiana, 379 U.S. 559, 563, 85 S.Ct. 426, 480, 13 L.Ed. 487 (1963). This statute prohibits a person from asserting “a claim to possess” a “degree” or “title”. The clear meaning of the words “claim” and “possess” eliminate any hint of frivolity and imply an intentional misstatement of fact.\nAlthough the motion to dismiss asserted two grounds, the memorandum asserted an additional ground for dismissal: the allegation that the charge is “politically motivated.” There is no evidence before the court that this prosecution is politically motivated notwithstanding the fact that the defendant is a political figure. Certainly the statute does not apply solely to politicians. Similarly, no legal authority has been provided to support the proposition that the prosecution of political figures is suspect or prohibited. Such a proposition is rejected.\nFinally, at oral argument, the defendant urged that the alleged material facts do not establish a príma facie case of guilt of the defendant. The court does not agree. The statute very clearly states what is proscribed, i.e. claiming, orally or in writing to possess an academic degree, as defined, unless the person has, in fact, been awarded the degree. The statute is not vague or ambiguous. The indictment alleges commission of the specific prohibited conduct. The indictment states a prima facie case.\nFor the foregoing reasons, the defendant’s motion to dismiss is denied.\nDONE AND ORDERED in Chambers, Okaloosa County Courthouse Annex, Shalimar, Florida, this 5th day of August, 1991.\nFor thousands of years members of our culture have been taught not to bear false witness. Exodus 20:16. The legislature has repeatedly applied criminal sanctions to a range of statement-related acts. (See FS § 837 perjury; FS § 648.48 bail bond investigations; FS § 790.06(4)(b) application for license to carry concealed weapon; FS § 220.221 corporate income tax return; FS § 943.058(7) knowingly making false statements in connection with driver’s licenses; FS § 324.221(1) false statement in connection with transfer of motor vehicle; FS § 632.636 willfully false statements relating to application for membership in fraternal benefit society; FS §620.114 execution of certificate of partnership; FS § 527.16(4) willfully giving false testimony for Liquified Petroleum gas investigations; FS § 11.05 false swearing before legislative committee; FS § 533 protection for affiants of mine waste complaints; FS § 370.16(20) false returns as to oysters; FS § 876.10 false oath of public officer; FS § 121.23(2)(b) knowingly false testimony to state retirement commission, and FS § 817.23 false affidavit with intent to defraud insurer.)",
+                                          "type":  "majority",
+                                          "author":  "T. PATTERSON MANEY, County Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Stanley K. Luke, Assistant State Attorney, for plaintiff.",
+                                       "Stanley B. Powell, Esquire, for defendant."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "STATE OF FLORIDA v LONG\nCase No. 91-374-MMA\nCounty Court, Okaloosa County\nAugust 5, 1991\nAPPEARANCES OF COUNSEL\nStanley K. Luke, Assistant State Attorney, for plaintiff.\nStanley B. Powell, Esquire, for defendant."
+                 },
+    "file_name":  "1416-01",
+    "first_page_order":  164,
+    "last_page_order":  167
+}

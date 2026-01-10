@@ -1,0 +1,93 @@
+﻿{
+    "id":  8548075,
+    "name":  "Elijah Washington v. State",
+    "name_abbreviation":  "Washington v. State",
+    "decision_date":  "1958-12-10",
+    "docket_number":  "No. 30,133",
+    "first_page":  "218",
+    "last_page":  "218",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 218"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "143 S.W. 2d 775",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10228069
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/143/0775-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "140 Texas Cr. Rep. 133",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5798025
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/140/0133-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  114,
+                     "char_count":  1160,
+                     "ocr_confidence":  0.59,
+                     "pagerank":  {
+                                      "raw":  7.2064751613657265E-08,
+                                      "percentile":  0.4307849608220402
+                                  },
+                     "sha256":  "bd7d92a8f451d436260917f1e6a3e00e7b839c557a924b66bc74315bb6b854b8",
+                     "simhash":  "1:c9e990f7282003dc",
+                     "word_count":  192
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Elijah Washington v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Judge.\nThe offense is burglary, with a prior conviction for passing a forged instrument alleged for enhancement. The punishment was assessed at twelve years’ confinement in the penitentiary, under the mandate of Art. 62, P.C.\nAt the outset we are met with a motion to quash the indictment on the grounds that the primary offense of burglary is not the “ ‘same offense, or one of the same nature’ ” as that of passing, as true, a forged instrument, the offense for which the appellant was convicted in the prior case alleged for enhancement.\nWere this a case of first impression it might cause us more concern, but this court specifically held in Brown v. State, 140 Texas Cr. Rep. 133, 143 S.W. 2d 775, that burglary and forgery are not offenses of the same nature as prescribed by Art. 62, P.C.\nThe judgment is reversed and the cause is remanded.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Victor Gleckler, Austin, for appellant.",
+                                       "Les Proctor, District Attorney, David S. McAngus, Assistant District Attorney, Austin, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Elijah Washington v. State.\nNo. 30,133.\nDecember 10, 1958.\nState’s Motion for Rehearing Overruled January 14, 1959.\nVictor Gleckler, Austin, for appellant.\nLes Proctor, District Attorney, David S. McAngus, Assistant District Attorney, Austin, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1479-01",
+    "first_page_order":  236,
+    "last_page_order":  236
+}

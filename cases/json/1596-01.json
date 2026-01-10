@@ -1,0 +1,119 @@
+﻿{
+    "id":  8552445,
+    "name":  "Thomas Kerrigan v. State",
+    "name_abbreviation":  "Kerrigan v. State",
+    "decision_date":  "1959-02-11",
+    "docket_number":  "No. 30,356",
+    "first_page":  "601",
+    "last_page":  "604",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 601"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "240 S.W. 2d 297",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10196109
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/240/0297-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "156 Texas Cr. Rep. 218",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2580664
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/156/0218-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 S.W. 2d 976",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10224772,
+                                          10224815
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/162/0976-01",
+                                            "/sw2d/162/0976-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "144 Texas Cr. Rep. 309",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5291537
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/144/0309-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  350,
+                     "char_count":  5245,
+                     "ocr_confidence":  0.559,
+                     "pagerank":  {
+                                      "raw":  2.3775670186674574E-07,
+                                      "percentile":  0.7964943129889039
+                                  },
+                     "sha256":  "95e5277e6c622ae3e33d0038a37d5164cec5ed72907dcae538e1db58af19763c",
+                     "simhash":  "1:6e3d0000842a049d",
+                     "word_count":  906
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Thomas Kerrigan v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is robbery; the punishment, 10 years.\nProsecutrix testified that she was employed as a barmaid at the Jay Bar in Houston, that the appellant had been a customer at the bar a number of times prior to the day charged in the indictment and on that night as she was preparing to close he was her only customer, that as she turned her back to him he hit her over the head with a beer bottle, slapped her, and threatened her until, through fear, she opened the cash register, from which he took the day’s receipts. She stated \u0027that, following the robbery, he bound her and left her lying in a back hallway while he went to the front, turned out the lights, and in a few minutes returned to where she was lying and forcibly ravished her. She stated that three months later she saw the appellant in another bar and had him arrested.\nAppellant, testifying in his own behalf, denied the robbery and rape, and testified that he had never been in the Jay Bar in his life. The state, on rebuttal called another barmaid at the Jay Bar, and she testified that the appellant had frequented the place and was there when she got off duty on the day charged in the indictment.\nThe jury resolved the conflict in the evidence against the appellant, and we find the evidence sufficient to support the conviction. We shall discuss the contentions advanced in the brief.\nDuring his cross-examination of the appellant, the prosecutor requested that he bare his teeth to the jury in order that they might see a dental plate, which was a means of identification; the appellant replied that he did not normally look like that, and the prosecutor said, “You don’t normally rape people?” to which the appellant replied, “I never have.” Objection was sustained, and the jury were instructed to disregard, but motion for mistrial was overruled.\nLater on, the prosecutor, during the course of an objection, asserted to the court that they were in the trial of a rape case and, when being corrected,- stated that he meant robbery; and the objection to his original remark was sustained.\nIt is the appellant’s contention that no evidence of or comment concerning the rape was proper in this trial for robbery. We cannot bring ourselves to agree with such a position. These two offenses were so interwoven as to be parts of the same transaction. In McCoy v. State, 144 Texas Cr. Rep. 309, 162 S.W. 2d 976, in holding that the theft of an automobile and a subsequent robbery by the same parties the same night were parts of one continuous transaction, this court quoted from Texas Jurisprudence as follows: “The fact that the development of a given transaction relied upon by the State as constituting a crime brings out other facts which of themselves constitute an independent crime, does not per se make the evidence of such independent crime inadmissible.” See also Sims v. State, 156 Texas Cr. Rep. 218, 240 S.W. 2d 297.\nThe next bill relates to cross-examination of the accused concerning prior convictions. In response to questions by his own counsel, the appellant denied that he had ever before been convicted of a felony. The bill reflects that the prosecutor had seen an F.B.I. report which showed that the appellant had been arrested by the police department of Boston, Massachusetts, for larceny over $100.00. He was asked if he had been convicted of a felony in that state, answered that he had not, and the matter was not pursued any further. The report further showed that he had been arrested by the police department of Mobile, Alabama, on two charges and that in the burglary charge he was turned over to the Navy for disciplinary action. He was asked if he had been convicted of a felony in Alabama, and when he replied he had not he was asked about the Navy and replied that he had been convicted of a felony in the Navy, and it arose out of breaking some windows, and that he “got 60 days restriction and $240.00 fine.”\nThis record does not reflect bad faith on the part of the prosecutor in asking the questions. If, in fact, the offense for which the appellant was courtmartialed in the Navy was not a felony, this record does not reveal it, and the appellant said, “It was a felony, I guess. I don’t know.” No error is reflected by this bill.\nAppellant’s next complaint relates to questions propounded by the state concerning appellant’s reputation. The record reveals that when the questions were asked and answered no objection was interposed, and nothing is presented for our review.\nHis last complaint relates to the court’s charge in which he limited the evidence concerning the appellant’s court-martial conviction to his credibility. We find no objection to the charge and no requested charges in the record; and so appellant’s complaint is not properly preserved for review.\nFinding no reversible error, the judgment of the trial court is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "M. Gabriel Nahas, Jr., and King C. Haynie (of counsel on appeal only), Houston, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White, Gus J. Zgourides, Assistant District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Thomas Kerrigan v. State.\nNo. 30,356.\nFebruary 11, 1959.\nMotion for Rehearing Overruled April 1, 1959.\nM. Gabriel Nahas, Jr., and King C. Haynie (of counsel on appeal only), Houston, for appellant.\nDan Walton, District Attorney, Thomas D. White, Gus J. Zgourides, Assistant District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1596-01",
+    "first_page_order":  619,
+    "last_page_order":  622
+}

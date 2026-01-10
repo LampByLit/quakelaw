@@ -1,0 +1,70 @@
+﻿{
+    "id":  4564071,
+    "name":  "Tom Hardy v. The State",
+    "name_abbreviation":  "Hardy v. State",
+    "decision_date":  "1908-01-29",
+    "docket_number":  "No. 4223",
+    "first_page":  "420",
+    "last_page":  "422",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 420"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  343,
+                     "char_count":  6947,
+                     "ocr_confidence":  0.585,
+                     "pagerank":  {
+                                      "raw":  4.8282325077339785E-07,
+                                      "percentile":  0.9319892781393818
+                                  },
+                     "sha256":  "cd1de52d3c370c46fda01e62befb8a112eb3b44f6d7a1aa03189ff074f43304a",
+                     "simhash":  "1:17546c142c9d39bf",
+                     "word_count":  1215
+                 },
+    "last_updated":  "2023-07-14T19:59:32.944253+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Tom Hardy v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BROOKS, Judge.\nAppellant was convicted of violating the local option law.\nWe find two bills of exception in the record. The first bill relates to the introduction by the State of the order of the commissioners court ordering an election, the contention of appellant being that there was a variance in said order to the charge alleged in the bill of information; the information charging that the order made by the commissioners court ordering an election for the purpose of determining whether or not the sale of intoxicating liquors should be prohibited in said county; whereas, the order introduced ordered an election for the purpose of determining whether or not intoxicating liquor should be sold in said county, it being contended that this is a variance.\nThe next bill relates to the refusal of the court to allow appellant to prove by the county clerk that he, the clerk, did not at any time post or cause to be posted any notices of an election. In explanation of this bill the court says that the record shows that the copies of the order of the commissioners court were issued and certified by the county clerk, and that the same were posted by Buckner, the sheriff, in the manner and for the length of time required by law.\nThis prosecution was commenced on the 29th day of July, 1907. The bill shows that the State objected on the ground that it was immaterial, and was offered in the nature of a defense to contest the legality of the local option law at a time more than sixty days after the taking effect of the Act of the Thirtieth Legislature, passed May 14, 1907. We hold that this objection is well taken. Said act provides, that contests of elections that had theretofore been had must be contested within sixty days from the taking effect of said law and not otherwise. The matters. complained of would be mere irregularities at best, and this act makes valid and non-contestable anything pertaining to irregularities in the adoption of the local option law. The act itself provides that we shall conclusively presume that said election as held was valid in all things and binding upon all courts. We accordingly hold, that said act is valid, and applies to all local option elections, and it clearly applies in this case.\nThe judgment is accordingly affirmed.\nAffirmed.",
+                                          "type":  "majority",
+                                          "author":  "BROOKS, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "King \u0026 King, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Tom Hardy v. The State.\nNo. 4223.\nDecided January 29, 1908.\n1. —Local Option—Election Contest—Limitation.\nUnder the Act of the Thirtieth Legislature, contests of local option elections that had theretofore been held, must be made within sixty days from the taking effect of said law and not otherwise.\n2. —Same—Evidence—Validity of Law.\nThe Act of the Thirtieth Legislature approved May 14, 1907, with reference to election contests, is valid and applies to local option elections theretofore held; and testimony offered in the nature of a defense to contest the legality of a local option law adopted theretofore in a trial of defendant for such violation of said law, more than sixty days after said act of the Legislature took effect, was inadmissible.\nAppeal from the County Court of Nacogdoches. Tried below before the Hon. C. D. Mimms.\nAppeal from a conviction of a violation of the local option law; penalty, a fine of $25 and twenty daj\u0027s confinement in the county jail.\nThe record shows that the local option election was adopted on the 8th day of March, 1906; that defendant was charged for a violation thereof, on March 12, 1907; that the complaint was made and the information filed thereon on the 29th day of July, 1907, and that defendant was convicted on the 30th day of November, 1907; that said county court convened on the 18th day of November, 1907, and adjourned on the 7th day of December, 1907. The act providing for election contests arising under local option laws was approved May 14, 1907, and took effect ninety days after adjournment. The Legislature adjourned May 12, 1907.\nKing \u0026 King, for appellant.\n—As was said in the case of Donaldson v. State: The ordering of a local option election being for a particular locality only, it is a quasi-local or special law, and depends for its validity upon its adoption in conformity with the law permitting its adoption. It cannot be said that an order of the court ordering an election to be held for the puropse of determining whether or not intoxicating liquors should be sold in the county, js a strict compliance with the statutes giving to commissioners court authority to order an election for a given territory for the purpose of determining whether or not the sale of intoxicating liquor should be prohibited within said territory. i The other eases cited support the authority of Donaldson v. State, supra, in adjudicating that to put local option in force and effect in a given territory, the statutes authorizing such special law must have been strictly followed and complied with. There is no authority of law authorizing\u0027 an election to be ordered for the purpose of determining whether or not intoxicating liquors should be sold in á given territory, and such an order, being without authority of law, is absolutely void. It follows, therefore, that a legal election could not be held upon such an order, and that the order for the election being void, the election becomes likewise void.\nThe trial court evidently acted under the impression that this defect was cured by section 2 of article 3397, of the Act of the Thirtieth Legislature, which provides that no contest of the legality of a local option law can be had after the expiration of sixty days from the date upon which the law goes into effect. To so hold would be to give the section referred to a retroactive effect, and this we do not understand can be done in such a way as to effect the liberty of a citizen charged with having violated a law long prior to the enactment of such a statute.\nF. J. McCord, Assistant Attorney-General, for the State.\n—Section 2, of said act, provides that where the election has taken place before the enactment of this act, that the contest shall be filed within sixty days from the taking effect of this act, and if no contest is filed, it shall be conclusively presumed that said election, as held, was valid in all things and binding upon all courts. The contention is made in the brief of appellant in this case that this law is retroactive. The State contends that there is no force in this objection; that this is a remedial statute and is intended to effect the procedure of trial, and this being so, the remedy or method of proceeding must be observed as fixed by the law at the time of trial, like any other law that might change the rule of evidence or procedure. They do not effect a valuable right, but the remedy. We think that the act of the last Legislature is in force and that it controls this case, and that the defendant’s objections to the preliminary orders calling an election cannot now be considered, and the State asks that the case be affirmed."
+                 },
+    "file_name":  "1211-01",
+    "first_page_order":  438,
+    "last_page_order":  440
+}

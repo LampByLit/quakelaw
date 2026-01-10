@@ -1,0 +1,169 @@
+﻿{
+    "id":  8549047,
+    "name":  "Ex Parte Raul T. Rodriguez",
+    "name_abbreviation":  "Ex parte Rodriguez",
+    "decision_date":  "1959-01-28",
+    "docket_number":  "No. 30,481",
+    "first_page":  "305",
+    "last_page":  "307",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 305"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "301 S.W. 2d 655",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10181761,
+                                          10181796
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/301/0655-01",
+                                            "/sw2d/301/0655-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 572",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2609585
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0572-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "234 S.W. 2d 874",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10215841
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/234/0874-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "155 Texas Cr. Rep. 285",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2582656
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/155/0285-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "184 S. W. 2d 286",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10203975
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/184/0286-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "147 Texas Cr. Rep. 661",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5300412
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/147/0661-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "225 S.W. 2d 833",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10212637,
+                                          10212509
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/225/0833-02",
+                                            "/sw2d/225/0833-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "154 Texas Cr. Rep. 123",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2586246
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/154/0123-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  213,
+                     "char_count":  3254,
+                     "ocr_confidence":  0.584,
+                     "pagerank":  {
+                                      "raw":  1.2848705687802988E-07,
+                                      "percentile":  0.618443971057772
+                                  },
+                     "sha256":  "c47c564c70996de14b57ed556f8ad88c9addc78a9bbb41d56e2a648811fc9cf8",
+                     "simhash":  "1:269bc86429a27654",
+                     "word_count":  573
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte Raul T. Rodriguez."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DICE, Judge.\nThis is an original application for a writ of habeas corpus by which relator seeks his release from the Texas Prison System.\nThe record reflects that relator and Pedro R. Amador were jointly charged by indictment in Cause No. 1425 in the 105th Judicial District Court of Kleberg County with the offense of burglary in the first count and felony theft in the second count. The indictment further alleged a prior conviction of the relator for the purpose of enhancing the punishment for the offense charged in the first count.\nOn April 15, 1957, the relator waived a jury and entered a plea of guilty before the court to the charge contained in the indictment. Judgment was rendered and entered by the court finding relator guilty of burglary and assessing his punishment at confinement in the penitentiary for a “term of not less than two (2) years nor more than five (5) years.” On such date sentence was pronounced upon the relator in accordance with the judgment.\nOn May 13, 1957, an order was entered in the cause by the trial court declaring said judgment and sentence void and setting both aside. The court then proceeded to enter as the court’s judgment in the cause a judgment finding relator guilty of the offense of felony theft and assessing his punishment at confinement in the penitentiary for a term of “not less than two (2) nor more than ten (10) years as provided by Article 62 of the Penal Code of the State of Texas.” In accordance with this judgment the court also proceeded to enter as the sentence of the court in the cause a sentence which ordered that relator be confined in the penitentiary for a term of “not less than two (2) nor more than ten (10) years.”\nWe need not discuss the various attacks made by the relator upon the judgments and sentences entered in the cause because in any event both judgments entered by the court on April 15, 1957, and May 13, 1957, were neither definite or certain as to the punishment assessed, and for such reason were void. Ex Parte East, 154 Texas Cr. Rep. 123, 225 S.W. 2d 833; Ex Parte Traxler, 147 Texas Cr. Rep. 661, 184 S. W. 2d 286; Ex Parte Clubb, 155 Texas Cr. Rep. 285, 234 S.W. 2d 874, and Ex Parte Frazier, 164 Texas Cr. Rep. 572, 301 S.W. 2d 655.\nThe judgment entered on May 13, 1957, finding relator guilty of felony theft, as charged in the second count of the indictment, cannot be sustained by reason of the punishment being absolutely fixed under Art. 62 V.A.P.C., because under the allegations of the indictment appellant’s prior conviction was alleged only to enhance the punishment for the offense of burglary which was charged in the first count.\nIt appearing that relator is being confined under a void judgment, it is ordered that he be relieved from further confinement in the penitentiary under said judgment and that he be delivered by the penitentiary authorities to the sheriff of Kle-berg County to answer in the 105th Judicial District Court of such county to the indictment in said cause under which his conviction was had.\nIt is so ordered.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "DICE, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Perkins, Floyd \u0026 Davis, by Kenneth Oden, Alice, for relator.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte Raul T. Rodriguez.\nNo. 30,481.\nJanuary 28, 1959.\nPerkins, Floyd \u0026 Davis, by Kenneth Oden, Alice, for relator.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1507-01",
+    "first_page_order":  323,
+    "last_page_order":  325
+}

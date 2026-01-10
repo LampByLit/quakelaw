@@ -1,0 +1,93 @@
+﻿{
+    "id":  8551980,
+    "name":  "Donald Dale McCall v. State",
+    "name_abbreviation":  "McCall v. State",
+    "decision_date":  "1959-03-25",
+    "docket_number":  "No. 30,556",
+    "first_page":  "559",
+    "last_page":  "561",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 559"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "312 S.W. 2d 640",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10175694
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/312/0640-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "166 Texas Cr. Rep. 293",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2619747
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/166/0293-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  224,
+                     "char_count":  2726,
+                     "ocr_confidence":  0.56,
+                     "pagerank":  {
+                                      "raw":  4.89950402824256E-08,
+                                      "percentile":  0.3086681887631287
+                                  },
+                     "sha256":  "e461af6adcaefe8c19c4cf9c0a872cc74b316cd36749e1f598560be08597f100",
+                     "simhash":  "1:348f6306556d1cc1",
+                     "word_count":  453
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Donald Dale McCall v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is aggravated assault upon a peace officer; the trial was before the court without the intervention of a jury; the punishment, a fine of $100.00.\nOfficer Goodnight of the Houston police testified that, in company with Officer Goodman on the day in question, he received information from a citizen that the appellant, who was pointed out to him, would come into possession of certain narcotics in a very short while and that, pursuant to such information, he continued to watch the appellant’s automobile. He stated further that within a few minutes an automobile came to a halt near the automobile occupied by the appellant, the driver got out, went to the window of appellant’s automobile, handed him a package, ran back to his automobile, and immediately drove away. Goodnight and his fellow officer gave chase, overtook the appellant’s automobile, identified himself, and searched the appellant’s person, where he found a tobacco can which was later shown to contain marijuana. At this moment, the appellant struck Officer Goodnight in the chest and kicked him in the leg, and hit and struck each of the officers as they struggled with him on the ground and until he was subdued and placed in handcuffs. It was this assault which constitutes the basis of this prosecution.\nAppellant’s confession was introduced in evidence in which he recited that he had bought a can of marijuana from one “George” just before he was arrested by the officers.\nAppellant, testifying in his own behalf, denied that his confession had been voluntarily made and called a doctor who examined him the following day and who testified that he found certain contusions and abrasions on the person of the appellant.\nThe court resolved the conflict in the evidence against the appellant, and we find the evidence sufficient to support his finding.\nNo brief has been filed on behalf of the appellant, but we gather from the objections that he contended that the arrest was unlawful and that he had a right to defend against an unlawful arrest. We have concluded that the information which the officer received, plus the action of the parties at the scene, was sufficient to lead the officers to believe that a felony was being, committed in their presence and to authorize the arrest without a warrant. Sanders v. State, 166 Texas Cr. Rep. 293, 312 S.W. 2d 640.\nFinding no reversible error, the judgment of the trial court is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "No attorney for appellant of record on appeal.",
+                                       "Dan Walton, District Attorney, Thomas D. White, Samuel H. Robertson, Jr., Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Donald Dale McCall v. State.\nNo. 30,556.\nMarch 25, 1959.\nNo attorney for appellant of record on appeal.\nDan Walton, District Attorney, Thomas D. White, Samuel H. Robertson, Jr., Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1585-01",
+    "first_page_order":  577,
+    "last_page_order":  579
+}

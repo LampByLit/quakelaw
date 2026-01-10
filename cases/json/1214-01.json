@@ -1,0 +1,207 @@
+﻿{
+    "id":  4564631,
+    "name":  "Frank Schwulst v. The State",
+    "name_abbreviation":  "Schwulst v. State",
+    "decision_date":  "1908-01-29",
+    "docket_number":  "No. 4103",
+    "first_page":  "426",
+    "last_page":  "429",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 426"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "57 S. W. Rep., 815",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "73 S. W. Rep., 807",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "97 S. W. Rep., 477",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "50 Texas Crim. Rep., 368",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2372762
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/50/0368-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "40 Texas Crim. Rep., 577",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          163886
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/40/0577-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "42 S. W. Rep., 554",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "92 S. W. Rep., 1086",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "87 S. W. Rep., 669",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "37 Texas Crim. Rep., 506",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          161253
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/37/0506-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "33 S. W. Rep., 339",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "55 S. W. Rep., 830",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "34 Texas Crim. Rep., 616",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4480290
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/34/0616-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "30 S. W. Rep., 555",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "73 S. W. Rep., 807",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "97 S. W. Rep., 477",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "50 Texas Crim. Rep., 368",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2372762
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/50/0368-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "40 Texas Crim. Rep., 577",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          163886
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/40/0577-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  479,
+                     "char_count":  10615,
+                     "ocr_confidence":  0.602,
+                     "pagerank":  {
+                                      "raw":  7.3699780211325364E-08,
+                                      "percentile":  0.44187054920962576
+                                  },
+                     "sha256":  "4d764d8bc4e4568ba836a72979d9ed43f50fa8158c8ee29e8082b4297faaf663",
+                     "simhash":  "1:fba515a1b40eccdd",
+                     "word_count":  1842
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Frank Schwulst v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\nAppellant was convicted under article 406 of the Penal Code for selling intoxicants in local option territory in a blind tiger. One of the questions raised is the sufficiency of the indictment, which we deem unnecessary to discuss specifically.\nWe think the statute defining and prohibiting the sale of liquor by means of a blind tiger is not violative of a constitutional provision, and it is within the power of the Legislature to prohibit sales of intoxicants in this manner, and prescribe a higher punishment for this character of sale than is provided against other characters of sale.\nOne ground of the motion to quash is predicated upon the theory, or idea, that the name of the seller is not set out in the indictment. This objection is not well taken. The pleading charges appellant with selling to John Murphy. The evidence introduced by the State, as well as that by. the defendant, excludes the idea that he in fact made the sale, but that the sale was made by another party whose face was covered with a mask. The theory of the prosecution is that appellant owned the intoxicant, shown to have been sold by the party wearing the mask, and that said party was the agent and employee of appellant and as such made the sale. If the State’s evidence is sufficient to show that the masked party was the agent of appellant and so selling, appellant would be equally guilty and the indictment would sufficiently charge the offense by alleging directly that appellant made the sale. All parties to the commission of offenses known as misdemeanors, are principals, whether they are in fact principals or accomplices. Houston v. State, 13 Texas Crim. App., 595; Winnard v. State, 30 S. W. Rep., 555; Rape v. State, 34 Texas Crim. Rep., 616; Bogel v. State, 55 S. W. Rep., 830; Buchanan v. State, 33 S. W. Rep., 339; Beuchert v. State, 37 Texas Crim. Rep., 506; Segars v. State, 40 Texas Crim. Rep., 577.\nSome of the questions for revision with reference to the matter of seizure, arrest, etc., mentioned in said article 406, supra, have been so modified and changed by recent legislation, that even if they were raised on the face of this indictment, as suggested by appellant, we would deem it unnecessary to consider them in this case. In fact, we do not believe the questions are in the case.\nIt became a serious question on the trial, as to whether or not the masked party selling to Murphy was the agent of appellant or of Aldridge. Appellant took out Internal Bevenue License in July, 1906, which supposedly was to continue for twelve months. The license authorized him to sell as a retail liquor dealer. Aldridge secured the same character of license in February, 1907. There is evidence going to show that he bought out appellant’s business at the place where the sale should have occurred, prior to such sale. Also it is shown that Aldridge’s license was posted in the room where the sale should have occurred and at the time; and the contention further is, that appellant was not in the business at the time of and some time prior to the sale, but that Aldridge was. The court charged the jury that the issuance of the United States Internal Eevenue License to the defendant as a retail liquor dealer for the year ending June 30, 1907, was admitted as a circumstance bearing upon whether defendant was at or about the time alleged in the indictment, in the City of Sherman, engaged in the business of a retail liquor dealer. He also charged the jury that, if they should find that Murphy bought the liquor as alleged, from a masked or hooded man, in the Frisco Hotel building, and that it was made for and with the consent, and under the direction of appellant, etc., that appellant would be guilty.\nThere is some evidence going to show that appellant had sold the business in question to Aldridge, and there is evidence that Aldridge had taken out license and had posted same in the room where this transaction should have occurred. Appellant in this connection offered in evidence a contract between himself and Aldridge in reference to the transfer of this business, which was excluded by the court. We are of opinion this evidence was admissible. If appellant could show that he had transferred this property to Aldridge prior to the sale by the masked party, it was a very strong circumstance indicating that he was not the owner or interested in the property sold. The State’s case was one of circumstantial evidence, and all the testimony excludes the idea that appellant in person made the sale or had anything to do with it; and in fact, there is no contention that he did. If the masked man was not the agent of appellant, but the agent of Aldridge, and appellant had transferred the property to Aldridge, prior to the sale, he was entitled to show this to the jury as a means of meeting whatever case the State had sought to make along this line.\nAppellant offered to prove by a deputy United States marshal that after he had sold appellant the license he had conferred with this officer in seeking certain information with reference to whether he could use the license that he had obtained from the United States government to carry on another business, or whether by reason of the transfer of the business, his license had become worthless and could not be further used. Without going into details in regard to testimony, we are of opinion that it was admissible, as a circumstance, although he may have ascertained the same fact on an investigation of the law. This conversation occurred after the transfer of the property to Aldridge and the inference is that appellant was investigating the matter with reference to using his license in setting up another business.\nAppellant was charged with selling intoxicating liquors in a blind tiger to John Murphy. John Murphy testified that he bought of a masked man, whom he did not know, and that liis identity was concealed by reason of the mask; that he called for beer; that the seller made no reply, but handed\u0027 out what witness supposed was beer and he drank it; that he made several purchases the same day from the party, and it was the only day on which he made any purchases in that building and that this was in March or April. In regard to the intoxicating properties of the article purchased, he said, “I guess it was intoxicating.” This is the entire evidence in regard to the intoxicating properties of the article bought by Murphy, the alleged purchaser. This is hardly sufficient. We have held in several cases, among them, Potts v. State, 50 Texas Crim. Rep., 368; 97 S. W. Rep., 477, and Racer v. State, 73 S. W. Rep., 807, that it was .not a violation of the law to sell beer, unless the beer was shown to be an intoxicant. In fact, the local option law is confined to the prohibition of the sale of intoxicants in the local option territory. Upon another trial the evidence ought to be made sufficiently clear to warrant the inference that the beverage sold was an intoxicant to justify a verdict of guilty.\nWithout going into detail of the various questions raised, those passed upon, we think, are sufficient to indicate to the trial court the theory upon which the case should be tried. As we understand, the remaining questions are but incidental to those discussed.\nThe judgment is reversed and the cause is remanded.\nReversed and remanded.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Smith \u0026 Wall, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Frank Schwulst v. The State.\nNo. 4103.\nDecided January 29, 1908.\n1. —Blind Tiger—Intoxicating Liquors—Local Option—Constitutional Law.\nThe statute defining and prohibiting the sale of intoxicating liquors by means of a blind tiger, and prescribing a higher punishment for this character of sale is constitutional.\n2. —Same—Indictment—Name of Vendor—Principals—Accomplices.\nIn a prosecution for selling intoxicating liquor by means of a blind tiger, where the indictment charged the defendant with selling liquor to another, if the evidence showed that the party actually selling the liquor, who was masked, was the agent of defendant, the indictment was sustained, which charged directly that the defendant made the sale; as all parties in misdemeanor cases are principals, whether they are in fact principals or accomplices. Following Houston v. State, 13 Texas Grim. App., 595; Segar v. State, 40 Texas Grim. Rep., 577.\n3. —Same—Statutes Construed.\nSee opinion with reference to article 406, Penal Code, as amended.\n4. —Same—Agency—Internal Revenue License—Charge of Court—Evidence, Where upon trial for selling intoxicating liquor by means of a blind- tiger in\nlocal option territory, the theory of the State was that the masked man was the agent of the defendant and sold the liquor as such, it was error to exclude testimony that the defendant had transferred his property to another prior to the sale of liquor by the masked party; and this although defendant had taken out internal revenue license as a retail liquor dealer, which the court charged as a circumstance bearing on defendant’s guilt.\n5. —Same—Evidence—Internal Revenue License.\nUpon trial for selling intoxicating liquor by means of a blind tiger, etc., it was error, to reject the testimony of the defendant that he had conferred with the deputy United States marshal as to whether he could use said license to carry on another business, he having transferred his former liquor business to another.\n6. —Same—Intoxicating Liquor—Beer.\nWhere upon trial for the selling of intoxicating liquor by means of a blind tiger, the evidence showed the sale of beer, and that the prosecutor guessed it was intoxicating, and there was no other evidence that the beverage sold was intoxicating, the mere fact it was called beer was insufficient to sustain a conviction.\nAppeal from the County Court of Grayson. Tried below before the Hon. J. W. Hassell.\nAppeal from a conviction of running a blind tiger, penalty, a fine of $100 and sixty days confinement in the county jail.\nThe opinion states the case.\nSmith \u0026 Wall, for appellant.\n—On question of unconstitutionality of law: Holley v. State, 14 Texas Crim. App., 505; McMillan v. State, 18 Texas Crim. App., 375; Keller v. State, 87 S. W. Rep., 669; Massey v. State, 92 S. W. Rep., 1086; Ninenger v. State, 25 Texas Crim. App., 449; Brown v. State, 42 S. W. Rep., 554; Stallworth v. State, 16 Texas Crim. App., 345. On question of indictment: Segars v. State, 40 Texas Crim. Rep., 577. On question of intoxicating liquor: Potts v. State, 50 Texas Crim. Rep., 368; 97 S. W. Rep., 477; Racer v. State, 73 S. W. Rep., 807. On question of blind tiger: Smith v. State, 57 S. W. Rep., 815.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1214-01",
+    "first_page_order":  444,
+    "last_page_order":  447
+}

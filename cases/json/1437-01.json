@@ -1,0 +1,88 @@
+﻿{
+    "id":  2021348,
+    "name":  "PANTAZES v. STATE FARM GENERAL INSURANCE COMPANY",
+    "name_abbreviation":  "Pantazes v. State Farm General Insurance",
+    "decision_date":  "1991-10-04",
+    "docket_number":  "Case Nos. 91-2258-SP-12-B and 91-2259-SP-12-B",
+    "first_page":  "169",
+    "last_page":  "170",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 169"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Volusia Cty. Ct.",
+                  "id":  14271,
+                  "name":  "Volusia County Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "130 So.2d 319",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9870454
+                                      ],
+                         "year":  1961,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/130/0319-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "98 So. 140",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So.",
+                         "year":  1923,
+                         "opinion_index":  0
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  230,
+                     "char_count":  2805,
+                     "ocr_confidence":  0.889,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07305503139372219
+                                  },
+                     "sha256":  "5a79a3b90638ff6676cc75ff78cb6ff3e3d9c603970e9cec8d02429b3451a5af",
+                     "simhash":  "1:3c419d4fbc1368d3",
+                     "word_count":  447
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "PANTAZES v STATE FARM GENERAL INSURANCE COMPANY"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nDARREL CARNELL, County Judge.\nORDER OF DISMISSAL AND CONSOLIDATION\nPlaintiff insured filed two $2,500.00 suits against defendant insurer seeking to recover for thefts allegedly covered under defendant’s policy of insurance. The suits are identical, except case No. 91-2258-SP-12-B alleges the theft of a generator, while case 91-2259-SP-12-B alleges the theft of a lifeboat. Plaintiff seeks to recover $5,000.00 total damages, but has filed two suits in an effort to proceed under Florida Small Claims Rules, rather than under the Florida Rules of Civil Procedure. At today’s pre-trial conference it was apparent that the issues were complex and that the matter can more readily be resolved if plaintiff’s claim for relief is plead (and defendant’s defenses are set forth) in the manner prescribed by Rule 1.110, and if the parties employ discovery procedures authorized under the Rules of Civil Procedure.\nSmall Claims Rules apply “to all actions at law of a civil nature in the county courts in which the demand or value of property involved does not exceed $2,500.00, exclusive of costs, interest and attorneys’ fees.” Rule 7.010(a),SCR. On the other hand, Rules of Civil Procedure “apply to all actions of a civil nature and all special statutory proceedings in the circuit courts and county courts except those to which the probate and guardianship rules or the summary claims procedure rules [sic] apply.” Rule 1.010, Florida Rules of Civil Procedure.\nThat plaintiffs claims against the same defendant arising out of the same occurrence exceed $2,500.00 is apparent on the face of his complaints, neither of which comply with Rule 1.110(b), Florida Rules of Civil Procedure. If separate, independent causes of action cannot be combined to confer jurisdiction on the circuit court (Burkhart v Gowin, 98 So. 140 (Fla. 1923); Canonico v Devine, 130 So.2d 319 (Fla. App. 3rd, 1961); Trawick, Fla.Prac.and Proc., § 3-4) it seems logical to conclude that a single cause of action cannot be split to implement the Small Claims Rules. It is therefore ORDERED AND ADJUDGED as follows:\n1. Plaintiffs complaints, and each of them, are hereby dismissed.\n2. These proceedings shall be governed by the Florida Rules of Civil Procedure.\n3. Plaintiff shall have twenty days from the date within which to file and serve upon defendant an amended complaint. When so filed, the case shall be designated as case number 91-2258-CC-12-B. Case number 91-2259-SP-12-B shall be closed.\n4. Defendant shall have twenty days after service of plaintiffs amended complaint within which to respond thereto.\nDONE AND ORDERED at Daytona Beach, Florida on October 4, 1991.",
+                                          "type":  "majority",
+                                          "author":  "DARREL CARNELL, County Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "PANTAZES v STATE FARM GENERAL INSURANCE COMPANY\nCase Nos. 91-2258-SP-12-B and 91-2259-SP-12-B\nCounty Court, Volusia County\nOctober 4, 1991"
+                 },
+    "file_name":  "1437-01",
+    "first_page_order":  189,
+    "last_page_order":  190
+}

@@ -1,0 +1,296 @@
+﻿{
+    "id":  8552570,
+    "name":  "Curtis Richard Lee v. State",
+    "name_abbreviation":  "Lee v. State",
+    "decision_date":  "1958-10-08",
+    "docket_number":  "No. 29,701",
+    "first_page":  "608",
+    "last_page":  "621",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 608"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "298 S.W. 2d 595",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10180741
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/298/0595-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 248",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2607134
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0248-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "297 S.W. 2d 140",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10166664
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/297/0140-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 48",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2608259
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0048-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "264 S.W. 2d 731",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10203035,
+                                          10202901
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/264/0731-02",
+                                            "/sw2d/264/0731-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "159 Texas Cr. Rep. 487",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2478572
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/159/0487-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "248 S.W. 2d 144",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10193608,
+                                          10193353
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/248/0144-02",
+                                            "/sw2d/248/0144-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "157 Texas Cr. Rep. 315",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2576138
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/157/0315-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "180 S.W. 2d 928",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10221674
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/180/0928-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "147 Texas Cr. Rep. 354",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5300124
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/147/0354-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "49 S.W. 2d 459",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10237844
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/49/0459-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "120 Texas Cr. Rep. 268",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5204048
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/120/0268-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "168 S.W. 2d 662",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10218876
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/168/0662-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "145 Texas Cr. Rep. 384",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5293882
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/145/0384-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "1 S.W. 2d 300",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10291113
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/1/0300-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "108 Texas Cr. Rep. 167",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5148049
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/108/0167-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "264 S.W. 2d 731",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10203035,
+                                          10202901
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/264/0731-02",
+                                            "/sw2d/264/0731-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "159 Texas Cr. Rep. 487",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2478572
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/159/0487-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  835,
+                     "char_count":  25512,
+                     "ocr_confidence":  0.574,
+                     "pagerank":  {
+                                      "raw":  2.4008219531588261E-07,
+                                      "percentile":  0.798901596193446
+                                  },
+                     "sha256":  "31865b7028f2f8a81eab7063ce82f84a8885f01c40245af6b38a183e12defe03",
+                     "simhash":  "1:1e494a16358d16b3",
+                     "word_count":  4398
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Curtis Richard Lee v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DICE, Judge.\nUpon a trial before the court without a jury, appellant was convicted of unlawfully possessing policy paraphernalia and his punishment assessed at a fine of $500.\nVice-Squad Officer B. G. Bond of the Houston Police Department testified that on the day in question, he observed the appellant driving alone in a 1957 Ford Automobile on Holman Street in the city of Houston; that he followed the appellant and after he stopped, proceeded, under the authority of a search warrant, to search the automobile which appellant was driving; and in the search he found in the glove compartment fourteen T \u0026 L policy books, various “days plays,” report sheets and cash in the amount of $230.21. After qualifying as an expert he further testified that the items found in the glove compartment of the automobile were adaptable for use in connection with a policy game.\nIt was further shown that the license number on the automobile which appellant was driving was issued to a person by the name of C. R. Lee.\nAppellant did not testify or offer any evidence in his behalf.\nIn his brief and in oral argument appellant contends that both the complaint and information are invalid because they did not set out the written instruments that constituted the policy plays which he was charged with having possessed. While appellant filed no exception or motion to quash in the trial court we have examined both the complaint and information and find the allegations therein sufficient to charge the offense. The failure to set out the written instruments that constituted the policy plays did not render the pleadings insufficient to charge an offense. Cagle v. State, 147 Texas Cr. Rep. 354, 180 S.W. 2d 928.\nAppellant next insists that the search of the automobile was illegal because of certain claimed defects in the affidavit for the search warrant and the warrant itself. The record reflects that both the search warrant and the affidavit were produced by the state, marked for identification purposes only and in making his objection thereto, counsel for the appellant read certain portions thereof from the affidavit to the court and secured the court’s ruling on such objections. Though appellant’s counsel had these in his hand he has not perfected his bill of exception by transmitting them to us. Neither instrument appears in the record before us, therefore the question of the legality of the search is not presented for review. Bailey v. State, 157 Texas Cr. Rep. 315, 248 S.W. 2d 144; Williams v. State, 159 Texas Cr. Rep. 487, 264 S.W. 2d 731 and DeLeon v. State, 164 Texas Cr. Rep. 48, 297 S.W. 2d 140. This is so because the validity of a search warrant is a question of law. Having secured a ruling from the trial court that they were valid, the state made out a prima facie case authorizing the search. In order to defeat the prima facie case so made out, it became incumbent upon the accused to bring the warrant and the affidavit to this court so that we may pass upon the correctness of the trial court’s ruling. It should be remembered that this is not a case where the officers merely said they had a search warrant but failed to produce the same. Here they produced the warrant and secured a ruling from the trial court that the warrant was a legal warrant. If the court was in error in such ruling, then it became incumbent upon the appellant, as in any other case, to bring the warrant before this court so that we might pass upon the question so raised.\nThe state had no burden in the trial court to establish to the satisfaction of this court that the search was lawful. The burden on the state was to satisfy the trial judge of such fact. It is the well established rule of appellate review in this court, if not all appellate courts, that the ruling of a trial judge is presumed to be correct and the burden rests upon the appellant to establish the contrary.\nWithout the search warrant and affidavit or evidence of their contents we are in no position to say that the trial court erred in admitting evidence obtained by the search under such warrant.\nWe find no error in the court’s action in permitting Officer Bond to explain the game of policy and to describe how the various items taken from the automobile driven by appellant were used in the game. The officer was shown to be qualified as an expert and, as such, was authorized to give such testimony. Grigsby v. State, 164 Texas Cr. Rep. 248, 298 S.W. 2d 595.\nAppellant contends that Art. 642c, sec. 2, V.A.P.C., under which he is prosecuted, is invalid and unconstitutional because it does not define a policy game and delegates legislative power to police officers or experts to determine what is “adaptable for use in any policy game.” With this contention we cannot agree. Whether or not a “writing, paper, print,” etc., was “designed or adaptable” for such use would be a question of fact, like any other question of fact, upon which proof might be offered.\nFinding the evidence sufficient to support the conviction and no reversible error appearing, the judgment of the trial court is affirmed.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "DICE, Judge."
+                                      },
+                                      {
+                                          "text":  "DAVIDSON, Judge\n(dissenting).\nAccording to their testimony, the officers searched appellant’s automobile by reason and under authority of a search warrant. The evidence upon which this conviction rests and without \u0027which no conviction could legally result was obtained as a result of that search.\nAppellant objected to the evidence obtained as a result of the search because of the illegality of the search warrant.\nNeither the search warrant nor the affidavit upon which it was issued was offered in evidence and neither is a part of this record.\nBut the contents of these instruments are not shown, nor is it otherwise shown that the affidavit and the search warrant complied with statutory requirements or were sufficient — upon their face — to authorize the search.\nThe majority opinion overrules appellant’s objection and admits the evidence obtained as a result of the search because appellant did not bring before this court the affidavit and the search warrant and evidence the correctness of the objection leveled thereto. In other words, it is the holding of the majority that the burden is upon the accused to show that a search of his property or the arrest and search of his person are unlawful before he can claim that such search was unlawful and that the evidence obtained was illegal. Stated another way: the holding of the majority is that evidence obtained by officers as a result of the search of one’s person or property is admissible arid so remains until and unless the person attacking the admission of the evidence shows that the search was without authority of law, thereby casting upon the accused the burden of proving that said evidence was not admissible.\nTo such conclusion I can not agree.\nIt is my opinion that when the state seeks to introduce evidence obtained as a result of a search of one’s person, property, or possessions the burden is upon the state, as a condition precedent to the admission of such testimony, to show that it was lawfully obtained and therefore admissible in evidence. For the state to comply with that burden, the least objection by the accused is all that is or should be required. Stated another way: it is my view that when the state seeks to introduce evidence which upon its face is ordinarily not admissible and becomes admissible only by reason of some exception, the burden is upon the party offering the evidence to show a compliance with or existence of the exception as a condition precedent to the admission of the evidence.\nA general objection on the part of the accused requires a showing that the exception exists which renders admissible the otherwise inadmissible testimony.\nHere are the reasons why my view is correct and that of the majority incorrect:\nThe Constitution of this state (Art. 1, Sec. 9) and of the United States (Fourth Amendment) guarantee that the people of this state “shall be secure in their persons, houses, papers, and possessions, from all unreasonable seizures or searches.” Only such searches and seizures (arrests) as are reasonable are authorized. All others are therefore prohibited as unreasonable.\nThe framers of the Constitution did not undertake to define what searches and seizures are reasonable. The legislature, however, has provided by statute for the issuance of search warrants and for the arrest, with a warrant of arrest, of individuals. In addition to these statutes, this court, by construction, has authorized search of certain properties upon what is known as probable cause.\nA search or arrest made in compliance with these statutes or which comes within the rules stated is reasonable, within the meaning of the Constitution. It follows, therefore, that searches and arrests which are made without lawful authority are unreasonable and are prohibited by the Constitution.\nWhat constitutes an unreasonable search or seizure, as I understand it, is very aptly stated in 47 Am. Jur., Searches and Seizures, Sec. 52, p. 533, as follows:\n“The decisions appear to warrant the generalizations that every unlawful search and seizure is unreasonable, and that a search and seizure is unreasonable where it is not authorized by statute, or where the statute under which the warrant is issued does not conform to the conditions under which the constitutional guaranties permit such warrants to issue; or where the conditions prescribed by the statute have not been met * *\nThe legislature of this state was not content, however, to rest the admission of evidence alone upon the constitutional provision prohibiting unreasonable searches and seizures but, in addition, enacted Art. 727a, C.C.P., which provides that:\n“No evidence obtained by an officer or other person in violation of any provision of the Constitution or laws of the United States or of this State shall be admitted in evidence against the accused on the trial of any criminal case.”\nSuch statute not only renders inadmissible evidence obtained in violation of the search and seizure provisions of State and Federal Constitutions but includes any evidence obtained in violation of the statute law of this state touching searches and arrests.\nWhat I have said is to demonstrate that unless and until evidence obtained in a search or arrest is, prima facie, shown to be obtained in accordance with legal requirements and therefore reasonable, its receipt in evidence in a criminal case is expressly prohibited and unlawful.\nNow let us see what this court has said touching the question as to which party has the burden of establishing the admissibility or inadmissibility of evidence obtained by a search or an arrest:\nThe case of Henderson v. State, 108 Texas Cr. Rep. 167, 1 S.W. 2d 300, is, in my opinion, directly in point upon the question. In that case the state placed peace officers upon the stand and proposed to prove by them what they found as a result of a search of the residence of the accused. The accused objected to such proof because it was not shown that the search was authorized. The prosecuting attorney then asked the witnesses if they had a search warrant. It was developed that the officers did not have the warrant with them at the trial but that it was in the office of a justice of the peace. Without any further effort on the part of the state to produce the warrant, to show its issuance, or to prove its contents the officers were permitted to testify as to what they found as a result of a search of the residence over the objection that the state had failed to show that the witnesses had a valid search warrant. The court there said:\n“The real question is, having proved only that the officers had a search warrant, without any showing that it was regular on its face, had the state laid a sufficient predicate to permit evidence as to the result of the search? Our present statutes, notably Articles 4a and 727a, C.C.P. (1925), place the receipt of evidence secured by search of a private residence somewhat on the same basis as the confession of the accused which is excluded by statute unless taken under certain conditions (Art. 727, 1925 C.C.P.), which requires a predicate to be laid by the state which prima facie shows that the formalities have been complied with before the confession becomes admissible.”\nAfter citing- supporting authorities, the holding in the case was stated as follows:\n“In the absence of a showing that the warrant under which the officers assumed to act in the present case was regular on its face and contained recitals showing compliance with the legal requirements, the learned trial judge fell into error in admitting proof of the evidence complained of.”\nIt is difficult to understand how a case could be more directly in point with the instant case.\nHere, the officers made a search of the automobile upon the authority of what they said was a search warrant. The search warrant was not offered in evidence and does not appear in the record. There is an entire absence of any proof in this record as to the contents of the warrant or whether it was regular on its face or contained recitals showing compliance with legal requirements.\nThe case of Blackburn v. State, 145 Texas Cr. Rep. 384, 168 S.W. 2d 662, follows the Henderson case and is also deemed directly in point here. In that case appellant objected to the admission in evidence of testimony showing the result of a search of his premises because the state did not exhibit, as a condition precedent to the introduction of said testimony, a valid search warrant authorizing the search. This court held in that case as follows:\n“When objection was interposed to evidence of the officers, mere proof that the officers had a search warrant is no evidence that such warrant was regular on its face, and contained recitals showing compliance with legal requirements.”\nUnder that holding, the mere exhibition of the search warrant to the trial court, without introducing it as evidence, was not and could not be sufficient, because there was nothing to show that the exhibited warrant was regular upon its face or complied with legal requirements.\nThe objection to proof of the search was well taken.\nFrom the authorities above discussed it appears that it is the correct rule of law in this state that when evidence is sought to be introduced which was obtained as the result of a search warrant the state, as a condition precedent to the introduction of such testimony, must present a prima facie case showing that the search warrant was properly issued.\nIt becomes material, then, to know when the state has fulfilled the burden cast upon it.\nThe authorities are in accord that this is accomplished when the state introduces a search warrant regular upon its face, or otherwise presents a prima facie case showing that the search was authorized by law — in which event the burden is upon the accused to show the illegality of the search and the admissibility of the evidence. Taylor v. State, 120 Texas Cr. Rep. 268, 49 S.W. 2d 459, and authorities there cited.\nSuch is the construction I place upon the case of Williams v. State, 159 Texas Cr. Rep. 487, 264 S.W. 2d 731, authored by me while a commissioner of this court and which the majority opinion cites as supporting their holding that the accused has the burden of proving the invalidity of a search warrant relied upon to sustain a search and the inadmissibility of evidence obtained as a result of a search of his person or property.\nIt will be noted that the Williams case pointed out that the search was made by virtue of a search warrant. The state had thereby made out a prima facie case. In such instance, the burden shifted to the accused to show the invalidity of the warrant. Such was the holding in the Williams case.\nThe DeLeon case, cited in the majority opinion, is susceptible of the construction that the search warrant was introduced in the record.\nNeither the Williams case nor the DeLeon case supports or sustains the holding of the majority. If they do, however, then they ought to be overruled because they are wrong and against the weight of the authority and destroy our constitutional guarantee against unreasonable search and seizure.\nUnder the holding of the majority it is now the law of this state that peace officers can, in the dead of night, kick in the door of one’s private residence, search and ransack his house, and arrest and carry him to jail without evidencing any lawful authority for such acts and conduct.\nTo complain thereof or to seek redress therefor, such an outraged citizen is required to prove that the officers had no lawful authority to do what they did. Their acts, of and within themselves, show the wrongfulness and unlawfulness thereof. But, under the holding here, such acts are presumed to be lawful and remain so until the outraged citizen shows that the acts were committed without lawful authority.\nIt will be remembered that at one time it was unlawful for a peace officer, or any other person, to search one’s private residence, person, or personal possessions without having first obtained a search warrant as required by law. The penalty for a violation of that law was a fine of not less than $100 nor more than $500 or by confinement in the county jail for not more than six months or by both such fine and imprisonment. Arts. 4a and 4b, Code of Criminal Procedure of 1925.\nThe legislature repealed those statutes in 1929, and since that time there has been no law in this state making it unlawful and punishable as a penal offense for a peace officer to search one’s private residence, person, or possessions without lawful authority.\nUnder the holding of this court in the instant case, the only chance a peace officer now takes in searching one’s private residence, property, or possessions, or person is that if the injured party can make proof that such search was unlawful all he can do is to sue the officer for damages.\nUnder such system and rule, the freedom from unreasonable search and arrest of which we so proudly boast has deteriorated to the point that it now exists only at the will and pleasure of the peace officers of this state.\nI have no apology for expressing my views at length upon the question of search in a case which is of little importance, such as the instant case. The rule announced here and to which I address myself is the same as if this were a case of great moment.\nThe majority opinion appears not to justify the introduction of the evidence of the search solely upon the proposition that the appellant failed to show that the search was unlawful. The majority take the alternative position that if they are not correct in holding that the burden was on the appellant to show the unlawfulness of the search the state met the burden because, having exhibited the warrant and its supporting affidavit to the trial judge and having secured a ruling from him that they were valid, the state made out a prima facie case authorizing the search.\nI am at a loss to ascertain from this record any authority for the statement that the search warrant and the affidavit were exhibited to the trial court. Here is the record as I read it:\nThe state adduced from the witness Bond, who made the search of the automobile, the following testimony:\n[“Q. State what you did when you first saw the defendant?] A. Followed him.\n[“Q. Did you later stop the automobile?] A. He stopped himself in the twenty-one hundred block of Berry.\n[“Q. What did you do after the defendant stopped?] A. We handed him a policy search warrant, and identified ourselves as officers. He read the search warrant.\n[“Q. What was the search warrant for?] A. A Policy search warrant for the automobile he was driving, issued by Judge Maes.\n[“Q. Automobile license number SK-689?] A. Yes sir.\n[“Q. I am going to show you this affidavit, and search warrant and ask you if this is the affidavit and search warrant you got for the automobile?] A. Yes sir.\n[“Q. Did you obtain it from Judge Maes?] A. Yes sir.”\nAt this point, state’s counsel announced that he “would like to have the affidavit marked State’s exhibit number one for identification only.” The court reporter noted in the statement of facts that the instrument was marked by him as state’s exhibit number one for identification purposes only, following which the testimony of the witness Bond was resumed, as follows:\n[“Q. I’ll show you the search warrant and ask you if you recognize that?] A. Yes sir.\n[“Q. Is that the search warrant you obtained from Judge Maes?] A. Yes sir.”\nThereupon, state’s counsel asked to have “the Search Warrant marked State’s Exhibit number two for identification only” and the court reporter noted that he marked the instrument as “State’s exhibit number two for identification purposes only.”\nThe foregoing is all that this record reflects as to the introduction or exhibition of the affidavit and the search warrant, that is: that state’s counsel asked that the instruments be marked for identification. Nowhere is it shown that those instruments were introduced in the record or exhibited to the court or the appellant.\nIt is apparent, therefore, that the record fails to reflect that the state, before searching the automobile, showed its authority to do so.\nBut, for the sake of argument, let it be conceded that the affidavit and the search warrant were exhibited to the trial court, as the majority opinion says. Such by no means dispenses with the necessity of having this record reflect the affidavit and the warrant.\nBesides the appellant, there are others interested in knowing the contents of these instruments and whether they authorized a search of the automobile. Those others happen to be the judges of this court!\nHere is a man convicted in this state upon testimony which the state admits was obtained by a search of his automobile, under a search warrant.\nTo the introduction of that testimony repeated objections are urged, to which the trial court makes, among others, the following ruling:\n“Let the record show the defendant and his attorney object to the introduction of any and all of the items found as a result of this search, and he has a running objection to any testimony concerning the findings, and the result of the search.”\nFrom the conviction which resulted, the appellant exercises his right of appeal and his right to have this court determine whether the state was authorized to use against him the evidence obtained as a result of a search of his automobile.\nBy that appeal, the jurisdiction of this court attaches and it thereby becomes the duty of the judges of this court to determine if the evidence of the search was admissible, such determination to be made from the record before us.\nAs one of the judges of this court I know that under the Constitution of this state one’s automobile is protected from unreasonable search and seizure. I know that the statute law of this state prescribes when a search warrant may issue to search one’s automobile and the requisites to the issuance of a valid search warrant. I know that under the prior holdings of this court the burden is upon the state to show the right to search under a search warrant.\nCharged with the knowledge of these requirements, how am I, as a judge of this court, to determine the question of the lawfulness of the search if there is not before me, as a part of the record, evidence sufficient to show the right of the officers to make the search?\nI can not delegate to another the right to make that determination for me. I have no right to accept the finding of the trial court and blindly adopt his conclusions as my own.\nWhen I vote to affirm a conviction obtained solely and alone as a result of a search of one’s person, property, or possessions, under a search warrant, I ought to be able to point in the record before me to where the state showed that the warrant was valid and authorized the search.\nSuch a showing is not here.\nMy brethren sustain the validity of Art. 642c, V.A.C.P., in so far as it makes unlawful the possession of policy slips — which is the offense for which appellant has been convicted.\nThe fact that the state, here, in order to prove its case had to call upon what it termed an expert witness upon policy to testify as to what the meaning of “policy plays” was, of and within itself shows that the statute, in making unlawful the possession of a policy play, is so vague, indefinite, and uncertain as to come within the condemnation of Art. 6, P.C., which renders the statute invalid.\nWhenever the meaning of a statute or the words contained therein are dependent upon expert testimony, the expert makes the law and not the legislature. If one expert by his testimony can make a statute, another expert can by his testimony destroy it. Moreover, expert testimony has never been permitted to invade the province of the jury and to determine the very fact which the jury were called upon to determine.\nHere, it was the duty of the jury to determine whether appellant possessed a policy play. The expert made that determination for the jury by testifying as to what a policy play was.\nI respectfully dissent.",
+                                          "type":  "dissent",
+                                          "author":  "DAVIDSON, Judge"
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "John Cutler, Houston, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White, Monroe Northrwp, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Curtis Richard Lee v. State.\nNo. 29,701.\nOctober 8, 1958.\nMotion for Rehearing Overruled November 19, 1958.\nMandate Issued April 3, 1959.\nJohn Cutler, Houston, for appellant.\nDan Walton, District Attorney, Thomas D. White, Monroe Northrwp, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1599-01",
+    "first_page_order":  626,
+    "last_page_order":  639
+}

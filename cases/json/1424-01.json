@@ -1,0 +1,182 @@
+﻿{
+    "id":  2020879,
+    "name":  "STATE OF FLORIDA v. BRENNICK",
+    "name_abbreviation":  "State v. Brennick",
+    "decision_date":  "1991-07-15",
+    "docket_number":  "Case No. 91TT016077, 91TT016295",
+    "first_page":  "153",
+    "last_page":  "155",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 153"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Osceola Cty. Ct.",
+                  "id":  14341,
+                  "name":  "Osceola County Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "722 P. 2d 115",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "P.2d",
+                         "year":  1986,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "562 P. 2d 390",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "P.2d",
+                         "case_ids":  [
+                                          1457018
+                                      ],
+                         "year":  1977,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ariz/114/0510-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "221 S.E. 2d 524",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.E.2d",
+                         "case_ids":  [
+                                          2141108
+                                      ],
+                         "year":  1976,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sc/266/0045-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "405 N.W. 2d 123",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "N.W.2d",
+                         "year":  1987,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "745 P. 2d 601",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "P.2d",
+                         "case_ids":  [
+                                          1455218
+                                      ],
+                         "year":  1987,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ariz/155/0153-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "709 S.W. 2d 805",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          9986660
+                                      ],
+                         "year":  1986,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/709/0805-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "335 S.E. 2d 312",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.E.2d",
+                         "case_ids":  [
+                                          632288
+                                      ],
+                         "year":  1985,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ga-app/176/0083-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "667 S.W. 2d 111",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          9929800
+                                      ],
+                         "year":  1983,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/667/0111-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "431 N.W. 2d 517",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "N.W.2d",
+                         "year":  1988,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "360 N.W. 2d 523",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "N.W.2d",
+                         "case_ids":  [
+                                          10668978
+                                      ],
+                         "year":  1984,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/nw2d/360/0523-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  288,
+                     "char_count":  3627,
+                     "ocr_confidence":  0.888,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07304711587432318
+                                  },
+                     "sha256":  "afbbd814ee67d3e4efeacb92a26ac4d0a8d220b2eee8b208f81491740283cb29",
+                     "simhash":  "1:bf92339a2602727a",
+                     "word_count":  630
+                 },
+    "last_updated":  "2024-02-27T22:50:07.903550+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "STATE OF FLORIDA v BRENNICK"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nLAWRENCE J. DAVIS, County Judge.\nORDER DENYING MOTION TO DISMISS\nThe Defendant when offered a breath test refused by insisting on a blood test. The Defendant does not have a statutory right to an independent test unless he first takes a breath test.\nFlorida Statutes Section 316.1932(l((f)(3) reads as follows:\n3. The person tested may, at his own expense, have a physician, registered nurse, fully licensed clinical laboratory technician, or other person of his own choosing administer a test in addition to the test administered at the direction of the law enforcement officer for the purpose of determining the amount of alcohol in his blood or the presence of chemical substances or controlled substances at the time alleged, as shown by chemical analysis of his blood or urine, or by chemical or physical test of his breath. The failure or inability to obtain an additional test by a person shall not preclude the admissibility in evidence of the test taken at the direction of the law enforcement officer. The language “. . . person tested . . .” presupposes one was tested, and the use of the term “. . . in addition . . .” as well as “. . . an additional test . . .” means there was another test done.\nThe Defendant’s claim that he was not afforded due process because he wasn’t given a blood test after his refusal has no merit. The Supreme Court of South Dakota in State v Zoss, (S. Dakota S Ct.) 360 N.W. 2d 523 (1984) opined as follows:\nThere was no assurance that the blood test would be exculpatory. It may have been to the contrary. The same may be said of the requested breath test. If she had wanted possible exculpatory evidence she would have consented to the breath test which may have been exculpatory and still had a chance of getting a possible exculpatory blood test. There is nothing fundamentally unfair in this procedure, nor did it deny her a “meaningful opportunity to present a complete defense.” In fact she would have had two chances at getting possible exculpatory evidence. State v Zoss was followed by the Michigan Court of Appeals in People v Dewey, (Mich. App) 431 N.W. 2d 517 (1988). The court in its opinion stated that, “By requiring the breath test first, no obstacle is placed in his way to obtain exculpatory evidence in violation of due process.”\nStatutes, similar to F.S. 316.1932(l)(f)(3), have also been upheld as constitutional in first requiring a test to be given by law enforcement before the Defendant has a right to an additional test. State v Choate, (Tenn. App.) 667 S.W. 2d 111 (1983); Modlin v State, (GA. App.) 335 S.E. 2d 312 (1985); Gibson v City of Troy, (Ala. App.) 481 S. 2d 463 (1985); McKinnon v State, (Texas App.) 709 S.W. 2d 805 (1986); State v Ramos, (Ariz. App.) 745 P. 2d 601 (1987); People v Einset, (Mich. App.) 405 N.W. 2d 123 (1987). Contra, State v Lewis, (S. Carolina S. Ct.) 221 S.E. 2d 524 (1976); Smith v Coda, (Ariz. App.) 562 P. 2d 390 (1977); State v Swanson, (Mont. S. C.) 722 P. 2d 115 (1986).\nThis Court cannot discern whether or not the Defendants in State v Richard Durkee, CJAP 90-09 and State v Michael A. Weier, CJAP 90-48, refused a breath test or if they agreed to a breath test and were then refused an independent test at their own expenses.\nThe Motion to Dismiss is DENIED for the above stated reasons.\nDONE and ORDERED in Chambers, at Kissimmee, Osceola County, Florida this the 15 th of July, 1991.",
+                                          "type":  "majority",
+                                          "author":  "LAWRENCE J. DAVIS, County Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Office of the State Attorney, for plaintiff.",
+                                       "Pat Tumarkin, Esquire, for defendant."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "STATE OF FLORIDA v BRENNICK\nCase No. 91TT016077, 91TT016295\nCounty Court, Osceola County\nJuly 15, 1991\nAPPEARANCES OF COUNSEL\nOffice of the State Attorney, for plaintiff.\nPat Tumarkin, Esquire, for defendant."
+                 },
+    "file_name":  "1424-01",
+    "first_page_order":  171,
+    "last_page_order":  173
+}

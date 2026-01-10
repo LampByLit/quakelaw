@@ -1,0 +1,499 @@
+﻿{
+    "id":  2021280,
+    "name":  "COOK v. ARROWHEAD MOBILE HOME COMMUNITY",
+    "name_abbreviation":  "Cook v. Arrowhead Mobile Home Community",
+    "decision_date":  "1991-09-13",
+    "docket_number":  "Case No. 90-917-CA (Lower Court Case No. 90-517-CC)",
+    "first_page":  "26",
+    "last_page":  "31",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 26"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "287 U.S. 156",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          369907
+                                      ],
+                         "year":  1932,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "168"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/287/0156-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "405 U.S. 56",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          11721238
+                                      ],
+                         "weight":  2,
+                         "year":  1972,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "66"
+                                           },
+                                           {
+                                               "page":  "69"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/405/0056-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "339 U.S. 306",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          362818
+                                      ],
+                         "year":  1950,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "313"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/339/0306-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "470 U.S. 532",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          11299646
+                                      ],
+                         "year":  1985,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "542"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/470/0532-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "346 So.2d 105",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9680408
+                                      ],
+                         "year":  1977,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/346/0105-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "15 Fla. Supp. 2d 57",
+                         "category":  "reporters:state",
+                         "reporter":  "Fla. Supp. 2d",
+                         "case_ids":  [
+                                          2029050
+                                      ],
+                         "year":  1986,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/fla-supp-2d/15/0057-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "27 Fla. Supp. 2d 57",
+                         "category":  "reporters:state",
+                         "reporter":  "Fla. Supp. 2d",
+                         "case_ids":  [
+                                          2035585
+                                      ],
+                         "year":  1988,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/fla-supp-2d/27/0057-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "151 So.2d 256",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          1707830
+                                      ],
+                         "weight":  2,
+                         "year":  1964,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ala-app/42/0701-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "114 So.2d 3",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9859554,
+                                          9859075,
+                                          9858982,
+                                          9859659,
+                                          9859345,
+                                          9859443,
+                                          9859166,
+                                          9859263
+                                      ],
+                         "year":  1959,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/114/0003-07",
+                                            "/so2d/114/0003-02",
+                                            "/so2d/114/0003-01",
+                                            "/so2d/114/0003-08",
+                                            "/so2d/114/0003-05",
+                                            "/so2d/114/0003-06",
+                                            "/so2d/114/0003-03",
+                                            "/so2d/114/0003-04"
+                                        ]
+                     },
+                     {
+                         "cite":  "109 So. 2d 604",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9905073
+                                      ],
+                         "year":  1959,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/109/0604-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "247 So.2d 437",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9735776,
+                                          9735906,
+                                          9735684,
+                                          9736236,
+                                          9736012,
+                                          9736114
+                                      ],
+                         "year":  1971,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/247/0437-02",
+                                            "/so2d/247/0437-03",
+                                            "/so2d/247/0437-01",
+                                            "/so2d/247/0437-06",
+                                            "/so2d/247/0437-04",
+                                            "/so2d/247/0437-05"
+                                        ]
+                     },
+                     {
+                         "cite":  "244 So.2d 467",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9734420
+                                      ],
+                         "year":  1970,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/244/0467-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "26 So.2d 62",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          1957792
+                                      ],
+                         "year":  1946,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/fla/157/0375-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "376 So.2d 72",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "year":  1979,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "366 So.2d 42",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9558981
+                                      ],
+                         "year":  1978,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/366/0042-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "480 So.2d 219",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7590660
+                                      ],
+                         "year":  1985,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/480/0219-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "426 So.2d 958",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9537503
+                                      ],
+                         "year":  1983,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "961"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/426/0958-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "184 So.2d 438",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9828545
+                                      ],
+                         "year":  1960,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/184/0438-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "385 So.2d 1167",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9622295
+                                      ],
+                         "year":  1980,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/385/1167-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "48 Fla. Supp. 180",
+                         "category":  "reporters:state",
+                         "reporter":  "Fla. Supp.",
+                         "case_ids":  [
+                                          2009148
+                                      ],
+                         "weight":  2,
+                         "year":  1970,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "181"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/fla-supp/48/0180-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "39 Fla. Supp. 2d 216",
+                         "category":  "reporters:state",
+                         "reporter":  "Fla. Supp. 2d",
+                         "case_ids":  [
+                                          2015933
+                                      ],
+                         "year":  1990,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/fla-supp-2d/39/0216-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "16 So. 277",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So.",
+                         "year":  1894,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "164 So.2d 551",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "year":  1935,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "555"
+                                           }
+                                       ],
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "89 So.2d 353",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          10049551
+                                      ],
+                         "year":  1956,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "355"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/89/0353-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "78 So. 693",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So.",
+                         "year":  1918,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "74 Fla. 792",
+                         "category":  "reporters:state",
+                         "reporter":  "Fla.",
+                         "year":  1918,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "65 So.2d 12",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9908139
+                                      ],
+                         "year":  1953,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/65/0012-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "358 So.2d 1353",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9769003
+                                      ],
+                         "year":  1978,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/358/1353-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "370 So.2d 534",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "year":  1979,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "425 So.2d 534",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9531364
+                                      ],
+                         "year":  1982,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "541-542"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/425/0534-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  693,
+                     "char_count":  12224,
+                     "ocr_confidence":  0.899,
+                     "pagerank":  {
+                                      "raw":  5.12982294956584E-08,
+                                      "percentile":  0.3223031535815409
+                                  },
+                     "sha256":  "442c73d10b45a6ffcd5aa08656cc8af0c54dce6fd6cd55bc544c38dd92bf01ea",
+                     "simhash":  "1:0f32bcf49f471a92",
+                     "word_count":  2050
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before E. VERNON DOUGLAS, Circuit Judge."
+                                ],
+                     "parties":  [
+                                     "COOK v ARROWHEAD MOBILE HOME COMMUNITY"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nOPINION ANSWERING CERTIFIED QUESTION\nThis appeal arises from an issue certified to be of great public importance by the learned Trial Court as follows:\n“The Court determines that the issue of great public importance is whether such an interpretation of Florida Statute, Section 83.60(2) is consistent with the due process of law as guaranteed by the Florida and United States Constitution and with equal access to the courts. In other words, does Florida Statute, Section 83.60(2) preclude any hearing — including a hearing on a Motion to Dismiss — unless Defendant timely tenders into the Court Registry the amount of rent alleged to be due or disputed the amount of rent due?” For the reasons hereinafter expressed this Court holds that it does not.\nOn June 13, 1990, Ike Martin, the manager of ARROWHEAD MOBILE HOME COMMUNITY, served a notice entitled “delinquent tenant” on JUDY COOK, Appellant herein. On June 19,1990, an eviction action was filed on behalf of ARROWHEAD MOBILE HOME COMMUNITY in the Columbia County Court by the manager, Mr. Martin. JUDY COOK was served with a copy of the Summons and the Tenant Eviction Complaint on June 19, 1990. On June 26, 1990, JUDY COOK timely filed a pro se Motion To Dismiss raising four (4) defects with the Complaint:\n1. The statutorily required three-day notice upon which the action was predicated was defective;\n2. The Complaint failed to describe the .property from which the Plaintiff sought to evict JUDY COOK;\n3. The Plaintiff corporation was represented by a non-attorney; and\n4. The Plaintiff failed to comply with Florida’s Fictitious Name Statute.\nJUDY COOK did not post any rent into the registry of the Court. A hearing was scheduled to take place on July 18, 1990. However, the Trial Court entered a Final Judgment without a hearing against Appellant on July 9, 1990. By letter dated July 9, 1990, the Clerk of the Court notified Appellant of the cancellation of the hearing and the issuance of the Final Judgment based upon the fact that no rent was paid into the Registry of the Court. A Warrant For Possession was issued July 9, 1990. On July 13, 1990, a Motion For Rehearing was filed by JUDY COOK, this time represented by counsel. A hearing was held on July 20, 1990. The Trial Court entered an Order dated July 31, 1990, denying the Motion for Rehearing and Motion to Dismiss and certifying a question to be of great public importance. The tenant timely appealed. Appellee has not filed an appearance. In an Order dated October 10, 1990, the First District Court of Appeals declined to accept jurisdiction and transferred appellate jurisdiction to the Third Judicial Circuit.\nIt is a well settled principle of statutory interpretation in Florida that “where the language of the statute is so plain and unambigious as to fix the legislative intent and leave no room for statutory construction, the courts should not depart from the plain language used by the legislature.” Citizens of State v Public Service Commission, 425 So.2d 534, 541-542 (Fla. 1982). Accord Carson v Miller, 370 So.2d 534 (Fla. 1979); Heredia v Allstate Insurance Company, 358 So.2d 1353 (Fla. 1978); McDonald v Rowland, 65 So.2d 12 (Fla. 1953); Van Pelt v Hillard, 74 Fla. 792, 78 So. 693 (1918).\nSection 83.60(2), Florida Statute provides:\n“In an action by the landlord for possession of a dwelling unit, if the tenant interposes any defense other than payment, the tenant shall pay into the Registry of the Court the accrued rent as alleged in the Complaint or as determined by the court and the rent which accrues during the pendency of the proceeding, when due. The court shall notify the tenant of such requirement. Failure of the tenant to pay the rent into the Registry of the Court as provided herein constitutes an absolute waiver of the tenant’s defenses other than payment, and the landlord is entitled to an immediate default without further notice or hearing thereon.” The plain language of the statute entitles the landlord to a default, as opposed to a judgment. A default “admits the factual allegations of the Complaint, but it does not endow a trial court with power to enter a decree which neither the pleadings nor the law applicable allow him to enter.” Bredin v Bredin, 89 So.2d 353, 355, (Fla. 1956). Accord Barton v Molene Properties, Inc., 164 So.2d 551, 555 (Fla. 1935); Lefensky v Coe, 16 So. 277 (Fla. 1894). This fundamental proposition is no less true in landlord tenant actions, Metropolitan Dade County v Dansey, 39 Fla. Supp. 2d 216, (Dade County Ct. 1990); Assured Realty v Brown, 48 Fla. Supp. 180 (Orange County Ct. 1970).\nThe Complaint in the present case was deficient as a matter of law as will be hereinafter explained, and therefore, pursuant to Bredin and the other cases cited, could not serve as the basis of a judgment granting relief to the Plaintiff for a number of reasons. First, Plaintiff failed to comply with the Fictitious Name Statute and thus was “not permitted to maintain any action, suit, or proceeding in any court of this state. . .” Section 865.09(5)(a), Florida Statutes. Second, the landlord in this case was in reality a corporation, as the trial court found (Bamo, Inc.). The person who signed the pleadings, Ike Martin, was not an attorney in Florida. This rendered the pleadings a nullity, Quinn v Housing Authority of City of Orlando, 385 So.2d 1167 (Fla. 5th DCA 1980); Nicholson Supply Company v First Federal Savings and Loan Association, 184 So.2d 438 (Fla. 2nd DCA 1960). Third, the Complaint was defective for its failure to describe the dwelling unit. Florida Statute 83.59(2) requires that:\n“A landlord applying for the removal of a tenant shall file in the County Court of the county where the premises are situated a Complaint describing the dwelling unit and stating the facts that authorize its recovery.” (emphasis supplied). The Complaint in this case was a form that had a place for the landlord to insert the description of the premises and the description was left blank. Fourth, the three-day notice was defective on its face under Florida Statute 83.56(3). A statutory cause of action cannot be commenced until the Plaintiff has complied with all conditions precedent. Ferry-Morse Company v Hitchcock, 426 So.2d 958, 961 (Fla. 1983). A necessary pre-condition to an action for possession under Florida’s Landlord-Tenant Act is service by the landlord on the tenant of a proper notice terminating the tenancy. Investment and Income Realty, Inc. v Bentley, 480 So.2d 219 (5th DCA 1985).\nSection 83.56(a), Florida Statutes provides:\n“(3): If the tenant fails to pay rent when due and the default continues for three (3) days, excluding Saturday, Sunday, and legal holidays, after delivery of written demand by the landlord for payment of the rent or possession of the premises, the landlord may terminate the rental agreement. . .” See Hunt v Hiliand, 366 So.2d 42 (Fla. 4th DCA 1978), cert, denied 376 So.2d 72 (Fla. 1979). The giving of the statutorily required notices is the only mechanism for recovery or possession after non-payment of rent. Section 83.59 Florida Statutes, provides that a landlord may file an eviction action and recover possession of the subject premises only after termination of the rental agreement, and upon the tenant’s failure to vacate. Statutory notice requirements are to be “strictly construed” and “substantially followed.” Wiesen v Schatzberg, 26 So.2d 62 (Fla. 1946); Baker v Clifford-Mathew Investment Company, 128 So.827 (Fla. 1930); Tollius v Dutch Inns of America, Inc., 244 So.2d 467, (Fla. 3rd DCA 1970), cert. denied, 247 So.2d 437 (Fla. 1971); Class of York Company v Calvert Hotel Company, 109 So. 2d 604 (Fla. 3rd DCA 1959) cert. denied, 114 So.2d 3 (Fla. 1959). In the present case the three-day notice was defective in that it was dated June 13, 1990, and required payment on or before that same day, June 13, 1990, not allowing for the three (3) days provided for in the statute.\nSection 83.60(2), Florida Statute, provides that if a Defendant fails to tender the amount of rent alleged or else to dispute it that there is a “waiver of the tenant’s defenses. . .” This does not prohibit the filing and hearing of a Motion To Dismiss a defective Complaint as will be hereinafter explained.\nThe purpose of a Motion To Dismiss is to test the legal sufficiency of the Complaint without the necessity of a trial. Whitfield v Whitfield, 151 So.2d 256 (Fla. 3rd DCA 1964). Thus, the Motion To Dismiss below was not an assertion of a mere affirmative defense. Rather, it was a meritorious challenge to the Trial Court’s jurisdiction. The defects in the pleadings rendered the Complaint a nullity. Ibid. As stated by one Court in an identical situation, “the Defendant certainly has a right to file a Motion To Dismiss the Plaintiffs pleadings as being legally defective.” Assured Realty, Inc. v Brown, 48 Fla. Supp. at 181. See also, P \u0026 N Enterprises v Lampcomb, 27 Fla. Supp. 2d 57 (Osceola County Ct. 1988); and Minaley v White, 15 Fla. Supp. 2d 57 (Sarasota County Ct. 1986). The Court in Minaley spelled out the reasoning for this result, which is persuasive and adopted herein:\n“The tenant was not required by Florida law to file an answer or make a deposit into the Court registry for the Court to hear his Motion To Dismiss. The tenant’s motion was made pursuant to Chapter 51, Florida Statutes (1985), and the Florida Rules of Civil Procedure, which, under Rule 1.010, (1985), apply to landlord-tenant cases to the extent that they are not superseded by Chapter 51, Florida Statutes, Berry v Clement, 346 So.2d 105 (Fla. 2d DCA 1977). A Motion To Dismiss is not a ‘defense’ required by Florida Statute, Section 51, to be made in the tenant’s answer, or which requires a deposit into the Court registry pursuant to Florida Statute, Section 83.60(2) (1985). Under both Chapter 51 and the Florida Rules of Civil Procedure, motion practice is permitted, and a motion to dismiss tolls the time for filing, and is separate and distinct from, an answer. Aetna Life Insurance Company v County Casuals, Inc., 5 Fla. Supp. 2nd 107, (Orange County, 1983)” Minaley at 58.\nA reading of the statute precluding a motion to dismiss raising defects in a complaint would run afoul of the Due Process Clause of the 14th Amendment to the United States Constitution and the Access to Court’s Clause of the Florida Constitution (Art. I, Section 21, 1968). “An essential principle of due process is that a deprivation of life, liberty, or property be ‘preceded by notice and opportunity for hearing appropriate to the nature of the case.’ ” Cleveland Board of Education v Loudermill, 470 U.S. 532, 542 (1985) quoting Mullane v Central Hanover Bank \u0026 Trust Company, 339 U.S. 306, 313 (1950). The Court below held in effect that the tenant was entitled to no hearing and that the landlord would almost automatically obtain relief, even if the Court lacked jurisdiction.\nIn Lindsey v Normet, 405 U.S. 56, 66 (1972), a landlord-tenant rent posting case, the Supreme Court stated:\n“ ‘Due process requires that there be an opportunity to present every available defense.” American Surety Company v Baldwin, 287 U.S. 156, 168 (1932)’ ” (emphasis supplied). This case stands for the proposition that, a State statute that excludes any defenses the State recognizes as available in an eviction suit would run afoul of the due process clause. 405 U.S. at 69.\nFor the reasons aforesaid, the Court determines that the Motion to Dismiss and the Motion For Rehearing should be reheard by the Trial Court without the necessity of posting the alleged rent. Appellant’s motion for an award of attorney’s fees at the appellate level is hereby denied. The case is remanded to the Trial Court for proceedings consistent herewith.\nDONE AND ORDERED in Chambers this 13th day of September, 1991, at the Columbia County Courthouse in Lake City, Florida.",
+                                          "type":  "majority",
+                                          "author":  null
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Toby Buel, Esquire, Three Rivers Legal Services, for appellant.",
+                                       "Eddie Anderson, Esquire, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "COOK v ARROWHEAD MOBILE HOME COMMUNITY\nCase No. 90-917-CA (Lower Court Case No. 90-517-CC)\nThird Judicial Circuit, Columbia County\nSeptember 13, 1991\nAPPEARANCES OF COUNSEL\nToby Buel, Esquire, Three Rivers Legal Services, for appellant.\nEddie Anderson, Esquire, for appellee.\nBefore E. VERNON DOUGLAS, Circuit Judge."
+                 },
+    "file_name":  "1321-01",
+    "first_page_order":  46,
+    "last_page_order":  51
+}

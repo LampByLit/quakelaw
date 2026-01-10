@@ -1,0 +1,143 @@
+﻿{
+    "id":  8550431,
+    "name":  "Carl Edward King v. State",
+    "name_abbreviation":  "King v. State",
+    "decision_date":  "1959-01-21",
+    "docket_number":  "No. 30,220",
+    "first_page":  "440",
+    "last_page":  "442",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 440"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "18 S.W. 2d 160",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10259899
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/18/0160-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "112 Texas Cr. Rep. 621",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5169618
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/112/0621-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "57 S.W. 2d 157",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          5212704,
+                                          10234610
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/123/0065-01",
+                                            "/sw2d/57/0157-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "123 Texas Cr. Rep. 65",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5212704
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/123/0065-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "1 S.W. 2d 300",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10291113
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/1/0300-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "108 Texas Cr. Rep. 167",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5148049
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/108/0167-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  225,
+                     "char_count":  3204,
+                     "ocr_confidence":  0.574,
+                     "pagerank":  {
+                                      "raw":  1.1217451363341454E-07,
+                                      "percentile":  0.5736255279747969
+                                  },
+                     "sha256":  "710a9259cbacdc6016397a0cde0d310dfccc9efd3643bdb6fb51ccd0cc44e02e",
+                     "simhash":  "1:02da3bf570b8de6a",
+                     "word_count":  555
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Carl Edward King v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BELCHER, Judge.\nThe conviction is for the possession of barbiturates; the punishment, two years in jail.\nThe execution by the officers of a search warrant for appellant’s house shows that they found therein certain barbiturates.\nAppellant opposed the admission in evidence of the testimony showing the search and the results thereof, not only by objection, but by pointing out that the affidavit and the search warrant based thereon did not comply with the legal requirements authorizing the search.\nFollowing appellant’s objection, the state exhibited to the court the affidavit and the search warrant upon which it relied as authority for the search; and they are shown in the record.\nThe jurat affixed to the written affidavit upon which the search warrant was based reads:\n“Subscribed and sworn to before me, by the within named affiants, on this the 16 day of April, A.D. 1957.\n“/s/ Thomas M. Maes\n“W. C. Reagan, Justice of the Peace, Precinct No. 1,\nHarris County, Texas.”\nThe jurat affixed to the search warrant is identical to the jurat affixed to the affidavit.\nThe attack on the jurat connected with the affidavit on which the search warrant rests will be first considered.\nAppellant contends that the purported affidavit used as a basis for the issuance of the search warrant was not signed before and by a person clothed with lawful authority to swear the affiants thereto, hence it was void.\nThe jurat on its face fails to show that a person clothed with lawful authority swore the affiants to the affidavit. Henderson v. State, 108 Texas Cr. Rep. 167, 1 S.W. 2d 300.\nThe official capacity as shown in connection with the above jurat does not appear to be that of any person other than W. C. Ragan.\nThe jurat is not part of the affidavit. Alexander v. State, 123 Texas Cr. Rep. 65, 57 S.W. 2d 157. When the jurat on its face is defective, the fact that it was properly sworn to may be shown by other evidence. Stanzel v. State, 112 Texas Cr. Rep. 621, 18 S.W. 2d 160.\nThe purported affidavit shows that it was signed by two affiants. It appears from the jurat following the signature of the two affiants that they signed it before Thomas M. Maes, but the jurat does not show that Thomas M. Maes took the affidavit as a magistrate or in any official capacity of his own. The record does not reveal and there is no evidence showing that Thomas M. Maes was a magistrate or an officer of any kind or that he signed his name in any official capacity for the purpose of giving authenticity to the instrument.\nThe affidavit not appearing regular on its face and in the absence of a showing that it was sworn to before a person authorized by law to administer it, the admission of the testimony showing the search under the search warrant based upon said affidavit and the results thereof was error.\nThe judgment is reversed and the cause remanded.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "BELCHER, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Clyde W. Woody, Houston, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White, Samuel H. Robertson, Jr., Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Carl Edward King v. State.\nNo. 30,220.\nJanuary 21, 1959.\nMotion for Rehearing Overruled February 25, 1959.\nClyde W. Woody, Houston, for appellant.\nDan Walton, District Attorney, Thomas D. White, Samuel H. Robertson, Jr., Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1547-01",
+    "first_page_order":  458,
+    "last_page_order":  460
+}

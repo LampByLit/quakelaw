@@ -1,0 +1,112 @@
+﻿{
+    "id":  2020843,
+    "name":  "RUBARR, LTD. v. HUNTER",
+    "name_abbreviation":  "Rubarr, Ltd. v. Hunter",
+    "decision_date":  "1991-08-08",
+    "docket_number":  "Case No. 91-09809-54",
+    "first_page":  "88",
+    "last_page":  "90",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 88"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Broward Cty. Ct.",
+                  "id":  14278,
+                  "name":  "Broward County Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "385 So.2d 1167",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9622295
+                                      ],
+                         "year":  1980,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/385/1167-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "348 So.2d 68",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9694932
+                                      ],
+                         "year":  1977,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/348/0068-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "401 So.2d 1129",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9606101
+                                      ],
+                         "year":  1981,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "1130"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/401/1129-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  220,
+                     "char_count":  3012,
+                     "ocr_confidence":  0.881,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07304151709230924
+                                  },
+                     "sha256":  "5e224854903ec69e9863742a63f8ac883a069edd2843ff8a185472fbafc031ef",
+                     "simhash":  "1:9fd10ef14f6b21be",
+                     "word_count":  495
+                 },
+    "last_updated":  "2024-02-27T22:50:07.903550+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "RUBARR, LTD. v HUNTER"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nLINDA R. PRATT, County Judge.\nORDER OF DISMISSAL WITH PREJUDICE\nTHIS CAUSE came before the Court on July 18, 1991, upon the Defendant’s Motion to Dismiss. The Court having reviewed its file, heard argument of the parties and being otherwise advised in the premises, makes the following:\nFINDINGS OF FACT AND CONCLUSIONS OF LAW\nI.\nFINDINGS OF FACT\n1. The three-day notice to pay rent or vacate the premises dated June 10, 1991 attached to Plaintiffs Complaint for Tenant Eviction demands penalty charges but does not state the specific amount of the penalty charges.\n2. The tenancy is governed by a lease but contrary to Rule 1.130 Florida Rules of Civil Procedure, the lease is not attached to the Plaintiffs Complaint for Tenant Eviction.\n3. Plaintiff is a limited partnership and the general partner of a Florida corporation, Rhubar, Inc.\n4. Plaintiff’s pleadings were signed by Maria Berranco, who is both the Vice President of Rhubar, Inc. and the manager of the subject premises.\n5. Maria Berranco is not an attorney licensed to practice law in Florida.\nCONCLUSIONS OF LAW\n6. Florida Statute 83.56(3) requires the Plaintiff, in its three-day notice, to state with specificity the exact amount of rent that a tenant must pay in order to avoid the termination of the tenancy. A Plaintiff in a tenant eviction case may only demand rent in its three-day notice. The Plaintiffs three-day notice demands a penalty charge but does not specify the penalty. Therefore, the three-day notice attached to Plaintiffs Complaint for Tenant Eviction is fatally and jurisdictionally defective, and thus this Court lacks subject matter jurisdiction over these proceedings.\n7. Plaintiff also failed to state a cause of action in its Complaint for Tenant Eviction. A Complaint based on a written instrument, as herein, must have the written instrument attached to the Complaint pursuant to Rule 1.130, Florida Rules of Civil Procedure or the Complaint is subject to dismissal. Safeco Insurance Company of America v Ware, 401 So.2d 1129, 1130 (Fla. 4th DCA 1981).\n8. Plaintiffs Complaint for Tenant Eviction is also void because it was not signed by an attorney. A general partner can sign pleadings for a limited partnership, but, where as here, a corporation is the general partner, the pleadings must be signed by an attorney licensed to practice law in this state. Rule 2.060(e), Rules of Judicial Administration; Amster v American Home Assurance Company, 348 So.2d 68 (Fla. 4th DCA 1977); Quinn v Housing Authority of the City of Orlando, 385 So.2d 1167 (Fla. 5th DCA 1980). Although the other deficiencies in the Complaint might be corrected, the lack of a proper three-day notice can not be cured by an amended Complaint.\nTherefore, the Plaintiff’s Complaint for tenant Eviction is dismissed with prejudice.\nDONE AND ORDERED in Chambers at Fort Lauderdale, Bro-ward County, Florida, this 8th day of August, 1991.",
+                                          "type":  "majority",
+                                          "author":  "LINDA R. PRATT, County Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "RUBARR, LTD. v HUNTER\nCase No. 91-09809-54\nCounty Court, Broward County\nAugust 8, 1991"
+                 },
+    "file_name":  "1382-01",
+    "first_page_order":  106,
+    "last_page_order":  108
+}

@@ -1,0 +1,87 @@
+﻿{
+    "id":  4559269,
+    "name":  "George Blue v. The State",
+    "name_abbreviation":  "Blue v. State",
+    "decision_date":  "1907-12-18",
+    "docket_number":  "No. 3923",
+    "first_page":  "324",
+    "last_page":  "326",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 324"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "40 S. W. Rep., 764",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "31 Texas Crim. Rep., 401",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          156063
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/31/0401-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  359,
+                     "char_count":  5522,
+                     "ocr_confidence":  0.569,
+                     "pagerank":  {
+                                      "raw":  6.8662209198755169E-08,
+                                      "percentile":  0.4181054571135228
+                                  },
+                     "sha256":  "7f81fb16583212ff13c013f9e8dc34ce2e735c4219ddf1698b1fb7bcbcd80a61",
+                     "simhash":  "1:3ee340fc0208dac7",
+                     "word_count":  962
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "George Blue v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\nAppellant moved to continue the case on account of the absence of a witness named Green by whom he expected to prove that he “acted in his own self-defense; that this defendant was attacked by the said Sol Ellis who made demonstration as if to draw a pistol from his pocket; that said demonstration was accompanied with words, acts, and the manner of the said prosecuting witness, Sol Ellis, indicating an immediate intention upon the part of the said Sol Ellis to inflict upon the defendant death or serious bodily injury.” And he recites further, that he, appellant, was at the time doing nothing and disturbing nobody.\nThe State’s theory was that appellant made an unnecessary assault upon Ellis; that Ellis fled and appellant shot him as he ran away, and the evidence is conclusive that he was shot from behind. Quite a number of witnesses testified to the immediate facts; among them, several in behalf of the defendant. The allegations in the motion, as to the facts expected to be proved, are very general indeed and hardly sufficient to have authorized the court to continue. Viewing this entire record, we are of opinion that the testimony of this absent witness, even if he was expected to swear, would probably not be regarded as true. Be this as it may, we are of opinion that the motion is too general.\nHenry Mitchell in behalf of appellant testified to the good reputation of appellant as being a quiet, law abiding citizen. On cross-examination he was asked if he had not heard of the defendant on one occasion having a difficulty with a white man by the name of Phillips, and drawing a gun on him. Witness replied that he had heard of it for the first time at the trial of this case.\nObjection was urged that it was hearsay, immaterial, irrelevant and shed no light upon the case and tended to prejudice the right of the defendant, etc. ... As this was presented, we do not believe it was error and if so, not of sufficient importance to require a reversal of the judgment. The reputation of appellant had been presented to the jury at his instigation, and it was shown to be that of a quiet, law abiding citizen. General reputation is in the nature of hearsay. ’ If this witness had heard anything derogatory to appellant’s character, he could be crossed about it, for he had testified to the fact that his reputation was good. He stated, however, that he never heard of the transaction until he came to this trial. As this is presented, even if error, it is not of sufficient importance to require a reversal of the judgment.\nWe think there is no sufficient reason shown why the judgment should be reversed. The judgment is affirmed.\nAffirmed.\nHenderson, Judge, absent.\n[Motion for rehearing overruled, January 22, 1908, without written opinion.—Reporter.]",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "V. B. Hudson, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "George Blue v. The State.\nNo. 3923.\nDecided December 18, 1907.\n1. —Assault With Intent to Murder—Continuance.\nWhere the testimony of the absent witnesses, in the light of the record, was not probably true, and the ground set out in the motion for continuance was too general, there was no error in overruling it.\n2. —Same—General Reputation of Defendant—Cross-Examination.\nUpon trial for assault with intent to murder where defendant’s witness testified to the latter’s good reputation as a law-abiding citizen, there was no error upon cross-examination to ask said witness if he had not heard that the defendant on one occasion had a difficulty with a certain party and drew a gun on him; at least, the matter was not of sufficient importance to require a reversal.\nAppeal from the District Court of Brazos. Tried below before the Hon. J. C. Scott.\nAppeal from a conviction of assault with intent to murder; penalty, five years imprisonment in the penitentiary.\nThe State’s testimony showed that some colored people had a Sunday-school rally; that about the time the exercises were over and the meeting was breaking up, some person fired off a pistol, some two or three hundred yards up the road from the church; and some remarks were made with reference to the shooting, by parties present; that the party injured who was standing on the ground outside of the door with one foot on the doorstep remarked, that they had to stop shooting those pistols; that defendant, who was standing some ten or twelve feet from prosecutor remarked to him, “What in hell have you got to do with it ?” that prosecutor replied, “I have got a good deal to do with it, I am a citizen of this community and this pistol shooting has got to stop”; that at this time the defendant walked briskly towards prosecutor and said, “By God, we will see what you have got to do with it; that at this time prosecutor was standing in the same position; that defendant drew his pistol and started to shoot prosecutor, the latter throwing up his hand, saying, “George, don’t,” and broke to run around the corner of the house; that defendant fired and shot prosecutor, the bullet entering the back part of his arm, breaking it; that prosecutor made no gestures, except throwing up his hand, and started to run.\nThe testimony of some of defendant’s witnesses was that prosecutor went up to defendant and shook his finger in his face, and reached his hand back as if to draw a weapon. The State’s witnesses in rebuttal denied this.\nV. B. Hudson, for appellant.\nOn question of continuance: Hyden v. State, 31 Texas Crim. Rep., 401; 40 S. W. Rep., 764; White’s Ann. Code Crim. Proc., p. 399, sec. 614.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1178-01",
+    "first_page_order":  342,
+    "last_page_order":  344
+}

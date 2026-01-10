@@ -1,0 +1,208 @@
+﻿{
+    "id":  8549122,
+    "name":  "Carl Saddler v. State",
+    "name_abbreviation":  "Saddler v. State",
+    "decision_date":  "1959-01-28",
+    "docket_number":  "No. 30,329",
+    "first_page":  "309",
+    "last_page":  "313",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 309"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "318 S.W. 2d 900",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10179679
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/318/0900-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "238 S.W. 2d 539",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10202701
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/238/0539-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "156 Texas Cr. Rep. 15",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2579481
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/156/0015-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "306 S.W. 2d 718",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10177248
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/306/0718-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "165 Texas Cr. Rep. 305",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2612092
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/165/0305-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "298 S.W. 2d 822",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10183073
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/298/0822-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 265",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2607705
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0265-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "297 S.W. 2d 681",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10181130,
+                                          10181076
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/297/0681-02",
+                                            "/sw2d/297/0681-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 222",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2609128
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0222-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "261 S.W. 2d 167",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10185563
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/261/0167-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "159 Texas Cr. Rep. 35",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2473130
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/159/0035-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  400,
+                     "char_count":  7393,
+                     "ocr_confidence":  0.576,
+                     "pagerank":  {
+                                      "raw":  1.5513626209159406E-07,
+                                      "percentile":  0.6746914588456702
+                                  },
+                     "sha256":  "0740c85cf816a286df9d27a3967aae9e38eb93e0143af8f5a2121120ec38c8e3",
+                     "simhash":  "1:bf464392ce171591",
+                     "word_count":  1284
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Carl Saddler v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DICE, Judge.\nThe conviction is for unlawfully selling marijuana; the punishment, 15 years.\nAppellant was tried separately upon an indictment which charged that one Charles Brackins and appellant, acting together, did unlawfully sell to Clarence Freeman a narcotic drug, to-wit: marijuana.\nClarence Freeman, a member of the police department of the city of Dallas, testified that on the night in question he went to a club known as the Melissa Joy to investigate and see if the appellant was selling marijuana; that he first talked to Charles Brackins and while they were talking the appellant drove up in an automobile; that he asked appellant if he knew where he could find some marijuana, that he wanted two or three cigarettes and appellant said “he only sold in $10.00 stashes”; that he then informed appellant he could buy a $5.00 stash and appellant told him to wait in the club, that “he would be gone about five or ten minutes, that he would go and see”; that later the appellant and Brackins came out of an alley together, and the appellant walked past him and went into the club; that Brackins then came up and told him that appellant wanted him to show the witness Freeman where the marijuana was because “he was afraid I was the heat”; that he then went into the alley with Brackins where Brackins showed him a package which he picked up and put in his pocket; that he then gave Brackins $10.00 and they went to a liquor store and got change and then to a grill where in about 10 minutes appellant came in and Brackins gave him some money.\nIt was shown that the package which Officer Freeman picked up in the alley contained 31 grains of marijuana.\nCharles Brackins testified that on the occasion in question while he was talking to Officer Freeman the appellant came up and had a conversation with the officer; that appellant then came to him and inquired if the officer had asked him for anything and he told appellant “no”; that appellant then told him that Freeman had asked him for some weed and that he had told him he didn’t have any; “that he didn’t know anything about him or if he had used it before”; that appellant asked him if he knew Freeman and he told him “pretty well” and appellant said “Well if you think he is alright you can deal with him”; that he then went to Freeman and asked him if he had asked appellant for anything and Freeman said that he had and appellant had told him he wasn’t going to fool with him because “you might be the man”; that he then told Freeman “if you want it that bad, I will show you where it is, it isn’t mine, but I will show you where it is”; that he and appellant walked around the corner and appellant came back with a package and said “here it is”; and he told appellant “if you will put it somewhere I will go get Freeman and bring him where it is”; that they then went into the alley where appellant put the package down and he (Brackins) then brought Freeman to the alley where he picked up the package; that Freeman then gave him $5.00 for the marijuana and after he had spent fifty cents of the $5.00 for beer he gave the remaining $4.50 to the appellant.\nAs a witness in his own behalf appellant admitted having a conversation with Officer Freeman on the night in question about narcotics but denied having had any transaction or delivering any narcotics to him. Appellant admitted that Brackins gave him $4.45 on the night in question but testified that it was a payment on a debt which Brackins owed him.\nAppellant insists that the evidence is insufficient to sustain the conviction because there was no evidence in the record showing that he, acting together with Charles Brackins, sold the marijuana to Officer Freeman.\nThe court, in his charge, required the jury before convicting appellant to find from the evidence beyond a reasonable doubt that the appellant did by himself or while acting together with Charles Brackins sell the marijuana to Clarence Freeman. The court further instructed the jury that Charles Brackins was an accomplice and as to the corroboration necessary to convict upon his testimony.\nWe have carefully reviewed the evidence in the light of the court’s charge and find it sufficient to sustain the jury’s verdict.\nThe testimony of the accomplice, Charles Brackins, shows that he and the appellant were acting together in selling the marijuana to Freeman.\nOfficer Freeman’s testimony relative to his conversation with appellant at the beginning of the transaction and of appellant’s presence at the scene during the transaction and his receipt of the money from Brackins after the marijuana was delivered clearly tends to connect appellant with the commission of the offense and was sufficient under the provision of Art. 718 V.A.C.C.P. to corroborate the testimony of the accomplice witness. See 18 Texas Jur. pars. 163 and 173 at page 270 and 285, and cases there cited.\nOur conclusion that the evidence is sufficient to show that the appellant and Charles Brackins were acting together in the transaction disposes of appellant’s contention that the court erred in permitting Officer Freeman to testify to a statement made to him by Charles Brackins out of the presence and hearing of the appellant that “Carl Saddler wanted him (Brackins) to show me where the marijuana was” over the objection that it was hearsay.\nProof that the appellant and Brackins were acting together in selling the marijuana was sufficient to establish a conspiracy between them to commit the offense. Sinclair v. State, 159 Texas Cr. Rep. 35, 261 S.W. 2d 167.\nThe rule is well settled that the acts and declarations of one conspirator during the furtherance of the conspiracy are admissible against the other conspirators. 4 Branch’s Ann. P.C. par. 2243, page 602 and 603; Weston v. State, 164 Texas Cr. Rep. 222, 297 S.W. 2d 681; Aguero v. State, 164 Texas Cr. Rep. 265, 298 S.W. 2d 822, and Angle v. State, 165 Texas Cr. Rep. 305, 306 S.W. 2d 718. This rule applies though the act or declaration occurred out of the presence and hearing of the conspirator on trial. Braley v. State, 156 Texas Cr. Rep. 15, 238 S.W. 2d 539.\nThe statement of Brackins to the witness Freeman having been made during the furtherance of the conspiracy between Brackins and the appellant to sell the marijuana was admissible over the objection of the appellant.\nOur disposition of the present case is not in conflict with our opinion recently delivered in the case of Lois Green Sherrad, No. 30,003, (page 119 this volume) 318 S.W. 2d 900, because in that case there was no evidence that the accused with whom the officer first talked about buying the marijuana was ever in company with the person who later delivered the marijuana to him or that the name of the accused was ever mentioned to the officer by the person who delivered the narcotic drug.\nFinding the evidence sufficient to support the conviction and no reversible error appearing, the judgment is affirmed.\nOpinion approved by the Coúrt.",
+                                          "type":  "majority",
+                                          "author":  "DICE, Judge."
+                                      },
+                                      {
+                                          "text":  "WOODLEY, Judge,\n(concurring).\nI concur in the affirmance of the conviction but not in the effort to distinguish the holding herein from that in Sherrad v. State.",
+                                          "type":  "concurrence",
+                                          "author":  "WOODLEY, Judge,"
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "C. B. Bunkley, Jr., Dallas, for appellant.",
+                                       "Henry Wade, Criminal District Attorney, Joe Joiner, John Mead, Merle Flagg, Assistants District Attorney, Dallas, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Carl Saddler v. State.\nNo. 30,329.\nJanuary 28, 1959.\nC. B. Bunkley, Jr., Dallas, for appellant.\nHenry Wade, Criminal District Attorney, Joe Joiner, John Mead, Merle Flagg, Assistants District Attorney, Dallas, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1509-01",
+    "first_page_order":  327,
+    "last_page_order":  331
+}

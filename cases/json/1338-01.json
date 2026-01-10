@@ -1,0 +1,413 @@
+﻿{
+    "id":  8546690,
+    "name":  "William Alfred Dowling v. State",
+    "name_abbreviation":  "Dowling v. State",
+    "decision_date":  "1958-03-19",
+    "docket_number":  "No. 29,637",
+    "first_page":  "43",
+    "last_page":  "47",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 43"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "255 S.W. 2d 864",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10218200,
+                                          10218090
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/255/0864-02",
+                                            "/sw2d/255/0864-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "158 Texas Cr. Rep. 397",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2478114
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/158/0397-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "69 S.W. 2d 120",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10234776,
+                                          5266682
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/69/0120-01",
+                                            "/tex-crim/125/0636-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "125 Texas Cr. Rep. 636",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5266682
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/125/0636-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "69 S.W. 2d. 99",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          5264731,
+                                          10234131
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/125/0504-01",
+                                            "/sw2d/69/0099-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "125 Texas Cr. Rep. 504",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5264731
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/125/0504-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "246 S.W. 2d 185",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "157 Texas Cr. Rep. 14",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2573861
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/157/0014-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "252 S.W. 2d 701",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10219397
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/252/0701-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "158 Texas Cr. Rep. 16",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2481813
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/158/0016-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "238 S.W. 2d 707",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10208675,
+                                          10208443
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/238/0707-02",
+                                            "/sw2d/238/0707-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "155 Texas Cr. Rep. 639",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2580137
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/155/0639-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "301 S.W. 2d 920",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10183755,
+                                          10183780
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/301/0920-01",
+                                            "/sw2d/301/0920-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 650",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2612151
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0650-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "84 So. 2d 169",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          2897752,
+                                          9891334
+                                      ],
+                         "year":  1955,
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/la/228/0723-02",
+                                            "/so2d/84/0169-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "22 So. 2d 273",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          3053027,
+                                          10048572
+                                      ],
+                         "year":  1948,
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/la/207/0927-01",
+                                            "/so2d/22/0273-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "289 S.W. 2d 935",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10183123
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/289/0935-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 194",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2462026
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/163/0194-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "190 Ore. 598",
+                         "category":  "reporters:state",
+                         "reporter":  "Or.",
+                         "case_ids":  [
+                                          2073980
+                                      ],
+                         "weight":  2,
+                         "year":  1951,
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/or/190/0598-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "30 N.W. 226",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "N.W.",
+                         "year":  1886,
+                         "opinion_index":  1
+                     },
+                     {
+                         "cite":  "213 Wis. 65",
+                         "category":  "reporters:state",
+                         "reporter":  "Wis.",
+                         "year":  1886,
+                         "opinion_index":  1
+                     },
+                     {
+                         "cite":  "19 S.E. 447",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.E.",
+                         "year":  1894,
+                         "opinion_index":  1
+                     },
+                     {
+                         "cite":  "90 Va. 671",
+                         "category":  "reporters:state",
+                         "reporter":  "Va.",
+                         "case_ids":  [
+                                          11282401
+                                      ],
+                         "year":  1894,
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/va/90/0671-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "2 S.E. 2d 293",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.E.2d",
+                         "opinion_index":  1
+                     },
+                     {
+                         "cite":  "173 Va. 458",
+                         "category":  "reporters:state",
+                         "reporter":  "Va.",
+                         "case_ids":  [
+                                          1987082
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/va/173/0458-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "37 Pac. 1111",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "P.",
+                         "year":  1894,
+                         "opinion_index":  1
+                     },
+                     {
+                         "cite":  "7 N.M. 421",
+                         "category":  "reporters:state",
+                         "reporter":  "N.M.",
+                         "case_ids":  [
+                                          4660063
+                                      ],
+                         "year":  1894,
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/nm/7/0421-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "259 N.W. 127",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "N.W.",
+                         "year":  1935,
+                         "opinion_index":  1
+                     },
+                     {
+                         "cite":  "270 Mich. 429",
+                         "category":  "reporters:state",
+                         "reporter":  "Mich.",
+                         "case_ids":  [
+                                          1879511
+                                      ],
+                         "year":  1935,
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/mich/270/0429-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "179 Atl. 640",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "A.",
+                         "year":  1935,
+                         "opinion_index":  1
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  572,
+                     "char_count":  8222,
+                     "ocr_confidence":  0.587,
+                     "pagerank":  {
+                                      "raw":  1.3006386028986708E-07,
+                                      "percentile":  0.6220710164955563
+                                  },
+                     "sha256":  "dad25af554b837cc9ba298743f6da5612262ba5874045b2032676cc039dd0b85",
+                     "simhash":  "1:6f6ec42e7f0cdadc",
+                     "word_count":  1417
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "William Alfred Dowling v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nA prior death penalty murder conviction of this appellant was reversed because certain evidence was denied the accused. Dowling v. State, 164 Texas Cr. Rep. 650, 301 S.W. 2d 920. Upon retrial, the death penalty was again inflicted.\nThe state’s witness testified that the appellant approached his wife on a downtown street in Houston and shot her in the back with a pistol. Another witness testified that earlier in the morning, while • sitting in a bar and speaking of his marital difficulties, the appellant had said “if I start drinking and I get good, right mad I am going to kill her.”\nThe sole defense was that of insanity, and, as we said in McGee v. State, 155 Texas Cr. Rep. 639, 238 S.W. 2d 707. ’Tt is sufficient to say that it is difficult to understand how a stronger defense of insanity could be developed in the trial of a criminal case.”\nThere was extensive psychiatric testimony for both the state and the appellant. It was not disputed that the appellant had been a mental patient at the Veteran’s Administration Hospital up until a short while before the homicide. The appellant insisted upon testifying in his own behalf, and his testimony covers 60 pages of the statement of facts.\nThis is the second jury which has rejected appellant’s defense, and we are not authorized to substitute our judgment and view of the evidence for that of the jurors who saw, heard and observed the witnesses. McGee v. State, supra.\nIn as scholarly a brief as has been filed in this court in a •long time, appellant’s eminent counsel urges this court to reappraise our holding in the recent case of Lopez v. State, 158 Texas Cr. Rep. 16, 252 S.W. 2d 701, and the general rule which it enumerates that the appellant is not entitled to a pre-trial inspection of his confession. We have pursued his argument with interest but feel impelled to hold that a rule so well established in our jurisprudence should not be abandoned without legislative sanction. •\nHis remaining contentions require a further discussion of the facts. By coincidence, two city policemen were emerging from a cafe at the moment the appellant shot his wife as she was walking on the sidewalk; appellant was immediately arrested, handcuffed, and the pistol was taken from him. As stated, the prior conviction was reversed because certain evidence relating to his sanity was denied the accused. As an admonition, this court said, “Upon another trial, the arresting officer should not be permitted to testify as to his conversation with the appellant fifteen minutes after the appellant’s arrest which was not shown to be res gestae.” The officer referred to in that opinion was one Poehl. Officer Poehl testified at the present trial but did not mention the conversation which we had held to be inadmissible. But Officer Bradshaw testified that he had a conversation with the appellant which, according to this record, occurred within four minutes after the shot was fired and in which the appellant gave his reason for killing his wife. It is urged that this too, is inadmissible as not being part of the res gestae. Poehl came out of the cafe door first and took the pistol from the appellant and handed it to Bradshaw while he put on the handcuffs. Poehl then went to assist the victim; Bradshaw stepped to the curb where his patrol car was parked and called headquarters on the radio, leaving the appellant standing on the sidewalk under the supervision of one Gannon, a store manager whom the officers knew; both officers then returned to the spot where the appellant was standing and attempted to unload the pistol, receiving advice from the appellant which enabled them to do so. It was during this time that the appellant asked for and received a cigarette. Bradshaw then took the appellant and placed him in the patrol car where the appellant, who, according to the officer, was nervous and excited, told him that he shot the deceased to show her who was boss. We have concluded that, in line with all the holdings of this court, this statement was made under such stress and under such conditions as to make it admissible as part of the res gestae. Morris v. State, 157 Texas Cr. Rep. 14, 246 S.W. 2d 185; Brooks v. State, 125 Texas Cr. Rep. 504, 69 S.W. 2d. 99; and Outlaw v. State, 125 Texas Cr. Rep. 636, 69 S.W. 2d 120.\nAppellant next contends that the court erred in permitting Dr. Dwyer, a witness for the state, to express his opinion, based upon an examination of the appellant on May 7, that the appellant was legally sane on May 1, the day of the homicide. This is the identical question which caused this court concern in Farmer v. State, 158 Texas Cr. Rep. 397, 255 S.W. 2d 864, and we have concluded that we must dispose of it in the same way. Here, as in Farmer, we find a long history of mental deterioration culminating in a homicide which took place during a period in which the accused contends he was unaware of what was happening. For the reasons set forth in our opinion on rehearing in Farmer, we hold the evidence admissible.\nAppellant’s counsel is to be commended for his noteworthy defense of his unfortunate client.\nThe judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      },
+                                      {
+                                          "text":  "ON APPELLANT’S MOTION FOR REHEARING\nBELCHER, Judge.\nWe are again urged to re-examine our holdings on the question of pre-trial inspection of written confessions. Prior to the trial, appellant’s diligent counsel made a motion that a copy of the accused’s confession be delivered to him before the commencement of the trial. Such motion was refused. The state, in making out its case in chief, did not introduce in evidence appellant’s written confession. It was after the accused had testified in his own behalf that the state in rebuttal introduced the confession. At that time it was submitted to counsel for the accused for his inspection prior to its introduction. This procedure is in harmony with the prior holdings of this court and the majority rule. See State v. Kupis, 37 Del. (7 W. W. Harr.) 27, 179 Atl. 640 (1935) ; People v. Parisi, 270 Mich. 429, 259 N.W. 127 (1935) ; Territory v. McFarlane, 7 N.M. 421, 37 Pac. 1111 (1894) ; Abdell v. Commonwealth, 173 Va. 458, 2 S.E. 2d 293 (1939; Brown v. Commonwealth, 90 Va. 671, 19 S.E. 447 (1894) ; Steensland et al v. Hoppmann, 213 Wis. 65, 30 N.W. 226 (1886) ; State v. Leland, 190 Ore. 598, 227 P. 2d 785 (1951).\nA recent exhaustive article on this subject appears in the Journal of Criminal Law, Criminology and Police Science, Vol. 48, #3, p. 305.\nRecently, in Pettigrew v. State, 163 Texas Cr. Rep. 194, 289 S.W. 2d 935, we said, “We know of no rule of law that would require the State to furnish the accused, before the trial, with copies of pictures it intends to introduce ag\u0027ainst him.”\nLouisiana alone, so far as we or appellant’s counsel can ascertain, is the only state which holds that, in the absence of a statute, denial of a pre-trial inspection of an accused’s written confession constitutes a deprivation of due process. State v. Dorsey, 22 So. 2d 273 (1948).\nIt is interesting to note that in State v. Shourds, 71 S. 2d 340 (1954), and State v. Lea, 84 So. 2d 169 (1955), the Supreme Court of Louisiana has held that the rule of Dorsey had no application in cases involving other documents, confessions which were not introduced in evidence or oral confessions.\nA discussion of the cases arising under the Federal Rules of Criminal Procedure 16 and 17 (a) and those from states which have enacted statutes authorizing pre-trial inspection of documents in the hands of the prosecution would be of no benefit in this jurisdiction.\nWe have again examined appellant’s other contentions and remain convinced that this cause was properly decided originally.\nAppellant’s motion for rehearing is overruled.\nOpinion approved by the Court.",
+                                          "type":  "rehearing",
+                                          "author":  "BELCHER, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Carl E. F. Dally, Houston, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White and Benjamin Woodall, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "William Alfred Dowling v. State.\nNo. 29,637.\nMarch 19, 1958.\nAppellant’s Motion for Rehearing Overruled, May 7, 1958.\nWrit of Certiorari Denied by Supreme Court of United States November 10, 1958, and Mandate Issued November 21, 1958.\nCarl E. F. Dally, Houston, for appellant.\nDan Walton, District Attorney, Thomas D. White and Benjamin Woodall, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1338-01",
+    "first_page_order":  61,
+    "last_page_order":  65
+}

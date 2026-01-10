@@ -1,0 +1,67 @@
+﻿{
+    "id":  2020839,
+    "name":  "STATE OF FLORIDA v. SHEPARD",
+    "name_abbreviation":  "State v. Shepard",
+    "decision_date":  "1991-06-13",
+    "docket_number":  "Case No. 90-14 AP (Lower Court Case No. 90-1206 TC)",
+    "first_page":  "27",
+    "last_page":  "28",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 27"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  204,
+                     "char_count":  2249,
+                     "ocr_confidence":  0.894,
+                     "sha256":  "26cf4e4226a734b4158739e9afe00a5148e9d36ab672a7ae58de3f3b0295e6b0",
+                     "simhash":  "1:c789b427a5196fb3",
+                     "word_count":  377
+                 },
+    "last_updated":  "2023-07-14T21:34:53.334185+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before MORRIS, STAN R., C.J."
+                                ],
+                     "parties":  [
+                                     "STATE OF FLORIDA v SHEPARD"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nAMENDED ORDER ON APPEAL\nThe State of Florida appeals the ruling of the Trial Court granting the appellee Bruce R. Shepard’s Motion in Limine to Exclude Results of Breath Alcohol Tests. On September 7, 1990, the Trial Court entered an Order Granting Motion in Limine based upon the State’s failure to substantially comply with the rules governing the administration of breath alcohol tests.\nRule 10D-42.024(2)(a)(8) adopted by the Department of Health and Rehabilitative Services pursuant to Florida Statute 316.1932, provides:\nWhen red empty signal appears, wait 1 Vz minutes, turn on light to balance. Record answer. For a second test, if the BAG reading is less than .25 repeat steps number 4 through 8. If BAC reading is over .25 change ampoule and repeat steps number 3 through number 8 . . .\nThe result of the first test in the instant case was 0.25. The administrator of the test then repeated steps 4 through 8 in taking the second test. The Rule states that steps number 4 through 8 should be repeated when the reading is less than .25, and that the ampoule must be changed if the reading is more than .25. It is silent on a reading of exactly .25.\nA failure to comply gives rise to the legitimate question regarding the scientific reliability of the test results. To the extent that definiteness is lacking in an administrative rule, it must be construed in a manner most favorable to the accused. Perkin’s v State, 576 So.2nd 1310 (Fla. 1991) (concerning rules of statutory construction). Without substantial compliance with the administrative regulations, test results are not admissible. Gargone v State, 503 So.2nd 421 (Fla. 3rd DCA 1987), citing State v Bender, 382 So.2nd 697 (Fla. 1980). It is, therefore:\nCONSIDERED, ORDERED AND ADJUDGED that the Order granting the Motion in Limine is AFFIRMED.\nDONE AND ORDERED in Chambers at Gainesville, Alachua County, Florida, this 13th day of June, A.D., 1991, NUNC PRO TUNC MAY 31, 1991.",
+                                          "type":  "majority",
+                                          "author":  null
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Lee C. Libby, Assistant State Attorney, for appellant.",
+                                       "Jeffrey L. Meldon, Esquire, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "STATE OF FLORIDA v SHEPARD\nCase No. 90-14 AP (Lower Court Case No. 90-1206 TC)\nEighth Judicial Circuit, Alachua County\nJune 13, 1991\nAPPEARANCES OF COUNSEL\nLee C. Libby, Assistant State Attorney, for appellant.\nJeffrey L. Meldon, Esquire, for appellee.\nBefore MORRIS, STAN R., C.J."
+                 },
+    "file_name":  "1323-01",
+    "first_page_order":  45,
+    "last_page_order":  46
+}

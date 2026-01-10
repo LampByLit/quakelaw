@@ -1,0 +1,116 @@
+﻿{
+    "id":  2020840,
+    "name":  "CLEMENTS v. STATE OF FLORIDA",
+    "name_abbreviation":  "Clements v. State",
+    "decision_date":  "1991-08-15",
+    "docket_number":  "Case No. 90-44AC (Lower Court Case No. 89-30054 MM10)",
+    "first_page":  "69",
+    "last_page":  "71",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 69"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "483 P.2d 442",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "P.2d",
+                         "case_ids":  [
+                                          8865917
+                                      ],
+                         "year":  1971,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/utah-2d/25/0404-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "537 So.2d 603",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7548534
+                                      ],
+                         "year":  1988,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/537/0603-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "575 P.2d 1023",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "P.2d",
+                         "year":  1975,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "457 So.2d 1070",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7625957
+                                      ],
+                         "year":  1984,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/457/1070-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  262,
+                     "char_count":  3976,
+                     "ocr_confidence":  0.896,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07304132403086049
+                                  },
+                     "sha256":  "55af19d870cf119ea49e568df9992dfb33798b5c07fd743f3032e1d3585b5d35",
+                     "simhash":  "1:204faf9e20a6618d",
+                     "word_count":  684
+                 },
+    "last_updated":  "2024-02-27T22:50:07.903550+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before BARRY E. GOLDSTEIN, Circuit Judge."
+                                ],
+                     "parties":  [
+                                     "CLEMENTS v STATE OF FLORIDA"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nTHIS CAUSE comes before the court upon the appeal of a conviction entered against Appellant, Joseph Clements, who was charged by Information with driving under the influence of alcoholic beverages in violation of F.S. 316.193(1). The Court having reviewed both Appellant’s Brief and Appellee’s Brief finds the following:\n1. The Defendant, Joseph Clements, was convicted in County Court of being in the actual physical control of a motor vehicle while under the influence of an alcoholic beverage to the extent that his normal faculties were impaired. The Defendant appeals, claiming that the County Court Judge erred in not finding that as a matter of law, an intoxicated person cannot be in actual physical control of a motor vehicle if the keys to that vehicle are in the pocket of the defendant and, thereby, erred in not granting the defendant’s Motion for Judgment of Acquittal at the conclusion of the defendant’s case. This Court agrees with the County Court Judge and affirms her decision.\n2. The decision of the County Court comes to this Court with a presumption of correctness and must be affirmed, unless it is contrary to law. Neither the Appellant nor the Appellee could provide this Court with case law on point, therefore, this Court looked to Griffin v State, 457 So.2d 1070 (Fla. 2d DCA 1984) for guidance.\n3. In Griffin, the Second District Court of Appeals adopted the view expressed by an Oklahoma Court in Hughes v State, 575 P.2d 1023 (Okla. Crim.App. 1975) and held that “an intoxicated person seated behind the steering wheel” is in actual physical control of the vehicle because, “there is a legitimate inference to be drawn that he placed himself behind the wheel of the vehicle and could have at any time started the automobile and driven away.” In Griffin, the keys to the vehicle were in the ignition while in the present case the keys were found by the County Court Judge to be in the defendant’s pocket. To determine whether this fact alone would require a finding that the defendant was not in actual physical control of the vehicle, this Court looked to Frieselman v State, 537 So.2d 603 (Fla. 3rd DCA 1988). The Third District Court of Appeals recognized the dissenting opinion in State v Bugger, 483 P.2d 442 (1971), in which Justice Ellett stated that even if the defendant was in the back seat of the vehicle, “it takes only a flick of the wrist to start the motor or to engage the gears, and it requires only a moment of time to get under the wheel from the back seat.”\n4. Combining these decisions and considering the presumption of correctness of the County Court decision, the fact that the ignition key to the vehicle was in the pocket of an intoxicated person seated in a vehicle does not itself lead to the conclusion that the defendant was not in the actual physical control of the vehicle. It is merely a factor to be considered along with the location in the vehicle of the intoxicated person, such as seated behind the wheel, the fact that the vehicle was sticking out into a major highway by one and one half feet, and that the vehicle was not there four to five minutes before. The fact that this Defendant had the ignition key in his pocket, by itself, as stated above, is merely a factor to be considered in determining if actual physical control existed and does not require the finding that as a matter of law this Defendant was not in the actual physical control of the vehicle.\nAccordingly, it is hereby,\nORDERED AND ADJUDGED that the decision of the County Court is hereby AFFIRMED.\nDONE AND ORDERED in Chambers, at Broward County Courthouse, this 15th day of August, 1991.",
+                                          "type":  "majority",
+                                          "author":  null
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Diane M. Cuddihy, Assistant Public Defender, for appellant.",
+                                       "Lewis Michael, Assistant State Attorney, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "CLEMENTS v STATE OF FLORIDA\nCase No. 90-44AC (Lower Court Case No. 89-30054 MM10)\nSeventeenth Judicial Circuit, Broward County\nAugust 15, 1991\nAPPEARANCES OF COUNSEL\nDiane M. Cuddihy, Assistant Public Defender, for appellant.\nLewis Michael, Assistant State Attorney, for appellee.\nBefore BARRY E. GOLDSTEIN, Circuit Judge."
+                 },
+    "file_name":  "1365-01",
+    "first_page_order":  87,
+    "last_page_order":  89
+}

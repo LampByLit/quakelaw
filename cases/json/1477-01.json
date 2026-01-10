@@ -1,0 +1,122 @@
+﻿{
+    "id":  8548029,
+    "name":  "Joe L. Macaluso v. State",
+    "name_abbreviation":  "Macaluso v. State",
+    "decision_date":  "1958-12-10",
+    "docket_number":  "No. 30,216",
+    "first_page":  "216",
+    "last_page":  "216",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 216"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "286 S.W. 2d 947",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10184314
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/286/0947-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 507",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2464760
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/162/0507-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "245 S.W. 2d 497",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10203937
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/245/0497-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "156 Texas Cr. Rep. 652",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2579908
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/156/0652-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  131,
+                     "char_count":  1244,
+                     "ocr_confidence":  0.568,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.205849646060446
+                                  },
+                     "sha256":  "5491b1f82e49a7d6118bf4bb31df2c7df94f0b3c8d1ce737f8781f63c801b7e1",
+                     "simhash":  "1:10ae2a148a1a479c",
+                     "word_count":  205
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Joe L. Macaluso v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "PER CURIAM.\nThe offense is burglary; the punishment, two years.\nThe record on appeal contains no statement of facts or bills of exception. All proceedings appear to be regular, and nothing is presented for review.\nThe judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "PER CURIAM."
+                                      },
+                                      {
+                                          "text":  "ON APPELLANT’S MOTION FOR REHEARING\nWOODLEY, Judge.\nCounsel for appellant filed a brief upon original submission and incorporates its contents in a motion for rehearing. He takes the position that he brought himself reasonably within the terms of the suspended sentence law, Art. 776 C.C.P. et seq., and has been deprived of a substantial right because his application for suspended sentence was denied by the jury and by the court.\nThe question presented was answered in Brown v. State, 156 Texas Cr. Rep. 652, 245 S.W. 2d 497, and in Whitehead v. State, 162 Texas Cr. Rep. 507, 286 S.W. 2d 947, wherein we held that the trial court is without authority to suspend a sentence where the jury has failed to recommend that it be suspended.\nAppellant’s motion for rehearing is overruled.",
+                                          "type":  "rehearing",
+                                          "author":  "WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Cesare J. Galli, Jr., Houston, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Joe L. Macaluso v. State.\nNo. 30,216.\nDecember 10, 1958.\nAppellant’s Motion for Rehearing Overruled January 14, 1959.\nCesare J. Galli, Jr., Houston, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1477-01",
+    "first_page_order":  234,
+    "last_page_order":  234
+}

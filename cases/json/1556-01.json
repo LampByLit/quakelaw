@@ -1,0 +1,249 @@
+﻿{
+    "id":  8550847,
+    "name":  "Ex Parte Anthony J. Fertitta",
+    "name_abbreviation":  "Ex parte Fertitta",
+    "decision_date":  "1959-01-28",
+    "docket_number":  "No. 30,348",
+    "first_page":  "483",
+    "last_page":  "485",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 483"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "293 S.W. 2d 62",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10160506
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/293/0062-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "274 S.W. 2d 696",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10185308
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/274/0696-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "161 Texas Cr. Rep. 51",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2465345
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/161/0051-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "271 S.W. 2d 657",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10197798
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/271/0657-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "160 Texas Cr. Rep. 357",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2470291
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/160/0357-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "240 S.W. 2d 777",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10215060
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/240/0777-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "156 Texas Cr. Rep. 231",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2577572
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/156/0231-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "230 S.W. 2d 820",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10210883
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/230/0820-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "155 Texas Cr. Rep. 82",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2580848
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/155/0082-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "48 S.W. 508",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "46 S.W. 236",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "39 Texas Cr. Rep. 345",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4495408
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/39/0345-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "171 S.W. 2d 496",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10214120
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/171/0496-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "146 Texas Cr. Rep. 128",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5298010
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/146/0128-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "189 S.W. 2d 749",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10203110
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/189/0749-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "148 Texas Cr. Rep. 550",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2607578
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/148/0550-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  255,
+                     "char_count":  3435,
+                     "ocr_confidence":  0.58,
+                     "pagerank":  {
+                                      "raw":  1.8382838453769968E-07,
+                                      "percentile":  0.7217144706119932
+                                  },
+                     "sha256":  "1c9d5f6341b11b6ab71ba8c1386c0758e7ff475e36730835721847e60a42ef84",
+                     "simhash":  "1:4f6e46f855be438c",
+                     "word_count":  590
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte Anthony J. Fertitta."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nThis is an appeal from an order entered upon an application for habeas corpus remanding appellant to custody to answer a felony indictment pending in the 10th Judicial District Court of Galveston County.\nPrior to the filing of the application for habeas corpus a motion to quash the indictment had been presented and overruled. The statement of facts upon that hearing was adopted as the statement of facts at the hearing on the application for writ of habeas corpus.\nThe application was presented to district judge Joe Fisher, presiding in the court where the indictment was pending, and was overruled and denied. The appeal is from such order.\nThe basis for appellant’s claim that he was unlawfully restrained of his liberty is the contention that the indictment is void.\nThe grounds relied upon to show that the indictment is void are (1) that the grand jury was illegally selected, impaneled and constituted; (2) that the grand jury was prompted to return the indictment by manner and means and by persons not authorized by law and (8) that the indictment is not sufficiently definite and certain and therefore is void.\nAppellant concedes that unless the indictment is void (as distinguished from voidable) he is not entitled to relief upon this appeal.\nOnly the first ground of attack upon the indictment is seriously urged as showing that the indictment is void; that is, that the grand jury was not legally selected and impaneled.\nThe facts relied upon in this regard are that one of the five grand jury commissioners appointed to select the panel from which the grand jury was impaneled was excused because of illness and did not serve. However, one of the remaining four who did act as jury commissioners and select the grand jury which returned the indictment against appellant, secured from the excused commissioner a list of names of prospective grand jurors, some of whom were selected and served on the grand jury.\nIt is apparent that the motion to quash the indictment was based upon the identical attack upon the validity of the indictment with special emphasis upon the selection of the grand jurors.\nAppellant shows a lack of opportunity to challenge the array of grand jurors. Being excused from making such challenge in order to avail himself of irregularities in the selection and organization of the grand jury and not waive them, it was still incumbent that he move to quash the indictment. Art. 358 C.C.P.; Ex Parte Traxler, 148 Texas Cr. Rep. 550, 189 S.W. 2d 749; Tyson v. State, 146 Texas Cr. Rep. 128, 171 S.W. 2d 496; Carter v. State, 39 Texas Cr. Rep. 345, 46 S.W. 236, 48 S.W. 508.\nAppellant pursued this proper course and moved to quash the indictment. A review by this court of the trial court’s ruling thereon before a trial, conviction and appeal would not be appropriate. This court is not authorized to enter a declaratory judgment. See Ex Parte Hammonds, 155 Texas Cr. Rep. 82, 230 S.W. 2d 820; Ex Parte King, 156 Texas Cr. Rep. 231, 240 S.W. 2d 777; Ex Parte Herring, 160 Texas Cr. Rep. 357, 271 S.W. 2d 657; Ex Parte Puckett, 161 Texas Cr. Rep. 51, 274 S.W. 2d 696; State v. Parr, et al, 293 S.W. 2d 62.\nThe judgment remanding relator to custody is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "R. Richard Thornton, Galveston, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte Anthony J. Fertitta.\nNo. 30,348.\nJanuary 28, 1959.\nAppellant’s Motion for Rehearing Overruled March 4, 1959.\nR. Richard Thornton, Galveston, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1556-01",
+    "first_page_order":  501,
+    "last_page_order":  503
+}

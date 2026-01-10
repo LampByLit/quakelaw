@@ -1,0 +1,430 @@
+﻿{
+    "id":  8547435,
+    "name":  "Roland Duhart v. State",
+    "name_abbreviation":  "Duhart v. State",
+    "decision_date":  "1958-11-12",
+    "docket_number":  "No. 30,042",
+    "first_page":  "150",
+    "last_page":  "156",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 150"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "266 S.W. 2d 154",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10187308,
+                                          10187254
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/266/0154-02",
+                                            "/sw2d/266/0154-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "128 S.W. 2d 798",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          6801332
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/128/0798-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "137 Texas Cr. Rep. 197",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5270587
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/137/0197-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "276 S.W. 283",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10295403,
+                                          10295468
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/276/0283-01",
+                                            "/sw/276/0283-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "101 Texas Cr. Rep. 598",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5106108
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/101/0598-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "216 S.W. 2d 281",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10192232
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/216/0281-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "153 Texas Cr. Rep. 79",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2589331
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/153/0079-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "115 S.W. 2d 649",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10258527
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/115/0649-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "134 Texas Cr. Rep. 410",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5231830
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/134/0410-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "75 S.W. 2d 692",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "127 Texas Cr. Rep. 1",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5256797
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/127/0001-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "298 S.W. 571",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "106 Texas Cr. Rep. 515",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5130579
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/106/0515-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "301 S.W. 2d 917",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10183737
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/301/0917-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "165 Texas Cr. Rep. 7",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2614945
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/165/0007-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "291 S.W. 2d 950",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10182727
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/291/0950-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 361",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2461802
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0361-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "285 S.W. 2d 764",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10182863
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/285/0764-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 384",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2464551
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/162/0384-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "249 S.W. 2d 612",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10211841,
+                                          10212084
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/249/0612-01",
+                                            "/sw2d/249/0612-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "157 Texas Cr. Rep. 414",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2577046
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/157/0414-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "261 S.W. 2d 1046",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "97 Texas Cr. Rep. 274",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5081827
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/97/0274-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "289 S.W. 2d 240",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10165298
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/289/0240-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 94",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2461242
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0094-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "288 S.W. 2d 511",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10175328
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/288/0511-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep., 586",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2464843
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/162/0586-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "244 S.W. 2d 515",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10207662
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/244/0515-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "156 Texas Cr. Rep. 585",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2582087
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/156/0585-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "290 S.W. 2d 532",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10176928
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/290/0532-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 241",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2461947
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0241-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  663,
+                     "char_count":  13317,
+                     "ocr_confidence":  0.561,
+                     "pagerank":  {
+                                      "raw":  5.36318891307998E-07,
+                                      "percentile":  0.9436324279909756
+                                  },
+                     "sha256":  "d2b7ef20a660a5a0cb1542f65660bcd02c25f1a1e57569136bad36f1305322cb",
+                     "simhash":  "1:8f7a4059b36cd632",
+                     "word_count":  2374
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Roland Duhart v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BELCHER, Judge.\nThe conviction is for assault with intent to murder; the punishment, five years.\nThe state’s evidence shows that shortly after midnight, appellant, (Roland Duhart), his uncle — Henderson Duhart, and two women were seated at a table in a tavern in which there were about 20 persons. George Foreman, who was also in the tavern, went to a table where Bebop (Willie Mitchell) was seated; asked him to stand and as he did, struck Bebop with his fist which caused Bebop to fall unconscious on the floor. Henderson Duhart, also an uncle of Bebop, then hit Foreman on the head with a beer bottle. At this time Wallace Armstrong entered the front door of the tavern and turned toward the juke box; he was unarmed and did or said nothing. After Armstrong had taken a few steps, he turned, and then appellant, who had remained seated and had not participated in the previous trouble, stood up, and with a pistol shot Armstrong who fell near where Bebop lay on the floor. Henderson Duhart, who was moving towards the front door when the pistol was fired, turned, went to Armstrong, and as he was kneeling over him (one witness said he was bending over Bebop), the appellant came up and Henderson said to him: “Did you shoot this boy?”, appellant answered “yes,” then he handed Henderson the pistol and left the tavern, and shortly thereafter Henderson also left.\nThe proof shows that the bullet entered Armstrong’s body about four inches to the left of the center of the breast, that fragments of it lodged along the spine; and that such shot resulted in permanent paralysis below the waist.\nAppellant testifying in his own behalf stated that while he was seated at a table in the tavern he saw his uncle, Henderson Duhart, scuffling in a group in the corner of the room, but he did not see anyone hit Bebop, and he went outside to his car, got his pistol and returned. When Henderson Duhart saw him with the gun he began “tussling” with him for it which caused it to discharge; and that he didn’t intend to shoot anyone. He further testified that he didn’t know Armstrong, had had no “words” with him or anyone else, and first learned that Armstrong was shot when Henderson told him. He identified at the trial the pistol he had at the tavern as being his and it was introduced in evidence.\nHenderson Duhart, appellant’s uncle, testified that as he crossed the room and told Bebop they were ready to leave, someone, but not Armstrong, hit Bebop with a beer bottle; and that someone grabbed him around the neck. He further said that when he was released, he saw appellant with the gun, asked him for it, and grabbed him by the arm, and they began scuffling over the gun which appellant soon gave him, but that it was not fired before or at the time appellant gave it to him. He also stated that he didn’t know Armstrong- and saw no weapon on him and denied leaning over him after he was shot.\nLarce Hawthorne, witness for appellant, testified that she went with appellant, Henderson Duhart and Bebop to the tavern. When they decided to leave, Henderson said to Bebop, “Let’s go”, and then someone hit Bebop and he fell unconscious; that appellant went outside and returned with a gun, and Henderson said to him “Boy, put that gun up,” and Henderson began trying to take the gun from him; and that she heard a gun fire and saw Armstrong lying on the floor.\nThe evidence is sufficient to support the verdict of the jury.\nBy Bills of Exception Nos. 1, 2, 3, and 4, appellant complains of the overruling of his objection to questions asked four character witnesses by the state on cross-examination if they had heard that in 1949 the appellant was arrested and convicted in San Antonio, Bexar County, Texas, for unlawfully carrying a pistol.\nEach of the four witnesses had testified on direct examination that appellant’s general reputation for being a peaceable and law-abiding citizen was good. All four witnesses answered the state’s question in the negative.\nAnother character witness for the appellant was asked the same question by his attorney and by the state. The answers were the same as those given by the four other witnesses. To the question asked of this witness by the state no objection was made, and no motion to withdraw or for the jury not to consider is urged.\nThe rule that when matter complained of is before the jury from another source without objection no reversible error is shown is here applicable and controlling. Lowrey v. State, 163 Texas Cr. Rep. 241, 290 S.W. 2d 532.\nHowever, it is the rule that character witnesses who attest the good reputation of an accused may, as affecting the weight, credibility, and sincerity of their testimony, be asked on cross-examination if they had heard of acts of the accused inconsistent with that reputation. 44 Texas Jur., 1168, Sec. 161; 1 Branch’s Ann. P.C. 2d 173, Sec. 170; Watson v. State, 156 Texas Cr. Rep. 585, 244 S.W. 2d 515; Ayers v. State, 162 Texas Cr. Rep., 586, 288 S.W. 2d 511; Blankenship v. State, 163 Texas Cr. Rep. 94, 289 S.W. 2d 240.\nAppellant urges as error the refusal of the court to give his requested charge to the jury that it should not take into consideration as evidence of his guilt the fact that at the time of the shooting of Armstrong he may have been unlawfully carrying a pistol.\nSuch an instruction would have been a comment on the weight of the evidence, hence improper. Art. 658, Vernon’s Ann. C.C.P.; Harcrow v. State, 97 Texas Cr. Rep. 274, 261 S.W. 2d 1046.\nThere is no error, as the appellant contends, in the refusal of the court to charge on self-defense or the defense of another, because such issues were not raised by the evidence.\nThe court properly charged the jury that if appellant’s pistol was accidentally discharged and shot Wallace Armstrong or if they had a reasonable doubt thereof to find him not guilty.\nThe court also charged the jury on the law applicable to aggravated and simple assault.\nBy Bill of Exception No. 11, appellant urges error in the refusal of the trial court to grant his motion for a new trial because of the newly discovered testimony of Wallace Armstrong.\nThe indictment alleges that the appellant shot Wallace Armstrong with a pistol with the intent to murder him. He is the same person whose testimony is claimed to be newly discovered. On November 30, 1957, the state caused a subpoena to be issued for Armstrong at a certain address in San Antonio which was served. The case was originally set for trial December 9. Upon the call of the case for trial on January 28, the district attorney in open court called the name of Wallace Armstrong as a state’s witness, but he did not answer. Appellant did not request an attachment for the witness Armstrong or move for a continuance to secure his attendance or to take his deposition, but announced ready for trial.\n31 Texas Jur., 275, Sec. 76, read as follows:\n“ * * * Application for Continuance * * * Lack of diligence on the part of a convicted defendant is sometimes evidenced by his failure to move for a continuance in order to obtain witnesses who are conversant with the facts. Thus if process has been issued for a witness who is absent, the defendant, if he does not wish to go to trial without the presence of the witness, should move for a continuance; he may not announce ready, take his chance on acquittal, and in the event that the verdict is adverse obtain a new trial upon the ground that the absent witness’ testimony is newly discovered.”\nThe record sufficiently warrants the conclusion that the appellant did not exercise due diligence in order to secure the testimony of Wallace Armstrong on the trial. Gephart v. State, 157 Texas Cr. Rep. 414, 249 S.W. 2d 612; Acosta v. State, 162 Texas Cr. Rep. 384, 285 S.W. 2d 764; Harper v. State, 163 Texas Cr. Rep. 361, 291 S.W. 2d 950; Jones v. State, 165 Texas Cr. Rep. 7, 301 S.W. 2d 917.\nBy Bill of Exception No. 12, appellant further complains of the refusal of his motion for a new trial because of the newly discovered testimony of Dorothy James. Dorothy James’s affidavit attached to the motion and also set out in the bill recites that she and her husband, Elroy James, arrived at the tavern about 10 P.M.; that she danced twice with George Foreman; that about 11 P.M. there was a disturbance near the juke box, that she heard a shot and then everyone rushed toward the doors. After she was outside, she saw George Foreman come out of the door and say: “Hold your fire until I get mine”; that he went to his car, got his pistol and fired several shots toward the door and left in his car. She further stated that no one asked her about what she had seen at the tavern until about one week after the trial of the case.\nThe state controverted appellant’s amended motion for a new trial.\nThe indictment was returned on August 20, 1957, and it alleged that the offense was committed on or about July 14, 1957.\nThe trial of the case began on January 28, and the jury returned its verdict on January 29, 1958.\nThe record shows that the state caused a subpoena to be issued for Elroy James on August 30, 1957, which was directed to a certain address in San Antonio and was served soon thereafter. The case was originally set for trial on December 9. Elroy James appeared at the trial. He was not called by the state as a witness but was called by and testified for the appellant. Dorothy James is the wife of the witness Elroy James and they lived together in San Antonio.\nAppellant was released on bail in July, 1957, and remained on bail until the trial. He engaged an attorney in July, 1957, who resided in San Antonio and who has according to the record continued to represent him in the case.\nIt appears that if the appellant who was on bail or his attorney had made proper inquiry of Elroy James who resided in San Antonio where they also lived and who was summoned as a witness no later than September before the trial the next January or if they had inquired of Elroy James at the trial they would have learned of Dorothy James and any pertinent information she may have possessed. A new trial will not be granted for testimony alleged to have been newly discovered which could have been secured by the use of ordinary diligence. 81 Texas Jur., 272, Sec. 74; 1 Branch’s Ann. P.C. 2d 252, Sec. 220; Holmes v. State, 106 Texas Cr. Rep. 515, 298 S.W. 571; Burkhart v. State, 127 Texas Cr. Rep. 1, 75 S.W. 2d 692; Weeks v. State, 134 Texas Cr. Rep. 410, 115 S.W. 2d 649; Everett v. State, 153 Texas Cr. Rep. 79, 216 S.W. 2d 281; Jones v. State, supra.\nBy Bill of Exception No. 9, appellant complains of the following remark made by the state’s counsel in his closing argument to the jury: “The state spoke as to defendant’s reputation through the Grand Jurors of Comal County who indicted him.” To such argument appellant objected on the ground that it was inflammatory and prejudicial.\nAppellant called several witnesses who testified that his general reputation as a peaceable and law abiding citizen was good.\nThe court certified in the bill that appellant’s counsel had argued at length to the jury as to the fine reputation of the appellant and that there was no evidence that his reputation was not good, and that the statement complained of was in reply to that argument.\nIn view of the testimony of appellant’s witnesses that he had a good reputation and the fact that the state’s argument was in reply to that of defense counsel urging appellant’s good reputation and also that it was not contradicted we perceive no reversible error. Scott v. State, 101 Texas Cr. Rep. 598, 276 S.W. 283.\nComplaint is also made of the following argument by the state’s attorney to the jury: “My conclusion is that Henderson Duhart, and probably others, your verdict is going to tell these people from out of the county whether they can come in here and drink and what was done.”\nThe court certified in the bill that the argument made and here complained of was as follows: “When this defendant, after drinking beer and wine in San Antonio, came over to Lane’s Place, drank more beer, ran back out to his car, got his pistol and shot Wallace Armstrong and paralized him for life. Wallace Armstrong, the eighteen to twenty year old colored boy raised here in New Braunfels and who the undisputed evidence showed ‘was a kid who never had any trouble with anyone.’ Gentleman and lady of the jury, by your verdict, you should show this defendant and others from San Antonio that they can’t come out here in Comal County, Texas, and shoot and paralize others for life without being punished. I ask you, by your verdict, to show these people from San Antonio, or anywhere else, that they are not going to come into Comal County and get away with things like this.”\nIn Lewis v. State, 137 Texas Cr. Rep. 197, 128 S.W. 2d 798 and Tellez v. State, 162 Texas Cr. Rep. 384, 266 S.W. 2d 154, similar argument was held not to call for a reversal. No reversible error appears in the above argument.\nFinding no reversal error, the judgment of the trial court is affirmed.\nOpinion approved by the court.",
+                                          "type":  "majority",
+                                          "author":  "BELCHER, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Leonard Brown, San Antonio, for appellant.",
+                                       "Wallace T. Barber, District Attorney, San Marcos, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Roland Duhart v. State.\nNo. 30,042.\nNovember 12, 1958.\nAppellant’s Motion for Rehearing Overruled January 7, 1959.\nLeonard Brown, San Antonio, for appellant.\nWallace T. Barber, District Attorney, San Marcos, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1422-01",
+    "first_page_order":  168,
+    "last_page_order":  174
+}

@@ -1,0 +1,111 @@
+﻿{
+    "id":  8547524,
+    "name":  "Fred E. Johnson v. State",
+    "name_abbreviation":  "Johnson v. State",
+    "decision_date":  "1959-01-01",
+    "docket_number":  "No. 30,266",
+    "first_page":  "162",
+    "last_page":  "164",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 162"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "299 S.W. 2d 706",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10181578
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/299/0706-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 448",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2611940
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0448-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "298 S.W. 173",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "106 Texas Cr. Rep. 482",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5136564
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/106/0482-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  262,
+                     "char_count":  3553,
+                     "ocr_confidence":  0.58,
+                     "pagerank":  {
+                                      "raw":  6.2670226235995361E-08,
+                                      "percentile":  0.3867414663943728
+                                  },
+                     "sha256":  "c74ed40c9b0894926ba0587d6b82df74aabae1031a71c884585c8063c9eafec4",
+                     "simhash":  "1:aefed02219ac4495",
+                     "word_count":  607
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Fred E. Johnson v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is felony theft; the punishment, five years.\nA portion of appellant’s confession was introduced in evidence by the state, and the appellant introduced the remainder. It appears therefrom that the appellant, in company with one Taylor and one Malone, took an automobile from Brownsville across the river to Matamoras where they attempted to sell it to a man who had some time before told the appellant that he might dispose of stolen automobiles, but were apprehended by the Matamoras police. That portion which was introduced by the appellant stated that after the automobile was stolen Taylor asked the appellant if he was “in on the deal,” and the appellant replied that he was “in on it already. I might as well go the rest of the way.” This was all the evidence offered on behalf of the appellant.\nThere was ample evidence to corroborate the confession, and we shall discuss the contentions advanced by the appellant in bi\u0027ief and argument.\nHe contends that the court erred in failing to instruct a verdict of not guilty because the state had not disproved the alleged exculpatory portions of the appellant’s confession which he offered in evidence.\nWe have concluded that the answer to appellant’s contention is found in Johnson v. State, 106 Texas Cr. Rep. 482, 298 S.W. 173, wherein this court said:\n“Appellant makes quite a complaint at the failure of the court to instruct the jury that the burden was on the state to disprove the exculpatory statements made by the witness Morgan. Reference to the testimony of Morgan shows that the only exculpatory statement made by appellant and testified to by Morgan was brought out in his cross-examination by appellant’s counsel. The state did not introduce such exculpatory statement, and therefore could in no event be held bound to disprove same.”\nSee also 18 Texas Juris., Sec. 13, p. 27.\nIn the case at bar, the trial judge instructed the jury to acquit the appellant if they found that the appellant did not learn that the automobile was being stolen until after the theft.\nAppellant’s last contention is that the court committed fundamental error, though no objection was made at the time, in permitting the witness Malone to be called as a witness by the state after he had told the court that he would like not to testify because his lawyer had advised him “it was best not to testify,” and relies in argument upon the relatively recent case of Wash-burn v. State, 164 Texas Cr. Rep. 448, 299 S.W. 2d 706. In Wash-burn, the questions were asked over the vigorous protest of the appellant, and we said:\n“* * * None of the questions were answered by the witness Nelson. Such questioning covered twenty-one pages of the statement of facts and was in detail as to names, dates and places. By these fact-laden questions the state was permitted to plant in the jury’s mind full details as to how they claimed this crime was committed, and yet the only substantive evidence which they were producing was the answer of the witness that he refused to answer on the ground that his answers might tend to incriminate him, which of course was no evidence at all.”\nWe find no such situation before us here. As soon as it appeared that Malone would refuse to testify on the grounds that his answers might incriminate him, he was excused.\nFinding no reversible error, the judgment of the trial court is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Moisés Vicente Vela, Harlingen, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Fred E. Johnson v. State.\nNo. 30,266.\nJanuary 1, 1959.\nMoisés Vicente Vela, Harlingen, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1432-01",
+    "first_page_order":  180,
+    "last_page_order":  182
+}

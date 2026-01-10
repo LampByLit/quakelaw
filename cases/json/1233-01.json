@@ -1,0 +1,970 @@
+﻿{
+    "id":  4562951,
+    "name":  "Ex Parte B. S. Muckenfuss",
+    "name_abbreviation":  "Ex parte Muckenfuss",
+    "decision_date":  "1908-02-05",
+    "docket_number":  "No. 4267",
+    "first_page":  "467",
+    "last_page":  "474",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 467"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "49 S. W., 621",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "40 Texas Crim. Rep., 236",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          163909
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/40/0236-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "77 S. W., 459",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "26 N. E., 838",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "N.E.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "45 N. W., 720",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "N.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "57 Am. St. Rep., 623",
+                         "category":  "reporters:state",
+                         "reporter":  "Am. St. Rep.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "84 N. Y., 565",
+                         "category":  "reporters:state",
+                         "reporter":  "N.Y.",
+                         "case_ids":  [
+                                          2181033
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/ny/84/0565-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "108 N. Y., 137",
+                         "category":  "reporters:state",
+                         "reporter":  "N.Y.",
+                         "case_ids":  [
+                                          2214334
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/ny/108/0137-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "49 Mo., 559",
+                         "category":  "reporters:state",
+                         "reporter":  "Mo.",
+                         "case_ids":  [
+                                          982196
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/mo/49/0559-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "90 Mo., 534",
+                         "category":  "reporters:state",
+                         "reporter":  "Mo.",
+                         "case_ids":  [
+                                          456746
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/mo/90/0534-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "57 S. W. Rep., 1026",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "62 S. W. Rep., 116",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "77 S. W. Rep., 459",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "45 Texas Crim. Rep., 446",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4532735
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/45/0446-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "49 S. W. Rep., 621",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "71 N. Y., 487",
+                         "category":  "reporters:state",
+                         "reporter":  "N.Y.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "11 N. Y., 601",
+                         "category":  "reporters:state",
+                         "reporter":  "N.Y.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "7 Pac., 533",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "P.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "19 Nev., 149",
+                         "category":  "reporters:state",
+                         "reporter":  "Nev.",
+                         "case_ids":  [
+                                          166775
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/nev/19/0149-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "35 S. W., 604",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "134 Mo., 262",
+                         "category":  "reporters:state",
+                         "reporter":  "Mo.",
+                         "case_ids":  [
+                                          8842896
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/mo/134/0262-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "76 N. W., 73",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "N.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "117 Mich., 512",
+                         "category":  "reporters:state",
+                         "reporter":  "Mich.",
+                         "case_ids":  [
+                                          1449367
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/mich/117/0512-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "69 N. E., 24",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "N.E.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "206 Ill., 417",
+                         "category":  "reporters:state",
+                         "reporter":  "Ill.",
+                         "case_ids":  [
+                                          5599990
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ill/206/0417-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "58 Fed., 768",
+                         "category":  "reporters:federal",
+                         "reporter":  "F.",
+                         "case_ids":  [
+                                          6736801
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/f/58/0768-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "59 Pac., 797",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "P.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "9 Wyo., 51",
+                         "category":  "reporters:state",
+                         "reporter":  "Wyo.",
+                         "case_ids":  [
+                                          8515671
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/wyo/9/0051-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "39 Pac., 752",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "P.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "5 Wyo., 245",
+                         "category":  "reporters:state",
+                         "reporter":  "Wyo.",
+                         "case_ids":  [
+                                          8516161
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/wyo/5/0245-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "21 S. E., 466",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.E.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "91 Va., 272",
+                         "category":  "reporters:state",
+                         "reporter":  "Va.",
+                         "case_ids":  [
+                                          2336265
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/va/91/0272-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "9 L. R. A., 195",
+                         "category":  "reporters:federal",
+                         "reporter":  "L.R.A.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "20 Atl., 109",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "A.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "62 Vt., 27",
+                         "category":  "reporters:state",
+                         "reporter":  "Vt.",
+                         "case_ids":  [
+                                          4451737
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/vt/62/0027-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "6 Pa. Dist., 688",
+                         "category":  "reporters:state",
+                         "reporter":  "Pa. D.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "79 Mo. App., 271",
+                         "category":  "reporters:state",
+                         "reporter":  "Mo. App.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "72 Mo. App., 271",
+                         "category":  "reporters:state",
+                         "reporter":  "Mo. App.",
+                         "case_ids":  [
+                                          1477945
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/mo-app/72/0271-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "57 Mo. App., 68",
+                         "category":  "reporters:state",
+                         "reporter":  "Mo. App.",
+                         "case_ids":  [
+                                          1879625
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/mo-app/57/0068-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "63 S. W., 814",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "163 Mo., 260",
+                         "category":  "reporters:state",
+                         "reporter":  "Mo.",
+                         "case_ids":  [
+                                          1423450
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/mo/163/0260-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "38 S. W., 716",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "136 Mo., 673",
+                         "category":  "reporters:state",
+                         "reporter":  "Mo.",
+                         "case_ids":  [
+                                          909327
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/mo/136/0673-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "34 S. W., 842",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "33 S. W. 35",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "133 Mo., 111",
+                         "category":  "reporters:state",
+                         "reporter":  "Mo.",
+                         "case_ids":  [
+                                          963205
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/mo/133/0111-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "19 S. W., 92",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "109 Mo., 434",
+                         "category":  "reporters:state",
+                         "reporter":  "Mo.",
+                         "case_ids":  [
+                                          916159
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/mo/109/0434-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "10 So., 574",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "69 Miss., 86",
+                         "category":  "reporters:state",
+                         "reporter":  "Miss.",
+                         "case_ids":  [
+                                          1697544
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/miss/69/0086-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "17 S. W. 660",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "106 Mo., 488",
+                         "category":  "reporters:state",
+                         "reporter":  "Mo.",
+                         "case_ids":  [
+                                          970327
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/mo/106/0488-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "5 So., 402",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "66 Miss., 207",
+                         "category":  "reporters:state",
+                         "reporter":  "Miss.",
+                         "case_ids":  [
+                                          1784635
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/miss/66/0207-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "111 L. R. A., 428",
+                         "category":  "reporters:federal",
+                         "reporter":  "L.R.A.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "84 N. W., 911",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "N.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "82 Minn., 256",
+                         "category":  "reporters:state",
+                         "reporter":  "Minn.",
+                         "case_ids":  [
+                                          1694374
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/minn/82/0256-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "77 N. W., 31",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "N.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "74 Minn., 200",
+                         "category":  "reporters:state",
+                         "reporter":  "Minn.",
+                         "case_ids":  [
+                                          1689149
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/minn/74/0200-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "27 L. R. A., 572",
+                         "category":  "reporters:federal",
+                         "reporter":  "L.R.A.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "60 N. W., 450",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "N.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "102 Mich., 64",
+                         "category":  "reporters:state",
+                         "reporter":  "Mich.",
+                         "case_ids":  [
+                                          1518956
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/mich/102/0064-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "97 Ill. App., 157",
+                         "category":  "reporters:state",
+                         "reporter":  "Ill. App.",
+                         "case_ids":  [
+                                          5298499
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ill-app/97/0157-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "87 Ill. App., 481",
+                         "category":  "reporters:state",
+                         "reporter":  "Ill. App.",
+                         "case_ids":  [
+                                          5274052
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ill-app/87/0481-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "77 Ill. App., 325",
+                         "category":  "reporters:state",
+                         "reporter":  "Ill. App.",
+                         "case_ids":  [
+                                          5222506
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ill-app/77/0325-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "53 Ill. App., 680",
+                         "category":  "reporters:state",
+                         "reporter":  "Ill. App.",
+                         "case_ids":  [
+                                          858621
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ill-app/53/0680-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "27 Ill. App., 251",
+                         "category":  "reporters:state",
+                         "reporter":  "Ill. App.",
+                         "case_ids":  [
+                                          4955088
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ill-app/27/0251-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "65 N. E., 451",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "N.E.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "199 Ill., 484",
+                         "category":  "reporters:state",
+                         "reporter":  "Ill.",
+                         "case_ids":  [
+                                          3263236
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ill/199/0484-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "194 Ill., 476",
+                         "category":  "reporters:state",
+                         "reporter":  "Ill.",
+                         "case_ids":  [
+                                          5582566
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ill/194/0476-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "32 L. R. A., 566",
+                         "category":  "reporters:federal",
+                         "reporter":  "L.R.A.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "43 N. E., 1105",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "N.E.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "161 Ill., 265",
+                         "category":  "reporters:state",
+                         "reporter":  "Ill.",
+                         "case_ids":  [
+                                          3122408
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ill/161/0265-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "36 N. E., 70",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "N.E.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "148 Ill., 313",
+                         "category":  "reporters:state",
+                         "reporter":  "Ill.",
+                         "case_ids":  [
+                                          3061295
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ill/148/0313-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "32 Am. St. Rep., 202",
+                         "category":  "reporters:state",
+                         "reporter":  "Am. St. Rep.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "28 N. E., 841",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "N.E.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "139 Ill., 311",
+                         "category":  "reporters:state",
+                         "reporter":  "Ill.",
+                         "case_ids":  [
+                                          3005540
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ill/139/0311-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "12 L. R. A., 25",
+                         "category":  "reporters:federal",
+                         "reporter":  "L.R.A.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "26 N. E., 528",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "N.E.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "136 Ill., 22",
+                         "category":  "reporters:state",
+                         "reporter":  "Ill.",
+                         "case_ids":  [
+                                          2993262
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ill/136/0022-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "42 S. E., 764",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.E.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "116 Ga., 491",
+                         "category":  "reporters:state",
+                         "reporter":  "Ga.",
+                         "case_ids":  [
+                                          417471
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ga/116/0491-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "30 S. E., 255",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.E.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "103 Ga., 428",
+                         "category":  "reporters:state",
+                         "reporter":  "Ga.",
+                         "case_ids":  [
+                                          589970
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ga/103/0428-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "91 Ga., 651",
+                         "category":  "reporters:state",
+                         "reporter":  "Ga.",
+                         "case_ids":  [
+                                          370311
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ga/91/0651-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "23 Pac., 792",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "P.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "14 Colo., 215",
+                         "category":  "reporters:state",
+                         "reporter":  "Colo.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "13 N. Y., 220",
+                         "category":  "reporters:state",
+                         "reporter":  "N.Y.",
+                         "case_ids":  [
+                                          494221
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ny/13/0220-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "10 Am. Dec., 100",
+                         "category":  "reporters:federal",
+                         "reporter":  "Am. Dec.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "4 Conn., 60",
+                         "category":  "reporters:state",
+                         "reporter":  "Conn.",
+                         "case_ids":  [
+                                          12121601
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/conn/4/0060-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "20 Ohio, 7",
+                         "category":  "reporters:state",
+                         "reporter":  "Ohio",
+                         "case_ids":  [
+                                          500140
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ohio/20/0007-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "13 Mich., 44",
+                         "category":  "reporters:state",
+                         "reporter":  "Mich.",
+                         "case_ids":  [
+                                          1949604
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/mich/13/0044-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "97 Am. Dec., 179",
+                         "category":  "reporters:federal",
+                         "reporter":  "Am. Dec.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "17 Mich., 57",
+                         "category":  "reporters:state",
+                         "reporter":  "Mich.",
+                         "case_ids":  [
+                                          1944651
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/mich/17/0057-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "5 Mich., 368",
+                         "category":  "reporters:state",
+                         "reporter":  "Mich.",
+                         "case_ids":  [
+                                          1928317
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/mich/5/0368-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "29 Mich., 50",
+                         "category":  "reporters:state",
+                         "reporter":  "Mich.",
+                         "case_ids":  [
+                                          1936713
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/mich/29/0050-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "40 Texas Crim. Rep., 236",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          163909
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/40/0236-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "77 S. W. Rep., 459",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "45 Texas Crim. Rep., 446",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4532735
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/45/0446-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  1110,
+                     "char_count":  23548,
+                     "ocr_confidence":  0.6,
+                     "pagerank":  {
+                                      "raw":  5.6893437382396711E-07,
+                                      "percentile":  0.9494623045590689
+                                  },
+                     "sha256":  "c1abe0038b75871f1019652afc96fd26dcf0bd644eef980a486f78bb534a41a3",
+                     "simhash":  "1:ac1aee5bd4bfa463",
+                     "word_count":  4177
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte B. S. Muckenfuss."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "RAMSEY, Judge.\n—This, is an original proceeding in this court in the nature of a habeas corpus, filed by relator B. S. Muckenfuss, alleging in substance, that he was unlawfully restrained of his liberty by virtue of an order issued by Hon. W. W. Nelms, judge of the Criminal District Court of Dallas County, issued by said judge to the sheriff of Dallas County, directing such sheriff to arrest the relator and bring him before said ■ judge; said order reciting that complaint had been made before said judge that the relator is about to commit and had seriously threatened to commit an offense against the laws of the State of Texas, in that such relator had seriously threatened to open and permit to be opened his place of business, a public amusement, on Sunday; and to give therein a theatrical performance for public amusement, to which a fee for admission will be charged.\nIt is the contention of relator, and his petition for habeas corpus averred, that said court is without\" jurisdiction to issue said writ and same is null and void and of no effect. Two contentions substantially are made before this court:\nFirst. That his arrest deprives him of his liberty, privileges and immunities without due process of law, in that no appeal from the action of said magistrate being allowed, that such proceeding violates the right of trial by jury, and is, therefore, in contravention of article 1, section 19, of our State Constitution.\nSecond. That the offense which it is charged relator threatens to commit is not one against the person or property of the informant or another; and is, therefore, not covered by the terms of article 114 of our Code of Criminal Procedure, authorizing a magistrate, in a proper case, to issue his warrant of arrest to prevent offense, and to require bonds to keep the peace.\nIn view of the disposition we have concluded to make of the case, we shall not discuss relator’s first contention, though if that was the only matter presented, we would, as we now view the matter, decide the question adversely to him.\nBeliance is had by the State to some extent on article 42 of our Code of Criminal Procedure. This article is, as follows: “It is the duty of every magistrate to preserve the peace within his jurisdiction by the use of all lawful means; to issue all process intended to aid in preventing and suppressing crime; to cause the arrest of offenders, by the use of lawful means, in order that they may be brought to punishment.” As we view the matter, however, this article means no more than that the magistrate is both authorized and enjoined to use all lawful means to enforce the criminal laws of the land, and that same neither broadens nor limits the scope of his authority, but the duty herein enjoined and the authority here given means no more than that he shall diligently en\u003e ploy the means and adopt the methods which the law gives to accomplish the result named in the article. So we are remitted to article 114 of the Code of Criminal Procedure to discover and determine whether or not in the ease here made the offense charged is one cognizable under this article and whether as alleged the arrest of the relator is unlawful.\nChapter 2 of title 3 of the Code relates to preventing offenses by the acts of magistrates and other officers. In every article of this chapter (see articles 107, 108, 109 and 112), provision is made only and restricted solely to where a threat has been made by one person to do some injury to the person or property of another. Immediately following the several articles in chapter 2, just referred to, follows the first article (article 114), of title 3, on which this proceeding is based. This article is as follows: “Whenever a magistrate is informed upon oath that an offense is about to be committed against the person or property of the informant, or of another, or that any person had threatened to commit an offense, it is his duty immediately to issue a warrant for the arrest of the accused, that he may be brought before such magistrate, or before some other named in the warrant.” It is the contention of the relator that the word “offense” as used in the clause “or that any person has threatened to commit an offense,” has the same meaning and is used in the same sense as the word “offense” appearing in the preceding part of said article, and should be limited in its meaning to offense against person or property. We believe this contention should be sustained, and that this is the correct interpretation of the article in question. It is a familiar rule that, where general words follow particular and specific words, the former must be confined to things of the same kind. It has been held also, that this rule is especially applicable in the interpretation of statutes defining crimes and regulating their punishment. See McDade v. People, 29 Mich., 50, citing American Transportation Co. v. Moore, 5 Mich., 368; Hawkins v. Great W. R. R. Co., 17 Mich., 57; 97 Am. Dec., 179; Matter of Tieknor’s Est., 13 Mich., 44; Phillips v. Poland, L. R. 1 C. P., 204; Hall v. State, 20 Ohio, 7; Daggett v. State, 4 Conn., 60; 10 Am. Dec., 100; Chegaray v. Mayor, etc., 13 N. Y., 220; 1 Bish. Crim. Law, paragraph 149; Dwarris, 621.\nThe doctrine itself is thus well expressed in Lewis’ .Sutherland Statutory Construction: When there are general words following particular and specific words, the former must be confined to things of the same kind. This is known as the rule or doctrine of ejusdem generis. Some judicial statements of this doctrine are here given. ‘When general words follow an enumeration of particular things, such words must be held to include only such matters or objects as are of the same kind as those specifically enumerated.’ ‘The rule is, that where words of a particular description in a statute are followed by general words, that are not so specific and limited, unless there be a clear manifestation of a contrary purpose, the general words are to be construed as applicable to. persons or things, or cases of like kind to those designated by the particular words.’ ‘It is a principle of statutory construction everywhere recognized and acted upon, not only with respect to penal statutes but to those affecting only civil rights and duties, that where words particularly designating specific acts or things are followed by and associated with words of general import, comprehensively designating acts or things, the latter are generally to be regarded as comprehending only matters of the same kind or class as those particularly stated. They are to be deemed to have been used, not in the broad sense which they might bear, if standing alone, but as related to the words of more definite and particular meaning with which they are associated.’ The rule is supported by numerous cases.” Hurd v. McClellan, 14 Colo., 215; 23 Pac., 792; Washington Elec. Vehicle Trans. Co. v. District of Columbia, 19 App. Cas. (D. C.), 462; Blakcom v. Empire Lumber Co., 91 Ga., 651; Grier v. State, 103 Ga., 428; 30 S. E., 255; Davis v. Doucherty County, 116 Ga., 491; 42 S. E., 764; Misch v. Russell, 136 Ill., 22; 26 N. E., 528; 12 L. R. A., 25; Ambler v. Whipple, 139 Ill., 311; 28 N. E., 841; 32 Am. St. Rep., 202; Webber v. Chicago, 148 Ill., 313; 36 N. E., 70; Cecil v. Green, 161 Ill., 265; 43 N. E., 1105; 32 L. R. A., 566; Elgin Hydraulic Co. v. Elgin, 194 Ill., 476; 62 E. E., 929; Chicago Union Traction Co. v. Chicago, 199 Ill., 484; 65 N. E., 451; Marquis v. Chicago, 27 Ill. App., 251; Cairo v. Coleman, 53 Ill. App., 680; McKeon v. Wolf, 77 Ill. App., 325; Phillips v. Christian County, 87 Ill. App., 481; Stiles v. Wiggins Ferry Co., 97 Ill. App., 157; Roberts v. Detroit, 102 Mich., 64; 60 N. W., 450; 27 L. R. A., 572; Rhone v. Loomis, 74 Minn., 200; 77 N. W., 31; State v. Barge, 82 Minn., 256; 84 N. W., 911; 111 L. R. A., 428; Leinkauf v. Banes, 66 Miss., 207; 5 So., 402; State v. Canon, 106 Mo., 488; 17 S. W. 660; Greenville Ice \u0026 C. Co. v. Greenville, 69 Miss., 86; 10 So., 574; State v. Dinnisse, 109 Mo., 434; 19 S. W., 92; State v. Schuchmann, 133 Mo., 111; 33 S. W. 35; 34 S. W., 842; State v. South, 136 Mo., 673; 38 S. W., 716; Ruckert v. Grand Ave. Ry. Co., 163 Mo., 260; 63 S. W., 814; Bachman v. Brown, 57 Mo. App., 68; McCutcheon v. Pacific. R. R. Co., 72 Mo. App., 271; State v. Ennis, 79 Mo. App., 271; Kine v. Crider, 6 Pa. Dist., 688; In re Barre Water Co., 62 Vt., 27; 20 Atl., 109; 9 L. R. A., 195; American Manganese Co. v. Va. Manganese Co., 91 Va., 272; 21 S. E., 466; People v. Dolan, 5 Wyo., 245; 39 Pac., 752; Baker v. Cook County Com’rs, 9 Wyo., 51; 59 Pac., 797; United States v. Wilson, 58 Fed., 768; Bruen v. State, 206 Ill., 417; 69 N. E., 24; Lassen v. Karrer, 117 Mich., 512; 76 N. W., 73; State v. Krueger, 134 Mo., 262; 35 S. W., 604; Edgecomb v. His Creditors, 19 Nev., 149; 7 Pac., 533.\nThis precise rule has received endorsement in our own courts, Murray v. State, 21 Texas Crim. App., 620. In that case, Judge White says: “The leading and controlling rule in the construction of statutes, in fact the primary and fundamental one, is to interpret them according to their true meaning and intent. To ascertain this intent it is the duty of the court to find, by other established rules, what was the fair, natural, and probable intent of the Legislature. For this purpose the language employed in the act is first to be resorted to. If the words employed are free from abiguity and doubt, and express plainly, clearly and distinctly, the intent, according to the most natural import of the language, there is no occasion to look elsewhere. (People v. Schoonmaker, 63 Barbour N. Y., 47, citing McClusken v. Cromwell, 11 N. Y., 601.)\n“Another good rule of construction is that, ‘when a particular class is spoken of, and general words follow, the class first mentioned is to be taken as the most comprehensive, and the general words treated as referring to matters ejusdem generis with such class.’ (Matter of Hermance, et al., 71 N. Y., 487, citing Arch. of Centerbury’s case, 2 Coke, 46a; Lyndon v. Stanbridge, 2 K. \u0026 N., 51; Reg. v. Edmundson, 2 E. \u0026 E., 83; Gibbs v. Lamon, 30 L. J., ch. 170; Broom’s Legal Max., 625.)”\nWhile there was a dissenting opinion in that case, the rule referred to, among other rules, received the unqualified endorsement of Judge Hurt, who dissented in this language: “In the opinion on the motion, our presiding judge gives a number of rules by which the court should be governed in construing statutes. To those rules I have not the slightest objection. They are correct, and by them this court should be controlled. Neither this court nor any other court has the right to make laws, or to so construe a statute as to make acts and omissions offenses which are not so declared to be by the law making power.” The construction which we have here given seems at least incidentally to have received the approval of Judge White, for that in the form which he lays down for the guidance of magistrates and those charged with the enforcement of law both in respect to the affidavit required and the form for the warrant of arrest, he names only cases in which the person charged is about or has seriously threatened to commit an offense against person or property. If there could be any doubt, however, as to the proper construction of this statute, it would seem to be made clear by the terms of article 115. It is here provided that (the affidavit being found to be true) the magistrate “shall make an order that the accused enter into bond in such sum as he may in his discretion require, conditioned that he will not commit such offense, and that he will keep the peace towards the person threatened or about to be injured, and towards all others for one year from the date of such bond.” It seems difficult to conceive how, under this article, a bond could be drawn having relation to the offense here charged. Its particular condition is, that the person charged will keep peace towards the person threatened or about to be injured, and towards all others. The correctness of our contention seems to us to be placed beyond serious question by the fact that, it is provided in article 123 of the Code of Criminal Procedure, in substance, that if any person shall make oath that another is about to publish, sell or circulate, or is continuing to sell, publish or circulate any libel against him, the person accused of such intended publication may be required to enter into bond with security not to sell, publish-or circulate such libelous publication, and it is provided the same proceedings may be had as in the case before enumerated in this chapter. Now, if article 114 of the .Code of Criminal Procedure can be held to apply to all offenses without limitation or restriction, it is inconceivable that the Legislature should feel called upon to single out for particular treatment the one matter in respect to circulation of libelous publication. Additional force is lent to this construction by the passage recently of legislation authorizing the district judges of the State to grant injunctions to prevent certain offenses. Now, in this legislation the right of appeal is given, and it was everywhere regarded as a new departure; and while sustained by the Supreme Court of this State, it was vehemently assailed as laying unjust burdens upon persons charged with crimes as being violative of the basic principles of our Constitution. Now, if the right had existed always by force of article 114 for a magistrate to hail before him a defendant, in respect to any sort and all sorts of offenses, and require him to give bond, limiting the amount only to the unrestrained discretion of such magistrate with no right of appeal to any court, it does not seem possible that the Legislature would have deemed it necessary to enact the law referred to granting the district courts the right of injunction.\nWe call attention to the fact that, under the law aforetime, Oldham \u0026 White’s Digest, Code Criminal Procedure, article 80, running back a half century, as well as the Revised Statutes of 1819, Code of Criminal Procedure, article 94, the article under which the authority sought is here claimed, reads as follows: “Whenever a magistrate is informed upon oath that an offense is about to be committed against any person or property of the informant or- of another, or that any person has threatened to commit such an offense, it is his duty to immediately issue a warrant for the arrest of the accused that he may be\u0027 brought before such magistrate or before some other named in the warrant.” There is a slight change in the article, it will be noted, as same now stands, in that- the word “such” in the clause, “or that if any person has threatened to commit an offense,” is omitted in the present article. No change was made in the article stating the terms of the bond, however. It has been held in the case of Braun v. State, 40 Texas Crim. Rep., 236; 49 S. W. Rep., 621, that “In construing a revision of statutes, the presumption is, that the codifiers and the Legislature did not intend to change the laws as\u0027 they formerly stood,” and that the original act as it existed before the adoption of the codification may be looked to in construing its meaning as it appears in the Code. The case of Bunnells v. State, 45 Texas Crim. Rep., 446, 77 S. W. Rep., 459, not only approves the principle of the Braun case, but may fairly be said to go further. The syllabus of that case, which fairly states the holding of the court, is as follows: “Though the compilers of the code failed to bring in certain provisions of a statute, the court in construing the statute in the code may look to the original for aid in construction, but cannot bring forward any portion of the statute as it formerly existed. Penal Code, 1895, article 647, inflicting a punishment on any one who shall mingle any other noxious potion or substance with any drug, food or medicine, with intent to kill or injure any person, defines an offense irrespective of whether the word “other” be rejected. Penal Code, 1895, article 647, imposes a punishment on any one who shall mingle any other noxious potion or substance with any drug, food or medicine, with intent to kill or injure any person. As the statute formerly stood (Paschl. Dig., art. 2198, Penal Code, 1858, art. 537), it read: ‘Any poison or other noxious potion, etc.’ Held, that the phrase ‘Noxious potion or substance’ in the Penal Code means some character of poison.” In discussing the matter in the opinion, the court say: “In that connection the court, quoting from Black on Interpretation of Laws, pages 368, 369, said: ‘When the language of the Code or revision as it stands would lead to absurdity or highly improbable results, it may be compared with the language of the original statute to ascertain if the phraseology has not been changed by mistake or inadvertence.’ So, without holding that, we can interpolate or bring forward a portion of an article that formerly existed as a part thereof after the same has been left off for so many years, so as to constitute it a part of the article in question, we hold, in accordance with the principle indorsed in Braun’s case, that we can look back to the original statute in order to determine whether the same was left off by mistake or inadvertence, and to aid in construing and interpreting the pres\u0027ent act.”\nThese authorities are ample, if indeed any are needed, to justify us in holding that the present article of our Code of Criminal Procedure is not essentially different from the article as it stood aforetime, which, in express terms limits the authority of the magistrate to offenses against persons or property.\n. If it had been the intent and purpose of the Legislature to change the law as it st\u003c|d aforetime, unquestionably they would have found themselves compelled to have made a corresponding change in the form of the bond required. Again, if they meant to give the right to peace officers to require a peace bond, in respect to all threatened violations of the law, they could have said so in one line, and it would have seemed unnecessary to have specified certain offenses in respect to persons and property, and then followed with a clause that would have included every conceivable violation of our criminal code. However, it passes comprehension that if they intended such a change in the law, radical and far reaching, that they should have left the old law unchanged except by striking out the word “such.” They did not, however, in our opinion intend any change. The dropping out of the word “such” in the clause considered was either due to inadvertence or to the belief that its omission made no change in the meaning of the law as it had stood for more than a generation.\nWhile reluctant to adopt any holding which may even remotely have the effect to stay the hands of diligent and faithful peace officers in their efforts to uphold the law, and to suppress any offense which may have the effect to corrupt or demoralize our people, we cannot obtain our consent to go farther than the law goes. We are constrained by every consideration of duty to go that far, but no farther; as strong as the law and no stronger is the limit of our authority. Further can no officer go. Firm in our belief that the arrest and detention of relator under the process by which he is held is unlawful, it only remains for us to so declare and to order his release, which is here done.\nRelator discharged.",
+                                          "type":  "majority",
+                                          "author":  "RAMSEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Bibb \u0026 Williams, for relator.",
+                                       "F. J. McCord, Assistant Attorney-General, and Barry Miller, and Walter F. Seay, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte B. S. Muckenfuss.\nNo. 4267.\nDecided February 5, 1908.\n1. —Habeas Corpus—Public Amusement—Sunday law—Threatened Offense— Statutes Construed.\nArticle 42, Code Criminal Procedure, authorizes and enjoins magistrates to use all lawful means to enforce the criminal laws of the State, and neither broadens nor limits the scope of their authority.\n2. —Same—Definition of Crime—Ejusdem Generis.\nIt is a familiar rule that where general. words follow particular and specific words, the former must be confined to things of the same kind; and this rule is especially applicable in the interpretation of statutes defining crimes and regulating their punishment. Following Murray v. State, 21 Texas Crim. App., 620.\n3. —Same—Statutes Construed—Codification.\nIn construing a revision of statutes, the presumption is that the codifiers and the Legislature did not intend to change the laws as they formerly stood, and that article 114, Code Criminal Procedure, should be construed in the light of the former law as it existed before the adoption of the Revised Statutes. Following Runnels v. State, 45 Texas Crim. Rep., 446 ; 77 S. W. Rep., 459.\n4. —Same—Offense Against Person and Property.\nUnder article 114, Code Criminal Procedure, the clause “or that any person has threatened to commit an offense,” has the same meaning and is used in the same sense as the word “offense,” appearing in the preceding part of said article, and should be limited in its meaning to offenders against person or property.\n5. —Same—Case Stated—Arrest—Theatrical Performance—Sunday law.\nWhere relator was arrested on an order of a district judge to be brought before him upon complaint that relator was about to commit and had seriously threatened to commit an offense against the laws of the State by threatening to open his place of business, a place of public amusement, on Sunday; and to give therein a theatrical performance for pay. Held, that said article 114 is not essentially different from the law as it stood aforetime, and in express terms, limits the authority of the magistrate to offenses against persons or property, and there was no authority for relator’s arrest under said article.\nFrom Dallas County.\nOriginal application for habeas corpus for release from an order of arrest, under article 114, Code Criminal Procedure, for attempting to commit an offense against the laws of the State, by giving theatrical performances on Sunday.\nThe opinion states the case.\nBibb \u0026 Williams, for relator.\n—On question of ejusdem generis,\" Whitfield v. Terrell Compress Company, 62 S. W. Rep., 116; Ex parte Neet (Mo.), 57 S. W. Rep., 1026; State v. Bryant,\"90 Mo., 534; 2d S. W. Rep., 836; City of St. Louis v. Laughlin, 49 Mo., 559; People v. Richards, 108 N. Y., 137; 2d Am. St. Rep., 373; People v. New York, etc., R. R. Co., 84 N. Y., 565.\nThe word “offense” as used in the clause “or that any person has threatened to commit an offense” has the same meaning and is used in the same sense as the word “offense” appearing in the preceding part of said article and should he limited in its meaning to offenses against person or property. Murray v. State, 2 S. W. App., 757; Murray v. State, 21 Appeals, 620; S. C. 57 Am. St. Rep., 623; Penal Code, art. 5; Code of Criminal Procedure, art. 59; Lewis’ Sutherland Statutory Construction, 2d ed., vol. 2, sec. 422 to 429; State v. Walsh, 45 N. W., 720; Nichols v. State, 26 N. E., 838.\nThe prior history of this article demonstrates that it was enacted to cover only offenses against person and property (Act of December 20, 1836, Gammél’s Laws, vol. 1, page 1201; Act of May 11, 1846, Gammel’s Laws, vol. 2, page 1606, sec. 4; Act of March 20, 1848, sec. 15, 3 Gammel’s Laws, page 166). Runnels v. State, 45 Texas Crim. Rep., 446; 77 S. W., 459; Braun v. State, 40 Texas Crim. Rep., 236; 49 S. W., 621; sec. ■ 19 of Final Title Rev. Stat., 1895; Lewis’\u0027 Sutherland Stat. Construe. (2d ed.), vol. 2, sec. 451.\nF. J. McCord, Assistant Attorney-General, and Barry Miller, and Walter F. Seay, for the State."
+                 },
+    "file_name":  "1233-01",
+    "first_page_order":  485,
+    "last_page_order":  492
+}

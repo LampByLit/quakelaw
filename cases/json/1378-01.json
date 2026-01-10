@@ -1,0 +1,281 @@
+﻿{
+    "id":  8547023,
+    "name":  "Monroe Dozier v. State",
+    "name_abbreviation":  "Dozier v. State",
+    "decision_date":  "1958-11-12",
+    "docket_number":  "No. 30,050",
+    "first_page":  "84",
+    "last_page":  "87",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 84"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "316 S.W. 2d 742",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10173461
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/316/0742-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "166 Texas Cr. Rep. 577",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2618117
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/166/0577-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "310 S.W. 2d 113",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10161956
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/310/0113-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "165 Texas Cr. Rep. 647",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2614825
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/165/0647-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "301 S.W. 2d 154",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10168632
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/301/0154-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 537",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2612538
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0537-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "300 S.W. 2d 950",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10182804
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/300/0950-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 454",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "299 S.W. 2d 153",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10168166
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/299/0153-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 407",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2611923
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0407-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "268 S.W. 2d 182",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10187297
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/268/0182-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "160 Texas Cr. Rep. 258",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2470766
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/160/0258-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "29 S.W. 2d 760",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10285625,
+                                          5181246
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/29/0760-01",
+                                            "/tex-crim/115/0291-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "115 Texas Cr. Rep. 291",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5181246
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/115/0291-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "155 S.W. 2d 374",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10215934
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/155/0374-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "142 Texas Cr. Rep. 537",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5805033
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/142/0537-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "209 S.W. 2d 174",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10189629
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/209/0174-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "151 Texas Cr. Rep. 452",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2598643
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/151/0452-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  311,
+                     "char_count":  3990,
+                     "ocr_confidence":  0.601,
+                     "pagerank":  {
+                                      "raw":  3.2131113157704208E-07,
+                                      "percentile":  0.8666163548531208
+                                  },
+                     "sha256":  "4734f309770d4c21f95d0c94bca9b3d3944df63cb5c05f899da52a5d34453ccd",
+                     "simhash":  "1:a57f09e19b16749e",
+                     "word_count":  685
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Monroe Dozier v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nThe conviction is for burglary; the punishment, enhanced by reason of a prior conviction for burglary of a private residence, twelve years.\nThe residence of the prosecuting witness, E. L. Andrews, located north of Blooming Grove in Navarro County, was burglarized and all of the dishes, pillows, quilts and blankets, an electric teakettle, cooking utensils, silverware, and their supply of frozen foods, were taken.\nThe electric teakettle was recovered at a pawnshop in Odessa upon information given by appellant. It had been pawned in appellant’s name.\nEarl England, one of the burglars, a state’s witness, admitted his part in the burglary and testified that appellant and three others were with him; that on the day in question the five of them went to Blooming Grove and then to Odessa, carrying with them the property taken from the Andrews house which one of them entered through a broken window from which he had removed the pasteboard. Appellant, according to this witness, went onto the porch but did not himself enter the house.\nThe court submitted in his charge the law of principals.\nThe point upon which reversal is sought advances the theory that the state failed to prove that the burglary occurred in the day time and therefore “the case was not taken out of the statute defining burglary of a private residence at night.”\nIn the first place, we think that there is sufficient evidence to support a finding that the house was burglarized in the daytime. There is none to show a nighttime burglary.\nMr. Andrews testified that he and his wife “had done some work around the barn and had went down to the tank to fish a little bit” and when they returned they found their property missing.\nThe accomplice witness was asked where he and his companions went “that day” and he replied “we went to Blooming Grove and then to Odessa.”\nThere was no allegation in the indictment that the burglary was committed in the daytime or at night, and none was requisite, it being alleged that the entry was by force and breaking. See Adcock v. State, 151 Texas Cr. Rep. 452, 209 S.W. 2d 174; Stout v. State, 142 Texas Cr. Rep. 537, 155 S.W. 2d 374; Castro v. State, 115 Texas Cr. Rep. 291, 29 S.W. 2d 760.\nThe state was under no burden to establish that the defendant was not guilty of some other offense. Its burden was to prove beyond a reasonable doubt that he committed the offense charged in the indictment.\nHad the state alleged or proved that the house was burglarized at night then the authorities relied upon might be applicable.\nThe prior conviction alleged for enhancement was established by certified copies of the judgment and sentence; records of the Texas Department of Correction, including fingerprints, supported by expert testimony identifying them as identical with those of the appellant. Such manner of proof has been approved. See Handy v. State, 160 Texas Cr. Rep. 258, 268 S.W. 2d 182; Rhodes v. State, 164 Texas Cr. Rep. 407, 299 S.W. 2d 153; Spencer v. State, 164 Texas Cr. Rep. 454, 300 S.W. 2d 950; Roberts v. State, 164 Texas Cr. Rep. 537, 301 S.W. 2d 154; Baladez v. State, 165 Texas Cr. Rep. 647, 310 S.W. 2d 113; Stockwell v. State, 166 Texas Cr. Rep. 577, 316 S.W. 2d 742.\nThe evidence is sufficient to sustain the jury’s verdict.\nThe jury found appellant guilty and found that he had been previously convicted as alleged, and the court entered judgment upon the verdict adjudging that appellant be punished by confinement in the penitentiary for not less than two nor more than twelve years.\nThe applicable punishment under the jury’s verdict and Art. 62 P.C. is twelve years, and the judgment will be reformed so as to so provide.\nAs reformed, the judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "\u0027 On Appeal Only: Justice, Justice \u0026 Kugle (Wm. Wayne Justice of Counsel), Athens, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Monroe Dozier v. State.\nNo. 30,050.\nNovember 12, 1958.\nAppellant’s Motion for Rehearing Overruled December 10, 1958.\n\u0027 On Appeal Only: Justice, Justice \u0026 Kugle (Wm. Wayne Justice of Counsel), Athens, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1378-01",
+    "first_page_order":  102,
+    "last_page_order":  105
+}

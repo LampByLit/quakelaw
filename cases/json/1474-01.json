@@ -1,0 +1,115 @@
+﻿{
+    "id":  2021300,
+    "name":  "PERLIN COMPANIES v. THE WOLVAP COMPANY, et al.",
+    "name_abbreviation":  "Perlin Companies v. Wolvap Co.",
+    "decision_date":  "1991-11-01",
+    "docket_number":  "Case No. 90-227 AP",
+    "first_page":  "212",
+    "last_page":  "213",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 212"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "481 So.2d 87",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7589317
+                                      ],
+                         "year":  1986,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/481/0087-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "541 So.2d 696",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7552560
+                                      ],
+                         "year":  1989,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/541/0696-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "338 So.2d 190",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9668969
+                                      ],
+                         "year":  1976,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "191"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/338/0190-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  182,
+                     "char_count":  2253,
+                     "ocr_confidence":  0.902,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07305059098040079
+                                  },
+                     "sha256":  "d04a55b0d0a626a856b68f8796732c63e7bd475b61559bd977709aa50aa20ead",
+                     "simhash":  "1:930efc5219f79470",
+                     "word_count":  369
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before FULLER, DONNER, B. SHAPIRO, JJ.",
+                                    "FULLER, and B. SHAPIRO, JJ., concur."
+                                ],
+                     "parties":  [
+                                     "PERLIN COMPANIES v THE WOLVAP COMPANY, et al."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nDONNER, J.\nThis is an appeal from an order granting Defendant’s Motion to Dismiss on the basis of res judicata. The Appellant/Plaintiff, PERLIN COMPANIES, (hereinafter “PERLIN”), sued the Appellees/Defendants, THE WOLVAP COMPANY and THE PAVLOW COMPANY, (hereinafter “WOLVAP”), for money due and owing on three invoices. The Defendants moved to dismiss based on res judicata and the Court granted the Defendants’ Motion. The Florida Supreme Court in Seaboard Coast Line R. Co. v Cox, 338 So.2d 190, 191 (Fla. 1976) set forth the elements necessary for res judicata to apply. Res judicata requires: “(1) that the real parties in interest in both suits be identical, and (2) that the issue in the second action that is sought to be estopped from relitigation be identical to necessary and material issues resolved from the first suit.” In the two suits at issue here the Plaintiff appears to be one in the same, PERLIN. However, the Defendants in the same two suits have not been proven to be identical thereby not meeting an essential element of res judicata.\nAdditionally, the dismissal of the complaint on the basis of res judicata was procedurally improper. Bryd v City of Niceville, 541 So.2d 696 (Fla. 1st DCA 1989). The issue of res judicata is an affirmative defense, and affirmative defenses cannot be raised in a motion to dismiss unless the allegations of a prior pleading in the case demonstrate their existence. Livingston v Spires, 481 So.2d 87 (Fla. 1st DCA 1986). In the case at bar, the complaint did not demonstrate an existence or a basis for the issue of res judicata. Here, the complaint should have been answered, affirmative defense including res judicata should have been raised, and the motion to dismiss then asserted.\nIn view of the foregoing, we hold that the dismissal was improper and accordingly reverse the judgment appealed and the case is remanded for further proceedings.\nREVERSED AND REMANDED.\nFULLER, and B. SHAPIRO, JJ., concur.",
+                                          "type":  "majority",
+                                          "author":  "DONNER, J."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Morton J. Perlin, Esquire, for appellant.",
+                                       "Leonard U. Stolar, Esquire, for appellees."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "PERLIN COMPANIES v THE WOLVAP COMPANY, et al.\nCase No. 90-227 AP\nEleventh Judicial Circuit, Dade County\nNovember 1, 1991\nAPPEARANCES OF COUNSEL\nMorton J. Perlin, Esquire, for appellant.\nLeonard U. Stolar, Esquire, for appellees.\nBefore FULLER, DONNER, B. SHAPIRO, JJ."
+                 },
+    "file_name":  "1474-01",
+    "first_page_order":  232,
+    "last_page_order":  233
+}

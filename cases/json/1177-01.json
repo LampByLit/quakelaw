@@ -1,0 +1,70 @@
+﻿{
+    "id":  4559221,
+    "name":  "Jack Washington v. The State",
+    "name_abbreviation":  "Washington v. State",
+    "decision_date":  "1907-12-18",
+    "docket_number":  "No. 3932",
+    "first_page":  "323",
+    "last_page":  "324",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 323"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  254,
+                     "char_count":  3976,
+                     "ocr_confidence":  0.572,
+                     "pagerank":  {
+                                      "raw":  1.3522178666123099E-07,
+                                      "percentile":  0.6337855990831898
+                                  },
+                     "sha256":  "1186945b1548fe42e936a5d71b4093edc1e665a6c9862a7fda2fe6a0c47a52de",
+                     "simhash":  "1:9b52b85e24222dd2",
+                     "word_count":  682
+                 },
+    "last_updated":  "2023-07-14T19:59:32.944253+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Jack Washington v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BROOKS, Judge.\nAppellant was convicted of a petty theft, and his punishment assessed at a fine of $15 and thirty days confinement in the county jail.\nBill of exceptions Ho. 1 shows \"that appellant’s counsel was forced to try appellant in his absence on account of the absence of the defendant, and several witnesses not necessary here to mention. The bill presenting the matter has this qualification of the trial court: “The court having refused said above motion ordered the clerk to deliver to B. B. Perkins and C. P. Gibson, county attorney (Perkins being appellant’s counsel), each a list of the jury, and ordered both of said parties to make their challenges to said jury, which said Perkins objected to doing, because the defendant.was not present. The jury, however, were selected and sworn. The county attorney presented his information to the jury; B. B. Perkins plead not guilty to said information, and the State placed W. H. Miller upon the stand as a witness; after said Miller was excused from the stand, the State placed George Wright and Ed Summers upon the witness stand and the State then announced that it was through with its testimony, and the court called upon B. B. Perkins to know what witnesses the defendant had to offer. Perkins then placed W. H. Oatley upon the stand as a witness; after this witness testified, the court announced that it was 12 o’clock, and adjourned the court until 1:30 o’clock. When court reconvened in the afternoon, the defendant, Jack Washington, was brought into court, and the court then called upon the defendant to know why he had not been present in court this morning. Defendant stated to the court that he was not aware that this case was set for trial at this time. The court thereupon asked the defendant where he had been, and the defendant stated to the court that he was at work on the railroad section three or four miles from town. The court then ordered the trial to proceed, and the defendant then presented a motion, in substance as follows: That he had had no right of challenge and was not present, and various witnesses were absent. The court told the defendant that he might have all of his and the State’s witnesses reintroduced, if he desired to do so, and that he would have an opportunity to examine and cross-examine if he wished. This the defendant refused to do. There is no law in this State authorizing the trial of a defendant in a misdemeanor case where imprisonment is part of the punishment in his absence. ■ Article 633, White’s Penal Code, reads as follows: “In all prosecutions for felonies, the defendant must be personally present on the trial, and he must likewise be present in all cases of indictment or information for misdemeanors where the punishment or any part thereof is imprisonment in jail.” It is not necessary to cite authorities. The statute inhibits any part of the trial in the absence of the defendant. The fact that the county judge proposed to permit the evidence to be introduced anew would not cure this error and violation of both the letter and spirit of the statute. \u0027\nThe judgment is accordingly reversed and the cause is remanded.\nReversed and remanded.\nHenderson, Judge, absent.",
+                                          "type":  "majority",
+                                          "author":  "BROOKS, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Ho brief for appellant on file.",
+                                       "F. J. McCord, Assistant Attorney-General, for- the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Jack Washington v. The State.\nNo. 3932.\nDecided December 18, 1907.\nMisdemeanor Theft—Absence of Defendant.\nUpon trial for theft under the value of $50, where imprisonment was a part of the punishment, it was error to proceed with the trial of the case in defendant’s absence; and this although defendant appeared after the State had introduced its evidence, and the court proposed the reintroduction of the evidence, which defendant declined.\nAppeal from the County Court of Cherokee. Tried below before the Hon. B. L. Bobinson.\nAppeal from a conviction of theft under the value of $50; penalty, a fine of $15 and thirty days confinement in the county jail.\nThe opinion states the case.\nHo brief for appellant on file.\nF. J. McCord, Assistant Attorney-General, for- the State."
+                 },
+    "file_name":  "1177-01",
+    "first_page_order":  341,
+    "last_page_order":  342
+}

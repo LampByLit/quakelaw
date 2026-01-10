@@ -1,0 +1,175 @@
+﻿{
+    "id":  2020844,
+    "name":  "LEFFLER v. ADVENTURE CYCLES, INC., et al.",
+    "name_abbreviation":  "Leffler v. Adventure Cycles, Inc.",
+    "decision_date":  "1991-08-30",
+    "docket_number":  "Case No. 90-8920-CA-B/F",
+    "first_page":  "207",
+    "last_page":  "209",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 207"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "373 So.2d 920",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9622124,
+                                          9622020,
+                                          9621951
+                                      ],
+                         "year":  1979,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/373/0920-03",
+                                            "/so2d/373/0920-02",
+                                            "/so2d/373/0920-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "547 So.2d 319",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7543722
+                                      ],
+                         "year":  1989,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/547/0319-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "501 So.2d 171",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7567756
+                                      ],
+                         "year":  1987,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/501/0171-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "392 So.2d 1305",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9613361,
+                                          9613469
+                                      ],
+                         "year":  1981,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/392/1305-01",
+                                            "/so2d/392/1305-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "176 N.E.2d 761",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "N.E.2d",
+                         "year":  1961,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "22 Ill.2d 432",
+                         "category":  "reporters:state",
+                         "reporter":  "Ill. 2d",
+                         "case_ids":  [
+                                          2788413
+                                      ],
+                         "year":  1961,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ill-2d/22/0432-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "326 U.S. 310",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          6157001
+                                      ],
+                         "year":  1945,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/326/0310-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "274 U.S. 352",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          81168
+                                      ],
+                         "year":  1927,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/274/0352-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  296,
+                     "char_count":  3741,
+                     "ocr_confidence":  0.864,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.073041710153758
+                                  },
+                     "sha256":  "a6f73b0875bce901718a880b080fc1634242d6ff49347e503c35a94ead811729",
+                     "simhash":  "1:18875defb19edcb9",
+                     "word_count":  592
+                 },
+    "last_updated":  "2024-02-27T22:50:07.903550+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "LEFFLER v ADVENTURE CYCLES, INC., et al."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nFRANK POUND, Circuit Judge.\nORDER DENYING MOTION TO DISMISS FOR LACK OF JURISDICTION\nThe issue is whether a Florida court has jurisdiction over a Taiwan corporation which allegedly manufactured a bicycle which collapsed and injured a Plaintiff in Florida.\nThe Taiwan corporation is ninety-nine percent owned by a California corporation which distributed the bicycle to a Florida retailer, which sold it to the Plaintiff.\nHistorically, courts had personal jurisdiction over persons within the court’s geographical boundary. Industrialization and movement of people brought expansion of jurisdiction, sometimes by “long arm” statutes, sometimes by courts. Hess v Paul Pawloski, 274 U.S. 352 (1927). International Shoe Company v Washington, 326 U.S. 310 (1945).\nThe Supreme Court in International Shoe held that in order to subject an absent defendant to the forum jurisdiction, certain “minimum contacts” must be shown. Later, a “stream of commerce” theory evolved. Gray v American Radiator and Standard Sanitary Corporation, 22 Ill.2d 432, 176 N.E.2d 761 (1961). The Court in Gray said:\n“With the increasing specialization of commercial activity and growing interdependence of business enterprises it is seldom that a manufacturer deals directly with consumers in other states. The fact that the benefit he derives from its laws is an indirect one, however, does not make it any the less essential to the conduct of his business; and it is not unreasonable where a cause of action arises from alleged defects in his product, to say that the use of such products in the ordinary course of commerce is sufficient contact with this state to justify a requirement that he defend here.”\nFlorida courts have adopted the stream of commerce theory. Ford Motor Company v Atwood Vacuum Machine Company, 392 So.2d 1305 (Fla. 1981). Louis Winer v San Francisco Mercantile, 501 So.2d 171 (4DCA 1987). McHugh v Kenyon 547 So.2d 319 (4DCA 1989). The McHugh court stated:\n“It does not offend traditional notions of fair play and justice to permit the manufacturer to be sued in the fourth most populous state in the country under such circumstances.”\nIf, as the Defendant insists, McHugh is a “derelict on the sea of jurisprudence,” perhaps the Supreme Court will tow it in. Ten years before McHugh, the Florida Supreme Court upheld the constitutionality of our “long arm” statute. Godfrey v Neumann, 373 So.2d 920 (Fla. 1979). The Court found that a Canadian visitor who jumped in a pool on the back of a Florida resident satisfied the “minimum contacts” test of International Shoe.\nInternational relations being as they are, no doubt a Florida manufacturer which put a defective product in the stream of commerce which reached Taiwan and injured a local, would find itself within Taiwan jurisdiction.\nHere, Hon Machinery of Taiwan, Inc. built the bicycle, shipped it to its California corporation parent, and a Brevard County retailer sold the bicycle to the Plaintiff. That commercial activity obviously was of economic benefit to the Defendant. It both established minimum contacts in this state, and put its product in the stream of commerce. It could reasonably expect the product to be used in Florida. It is, therefore,\nORDERED that the Motion to Dismiss of Defendant, Hon Machinery of Taiwan, Inc., is DENIED.\nORDERED in Rockledge, Brevard County, Florida, August 30, 1991.",
+                                          "type":  "majority",
+                                          "author":  "FRANK POUND, Circuit Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Morris S. Finkel, Esquire, for plaintiff.",
+                                       "Clinton W. Lanier, Esquire, for defendant, Adventure Cycles, Inc.",
+                                       "David W. Henry, Esquire, for defendants, Dahon California, Inc. and Hon Machinery of Taiwan, Inc."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "LEFFLER v ADVENTURE CYCLES, INC., et al.\nCase No. 90-8920-CA-B/F\nEighteenth Judicial Circuit, Brevard County\nAugust 30, 1991\nAPPEARANCES OF COUNSEL\nMorris S. Finkel, Esquire, for plaintiff.\nClinton W. Lanier, Esquire, for defendant, Adventure Cycles, Inc.\nDavid W. Henry, Esquire, for defendants, Dahon California, Inc. and Hon Machinery of Taiwan, Inc."
+                 },
+    "file_name":  "1468-01",
+    "first_page_order":  225,
+    "last_page_order":  227
+}

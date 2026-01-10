@@ -1,0 +1,238 @@
+﻿{
+    "id":  8548778,
+    "name":  "Alfred \"Jaybird\" Johnson v. State",
+    "name_abbreviation":  "Johnson v. State",
+    "decision_date":  "1958-12-03",
+    "docket_number":  "No. 30,138",
+    "first_page":  "284",
+    "last_page":  "287",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 284"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "245 S.W. 435",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10317416,
+                                          10317304
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/245/0435-02",
+                                            "/sw/245/0435-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "93 Texas Cr. Rep. 45",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5037290
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/93/0045-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "155 S.W. 2d 923",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10226231
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/155/0923-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "142 Texas Cr. Rep. 607",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5807269
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/142/0607-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "289 S.W. 2d 601",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10177639
+                                      ],
+                         "pin_cites":  [
+                                           {
+                                               "page":  "603"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/289/0601-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 199",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2460952
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0199-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "244 S.W. 2d 828",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10218943
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/244/0828-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "156 Texas Cr. Rep. 553",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2577290
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/156/0553-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "271 S.W. 2d 429",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10191245
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/271/0429-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "160 Texas Cr. Rep. 358",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2471522
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/160/0358-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "287 S.W. 2d 180",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10169005
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/287/0180-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 488",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2462535
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/162/0488-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "288 S.W. 2d 71",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10162092
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/288/0071-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "168 Texas Cr. Rep. 10",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  0
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  433,
+                     "char_count":  6776,
+                     "ocr_confidence":  0.563,
+                     "pagerank":  {
+                                      "raw":  9.0891148827898444E-08,
+                                      "percentile":  0.505657472694354
+                                  },
+                     "sha256":  "a632c308a2c7b4f8251ddb4173849d283e628f24f38d1f60b514d41f73527e60",
+                     "simhash":  "1:1f3a8a8cb96ca696",
+                     "word_count":  1171
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Alfred “Jaybird” Johnson v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is possession of whiskey and vodka in a dry area for the purpose of sale, with a prior conviction alleged for enhancement; the punishment, 60 days in jail and a fine of $800.00.\nDeputy Sheriffs McNeese and Randolph testified that on the afternoon in question they stationed themselves approximately 800 yards, or four city blocks, from the appellant’s cafe and, while partially concealed by high weeds and with the aid of binoculars, observed the area. They stated that approximately one block northeast of the cafe was a roofed hog pen and the area between the two was open. After watching approximately 20 minutes, they saw a two toned gray automobile drive up to appellant’s cafe and then leave; that the appellant, whom they had known for many years, left his cafe and proceeded toward the hog pen, at intervals looking around in all directions. When appellant got to the hog pen he reached in one of many old automobile tires resting on the roof and withdrew a reddish brown bottle, placed the same in his pocket, and then repaired to a trash barrel nearby, from which he extricated a white bottle, and then proceeded back to his cafe; but before he arrived the gray automobile came back and the appellant handed something to the driver. Soon thereafter the officers went to the hog pen, searched the automobile tires on the roof, and found therein five pints of whiskey; they then went to the trash barrel, where they found two pints of vodka.\nRoy Young testified that he had a hog pen approximately one block northeast of the appellant’s cafe and had placed some old automobile tires on the roof to keep it from blowing away, but denied that he had ever placed any intoxicants in or near the pen or had given anyone else consent to do so.\nThe appellant did not testify or offer any evidence in his own behalf; we find the evidence sufficient to sustain the jury’s verdict, and shall discuss the many alleged errors called to our attention in brief and argument.\nBy motion to quash, the appellant calls attention to an alleged variance between the complaint and the information. In the paragraph of the complaint charging the prior conviction alleged for enhancement appears the word “transporting,” while in the information it appears as “unlawfully transport.”\nSince the allegation as to the prior conviction need not be made with the same particularity as is required in charging the primary offense, no error is reflected by this bill. Martinez v. State, 168 Texas Cr. Rep. 10, 288 S.W. 2d 71, and Kite v. State, 162 Texas Cr. Rep. 488, 287 S.W. 2d 180.\nAppellant next raises the following question. When the prosecutor came to prove the prior conviction alleged for enhancement, the appellant called the attention of the court to the fact that this conviction itself was an enhanced conviction and objected to reading the information to the jury. The state offered only that portion of the information which charged the primary offense in the prior conviction and thus supported the allegations in the instant information and proved nothing else. Evans v. State, 160 Texas Cr. Rep. 358, 271 S.W. 2d 429, relied upon by the appellant, has no application.\nAppellant next questions the sufficiency of the evidence to support the allegation that Lamb County was a dry area. The state introduced the order canvassing the returns and declaring the results of the prohibition election putting local option into effect plus proof of the publication of said order, but did not offer the order calling such election. In Carroll v. State, 156 Texas Cr. Rep. 553, 244 S.W. 2d 828, we held that the order canvassing returns and declaring the result of the election, together with the certificate of the county judge showing publication of the order putting local option into effect, constituted a prima facie showing of the dry status of the area involved. See, also, Shawhart v. State, 163 Texas Cr. Rep. 199, 289 S.W. 2d 601, 603.\nIn his brief, the appellant complains of that portion of the court’s charge on circumstantial evidence in which he told the jury, “In this case the State in part, relies upon circumstantial evidence for a conviction.” In Dix v. State, 142 Texas Cr. Rep. 607, 155 S.W. 2d 923, we held that such a statement should not have been made but further held that a general objection, such as was before us in Dix and in the case at bar, was not sufficient to point out to the trial court the error complained of. See also Jones v. State, 93 Texas Cr. Rep. 45, 245 S.W. 435, and Article 658, V.A.C.C.P.\nIn his argument, the prosecutor told the jury, “One reason (why the case was important) is the right to take whiskey over on somebody else’s property” and “a man takes whiskey or vodka and hides it over on somebody else’s property.” Upon objection, the court said, “the jury knows what the testimony shows” and “I will instruct the jury to accept the testimony as received.” We do not consider this argument as outside the record. It is clear that the hog pen belonged to Roy Young and was not on the appellant’s property; the appellant was seen at the hog pen handling bottles of two different colors which correspond to the bottles of whiskey and vodka later found at the hog pen by the officers. If he was exercising control over the intoxicants at that place, we think it a reasonable deduction from the evidence that he also placed or caused it to be placed where it was found.\nAt the time the state offered the bottles of whiskey and vodka into evidence, the appellant objected that the “proper predicate had not been laid.” The officer testified that they were the same bottles which he had found at the scene; there is no showing in the record that anyone other than the witness had ever had the same in their custody, and we overrule appellant’s contention in this regard.\nAppellant’s last complaint relates to a portion of an answer of Officer McNeese in which he said, “Jaybird went out to his stash (referring to where the intoxicants were found at the hog pen).”\nAs stated above, the witness saw the appellant at the hog pen where he retrieved certain bottles and put them in his pocket; they then proceeded immediately to the hog pen where they found other bottles which were identical to those they had seen in the appellant’s hands. We have concluded that it was a reasonable deduction from this evidence, plus the movements of the gray automobile, that the intoxicants which were found belonged to the appellant.\nFinding no reversible error, the judgment of the trial court is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Billy Hall, Littlefield, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Alfred “Jaybird” Johnson v. State.\nNo. 30,138.\nDecember 3, 1958.\nMotion for Rehearing Overruled January 28, 1959.\nBilly Hall, Littlefield, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1501-01",
+    "first_page_order":  302,
+    "last_page_order":  305
+}

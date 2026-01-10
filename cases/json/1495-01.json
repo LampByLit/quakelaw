@@ -1,0 +1,83 @@
+﻿{
+    "id":  8548566,
+    "name":  "Joe Ealy v. State",
+    "name_abbreviation":  "Ealy v. State",
+    "decision_date":  "1958-12-17",
+    "docket_number":  "No. 30,209",
+    "first_page":  "265",
+    "last_page":  "266",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 265"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "278 S.W. 2d 850",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10184937,
+                                          10184931
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/278/0850-02",
+                                            "/sw2d/278/0850-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  156,
+                     "char_count":  1813,
+                     "ocr_confidence":  0.557,
+                     "pagerank":  {
+                                      "raw":  6.3801256653207886E-08,
+                                      "percentile":  0.3949490877653485
+                                  },
+                     "sha256":  "8494f7167e5ddac0dd281f8e489a47543b083072458e54cac6e1a4c84cbfd502",
+                     "simhash":  "1:5f35ccc079616819",
+                     "word_count":  306
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Joe Ealy v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Judge.\nThis is a conviction for driving while intoxicated, with punishment assessed at three days in jail and a fine of $75.\nAppellant was apprehended while driving an automobile on á public highway by a peace officer who testified that he was definitely intoxicated.\nAppellant contends that the complaint upon which the information was predicated was invalid because the affiant who signed and swore thereto was not a credible person within the meaning of the statute, Art. 415, C.C.P.\nIt is claimed that affiant was not a credible person because he did not swear truthfully to the complaint — that is, that the affiant swore, as a fact, that the appellant had committed the offense charged therein when, in truth, he swore entirely upon information and belief. •\nAn allegation that the affiant “has good reason to believe and does believe” is sufficient, and there is no necessity for the affiant to swear positively as to the existence of the facts stated therein. Branch’s P.C., Sec. 498, p. 485. Nor does an affiant to a complaint have to be a witness to the transaction covered in the affidavit. Parnell v. State, 278 S.W. 2d 850.\nThe term “credible person,” as used in the statute, has reference to the competence of the affiant to testify for the state in the particular case in which the complaint is made. Branch’s P.C., 2d Edition, Sec. 499, p. 486. Whether one is a credible person within the meaning of the statute is not to be determined upon the truth or falsity of the statements contained in the complaint.\nThe complaint was not subject to the defect alleged.\nThe judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "James E. Faulkner, Coldspring, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Joe Ealy v. State.\nNo. 30,209.\nDecember 17, 1958.\nMotion for Rebearing Overruled January 28, 1959.\nJames E. Faulkner, Coldspring, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1495-01",
+    "first_page_order":  283,
+    "last_page_order":  284
+}

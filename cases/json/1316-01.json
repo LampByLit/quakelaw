@@ -1,0 +1,150 @@
+﻿{
+    "id":  2021331,
+    "name":  "GRAHAM v. RICHARDSON",
+    "name_abbreviation":  "Graham v. Richardson",
+    "decision_date":  "1991-10-03",
+    "docket_number":  "Case No. AP-90-10962-AY",
+    "first_page":  "22",
+    "last_page":  "23",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 22"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "370 So. 2d 1250",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9631953
+                                      ],
+                         "year":  1979,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/370/1250-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "433 So. 2d 992",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7645416
+                                      ],
+                         "year":  1983,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/433/0992-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "579 So. 2d 757",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7520505
+                                      ],
+                         "weight":  3,
+                         "year":  1991,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/579/0757-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "528 So. 2d 967",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7568845
+                                      ],
+                         "year":  1988,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/528/0967-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "307 So. 2d 202",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9609921
+                                      ],
+                         "year":  1975,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/307/0202-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "401 So. 2d 822",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9577501
+                                      ],
+                         "year":  1981,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/401/0822-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  207,
+                     "char_count":  2749,
+                     "ocr_confidence":  0.884,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07305329384068338
+                                  },
+                     "sha256":  "dbbb3bfd8e77721516a3ec0f3f3f388b1ceb910f97751facd0690697ef799cd1",
+                     "simhash":  "1:66e996ea014a2b35",
+                     "word_count":  473
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before FINE, RAPP, OFTEDAL, JJ.",
+                                    "RAPP and OFTEDAL, JJ., concur."
+                                ],
+                     "parties":  [
+                                     "GRAHAM v RICHARDSON"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nFINE, Judge.\nThis is an appeal from an order denying a motion for rehearing/ reconsideration of a post judgment order denying a motion to dismiss for lack of subject matter jurisdiction. In short, it is an appeal of a denial of a rehearing.\nRehearings and reconsiderations of orders are discretionary and thus are not appealable. E.g., Niesz v R.P. Morgan Building Co., Inc., 401 So. 2d 822 (Fla. 5 DCA 1981).\nDenials of rehearings of post judgment orders denying relief against the final judgment are not final orders. Reilly v Hyster Company, 307 So. 2d 202 (Fla. 4 DCA 1975). Nor is the underlying order denying relief against a final judgment a final order. Shields v Flinn, 528 So. 2d 967 (Fla. 3 DCA 1988). Even if it denies that the judgment is void. Albano v Albano, 579 So. 2d 757 (Fla. 5 DCA 1991).\nA non-final order is not subject to rehearing and rehearings do not toll the time for filing a notice of appeal for non-final orders. Smith v Weede, 433 So. 2d 992 (Fla. 5 DCA 1983); Albano v Albano, supra.\nFlorida Rule of Civil Procedure (the Rules of Civil Procedure apply to evictions), Rule 1.530 only authorizes rehearings of final orders. E.g, Id.\nFlorida Appellate Rule 9.020(g) does not toll the appeal time for non-final orders.\nThe motion to dismiss could be considered to be a Rule 1.540, Rules of Civil Procedure motion since it sought to set aside or vacate the final judgment. Denials of 1.540 motions are non-final orders and their appeal time is not tolled by the filing of a motion for rehearing. Waiswilos v Feacher, 370 So. 2d 1250 (Fla 4 DCA 1979).\nThis Court sitting as an Appellate Court must consider the question of whether the order is appealable even though such question is not * raised by the parties since it affects the jurisdiction of this Court. Fla. Jur. 2d Appellate Review, section 51.\nThe final judgment was rendered on November 8, 1989. The motion to dismiss or vacate was denied on July 27, 1990. The motion to rehear or reconsider that denial was denied on September 11, 1990, and the notice of appeal was filed on September 25, 1990.\nThe notice of appeal was filed within thirty days of a non-appealable order (order denying rehearing) and more than thirty days after the rendition of a non-final order (denying motion to vacate or dismiss) and thus this appeal is unauthorized as to the former and untimely as to the latter.\nAccordingly this appeal is hereby DISMISSED.\nRAPP and OFTEDAL, JJ., concur.",
+                                          "type":  "majority",
+                                          "author":  "FINE, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Janice L. Jennings, Esquire, for appellant.",
+                                       "Kevin F. Richardson, Esquire, Clyatt \u0026 Richardson, P.A., for appellees."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "GRAHAM v RICHARDSON\nCase No. AP-90-10962-AY\nFifteenth Judicial Circuit, Palm Beach County\nOctober 3, 1991\nAPPEARANCES OF COUNSEL\nJanice L. Jennings, Esquire, for appellant.\nKevin F. Richardson, Esquire, Clyatt \u0026 Richardson, P.A., for appellees.\nBefore FINE, RAPP, OFTEDAL, JJ."
+                 },
+    "file_name":  "1316-01",
+    "first_page_order":  42,
+    "last_page_order":  43
+}

@@ -1,0 +1,92 @@
+﻿{
+    "id":  2021289,
+    "name":  "STATE OF FLORIDA v. CASTLE, et al.",
+    "name_abbreviation":  "State v. Castle",
+    "decision_date":  "1991-10-11",
+    "docket_number":  "Case No. CF91-1331A1-XX (Consolidated)",
+    "first_page":  "210",
+    "last_page":  "211",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 210"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "453 So.2d 92",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7609282
+                                      ],
+                         "year":  1984,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "93"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/453/0092-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  225,
+                     "char_count":  2656,
+                     "ocr_confidence":  0.912,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07305001179605453
+                                  },
+                     "sha256":  "3a18bb189eb9c3bf50d8dcd274867077efba8a32f61abdbed12e105d200730ea",
+                     "simhash":  "1:0098416fa15c586e",
+                     "word_count":  403
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "E. RANDOLPH BENTLEY, Circuit Judge.",
+                                    "OlIVER L. GREEN, Circuit Judge.",
+                                    "WILLIAM A. NORRIS, Circuit Judge.",
+                                    "ROBERT E. PYLE, Circuit Judge.",
+                                    "SUSAN V. ROBERTS, Administrative Judge."
+                                ],
+                     "parties":  [
+                                     "STATE OF FLORIDA v CASTLE, et al."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nE. RANDOLPH BENTLEY, Circuit Judge.\nOlIVER L. GREEN, Circuit Judge.\nWILLIAM A. NORRIS, Circuit Judge.\nROBERT E. PYLE, Circuit Judge.\nSUSAN V. ROBERTS, Administrative Judge.\nTHE DEFENDANTS seek a dismissal of the charges made against them of Sell, Purchase, Manufacture, Delivery and Possession of Cocaine with the intent to sell within 200 feet of a public housing facility; in violation of Florida Statute 893.13(l)(i) (1990 Supp.) and assert that a person of reasonable, ordinary intelligence cannot understand what the legislature intends the phrase “public housing facility” to encompass.\nTHE DEFENDANTS suggest several possible definitions of that language including federally subsidized low income housing projects, state subsidized housing projects, municipally subsidized housing projects all with various income restrictions, sizes of dwelling units and other requirements of the various Federal programs. Some for instance, subsidize home purchases for Farmers, and some like Gennie Mae, HUD, FHA, and Freddie Mac are mortgage programs.\nTHE DEFENSE further asserts that the phrase “public housing facility” is not defined in any dictionary or any case law or related statutory provisions.\nTHE STATE asserts that the phrase “public housing facility” must be given its plain, ordinary meaning in ridding the State of “a cesspool of drugs and violence”.\nTHE COURT finds that § 421.03(9), Florida Statutes (1990) defines housing projects as any real or personal property set aside or acquired for the public purpose of providing low cost housing for low income individuals, parks, recreation, community services such as roads, sewers, dwellings, apartments, site preparation, gardens, administrative or educational facilities. It is also defined as planning states of any construction project through construction use or demolition of the facilities. Those projects are funded with state, (.federal or municipal monies.\nTHE COURT finds that the definition of “public housing facilities” may be found in § 421.03(9), Florida Statutes (1990) and that it is not one that a person of reasonable or ordinary intelligence can readily ascertain. See Bertens v Stewart, 453 So.2d 92, 93 (2d DCA 1984).\nTHE MOTION to Dismiss is hereby GRANTED and Florida Statute 893.13(l)(i) (1990 Supp.) is hereby declared unconstitutional.\nDONE AND ORDERED this the 11th day of October, 1991.",
+                                          "type":  "majority",
+                                          "author":  null
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Office of the State Attorney, for plaintiff.",
+                                       "Francis A. Solorzano, Assistant Public Defender, for defendants."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "STATE OF FLORIDA v CASTLE, et al.\nCase No. CF91-1331A1-XX (Consolidated)\nTenth Judicial Circuit, Polk County\nOctober 11, 1991\nAPPEARANCES OF COUNSEL\nOffice of the State Attorney, for plaintiff.\nFrancis A. Solorzano, Assistant Public Defender, for defendants."
+                 },
+    "file_name":  "1471-01",
+    "first_page_order":  230,
+    "last_page_order":  231
+}

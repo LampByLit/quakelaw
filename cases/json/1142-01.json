@@ -1,0 +1,70 @@
+﻿{
+    "id":  4559380,
+    "name":  "Dave Jones v. The State",
+    "name_abbreviation":  "Jones v. State",
+    "decision_date":  "1907-12-04",
+    "docket_number":  "No. 3846",
+    "first_page":  "206",
+    "last_page":  "208",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 206"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  270,
+                     "char_count":  5853,
+                     "ocr_confidence":  0.586,
+                     "pagerank":  {
+                                      "raw":  3.0280638127468341E-07,
+                                      "percentile":  0.8543660267451886
+                                  },
+                     "sha256":  "a13e95147379cfcf20c50564d08eb5fe2c399433fd361e3bacebfc5375a0c8f4",
+                     "simhash":  "1:17a41cb25b067792",
+                     "word_count":  1015
+                 },
+    "last_updated":  "2023-07-14T19:59:32.944253+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Dave Jones v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BROOKS, Judge.\nAppellant was convicted for theft and his punishment assessed at confinement in the jail for three months and a fine of $50.\nBill of exceptions Ho. 1 shows that the State’s witness, H. M. Wooley, was asked the following question: “State whether or not the defendant, Dave Jones, ever told you that he did get or found $10, but he did not intend to give it up.\" To this question appellant objected on the ground that no predicate had been laid. The county attorney stated to the court that he expected to impeach the defendant by the witness, Wooley, the defendant having denied having made such statement to said witness. The court overruled defendant’s objection and stated to the jury “the testimony will be admitted only on the ground of impeaching the defendant, and the court instructs the jury to consider it for no other purpose.\" The defendant then urged the additional objection that no predicate’ had been laid for the testimony, even for impeaching, as no time and place had been fixed. The court overruled the objection- and said witness was permitted to answer as follows:\n“Yes, the defendant told me before he was arrested that he did get $10, or found $10, but he did not intend to give it up. Yes, I had a warrant for his arrest on this charge and went to his home and in his room; he was asleep; I opened the door of his room, went in, woke him up and asked him why he got the $10 and he told me as before stated. Yes, I immediately arrested him; I think he knew I was a police officer. I did not warn him at all.\" The above is almost a literal copy of the bill of exceptions. The ground insisted upon is that there is no time and place fixed for the impeachment. The bill does not certify that the grounds urged were true, nor does the bill so state. While technically correct, the objection is entirely obviated by the answer of the witness, who does state the time and place when the statement was made. We accordingly hold, that there is no reversible error in the ruling of the court.\nBill of exceptions Ho. 2 shows that when the same witness, Wooley, was on the stand, the State asked said witness if the defendant told him he got the $10 and after the court had overruled the appellant’s objection that no predicate had been laid either for the admission of the defendant’s statements or confessions or impeachment, as shown in bill of exceptions Ho. 1, said witness testified as follows: “Yes, defendant told me before I arrested him that he did get or found the $10, but he did not intend to give it up. I had a warrant for his arrest on this charge. This conversation was in defendant’s house. When he made the statement, I had not arrested him; I woke him up. I immediately arrested him on this charge. I think he knew I was a peace officer. I did not warn him.\" Defendant moved the court to strike out all the testimony of said witness, Wooley, because it had clearly been shown that no predicate had been laid for same, and had conclusively shown that while in fact the warrant had not actually been read to defendant at the time of said statements, it clearly showed he was under duress and virtually arrested upon said charge and clearly inadmissible and prejudicial to defendant. We think this testimony shows that he was under arrest at the time this confession was made. It follows, therefore, that the court erred in admitting same.\nBill No. 3 was that Mrs. Kline was permitted, over appellant’s objection, to testify that the prosecuting witness, Jim Phoenix, had been working for her, Mrs. Kline, about eleven months and had been a collector and collected for her, and always returned the money. This testimony was inadmissible, since there was no evidence to impeach the testimony of the witness, except by contradictory evidence. Unless appellant had introduced testimony impeaching the character of the prosecuting witness, it is never permissible to bolster testimony up with testimony of the character indicated above.\nFor the errors pointed out, the judgment is reversed and the cause is remanded.\nReversed and remanded.\nHenderson, Judge, absent.",
+                                          "type":  "majority",
+                                          "author":  "BROOKS, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "No brief on file for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Dave Jones v. The State.\nNo. 3846.\nDecided December 4, 1907.\n1. —Theft—Evidence—Impeachment—Time and Place—Predicate.\nWhere upon trial for theft, defendant denied that he had made a certain statement to a State’s witness, and said State’s witness was placed on the stand to impeach defendant and stated the time and place where he made such statement to witness, the objection that no predicate had been laid was untenable.\n2. —Same—Confession—Warning—Arrest.\nWhere upon trial for theft, the State placed the officer who arrested the defendant on the witness stand, who testified to certain confessions by defendant; that the officer believed that defendant knew he was a peace officer when he awoke defndant; that he did not warn him; that the officer had a warrant for his arrest on this charge, and that he immediately arrested defendant on this charge, but that defendant’s statement was made before his arrest. Held that the defendant was under arrest, and his confession .without warning was inadmissible.\n3. —Same—Impeaching Prosecuting Witness.\nWhere upon trial for theft, there had been no evidence to impeach the testimony of the prosecuting witness except by contradictory testimony, it was error to bolster up the testimony of the prosecuting witness, by the testimony of another State’s witness that the prosecuting witness always turned over the money he collected for the other State’s witness.\nAppeal from the County Court of Jefferson. Tried below before the Hon. Jas. A. Harrison.\nAppeal from a conviction of theft under the value of $50; penalty, a fine of $50 and three months confinement in the county jail.\nThe opinion states the case.\nNo brief on file for appellant.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1142-01",
+    "first_page_order":  224,
+    "last_page_order":  226
+}

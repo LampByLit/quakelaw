@@ -1,0 +1,130 @@
+﻿{
+    "id":  2021385,
+    "name":  "BROOKS v. STATE OF FLORIDA",
+    "name_abbreviation":  "Brooks v. State",
+    "decision_date":  "1991-10-17",
+    "docket_number":  "Case No. 91-784-AC (County Court Case No. 90-9985-MM)",
+    "first_page":  "52",
+    "last_page":  "53",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 52"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "569 So.2d 911",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          11302699
+                                      ],
+                         "year":  1990,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/569/0911-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "373 U.S. 83",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          11716714
+                                      ],
+                         "weight":  3,
+                         "year":  1963,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/373/0083-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "555 So.2d 888",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7528908
+                                      ],
+                         "year":  1990,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/555/0888-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "488 U.S. 51",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          1495598
+                                      ],
+                         "weight":  3,
+                         "year":  1988,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "337"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/488/0051-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  232,
+                     "char_count":  3082,
+                     "ocr_confidence":  0.89,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.0730585064997998
+                                  },
+                     "sha256":  "2474bdd976b2dba2a4955b8f6bceadd4acc732df82eabef2ea3182c20cea7750",
+                     "simhash":  "1:824e43e76d5afef8",
+                     "word_count":  505
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before McNEAL, BOOTH, SINGELTARY, JJ.",
+                                    "BOOTH, J. and SINGELTARY, G., concur."
+                                ],
+                     "parties":  [
+                                     "BROOKS v STATE OF FLORIDA"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nMcNEAL, R. Circuit Judge.\nThe Marion County Sheriffs Department failed to record or negligently erased portions of a videotape of appellant’s field sobriety tests. Alleging that the state “wilfully altered” the tape, appellant moved to dismiss the charges of driving under the influence and driving with an unlawful blood alcohol level and moved to suppress the tape. The court found that the state did not act in bad faith and denied the motions. We affirm.\nThe trial court relied on Youngblood v Arizona, 488 U.S. 51, 109 S.Ct. 333, 337, 102 L.Ed.2d 281 (1988), which held “unless a criminal defendant can show bad faith on the part of the police, failure to preserve potentially useful evidence does not constitute a denial of due process of law.” Appellant contends that State v Powers, 555 So.2d 888 (Fla. 2d DCA 1990) requires dismissal of the charges regardless of whether the state acted in bad faith, unless the state can establish the absence of prejudice. That is not the holding of Powers. A defendant’s due process rights are violated when the prosecution suppresses material evidence favorable to the accused, even if the state acted in good faith. Brady v Maryland, 373 U.S. 83, 83 S.Ct. 1194, 10 L.Ed.2d 215 (1963). But a defendant’s due process rights are not violated where the state fails to preserve potentially useful evidence, unless the defendant can prove that the state acted in bad faith. State v Larringa, 569 So.2d 911 (Fla. 5th DCA 1990).\nAppellant argues that the trial court incorrectly applied the Young-blood test. The stipulated record on appeal states that the court found that the state inadvertently erased portions of the videotape of appellant’s field sobriety tests and that appellant did not meet his burden of proving that the state acted in bad faith. Substantial portions of the videotape were missing, but the trial court was able to view the missing portions in context and determine whether the state acted in bad faith, whether the evidence was exculpatory, whether the evidence was material to the case, and whether the defendant was prejudiced by the erasure. The court was also able to consider these issues in light of the entire evidence in the case, including appellant’s breathalyzer readings of .24 and .25. The record does not establish any error on part of the trial judge in weighing these factors and in denying the motion to dismiss or suppress.\nAppellant also argued that his retrial violated the double jeopardy clause of the Fifth Amendment. In the first trial the court granted appellant’s motion for mistrial based on an improper comment by the prosecutor. The court found that the prosecutor did not intentionally provoke a mistrial. The record supports this finding.\nAFFIRMED.\nBOOTH, J. and SINGELTARY, G., concur.",
+                                          "type":  "majority",
+                                          "author":  "McNEAL, R. Circuit Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Charles P. Horn, Esquire, for appellant.",
+                                       "Brad King, State Attorney, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "BROOKS v STATE OF FLORIDA\nCase No. 91-784-AC (County Court Case No. 90-9985-MM)\nFifth Judicial Circuit, Marion County\nOctober 17, 1991\nAPPEARANCES OF COUNSEL\nCharles P. Horn, Esquire, for appellant.\nBrad King, State Attorney, for appellee.\nBefore McNEAL, BOOTH, SINGELTARY, JJ."
+                 },
+    "file_name":  "1346-01",
+    "first_page_order":  72,
+    "last_page_order":  73
+}

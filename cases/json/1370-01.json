@@ -1,0 +1,323 @@
+﻿{
+    "id":  2020860,
+    "name":  "PELICAN BAY IMPROVEMENT DISTRICT, etc. v. COLLIER COUNTY, etc.",
+    "name_abbreviation":  "Pelican Bay Improvement District v. Collier County",
+    "decision_date":  "1990-10-16",
+    "docket_number":  "Case No. 90-1859-CA-01-WLB",
+    "first_page":  "76",
+    "last_page":  "87",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 76"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "218 So.2d 528",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9818475
+                                      ],
+                         "year":  1969,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/218/0528-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "330 So.2d 106",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9636442
+                                      ],
+                         "year":  1976,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/330/0106-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "180 So.2d 200",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9802440
+                                      ],
+                         "year":  1965,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/180/0200-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "330 So.2d 840",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9663874
+                                      ],
+                         "year":  1976,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/330/0840-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "20 So.2d 356",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          1962115
+                                      ],
+                         "year":  1944,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/fla/155/0366-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "512 So.2d 258",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7555604
+                                      ],
+                         "year":  1987,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/512/0258-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "482 So.2d 422",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7595061
+                                      ],
+                         "year":  1986,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/482/0422-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "470 So.2d 10",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7600055
+                                      ],
+                         "year":  1985,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/470/0010-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "440 So.2d 1277",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7649146
+                                      ],
+                         "year":  1983,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/440/1277-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "497 So.2d 889",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7598364
+                                      ],
+                         "year":  1986,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/497/0889-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "461 So.2d 72",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7606042
+                                      ],
+                         "year":  1984,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "77"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/461/0072-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "480 So.2d 631",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7598941
+                                      ],
+                         "weight":  2,
+                         "year":  1985,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "634"
+                                           },
+                                           {
+                                               "page":  "633"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/480/0631-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "518 So.2d 1379",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7584083
+                                      ],
+                         "year":  1988,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "1382"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/518/1379-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "423 So.2d 539",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9535305,
+                                          9535253
+                                      ],
+                         "year":  1982,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/423/0539-02",
+                                            "/so2d/423/0539-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "355 So.2d 1197",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9752210
+                                      ],
+                         "year":  1978,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/355/1197-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "537 So.2d 995",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7557918
+                                      ],
+                         "year":  1988,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/537/0995-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "298 So.2d 391",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9612498
+                                      ],
+                         "year":  1974,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/298/0391-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "62 So.2d 696",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9918865
+                                      ],
+                         "year":  1952,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/62/0696-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  921,
+                     "char_count":  29296,
+                     "ocr_confidence":  0.875,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07304402689114307
+                                  },
+                     "sha256":  "e70417da80e3f25f812dbca5b23bb2569d31293606d2a098f7a2d3010aaf6ae3",
+                     "simhash":  "1:af07fc1403877760",
+                     "word_count":  4790
+                 },
+    "last_updated":  "2024-02-27T22:50:07.903550+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "PELICAN BAY IMPROVEMENT DISTRICT, etc. v COLLIER COUNTY, etc."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nWILLIAM L. BLACKWELL, Circuit Judge.\nSUMMARY FINAL JUDGMENT\nThis matter having come before the court on the Defendant’s Motion For Summary Judgment Or, In The Alternative, Motion for Partial Summary Judgment, and upon agreement by the parties that the Plaintiffs’ Motion For Summary Judgment Or, In the Alternative, Motion For Partial Summary Judgment be simultaneously heard, and the court having heard the arguments of the parties, reviewed the authorities, documentation, the record on the matter and the affidavits of the parties, and the court being otherwise fully advised of the premises, it is,\nORDERED and ADJUDGED that:\nThe court issues this final Order with the purpose and appropriate parameters of a declaratory statement in mind. By the very nature of an action for declaratory judgment pursuant to Chapter 86 of the Florida Statutes, both parties have the right to a clear and succinct decision which will afford relief from insecurity and uncertainty with respect to their rights, status, and other equitable or legal relations as referenced within Plaintiffs’ Complaint. With the nature of a declaratory judgment action in mind, the court explicates to the extent it finds necessary the basis for its decision on Counts I, II, and III of the Plaintiffs’ Complaint, which were each filed pursuant to Chapter 86, Fla. Stat. The court notes that notwithstanding its decision, the parties have affirmatively acknowledged to the court that no genuine issue of material fact was in dispute as to Counts I, II or III. As well, the court explicates to the extent it finds necessary the basis for its decision on Counts IV and V.\nPlaintiffs’ Motion for Summary Judgment is denied. Defendant, Collier County’s, Motion for Summary Judgment is hereby granted as to all Counts in the Complaint.\nConstitutionality of the Enabling Act\nCount I of Plaintiffs’ Complaint contends that Section 4 of the special act is unconstitutional in that it conflicts with the provisions of Art. VIII, § 4, of the Fla. Const.\nThe court finds that Plaintiffs’ contention that Section 4(4) of Chapter 74-462, Laws of Florida, (hereinafter sometimes referred to as the “special act”) violates the Constitution of the State of Florida presents no question of material fact, but rather presents exclusively a question of law. In reviewing the statute, it is the court’s function to find ways within terms of the statute to carry out the purpose manifested by the Legislature and not to search out ways to strike an act down or defeat its purpose. Overman v State Board of Control, 62 So.2d 696 (Fla. 1952). Courts have a duty to, if reasonably possible, resolve doubts concerning the validity of a statute in favor of its constitutionality and to ascertain the legislative intention of the statute and effectuate it. State v Aiuppa, 298 So.2d 391 (Fla. 1974). Every reasonable doubt should be resolved in favor of the constitutionality of a legislative act, since the presumption of constitutionality continues until the contrary is proven beyond all reasonable doubt. Felts v State, 537 So.2d 995 (Fla. 1st DCA 1988).\nArticle VIII, § 4 of the Constitution of the State of Florida reads as follows:\nSECTION 4. Transfer of powers. — By law or by resolution of the governing bodies of each of the governments affected, any function or power of a county, municipality or special district may be transferred to or contracted to be performed by another county, municipality or special district after approval by vote of the electors of the transferor and approval by vote of the electors of the transferee, or as otherwise approved by law.\nSection 4 of Chapter 74-462, Laws of Florida, reads as follows:\nSection 4. Succession. — It is the intent of the Legislature that at such time as (1) the utility improvement or development facilities works or systems authorized by the act have been constructed and established as being functional and productive, and (2) the county or any county-wide district and the guarantor of any bonded indebtedness incurred pursuant to the provisions of this act, effect a mutual agreement, and (3) in any and all events, the legal and equitable rights, powers, and interests of each and every bondholder and any and all bond financing procedures authorized specifically by this act have been maintained inviolate and shall remain inviolate so long as they exist in law or in equity and pursuant to terms and provisions of those certain bond sale agreements applicable thereto, and (4) the county commission of Collier County, in its sole discretion, and pursuant to applicable legal authority decides to either (a) declare that the district to be merged into a regional or county-wide district, upon the affirmative consent of the majority of the electors of the said regional or county-wide district, or in the alternative, or (b) to declare itself as the county commission to succeed to the powers, rights, duties, functions, and obligations of the district, the board of supervisors shall abide with such declaration by the county.\nIt is the Plaintiffs’ contention that under the Florida Constitution, a transfer of any function or power from Pelican Bay Improvement District to Collier County must be accomplished as prescribed in Article VIII, § 4 of the Florida Constitution or by a separate legislative act addressing this specific transfer of powers. Plaintiffs’ Complaint, Paragraph 17. The court finds, as a matter of law, that Section 4 of the special act does represent a separate legislative act addressing the specific transfer of power here at issue, and that the relevant provisions of the special act are entirely consistent and in harmony with Article VIII, § 4 of Florida’s Constitution.\nInitially, Plaintiffs have cited to the court the case of Sarasota County v Town of Longboat Key, 355 So.2d 1197 (Fla. 1978). However, the court finds that the Sarasota County case is not consistent with the issues in this case, in that it dealt with an attempt at consolidation of a municipality into a County without the approval of voters of the respective government entities, and that the opinion concerned itself primarily with deciding the constitutionality issue of Art. VIII, § 3, and only peripherally touched on § 4 of Art. VIII. The Plaintiffs have also cited to the court the case of Fire Control Tax District No. 7 v Palm Beach County, 423 So.2d 539 (Fla. 4th DCA 1982). However, the court notes that Chapter 63-1747, the special act at issue in the Palm Beach County case, does not contain an analogous provision to Section 4 of the special act in the case at bar. Unlike the special act in Palm Beach County, Section 4 of the special act in the case at bar specifically provides that the County Commission has the authority to declare itself to succeed to the powers, rights, duties, functions and obligations of the Pelican Bay Improvement District and that the Board of Supervisors shall abide with such declaration by Collier County. This specific language in the special act creating the Pelican Bay Improvement District is entirely consistent with the requirements of Art. VIII, § 4 in that Section 4 of the special act represents that Chapter’s own special enactment addressing this transfer, consistent with the constitutional provisions which the Plaintiffs have cited.\nAdditionally, subsequent decisions of the Supreme Court have distinguished and in fact have clarified the holding of Sarasota County. City of New Smyrna Beach v Volusia County, 518 So.2d 1379, 1382 (Fla. 5th DCA 1988). In 1985 our Supreme Court attempted to “glean the intent of the framers and strike the balance necessary to give (Art. VIII, § 4) the effect intended”, and went on to hold:\nSection 4, on the other hand, was intended to provide for a more convenient procedure whereby local governments could transfer functions and powers without the cumbersome procedure of seeking a special law or constitutional amendment. Thus, on the one hand, the constitution has a provision intended to expand the power of charter counties, while on the other hand it includes a provision to expand the shared power of governmental units to transfer powers and functions. Both are intended to reduce the need for special laws and constitutional amendments. Broward County v City of Ft. Lauderdale, 480 So.2d 631, 634 (Fla. 1985).\nThe court finds the reference in the New Smyrna Beach case, that Article VIII, § 4, establishes alternative procedures for a transfer of powers such as that here at issue, to be both applicable to the case at bar and a binding construction of that provision.\nArticle VIII, § 4 of our Constitution uses the phrase “by law” twice. The first time the words “by law” are used represents alternative procedure for the initiation of a transfer of powers, i.e., either (a) by law or (b) by resolution of the governing boards of each of the units of government affected. The second time the words “by law” are used these words refer to the approval required for a transfer of powers, i.e., either (a) by a vote of the electors or (b) as otherwise provided by law.\nA plain reading of Art. VIII, § 4 reflects that the transfer of governmental powers such as that here at issue requires distinctive procedures for the initiation of transfer. In the case at bar, the initiation is by law, i.e., the specific provisions of Section 4, Chapter 74-462 relating to the prerequisites to succession.\nOnce the initiation of the transfer of powers has been complied with, the alternative procedures for approval provided by Art. VIII, § 4 of the Constitution come into play. In the case at bar, the procedure for approval being employed is that “otherwise provided by law” and is represented by the County Commission of Collier County, in its sole discretion, electing to declare itself, as the County Commission, to succeed to the powers, rights, duties, functions and obligations of the Pelican Bay Improvement District pursuant to the explicit and specific directives contained within Section 4(4)(b) of the special legislative act which created the Pelican Bay Improvement District.\nPlaintiffs’ construction of the constitutional provision here at issue would render the closing phrase of that provision, “or as otherwise provided by law,” meaningless, contrary to the fundamental rule that a construction of the Constitution which renders superfluous, meaningless or inoperative any of its provisions should not be adopted by the courts. Broward County v City of Fort Lauderdale, 480 So.2d 631, 633 (Fla. 1985). The methodology for a transfer of powers which requires a resolution of the governing bodies of each of the governments affected, and ultimately a vote of the electors of the transferor and of the transferee, represents an alternate, not a superseding, method for such a transfer. The transfer provisions of Section 4 of the special act here at issue represent methods established “by law” for such a transfer, and are in harmony with Article VIII, § 4 of the Florida Constitution and the cases interpreting that constitutional provision.\nConñict of the Enabling Act with the Provisions of Fla. Stat. Section 189.4042(1) (1989)\nCount II of Plaintiffs’ Complaint contends that the so-called “merger procedures” of Section 189.4042, Fla. Stat. (1989) conflict with, and supersede the provisions of the special act which authorize Collier County to succeed to the powers, rights, duties, functions and obligations of the Pelican Bay Improvement District.\nInitially, it is appropriate to review the nature of a special act under Florida law and its relationship to general law. It is the established law of our state that “when a special act. . . and a general law conflict, the special act will prevail.” Rowe v Pinellas Sports Authority, 461 So.2d 72, 77 (Fla. 1984).\nThe court finds that Count II of the Plaintiffs’ Complaint may be resolved as a matter of law, and that no issues of material fact are relevant to that disposition.\nIt may be determined by a reading of the language of Chapter 189, Fla. Stat., that it was intended by the Legislature to have somewhat limited scope. Section 189.4031, Fla. Stat., states explicitly in relevant part that “all special districts, regardless of the existence of other, more specific provisions of applicable law, shall comply with the creation, dissolution and reporting requirements set forth in (Chapter 189).\" (emphasis added). The court notes that Chapter 189 specifically contemplates that it is in the public interest that special districts, such as the subject special district, not outlive their usefulness. Section 189.402(3)(b), Fla. Stat. The succession provisions of the special act here at issue are entirely in harmony with this legislative directive, in that the same instrument which created the Pelican Bay Improvement District contains provisions, in Section 4 thereof, which contemplates that the District, as a separate entity, not outlive its usefulness.\nThe court finds that nowhere in Chapter 189 is there any inference that the merger procedures therein supersede the succession option available to County under the specific terms of the special act here at issue. If the Legislature had intended Chapter 189 to apply (regardless of the existence of other, more specific provisions of applicable law, such as is represented by the special act here at issue) to every other facet of the operation of special districts, it would have said so without ambiguity and would not have included the clear and unambiguous limitation emphasized above within Section 189.4031, Fla. Stat.\nAdditionally, the Legislature’s affirmative choice of the wording of Section 189.4042(1) (the subsection on which Plaintiffs rely) is entirely consistent with the limited scope of the statute as established in Section 189.4031, Fla. Stat. In Section 189.4042(1), the Legislature expressly provided that the merger of one or more municipalities or counties with special districts, or the merger of two or more special districts, may be adopted by passage of a concurrent ordinance or, in the case of special districts, resolutions by the governing bodies of each unit to be affected. The intentional employment by the Legislature of the word “may”, rather than the mandatory “shall”, is reflective of the alternative or discretionary nature of that particular provision.\nThe court finds that the Legislature specifically, affirmatively, and knowledgeably drafted Chapter 189, Fla. Stat., so that it would not render each and every provision of applicable law with regard to special districts null and void. On the contrary, a reading of the applicable provisions of Chapter 189, Fla. Stat., as referenced above, reveals that the Legislature carefully left provisions such as Section 4 of the special act here at issue intact and unaffected by the parameters of the statute. It is the “general rule of statutory construction that a more specific statute covering a particular subject is controlling over one covering the same subject in general terms.” State v Billie, 497 So.2d 889 (Fla. 2d DCA 1986). Given the fact that it is clear that Chapter 189 was never intended to nullify all other existing law regarding special districts, Section 4 of the special act is the controlling provision for the purposes of succession.\nInterpretation of Section 4 of the Enabling Act — Succession\nCount III contends that the County has failed to comply with the legislative prerequisite set forth in Subsections 4(1), (2), and (3) of the special act.\nIt is axiomatic that the law favors a rational and sensible construction of statutes. City of Boca Raton v Gidman, 440 So.2d 1277 (Fla. 1983). In the interpretation of a statute, the first step is to determine whether there is a clear manifestation of legislative intent. Pfeiffer v City of Tampa, 470 So.2d 10 (Fla. 2d DCA 1985). In construing a statutory requirement, the courts must attribute to a statute a rational and sensible meaning. Nationwide Property and Casualty Insurance Co. v Marchesano, 482 So.2d 422 (Fla. 2d DCA 1986). The court finds that it is essential to keep these axioms in mind when reviewing the special act in question and when making any determination as to whether Collier County has properly effectuated its intent to succeed pursuant to Section 4 of that act. The court believes that Section 4 does contain a clear manifestation of legislative intent, that being that Collier County could, inter alia, succeed, in its sole discretion, to the powers, rights, duties, functions and obligations of the District upon the satisfaction of certain prerequisites. It is the judgment of this court that the Legislature did not establish those prerequisites to act as an impediment to the option of succession which the Legislature itself envisioned and established. Rather, the court finds that the prerequisites were merely intended to provide some assurances that the County would not go forward with the contemplated succession until the systems constructed by Pelican Bay were established as being functional and productive and until the County had manifested its intent to protect the pertinent bondholders and the bond financing procedures authorized specifically by the special act. The court finds as a matter of law and fact that the legislative prerequisites set forth in Subsections 4(1), (2), and (3) of the special act have been satisfied by Collier County.\nAs to the first prerequisite of the special act, that the utility improvement or development facilities be constructed and established as being functional and productive, the County has presented evidence and sworn testimony in this case which allows the court to find as a matter of fact and law that the systems constructed and in use are functional, productive, and viable as contemplated in Section 4 of the special act as well as the recitals leading up to the enactment, which contemplate that it is the intent of the legislature that the District be merged with the applicable general purpose government, at the option of the County Commission, at such time as the system is “established, viable, and functional.” The court finds as a matter of undisputed material fact that the District’s operating systems are substantial, viable, functional and productive. The court holds that the Plaintiffs’ assertion that the succession may not take place until such facilities are 100% constructed neither represents a rational interpretation of this requirement nor a practical application of the Legislature’s intent when it established this prerequisite. In addition, Plaintiffs agree that there exists no dispute as to any material facts with regard to this requirement; they only dispute the interpretation of this requirement as a matter of law. Given a rational interpretation of this requirement, any evidence that the system is “not completely constructed” does not raise an issue of material fact. Dept. of Environ. Reg. v CP Developers, 512 So.2d 258 (Fla. 1st DCA 1987).\nAs to the second prerequisite of the special act, that the County and any guarantor of any bonded indebtedness incurred pursuant to the special act enter into a “mutual agreement”, the court takes particular note that the special act affirmatively and at least inferentially, intentionally does not specify the objective nor the content of such a mutual agreement. Again, it is the determination of this court that the Legislature did not enact the prerequisites to succession in order to serve as a near-insurmountable obstacle to the County’s succession as specifically contemplated by the act. In their Complaint, the Plaintiffs have misstated the requirements of the special act with regard to the mutual agreement. That provision specifically states that “the County or any county-wide district and the guarantor of any bonded indebtedness incurred pursuant to the provisions of this act, effect a mutual agreement.” The special act does not require, nor does it purport to require, that Collier County must consent to or assume the obligations of the District. The court finds that the County has executed such a mutual agreement with the guarantor, and the same is attached as Exhibit “E” to Plaintiffs’ Complaint. The court would note that the act does not contemplate any specific form nor content for such Agreement, and it is therefore the court’s judgment that there is no basis for a finding that the Mutual Agreement must take only a specific form. Stated otherwise, the court finds that this prerequisite could be equally satisfied by a plurality of forms of “Mutual Agreements.” Construing the Mutual Agreement within the context of the general operation of Section 4 of the special act as a whole, the court finds that it is a reasonable minimum satisfaction of that prerequisite.\nThe final prerequisite to succession as set forth in the special act is the general requirement that “in any and all events, the legal and equitable rights, powers, and interest of each and every bondholder and any and all bond financing procedures authorized specifically by this act have been maintained inviolate and shall remain inviolate so long as they exist in law or equity . . .” The court finds that this subsection of the special act is intended to protect the pre-existing rights of any and all PBID bondholders who have engaged in a business transaction with the District with, at a minimum, constructive notice that Collier County had certain rights of succession and merger under Section 4 of the special act. The court notes that Collier County’s succession under the special act is in no way either an unforeseeable act nor does it represent, in and of itself, an action which inherently violates Section 4(3) of the special act. The court believes that the Legislature never contemplated nor intended that the act of succession in and of itself would be, or should be, interpreted as somehow violative of the equal rights, powers, and interests of the bondholders, since the County’s power to succeed was a fundamental aspect of the Legislature’s creation of the Pelican Bay Improvement District in the first place.\nThe County has adopted a resolution (Resolution No. 90-335) which recites, verbatim, the requirements of Section 4(3) of the special act. The stated unconditional intent of the County to maintain inviolate the equitable rights, powers, and interests of each and every bondholder for so long as they exist in law or equity is a legally sufficient fulfillment of the prerequisites here at issue. The Plaintiffs’ allegation in the Complaint that Collier County must effectuate some sort of an agreement with the bondholders or their trustee is not based upon any express or implied language anywhere in the subject special act. While the Plaintiffs, in their zeal to prevent the County’s succession, tend to construe these prerequisites as nearly insurmountable “road-blocks” to the same, this court has determined that the Legislature never intended the prerequisites of Section 4 to represent obstacles to the County in its attempt to effectuate the very right of succession which the Legislature granted to it.\nThe County has presented sufficient evidence of undisputed material fact for the court to determine that the fact of succession will not detrimentally affect the legal and equitable rights, powers and interests of any bondholder or the bond financing procedures authorized specifically by this act.\nThe court finds as a matter of law and fact that there is no genuine issue as to any material fact regarding either the County’s interpretation or compliance with Section 4 of the special act. The County is entitled to judgment on Count III as a matter of law.\nBreach of Contract\nCount IV of Plaintiffs’ Complaint contends that at a County Commission meeting of November 7, 1989, the County and Pelican Bay Improvement District entered into an oral contract on the issue of succession.\nThe court finds that as a matter of law and uncontroverted material fact that no such contract was either contemplated nor effectuated. The Plaintiffs’ own allegations state that the “agreement” in question was made “on the record at the Commission meeting of November 7, 1989.” Plaintiffs’ Complaint at Paragraph 43. The Plaintiffs also state that “a certified copy of the pertinent portions of the Minutes of the November 7, 1989 meeting of the Board of County Commissioners, Collier County, Florida setting out this agreement is attached hereto as Exhibit “F” and incorporated herein by virtue of this reference.” Plaintiffs’ Complaint at Paragraph 43. The court finds that, as a matter of fact and law, Exhibit “F” to Plaintiffs’ Complaint reveals, on its face, that no contract was entered into between the District and the County as alleged by the Plaintiffs. The attached Minutes, which the Plaintiffs’ own allegations should contain evidence of the “agreement” at issue, reveals that the County Commission never received a motion, a second to that motion, or a vote on that motion, nor took any official action on the issue executing a contract with the Pelican Bay Improvement District, on any subject, in any way, shape, or form. In fact, the Minutes reveal explicitly the matter was continued to a subsequent County Commission meeting. Additionally, the County has presented uncontroverted evidence that a thorough review of its pertinent record reveals that the alleged “contract” here at issue is not reflected nor referenced anywhere therein.\nEven if the court was able to find that a genuine issue of material fact exists as to whether or not the District and the County entered into such a contract, the court finds as a matter of law that the County cannot contract away its right of succession, as granted by the special act, under the circumstances alleged by the Plaintiffs.\nOur Supreme Court declared, in the case of Miami Bridge Company v Railroad Commission, 20 So.2d 356 (Fla. 1944), that,\nThe governmental powers cannot be contracted away, nor can the exercise of rights granted, nor the use of the property, be withdrawn from the implied liability of the governmental regulations. The right to exercise the police power is a continuing one.\nIn the case of City of Safety Harbor v City of Clearwater, 330 So.2d 840 (Fla. 2d DCA 1976), the court noted, at 841, that,\n(T)he Legislature granted this power of annexation to Clearwater ... As in the case of other governmental authorities vested in a municipality, this power cannot be contracted away. See City of Clearwater v Bonsey, 180 So.2d 200 (Fla. 2d DCA 1965); Pinellas County v City of Pinellas Park, 330 So.2d 106 (Fla. 2d DCA 1976).\nThe Pinellas County case cited above was reviewing a special act as it related to a contract. The court, citing City of Clearwater, supra, and City of Safety Harbor v Pinellas County, 218 So.2d 528 (Fla. 2d DCA 1969). noted, at 108, that a duty imposed by a special act could not be inflexibly limited or frustrated by a contract, and if so the special act itself would control even if it conflicted with the provisions of the contract.\nThe court finds that as a matter of law the special act in the case at bar confers police powers on Collier County. The phrase “police power” is an encompassing phrase which includes, but is not limited to, the authority conferred upon local governments by which they are able to adopt such laws and regulations as tend to secure generally the comfort, safety, morals, health and prosperity of their citizens, and as are necessary in the exercise of the sovereign right of a government to promote order, safety, health, morals and general welfare.\nThe court finds as a matter of law that even if the court could find the existence of disputed issues of material fact regarding the alleged oral contract here at issue, the contract is null under the established principle of Florida law that neither the governmental powers nor the exercise of the rights granted to governmental units may be contracted away, in that the right to exercise the police power is a continuing one. Miami Bridge Company, at 361.\nAdditionally, and as a final basis for the court’s decision on this Count, Section 125.01, Fla. Stat., bestows upon counties some 27 specific categories of powers and duties limited only expressly by the fact that each power and duty must not be exercised inconsistent with general or special law. The County could not, as a matter of law, enter into a contract which purports to deprive the County of its statutory powers and duties, in that the same would be on its face inconsistent with the statute in question.\nInjunction\nCount V of Plaintiffs’ Complaint requests permanent injunctive relief in favor of the Plaintiffs against Collier County, to restrain the Collier County Commission’s exercise of its authority pursuant to specific provisions in the special act, cannot survive, as a matter of law and fact, if Counts I through IV of Plaintiffs’ Complaint are adjudicated in the County’s favor. Accordingly, Collier County is entitled to judgment in its favor as to Count V.\nDONE and ORDERED at Collier County, Florida, this 16th day of October, 1990.",
+                                          "type":  "majority",
+                                          "author":  "WILLIAM L. BLACKWELL, Circuit Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "PELICAN BAY IMPROVEMENT DISTRICT, etc. v COLLIER COUNTY, etc.\nCase No. 90-1859-CA-01-WLB\nTwentieth Judicial Circuit, Collier County\nOctober 16, 1990"
+                 },
+    "file_name":  "1370-01",
+    "first_page_order":  94,
+    "last_page_order":  105
+}

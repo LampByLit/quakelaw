@@ -1,0 +1,390 @@
+﻿{
+    "id":  2020884,
+    "name":  "YAMBOR v. HILLSBOROUGH COUNTY, etc.",
+    "name_abbreviation":  "Yambor v. Hillsborough County",
+    "decision_date":  "1991-06-13",
+    "docket_number":  "Case No. 90-08231",
+    "first_page":  "161",
+    "last_page":  "170",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 161"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "410 So. 2d 648",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9547642
+                                      ],
+                         "year":  1982,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/410/0648-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "511 So. 2d 989",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7568419
+                                      ],
+                         "year":  1987,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/511/0989-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "132 So. 2d 29",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9854529
+                                      ],
+                         "weight":  2,
+                         "year":  1961,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "31"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/132/0029-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "238 So. 2d 516",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9756417
+                                      ],
+                         "year":  1970,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/238/0516-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "135 So. 2d 245",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9870854
+                                      ],
+                         "year":  1961,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/135/0245-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "124 So. 2d 1",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9849683
+                                      ],
+                         "year":  1960,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/124/0001-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "305 So. 2d 791",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9634424,
+                                          9634472
+                                      ],
+                         "year":  1975,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/305/0791-01",
+                                            "/so2d/305/0791-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "285 So. 2d 386",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9742347
+                                      ],
+                         "year":  1973,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/285/0386-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "49 So. 2d 596",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "year":  1950,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "560 So. 2d 1358",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7538732
+                                      ],
+                         "year":  1990,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "1360"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/560/1358-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "299 So. 2d 657",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9632278
+                                      ],
+                         "weight":  3,
+                         "year":  1974,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "659"
+                                           },
+                                           {
+                                               "page":  "660"
+                                           },
+                                           {
+                                               "page":  "660"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/299/0657-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "111 So. 391",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So.",
+                         "year":  1927,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "9 So. 2d 284",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          1970805
+                                      ],
+                         "weight":  2,
+                         "year":  1942,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "291"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/fla/151/0109-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "450 So. 2d 1207",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7645952
+                                      ],
+                         "weight":  2,
+                         "year":  1984,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "1211"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/450/1207-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "476 So. 2d 1359",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7626842
+                                      ],
+                         "weight":  2,
+                         "year":  1985,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "1362"
+                                           },
+                                           {
+                                               "page":  "1362"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/476/1359-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "364 So. 2d 31",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9555433
+                                      ],
+                         "weight":  3,
+                         "year":  1978,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/364/0031-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "466 So. 2d 357",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7609387
+                                      ],
+                         "weight":  9,
+                         "year":  1985,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "364"
+                                           },
+                                           {
+                                               "page":  "364-5"
+                                           },
+                                           {
+                                               "page":  "364"
+                                           },
+                                           {
+                                               "page":  "366"
+                                           },
+                                           {
+                                               "page":  "367"
+                                           },
+                                           {
+                                               "page":  "367"
+                                           },
+                                           {
+                                               "page":  "366"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/466/0357-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "495 So. 2d 167",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7578171,
+                                          7578237
+                                      ],
+                         "year":  1986,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/495/0167-01",
+                                            "/so2d/495/0167-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "315 So. 2d 478",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9654426
+                                      ],
+                         "weight":  3,
+                         "year":  1975,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "479"
+                                           },
+                                           {
+                                               "page":  "480"
+                                           },
+                                           {
+                                               "page":  "480"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/315/0478-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  783,
+                     "char_count":  21448,
+                     "ocr_confidence":  0.907,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07304808118156696
+                                  },
+                     "sha256":  "3cebe724e5b5bae8afa75cefae7d7811905e8c0a11fee158fdb84c91a4a2192e",
+                     "simhash":  "1:7b7fe5c6b0b793cc",
+                     "word_count":  3500
+                 },
+    "last_updated":  "2024-02-27T22:50:07.903550+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "YAMBOR v HILLSBOROUGH COUNTY, etc."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nGUY W. SPICOLA, Circuit Judge.\nORDER GRANTING PETITIONERS’ REQUEST TO ISSUE WRIT OF CERTIORARI, QUASH THE BOARD OF COUNTY COMMISSIONERS’ DECISION, AND REMAND TO THE BOARD OF COUNTY COMMISSIONERS FOR PROCEEDINGS CONSISTENT WITH THIS ORDER\nTHIS MATTER came before the court on Petitioners ARTHUR and PAULA YAMBOR’S (“YAMBORS”) Petition for Writ of Certiorari. The court has reviewed its files and the memoranda of counsel, has conducted its own research, and is otherwise fully advised in the premises.\nFACTS OF THE CASE\nPetitioners, YAMBORS, are the owners of property located in Hillsborough County and comprising approximately 2.1 acres, fronting on both State Road 60 (Brandon Boulevard) and Limona Road. The YAMBORS filed a petition for an Alcohol Beverage (“AB”) Special Use Permit (2-COP-RX) in order to sell wine and beer for on premises consumption only on a restaurant they proposed to build on the subject property.\nThe original AB special use permit petition was for a building of approximately 7656 square feet, to house a Hooters restaurant. However, the YAMBORS terminated their contract with Hooters and pursued the alcohol beverage petition on their own. The YAMBORS also changed the area of the proposed site to 4200 square feet. Since part of the proposed site is zoned neighborhood commercial (C-l) and part is zoned single family residential (R-l), the YAMBORS also filed a petition to rezone the property to planned development mixed use (PD-MU).\nThe AB special use permit requires that the proposed site be at least 150 feet away from residentially zoned property. Since the YAMBORS’ property was only 80 feet away from residentially zoned property, they requested a waiver of the distance requirement.\nThe Hillsborough County Planning and Zoning Department Staff (“Staff”) reviewed the YAMBORS’ applications for rezoning and special use permit and prepared a report on January 24, 1990. The Staff concluded that a six-foot masonry wall, a twenty-foot wide landscaped buffer, and a parking lot with retention area, justified approval of the waiver of the distance requirement, and of the Special Use Permit. The Staff conditioned its recommendation for approval on the Board of County Commissioners’ (“Board”) approval of the rezoning request. The Staff also recommended approval of the rezoning request.\nThe Zoning Hearing Master (“ZHM”) also reviewed the YAMBORS’ applications and held a hearing on February 5, 1990. The ZHM specifically found that the proposed landscaped area and buffering, along with the adjacent lakeside, provide a sufficient barrier from the residential area to justify the waiver. The ZHM also found that the zoning request would be compatible with the current zoning land uses in the area and would not adversely affect the general area, its transportation network, or its environmental situation.\nThe ZHM further found that on the basis of those facts, there are special or unique circumstances indicating that the AB special use would not have a significant negative impact on the surrounding land uses and that the mentioned circumstances negate the need for the distance requirements. Based on those findings, the ZHM also recommended approval of the rezoning, the waiver and the AB Special Use Permit.\nOn March 13, 1990, the Board conducted a land use meeting and considered the YAMBORS’ applications. The Board heard Ms. Paula Harvey, representing the Staff, recommend approval of the YAMBORS’ applications, subject to the conditions the Staff listed in its report. Ms. Harvey stated that the Planning Commission and the ZHM concur in the recommendation for approval.\nAfter deciding to allow oral arguments on the floor, the Board heard from the YAMBORS’ attorney, Mr. McLaughlin. Mr. McLaughlin explained the YAMBORS’ proposed restaurant plans to the Board. Next, the Board heard from Mr. Winkler, a resident in the neighborhood where the proposed restaurant would be located. Mr. Winkler voiced his opposition to the applications for a waiver and for the AB Special Use Permit.\nThe Board also heard opposition from Mr. Jordan, whose house is located 80 feet from the proposed restaurant site. Next, Commissioner Busansky told Mr. McLaughlin that she had heard the restaurant would be called Blue Bloomers, and questioned the YAMBORS’ contention that they would build a family restaurant. In response, ARTHUR YAMBOR told the Board that the YAMBORS planned to build an upscale restaurant. Mr. YAMBOR stated that he was negotiating with O’Charlies’ Restaurant, and that the proposed restaurant would not be a Hooters.\nThe Board next heard Ms. Mary Simmons’ objections to the applications. Ms. Simmons told the Board that she resides near the proposed site and opposes the rezoning and AB Special Use Permit requests. Mr. McLaughlin then rebutted the opposing comments, telling the Board that the buffering and the lake adjacent to the proposed site are the unique and special circumstances justifying the waiver. Mr. McLaughlin also stated that there were similar AB special use permits granted to restaurants to the east and west of the proposed site along S.R. 60. Mr. McLaughlin also reiterated that the proposed restaurant would not be a Hooters-type restaurant. Finally, Mr. McLaughlin explained the proposed parking plan and the YAMBORS’ concessions made to the county.\nAfter hearing Mr. McLaughlin, Commissioner Platt moved to deny the waiver “in light of the fact that the petitioner has not demonstrated that there are special or unique circumstances where the alcoholic beverage use applied for will not have significant negative impacts on the surrounding land uses.” The motion carried by a vote of seven to zero. Commissioner Platt then moved to deny the AB special use permit in light of the denial of the waiver. This motion also carried by a vote of seven to zero.\nThe YAMBORS filed a petition for Writ of Certiorari, contending that the Board acted arbitrarily and unreasonably in denying the YAMBORS’ applications for a waiver and AB special use permit.\nISSUES OF THE CASE AND DISCUSSION\nI. WHETHER THE BOARD OF COUNTY COMMISSIONERS ACTED ARBITRARILY AND UNREASONABLY IN DENYING PETITIONERS’ APPLICATIONS FOR A WAIVER AND SPECIAL USE PERMIT?\nSection 16.1 of the Hillsborough County Zoning Code states that AB special use permits may be granted in certain commercial and industrial districts. Section 16.6(a)(2)B. of the Zoning Code requires the special use structure to be located at least 150 feet away from any residentially zoned property. However, Section 16.6(b) provides the Board with the option to waive the distance requirement if:\n[tjhere are special or unique circumstances where the alcoholic beverage use applied for does not have significant negative impacts on surrounding land uses and certain circumstances negate the necessity for the specified distance requirements. Since the YAMBORS’ property is located 80 feet from a residentially zoned property, a waiver of the distance requirement was necessary to obtain the AB special use permit.\nA. Burden of Proof\nThere is a distinction between seeking a rezoning and seeking a special use exception, involving different considerations on review. In rezoning, the burden is on the applicant to prove that the zoning authority acted arbitrarily or unreasonably in denying the petition. Rural New Town, Inc. v Palm Beach County, 315 So. 2d 478, 479 (Fla. 4th DCA 1975). In the case of a special use exception or permit, once the applicant has complied with the requirements of the zoning code, the burden is upon the zoning authority to prove by competent substantial evidence that the special use exception is adverse to the public interest. Id. at 480; Irvine v Duval County Planning Commission 495 So. 2d 167 (Fla. 1986) approving Zehmer, J., dissenting, 466 So. 2d 357 (Fla. 1st DCA 1985).\nSince the proposed restaurant was located 80 feet from a residential property, the YAMBORS did not comply with the requirements of the zoning code, and required a waiver of the distance requirement. The question thus becomes, which party bears the burden of proof in the review of a waiver application?\nThe YAMBORS, through counsel, contend that Dade County v Florida Mining and Materials Corp., 364 So. 2d 31 (Fla. 3d DCA 1978) equates the burden of proof in special use exception cases with the burden in waiver cases. However, Florida Mining does not deal with an application for a waiver of zoning code requirements. Rather, it addresses the issue of the denial of an application for an unusual use or variance. Id. Nowhere in its opinion, does the Florida Mining court even mention the burden of proof standard in waiver cases. Id.\nThere is no case law on point on the question of the burden of proof in waiver cases. However, a logical reading of the Rural New Town and Irvine decisions indicates that the burden of proof in waiver cases should be on the applicant. Those decisions state that the burden of proof in special use exception cases is on the zoning authority, once the applicant has complied with the zoning code requirements. Rural New Town, 315 So. 2d at 480; Irvine, 466 So. 2d at 364. The inference is that if the applicant does not comply with the zoning code requirements, as in the instant case, then the burden is not on the zoning authority.\nA special exception is a permitted use to which the applicant is entitled because it is legislatively sanctioned by the zoning code. Id. at 364-5. A use which does not comply with the requirements of the zoning code bears no legislative sanction and is not presumed to be a permitted use. Therefore, some statutory provision must expressly waive the zoning code requirements in order to permit the special use.\nSection 16.6(b) of the Zoning Code gives the Board “. . . the option, if certain criteria are found to be met, to grant a waiver of the distance requirements . . .” The language in this section indicates that the Board has discretion in deciding whether to grant a waiver and that the applicant bears the burden of proving that the waiver criteria are met. Even if the language in this section does not clearly place the burden on the applicant, if the burden of proof is “. . . not set by statutory provision, [the burden] is upon the party asserting the affirmative of an issue before an administrative tribunal.” Irvine, 466 So. 2d at 364.\nThus, an applicant whose waiver request was denied has a similar burden of proof as an applicant for rezoning. That is, the applicant must prove that the zoning authority abused its discretion by arbitrarily and unreasonably denying the request. Sarasota County v Purser, 476 So. 2d 1359, 1362 (Fla. 2d DCA 1985); Marell v Hardy, 450 So. 2d 1207, 1211 (Fla. 4th DCA 1984). A zoning authority decision is arbitrary and unreasonable if it is not “fairly debatable”. Id.\nSince the YAMBORS’ proposed use does not meet the zoning code’s distance requirements for a special use exception, the YAMBORS bore the burden of proving that the proposed restaurant meets the waiver requirements. The YAMBORS had to show that special or unique circumstances indicate that the AB special use would not have significant negative impacts on surrounding land uses and that certain circumstances negate the need for the specified distance requirements. See Hillsborough County Zoning Code Section 16.6(b).\nOn this certiorari review, the YAMBORS have the burden of showing that the Board’s decision, denying the waiver application, was unreasonable and arbitrary, and therefore, not fairly debatable. See Purser, 476 So. 2d at 1362.\nB. The Board’s Findings\nThe YAMBORS introduced substantial and competent evidence in support of their contention that the proposed special use complies with the waiver criteria. The record reflects that the Planning Commission and the Planning and Zoning Staff (“Staff”) both recommended approval of the waiver and special use permit. The ZHM also recommended approval. Mr. YAMBOR individually, and through his attorney, Mr. McLaughlin, assured the Board that the proposed restaurant would not be a Hooters type facility, but it would be an upscale family restaurant.\nMr. McLaughlin reported the Staff’s finding that the adjacent lake, and extensive buffer between the proposed restaurant and the nearby residences are special circumstances insuring that there will be no significant negative impact on surrounding land uses. In addition, Mr. McLaughlin pointed out that the reduction in size of the proposed structure from 6800 to 4200 square feet along with the provision for additional parking are also special circumstances preventing a significant negative impact on nearby residences.\nThe Board also heard the Staff and ZHM findings that the proposed use is consistent with typical uses on commercial designations of the Future of Hillsborough County Plan. In fact, Mr. McLaughlin indicated that a Pizza Hut restaurant to the east and a Steak \u0026 Shake restaurant to the west of the proposed site (on S.R. 60) had been granted similar AB special use permits. Citing the Staff and ZHM findings that the proposed use complies with the waiver requirements, the YAMBORS met their burden of proving that the waiver should be granted.\nOnce the YAMBORS met their burden of proof, the Board could only justify its denial of the waiver with specific findings, based on substantial competent evidence, contrary to what the YAMBORS contended. See McRae v Robbins, 9 So. 2d 284 (Fla. 1942), and State ex rel. Burr v Seaboard Air Line Ry. Co., 111 So. 391 (Fla. 1927). Regardless of which party bears the burden of proof, an agency must make specific findings of fact in order for its administrative orders to have legal effect. Irvine, 466 So. 2d at 366.\nDuring its land use hearing, the Board failed to discuss the special circumstances that Mr. McLaughlin mentioned. The Board did not review the findings of the Staff and the ZHM during the hearing. The only evidence opposing the YAMBORS’ applications were the comments of neighbors who oppose the proposed use. However, the objections of a large number of residents of the affected neighborhood are not a sound basis for the denial of a special use permit. City of Apopka v Orange County, 299 So. 2d 657, 659 (Fla. 4th DCA 1974); Pollard v Palm Beach County, 560 So. 2d 1358, 1360 (Fla. 4th DCA 1990); Irvine, 466 So. 2d at 367. Laymen’s opinions, unsubstantiated by any competent facts are not sufficient evidence upon which a zoning body can base its decisions. City of Apopka, 299 So. 2d at 660.\nIn addition to the neighbors’ comments, Commissioner Busansky stated during the hearing that she had heard that the YAMBORS’ restaurant would be called Blue Bloomers, suggesting that it may be a Hooters type facility. However, that statement is not a specific finding of fact, but is only an unsubstantiated opinion. Administrative officers cannot act on their own information without providing the factual basis for the information and without providing the parties with an opportunity to test such assertions. Irvine, 466 So. 2d at 367. It is improper for an administrative commission to base its decisions or findings on such unsubstantiated assertions. Id.\nBesides the neighbors’ opinions and Commissioner Busansky’s comment, no evidence in opposition to the YAMBORS’ waiver request was introduced during the hearing. The Board made no findings of fact as to any of the relevant criteria outlined in the Zoning Code Section 16.6(b). Commissioner Platt moved to deny the waiver based on her conclusion that the YAMBORS failed to carry their burden of proving special circumstances preventing negative impacts on surrounding land uses.\nAdministrative orders made without a record of specific findings of fact in support, are without legal effect. McRae, 9 So. 2d at 291. It is not sufficient that the findings merely be, as in the case at bar, general conclusions in the language of the ordinance because such conclusions provide no way for the court to know on judicial review whether the conclusions have sufficient foundation in findings of fact. Irvine, 466 So. 2d at 366; City of Apopka, 299 So. 2d at 660.\nIn light of the substantial competent evidence the YAMBORS presented in support of their waiver and special use requests, and in light of the lack of any findings of fact on which to base a denial of those requests, the Board’s denial of the YAMBORS’ waiver and special use was not fairly debatable. A review of the record indicates that there is no competent substantial evidence to support the Board’s conclusion. The Board’s denial of the waiver and special use was therefore an unreasonable and arbitrary abuse of its discretion.\nII. WHETHER THE YAMBORS’ FAILURE TO REZONE AND REAPPLY FOR THE SPECIAL USE PERMIT 365 DAYS AFTER THE DENIAL OF THE FIRST REQUEST IS A FAILURE TO EXHAUST ADMINISTRATIVE REMEDIES REQUIRING DISMISSAL OF THEIR CASE\nRespondent, Hillsborough County (“COUNTY”), contends that the court does not have Certiorari jurisdiction because the YAMBORS failed to exhaust their administrative remedies. The COUNTY asserts that if the YAMBORS had continued to pursue their application for rezoning to PD-MU, they could reapply for an AB special permit 365 days after the denial of their first application.\nIt is well settled that a party must first exhaust the available administrative remedies before resorting to the courts. De Carlo v West Miami, 49 So. 2d 596 (Fla. 1950); Florida Welding \u0026 Erection Service, Inc. v American Mutual Ins. Co., 285 So. 2d 386 (Fla. 1973); Atlantic Gas Corp. v Rec Centers, 305 So. 2d 791 (Fla. 4th DCA 1975).\nHowever, there are limits to this doctrine. One limit is that a party will not be required to take vain and useless steps in the expenditure of the administrative remedy in order to perfect the right to seek judicial redress. Chatlos v Overstreet, 124 So. 2d 1 (Fla. 1960); Cook v Domenico, 135 So. 2d 245 (Fla. 3d DCA 1961); City of Miami Beach v Jonathon Corp., 238 So. 2d 516 (Fla. 3d DCA 1970).\nIn a case similar to the instant case, the First District Court of Appeal held that where the City Council had already acted contrary to the petitioner’s contention in the matter, an appeal to an administrative board would be unnecessary. City of Holly Hill v State ex rel. Gem Enterprises, Inc., 132 So. 2d 29 (Fla. 1st DCA 1961). The court reasoned that since the Appeal Board could only make a recommendation to the City Council and the Council had already ruled against the petitioner, an appeal to the Board would be as futile as an appeal to the Council itself. See Id. at 31.\nIn the instant case there is no Appeals Board. The COUNTY contends that the YAMBORS should reapply to the Board in one year. Like the City Council in City of Holly Hills, the Board in the case at bar had denied the YAMBORS’ petition. Reapplication to the same Board would likely be a futile exercise because the Board did not inform the YAMBORS of specific reasons for the denial of their application. Therefore, the Board gave the YAMBORS no hope of obtaining the waiver and AB special use permit if they reapplied a year later.\nIn addition to the Board’s reluctance to change to change [sic] its decision, the YAMBORS’ reapplication could be barred by administrative res judicata, making reapplication a useless step. Where a previous permit application has been denied, res judicata will apply to bar a second application if it is not supported by new facts or changed conditions. Thomson v Department of Environmental Regulation, 511 So. 2d 989 (Fla. 1987).\nEven if a county code provision requires the lapse of one year before reapplication, administrative res judicata could bar the second application if it is not supported by new facts or changed conditions. Coral Reef Nurseries, Inc. v Babcock Co., 410 So. 2d 648 (Fla 3d DCA 1982). The Board did not indicate that any new facts or changed conditions could influence the Board to grant the YAMBORS’ applications a year later. There is no indication in the record that the YAMBORS could do anything to cause the Board to reverse its decision. Therefore, the YAMBORS’ reapplication a year later would likely be barred by administrative res judicata.\nSince the YAMBORS’ reapplication for the waiver and permit would be a vain and useless administrative step, the YAMBORS need not exhaust that administrative remedy before resorting to this court.\nCONCLUSION\nBased on the foregoing, the court finds that the Hillsborough County Board of County Commissioners arbitrarily and unreasonably denied the Petitioners’ applications for a waiver and special use permit, having failed to base its decision on specific findings of substantial competent facts.\nIt is therefore ORDERED AND ADJUDGED that Petitioners’ request for Writ of Certiorari and an Order quashing the Hillsborough County Board of County Commissioners’ denial of the Petitioners’ application for an Alcoholic Beverage Special Use Permit (and related waiver of distance requirements) is GRANTED, and that this matter is remanded to the Hillsborough County Board of County Commissioners for proceedings consistent with the court’s findings.\nDONE AND ORDERED in Tampa, Hillsborough County, Florida this 13 th day of June, 1991.",
+                                          "type":  "majority",
+                                          "author":  "GUY W. SPICOLA, Circuit Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Ralph C. Stoddard, Esquire, for petitioner.",
+                                       "Bonnie E. Allen, Esquire, for respondent."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "YAMBOR v HILLSBOROUGH COUNTY, etc.\nCase No. 90-08231\nThirteenth Judicial Circuit, Hillsborough County\nJune 13, 1991\nAPPEARANCES OF COUNSEL\nRalph C. Stoddard, Esquire, for petitioner.\nBonnie E. Allen, Esquire, for respondent."
+                 },
+    "file_name":  "1430-01",
+    "first_page_order":  179,
+    "last_page_order":  188
+}

@@ -1,0 +1,81 @@
+﻿{
+    "id":  4565139,
+    "name":  "Malley Rice v. The State",
+    "name_abbreviation":  "Rice v. State",
+    "decision_date":  "1908-01-22",
+    "docket_number":  "No. 4202",
+    "first_page":  "359",
+    "last_page":  "359",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 359"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "34 Texas Crim. Rep., 400",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4480594
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/34/0400-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  163,
+                     "char_count":  2125,
+                     "ocr_confidence":  0.555,
+                     "pagerank":  {
+                                      "raw":  5.4477564996133986E-07,
+                                      "percentile":  0.9452321351553701
+                                  },
+                     "sha256":  "b356be63ce5e328c36fc1d0b358c54db21ea10195f2c55106b1843f84c748f8c",
+                     "simhash":  "1:118075855301edde",
+                     "word_count":  362
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Malley Rice v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "RAMSEY, Judge.\nThis was a conviction for violation of the local option law, the punishment assessed being a fine of $50 and thirty days imprisonment in the county jail.\nThe case must be reversed for the reason that one of the jury which rendered the verdict against appellant had theretofore been convicted and sentenced for perjury, and it was agreed, as shown by bill of exceptions, that the juror had never been pardoned, and that his citizenship had never been restored. Subdivision 3 of article 673 of the Code of Criminal Procedure, provides, as ground for challenge of any juror in a criminal case, “that he has been convicted of theft or any felony.” Article 676 of the Code of Criminal Procedure contains the following provision: “Ho juror shall be empaneled Avhen it appears that he is subject either to the third, fourth or fifth clause of challenge in article 673, although both parties may consent.” The disqualification contained in subdivision 3 of article 673 has been held to be absolute. See Greer v. State, 14 Texas Crim. App., 179. The only departure from this rule, ever authorized by this court, was in a case where a convict had been pardoned by the governor, and where the pardon removed his disabilities of citizenship. See Easterwood v. State, 34 Texas Crim. Rep., 400.\nAs presented in this record, it is clear the case must be reversed for the reason stated, and it is accordingly so ordered.\nReversed and remanded.",
+                                          "type":  "majority",
+                                          "author":  "RAMSEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Ho brief for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Malley Rice v. The State.\nNo. 4202.\nDecided January 22, 1908.\nLocal Option—Jury and Jury Law—Conviction for Felony.\nUnder article 676, Code Criminal Procedure, and subdivision 3 of article 673, a juror who had theretofore been convicted and sentenced for perjury, and had never been pardoned, and his citizenship restored, is not a qualified juror.\nAppeal from the County Court of Grayson. Tried below before the Hon-. J. W. Hassell.\nAppeal from a conviction of a violation of the local option law; penalty, a fine of $50 and thirty days confinement in the county jail.\nThe opinion states the case. •\nHo brief for appellant.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1190-01",
+    "first_page_order":  377,
+    "last_page_order":  377
+}

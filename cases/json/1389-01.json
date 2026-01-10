@@ -1,0 +1,295 @@
+﻿{
+    "id":  8547111,
+    "name":  "Eusebio Regalado Martinez v. State",
+    "name_abbreviation":  "Martinez v. State",
+    "decision_date":  "1958-06-18",
+    "docket_number":  "No. 29,887",
+    "first_page":  "97",
+    "last_page":  "105",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 97"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "310 S.W. 2d 108",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10161843
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/310/0108-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "166 Texas Cr. Rep. 18",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2620119
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/166/0018-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "283 S.W. 2d 946",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10184700
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/283/0946-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 206",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2464246
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/162/0206-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "288 S.W. 2d 100",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10163473
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/288/0100-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 63",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2460780
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0063-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "288 S.W. 2d 90",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10163085
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/288/0090-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 620",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2463388
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/162/0620-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "206 S.W. 2d 1016",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10216097
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/206/1016-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "151 Texas Cr. Rep. 334",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2598013
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/151/0334-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "233 S.W. 2d 138",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10193266
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/233/0138-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "155 Texas Cr. Rep. 190",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2582405
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/155/0190-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "208 S.W. 2d 558",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10201067
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/208/0558-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "151 Texas Cr. Rep. 365",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2596414
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/151/0365-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "13 S.W. 2d 865",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10309931
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/13/0865-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "112 Texas Cr. Rep 125",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5167983
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/112/0125-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "278 S.W. 2d 847",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10184910
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/278/0847-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "161 Texas Cr. Rep. 454",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2465519
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/161/0454-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  833,
+                     "char_count":  17244,
+                     "ocr_confidence":  0.576,
+                     "pagerank":  {
+                                      "raw":  2.1187044783632707E-07,
+                                      "percentile":  0.7641953256734273
+                                  },
+                     "sha256":  "f35987fd283caed2b01369b0a02dd5a3ded2ba959ab36e5ef21e08e74adf9b75",
+                     "simhash":  "1:3caaad9ce61442bc",
+                     "word_count":  3047
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Eusebio Regalado Martinez v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DICE, Judge.\nThe offense is murder; the punishment, death.\nThe state’s evidence shows that on the night in question Leslie Riggins and his wife went to a night club in the city of Midland around midnight, taking with’ them their five young children, including their baby girl, Cynthia, 9 months of age. Upon arriving at the club the parents went in and left the children asleep in the car, the baby being on the front seat. Later the father returned to the car to check the children and found that Cynthia, the baby, was gone and thereupon called the police.\nIn the search and investigation which followed, The baby’s dead, naked and bloody body was found by the officers in a pasture approximately 1,990 feet from the night club lying in some cactus and mesquite bushes. At a point 819 feet from the body the officers found a pink towel in which the baby had been wrapped by its mother and also a bloody stick 11% inches long and % of an inch in diameter. The officers also observed a hole in the sand in which there was some blood and curly hair and nearby, prints in the sand which appeared to have been made by the knees of a human being. The baby’s clothing was found approximately 232 feet from the body and in the general vicinity where the body was found the officers observed heel prints from a pair of shoe heels which contained two round circles.\nAn autopsy performed upon the body of the deceased by Dr. Marvin Orrahood, a pathologist, revealed contusion on the left side of the face and forehead and a shearing fracture of the skull. Dr. Orrahood testified that the cause of the death of the child was internal damage to the brain, secondary to the fracture, and expressed his opinion that the fracture could have been caused by a blow of the hand or by placing a human knee of an adult male against the left side of the head and pressing it hard several times with the body on the ground. The autopsy examination further revealed damage and injury to the vagina and rectum that extended into the abdominal cavity which Dr. Orra-hood testified could have been caused by the bloody piece of wood found near the body of the deceased.\nAppellant’s confession made to the officers following his arrest was introduced in evidence in which he admitted taking the baby from the automobile on the night in question; appellant stated that he had been drinking and, among other things, stated “I am not sure what I had in my head, but I think I wanted to have intercourse with the baby;” that after crossing a cotton field and coming upon a ridge “I laid the baby down and after I laid it down I squatted down near the left side of the baby, and then struck it with my right hand on the head. After striking the baby, I then put my right knee on the side of the baby’s head and pushed down on the baby’s head as hard as I could several times. I don’t remember how many time I did this. I was feeling real drunk and sick. After pushing on the baby’s head with my knee, I picked up a piece of wood and I turned the baby over with its face down and squatted down beside the body and stuck the stick in the baby, * * * I got up and picked up the baby and headed towards the oil tanks. I believe I threw the baby down in the weeds near the ridge and I don’t remember where I threw the baby’s clothes.” Appellant further stated in the confession that he then went home and went to sleep; got up at 5:00 A.M. and went to work at a cafe; that he later heard that the police were looking for “heels like mine” and that when he got off from work he went home and took the heels off his shoes and put them under a water heater in his home.\nAppellant’s confession is sufficiently corroborated by the other state’s evidence and circumstances to show that he killed the deceased by the manner and means alleged in the indictment.\nAppellant’s defense was that of insanity.\nIn support of such defense appellant offered evidence showing that in the year 1945 he was adjudged a feeble minded person and committed to the Austin State School at Austin and that in the year 1942 his mother was adjudged to be a person of unsound mind and committed to the Big Spring State Hospital.\nMrs. Lupez Sanchez, called as a witness by the appellant, testified that the appellant’s mother did not realize anything about the case against her son; that his half sister was not normal and stated that in her opinion the appellant “did not have a good mind.”\nDr. Marvin E. Grice, a psychiatrist, called as a witness by the state, testified that he had examined the appellant on three occasions and based upon the examinations it was his opinion that appellant was sane. Dr. Grice further testified that he felt that appellant was mentally retarded but that he did not observe anything in his acts, speech or conduct which led him to believe that appellant did not know the difference between right and wrong.\nVernon Jones, Superintendent of the Mexia State School for retarded people, testified that appellant was received at that institution in April 1952, furloughed in February 1953 and discharged in June 1953; that appellant was classified as “dull normal” and while at the institution he observed appellant and did not see anything in his speech, acts or conduct which led him to believe that appellant was insane or did not know the difference between right and wrong.\nThe state called numerous officers who had seen and observed appellant on occasions following his arrest who testified that they had not observed anything in his speech, actions or conduct which led them to believe he was insane or did not know the difference between right and wrong.\nThe trial court in his charge fully instructed the jury on the appellant’s defense of insanity and required the jury to determine the question of his sanity both at the time of the commission of the alleged offense and at the time of the trial. The jury was further instructed under the provisions of Art. 36, V.A.P.C., of its right to take into consideration evidence of temporary insanity produced by the recent use of ardent spirits in mitigation of the penalty.\nIn returning its verdict of guilty the jury found that appellant was sane at the time the offense was alleged to have been committed and at the time of the trial we find the evidence sufficient to sustain its verdict.\nThe Court charged the jury on both the law of murder with and without malice and applied the law to the facts.\nAppellant made no objections to the charge in the trial court and for the first time on appeal insists that the charge was fundamentally erroneous because it did not instruct the jury that before they could find him guilty they must find that he had an intent to kill.\nIn Clough v. State, 161 Texas Cr. Rep. 454, 278 S.W. 2d 847, a murder case, where no exceptions or objections were preserved to the court’s charge we held that we were not authorized to consider the contention that a charge of specific intent to kill should have been given.\nWe observe, however, that the court in defining murder in the charge instructed the jury that “whoever shall voluntarily kill any person in this state shall be guilty of murder” and in paragraph 5 of the charge instructed the jury that “The term ‘volun-trary’ means done of one’s own free will and accord, without the interference of another; with the intent to accomplish the reasonable and probable consequences of the act done” and in applying the law to the facts the court in paragraph 7 of the charge required the jury to find that appellant “did unlawfully, voluntarily, and with his malice aforethought, kill Cynthia Riggins * * *” before finding him guilty of murder with malice aforethought. Such instruction in effect required the jury to find that appellant had an intent to kill and we find no fundamental defect therein.\nThe case of Miller v. State, 112 Texas Cr. Rep 125, 13 S.W. 2d 865, relied upon by appellant is not here controlling because in that case the court nowhere required the jury to find the existence of an intent to kill; nor are the cases of Baylor v. State, 151 Texas Cr. Rep. 365, 208 S.W. 2d 558 and Smith v. State, 155 Texas Cr. Rep. 190, 233 S.W. 2d 138 because in the Baylor case a proper exception was reserved to the court’s charge and in the Smith case the prosecution was for assault with intent to murder and not murder.\nAppellant further complains of the court’s charge because of the failure to charge on aggravated assault. In the absence of an objection or exception to the charge or requested charge appellant is in no position to complain and the matter is not properly presented for review. Sheffield v. State, 151 Texas Cr. Rep. 334, 206 S.W. 2d 1016; Windham v. State, 162 Texas Cr. Rep. 620, 288 S.W. 2d 90 and Vasquez v. State, 163 Texas Cr. Rep. 63, 288 S.W. 2d 100.\nAppellant insists that the court erred in permitting Dr. Orra-hood to describe the condition of the female organs of the deceased which he found in performing the autopsy over the objections that the doctor had testified that the cause of death of the deceased was damage to the brain and such testimony was therefore inflammatory. While the question is not properly presented for review, there being no formal bill of exception and the statement of facts is in narrative form, (Bobbitt v. State, 162 Texas Cr. Rep. 206, 283 S.W. 2d 946) we have, in view of the penalty assessed, considered the auestion and find no error in permitting the testimony. See Thompson v. State, 166 Texas Cr. Rep. 18, 310 S.W. 2d 108, and cases there cited on the question.\nThe evidence sufficiently supports the jury’s verdict and warrants the punishment assessed. A review of the record does not reflect any reversible error, therefore the judgment of the trial court is affirmed.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "DICE, Judge."
+                                      },
+                                      {
+                                          "text":  "ON MOTION FOR REHEARING\nMORRISON, Presiding Judge.\nSince the original submission of this case, appellant’s representation by counsel has been challenged on motion for rehearing.\nAppellant now insists that the court failed to appoint a qualified attorney to represent him, as is required by law.\nThe indictment charged the offense of murder with malice aforethought. The punishment for the commission of said offense may be by death and therefore, under the express provisions of Article 47, Y.A.P.C., the offense is a capital felony.\nThe record shows that the trial court, after determining that the appellant desired but was unable to employ counsel, appointed an attorney to represent him.\nAppellant alleges in his motion for rehearing, and urges in his brief, that the attorney appointed by the trial court to represent him failed to pay his annual dues to the State Bar of Texas in 1946, that he was later given proper notice that such dues were delinquent, to which he made no response, and, because of non-payment of his dues, his name was in 1946 removed from the rolls of the State Bar. It is further shown that since 1946 he has not paid any dues nor applied for reinstatement. A written statement from the office of the State Bar is attached to appellant’s brief which recites facts that support the motion.\nIt is mandatory that the trial court, unless waived, appoint counsel to represent an accused in a capital case. Vernon’s Ann. Texas Const., Art. I, Sec. 10, and authorities there cited.\nArticle 494, V.A.P.C., in part, provides:\n“When the accused is brought into court for the purpose of being arraigned, if it appears that he has no counsel and is too poor to employ counsel, the court shall appoint one (1) or more practicing attorneys to defend him.”\nArraignment of the accused is required only in capital cases. Article 491, V.A.C.C.P.\nNot only do the Constitution and statutes of this state require the appointment of counsel in a capital felony case, but the same is also required under the due process clause of the 14th Amendment to the Federal Constitution under the decisions of the Supreme Court of the United States.\nThe State Bar Act, Article 320a-l, Section 3, V.A.C.S., provides :\n“All persons who are now or who shall hereafter be licensed to practice law in this State shall constitute and be members of the State Bar, and shall be subject to the provisions hereof and the rules adopted by the Supreme Court of Texas; and all persons not members of the State Bar are hereby prohibited from practicing\u0027 law in this State.”\nArticle IV, Section 5, of the rules promulgated by the Supreme Court of Texas, reads as follows:\n“A member in default of payment of the fee for sixty days after it is due shall be regarded as delinquent and shall be given written notice thereof by the Clerk of the Supreme Court. If the delinquent member fails to pay such fee within thirty days thereafter, he shall cease to be a member, but shall be reinstated upon payment of the fees due at the time he ceased to be a member, together with fees for the current year and for any intervening fiscal years during which he has practiced law in the State of Texas. If at the end of ninety days after June 1, a member has not paid to the Clerk membership dues for the current year, the Clerk shall strike from the rolls of the State Bar the name of the delinquent member.\n“Any County or District Judge, or any Judge of any Appellate Court of this State, shall have the right, and it shall be his duty to refuse any person the privilege of practicing in such court, unless such person is currently a member of the State Bar of Texas in good standing. Any lawyer in this State whose name has been stricken from the rolls of the State Bar for non-payment of dues, and who has not been reinstated, shall not be permitted to practice law in this State, and if such lawyer does engage in the practice of law, such continued practice of law by such delinquent member shall constitute the unauthorized practice of law on the part of such person, and he may be enjoined by any Court of competent jurisdiction.”\nAn attorney is an “officer of the court.” Courts of record have the inherent power to inquire into the qualifications of persons practicing law therein. This power is essential to the fair administration of justice and an orderly discharge of the judicial function.\nThe court-appointed attorney filed a brief and presented oral argument on the original submission of this case. This court was then unaware of his failure to pay his State Bar dues.\nIt appears that the only attorney appointed by the court to represent the appellant was not at the time authorized to practice law in this State, as provided and required by the statutes and the rules of the Supreme Court of Texas.\nThe right of an accused charged with a capital felony to have the trial court appoint a duly qualified practicing attorney to represent him is a valuable right conferred by statute, and it was error to fail to follow its mandatory provisions.\nThe action of this court herein is in pursuance to the mandates of the legislature and the rules of the Supreme Court of Texas, supra, prohibiting all persons not members of the State Bar from practicing law in this state. Any other holding than the one we now make would nullify the entire State Bar Act.\nAppellant’s motion for rehearing is granted, the order of affirmance is set aside, and the judgment is now reversed and remanded.",
+                                          "type":  "rehearing",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      },
+                                      {
+                                          "text":  "WOODLEY, Judge,\n(dissenting on Motion for Rehearing).\nUnder the majority opinion a defendant is entitled to have his conviction in a capital case set aside by the mere showing that his court-appointed counsel was at the time of his appointment delinquent in the payment of his membership dues to the State Bar; this wholly without regard to the competency, experience, skill and ability of the lawyer and despite the fact that such lawyer was at the time practicing law and representing clients who employed him before the same court, the judge being without notice or reason to believe that the lawyer had failed to pay his State Bar dues.\nUnder the rule heretofore followed by this court, only matters appearing in the record made in the trial court and those which attack its jurisdiction are to be considered on an appeal. Under this rule the question of court-appointed counsel’s failure to pay his bar dues is not before us. See 4 Texas Jur., Appeal and Error Criminal Cases, Secs. 127-8, and cases there cited.\nThere is a vast difference between suspending the privilege of an attorney to practice his profession while he is delinquent in the payment of his dues and the setting aside of a conviction because the attorney who was called upon by the trial judge to represent an indigent accused had, unknown to the judge, been dropped from the State Bar roll of practicing attorneys.\nAppellant’s court-appointed counsel had only to pay his dues that were delinquent (which no doubt he has done) to have his name restored to the roll of practicing attorneys. His delinquency in the payment of his bar dues is in no wise detracted from or affected his representation of his client.\nI respectfully dissent.",
+                                          "type":  "dissent",
+                                          "author":  "WOODLEY, Judge,"
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Rex Emerson (on appeal only) Odessa, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Eusebio Regalado Martinez v. State.\nNo. 29,887.\nJune 18, 1958.\nAppellant’s Motion for Rehearing Granted November 5, 1958.\nState’s Motion for Rehearing Overruled, December 10, 1958.\nRex Emerson (on appeal only) Odessa, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1389-01",
+    "first_page_order":  115,
+    "last_page_order":  123
+}

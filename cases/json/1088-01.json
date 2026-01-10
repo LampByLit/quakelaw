@@ -1,0 +1,65 @@
+﻿{
+    "id":  4561668,
+    "name":  "Ella Lewis v. The State",
+    "name_abbreviation":  "Lewis v. State",
+    "decision_date":  "1907-10-30",
+    "docket_number":  "No. 3773",
+    "first_page":  "20",
+    "last_page":  "21",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 20"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  213,
+                     "char_count":  3483,
+                     "ocr_confidence":  0.579,
+                     "sha256":  "cf52ffcf72606b92e5a033bb0d67003f2764c402b277f0a9c08d7f38da955285",
+                     "simhash":  "1:853c23e07a645a9d",
+                     "word_count":  600
+                 },
+    "last_updated":  "2023-07-14T19:59:32.944253+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ella Lewis v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\nAppellant was convicted of burglary and her punishment assessed at three years confinement in the penitentiary.\nJSTo bill of exceptions was reserved during the trial. The motion for a new trial urges a reversal of the judgment because, “the court erred in the admission of testimony.” Another ground is that “the court erred in its charge of the law to the jury.” The sufficiency of the indictment is also questioned, because said indictment fails to charge the offense for which defendant was tried and convicted. We are of opinion that this objection to the indictment is not valid. It might constitute a ground for a variance between the allegation and evidence introduced in support of the allegation in the indictment, and in this connection, it may be well to notice that appellant also contends that the evidence is insufficient to support the conviction. There are two counts in the indictment charging burglary, one in the day and the other in the night-time. The night-time burglary charges that of a private residence. The jury convicted under the second count. The evidence leaves it entirely in doubt as to whether the house was entered at night or in the day, but it is cogently proved that it was entered sometime either day or night. We are of opinion that the jury had the right under the facts to select under which count they would find a verdict. We are, therefore, of opinion that the evidence is sufficient to support the verdict.\nIn regard to the clause in the motion for a new trial which says the court erred in the admission of testimony, it is sufficient to state there are no bills of exception in the record presenting this matter, and, in reference to the other clause; that is, that the court erred in his charge of the law to the jury, it is only necessary to state this is not specific enough to require revision. In order for this court to revise errors in the charge they must be specified so that the court may understand the portion of the charge to which exception is reserved and the reason why the charge is erroneous. A general statement that the court erred in his charge of the law is not sufficient, and as this matter is presented, we do not feel authorized to review.\nAs the matters are presented to this court, we find no sufficient reason, why the judgment should be reversed, and it is, therefore, affirmed.\nAffirmed.\nHenderson, Judge, absent.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ella Lewis v. The State.\nNo. 3773.\nDecided October 30, 1907.\n1. —Burglary—Verdict—Several Counts—Indictment.\nWhere upon trial for burglary the indictment charged a daytime burglary in one count and a night-time burglary of a private residence in another count, and the jury convicted under the second count, and there was evidence that the house was burglarized some time either day or night, the verdict is supported although the evidence leaves it entirely in doubt whether the house was entered in daytime or at night.\n2. —Same—Specific Error Must be Pointed Out.\nWhere there is no bill of exceptions to the admission of testimony, and the motion for new trial does not specifically point out the error complained of, the matter will not be considered on appeal.\nAppeal from the District Court of McLennan. Tried below before the Hon. Sam R. Scott.\nAppeal from a conviction of burglary; penalty, three years imprisonment in the penitentiary.\nThe opinion states the case.\nHo brief on file for appellant.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1088-01",
+    "first_page_order":  38,
+    "last_page_order":  39
+}

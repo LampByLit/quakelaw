@@ -1,0 +1,133 @@
+﻿{
+    "id":  8546566,
+    "name":  "Angel Torrez v. State",
+    "name_abbreviation":  "Torrez v. State",
+    "decision_date":  "1958-06-25",
+    "docket_number":  "No. 29,947",
+    "first_page":  "25",
+    "last_page":  "26",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 25"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "295 S.W. 2d 659",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10177720
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/295/0659-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "294 SW 2d 401",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10171916
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/294/0401-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 516",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2461341
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0516-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "288 S.W. 2d 508",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10175120,
+                                          10175229
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/288/0508-01",
+                                            "/sw2d/288/0508-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 36",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2461759
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0036-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  140,
+                     "char_count":  1575,
+                     "ocr_confidence":  0.611,
+                     "pagerank":  {
+                                      "raw":  4.5053017845894524E-08,
+                                      "percentile":  0.28264852506844995
+                                  },
+                     "sha256":  "9f4cf6837fc945394b37c3f7e7504655f240d2783dc98b41055738704f5a2df1",
+                     "simhash":  "1:dd5c8eb6586d4ab4",
+                     "word_count":  267
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Angel Torrez v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BELCHER, Judge.\nThe offense is misdemeanor embezzlement; the punishment, 5 days in jail and $25 fine.\nThe conviction was had during the December term of the County Court at Law No. 3, of Harris County, which began December 2, 1957, and expired February 1, 1958.\nJudgment was rendered and entered on January 9, 1958. Appellant’s original motion for a new trial was filed January 9, 1958, and it was not amended.\nNo action was taken by the trial court on the original motion for a new trial within twenty days after it was filed. Therefore, it was overruled by operation of law within the term in which the judgment of conviction was rendered. Art. 755, Vernon’s A.C.C.P Mahon v. State, 163 Texas Cr. Rep. 36, 288 S.W. 2d 508; DeHay v. State, 163 Texas Cr. Rep. 516, 294 SW 2d 401. No notice of appeal was given at the December term, 1957, of said court. Therefore, the judgment became final upon the expiration of the December term. Notice of appeal during said term was requisite in order to confer jurisdiction of the appeal upon this court. Art. 827, Vernon’s A.C.C.P. Woodward v. State, 163 Texas Cr. Rep. 516, 295 S.W. 2d 659.\nThe appeal is dismissed.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "BELCHER, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "John J. Herrera, Houston, for appellant.",
+                                       "King C. Haynie, Houston, amicus curiae.",
+                                       "Dan Walton, District Attorney, Thomas D. White, Sam. H. Robertson, Jr., Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Angel Torrez v. State.\nNo. 29,947.\nJune 25, 1958\nAppellant’s Motion for Rehearing Overruled (Without Written Opinion) November 12, 1958.\nJohn J. Herrera, Houston, for appellant.\nKing C. Haynie, Houston, amicus curiae.\nDan Walton, District Attorney, Thomas D. White, Sam. H. Robertson, Jr., Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1320-01",
+    "first_page_order":  43,
+    "last_page_order":  44
+}

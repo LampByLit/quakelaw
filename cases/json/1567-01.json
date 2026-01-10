@@ -1,0 +1,70 @@
+﻿{
+    "id":  8551292,
+    "name":  "Froto Gallardo v. State",
+    "name_abbreviation":  "Gallardo v. State",
+    "decision_date":  "1959-03-11",
+    "docket_number":  "No. 30,521",
+    "first_page":  "511",
+    "last_page":  "512",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 511"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  97,
+                     "char_count":  980,
+                     "ocr_confidence":  0.601,
+                     "pagerank":  {
+                                      "raw":  8.0589208718971262E-08,
+                                      "percentile":  0.4663358751803677
+                                  },
+                     "sha256":  "92a2dc8ce00b14d93bc3b81edcbf2ecf0f044b51de2f30d3bda63550becd8690",
+                     "simhash":  "1:41fa4c1b29d12291",
+                     "word_count":  165
+                 },
+    "last_updated":  "2023-07-14T16:09:04.443318+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Froto Gallardo v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Judge.\nDestroying private property is the offense, with punishment assessed at sixty days in jail and a fine of $200.\nArt. 1350, Vernon’s P.C., makes it unlawful for one to wil-fully injure or destroy the property of another. The value of the property destroyed or the extent of the injury inflicted thereon determines the punishment to be assessed.\nHere, the information charged that appellant wilfully destroyed a tire belonging to E. W. McCain, which tire was of the value of $35.\nIt was the state’s testimony that the tire was destroyed by cutting it with a knife.\nThere is no testimony showing the value of the tire or the extent of the injury thereupon inflicted.\nWithout such proof the state has not made a case.\nThe evidence is insufficient to support the verdict.\nThe judgment is reversed and the cause is remanded.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Means \u0026 Leigh, Pecos, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Froto Gallardo v. State.\nNo. 30,521.\nMarch 11, 1959.\nMeans \u0026 Leigh, Pecos, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1567-01",
+    "first_page_order":  529,
+    "last_page_order":  530
+}

@@ -1,0 +1,86 @@
+﻿{
+    "id":  2020859,
+    "name":  "LINKER v. ROSSE and ZAGER",
+    "name_abbreviation":  "Linker v. Rosse \u0026 Zager",
+    "decision_date":  "1991-06-07",
+    "docket_number":  "Case No. 89-23835 (10)",
+    "first_page":  "22",
+    "last_page":  "24",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 22"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "527 So.2d 95",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "year":  1988,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "505 So.2d 577",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7580283,
+                                          7580236
+                                      ],
+                         "year":  1987,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/505/0577-02",
+                                            "/so2d/505/0577-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  274,
+                     "char_count":  3622,
+                     "ocr_confidence":  0.873,
+                     "sha256":  "035b53de423992a3fb63ba1c324be6ce2bb6ca87a4830a51a42a75b2f39b2152",
+                     "simhash":  "1:4a9c549692ded750",
+                     "word_count":  594
+                 },
+    "last_updated":  "2024-02-27T22:50:07.903550+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before Abel, R., Circuit Judge."
+                                ],
+                     "parties":  [
+                                     "LINKER v ROSSE and ZAGER"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nThe simple issue presented to this Court is whether a landlord of a residential tenancy who has knowledge of certain defects in the premises is entitled to be served with a written notice under Florida Statute 83.56(1) prior to a tenant’s termination of a lease under a claim of constructive eviction. The answer must be in the affirmative.\nFlorida’s Residential Landlord and Tenant Act (Florida Statute 83.40, et. seq.) is clearly intended to establish an obligation on each party to a residential tenancy to place the other party on written notice of what that party intends to do and the consequences of that party’s action. For example, Florida Statute 83.49(3)(a) requires a landlord to advise a tenant in writing as to the landlord’s intention to impose a claim on the tenant’s security deposit and as to the obligation of the tenant to object in writing thereto or lose the right to object. Similarly Florida Statute 83.56(2)(b) requires a landlord as a condition precedent to bringing an eviction against a tenant for matters other than nonpayment of rent to specify in writing to the tenant the tenant’s delinquencies and demand their cure within seven (7) days.\nIn this instance, Florida Statute 83.56(1) provides:\n“(1) If the landlord materially fails to comply with § 83.51(1) or material provisions of the rental agreement within 7 days after delivery of written notice by the tenant specifying the noncompliance and indicating the intention of the tenant to terminate the rental agreement by reasons thereof, the tenant may terminate the rental agreement.” Here the Appellant (landlord) had undertaken repairs of known defects; had cured some, but had not satisfactorily cured others. The record is clear, however, that the appellees (tenants) did not comply with Florida Statute 83.56(1). Rather the appellees vacated the premises in mid-month without paying rent for the current month. The lower court citing, Zais v CF West Florida, Inc., 505 So.2d 577 (Fla. 4th DCA 1987) held that notice under 83.56(1) was not necessary and granted Appellees’ damages in the form of rent previously paid for periods already occupied, advance rent and return of a security deposit. The appellant who had counterclaimed received a set-off for unpaid water and other charges. This Court reverses the Final Judgment in favor of appellees.\nThis Court is satisfied that the lower Court misconstrued the effect of Zais. Although West Publishing Co. supplied a “key number” under the heading of “landlord and tenant” it is clear that Zais does not arise out of a landlord and tenant dispute. Rather Zais deals with a dispute over the purchase of a residential condominium apartment between a buyer and a seller. Under that circumstance notice under 83.56(1) is indeed unnecessary. However, Zais does not and cannot be cited for the proposition that actual knowledge of defects obviates the need for the Florida Statute 83.56(1) demand. There having been no legally sufficient demand to cure made upon appellant, appellees’ termination of lease was improper and appellees’ claim for constructive eviction must be denied. Lakeway Management v Strolowilsky, 527 So.2d 95 (Fla. 3d DCA 1988).\nThe Final Judgment of the Court below is reversed with instructions to enter Judgment for the appellant on his counterclaim. Appellant’s Motion for attorney’s fees is granted.\nDONE AND ORDERED in chambers, at Fort Lauderdale, Bro-ward County, Florida, this 7th day of June, 1991.",
+                                          "type":  "majority",
+                                          "author":  null
+                                      }
+                                  ],
+                     "attorneys":  [
+
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "LINKER v ROSSE and ZAGER\nCase No. 89-23835 (10)\nSeventeenth Judicial Circuit, Broward County\nJune 7, 1991\nBefore Abel, R., Circuit Judge."
+                 },
+    "file_name":  "1317-01",
+    "first_page_order":  40,
+    "last_page_order":  42
+}

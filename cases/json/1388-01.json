@@ -1,0 +1,119 @@
+﻿{
+    "id":  8547084,
+    "name":  "Clinton Wayne Lambright and Billy Monroe Lambright v. State",
+    "name_abbreviation":  "Lambright v. State",
+    "decision_date":  "1958-12-10",
+    "docket_number":  "No. 30,168",
+    "first_page":  "96",
+    "last_page":  "97",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 96"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "292 S.W. 2d 117",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10162715,
+                                          10162815
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/292/0117-01",
+                                            "/sw2d/292/0117-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 410",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2461382
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0410-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "228 S.W. 2d 183",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10192062
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/228/0183-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "154 Texas Cr. Rep. 497",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2582642
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/154/0497-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  171,
+                     "char_count":  1827,
+                     "ocr_confidence":  0.571,
+                     "pagerank":  {
+                                      "raw":  2.088414262855159E-07,
+                                      "percentile":  0.7600155453078539
+                                  },
+                     "sha256":  "94dbbfc0f701cc7ec313743943687d5faf3a5095998ae7573a5c29a49f6977aa",
+                     "simhash":  "1:485188b500023617",
+                     "word_count":  306
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Clinton Wayne Lambright and Billy Monroe Lambright v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BELCHER, Judge.\nAppellants being jointly indicted waived their right of trial by jury and entered a plea of guilty before the court to the offense of robbery by assault; and the court assessed the punishment against Clinton Wayne Lambright at 40 years and against Billy Monroe Lambright at 99 years.\nThe testimony of Allie Mae Kirk, the owner and operator of a combined grocery store and service station, that of her daughter who was in the store at the time of the robbery, and that of Deputy Sheriff French who pursued and apprehended the appellants immediately after the robbery and found coins and currency in their possession which corresponded to that taken from Allie Mae Kirk, together with their written statements introduced by the state without objection shows the commission of the offense here charged.\nAppellants did not testify or offer any evidence in their behalf.\nThe evidence is sufficient to sustain the conviction.\nAppellants’ sole complaint is that the punishment assessed is excessive, cruel and unusual, hence it violates the provisions of Art. 1, Sec. 13, of the Texas Constitution.\nThe extent of the punishment to be assessed so long as it is within the statute rests solely with the judge or jury trying the case. The punishment assessed was within the limits authorized by law. Under the record there appears no error in the extent of the punishment assessed. 12 Texas Jur. 802, Sec. 409; White v. State, 154 Texas Cr. Rep. 497, 228 S.W. 2d 183; Fuentes v. State, 163 Texas Cr. Rep. 410, 292 S.W. 2d 117.\nNo error appearing the judgment is affirmed.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "BELCHER, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Harris, Reeves \u0026 Ball, by Robert N. Reeves, Fort Worth, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Clinton Wayne Lambright and Billy Monroe Lambright v. State.\nNo. 30,168.\nDecember 10, 1958.\nHarris, Reeves \u0026 Ball, by Robert N. Reeves, Fort Worth, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1388-01",
+    "first_page_order":  114,
+    "last_page_order":  115
+}

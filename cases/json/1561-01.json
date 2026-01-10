@@ -1,0 +1,179 @@
+﻿{
+    "id":  8551064,
+    "name":  "William Howard King v. State",
+    "name_abbreviation":  "King v. State",
+    "decision_date":  "1959-02-04",
+    "docket_number":  "No. 30,412",
+    "first_page":  "494",
+    "last_page":  "496",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 494"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "299 S.W. 2d 128",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10165948,
+                                          10165813
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/299/0128-02",
+                                            "/sw2d/299/0128-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 385",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2611677
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0385-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "284 S.W. 2d 155",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10173336
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/284/0155-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 235",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2463096
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/162/0235-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "214 S.W. 2d 464",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10224467
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/214/0464-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "152 Texas Cr. Rep. 369",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2591734
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/152/0369-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "314 S.W. 2d 93",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10159226
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/314/0093-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "166 Texas Cr. Rep. 326",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2617912
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/166/0326-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "320 S.W. 2d 84",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10157601
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/320/0084-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  225,
+                     "char_count":  3046,
+                     "ocr_confidence":  0.617,
+                     "pagerank":  {
+                                      "raw":  8.2671880748558275E-08,
+                                      "percentile":  0.4785771294002083
+                                  },
+                     "sha256":  "23b5c2f48ad25fe58a69dde3dcbd27513f4280f282e569566bce13318148b4a0",
+                     "simhash":  "1:975804ff41148bdb",
+                     "word_count":  521
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "William Howard King v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nWilliam Howard King, who will be referred to hereafter as appellant, is the same person whose conviction for murder was this day affirmed in King v. State, No. 30,389. (Page 492, this volume, 320 S.W. 2d 84.\nOn May 6, 1958, the same day he was sentenced in the murder case, appellant waived a jury and pleaded guilty before the court to an indictment charging him with robbery of John J. Nobile by assault and violence.\nIt was stipulated by appellant and his counsel and the state that the evidence in the ease and that heard at the murder trial “is the same * * * and that said evidence consisted of the statements of eye witnesses and the confession given by the defendant William Howard King.”\nJudgment was rendered adjudging appellant guilty and assessing his punishment at confinement in the penitentiary for life. On the same day sentence was pronounced reciting that appellant waived time for filing motion for new trial and requested that sentence be pronounced.\nThe record contains no notice of appeal.\nAppellant has filed in this court application for mandamus to require the trial court to enter his notice of appeal in writing, sworn to on May 24, 1958, in Walker County, which motion he alleges was mailed to the trial judge. He alleges that he was taken to the penitentiary immediately after sentence, hence had no opportunity to appear in open court and give his notice of appeal, but did express his desire to appeal at the trial.\nUnder the circumstances we have decided that we should order that notice of appeal be entered in the trial court, and will dispose of the appeal as if such has been done.\nAppellant expresses dissatisfaction with his punishment being assessed at life, when he believed that it would be 99 years. His remaining complaint is that the stipulation as to the evidence is not a sufficient compliance with Art. 12 V.A.C.C.P. which requires the state “to introduce evidence into the record showing the guilt of the defendant.”\nThe trial judge had heard the testimony of the witnesses in the murder trial, and appellant had been confronted with the witnesses and had cross-examined them. It was not necessary that the testimony be repeated upon the robbery trial to which appellant pleaded guilty and joined in the stipulation that the sáme evidence be considered as the evidence at the robbery trial. The stipulated evidence was a sufficient compliance with the statute. Ex parte Keener, 166 Texas Cr. Rep. 326, 314 S.W. 2d 93; Villarreal v. State, 152 Texas Cr. Rep. 369, 214 S.W. 2d 464; Shepherd v. State, 162 Texas Cr. Rep. 235, 284 S.W. 2d 155; Ex parte Clark, 164 Texas Cr. Rep. 385, 299 S.W. 2d 128.\nReference to the opinion in the appeal of the murder conviction will show that appellant’s guilt of robbing Nobile, as well as being a principal to the murder of his companion, is shown beyond a reasonable doubt.\nThe judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Appellant represented himself.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "William Howard King v. State.\nNo. 30,412.\nFebruary 4, 1959.\nAppellant represented himself.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1561-01",
+    "first_page_order":  512,
+    "last_page_order":  514
+}

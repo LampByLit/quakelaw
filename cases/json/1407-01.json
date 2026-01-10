@@ -1,0 +1,70 @@
+﻿{
+    "id":  8547288,
+    "name":  "Donald Summers v. State",
+    "name_abbreviation":  "Summers v. State",
+    "decision_date":  "1958-12-17",
+    "docket_number":  "No. 30,183",
+    "first_page":  "124",
+    "last_page":  "125",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 124"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  200,
+                     "char_count":  2223,
+                     "ocr_confidence":  0.584,
+                     "pagerank":  {
+                                      "raw":  8.1383638593511863E-08,
+                                      "percentile":  0.47420216390994224
+                                  },
+                     "sha256":  "3d213b89f32f0b491d0014bfd3ed76e9e5da64ee0e87fc4150aa1c9d94e40b12",
+                     "simhash":  "1:57a702b6872d602d",
+                     "word_count":  385
+                 },
+    "last_updated":  "2023-07-14T16:09:04.443318+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Donald Summers v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is assault with intent to murder; the punishment, 15 years.\nThe appellant, one Mulkey, and one Nolan were prisoners in the Bexar County jail and were subpoenaed as witnesses in the trial of a criminal case against one Green in Hays County. They were transported to the trial by Officers Maltsberger and Lobello. On the way back to San Antonio, and after they had entered Bexar County on the night in question, the three prisoners, who were seated in the rear of the sheriff’s station wagon and who were handcuffed together, in an effort to escape simultaneously assaulted the two officers, who were seated on the front seat. The appellant stabbed Maltsberger in the back and threatened to kill him if the driver did not stop the station wagon. Lobello brought the station wagon to a halt, but was able to free himself from the other prisoner who was attempting to overpower him and, with the aid of his pistol, freed Maltsberger and subdued the three prisoners. Additional officers who came out from San Antonio to meet the station wagon arrived upon the scene, took charge of the prisoners; Maltsberger was carried to the hospital, and a search of the station wagon revealed what is described in the record as a 6Y2\" tapered steel blade with a pointed tip.\nDr. Gossett treated Maltsberger at the hospital and described his wound to the left shoulder as 3 - 4 inches long, 2-3 inches deep, found him in a state of shock from loss of blood, repaired the damage to the muscles and nerves, and described the wound as serious and a bad one “in a place that could have caused a lot of trouble,” and testified that the instrument which was found in the station wagon when used as a stabbing weapon would be capable of producing death or serious bodily injury.\nThe appellant did not testify or offer any evidence in his own behalf.\nNo briefs have been filed, and no formal bills of exception appear in the record.\nFinding the evidence sufficient to support the conviction and no reversible error appearing, the judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "No attorney for appellant of record on appeal.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Donald Summers v. State.\nNo. 30,183.\nDecember 17, 1958.\nNo attorney for appellant of record on appeal.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1407-01",
+    "first_page_order":  142,
+    "last_page_order":  143
+}

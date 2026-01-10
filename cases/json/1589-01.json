@@ -1,0 +1,182 @@
+﻿{
+    "id":  8552181,
+    "name":  "Ex Parte Elbert William Thomas",
+    "name_abbreviation":  "Ex parte Thomas",
+    "decision_date":  "1959-03-25",
+    "docket_number":  "No. 30,445",
+    "first_page":  "584",
+    "last_page":  "588",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 584"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "249 S.W. 1063",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          12084020
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/249/1063-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "94 Texas Cr. Rep. 119",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5050266
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/94/0119-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "221 S.W. 976",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10325938
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/221/0976-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "87 Texas Cr. Rep. 324",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4789077
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/87/0324-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "153 S.W. 890",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8295955
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/153/0890-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "69 Texas Cr. Rep. 275",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4654953
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/69/0275-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "241 S.W. 626",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8263226
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw/241/0626-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "55 Texas 273",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex.",
+                         "case_ids":  [
+                                          2181363
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex/55/0273-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "136 S.W. 2d 877",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10241649
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/136/0877-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  370,
+                     "char_count":  7564,
+                     "ocr_confidence":  0.585,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.20593420697500125
+                                  },
+                     "sha256":  "6442bf1e56d6719d06bb0c0095166a075f4f5798f46ba622fb2cfbeff080d995",
+                     "simhash":  "1:ea743c96f6a702d2",
+                     "word_count":  1331
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte Elbert William Thomas."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DICE, Judge.\nOn October 22, 1958, appellant was convicted in the county court of Midland County of the offense of driving while intoxicated and his punishment assessed at 2 years in jail and a fine of $500.\nThe trial was before the Hon. Robert Montgomery who had been elected special judge of the court by the practicing attorneys of the county.\nNo appeal was perfected by the appellant from the conviction.\nOn November 21, 1958, by application for a writ of habeas corpus presented to the regular county judge, appellant sought his discharge from custody of the sheriff of Midland County who was holding him by virtue of the said judgment of conviction.\nAfter hearing, the application was denied and appellant was remanded to custody of the sheriff. It is from said order that appellant brings this appeal.\nAppellant insists that the judgment of conviction under which he is being held is void because the election of Judge Montgomery as special judge by the members of the bar was unauthorized.\nIt is appellant’s contention that Judge Montgomery was elected special judge by the members of the bar because Judge Noel D. Cason, the regular judge, had disqualified himself in a certain case pending on the docket of the court, styled the State of Texas v. Mayberry, and that such reason did not authorize his election. ■ ■\nIf such in fact was the only reason that Judge Montgomery was elected his election by the members of the bar was unauthorized. Art. 554, V.A.C.C.P.; Summerlin v. State, 69 Texas Cr. Rep. 275, 153 S.W. 890, and Strahan v. State, 87 Texas Cr. Rep. 324, 221 S.W. 976.\nThe state insists that the reason Judge Montgomery was elected was because Judge Cason, the regular judge, failed to appear and was not available for the trial of cases on call that day and that under such facts his election was authorized by Art. 1934 V.A.R.C.S. which provides in part:\n“If a county judge fails to appear at the time appointed for holding the court, or should he be absent during the term or unable or unwilling to hold the court, a special county judge may be elected in like manner as is provided for the election of a special district judge.”\nArt. 1887 Y.A.R.C.S. provides:\n“Should the judge of a district court on the first or any future day of a term, fail or refuse to hold the court, the practicing lawyers of the court present may elect from among their number a special judge who shall hold the court and proceed with the business thereof.”\nWe shall now examine the facts with reference to Judge Montgomery’s election.\nThe record of his election as entered upon the minutes of the court which was introduced in evidence reads in part as follows: “This the 21st day of October A.D. 1958, the Judge of the Court failing to hold court on this day, he being\u0027 absent from the county, the practicing attorneys met for the purpose of electing a special Judge for this week.” The order then names the attorneys present and reflects the election of Judge Montgomery as special judge.\nThe state insists that such record shows a strict compliance with the statutes governing, the election of a special judge and was therefore conclusive evidence of Judge Montgomery’s authority to act by virtue of Art. 1892 V.A.R.C.S. which provides: “The record of such proceedings, substantially complying with the requirements of the law, shall be conclusive evidence of the election and qualification of such special judge.” Appellant insists that the reasons stated in the record for Judge Montgomery’s election are incorrect and not borne out by the testimony.\nJudge Montgomery testified that Judge Cason failed to appear in the courtroom on the morning in question at the time the cases were to be called for trial. He further testified that in the meeting at which he was elected it was announced that Judge Cason was disqualified to serve in the Mayberry Case and that after he had been elected and assumed the bench he called the docket and the Mayberry Case, being the first on call, did not go to trial, and he then called appellant’s case which did proceed to trial before a jury. Judge Montgomery further testified that he did see Judge Cason in the county judge’s office both in the morning and the afternoon on the day in question.\nJudge Cason testified that he was not available on the day in question and that he caused the meeting to be called by the members of the bar to elect the special judge and told them “I would not serve that day,”\u0027 that he had planned a trip to Dallas on such day with a county commissioner on business pertaining to child welfare work but did not make the trip and that he was disqualified in the Mayberry Case.\nThe record shows that Judge Cason failed to appear and hold court on the day appellant’s case was called for trial and that for such reason his election by the members of the Howard County Bar was authorized under the provision of Art. 1934, supra. The fact that Judge Cason did not leave the county did not prevent the election of a special judge. In Tucker v. State, 94 Texas Cr. Rep. 119, 249 S.W. 1063, it was held that a judge absent from the courtroom while preparing to make a trip was absent within the purview of Art. 1887, supra, authorizing the election of a special judge by the members of the bar, though he was still in the city.\nThe judgment is affirmed.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "DICE, Judge."
+                                      },
+                                      {
+                                          "text":  "DAVIDSON, Judge\n(concurring).\nI can not agree to the holding of the majority that under the facts here presented the right of the attorneys of the county to elect a special judge was conferred because the regular judge failed to hold court as provided by Art. 1934, R.C.S.\nAll the evidence shows that the regular judge did not fail or refuse to hold court. He was in his office and around the courthouse at the time of the election as well as at the time of the trial.\nUnder the facts as here presented and under the holding of my brethren, any time the lawyers in court caught the regular judge off the bench or not in the courtroom they could elect a special judge and effectually oust the regular judge from the performance of his duties as judge.\nThe facts, here, did not warrant the election of a special judge for the reason stated in the order of election.\nI agree to the affirmance of the conviction, however, upon the legal proposition that having* failed to attack the election of the special judge but having submitted to trial by that judge the appellant could not complain, after verdict, that the special judge was not authorized to act. Johnson v. Willacy County Water Control \u0026 Improvement Dist., 136 S.W. 2d 877; Shultz \u0026 Bro. v. Lempert, 55 Texas 273; Bailey Bros. v. Lochman, 241 S.W. 626.\nHere, as reflected by the order entered, the election of the special judge was had because of the failure of the regular judge to hold court as authorized by Art. 1934 R.C.S., supra. There was no suggestion in that order or elsewhere in the record that the special judge was serving either due to the disqualification of the regular judge or by agreement of the parties.\nUnder such circumstances, the appellant was not warranted in agreeing, by his failure to object, to be tried by the special judge and then after conviction challenge the right of the special judge to act because his election was not authorized.\nFor the reasons stated, I concur in the affirmance of this case.",
+                                          "type":  "concurrence",
+                                          "author":  "DAVIDSON, Judge"
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Harris \u0026 Acklen (W. T. Aklen of Counsel), Midland, for appellant.",
+                                       "Leonard Howell, County Attorney, Midland, and Leon Douglas, State’s Attorney, Austin for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte Elbert William Thomas.\nNo. 30,445.\nMarch 25, 1959.\nHarris \u0026 Acklen (W. T. Aklen of Counsel), Midland, for appellant.\nLeonard Howell, County Attorney, Midland, and Leon Douglas, State’s Attorney, Austin for the state."
+                 },
+    "file_name":  "1589-01",
+    "first_page_order":  602,
+    "last_page_order":  606
+}

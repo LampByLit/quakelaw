@@ -1,0 +1,143 @@
+﻿{
+    "id":  8552811,
+    "name":  "Floy Bertha Black v. State",
+    "name_abbreviation":  "Black v. State",
+    "decision_date":  "1959-04-15",
+    "docket_number":  "No. 30,595",
+    "first_page":  "639",
+    "last_page":  "641",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 639"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "273 S.W. 2d 623",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10200925
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/273/0623-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "161 Texas Cr. Rep. 620",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2466097
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/161/0620-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "274 S.W. 2d 839",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10185474,
+                                          10185477
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/274/0839-01",
+                                            "/sw2d/274/0839-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "161 Texas Cr. Rep. 107",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2466080
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/161/0107-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "314 S.W. 2d 605",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10176464
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/314/0605-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "166 Texas Cr. Rep. 459",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2616493
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/166/0459-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  210,
+                     "char_count":  2689,
+                     "ocr_confidence":  0.571,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.20594868658365797
+                                  },
+                     "sha256":  "283ddc6fa75e877988afdfeef982a57faaa7f2e19fd67060c869a004bb4c0344",
+                     "simhash":  "1:d73a7ab01b275c93",
+                     "word_count":  478
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Floy Bertha Black v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is driving while intoxicated; the punishment, three days in jail and a fine of $100.00.\nTrial was had before the court without the intervention of a jury.\nAppellant challenges the sufficiency of the evidence to support the finding of the trial court that the appellant was the driver.\nThe witness Welch testified that as he was driving in the city of Houston on the night in question he observed an automobile proceeding in front of him which was traveling at a very slow rate of speed, that it was driven by a woman, and that seated with her on the front seat was a man; that the automobile in question turned a corner and soon thereafter came to a halt in the middle of the street; that he too came to a halt, but that quite unexpectedly the automobile which was being driven by the woman was placed in reverse and, despite the sounding of his horn, backed into the left side of his automobile while he was endeavoring to place it in reverse. He stated that the male occupant of the other automobile got out, came back to his automobile, and charged him with having run into his automobile, that the woman did not get out of the automobile in question until the police arrived, and that no other person than the man in question got in or out of the automobile during this period of time.\nAccident Investigator Williams testified that when he arrived upon the scene the appellant was seated in the lead automobile alone and that from the odor of her breath, the manner of her speaking and walking, he concluded that she was intoxicated.\nAppellant did not testify but called the witness Turman, who testified that he and the appellant had been at the home of a friend drinking beer prior to the collision, that he had driven the automobile in question to the scene of the accident, where it came to a halt because of a defective battery, and that the automobile driven by the witness Welch had come around the corner and run into the rear of the automobile which he was driving.\nThe judge who heard the witnesses resolved this conflict in their evidence against the appellant, and we find the evidence sufficient to support his judgment. Monroe v. State, 166 Texas Cr. Rep. 459, 314 S.W. 2d 605; Cave v. State, 161 Texas Cr. Rep. 107, 274 S.W. 2d 839; and Smith v. State, 161 Texas Cr. Rep. 620, 273 S.W. 2d 623.\nFinding no reversible error, the judgment of the trial court is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Leon Lusk, Houston, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White, Samuel H. Robertson, Jr., Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Floy Bertha Black v. State.\nNo. 30,595.\nApril 15, 1959.\nLeon Lusk, Houston, for appellant.\nDan Walton, District Attorney, Thomas D. White, Samuel H. Robertson, Jr., Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1605-01",
+    "first_page_order":  657,
+    "last_page_order":  659
+}

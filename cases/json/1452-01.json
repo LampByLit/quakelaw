@@ -1,0 +1,93 @@
+﻿{
+    "id":  8547740,
+    "name":  "Ex Parte Earl Betancourt",
+    "name_abbreviation":  "Ex parte Betancourt",
+    "decision_date":  "1959-01-14",
+    "docket_number":  "No. 30,427",
+    "first_page":  "191",
+    "last_page":  "192",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 191"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "278 S.W. 2d 865",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10185001
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/278/0865-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "161 Texas Cr. Rep. 498",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2465431
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/161/0498-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  113,
+                     "char_count":  1102,
+                     "ocr_confidence":  0.597,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.20584462646277832
+                                  },
+                     "sha256":  "bccebfa6d998ed3ba81345834a6bface0fccfa654f135bb30feb463ac955413c",
+                     "simhash":  "1:0e535e9063fbfc34",
+                     "word_count":  184
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte Earl Betancourt."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThis is an original application for writ of habeas corpus brought by relator Carl Betancourt.\nFrom the record before us, it appears that relator waived a jury and entered a plea of guilty to an indictment charging robbery with firearms in cause No. 1943-B in the district court of Taylor County on March 30, 1954, and was by the court found guilty of the offense of armed robbery.\nThe trial court was without authority to render such judgment in a trial without a jury. Recently, in Ex parte Padgett, 161 Texas Cr. Rep. 498, 278 S.W. 2d 865, we thoroughly discussed this identical question.\nIt is ordered that relator be relieved from further confinement in the penitentiary under said conviction and that he be delivered by the penitentiary authorities to the sheriff of Taylor County to answer in the district court of such county to the indictment which was originally returned against him in cause No. 1943-B.\nIt is so ordered.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Petitioner represented himself.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte Earl Betancourt.\nNo. 30,427.\nJanuary 14, 1959.\nPetitioner represented himself.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1452-01",
+    "first_page_order":  209,
+    "last_page_order":  210
+}

@@ -1,0 +1,89 @@
+﻿{
+    "id":  2021293,
+    "name":  "DOUGLAS v. STATE OF FLORIDA",
+    "name_abbreviation":  "Douglas v. State",
+    "decision_date":  "1991-10-04",
+    "docket_number":  "Case No. 91-616-CA (Lower Court Case No. 90-8778-MM)",
+    "first_page":  "18",
+    "last_page":  "19",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 18"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "378 So.2d 7",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9551908
+                                      ],
+                         "year":  1979,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "9"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/378/0007-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  155,
+                     "char_count":  1961,
+                     "ocr_confidence":  0.914,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07305020485750327
+                                  },
+                     "sha256":  "80862165b990fba3f53d7a0c3261409537f4d84e740c86dd24e52c595e8a72da",
+                     "simhash":  "1:83d9aeb6f95b6a40",
+                     "word_count":  308
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before McNEAL, BOOTH, SINGELTARY, JJ.",
+                                    "BOOTH, J. and SINGELTARY, G., concur."
+                                ],
+                     "parties":  [
+                                     "DOUGLAS v STATE OF FLORIDA"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nMcNEAL, R. Circuit Judge\nJames Edward Douglas, appeals the probation order that prohibits him from any contact with his children. Douglas also argues that he did not wilfully violate his probation. We find that the evidence supports the trial court’s finding of willfulness, but we reverse the condition of probation that prohibits contact with the children.\n“A special condition of probation is invalid if it (1) has no relationship to the crime of which the offender was convicted, (2) relates to conduct which is not itself criminal, and (3) requires or forbids conduct which is not reasonably related to future criminality.” Forshee v State, 16 F.L.W. 1340 (Fla. 2d DCA 1991), Rodriguez v State, 378 So.2d 7, 9 (Fla. 2d DCA 1979).\nThe condition that prohibits Douglas from contact with his children has no relationship to the crimes of battery, criminal mischief, and trespass which involved Douglas’s estranged wife. Contact with the children is not criminal. Although the trial judge believes that visitation with the children is related to future criminal conduct directed toward the former wife and her family, there are many ways to provide visitation between the children and Douglas that do not necessitate contact with his former wife or her family. Because of these alternatives, prohibiting Douglas from contact with his children is not reasonably related to future criminality.\nFor these reasons, the order revoking probation is AFFIRMED, but the trial court is instructed to delete the provision of the new probation order prohibiting contact between Douglas and his children.\nBOOTH, J. and SINGELTARY, G., concur.",
+                                          "type":  "majority",
+                                          "author":  "McNEAL, R. Circuit Judge"
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Daniel H. Snow, Assistant Public Defender, for appellant.",
+                                       "Lisa M. Porter, Assistant State Attorney, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "DOUGLAS v STATE OF FLORIDA\nCase No. 91-616-CA (Lower Court Case No. 90-8778-MM)\nFifth Judicial Circuit, Citrus County\nOctober 4, 1991\nAPPEARANCES OF COUNSEL\nDaniel H. Snow, Assistant Public Defender, for appellant.\nLisa M. Porter, Assistant State Attorney, for appellee.\nBefore McNEAL, BOOTH, SINGELTARY, JJ."
+                 },
+    "file_name":  "1310-01",
+    "first_page_order":  38,
+    "last_page_order":  39
+}

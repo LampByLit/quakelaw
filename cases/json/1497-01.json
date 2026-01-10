@@ -1,0 +1,117 @@
+﻿{
+    "id":  8548641,
+    "name":  "Billy L. Fancher v. State",
+    "name_abbreviation":  "Fancher v. State",
+    "decision_date":  "1958-12-10",
+    "docket_number":  "No. 30,182",
+    "first_page":  "269",
+    "last_page":  "270",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 269"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "3 S.W. 2d 90",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10280484
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/3/0090-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "109 Texas Cr. Rep. 101",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5152034
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/109/0101-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "250 S.W. 2d 200",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10194512
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/250/0200-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "157 Texas Cr. Rep. 497",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2572152
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/157/0497-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  219,
+                     "char_count":  3091,
+                     "ocr_confidence":  0.579,
+                     "pagerank":  {
+                                      "raw":  1.6029055786595277E-07,
+                                      "percentile":  0.6841840972195676
+                                  },
+                     "sha256":  "ef6944ca0bd63d2f5b42b31db9c26fca75c48677db0f29d2aad3d4aba2ce2c54",
+                     "simhash":  "1:0edc119f652402d7",
+                     "word_count":  535
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Billy L. Fancher v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Judge.\nThis conviction is for driving while intoxicated upon a public highway, with punishment assessed at a fine of $250 and thirty days in jail.\nThe sufficiency of the evidence to support the conviction is challenged.\nAfter being notified that a wreck had occurred, peace officers went to the scene thereof. Two men were standing beside an overturned automobile as the officers arrived, and one of them —the appellant — approached and told them that he was the driver of the car and that it had gone out of control on a sharp curve onto a soft shoulder of the road.\nThe officers were of the opinion, and so testified, that appellant was at that time under the influence of intoxicating liquor.\nAppellant was arrested and placed in jail.\nAfter being informed that the accusation was for drunk driving, he asked for and sought to have a blood test made to determine if he was intoxicated.\nNo blood test was given him, the request being denied.\nThe other man at the scene of the wreck was never identified or taken into custody.\nTestifying as a witness, appellant denied that he was the driver of the car which he said belonged to him. He testified that another person was the driver of the car at the time. He denied that he was intoxicated at the time.\nUnder such facts, appellant insists that proof of the allegation that he was the driver of the automobile is shown only by the officers’ testimony that he told them he was the driver of the automobile. He relies upon the case of Threet v. State, 157 Texas Cr. Rep. 497, 250 S.W. 2d 200, as supporting that contention.\nThere is no question but that a conviction will not be sustained where the proof of the corpus delicti is shown only by the extrajudicial confession of the accused.\nAppellant testified as a witness in his own behalf that the automobile belonged to him. By that testimony he supplied a very material element of the corroboration necessary.\nThe rule as to corroboration of extrajudicial confessions does not apply to a judicial confession, which is one made in the course of a judicial proceeding while testifying as a witness. Martin v. State, 109 Texas Cr. Rep. 101, 3 S.W. 2d 90.\nAppellant’s intoxication was sufficiently shown by the testimony of the officers. That he was the owner of the automobile was shown by his own sworn judicial statement.\nAppellant’s presence at the scene of the wreck and his ownership of the automobile, together with the foregoing facts, are deemed sufficient to corroborate his extrajudicial confession to the officers that he was the driver of the automobile.\nIn the Threet case the absence of any proof of ownership of the truck or the presence of the accused at the scene of the wreck was pointed out as the element upon which the conclusion was there reached.\nThe conclusion is reached, here, that the facts warranted the jury’s conclusion of guilt.\nThe judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Clay Coggins, Roby, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Billy L. Fancher v. State.\nNo. 30,182.\nDecember 10, 1958.\nMotion for Rehearing Overruled January 28, 1959.\nClay Coggins, Roby, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1497-01",
+    "first_page_order":  287,
+    "last_page_order":  288
+}

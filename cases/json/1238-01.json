@@ -1,0 +1,66 @@
+﻿{
+    "id":  4565353,
+    "name":  "Rube Haney v. The State",
+    "name_abbreviation":  "Haney v. State",
+    "decision_date":  "1908-02-12",
+    "docket_number":  "No. 4013",
+    "first_page":  "485",
+    "last_page":  "486",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 485"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  163,
+                     "char_count":  2187,
+                     "ocr_confidence":  0.607,
+                     "sha256":  "29c8b4e2b0d0bcc776c8f10c19e93a81d1f24368e3947ae6b05857b4ec6c16f5",
+                     "simhash":  "1:5847bc8fd2cdbf6a",
+                     "word_count":  366
+                 },
+    "last_updated":  "2023-07-14T19:59:32.944253+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Rube Haney v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BROOKS, Judge.\nAppellant was convicted of violating the quarantine regulation and his punishment assessed at a fine of $25.\nThe charging part of the information in this case reads, as follows: “Said Bube Haney on or about the 20th day of December, A. D., 1906, and in the said County of Palo Pinto, and State of Texas, did then and there unlawfully, knowingly and wilfully violate and disobey a certain quarantine regulation established in the town of Gordon, in said county by the Health Officer of said Palo Pinto County, Texas, by then and there absenting himself from the pesthouse in the said town of Gordon in violation of, and against the order and quarantine regulation of said county health officer,” etc.\nAppellant filed a motion in arrest of the judgment and to quash the information herein, for the following grounds:\n1. Said information fails to charge that the commissioners court of Palo Pinto County ever ordered the county health officer to establish a quarantine in the town of Gordon in said county.\n2. The same nowhere alleges that the defendant was ever placed in quarantine by the said health officer.\n3. It does not allege that defendant was ever lawfully detained by said health officer, or any one else who had authority to detain him in quarantine.\n4. It does not allege that quarantine regulations had ever been established in the town of Gordon by the health officer or any one else having authority to make such regulations.\n5. It does not allege that a quarantine was legally established.\nWe think all these objections are well taken. We accordingly hold that the judgment must be reversed and the prosecution ordered dismissed, and it is so ordered.\n, Reversed and dismissed.",
+                                          "type":  "majority",
+                                          "author":  "BROOKS, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Ho brief on file for appellant.",
+                                       "F. J: McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Rube Haney v. The State.\nNo. 4013.\nDecided February 12, 1908.\nQuarantine—Information.\nSee opinion for information held to be insufficient in charging a violation of quarantine regulations.\nAppeal from the County Court of Palo Pinto. Tried below before the Hon. E. B. Bitchie.\nAppeal from a conviction of violating quarantine regulations; penalty, a fine of $25.\nThe opinion states the case.\nHo brief on file for appellant.\nF. J: McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1238-01",
+    "first_page_order":  503,
+    "last_page_order":  504
+}

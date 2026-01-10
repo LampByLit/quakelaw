@@ -1,0 +1,93 @@
+﻿{
+    "id":  8546823,
+    "name":  "J. M. Walker v. State",
+    "name_abbreviation":  "Walker v. State",
+    "decision_date":  "1958-11-26",
+    "docket_number":  "No. 30,167",
+    "first_page":  "61",
+    "last_page":  "62",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 61"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "290 S.W. 2d 663",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10180416
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/290/0663-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 340",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2461787
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0340-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  149,
+                     "char_count":  1597,
+                     "ocr_confidence":  0.586,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.20583207746860918
+                                  },
+                     "sha256":  "329e675a45c3d74bd43f59678d896e76a1fd3914a46b29591863b6cab7e91829",
+                     "simhash":  "1:2bbc72e74da723c1",
+                     "word_count":  271
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "J. M. Walker v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is driving while intoxicated; the punishment, 3 days in jail and a fine of $50.00.\nThe sufficiency of the evidence to show that the appellant was driving his automobile on the occasion in question is challenged. Mrs. Brown testified that she lived on Division Street; that she heard an automobile collide with her automobile which was parked outside; that she ran to the door and saw the appellant “drive his car a short distance;” and that he then went to his door. While it is true that on cross-examination she stated, “When I first saw him he was getting out of his automobile,” Officer Sims testified without objection that when he arrived the appellant told him “that he was driving the car there on Division Street * * *.”\nWe find the evidence sufficient in this regard.\nAppellant next contends that the court entered a different judgment from that authorized by the verdict. The verdict read, “We the jury find the defendant guilty as charged in the information and assess his punishment at $50.00 and 3 days jail sentence.” The judgment set forth the verdict and ordered the appellant confined in the county jail for three days “and further until the full amount of costs and fine are paid,” and in our judgment the verdict supports the judgment and is sufficient. Lawhon v. State, 163 Texas Cr. Rep. 340, 290 S.W. 2d 663.\nFinding no reversible error, the judgment of the trial court is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "L. D. Hartwell, Greenville, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "J. M. Walker v. State.\nNo. 30,167.\nNovember 26, 1958.\nL. D. Hartwell, Greenville, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1357-01",
+    "first_page_order":  79,
+    "last_page_order":  80
+}

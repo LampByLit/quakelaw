@@ -1,0 +1,159 @@
+﻿{
+    "id":  4559772,
+    "name":  "Martha James v. The State",
+    "name_abbreviation":  "James v. State",
+    "decision_date":  "1907-10-30",
+    "docket_number":  "No. 3715",
+    "first_page":  "21",
+    "last_page":  "23",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 21"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "50 S. W. Rep., 340",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "34 S. W. Rep., 961",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "35 Texas Crim. Rep., 629",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          158588
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/35/0629-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "5 S. W. Rep., 251",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "35 S. W. Rep., 174",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "36 Texas Crim. Rep., 24",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2360887
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/36/0024-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "32 Texas Crim. Rep., 279",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4471405
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/32/0279-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "22 S. W. Rep., 413",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "32 Texas Crim. Rep., 137",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4474811
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/32/0137-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "2 S. W. Rep., 757",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "50 S. W. Rep., 340",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  273,
+                     "char_count":  4546,
+                     "ocr_confidence":  0.565,
+                     "pagerank":  {
+                                      "raw":  1.0482681451391715E-07,
+                                      "percentile":  0.5532378528632365
+                                  },
+                     "sha256":  "0a8f5baa0f7a332c52b6efbb269a23343398dbf7e4d1c850546e4109f161704b",
+                     "simhash":  "1:2b19d55042074a8e",
+                     "word_count":  789
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Martha James v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BROOKS,-Judge.\nAppellant was convicted of assault to murder and her punishment assessed at two years. confinement in the penitentiary.\nWhen this case was called for trial the indictment was lost. The district attorney suggested its loss and proceeded to substitute the indictment, thereupon appellant insisted that the court should\u0027 give him two days after the substitution, in which to file pleadings and prepare for trial. The bill of exceptions does not show that appellant was in jail or that a bill of indictment had not been served upon him, and the State insists, by reason of this fact, that there is no merit in appellant’s position.\nArticle 470 of the Code of Criminal Procedure, provides: “That when an indictment or information has been lost, etc., * * * the district or county attorney, may suggest the fact to the court and in such case another indictment or information may be substituted upon the written statement of the district or county attorney, that it is substantially the same as that wihch has been lost, etc. * * * Or another indictment may be presented, as in the first instance, and in stick case the period for the commencement of the prosecution shall be dated from the time of making such entry.”\nAppellant insists that the latter clause has a relation to the first clause cited and that he has two days under another statute in which to prepare for trial, after the substitution of papers; but the latter clause of the article, it will be seen, relates only to a condition where another indictment is found and not where there is simply a substitution of the papers. This being true, there was no error in the ruling of the court in forcing appellant to go to trial, this being the only reason for delay.\nBill of exceptions No. 2 complains that the court permitted the district attorney, after the trial had commenced and after eleven jurors had been selected, to amend the substituted indictment by adding the name of the foreman of the grand jury, appellant’s insistence being that after announcement of ready that a bill of indictment could not be amended as to matters of form. It is not necessary for an indictment to have the name of the foreman at the bottom. See Watson v. State, 50 S. W. Rep., 340; also Brown v. State, 11 Texas Crim. App., 451. Therefore, it is immaterial whether the county attorney signed the name of the foreman before, or after the trial began.\nThese being the only questions raised by appellant and the evidence supporting the verdict, the judgment is affirmed.\nAffirmed.\nHenderson, Judge, absent.",
+                                          "type":  "majority",
+                                          "author":  "BROOKS,-Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Brooks \u0026 Woolworth and J. C. Brooke, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Martha James v. The State.\nNo. 3715.\nDecided October 30, 1907.\n1.—Assault to Murder—Substitution of Indictment—Two Days Notice—Statutes Construed.\nThe latter, clause of article 470, Code Criminal Procedure, with reference to the commencement of the prosecution, relates only to a condition where another indictment is found and not where there is simply a substitution of the indictment, and there was no error in forcing defendant to go to trial without the two days’ notice to file pleadings; besides the bill of exceptions did not show that defendant had not been served with a certified copy of the original indictment.\n2.—Same—Indictment—Name of Foreman of Grand Jury.\nIt is not necessary for an indictment to have the name of the foreman at the bottom; and there was no reversible error in adding such name after the trial had commenced.\nAppeal from the District Court of Panola. Tried below before the Hon. Richard B. Levy.\nAppeal from a conviction of assault with intent to murder; penalty, two years imprisonment in the penitentiary.\nThe opinion states the case.\nBrooks \u0026 Woolworth and J. C. Brooke, for appellant.\nOn the question of construction of article 470, Code Criminal Procedure: Walker v. State, 7 Texas Crim. App., 245; Murray v. State, 21 Texas Crim. App., 620, 2 S. W. Rep., 757. On question of two days notice: Lockwood v. State, 32 Texas Crim. Rep., 137, 22 S. W. Rep., 413; Harris v. State, 32 Texas Crim. Rep., 279. On question of name of foreman to indictment: Loggins v. State, 8 Texas Crim. App., 434; Carr v. State, 19 Texas Crim. App., 635; Murphy v. State, 36 Texas Crim. Rep., 24, 35 S. W. Rep., 174; art. 439, Code Crim. Proc.; art. 587 id.; Osborne v. State, 23 Texas Crim. App., 431, 5 S. W. Rep., 251; Grayson v. State, 35 Texas Crim. Rep., 629, 34 S. W. Rep., 961.\nF. J. McCord, Assistant Attorney-General, for the State.\nOn question of name of foreman to indictment: Watson v. State, 50 S. W. Rep., 340; Brown v. State, 11 Texas Crim. App., 451."
+                 },
+    "file_name":  "1089-01",
+    "first_page_order":  39,
+    "last_page_order":  41
+}

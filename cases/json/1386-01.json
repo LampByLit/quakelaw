@@ -1,0 +1,119 @@
+﻿{
+    "id":  8547072,
+    "name":  "Ex Parte Vernon Hill",
+    "name_abbreviation":  "Ex parte Hill",
+    "decision_date":  "1958-10-29",
+    "docket_number":  "No. 30,298",
+    "first_page":  "95",
+    "last_page":  "95",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 95"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "221 S.W. 2d 609",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10204790
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/221/0609-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "153 Texas Cr. Rep. 493",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2589069
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/153/0493-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "194 S.W. 2d 266",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10189905,
+                                          10189803
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/194/0266-02",
+                                            "/sw2d/194/0266-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "149 Texas Cr. Rep. 324",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2602765
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/149/0324-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  149,
+                     "char_count":  1744,
+                     "ocr_confidence":  0.589,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.20583613175903306
+                                  },
+                     "sha256":  "f8ce32a9ab871e4bb8b4f5f6a5180521f564fa3863d8c3bb00d3b0e9fd8a7ccb",
+                     "simhash":  "1:4dd76cf8632d40b7",
+                     "word_count":  295
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte Vernon Hill."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nRelator was on December 6, 1945, convicted in Cause No. 4869 in the district court of Palo Pinto County, and his punishment assessed at confinement in the penitentiary for life. Said conviction was appealed to this court and was affirmed. Hill v. State, 149 Texas Cr. Rep. 324, 194 S.W. 2d 266.\nRelator presented his application for writ of habeas corpus to the judge of the district court of Palo Pinto County who granted the writ and made it returnable to this court.\nRelator contends that the verdict will not support the judgment, and said judgment is therefore void. He relies upon Shaver v. State, 153 Texas Cr. Rep. 493, 221 S.W. 2d 609. In Shaver, the jury found the accused guilty only of the offense of forgery, which was the primary offense charged, and made no finding as to the two prior convictions alleged for enhancement. In the case at bar, the indictment consisted of two counts. Counts one charged the primary offense of forgery and further charged two prior convictions for felonies. In his charge, the court submitted the first count of the indictment in its entirety and told the jury that if they found petitioner guilty of the primary offense and further found that he was the same person who had been convicted in the prior cases alleged for enhancement to find him guilty “as charged in the first count of the indictment.” The jury’s verdict so read, and the judgment gave application thereto.\nWe find the indictment, verdict, and judgment sufficient.\nThe relief prayed for is denied.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Walter L. Wray, Dallas, for relator.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte Vernon Hill.\nNo. 30,298.\nOctober 29, 1958.\nAppellant’s Motion for Rehearing Overruled December 10, 1958.\nWalter L. Wray, Dallas, for relator.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1386-01",
+    "first_page_order":  113,
+    "last_page_order":  113
+}

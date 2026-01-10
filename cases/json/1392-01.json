@@ -1,0 +1,167 @@
+﻿{
+    "id":  8547121,
+    "name":  "Joe Price v. State",
+    "name_abbreviation":  "Price v. State",
+    "decision_date":  "1958-12-10",
+    "docket_number":  "No. 30,211",
+    "first_page":  "105",
+    "last_page":  "106",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 105"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "200 S.W. 2d 400",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10189326
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/200/0400-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "150 Texas Cr. Rep. 215",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2599165
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/150/0215-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "234 S.W. 390",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8265930,
+                                          8265916
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/234/0390-02",
+                                            "/sw/234/0390-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "90 Texas Cr. Rep. 231",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          8642692
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/90/0231-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "272 S.W. 493",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10310446
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/272/0493-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "100 Texas Cr. Rep. 147",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5100329
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/100/0147-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "199 S.W. 616",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10328822
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/199/0616-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "82 Texas Cr. Rep. 422",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4746990
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/82/0422-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  149,
+                     "char_count":  1499,
+                     "ocr_confidence":  0.561,
+                     "pagerank":  {
+                                      "raw":  8.0937549639946215E-08,
+                                      "percentile":  0.467400222947361
+                                  },
+                     "sha256":  "2e57c61ef719764c95ed227c55173d50cd4f3cf75043ff44635b1e403e00663b",
+                     "simhash":  "1:ffec51aa3e20e77f",
+                     "word_count":  265
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Joe Price v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nThe offense is unlawfully carrying a pistol; the punishment a fine of $100.00.\nAppellant’s defense was that he had the lawful right to carry a pistol, or believed in good faith that he had such right because he was a peace officer, a deputy constable, and was in the performance of the duties of such office when he carried the pistol; also, in addiiton to being a deputy constable under appointment of the constable, that he had been deputized by the justice of the peace to serve certain criminal process and warrants, and was engaged in performing these duties at the time he carried the pistol.\nAfter the state had established that appellant was seen carrying a pistol and had rested, appellant’s counsel attempted to avail himself of the right granted to an accused by Art. 642(5) C.C.P. and to state “the nature of the defenses relied upon and the facts expected to be proved in their support.”\nThe trial court refused to permit counsel to make such statement, and our able state’s attorney confesses that such ruling was error calling for reversal. We agree. Dugan v. State, 82 Texas Cr. Rep. 422, 199 S.W. 616; Hooper v. State, 100 Texas Cr. Rep. 147, 272 S.W. 493; Brown v. State, 90 Texas Cr. Rep. 231, 234 S.W. 390; Kennedy v. State, 150 Texas Cr. Rep. 215, 200 S.W. 2d 400.\nThe judgment is reversed and the cause remanded.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "John W. L. Hicks, Houston, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Joe Price v. State.\nNo. 30,211.\nDecember 10, 1958.\nJohn W. L. Hicks, Houston, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1392-01",
+    "first_page_order":  123,
+    "last_page_order":  124
+}

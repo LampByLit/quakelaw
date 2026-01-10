@@ -1,0 +1,69 @@
+﻿{
+    "id":  2021286,
+    "name":  "INGRAHAM, et al. v. DADE COUNTY, et al.",
+    "name_abbreviation":  "Ingraham v. Dade County",
+    "decision_date":  "1991-11-01",
+    "docket_number":  "Case No. 90-148-AP",
+    "first_page":  "54",
+    "last_page":  "55",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 54"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  156,
+                     "char_count":  1840,
+                     "ocr_confidence":  0.899,
+                     "sha256":  "5e75cd5a726f7aa2f86e6d97170b603fecae8511b1484c86d921fcea72028054",
+                     "simhash":  "1:21d2e6ffb343a0e4",
+                     "word_count":  276
+                 },
+    "last_updated":  "2023-07-14T20:58:18.726299+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before ROBINSON, BLOOM, FIERRO, JJ."
+                                ],
+                     "parties":  [
+                                     "INGRAHAM, et al. v DADE COUNTY, et al."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nPer curiam affirmed. The original building permit was properly issued. Nine (9) months later the property owners appealed challenging the validity of that permit. During that nine months period, there was a modification of the building site to comply with setback requirements and that modification was considered insignificant by the appropriate agencies of the City of Miami Beach. Therefore, the approval of the Dade County Shoreline Review Committee was not necessary since it had previously granted its approval prior to issuance of the building permit. However, even though not required, the Dade County Shoreline Review Committee ultimately approved the modified site plan. Jurisdiction was effective in each agency for the actions which each took.\nThereafter, the Dade County Board of Rules and Appeals properly determined that all. administrative conditions prerequisite to the issuance of the building permit had occurred.\nThe property owners were accorded the right to be heard even though they initially remained silent for some nine months. They then were heard and their contentions were rejected. The site plans complied with all aspects of the then applicable zoning laws which, it appears, are more intense than a newly adopted zoning code. Therefore, there was compliance with the procedures for issuance of the subject building permit.\nAFFIRMED.",
+                                          "type":  "majority",
+                                          "author":  null
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "John G. Fletcher, Esquire, for appellants.",
+                                       "John Dellagloria, Esquire, and Debora Turner, Esquire, Assistant City Attorneys, for appellee, City of Miami Beach.",
+                                       "Deborah Mastín, Esquire, for appellee, Dade County.",
+                                       "Alan Gold, Esquire, for appellee, Pacific International Construction."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "INGRAHAM, et al. v DADE COUNTY, et al.\nCase No. 90-148-AP\nEleventh Judicial Circuit, Dade County\nNovember 1, 1991\nAPPEARANCES OF COUNSEL\nJohn G. Fletcher, Esquire, for appellants.\nJohn Dellagloria, Esquire, and Debora Turner, Esquire, Assistant City Attorneys, for appellee, City of Miami Beach.\nDeborah Mastín, Esquire, for appellee, Dade County.\nAlan Gold, Esquire, for appellee, Pacific International Construction.\nBefore ROBINSON, BLOOM, FIERRO, JJ."
+                 },
+    "file_name":  "1349-01",
+    "first_page_order":  74,
+    "last_page_order":  75
+}

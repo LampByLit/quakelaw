@@ -1,0 +1,67 @@
+﻿{
+    "id":  2020847,
+    "name":  "GIBBONS v. STATE OF FLORIDA",
+    "name_abbreviation":  "Gibbons v. State",
+    "decision_date":  "1991-08-21",
+    "docket_number":  "Case No. AP 90-0055 AC (A) 02",
+    "first_page":  "29",
+    "last_page":  "30",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 29"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  146,
+                     "char_count":  1439,
+                     "ocr_confidence":  0.883,
+                     "sha256":  "ae77795aaadf5b96549abcab58d980e9da4dd0ee68b536a786fe29003cb77af7",
+                     "simhash":  "1:915a08f791cd8b82",
+                     "word_count":  237
+                 },
+    "last_updated":  "2023-07-14T21:34:53.334185+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before STEWART, COLBATH, LUPO, JJ.",
+                                    "AFFIRMED. STEWART, COLBATH and LUPO, JJ., concur."
+                                ],
+                     "parties":  [
+                                     "GIBBONS v STATE OF FLORIDA"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nPER CURIAM.\nAffirmed. Daniel Gibbons was cited with driving under the influence in violation of Florida Statutes § 316.1930(l)(a), (b). Gibbons refused to submit to a breathalyzer test. He appeals the trial court’s denial of a motion to dismiss or in the alternative motion to suppress on the grounds the arresting officer was not in fresh pursuit.\nOfficer Joshua Decker of the Juno Beach Police Department observed Gibbons weaving within the lane of travel, outside the lane onto the shoulder of the road, and in the opposite direction over the center dividing lane. Juno Beach Police Department policy requires an officer to run a check on a vehicle prior to initiating a stop to determine if the vehicle is stolen. While awaiting the results of the check, Appellant and the officer drove out of Juno Beach and into the jurisdiction of the Town of Jupiter.\nWe affirm in that the reason for the hesitation was reasonable. We decline, however, to set forth any guidelines because reasonableness is an elementary principal of law.\nAFFIRMED. STEWART, COLBATH and LUPO, JJ., concur.",
+                                          "type":  "majority",
+                                          "author":  "PER CURIAM."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Robert P. Foley, Esquire, Foley and Colton, P.A., for appellant. David Bludworth, State Attorney, and Robert S. Jaegers, Assistant State Attorney, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "GIBBONS v STATE OF FLORIDA\nCase No. AP 90-0055 AC (A) 02\nFifteenth Judicial Circuit, Palm Beach County\nAugust 21, 1991\nAPPEARANCES OF COUNSEL\nRobert P. Foley, Esquire, Foley and Colton, P.A., for appellant. David Bludworth, State Attorney, and Robert S. Jaegers, Assistant State Attorney, for appellee.\nBefore STEWART, COLBATH, LUPO, JJ."
+                 },
+    "file_name":  "1325-01",
+    "first_page_order":  47,
+    "last_page_order":  48
+}

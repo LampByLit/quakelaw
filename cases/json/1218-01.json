@@ -1,0 +1,105 @@
+﻿{
+    "id":  4562931,
+    "name":  "Ewing Isom v. The State",
+    "name_abbreviation":  "Isom v. State",
+    "decision_date":  "1908-01-29",
+    "docket_number":  "No. 4004",
+    "first_page":  "438",
+    "last_page":  "439",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 438"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "36 Texas Crim. Rep., 597",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2360423
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/36/0597-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "38 Texas Crim. Rep., 128",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2361291
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/38/0128-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "47 Texas Crim. Rep., 149",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4534635
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/47/0149-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  217,
+                     "char_count":  3343,
+                     "ocr_confidence":  0.585,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.15167312843335654
+                                  },
+                     "sha256":  "a3680da08fc974d7e0fe45f7ab39133d0f32d724d68908e45309634836e7f8f9",
+                     "simhash":  "1:370d3d8d4e3ac5d3",
+                     "word_count":  579
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ewing Isom v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "RAMSEY, Judge.\nAppellant was convicted in the county court of Fannin County for unlawfully selling intoxicating liquors in violation of the local option law.\nThe judgment of the court below is reversed for the error of the court below in admitting the testimony of the witness McKee of the arrest of one Merrill on the sidewalk in Bonham, for drunkenness. Also for error of the court in admitting the testimony of the witness Browning as to the arrest of one Gilliam at White’s restaurant. McKee testified, in substance, that on the 18th day of March, 1907, he arrested one Merrill on the sidewalk in Bonham for drunkenness; that he put Merrill in the calaboose, and that next day he came out, pleaded guilty and was fined. That afterwards he was several times arrested and put in the calaboose, and each time fined for drunkenness.\nThe State, over defendant’s objection, was permitted to prove by the witness Browning that he arrested one Rube Gilliam for drunkenness, and that he was fined and imprisoned for that offense. Thu. testimony as well as that of McKee was admitted as explained by the court in his qualification of the bill of exceptions to prove that the drink sold prosecuting witness was intoxicating. There was some evidence tending to show that Gilliam was drinking on a train, and it was claimed that he came to appellant’s place of business in a state of intoxication. It was also shown that Merrill, whose drunkenness and arrest was proved, had whisky in his pocket when arrested and there was some testimony showing that he was drunk when he came to where appellant was employed. Both of these parties, Merrill and Gilliam, were shown by the testimony of Carter to have been in the place where appellant was employed at the time of the alleged sale to Carter. We do not believe, as presented in this record, that the arrest and conviction of Merrill and Gilliam for drunkenness were proper to be proved to show that the drinks sold Carter were intoxicating. While not directly in point, the principle\" of the following cases seems applicable: Hays v. State, 47 Texas Crim. Rep., 149; 11 Texas Ct. Rep., 144; Marks v. State, 9 Texas Ct. Rep., 309; Williams v. State, 38 Texas Crim. Rep., 128; Johnson v. State, 2 Texas Ct. Rep., 414; Ware v. State, 36 Texas Crim. Rep., 597; and Denton v. State, 1 Texas Ct. Rep., 567.\nFor the error of the court in admitting the testimony above referred to, the judgment of the court below is reversed and the cause is remanded.\nReversed and remanded.",
+                                          "type":  "majority",
+                                          "author":  "RAMSEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "James U. Lyday and Rous Lee, for appellant.",
+                                       "F. J. McGord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ewing Isom v. The State.\nNo. 4004.\nDecided January 29, 1908.\nLocal Option—Evidence—Intoxicating Liquors.\nUpon trial for a violation of the local option law, it was error to admit testimony that the prosecuting witnesses were arrested and fined for drunkenness, after having been in defendant’s place of business, to show that the drinks sold by defendant were intoxicating; as presented in the record of this case, as it appeared that the witnesses also obtained liquor elsewhere.\nAppeal from the County Court of Fannin. Tried below before the Hon. H. A. Cunningham.\nAppeal from a conviction of a violation of the local option law; penalty, a fine of $75 and confinement of thirty days in the county jail.\nThe opinion states the case.\nJames U. Lyday and Rous Lee, for appellant.\nF. J. McGord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1218-01",
+    "first_page_order":  456,
+    "last_page_order":  457
+}

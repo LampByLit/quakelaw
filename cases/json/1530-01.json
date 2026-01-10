@@ -1,0 +1,93 @@
+﻿{
+    "id":  8549747,
+    "name":  "F. L. Johnson v. State",
+    "name_abbreviation":  "Johnson v. State",
+    "decision_date":  "1959-02-11",
+    "docket_number":  "No. 30,385",
+    "first_page":  "382",
+    "last_page":  "383",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 382"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "297 S.W. 2d 953",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10183817
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/297/0953-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 194",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2607670
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0194-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  252,
+                     "char_count":  3347,
+                     "ocr_confidence":  0.579,
+                     "pagerank":  {
+                                      "raw":  4.446063651887353E-08,
+                                      "percentile":  0.27886065944385174
+                                  },
+                     "sha256":  "b5a3b7d95053c5d77b8324cf26001817a15e8515aa87f8999535d0fc6b07cecf",
+                     "simhash":  "1:19049cce7a74cc94",
+                     "word_count":  588
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "F. L. Johnson v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DICE, Judge.\nThe offense is driving while intoxicated; the punishment, three days in jail and a fine of $50.\nThe evidence was undisputed that on the occasion in question the appellant drove his automobile upon a public highway in Taylor County.\nHighway Patrolman E. J. Terrell testified that after he had observed the appellant’s automobile weaving across the center line of the highway and skid into a ditch he went to the automobile and found appellant on the floor board bleeding from a cut on the head; that he arrested appellant, carried him to a hospital in the city of Abilene for treatment of his injuries and from the hospital took him to jail. The officer further testified that on such occasion appellant had a strong odor of alcohol about his person and expressed his opinion that appellant was intoxicated.\nAs a witness in his own behalf appellant admitted having taken a drink of whiskey some two hours before the accident but denied that he was intoxicated.\nDr. Sherwood C. Lynn, called as a witness by the state, testified on direct examination that he treated the appellant at the hospital for his injury but that he could not say he was intoxicated.\nUpon being further questioned on re-direct examination by state’s counsel as to whether he had a personal opinion as to appellant’s intoxication, Dr. Lynn was permitted, over appellant’s objection, to testify as follows: “We have the * * * I know the nurses were discussing it, and I heard what they were discussing.” “Some thought that he was drunk. And in fact, they wanted to write that down, and I said, ‘No, we can’t give that opinion.’ So, I said, T cannot write that down.’ There was that discussion. As I say, even at the time, I was not * *\nAppellant objected to the testimony on the ground that it was hearsay. The state insists that since the discussion and statements testified to by Dr. Lynn were shown to have occurred in the presence of appellant such testimony was admissible under the rule which provides that where a statement is made in the presence of an accused which calls for a reply on his part, his silence or acquiescence may be shown as a confession of the truth of the statement.\nWhile the rule relied upon by the state be correct it cannot be given application in the present case because the evidence shows that appellant was under arrest at the time the statements were made in his presence at the hospital.\nRecently in De Lira v. State, 164 Texas Cr. Rep. 194, 297 S.W. 2d 953, we said:\n“The rule is well founded that if appellant was under arrest at the time the statement was alleged to have been made, his silence cannot be used against him as a confession of the truth of the statements made in his presence by anybody. Branch’s P.C., Sec. 87, p. 91, 2nd Edition.”\nThe testimony of Dr. Lynn as to the discussion and statements of the nurses at the hospital should not have been admitted over appellant’s objection and in view of the conflict in the evidence on the issue of appellant’s intoxication we are unable to say that its admission was not harmful to the appellant.\nFor the error pointed out, the judgment is reversed and the cause remanded.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "DICE, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Reid \u003c\u0026 Reid, by T. M. Reid, Abilene, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "F. L. Johnson v. State.\nNo. 30,385.\nFebruary 11, 1959.\nReid \u003c\u0026 Reid, by T. M. Reid, Abilene, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1530-01",
+    "first_page_order":  400,
+    "last_page_order":  401
+}

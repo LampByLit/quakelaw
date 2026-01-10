@@ -1,0 +1,66 @@
+﻿{
+    "id":  2021314,
+    "name":  "JOHNSON v. STATE OF FLORIDA",
+    "name_abbreviation":  "Johnson v. State",
+    "decision_date":  "1991-10-03",
+    "docket_number":  "Case No. CJAP No. 89-91",
+    "first_page":  "34",
+    "last_page":  "35",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 34"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  116,
+                     "char_count":  1399,
+                     "ocr_confidence":  0.898,
+                     "sha256":  "462c3f27f97d89ea20a3aef6092777b72975581cfd97ceb216af1d64dfa9f0ad",
+                     "simhash":  "1:245c9466d50e1ca0",
+                     "word_count":  212
+                 },
+    "last_updated":  "2023-07-14T20:58:18.726299+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before WALTER KOMANSKI, Circuit Judge."
+                                ],
+                     "parties":  [
+                                     "JOHNSON v STATE OF FLORIDA"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nAppellant challenges the propriety of the trial court’s determination that he violated probation imposed upon the Appellant’s conviction for the offense of driving while license suspended. The affidavit of the Appellant’s probation officer alleged violations of standard conditions of probation numbers 1, 2, 7 and 9, as well as a special condition of probation pertaining to a fine and court costs.\nAfter reviewing the Record on Appeal and the appellate briefs filed in the case, this Court is of the opinion that the trial court’s revocation of the Appellant’s probation is supported by competent, substantial evidence that the Appellant violated the special condition of probation and standard conditions 2 and 9. Therefore, the Appellant’s Judgment and Sentence are AFFIRMED.\nDATE OF DECISION OCTOBER 3, 1991.\nThe trial court’s determination that the Appellant violated standard condition 1 requiring that the Appellant procure the consent of his probation officer prior to changing his residence is erroneous, inasmuch as the Appellant had no control over his whereabouts while incarcerated.",
+                                          "type":  "majority",
+                                          "author":  null
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Eric R. Eide, Assistant Public Defender, for appellant.",
+                                       "Paula C. Coffman, Assistant State Attorney, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "JOHNSON v STATE OF FLORIDA\nCase No. CJAP No. 89-91\nNinth Judicial Circuit, Orange County\nOctober 3, 1991\nAPPEARANCES OF COUNSEL\nEric R. Eide, Assistant Public Defender, for appellant.\nPaula C. Coffman, Assistant State Attorney, for appellee.\nBefore WALTER KOMANSKI, Circuit Judge."
+                 },
+    "file_name":  "1330-01",
+    "first_page_order":  54,
+    "last_page_order":  55
+}

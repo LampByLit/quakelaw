@@ -1,0 +1,75 @@
+﻿{
+    "id":  4561215,
+    "name":  "Ek. Denton v. The State",
+    "name_abbreviation":  "Denton v. State",
+    "decision_date":  "1907-11-06",
+    "docket_number":  "No. 3883",
+    "first_page":  "58",
+    "last_page":  "59",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 58"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "44 S. W. Rep., 491",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  198,
+                     "char_count":  2964,
+                     "ocr_confidence":  0.563,
+                     "pagerank":  {
+                                      "raw":  7.3178527021370007E-08,
+                                      "percentile":  0.43789078050496383
+                                  },
+                     "sha256":  "9d8dc312450c75126a661602c2db8d3cc9ff8f5502df93d0a64eea24c6124477",
+                     "simhash":  "1:901e740f00ef2475",
+                     "word_count":  509
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ek. Denton v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BROOKS, Judge.\nThis is a conviction for violating the local option law, the punishment being assessed at $25 and thirty days confinement in the county jail.\nAmong other special charges, appellant asked the court to give the following:\n“You are further instructed herein that the defendant, under the laws of the United States; was required to obtain a license to sell malt liquor, whether said malt liquor was intoxicating or not, and the mere possession by the defendant of such internal revenue license would not warrant or authorize a finding against the defendant, but can only be considered by you with any other evidence in the case, and as part of the same, in determining under the instructions of the court given you, as to whether the defendant is guilty of the offense charged in the information, and I instruct you that if the defendant sold malt liquor said license would be necessary under the law whether said malt liquor was intoxicating or not, and the fact that he had such license does not imply that the liquor he sold was intoxicating.”\nThe court refused to give this instruction and the evidence in the case shows that appellant had license to sell malt liquor, and it does not necessarily follow that because liquor is malt liquor, it is an intoxicating liquor as that term has heretofore been defined by the decisions of this court. In other words, the liquor may be a malt liquor and yet be a non-intoxicant. We are not passing upon the question as to whether the evidence in this case warranted the conviction. We think it does, but the converse of the proposition was aptly presented by the evidence. That is to say, the defendant’s evidence showed that the liquor sold to prosecuting witness was a non-intoxicant, and the mere fact that appellant had a malt license would not be evidence of the fact that he was selling intoxicating liquor. See Barnes v. State, 44 S. W. Rep., 491, where the exact question here raised is fully discussed.\nWe do not think there is any merit in appellant’s other assignments of error, but for the one pointed out the judgment is reversed and the cause remanded.\nReversed and remanded.\nHenderson, Judge, absent.",
+                                          "type":  "majority",
+                                          "author":  "BROOKS, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "G. E. Sheppard, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ek. Denton v. The State.\nNo. 3883.\nDecided November 6, 1907.\nLocal Option—Charge of Court—Malt Liquor License—Intoxicants.\nWhere upon trial for a violation of the local option law the defendant’s evidence showed that the liquor sold was a non-intoxicant, the mere fact that defendant had a United States malt license, would not be evidence of the fact that he was selling intoxicating liquor, and a special charge presenting this issue should have been given.\nAppeal from the County Court of Hopkins. Tried below before the\" Hon T. J. Russell.\nAppeal from a conviction of violating the local option law; penalty, a fine of $25, and thirty days confinement in the county jail.\nThe opinion states the case.\nG. E. Sheppard, for appellant.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1102-01",
+    "first_page_order":  76,
+    "last_page_order":  77
+}

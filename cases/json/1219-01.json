@@ -1,0 +1,99 @@
+﻿{
+    "id":  4565122,
+    "name":  "Susie Sadler v. The State",
+    "name_abbreviation":  "Sadler v. State",
+    "decision_date":  "1908-01-29",
+    "docket_number":  "No. 4010",
+    "first_page":  "439",
+    "last_page":  "440",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 439"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "101 S. W. Rep., 248",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "51 Texas Crim. Rep., 155",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4552715
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/51/0155-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "41 Texas Crim. Rep., 191",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "47 Texas Crim. Rep., 47",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  0
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  207,
+                     "char_count":  2699,
+                     "ocr_confidence":  0.588,
+                     "pagerank":  {
+                                      "raw":  1.1271224641441709E-07,
+                                      "percentile":  0.574847800006873
+                                  },
+                     "sha256":  "dd1c656da9d3d03e67a06f54920208a812944254a5ab9431abebf74c5aaa8b26",
+                     "simhash":  "1:58301b716854cb52",
+                     "word_count":  446
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Susie Sadler v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "RAMSEY, Judge.\nAppellant was convicted in the county, ‘ourt of Fannin County on an affidavit and information, in effect, charging that she had habitual carnal intercourse without living together with one T. T. Hubbard.\nIn passing it may be remarked that the record shows that Hubbard had been acquitted of a charge theretofore filed against him charging adulterous connection with appellant.\nThe case must be reversed for the reason that the verdict of the jury is wholly unsupported by the evidence.\nUnder the precedents established in this State, as illustrated by the cases of Boswell v. State, 47 Texas Crim. Rep., 47; 12 Texas Ct. Rep., 558; Collins v. State, 10 Texas Ct. Rep., 1020; Helton v. State, 41 Texas Crim. Rep., 191; and Quinn v. State, 51 Texas Crim. Rep., 155; 101 S. W. Rep., 248, this conviction cannot stand. No good or useful purpose can be served by narrating in detail the facts. It is sufficient to say that there was no direct or positive evidence that appellant and Hubbard at any time had carnal intercourse. On one occasion there is some evidence rendering it likely, certainly possible, that they may have done so. The testimony shows beyond a doubt that appellant was infatuated with Hubbard, but except on one occasion referred to there is no evidence tending strongly to show carnal intercourse between them. On most of the occasions when they are shown to have been together, it is clear that there was no actual misconduct of this character.\nThe evidence being, as we believe, wholly insufficient to sustain the verdict, it is ordered that the judgment of the lower court be and same is hereby reversed and the cause is remanded.\nReversed and remanded.",
+                                          "type":  "majority",
+                                          "author":  "RAMSEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "James E. Lyday \u0026 S. F. Leslie, for appellant.—On question of insufficiency of evidence counsel cited cases mentioned in the opinion.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Susie Sadler v. The State.\nNo. 4010.\nDecided January 29, 1908.\nAdultery—-Habitual Carnal Intercourse.\nIn a prosecution for adultery charging defendant with habitual carnal intercourse without living together with the other party, where no direct or positive evidence was adduced that defendant and her paramour at any time had carnal intercourse, except that on one occasion such intercourse may have possibly occurred, the same was insufficient to sustain a conviction. Following Boswell v. State, 47 Texas Grim. Rep., 47; 12 Texas Ct. Rep., 558; Hilton v. State, 41 Texas Grim. Rep., 190.\nAppeal from the County Court of Fannin County. Tried below be- • fore the Hon. H. A. Cunningham.\nAppeal from a conviction of unlawful habitual carnal intercourse without living together; penalty $100.\nThe opinion states the case.\nJames E. Lyday \u0026 S. F. Leslie, for appellant.—On question of insufficiency of evidence counsel cited cases mentioned in the opinion.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1219-01",
+    "first_page_order":  457,
+    "last_page_order":  458
+}

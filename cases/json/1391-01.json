@@ -1,0 +1,234 @@
+﻿{
+    "id":  2020868,
+    "name":  "STATE OF FLORIDA v. BRACKETT",
+    "name_abbreviation":  "State v. Brackett",
+    "decision_date":  "1991-06-14",
+    "docket_number":  "Case No. 91-3544-MM",
+    "first_page":  "103",
+    "last_page":  "108",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 103"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Duval Cty. Ct.",
+                  "id":  16484,
+                  "name":  "Duval County Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "269 U.S. 385",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          186255
+                                      ],
+                         "year":  1926,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/269/0385-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "508 So.2d 1307",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7605508
+                                      ],
+                         "year":  1987,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "1309"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/508/1307-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "388 So.2d 1232",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9608141
+                                      ],
+                         "year":  1980,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "1233"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/388/1232-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "387 So.2d 943",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9587405
+                                      ],
+                         "year":  1980,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "945"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/387/0943-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "71 So. 915",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So.",
+                         "year":  1916,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "435 So.2d 816",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7641445
+                                      ],
+                         "year":  1983,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "820"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/435/0816-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "342 U.S. 246",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          641097
+                                      ],
+                         "year":  1952,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/342/0246-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "388 So.2d 561",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9578614
+                                      ],
+                         "weight":  2,
+                         "year":  1980,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "563"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/388/0561-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "343 So.2d 605",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9684297
+                                      ],
+                         "year":  1977,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/343/0605-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "376 So.2d 230",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9588205
+                                      ],
+                         "year":  1979,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/376/0230-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "346 So.2d 991",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9693125
+                                      ],
+                         "weight":  2,
+                         "year":  1977,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/346/0991-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  549,
+                     "char_count":  11297,
+                     "ocr_confidence":  0.896,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07304537832128437
+                                  },
+                     "sha256":  "16a788d7b473b15a15f0d4d49fc6afd2d5321f31a49f77f69f200906e3e7eb3e",
+                     "simhash":  "1:62bd55cfb960408a",
+                     "word_count":  1739
+                 },
+    "last_updated":  "2024-02-27T22:50:07.903550+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "STATE OF FLORIDA v BRACKETT"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nMORTON A. KESLER, County Judge.\nDefendant filed a Motion to Dismiss alleging that Florida Statute 386.041 is unconstitutionally vague, indefinite, and uncertain under the Fourteenth Amendment to the U.S. Constitution, and Article One, Section 9 of the Florida Constitution. The Court subsequently received legal argument from Defendant and the State.\nDefendant is charged with creating, keeping or maintaining both untreated or improperly treated human waste and an improperly built or maintained septic tank; which are two separate violations of Florida Statute 386.051 and 386.041.\nDefendant alleges that because Florida Statute 386.041 fails to define untreated or improperly treated human waste it fails to provide any standard or guideline to determine what conduct is unlawful. Defendant was unable to cite any supporting case law for this allegation.\nAlthough Florida Statute 386.041 does not define “untreated”, “improperly”, “treated”, “human” and “waste”, the statute is not unconstitutionally vague as these terms are words of common usage that a person of common intelligence would understand construing the words in their plain and ordinary sense.\nFlorida Statutes 386.041 and 386.051 are not void for vagueness. Florida Statute 386.051 is phrased so that persons of common intelligence have adequate notice as to the nature of the proscribed conduct, to-wit: it is a crime to create, keep or maintain a nuisance injurious to health. Florida Statute 386.041 clearly and specifically defines acts or omissions which constitute nuisances injurious to health. Taken together no person of common intelligence need guess at the meaning or application of Florida Statute 386.041 or 386.051.\nIt is common knowledge that the purpose of a septic tank system is to prevent contamination by human waste to the earth’s surface and waters. A proper septic tank system keeps the human waste contained while treating and disposing of the waste by forcing the waste to filter downwards through cleansing materials within the earth.\nOn January 25, 1991, health inspectors found Defendant kept or maintained an improperly maintained septic tank system which was allowing sewage to overflow the sand filter surface and discharge from the sides of the filter, to the ground surface. Florida Statutes 386.041(l)(b) and 386.051 provide adequate notice to persons of common intelligence that it is prohibited to keep or maintain a septic tank system which allows human waste to overflow and discharge directly to the ground surface. Defendant’s septic tank system failed to contain the sewage; this is an obvious violation of 386.041(l)(b).\nOn January 25, 1991, health inspectors also found Defendant kept or maintained untreated or improperly treated human waste uncontained on the ground surface. Florida Statutes 386.041(l)(a) and 386.051 clearly provide adequate notice to persons of common intelligence that it is prohibited to keep or maintain untreated or improperly treated human waste on the ground surface. Besides the obvious fact that any human waste discharged to the surface could not have been properly treated, a person of common intelligence would readily identify, by sight and odor, the untreated nature of the human waste, as the health inspector did. It was readily apparent to everyone who suffered the sensory onslaught of Defendant’s uncontained sewage that Defendant maintained untreated or improperly treated human waste; this is an obvious violation of 386.041(l)(a).\nThe Defendant in this case has no standing to allege that Florida Statutes 386.041 and 386.051 are unconstitutionally vague as her conduct clearly falls within the statutory prohibition. Hamilton at 562. Further, in addition to the adequate notice provided by Florida Statutes 386.041 and 386.051, Defendant admitted, while testifying before the Court, that she had previously been cited by the Health Department for her improper septic tank system and for maintaining untreated or improperly treated human waste.\nThe cases Defendant cited in support of her argument are distinguishable. In State v Winters, 346 So.2d 991 (Fla. 1977) called into doubt by Cobb v State, 376 So.2d 230 (1979), the Court struck down a statute which prohibited “negligently depriving] a child of necessary food, shelter or medical treatment”. The Court found the statute to be unconstitutionally vague, stating that “there are no guidelines”. Id., at 993. In State v Wershow, 343 So.2d 605 (Fla. 1977) the Court declared a statute which prohibited “any malpractice” without further defining the term unconstitutionally vague.\nUnlike the statutes at issue in Winters and Wershow, Florida Statutes 386.041 and 386.051 provided adequate guidelines and notice to Defendant that her conduct in creating, keeping or maintaining “untreated or improperly treated human waste,” which in this case resulted directly from an “improperly built or maintained septic tank,” constituted prima facie evidence of a nuisance injurious to health and was therefore prohibited by law.\nFurther, the Court finds that contrary to Defendant’s assertion, Florida Statutes 386.041 and 386.051 are not similar to Florida Statute 823.01 nor to Jacksonville Municipal Ordinance 376.110, which have been found unconstitutional. The various odor cases from other jurisdictions cited by the Defendant, wherein other laws were found unconstitutional are not on point. The law in each case cited is obviously distinguishable from the Florida Statutes 386.041 and 386.051. The most obvious distinction between the various odor laws and Florida Statute 386.041, is the odor laws were attempting to prohibit only the emission air contaminants at such a level that it might offend the public, whereas Florida Statute 386.041 prohibits all untreated or improperly treated human waste. The odor laws may have required the potential air polluter to guess what the effects their emissions had on the public. Apparently, the air emissions were legal until they offended the public. Contrarily, Florida Statute 386.051 requires no such guess work, it penalizes the guilty act without regard to its potential effects. Florida Statutes 386.041 and 386.051 do not contain any subjective words or standards.\nDefendant cited State v Hamilton, 388 So.2d 561 (Fla. 1980), State v Winters, 346 So.2d 991 (Fla. 1977) and Morisette v U.S., 342 U.S. 246 (1952), in an attempt to support her argument that Florida Statute 386.051 is unconstitutional as it imposes criminal liability for acts or omissions without criminal intent. Morisette does not support Defendant’s argument; in fact, the Court specifically recognized the validity of strict liability crimes. Hamilton and Winters are not on point. The statutes at issue in Hamilton and Winters both specifically set out “negligence” as the required criminal intent. Florida Statute 386.051 does not require any element of criminal intent, negligent or otherwise. The Court in Hamilton and Winters found the two statutes punishing “negligent” acts were unconstitutionally vague. This Court finds that Florida Statutes 386.041 and 386.051 are not unconstitutionally vague.\nPublic welfare offenses, like Florida Statute 386.051, punish offenders for creating a danger or probability of injury rather than direct or immediate injury. The guilty act alone makes out the crime. Intent is not a necessary element because regardless of the offender’s intent, the danger or injury to the State caused by violation is the same. If the accused does not will the violation, she is usually in a position to prevent it with no more care than society might reasonably expect. The purpose of strict liability offenses is to require a degree of diligence for public protection which renders violation impossible. Morisette at 246-247. Society reasonably expects, and by law demands, that people refrain from contaminating the community with untreated human waste.\nDefendant asserts that because nuisance may have been found in common law, Florida Statute 386.051 must be a specific intent crime. The law does not support such an allegation. The elements of a crime are derived from the statutory definition. State v Gray, 435 So.2d 816, 820 (Fla. 1983). Florida Statute 775.01 specifically provides that the common law is in force only where there is no existing provision by statute on the subject.\nFlorida Statute 386.051 is a constitutional, strict liability crime. Defendant’s mental intent is not an element of the statutory offense and is therefore irrelevant. The Florida Supreme Court has specifically recognized that it is within the power of the Legislature to dispense with the necessity of criminal intent and to punish particular acts without regard to the actor’s mental attitude. Gray at 819, Smith v State, 71 So. 915 (Fla. 1916).\nTherefore, the Court finds Florida Statutes 386.041 and 386.051 are constitutionally valid and are not void for vagueness. Further, the Court finds the Information upon which the Defendant is to be tried is a plain, concise and definite written statement of the essential facts constituting the two separate offenses charged, which properly tracks the appropriate statutory language.\nWHEREFORE, it is ORDERED AND ADJUDGED that the Defendant’s Motion to Dismiss is DENIED.\nDONE AND ORDERED in Chambers at Jacksonville, Duval County, Florida, this 14th day of June, 1991.\nAny person found guilty of creating, keeping or maintaining a nuisance injurious to health shall be guilty of a misdemeanor of the second degree, punishable as provided in Section 775.082 or Section 775.083, Florida Statute 386.051 (1989).\n(1) The following conditions existing, permitted, maintained, kept, or caused by any individual, municipal organization, or corporation, governmental or private, shall constitute prima facie evidence of maintaining a nuisance injurious to health:\n(a) Untreated or improperly treated human waste, garbage, offal, dead animals, or dangerous waste materials from manufacturing processes harmful to human or animal life and air pollutants, gases, and noisome odors which are harmful to human or animal life.\n(b) Improperly built or maintained septic tanks, water closets, or privies . . . Florida Statute 386.041 (1989).\nState v Hagan, 387 So.2d 943, 945 (Fla. 1980); State v Hamilton, 388 So.2d 561, 563 (Fla. 1980)\nMcKenney v State, 388 So.2d 1232, 1233 (Fla. 1980); Powell v State, 508 So.2d 1307, 1309 (1 DCA Fla. 1987). The purpose of the void for vagueness doctrine is to ensure individuals are given “fair notice of what conduct is prohibited by a specific criminal statute and to curb the discretion afforded to law enforcement officers and administrative officials in initiating criminal prosecutions”.\nConnally v General Construction Co., 269 U.S. 385 (1926).\nOfficial notice to Susan Brackett Branham of January 25, 1991.\nOfficial notice to Susan Brackett Branham of January 25, 1991.\nPublic welfare offenses are statutes or administrative regulations generally involving neglect werefsic] the law requires care, or inaction where it imposes a duty. Morisette at 246.",
+                                          "type":  "majority",
+                                          "author":  "MORTON A. KESLER, County Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Office of the State Attorney, for plaintiff.",
+                                       "Edward Booth, Jr., Esquire, for defendant."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "STATE OF FLORIDA v BRACKETT\nCase No. 91-3544-MM\nCounty Court, Duval County\nJune 14, 1991\nAPPEARANCES OF COUNSEL\nOffice of the State Attorney, for plaintiff.\nEdward Booth, Jr., Esquire, for defendant."
+                 },
+    "file_name":  "1391-01",
+    "first_page_order":  121,
+    "last_page_order":  126
+}

@@ -1,0 +1,66 @@
+﻿{
+    "id":  4559298,
+    "name":  "George Shilling v. The State",
+    "name_abbreviation":  "Shilling v. State",
+    "decision_date":  "1907-12-18",
+    "docket_number":  "No. 3924",
+    "first_page":  "326",
+    "last_page":  "327",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 326"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  177,
+                     "char_count":  2500,
+                     "ocr_confidence":  0.586,
+                     "sha256":  "176f4cf41ec7a60e7bdc9c40f0656bd4fa239e154095c0ed0635372fad5bb9d3",
+                     "simhash":  "1:6a9224d87bb3dae0",
+                     "word_count":  426
+                 },
+    "last_updated":  "2023-07-14T19:59:32.944253+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "George Shilling v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\nThis conviction was for horse theft. We have examined this record with a good deal of care, as the turning point in it is the want of sufficient evidence. The State made out a case, as far as this could be done, by the testimony of accomplices. It is admitted by the State that if the witness, Coffey, is an accomplice, then there is a want of corroboration. The evidence clearly makes this witness an accomplice. She accompanied the parties whom she testified committed the theft of this, and another horse or two, the same night. One of the alleged thieves was her paramour. She testifies to practically everything that was seen, said and done during the night when the different animals were taken; saw them taken, accompanied them from Yoakum to Hallettsville, during which time the several animals were taken, and she testified that she received money from her paramour, or at least one of the parties, after the disposition of one or more of the stolen horses, and reasonably makes it appear that it was some of the proceeds of one of the stolen horses.\nWe are of opinion that eliminating her testimony, there isn’t any corroborating evidence to show that appellant was connected with the taking of the horse in this connection, or any others that were taken that night. He was never seen in possession of any of them, nor is his presence shown at the time of the taking, except by the accomplices.\nFor want of sufficient evidence to sustain the conviction the judgment is reversed and the cause remanded.\nReversed and remanded.\nHenderson, Judge, absent.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Ho brief on file for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "George Shilling v. The State.\nNo. 3924.\nDecided December 18, 1907.\nTheft of Horse—Accomplice—Corroboration.\nWhere upon trial for the theft of a horse, the only testimony was that of a witness who accompanied the defendant and others who committed the alleged theft, and saw everything that was done when the animals were taken, and that she received some of the proceeds of one of the stolen horses after it was sold; and there being no corroborating evidence connecting defendant with the taking, defendant not having been found in possession of any of the stolen animals, the conviction could not be sustained.\nAppeal from the District Court of Lavaca. Tried below before the Hon. M. Kennon.\nAppeal from a conviction of theft of a horse; penalty, five years imprisonment in the penitentiary.\nThe opinion states the case.\nHo brief on file for appellant.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1179-01",
+    "first_page_order":  344,
+    "last_page_order":  345
+}

@@ -1,0 +1,68 @@
+﻿{
+    "id":  2021296,
+    "name":  "ZAPF v. A ACTION AUTOMOTIVE RELIABLE TRANSMISSION, INC.",
+    "name_abbreviation":  "Zapf v. A Action Automotive Reliable Transmission, Inc.",
+    "decision_date":  "1991-11-15",
+    "docket_number":  "Case No. 90-239AP (County Court Case No. 90-13688-SP05)",
+    "first_page":  "56",
+    "last_page":  "57",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 56"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  171,
+                     "char_count":  2254,
+                     "ocr_confidence":  0.888,
+                     "sha256":  "c1a560fff78ba43d191caaaf9ffc789fd434fa08d2012b7ce90b45b25c59b91d",
+                     "simhash":  "1:3a43adc50295c1ed",
+                     "word_count":  362
+                 },
+    "last_updated":  "2023-07-14T20:58:18.726299+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before GREENBAUM, KORNBLUM, TENDRICH, JJ.",
+                                    "TENDRICH and GREENBAUM, JJ., concur."
+                                ],
+                     "parties":  [
+                                     "ZAPF v A ACTION AUTOMOTIVE RELIABLE TRANSMISSION, INC."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nKORNBLUM, J.\nAppellant delivered his automobile to the Appellee to fix the transmission.\nWhen the repairs were completed, the Appellant paid for the work but refused to sign a work authorization or an estimate.\nWhen Appellee refused to deliver the vehicle, the Appellant filed his complaint in Pre-Judgment Replevin pursuant to Chapter 78, F.S. Thereafter by amendment, Appellant sought damages for the loss of use of the vehicle.\nA Writ Of Replevin was issued and the vehicle was seized and returned to the Appellant. The Appellee took no action to recover the vehicle under the statute.\nThereafter at Pre-Trial Conference, the Court granted Appellee’s Motion To Dismiss, finding that Appellant was not entitled to damages for the loss of use of his vehicle in a Replevin Action. This finding is erroneous. See § 78.18 F.S. This Appeal is from the Order Dismissing The Claim For Damages.\nIt is urged by Appellee that the Court in dismissing the Claim found that the damages claimed by Appellant were too speculative. We have searched the record and have found no such determination.\nAppellee further argues that Appellant has misconceived his remedy; that he should have sought relief under Chapter 559, F.S., where by posting a bond the Appellant could have obtained the immediate release of his vehicle.\nWe agree that Appellant should have proceeded under Chapter 559 F.S., but that was not Appellant’s exclusive remedy.\nThe Appellant is entitled to an evidentiary hearing to determine if he sustained any damage in the loss of use of his vehicle, but since he was obliged to mitigate his damages, they should be limited to the loss suffered for the period of time between the Appellee’s refusal to deliver the vehicle and the time the Appellant could have reasonably furnished a bond under Chapter 559 F.S.\nReversed and Remanded for proceedings consistent with this opinion.\nTENDRICH and GREENBAUM, JJ., concur.",
+                                          "type":  "majority",
+                                          "author":  "KORNBLUM, J."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Richard L. Zapf, Esquire, pro se.",
+                                       "Randolph Quentin Ferguson, Esquire, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "ZAPF v A ACTION AUTOMOTIVE RELIABLE TRANSMISSION, INC.\nCase No. 90-239AP (County Court Case No. 90-13688-SP05)\nEleventh Judicial Circuit, Dade County\nNovember 15, 1991\nAPPEARANCES OF COUNSEL\nRichard L. Zapf, Esquire, pro se.\nRandolph Quentin Ferguson, Esquire, for appellee.\nBefore GREENBAUM, KORNBLUM, TENDRICH, JJ."
+                 },
+    "file_name":  "1351-01",
+    "first_page_order":  76,
+    "last_page_order":  77
+}

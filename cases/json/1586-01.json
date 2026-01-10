@@ -1,0 +1,70 @@
+﻿{
+    "id":  8552016,
+    "name":  "Guy V. Miller v. State",
+    "name_abbreviation":  "Miller v. State",
+    "decision_date":  "1959-03-25",
+    "docket_number":  "No. 30,557",
+    "first_page":  "561",
+    "last_page":  "563",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 561"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  218,
+                     "char_count":  2569,
+                     "ocr_confidence":  0.532,
+                     "pagerank":  {
+                                      "raw":  1.2096653947450388E-07,
+                                      "percentile":  0.5956132963736496
+                                  },
+                     "sha256":  "2479e5dbf9fddba1bd0c6c7bbf667a529a70763317f51710ca3aa7f8be923197",
+                     "simhash":  "1:ae22a93a2514f7f7",
+                     "word_count":  434
+                 },
+    "last_updated":  "2023-07-14T16:09:04.443318+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Guy V. Miller v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nThe offense is aggravated assault with a motor vehicle; the punishment, a fine of $1000.\nAppellant, a deputy sheriff of Harris County, was driving a patrol car on a four lane highway in one of the lanes for traffic moving toward Houston while he was traveling in the opposite direction. A collision with an automobile being properly driven toward Houston resulted in injury to the driver.\nThis and additional evidence that appellant was driving in a negligent manner prior to the collision was the evidence, the sufficiency of which is not questioned.\nThe sole question presented and urged upon the appeal is the contention that appellant\u0027s plea of former jeopardy should have been sustained.\nThe bill of exception shows that appellant had been placed on trial for the offense here charged; that after the evidence had been heard, the charge presented and arguments concluded, the jury deliberated and after approximately four hours, including the jury’s lunch period, reported to the court that they were unable to agree, and over objection of appellant and his counsel, the jury was discharged.\nThe bill further shows that the former trial was a joint trial for two misdemeanor offenses; that the trial began on May 12 and both cases were submitted to the jury on May 13.\nArt. 682 Y.A.C.C.P. provides that the court may, in its discretion, discharge the jury when they have been kept together for such time as to render it altogether improbable that they can agree.\nArt. 684 V.A.C.C.P. provides that when the jury has been so discharged without reaching a verdict, the case may be tried again.\nWe are cited to no authority and know of none which would support the conclusion that the facts stated in the bill show an abuse of discretion by the trial judge in discharging the jury and declaring a mistrial after they had been kept together for four hours and were unable to agree.\nThe evidence before the court not set out in the bill shows further that the jurors were equally divided and had been deadlocked without change for two or three hours; that four stated that they would not change and each expressed the view that they could not agree.\nUnder the facts, the discharge of the jury at the former trial did not constitute jeopardy barring another trial.\nThe judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Sam Hoover, Pasadena, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White and Samuel H. Robertson, Jr., Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Guy V. Miller v. State.\nNo. 30,557.\nMarch 25, 1959.\nSam Hoover, Pasadena, for appellant.\nDan Walton, District Attorney, Thomas D. White and Samuel H. Robertson, Jr., Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1586-01",
+    "first_page_order":  579,
+    "last_page_order":  581
+}

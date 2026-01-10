@@ -1,0 +1,122 @@
+﻿{
+    "id":  4560653,
+    "name":  "Moss Taylor v. The State",
+    "name_abbreviation":  "Taylor v. State",
+    "decision_date":  "1907-12-04",
+    "docket_number":  "No. 3774",
+    "first_page":  "190",
+    "last_page":  "193",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 190"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "33 S. W. Rep., 1085",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "34 S. W. Rep., 112",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "35 Texas Crim. Rep., 403",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          158569
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/35/0403-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "31 S. W. Rep., 387",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "34 Texas Crim. Rep., 498",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4482982
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/34/0498-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "8 S. W. Rep., 488",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  462,
+                     "char_count":  10739,
+                     "ocr_confidence":  0.573,
+                     "pagerank":  {
+                                      "raw":  2.5916105598991863E-07,
+                                      "percentile":  0.8184988777337984
+                                  },
+                     "sha256":  "2c7390b88ff8993ed27b5f3400a96d706e150ef8b4ccf2c3dfb2b17649c164de",
+                     "simhash":  "1:272306205817b8bb",
+                     "word_count":  1876
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Moss Taylor v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\nAppellant was convicted of burglary. There were two bills reserved to the admission of testimony, bringing before us practically the same question. It is asserted in the first bill that Jeff Webb was permitted to testify that about 8 o’clock or a little after on the night of the alleged burglar)\u0027\u0027, he walked along and looked at the side of the house and under it saw a hammer and file on the ground, which he picked up and made inquiry as to the ownership; that he further stated that defendant was standing to one side and said “It is mine.” Webb asked him what he was doing with it there. Appellant replied that he had been knocking off wire for Mr. Crowder with the hammer and file, and that he (appellant) had worked rather late, and was coming up to meet a woman on that nine o’clock train and took the hammer and file with him and threw them under the house. Objection was urged to this testimony on the ground that it was irrelevant, improper and immaterial, and was offered for the purpose of laying a predicate to introduce evidence of Mr. Crowder to impeach defendant, and that same was an improper way of making defendant testify, although he did not take the stand. The bill was qualified with the explanation that the testimony was not offered for the purpose above stated, but as a declaration of defendant and as a part of the transaction. Crowder was then permitted to take the stand and contradict appellant’s statement, and to testify that defendant had been working for him the day preceding the burglary at night, but was plowing, and that appellant had not been working on any wire fence, pulling out staples, and that “You couldn’t draw out any staples without a file and hammer; that was not the work he (defendant) was doing.” This was original testimony. The proof indicates that the house was burglarized by pulling a staple out of the door that held a padlock which locked the door, and by that means entry was made, and that on the staple drawn was evidence that a file had been used. We are of opinion that this evidence was clearly admissible as original testimony. Appellant was accounting for the presence of the file and hammer under the house before the burglary by reason of the fact that he had been working that day with the hammer and file on a wire fence for Mr. Crowder. Mr. Crowder was permitted to show this to be false.\nThe court charged the jury, “If defendant did not enter the house in question you Avill find him not guilty.” This excerpt immediately follows the submission of the issues to the jury which would authorize them to convict, in which they were told if they should find from the evidence beyond á reasonable doubt that defendant, Hose Taylor, at any time, etc., did by force in the night-time enter the house of Webb Bros., as charged with intent to commit the,crime of theft, they would find him guilty of burglary, etc. Then comes the excerpt criticised: “If defendant did not enter the house in question you will find him not guilty.” We have held this character of charge is sufficient and not on the weight of testimony. The court gave a full charge on the law of circumstantial evidence.\nIt is contended the evidence is not sufficient. We are of opinion it is. In addition to the circumstances, which were rather cogent, we have appellant’s confession.\nAs this record is presented, the judgment should be affirmed, and it is so ordered.\nAffirmed.\nHenderson, Judge, absent.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      },
+                                      {
+                                          "text":  "ON REHEARING.\nJanuary 15, 1908.\nDAVIDSON, Presiding Judge.\n—At the recent Tyler term the judgment in this case was affirmed. It is urged in the motion for rehearing that the evidence is not sufficient to sustain the conviction, in that the only element of the offense of burglary established was the breaking of the lock, which fastened the door, the evidence failing to show an entry into the building or any intent to commit the offense of theft; and that the evidence is not sufficient to show a night-time burglary. We have reviewed the facts again carefulty, and believe the former opinion is correct, as far as this question is concerned. That the house was\u0027broken by somebody is shown by the testimony clearly and unequivocally.\nThe facts, in substance, show that the door broken open was fastened by a padlock, which was pried apart and the entrance to the house in this manner obtained. In addition to this appellant admitted the fact that he broke the lock, but denied entering the house. So we have a clear case of breaking.\nThe remaining question suggested is whether or not there was an entry. The evidence of three witnesses shows that a plug of tobacco was taken, and also some cheroots; and it is further shown that the cash drawer had been opened, and was so found to be next morning. The witness testifies positively that he took the money out of the cash drawer before he closed at night, and closed or fastened it. If the testimony for the State then is to be credited, somebody took the tobacco and the cheroots and opened the drawer. The party could not do all these things without having entered the house.\nWith reference to the evidence as to it being a night-time burglary, it is sufficient to state that the house was entered some time after 8:30 o’clock, at night, and before daylight the next morning. Appellant’s confession is as follows: “I went up to Webb’s store and I filed a lock and pried it off, but did not go in.” I asked what he did with the lock. He said, “I threw it in the middle of the tank which is about two or three hundred yards from the store.” The first witness at the store the next morning states, in substance, that he was at the store before it was good daylight. The store was closed about 8:30 o’clock at night. So between 8:30 o’clock at night and before daylight the following morning the burgary occurred. Appellant, after leaving the store, went to a place in the neighborhood and spent the remainder of the night. So. the case substantially shows that the house was entered between 8:30 at night and midnight. These circumstances show beyond a reasonable doubt that the house was entered in the night-time.\nWe are of opinion that the testimony complained of in bill of exceptions with reference to the testimony of Webb, and what appellant claimed was impeaching testimony of Crowder, was admissible. The court states, it was introduced as a declaration of appellant, while appellant claims it was impeaching testimony. We think it was original testimony, but even if it was used only for the purpose of impeachment, it was clearly admissible. Appellant brought his file and hammer to the burglarized store and placed them under the side of the store, and when inquiry was made as to whose property it was and why it was there, appellant replied that it was his, and that he had been working for Mr. Crowder on his wire fence, as stated in the original opinion. Crowder was placed upon the stand and did contradict this fact stated by appellant as to his working on Crowder’s fence. Appellant seemed to think that it was necessary to explain why he brought the file and hammer to the store. They were used in breaking the lock. We are of opinion this was very material testimony, even if impeaching. He (appellant) brought the property to the store he confessed to have used in the breaking, and made a false statement in regard to why it was brought. We are, therefore, of opinion that there was no error either committed by the trial court or in the original opinion in affirming the judgment.\nThe motion is therefore overruled.\nOverruled.",
+                                          "type":  "rehearing",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "S. E. Stratton, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Moss Taylor v. The State.\nNo. 3774.\nDecided December 4, 1907.\nREHEARING OVERRULLED, January 15, 1908.-\n1. —Burglary—Declaration by Defendant—Evidence—Impeaching Testimony.\nUpon trial for burglary there was no error in admitting defendant’s declaration that he owned a certain hammer and file about which the State’s witness made inquiry of defendant, and his further statement that defendant threw said hammer and file under the house where witness picked them up, and that defendant had been using these tools in working for the prosecutor in knocking off wire; and then permitting the State to show by prosecutor that defendant \u0027had not been working on any wire fence, etc., but had been ploughing. This was original testimony; but even if impeaching testimony was admissible.\n2. —Same—Charge of Court—Weight of Testimony.\nUpon trial for burglary where the court submitted in his charge the law applicable to the facts which constitutes burglary, and then concluded his charge with the words, “If defendant did not enter the house in question you will find him not guilty,” the same was not on the weight of testimony.\n3. —Same—Breaking—Sufficiency of Evidence.\nWhere upon trial for burglary, the evidence showed that the door broken open was fastened by a padlock, which was pried apart and the entrance to the house in this manner obtained, and defendant admitted the fact that he broke the lock, but denied entering the house, the breaking was proved, and there was no error.\n4. —Same—Evidence of Entry.\nWhere upon trial for burglary, the State’s evidence showed that certain articles had been taken from a cash drawer which had been fastened, and that these articles could not have been taken except by an entry of the house, the entry was proven.\n5. —Same—Night-Time Burglary.\nWhere upon trial for burglary the evidence showed that the burglarized house was entered some time after 8:30 o’clock at night and before daylight the next morning, the same showed beyond a reasonable doubt that the house was entered in the night-time.\nAppeal from the District Court of McLennan. Tried below before the Hon. Sam B. Scott.\nAppeal from a conviction of burglary; penalty, two years imprisonment in the penitentiary.\nThe opinion states the case.\nS. E. Stratton, for appellant.\nBecause this court erred in not sustaining appellant’s first and second assignments of error and in holding said evidence sufficient to sustain the conviction of defendant, in that the only element of the offense of burglary estabished was the breaking of the lock (if such alone constitutes a sufficient breaking) the evidence not showing any entry into said building by defendant, or intent to commit the offense of theft, nor that said entry, if proven, was a night-time burglary, as all of said evidence is circumstantial and does not create any certainty of the commission of any offense. Morgan v. The State, 25 Texas Crim. App., 498; 8 S. W. Rep., 488; Munson v. The State, 34 Texas Crim. Rep., 498; 31 S. W. Rep., 387; Attaway v. The State, 35 Texas Crim. Rep., 403; 34 S. W. Rep., 112; Barrett v. The State, 33 S. W. Rep., 1085.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1137-01",
+    "first_page_order":  208,
+    "last_page_order":  211
+}

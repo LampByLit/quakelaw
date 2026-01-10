@@ -1,0 +1,352 @@
+﻿{
+    "id":  8546479,
+    "name":  "J. C. Mount v. State",
+    "name_abbreviation":  "Mount v. State",
+    "decision_date":  "1958-05-28",
+    "docket_number":  "No. 29,794",
+    "first_page":  "7",
+    "last_page":  "15",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 7"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "265 S.W. 2d 811",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10204390
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/265/0811-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "159 Texas Cr. Rep. 535",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2477637
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/159/0535-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "253 S.W. 2d 1002",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10223815
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/253/1002-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "158 Texas Cr. Rep. 145",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2478838
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/158/0145-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "193 S.W. 669",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10326076
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/193/0669-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "80 Texas Cr. Rep. 622",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4728227
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/80/0622-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "262 S.W. 2d 504",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10191335
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/262/0504-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "159 Texas Cr. Rep. 220",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2473543
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/159/0220-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "31 S.W. 377",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "34 Texas Cr. Rep. 500",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4482183
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/34/0500-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "38 S.W. 173",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "36 Texas Cr. Rep. 547",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2359793
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/36/0547-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "5 S.W. 510",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "69 S.W. 2d 104",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          5267835,
+                                          10234318
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/125/0545-01",
+                                            "/sw2d/69/0104-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "125 Texas Cr. Rep. 545",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5267835
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/125/0545-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "111 S.W. 2d 267",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          12031648
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/111/0267-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "133 Texas Cr. Rep. 402",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5233727
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/133/0402-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "272 S.W. 490",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10310221
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/272/0490-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "100 Texas Cr. Rep. 172",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5092690
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/100/0172-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "206 S.W. 357",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8269468
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/206/0357-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "84 Texas Cr. Rep. 195",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4767232
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/84/0195-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "184 S.W. 204",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8245262
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/184/0204-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "79 Texas Cr. Rep. 277",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4723173
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/79/0277-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "78 S.W. 937",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "45 Texas Cr. Rep. 569",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4530880
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/45/0569-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  727,
+                     "char_count":  15642,
+                     "ocr_confidence":  0.588,
+                     "pagerank":  {
+                                      "raw":  1.6494017510977859E-07,
+                                      "percentile":  0.6924710668459821
+                                  },
+                     "sha256":  "ae7bbb777d660c345a200dd369dafa5f01f7ec13e5b7b9f06b223db250fdd39b",
+                     "simhash":  "1:a7fb64b3fc762af3",
+                     "word_count":  2702
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "J. C. Mount v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is theft by false pretext under an indictment charging ordinary theft; the punishment, five years.\nThe appellant, a practicing attorney and secretary of the Home Guaranty Abstract Company, was manager of the Ridge-lea branch office of that company in the city of Fort Worth and, as such, had the authority to write insurance policies for the Commercial Standard Insurance Company. As a preliminary to the writing of such policies, it was business practice that notification called a “title binder” be sent to the person or firm who was to lend the money, indicating that the insurance company stood ready to indemnify the mortgagee for any loss they might sustain as the result of a defect in the title to property upon which money was to be loaned. In order that the parties might know what insurance protection was being afforded, it became necessary for the “title binder” as well as the policy to state what liens, if any, were outstanding against the property. For this purpose, on the face of the “title binder” the printed words appeared stating that title was approved in the mortgagor:\n“Section B.\n“Subject to the following:\n❖ ❖ ❖ *\n“2. (Easements, rights of way, liens, etc.)”\nOn February 16, 1956, the appellant, acting for the insurance company and the abstract company, sent a title binder addressed to J. E. Foster \u0026 Son, Inc., in which it stated that a title in a certain lot in the city of Fort Worth was approved in one Adrian D. Davis, and under “Easements, rights of way, liens, etc.,, as shown above, no mention was made of an outstanding lien of $8,000.00, a title policy to cover which the appellant himself had signed and issued to another mortgagee some three months before.\nThe title binder described a note and lien securing the same as a Deed of Trust executed by Davis to secure the payment of a $10,500.00 note payable to J. E. Foster \u0026 Son., Inc. and recited that said Warranty Deed, Deed of Trust and all supporting papers would be filed for record upon approval of the mortgage loan papers, and further provided:\n“Upon the completion of the improvements, if any, on said property, the owners’ acceptance thereof and a showing satisfactory to the undersigned that all bills for labor and material in connection therewith have been paid in full, upon payment of all taxes and assessments then due upon said property, and upon compliance with restrictive covenants now affecting the property, we will issue a first-subordinate lien mortgagee’s title policy on the standard form prescribed by the Board of Insurance Commissioners of Texas, then in use, on said property covering said lien set forth under Paragraph 5 above or a valid renewal and extension thereof, subject only to the matters set out in Section B, paragraph 2 above, the printed exceptions contained in said standard form and to taxes and assessments for the current year.”\nMortgagee’s policy countersigned by appellant as agent of Home Guaranty Abstract Company, Ridglea Branch, and dated March 1, 1956, recited that the Deed of Trust had been filed and recorded that day insuring against all loss or damage J. E. Foster \u0026 Son., Inc., may sustain or suffer by reason of defects in encumbrances upon or lien or charges against the title of mortgagors to said lot.\nAs in the mortgagee’s title policy binder, the mortgagee’s policy did not list an outstanding lien against the lot to secure an $8,000.00 note payable to Mutual Savings \u0026 Loan Association among the matters against which the company did not insure or agree to indemnify, though appellant as agent of the same abstract company countersigned a like mortgagee’s policy issued by the same insurance company to secure against simliar loss upon a lien on the same lot on November 6, 1955.\nAn application for a real estate loan was made by Adrian D. Davis to J. E. Foster \u0026 Son., Inc., to be secured by a first lien on said lot, in which it was represented that said property had been purchased on January 28, 1956, at a price of $16,400.00 from Critz Realty, of which $5,000 had been paid, and that proceeds of the loan of $10,500.00 was to be used as part of the purchase price.\nOne Lynn Hill, acting for J. E. Foster \u0026 Son., Inc., in reliance upon these instruments, issued a check in the sum of $10,-500.00 which was sent to the abstract company and deposited to the account of Home Guaranty Abstract Company, Ridgelea Branch. The $8,000.00 lien was not paid off by the appellant, and the proceeds of the $10,500.00 check passed through the account of the abstract company. Shortly after the receipt of the Hill check, the appellant wrote four checks on the abstract company payable to himself in the total sum of $3,862.00. Within a short while after the Hill check was received, the abstract company bank account was shown to be overdrawn in the sum of $10,000.00.\nDavis made the application for the loan from J. E. Foster \u0026 Son, Inc., in the appellant’s office and received $105.00 or 10% of the loan, from the appellant for so doing. It was also shown that on two other occasions the appellant, acting for the abstract company, had failed to inform mortgagees of outstanding liens and, by his conduct, had led them to believe that they were securing first liens when in fact they were not.\nThese, we have concluded, are the salient features of the case, but the evidence will be discussed more fully in connection with contentions presented by appellant’s eminent attorney in brief and argument.\nThe sufficiency of the evidence to show that the appellant made any misrepresentations to the injured party is challenged. Hill testified that all- his business with the appellant had been over the telephone and that he did not remember having ever discussed the Davis transaction. It is the appellant’s contention that the mere failure to list the outstanding lien in the proper place on the title binder without anything further being said does not constitute such a false pretext as might supply a basis for this prosecution. The mere act of submitting through the channels of trade this written instrument, which should have contained a recitation of the outstanding indebtedness but which did not, considered in the light of the entire tranaction, constituted a false pretext and representation by which appellant received and appropriated the proceeds of the check issued by Hill for which the appellant may be prosecuted under the charge at bar. The fact that the binder contained other representations and commitments which were not untrue will not alter the case.\nAppellant next contends that the evidence fails to support a finding that Hill ever saw or read the title binder. We quote from the record:\n“Q. Mr. Hill, I will ask you whether or not you received that in the regular course of business prior to the time you made any loan on the lot described therein? A. Yes, sir, I did.\n“Q. I will ask you whether or not you relied in making a loan upon the representations that appear in this binder? A. Yes, I did. (S. of F. p. 127).”\nIt is true that Hill further testified that he had a young lady in his office who in most cases examined the papers, brought the file to him, told him that the papers were in order, and that he would then usually issue the check to cover the transaction, yet the fact remains that the binder fails to disclose the outstanding indebtedness and Hill testified that he would not have issued the check if he had known of the same.\nAppellant asserts that this prosecution must fail because there is no proof that he ever personally received any of the $10,500.00 from Hill. While it is true that the Hill check was credited to the account of the abstract company, we have noted earlier in the opinion that the appellant drew checks payable to himself totaling $3,862.00 from said account. A showing that the appellant received any sum in excess of $50.00 would support this prosecution.\nAppellant next contends that the court erred in permitting the witness Hill to give his construction and interpretation of the title binder. Hill was asked and answered the following questions:\n“Q. Do there appear to be any restrictions or any indebtedness against the property shown in that title binder? A. I see none.\n“Q. Just explain to the Jury what a title binder is? A. A binder is issued with the closing papers telling us it (sic) satisfactory for us to issue our check for the funds and that a title policy guaranteeing that this will be a first and valid lien will follow. That is my opinion.\n“Q. Explain to the Jury, if you will, what a title binder is? A. A title binder is that it states that the property will be free and clear of debt.”\nIn effect, Hill was stating that, since no outstanding lien was listed under “Easements, rights of way, liens, etc.” such fact constituted a representation that none existed.\nAppellant relies upon those authorities such as Thurman v. State, 45 Texas Cr. Rep. 569, 78 S.W. 937; Meredith v. State, 79 Texas Cr. Rep. 277, 184 S.W. 204; Villafranco v. State, 84 Texas Cr. Rep. 195, 206 S.W. 357; and Cox v. State, 100 Texas Cr. Rep. 172, 272 S.W. 490, which hold that parol evidence is not admissible to supply the terms of a written instrument not introduced in evidence, and Ex parte Jones, 133 Texas Cr. Rep. 402, 111 S.W. 2d 267, which holds that parol evidence is not admissible to show what the county commissioners, who voted for an order which was passed by the commissioners court and incorporated in the minutes of the court, intended to accomplish by the order mentioned. All of these cases involve clear violations of the parol evidence rule. Such, however, is not the case at bar. Here, Hill added nothing to, detracted nothing from, nor did he contradict the terms of the title binder which said on its face that there was no outstanding lien against the property.\nHe next contends that the court erred in instructing the jury as follows:\n“* * * and if you further find, beyond a reasonable doubt, that the said sum of money was so obtained by the defendant from Lynn Hill by means of a false pretext then made to the said Lynn Hill, by the defendant, to-wit: by representing to the said Lynn Hill that the property known as Lot 3-B, Block 5, Z. Zoaz Country Place, Fort Worth, Tarrant County, Texas was then free and clear of any and all liens except one then being created by a note and deed of trust from Adrian D. Davis to J. E. Foster, Jr., Trustee, for the sum of $10,500.00 payable to the order of J. E. Foster \u0026 Son, Incorporated * *\nHis contention that there is no evidence to support such a a charge has already been discussed. His contention that such charge is on the weight of the evidence is answered in Hoovel v. State, 125 Texas Cr. Rep. 545, 69 S.W. 2d 104, wherein this court said:\n“It has been held by this court in the case of Smith and Coker v. State, 24 Texas App. 1, 5 S.W. 510; Broxton v. State, 9 Texas App. 97; Darbyshire v. State, 36 Texas Cr. Rep. 547, 38 S.W. 173; Overly v. State, 34 Texas Cr. Rep. 500, 31 S.W. 377, that it is within the province of the trial court to construe the legal effect and meaning of documents and other written instruments and a charge on such legal effect and meaning would not be a charge on the weight of the evidence.”\nAppellant further contends that the State’s Exhibit No. 1, the title binder, was not admissible because not set out in the indictment, and relies upon Leinart v. State, 159 Texas Cr. Rep. 220, 262 S.W. 2d 504, and Wilson v. State, 80 Texas Cr. Rep. 622, 193 S.W. 669. It should be borne in mind that both Leinart and Wilson were swindling cases, and in such cases the misrepresentation must be set forth in the indictment. These cases held that, where it was necessary to set forth the misrepresentation in an indictment and the state relied on a written instrument to supply such misrepresentation, such instrument should be set forth in the indictment. Such is not the case at bar. The indictment here charged theft, and under the holding of this court in Gibbs v. State, 158 Texas Cr. Rep. 145, 253 S.W. 2d 1002, Redding v. State, 159 Texas Cr. Rep. 535, 265 S.W. 2d 811, and the cases there cited, a prosecution for theft by false pretext may be maintained under a straight theft indictment. Hence, there was no necessity to allege the misrepresentation in the indictment, and therefore no necessity to set forth the written instrument upon which the state relied to establish such misrepresentation.\nAppellant last contends that the court erred in failing to grant certain requested charges. An examination of the charge as given reflects that the court instructed the jury to acquit if:\n1. They found that Hill had no knowledge of the contents of the title binder.\n2. They found that Hill did not rely upon representations made by the appellant.\n3. They found that the appellant did not know of the existing lien at the time he sent the title binder to Hill, and\n4. They found that the appellant did not know that the representations which he made to Hill were false.\nThese instructions covered the same defense even more fully than the requested charges.\nWe find the evidence sufficient to support the conviction, and, no reversible error appearing, the judgment of the trial court is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      },
+                                      {
+                                          "text":  "ON APPELLANT’S MOTION FOR REHEARING\nDICE, Judge.\nAppellant insists that in our original opinion we misinterpreted the provisions of the title binder in holding that the failure to list the outstanding $8,000.00 lien as an exception under Schedule B constituted such a misrepresentation as would support his conviction. Appellant contends that the title binder only provided that a title policy would be issued insuring Foster \u0026 Company, the mortgagee, from any loss of its $10,500 loan by reason of title defects; that if the $8,000.00 lien had been listed in Schedule B as an exception it would not have been insured against and by not listing the same Foster \u0026 Company was insured from any loss by reason of its existence.\nWhile appellant’s interpretation of the provisions of the title binder be correct that the failure to list the $8,000.00 outstanding lien as an exception under Schedule B had the effect of insuring the loan of the mortgagee against the lien, such fact is not controlling on the question of his guilt. The controlling question is whether the issuance of the title binder upon a fictitious sale omitting to list the outstanding lien constituted a misrepresentation to the injured party.\nWe have again reviewed the record in the light of appellant’s contention and remain convinced that in transactions between the parties it was contemplated that all outstanding liens against the property would be shown in the title binder under Schedule B and that the loan insured by appellant would be secured by a first and valid lien on the property. In furnishing the title binder without listing the prior outstanding lien appellant represented that there was no outstanding lien against the property, which representation was false and relied upon by the injured party in issuing the check, the proceeds of which were appropriated by appellant.\nThe motion for rehearing is overruled.\nOpinion approved by the Court.",
+                                          "type":  "rehearing",
+                                          "author":  "DICE, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Martin, Moore \u0026 Tackett, by Arthur Lee Moore, Fort Worth, for appellant.",
+                                       "Hotoard M. Fender, Criminal District Attorney, John E. McLean, Albert F. Fiok, Jr., Assistants Criminal District Attorney, Fort Worth, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "J. C. Mount v. State.\nNo. 29,794.\nMay 28, 1958.\nAppellant’s Motion for Rehearing Overruled October 8, 1958.\nAppellant’s Second Motion for Rehearing Overruled November 12, 1958.\nMartin, Moore \u0026 Tackett, by Arthur Lee Moore, Fort Worth, for appellant.\nHotoard M. Fender, Criminal District Attorney, John E. McLean, Albert F. Fiok, Jr., Assistants Criminal District Attorney, Fort Worth, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1300-01",
+    "first_page_order":  25,
+    "last_page_order":  33
+}

@@ -1,0 +1,105 @@
+﻿{
+    "id":  4563407,
+    "name":  "George Popinaw v. The State",
+    "name_abbreviation":  "Popinaw v. State",
+    "decision_date":  "1908-01-29",
+    "docket_number":  "No. 3999",
+    "first_page":  "409",
+    "last_page":  "409",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 409"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "31 Texas Crim. Rep., 523",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          156132
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/31/0523-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "45 Texas Crim. Rep., 456",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4533161
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/45/0456-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "34 Texas Crim. Rep., 453",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4481213
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/34/0453-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  184,
+                     "char_count":  2260,
+                     "ocr_confidence":  0.653,
+                     "pagerank":  {
+                                      "raw":  1.2240919645422112E-07,
+                                      "percentile":  0.6023121425225949
+                                  },
+                     "sha256":  "1d55cdc3eb22241a29d6889a3c72a3ee3c9c5c4b1b51deb384cd67f2ccb6cf9f",
+                     "simhash":  "1:303388345808d9d9",
+                     "word_count":  375
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "George Popinaw v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BROOKS, Judge.\nAppellant was convicted of violating the local option law. Bill of exceptions Ho. 3 shows before defendant pleaded to the indictment he suggested his right name was “George Popnoy,” he having been indicted as “George Popinaw.” On motion for a new trial when the above action of the court was complained of, the State had J. M. Spotts. and defendant’s brother, sworn, and they testified as follows: J. M. Spotts, over appellant’s objection, stated, “I have known the defendant all my life. He was always called George Popenaugh; never heard him called anything else; have written his -name that way a number of times, but never wrote it that way at his dictation, and never heard him spell or pronounce his name.” Defendant’s brother testified that appellant’s name was “George Popnoy.” This is reversible error. The court should have complied with appellant’s suggestion. The statute is mandatory. See Sinclair v. State, 34 Texas Crim. Rep., 453; Clark v. State, 45 Texas Crim. Rep., 456.\nWe do not deem it necessary to pass upon the other questions raised in this record.\nFor the error suggested, the judgment is reversed and the cause is remanded.\nReversed and remanded.",
+                                          "type":  "majority",
+                                          "author":  "BROOKS, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "McGrady \u0026 McMahon, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "George Popinaw v. The State.\nNo. 3999.\nDecided January 29, 1908.\n\u0027local Option—Indictment—Name oí Defendant—Mandatory Statute.\nWhere upon trial for a violation of the local option law, the defendant objected to the name by which he was charged in the indictment and suggested his correct name, and again raised this point in bis motion for a new trial, the court should have complied with the defendant’s suggestion, as the statute is mandatory.\nAppeal from the County Court of Fannin. Tried below before the Hon. H. A. Cunningham.\nAppeal from a conviction of a violation of the local option law; penalty, a fine of $25 and twenty days confinement in the county jail.\nThe opinion states the case.\nMcGrady \u0026 McMahon, for appellant.\nOn question of suggestion of defendant’s name counsel cited the cases mentioned in the opinion.\nF. J. McCord, Assistant Attorney-General, for the State.\nOn question of suggestion of defendant’s name: Myatt v. State, 31 Texas Crim. Rep., 523. The State contends that the provisions of article 549, Code Criminal Procedure, are not mandatory."
+                 },
+    "file_name":  "1206-01",
+    "first_page_order":  427,
+    "last_page_order":  427
+}

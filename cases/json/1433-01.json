@@ -1,0 +1,113 @@
+﻿{
+    "id":  8547545,
+    "name":  "Clifford Allen McCarty v. The State",
+    "name_abbreviation":  "McCarty v. State",
+    "decision_date":  "1959-01-07",
+    "docket_number":  "No. 30,246",
+    "first_page":  "164",
+    "last_page":  "167",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 164"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "296 S.W. 2d 764",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10182658
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/296/0764-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "168 Texas Cr. Rep. 659",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "184 S.W. 2d 625",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10215419,
+                                          10215532
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/184/0625-01",
+                                            "/sw2d/184/0625-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "148 Texas Cr. Rep. 100",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2604771
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/148/0100-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  328,
+                     "char_count":  4722,
+                     "ocr_confidence":  0.574,
+                     "pagerank":  {
+                                      "raw":  2.003577563895687E-07,
+                                      "percentile":  0.7432809789296596
+                                  },
+                     "sha256":  "d40b5ff90b1a0c5861572bb31bdd519f7cc4b33e9a0edec74866ebd2974c2f09",
+                     "simhash":  "1:f31050b1da2f0a9e",
+                     "word_count":  825
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Clifford Allen McCarty v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DICE, Judge.\nThe conviction is for murder with malice; the punishment, life imprisonment.\nThe state’s testimony shows that on the night of the homo-cide the deceased was playing in a band at a night club on the Jacksboro highway near the city of Fort Worth. At the conclusion of the dancing around midnight, the deceased and Jack McCarty, a brother of the appellant, engaged in a fist fight on the dance floor. Witnesses called by the state testified that they saw no knife or anything in the hands of either combatant. While the fight was in progress appellant intervened and first cut the deceased in the back with a knife. Several spectators tried to stop the fight but were prevented when appellant would turn on them with the knife. During the fight appellant said he “was going to cut the deceased’s privates” and began cutting him around the thighs. After the fighting ceased and the deceased was on the floor, appellant, as he was leaving the scene, reached down and again cut the deceased over the eye.\nThe deceased was carried from the scene to a hospital with a stab wound of the right chest, two stab wounds in the left thigh and one on the forehead and pronounced dead at 1:15 A.M. It was shown that the cause of death of the deceased was the knife wound in the chest.\nAs a witness in his own behalf appellant admitted cutting the deceased on the back but denied cutting him in the chest or above the eye. Appellant testified that he entered the fight to aid his brother when his brother hollered “Cliff get him off of me — he’s cutting me”; that he saw a knife in the deceased’s hand, was scared and cut him to get him off of his brother but did not intend to kill him.\nThe court, in his charge, to which no objections were made, submitted to the jury the issue of appellant’s guilt of both murder with and without malice and aggravated assault and charged the jury on the appellant’s right to defend his brother against both real and apparent danger of death or the infliction of serious bodily injury by the deceased as viewed from the appellant’s standpoint at the time.\nThe jury chose to accept the testimony of the state’s witnesses and reject that of the appellant and we find the evidence sufficient to sustain the verdict.\nNo brief has been filed on behalf of the appellant.\nOne formal bill of exception appears in the record which presents appellant’s objection to certain jury argument of state’s counsel.\nThe bill reflects that in his closing argument to the jury, counsel for the state said:\n“Yes, I think you have a right in considering the punishment that might be meted out, you have a right to consider the life the family life, the past of the man killed, I think you have a right to do that, I think if you were faced with a man whose record could be smeared all over the wall that you might consider that in the punishment that should be assessed, I think you have * * * that right too.”\nThe appellant’s objection to the argument was by the court properly sustained and the jury instructed not to consider the same but appellant’s motion for a mistrial was overruled.\nIt is apparent from the bill and the court’s qualification thereto that state’s counsel was attempting to tell the jury that they could consider the deceased’s past in fixing the punishment to be assessed against appellant.\nIt is the rule that injury from improper remarks of counsel is ordinarily obviated when withdrawn by the court and the jury instructed to disregard the same. It is only when the argument in such cases is obviously prejudicial that reversal of the conviction is called for. Woodland v. State, 148 Texas Cr. Rep. 100, 184 S.W. 2d 625, and Weatherly v. State, 168 Texas Cr. Rep. 659, 296 S.W. 2d 764.\nThe argument complained of in the instant case violated no mandatory statute and was not so obviously prejudicial that its effect upon the jury could not be cured by the court’s instruction; hence no reversible error is shown.\nWe have examined the informal bills of exception appearing in the statement of facts and they do not reflect reversible error.\nThe hospital records of the admission, treatment, and death of the deceased were sufficiently identified by the custodian of such records, and were admissible in evidence under the provision of Art. 3737e, Vernon’s Ann. R.C.S. over appellant’s objection that they were hearsay.\nThe judgment is affirmed.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "DICE, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "No attorney for appellant of record on appeal.",
+                                       "Howard M. Fender, Criminal District Attorney, John E. McLean and Albert F. FicJc, Jr., Assistants Criminal District Attorney, Fort Worth, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Clifford Allen McCarty v. The State.\nNo. 30,246.\nJanuary 7, 1959.\nNo attorney for appellant of record on appeal.\nHoward M. Fender, Criminal District Attorney, John E. McLean and Albert F. FicJc, Jr., Assistants Criminal District Attorney, Fort Worth, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1433-01",
+    "first_page_order":  182,
+    "last_page_order":  185
+}

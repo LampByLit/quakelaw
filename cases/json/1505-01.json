@@ -1,0 +1,179 @@
+﻿{
+    "id":  8548920,
+    "name":  "Ben McLaren v. State",
+    "name_abbreviation":  "McLaren v. State",
+    "decision_date":  "1958-12-10",
+    "docket_number":  "No. 30,264",
+    "first_page":  "302",
+    "last_page":  "304",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 302"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "203 S.W. 2d 225",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10191204
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/203/0225-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "150 Texas Cr. Rep. 475",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2600224
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/150/0475-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "280 S.W. 2d 744",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10184581
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/280/0744-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "239 S.W. 2d 395",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10201719
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/239/0395-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "156 Texas Cr. Rep. 442",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2578190
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/156/0442-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "242 S.W. 2d 377",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10198082
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/242/0377-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "156 Texas Cr. Rep. 335",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2579101
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/156/0335-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "290 S.W. 2d 250",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10166460,
+                                          10166278
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/290/0250-02",
+                                            "/sw2d/290/0250-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 209",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2461551
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0209-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  144,
+                     "char_count":  1507,
+                     "ocr_confidence":  0.578,
+                     "pagerank":  {
+                                      "raw":  1.0375658256972472E-07,
+                                      "percentile":  0.5498963453081628
+                                  },
+                     "sha256":  "0eb4112c20e4d84a398739fdf83d21d65ece0e4ad1d7a8583bb75f9c87410705",
+                     "simhash":  "1:41fa4623ad0a833e",
+                     "word_count":  262
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ben McLaren v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nThe offense is driving a motor vehicle upon a public highway while intoxicated; the punishment, three days in jail and a fine of $50.\nNotice of appeal does not appear to have been entered of record, as required by Art. 827 V.A.C.C.P., for this court to obtain jurisdiction of the appeal. Anderson v. State, 163 Texas Cr. Rep. 209, 290 S.W. 2d 250; Fletcher v. State, 156 Texas Cr. Rep. 335, 242 S.W. 2d 377; Card v. State, 156 Texas Cr. Rep. 442, 239 S.W. 2d 395.\nThe appeal is dismissed.\nWOODLEY, Judge.\nSupplemental transcript has been filed showing that notice of appeal, timely given, has been entered on the minutes of the court as required by Art. 827 V.A.C.C.P. The appeal is reinstated.\nProsecution was upon complaint and information.\nThe state concedes that the complaint is fatally defective for the reason that the date the offense is alleged to have been committed cannot be ascertained from a reading thereof. It appears to be “on or about the 11th day of October, A.D., 57.”\nThe complaint is not sufficient to support the information which alleges the date of the offense as “on or about October 11, A.D., 1957.” Suzuki v. State, 280 S.W. 2d 744; Herron v. State, 150 Texas Cr. Rep. 475, 203 S.W. 2d 225.\nThe judgment is reversed and the prosecution ordered dismissed.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge. WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Kouri and Banner, by Philip S. Kouri, Wichita Falls, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ben McLaren v. State.\nNo. 30,264.\nDecember 10, 1958.\nOn the Merits January 28, 1959.\nKouri and Banner, by Philip S. Kouri, Wichita Falls, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1505-01",
+    "first_page_order":  320,
+    "last_page_order":  322
+}

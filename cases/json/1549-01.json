@@ -1,0 +1,141 @@
+﻿{
+    "id":  8550517,
+    "name":  "Ex PARTE A. C. LOGGINS",
+    "name_abbreviation":  "Ex parte Loggins",
+    "decision_date":  "1959-02-25",
+    "docket_number":  "No. 30,570",
+    "first_page":  "450",
+    "last_page":  "451",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 450"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "310 S.W. 2d 117",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10162283
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/310/0117-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "165 Texas Cr. Rep. 605",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2611329
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/165/0605-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "196 S.W. 2d 819",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10198775
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/196/0819-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "150 Texas Cr. Rep. 386",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2597564
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/150/0386-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "208 S.W. 2d 366",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10194996
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/208/0366-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "151 Texas Cr. Rep. 442",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2593880
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/151/0442-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  161,
+                     "char_count":  2150,
+                     "ocr_confidence":  0.603,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.2058973322382888
+                                  },
+                     "sha256":  "f61a306c2d81136a37fe93f22a8b02e77253c05d8227a37d68dd9d9067911475",
+                     "simhash":  "1:56c658f5d8e26bbc",
+                     "word_count":  360
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex PARTE A. C. LOGGINS."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nRelator was convicted in Cause No. 70678 in Criminal District Court No. 3 of Harris County on March 9, 1954. The jury found him guilty of passing a forged instrument and found that he had been previously convicted of the offense of like character pleaded in the indictment. Judgment fixing the punishment at five years was entered and sentence pronounced on March 23, 1954.\nThe second conviction was in Cause No. 71213, in Criminal District Court No. 1 of Harris County, and was also for passing a forged instrument. Upon a like verdict, judgment was entered fixing the punishment at five years.\nThe five year sentence pronounced in the second conviction on May 21,1954, provided that it should begin when the sentence in the first conviction above described ceased to operate.\nRelator has credit for more than eight years on the sentences.\nThe punishment was enhanced in both convictions upon the allegation that relator, on October 7, 1933, in Criminal District Court No. 2 of Harris County, was finally convicted of felony theft.\nIt thus appears that the punishment in the second conviction was enhanced under Art. 62 P.C. by the identical prior conviction which the state used to secure a like enhancement of punishment in the conviction on March 9, 1954.\nThe theft conviction, having been successfully used to enhance the punishment in Cause No. 70678 in Criminal District Court No. 3, was not available to enhance the punishment under Art. 62 P.C. thereafter in Cause No. 71213, in Criminal District Court No. 1. Tuley v. State, 151 Texas Cr. Rep. 442, 208 S.W. 2d 366; Brown v. State, 150 Texas Cr. Rep. 386, 196 S.W. 2d 819.\nRelator having served the five-year sentence imposed in Criminal District Court No. 3 and having served more than the minimum punishment applicable to the primary offense imposed in the second conviction, his further imprisonment is not warranted. Ex parte Puckett, 165 Texas Cr. Rep. 605, 310 S.W. 2d 117.\nThe writ is granted and relator is ordered discharged.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Relator represented himself.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex PARTE A. C. LOGGINS.\nNo. 30,570.\nFebruary 25, 1959.\nRelator represented himself.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1549-01",
+    "first_page_order":  468,
+    "last_page_order":  469
+}

@@ -1,0 +1,135 @@
+﻿{
+    "id":  2021284,
+    "name":  "STATE OF FLORIDA v. ROY",
+    "name_abbreviation":  "State v. Roy",
+    "decision_date":  "1991-10-10",
+    "docket_number":  "Case No. 91-33 AC (Lower Court Case No. 90-31374 MM)",
+    "first_page":  "66",
+    "last_page":  "68",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 66"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "421 So.2d 754",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9545196
+                                      ],
+                         "year":  1982,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/421/0754-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "560 So.2d 400",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7520447
+                                      ],
+                         "year":  1990,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/560/0400-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "194 So. 640",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So.",
+                         "case_ids":  [
+                                          1944090
+                                      ],
+                         "year":  1940,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/fla/142/0218-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "422 So.2d 1081",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9565480
+                                      ],
+                         "year":  1982,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/422/1081-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "301 So. 2d 13",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9583217
+                                      ],
+                         "year":  1974,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/301/0013-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  335,
+                     "char_count":  5253,
+                     "ocr_confidence":  0.925,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07304962567315701
+                                  },
+                     "sha256":  "0c362a22e3137ea1dc14a2c12c2567b3c8912b3f2520376355128f969cfc759d",
+                     "simhash":  "1:82f7c476a64a97d3",
+                     "word_count":  892
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before ARTHUR J. FRANZA, Circuit Judge."
+                                ],
+                     "parties":  [
+                                     "STATE OF FLORIDA v ROY"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nTHIS CAUSE having come before the Court on Appellant’s [sic], the State’s appeal from a judgment entered in the County Court, and the Court having reviewed both Appellant’s Brief and Appellee’s Brief hereby finds the following conclusions of fact and law.\nSTATEMENTS OF FACT\nAppellee was charged with driving under the influence October 23, 1990, pursuant to F.S. 316.193(1). On April 4, 1991, three motions to suppress were scheduled to be heard before the trial court. This was the second time that appellee was present in court and prepared to argue the applicable motions. The prior motion hearing scheduled on March 5, 1991 was cancelled at the time of the hearing due to the Deputy SheriiFs failure to appear.\nThe hearing was scheduled to begin at 8:30 a.m. and the Deputy was subpoenaed to be at the hearing at this time. The court accepted the state’s representations that the absent witness, the deputy, was en route and would arrive around 9:00 a.m. and a continuance was granted until that time. When the witness failed to appear, the assistant state attorney agreed with defense counsel that the court should make its ruling based on the facts in defendant’s written motion to suppress. As a result the trial court suppressed the defendant’s blood alcohol results based upon the facts stipulated to by the parties.\nSTATEMENTS OF LAW\nThe sole issue on appeal is whether the trial court abused its discretion in granting the motion to suppress. The state contends that the trial court abused its discretion in granting appellant’s motion to suppress, arguing that simple attorney neglect does not warrant such an extreme sanction.\nOn a motion to suppress evidence the trial judge is the trier of both law and fact and his conclusions come to the appeal court clothed with the presumption of correctness. See Sheff v State, 301 So. 2d 13 (Fla. 1st DCA 1974). Appellant in a criminal case has the burden of showing the trial proceedings were so infected with prejudicial error as to compel reversal of the judgment, and such error must be clearly demonstrated by appellant. Barratteau v State, 422 So.2d 1081 (Fla. 3rd DCA 1982). See also Watson v State, 194 So. 640 (Fla. 1940).\nIn State v Lawrence, 560 So.2d 400 (Fla. 4th DCA 1990), the state moved for a continuance when its witness failed to appear at a motion to suppress hearing. The court denied the motion to continue when the state rested without producing any evidence. The Fourth District affirmed the trial court ruling finding no abuse of discretion. With regard to the case at bar this was the second hearing for the appellant, the previous hearing had been cancelled with no advance notice to appellee due to the same witness’ unavailability. Furthermore, the trial court’s written order states in pertinent part:\n. . . the court proceeded and the parties agreed to allow the court to make its rulings based on the facts in defendant’s written motion to suppress . . .\nThus, the State’s assertion at the hearing that the deputy sheriffs presence was not necessary to the motion would seem to waive their present argument with regard to the issue presently on appeal. As such the state’s reliance on State v Reed, 421 So.2d 754 (Fla. 4th DCA 1982), is misdirected. Reed, stands for the proposition that it is imperative on a motion to suppress a confession that both sides be given fair opportunity to be heard, and that only where prejudice will result to the accused should simple neglect or attorney error be sanctioned with the extreme remedy of granting a motion to suppress the confession. Therefore, in the above circumstances it is imperative that both sides be given fair opportunity to be heard prior to the court granting the motion to suppress.\nAs the case at bar does not involve the issue of suppressing a confession, which if suppressed results in severe repercussions to the losing party, Reed can not be relied on as authority for the present proposition.\nBased on the foregoing,\nORDERED AND ADJUDGED that the decision of the trial court is hereby affirmed.\nDONE AND ORDERED in chambers at Ft. Lauderdale, Florida on this 10th day of October, 1991.\nAccording to the record below the state attorney, Mr. E. Williams, stated:\n“. . .Your Honor, also if you take a look at the motions, I’m not sure I need Deputy White.” (R. 6). The court then asked the state if they wished to argue without the deputy, and Mr. Williams indicated that they could do so based on the defense’s assertions of the facts. (R. 6)\nFurthermore, in Reed, the state and the defense had agreed to hear a motion to suppress a confession immediately before trial. A week before trial the judge insisted that the suppression motion be heard on the same day that a pending motion to compel was set for hearing. The state was caught by surprise and could not produce any witness on such short notice. The motion to suppress was granted, and the appellate court found an abuse of discretion.",
+                                          "type":  "majority",
+                                          "author":  null
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Office of the State Attorney, for appellant.",
+                                       "Richard Springer, Esquire, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "STATE OF FLORIDA v ROY\nCase No. 91-33 AC (Lower Court Case No. 90-31374 MM)\nSeventeenth Judicial Circuit, Broward County\nOctober 10, 1991\nAPPEARANCES OF COUNSEL\nOffice of the State Attorney, for appellant.\nRichard Springer, Esquire, for appellee.\nBefore ARTHUR J. FRANZA, Circuit Judge."
+                 },
+    "file_name":  "1361-01",
+    "first_page_order":  86,
+    "last_page_order":  88
+}

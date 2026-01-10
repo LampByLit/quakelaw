@@ -1,0 +1,111 @@
+﻿{
+    "id":  8546647,
+    "name":  "Mary Collins Jackson v. State",
+    "name_abbreviation":  "Jackson v. State",
+    "decision_date":  "1958-11-19",
+    "docket_number":  "No. 30,080",
+    "first_page":  "34",
+    "last_page":  "39",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 34"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "123 S.W. 593",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "57 Texas Cr. Rep. 408",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2376998
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/57/0408-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "46 S.W. 2d 251",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          1842387
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/mo-app/226/0444-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "39 Texas Cr. Rep. 365",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4495576
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/39/0365-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  451,
+                     "char_count":  10219,
+                     "ocr_confidence":  0.588,
+                     "pagerank":  {
+                                      "raw":  8.7858520545004912E-08,
+                                      "percentile":  0.49593509119643653
+                                  },
+                     "sha256":  "7e0183684515919abdae69e56025f98ac8cf1cc9054c7703f62753651b426876",
+                     "simhash":  "1:76c6d1f6b50d2059",
+                     "word_count":  1821
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Mary Collins Jackson v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BELCHER, Judge.\nThe conviction is for aggravated assault with a motor vehicle; the punishment, thirty days in jail and a $500 fine.\nThe evidence of the state is sufficient to sustain the conviction for aggravated assault with a motor vehicle.\nAppellant did not testify or offer any testimony in her behalf.\nAppellant complains of the refusal of her amended motion for a new trial because the jury commented on and discussed her failure to testify during its deliberations. In support of her motion she attached affidavits of three of the jurors.\nOn the hearing, a juror, whose affidavit was attached to the amended motion, testified that appellant’s failure to testify was mentioned and discussed by one or more of the jurors during their deliberation. When the defendant’s failure to testify was first mentioned, the judge instantly took over the examination of the witness:\n“Q. I will ask you to state Mr. G_ (juror) whether or not it was mentioned and discussed by one or more jurors in the jury room that the defendant failed to take the stand? A. That is right.\n“THE COURT: Just a minute, Mr. L_ (appellant’s counsel) before you go any further.\n“EXAMINATION BY THE COURT: You also realize I instructed you if you did discuss it you were guilty of contempt of court and you would go to jail for it, don’t you? Do you remember that? A. No, sir.\n“Q. Remember that if any juror discusses this they could be held in contempt of this court. Did you read that in there too? A. Not to talk, go out in the hall and talk.\n“THE COURT: (Addressing Mr. L_(appellant’s counsel). “You know what you are leading him into here?”\nThe witness again testified upon examination by appellant’s counsel that one or more jurors mentioned and discussed the failure of the appellant to testify while deliberating, and that he then thought she should have testified and that he did\u0027 consider her failure to testify while they were deliberating.\nWhen appellant passed the juror for cross-examination, the judge again examined the witness:\n“EXAMINATION BY THE COURT: Did you, yourself mention the fact to any of the other jurors about her not getting up and talking? A. You know somebody just spoke of it, your honor.\n“Q. I said did you say anything about it? A. Amorest ourselves, you know.\n“Q. While you were in there among yourselves, did you say anything about her not getting up and talking about it? A. Only it was brought up, you know.\n“Q. What did you say? A. I said I think she should say something so we would know what to do.\n“THE COURT: You are guilty of contempt of Court, three days and $100.00 fine.”\nAfterwards the witness while still being examined by the court testified that he didn’t vote guilty because she did not take the witness stand, but because of the way the cars lined up, that is, the bus didn’t hit the car.\nOn cross-examination by the state he testified that they mentioned her failure to testify after they had voted on the case and that they “didn’t bring it up while we was exactly in the jury room.”\nWhen the second juror was called as a witness, the judge requested the court reporter to get for him a certain instrument, which evidently was the charge of the court in this case. The court then addressed the juror-witness, before he had been examined by either appellant or the state, as follows:\n“THE COURT: (Addressing Mr. M_(juror). Before you testify look at this piece of paper and see if you have seen anything like it?\n“MR. M_: I don’t recall it.\n“THE COURT: You sat on the jury?\n“MR. M_: Yes, sir.\n“THE COURT: You heard me read this paper to you?\n“MR. M_: I read it also.\n“THE COURT: I will read it to you again (take the stand first) I will read you this paper, sir, and ask you if at the time you sat on the jury of Mary Collins Jackson, tell me under oath, bearing in mind you are now under oath, if you ever heard this read to you by this Court on the day of her trial?\n“THE COURT:” The judge then read the admonitory instructions in the charge he had given to the jury concerning the defendant’s failure to testify and the duty of the jurors to stop any juror who starts to mention the defendant’s failure to testify.\nFollowing the reading of the admonitory instructions to said juror, the court further said to him:\n“And any juror doing so may be guilty of contempt of court if any juror starts to mention the defendant’s failure to testify in this case, cause, it is the duty of the other jurors to stop him at once. Do you remember me reading that? A. Yes, I do now.\n“THE COURT: You remember it was in the charge that you took back in the jury room with you, do you not? A. I don’t remember reading it in the charge, sir, but I remember you reading it.”\nUpon direct examination for the first time by appellant’s counsel the second juror-witness testified that one of the jurors mentioned the defendant’s failure to testify before they found her guilty, but that he did not recall hearing another juror say that she should have told her side of the story, but that such comment was possible. On cross-examination by the state, he testified that the failure of the defendant to testify was mentioned, but the foreman of the jury then said that they were not to mention that and it was stopped right there.\nFurther examination by the court was as follows:\n“THE COURT: Do you remember whether or not you mentioned anything about it, Mr. M_(juror) ?\n“THE WITNESS: No sir, I did not mention anything.”\nAppellant introduced the affidavits of three of the jurors and each affidavit recited that the failure of the defendant to testify was mentioned during the jury’s deliberation. The affidavit of the first juror-witness also recited that he thought the defendant should have taken the stand and given her side of the story.\nAppellant excepted to the examination, comments, and actions of the trial judge in connection with the two witnesses appellant had called to testify in support of his amended motion for a new trial.\nUpon the conclusion of the hearing, the judge re-called the first juror-witness, and in open court rescinded his finding of contempt against him.\nThe state did not controvert in writing appellant’s amended motion for a new trial and on the hearing thereof it did not call any witnesses.\nThe record does not show whether the second juror-witness was present when the first juror-witness was examined by the judge, and by him found guilty of contempt and given three days in jail and a fine of $100.\nFurther the record fails to show whether the other three jurors, the fourth juror, although subpoened, was out of the city, were present during the judge’s examination of the two jurors called by the appellant. Their presence, if they were, within the hearing of the judge’s examination of the two juror witnesses could explain the failure or inability of the appellant to call them to testify.\nArt. 710, Vernon’s Ann. C.C.P., provides as follows:\n“Any defendant in a criminal action shall be permitted to testify in his own behalf therein, but the failure of any defendant to so testify shall not be taken as a circumstance against him, nor shall the same be alluded to or commented on by counsel in the cause; * * *.’\nIn Wilson v. State, 39 Texas Cr. Rep. 365, 46 S.W. 2d 251, under similar facts on the hearing of a motion for new trial we said:\n“In this particular case it appears that the jury, in delivering their testimony on this subject, were more or less constrained by the admonition given them by the court early in the investigation. A bill of exception shows that appellant objected to the remarks of the court when the juror Sumrall was being examined. This juror started to tell his opinion as to what was meant by something that some of the jurors said in reference to the defendant’s failure to take the stand and testify. Thereupon the court stated that he did not care to have the opinion of the witness as to what the juror meant. What he wanted to know was what was said by the jurors, because, if he was compelled to fine any member of the jury for misconduct, for something\u0027 said improperly in the jury room, he wanted to be sure they said it before he fined them. This remark, in the presence of the jury, was of a character calculated to constrain them in giving in their testimony; that is, they were made aware by the court that, if it was evident that they had discussed this matter in a way to influence their verdict, they were liable to be fined. This was the sword of Damocles held over the jury, which was not calculated to procure a full, free, and fair investigation. We do not understand that this was an investigation for the purpose of ascertaining whether or not the jurors should be fined by the court, but was for the purpose of ascertaining whether or not a new trial should be granted. Of course, if, in the investigation, the court ascertained that the jury had been guilty of misconduct, it was his duty to punish them therefor, but it was not necessary to mention this when the investigation was being conducted for another purpose.”\nSee also Art. 758, Vernon’s Ann. C.C.P.; 31 Texas Jur., 325, Sec. 119 and Thompson v. State, 57 Texas Cr. Rep. 408, 123 S.W. 593.\nIt is the province of the attorneys to examine the witnesses. However, there may be occasions where it would be necessary for the judge to interfere. If so, such examination should be conducted with great caution.\nThe right of an accused to a free, fair and full presentation of his evidence in support of a motion for a new trial is a valuable one. It should not be unduly constrained or curtailed by any actions of the trial judge.\nIt appears that the procedure followed and the occurrences that took place during the hearing of the motion for a new trial as shown above were reasonably calculated to constrain the witnesses and curtail their testimony which was prejudicial to the rights of the appellant.\nThe judgment is reversed and the cause remanded.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "BELCHER, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "M. Gabriel Nahas, Jr., of Houston, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White and Dave Gibson, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Mary Collins Jackson v. State.\nNo. 30,080.\nNovember 19, 1958.\nM. Gabriel Nahas, Jr., of Houston, for appellant.\nDan Walton, District Attorney, Thomas D. White and Dave Gibson, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1331-01",
+    "first_page_order":  52,
+    "last_page_order":  57
+}

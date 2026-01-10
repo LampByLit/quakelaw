@@ -1,0 +1,70 @@
+﻿{
+    "id":  8547453,
+    "name":  "Bernard Easley v. State",
+    "name_abbreviation":  "Easley v. State",
+    "decision_date":  "1959-01-07",
+    "docket_number":  "No. 30,181",
+    "first_page":  "156",
+    "last_page":  "158",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 156"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  216,
+                     "char_count":  3029,
+                     "ocr_confidence":  0.587,
+                     "pagerank":  {
+                                      "raw":  2.9242214417882307E-07,
+                                      "percentile":  0.8468679061983923
+                                  },
+                     "sha256":  "185bc68fad10729f7ef0fd178850e126f5c2cb4194ad224f633339d2573c68cb",
+                     "simhash":  "1:86b45767f86de191",
+                     "word_count":  527
+                 },
+    "last_updated":  "2023-07-14T16:09:04.443318+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Bernard Easley v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Judge.\nThis is a conviction for theft, with punishment assessed at three years’ confinement in the penitentiary.\nThe indictment charged the theft of six thousand dollars alleged to be “the corporeal personal property of H. E. Butt from the possession of Burgin Edens who was holding the same for the said H. E. Butt. * * *”\nIt will be noted that the legal effect of such allegation was to charge ownership of the property in both the actual as well as the special owner.\nIt was the province of the state to so allege ownership, but in doing so it assumed the burden of establishing and proving ownership as alleged.\nThe state has failed to perform that duty, and such failure requires a reversal of the case.\nThere is no proof, here, that H. E. Butt was the actual or real owner of the stolen property.\nHere is what the witness H. E. Butt testified relative to ownership of the money:\n[“Q. Mr. Butt, the indictment states that there was an alleged theft of money from H. E. Butt, you didn’t personally own the money of this store, did you?] A. It was owned by H. E. Butt Grocery Company, a Texas Corporation.\n[“Q. Of which you are president?] A. As president, and either as individually or as a trustee I own all the stock.\n[“Q. But the money couldn’t have been taken from you personally, it had to be from the corporation, is that correct?] A. That’s correct.”\nThis testimony is undenied and undisputed.\nIt is a cardinal principle of law that descriptive averments in an indictment must be proved as alleged.\n“The allegation of ownership of the alleged stolen property, being descriptive and essential, must be proved as laid.”\n. “Joint ownership, if alleged, must be proved as laid.”\n“If ownership is alleged to be in more than one person, the proof must correspond with the allegation.”\nThe foregoing quotations are taken from Branch’s P.C., 2d Edition, Sec. 2627, where the supporting authorities are cited.\nThe state was charged, therefore, with knowledge of the fact that when it alleged in the indictment that the money belonged to H. E. Butt it was required to prove that allegation as laid, and that failure to do so would result in a reversal of the conviction — that is, if the rules of law were to be followed and enforced.\nIf the money belonged to the corporation, it did not belong to H. E. Butt. It could,not belong to both, without constituting a joint ownership.\nThe state wholly failed to prove the material allegation of ownership of the property in H. E. Butt, as alleged in the indictment. To the contrary, it proved that H. E. Butt was not the owner thereof.\nUnder such circumstances no necessity exists to discuss other aspects of the attack upon the indictment, as another trial could not be predicated upon the instant indictment.\nBecause the evidence does not authorize the conviction, the judgment is reversed and the cause is remanded.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "J. H. Fugate, Jr., Kingsville, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Bernard Easley v. State.\nNo. 30,181.\nJanuary 7, 1959.\nJ. H. Fugate, Jr., Kingsville, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1426-01",
+    "first_page_order":  174,
+    "last_page_order":  176
+}

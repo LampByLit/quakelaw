@@ -1,0 +1,165 @@
+﻿{
+    "id":  8551173,
+    "name":  "Leroy Zorn v. State",
+    "name_abbreviation":  "Zorn v. State",
+    "decision_date":  "1959-03-04",
+    "docket_number":  "No. 30,479",
+    "first_page":  "502",
+    "last_page":  "502",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 502"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "255 S.W. 2d 512",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10208236
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/255/0512-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "158 Texas Cr. Rep. 319",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2479185
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/158/0319-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "249 S.W. 2d 925",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10222751
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/249/0925-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "157 Texas Cr. Rep. 504",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2575124
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/157/0504-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "229 S.W. 2d 169",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10190758
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/229/0169-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "154 Texas Cr. Rep. 515",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2583489
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/154/0515-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "125 S.W. 2d 293",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10231801
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/125/0293-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "136 Texas Cr. Rep. 320",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5795741
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/136/0320-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  126,
+                     "char_count":  1145,
+                     "ocr_confidence":  0.588,
+                     "pagerank":  {
+                                      "raw":  1.0708925717679267E-07,
+                                      "percentile":  0.5597301232620125
+                                  },
+                     "sha256":  "22e768e0afeff103adb5df771d62ba6bdde5dd0b489e9a4e0b1da55731957d3e",
+                     "simhash":  "1:266ad2d56dbd4f9e",
+                     "word_count":  198
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Leroy Zorn v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BELCHER, Judge.\nThe conviction is for keeping and exhibiting a gaming table and bank for the purpose of gaming; the punishment, two years.\nThe disposition hereof makes a summary of the facts unnecessary.\nFormal Bill of Exception No. 3, shows that the trial court permitted the state to introduce the affidavit, search warrant and return made thereon into evidence before the jury over appellant’s objection that they were hearsay. Such instruments were hearsay and prejudicial to the rights of the appellant; should not have been admitted in evidence before the jury, and calls for a reversal. 37-B Texas Jur. 489, Sec. 36; 3 Branch’s Ann. P.C. 2d 106, Sec. 1335; Hall v. State, 136 Texas Cr. Rep. 320, 125 S.W. 2d 293; Byars v. State, 154 Texas Cr. Rep. 515, 229 S.W. 2d 169; Hebert v. State, 157 Texas Cr. Rep. 504, 249 S.W. 2d 925; McGowan v. State, 158 Texas Cr. Rep. 319, 255 S.W. 2d 512.\nThe judgment is reversed and the cause remanded.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "BELCHER, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Spence \u0026 Martin, by Howard L. Martin, Wichita Falls, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Leroy Zorn v. State.\nNo. 30,479.\nMarch 4, 1959.\nSpence \u0026 Martin, by Howard L. Martin, Wichita Falls, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1564-01",
+    "first_page_order":  520,
+    "last_page_order":  520
+}

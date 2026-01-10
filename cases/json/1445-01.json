@@ -1,0 +1,117 @@
+﻿{
+    "id":  2021308,
+    "name":  "ALVAREZ v. KELLEY, et al.",
+    "name_abbreviation":  "Alvarez v. Kelley",
+    "decision_date":  "1991-10-25",
+    "docket_number":  "Case No. 89-14773 “C”",
+    "first_page":  "178",
+    "last_page":  "181",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 178"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "417 So.2d 1149",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9587115,
+                                          9587190
+                                      ],
+                         "year":  1982,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/417/1149-01",
+                                            "/so2d/417/1149-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "97 So.2d 488",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9903422
+                                      ],
+                         "year":  1957,
+                         "pin_cites":  [
+                                           {
+                                               "parenthetical":  "Defense of fraud in the procurement of a mortgage could be raised against the assignee of the mortgage even though the assignment took place following a default in the mortgage."
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/97/0488-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "374 So.2d 1121",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9635573
+                                      ],
+                         "year":  1979,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/374/1121-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  325,
+                     "char_count":  6036,
+                     "ocr_confidence":  0.922,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07305117016474706
+                                  },
+                     "sha256":  "245210edbed940b09fd799828b8925f385281d8e58c6e5e6727e9cb182cd7a43",
+                     "simhash":  "1:9943318218b03016",
+                     "word_count":  963
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "ALVAREZ v KELLEY, et al."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nRICHARD A. LAZZARA, Circuit Judge.\nORDER ON CROSS-CLAIMANT CITIBANK’S MOTION FOR DEFICIENCY JUDGMENT\nTHIS CAUSE came on before the Court for hearing on October 23, 1991 on the Cross-Claimant CITIBANK’S Motion for a Deficiency Judgment against the Defendants, MARGARET A. KELLEY and KENNETH L. KELLEY. Present before the Court was JEFFREY AMAN, Attorney for Cross-Claimant; the Defendant MARGARET A. KELLEY; and RANDALL REDER, Attorney for Defendant MARGARET A. KELLEY. The Defendant KENNETH L. KELLEY did not appear although he was duly noticed for the hearing. During the course of the hearing the Court received evidence and testimony from the parties in support of their respective positions. Following argument of counsel the Court reserved ruling.\nThe Court has not had an opportunity to review and consider the pleadings, the testimony and evidence presented by the parties, the parties agreed stipulation to certain facts, and the argument of counsel. The Court has also engaged in its own independent research of the law. Based on this analysis the Court finds and concludes as follows:\nFINDINGS OF FACT\n1. The Defendant’s executed a first mortgage in favor of one EDWARD ALVAREZ.\n2. EDWARD ALVAREZ filed a foreclosure action against Defendant MARGARET A. KELLEY only. In that action EDWARD ALVAREZ and MARGARET A. KELLEY stipulated through counsel that EDWARD ALVAREZ would waive his right to seek a deficiency judgment against MARGARET A. KELLEY and that MARGARET A. KELLEY would agree that the foreclosure action could proceed “ex parte to final judgment of foreclosure”.\n2. The Defendant MARGARET A. KELLEY’S motivation for executing this stipulation was that she had just concluded a bitter divorce with the Defendant KENNETH L. KELLEY, she could not sell the property due to liens placed against the property by the actions of her former husband of which she had no knowledge, and she felt it to be in her best interest to return the property to ALVAREZ and cooperate in the foreclosure action but with the understanding that ALVAREZ would not seek a deficiency judgment against her.\n3. The Defendants had also executed a second mortgage in favor of the Cross-Claimant. Based on that fact ALVAREZ joined the Cross-Claimant as a party defendant in his foreclosure action against the Defendant MARGARET A. KELLEY.\n4. The Cross-Claimant filed a cross claim against both Defendants seeking to foreclose its second mortgage and requesting a deficiency judgment. Additionally, the Cross-Claimant exercised its rights under the second mortgage and paid the sum due under the ALVAREZ mortgage.\n5. On April 19, 1990 the Cross-Claimant obtained a Final Judgment of Foreclosure against the Defendants in the sum of $93,202.38. On June 11, 1990 the Cross-Claimant was the successful bidder at the foreclosure sale and purchased the property at issue for $45,000.00.\n6. At the hearing on the Cross-Claimant’s Motion for Deficiency Judgment against both Defendants it proved that the fair market value of the property on the date of the foreclosure sale was $72,000.00.\nCONCLUSIONS OF LAW\nBased on the law of Florida this Court is authorized in the exercise of sound judicial discretion to deny a deficiency judgment if “there are facts and circumstances creating equitable considerations” which would compel such a denial. S/D v Chase Manhattan Bank, 374 So.2d 1121 (Fla. 3rd D.C.A. 1979). The Court finds such “equitable considerations” in this case as to Defendant MARGARET A. KELLEY.\nIt is undisputed that this Defendant agreed to allow the first mortgagee to proceed ex parte to obtain a final judgment of foreclosure but only if he would not seek a deficiency judgment against her. It is undisputed that the first mortgagee assented to this position, and even though the Cross-Claimant had the right under the second mortgage to pay off the first mortgage to protect its interest, it seems to this Court that it would be inequitable to allow the Cross-Claimant to do what the first mortgagee could not do-seek a deficiency judgment.\nJust as the first mortgagee would have been precluded from seeking a deficiency judgment it appears only equitable that the Cross-Claimant should also be foreclosed from seeking a deficiency judgment after it “stepped into the shoes” of the first mortgagee, especially given the reliance of the Defendant MARGARET A. KELLEY on the agreement with the first mortgagee that there would be no deficiency judgment. Although the Court has found no legal authority on point, this factual scenario can be analogized to the law of assignment of mortgages. That is, the assignee of a mortgage which is in default holds the mortgage subject to all defenses against the original mortgagee. Meyerson v Boyce, 97 So.2d 488 (Fla. 1957) (Defense of fraud in the procurement of a mortgage could be raised against the assignee of the mortgage even though the assignment took place following a default in the mortgage.). So, too, in this case, the Court concludes that just as the Defendant MARGARET A. KELLEY could have defeated the first mortgagee’s request for a deficiency judgment based on the agreement, she can also defeat the Cross-Claimant’s request for a deficiency judgment, c.f. Brown v Russo, 417 So.2d 1149 (Fla. 1st D.C.A. 1982).\nAccordingly, for the reasons expressed it is ORDERED AND ADJUDGED as follows:\n1. The Cross-Claimant’s Motion for a Deficiency Judgment against the Defendant MARGARET A. KELLEY be and the same is hereby denied.\n2. The Cross-Claimant’s Motion for a Deficiency Judgment against the Defendant KENNETH L. KELLEY is granted.\nDONE AND ORDERED in Chambers, at Tampa, Hillsborough County, Florida, this 25th day of October, 1991.",
+                                          "type":  "majority",
+                                          "author":  "RICHARD A. LAZZARA, Circuit Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Jeffrey Aman, Esquire, for cross-claimant, Citibank.",
+                                       "Randall Reder, Esquire, for defendant, Margaret A. Kelley.",
+                                       "Michael Echevarria, Esquire, Attorney Ad Litem for defendant, Kenneth L. Kelley."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "ALVAREZ v KELLEY, et al.\nCase No. 89-14773 “C”\nThirteenth Judicial Circuit, Hillsborough County\nOctober 25, 1991\nAPPEARANCES OF COUNSEL\nJeffrey Aman, Esquire, for cross-claimant, Citibank.\nRandall Reder, Esquire, for defendant, Margaret A. Kelley.\nMichael Echevarria, Esquire, Attorney Ad Litem for defendant, Kenneth L. Kelley."
+                 },
+    "file_name":  "1445-01",
+    "first_page_order":  198,
+    "last_page_order":  201
+}

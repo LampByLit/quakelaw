@@ -1,0 +1,81 @@
+﻿{
+    "id":  4565752,
+    "name":  "Horace Colson v. The State",
+    "name_abbreviation":  "Colson v. State",
+    "decision_date":  "1907-11-13",
+    "docket_number":  "No. 3836",
+    "first_page":  "138",
+    "last_page":  "140",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 138"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "11 S. W. Rep., 458",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "11 S. W. Rep., 458",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  263,
+                     "char_count":  4069,
+                     "ocr_confidence":  0.561,
+                     "pagerank":  {
+                                      "raw":  9.3451546197993213E-08,
+                                      "percentile":  0.5138322736190412
+                                  },
+                     "sha256":  "7f12eb8ba619e2155a94df925888a1eacc0066b1f48cdedc0a47b9d5ff073957",
+                     "simhash":  "1:9484ac146ed7ba11",
+                     "word_count":  706
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Horace Colson v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\nThis conviction was for carrying a pistol. The evidence shows that appellant lived in Grimes County, about twenty-five miles east of the town of Bryan; he left his home en route to Benchley, a little railroad station eight or ten miles above Bryan in Brazos County. On reaching Bryan he spent the night at what is called the Brick Ware House; he carried his pistol with him. The next morning appellant got up and went down to a saloon some distance down the street to imbibe some morning refreshment, and did so to the extent of becoming somewhat intoxicated. He was seen by two or three parties with his pistol on his person while on the street; and was finally arrested for being drunk, and placed in the calaboose. It is contended that under this state of facts that he (appellant) was a traveler. This issue was submitted to the jury by the trial court in the charge. We do not believe under this state of case, that he was what our statute contemplates in defining traveler, and that appellant’s case is brought within the rule laid down in Stilly v. State, 27 Texas Crim. App., 445; 11 S. W. Rep., 458; which case has been followed in an unbroken line of decisions by this court.\nOver appellant’s objection the State was permitted to introduce evidence that when appellant was seen with the pistol about the streets of Bryan he was under the influence of whisky. It is contended that such evidence is irrelevant and calculated to influence the minds of the jury against defendant. The court stated, in this connection, that he would admit the evidence as bearing upon the intent of appellant. We believe the testimony was admissible. Appellant was drinking at the time he was seen with the pistol; had been going to and returning from Hamilton’s saloon, and the evidence was intended to show these visits to the saloon, and further that he was diverting his trip from that of a traveler. We are of opinion that its effect was rather favorable to appellant’s case in this; that being under the influence of liquor, he unguardedly carried the pistol instead of leaving it at his quarters; that had he not been under the influence of liquor he might not have carried the pistol in walking about the town. While the court should never comment upon the testimony in his ruling in regard to admitting or rejecting evidence, but simply rule on the admission or rejection of it, we are inclined to believe that the remark of the court admitting the testimony was not injurious to appellant; at least, of not such moment as to require a reversal. The judgment is affirmed.\nAffirmed,\nHenderson, Judge, absent.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "W. T. Young, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Horace Colson v. The State.\nNo. 3836.\nDecided November 13, 1907.\n1. —Carrying Pistol—Traveler.\nWhere upon trial for unlawfully carrying a pistol the evidence showed that the defendant lived about twenty-live miles from the place where he was arrested ; that he carried a pistol with him; that he went into a saloon, got drunk and was finally arrested for being drunk, and the pistol found on him. Held, that he was not a traveler as defined by statute. Following Stilly v. State, 27 Texas Grim. App., 445; 11 S. W. Rep., 458.\n2. —Same^-Evidence.\n. On trial for unlawfully carrying a pistol testimony that defendant was drinking at the time he was seen with the pistol, going to and from a saloon, to show that he was deflecting from his journey was admissible; besides this testimony was favorable to defendant.\n3.—Same—Remarks by Judge—Harmless Error.\nWhile tlie court should never comment upon the testimony in his ruling in regard to admitting or rejecting evidence; yet where such remarks in admitting testimony upon a trial for unlawfully carrying a pistol were not injurious to defendant, to the extent of requiring a reversal, the error was harmless.\nA-ppeal from the County Court of Brazos. Tried below before the lion. A. G. Board.\nAppeal from a conviction of unlawfully carying a pistol; penalty a fine of $100.\nThe opinion states the case.\nW. T. Young, for appellant.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1119-01",
+    "first_page_order":  156,
+    "last_page_order":  158
+}

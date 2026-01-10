@@ -1,0 +1,151 @@
+﻿{
+    "id":  2021358,
+    "name":  "BUCHBAUM v. STATE OF FLORIDA, DEPARTMENT OF HIGHWAY SAFETY AND MOTOR VEHICLES",
+    "name_abbreviation":  "Buchbaum v. State",
+    "decision_date":  "1991-12-03",
+    "docket_number":  "Case No. 91-10563",
+    "first_page":  "77",
+    "last_page":  "81",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 77"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "502 So.2d 19",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7562749
+                                      ],
+                         "year":  1986,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "21"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/502/0019-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "567 So.2d 49",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7508723
+                                      ],
+                         "year":  1990,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/567/0049-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "489 So.2d 1168",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7598979
+                                      ],
+                         "weight":  2,
+                         "year":  1986,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "1171"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/489/1168-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "59 So.2d 532",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "year":  1952,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "534"
+                                           }
+                                       ],
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "505 So.2d 472",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7577926
+                                      ],
+                         "weight":  2,
+                         "year":  1987,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "475"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/505/0472-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  470,
+                     "char_count":  10933,
+                     "ocr_confidence":  0.904,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07305599670096596
+                                  },
+                     "sha256":  "dcf457f8831eb4a8b1881b3ad9a11e53afdb3cc0e234ff7b7129f2e5a9c9e344",
+                     "simhash":  "1:a2874abed8492b78",
+                     "word_count":  1741
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before RICHARD A. LAZZARA, Circuit Judge."
+                                ],
+                     "parties":  [
+                                     "BUCHBAUM v STATE OF FLORIDA, DEPARTMENT OF HIGHWAY SAFETY AND MOTOR VEHICLES"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nThe Petitioner seeks a writ of certiorari to review the Respondent Department’s order revoking his driver license for ten years. This court has jurisdiction.\nOn June 3, 1991, after the Petitioner entered a plea to the offense of D.U.I., a Hillsborough County court judge issued a written order determining that the Petitioner’s previous D.U.I. conviction in 1985 from North Carolina was not substantially similar to Florida’s D.U.I. statutory offense and thus did not treat the North Carolina conviction as a previous conviction under Florida law for driver license revocation purposes. Based on this finding the county judge revoked the Petitioner’s driver license for a period of six months and directed the Department to comply with her order.\nAfter some confusion by the Department as to the actual period of revocation, it finally issued the order under review which was contrary to the county judge’s order. The basis of the Department’s order was an opinion from its legal staff that the North Carolina D.U.I. conviction was substantially similar to the offense prohibited by Florida’s D.U.I. statute. Thus the Department concluded the North Carolina conviction qualified as a previous conviction under Florida law and utilized it in calculating the length of the Petitioner’s driver license revocation.\nThis Court concludes that the Department deviated from the essential requirements of the law in issuing the ten year driver license revocation order in direct violation of the county judge’s order. An analysis of the legislative intent embodied in the relevant statute supports this conclusion.\nThe specific statute at issue is section 322.28(2), Fla. Stat. (1989). In accordance with that statute the legislature has mandated that when an individual has been convicted of the offense of D.U.I., the court shall revoke that individual’s driver license for a prescribed period of time in accordance with certain provisions. The length of the revocation increases if the individual has sustained previous convictions for D.U.I. within certain defined periods of time.\nIn order to assist the Court in determining whether an out of state conviction qualifies as a previous conviction for revocation enhancement purposes, the legislature has provided a definition for the court to follow. That is, a previous out of state conviction for a violation of any alcohol-related or drug-related traffic offense substantially similar to the offense of Florida’s D.U.I. statute is to be treated as a previous conviction when the court revokes the individual’s driver license.\nIn the event that a court does not specify the period of revocation then the Department is obligated to do so in accordance with the statute. However, in that event, the court still retains the statutory authority upon a timely filed petition “to reopen the case and to determine the period of revocation within the limits specified in paragraph (a).” Section 322.28(2)(b)\nThus it is manifestly evident under this statutory scheme that the legislature intended that a court be vested with the mandatory duty to revoke a person’s driver license in accordance with its provisions, one of which provides a definition for the court to follow in determining under what circumstances an out of state conviction qualifies as a previous conviction. And, it is ohly when the court does not specify the period of the revocation that the Department is obligated to rectify the situation and revoke the driver license in accordance with the relevant statutory provisions.\nIn this case the record is clear that a county judge, acting pursuant to her statutory duty, made the judicial determination by written order that the Petitioner’s North Carolina conviction did not qualify for treatment as a previous conviction under Florida law. This order was not appealed by either party and thus it has become a final judgment which, under the relevant legislative scheme, has disposed of and finally settled the issue of whether Petitioner’s North Carolina conviction can be treated as a previous conviction for driver license revocation purposes. “To hold otherwise would relegate the county court to the status of a mere agent of the department, with only advisory duties, and would raise serious questions regarding the separation of powers.” State v Bell, 505 So.2d 472, 475 (Fla.2d DCA 1987). See also, White v Johnson, 59 So.2d 532, 534 (Fla. 1952) (“. . . it is too well established to require citation of authority that under our form of government providing for three discrete branches thereof — the Executive, the Legislative and the Judicial — no one of them has the right to invade the sphere of operation of either of the others.”)\nState v Vogt, 489 So.2d 1168 (Fla.2d DCA 1986) does not dictate a contrary result. It is distinguishable for several reasons. One, unlike here, that county judge under the facts and law presented to him, had “no authority to make a determination binding on the Department . . .” Id. at 1171. But in this case, as in Bell, supra, the fact-finding responsibility of what constitutes a previous conviction has been delegated by the legislature to the courts. Two, unlike here, Vogt sought the wrong remedy of contempt and not the proper remedy of certiorari. Moreover, as noted in Bell, the holding in Vogt might have been different if the court had entered an order vacating the previous conviction rather than simply refusing to consider it.\nHere the county judge did not refuse to consider the North Carolina conviction as a previous conviction but instead considered it in terms of the statutory definition and judicially determined in a written order which has become final that it did not qualify as a previous conviction under Florida law for driver license revocation purposes. In all respects the record is clear that the county judge fulfilled her statutorily mandated duty imposed by section 322.28(2) when she revoked the Petitioner’s driver license.\nAdditionally, the court is aware of the basic holding in Vogt that revocation of a driver license is not a criminal penalty but is strictly administrative in nature and that a judge has no judicial discretion in the revocation process and must follow the mandate of the applicable revocation statute. However, as noted above, in this instance the legislature has conferred limited discretion on a court to determine whether or not an out of state conviction qualifies for treatment as a previous conviction under the revocation statute. Once that determination has been made then the court no longer has any judicial discretion and must revoke a driver license in accordance with the statute. And that is precisely what the county judge did in Petitioner’s case. That is, she determined under the relevant statutory definition that the Petitioner’s North Carolina conviction could not be treated as a previous conviction for revocation purposes and, following that statutorily authorized determination, she complied strictly with the mandatory provisions of the applicable statutory provision, section 322.28(2)(a)(l), and revoked the Petitioner’s driver license for six months.\nAccordingly, based on the legislative intent embodied in the relevant statutory scheme at issue and the finality of the county judge’s written order issued in strict compliance with that statutory scheme, this court finds and concludes that the Department deviated from the essential requirements of the law by failing to implement the county judge’s order of revocation based on advice of its legal counsel.\nTherefore, the petition for writ of certiorari is granted, the order of the Department revoking the Petitioner’s driver license for a period of ten years is quashed, and the Department is directed to revoke the Petitioner’s driver license in compliance with the county judge’s order of June 3, 1991.\nSection 322.31, Fla. Stat. (1989).\nPetitioner’s App., A-4 and A-5.\nAs a result of the addition of the North Carolina conviction to the Petitioner’s driving record, another D.U.I. conviction suffered in Florida in 1984 became significant because it meant the Petitioner had three D.U.I. convictions within ten years. Section 322.28(2)(a)(3). Without the addition of the North Carolina conviction to the Petitioner’s driving record, the 1984 Florida D.U.I. conviction had no temporal significance under section 322.28 since it did not occur within five years of the date of the 1991 D.U.I. conviction at issue in this case. Hence, without the North Carolina conviction the Petitioner’s driver license could only be revoked for not less than 180 days or more than one year. Section 322.28(2)(a)(l).\nIt is interesting that this finding was predicated on a stipulation between the Petitioner and the State of Florida wherein the State of Florida was represented by the Office of the State Attorney. This fact is interesting because now this court is confronted by another agency of the State of Florida, the Department of Highway Safety and Motor Vehicles, which claims through its counsel that the North Carolina conviction does qualify as a previous conviction. Although not necessary for the resolution of this case, one could reasonably argue that the State of Florida is now collaterally estopped from relitigating this issue before this court.\nNor does State v Walters, 567 So.2d 49 (Fla.2d DCA 1990) impact on this court’s decision. Aside from the fact that a different legislative scheme was involved, section 322.28(2)(e), Fla.Stat. (1987), the judge in Walters followed the same course as the judge in Vogt — he refused to consider the previous D.U.I. conviction.\nThis conclusion is fortified by again referring to section 322.28(2)(b). As noted in Department of Highway Safety and Motor Vehicles v Spells, 502 So.2d 19, 21 (Fla.2d DCA 1986), the purpose of this statutory provision is to deal with the scenario when a court neglects its duty to revoke a driver license and not when a court has evaded the statute by imposing a lesser revocation. But even when the court neglects its duty and the Department must step in, the statute is clear — the court, upon a timely filed petition, retains the statutory authority, at its discretion, to reconsider the actual period of revocation in accordance with paragraph (a) of the statute. And paragraph (a) contains within its provisions the legislative definition of how to determine whether an out of state alcohol-related or drug-related conviction qualifies for treatment as a previous D.U.I. conviction under Florida law for revocation purposes.",
+                                          "type":  "majority",
+                                          "author":  null
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Victor J. Pellegrino, Esquire, for appellant/petitioner.",
+                                       "Patrick A. Loebig, Esquire, Assistant General Counsel, for appellee/ respondent."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "BUCHBAUM v STATE OF FLORIDA, DEPARTMENT OF HIGHWAY SAFETY AND MOTOR VEHICLES\nCase No. 91-10563\nThirteenth Judicial Circuit, Hillsborough County\nDecember 3, 1991\nAPPEARANCES OF COUNSEL\nVictor J. Pellegrino, Esquire, for appellant/petitioner.\nPatrick A. Loebig, Esquire, Assistant General Counsel, for appellee/ respondent.\nBefore RICHARD A. LAZZARA, Circuit Judge."
+                 },
+    "file_name":  "1372-01",
+    "first_page_order":  97,
+    "last_page_order":  101
+}

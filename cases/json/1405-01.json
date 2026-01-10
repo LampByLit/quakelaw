@@ -1,0 +1,423 @@
+﻿{
+    "id":  8547267,
+    "name":  "Lois Green Sherrad v. State",
+    "name_abbreviation":  "Sherrad v. State",
+    "decision_date":  "1958-12-17",
+    "docket_number":  "No. 30,003",
+    "first_page":  "119",
+    "last_page":  "123",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 119"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "68 S.W. 2d 204",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10235532,
+                                          5258788
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/68/0204-01",
+                                            "/tex-crim/125/0258-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "125 Texas Cr. Rep. 258",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5258788
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/125/0258-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "224 S.W. 782",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8268310,
+                                          8268343
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/224/0782-01",
+                                            "/sw/224/0782-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "87 Texas Cr. Rep. 641",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4795974
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/87/0641-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "213 S.W. 656",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8265176,
+                                          8265149
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/213/0656-02",
+                                            "/sw/213/0656-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "85 Texas Cr. Rep. 524",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          8265176,
+                                          4777707
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/213/0656-02",
+                                            "/tex-crim/85/0524-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "192 S.W. 2d 263",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10190022
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/192/0263-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "149 Texas Cr. Rep. 156",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2602975
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/149/0156-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "45 S.W. 2d 969",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10263214
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/45/0969-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "119 Texas Cr. Rep. 558",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5195491
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/119/0558-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "16 S.W. 2d 1092",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10319999
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/16/1092-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "112 Texas Cr. Rep. 395",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5170392
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/112/0395-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "150 S.W. 2d 402",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          11607815
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/150/0402-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "141 Texas Cr. Rep. 575",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5798153
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/141/0575-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "298 S.W. 2d 822",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10183073
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/298/0822-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 265",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2607705
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/164/0265-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "194 S.W. 2d 267",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10189999
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/194/0267-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "149 Texas Cr. Rep. 348",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2603005
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/149/0348-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "266 S.W. 2d 154",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10187308,
+                                          10187254
+                                      ],
+                         "pin_cites":  [
+                                           {
+                                               "page":  "158"
+                                           }
+                                       ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/266/0154-02",
+                                            "/sw2d/266/0154-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "159 Texas Cr. Rep. 620",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2478294
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/159/0620-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "150 Texas Cr. Rep. 158",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2600047
+                                      ],
+                         "pin_cites":  [
+                                           {
+                                               "page":  "199"
+                                           }
+                                       ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/150/0158-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "185 S.W. 2d 725",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10216758
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/185/0725-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "148 Texas Cr. Rep. 190",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2608744
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/148/0190-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "201 S.W. 2d 46",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10186424
+                                      ],
+                         "pin_cites":  [
+                                           {
+                                               "page":  "50"
+                                           }
+                                       ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/201/0046-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "150 Texas Cr. Rep. 378",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2598352
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/150/0378-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "261 S.W. 2d 167",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10185563
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/261/0167-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "159 Texas Cr. Rep. 35",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2473130
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/159/0035-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  550,
+                     "char_count":  9590,
+                     "ocr_confidence":  0.594,
+                     "pagerank":  {
+                                      "raw":  9.9552099931825967E-08,
+                                      "percentile":  0.537005632374706
+                                  },
+                     "sha256":  "3522efd5204d09fb47848fb8acf4d5fd138891f3460eb41b7245f960f33c29f8",
+                     "simhash":  "1:ad4c80c1643ea013",
+                     "word_count":  1635
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Lois Green Sherrad v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is sale of marijuana; the punishment, thirteen years.\nWe will discuss the evidence in the light most favorable to the state. Agent Bob Richards of the Narcotics Division of the Texas Department of Public Safety testified that in June, 1956, while working undercover in the city of Dallas, he caused himself to be placed in jail where he got to know certain inmates there present; that upon his release he made his way to an establishment known as the House of Barbecue, and there became acquainted with the appellant who was there employed; that after a lengthy conversation the appellant offered to sell, and he agreed to buy, one pound of marijuana for the price of $50.00; that, since the appellant did not have the marijuana available and since Richards did not have the entire $50.00 on his person, it was agreed that Richards should return the following day and receive the marijuana; but that before they parted he paid the appellant $10.00 of the agreed purchase price and that he did not thereafter see appellant. Richards testified further that he returned to the House of Barbecue the following morning and was approached by one Don Robson, the appellant not being present, who told him that the “stuff” was ready; that he paid Robson $40.00 and received instructions as to where he might find the marijuana cached. Richards followed Robson’s instructions and found the sack which was stipulated to contain marijuana. At no time in Richards’ conversation with Robson was the appellant’s name ever mentioned nor had the appellant mentioned the name of Robson in his conversation with Richards.\nThe state has urged the very novel contention that the “sale” of the narcotic drug for which appellant was convicted took place on Richards’ first visit to the barbecue establishment and was a complete transaction when appellant offered to sell to Richards one pound of marijuana which he did not have available. If this was a transaction for which the appellant was convicted, then this case must be reversed because of admission in evidence of the hearsay testimony concerning\u0027 the later transaction between Robson and Richards. Roebuck v. State, 85 Texas Cr. Rep. 524, 213 S.W. 656; Anderson v. State, 87 Texas Cr. Rep. 641, 224 S.W. 782; Oakley v. State, 125 Texas Cr. Rep. 258, 68 S.W. 2d 204; and 18 Texas Juris., Sec. 60, p. 123, and cases there cited. If the conviction was for that transaction, the evidence concerning the transaction between Robson and Richards was hearsay because it was had outside of the presence of the appellant and, under this record, no connection is shown between appellant and Robson. The record does not show that appellant and Robson even knew each other or were ever seen together. It is shown that the appellant was employed at the\u0027 House of Barbecue, but no such showing is made as to Robson. The most the evidence shows is that two different men on separate days and not in company with each other and at different times talked to a state’s witness in a public place about the sale of marijuana. If the conviction was had for the first transaction between appellant and Richards, the testimony about the transaction between Richards and Robson was clearly hearsay as to appellant.\nIf the conviction was based wholly or in part upon the transaction between Robson and Richards, it must be upon the theory that appellant was co-principal with Robson in the sale of marijuana by Robson to Richards.\nThere is not in this record in even the remotest degree any evidence which establishes or tends to establish that the appellant was a co-principal with Robson as “principal” is defined in Article 65 of the Penal Code and in the four succeeding1 articles which specify the different situations in which one may become a principal or accomplice in crime. It might here be remarked that the appellant was convicted as a principal offender and was not charged with being an accomplice.\nIf, as a matter of law, a sale occurred when Richards talked to Robson and took delivery of the marijuana, then the trial court was clearly in error in failing to charge on the law of principals and the law of circumstantial evidence. If upon another trial the evidence raises the issue, the court should give the charges requested.\nThe questions raised by argument of the state’s counsel will probably not again occur and will not be discussed.\nThe judgment is reversed and the cause remanded.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      },
+                                      {
+                                          "text":  "WOODLEY, Judge\n(dissenting).\nIt was appellant’s contention that the court should instruct the jury that unless they believed “that the sale was actually consumated by the defendant by the delivery of the * * * marihuana to the purchaser” to acquit.\nThe majority opinion does not sustain such contention, though the effect of the opinion is to do so.\nThere is no question but that the state’s evidence shows a design, scheme and plan to sell narcotics, appellant’s part being to make the agreement, collect a down payment and instruct the buyer to return for the narcotics, another to conclude the transaction by collecting the balance of the agreed price and direct the buyer to where the narcotic drug had, in the meantime, been stashed.\nAppellant, who agreed to sell Richards a pound of marijuana for $50, received a part of the purchase price and instructed Richards to return the next day for his purchase, was a principal in the sale of marijuana. Robson acted with appellant and was a principal in the sale of the marijuana.\nThis court has held that proof of the commission of an offense by two or more persons acting together as principals is sufficient to establish a conspiracy between them to commit the offense. The absence of allegation of a conspiracy is not material. Sinclair et al v. State, 159 Texas Cr. Rep. 35, 261 S.W. 2d 167, wherein we quoted from Cox v. State, 8 Texas App. 254, 255, as follows:\n“* * * when two or more are found acting together, with an unlawful intent in the commission of an offense, the common design and acting together makes them ipso facto conspirators —endows them as a body with the attribute of individuality — ■ merges the conspiracy to do the act in the act itself; and that the previous acts and declarations of each or any such principal offenders in pursuance of the agreed plan, and tending to throw light upon it or the motive or intent with which it was committed, is and should be received as legal and admissible evidence against each and all, whether indicted, prosecuted, and tried jointly or separately.”\nSee also Young v. State, 150 Texas Cr. Rep. 378, 201 S.W. 2d 46, 50; Whitehead v. State, 148 Texas Cr. Rep. 190, 185 S.W. 2d 725.\nThe conspiracy may be shown by circumstantial evidence. Montoya v. State, 150 Texas Cr. Rep. 158, 199, S.W. 2d 164.\nIt is well settled that acts and declarations of a co-conspirator during the conspiracy are admissible against other conspirators. The rule that the conspiracy must first be established no longer obtains in this state. Sapet v. State, 159 Texas Cr. Rep. 620, 266 S.W. 2d 154, 158, and cases cited; Counts v. State, 149 Texas Cr. Rep. 348, 194 S.W. 2d 267; Aguero v. State, 164 Texas Cr. Rep. 265, 298 S.W. 2d 822.\nUnder the rule stated, the acts and declarations of Robson in the delivery of the marijuana and the collection of the remainder of the purchase price therefor were admissible against appellant. Sapet v. Sapet, supra, quoting from Abbott on Evidence, p. 190 and 621:\n“ ‘The familiar rule that, when several persons are engaged together in the furtherance of an illegal design, the actions and declarations of one conspirator, made together in pursuance of a concerted plan, and with reference to the common object, are competent, against the others though not made in their presence.’\n“And again the same author, on pag\u0027e 621 says:\n“ ‘Slight evidence of concert or collusion between the parties to an illegal transaction admits evidence of the acts and declarations of one against the others under the rule already stated on page 190.’ ”\nThe trial court did not err in failing to charge on the law of principals, appellant being the principal actor in the offense. 24-A Texas Jur., p. 678, Sec. 97; Perez v. State, 141 Texas Cr. Rep. 575, 150 S.W. 2d 402; Durham v. State, 112 Texas Cr. Rep. 395, 16 S.W. 2d 1092; Hunter v. State, 119 Texas Cr. Rep. 558, 45 S.W. 2d 969.\nNor was a charge on circumstantial evidence required, there being direct evidence supporting the allegations of the indictment, 12 Texas Digest, 814(17), and cases cited, including Dodd v. State, 149 Texas Cr. Rep. 156, 192 S.W. 2d 263.\nThe court’s charge defined a sale as “the agreed transfer of property having some value to another for a valuable consideration.” Art. 725b V.A.P.C., in Sec. 1(10), defines “sale” as follows : “ ‘Sale’ includes barter, exchange, or gift, or offer therefor, and each such transaction made by any person, whether as principal, proprietor, agent, servant, or employee.”\nAppellant’s offer to sell a pound of marijuana to Richards for a consideration of $50 and Richards’ agreement to buy it and his payment of $10 as a part of the purchase price, delivery to be made the next day, followed by the delivery and payment of the $40 balance in the manner indicatéd, fully satisfied either definition.",
+                                          "type":  "dissent",
+                                          "author":  "WOODLEY, Judge"
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "James L. Mitchell, Dallas, for appellant.",
+                                       "Henry Wade, Criminal District Attorney, William F. Alexander, Homer G. Montgomery, and A. D. Jim Boivie, Assistants District Attorney, Dallas, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Lois Green Sherrad v. State.\nNo. 30,003.\nDecember 17, 1958.\nJames L. Mitchell, Dallas, for appellant.\nHenry Wade, Criminal District Attorney, William F. Alexander, Homer G. Montgomery, and A. D. Jim Boivie, Assistants District Attorney, Dallas, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1405-01",
+    "first_page_order":  137,
+    "last_page_order":  141
+}

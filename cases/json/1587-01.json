@@ -1,0 +1,93 @@
+﻿{
+    "id":  8552054,
+    "name":  "Lloyd Ray Mullican v. State",
+    "name_abbreviation":  "Mullican v. State",
+    "decision_date":  "1959-03-25",
+    "docket_number":  "No. 30,558",
+    "first_page":  "563",
+    "last_page":  "565",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 563"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "316 S.W. 2d 742",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10173461
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/316/0742-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "166 Texas Cr. Rep. 577",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2618117
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/166/0577-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  254,
+                     "char_count":  3453,
+                     "ocr_confidence":  0.542,
+                     "pagerank":  {
+                                      "raw":  6.8305188027006966E-08,
+                                      "percentile":  0.4168312515517314
+                                  },
+                     "sha256":  "67d5ad4f9a02bc387216e15c7ec5641f9a0d57b0d233a06a0808d1717f6188c2",
+                     "simhash":  "1:6089a07a3ce1a6df",
+                     "word_count":  582
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Lloyd Ray Mullican v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nThe conviction is for felony theft; the punishment, enhanced by a prior conviction for felony embezzlement, ten years.\nAppellant was employed by a car wash company and resided with Rex Rawles, its manager.\nOn the evening of August 2, 1958, Mr. Rawles permitted appellant to use his automobile and showed him a bag of money representing the day’s receipts, which he had carried home and placed in a cedar chest in his bedroom. He instructed appellant to open the business the next morning in the event he was not back.\nMr. Rawles returned home late that night. Appellant was not there and the bag of money and his automobile were missing.\nMr. Rawles testified that there was $406.00 in the bag, but there was other testimony which fixed the amount at $372.75.\nAppellant was apprehended in Laredo a week later and Mr. Rawles next saw his automobile there. Upon being returned to Houston appellant signed a confession admitting that after he left Rawles he returned to the Rawles residence and got the money and went to Laredo and then to Mexico where he was arrested. His statement was that Rawles said the bag contained $250 or $260.\nThe value of the automobile was shown to be some $1400.\nThe indictment alleged the theft of $460 in money and of an automobile of the value of $1500. The charge of the court, to which there were no objections, authorized a conviction upon a finding that appellant fraudulently took any part of the property mentioned in the indictment of the value of $50 or over.\nThe prior conviction alleged for enhancement of punishment was proved by the certified copy of the records of the Texas Department of Corrections, which included copies of the judgment and sentence, photographs and fingerprints of the defendant in said cause; and the testimony of an expert witness who compared these fingerprints with those he took of appellant and found them to be fingerprints of the same person.\nWe find no error in the admission of such evidence and find it sufficient to sustain the allegation as to the prior conviction for felony embezzlement. See Art. 3731a V.A.C.S.; Stockwell v. State, 166 Texas Cr. Rep. 577, 316 S.W. 2d 742, and cases there cited.\nAppellant complains that the trial court refused to order the district attorney to turn over to him the statement of the complaining witness Rex Rawles, that he might use it in cross-examining said witness.\nThe record shows that such statement was first requested after the state had rested and then upon the claim that the assistant district attorney had used such statement in examining the witness Rawles.\nThe attorney for the state testified that he did not use any written statement in examining the witness Rawles except the confession of appellant.\nIn this condition of the record, no error is shown by this bill.\nThe record does not support appellant’s claim of consistent leading questions propounded by the state to its prosecuting witness. In fact the statement of facts is principally in narrative form.\nThe confession of appellant was admitted by the court, and no issue was submitted to the jury and none requested regarding its being voluntary.\nThe judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "No attorney for appellant of record on appeal.",
+                                       "Dan Walton, District Attorney, Thomas D. White, Samuel H. Robertson, Jr., Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Lloyd Ray Mullican v. State.\nNo. 30,558.\nMarch 25, 1959.\nNo attorney for appellant of record on appeal.\nDan Walton, District Attorney, Thomas D. White, Samuel H. Robertson, Jr., Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1587-01",
+    "first_page_order":  581,
+    "last_page_order":  583
+}

@@ -1,0 +1,95 @@
+﻿{
+    "id":  8552641,
+    "name":  "Dorothy Lee Creswell v. State",
+    "name_abbreviation":  "Creswell v. State",
+    "decision_date":  "1959-02-25",
+    "docket_number":  "No. 30,432",
+    "first_page":  "625",
+    "last_page":  "626",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 625"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "227 S.W. 2d 545",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10201465,
+                                          10201602
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/227/0545-01",
+                                            "/sw2d/227/0545-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "154 Texas Cr. Rep. 406",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2585387
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/154/0406-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  212,
+                     "char_count":  2599,
+                     "ocr_confidence":  0.582,
+                     "pagerank":  {
+                                      "raw":  5.12982294956584E-08,
+                                      "percentile":  0.32363836656113926
+                                  },
+                     "sha256":  "f30ebc5f001ec986e6a2bc94f83a8288405e8a972ed4e2e85fb19cdb31849fef",
+                     "simhash":  "1:99ab049549fe827f",
+                     "word_count":  447
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Dorothy Lee Creswell v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is misdemeanor theft, with two prior convictions for the same offense alleged for enhancement; the punishment, 18 months in jail.\nA. Sussman, who was in charge of the second floor men’s clothing department at Battlestein’s store in Houston, testified that, on the day charged in the information, he saw the appellant come into his department, that he approached her and she said that she was waiting for someone, that he continued to watch her, saw her lean “into” a clothing case, and that when he approached her again she entered the self service elevator and fled. He stated that he gave the order for her to be detained, and when he reached the ground floor found her in the company of a policeman. He identified two pair of men’s trousers by stock number and\u0027 material as having come from suits in the clothing case “into” which he had seen the appellant lean.\nOfficer Linenberger of the Houston police department testified that on the day in question he saw the appellant running out of Battlestein’s store, gave chase, and apprehended her on the sidewalk; that he asked her if she had anything belonging to the store, and she handed him her purse in which he found two pair of trousers tightly rolled, which were immediately identified by Mr. Sussman.\nThe two prior convictions were established and the appellant identified as the person convicted in such cases.\nThe appellant did not testify or offer any evidence in her behalf.\nAppellant challenges the sufficiency of the verdict which read, “We, the jury, find the defendant guilty as charged and assess her punishment at 18 months in jail.” In Ellison v. State, 154 Texas Cr. Rep. 406, 227 S.W. 2d 545, we held that a general verdict in which the punishment was fixed so as to fall within either a first or second offender, as in the case at bar, would be a valid verdict. In the instant case, the court instructed the jury that in the event they did not find the appellant guilty as an habitual violator to so state in its verdict. Their failure to mention the prior convictions, under such a charge, constituted a finding of guilt as to the primary offense and that she was the person who had been convicted in the prior cases.\nFinding no reversible error, the judgment of the trial court is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "C. C. Divine, Houston, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White, David Ball, Assistants District Attorney, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Dorothy Lee Creswell v. State.\nNo. 30,432.\nFebruary 25, 1959.\nMotion for Rehearing Overruled April 8, 1959.\nC. C. Divine, Houston, for appellant.\nDan Walton, District Attorney, Thomas D. White, David Ball, Assistants District Attorney, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1601-01",
+    "first_page_order":  643,
+    "last_page_order":  644
+}

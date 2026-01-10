@@ -1,0 +1,185 @@
+﻿{
+    "id":  8549234,
+    "name":  "Claude Dee Campbell v. State",
+    "name_abbreviation":  "Campbell v. State",
+    "decision_date":  "1959-02-04",
+    "docket_number":  "No. 30,392",
+    "first_page":  "321",
+    "last_page":  "323",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 321"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "180 S.W. 669",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8252873
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/180/0669-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "78 Texas Cr. Rep. 139",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "159 S.W. 2d 244",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10212932
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/159/0244-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "70 Texas Cr. Rep. 361",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2381561
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/70/0361-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "271 S.W. 2d 279",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10187769,
+                                          10187732
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/271/0279-02",
+                                            "/sw2d/271/0279-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "160 Texas Cr. Rep. 364",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2472324
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/160/0364-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "101 S.W. 2d 571",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10254451
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/101/0571-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "131 Texas Cr. Rep. 640",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5243582
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/131/0640-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "2 S.W. 2d 439",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10294880
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/2/0439-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "108 Texas Cr. Rep. 655",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5149008
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/108/0655-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  195,
+                     "char_count":  2189,
+                     "ocr_confidence":  0.596,
+                     "pagerank":  {
+                                      "raw":  7.4130386469202056E-08,
+                                      "percentile":  0.4432831798301754
+                                  },
+                     "sha256":  "766047ed429a49925cfc0cf959edb7cbfde6027d2d520b4cb14d5a765c0caf4b",
+                     "simhash":  "1:3f0df8e55d0f06d8",
+                     "word_count":  379
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Claude Dee Campbell v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is driving while intoxicated; the punishment, 3 days in jail and a fine of $100.00.\nHighway Patrolman Rutherford testifed that on the day in question he observed an automobile make a U-turn in a no passing area, narrowly avoid a collision, and that he turned around and gave chase; that the appellant, who was the driver, smelled of intoxicants, spoke in a slurred manner, walked unsteadily, and expressed the opinion that he was intoxicated.\nAppellant, testifying in his own behalf, stated that he had nothing intoxicating to drink on the day of his arrest. He also called one Armstrong, who was with him on the day in-question and who also testified that the appellant had not been drinking.\nThe state, in rebuttal, called Ruth Earls, who testified that she served the appellant three beers at noon of the day on which he was arrested. She testified further that the witness Armstrong had offered her $10.00 to testify that the appellant was not intoxicated.\nThe jury resolved the conflict in- the evidence against the appellant, and we find it sufficient to support the conviction.\nBill of Exception No. 1 complains that the court allowed the state to reopen its case and prove venue. No error is presented. Tarver v. State, 108 Texas Cr. Rep. 655, 2 S.W. 2d 439; Fullbright v. State, 131 Texas Cr. Rep. 640, 101 S.W. 2d 571; and Martin v. State, 160 Texas Cr. Rep. 364, 271 S.W. 2d 279.\nBill of Exception No. 2 related to proof by the witness Earls that Armstrong had offered her $10.00 to testify favorably to the appellant. The careful trial court properly instructed the jury that they might consider such testimony solely as it might show interest on the part of Armstrong. Burnaman v. State, 70 Texas Cr. Rep. 361, 159 S.W. 2d 244, is authority for the rule that such evidence was admissible to show motive, bias or interest of the witness. See also Jones v. State, 78 Texas Cr. Rep. 139, 180 S.W. 669.\n\u0027 Finding no reversible error, the judgment of the trial court is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "No attorney for appellant of record on appeal.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Claude Dee Campbell v. State.\nNo. 30,392.\nFebruary 4, 1959.\nNo attorney for appellant of record on appeal.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1513-01",
+    "first_page_order":  339,
+    "last_page_order":  341
+}

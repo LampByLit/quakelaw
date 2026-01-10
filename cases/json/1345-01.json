@@ -1,0 +1,217 @@
+﻿{
+    "id":  8546754,
+    "name":  "Mrs. Henry Hunt v. State",
+    "name_abbreviation":  "Hunt v. State",
+    "decision_date":  "1958-10-29",
+    "docket_number":  "No. 30,030",
+    "first_page":  "51",
+    "last_page":  "53",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 51"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "284 S.W. 2d 903",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10184417
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/284/0903-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 329",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2462485
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/162/0329-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "252 S.W. 2d 177",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10198894
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/252/0177-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "157 Texas Cr. Rep. 609",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2572349
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/157/0609-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "249 S.W. 2d 210",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10198979,
+                                          10199093
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/249/0210-01",
+                                            "/sw2d/249/0210-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "157 Texas Cr. Rep. 442",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2577275
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/157/0442-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "169 S.W. 2d 181",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10202883
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/169/0181-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "145 Texas Cr. Rep. 460",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5292461
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/145/0460-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "296 S.W. 2d 781",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10182872
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/296/0781-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 137",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2608195
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0137-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "244 S.W. 2d 214",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10193290,
+                                          10193364
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/244/0214-01",
+                                            "/sw2d/244/0214-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "156 Texas Cr. Rep. 493",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2579623
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/156/0493-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  185,
+                     "char_count":  2058,
+                     "ocr_confidence":  0.578,
+                     "pagerank":  {
+                                      "raw":  2.4033939877351327E-07,
+                                      "percentile":  0.7991494870936491
+                                  },
+                     "sha256":  "c774b9bc39d11fdb17bc2fccae849ad0750328789f280f32db1003cddbdc78f9",
+                     "simhash":  "1:2a4e1ee34fb456ba",
+                     "word_count":  362
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Mrs. Henry Hunt v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DICE, Judge.\nUpon a plea of guilty before the court, without a jury, appellant was convicted of the offense of unlawfully possessing intoxicating liquor for the purpose of sale in a dry area and her punishment assessed at one year in jail and a fine of $500.\nAfter conviction appellant filed an amended motion for new trial in which she alleged that the punishment assessed was unjust, unreasonable and excessive, and that had she known the court would inflict such punishment she would not have entered a plea of guilty. It was further alleged that the judgment of conviction was not supported by any evidence.\nThe motion was not sworn to or supported by the affidavit of appellant or any person.\nThe unverified motion was insufficient as a pleading and the court’s action in overruling the same cannot be assigned as error. Vowell v. State, 156 Texas Cr. Rep. 493, 244 S.W. 2d 214, and Williams v. State, 164 Texas Cr. Rep. 137, 296 S.W. 2d 781.\nWhere an accused enters a plea of guilty in a misdemeanor case it is not necessary that the state introduce evidence showing his guilt. Ex parte Clinnard, 145 Texas Cr. Rep. 460, 169 S.W. 2d 181, and Palomo v. State, 157 Texas Cr. Rep. 442, 249 S.W. 2d 210. We observe however that the statement of facts on file in the cause does reflect that the state introduced sufficient evidence to establish the appellant’s guilt.\nIt has been the holding of this court that when the punishment assessed is within the limits prescribed by law it is not excessive and it is not within the province of this court to pass on the propriety of such punishment. Palomo v. State, supra; Pineda v. State, 157 Texas Cr. Rep. 609, 252 S.W. 2d 177, and Manning v. State, 162 Texas Cr. Rep. 329, 284 S.W. 2d 903.\nFinding no reversible error the judgment of the trial court is affirmed.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "DICE, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "L. D. Hartwell, Greenville, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Mrs. Henry Hunt v. State.\nNo. 30,030.\nOctober 29, 1958.\nAppellant’s Motion for Rehearing Overruled November 25, 1958.\nL. D. Hartwell, Greenville, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1345-01",
+    "first_page_order":  69,
+    "last_page_order":  71
+}

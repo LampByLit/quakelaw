@@ -1,0 +1,70 @@
+﻿{
+    "id":  4563258,
+    "name":  "Newt Steele v. The State",
+    "name_abbreviation":  "Steele v. State",
+    "decision_date":  "1908-01-20",
+    "docket_number":  "No. 4026",
+    "first_page":  "402",
+    "last_page":  "403",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 402"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  205,
+                     "char_count":  3429,
+                     "ocr_confidence":  0.597,
+                     "pagerank":  {
+                                      "raw":  4.7817273071113374E-08,
+                                      "percentile":  0.30105191460969344
+                                  },
+                     "sha256":  "c223c98caba60c786f014ecc69ee4b61f1d7f4f798a3233e7abdd47df540dc1f",
+                     "simhash":  "1:9c35c13aa23e83db",
+                     "word_count":  569
+                 },
+    "last_updated":  "2023-07-14T19:59:32.944253+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Newt Steele v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\n—The only question suggested for reversal is the supposed want of sufficient evidence to sustain the verdict of the jury. Hnder the State’s evidence, the jury were warranted in finding that appellant carried the knuckles as charged. This was made to appear by the evidence of Barrett, Stevens and Brown, but denied by appellant (who testified in his own behalf), Walter Gilbert and Orendorff. This makes a conflict in the testimony, which the jury solved adversely to appellant’s contentions.\nThe other contention is, that the State failed to show that the knuckles were of some hard substance. If the State is compelled to prove definitely that the knuckles mentioned and inhibited by the statute from being carried is of metal or some hard substance, then this evidence would hardly be sufficient, but we are of opinion that the fact that a party carries knuckles, or is found with knuckles carried in violation of the law, and that fact is proved, would be sufficient to justify a conviction, in the absence of other testimony, and that from the facts in the case the jury were warranted in finding that appellant was guilty of carrying knuckles in violation of the law. As this testimony is made to appear, we are of opinion that the jury was authorized in finding appellant guilty, and the judgment is affirmed.\nAffirmed.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "E. G. Evans and Eons Lee, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Newt Steele v. The State.\nNo. 4026.\nDecided January 20, 1908.\n1. —Carrying Knuckles—Sufficiency of Evidence—Question of Fact.\nUpon trial for unlawfully carrying knuckles where there was a conflict of testimony and the jury found the defendant guilty, the conviction is sustained.\n2. —Same—Substance of Knuckles.\nWhere upon trial for unlawfully carrying knuckles, the State’s testimony showed that the defendant carried knuckles in violation of the law, the same was sufficient to convict, and the State was not compelled to prove definitely that the said knuckles were of metal or some hard substance, in the absence of other testimony.\nAppeal from the County Court of Fannin. Tried below before the Hon. H. A. Cunningham.\nAppeal from a conviction of unlawfully carrying knuckles; penalty, thirty days confinement in the county jail.\nThe State’s witness testified that he had a difficulty with the defendant in the night-time * * *. That defendant drew a pair of knucks from his right hip pocket and struck at the prosecutor * * :|:; that he did not hit prosecutor with the knucks, prosecutor knocking off the lick and dodging, defendant glazing the side of prosecutor’s head * * *. The knucks were dark colored; prosecutor saw them for only a moment; that the night was not very dark, and that he could see the knucks very plainly. Other witnesses for the State testified substantially to the same facts. Defendant testified that he had no knucks about his person at the time of the difficulty. Other witnesses for the defendant testified that defendant had no knucks.\nE. G. Evans and Eons Lee, for appellant.\n—Where the information charges that the defendant carried on and about his person knucks made of a hard substance, and the only evidence introduced to sustain said charge shows that said knucks were of a dark color and no evidence whatever to sustain the allegation that they were of a hard substance, the evidence is not sufficient to sustain the conviction and the same should be set aside by this court.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1203-01",
+    "first_page_order":  420,
+    "last_page_order":  421
+}

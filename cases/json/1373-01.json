@@ -1,0 +1,119 @@
+﻿{
+    "id":  8546958,
+    "name":  "John L. Scott v. State",
+    "name_abbreviation":  "Scott v. State",
+    "decision_date":  "1958-12-03",
+    "docket_number":  "No. 30,060",
+    "first_page":  "77",
+    "last_page":  "78",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 77"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "274 S.W. 2d 402",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10184458,
+                                          10184467
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/274/0402-01",
+                                            "/sw2d/274/0402-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "160 Texas Cr. Rep. 624",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2472875
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/160/0624-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "140 S.W. 2d 187",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10229156
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/140/0187-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "140 Texas Cr. Rep. 159",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5797543
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/140/0159-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  128,
+                     "char_count":  1542,
+                     "ocr_confidence":  0.565,
+                     "pagerank":  {
+                                      "raw":  1.2518536202374279E-07,
+                                      "percentile":  0.6103469738969337
+                                  },
+                     "sha256":  "3b670d85259e98704a6881714201436261a7025171da9784101b3b5b3d439572",
+                     "simhash":  "1:cd855e2008cede16",
+                     "word_count":  252
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "John L. Scott v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BELCHER, Judge.\nThe conviction is for sodomy; the punishment, four years.\nThe former opinion dismissing the appeal is withdrawn, and the appeal is now re-instated.\nThe testimony of a fourteen-year-old boy shows an act of sodomy upon him by the appellant.\nAppellant’s written statement introduced in evidence by the state shows the commission by him of an act of sodomy upon the fourteen-year-old boy.\nAppellant did not testify or offer any testimony in his behalf.\nThe court charged the jury that the fourteen-year-old boy was an accomplice as a matter of law. In connection therewith the court further charged the jury that a conviction could not be had upon the testimony of an accomplice unless corroborated by other evidence connecting the defendant with the offense charged and the corroboration is not sufficient if it merely shows the commission of the offense.\nThe court in its charge also submitted the issue of the voluntary character of appellant’s written statement.\nThe testimony of an accomplice witness together with the confession of the accused is sufficient to establish the corpus de-licti of an offense. Martinez v. State, 140 Texas Cr. Rep. 159, 140 S.W. 2d 187; Benjamin v. State, 160 Texas Cr. Rep. 624, 274 S.W. 2d 402.\nThe evidence is sufficient to support the conviction and no reversible error appearing the judgment is affirmed.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "BELCHER, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "E. Earl Kuntz, Wichita Falls, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "John L. Scott v. State.\nNo. 30,060.\nDecember 3, 1958.\nE. Earl Kuntz, Wichita Falls, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1373-01",
+    "first_page_order":  95,
+    "last_page_order":  96
+}

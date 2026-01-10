@@ -1,0 +1,117 @@
+﻿{
+    "id":  8552471,
+    "name":  "Ex Parte J. T. Pitcock",
+    "name_abbreviation":  "Ex parte Pitcock",
+    "decision_date":  "1959-04-01",
+    "docket_number":  "No. 30,687",
+    "first_page":  "604",
+    "last_page":  "605",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 604"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "311 S.W. 2d 413",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10169208
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/311/0413-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "166 Texas Cr. Rep. 55",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2615272
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/166/0055-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "109 S.W. 2d 200",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10247223
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/109/0200-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "133 Texas Cr. Rep. 75",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5230954
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/133/0075-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  176,
+                     "char_count":  1954,
+                     "ocr_confidence":  0.564,
+                     "pagerank":  {
+                                      "raw":  6.7708452639942112E-08,
+                                      "percentile":  0.4140150641987236
+                                  },
+                     "sha256":  "5dff72fa77264985778f330a20cf3812c9847dc51b6e618df673177366750558",
+                     "simhash":  "1:591f8679242f62a9",
+                     "word_count":  340
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte J. T. Pitcock."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BELCHER, Judge.\nBy writ of habeas corpus filed in the Criminal District Court of Harris County, appellant sought to have his appeal bonds reduced in four cases in which he had been convicted of felonies less than capital.\nAfter sentence and notice of appeal in each case on December 18, 1958, the appeal bond in the 8-year case was set at $10,000, and in the other three cases with concurrent sentences of five years, bond in each was set at $7,500.\nOn the hearing of the writ, appellant testified that he could not make the bonds as set but thought he could make bonds in the sum total of $15,000.\nThe proof of the state shows that appellant had been four times previously convicted of felonies. The first conviction was in 1989; the second in 1950; the third when he went out on a bench warrant while serving the 1950 conviction; and the fourth in 1958. Following these convictions were the four in December, 1958, which are here being considered.\nThe court reduced the $10,000 appeal bond to $8,000 and reduced each of the three $7,500 appeal bonds to $5,000, making a total reduction of $9,500.\nWhen bail is substantially reduced on habeas corpus hearing, a showing by the accused of a reasonable effort to furnish bail in the reduced amount should be made before further complaint is urged that the amount remains excessive. Ex parte Burleson, 133 Texas Cr. Rep. 75, 109 S.W. 2d 200; Ex parte Dunlap, 166 Texas Cr. Rep. 55, 311 S.W. 2d 413.\nIn the absence of any further showing after the $9,500 reduction in the appeal bonds and under the record here presented there appears no abuse of discretion by the district judge.\nThe judgment is affirmed.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "BELCHER, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "No attorney for appellant of record on appeal.",
+                                       "Dan Walton, District Attorney, Thomas D. White, Samuel H. Robertson, Jr., Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte J. T. Pitcock.\nNo. 30,687.\nApril 1, 1959.\nNo attorney for appellant of record on appeal.\nDan Walton, District Attorney, Thomas D. White, Samuel H. Robertson, Jr., Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1597-01",
+    "first_page_order":  622,
+    "last_page_order":  623
+}

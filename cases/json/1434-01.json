@@ -1,0 +1,101 @@
+﻿{
+    "id":  2021320,
+    "name":  "McRAE, etc. v. FLORIDA EAST COAST RAILWAY COMPANY, etc.",
+    "name_abbreviation":  "McRae v. Florida East Coast Railway Co.",
+    "decision_date":  "1990-03-01",
+    "docket_number":  "Case No. CL-87-9334 “Al”",
+    "first_page":  "165",
+    "last_page":  "166",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 165"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "769 F.2d 26",
+                         "category":  "reporters:federal",
+                         "reporter":  "F.2d",
+                         "case_ids":  [
+                                          361297
+                                      ],
+                         "year":  1985,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/f2d/769/0026-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "729 F.2d 289",
+                         "category":  "reporters:federal",
+                         "reporter":  "F.2d",
+                         "case_ids":  [
+                                          1939204
+                                      ],
+                         "year":  1984,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/f2d/729/0289-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "615 P.2d 457",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "P.2d",
+                         "year":  1980,
+                         "opinion_index":  0
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  240,
+                     "char_count":  3150,
+                     "ocr_confidence":  0.905,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.0730523285334396
+                                  },
+                     "sha256":  "2ad0d5dfc6b51be646ecf02fc7d847af951d75674a002520896b7ab3fe2239eb",
+                     "simhash":  "1:2becc414e76c01b9",
+                     "word_count":  511
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "McRAE, etc. v FLORIDA EAST COAST RAILWAY COMPANY, etc."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nJACK H. COOK, Circuit Judge.\nORDER DENYING PLAINTIFF’S MOTION TO DISMISS COUNTERCLAIM\nThe Plaintiff, CYNTHIA McRAE, as personal representative of the Estate of Dale Edward McRae, has sued the Defendant, FLORIDA EAST COAST RAILWAY COMPANY, under the Federal Employee’s Liability Act for the death of Dale McRae. Mr. McRae’s death resulted from a collision between two trains, one of which he was operating. Florida East Coast Railway Company counterclaimed against the McRae estate for damages to the locomotive and train operated by Mr. McRae at the time of the accident.\nCynthia McRae now moves to dismiss the counterclaim on the basis that it constitutes a device, the purpose of which is to enable the railroad to exempt itself from liability created by the F.E.L.A. and therefore, violates Sections 55 and 60 of 45 U.S.C. The railroad argues that it has a common-law right to sue an employee for damages to its equipment resulting from the employee’s negligence; that its claim is a compulsory counterclaim under Florida Rules of Civil Procedure; and that the exercise of this common-law compulsory counterclaim cannot constitute a violation of the F.E.L.A. provisions relied upon by the Plaintiff.\nThis question has not been decided in the State of Florida and the courts that have ruled upon it are split. The primary case cited in support of the Plaintiffs position is Stack v Chicago, Milwaukee, St. Paul and Pacific Railroad Company, 615 P.2d 457 (Wash. 1980) in which the Washington Supreme Court unanimously held that a similar claim did violate Sections 55 and 60 of 45 U.S.C. The two Federal Courts of Appeal that have ruled on the question have come to the opposite conclusion, see Cavanaugh v Western Maryland Railway Company, 729 F.2d 289 (4th Cir. 1984) and Sprague v Boston and Maine Corp., 769 F.2d 26 (1st Cir. 1985).\nThe equities of the situation which support the Plaintiffs position are set forth well in both the Stack case and the dissent in the Cavanaugh case. In rejecting these equitable considerations, the federal courts have reasoned that the common-law right of the railroad to sue its employees for negligently damaging its property preexisted F.E.L.A. The courts reasoned that had congress meant to limit or extinguish this right it could have done so by clear language within the act. The Cavanaugh court further notes that the logical extension of the position urged by the Plaintiff would require the dismissal of a railroad’s negligence claim against an employee if the employee counterclaimed under the F.E.L.A.\nWhile the equitable considerations urged by the Plaintiff are certainly significant, I find that the decisions of the Cavanaugh and Sprague courts are probably a more accurate analysis of congressional intent and reflect a more logical reading of the statutory language.\nAccordingly, Plaintiffs Motion to Dismiss the Counterclaim is denied.\nDONE AND ORDERED at West Palm Beach, Palm Beach County, Florida, on this 1st day of March, 1990.",
+                                          "type":  "majority",
+                                          "author":  "JACK H. COOK, Circuit Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "McRAE, etc. v FLORIDA EAST COAST RAILWAY COMPANY, etc.\nCase No. CL-87-9334 “Al”\nFifteenth Judicial Circuit, Palm Beach County\nMarch 1, 1990"
+                 },
+    "file_name":  "1434-01",
+    "first_page_order":  185,
+    "last_page_order":  186
+}

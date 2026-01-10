@@ -1,0 +1,177 @@
+﻿{
+    "id":  4565288,
+    "name":  "Willie Ballentine v. The State",
+    "name_abbreviation":  "Ballentine v. State",
+    "decision_date":  "1908-01-22",
+    "docket_number":  "No. 4230",
+    "first_page":  "369",
+    "last_page":  "371",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 369"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "33 Texas Crim. Rep., 634",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          11275315
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/33/0634-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "33 Texas Crim. Rep., 327",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          11273674
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/33/0327-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "34 Texas Crim. Rep., 65",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4478384
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/34/0065-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "35 Texas Crim. Rep., 96",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          158461
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/35/0096-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "32 Texas Crim. Rep., 272",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4473304
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/32/0272-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "34 Texas Crim. Rep., 546",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4478063
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/34/0546-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "51 S. W. Rep., 933",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "41 Texas Crim. Rep., 46",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4501137
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/41/0046-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "51 S. W. Rep., 916",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "41 Texas Crim. Rep., 115",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4500344
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/41/0115-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  370,
+                     "char_count":  6255,
+                     "ocr_confidence":  0.612,
+                     "pagerank":  {
+                                      "raw":  2.4704464997371387E-07,
+                                      "percentile":  0.8064672882473071
+                                  },
+                     "sha256":  "9f33fbd325a2a21dbc35655cb42417585d609b57fa692e4576341e3c6d63c006",
+                     "simhash":  "1:203895acd20746d6",
+                     "word_count":  1119
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Willie Ballentine v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\nAppellant was convicted of the offense of burglary with intent to commit the crime of rape, his punishment being assessed at twenty-five years in the penitentiary. Briefly, the facts are that someone entered the room in which Mrs. Ida Barnett was sleeping. Her testimony is to the effect that she was sleeping in a bed by herself, her husband occupying one in the adjoining room. It is disclosed that the rooms adjoined each other, being separated by folding doors, and as the husband of Mrs. Barnett states, the two rooms were practically one. Some time during the night, perhaps along about two o’clock in the morning, Mrs. Barnett was awakened by reason of the presence of someone in her room. She observed at the foot of her bed a party whom she did not know, nor his color, but believed it to be appellant, who had raised the mosquito bar at the foot of the bed and had his head and shoulders under it with his hand upon her foot. She screamed and the intruder immediately fled through the window.. The hat worn by the intruder fell off his head on the bed and he left it there when he took his flight. This hat led to the arrest of appellant and was in fact claimed by him as his property. When accosted by the officer at the time of his arrest, he admitted ownership in the hat but denied having worn it on the night of this trouble, stating that another party had taken it from him and he had not seen the hat from the time it was taken until shown to him when arrested, and stated that he had nothing to do with the burglary or entry of the house, and it was also defensively shown that he was at home asleep. In other words, his defensive testimony was that of alibi. This is practically and substantially the case.\nAmong other complaints urged to the charge was its failure to submit to the jury his alibi theory. There are cases in which the law has been held to be sufficiently charged, presenting this theory, without directly and pertinently giving the charge of alibi, but\u0027in all the cases it is the uniform rule, so far as we are apprised in this State, that wherever the question of alibi is the defensive theory, and that relied upon by the accused, and a charge is not given, and exception is reserved to the failure of the court to give this charge, the case will be reversed. Wilson v. State, 41 Texas Crim. Rep., 115; 51 S. W. Rep., 916; Joy v. State, 41 Texas Crim. Rep., 46; 51 S. W. Rep., 933; Anderson v. State, 34 Texas Crim. Rep., 546; Quintana v. State, 29 Texas Crim. App., 401.\nIt is also the rule in this State that if the only defense is an alibi, the trial court should charge the law relating thereto; and if an appropriate charge upon the subject has been requested and refused, or an exception has been reserved because of the omission of a proper instruction thereon, the judgment of conviction will be reversed. Ayres v. State, 21 Texas Crim. App., 399; Oxford v. State, 32 Texas Crim. Rep., 272; Rider v. State, 26 Texas Crim. App., 334; Davis v. State, 14 Texas Crim. App., 645. It is further stated, where alibi is interposed as a defense, and there was evidence supporting the defense, it is error for the court to refuse to instruct the jury with reference to such testimony. See Tittle v. State, 35 Texas Crim. Rep., 96; Spencer v. State, 34 Texas Crim. Rep., 65; Conway v. State, 33 Texas Crim. Rep., 327; Polanka v. State, 33 Texas Crim. Rep., 634; Jones v. State, 30 Texas Crim. App., 345; Quintana v. State, 29 Texas Crim. App., 401; Hunnicutt v. State, 18 Texas Crim. App., 498; Ninon v. State, 17 Texas Crim. App., 650; Powell v. State, 13 Texas Crim. App., 244; Long v. State, 11 Texas Crim. App., 381; Granger v. State, 11 Texas Crim. App., 454, and for further collation of authorities see White’s Code Criminal Procedure, sec. 814. This question is properly raised, and we find the error reversible.\nWe are further of opinion that the charge of the court is too meager and is not sufficient in regard to the definition of force, such as is necessary to constitute the crime of rape, it being charged in the indictment herein that appellant’s intent in entering the house was for the purpose of committing rape by force. Aggravated assault should have been given in charge.\nFor the reasons indicated the judgment is reversed and the cause is remanded.\nReversed and remanded.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       ". Thomas C. Turnley, for appellant.—Cited the cases mentioned in the opinion.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Willie Ballentine v. The State.\nNo. 4230.\nDecided January 22, 1908.\n1. —Burglary—Intent to Commit Rape—Charge of Court—Alibi.\nWherever the question of alibi is the defensive theory and that relied upon by the accused, and a charge is not given in a felony case and exception is reserved to the failure of the court to give this charge, the case will be reversed. Following Anderson v. State, 34 Texas Grim. Rep., 546.\n2. —Same—Charge Requested.\nIt is the rule in this State that if the only defense is an alibi, the trial court should charge the law relating thereto; and if an appropriate charge upon the subject has been requested and refused, or an exception has been reserved because of this omission the judgment will be reversed. Following Ayres v. State, 21 Texas Grim. App., 399.\n3. —Same.\nWhere alibi is interposed as a defense, and there is evidence supporting the same, it is error for the court to refuse to instruct on this issue. Following Tittle v. State, 35 Texas Grim. Rep., 96.\n4. —Same—Charge of Court—Force.\nUpon trial for burglary with intent to commit rape, the court should properly charge the definition of force with reference to the crime of rape.\n5. —Same—Charge of Court—Aggravated Assault.\nWhere upon trial for burglary with intent to commit rape, the evidence showed that the party who went into the house was frightened away as soon as he was discovered in the house, and touched prosecutrix, etc., at night, the court should have charged on the law of aggravated assault.\nAppealed from the Criminal District Court of Galveston. Tried below before the Hon. J. K. P. Gillaspie.\nAppeal from a conviction of burglary with intent to commit rape; penalty, twenty-five years imprisonment in the penitentiary.\nThe opinion states the case.\n. Thomas C. Turnley, for appellant.—Cited the cases mentioned in the opinion.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1196-01",
+    "first_page_order":  387,
+    "last_page_order":  389
+}

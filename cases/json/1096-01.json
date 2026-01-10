@@ -1,0 +1,117 @@
+﻿{
+    "id":  4560060,
+    "name":  "Tom Abernathy v. The State",
+    "name_abbreviation":  "Abernathy v. State",
+    "decision_date":  "1907-11-06",
+    "docket_number":  "No. 3831",
+    "first_page":  "41",
+    "last_page":  "42",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 41"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "33 Texas Crim. Rep., 231",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          11273270
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/33/0231-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "36 Texas Crim. Rep., 447",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2361263
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/36/0447-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "33 Texas Crim. Rep., 231",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          11273270
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/33/0231-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "36 Texas Crim. Rep., 447",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2361263
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/36/0447-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  192,
+                     "char_count":  2621,
+                     "ocr_confidence":  0.572,
+                     "pagerank":  {
+                                      "raw":  5.4033266686372354E-08,
+                                      "percentile":  0.339973295740408
+                                  },
+                     "sha256":  "cd468f771e263f8b03720c945498a7cc41e073e3b6478dbee20ea78d519560e8",
+                     "simhash":  "1:7234a0d93a24641f",
+                     "word_count":  452
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Tom Abernathy v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BROOKS, Judge.\nAppellant was convicted for unlawfully carrying a pistol and his punishment assessed at a fine of $100.\nAppellant filed a motion in arrest of the judgment, on the ground that the complaint, upon which the information is filed, purports to be signed by one Horace White when, in fact and in truth, there was no such person as Horace White before the Justice of the Peace at the time such complaint was made; that the party that did make the complaint was named Horace Wright. The testimony shows that the complaint was made by Horace Wright; he being illiterate, the Justice wrote his name for him, as he thought at the time, Horace White, whereas, his name was Horace Wright.\nArticle 464, Code Criminal Procedure, reads as follows: “An indictment shall not be held insufficient nor shall the trial, judgment, or other proceedings thereon be affected by reason of any defect, or imperfection of form in such indictment which does not prejudice the substantial rights of the defendant.”\nIn passing upon the validity of a complaint this court held in the case of Hpton v. State, 33 Texas Crim. Rep., 231, that it is not necessary to the validity of a complaint, that the name of affiant be set out in the body of the complaint. However, this court held in the case of Malz v. State, 36 Texas Crim. Rep., 447, that it is necessary to properly sign the name of the affiant at the bottom of the complaint.\nThe writer feels that this decision is somewhat at variance with the statute as there can be no cavil but what Horace Wright swore to the complaint. Therefore, it could not prejudice the rights of appellant to hold this indictment good.\nBy reason of the decision last cited, the judgment in this case is reversed and the prosecution ordered dismissed.\nReversed and dismissed.\nHenderson, Judge, absent.",
+                                          "type":  "majority",
+                                          "author":  "BROOKS, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "No brief on file for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Tom Abernathy v. The State.\nNo. 3831.\nDecided November 6, 1907.\nCarrying Pistol—Complaint—Name of Affiant.\nIn a prosecution which was based on a complaint whfch purported to be signed by Horace White, where the testimony showed that the complaint was in fact made by Horace Wright, the same was reversible error, notwithstanding article 464, Code Criminal Procedure; the name of the affiant must be signed to the complaint. Following Maíz v. State, 36 Texas Crim. Rep., 447. Qualifying Upton v. State, 33 Texas Crim. Rep., 231.\nAppeal from the County Court of Earns. Tried below before the .Hon. W. H. Clendenin.\nAppeal from a conviction of aggravated assault; penalty, a fine of $100.\nThe opinion states the case.\nNo brief on file for appellant.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1096-01",
+    "first_page_order":  59,
+    "last_page_order":  60
+}

@@ -1,0 +1,93 @@
+﻿{
+    "id":  4563940,
+    "name":  "Bob Anglin v. The State",
+    "name_abbreviation":  "Anglin v. State",
+    "decision_date":  "1908-02-05",
+    "docket_number":  "No. 4229",
+    "first_page":  "475",
+    "last_page":  "477",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 475"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "80 S. W. Rep., 630",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "46 Texas Crim. Rep., 420",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          175328
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/46/0420-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "55 S. W. Rep., 58",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  218,
+                     "char_count":  3316,
+                     "ocr_confidence":  0.636,
+                     "pagerank":  {
+                                      "raw":  5.4033266686372354E-08,
+                                      "percentile":  0.33997406798620305
+                                  },
+                     "sha256":  "ad6918f8966bc425bfdf7fb2784dd94ad27018165d95d5fb76ee2e143e770f11",
+                     "simhash":  "1:b72a550f72a6c80a",
+                     "word_count":  572
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Bob Anglin v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BROOKS, Judge.\nAppellant was convicted of theft, and his punishment, assessed at three years confinement in the penitentiary.\nAppellant insists the court erred in not sustaining his motion to charge the jury to find the defendant not guilty on the ground that there was a variance between the allegations in the bill of indictment and the proof offered as to the description of the property. The bill of indictment alleges $80 in money, the same being paper currency money of the United States of America, and being of the value of $80, while the money admitted in evidence was one $20 gold certificate and one $20 bill issued by the National Bank of Chicago, and one $5 bill and one $10 National Bank bill. Appellant’s contention is not correct. See Spencer v. State, 55 S. W. Rep., 58; Otero v. State, 30 Texas Crim. App., 450, and also Berry v. State, 46 Texas Crim. Rep., 420, 80 S. W. Rep., 630, for a full discussion of this question.\nThe next ground of the motion for a new trial complains the court erred in refusing to allow the appellant to testify as to whether he had any money before the alleged theft. The bill presenting this matter, however, does not bear out this complaint. Upon an inspection of same it will be seen that the question propounded and the answers intended to be elicited were not whether the defendant had in his possession any money, but that defendant told him that he had the money. This would be a self-serving declaration on the part of appellant and hearsay, and, therefore, inadmissible.\nThe third ground is to the action of the court in refusing to allow defendant to prove by the witness Lehigh that the witness Bad often left money laying around and defendant never took it. There is no bill of exceptions covering this matter.\nThe next ground complains that the court permitted the prosecuting witness to testify that the money in question looked like the money that he lost. There was no error in this.\nThe evidence is sufficient to support the conviction, and the judgment is affirmed.\nAffirmed.",
+                                          "type":  "majority",
+                                          "author":  "BROOKS, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "R. R. Taylor, for appellant.—On",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Bob Anglin v. The State.\nNo. 4229.\nDecided February 5, 1908.\n1.—Theft—Variance—Paper Money.\nWhere upon trial for theft, the indictment alleged the theft of 880 in money, the same being paper currency money of the United States of America, and the proof showed various denominations of paper currency money, there was no variance.\n2. —Same—Self-Serving Declarations.\nUpon trial for theft, there was no error in rejecting testimony of a witness as to self-serving declarations by the defendant to the witness.\n3. —Same—Bill of Exceptions.\nWhere upon appeal for a conviction of theft, there was no bill of exceptions as to the rejection of testimony, the same could not be considered.\n4. —Same—Evidence.\nUpon trial for theft of certain money there was no error in permitting the prosecuting witness to testify that the money in question looked like the money that he had lost.\nAppeal from the District Court of Marion. Tried below before the Hon. P. A. Turner.\nAppeal from a conviction of theft; penalty three years imprisonment in the penitentiary.\nThe opinion states the case.\nR. R. Taylor, for appellant.—On\nquestion of variance: Koblenschlag v. State, 23 Texas Crim. App., 264.\nF. J. McCord, Assistant Attorney-General, for the State.\nCited cases mentioned in the opinion."
+                 },
+    "file_name":  "1235-01",
+    "first_page_order":  493,
+    "last_page_order":  495
+}

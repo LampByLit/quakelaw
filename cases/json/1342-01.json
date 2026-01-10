@@ -1,0 +1,111 @@
+﻿{
+    "id":  8546738,
+    "name":  "Dora Barbar v. State",
+    "name_abbreviation":  "Barbar v. State",
+    "decision_date":  "1958-11-26",
+    "docket_number":  "No. 30,124",
+    "first_page":  "48",
+    "last_page":  "51",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 48"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "59 S.W. 2d 468",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "122 Texas Cr. Rep. 478",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5212094
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/122/0478-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "314 S.W. 2d 590",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10175662
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/314/0590-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "166 Texas Cr. Rep. 384",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2619393
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/166/0384-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  376,
+                     "char_count":  6100,
+                     "ocr_confidence":  0.587,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.20583169134571166
+                                  },
+                     "sha256":  "f0fb1d2833a4a97b750a535691fd5311b4b0d9939fd49db5379b82583bc41054",
+                     "simhash":  "1:a14e490fdb066c78",
+                     "word_count":  1027
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Dora Barbar v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nThe complaint and information contained two counts and charged respectively unlawful possession of barbiturates and unlawful possession of amphetamine.\nTrial was before the court without a jury on a plea of not guilty, and the court entered judgment finding appellant guilty of both charges, and assessing a fine of $125 on each count.\nThe state concedes that the judgment insofar as it pertains to Count 2 must be reversed, this court having held in Harrell v. State, 166 Texas Cr. Rep. 384, 314 S.W. 2d 590, that Art. 726(c), Sec. 8, V.A.P.C. was ineffective to make the possession of amphetamine an offense. We agree.\nThe sufficiency of the evidence to sustain a conviction under Count 1, for the unlawful possession of barbiturates, is challenged.\nOn September 18, 1957, appellant and some companions were arrested for being drunk in a public place. After arrival at the police station, two envelopes were found in appellant’s hair and behind her ear. One envelope contained five amphetamine tablets and bore the inscription “one-half tablet three times a day before meals to keep hunger pains away.”\nThe second envelope contained five capsules containing pento barbital or barbituric acid, and bore the inscription “One at bedtime for sleep.”\nDr. Ross Phillips, D.O., licensed to practice medicine and surgery in Texas and thus a “practitioner” under Art. 726(c) V.A.P.C., testifying from his records, stated that appellant had been his patient beginning in March, 1956, and that on September 14, 1957, he gave her “amphetamine, 10 grains, 6 tablets, to take % tablet three times a day t.i.d. I gave her pento barbital grains 114. I gave her 6 tablets to take 1 at bedtime for sleep.”\nThe tablets and capsules found in appellant’s possession appeared to the doctor to be the same as those he gave her and the inscriptions on the envelopes “look like my handwriting,” but he would not positively identify either.\nThe doctor made for the court specimens of his handwriting which the record indicates satisfied the court that the inscriptions on the envelopes were in his handwriting.\nDr. Phillips testified that appellant at no time asked him for any particular medication or for barbiturates; that he did not tell her that the capsules or tablets contained barbiturates or amphetamine; and that the capsules and tablets were given to appellant for their therapeutic benefits.\nAppellant testified as a witness in her own behalf that Dr. Phillips gave her the capsules and tablets; that she had taken one of each before she began drinking on September 8th; that she put them in her hair lest they be taken away from her when she was placed in jail; and that she did not know what either contained.\nThe envelopes which contained the barbiturates and the amphetamine are not before us, but there is evidence in the record that the name and address of the doctor and the name and address of the appellant were not on either container.\nFrom what has been said it is apparent that the state must rely upon the absence of labels showing the name and address of Dr. Phillips and the name and address of appellant, his patient, in order to sustain this conviction.\nIt must be remembered that the purpose of Art. 726(c) Y.A.P.C. is not to forbid and prevent the possession of barbiturates, but to regulate and control the handling, sale and distribution thereof so as “to insure that the public shall receive the therapeutic benefits of barbiturates under medical supervision to the full extent required to assure safety and efficiency in their use * * * .” Art. 726 (c), Sec. 1, V.A.P.C.\nThe same section expresses the purpose to place upon “* * * persons prescribing such drugs, a basic responsibility for preventing the improper distribution of such drugs to the extent that such drugs are produced, handled, sold or prescribed by them.”\nIt is true that appellant could see that her name and address and the name and address of Dr. Phillips were not on the envelope containing the capsules. But it is equally true that there is nothing in the record to show that she knew or by the exercise of care or diligence could have known that the capsules contained barbiturates.\nIt occurs to us that under the undisputed evidence appellant brought herself within the provisions of Art. 41 P.C. and the holding of this court in Wilson v. State, 122 Texas Cr. Rep. 478, 59 S.W. 2d 468, relating to mistake of fact not arising from a want of proper care.\nIt was not the intention of the legislature, in enacting Art. 726(c) V.A.P.C., to charge the patient with the failure of the practitioner to advise him that the drugs he prescribed or furnished contained a barbiturate, or to place upon the patient the duty to determine the ingredients of drugs prescribed or furnished him by his physician, or to punish the patient for the practitioner’s failure to place a certain label on the container the contens of which were not known to the patient.\nWe are not unmindful of the fact that the trial herein was before the court and appellant is cast in the position she would have occupied had her defense been submitted to and rejected by a jury.\nWe need not rest our disposition of the appeal from the conviction for possession of barbiturate upon the ground that the defense was established as a matter of law, however, for it is evident that the trial court gave equal weight and consideration to the evidence relating to possession of the amphetamine tablets and the container thereof as to the evidence concerning barbiturates and the envelope containing same. It thus appears that the allegation and evidence relating to the prosecution for possession of amphetamine, which was not unlawful, were prejudicial to appellant upon her trial for possession of barbiturates and upon her defense.\nThe judgment is reversed and the cause remanded.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Clyde W. Woody, Houston, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White and David A. Gibson, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Dora Barbar v. State.\nNo. 30,124.\nNovember 26, 1958.\nClyde W. Woody, Houston, for appellant.\nDan Walton, District Attorney, Thomas D. White and David A. Gibson, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1342-01",
+    "first_page_order":  66,
+    "last_page_order":  69
+}

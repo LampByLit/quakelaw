@@ -1,0 +1,213 @@
+﻿{
+    "id":  8550920,
+    "name":  "Pete Hernandez v. State",
+    "name_abbreviation":  "Hernandez v. State",
+    "decision_date":  "1959-01-21",
+    "docket_number":  "No. 30,317",
+    "first_page":  "487",
+    "last_page":  "490",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 487"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "247 S.W. 2d 262",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10201177
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/247/0262-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "284 S.W. 2d 902",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10184406
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/284/0902-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 337",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2464979
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/162/0337-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "252 S.W. 759",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10319315
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/252/0759-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "95 Texas Cr. Rep. 20",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5058696
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/95/0020-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "278 S.W. 2d 853",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10184955
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/278/0853-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 480",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "98 S.W. 866",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "50 Texas Cr. Rep. 465",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2370398
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/50/0465-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "281 S.W. 871",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10317784
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/281/0871-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "104 Texas Cr. Rep. 63",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5119219
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/104/0063-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "314 S.W. 2d 834",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10180633
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/314/0834-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "166 Texas Cr. Rep., 470",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2615667
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/166/0470-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  347,
+                     "char_count":  4880,
+                     "ocr_confidence":  0.595,
+                     "pagerank":  {
+                                      "raw":  8.3183005166349981E-08,
+                                      "percentile":  0.48012625446502866
+                                  },
+                     "sha256":  "76830979847252e9e45735dfdb54eafff7d88d7a5edc3e796df55472f472da35",
+                     "simhash":  "1:bf378839647c047b",
+                     "word_count":  868
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Pete Hernandez v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is the unlawful sale of whiskey in a dry area, with prior convictions for like offenses alleged for enhancement; the punishment, 18 months in jail and a fine of $1500.00.\nAgent Green of the Texas Liquor Control Board testified that he purchased a bottle of whiskey from the appellant at appellant’s residence on the day charged in the information.\nThe prior convictions were established.\nThe appellant did not testify in his own behalf and called only one witness, who stated that the appellant had told him on their last meeting that he was employed at the airbase and that appellant had worked for him at the Windsor Hotel in years past.\nAppellant attempted to show that the first prior conviction plead had been once before successfully used for enhancement. The judge testified that, when the second case in which the first prior conviction was allged was called the state moved to dismiss that portion of the information which charged the prior conviction, that he granted the motion and did not consider the prior conviction in rendering his judgment on the plea of guilty which was entered in the second case. The judgment in the second case offered in evidence by- the state recites that the prior conviction was dismissed. This does not constitute a prior successful use of the first prior conviction. Attention is also directed to the recent holding of this court in Mayo v. State, 166 Texas Cr. Rep., 470 314 S.W. 2d 834.\nThe remaining bills of exception relate to argument which will be quoted and discussed serially:\n(a) “* * * right across the street in the shadow of God’s Tabernacle, he is down there selling whiskey.” Agent Green testified that the appellant’s house, where he purchased the whiskey, was across the street from a church, and this constituted evidentiary basis for the argument in question.\n(b) “I don’t know what kind of a man he is. But you can surmise. He is across the street from the church, with a house full of children, bootlegging.” Supervisor Owens testified that he had known the appellant and his wife for some time, that he knew two of his children, but could not “say for sure” how many children he had; and so again we see that the prosecutor was not outside of the record.\nIn Page v. State, 104 Texas Cr. Rep. 63, 281 S.W. 871, this court held that it was not error to refer to “that bootlegging defendant.” See also Winslow v. State, 50 Texas Cr. Rep. 465, 98 S.W. 866.\nRecently, in Torres v. State, 162 Texas Cr. Rep. 480, 278 S.W. 2d 853, we held no error was reflected in a marijuana case by argument which made reference to the proximity of appellant’s home to a school.\n(c) “And I don’t know whether he works, or he don’t work. But, my point is: Does any man have the right to earn a livelihood outside the law? I hope not. If you do, and you are going to sanction it, you are going to reduce the society to a bunch of heathens.”\nThis bill further reflects that appellant’s counsel had some difficulty in making his objection because the prosecutor continued with his argument, but we have set forth above the most pointed argument.\nSince the record did not affirmatively reflect whether or not the appellant was working at the time of the commission of the offense, we have concluded that the prosecutor was not outside the record in expressing ignorance as to whether or not he was regularly employed. See Fields v. State, 95 Texas Cr. Rep. 20, 252 S.W. 759. The remainder of the argument constituted no more than an appeal for the enforcement of the law, which this court has consistently held constitutes legitimate argument.\n(d) “It is pretty obvious to me — that the man here has gone outside the law, the laws that the people of this community has said that it is a dry area. Whether it is a good law or a bad law, is not my province. And certainly, it is not yours. The fact that it is a dry area, and has been voted such by the good folks of this community.” Recently, in White v. State, 162 Texas Cr. Rep. 337, 284 S.W. 2d 902, we said:\n“Bill of Exception No. 2 complains of the argument of the prosecutor in which he said:\n“ ‘Gentlemen of the jury, the voters of Johnson County have voted Johnson County a dry area and we do not want liquor sold here.’\n“The fact that the people of Johnson County did not want liquor sold in their county is a logical deduction from the fact that they voted their county dry. This remark was not aimed directly at the appellant, as was the argument which we found to be reversible error in Cox v. State, 247 S.W. 2d 262.”\nWe have examined the bills carefully and fail to find reversible error reflected thereby.\nThe judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Reid \u0026 Reid, Abilene, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Pete Hernandez v. State.\nNo. 30,317.\nJanuary 21, 1959.\nAppellant’s Motion for Rehearing Overruled March 4, 1959.\nReid \u0026 Reid, Abilene, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1558-01",
+    "first_page_order":  505,
+    "last_page_order":  508
+}

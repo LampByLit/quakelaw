@@ -1,0 +1,161 @@
+﻿{
+    "id":  8548324,
+    "name":  "Ex Parte Thomas Lewis",
+    "name_abbreviation":  "Ex parte Lewis",
+    "decision_date":  "1959-01-21",
+    "docket_number":  "No. 30,486",
+    "first_page":  "237",
+    "last_page":  "239",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 237"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "278 S.W. 2d 168",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "161 Texas Cr. Rep. 427",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2468281
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/161/0427-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "261 S.W. 2d 596",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10185737
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/261/0596-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "159 Texas Cr. Rep. 87",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2477660
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/159/0087-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "253 S.W. 2d 53",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10193904,
+                                          10193977
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/253/0053-01",
+                                            "/sw2d/253/0053-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "158 Texas Cr. Rep. 48",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2483559
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/158/0048-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "310 S.W. 2d 115",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10162024
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/310/0115-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "165 Texas Cr. Rep. 554",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2615573
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/165/0554-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  157,
+                     "char_count":  1936,
+                     "ocr_confidence":  0.565,
+                     "pagerank":  {
+                                      "raw":  4.8563192304944452E-08,
+                                      "percentile":  0.305818601779486
+                                  },
+                     "sha256":  "e99586a3463bfee2cebb2c864151cdefe174cae2bc619287509c1f74a0e4e749",
+                     "simhash":  "1:6d7712b565287311",
+                     "word_count":  329
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte Thomas Lewis."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThis is an original application for a writ of habeas corpus brought by the relator Thomas Lewis seeking his release from the penitentiary. He alleges that the order cumulating the sentences by virtue of which he is confined is ineffectual.\nAccording to the information furnished this court, relator was sentenced in the following causes:\nDATE COURT NO. TERM (YEARS) ORDER\nMay 10,1937 District Court of Gregg 2484-C County, Texas No order of cumulation\nMay 10,1937 District Court of Gregg County, Texas 2485-C This sentence to begin at expiration of the Sentence No. 2484-C Gregg, County, Texas, against the same defendant.\nMay 10,1937 District Court of Gregg 2486-C No order of cumulation\nNovember 28, District Court of Potter 6352 1938 County, Texas 14 It is further ordered by the Court that the sentence in this cause run cumulative to a prior sentence against the said defendant in another County in Texas, in accordance with law.\nDecember 16, District Court of 1952 Hemphill County, Texas 2068 10 No order of cumulation\nIn Ex parte Bradshaw, 165 Texas Cr. Rep. 554, 310 S.W. 2d 115; Ex parte Robbins, 158 Texas Cr. Rep. 48, 253 S.W. 2d 53; Ex parte Merritt, 159 Texas Cr. Rep. 87, 261 S.W. 2d 596; and Ex parte Henson, 161 Texas Cr. Rep. 427, 278 S.W. 2d 168, we held that an order similar to the one before us in Cause No. 6352 from the district court of Potter County was ineffectual.\nWe have been furnished with a certificate of the Texas Prison System showing that relator now has credit for 19 years, 1 month and 27 days in the penitentiary. Further, the certificate shows that relator has completed the 10 year sentence from Hemphill County.\nThe writ of habeas corpus is granted, and the relator is ordered discharged from confinement under the above sentence.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Relator represented himself.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte Thomas Lewis.\nNo. 30,486.\nJanuary 21, 1959.\nRelator represented himself.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1488-01",
+    "first_page_order":  255,
+    "last_page_order":  257
+}

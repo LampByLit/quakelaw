@@ -1,0 +1,233 @@
+﻿{
+    "id":  2021322,
+    "name":  "COWART, etc. v. GULF ATLANTIC TRANSPORT CORPORATION, etc., et al.; and ECHOLS v. GULF ATLANTIC TRANSPORT CORPORATION, etc., et al.",
+    "name_abbreviation":  "Cowart v. Gulf Atlantic Transport Corp.",
+    "decision_date":  "1991-10-04",
+    "docket_number":  "Case No. 88-7553-CA; Case No. 88-14343-CA",
+    "first_page":  "182",
+    "last_page":  "188",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 182"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "718 F.2d 1022",
+                         "category":  "reporters:federal",
+                         "reporter":  "F.2d",
+                         "case_ids":  [
+                                          1894789
+                                      ],
+                         "year":  1983,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/f2d/718/1022-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "421 U.S. 397",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          541982
+                                      ],
+                         "year":  1975,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/421/0397-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "788 F.2d 361",
+                         "category":  "reporters:federal",
+                         "reporter":  "F.2d",
+                         "case_ids":  [
+                                          1569650
+                                      ],
+                         "weight":  2,
+                         "year":  1986,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "366"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/f2d/788/0361-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "520 F.2d 556",
+                         "category":  "reporters:federal",
+                         "reporter":  "F.2d",
+                         "case_ids":  [
+                                          1116485
+                                      ],
+                         "weight":  2,
+                         "year":  1975,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "561"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/f2d/520/0556-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "376 U.S. 315",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          379588
+                                      ],
+                         "weight":  3,
+                         "year":  1964,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/376/0315-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "100 L.Ed 133",
+                         "category":  "reporters:federal",
+                         "reporter":  "L. Ed.",
+                         "year":  1956,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "350 U.S. 124",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          12031726
+                                      ],
+                         "weight":  4,
+                         "year":  1956,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "133-34"
+                                           },
+                                           {
+                                               "page":  "237"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/350/0124-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "809 F.2d 755",
+                         "category":  "reporters:federal",
+                         "reporter":  "F.2d",
+                         "case_ids":  [
+                                          1643419
+                                      ],
+                         "weight":  2,
+                         "year":  1987,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "760"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/f2d/809/0755-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "619 F.2d 354",
+                         "category":  "reporters:federal",
+                         "reporter":  "F.2d",
+                         "case_ids":  [
+                                          1376511
+                                      ],
+                         "weight":  4,
+                         "year":  1980,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "359"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/f2d/619/0354-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "723 F. Supp. 1126",
+                         "category":  "reporters:federal",
+                         "reporter":  "F. Supp.",
+                         "case_ids":  [
+                                          4048186
+                                      ],
+                         "year":  1989,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "1128"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/f-supp/723/1126-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  671,
+                     "char_count":  13069,
+                     "ocr_confidence":  0.915,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07305252159488836
+                                  },
+                     "sha256":  "32b6b307960253fc0db438b0b4e96148496155d1c38c52660ff46d6cc1f9e8ed",
+                     "simhash":  "1:27dcd3dc5b58048c",
+                     "word_count":  2095
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "COWART, etc. v GULF ATLANTIC TRANSPORT CORPORATION, etc., et al. and ECHOLS v GULF ATLANTIC TRANSPORT CORPORATION, etc., et al."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nMATTOX S. HAIR, Circuit Judge.\nThis matter is before the court upon the amended crossclaim of crossclaimant Lykes Bros. Steamship Co., Inc. (“Lykes”) against crossclaim defendant North Florida Shipyard, Inc. (“NFS”) for indemnification. Lykes seeks judgment against NFS for amounts paid to plaintiffs in settlement of their actions and attorney’s fees and costs.\nLykes’ crossclaim is governed by the general maritime law of the United States. See generally 1 Benedict on Admiralty, (6th Ed.) Section 184.\nFACTS\nFrom the evidence presented, the court finds as follows:\nLykes and NFS entered into an oral agreement pursuant to which NFS was to repair Lykes’ vessel, the M/V Lyra (“Lyra”), and provide a safe, suitable mooring berth for the vessel at NFS’ ship repair facility at Commodore Point in Jacksonville, Florida. The mooring location assigned to the Lyra by NFS was outboard of three other vessels nested under the Hart Bridge. It was the only mooring berth available at the time.\nEarl Truesdell, vice president of NFS, admitted that NFS orally agreed to provide Lykes a safe, suitable mooring berth for the Lyra including a duty to provide a berth that did not present a danger to other vessels using the St. Johns River.\nLykes’ representative, Captain Richard E. Manchester, attended the arrival and berthing of the Lyra on October 17, 1986 and consented to the mooring location NFS had assigned for the Lyra. On October 20, 1986, the remaining crew members of the Lyra departed the vessel. After October 21, 1986, Lykes’ presence at the shipyard was limited to a watchman service hired for the vessel by Lykes’ local shipping agent who had no responsibility regarding the location of the mooring berth for the Lyra. NFS considered itself responsible for safe mooring of the vessel even though this watchman was on board.\nOn November 6, 1986, a fire marine boat operated by Edgar Cowart and William Echols attempted to pass beneath the Hart Bridge between the outboard side of the Lyra and the nearest bridge support fender. The marine boat collided with the bridge support fender and then collided with an oncoming barge. Cowart died in the accident and Echols was injured.\nSubsequently, these consolidated actions were filed by Echols and his wife seeking damages for personal injury and loss of consortium, and by Cowart’s widow, as the personal representative of his estate, seeking damages for wrongful death. In their claims against Lykes, plaintiffs asserted that the mooring location of the Lyra constituted a hazard to navigation that was a proximate cause of the collision. Thereafter, Lykes asserted a crossclaim against NFS for any liability it might have to plaintiffs, and for attorneys fees and costs incurred in its defense of the action. The original crossclaim was filed on February 22, 1989. An amended crossclaim was filed on December 17, 1990.\nThe affidavit of Captain G. Kirk Greiner, Jr., marine safety specialist, was filed by the attorney for plaintiff, Bettie Jean Cowart on November 15, 1989. (Lykes exhibit 4). It was his opinion that the nesting of the ship underneath the Hart Bridge created “. . . an unreasonably hazardous condition . . .” He stated that this hazardous condition violated 33 U.S.C. 409, section 327.44, Florida Statutes, and general maritime law, and contributed to the occurrence herein.\nPrior to commencement of trial, Lykes and NFS entered into settlement agreements with plaintiffs. Lykes paid twenty thousand dollars ($20,000.00) to settle plaintiffs claims against it. The sole remaining claim, the instant amended crossclaim, was tried by this court on June 26, 1991 and December 10, 1990.\nQUESTION PRESENTED\nWhether Lykes is entitled to indemnity from NFS for amounts paid to plaintiffs ($20,000.00) in settlement of plaintiffs’ claims against it, and for attorney’s fees and costs.\nLAW AND DISCUSSION\nUnder the maritime law, a party seeking indemnity must prove three facts in order to prevail: (1) that the crossclaimant was potentially liable to plaintiff; (2) that crossclaim defendant’s acts or omissions contributed to crossclaimant’s potential liability to plaintiff and (3) that crossclaimant’s settlement of its potential liability was reasonable. Vaughn v Marine Transport Lines, Inc., 723 F. Supp. 1126, 1128 (D.Md. 1989). (1) Lykes’ Potential Liability\nLykes asserts it need only establish that it was potentially liable to plaintiffs in order to recover, wherein NFS argues that Lykes must establish proof of actual liability.\nThe original crossclaim of Lykes against NFS was filed on February 22, 1989. An amended crossclaim by Lykes against NFS was filed on December 17, 1990. Thus, NFS was on notice of the indemnity claim of Lykes for over two (2) years. NFS participated in all discovery, attended all hearings on various motions before the court, and ultimately settled plaintiffs’ claim against it. Therefore, there was no necessity for a formal written demand or tender of the defense by Lykes to NFS since it was already on notice of a potential claim for indemnity. The filing of the crossclaim was tantamount to a tender of defense. In Burke v Ripp, 619 F.2d 354 (5th Cir. 1980), the court refused to find that opportunity to defend was equated with “the formality of a tender of the defense.” 619 F.2d at 359. Furthermore, NFS was adequately protected since it had notice of the progress of the case, conducted settlement negotiations (it settled the plaintiffs’ claims against it), and it acquiesced in the overall settlement.\nUnder the facts of this case and based on the equities and fairness, the court finds that Lykes must demonstrate only potential liability as opposed to actual liability in order to recover indemnity from NFS, and it did so. See Burke v Ripp, supra; GAB Business Services, Inc. v Syndicate 621, 809 F.2d 755 (11th Cir. 1987). (2) NFS’ Acts or Omissions\nThe second fact Lykes must establish in order to prevail on its claim for indemnity is that NFS’ acts or omissions contributed to Lykes’ potential liability. Lykes asserts NFS is liable to it for indemnity on any one of three distinct legal theories: (a) implied warranty of workmanlike performance; (b) independent duty to exercise due care and (c) bailment. The court finds neither an independent duty to exercise due care nor a bailment was proven and those issues will not be discussed.\nLykes asserts that NFS is liable to it on the basis of an implied warranty of workmanlike performance. It contends that this is implied in maritime contracts for services such as a dock owner’s agreement to provide a shipowner a safe, suitable berth for its vessel.\nLykes asserts its potential liability to plaintiffs was predicated on the mooring location assigned by NFS which constituted an unreasonable hazard to navigation. It contends that any liability found against Lykes would be the result of NFS’ breach of its duty to provide a safe, suitable berth and breach of its coextensive implied warranty of workmanlike performance. The potential liability for mooring the Lyra in this location is supported by the affidavit of Captain G. Keith Greiner, Jr.\nThe implied warranty of workmanlike performance was first recognized in Ryan Stevedoring Co. v Pan Atlantic S.S. Corp., 350 U.S. 124, 76 S.Ct. 232, 100 L.Ed 133 (1956), where the court held that a stevedoring contractor who entered into a service agreement with a shipowner was liable to the owner for damages sustained as a result of the stevedore’s improper stowage of cargo on the theory that the stevedore, as part of its service agreement, impliedly warranted that it would perform its service in a workmanlike manner.\nThe implied warranty of workmanlike performance is based in contract and the tort theories of “active” or “passive” as well as “primary” or “secondary” negligence are inappropriate. See Italia Societa v Oregon Stevedoring Co., 376 U.S. 315, 84 S.Ct. 748, 11 L.Ed 2d 732 (1964). Even though recovery may turn on the company’s standard of performance, the action remains a contract, not a tort, action. Ryan, 350 U.S. at 133-34, 76 S.Ct. at 237.\nLower federal courts have expanded the application of the implied warranty beyond the context articulated in Ryan to a variety of maritime service relationships. For instance, in Sims v Chesapeake \u0026 Ohio Railway Co., 520 F.2d 556 (6th Cir. 1975), the court held that there was an implied warranty of workmanlike performance running from a dock owner to a shipowner, the extent of which was determined by the nature of the services the dock owner agreed to perform. Id. at 561.\nIt was reaffirmed in Oglebay Norton Co. v CSX Corp., 788 F.2d 361 (6th Cir. 1986), where a dock owner was found to have breached an implied warranty. The court held that a “shipowner is entitled to indemnity when a breach of the warranty of workmanlike performance results in loss, ‘absent conduct on [the shipowner’s] part sufficient to preclude recovery.’ ” Id. at 366.\nNFS has asserted several grounds in support of its argument that the warranty of workmanlike performance does not provide a basis for indemnity between Lykes and itself, but the court finds none have merit.\nInitially, NFS argues that the warranty of workmanlike performance has been abrogated by the 1972 amendments to the Longshoreman and Harbor Workers Compensation Act and the Supreme Court’s decision in United States v Reliable Transfer, 421 U.S. 397 (1975). However, the case law since 1972 continues to invoke the implied warranty of workmanlike performance, and no case law has been cited holding that Ryan indemnity is no longer viable.\nWhile the court did raise questions concerning the continued viability of indemnity based on the Ryan warranty in Smith \u0026 Kelly Co. v S/S Concordia Tadi, 718 F.2d 1022 (11th Cir. 1983), the court limited its holding to the specific factual setting presented.\nFurther, NFS argues that, in the event Ryan indemnity is viable, Lykes is not entitled to indemnity because it was not strictly liable for an injury based on the tort of unseaworthiness. However, in Oglebay Norton, supra, the court found that the wharfinger had breached its warranty of workmanlike performance, and was liable to the shipowner for indemnity, when it provided a dock whose conditions made it dangerous to others.\nFinally, NFS argues that the implied warranty is inapplicable because the injuries in the present action were to third parties, rather than employees of Lykes. However, NFS has cited no authority for such a limitation of the warranty.\nNFS had an implied warranty of workmanlike performance, which was coextensive with its duties under its agreement with Lykes, to provide a safe, suitable berth for the Lyra.\nLykes’ potential liability to plaintiffs was predicated on the mooring location which posed an unreasonable hazard to navigation as supported in the affidavit of Captain Greiner. Therefore, any liability found against Lykes would have been as a result of NFS’ breach of duty to provide a safe, suitable berth and breach of its implied warranty of workmanlike [sic] entitling Lykes to indemnity. (3) Reasonableness of Lykes’ Settlement with Plaintiff\nThe final element of Lykes’ cause of action for indemnity is the reasonableness of its settlements with plaintiffs. The aggregate settlement amount of plaintiffs’ claims against Lykes was $20,000.00. NFS does not dispute the reasonableness of Lykes’ settlement of its potential liability, and the court finds that it is reasonable.\nAccordingly, it is\nADJUDGED:\n1. Crossclaimant, Lykes Bros. Steamship Co., Inc., shall recover from crossclaim defendant, North Florida Shipyard, Inc., the sum of twenty thousand and no/100 ($20,000.00) for which let execution issue.\n2. The court reserves jurisdiction to determine attorney’s fees and costs incurred by Lykes Bros. Steamship Co., Inc., in defense of plaintiffs’ claims.\nORDERED at Jacksonville, Florida, this 4th day of October, 1991.\nThe court has insufficient evidence before it that NFS actually participated in settlement negotiations with Lykes’ attorney and plaintiffs’ attorneys. The ruling here is made without specifically making that finding. However, if it is assumed that NFS participated in settlement negotiations with Lykes’ attorney and plaintiffs’ attorneys, the court would conclude that actual liability also is not required since the indemnitee informed the indemnitor of the settlement and the indemnitor failed to object thereto. GAB Business Services, Inc. v Syndicate 627, 809 F.2d 755, 760 (11th Cir. 1987), quoting Burke v Ripp, supra; Parfait v Jahncke Service, Inc., 484 F.2d at 305.",
+                                          "type":  "majority",
+                                          "author":  "MATTOX S. HAIR, Circuit Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "James J. Taylor, Jr., Esquire, Gabel, Taylor \u0026 Dees, for crossclaimant, Lykes Bros. Steamship Co., Inc.",
+                                       "Nils Linfors, Jr., Esquire, Hayden \u0026 Milliken, for crossclaim defendant, North Florida Shipyard, Inc."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "COWART, etc. v GULF ATLANTIC TRANSPORT CORPORATION, etc., et al. and ECHOLS v GULF ATLANTIC TRANSPORT CORPORATION, etc., et al.\n(Case No. 88-7553-CA)\n(Case No. 88-14343-CA)\nFourth Judicial Circuit, Duval County\nOctober 4, 1991\nAPPEARANCES OF COUNSEL\nJames J. Taylor, Jr., Esquire, Gabel, Taylor \u0026 Dees, for crossclaimant, Lykes Bros. Steamship Co., Inc.\nNils Linfors, Jr., Esquire, Hayden \u0026 Milliken, for crossclaim defendant, North Florida Shipyard, Inc."
+                 },
+    "file_name":  "1447-01",
+    "first_page_order":  202,
+    "last_page_order":  208
+}

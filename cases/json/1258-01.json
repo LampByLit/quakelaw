@@ -1,0 +1,66 @@
+﻿{
+    "id":  4565543,
+    "name":  "Ex Parte E. A. White",
+    "name_abbreviation":  "Ex parte White",
+    "decision_date":  "1908-02-12",
+    "docket_number":  "No. 4282",
+    "first_page":  "541",
+    "last_page":  "542",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 541"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  176,
+                     "char_count":  2433,
+                     "ocr_confidence":  0.604,
+                     "sha256":  "f89a591d8cebb9544b896325388361f88c577182267575817a0bff55835e51cc",
+                     "simhash":  "1:023c2ea50a4ecb49",
+                     "word_count":  415
+                 },
+    "last_updated":  "2023-07-14T19:59:32.944253+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte E. A. White."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "RAMSEY, Judge.\nThe relator was convicted in the county court of Jefferson County, on a charge, in substance, of devising and intending to secure the unlawful acquisition of four cords of wood, the property of one Brady, with the intent to appropriate same to his own use, and that he did unlawfully and fraudulently acquire possession of said wood and two dollars in money, by false and fraudulent representations, then and there unlawfully and fraudulently made by him to said Brady; the terms of which are set out at some length in both the affidavit and information filed against him. An appeal was thereafter prosecuted to this court and the judgment of the county court of Jefferson County was in all things affirmed. A capias profine was issued on this judgment, as affirmed by this court, and the relator taken into custody by the sheriff by virtue thereof. Thereupon, he sued out a writ of habeas corpus and now seeks his discharge on the ground that his original arrest and conviction was without authority of law and that the original judgment of the county court of Jefferson. County, and the judgment of this court affirming same, was wholly void.\nAs we view the matter, the application is wholly without merit. The relator had been convicted on a trial in the county court of Jefferson County and on an appeal to this court such conviction had been affirmed to be in all respects legal. The judgment of conviction was neither void nor voidable. It received the sanction of this court and its legality was attested by a deliberate affirmance by this tribunal.\nThere is no merit in this contention of this relator and it is ordered that he be remanded to the custody of the sheriff of Jefferson County, Texas. Judgment is affirmed.\nAffirmed.",
+                                          "type":  "majority",
+                                          "author":  "RAMSEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Jolm J.\u0027O’Fiel, for relator.",
+                                       "F. J. McQord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte E. A. White.\nNo. 4282.\nDecided February 12, 1908.\nHabeas Corpus—Jurisdiction—Judgment oí Conviction.\nWhere relator had been convicted of a misdemeanor on a trial in the county court, and appealed, and the conviction was affirmed, said judgment of conviction was neither void nor voidable, and defendant could not avail himself of the writ of habeas corpus.\nAppeal from the County Court of Jefferson. Tried below before the Hon. James A. Harrison.\nAppeal from a judgment refusing a writ of habeas corpus and remanding relator to the custody of the sheriff.\nThe opinion states the case.\nJolm J.\u0027O’Fiel, for relator.\nF. J. McQord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1258-01",
+    "first_page_order":  559,
+    "last_page_order":  560
+}

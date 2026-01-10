@@ -1,0 +1,311 @@
+﻿{
+    "id":  8547820,
+    "name":  "Ernesto Chavira v. State",
+    "name_abbreviation":  "Chavira v. State",
+    "decision_date":  "1958-11-16",
+    "docket_number":  "No. 30,194",
+    "first_page":  "197",
+    "last_page":  "204",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 197"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "179 S.W. 448",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8250940
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/179/0448-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "77 Texas Cr. Rep. 520",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4722546
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/77/0520-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "53 S.W. 866",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "41 Texas Cr. Rep. 232",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4501884
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/41/0232-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "293 S.W. 2d 646",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10175820
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/293/0646-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 463",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2461270
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0463-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "275 S.W. 2d 812",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10185401
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/275/0812-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "161 Texas Cr. Rep. 239",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2467419
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/161/0239-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "136 S.W. 2d 221",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10229691
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/136/0221-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "138 Texas Cr. Rep. 324",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5276270
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/138/0324-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "289 S.W. 2d 597",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10177532
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/289/0597-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 202",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2460409
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0202-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "207 S.W. 2d 94",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10188688,
+                                          10188599
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/207/0094-02",
+                                            "/sw2d/207/0094-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "151 Texas Cr. Rep. 349",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2597917
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/151/0349-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "179 S.W. 710",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8254811
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/179/0710-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "77 Texas Cr. Rep. 563",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4722848
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/77/0563-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "108 Texas Cr. Rep. 486",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5142722
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/108/0486-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "253 S.W. 2d 440",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10208269
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/253/0440-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "18 Texas Cr. Rep. 93",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "313 S.W. 2d 311",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10165869
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/313/0311-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "166 Texas Cr. Rep. 331",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2615941
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/166/0331-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  636,
+                     "char_count":  14499,
+                     "ocr_confidence":  0.564,
+                     "pagerank":  {
+                                      "raw":  2.5343079982874318E-07,
+                                      "percentile":  0.8127811698674324
+                                  },
+                     "sha256":  "07acd4927f47da06e9a81f240389fa3297c3c477ad54062d1bab5a3d87d67f4d",
+                     "simhash":  "1:be4fccf0af3cc4b8",
+                     "word_count":  2583
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ernesto Chavira v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DICE, Judge.\nThe conviction is for murder with malice; the punishment, .life imprisonment.\nThe sufficiency of the evidence to sustain the conviction is challenged.\nGilberto Gandar, called as at witness by the state, testified that on the night of the homicide he first saw the appellant in Vicente’s place in the city of Sonora. While he was in the place appellant came in and pulled a six-shooter. Around 10:30 P.M., at appellant’s suggestion, the two went to another place where appellant gave him the pistol but returned in about three minutes and got it from him. Appellant then went outside and had some trouble with four boys from El Dorado and engaged in a fight with one of them during which time a pistol shot was heard. At appellant’s request the witness then helped appellant put the boy in a Ford convertible automobile that he was driving and then drove out on the old El Dorado road where appellant put the boy out of the car. Appellant then asked the witness to take him to El Dorado which he agreed to do. As they were driving to El Dorado and were about five miles out of Sonora appellant told him that he “was coming down to find Richard to kill him” and “that Richard had been up there looking for him”; that when they got to El Dorado and had driven through the main part of town appellant told him to stop at a house where he saw a light as he was going to ask where a certain party lived; that he stopped the car and appellant got out, went to the house, returned to the car and told him to back up; that he backed the car up in front of another house and appellant got out and went to the door; that he then heard a shot and looked to see a man lying down inside the door; that appellant returned to the car and said, “Let’s go pretty quick, I have already killed him”; that they then drove out on the highway towards Sonora and about six miles out of town at appellant’s request he stopped the car and appellant got out and hid the pistol. Gandar testified that later in company with the sheriff he went to the place and found the pistol which appellant hid and had used on the night of the homicide.\nThe pistol containing four live cartridges and two empty shells was admitted in evidence as State’s Exhibit No. 1 after being identified by Sheriff Edmiston as the pistol and shells which he found out on the Sonora highway after the homicide while in company with the witness Gandar. The pistol was also identified by the witness Guy Rodriguez as the same pistol which appellant had in his hand in Sonora on the night in question.\nPete Torres, who lived across the street and a half block from the home of the deceased, testified that on the night of the homicide he went to bed about 8:00 P.M. and after midnight woke up and went outside to a restroom; that he saw someone standing in front of his house who asked “if I knew where Richard lived”; that he gave him the directions and the man returned to a Ford automobile parked in front of the house and the witness went inside the house; that in a short time he heard a shot and later saw a car pass in front of his house from the direction of the deceased’s home; that he then went to the home of the deceased and found the deceased lying down at the door. Appellant was identified at the trial by the witness Torres as the man who got out of the car and talked to him on the night of the homicide.\nMrs. Rachel Martinez, the deceased widow, testified that on the night in question after she and her husband had retired they were awakened by a knock at the door; that her husband went to the door and asked the man at the door who he was looking for to which he replied “Crespene Gomez”; that she then heard one shot and saw her husband fall.\nJuan Guana, a next door neighbor of the deceased, testified that on the night of the homicide around 1:30 o’clock A.M. he heard a car pass on the street and stop in front of the Pete Torres house; that the car in which two people were riding backed up and stopped in front of the home of the deceased and a man got out on the right side and went to the door; that he heard the man say he was looking for “Crespene Gomez” and heard the deceased say he did not live there; that he then heard a shot and saw the man go to the car, get in on the right side and the car drive away, Guana testified that he then went to the home of the deceased and found the deceased lying at the door.\nIt was shown that the cause of death of the deceased was a gun shot wound in the left cheek.\nAppellant did not testify or offer any evidence in his behalf.\nIn his charge the court instructed the jury that the witness Gandar was an accomplice; that they could not convict upon his testimony unless corroborated and fully instructed the jury as to the corroboration necessary to convict upon accomplice testimony.\nAppellant insists that the evidence is insufficient to corroborate the testimony of the accomplice witness, Gandar, as is required by Art. 718, V.A.C.C.P.\nIn the recent case of Thomas v. State, 166 Texas Cr. Rep. 331, 313 S.W. 2d 311, this court in passing upon the sufficiency of the corroboration of an accomplice necessary to convict under the statute said:\n“ ‘The test as to the sufficiency of the corroboration long recognized as correct by our courts is to eliminate from consideration the evidence of the accomplice and examine the testimony of other witnesses with the view of ascertaining if from them comes incriminating evidence which tends to connect accused with the commission of the offense. If so, the corroboration is sufficient; otherwise, not.’ Barnes v. State, 18 Texas Cr. Rep. 93, 253 S.W. 2d 440, and Turner v. State, 108 Texas Cr. Rep. 486, 1 S.W. 2nd 642.”\nIn 18 Texas Jur. par. 173, page 285 is found the following language:\n“Corroboration of the testimony of the confessed participant in the offense is to be found in evidence which shows that at the time of its commission the accused was at the scene of the crime or which tends to show that he was present.”\nThe testimony of the witnesses Pete Torres and Juan Guana places appellant at the scene of the homicide on the night in question and together with the other facts and circumstances is in our opinion sufficient to corroborate the testimony of Gandar, the accomplice witness, and to support the jury’s verdict finding that appellant shot and killed the deceased.\nBy Bill of Exceptions Nos. 1, 2 and 3 appellant complains of the action of the court in permitting the state, over his objection, to show his actions and conduct in carrying a pistol and committing an assault in the city of Sonora, Sutton County, Texas, prior to the homicide. Appellant insists that such evidence constituted proof by the state of extraneous offenses which calls for a reversal of the conviction.\u0027 The court in his qualifications to the bills certifies that the evidence was material upon the question of the intent and identity of the appellant, identity of the gun introduced in evidence and as corroboration of the accomplice witness Gandar. Reference is further made by the court in his qualifications to other testimony in the record as being material on the issues.\nThe state insists that appellant’s actions and conduct in the city of Sonora was a part of one continuous transaction which culminated in the shooting of the deceased and that such evidence was admissible to show appellant’s motive, malice and intent at the time he shot and killed the deceased.\nIn 18 Texas Jur. par. 33, page 59 it is stated:\n“The rule against the admission of evidence of other crimes does not apply where such evidence logically tends to prove defendant’s guilt of the crime charged. Stated in another way, evidence which is pertinent and tends to prove the crime alleged is not rendered inadmissible because it also tends to prove the commission of other crimes. But in order that a collateral crime may be relevant as evidence it must be connected with the crime under investigation as part of a general and composite transaction.”\nArt. 1257a Y.A.P.C. provides:\n“In all prosecutions for felonious homicide the State or the defendant shall be permitted to offer testimony as to all relevant facts and circumstances surrounding the killing and the previous relationship existing between the accused and the deceased, together with all relevant facts and circumstances going to show the condition of the mind of the accused at the time of the homicide, which may be considered by the jury in determining the punishment to be assessed.”\nThe evidence of appellants trouble in Sonora with the boys from El Dorado and his acts and conduct on such occasion was clearly indicative of the condition of his mind at that time and at the time of the killing: Under the record it appears that his acts and conduct in Sonora was part of the same continuous transaction in which he went to El Dorado and killed the deceased an hour and a half later. We hold the evidence of such acts and conduct admissible on the issue of appellant’s identity, motive and intent in shooting and killing the deceased. Williams v. State, 77 Texas Cr. Rep. 563, 179 S.W. 710, and Watts v. State, 151 Texas Cr. Rep. 349, 207 S.W. 2d 94.\nIn his brief appellant insists that the trial court was without authority in his qualification of the bills to incorporate and refer to other testimony in the record as being material upon the question of the admissibility of the evidence complained of. Appellant insists that the bill of exception should be considered complete when the objection is made and the court’s ruling secured thereon and that the court should not be permitted by his qualification to incorporate in the bill testimony which was later admitted after the bill of exception was taken. We find no merit in the contention as this court views the entire record in determining whether a ruling of the court constitutes reversible error.\nAppellant next insists that the court erred in admitting in evidence as State’s Exhibit No. 1 the gun which the state claimed was used by appellant in the homicide. Appellant’s contention, which is presented by the court’s bill of exception No. 1, is that the gun was not sufficiently identified as being in his possession and as the gun used in the killing.\nThe rule is well settled that in prosecutions for homicide the weapon with which the crime was committed, or alleged to have been committed, is admissible in evidence. The lack of positive identification of the weapon affects its weight as evidence rather than its admissibility. Wilson v. State, 163 Texas Cr. Rep. 202, 289 S.W. 2d 597.\nA review of the record in the present case reflects that the gun admitted in evidence as State’s Exhibit No. 1 was identified by the witness Gandar as the weapon used in the killing by appellant and identified by the witness Rodriguez as the gun in possession of appellant shortly before the killing. Under the record the gun was sufficiently identified and we find no error in the bill.\nAppellant’s remaining contentions relate to the court’s charge.\nIn paragraph No. 6-A, the court instructed the jury with reference to the evidence admitted as to appellant’s prior acts and conduct in Sutton County, Texas, and limited the jury’s consideration of such evidence to their determination of his intent, if any, in connection with the offense charged.\nAppellant objected generally to the instruction on the ground that the instruction was not the law, did not correctly apply the law to the facts and was prejudicial to him.\nIn his brief appellant insists that the court’s instruction did not set forth the law applicable to the case because it did not instruct the jury that they could not consider such collateral crimes unless it was shown that appellaant was guilty of the same, and relies upon the case of Nichols v. State, 138 Texas Cr. Rep. 324, 136 S.W. 2d 221 and cases there cited in support of his contention.\nAppellant’s objection was too general to call the court’s attention to the omission, and did not point out wherein the charge did not correctly set forth the law applicable to the case, and therefore presents nothing for review. Soto v. State, 161 Texas Cr. Rep. 239, 275 S.W. 2d 812, and Bryant v. State, 163 Texas Cr. Rep. 463, 293 S.W. 2d 646. In the Nichols case, supra, a specific exception was made to the court’s failure to give such an instruction.\nAppellant requested the court to instruct the jury that the burden of proof never shifts to the defendant but remains with the state throughout the case to prove his guilt. Such request was by the court refused. In his charge the court instructed the jury that the burden of. proof was upon the state; that the defendant was presumed to be innocent until his guilt was established by legal evidence beyond a reasonable doubt and if they had a reasonable doubt as to the defendant’s guilt to acquit him and say by their verdict not guilty. The court’s instruction was such as is usually considered sufficient unless there is some special matter in the case such as nonage or insanity that requires the court to give an instruction that the burden of proof never shifts. Under the facts in the present case the court’s charge was sufficient. Brown v. State, 41 Texas Cr. Rep. 232, 53 S.W. 866, and Hawkins v. State, 77 Texas Cr. Rep. 520, 179 S.W. 448.\nIn his charge to the jury on the law of murder with and without malice the court instructed the jury that if they had a reasonable doubt that the appellant, in killing the deceased, if he did, was prompted and acted with malice aforethought they must give him the benefit of such doubt. Appellant insists that the instruction was erroneous because it did not tell the jury that if there was any reasonable doubt in their mind to give him the benefit of such doubt. We find no merit in the contention. The use of the word “a” rather than the word “any” in the instruction did not change its meaning as “a reasonable doubt” on the part of the jury would include “any reasonable doubt.” The word “a” is synonymous with this word “any.” 1 Words and Phrases 58 P.P., page 1.\nFinding the evidence sufficient to support the conviction and no reversible error appearing, the judgment is affirmed.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "DICE, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "William C. McDonald, San Angelo, for appellant.",
+                                       "Justin A. Kever, District Attorney, San Angelo, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ernesto Chavira v. State.\nNo. 30,194.\nNovember 16, 1958.\nAppellant’s Motion for Rehearing Overruled January 14, 1959.\nWilliam C. McDonald, San Angelo, for appellant.\nJustin A. Kever, District Attorney, San Angelo, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1459-01",
+    "first_page_order":  215,
+    "last_page_order":  222
+}

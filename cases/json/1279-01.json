@@ -1,0 +1,81 @@
+﻿{
+    "id":  4563171,
+    "name":  "Carl Curtis v. The State",
+    "name_abbreviation":  "Curtis v. State",
+    "decision_date":  "1908-02-19",
+    "docket_number":  "No. 4286",
+    "first_page":  "606",
+    "last_page":  "607",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 606"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "49 Texas Crim. Rep., 241",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4548054
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/49/0241-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  281,
+                     "char_count":  4682,
+                     "ocr_confidence":  0.602,
+                     "pagerank":  {
+                                      "raw":  2.3560143030677145E-07,
+                                      "percentile":  0.7937480138803459
+                                  },
+                     "sha256":  "5907d1f1d3ef152f3efe666b60bb0693169012c4faea225a76b6fb5b822c303b",
+                     "simhash":  "1:f028a57cc184c8cd",
+                     "word_count":  816
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Carl Curtis v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\nAppellant was convicted of selling intoxicating liquors to Plumlee. The testimony shows that it was a bottle of whisky under practically the following circumstances. Plumlee approached Curtis for the purpose of purchasing a bottle of whisky. Curtis informed him that he had none and could not sell. Finally it was agreed between them that Curtis would take his order on L. Craddock \u0026 Co. at Dallas for a bottle of whisky, Plumlee paying Curtis at the time’ $1.05 which Curtis received. This money was forwarded to Dallas, and the whisky shipped to Curtis at Weatherford. Curtis receipted for and took the whisky out of the express office, and turned it over to Plumlee the following morning. It was what the express agent called \"an open shipment,” not C. O. D. Something like a month before this transaction another order was sent in by appellant for a barrel of bottled beer,-which was consigned to Ketchum. There is testimony showing that Ketchum was one of several who were acting through him in having appellant to ship the beer. There is some contradiction \"on this, however. Be this as it may, one shipment was for whisky and the other for beer. The facts are uncontroverted that appellant was representing L. Craddock \u0026 Co., receiving orders for them at Weatherford, accompanied by the money, and having the goods shipped from Dallas by his principal, Craddock \u0026 Co., to the purchaser. In this particular case it was shipped to Curtis personally and not to the purchaser. We are of opinion that the testimony with reference to the beer was an independent transaction and served to illustrate no legitimate purpose in the case. This testimony, in our judgment, was not legitimate to show system. The facts were uncontroverted and this was a different transaction, and the more hurtful by reason of the fact that all the details of the beer transaction were gone into before the jury as if appellant was being tried for that as fully as the case for which he was being tried.\nThe court charged the jury that if they should find before the filing of the indictment that defendant received from Plumlee an order in writing to L. Craddock \u0026 Co. for one quart of whisky to be shipped by express C. O. D. to said Plumlee at Weatherford, and that said order was sent by defendant to L. Craddock \u0026 Co., and that said L. Craddock \u0026 Co. shipped said whisky to defendant at Weatherford, and that defendant delivered the whisky to Plumlee in Parker County, and that in doing so he was acting for L. Craddock \u0026 Co., he would be guilty. An exception was reserved to this charge, which we think, was well taken. There is no evidence in this case that this was a C. 0. D. shipment. On the contrary, the agent testified that it was an open shipment and without any C. O. D. evidences of. contract or shipment. This authorized the jury to convict appellant upon a statement of facts entirely foreign to the record and testified by no witness. The transaction here, as was stated, was that appellant received $1.05 from Plumlee and sent it to L. Craddock \u0026 Co., and that the whisky was shipped to appellant instead of Plumlee, not C. 0. D. but an open ordinary express shipment.\nIt will be unnecessary to discuss the other assigned errors, because the disposition here made of the case will avoid the other matters mentioned. The judgment is reversed and the cause is remanded.\nReversed and remanded.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Hood \u0026 Shadle, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State. ■"
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Carl Curtis v. The State.\nNo. 4286.\nDecided February 19, 1908.\n1. —Local Option.—Other Transactions—Evidence.\nUpon trial for a violation of the local option law, it was error to admit testimony of another transaction which \"occurred about a month before the alleged sale for which defendant was being tried, both transactions being open shipments, and independent of each other.\n2. —Same—Charge of Court—C. 0. D. Shipment.\nWhere upon trial for a violation of the local option law, there was no evidence that the alleged shipment was C. O. D., but the evidence showed that it was an open shipment, the money having been sent for the whisky, the court erred in charging on the theory that it was a C. O. D. shipment.\nAppeal from the County Court of Parker. Tried below before the Hon. B. L. Stennis.\nAppeal from a conviction of a violation of the local option law; penalty, a fíne of $25 and twenty days confinemen in the county jail.\nThe opinion states the case.\nHood \u0026 Shadle, for appellant.\n—On question of other transactions: Swalm v. State, 49 Texas Crim. Rep., 241; 15 Texas Ct. Rep. 321; Belt v. State, 9 Texas Ct. Rep., 532; Walker v. State, 7 Texas Ct. Rep., 8; Grimes v. State, 7 Texas Ct. Rep., 8.\nF. J. McCord, Assistant Attorney-General, for the State. ■"
+                 },
+    "file_name":  "1279-01",
+    "first_page_order":  624,
+    "last_page_order":  625
+}

@@ -1,0 +1,70 @@
+﻿{
+    "id":  8547584,
+    "name":  "Ex Parte James (Jake) Minor",
+    "name_abbreviation":  "Ex parte Minor",
+    "decision_date":  "1959-01-07",
+    "docket_number":  "No. 30,411",
+    "first_page":  "170",
+    "last_page":  "171",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 170"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  154,
+                     "char_count":  1758,
+                     "ocr_confidence":  0.588,
+                     "pagerank":  {
+                                      "raw":  4.1934169763532575E-07,
+                                      "percentile":  0.9129910662745202
+                                  },
+                     "sha256":  "839f2666b98d3db1a62d097159254aab7e53b1b275e88734e8738e684b05ec34",
+                     "simhash":  "1:3f0b36e353d644b0",
+                     "word_count":  308
+                 },
+    "last_updated":  "2023-07-14T16:09:04.443318+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte James (Jake) Minor."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nRelator, an inmate of the penitentiary, seeks his release by writ of habeas corpus alleging that he has served the sentences against him. From the record we learn the following:\nOn September 20, 1954, relator was convicted in the 99th District Court of Lubbock County in Cause No. 5320, for the felony offense of defrauding with a worthless check and was sentenced to three years, but the execution of such sentence was suspended and relator was placed on probation. Subsequently, on September 19, 1955, relator was convicted in causes numbered 5559 and 5601 in said court and sentenced to four years. On said date, the trial court again sentenced relator in Cause No. 5320 and made the same cumulative of the sentences in causes numbered 5559 and 5601.\nIt is this order of cumulation which relator attacks and claims the right to be released because he has served in excess of four years.\nWe are not dealing with a case in which the imposition of sentence was suspended, but here we have a case in which a man was sentenced on December 20, 1954, and then after revocation was re-sentenced on September 19, 1955, in the same case.\nWhen the term of court adjourned at which the 1954 sentence was imposed, the trial court lost all power to alter, change or amend the same, and the only order he could enter was to revoke it. He could not add further conditions to such sentence which were not, and under the facts could not have been, a part of such sentence at the time it was imposed.\nThe writ of habeas corpus is granted, and relator is ordered discharged.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Porter \u0026 Caston, by L. P. Caston, Longview, for petitioner.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte James (Jake) Minor.\nNo. 30,411.\nJanuary 7, 1959.\nPorter \u0026 Caston, by L. P. Caston, Longview, for petitioner.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1438-01",
+    "first_page_order":  188,
+    "last_page_order":  189
+}

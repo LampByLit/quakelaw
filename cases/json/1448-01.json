@@ -1,0 +1,117 @@
+﻿{
+    "id":  8547672,
+    "name":  "Howard Taft Seibert v. State",
+    "name_abbreviation":  "Seibert v. State.",
+    "decision_date":  "1959-01-07",
+    "docket_number":  "No. 30,282",
+    "first_page":  "182",
+    "last_page":  "183",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 182"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "87 S.W. 2d 482",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10256650
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/87/0482-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "129 Texas Cr. Rep. 314",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5248769
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/129/0314-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "294 S.W. 221",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10292199
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/294/0221-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "106 Texas Cr. Rep. 586",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5134011
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/106/0586-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  187,
+                     "char_count":  2204,
+                     "ocr_confidence":  0.572,
+                     "pagerank":  {
+                                      "raw":  5.12982294956584E-08,
+                                      "percentile":  0.3236350845165104
+                                  },
+                     "sha256":  "b6c5ce5fdcd250e690b3517ce256c21adba5470565349a23cb54195d9fdf2047",
+                     "simhash":  "1:5c473a50703e4ef0",
+                     "word_count":  377
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Howard Taft Seibert v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is driving while intoxicated; the punishment, ten days in jail and a fine of $100.00.\nNo statement of facts accompanies the record, and the sole question presented is an alleged reference in the prosecution argument to the defendant’s failure to testify. As qualified, the bill reflects that the state’s witness Officer Henderson testified that at the scene of the arrest the appellant said, “Hawkins, you were driving the truck, weren’t you? I was too drunk to drive,” but that the defense witness Hawkins denied that the appellant had made such statement and that the prosecutor after discussing the testimony of the two officer witnesses pointed his finger at the appellant and said, “And what did he say?” After the appellant’s objection was overruled, the prosecutor continued, “I will point my finger at him some more. What did he say? We have two witnesses testify what he said. It is in the record and it is clear. Two people have testified to you what he said — at least two. I’m not sure.”\nAppellant relies primarily upon two cases. In Smith v. State, 106 Texas Cr. Rep. 586, 294 S.W. 221, the prosecutor said:\n“This defendant not testifying, this defendant, I do not mean to refer to this defendent not testifying.”\nIn Jackson v. State, 129 Texas Cr. Rep. 314, 87 S.W. 2d 482, the prosecutor said:\n“And yet, neither Fred Jackson nor Oren Jackson (the appellant) has testified in this case and explained where the meat came from. * * * I made a mistake in saying Oren Jackson; I meant to say Onus Jackson.”\nThe holding of this court was that once the prosecutor had violated the rule he could not by retraction cure the error. But we do not have such a situation here. The prosecutor in the case at bar did not attempt to retract, but rather insisted that he was referring to what the witness Henderson, and as he thought another, had testified the appellant had said at the scene.\nFinding no reversible error, the judgment of the trial court is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Anderson, Latham and Casteldine, by Henry J. Anderson, Wichita Falls, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Howard Taft Seibert v. State.\nNo. 30,282.\nJanuary 7, 1959.\nAnderson, Latham and Casteldine, by Henry J. Anderson, Wichita Falls, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1448-01",
+    "first_page_order":  200,
+    "last_page_order":  201
+}

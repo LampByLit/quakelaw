@@ -1,0 +1,67 @@
+﻿{
+    "id":  2021362,
+    "name":  "HOUSING AUTHORITY OF THE CITY OF FORT LAUDERDALE v. HOLMES",
+    "name_abbreviation":  "Housing Authority v. Holmes",
+    "decision_date":  "1991-06-06",
+    "docket_number":  "Case No. 91-02275-COCE-52",
+    "first_page":  "194",
+    "last_page":  "196",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 194"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Broward Cty. Ct.",
+                  "id":  14278,
+                  "name":  "Broward County Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  173,
+                     "char_count":  2999,
+                     "ocr_confidence":  0.925,
+                     "sha256":  "16ee12bca9f4fb99c2e3a75048d22729cd8784799d04e132065675dc363f9cd0",
+                     "simhash":  "1:f96ed92d40345d8f",
+                     "word_count":  530
+                 },
+    "last_updated":  "2023-07-14T20:58:18.726299+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "HOUSING AUTHORITY OF THE CITY OF FORT LAUDERDALE v HOLMES"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nTHOMAS M. LYNCH, IV, County Judge.\nORDER GRANTING DEFENDANTS MOTION FOR STAY OF WRIT OF POSSESSION\nTHIS CAUSE came before this Court upon the Defendant’s Motion for Stay of Writ of Possession, and the Court having heard argument of counsel and being otherwise fully advised in the premises, makes the following findings of fact and conclusions of law:\nFINDINGS OF FACT\n1. The Plaintiff filed a Complaint for Tenant Eviction and the Defendant filed her Answer as well as Demand for Jury Trial.\n2. This cause was heard by a jury and a verdict for the Plaintiff was entered on Thursday, May 16, 1991 returning possession of the premises to the Plaintiff.\n3. On May 20, 1991, four (4) days after the jury rendered its verdict, this Court signed an Order for Tenant Removal and Writ of Possession directing the Clerk to issue the writ forthwith.\n4. On May 20, 1991, Defendant filed her Motion for Stay of the Writ of Possession which asserted that this Court prematurely entered the Writ of Possession in violation of Rule 1.550(a) of the Florida Rules of Civil Procedure which states that no execution or final process shall issue until the time for serving a motion for new trial has expired and if a motion for new trial is served until it is determined.\n5. The Defendant argued at the hearing that under Rule 1.530(b) of the Florida Rules of Civil Procedure, she had ten (10) days after the jury returned its verdict on May 16, 1991 to file her motion for new trial, to wit: May 28, 1991, and that the Writ of Possession, therefore, was entered prematurely on May 20, 1991.\nCONCLUSIONS OF LAW\nBased upon the foregoing, it is hereby\nORDERED as follows:\n1. In accordance with Rule 1.530(b) of the Florida Rules of Civil Procedure, the Defendant had ten (10) days from May 16, 1991, the date the jury verdict was returned, to request a motion for a new trial, to wit: May 28, 1991.\n2. Rule 1.550(a) of the Florida Rules of Civil Procedure provides that no execution or final process shall issue until the time for serving a motion for new trial has expired and if a motion for new trial has been timely served, until it is determined.\n3. The Writ of Possession issued by this Court on May 20, 1991, four (4) days after the jury returned its verdict in favor of the Plaintiff, was entered prematurely and, therefore, in violation of Rule 1.550(a) of the Florida Rules of Civil Procedure.\n4. In accordance with Rule 1.550(a) of the Florida Rules of Civil Procedure, the Writ of Possession entered May 20, 1991 is hereby stayed until Defendant’s Motion for New Trial filed on May 28, 1991 is determined.\nDONE AND ORDERED in Chambers, at Fort Lauderdale, Bro-ward County, this 6th day of June, 1991.",
+                                          "type":  "majority",
+                                          "author":  "THOMAS M. LYNCH, IV, County Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Charles W. Cherry, II., Esquire, for plaintiff.",
+                                       "Sharon Bourassa-Diaz, Esquire, Legal Aid Service of Broward County, Inc., for defendant."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "HOUSING AUTHORITY OF THE CITY OF FORT LAUDERDALE v HOLMES\nCase No. 91-02275-COCE-52\nCounty Court, Broward County\nJune 6, 1991\nAPPEARANCES OF COUNSEL\nCharles W. Cherry, II., Esquire, for plaintiff.\nSharon Bourassa-Diaz, Esquire, Legal Aid Service of Broward County, Inc., for defendant."
+                 },
+    "file_name":  "1455-01",
+    "first_page_order":  214,
+    "last_page_order":  216
+}

@@ -1,0 +1,112 @@
+﻿{
+    "id":  4558898,
+    "name":  "Charles Johnson v. The State",
+    "name_abbreviation":  "Johnson v. State",
+    "decision_date":  "1907-12-18",
+    "docket_number":  "No. 3734",
+    "first_page":  "296",
+    "last_page":  "297",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 296"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "39 Texas Crim. Rep., 529",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4493575
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/39/0529-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "47 S. W. Rep., 359",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "weight":  2,
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "39 Texas Crim. Rep., 39",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "39 Texas Crim. Rep., 529",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4493575
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/39/0529-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "47 S. W. Rep., 359",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  167,
+                     "char_count":  2545,
+                     "ocr_confidence":  0.571,
+                     "pagerank":  {
+                                      "raw":  5.6768303877086308E-08,
+                                      "percentile":  0.35513943090890626
+                                  },
+                     "sha256":  "b00709668f3c2c67dc77ba19908467957e02b18117d1064cf63b4f3cc1e56811",
+                     "simhash":  "1:d6aecd0044e64fb2",
+                     "word_count":  447
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Charles Johnson v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BROOKS, Judge.\nAppellant was convicted for unlawfully and wilfully permitting his hogs to run at large in a subdivision in Montgomery County, Texas, which had theretofore adopted the local option stock law, and his punishment assessed at a fine of $5.\nBill of exceptions, No. 15j shows that appellant asked the court to charge the jury as follows: “The complaint and information charges the defendant with unlawfully and wilfully permitting his hogs to run at large in a subdivision of the county which is alleged to have adopted and voted said law into existence in the year A. D. 1893, and the evidence adduced on the trial of this cause shows that if such law was ever adopted and voted into existence in said subdivision of Montgomery County, Texas, it was done in the year A. D. 1893; that the law making it a penal offense to permit hogs, sheep and goats to run at large in a county or subdivision thereof which had adopted and voted said law into existence did not go into effect until August A. D., 1897, and that the freeholders and qualified voters of such subdivision of the county never voted on and adopted and carried said law as it existed, that is, with a penal penalty attached thereto. Therefore, there is no law to sustain a conviction of defendant in this case, and you will acquit him.” This exact question was decided in favor of the accuracy of said charge in the case of McElroy v. State, 39 Texas Crim. Rep., 529, 47 S. W. Rep., 359. It follows, therefore, that the court erred in refusing said charge.\nThe judgment is reversed and the cause remanded.\nReversed and remanded.\nHenderson, Judge, absent.",
+                                          "type":  "majority",
+                                          "author":  "BROOKS, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "F. McDonald, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Charles Johnson v. The State.\nNo. 3734.\nDecided December 18, 1907.\nUnlawfully Prohibiting Hogs to Run at Large—Election—Charge of Court— Offense—Stock Law.\nWhere in a prosecution for unlawfully, etc., permitting hogs to run at large, etc., the election for the purpose was held A. D. 1893, and the law permitting the people to vote on this question took effect A. D. 1897, a requested charge to acquit the defendant should have been given. Following McElroy v. State, 39 Texas Crim. Rep., 39, 47 S. W. Rep., 359.\nAppeal from the County Court of Montgomery. Tried below before the Hon. S. A. McCall.\n\\ Appeal from a conviction of unlawfully, etc., permitting hogs to run at large; penalty, a fine of $5.\nThe opinion states the case.\nF. McDonald, for appellant.\n—On the question of requested charge: McElroy v. State, 39 Texas Crim. Rep., 529, 47 S. W. Rep., 359.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1166-01",
+    "first_page_order":  314,
+    "last_page_order":  315
+}

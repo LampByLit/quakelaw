@@ -1,0 +1,141 @@
+﻿{
+    "id":  8552245,
+    "name":  "Hosia White v. State",
+    "name_abbreviation":  "White v. State",
+    "decision_date":  "1959-02-11",
+    "docket_number":  "No. 30,439",
+    "first_page":  "591",
+    "last_page":  "591",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 591"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "317 S.W. 2d 743",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10176579
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/317/0743-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "167 Texas Cr. Rep. 51",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          8546754
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/167/0051-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "305 S.W. 2d 956",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10182095
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/305/0956-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "165 Texas Cr. Rep. 217",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2616421
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/165/0217-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "296 S.W. 2d 781",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10182872
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/296/0781-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 137",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2608195
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0137-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  140,
+                     "char_count":  1371,
+                     "ocr_confidence":  0.56,
+                     "pagerank":  {
+                                      "raw":  1.0997720922370316E-07,
+                                      "percentile":  0.5680279043295574
+                                  },
+                     "sha256":  "78ff5d949b1378b6eb2be114e7659f9c222533f53848857916669669b59d1cd9",
+                     "simhash":  "1:0bac1cef67b00932",
+                     "word_count":  246
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Hosia White v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DICE, Judge.\nUpon a plea of guilty, before the court without a jury, appellant was convicted of unlawfully selling whiskey in a dry area and his punishment assessed at 60 days in jail and a fine of $200.\nBy motion for new trial appellant claims that he entered the plea of guilty because of certain promises and threats made to him by an agent of the Texas Liquor Control Board. In the motion appellant alleged that the agent led him to believe that he was a Federal officer and promised him that .if he would plead guilty he would receive as punishment a minimum fine of $100 and also threatened to take him to Abilene, Texas and file charges against him in Federal Court unless he entered the plea of guilty.\nThe motion was not sworn to or supported by the affidavit of appellant or any other person.\nThe unverified motion was insufficient as a pleading and the court’s action in overruling the same cannot be assigned as error. Williams v. State, 164 Texas Cr. Rep. 137, 296 S.W. 2d 781; Dillon v. State, 165 Texas Cr. Rep. 217, 305 S.W. 2d 956, and Hunt v. State, 167 Texas Cr. Rep. 51, 317 S.W. 2d 743.\nThe judgment is affirmed.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "DICE, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "R. E. Murphey, Coleman, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Hosia White v. State.\nNo. 30,439.\nFebruary 11, 1959.\nAppellant’s Motion for Rehearing Overruled March 25, 1959.\nR. E. Murphey, Coleman, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1591-01",
+    "first_page_order":  609,
+    "last_page_order":  609
+}

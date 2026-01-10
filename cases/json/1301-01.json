@@ -1,0 +1,168 @@
+﻿{
+    "id":  2021353,
+    "name":  "FALASZ v. CITY OF BOCA RATON POLICE \u0026 FIREFIGHTERS\u0027 RETIREMENT SYSTEM",
+    "name_abbreviation":  "Falasz v. City of Boca Raton Police \u0026 Firefighters\u0027 Retirement System",
+    "decision_date":  "1991-09-16",
+    "docket_number":  "Case No. AP 88-11618 AY",
+    "first_page":  "8",
+    "last_page":  "9",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 8"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "373 So.2d 960",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9624576
+                                      ],
+                         "year":  1979,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "962"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/373/0960-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "569 So.2d 517",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          11296177,
+                                          11296143
+                                      ],
+                         "year":  1990,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/569/0517-02",
+                                            "/so2d/569/0517-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "574 So.2d 1205",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7524577,
+                                          7524690,
+                                          7524622
+                                      ],
+                         "year":  1991,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/574/1205-01",
+                                            "/so2d/574/1205-03",
+                                            "/so2d/574/1205-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "143 Fla. 236",
+                         "category":  "reporters:state",
+                         "reporter":  "Fla.",
+                         "case_ids":  [
+                                          1941634
+                                      ],
+                         "weight":  2,
+                         "year":  1940,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/fla/143/0236-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "541 So.2d 106",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7543802,
+                                          7543762
+                                      ],
+                         "year":  1989,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/541/0106-02",
+                                            "/so2d/541/0106-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "419 So.2d 624",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9539885
+                                      ],
+                         "year":  1982,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "626"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/419/0624-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  225,
+                     "char_count":  2659,
+                     "ocr_confidence":  0.897,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07305561057806845
+                                  },
+                     "sha256":  "6463fd4e2f21d1d03ac71fe94451181c57faed12212a031bd07edb57af3ea6a4",
+                     "simhash":  "1:8dec737d544bd2f0",
+                     "word_count":  424
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before RODGERS, RAPP, OFTEDAL, JJ.",
+                                    "RODGERS, RAPP and OFTEDAL, JJ., concur."
+                                ],
+                     "parties":  [
+                                     "FALASZ v CITY OF BOCA RATON POLICE \u0026 FIREFIGHTERS’ RETIREMENT SYSTEM"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nPER CURIAM\nSusan Falasz was a police officer for the City of Boca Raton. Petitioner contended that while investigating a burglary on a boat in April 1984 she suffered an injury to her right knee which has left her unable to perform the duties of a police officer. Ms. Falasz was also injured in an off-duty car accident in April 1983. Believing her later injury may possibly have resulted from the car accident, the Boca Raton Police and Firefighters’ Pension Board of Trustees (the Board) denied Falasz’ request for a service connected disability pension.\nWhere a party is entitled as a matter of right to seek review in the circuit court from administrative action, the circuit court must determine whether procedural due process is accorded, whether the essential requirements of the law have been observed, and whether the administrative findings and judgment are supported by competent substantial evidence. City of Deerfield Beach v Vaillant, 419 So.2d 624, 626 (Fla. 1982). See also Education Development Center, Inc. v City of West Palm Beach Zoning Board of Appeals, 541 So.2d 106 (Fla. 1989).\nPetitioner concedes the Board observed the essential requirements of the law and we find procedural due process was accorded. See Munch v Davis, 143 Fla. 236, 196 So. 491 (Fla. 1940). Upon review and careful consideration of the appendix and “supplemental record on appeal”, we find Ms. Falasz proved her injury was service-incurred, total, and permanent, and the Board’s denial of the requested pension was not supported by competent substantial evidence.\nThere being no procedural error we do not remand for a new hearing. See Lake Ida Protection Society, Inc. v Board of County Commissioners of Putnam County, 574 So.2d 1205 (Fla. 5th DCA 1991); Board of County Commissioners of Monroe County v Key Largo Associates, Ltd., 569 So.2d 517 (Fla. 3d DCA 1990); Polk v School Board of Polk County, 373 So.2d 960, 962 (Fla. 2d DCA 1979).\nIn accordance with the foregoing, we quash the decision of the Pension Board of Trustees and remand with directions to award Ms. Falasz the requested service-connected disability pension.\nFurther, Respondent’s request for attorney’s fees and costs is denied.\nDECISION QUASHED AND REMANDED WITH DIRECTIONS.\nRODGERS, RAPP and OFTEDAL, JJ., concur.",
+                                          "type":  "majority",
+                                          "author":  "PER CURIAM"
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Fred H. Gelston, Esquire, Damsel \u0026 Gelston, P.A., for petitioner.",
+                                       "Robert A. Sugarman, Esquire, Sugarman \u0026 Susskind, P.A., for respondent."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "FALASZ v CITY OF BOCA RATON POLICE \u0026 FIREFIGHTERS’ RETIREMENT SYSTEM\nCase No. AP 88-11618 AY\nFifteenth Judicial Circuit, Palm Beach County\nSeptember 16, 1991\nAPPEARANCES OF COUNSEL\nFred H. Gelston, Esquire, Damsel \u0026 Gelston, P.A., for petitioner.\nRobert A. Sugarman, Esquire, Sugarman \u0026 Susskind, P.A., for respondent.\nBefore RODGERS, RAPP, OFTEDAL, JJ."
+                 },
+    "file_name":  "1301-01",
+    "first_page_order":  28,
+    "last_page_order":  29
+}

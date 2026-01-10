@@ -1,0 +1,182 @@
+﻿{
+    "id":  8547723,
+    "name":  "Raul Uresti v. State",
+    "name_abbreviation":  "Uresti v. State",
+    "decision_date":  "1959-01-07",
+    "docket_number":  "No. 30,258",
+    "first_page":  "189",
+    "last_page":  "191",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 189"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "166 Texas Cr. Rep. 311",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2619782
+                                      ],
+                         "pin_cites":  [
+                                           {
+                                               "page":  "313"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/166/0311-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "312 S.W. 2d 382",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10168023
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/312/0382-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "166 Texas Cr. Rep. 116",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2618670
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/166/0116-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "275 S.W. 2d 687",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10185194
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/275/0687-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "161 Texas Cr. Rep. 120",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2465025
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/161/0120-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "255 S.W. 2d 513",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10208358
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/255/0513-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "158 Texas Cr. Rep. 306",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2477632
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/158/0306-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "266 S.W. 2d 171",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10187476
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/266/0171-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "160 Texas Cr. Rep. 8",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2469375
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/160/0008-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  285,
+                     "char_count":  3541,
+                     "ocr_confidence":  0.586,
+                     "pagerank":  {
+                                      "raw":  7.64613377670869E-08,
+                                      "percentile":  0.4516402307624885
+                                  },
+                     "sha256":  "5173f3032a95a46699cde4944f94bd8ad025b18bcef8df04446d230e4727d4a4",
+                     "simhash":  "1:19077c2165288bf6",
+                     "word_count":  592
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Raul Uresti v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is injuring property of another, a felony, as denounced by Article 1350, V.A.P.C., punishment for which is provided in Section (3) (a) of said Act; the punishment, two years.\nMr. Heskew, manager of the South Loop Drive-In Theater in ■ San Antonio, testified that someone forced entry into the projection room of his theater on the night in question, broke and injured the projection machines to such an extent that $2500 in repairs was necessary. He further testified that the appellant had been in the habit of slipping into his theater and that on several occasions he had caused the appellant to be arrested for such conduct.\nBoth Torres, an investigator for the district attorney’s office, and Obregon, adult probation officer, testified that on separate occasions they\u0027 each secured written confessions from the appellant in which he stated that he and his companions had wrecked the projection machines because they were mad at Heskew for having thrown them out of the theater after they had sneaked in.\nThe appellant, testifying in his own behalf, stated that the confession taken by Torres was involuntary in that other officers had threatened him with deportation some two weeks before the Torres confession was made.\nThe jury resolved the voluntary nature of the confessions against the appellant, and we find it sufficiently corroborated so as to support this conviction.\nWe shall discuss the contentions advanced in appellant’s brief. He first contends that the indictment is insufficient in that the phrases “by striking, knocking and breaking” and “motion picture projection equipment” were not sufficiently explicit to put the accused on notice as to the nature of the charge against him. In the transcript we find a motion to quash the indictment, but the same does not appear to have been called to the attention of the trial judge or that it was acted upon by him, thus nothing is presented for review by such motion. Perry v. State, 160 Texas Cr. Rep. 8, 266 S.W. 2d 171. We perceive no fundamental defect in the indictment.\nAppellant next contends that error is reflected in the cross-examination of one of appellant’s reputation witnesses. The witness was asked the following question:\n“Mr. Cantu, I’ll ask you whether you’ve heard discussed the fact that on the 26th day of June, 1956, Raul Uresti and one boy named Frank Guerrero broke into the Lackland Drive-In Theater.”\nAn objection was made, the same was sustained, and the witness was then asked, and answered without objection, the following question:\n“All right, Mr. Cantu, have you heard that Raul Uresti and one Frank Guerrero broke into the Lackland Drive-In Theater on the 26th day of June, 1956?”\nUnder the holdings of this court in Adams v. State, 158 Texas Cr. Rep. 306, 255 S.W. 2d 513; Adams v. State, 161 Texas Cr. Rep. 120, 275 S.W. 2d 687; Lowe v. State, 166 Texas Cr. Rep. 116, 312 S.W. 2d 382; and Torbert v. State, 166 Texas Cr. Rep. 311, 313, S.W. 2d 303, the second question was proper. We would not be inclined to hold that the addition of the words “the fact” in the unanswered question, in view of the court’s ruling, would constitute reversible error.\nFinding no reversible error, the judgment of the trial court is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "No attorney for appellant of record on appeal.",
+                                       "Hubert W. Green, Jr., Criminal District Attorney, James E. Barlow, Assistant Criminal District Attorney, San Antonio, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Raul Uresti v. State.\nNo. 30,258.\nJanuary 7, 1959.\nNo attorney for appellant of record on appeal.\nHubert W. Green, Jr., Criminal District Attorney, James E. Barlow, Assistant Criminal District Attorney, San Antonio, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1451-01",
+    "first_page_order":  207,
+    "last_page_order":  209
+}

@@ -1,0 +1,439 @@
+﻿{
+    "id":  2021345,
+    "name":  "MORGAN v. STATE OF FLORIDA",
+    "name_abbreviation":  "Morgan v. State",
+    "decision_date":  "1991-10-15",
+    "docket_number":  "Case No. 89-17AC-10 (Lower Court Case No. 89-4509MM-10)",
+    "first_page":  "60",
+    "last_page":  "65",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 60"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "347 So. 2d 422",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9685983
+                                      ],
+                         "year":  1977,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "424"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/347/0422-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "476 So. 2d 1369",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7627096
+                                      ],
+                         "year":  1985,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "1374"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/476/1369-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "490 So. 2d 1001",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7590989
+                                      ],
+                         "year":  1986,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "1003"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/490/1001-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "518 So. 2d 1370",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7583992
+                                      ],
+                         "year":  1988,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "1373"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/518/1370-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "559 So. 2d 1164",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7537673
+                                      ],
+                         "year":  1990,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/559/1164-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "95 So. 763",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So.",
+                         "year":  1923,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "85 Fla. 322",
+                         "category":  "reporters:state",
+                         "reporter":  "Fla.",
+                         "case_ids":  [
+                                          1624947
+                                      ],
+                         "year":  1923,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/fla/85/0322-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "351 So. 2d 47",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9695861
+                                      ],
+                         "year":  1977,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/351/0047-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "405 So. 2d 228",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9538351
+                                      ],
+                         "weight":  2,
+                         "year":  1981,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "232"
+                                           },
+                                           {
+                                               "page":  "232"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/405/0228-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "357 So. 2d 243",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9701138
+                                      ],
+                         "weight":  4,
+                         "year":  1978,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "246-47"
+                                           },
+                                           {
+                                               "page":  "246"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/357/0243-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "546 So. 2d 779",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7553091
+                                      ],
+                         "year":  1989,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "781"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/546/0779-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "95 So. 755",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So.",
+                         "weight":  2,
+                         "year":  1923,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "761"
+                                           },
+                                           {
+                                               "page":  "761"
+                                           }
+                                       ],
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "85 Fla. 297",
+                         "category":  "reporters:state",
+                         "reporter":  "Fla.",
+                         "case_ids":  [
+                                          1624987
+                                      ],
+                         "weight":  2,
+                         "year":  1923,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/fla/85/0297-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "498 So. 2d 1315",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7614072
+                                      ],
+                         "year":  1986,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/498/1315-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "354 So. 2d 438",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9705417
+                                      ],
+                         "year":  1978,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "439"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/354/0438-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "338 So. 2d 220",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9669469,
+                                          9669519
+                                      ],
+                         "year":  1976,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/338/0220-01",
+                                            "/so2d/338/0220-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "472 So. 2d 548",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7607360
+                                      ],
+                         "year":  1985,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "550"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/472/0548-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "557 So. 2d 916",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7529275
+                                      ],
+                         "year":  1990,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "917"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/557/0916-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "189 So. 274",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So.",
+                         "case_ids":  [
+                                          1951361,
+                                          1951338
+                                      ],
+                         "year":  1939,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "275"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/fla/138/0184-01",
+                                            "/fla/138/0239-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "138 Fla. 239",
+                         "category":  "reporters:state",
+                         "reporter":  "Fla.",
+                         "case_ids":  [
+                                          1951338
+                                      ],
+                         "year":  1939,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/fla/138/0239-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "537 So. 2d 182",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7543766
+                                      ],
+                         "year":  1989,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "184"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/537/0182-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "482 So. 2d 587",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7599143
+                                      ],
+                         "year":  1986,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/482/0587-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "408 So. 2d 858",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9569410
+                                      ],
+                         "year":  1982,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/408/0858-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  705,
+                     "char_count":  12436,
+                     "ocr_confidence":  0.91,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07305464527082467
+                                  },
+                     "sha256":  "f40b31297ad6ad8b80508932e29dddd0ec501033217728ff91e37b73de68fa67",
+                     "simhash":  "1:0750e5a516183480",
+                     "word_count":  2122
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before RICHARD D. EADE, Circuit Judge."
+                                ],
+                     "parties":  [
+                                     "MORGAN v STATE OF FLORIDA"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nTHIS CAUSE comes before this Court on appeal of a judgment of direct criminal contempt entered against appellant, Kayo Morgan, pursuant to Rule 3.830, Fla. R. Crim. P. Appellant asserts that the trial court erred by entering a finding of criminal contempt against him as no contempt in fact occurred. Furthermore, appellant contends that the record fails to show that an order of the trial court was violated.\nDuring a jury trial before Judge Spechler in February of 1989, appellant was acting as attorney for the defendant in a misdemeanor child abuse case. During the course thereof, the following exchange occurred:\n[Appellant to Witness]: Listen to my question. Do you remember taking a deposition with me on August 11, 1988?\n[WITNESS]: Yes, sir.\n[APPELLANT]: To answers in this very, very [sic] case?\n[WITNESS]: Yes.\n[APPELLANT]: And do you remember—\n[STATE]: Excuse me, line and page?\n[APPELLANT]: I am just asking him a question.\n[STATE]: I am asking for a page and line.\n[APPELLANT]: Judge, I hadn’t stepped into that realm yet, I am leading up to it and when it’s appropriate to name a page — Page 27.\nTHE COURT: Line, please?\n[APPELLANT]: Page 27.\nTHE COURT: Line, please?\n[APPELLANTS Line 14.\nTHE COURT: Thank you.\n[APPELLANT]: I don’t have to do it like this.\nTHE COURT: You do in this courtroom, yes, sir.\n[APPELLANT]: Sir, do you remember taking a deposition with me —Are you listening to my questions or are you reading along what the Court has oriented to?\nTHE COURT: Mr. Morgan, this is not called for. There is absolutely no need for you to raise your voice.\n[APPELLANT]: You are interfering in my cross examination and it’s an important case for myself and my client. You are interfering with my case and it’s important for my client, Mrs. Powell.\nAt this point the trial court sent the jury out and announced that under section 90.612, F.S., the court had the authority to control the mode and order of interrogation. The lower court then stated that counsel was warned on numerous occasions to abide by the order of the court and has failed to do so. The court then asked Mr. Morgan why he should not be held in contempt, to which he responded that he was not willfully contemptuous, but rather that he was building the record and expressing that he felt the judge was prejudicing both him and his client due to the court’s interference with counsel’s cross-examination, but that he was not defiant of any order of the court. Thereafter, the trial court then held appellant, Mr. Morgan, in contempt and fined him $250.00.\nThe law of contempt is ancient. It is generally defined as any act which is calculated to embarrass, hinder or obstruct the court in its administration of justice, or which is calculated to lessen its authority or dignity. Black’s Law Dictionary 288 (5th ed. 1979). See generally, 11 Fla. Jur. 2d Contempts §§ 1, 14 (1979).\nThe Florida Statutes define “contempt” as “[a] refusal to obey any legal order, mandate or decree, made or given by any judge either in term time or in vacation relative to any of the business of said court, after due notice thereof . . .” Section 38.23, F.S. (1989).\nAt issue in this appeal is a judgment of direct criminal contempt. Thus, by definition, appellant is charged with exhibiting conduct or behavior in disregard or violation of a court order and/or conduct which is directed against the authority or dignity of the court.\nGiven the punitive nature of this offense, procedural safeguards have been instituted to afford the contemnor due process. Stramondo v Dion, 408 So. 2d 858 (Fla. 3d DCA 1982); Fisher v State, 482 So. 2d 587 (Fla. 1st DCA 1986). Rule 3.830, Fla. R. Crim. P., provides that a criminal contempt may be punished summarily, if committed in the presence of the court. However, the rule requires that the judgment of guilt of contempt include a recital of the facts upon which adjudication of guilt is based. Moreover, prior to adjudication of guilt, the court shall inform the defendant of the accusation against him and inquire as to whether he has any cause to show why he shall not be held in contempt. In addition, the defendant shall be given the opportunity to present evidence of excusing or mitigating circumstances.\nMore importantly, it must be recognized that the defendant is presumed innocent and guilt must be demonstrated beyond a reasonable doubt. Mrha v Circuit Court, Felony Division, 537 So. 2d 182, 184 (Fla. 4th DCA 1989); citing Williams v Scott, 138 Fla. 239, 189 So. 274, 275 (1939). That is, “[tjhere must be proof that the individual intended to disobey the court, which must be proven beyond a reasonable doubt.” Hunnefeld v Futch, 557 So. 2d 916, 917 (Fla. 4th DCA 1990).\nAccordingly, intent is deemed an essential element of a contempt charge. 11 Fla. Jur. 2d Contempts § 17 (1979). The necessity for a finding of intent is predicated on the premise that contempt is an intentional offense against the authority of the court or a judge performing his judicial duties. Tubero v Ellis, 472 So. 2d 548, 550 (Fla. 4th DCA 1985). Thus, “the fact that a person charged with contempt did not intend to commit the offense may, in certain cases, constitute a good defense, though a purely technical contempt was in fact committed.” Department of Health and Rehabilitative Services v State, 338 So. 2d 220 (Fla. 4th DCA 1976).\nNote, however, that a disclaimer of intent is not sufficient to deprive a court of the power to punish for contempt. Ward v State, 354 So. 2d 438, 439 (Fla. 3d DCA 1978). As decreed by the Fourth District Court of Appeal, proof of contemptuous intent is required where the order said to have been violated was confusing or ambiguous. Dept, of HRS, supra. Whereas, a court can only infer intent from a defendant’s actions when the defendant’s actions violate an express and unambiguous court order. Linowitz v State, 498 So. 2d 1315 (Fla. 3d DCA 1986).\nThe purpose of contempt is not to avenge a personal affront, but to appropriately punish for an assault or aspersion on the authority or dignity of the court or judge, or to vindicate orderly procedure. 11 Fla. Jur. 2d Contempts § 5 (1979); Ex Parte Earman, 85 Fla. 297, 95 So. 755, 761 (1923). Punishment for contempt is imposed to enable a court to compel due decorum and respect in its presence; therefore, contempt should be entered only to prevent actual and direct obstruction or interference with the administration of justice. 11 Fla. Jur. 2d Contempts § 5 (1979); In re Goldman, 546 So. 2d 779, 781 (Fla. 4th DCA 1989).\nIn Vines v Vines, 357 So. 2d 243, 246-47 (Fla. 2d DCA 1978), the court set forth three criteria that must be met in order to impose criminal contempt: 1) conduct of the party must in law constitute contempt; 2) contempt proceeding must be in due course of law; and 3) punishment must be appropriate to the offense. Moreover, the court declared that the standard to be applied is objective, not subjective. Id. at 246. In light of an objective application, the court propounded the following test: “[t]he true test is whether the conduct interferes with or impugns the judicial function, not whether it causes a particular judge to feel aggrieved or vexed.” Id.\nIt is inarguable that the criterion is not the influence the conduct or acts complained of may have had upon the mind of a particular judge, but rather the reasonable tendency of the conduct or acts done to improperly influence or to embarrass or hamper the judicial action of a court. Scott v Anderson, 405 So. 2d 228, 232 (Fla. 1st DCA 1981), citing Ex Parte Earman, 85 Fla. 297, 95 So. 755, 761 (1923). See also, Krueger v State, 351 So. 2d 47 (Fla. 3d DCA 1977); Ex Parte Biggers, 85 Fla. 322, 95 So. 763 (1923). In Scott, the court quashed the contempt judgment, holding that “[they were] unable to conclude that some other reasonable and detached judicial officer, viewing the matter in retrospect, and with due consideration of circumstances . . . would not have determined the matter differently or imposed different punishments.” Scott, 405 So. 2d at 232.\nThus, we return to appellant’s contention that no contempt occurred and that he was not afforded the procedural protections to which he was entitled under Rule 3.830, Fla. R. Crim. P. While reviewing Mr. Morgan’s appeal, this Court must note two competing principles. First, a judgment of contempt is generally entitled to a presumption of correctness. Walker v State, 559 So. 2d 1164 (Fla. 4th DCA 1990). Second, the awesome power to punish for contempt should be cautiously and sparingly exercised. In re: Louis J. Weinstein, 518 So. 2d 1370, 1373 (Fla. 4th DCA 1988).\nHerein, the contempt was ordered when appellant expressed disagreement with the court’s method for impeachment and declared the court to be interfering in cross examination. The court noted that it was not impressed with Mr. Morgan’s continual disobedience of the court’s order and asked him to show cause as to why he should not be held in contempt. In his response, appellant made it clear that he was building his record, that he was not defiant of any order of the court and that he had nothing but respect for the court.\nIn the written judgment supporting the contempt judgment, the court wrote that the appellant was ordered to provide a page and line number and “in a loud, argumentative, disrespectful and defiant manner responded to the Court’s order T don’t have to do it like this.’ ” However, this is an inaccurate characterization of the events. As revealed by the transcript, appellant immediately responded to each of the court’s queries regarding the page and line number. Only after following the order of the court did the appellant express his disagreement with the court, i.e. “I don’t have to do ithke this.”\nAs held by the court in Rubin v State, 490 So. 2d 1001, 1003 (Fla. 3d DCA 1986), Mr. Rubin was entitled to disagree and maintain his personal view of what the law should be; however, an aggrieved party must abide by the court’s order, even if erroneous, or be subject to contempt. While it is recognized that an attorney has a risk-free right to disagree with a judge, if he chooses to express disagreement in insulting and degrading words, he opens himself up to a contempt charge wherein the court seeks to vindicate and preserve its dignity and authority. Mann v State, 476 So. 2d 1369, 1374 (Fla. 2d DCA 1985).\nAs mandated by Vines, supra, the first step in determining whether the imposition of a criminal contempt judgment is warranted is whether the alleged conduct constituted contempt as a matter of law. In light of all the circumstances, when applying an objective standard this Court finds that the allegedly offensive conduct did not have a reasonable tendency to degrade the integrity of the court or hinder judicial functions. Moreover, this Court’s review of the case sub judice does not lead to the inescapable conclusion that the alleged disobedience was a willful or intentional violation of a court order beyond a reasonable doubt. In fact in applying the second prong of the Vines criterion — contempt proceeding must be in due course of law — , it appears that no order existed for the appellant to violate. That is, when the court ordered a page and line number, they were supplied by appellant. (Note, at this time there were outstanding court orders in which the court had directed the appellant to stay within the scope and to refrain from commenting on or editorializing witnesses’ answers.)\nWhile admonishment may have been proper, it does not appear that the judgment of criminal contempt was necessary “to vindicate the authority of the court or to punish otherwise for conduct offensive to the public.” Pugliese v Pugliese, 347 So. 2d 422, 424 (Fla. 1977). Thus, as the judgment of contempt is not objectively supported by the transcripts, this Court holds that the contempt judgment is procedurally defective.\nAccordingly, it is hereby, ORDERED that the judgment of contempt is REVERSED and the sentence VACATED.\nDONE AND ORDERED in Chambers at the Broward County Courthouse, 201 Southeast Sixth Street, Fort Lauderdale, FL 33301 this 15th day of October, 1991.",
+                                          "type":  "majority",
+                                          "author":  null
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Kayo Morgan, pro se.",
+                                       "Office of the State Attorney, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "MORGAN v STATE OF FLORIDA\nCase No. 89-17AC-10 (Lower Court Case No. 89-4509MM-10)\nSeventeenth Judicial Circuit, Broward County\nOctober 15, 1991\nAPPEARANCES OF COUNSEL\nKayo Morgan, pro se.\nOffice of the State Attorney, for appellee.\nBefore RICHARD D. EADE, Circuit Judge."
+                 },
+    "file_name":  "1355-01",
+    "first_page_order":  80,
+    "last_page_order":  85
+}

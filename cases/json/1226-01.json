@@ -1,0 +1,66 @@
+﻿{
+    "id":  4565393,
+    "name":  "Otto Fields v. The State",
+    "name_abbreviation":  "Fields v. State",
+    "decision_date":  "1908-02-05",
+    "docket_number":  "No. 4009",
+    "first_page":  "451",
+    "last_page":  "452",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 451"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  203,
+                     "char_count":  3152,
+                     "ocr_confidence":  0.607,
+                     "sha256":  "91572c47a04fcb6f040a26b2fb2adae6c51e198d4a58e9c4aad429244b70797a",
+                     "simhash":  "1:b78fbe3d4004e845",
+                     "word_count":  544
+                 },
+    "last_updated":  "2023-07-14T19:59:32.944253+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Otto Fields v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\n—It was an issue in this case as to whether appellant sold the whisky to the witness Beckham in payment for money which he had borrowed of Beckham for the purpose of paying the whisky out of the express office. If the money was borrowed, or furnished by Beckham\u0027 to appellant for the purpose of taking the whisky from the express office, and the whisky was turned over to Beckham in discharge of that debt, it would be a sale. This was denied by appellant. His evidence, substantially, is that he borrowed the money for the purpose of getting the whisky out of the express office and did take it out and gave it to Beckham to carry to his house for\u0027 him, appellant, to be used on a fishing excursion on which he (Beckham) and others were going the night after the whisky was taken from the office. And appellant further testifies that he refunded the money on Monday, after he had borrowed it on Saturday, paying Beckham’s wife; Beckham being in jail at the time, having been arrested for getting drunk on the whisky and firing off his pistol. Beckham’s wife testified that appellant did not pay her the money at the time mentioned.\nThis evidence raised the issue as to whether there was a sale and the jury decided adversely to appellant. The court, properly, we think, submitted this issue in the following language: “If you believe from the evidence that the defendant in good faith borrowed money from said George Beckham, and that said money so borrowed was used by the defendant in paying out of the express office, for himself, the package containing the whisky alleged to have been sold in this case, or if you have a reasonable doubt as to whether or not the money was so borrowed and used, you will acquit the defendant.”\nAppellant requested a special instruction almost in the language above stated, which was refused. We are of opinion that the court sufficiently presented the matter set up in appellant’s special requested instruction. There was no error, therefore, in refusing it.\nThe orders and decrees of the commissioners court, ordering the election and publication of the result, were introduced in evidence over appellant’s objection. We are of opinion that there was no error in the admission of this testimony.\nThe judgment is affirmed.\nAffirmed.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "No brief on file for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Otto Fields v. The State.\nNo. 4009.\nDecided February 5, 1908.\n1. —Local Option—Charge of Court—Defensive Theory.\nWhere upon trial for a violation of the local option law, the evidence raised the question of sale, and the court submitted a proper instruction thereon, there was no error in refusing a special instruction on the same issue.\n2. —Same—Evidence.\nUpon trial for a violation of the local option law, there was no error in admitting in evidence the decrees of court ordering the election and publication of result.\nAppeal from the County Court of Fannin. Tried below before the Hon. H. A. Cunningham.\nAppeal from a conviction of a violation of the local option law; penalty, $35 and twenty days confinement in the county jail.\nThe opinion states the case.\nNo brief on file for appellant.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1226-01",
+    "first_page_order":  469,
+    "last_page_order":  470
+}

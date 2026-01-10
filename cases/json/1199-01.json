@@ -1,0 +1,304 @@
+﻿{
+    "id":  4565015,
+    "name":  "Ex Parte B. King",
+    "name_abbreviation":  "Ex parte King",
+    "decision_date":  "1908-01-22",
+    "docket_number":  "No. 4102",
+    "first_page":  "383",
+    "last_page":  "386",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 383"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "145 Ind., 439",
+                         "category":  "reporters:state",
+                         "reporter":  "Ind.",
+                         "case_ids":  [
+                                          1636469
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/ind/145/0439-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "22 Mich., 322",
+                         "category":  "reporters:state",
+                         "reporter":  "Mich.",
+                         "case_ids":  [
+                                          1314115
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/mich/22/0322-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "59 N. Y., 88",
+                         "category":  "reporters:state",
+                         "reporter":  "N.Y.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "185 U. S., 90",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "81 S. W. Rep., 1207",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "weight":  2,
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "46 Texas Crim. Rep., 364",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          175343
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/46/0364-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "100 S. W. Rep., 374",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "weight":  2,
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "50 Texas Crim. Rep., 533",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2369845
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/50/0533-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "101 S. W. Rep., 1052",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "weight":  2,
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "32 Minn., 145",
+                         "category":  "reporters:state",
+                         "reporter":  "Minn.",
+                         "case_ids":  [
+                                          756706
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/minn/32/0145-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "12 S. W. Rep., 440",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "weight":  2,
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "68 Ill., 444",
+                         "category":  "reporters:state",
+                         "reporter":  "Ill.",
+                         "case_ids":  [
+                                          2627049
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/ill/68/0444-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "148 U. S., 658",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "137 U. S., 86",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          3546709
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/us/137/0086-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "46 S. W. Rep., 272",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "38 Texas Crim. Rep., 295",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2363059
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/38/0295-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "52 Texas Crim. Rep., 371",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4561971
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/52/0371-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "34 Pac. Rep., 947",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "P.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "19 Col., 104",
+                         "category":  "reporters:state",
+                         "reporter":  "Col.,",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "28 N. E., 812",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "N.E.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "138 Ill., 401",
+                         "category":  "reporters:state",
+                         "reporter":  "Ill.",
+                         "case_ids":  [
+                                          5445687
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/ill/138/0401-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "81 S. W. Rep., 1207",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "46 Texas Crim. Rep., 364",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          175343
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/46/0364-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "100 S. W. Rep., 374",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "50 Texas Crim. Rep., 533",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2369845
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/50/0533-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "101 S. W. Rep., 1052",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  486,
+                     "char_count":  9165,
+                     "ocr_confidence":  0.586,
+                     "pagerank":  {
+                                      "raw":  3.3464318488875646E-07,
+                                      "percentile":  0.8744768517392326
+                                  },
+                     "sha256":  "2f88c5ce1a398bd94759b243315360477616ca4f37544d7366d5a1b811cc65f2",
+                     "simhash":  "1:3248e10107a89867",
+                     "word_count":  1606
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte B. King."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "RAMSEY, Judge.\n—In this case an application for writ of habeas corpus was presented to the Hon. W. L. Davidson, Presiding Judge oi this court, in vacation. The writ was granted, returnable to this court in session at Tyler.\nThe case has been carefully briefed by both parties, and we have had the benefit of oral argument on both sides.\nRelator was arrested by virtue of a warrant issued on a complaint charging him with violation of the city ordinance of the City of Fort Worth, which prohibited the conducting of saloons without the limits fixed and prescribed by the Board of Commissioners of the City of Fort Worth, acting under a special charter granted by the Thirtieth Legislature, which in terms authorizes said commissioners, and made it their duty to fix saloon limits within said city. It is admitted in express terms, both by written agreement and in oral argument, that the ordinance complained of was duly passed as provided by law by said Board of Commissioners. No question is made as to the reasonableness of the saloon limits so fixed.\nRelator seeks discharge and attacks the validity of the ordinance fixing the saloon limits in Fort Worth on three propositions: First. Because “The Constitution of the State of Texas having prescribed a method by which the sale of intoxicating liquors may be prohibited within this State, -such method is exclusive of all others, and the Legislature was without authority to prohibit the sale of intoxicating liquors by legislative enactment within any portion of the territory of this State. Second. If the Legislature possessed the power to prohibit the sale of intoxicating liquors within the territory prescribed by it, this power could not be delegated by the Legislature to the commissioners of the City of Fort Worth, and the provision in said city charter whereby it is attempted to confer such authority upon the said Board of Commissioners is unconstitutional and void. Third. The provisions of the special charter of the City of Fort Worth which purports to confer upon the commissioners of said city the power to fix and prescribe saloon limits for said city, which became effective on the 9th day of February, 1907, was repealed and superseded by the subsequent Act of the said Thirtieth Legislature, approved April 18, 1907, and known as the Baskin-McGregor liquor bill.\"\nWe think all these contentions must be ruled against the relator. It was distinctly held by this court in the cases of Ex parte Levine, 46 Texas Crim. Rep., 364; 81 S. W. Rep., 1207, and Garonzik v. State, 50 Texas Crim. Rep., 533; 100 S. W. Rep., 374, that the fixing of saloon limits is a mere regulation of the liquor traffic, and not in any sense a prohibition thereof, and that such limits, as a regulation, are lawful and should be upheld.\n.The Legislature of this State is authorized to empower city councils by special charter to prescribe the boundaries and limits within which the sale of liquor shall be prohibited by law, and such local authorities may define and limit the area within which alone such sale may be lawful. This was distinctly ruled in the case of Cohen v. Rice, 101 S. W. Rep., 1052, by the Court of Civil Appeals of the Fifth Supreme Judicial District, in which case writ of error was refused by our Supreme Court. This is in accord with and is well sustained by the authorities. 1 Abbott on Municipal Corporation, sec. 130; People v. Cregier, 138 Ill., 401; 28 N. E., 812; Mayor of Val Verde v. Shattuck, 19 Col., 104; 34 Pac. Rep., 947.\nThe contention and claim of relator that the provisions of the special charter of Fort Worth authorizing the fixing of saloon limits were repealed and superseded by what is popularly known as the Bask\u0027in-Mc-Gregor bill, was passed on, in effect, in the case of Williams v. State, 52 Texas Crim. Rep., 371, in which this question was carefully considered and elaborately treated in the opinion of the court in that case. That opinion was concurred in by the writer hereof, and is believed to be both well reasoned and well sustained by authority.\nThere being no merit, as we believe, in any of the contentions of relator, it is ordered that he be and is hereby remanded to custody.\nRelator remanded to custody.",
+                                          "type":  "majority",
+                                          "author":  "RAMSEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "McClean \u0026 Scott and A. J. Clendenen, for relator.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State, and Sidney L. Samuels, Corporation Counsel, for the City of Fort Worth."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte B. King.\nNo. 4102.\nDecided January 22, 1908.\n1.—Habeas Corpus—City Charter and Ordinance—Intoxicating Liquors—Saloon Limits—Constitutional Law.\nThe Legislature of this State is authorized to empower city councils by special charter to prescribe the boundaries and limits within which the sale of intoxicating, liquor shall be prohibited by law, and such local authorities may define and limit the area within which such sale may be lawful.\n2. —Same—Saloon limits—Regulations—Prohibition.\nThe fixing of saloon limits under a special charter of a city is a mere regulation of the liquor traffic and not in any sense a prohibition thereof, and such limits, as a regulation, are lawful and should be upheld.\n3. —Same—General and Special laws.\nThe special charter of a city authorizing the fixing of saloon limits was not repealed by a later general law of the Legislature. Such general and special laws are not conflicting with each other. Following Williams v. State, 52 Texas Grim. Rep., 371.\nFrom Tarrant Count)’\u0027.\nOriginal application for habeas corpus for a release from an arrest, by virtue of a warrant upon a complaint charging relator with a violation of the city ordinance of the City of Fort Worth, which prohibited the conducting of saloons without the limits fixed and prescribed by the Board of Commissioners of said city.\nThe opinion states the case.\nMcClean \u0026 Scott and A. J. Clendenen, for relator.\nUpon question of section 20, article 16, Constitution of Texas: Ex parte Brown, 38 Texas Crim. Rep., 295; Holley v. State, 14 Texas Crim. App., 505; Ex parte Ogden, 4 Texas Ct. Rep., 389. On question of delegating legislative power to city: Arroyo v. State, 5 Texas Ct. Rep., 571; Burton v. Du pree, 46 S. W. Rep., 272; Railway Company v. Lester, 13 Texas Ct. Rep., 315; Ex parte Powell, 3 Texas Ct. Rep., 940; Ex parte Sanstrum, 25 Texas Crim. App., 133; Fay v. State, 6 Texas Ct. Rep., 483; Ex parte Ginnochio, 30 Texas Crim. App., 584; Angerhoffer v. State, 15 Texas Crim. App., 613; Flood v. State, 19 Texas Crim. App., 584; Bohny v. State, 21 Texas Crim. App., 597; Ex parte Ogden, 4 Texas Ct. Rep., 389. On question of repeal of charter power by general law: Bryan v. Sunburg, 5 Texas, 418; Tonstall v. Wormly, 54 Texas, 476.\nF. J. McCord, Assistant Attorney-General, for the State, and Sidney L. Samuels, Corporation Counsel, for the City of Fort Worth.\n—The right to sell intoxicating liquors, especially at retail, is not a natural one, nor one which is guaranteed to a citizen under the Constitution of the United States. The right to pursue any other occupation, legitimate within itself, is one which is guaranteed under both Federal and State Constitutions, and the contrast is accentuated by this diversity of status under the law. De Grazier v. Stephens, 19 Texas Ct. Rep., 979; Crowley v. Christensen, 137 U. S., 86; Giozza v. Tiernan, 148 U. S., 658; Schwuchow v. Chicago, 68 Ill., 444.\nThe ordinance of the City of Fort Worth prescribing saloon limits and determining the district within which the business of selling liquor to be drunk on the premises may be conducted, is not a prohibitory law but a regulation. Bell v. State, 28 Texas Crim. App., 96; 12 S. W. Rep., 440; In re Wilson, 32 Minn., 145; Cohen v. Rice, 101 S. W. Rep., 1052; Garonzik v. State, 50 Texas Crim. Rep., 533, 100 S. W. Rep., 374; Ex parte Levine, 46 Texas Crim. Rep., 364; 81 S. W. Rep., 1207; State v. Gerhardt, 145 Ind., 439; De Grazier v. Stephens, 19 Texas Ct. Rep., 979.\nThe power conferred upon the City of Fort Worth, in its charter granted by Act of the Thirtieth Legislature, is not an undue delegation of power nor is it one, in the exercise of such power, that undertakes to suspend the penal statutes of the State, but is a mere regulation and not a suspension of the penal law. Cohen v. Rice, 101 S. W. Rep., 1052, and authorities there cited; Garonzik v. State, 50 Texas Crim. Rep., 533, 100 S. W. Rep., 374; Ex parte Levine, 46 Texas Crim. Rep., 364; 81 S. W. Rep., 1207; Bell v. State, 28 Texas Crim. App., 96; 12 S. W. Rep., 440; In re Wilson, 32 Minn., 145; Perry v. Rockdale, 62 Texas, 454; .Paul v. State (decided by Court of Civil Appeals, Fifth District, November 30, 1907); 1 Abbott on Municipal Corporations, sec. 130.\nThe provision in the charter of the City of Fort Worth permitting said city to prescribe the saloon limits and confine the area in which the business of selling liquor at retail should be conducted, was not repealed by the Act of the Thirtieth. Legislature known as the Baskin-McGregor law. Paul v. State (decided by Court of Civil Appeals of Dallas, opinion rendered November 30, 1907) ; Rogers v. U. S., 185 U. S., 90; Cain v. State, 20 Texas, bottom p. 388, top p. 361; McGrady v. Terrell, 98 Texas, 431; People v. Quigg, 59 N. Y., 88; Crane v. Reeder, 22 Mich., 322; Ellis v. Bates, 26 Texas, 708; Black on Interpretation of Laws, p. 116; Sedgwick on Construction of Statutes, p. 98."
+                 },
+    "file_name":  "1199-01",
+    "first_page_order":  401,
+    "last_page_order":  404
+}

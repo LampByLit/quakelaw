@@ -1,0 +1,203 @@
+﻿{
+    "id":  8551583,
+    "name":  "Charles Joe Musser v. State",
+    "name_abbreviation":  "Musser v. State",
+    "decision_date":  "1959-03-18",
+    "docket_number":  "No. 30,543",
+    "first_page":  "529",
+    "last_page":  "531",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 529"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "296 S.W. 2d 770",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10182682
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/296/0770-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 102",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2608655
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0102-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "294 S.W. 2d 394",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10171508,
+                                          10171381
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/294/0394-02",
+                                            "/sw2d/294/0394-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 578",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2462869
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0578-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "289 S.W. 2d 251",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10166539
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/289/0251-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 109",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2460251
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0109-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "320 S.W. 2d 347",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10166364
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/320/0347-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "203 S.W. 2d 228",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10191482
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/203/0228-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "150 Texas Cr. Rep. 443",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2598736
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/150/0443-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "301 S.W. 2d 653",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10181738
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/301/0653-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 613",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2611113
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0613-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  303,
+                     "char_count":  4391,
+                     "ocr_confidence":  0.578,
+                     "pagerank":  {
+                                      "raw":  1.0655841273531071E-07,
+                                      "percentile":  0.5582740538154927
+                                  },
+                     "sha256":  "24cc8c2264ae514337dcc80de0ad6d2c26285cc0714e5087be6346b9fafa662f",
+                     "simhash":  "1:af0c22b57d2032d2",
+                     "word_count":  770
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Charles Joe Musser v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DICE, Judge.\nThe conviction is for driving while intoxicated; the punishment, 3 days in jail and a fine of $50.\nThe evidence was undisputed that on the day in question the appellant drove his 1956 Willys Jeep on U. S. Highway 82 in Grayson County. While so driving appellant was followed by two highway patrolmen after they observed him pass a truck on the highway without sufficient clearance. After following him for some distance and observing him twice drive his vehicle across the center line and once onto the right shoulder and on two occasions pass an automobile in a “no passing” zone, appellant was stopped and arrested by the patrolmen. In describing his appearance and conduct at the time the patrolmen testified that he had a “strong smell” of alcohol on his breath; his eyes “were glazed over,” his speech was “incoherent,” he was “unsteady on his feet” and both expressed their opinion that appellant was on such occasion intoxicated.\nAs a witness in his own behalf, appellant admitted driving his motor vehicle on the occasion in question and having consumed five cans of beer prior to his arrest but denied that he was intoxicated. Appellant’s father-in-law, upon being called as a witness, testified that he was with the appellant during the day up to approximately thirty minutes prior to his arrest and that when he last saw appellant he was not intoxicated.\nThe record presents one formal bill of exception by which appellant complains of certain jury argument of state’s counsel.\nThe bill, as qualified by the court, reflects that in his argument to the jury counsel for the appellant stated:\n“You are entitled to require that the State produce all the evidence reflecting on this case. Just where are those pictures of Defendant that were taken by the Highway Patrol at the scene of the arrest? What happened to that witness, Mr. Fields, that Mr. Sampson called for? Can we not presume that those pictures would how that this boy was sober?”\nFollowing such argument, state’s counsel, in his concluding argument to the jury, stated:\n“He talks about my failure to produce the pictures that the Patrolman took. He had the patrolman on the stand and had he wanted to see those pictures he could have asked the Patrolman to get them.”\nAppellant objected to the argument on the ground that the burden of proof was on the state and that the state’s counsel was attempting\u0027 to shift the burden and require appellant to produce evidence in his own defense which he was not required to do under the law.\nIt is obvious that the state’s atorney’s argument was in reply to argument of appellant’s counsel and under the record was not error. Owens v. State, 164 Texas Cr. Rep. 613, 301 S.W. 2d 653. Furthermore, it has been held that it is not error for a prosecutor in his argument to refer to the failure of the defense to call a witness who was shown to have been present at the time of his arrest. Blair v. State, 150 Texas Cr. Rep. 443, 203 S.W. 2d 228, and Minor v. State, (page 344, this volume), 320 S.W. 2d 347. Under such rule, state’s counsel had the right to refer to appellant’s failure to request that the highway patrolmen produce the pictures which he testified they took of him at the scene of his arrest. We find no error in the bill.\nAppellant questions the sufficiency of the evidence to show that he was intoxicated.\nAppellant insists that because the state failed to introduce in evidence the pictures taken of him by the highway patrolmen at the time of his arrest, we should treat the case as one evidencing a reasonable doubt as to the sufficiency of the evidence under the rule announced in Ramirez v. State, 163 Texas Cr. Rep. 109, 289 S.W. 2d 251. The rule announced in the Ramirez case is only applicable in cases of circumstantial evidence. Lowe v. State, 163 Texas Cr. Rep. 578, 294 S.W. 2d 394, and Forson v. State, 164 Texas Cr. Rep. 102, 296 S.W. 2d 770. Such rule could not be applicable under the facts in the present case where there was direct evidence on both issues as to whether appellant was the driver of the motor vehicle and under the influence of intoxicating liquor. We find the evidence sufficient to support the conviction.\nThe judgment is affirmed.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "DICE, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "David H. Brown, Sherman, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Charles Joe Musser v. State.\nNo. 30,543.\nMarch 18, 1959.\nDavid H. Brown, Sherman, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1575-01",
+    "first_page_order":  547,
+    "last_page_order":  549
+}

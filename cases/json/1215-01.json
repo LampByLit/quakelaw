@@ -1,0 +1,77 @@
+﻿{
+    "id":  4563736,
+    "name":  "Will Arnold v. The State",
+    "name_abbreviation":  "Arnold v. State",
+    "decision_date":  "1908-01-29",
+    "docket_number":  "No. 4186",
+    "first_page":  "429",
+    "last_page":  "430",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 429"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "34 S. W. Rep., 936",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "97 S. W. Rep., 483",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  227,
+                     "char_count":  2992,
+                     "ocr_confidence":  0.58,
+                     "sha256":  "64788dd25f9d6b24d14c1c852f0750c461dadb514d2551e5b9feec9520e2b70d",
+                     "simhash":  "1:185d4d9f523efddd",
+                     "word_count":  530
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Will Arnold v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "RAMSEY, Judge.\n—In this case the appellant was convicted in the county court of Johnson County for unlawfully selling intoxicating liquors in violation of the local option law.\n\"Under the authority of Stephens v. State, 97 S. W. Rep., 483, we hold the indictment good.\nThe testimony of John Hall, the prosecuting witness, showed that he obtained a pint of whisky in Johnson County, Texas, about the 8th day of December, 1906; that on the day he got the whisky he went to a lunch counter in Cleburne, about 9 or 10 o’clock, in the morning, where he saw one Will Cooley, from whom he, in person, purchased the whisky ; that he.gave Cooley 50 cents, and closed the door; that while he was standing there, waiting for his whisky, some officers came in front of the building, and he did not wait any longer, but came out of the front of the building and went away; that he went back to that place sometime between five and six o’clock in the afternoon; and that as he entered, the defendant said to him: “Hall, here is your whisky,” and that appellant handed him a pint of whisky, which he took and put in his pocket, and went away. He testified that when he gave the money to Cooley in the morning to pay for the whiskey; that he did not see the defendant there at that time, and saw no one except Will Cooley, and did not see appellant until some four or five o’clock in the evening. This was all the testimony in the case, except record evidence showing a valid election in Johnson County prohibiting the sale of intoxicating liquors, and due publication thereof. The charge of the court submitted the issue fairly to the jury. This is essentially a fact case. We hold the evidence to be sufficient to sustain the verdict, and the judgment of conviction. Finding no error in the record, the judgment of the lower court is in all things affirmed.\nAffirmed.",
+                                          "type":  "majority",
+                                          "author":  "RAMSEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "A. S. Bledsoe, for appellant.",
+                                       "F. J. McOord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Will Arnold v. The State.\nNo. 4186.\nDecided January 29, 1908.\n1. —Local Option—Indictment.\nWhere upon trial for a violation of the local option law, the indictment followed the approved form, the same was sufficient.\n2. —Same—Sale—Sufficiency of Evidence.\nWhere upon trial for a violation of the local option law, the evidence showed that prosecutor paid another person for the whisky, in the morning, and received it from the hands of defendant in the evening of the same day, prosecutor not having seen defendant in the morning, the testimony was sufficient to sustain a conviction.\nAppeal from the County Court of Johnson. Tried below before the Hon. P. E. Adams. -\nAppeal from a conviction of a violation of the local option law; penalty, $25 and twenty days confinement in the county jail.\nThe opinion states the case.\nA. S. Bledsoe, for appellant.\n—On question of sale and principal: Boundtree v. State, 10 Texas Crim. App., 110; Welch v. State, 3 Texas Crim. App., 413; Bennett v. State, 34 S. W. Rep., 936; article 75, Penal Code, and article 765, Code Criminal Procedure.\nF. J. McOord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1215-01",
+    "first_page_order":  447,
+    "last_page_order":  448
+}

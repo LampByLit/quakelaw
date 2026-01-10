@@ -1,0 +1,170 @@
+﻿{
+    "id":  8551474,
+    "name":  "B. W. Baldridge v. State",
+    "name_abbreviation":  "Baldridge v. State",
+    "decision_date":  "1959-02-04",
+    "docket_number":  "No. 30,364",
+    "first_page":  "519",
+    "last_page":  "521",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 519"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "170 S.W. 548",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8280642
+                                      ],
+                         "pin_cites":  [
+                                           {
+                                               "page":  "552"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/170/0548-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "75 Texas Cr. Rep. 188",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4705115
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/75/0188-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "180 S.W. 117",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8245983
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/180/0117-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "77 Texas Cr. Rep. 365",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4717789
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/77/0365-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "116 S.W. 2d 385",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10231331
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/116/0385-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "134 Texas Cr. Rep. 467",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5230768
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/134/0467-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "284 S.W. 574",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10306400
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/284/0574-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "104 Texas Cr. Rep. 432",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5120283
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/104/0432-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  320,
+                     "char_count":  4204,
+                     "ocr_confidence":  0.581,
+                     "pagerank":  {
+                                      "raw":  1.777917883820629E-07,
+                                      "percentile":  0.7130519964677478
+                                  },
+                     "sha256":  "a704a4e01bacb638789985bc46ba8e3d3b41a51886937019099841b2c284e8d4",
+                     "simhash":  "1:18c3d453ac5ace7a",
+                     "word_count":  755
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "B. W. Baldridge v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nThis is an appeal from a conviction for violation of a special fishing law for Willacy County, (Special Laws 48rd Leg. Reg. Session (1933) Ch. 29, p. 36) which reads, in part:\n“Section 1. It shall be unlawful to use a seine, net or trawl, or to have in possession a seine, net or trawl, in or on any of the tidal waters of Willacy County west of Padre Island; provided, however, that nothing contained in this act shall prohibit the use of a cast net for taking bait.”\nSection 2 provides as punishment for violation of the act a fine of not less than $25 nor more than $200.\nThe emergency clause recites that the marine life of certain waters abutting on the Laguna Madre could not be properly conserved if seines, nets and trawls are permitted to be used, which creates an emergency.\nProsecution was upon complaint and information filed in the county court of Willacy County. Count 1 alleged that appellant “did unlawfully use a net, said net not being then and there a cast net being used for taking bait, in the tidal waters of Wil-lacy County, Texas, west of Padre Island.”\nUpon a trial before a jury upon a plea of not guilty, appellant was found guilty under this count and assessed a fine of $50. He appeals, contending that the statute is void for indefiniteness.\nAppellant points out that the word “net” is not defined in the statute and there is no reference to the purpose of using the net being to catch fish, hence it is argued that the use of a hair net, butterfly net, tennis or volley ball net, while upon the waters described in the act, or the use of any net for any purpose other than a cast net for taking bait in or on said waters is made unlawful under the wording of the special law, without any such intent on the part of the legislature.\nIn determining the meaning of a word employed in a statute the inquiry is not as to its abstract meaning, but as to the sense in which it is used. When the legislative purpose so requires, a word may be given a broader or a narrower meaning than that which it has in\" ordinary usage. Bailey v. State, 104 Texas Cr. Rep. 432, 284 S.W. 574.\nThe rule is that a statute that is susceptible of more than one construction will be so interpreted as to secure the benefit intended; will best effect the legislative intent and so that it will be constitutional and valid. 39 Texas Jur. p. 205-6.\nThus the act must be construed in the light of the constitutional prohibition against the passage of local or special laws where a general law can be made applicable, and the exception relating to special laws for the preservation of the game and fish of this state in certain localities. Constitution of Texas, Art. 3, Sec. 56.\nIn construing a statute, its subject matter, reason and effect must also be looked to and when a literal enforcement of a statute would lead to consequences which the legislature could not have contemplated, the courts are bound to presume that such consequences were not intended and adopt a construction which will promote the purpose for which the legislation was passed. Bizzelle v. State, 134 Texas Cr. Rep. 467, 116 S.W. 2d 385. See also McLeod v. State, 77 Texas Cr. Rep. 365, 180 S.W. 117.\nIn Barnes v. State, 75 Texas Cr. Rep. 188, 170 S.W. 548, 552, this court quoted with approval from Sutherland on Statutory Construction, See. 218:\n“It is indispensable to a correct understanding of a statute to inquire first what is the subject of it, what object is intended to be accomplished by it. When the subject is once clearly ascertained and its general intent, a key is found to all its intricacies; general words may be restrained to it; and those of narrower import may be expanded to embrace it to effectuate that intent.”\nApplying the rules of statutory construction set out, we conclude that “net” as used in the Special Fishing Laws for Wil-lacy County refers only to a net designed to take fish or other marine life from the water. So construed the act is valid.\nThe judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Greenwood \u0026 Russell, Harlingen, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "B. W. Baldridge v. State.\nNo. 30,364.\nFebruary 4, 1959.\nMotion for Rehearing Overruled March 18, 1959.\nGreenwood \u0026 Russell, Harlingen, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1572-01",
+    "first_page_order":  537,
+    "last_page_order":  539
+}

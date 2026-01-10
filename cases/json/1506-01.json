@@ -1,0 +1,87 @@
+﻿{
+    "id":  8549017,
+    "name":  "Shirley Reese v. State",
+    "name_abbreviation":  "Reese v. State",
+    "decision_date":  "1959-01-28",
+    "docket_number":  "No. 30,372",
+    "first_page":  "304",
+    "last_page":  "305",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 304"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "248 S.W. 2d 159",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10194467
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/248/0159-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "157 Texas Cr. Rep. 306",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  0
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  173,
+                     "char_count":  1955,
+                     "ocr_confidence":  0.596,
+                     "pagerank":  {
+                                      "raw":  6.7708452639942112E-08,
+                                      "percentile":  0.41090156221463103
+                                  },
+                     "sha256":  "4a94598ca0e9224cefc1b48e4dd82182cf5f4c97bcaf3fab2fb2697b00b92521",
+                     "simhash":  "1:730f56b42930a52f",
+                     "word_count":  329
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Shirley Reese v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThis is an appeal from an order revoking probation and imposing a sentence of five years for the possession of codeine, a narcotic drug.\nOn November 14, 1956, appellant plead guilty in Criminal District Court No. 2 of Bexar County; the imposition of sentence was suspended, and she was placed on probation, the conditions of which were that she “remain in the custody of the Sheriff until admitted to the Hospital at Lexington, Kentucky; that she remain in the Hospital until medically discharged and at such time that she report to the probation officer of Bexar County for further terms of probation.”\nAt the heáring on revocation, it was established that appellant was admitted to the hospital on December 2, 1956, but that she was discharged on January 31, 1957, “against medical advice,” and that since such discharge she had failed to “report to the probation officer of Bexar County,” but was arrested in New York City on July 2, 1958.\nAppellant’s contention is that the terms of probation were too vague to be enforced in these respects:\n1. That there was no condition that she be discharged “with medical approval,” and\n2. That no time was set in which she was required to report to the probation officer of Bexar County for further terms of probation.\nAppellant cites as her only authority Ex parte Pittman, 157 Texas Cr. Rep. 306, 248 S.W. 2d 159. We cannot agree that Pittman supports either of appellant’s contentions, nor are we aware of any authority which would do so.\nWe have concluded that the terms of probation were sufficiently definite and that a violation of each of them has been shown.\nThe judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Ralph L. Bell, San Antonio, for appellant.",
+                                       "Charles J. Meek, Jr., Criminal District Attorney, John G. Benavides, H. F. Garcia, Assistants Criminal District Attorney, San Antonio, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Shirley Reese v. State.\nNo. 30,372.\nJanuary 28, 1959.\nRalph L. Bell, San Antonio, for appellant.\nCharles J. Meek, Jr., Criminal District Attorney, John G. Benavides, H. F. Garcia, Assistants Criminal District Attorney, San Antonio, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1506-01",
+    "first_page_order":  322,
+    "last_page_order":  323
+}

@@ -1,0 +1,117 @@
+﻿{
+    "id":  8549910,
+    "name":  "Ex Parte Harry Donald Hale",
+    "name_abbreviation":  "Ex parte Hale",
+    "decision_date":  "1959-01-14",
+    "docket_number":  "No. 30,243",
+    "first_page":  "397",
+    "last_page":  "400",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 397"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "276 S.W. 2d 284",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10183010
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/276/0284-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "161 Texas Cr. Rep. 247",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2464215
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/161/0247-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "190 S.W. 2d 361",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10192388
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/190/0361-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "148 Texas Cr. Rep. 628",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2605947
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/148/0628-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  323,
+                     "char_count":  6485,
+                     "ocr_confidence":  0.586,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.20588555548991466
+                                  },
+                     "sha256":  "79f70e3751e274d227f917a7fd56c1db58e0ed5ee8450a4c7c279ef5a1336721",
+                     "simhash":  "1:09098aac8ce2682e",
+                     "word_count":  1062
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte Harry Donald Hale."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DICE, Judge.\nThis is an appeal from an order remanding appellant to custody for extradition to the State of Georgia.\nAt the hearing, the respondent offered the executive warrant of the Governor of Texas, authorizing the arrest and return of appellant to the State of Georgia upon demand of the Governor of that state to answer a charge of auto theft pending against him in that state. Respondent also offered in evidence the demand of the Governor of Georgia and copies of certain documents including the indictment pending against appellant in the State of Georgia and bench warrant issued for his arrest which were certified by Zollie Steakley, Secretary of State of the State of Texas, as true and correct copies of the extradition paper annexed to the requisition warrant of the Governor of the demanding state.\nAppellant objected to the executive warrant of the Governor of Texas on the ground that there was no factual basis for the statement therein that it had been made known that appellant “stands charged by indictment and warrant * * * with the crime of auto theft” and that “said demand is accompanied by copy of said indictment and warrant.” Appellant insists that such allegations are without factual basis because the demand of the Governor of Georgia did not show on its face that appellant was charged by indictment with the crime, did not enumerate the documents which were certified therein to be authentic and for such reason the demand was insufficient. The demand recites that “Whereas, It appears by the annexed documents, which are hereby certified to be authentic, that Harry D. Hale stands charged with the crime of Auto Theft * * In Ex Parte Barnett, 148 Texas Cr. Rep. 628, 190 S.W. 2d 361, it was held that a similar recitation in a demand properly certified annexed papers in accordance with the law relating to extradition. It appears from the certificate of the Secretary of State that the indictment, warrant and other documents were annexed to the demand presented to the Governor of this state. Such instruments annexed thereto sufficiently supported the recitations in the Governor’s executive warrant that appellant stood charged by indictment in the State of Georgia with the crime of auto theft. The demand, reciting that appellant “stands charged with the crime of auto theft” accompanied by a copy of the indictment annexed thereto, duly authenticated, was in sufficient compliance with Sec. 3 of Art. 1008a V.A.C.C.P. of the Uniform Criminal Extradition Act.\nAt the hearing, appellant urged as a bar to his extradition that he had been tried in the State of Georgia for the offense for which his extradition was sought and had served the sentence imposed upon him. In support of such contention appellant testified that he had entered a plea of guilty in the State of Georgia to theft of the truck named in the indictment and was given six (6) months in prison by the State Board of Correction of which he actually served four (4) months and eighteen (18) days and was released. Appellant testified that in addition to such punishment he received certain prison discipline on another sentence which he was then serving. The state offered in evidence a certificate of the clerk of the Superior Court of Cobb County, Georgia, in which the indictment was returned wherein the clerk certified that the indictment was still pending and that there had been no trial or conviction. The indictment offered in evidence charged appellant and Albert Watters jointly with theft of the truck and from certain memoranda thereon showed that Watters had entered a plea of guilty to the charge but there was no indication that appellant had entered any plea thereto. Under the evidence adduced the trial court was authorized to find against the appellant’s contention that he had been tried and convicted in the demanding state and served the sentence imposed upon him.\nAppellant also urged as a bar to his extradition that he was on Federal probation in the Northern District of Texas under a conviction in the Federal District Court at Little Rock, Arkansas, which conviction was subsequent to the indictment returned against him in the State of Georgia. Appellant contends that by reason of such conviction and probation he was within the jurisdiction of the Federal Court and could not be extradited to the State of Georgia for trial upon the indictment pending against him without the express consent of the Federal authorities. In support of his contention appellant called the Federal Probation Officer for the Northern District of Texas who testified that appellant was on Federal probation in his district by order of the Federal District Court of Little Rock, Arkansas; that according to the rules of probation appellant was required to report to his office and remain within the district; that he had received no instruction to waive continued probation of appellant; and that no attempt had been made to revoke appellant’s probation.\nRecently in Ex Parte Estep, 161 Texas Cr. Rep. 247, 276 S.W. 2d 284, the contention was presented that an extradition proceeding should not be permitted to remove a fugitive from the State of Illinois out of the jurisdiction of the United States District Court for the Northern District of Texas pending final determination of his appeal from a conviction in that court. In overruling the contention and authorizing extradition we said:\n“If the federal authorities desire to prevent the extradition, it is a matter of their own concern.\n“The Governor’s warrant is regular upon its face and, so far as the State courts are concerned, authorizes appellant’s extradition.”\nWhile the probation officer called by appellant testified that from a “moral and good behavior standpoint” it was his recommendation that appellant not be sent back to the State of Georgia there is no evidence that the Federal authorities, from the standpoint of jurisdiction, desired to prevent appellant’s extradition.\nUnder the record the trial judge was authorized in remanding appellant to custody for extradition to the State of Georgia.\nThe judgment is affirmed.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "DICE, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Charles\u0027 W. Tessmer, Dallas, for appellant.",
+                                       "Henry Wade, Criminal District Attorney, John J. Fagan, Homer G. Montgomery, A. D. Jim Bowie, Assistants District Attorney, Dallas, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte Harry Donald Hale.\nNo. 30,243.\nJanuary 14, 1959.\nMotion for Rehearing Overruled February 18, 1959.\nCharles\u0027 W. Tessmer, Dallas, for appellant.\nHenry Wade, Criminal District Attorney, John J. Fagan, Homer G. Montgomery, A. D. Jim Bowie, Assistants District Attorney, Dallas, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1535-01",
+    "first_page_order":  415,
+    "last_page_order":  418
+}

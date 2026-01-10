@@ -1,0 +1,66 @@
+﻿{
+    "id":  8548838,
+    "name":  "Ezelle Johnson v. State",
+    "name_abbreviation":  "Johnson v. State",
+    "decision_date":  "1958-12-17",
+    "docket_number":  "No. 30,175",
+    "first_page":  "287",
+    "last_page":  "289",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 287"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  225,
+                     "char_count":  2934,
+                     "ocr_confidence":  0.561,
+                     "sha256":  "b758c7e07b9fc151cb01dcc89dae2ef1177265197e8b47f967f07d8b4854cf91",
+                     "simhash":  "1:43fd80294e0069fd",
+                     "word_count":  483
+                 },
+    "last_updated":  "2023-07-14T16:09:04.443318+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ezelle Johnson v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nAppellant was charged by complaint and information with operating and assisting in operating an open saloon upon certain premises, alleged to be a place where distilled liquor and liquor composed and compounded in part of distilled spirits were sold and offered for sale for beverage purposes by the drink, and where such liquors were sold and offered for sale for human consumption on said premises where same were sold and offered for sale.\nThe jury found appellant guilty and assessed his punishment at a fine of $1,000.00, from which judgment he appeals, contending that the evidence is insufficient to sustain the conviction and that the trial court erred in his charge.\nTwo inspectors of the Texas Liquor Control Board, acting under cover, arranged through the manager of the motel where they registered for admittance to Club DeLaine located upon the premises described in the information.\nThey were escorted to a table by the manager who called appellant, a waiter, and instructed him to “take care of us.”\nThe inspectors ordered “bourbon and 7-Ups” and “bourbon and water,” and were served three drinks each by appellant, for which they paid him $4.50.\nOne of the inspectors preserved a sample of the drinks served him by spewing it into a bottle after taking it in his mouth.\nThe inspectors testified that they could not tell what percentage of bourbon or alcohol was contained in the mixed drinks but could tell it was alcohol and “it tasted like bourbon.”\nThe sample preserved was chemically tested by a chemist of the Texas Liquor Control Board who testified that it contained ten percent of alcohol by volume and that the fluid was composed in part of distilled spirits.\nIn his charge to the jury the trial court said: “Our statute provides that liquor shall mean any alcoholic beverage containing alcohol in excess of four percent by weight. You are instructed that whisky contains alcohol in excess of four percent by weight.”\nAppellant urges that the record is silent as to whisky being sold and that the charge in effect instructed the jury that bourbon was whisky.\nAssuming that such was the effect of the court’s charge, we see no injury to appellant.\n“Bourbon” used in describing a drink means whisky, the dictionary definition being “Whisky produced from corn in Bourbon County, Kentucky; hence, a similar whisky from a mash of corn only or chiefly corn.”\nThe mixed drinks served the inspectors contained alcohol in excess of four per cent, under the chemist’s testimony.\nWe find the evidence sufficient to sustain the conviction and no reversible error appears.\nThe judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Joe J. Newman, Houston, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White and Alex Guevara, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ezelle Johnson v. State.\nNo. 30,175.\nDecember 17, 1958.\nMotion for Rehearing Overruled January 28, 1959.\nJoe J. Newman, Houston, for appellant.\nDan Walton, District Attorney, Thomas D. White and Alex Guevara, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1502-01",
+    "first_page_order":  305,
+    "last_page_order":  307
+}

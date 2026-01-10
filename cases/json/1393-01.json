@@ -1,0 +1,105 @@
+﻿{
+    "id":  8547145,
+    "name":  "Sim Rawls v. State",
+    "name_abbreviation":  "Rawls v. State",
+    "decision_date":  "1958-12-10",
+    "docket_number":  "No. 30,199",
+    "first_page":  "106",
+    "last_page":  "108",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 106"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "319 S.W. 2d 707",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10175097
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/319/0707-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "250 S.W. 2d 200",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10194512
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/250/0200-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "157 Texas Cr. Rep. 497",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2572152
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/157/0497-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  266,
+                     "char_count":  3908,
+                     "ocr_confidence":  0.553,
+                     "pagerank":  {
+                                      "raw":  7.7694419818780367E-08,
+                                      "percentile":  0.45624107814779935
+                                  },
+                     "sha256":  "b81f32e45f51c066e1fc95b436f66f7eb13b2dd5f9b068e7ce219733015a2472",
+                     "simhash":  "1:ac4e1cd7674ec51f",
+                     "word_count":  672
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Sim Rawls v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Judge.\nThis is a conviction for drunken driving, with punishment assessed at a fine of $100 and seven days in jail.\nThe sufficiency of the evidence to support the conviction is challenged.\nIn Threet v. State, 157 Texas Cr. Rep. 497, 250 S.W. 2d 200, we held that an extrajudicial confession, alone, would not authorize a conviction for drunken driving. In reaching that conclusion, we said:\n“Outside of appellant’s confession, we have only a turned-over or wrecked pick-up on the highway to establish that he was the driver of the truck, that he owned the truck, or that he was seen at the place of the wreck.”\nIn Fancher v. State, No. 30,182, this day decided, (page 269, this volume), 319 S.W. 2d 707, it was insisted that the holding in the Threet case was applicable and controlling. In refusing to so hold, we ruled that proof of certain of the elements which were absent in the Threet case were shown to be present in the Fancher case, such as ownership of the automobile and the accused’s presence at the scene of the wreck. Under such circumstances we held that the extrajudicial confession of Fancher that he was the driver of the automobile was sufficiently corroborated and that it authorized the finding of guilt.\nIn the instant case the appellant insists that the Threet case is controlling and that the facts here do not authorize an application of such rule as is announced in the Fancher case.\nHere are the facts upon which the instant conviction depends :\nAbout 4 o’clock in the morning, two policemen of the city of Houston were on patrol duty when they were waved down by the driver of a wrecker who reported to them that a “minor accident” had occurred and that “This subject had been involved in an accident at an unknown location and his car got locked and wouldn’t run.” To whom “this subject” referred was not made clear. The inference is that it had reference to the apel-lant. The automobile appellant had driven was stopped near the wrecker and appellant was standing beside it and was listening to the conversation between the policemen and the driver of the wrecker. Appellant walked up to the patrol car and said to the policemen that “he [appellant] had hit something, didn’t know what, but had hit something and he had driven his car that far and it wouldn’t run anymore.”\nAccompanied by appellant, the officers followed from that point a trail of water, from what appeared to be a leaking radiator, for a distance of about eight blocks and found that a telephone pole had been hit and broken.\nThe parties then returned to the site at which they were first stopped by the driver of the wrecker. An examination of the automobile near which appellant had been standing when they first arrived showed that the radiator and the motor were still hot.\nOther than proof that appellant was intoxicated at the time, the foregoing is the state’s case.\nThe appellant did not testify.\nThe only direct evidence that appellant had driven a motor vehicle upon a public street was his statement or confession to that effect made to the policemen when he told them “he had driven his car that far and it wouldn’t run anymore.”\nThe fact that appellant failed to challenge the statement of the driver of the wrecker or in any other manner failed to challenge the implication that it was his automobile which the officers trailed and which was found at the site is deemed sufficient circumstance to corroborate his extrajudicial confession . that. he was the driver of the automobile.\nAccordingly, the conclusion is reached that the instant case is ruled by our holding in the Fancher case.\nThe judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Mabry \u0026 Donalson, Houston, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White and Mon roe Northrwp, Assistants District District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Sim Rawls v. State.\nNo. 30,199.\nDecember 10, 1958.\nMabry \u0026 Donalson, Houston, for appellant.\nDan Walton, District Attorney, Thomas D. White and Mon roe Northrwp, Assistants District District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1393-01",
+    "first_page_order":  124,
+    "last_page_order":  126
+}

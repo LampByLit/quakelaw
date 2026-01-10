@@ -1,0 +1,165 @@
+﻿{
+    "id":  8551814,
+    "name":  "Ex Parte Billie H. Emmons",
+    "name_abbreviation":  "Ex parte Emmons",
+    "decision_date":  "1959-03-25",
+    "docket_number":  "No. 30,552",
+    "first_page":  "544",
+    "last_page":  "545",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 544"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "135 A.L.R. 969",
+                         "category":  "reporters:specialty",
+                         "reporter":  "A.L.R.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "119 A. 2d 237",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "A.2d",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "384 Pa. 36",
+                         "category":  "reporters:state",
+                         "reporter":  "Pa.",
+                         "case_ids":  [
+                                          1263085
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/pa/384/0036-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "259 S.W. 2d 208",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10200499
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/259/0208-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "158 Texas Cr. Rep. 667",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2483465
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/158/0667-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "301 S.W. 2d 90",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10163037
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/301/0090-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 524",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2610455
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0524-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "299 S.W. 2d 701",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10181364
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/299/0701-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 447",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2610189
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0447-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  194,
+                     "char_count":  2444,
+                     "ocr_confidence":  0.576,
+                     "pagerank":  {
+                                      "raw":  2.073907091656903E-07,
+                                      "percentile":  0.7581492202827269
+                                  },
+                     "sha256":  "d15d72fc44cbd3c87561f4a33575acd11457dc48ff10bcd62a1cefa685c96e39",
+                     "simhash":  "1:a90d176c5528ae50",
+                     "word_count":  407
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte Billie H. Emmons"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BELCHER, Judge.\nAfter a hearing in a habeas corpus proceeding, an-order was entered remanding appellant to custody for extradition to Ohio, and from said order he gave notice of appeal.\nOn the hearing the state introduced in evidence the executive warrant issued by the Governor of Texas which appears regular on its face. It made out a prima facie case authorizing the remand of appellant to custody for extradition. Ex parte Shirley, 164 Texas Cr. Rep. 447, 299 S.W. 2d 701; Ex parte Key, 164 Texas Cr. Rep. 524, 301 S.W. 2d 90.\nAppellant introduced in evidence the requisition and supporting papers consisting of the application for the demand by the prosecuting attorney, an authenticated copy of the complaint made before a magistrate and the warrant of arrest issued thereon, an affidavit as to the purpose for extradition and another setting forth the facts showing the commission of the crime.\nAppellant strenuously insists that the Governor of Texas was without authority to issue the warrant of arrest for his extradition because the Ohio demand failed to allege that he was present in the State of Ohio at the time of the commission of the crime charged in the complaint.\nThe requisition for extradition to Ohio shows that the appellant stands there charg*ed by complaint with the crime of embezzlement committed in that state, and that he has fled from Ohio and taken refuge in Texas. The requisition also expressly refers to the authenticated papers annexed thereto which were introduced in evidence by the appellant. These papers charge that the appellant “at the County of Montgomery and State of Ohio,” did embezzle and convert over $9,000, “said money having then and there come into the possession” of appellant by virtue of his employment.\nThe requisition and the authenticated papers annexed thereto sufficiently aver that the appellant was present in the demanding state at the time the crime charged was committed and authorized the issuance of the extradition warrant for the appellant by the Governor of Texas. 35 C.J.S., Extradition 330, Sec. 13; Ex parte Blankenship, 158 Texas Cr. Rep. 667, 259 S.W. 2d 208 ;Com. ex. rel. Heiss v. Ruch, 384 Pa. 36, 119 A. 2d 237; 135 A.L.R. 969.\nThe judgment is affirmed.\nOpinion approved by the. Court.",
+                                          "type":  "majority",
+                                          "author":  "BELCHER, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Mays \u0026 Mays, (Charles Lindsey, of counsel) Fort Worth, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte Billie H. Emmons\nNo. 30,552.\nMarch 25, 1959.\nMays \u0026 Mays, (Charles Lindsey, of counsel) Fort Worth, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1581-01",
+    "first_page_order":  562,
+    "last_page_order":  563
+}

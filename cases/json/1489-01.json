@@ -1,0 +1,105 @@
+﻿{
+    "id":  8548345,
+    "name":  "Charles V. Longorio v. State",
+    "name_abbreviation":  "Longorio v. State",
+    "decision_date":  "1959-01-21",
+    "docket_number":  "No. 30,325",
+    "first_page":  "239",
+    "last_page":  "240",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 239"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "225 S.W. 2d 828",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10211827
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/225/0828-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "154 Texas Cr. Rep. 116",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2582748
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/154/0116-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "318 S.W. 2d 72",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10156955
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/318/0072-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  161,
+                     "char_count":  1711,
+                     "ocr_confidence":  0.592,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.20585505178101118
+                                  },
+                     "sha256":  "5c74f3b6428faa2c63717b047148f711d3fe39f36ede6cdfa272e31533755782",
+                     "simhash":  "1:fd851e95c00fc65a",
+                     "word_count":  299
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Charles V. Longorio v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is carrying a pistol; the punishment, a fine of $100.00.\nTrial was before the court without the intervention of a jury.\nOfficer Flores testified that, in response to a call, he went to a certain address in San Antonio and there found the front door had been broken in, was informed that a man had broken the door, had beaten up a woman in the house, and that she intended to file burglary charges against him; that he observed her bruised condition, and, while he was talking to the woman at said address, the appellant passed in front of the house traveling at a high rate of speed; that the woman said, “There goes the car,” and he gave chase. He stated that he followéd the appellant’s automobile for several blocks, during which time the appellant was exceeding the speed limit, that he brought the appellant to a halt, and that while questioning him the appellant attempted to take his (Flores’) gun out of its holster. After he had put the handcuffs on the appellant, he saw a pistol on the front floorboard of appellant’s automobile and retrieved the same.\nThe sole question presented for review is the legality of the arrest and the finding of the pistol.\nWe have concluded that the information which the officer received plus the speeding violation which he observed authorized the arrest and the incident search of the automobile, if in fact one was made. Fance v. State, (page 32, this volume), 318 S.W. 2d 72, and Baker v. State, 154 Texas Cr. Rep. 116, 225 S.W. 2d 828.\nThe judgment is aifirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "James Tafolla, Jr., San Antonio, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Charles V. Longorio v. State.\nNo. 30,325.\nJanuary 21, 1959.\nJames Tafolla, Jr., San Antonio, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1489-01",
+    "first_page_order":  257,
+    "last_page_order":  258
+}

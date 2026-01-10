@@ -1,0 +1,294 @@
+﻿{
+    "id":  8550099,
+    "name":  "Ex Parte Lawrence W. Thrash",
+    "name_abbreviation":  "Ex parte Thrash",
+    "decision_date":  "1959-01-07",
+    "docket_number":  "No. 30,404",
+    "first_page":  "409",
+    "last_page":  "412",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 409"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "192 S.W. 2d 159",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10188025,
+                                          10188079
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/192/0159-01",
+                                            "/sw2d/192/0159-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "149 Texas Cr. Rep. 133",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2604550
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/149/0133-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "59 Am. Rep. 777",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "Am. Rep.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "5 S.W. 145",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "170 S.W. 2d 754",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10220240
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/170/0754-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "145 Texas Cr. Rep. 593",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5293711
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/145/0593-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "60 S.W. 2d 788",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          5216727,
+                                          10260868,
+                                          10260759
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/123/0635-01",
+                                            "/sw2d/60/0788-02",
+                                            "/sw2d/60/0788-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "123 Texas Cr. Rep. 635",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5216727
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/123/0635-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "14 S.W. 2d 848",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10301170,
+                                          10301107
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/14/0848-02",
+                                            "/sw2d/14/0848-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "112 Texas Cr. Rep. 124",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5166569
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/112/0124-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "77 S.W. 2d 877",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10264920,
+                                          5256662
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/77/0877-01",
+                                            "/tex-crim/127/0484-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "127 Texas Cr. Rep. 484",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5256662
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/127/0484-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "280 S.W. 2d 257",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10181035,
+                                          10180974
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/280/0257-02",
+                                            "/sw2d/280/0257-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "161 Texas Cr. Rep. 651",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2468578
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/161/0651-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "256 S.W. 2d 408",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10207745,
+                                          10207861
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/256/0408-01",
+                                            "/sw2d/256/0408-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "158 Texas Cr. Rep. 416",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2480086
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/158/0416-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "247 S.W. 2d 888",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10218229,
+                                          10218294
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/247/0888-01",
+                                            "/sw2d/247/0888-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "157 Texas Cr. Rep. 187",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2570931
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/157/0187-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  414,
+                     "char_count":  5941,
+                     "ocr_confidence":  0.589,
+                     "pagerank":  {
+                                      "raw":  2.4388330467213844E-07,
+                                      "percentile":  0.8028435248541518
+                                  },
+                     "sha256":  "c427600f02874d0fa6eb8cc4bcb5354988c2e0d0d96f78348b3b7319b94aec7a",
+                     "simhash":  "1:ef9ecc77276cd81f",
+                     "word_count":  1053
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte Lawrence W. Thrash."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThis is an appeal from an order denying bail, after an indictment for murder.\nThe Constitution of this state says that all prisoners are entitled to bail except in capital cases “when the proof is evident.” (Article I, Section 11). The term “proof evident” means that the accused, with cool and deliberate mind and formed design, maliciously killed the deceased, and that upon a hearing of the facts before the court a dispassionate jury would, upon such evidence, not only convict but would assess the death penalty. Ex parte Washburn, 161 Texas Cr. Rep. 651, 280 S.W. 2d 257, and Ex parte Shults, 127 Texas Cr. Rep. 484, 77 S.W. 2d 877.\nThe burden is upon the state to establish that the “proof is evident” in order to defeat bail. Ex parte Donohoe, 112 Texas Cr. Rep. 124, 14 S.W. 2d 848; Ex parte Readhimer, 123 Texas Cr. Rep. 635, 60 S.W. 2d 788; and Ex parte Coward, 145 Texas Cr. Rep. 593, 170 S.W. 2d 754. The trial court has by denial of bail to this appellant construed the facts presented as showing a case of “proof evident.” It is the duty of this court to determine if the trial court was authorized to reach that conclusion. Here are the facts, and all of the facts, relied upon to sustain the trial court’s ruling:\nThe only witness whose testimony would in anywise connect the appellant with the commission of the offense for which he is here charged was Captain Will Fritz of the Dallas police department. He testified concerning conversations he had with the appellant, Beverly Thrash, and Winona Fine Lee, while all three parties were under arrest. His conversations with the latter two are not shown to have occurred in the appellant’s presence or hearing. Neither Beverly nor Winona were called as witnesses at the hearing, nor was any explanation made as to why they were not called unless it appears from the fact that they were both charged for this same offense.\nWhat the appellant is alleged to have told Fritz concerning a certain pistol having been taken away from him by the highway patrol was not admissible as a confession because not made in accordance with the terms of Article 727, V.A.C.C.P., and because he did not in such conversation admit any connection with the killing. All that he did admit was that the highway patrol had taken a pistol from him.\nWhat Beverly Thrash may have told him was likewise inadmissible and was the rankest form of hearsay evidence. Mere hearsay is not only not the best, it is not even secondary, evidence; it is no evidence. It is not admissible although no better evidence is to be obtained. Belverman v. State, 16 T. 130; Reeves v. State, 7 Texas Cr. App. 275; Holt v. State, 9 Texas App. 572; Felder v. State,, 23 Texas App. 477, 5 S.W. 145, 59 Am. Rep. 777.\nThere remains then only what Fritz said that Winona Fine Lee told him. The record before us is not complete enough to enable us to pass on whether or not what she said was admissible as an oral confession against her. But if we held that it was, it would not avail the state in this proceeding because it is the settled law of this state that a confession of a co-indictee is not sufficient evidence to authorize a court to deny bail. Ex parte Suger, 149 Texas Cr. Rep. 133, 192 S.W. 2d 159, which establishes such rule, was decided by this court in 1946, and the legislature of this state has met and adjourned several times since that time, and the same has not been altered or overruled.\nFrom these facts it is evident that the state failed to meet the burden of showing a case where the proof is evident. There was no testimony identifying the pistol as having any connection with the killing. What some witness may have told Fritz in the absence of appellant is hearsay and proves nothing.\nWhile it is true that no objection appears to have been made to the introduction of the hearsay testimony, as well as to the statements, acts and declarations of the appellant while under arrest, we have no right to assume that proper objections to that testimony will not be made upon the trial of the case. It must be remembered that to affirm the order denying bail this court must find that the facts show a case of “proof evident,” and among other things that upon a trial of this case the death penalty would in all probability be inflicted upon appellant.\nThe judgment denying bail is reversed, and bail is granted in the sum of $10,000.00.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      },
+                                      {
+                                          "text":  "WOODLEY, Judge,\n(dissenting).\nAppellant admitted to Captain Fritz that a .38 caliber pistol was recovered from him, which pistol was identified by Beverly Jo Thrash and Winona Fine Lee as that used by appellant in killing the deceased in a garage at a Dallas address. The body was found buried in a shallow grave in the country. A .38 caliber slug was taken from the body at the inquest.\nThe circumstances point to appellant as the perpetrator or one of the perpetrators of the murder, and there is no evidence showing or indicating any excuse, justification or mitigation for the killing. Whether bail should be granted was within the discretion of the trial judge. Ex parte Cogdell, 157 Texas Cr. Rep. 187, 247 S.W. 2d 888.\nThe trial judge was justified in finding from the evidence at the hearing that there was probable cause to believe that appellant committed the murder or was a party thereto. Arts. 153 and 158 C.C.P. appear to make this the test.\nNo abuse of discretion on the part of the trial judge is shown. Ex parte Brown, 158 Texas Cr. Rep. 416, 256 S.W. 2d 408.",
+                                          "type":  "dissent",
+                                          "author":  "WOODLEY, Judge,"
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Allen \u0026 Street, D. N. McMahan, and (on habeas corpus appeal matter only) Charles William Tessmer, all of Dallas, for appellant.",
+                                       "Henry Wade, Criminal District Attorney, James K. Allen, First Assistant District Attorney, Thomas B. Thorpe, Merle Flagg, Assistants District Attorney, Dallas, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte Lawrence W. Thrash.\nNo. 30,404.\nJanuary 7, 1959.\nState’s Motion for Rehearing Overruled February 18, 1959.\nAllen \u0026 Street, D. N. McMahan, and (on habeas corpus appeal matter only) Charles William Tessmer, all of Dallas, for appellant.\nHenry Wade, Criminal District Attorney, James K. Allen, First Assistant District Attorney, Thomas B. Thorpe, Merle Flagg, Assistants District Attorney, Dallas, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1540-01",
+    "first_page_order":  427,
+    "last_page_order":  430
+}

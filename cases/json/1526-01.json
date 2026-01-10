@@ -1,0 +1,119 @@
+﻿{
+    "id":  8549630,
+    "name":  "Frank John Callas v. State",
+    "name_abbreviation":  "Callas v. State",
+    "decision_date":  "1959-01-07",
+    "docket_number":  "No. 30,094",
+    "first_page":  "375",
+    "last_page":  "376",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 375"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "258 S.W. 2d 317",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10201962,
+                                          10201870
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/258/0317-02",
+                                            "/sw2d/258/0317-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "158 Texas Cr. Rep. 546",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2479145
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/158/0546-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "194 S.W. 2d 400",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10193156
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/194/0400-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "149 Texas Cr. Rep. 333",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2602092
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/149/0333-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  183,
+                     "char_count":  2289,
+                     "ocr_confidence":  0.582,
+                     "pagerank":  {
+                                      "raw":  5.6768303877086308E-08,
+                                      "percentile":  0.35522264039332024
+                                  },
+                     "sha256":  "ee1c2881e1a85a68ac08965191162373570c980af025ddf109d675a157711bfa",
+                     "simhash":  "1:ad7eeecc31022074",
+                     "word_count":  369
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Frank John Callas v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nThe complaint and information allege that appellant drove a motor vehicle upon a public road “after the Texas Operator’s License of the said Frank John Callas had * * * been suspended” and further alleged that appellant had received an extended period of suspension “of said Texas Operator’s License * * *” and that said suspension had not expired.\nWe have searched the record carefully and find no evidence that the license which had been suspended was a Texas Operator’s License, as alleged in the information.\nIf appellant was driving a motor vehicle, it was a panel truck used as a commercial vehicle in appellant’s business, the appropriate license for its operation being a Commercial Operator’s License, and not an Operator’s License. See Art. 6687b, Sec. 1 (n), V.C.S.\nThis court has held that there is no such license known to Texas Law as a “driver’s license.” See Hassell v. State, 149 Texas Cr. Rep. 333, 194 S.W. 2d 400; Brooks v. State, 158 Texas Cr. Rep. 546, 258 S.W. 2d 317.\nThere were but two persons in or around the panel truck. One was Walter Schaff, who was seated in the driver’s seat when the patrolmen reached it. Patrolmen Kirkwood testified that Schaff was not driving the panel truck, and largely upon his testimony the jury found that appellant was the driver.\nAfter the j ury retired, Officer Kirkwood filed complaint charging Schaff with driving a motor vehicle in violation of restrictions imposed in his operator’s license. Information was presented by the county attorney and Schaff was convicted upon his plea of guilty.\nAppellant’s motion for new trial setting forth the conviction of Schaff after the close of the evidence on appellant’s trial should have been granted in order that upon another trial appellant might have the benefit of the evidence regarding the conviction of Schaff.\nAppellant’s motion for rehearing is granted; our former opinion herein affirming the judgment is withdrawn, and the judgment is now reversed and the cause remanded.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "McCarthy, Rose \u0026 Haynes (George McCarthy, of Counsel), Amarillo, for appellant.",
+                                       "Lon Moser, County Attorney, Amarillo, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Frank John Callas v. State.\nNo. 30,094.\nJanuary 7, 1959.\nMotion for Rehearing Overruled February 11, 1959.\nMcCarthy, Rose \u0026 Haynes (George McCarthy, of Counsel), Amarillo, for appellant.\nLon Moser, County Attorney, Amarillo, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1526-01",
+    "first_page_order":  393,
+    "last_page_order":  394
+}

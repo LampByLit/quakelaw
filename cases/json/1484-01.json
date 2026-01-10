@@ -1,0 +1,70 @@
+﻿{
+    "id":  8548198,
+    "name":  "George Washington Hammonds v. State",
+    "name_abbreviation":  "Hammonds v. State",
+    "decision_date":  "1959-01-21",
+    "docket_number":  "No. 30,307",
+    "first_page":  "228",
+    "last_page":  "229",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 228"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  164,
+                     "char_count":  1878,
+                     "ocr_confidence":  0.586,
+                     "pagerank":  {
+                                      "raw":  1.2240919645422109E-07,
+                                      "percentile":  0.5990648489545143
+                                  },
+                     "sha256":  "97bbd858ef08021cad8597c73939136742c9d77e709d519054ba2f1049928592",
+                     "simhash":  "1:370cf8671addedc5",
+                     "word_count":  319
+                 },
+    "last_updated":  "2023-07-14T16:09:04.443318+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "George Washington Hammonds v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nThe offense is burglary; the punishment, enhanced by two previous convictions for burglary, life.\nOn a Saturday night appellant was discovered in the office of Scott Brothers Grain Company by the night watchman, looking into a desk drawer.\nThe door, which had been closed and locked, showed evidence of having been prized open and marks on some of the desk drawers showed that they had been forcible opened or attempted to be prized.\nTwo bars, described as a nail bar and a straight bar some two feet in length, were found in the office.\nAppellant was an employee of the Grain Company. Being Saturday, the business closed at noon, after which time it was shown that appellant had no authority or right to be in the building.\nJ. R. Scott, the special owner named in the indictment, testified that he had the care and custody of the building and possession thereof, and that he did not give appellant permission to break or enter it or to take any property therefrom.\nIt was conclusively established that appellant had been twice previously convicted of burglary, as alleged in the indictment.\nTrial was before a jury on a plea of not guilty by reason of insanity. Appellant did not testify but offered witnesses who expressed the opinion that he was in need of medical treatment for his mental condition.\nThe state offered the testimony of several witnesses to the effect that appellant was sane.\nThe evidence is sufficient to sustain the jury’s finding that appellant was sane; was guilty of the offense charged and had been twice previously convicted of burglary.\nNo briefs have been filed. We have examined the informal bills found in the record and find no error.\nThe judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "No attorney for appellant of record on appeal.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "George Washington Hammonds v. State.\nNo. 30,307.\nJanuary 21, 1959.\nNo attorney for appellant of record on appeal.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1484-01",
+    "first_page_order":  246,
+    "last_page_order":  247
+}

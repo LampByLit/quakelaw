@@ -1,0 +1,67 @@
+﻿{
+    "id":  2021333,
+    "name":  "MARTINEZ v. STATE OF FLORIDA",
+    "name_abbreviation":  "Martinez v. State",
+    "decision_date":  "1991-09-20",
+    "docket_number":  "Case No. 86-0035AC10 (Lower Court Case No. 85-27936MM10)",
+    "first_page":  "36",
+    "last_page":  "37",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 36"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  223,
+                     "char_count":  3035,
+                     "ocr_confidence":  0.916,
+                     "sha256":  "d33a265bd6b06c3cc5dfcf49325bcd5011c6705c42eeb23a64ab9433b9bb2750",
+                     "simhash":  "1:0156a11321495521",
+                     "word_count":  477
+                 },
+    "last_updated":  "2023-07-14T20:58:18.726299+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before STANTON S. KAPLAN, Circuit Judge."
+                                ],
+                     "parties":  [
+                                     "MARTINEZ v STATE OF FLORIDA"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nTHIS CAUSE comes before the Court upon Appellant’s appeal of the lower court’s denial of Defendant’s Motion for Rehearing dated March 21, 1986.\nAppellant was arrested and charged with Careless Driving and Driving or being in Actual Physical Control of a Motor Vehicle While Under the Influence of Alcoholic Beverages on December 24, 1985. Defendant refused to submit to a breath test as requested by the officer after Appellant was advised of implied consent requirements.\nPursuant to Florida Statute 322.261, Appellant moved for a hearing on February 10, 1986 after being advised of the suspension of his driving privileges. The lower court heard the motion on February 28, 1986. The State presented the arresting/investigating officer over the objection of the Defendant. Thereafter the lower court suspended Appellant’s drivers license and denied the Defendant’s Motion for Rehearing.\nAppellant filed a notice of appeal and the State moved to dismiss said appeal. This Court ruled that the improvidently taken appeal would be treated as a petition for Writ of Certiorari in an order dated April 27, 1990.\nThe issue presented before this Court is whether or not the lower court erred in suspending defendant’s drivers license based solely on hearsay testimony to establish whether the officer had reasonable cause to believe the Appellant was driving under the influence.\nIn hearings arising under F.S. 322.261, a “reasonable cause” standard is required. As Appellee correctly points out, the reasonable cause standard is not equivalent to the probable cause standard or beyond a reasonable doubt standard.\nThis is not required in proceedings such as those subject to review in the case at bar. Therefore, the cases cited by Appellant are all distinguishable in that convictions or liberty interests are involved.\nThe officer’s “reasonable cause” to believe the suspect was driving under the influence is one of several factors the officer must swear to in order to have the suspect’s driver’s license suspended. Hearsay may be used by the officer to formulate reasonable cause even if the same hearsay could not be used to establish probable cause or beyond a reasonable doubt.\nThe argument presented by the Appellant is not persuasive as all the cases cited by Appellant are distinguishable. They do not deal with the “reasonable cause” standard, but rather a stricter standard.\nAccordingly, it is hereby ORDERED AND ADJUDGED that the lower court’s denial of Appellant’s Motion for Rehearing as well as the lower court’s ruling on the merits is AFFIRMED.\nDONE AND ORDERED in Chambers, at Broward County Courthouse, 201 S.E. 6th Street, Fort Lauderdale, Florida, this 20th day of September, 1991.",
+                                          "type":  "majority",
+                                          "author":  null
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "James O. Walker, III, Esquire, for appellant.",
+                                       "Lewis Michael, Assistant State Attorney, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "MARTINEZ v STATE OF FLORIDA\nCase No. 86-0035AC10 (Lower Court Case No. 85-27936MM10)\nSeventeenth Judicial Circuit, Broward County\nSeptember 20, 1991\nAPPEARANCES OF COUNSEL\nJames O. Walker, III, Esquire, for appellant.\nLewis Michael, Assistant State Attorney, for appellee.\nBefore STANTON S. KAPLAN, Circuit Judge."
+                 },
+    "file_name":  "1332-01",
+    "first_page_order":  56,
+    "last_page_order":  57
+}

@@ -1,0 +1,141 @@
+﻿{
+    "id":  8547797,
+    "name":  "Clifford Nathaniel Boyett v. State",
+    "name_abbreviation":  "Boyett v. State",
+    "decision_date":  "1958-11-19",
+    "docket_number":  "No. 30,128",
+    "first_page":  "195",
+    "last_page":  "197",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 195"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "122 S.W. 2d 635",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10240498
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/122/0635-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "135 Texas Cr. Rep. 659",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5222030
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/135/0659-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "190 S.W. 2d 880",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          1910734
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/mo/354/0659-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "149 Texas Cr. Rep. 7",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2605047
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/149/0007-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "147 S.W. 869",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8291743
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/147/0869-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "66 Texas Cr. Rep. 550",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4634077
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/66/0550-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  196,
+                     "char_count":  2404,
+                     "ocr_confidence":  0.576,
+                     "pagerank":  {
+                                      "raw":  1.1888088007832173E-07,
+                                      "percentile":  0.5908747961753755
+                                  },
+                     "sha256":  "8e1d816b935047cc524687c1060b2be6daada9978430953b36d05c8faa7c2562",
+                     "simhash":  "1:4b6e7e587d4610f4",
+                     "word_count":  408
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Clifford Nathaniel Boyett v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Judge.\nThis is a conviction for unlawfully carrying a pistol; the punishment, a fine of $200.\nThe appellant and state’s counsel were unable to agree upon a statement of the facts in this case.\nThe trial court has filed a statment of the facts, prepared by him.\nAppellant insists that the statement of facts presented by him should be considered and that of the trial court rejected.\nThe sole contention before this court is that the evidence is insufficient to support the conviction.\nWe have concluded that no necessity exists to determine which one of the statements of facts is entitled to be considered over the other, because the statement of facts prepared by appellant — which he insists is correct — would not require a reversal of the conviction.\nThat appellant was carrying a pistol at night on his way home from his place of business is not seriously disputed.\nAppellant insists that the carrying of the pistol was authorized, especially in view of the fact that he had on his person the day’s receipts from his business.\nThere is authority to the effect that ordinarily one is authorized to carry a pistol from his place of business to his home when he has on his person a considerable sum of money and when not deviating from the nearest or most practical route and stopping only for a moment’s conversation, though he shoots at one assaulting him. Bowles v. State, 66 Texas Cr. Rep. 550, 147 S.W. 869. See, also, Smith v. State, 149 Texas Cr. Rep. 7, 190 S.W. 2d 880, and Davis v. State, 135 Texas Cr. Rep. 659, 122 S.W. 2d 635.\nHere, according to appellant’s own contention, there was an issue clearly drawn, under the facts, as to whether his admitted deviation was from either the nearest or most practical route and his stoppage, in route, was more than momentary.\nIt was for the trial court before whom this case was tried to determine that issue. He did determine it against the appellant.\nWe can not say that his determination thereof was not warranted under appellant’s own contention and admission.\nThe judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Bailey \u0026 Blum, by J. S. Bailey, Jr., of Counsel, Houston, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White, Assistant District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Clifford Nathaniel Boyett v. State.\nNo. 30,128.\nNovember 19, 1958.\nAppellant’s Motion for Rehearing Overruled January 14, 1959.\nBailey \u0026 Blum, by J. S. Bailey, Jr., of Counsel, Houston, for appellant.\nDan Walton, District Attorney, Thomas D. White, Assistant District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1457-01",
+    "first_page_order":  213,
+    "last_page_order":  215
+}

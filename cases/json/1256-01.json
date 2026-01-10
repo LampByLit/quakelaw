@@ -1,0 +1,129 @@
+﻿{
+    "id":  4564238,
+    "name":  "Sam Butler v. The State",
+    "name_abbreviation":  "Butler v. State",
+    "decision_date":  "1908-02-12",
+    "docket_number":  "No. 4001",
+    "first_page":  "528",
+    "last_page":  "532",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 528"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "35 Texas Crim. Rep., 270",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          158627
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/35/0270-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "50 Texas Crim. Rep., 386",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2373282
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/50/0386-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "35 Texas Crim. Rep., 413",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          158621
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/35/0413-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "45 S. W. Rep., 714",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "67 S. W. Rep., 100",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "35 Texas Crim. Rep., 270",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          158627
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/35/0270-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  530,
+                     "char_count":  13027,
+                     "ocr_confidence":  0.583,
+                     "pagerank":  {
+                                      "raw":  1.3993411963001429E-07,
+                                      "percentile":  0.6443923950778597
+                                  },
+                     "sha256":  "979375eb4c93bb276b4e0d5dabc81d6704654a0ab95a886121dc8b440b1a56de",
+                     "simhash":  "1:3739ee470202a00b",
+                     "word_count":  2332
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Sam Butler v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "RAMSEY, Judge.\nAppellant was charged in the District Court of Kavarro County, Texas, with the crime of burglary alleged to have been committed in said county, by a forcible entry into a railroad car. He received a sentence, as the result of said conviction, of two years in the penitentiary.\nIt was contended in, oral argument with great zeal and apparent confidence, that the evidence was so wholly insufficient to demonstrate the guilt of the appellant that this court should intervene and set aside the judgment and verdict for that reason. While the evidence is not strong, and there are many circumstances consistent with the innocence of the appellant, we cannot on a careful investigation of the entire record, agree with the contention of appellant that there is no evidence to support the verdict. The case was largely circumstantial, but there were some facts proven on the trial which tended strongly to show a burglarious entry, and the jury, having from the facts so proven, found him guilty, as the matter is presented to us, we do not feel at liberty on this ground to set aside the conviction. We think, however, the case must be reversed, and this for more than one reason. The evidence showed that appellant, who was detected and found in the car alleged to have been burglarized, stated to the witness Keeton that a few minutes before his detection he had been instructed and authorized by one Scott, his foreman, to nail up the car in question, which he, appellant, had reported to Scott as being open, and that after arriving at the car with such instructions, he had, of his own motion\u0027 and initiative, gone into the car with a view of seeing whether anything had been taken from it. There is and was no claim by appellant that he had actually entered the car; that is to say, gone on the inside of it at the suggestion or by the special authority of Scott. His contention is that his presence about the car was due to the fact that he had reported the car in bad condition to Scott and had by him been instructed to make the necessary and proper repairs on the same and close it up. In this state of the record, the court below charged the jury as follows:\n“If you are not satisfied by the evidence beyond a reasonable doubt that the defendant’s claim that he was in the car under the direction of Mr. S. B. Scott, when found there by the witnesses, Corder and Keeton, is untrue, you will acquit.”\nIn this connection and with reference to this phase of the case, counsel for the defendant requested the court to instruct the jury as follows: “You are further instructed by the court that as the State has introduced in-evidence statements made by the defendant to the effect that he told witness for the State that he was sent down to the car by one Scott for the purpose of nailing the car up, and that he was there for that purpose and was in the car just to look after the condition of the things in said car, etc. How, you are instructed that before you can convict .the defendant you must believe from the evidence beyond a reasonable doubt that the State has shown that such exemptory statements of the defendant are untrue.” There was no pretense or claim in the evidence at all that appellant was in the car at the direction of Scott. His claim went to the effect, and only to the effect, so far as related to Scott, that he had told Scott of the condition of the car and Scott had told him to go and nail the car up, and this explanation was given to account, as far as it would do so, for his presence in the car. How, the charge of the court seems to assume that appellant’s contention was, and his explanation went to the extent of saying “that he was in the car at the direction of Scott.” This the jury could not find to be true, because there was no evidence of it and no claim or pretense of such authority from Scott. This charge is on a vital point in the case, and we think the learned court was inapt, if not inaccurate, in submitting this phase of appellant’s case, and we believe it likely that this charge had the effect to prejudice appellant’s cause.\nAgain, we think that the court erred in not permitting appellant to show by the witness Scott, the declarations and statements of appellant when he was arrested. This arrest was on the day following the alleged breaking and was subsequent to the statements testified as having been made by appellant to the witnesses Keeton and Corder. There is not, as we have observed by referring to the testimony in the case, entire accord between the testimony of the witnesses, Corder and Keeton. The witness Corder testifies that when apprehended at the car and on inquiry as to what he was doing there, appellant stated that he was seeing what was in there. The witness Kerton gives a more particular version of the same matter. His testimony is to this effect: “I asked defendant what he was doing in that car and he told me he did not break it open, but had found it open and had reported the fact to his boss, Mr. S. R. Scott, and that Mr. Scott had told him to go and nail it up, and that he went inside to see if anything was missing.” In view of this discrepancy, if not contradiction, in the testimony of the witnesses, and having in mind the fact that there was no direct imputation of guilt on account of his presence in the car, it seems to us that it was pertinent and competent to prove by the witness Scott, who, as shown by the bill, would have testified that on the next morning after being arrested, appellant stated to the officers arresting him, in the presence of this witness, that he (appellant) had not broken open the car, but that he had found same broken open and reported same to his boss, who had given him hammer and nails and instructed him to nail it up, and when he got to the car to nail it up, he went inside of the car to see what was wrong. The reasoning of the court in the case of Andrews v. State, 25 Texas Crim. App., 339, seems peculiarly appropriate here. In that case the defendant stood charged with the crime of theft, and his recent possession of the alleged stolen property was the chief, if not the solo testimony against him. Antecedent to his arrest appellant\u0027 had made more than one statement, and there was not in the testimony an entire agreement as to the manner in which he accounted for his possession of the cow alleged to have been stolen. When arrested he made an explanation of the possession of the cow in question. It was urged as a ground why this testimony should not be received, that his explanation was not the first made by him. In discussing the matter, Judge Willson says: “The State’s witnesses did not agree, but contradicted each other as to these explanations. In this state of case the rejected testimony, corroborating as it does tlie other testimony of the defendant, was very material to him. It was for the jury to determine what explanation, in fact, he gave of his possession of the cow when he was first called upon to explain possession, and whether or not such explanation was reasonable, and, if so, whether or not it had been disproved by the State. And to assist the jury in determining these questions, we think it was the right of the defendant to have placed before them every fact and circumstance legitimately bearing upon and tending to sustain his defense, and tending to support his testimony upon that issue.” This holding and this language is peculiarly applicable to the case before us, and we think the court erred in not receiving this testimony.\nAgain, complaint is made that the court erred in refusing to permit appellant to prove by the witnesses, B. H. Woods, W. E. McDonald and Hawk Decher that his reputation in the community where he lived for truth and veracity was good, and in support of this claim, counsel submit this proposition: “Appellant was entitled to show his reputation for truth and veracity, because the truth of Ms claim as to why he was in the car was in issue and his veracity therefore was at stake.” It seems to have been held in this State that the mere fact that there is a conflict between the testimony of a defendant and other witnesses, would not authorize proof of his character or reputation for truth and veracity. Rutherford v. State, 67 S. W. Rep., 100; Harris v. State, 45 S. W. Rep., 714; McGrath v. State, 35 Texas Crim. Rep., 413. It is claimed, however, that this case is fairly within the exception which provides that where there is an attack on the evidence upon appellant, statements involving imputation of bad faith, and the assertion of crime against him and where the nature of the case involves an attack upon the integrity and truthfulness of his substantial defense, that such testimony in support of such explanation should be received. The case of Farmer v. State, 35 Texas Crim. Rep., 270, the case relied upon, is not precisely in point, but seems by analogy to support appellant’s contention here. In that case two witnesses, Hines and Mathis, were important witnesses for the appellant. It appeared from the record that these witnesses were arrested and placed in jail charged with the same crime as appellant, and an effort was made to impeach their testimony by showing contradictory statements. In this state of the record the general reputation of these witnesses in the county where they resided was proposed to be proved; their claim was denied by the trial court. In passing upon that question the court say: “It is a well-settled rule in this State that the credibility of a witness may be attacked by showing that he has been arrested and placed in jail, charged with a felony. When so attacked, it is not an open question that his credibility may be sustained by proof of good character for truth and veracity.” Now, in this case the defendant relied mainly upon his immediate explanation of the circumstance of his presence in the car, basing his presence there on the ground that he was instructed to nail up the car. It was the effort of the State to break down this explanation, and in the nature of things it involved an attack upon and a contradiction and an impeachment of the defendant’s claim. Besides, the State directly sought to impeach appellant as to one important matter, to wit: his claim that he had said to Scott that Keeton and Corder had acted like they thought he was in the car to steal something. In this state of the proof, as the matters appear before us in this record, it seems to us to have been highly important to the defendant, and clearly admissible for him, in an effort to sustain the truth of his explanation, to present in evidence before the jury, his good reputation for truth and veracity.\nThere are other matters complained of, but we think they need not be discussed. For the errors considered above, the judgment of the lower court is reversed and the cause is remanded.\nReversed and remanded.",
+                                          "type":  "majority",
+                                          "author":  "RAMSEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "McClellan \u0026 Prince, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Sam Butler v. The State.\nNo. 4001.\nDecided February 12, 1908.\n1. —Burglary—Railroad Car—Charge of Court.\nWhere upon trial for a burglarious entry into a railway car, the defendant claimed that he had been told by his superior to go and nail up the car, and that he entered the car to see if anything had been taken from it; and there was no pretense or claim in the evidence that defendant was in the car by the direction of his superior, it was error of the court to charge the jury that defendant claimed that he was in the car under the direction of his said superior, and unless this was untrue to acquit.\n2. —Same—Evidence.\n• Where upon trial for burglary, there was not entire accord between the testimony of the State’s witnesses with reference to defendant’s declaration and statements when he was arrested as to what his superior told him, it was error not to permit defendant to show by his superior that defendant had stated upon being arrested that he had not broken open the car, etc., and what his superior told him about nailing up the car, as this explanation was material.\n3. —Same—Evidence—Defendant’s General Reputation.\nWhere upon trial for burglary the defendant relied mainly upon his immediate explanation of the circumstances of his presence in the car, on the ground that he was instructed to nail up the car; and it was the effort of the State to break down this explanation which involved an attack upon defendant’s credibility, it was error to exclude testimony as to defendant’s general reputation for truth and veracity.\nAppeal from the District Court of Navarro. Tried below before the Hon. L. B. Cobb.\nAppeal from a conviction of burglary; penalty, two years imprisonment in the penitentiary.\nThe opinion states the case.\nMcClellan \u0026 Prince, for appellant.\n—On question of insufficiency of evidence: Burrell v. State, 50 Texas Crim. Rep., 386; 17 Texas Ct. Rep., 307. On question of excluding defendant’s explanation: Andrews v. State, 25 Texas Crim. App., 339. Upon question of general reputation: Farmer v. State, 35 Texas Crim. Rep., 270.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1256-01",
+    "first_page_order":  546,
+    "last_page_order":  550
+}

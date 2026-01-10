@@ -1,0 +1,361 @@
+﻿{
+    "id":  2020871,
+    "name":  "STATE OF FLORIDA v. BEARER",
+    "name_abbreviation":  "State v. Bearer",
+    "decision_date":  "1991-07-03",
+    "docket_number":  "Case No. 90-7174",
+    "first_page":  "142",
+    "last_page":  "146",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 142"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "538 So.2d 66",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7542882
+                                      ],
+                         "year":  1989,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/538/0066-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "381 So.2d 1146",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9601492
+                                      ],
+                         "year":  1980,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/381/1146-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "407 So.2d 300",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9541459
+                                      ],
+                         "year":  1981,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/407/0300-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "419 So.2d 346",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9531515,
+                                          9531567
+                                      ],
+                         "year":  1982,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/419/0346-01",
+                                            "/so2d/419/0346-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "427 So.2d 822",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9542942
+                                      ],
+                         "year":  1983,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/427/0822-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "520 So.2d 665",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7579620
+                                      ],
+                         "year":  1988,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/520/0665-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "553 So.2d 1355",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7540920
+                                      ],
+                         "year":  1989,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/553/1355-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "506 So.2d 1150",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7593216
+                                      ],
+                         "year":  1987,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/506/1150-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "521 So.2d 269",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7567093
+                                      ],
+                         "year":  1988,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/521/0269-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "528 So.2d 995",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7570372
+                                      ],
+                         "year":  1988,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/528/0995-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "577 So.2d 598",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7518145
+                                      ],
+                         "year":  1991,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/577/0598-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "551 So.2d 1259",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7539537
+                                      ],
+                         "year":  1989,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/551/1259-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "521 So.2d 362",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7571491,
+                                          7571543
+                                      ],
+                         "year":  1988,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/521/0362-01",
+                                            "/so2d/521/0362-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "549 So.2d 807",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7547643,
+                                          7547573
+                                      ],
+                         "year":  1989,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/549/0807-02",
+                                            "/so2d/549/0807-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "513 So.2d 122",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7552848,
+                                          7552804
+                                      ],
+                         "year":  1987,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/513/0122-02",
+                                            "/so2d/513/0122-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "518 So.2d 917",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7575266
+                                      ],
+                         "weight":  2,
+                         "year":  1988,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/518/0917-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "503 So.2d 1397",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "year":  1987,
+                         "pin_cites":  [
+                                           {
+                                               "parenthetical":  "affirmed on other grounds 518 So.2d 917 (Fla. 1988)"
+                                           }
+                                       ],
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "291 So.2d 241",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9741485
+                                      ],
+                         "year":  1974,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "243"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/291/0241-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "394 So.2d 231",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9542977
+                                      ],
+                         "year":  1981,
+                         "pin_cites":  [
+                                           {
+                                               "parenthetical":  "lustful attitude"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/394/0231-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "118 So.2d 219",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9866796
+                                      ],
+                         "year":  1960,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/118/0219-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "418 So.2d 238",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9537637
+                                      ],
+                         "year":  1982,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/418/0238-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  555,
+                     "char_count":  9921,
+                     "ocr_confidence":  0.863,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07304595750563064
+                                  },
+                     "sha256":  "adbd7e002cecd4fe85e4080a453adc3b011fa3cd31cb235bab484e3fca2cf4e3",
+                     "simhash":  "1:7a8a830bc3728b1f",
+                     "word_count":  1640
+                 },
+    "last_updated":  "2024-02-27T22:50:07.903550+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "STATE OF FLORIDA v BEARER"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nSHAWN L. BRIESE, Circuit Judge.\nTHIS CAUSE came to be heard on May 28, 1991 pursuant to a nonevidentiary hearing on the State’s Motion in Limine seeking a pretrial order allowing the introduction, at trial, of similar fact evidence pursuant to a notice filed on February 28, 1991. Counsel, subsequent to the May 28, 1991 hearing, stipulated to the use of a psychologist’s 1988 assessment of the victim’s mental capacities. This Court, upon review of the pleadings, the victim’s psychological assessment, argument by counsel, submitted case authority, and further research, finds as follows:\nThe complaint affidavit in the instant case alleges a sexual battery occurring on September 20, 1990. The defendant, a bus driver for a specialized bus service, allegedly parked his bus and forced the victim, his only passenger, to the floor of the bus by placing his hand over her face. The defendant, while repeatedly telling the victim that he loved her, pulled her pants and underwear down and had forced sexual intercourse. The defendant then told the victim not to tell anyone or he would get in trouble.\nA psychological and adaptive behavior assessment completed on the victim (now thirty-two years of age) in June, 1988 indicates that she suffers from mental retardation and Downs Syndrome. The Wechsler Adult Intelligence Scale — Revised (WAIS-R) indicates a verbal I.Q. of 59, a performance I.Q. of 62, and a full scale I.Q. of 59. The Vineland Adaptive Behavior Scales shows a communication age equivalent of 5 years, 8 months, a daily living age equivalent of 10 years, 10 months and a socialization age equivalent of 13 years. The overall test results showed that the victim is functioning within the mildly retarded range of intelligence and moderately impaired range of adaptive abilities.\nThe Notice of Similar Fact Evidence seeks to use evidence of a September 18, 1990 incident in which defendant caused the victim herein to masturbate him while she was a passenger on the same bus in which he was the driver. The state seeks to introduce evidence of a July 31, 1982 incident in which the defendant caused a female friend of his daughter who was guest to masturbate him. The state also relies on evidence that the defendant raised a fourteen year old babysitter’s bathrobe and attempted to spank her buttocks. Defendant achieved sexual gratification when the babysitter screamed. Defendant allegedly, in the early spring of 1982, had a ten year old female house guest of his daughter masturbate him; he also attempted anal and vaginal intercourse. Lastly, the state seeks to rely on the defendant’s sexual intercourse with his eleven year old daughter on more then ten occasions. The state seeks to admit the above described evidence to prove motive, opportunity, intent, preparation, plan, and to corroborate the testimony of the victim.\nThe above described similar fact evidence is not admissible to show intent as state of mind is not a material fact in a sexual battery charge. Intent is not an issue. Coler v State, 418 So.2d 238 (Fla. 1982). See also Askew v State, 118 So.2d 219 (Fla. 1960). Note that even if state of mind is relevant (See Gibbs v State, 394 So.2d 231 (Fla. 1st DCA 1981) (lustful attitude)) the evidence relied on by the state is not similar to the facts in the instant case, see infra. The relied upon evidence also is not relevant to and does not show the defendant’s motive, i.e., the cause or reason that moves the will and induces action, to commit the charged offense.\nThe evidence sought to be admitted does not show action on the part of the defendant to devise or arrange means or measures necessary for the commission of the sexual battery, i.e., it is not relevant to show preparation. Likewise the evidence is not relevant to show a plan or scheme. See the samples given in Duncan v State, 291 So.2d 241, 243 (Fla. 2d DCA 1974).\nOpportunity does not appear to be an issue herein as the defendant appears to have been the bus driver and the victim was the sole passenger. Opportunity is present within the facts of the instant case. Cf. Beasley v State, 503 So.2d 1397 (Fla. 5th DCA 1987) (affirmed on other grounds 518 So.2d 917 (Fla. 1988)) wherein the defense was that the defendant was never alone with the victim. The trial court properly admitted testimony of the victim’s sister regarding other sexual offenses involving the defendant to show that the defendant had the opportunity to commit the crimes charged.\nThe Florida Supreme Court in Heuring v State, 513 So.2d 122 (1987), a sexual battery within a familial context, authorized the use of similar fact evidence of a sexual battery of the defendant’s own daughter to corroborate the testimony of the stepdaughter/victim. The court recognized a relaxed standard of similarity. The court also rejected evidence of molestation of five other children since they were not sufficiently similar to the charged offenses. See also Anderson v State, 549 So.2d 807 (Fla. 5th DCA 1989), Judge Cobb’s special concurrence in Stevens v State, 521 So.2d 362 (Fla. 5th DCA 1988) and Padgett v State, 551 So.2d 1259 (Fla. 5th DCA 1989).\nIt is clear that the September 18, 1990 sexual contact with the victim herein is not admissible to corroborate her own testimony because corroboration should come from an independent source. See Padgett v State, supra.\nPost Heuring courts have addressed the relaxed standard of similarity. See for example Euline v State, 577 So.2d 598 (Fla. 3d DCA 1991) (two sexual offenses involving digital, vaginal, and anal penetration of a twelve year old girlfriend of defendant’s daughter while she was visiting in defendant’s home. Testimony of the thirteen year old daughter that a few weeks after the above described incident defendant had engaged in improper conduct by having the daughter rub her uncovered genital area against his back not sufficiently similar under Williams or as corroboration testimony under Heuring.)\nThe Fifth District Court of Appeal in Paquette v State, 528 So.2d 995 (1988) declined to expand the scope of the relaxed standard of similarity established in Heuring. The case involved lewd assaults on the defendant’s eight and ten year old natural daughters. Evidence that seven years earlier, in another state, the defendant had fondled his niece (shown through her own testimony) and testimony of two neighborhood girls that they had on several occasions observed the defendant naked in his house and yard, i.e., the defendant exposed, himself was determined not to be sufficiently similar. See also Edmond v State, 521 So.2d 269 (Fla. 2d DCA 1988) and Ables v State, 506 So.2d 1150 (Fla. 1st DCA 1987).\nCompare the following post Heuring cases in which the evidence was deemed to be sufficiently similar: Beasley v State, 518 So.2d 917 (Fla. 1988); Woodfin v State, 553 So.2d 1355 (Fla. 4th DCA 1989); and Calloway v State, 520 So.2d 665 (Fla. 1st DCA 1988). See also the following pre-Heuring cases: Potts v State, 427 So.2d 822 (Fla. 2d DCA 1983); Hodge v State, 419 So.2d 346 (Fla. 2d DCA 1982); Espey v State, 407 So.2d 300 (Fla. 4th DCA 1981); and Cotita v State, 381 So.2d 1146 (Fla. 1980).\nThe facts in the instant case are not sufficiently similar under the relaxed standard. There appears to be no points of similarity other than the defendant’s alleged involvement. The dissimilarities include the use of force in the instant case and the apparent lack thereof in the cases relied on as similar fact evidence. The defendant’s placing his hand over the victim’s face, removing her pants and underwear and telling her he loved her during the forcible sexual intercourse versus the lack of similar activity in the previous cases, the difference in crime scenes (a bus versus home settings), sexual intercourse in the instant case versus masturbation in two previous cases and attempted anal and vaginal intercourse in one of those cases, spanking of fourteen year old’s buttocks leading to the defendant’s sexual gratification in another case and leastly the difference in chronological ages of the victims (32 years versus 10, 11, and 14 years). It is unclear that the victim’s mental age herein 5 years, 8 months to 13 years is similar to the previous victims’. The victim herein functions within the mildly retarded range of intelligence and moderately impaired range of adaptive abilities. The juveniles functioning ranges are unknown. Notwithstanding the above, even if the victims’ mental ages could be construed to be similar, the above described dissimilarities preclude admission of the prior evidence.\nThe First District, since Heuring, has reaffirmed the admissibility of similar fact evidence to show a pattern of conduct. Smith v State, 538 So.2d 66 (Fla. 1st DCA 1989). There is not, based on the above cited reasons, a pattern of conduct based on the defendant’s sexual involvement with children. Likewise the defendant’s sexual activity with the victim on September 18, 1990 involving masturbation versus forced sexual intercourse after the defendant placed his hand over the defendant’s [sic] face, removed the victim’s clothes, and repeatedly told the victim he loved her on September 20, 1990 does not show a pattern of conduct. See Euline, Paquette and Abies, supra.\nEvidence cannot be permitted when its only purpose in fact will be to show the defendant’s propensity to commit the crime.\nBased on the above and foregoing controlling caselaw, it is hereby:\nORDERED and ADJUDGED that the state’s attempted use of other fact evidence as listed in its February 28, 1991 notice is denied.\nDONE and ORDERED in Chambers at Daytona Beach, Volusia County, Florida, this 3rd day of July, 1991.",
+                                          "type":  "majority",
+                                          "author":  "SHAWN L. BRIESE, Circuit Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "William Maloney, Assistant State Attorney, for plaintiff.",
+                                       "Leonard Ross, Assistant Public Defender, for defendant."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "STATE OF FLORIDA v BEARER\nCase No. 90-7174\nSeventh Judicial Circuit, Volusia County\nJuly 3, 1991\nAPPEARANCES OF COUNSEL\nWilliam Maloney, Assistant State Attorney, for plaintiff.\nLeonard Ross, Assistant Public Defender, for defendant."
+                 },
+    "file_name":  "1415-01",
+    "first_page_order":  160,
+    "last_page_order":  164
+}

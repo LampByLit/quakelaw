@@ -1,0 +1,66 @@
+﻿{
+    "id":  8548462,
+    "name":  "John Frank Ramos v. State",
+    "name_abbreviation":  "Ramos v. State",
+    "decision_date":  "1959-01-21",
+    "docket_number":  "No. 30,322",
+    "first_page":  "253",
+    "last_page":  "254",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 253"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  128,
+                     "char_count":  1367,
+                     "ocr_confidence":  0.572,
+                     "sha256":  "f5a3023e02f7d2d8beb7d1b09d2023e689455ce71056b97897429d5cbd1f5caa",
+                     "simhash":  "1:07c8201260cd2233",
+                     "word_count":  229
+                 },
+    "last_updated":  "2023-07-14T16:09:04.443318+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "John Frank Ramos v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BELCHER, Judge.\nAppellant waived his right of trial by jury, entered a plea of guilty before the court to the offense of unlawfully possessing marihuana; and the court assessed his punishment at four years.\nWhile two officers of the city of Houston were watching a cache consisting of a can and a plastic bag containing a green plant substance, the appellant stopped his car near-by, went to the cache, picked up the can and as he was returning to the car the officers apprehended him and took possession of the can and plastic bag.\nThe proof shows that the can and the plastic bag contained marijuana.\nAppellant admits in his written statement introduced in evidence, without objection, that he and two others returned to the place where they had hidden a can and plastic bag containing marijuana and that he retrieved the can and was carrying it to the car when the officers stopped him.\nAppellant did not testify or offer any evidence in his behalf.\nThe evidence is sufficient to support the conviction.\nNo reversible error appearing the judgment is affirmed.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "BELCHER, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "No attorney for appellant of record on appeal.",
+                                       "Dan Walton, District Attorney, Thomas D. White and Edward D. Michalek, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "John Frank Ramos v. State.\nNo. 30,322.\nJanuary 21, 1959.\nNo attorney for appellant of record on appeal.\nDan Walton, District Attorney, Thomas D. White and Edward D. Michalek, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1492-01",
+    "first_page_order":  271,
+    "last_page_order":  272
+}

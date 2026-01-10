@@ -1,0 +1,141 @@
+﻿{
+    "id":  4563497,
+    "name":  "Joe Biddy v. The State",
+    "name_abbreviation":  "Biddy v. State",
+    "decision_date":  "1908-01-29",
+    "docket_number":  "No. 3699",
+    "first_page":  "412",
+    "last_page":  "417",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 412"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "42 Texas Crim. Rep., 501",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          171545
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/42/0501-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "37 Texas Crim. Rep., 268",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          161418
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/37/0268-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "35 Texas Crim. Rep., 320",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          158586
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/35/0320-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "35 Texas Crim. Rep., 318",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          158511
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/35/0318-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "45 Texas Crim. Rep., 569",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4530880
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/45/0569-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "42 Texas Crim. Rep., 501",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          171545
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/42/0501-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  703,
+                     "char_count":  17960,
+                     "ocr_confidence":  0.608,
+                     "pagerank":  {
+                                      "raw":  1.2121721256228506E-07,
+                                      "percentile":  0.5962106284961015
+                                  },
+                     "sha256":  "5a25ebfed1d976bb4522796d3882612f06afcb67620ec1c02cd99bda4f9888d6",
+                     "simhash":  "1:215503214102278e",
+                     "word_count":  3171
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Joe Biddy v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\nAppellant was convicted of violating the local option law, his punishment being assessed at a fine of $100 and imprisonment in the county jail for sixty days.\nThe first witness for the- State was R. C. Thomas, who testified in regard to the main transaction as follows: “I bought some whisky from him (referring to appellant) about the 9th day of February, 1907. The whisky I bought from defendant was a bottle. I paid him 35 • cents for the bottle of whisky. It was intoxicating liquor. * * * The defendant and myself walked around behind the bar and he poured the whisky out into, the bottle and gave it to me down under the bar and I gave him 35 cents. * * * We were in between the front bar and the back bar when he sold me the whisky. I think Chris Burnett was standing in the front part of the house when I bought the whisky. The bar was in the back part of the house.” He further states: . “The sale occurred in the daytime and I think Chris Burnett was present.” Chris Burnett was placed on the stand by the defendant and he stated that he was in the store where the sale should have occurred at the time and place Thomas claims to have bought the whisky from appellant, and did not see Thomas buy any whisky at said time and place, and that appellant did not sell any whisky to Thomas then; if he had, witness would have seen it. On cross-examination he states: “I did not know what the defendant did when I was not in there. He may have sold Thomas the whisky when I\u0027was not present. He could have sold him the whisky and me not see him.”\nThe witness Britton was permitted to testify as follows: “I examined the books of the United States Internal Bevenue Collector for the fourth district of Texas, at Dallas, Texas, on or about the 25th day of March, 1907. These books show that W. B. Boberts had United States Internal Bevenue License to sell whisky at Elberta, Texas, or to pursue the occupation of retail liquor dealer at Elberta. I did not take down the number of his license. (Here witness examined a memorandum book which he took from his pocket). Ho, sir, I failed to make a notation .of his Elberta license; I remember seeing an entry on the collector’s books showing a license issued to him at Elberta.” Objection was urged that this was immaterial and irrelevant; that it was hearsay, was not the proper way to prove what the books of the Internal Bevenue Collector showed; that there was better evidence of what the books of said collector showed, and it was improper to attempt to show what said books showed by this character of testimony; and that the only way said witness could testify was from an examined copy, and that this testimony showed that he did not and was not testifying from such copy. This bill is signed with the explanation that, “on Monday, April 1st, the first day of the county court, the defendant was served with a subpoena duces tecum to produce his revenue license. Same was not produced in court and this testimony was admitted after he had failed to produce said revenue license.” This explanation makes the thing worse and does not explain away anything. Appellant, under this explanation, was served with a subpoena duces tecum to produce his license. The witness was examined about license issued to W. B. Boberts. Appellant was not served with a subpoena duces tecum to produce Boberts’ license and doubtless could not, if he had been served. The license was not supposed, legally at least, to be in possession of appellant. It was the property of and belonged to Boberts.\nWe are of opinion that the objections urged are well taken. The statute, article 407a, enacted by the Twenty-eighth Legislature, provides, that an examined copy of the revenue license taken out from the Federal authorities, may be used as evidence. But this witness was not undertaking to prove up an examined copy. In fact, there was no copy at all, and none was offered. The bill shows that he took a memorandum book from his pocket and after looking at it, said that he failed even to make a notation of Roberts’ Siberia license, and this is the only evidence, so far as the bill is concerned, that the witness had anything in writing in regard to it; and he does not even say in his statement that this book contained an examined copy. He simply testified that he had examined the books of the Internal Revenue Collector at Dallas, and that these books showed that Roberts had an internal revenue license to sell whisky at Siberia or to pursue the business of a retail liquor dealer at that- point, and he even failed to make a notation of that in his memorandum book. This evidence excludes the idea that an examined copy was offered and is brought strictly, as we understand, within the rule laid down by this court in several authorities, among which will be found Goble’s case, 42 Texas Crim. Rep., 501. The following is a quotation from that opinion:\n“Bill number 4 complains that the court permitted G. S. Slover to testify- for the .State that he had been to Dallas, and had seen the Internal Revenue Collector’s books, and that said books show that defendant procured a revenue license dated about the 6th day of December, 1899, and extending over a period of several months; that he (witness) made a memorandum of what the books showed; and that he (witness) entered it in his book. Defendant objected to said witness testifying to these facts, because he was not testifying to the correctness of an examined copy of the record of the Internal Revenue Collector’s office,but a memorandum made by the witness himself, and because neither the revenue collector, nor anyone for him, is shown to have made any copy of the page of the records kept by said collector, and because it is not shown that the collector, or anyone for him, has certified to the correctness, of the record, and because it is not shown that the collector, or anyone for him, was present when witness made the memorandum. The court explains this bill as follows: ‘When the witness was testifying, he held a memorandum book in his hands and looked at it, and was asked if he was testifying from memory or from the book. He said he was testifying from memory.’ The explanation makes the testimony doubly inadmissible. It is not permissible for a witness (except the revenue collector) to make a copy of the books and testify from the copy, and it would certainly not be permissible for witness to .testify from memory or copy made by witness.” That decision is wrong in holding that only the collector could make an examined copy of his books, but it is directly in point and clearly indicates the difference between an examined copy and the witness testifying from memory, or from notes entered in a book or on paper.\nIn a later case, Thurman v. State, 45 Texas Crim. Rep., 569, the question came up, but much stronger in favor of the State than was presented in the case above quoted. In Thurman’s case, the opinion says: “By bill of exceptions number 6 it is shown that the witness, L. A. Hightower, was permitted to testify that he had been to Dallas, and into the office of the United States Bevenue Collector of the fourth district of Texas, and had gone over book number 10, record of special tax payers, and gotten therefrom the following: ‘Name of J. M. Thurman, Business, B. M. L. D. 4 place carbon. From what time—Aug. Asst, paid, $18.33. When paid—Aug. 22nd. Serial number 9907/ And in connection with this the witness was permitted to further testify as follows: ‘My understanding is that the record covered taxpayers for present year from June 1, or July 1, 1902, to same date in 1903/ Various, sundry and divers objections and exceptions were urged to the introduction of this testimony. We have held that copies of books of record from the office of the Internal Bevenue Collector could be used in evidence. Gersteman v. State, 35 Texas Crim. Rep., 318; Lucie’s case, 35 Texas Crim. Rep., 320; Pitner v. State, 37 Texas Crim. Rep., 268.. But here the testimony is not a copy of any form. If this is shown to be a true copy of the book mentioned it would be admissible, but not so if the statement is what the witness swears he saw recorded in the book. We are further convinced that the witness Hightower’s conclusion or opinion or understanding, as he calls it, that this record covered taxpayers from June or July 1, 1902, to the same date in 1903, is inadmissible.”\nIn the Gersteman case, and Pitner’s case, we understand the rule is correctly laid down that an examined copy can be introduced as evidence, and such is the rule in all the elementary authorities as well as by the statute law of this State. But in the case before us, the State did not undertake to introduce a copy of any sort—examined or otherwise, but permitted the witness to testify what he had seen in the office of the Internal Bevenue Collector at Dallas. It ought not to be the subject of doubt as to what it takes to constitute an examined copy under the authorities. See 10, Bnc. of Evidence, 865; Wharton on Evidence, sec. 94; Elliott on Evidence, sec. 1486. The Encyclopedia of Evidence, supra, says: “What constitutes sworn or examined copy: A copy made by the witness who swears to its correctness is a sworn or examined copy, so also is one which the witness has compared with the original and found correct. The witness, however, must state that the instrument produced is a copy, although no particular language need be used. Necessity of comparison with original: It is sometimes said that a copy must have been compared with the original by the witness either directly or by following while another read the original. And it has been held that a copy made from memory is not admissible though the witness swears it is a true copy.” In support of the testimony the work referred to cites quite a number of authorities from the different states of the Union, among them, some Texas cases.\nWe copy the following from Wharton on Evidence, par. 94: “Examined copies are, in England, resorted to as the most usual mode of proving records. To enable such a copy to be read, it must be verified by a witness, who will swear that he has compared the copy tendered with the original, either directly or through a person employed to read the original. The work must be done by persons who understand the characters and language of the document. The practice in making such copies is either for one person to compare the copy line for line with the original, or what is in one respect more accurate, for one person, after the copy is made, to read the original, and the other, holding the copy, to mark the correspondence. In such case it has been held not enough to produce only the witness who held the copy, since he only knew at second hand the original. The better course, it is ruled, is either for the comparing witnesses to change hands, so that the listening witness might in his turn become the reading witness, or, for either of the two, after the process of comparing, to read the paper with the original, and thus to qualify himself to speak directly as to accuracy. In prior cases it was held enough to call one of the persons engaged in the comparing process. A copy made by a witness, though without comparison, is undoubtedly evidence of a high grade, if he testifies to its accuracy; the more cautious course is to add comparison by another’s aid. The copy, to be admissible, must be complete; and it will be excluded if it give abbreviations of that which in the original is given at length. It need scarcely be added that the record copied must be shown to have been in its proper office when copied.” Mr. Wharton cites, in support of this\u0027text, quite a number of authorities, some of which are American.\nElliot, supra, thus states the question: “Examined copy: In England and in some jurisdictions in this country contents of public records and documents may be proved by examined copies. This applies to every document\u0027 of a public nature, the removal of which would be attended with inconvenience, and to all such documents which the party has the right to inspect. As defined by one of the old law writers, ‘An examined copy is a copy sworn to be a true copy, by a witness who has compared it line for line with the original, or who has examined the copy while another person read the original/ Another law author states it as a rule that ‘the contents of any record of a judicial court, and all entries in any other public books or registers, may be proved by an examined copy/ This exception extends to all records and entries of a public nature, in books required by law to be kept. Whenever the book or document belongs to the class of public writings which are denominated in law official registers, the contents may be proved by an examined copy duly made and sworn to by a competent witness. T.o make such copy competent evidence the witnesses must understand the character and language of the document, and must state that it is an exact or sworn copy. And legal evidence of the examination must be produced, the witness or witnesses giving testimony under the sanction of an oath with opportunity for cross-examination as to the existence of the record and the accuracy of the copy. And he must also have read the whole of it. The earlier cases hold that where the examined copy is made 1,7 one person reading the original and the other holding the cop3r, it is unnecessary to call both persons as witnesses, and it need not be proved that the3r alternately read and inspected the original and the copy. But it is not sufficient as an examined copy where the witness testifies that he compared the copy produced, with a certified copy of the original. In a more recent House of Lords case it was held necessary to show that the copy was made by changing hands. The same rule was adopted by the United States court in an early case. Some jurisdictions hold that statutes authorizing the admission of certified copies of public documents are cumulative and do not exclude examined copies, verified by the evidence of a competent witness admissible under the rules of the common law. Other courts recognize it as well settled that where the proof is b3r a copy, an examined copy duly made and sworn to is always admissible.” In support of this text the author cites a great many cases, among others, York v. Gregg, 9 Texas, 85; Harvey v. Cummings, 68 Texas, 599; Lasater v. Van Hook, 77 Texas, 650.\nBut in regard to the introduction to this character of testimony, known as examined copies, the statute in our State authorizes and settles the question. We are not discussing the question of certified copies. The authorities cited and quoted, explain and define what it takes to constitute an examined copy and were thoroughly understood when article 407a was enacted by the Legislature. Applying the proposition laid down and enunciated in those authorities and in the cases decided by this court, the evidence of Britton admitted over appellant’s objections was clearly inadmissible and excludes the idea that there was a copy introduced of any sort, examined or otherwise. Before the party would be authorized to introduce an examined copy, he must have the copy, and second, it must be shown to be an examined copy.\nFor the errors indicated, this judgment is reversed and the cause remanded.\nReversed and remanded.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Mounts \u0026 Jones and W. P. Jones, for appellant.—On",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Joe Biddy v. The State.\nNo. 3699.\nDecided January 29, 1908.\n1. —Local Option—Internal Revenue License—Examined Copy—Evidence.\nArticle 407a, enacted by the Twenty-eight Legislature, provides that an examined copy of the internal revenue license taken out from the Federal authorities may be used as evidence; and upon trial for a violation of the local option law, it was error to permit a witness to testify that he had examined the books of the United States Internal Revenue Collector, and permit the witness to testify from a memorandum book, which did not contain an examined copy of said license. Before the witness would be authorized to introduce an examined copy, he must have such copy, and it must be shown to be an examined copy, as laid down by the authorities, under which said article, 407a was enacted.\n2. —Same—Subpoena duces tecum—Secondary Evidence.\nWhere upon trial for a violation of the local option law, the State’s witness was permitted to testify from memory that he examined the books of the Internal . Revenue Collector, and that said books showed that another person than defendant had taken out a license to sell whisky; and the court admitted this testimony because the defendant had not produced the revenue license after being served with a subpoena duces tecum. Held, that defendant not being in legal possession of said license could not be forced to produce it, and that such testimony was inadmissible.\n3. —Same—Definition of Examined Copy—Legislative Construction.\nWhile it is not only the examined copy of the internal revenue license which the Internal Revenue Collector could make which would be evidence in local option cases, yet it must be an examined copy as that word has been construed by the authorities, and as such construction was understood by the Legislature when the statute was enacted, allowing such examined copy to be used as evidence. Qualifying Goble v. State, 42 Texas Grim. Rep., 501. Reviewing Thurman v. State, 45 Texas Grim. Rep., 569; Gersteman v. State, 35 Texas Grim. Rep., 318; Lucio v. State, 35 Texas Grim. Rep., 320; Pitner v. State, 37 Texas Grim. Rep., 268.\nAppeal from the County Court of Wood. Tried below before the Hon. J. O. Rouse.\nAppeal from a conviction of violating the local option law; penalty, $100 and sixty days confinement in the county jail.\nThe opinion states the case.\nMounts \u0026 Jones and W. P. Jones, for appellant.—On\nquestion of admitting evidence with respect to internal revenue license: Goble v. State, 42 Texas Crim. Rep., 501.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1208-01",
+    "first_page_order":  430,
+    "last_page_order":  435
+}

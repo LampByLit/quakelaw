@@ -1,0 +1,117 @@
+﻿{
+    "id":  2021287,
+    "name":  "THE LAMAR CORPORATION v. FORD, etc.",
+    "name_abbreviation":  "Lamar Corp. v. Ford",
+    "decision_date":  "1991-09-17",
+    "docket_number":  "Case No. 91-722-SP",
+    "first_page":  "122",
+    "last_page":  "125",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 122"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Bay Cty. Ct.",
+                  "id":  14275,
+                  "name":  "Bay County Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "432 So.2d 656",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9527782
+                                      ],
+                         "year":  1983,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/432/0656-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "89 So. 549",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So.",
+                         "year":  1921,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "82 Fla. 210",
+                         "category":  "reporters:state",
+                         "reporter":  "Fla.",
+                         "case_ids":  [
+                                          1281966
+                                      ],
+                         "year":  1921,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/fla/82/0210-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "324 So.2d 121",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9649413
+                                      ],
+                         "year":  1975,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/324/0121-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  485,
+                     "char_count":  7955,
+                     "ocr_confidence":  0.897,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07304981873460577
+                                  },
+                     "sha256":  "0aad4d4c436d07124489b1e8622ce639f50bcc891bf60118e258f37731524390",
+                     "simhash":  "1:5cf58de21a25949f",
+                     "word_count":  1357
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "THE LAMAR CORPORATION v FORD, etc."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nWILLIAM A. COOPER, JR., County Judge.\nFINAL JUDGMENT\nUpon consideration of the testimony and other evidence presented at the final hearing in this cause, the Court makes the following factual findings.\n1. Brad Gillen, an advertising agent for plaintiff, The Lamar Corporation (“Lamar”) made several trips to “Dee Ford’s Lounge” in late April and early May of 1990 attempting to sell advertising. The lounge is located in a larger building, the other portion of which is occupied by a liquor store named “Miracle Strip Liquors, Inc.” On the outside of the building are the names “Miracle Strip Liquors, Inc.” and “Dee Ford’s.”\n2. On each occasion, Gillen discussed advertising with defendant Chris McConnell, whom Gillen understood to be the manager of the lounge, and with defendant Dee Ford, whom Gillen assumed to be the owner. At no time, however, did Gillen inquire as to the identity of the owner, nor did either defendant advise him that the lounge was actually owned by Miracle Strip Liquors, Inc.\n3. On May 2, 1990, Gillen drew up a standard Lamar contract for the sale of three “posters” to be located in various parts of Panama City. The most prominent lettering on the design was the name “Dee Ford’s” In the poster contract blank for “Customer Name” Gillen wrote “Dee Ford’s.” He also wrote that name in the blank labeled “Advertiser.” Under that line, next to the word “by,” defendant McConnell signed his name and printed it under the signature. Nowhere did McConnell indicate the principal for whom he was signing as agent. The contract called for the three posters to be displayed for the months of June, July and August, 1990, at a cost of $1,200.00 per month.\n4. Upon completing the form, Gillen advised that someone would need to sign the surety agreement on the reverse side. McConnell their took the form into the office where Ford was working and asked him if he wanted McConnell to proceed with the contract. Ford said, “Go ahead and do it.” McConnell then signed on the front and as surety on the back, without indicating any agency in the surety section. This latter action was taken at the direction of Ford.\n5. Lamar then prepared the artwork to depict how the posters would look. Dee Ford approved this artwork later that month by signing the back on a stamped form, over the line labeled “Signature of Advertiser.” Again, no mention was made by either party of the true identity of the advertiser. Lamar continued to assume that it was Dee Ford. In fact, Ford was managing the lounge pursuant to a contract he had entered into with the owner of the lounge, Miracle Strip Liquors, Inc. McConnell’s position was that of assistant manager.\n6. Lamar then prepared an invoice for “Dee Ford’s” and ordered the sheets of poster paper from Independent’s Service Company, Inc., in Hannibal, Missouri. The order was paid for by a check dated June 8, 1990, drawn on the account of “Miracle Strip Licquors [sic], Inc.” and signed by Ford. The check was sent directly to Missouri.\n7. Lamar performed pursuant to the contract by erecting the three billboards on June 7, 1990.\n8. When Lamar’s first payment of $1,200.00, due on June 10, 1990, became thirty days in arrears, Lamar sent Gillen around to inquire of Ford, at which time he was advised by Ford that Ford was only a manager, that Miracle Strip Liquors, Inc. was the owner of the lounge, that Ford was no longer affiliated with the company, and that Gillen should contact a corporate officer named Mr. Graddick. Gillen contacted Graddick, who immediately repudiated the contract and referred Gillen back to Ford. Ford, when contacted again, said that he would take care of it “. . . if and when I can.”\n9. Gillen then advised his boss, Guy Miller, general manager of the local Lamar office, of his difficulty in collecting the debt, but apparently Miller remained unaware of Ford’s true position; i.e., that Ford was not an officer or stockholder in the corporation that actually owned the lounge. Ford then negotiated with Miller to pay for only two of the three boards, for $2,400.00 instead of $3,600.00, none of which was ever paid.\nIt is clear from the evidence presented that both defendants acted as agents for an undisclosed principal. McConnell was an agent of Miracle Strip Liquors, Inc. who failed to disclose this fact to a third party, the plaintiff. Ford, also an agent of Miracle Strip, failed to disclose his agency status in addition to the identity of the principal, allowing the third party to believe that he was in fact the principal. Lamar knew that McConnell was an agent but thought that Ford was the principal, an assumption Ford did nothing to dispel. This is not a case of apparent authority. That doctrine” . . . rests on appearances created by the principal (in this case, Miracle Strip) and not agents who often ingeniously create an appearance of authority by their own acts.” Taco Bell v Zappone, 324 So.2d 121 (Fla. 2d DCA 1975) at 124. There is no evidence in this case that Miracle Strip, not a party to this suit, knew of or ever acquiesced in the acts of either defendant. The statements or acts of an alleged agent cannot bind the principal unless there is evidence showing the principal authorized, assented to, or had knowledge of the acts or statements of the supposed agent. Paige-Detroit Motor Car Company v Pintado, 82 Fla. 210, 89 So. 549 (1921).\nBoth defendants, on the other hand, are liable to plaintiff. Lamar understood it was dealing with an agent in McConnell but thought the principal was Ford. Neither Ford nor McConnell ever bothered to correct this assumption. An agent’s representation that the agent is acting for a principal is not enough to relieve the agent of liability absent notice of the principal’s identity. Robinson \u0026 St. John Advertising and Public Relations, Inc. v Lane, 557 So.2d — (Fla. 1st DCA 1990). “In order for an agent to avoid personal liability on a contract negotiated in his principal’s behalf, he must disclose not only that he is an agent but also the identity of his principal, regardless of whether the third person might have known that the agent was acting in a representative capacity. It is not the third person’s duty to seek out the identity of the principal; rather, the duty to discldse the identity of the principal is on the agent. The disclosure of an agency is not complete for the purpose of relieving the agent from personal liability unless it embraces the name of the principal. . . Furthermore, the use of a trade name is not necessarily a sufficient disclosure of the identity of the principal and the fact of agency so as to protect the agent against personal liability.” Van D. Costas, Inc. v Rosenberg, 432 So.2d 656 (Fla. 2d DCA 1983) at 658 (quoting from 3 Am.Jur. 2d “Agency,” Section 320 (1962)).\nIt is therefore evident from these authorities that, under the law of Florida, both defendants had a duty to disclose to the plaintiff that they were acting for an undisclosed principal, Miracle Strip Liquors, Inc. Their failure to do so renders them individually liable to the plaintiff for failure to perform under the contract, and McConnell perhaps especially so since he also executed the surety agreement. Accordingly, it is\nORDERED AND ADJUDGED that the plaintiff recover from defendants Chris L. McConnell and Dee Ford $2,400.00, together with costs in the sum of $130.74 and attorney’s fees in the sum of $350.00 making a total of $2,880.74, which shall bear interest at the rate of 12% a year from the date of this judgment, for all of which let execution issue.\nDONE AND ORDERED in chambers at Panama City, Bay County, Florida, this 17th day of September, 1991.",
+                                          "type":  "majority",
+                                          "author":  "WILLIAM A. COOPER, JR., County Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Laura Roesch, Esquire, for the plaintiff.",
+                                       "Jim Husbands, Esquire, for defendant, Dee Ford, individually and d/b/a Dee Ford’s Lounge.",
+                                       "Chris McConnell, pro se."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "THE LAMAR CORPORATION v FORD, etc.\nCase No. 91-722-SP\nCounty Court, Bay County\nSeptember 17, 1991\nAPPEARANCES OF COUNSEL\nLaura Roesch, Esquire, for the plaintiff.\nJim Husbands, Esquire, for defendant, Dee Ford, individually and d/b/a Dee Ford’s Lounge.\nChris McConnell, pro se."
+                 },
+    "file_name":  "1406-01",
+    "first_page_order":  142,
+    "last_page_order":  145
+}

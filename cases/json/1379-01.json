@@ -1,0 +1,199 @@
+﻿{
+    "id":  2021382,
+    "name":  "MANCINI v. STATE OF FLORIDA",
+    "name_abbreviation":  "Mancini v. State",
+    "decision_date":  "1991-10-29",
+    "docket_number":  "Case No. 88-102AC10 (County Court Case No. 88-850MM)",
+    "first_page":  "86",
+    "last_page":  "87",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 86"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "469 So.2d 795",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7614395
+                                      ],
+                         "year":  1985,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/469/0795-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "510 So.2d 633",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7581241
+                                      ],
+                         "year":  1987,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/510/0633-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "420 So.2d 862",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9561931
+                                      ],
+                         "year":  1982,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/420/0862-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "528 So.2d 984",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7569757
+                                      ],
+                         "year":  1988,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/528/0984-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "453 So.2d 1102",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7637425
+                                      ],
+                         "year":  1984,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/453/1102-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "100 L.Ed. 83",
+                         "category":  "reporters:federal",
+                         "reporter":  "L. Ed.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "350 U.S. 91",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          12031506
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/350/0091-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "386 So.2d 1191",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9609865
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/386/1191-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "471 So.2d 22",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "year":  1985,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "471 So.2d 32",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7596417
+                                      ],
+                         "year":  1985,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/471/0032-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "514 So.2d 1095",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7581785
+                                      ],
+                         "year":  1987,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/514/1095-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  215,
+                     "char_count":  2376,
+                     "ocr_confidence":  0.886,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07305812037690228
+                                  },
+                     "sha256":  "df41ff17b71b4baa906d01d8cc82f22b1d48abee4b0b31f3d60d9e0ff388a7f4",
+                     "simhash":  "1:a3dc80c41ddc99c6",
+                     "word_count":  388
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before STANTON S. KAPLAN, Circuit Judge."
+                                ],
+                     "parties":  [
+                                     "MANCINI v STATE OF FLORIDA"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nTHIS CAUSE comes before the Court upon the appeal of the judgment of conviction of the Appellant-defendant below.\nThe initial matter this Court must consider is whether the Appellant properly preserved the issues on appeal. In order to preserve an issue for appellate review, specific legal argument or grounds upon which it is based must be presented to the trial Court. Bertolotti v Dugger, 514 So.2d 1095 (Fla. 1987) citing Tillman v State, 471 So.2d 32 (Fla. 1985).\nIn the case at bar, the issue of alleged improper comments made by the prosecutor regarding the appellant’s post-Miranda silence was not preserved for appeal. No objection regarding the improper comments was made at all.\nThe error alleged is not fundamental, therefore in order for this Court to address it, the asserted error must amount to a denial of due process through a denial of a fair trial. Tillman v State, 471 So.2d 22 (Fla. 1985); Ross v State, 386 So.2d 1191 (Fla.1980).\nWhen examining the record in the case at bar, the error alleged does not rise to this level. Reaching the merits, however, the comments were not prejudicial.\nThe issue of whether these failures on counsel’s part amounted to an ineffective assistance of counsel is without merit. The defendant has failed to overcome the presumption that, under the circumstances, the challenged action might be considered sound trial strategy. Michel v New York, 350 U.S. 91, 76 S.Ct. 158, 100 L.Ed. 83.\nThe record reflects the alleged errors could be a legitimate trial strategy that was unsuccessful. See Downs v State, 453 So.2d 1102 (Fla. 1984); Lara v State, 528 So.2d 984 (Fla.3rd DCA 1988); Stewart v State, 420 So.2d 862 (Fla. 1982); Gonzales v State, 510 So.2d 633 (Fla. 3rd DCA 1987); Gordon v State, 469 So.2d 795 (Fla.4th DCA 1985).\nAccordingly, it is hereby,\nORDERED and ADJUDGED that the judgment of conviction is AFFIRMED.\nDONE and ORDERED in chambers, at Broward County Courthouse, 201 S.E. Sixth Street, Fort Lauderdale, Florida, 33301, this 29th day of October, 1991.",
+                                          "type":  "majority",
+                                          "author":  null
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Catherine Keuthan, Chief Assistant Public Defender, for appellant.",
+                                       "Dale Alan Bruschi, Assistant State Attorney, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "MANCINI v STATE OF FLORIDA\nCase No. 88-102AC10 (County Court Case No. 88-850MM)\nSeventeenth Judicial Circuit, Broward County\nOctober 29, 1991\nAPPEARANCES OF COUNSEL\nCatherine Keuthan, Chief Assistant Public Defender, for appellant.\nDale Alan Bruschi, Assistant State Attorney, for appellee.\nBefore STANTON S. KAPLAN, Circuit Judge."
+                 },
+    "file_name":  "1379-01",
+    "first_page_order":  106,
+    "last_page_order":  107
+}

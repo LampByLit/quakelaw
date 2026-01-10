@@ -1,0 +1,82 @@
+﻿{
+    "id":  2020881,
+    "name":  "SALICKRAM v. STATE OF FLORIDA",
+    "name_abbreviation":  "Salickram v. State",
+    "decision_date":  "1991-07-01",
+    "docket_number":  "Case No. CJAP 90-17",
+    "first_page":  "17",
+    "last_page":  "18",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 17"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "373 U.S. 83",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          11716714
+                                      ],
+                         "weight":  3,
+                         "year":  1963,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/373/0083-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  165,
+                     "char_count":  2128,
+                     "ocr_confidence":  0.865,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07304750199722068
+                                  },
+                     "sha256":  "572da65f4aae158e478e575cc1961efb208a44d46deb7830c6e978a58a2d7788",
+                     "simhash":  "1:ed6bf316796d12f8",
+                     "word_count":  350
+                 },
+    "last_updated":  "2024-02-27T22:50:07.903550+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before GARY L. FORMET, SR., Circuit Judge."
+                                ],
+                     "parties":  [
+                                     "SALICKRAM v STATE OF FLORIDA"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nTHE COURT having reviewed the record on appeal and briefs of counsel, dispenses with oral argument herein pursuant to Fla.R.App.P. 9.320, and finds as follows.\nThis appeal is based upon the Appellant’s contention that the State destroyed evidence favorable to the Defendant and in accordance with Brady v Maryland, 373 U.S. 83, 83 S.Ct. 1194, 10 L.Ed.2d 215 (1963), this case should be dismissed.\nThe trial court found that the evidence alleged (a videotape of the Appellant performing field sobriety tests) did exist, was favorable to the Appelant, and was destroyed by the State. The Court denied the Motion to Dismiss on the grounds that the tape was not material and therefore the Appellant was not prejudiced.\nThe only evidence to be presented to the trier of fact by the State was the testimony of the arresting officer and the fact that the Appellant refused to submit to a breathalyzer examination.\nThe trial court held that the videotape was not material because the Appellant could testify as to his performance on the videotape tests.\nThe State appears skeptical of the Appellant’s testimony at the Motion to Dismiss alleging in its answer brief at page 4 “In the instant case, as a result of the unavailability of physical evidence to dispute such a contention, Appellant enjoyed the luxury of characterizing his own performance on the field sobriety tests administered subsequent to his arrest as ‘perfect’.” It is likely the trier of fact would also be skeptical of Appellant’s testimony given his interest in the case. A favorable videotape of his performance would corroborate his testimony, and would therefore be material.\nThis cause is REVERSED AND REMANDED, and the trial court is directed to grant the Appellant’s Motion to Dismiss.\nMotions for re-hearing will not be entertained. The Clerk is directed to issue its mandate forthwith.\nDONE AND ORDERED in chambers at the Orange County courthouse, Orlando, Florida, this 1st day of July, 1991.",
+                                          "type":  "majority",
+                                          "author":  null
+                                      }
+                                  ],
+                     "attorneys":  [
+
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "SALICKRAM v STATE OF FLORIDA\nCase No. CJAP 90-17\nNinth Judicial Circuit, Orange County\nJuly 1, 1991\nBefore GARY L. FORMET, SR., Circuit Judge."
+                 },
+    "file_name":  "1309-01",
+    "first_page_order":  35,
+    "last_page_order":  36
+}

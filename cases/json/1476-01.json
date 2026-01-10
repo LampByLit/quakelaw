@@ -1,0 +1,84 @@
+﻿{
+    "id":  2021324,
+    "name":  "WILSON v. BYRD",
+    "name_abbreviation":  "Wilson v. Byrd",
+    "decision_date":  "1991-11-01",
+    "docket_number":  "Case No. 91-129 AP",
+    "first_page":  "214",
+    "last_page":  "215",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 214"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "472 So. 2d 1145",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7625993
+                                      ],
+                         "year":  1985,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/472/1145-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  161,
+                     "char_count":  1782,
+                     "ocr_confidence":  0.912,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.0730527146563371
+                                  },
+                     "sha256":  "7704492688f471f880f736ce8286d04726494d7d69ac3c0d548051f246d813c7",
+                     "simhash":  "1:0ef9d8b0d85c8db4",
+                     "word_count":  299
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before GOLDMAN, DONNER, MUIR, JJ.",
+                                    "GOLDMAN, and DONNER, JJ., concur."
+                                ],
+                     "parties":  [
+                                     "WILSON v BYRD"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nMUIR, J.\nThis is a landlord-tenant case in which the trial court found an illegal “lock-out” eviction had occurred but denied damages to the tenant because the rent ($300 per month) was at least three months in arrears at the time of the illegal eviction.\nThe tenant appealed the judgment seeking three times the rent ($900) as the minimum statutory damages for the illegal eviction and attorneys’ fees in excess of the $500 awarded by the court below.\nThe main issue for decision is whether the trial court erred in denying the tenant damages by setting off against statutory damages the rents overdue to the landlord.\nThe landlord failed to file a claim or an answer requesting a set-off for his losses. The landlord raised the matter of the back rents due at a trial on the tenant’s claim for damages.\nSection 83.67(4), Fla. Stat., provides that an illegally evicted tenant shall be awarded three times the rent or actual damages, whichever is greater. The minimum damages provided are mandatory and the trial court has no discretion to set off the landlord’s losses against the tenant’s award.\nAs to attorneys’ fees, the trial court set the award without making the findings required by Florida Patient’s Comp. Fund v Rowe, 472 So. 2d 1145 (Fla. 1985).\nAccordingly, the final judgment is REVERSED and this cause REMANDED with instructions to enter judgment in the sum of $900 in favor of the tenant and to reconsider the award of attorneys’ fees according to the requirements of Rowe. REVERSED AND REMANDED.\nGOLDMAN, and DONNER, JJ., concur.",
+                                          "type":  "majority",
+                                          "author":  "MUIR, J."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Cecily Robinson-Duffie, Esquire, for appellant.",
+                                       "Waymon Byrd, pro se."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "WILSON v BYRD\nCase No. 91-129 AP\nEleventh Judicial Circuit, Dade County\nNovember 1, 1991\nAPPEARANCES OF COUNSEL\nCecily Robinson-Duffie, Esquire, for appellant.\nWaymon Byrd, pro se.\nBefore GOLDMAN, DONNER, MUIR, JJ."
+                 },
+    "file_name":  "1476-01",
+    "first_page_order":  234,
+    "last_page_order":  235
+}

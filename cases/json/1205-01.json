@@ -1,0 +1,81 @@
+﻿{
+    "id":  4563880,
+    "name":  "Pink Barnes v. The State",
+    "name_abbreviation":  "Barnes v. State",
+    "decision_date":  "1908-01-29",
+    "docket_number":  "No. 4221",
+    "first_page":  "407",
+    "last_page":  "408",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 407"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "48 Texas Crim. Rep., 576",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          178837
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/48/0576-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  299,
+                     "char_count":  4683,
+                     "ocr_confidence":  0.58,
+                     "pagerank":  {
+                                      "raw":  1.7561810180083797E-07,
+                                      "percentile":  0.7092396120391575
+                                  },
+                     "sha256":  "7017d4e441a58a6975c69ea582bfa3f7df9af0e12e7bf1d120ab51b6e3625f86",
+                     "simhash":  "1:ddbbf154d451d819",
+                     "word_count":  813
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Pink Barnes v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\n—Appellant, under an indictment charging him with assault with intent to murder, was convicted of aggravated assault. Without going into a detailed statement of the facts, the record discloses that on Christmas night appellant was in the saloon of one Sinclair and had some trouble with John Broadnax, during which Broadnax struck him in the face or upon the forehead with a beer bottle, inflicting a rather severe wound, which caused a considerable flow of blood. Shortly afterwards, some distance from that point, and while he was en route home, as he claims, he passed the injured party, John Eaton and two others, and immediately upon hearing the name “John,” or “Johnnie,” he began the assult upon Eaton, inflicting two wounds with a knife.\nAppellant further claims, and the evidence seems rather to justify his contention, that there was no occasion for his attacking John Eaton, but that when he heard the name called, he was under the impression that it was John Broadnax who had recently knocked him down with a beer bottle. The relations between appellant and the assaulted party seem to have been of a friendly character up to the time of the assault. ¡Nothing was said by appellant at the time of the assault, and it may be fairly assumed that he was under the impression that it was his enemy, Broadnax, whom he thought he was assaulting. The jury acquitted of assault with intent to murder, and punished for aggravated assault.\nAmong other suggestions for reversal is the want of sufficient evidence to justify the court in giving a charge on aggravated assault by means of a deadly weapon. This was the only cause of aggravation submitted by the court in the charge. In so far as this matter is concerned, there is no evidence in the record showing that the weapon was of a deadly character. As we understand the record, the only evidence in regard to the size of the weapon is that related by the appellant himself in which he says it was an ordinary two-bladed pocketknife. As to the size of the knife, its deadly character, etc., there is nothing in the record. ¡Nor did any of the witnesses testify that the wounds inflicted were of a serious nature, such as might probábly indicate the deadly character of the weapon. There were two wounds inflicted, from one of which prosecutor says he was quite sore the next morning and was in bed about a week. There is testimony showing, however, that he was out of bed about the third day. Be this as it may, the evidence is not of sufficient cogency to have justified the charge submitting the theory of aggravated assault by means of a deadly weapon. See White’s Ann. Penal Code, secs. 1011 and 1014, for collation of authorities. Also Hext v. State, 48 Texas Crim. Rep., 576; 14 Texas Ct. Rep., 253.\n■ Error is assigned also because the court failed to charge with reference to simple assault. If the weapon used was not of a deadly character, nor the injury inflicted of a serious nature, then simple assault was an issue in the case and should have been charged, and if upon another trial there is a doubt along these lines, the jury should be instructed with reference to simple assault.\nWe deem it unnecessary to discuss the other alleged errors. The judgment is reversed and the cause is remanded.\nReversed and remanded.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Ho brief on file for appellant.",
+                                       "F. J. McCord,, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Pink Barnes v. The State.\nNo. 4221.\nDecided January 29, 1908.\n1. —Assault to Murder—Aggravated Assault.\nSee opinion for facts from which it may be fairly assumed that defendant was under the impression that he was assaulting a person who had just assaulted him and whom he took for the party injured, whereupon the jury found defendant guilty of aggravated assault.\n2. —Same—Charge of Court—Deadly Weapon.\nWhere upon trial for assault with intent to murder, defendant was found guilty of aggravated assault, and the evidence showed that the knife used by defendant was an ordinary two-bladed pocketknife, and there was nothing to show the deadly character of the knife, a charge of the court on aggravated assault by means of a deadly weapon was reversible error.\n3. —Same—Simple Assault—Charge of Court.\nWhere upon trial for assault with intent to murder the evidence raised the issue of a lower grade of offense, and showed that the weapon used was not of a deadly character, nor the injury inflicted of a serious nature, the court should have charged on the law of simple assault.\nAppeal from Criminal District Court of Dallas. Tried below before the Hon. W. W. Helmes.\nAppeal from a conviction of an aggravated assault; penalty, a fine of $25.\nThe opinion states the case.\nHo brief on file for appellant.\nF. J. McCord,, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1205-01",
+    "first_page_order":  425,
+    "last_page_order":  426
+}

@@ -1,0 +1,93 @@
+﻿{
+    "id":  8551697,
+    "name":  "Robert Lee Collier v. State",
+    "name_abbreviation":  "Collier v. State",
+    "decision_date":  "1959-02-11",
+    "docket_number":  "No. 30,431",
+    "first_page":  "534",
+    "last_page":  "536",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 534"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "310 S.W. 2d 97",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10161383
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/310/0097-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "165 Texas Cr. Rep. 583",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2615649
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/165/0583-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  235,
+                     "char_count":  2853,
+                     "ocr_confidence":  0.562,
+                     "pagerank":  {
+                                      "raw":  6.6113029500743052E-08,
+                                      "percentile":  0.4038901495801493
+                                  },
+                     "sha256":  "e8299545aa0daadc93f9d5505b1f8c1f0dc031806e51d990489ac4d6b0d55bd8",
+                     "simhash":  "1:1b01f4e7232b0f10",
+                     "word_count":  470
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Robert Lee Collier v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is possession of marijuana; the punishment, 20 years.\nAppellant entered a plea of guilty, his confession was introduced without objection, and only two questions are presented for review.\nIt is the appellant’s contention that, since he did plead guilty, the state should be limited in the character of proof which was admissible. A few examples are cited for illustration. The witness Revill, a narcotic officer of the city of Dallas, was permitted to testify over objection as to how marijuana is processed for its ultimate use in smoking and that the marijuana which was found in appellant’s possession was ready to be rolled into cigarettes; he further testified that a cigarette when rolled would contain approximately 3 grains of marijuana which would sell for one dollar each, and that the appellant had in his possession sufficient marijuana to manufacture between five and seven hundred cigarettes.\nIt is appellant’s contention that this constituted proof of the extraneous offense that the appellant was also a seller of narcotics. With this contention we do not agree.\nRecently, in Hemmeline v. State, 165 Texas Cr. Rep. 583, 310 S.W. 2d 97, we had before us a similar contention and held that, where an accused had plead guilty to theft of an automobile, it was not error for the state to be permitted to prove that they arrested the appellant because he appeared near the scene of a burglary which they were investigating and also that after his arrest they found a quantity of narcotics in the stolen automobile. In that case, we reviewed the authorities and held that, even though an accused pleads guilty, legal evidence is always admissible to enable the jury to know what punishment should be assessed within the sliding scale of penalty fixed by the statute to the offense charged. We perceive no error in the admission of the proof in question.\nAppellant also complains that the prosecutor in his argument urged the jury to assess a punishment which would inform the appellant and people like him that he could not come to Dallas and possess and deal in marijuana. Upon objection, the court instructed the jury not to consider the word “deal.” We have concluded that it was a logical deduction from the evidence that the appellant possessed sufficient marijuana to make more than 500 cigarettes and that he did not possess the same for his own use.\nFinding no reversible error, the judgment of the trial court is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Thomas K. Bamford and Robert C. Benavides, Dallas, for appellant.",
+                                       "Henry Wade, Criminal District Attorney, Thomas B. Thorpe, Chuck Cabaniss and Merle Flagg, Assistants District Attorney, Dallas, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Robert Lee Collier v. State.\nNo. 30,431.\nFebruary 11, 1959.\nAppellant’s Motion for Rehearing Overruled March 25, 1959.\nThomas K. Bamford and Robert C. Benavides, Dallas, for appellant.\nHenry Wade, Criminal District Attorney, Thomas B. Thorpe, Chuck Cabaniss and Merle Flagg, Assistants District Attorney, Dallas, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1578-01",
+    "first_page_order":  552,
+    "last_page_order":  554
+}

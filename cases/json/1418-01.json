@@ -1,0 +1,172 @@
+﻿{
+    "id":  2020853,
+    "name":  "STATE OF FLORIDA DEPARTMENT OF TRANSPORTATION v. JTC JOINT VENTURE, et al.",
+    "name_abbreviation":  "State of Florida Department of Transportation v. JTC Joint Venture",
+    "decision_date":  "1991-05-21",
+    "docket_number":  "Case No. CL-89-11792-AD",
+    "first_page":  "147",
+    "last_page":  "149",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 147"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "322 So.2d 510",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9661469
+                                      ],
+                         "year":  1975,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "511"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/322/0510-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "538 So.2d 846",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7557193
+                                      ],
+                         "weight":  2,
+                         "year":  1989,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "848"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/538/0846-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "397 So.2d 682",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9564460
+                                      ],
+                         "year":  1981,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/397/0682-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "189 So.2d 481",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9836275,
+                                          9836388
+                                      ],
+                         "year":  1966,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/189/0481-01",
+                                            "/so2d/189/0481-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "188 So.2d 38",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9829402
+                                      ],
+                         "year":  1966,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "43"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/188/0038-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "220 So.2d 378",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9802319
+                                      ],
+                         "year":  1969,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "379-80"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/220/0378-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  346,
+                     "char_count":  4837,
+                     "ocr_confidence":  0.861,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07304286852245054
+                                  },
+                     "sha256":  "90af2a5c9191154b12a585e3ee15c375c22ff5df02bd5d6524e18af9a9d18112",
+                     "simhash":  "1:bee5fd4f76941343",
+                     "word_count":  794
+                 },
+    "last_updated":  "2024-02-27T22:50:07.903550+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "STATE OF FLORIDA DEPARTMENT OF TRANSPORTATION v JTC JOINT VENTURE, et al."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nROBERT M. GROSS, Circuit Judge.\nORDER GRANTING STATE OF FLORIDA, DEPARTMENT OF TRANSPORTATION’S MOTION FOR PARTIAL DIRECTED VERDICT\nThis case came before the Court the week of May 13, 1991 on Defendants’ claims for business damages. All Defendants at trial were tenants in the shopping center located on the property from which parcel 117 was taken.\nConcerning the claim of Barbara Wright, as trustee of Driftwood Florist, Inc., the undisputed evidence was as follows:\nThe date of the taking of parcel 117 was in March, 1990. At the time of the taking, Defendant occupied a space in the shopping center under a lease which expired on December 31, 1990. No construction commenced on the property until January 1, 1991. Therefore, Defendant could have suffered no damages as a result of the taking prior to the time the lease expired. As applied to this Defendant, existing case law limits the recovery of a lessee’s business damages to the terms of the lease in force at the time of the taking. Sallas v State Road Department, 220 So.2d 378, 379-80 (Fla. 1st DCA 1969); see, Pensacola Scrap Processors, Inc. v State Road Department, 188 So.2d 38, 43 (Fla. 1st DCA 1966).\nThe remaining defendants in the case are William D. Byers, Inc., d/ b/a B \u0026 R Barber Shop, Polo’s Gourmet Deli, Inc., d/b/a Two Cousins and Re/Max Jupiter Tequesta, Inc. All three seek business damages caused by the Department of Transportation’s plan to construct a median in existing right of way in the middle of Indiantown Road, directly in front of the shopping center. Defendants contend that the construction of the median will deprive them of access because eastbound cars will no longer be able to turn left directly into the property. Instead, eastbound cars will have to proceed to the next intersection and make a U-turn to access the property. In addition, after the median is constructed, to go east, a car leaving the property will have to travel west to the next intersection and make a U-turn.\nDefendants seek business damages pursuant to section 73.07l(3)(b), Florida Statutes (1989). The general rule is that compensation for damages to a business attributable to the taking of property in condemnation is payable only when authorized by statute. E.g., State Road Department v Bramlett, 189 So.2d 481 (Fla. 1966).\nThe Court finds that the case of Division of Administration v Capital Plaza, Inc., 397 So.2d 682 (Fla. 1981) controls this case. The damages claimed in this case result from a change in the “flow of traffic” which Capital Plaza held to be noncompensable. Moreover, it is the Department of Transportation’s construction of a median in the middle of Indiantown Road and not the taking of the ten foot strip of property which will cause the diminution of traffic flow of which Defendants complain. Defendants argue that “property” within the meaning of section 73.071(3)(b) should be construed broadly enough to include “access rights” to the parcel. However, such a broad construction of the business damage statute is not authorized by Capital Plaza.\nPalm Beach County v Tessler, 538 So.2d 846 (Fla. 1989) does not compel a different result. Tessler was an inverse condemnation case addressing the right of recovery of an owner of land when governmental action substantially diminished the owner’s access to the property. Indeed, the Supreme Court described the “right of access” as a “property right which appertains to the ownership of land.” Id. at 848. The right to be compensated in an inverse condemnation is based on Article X, Section 6(a) and Article I, Section 9 of the state constitution and the Fifth and Fourteenth Amendments of the United States Constitution. Business damages are not part of the constitutionally protected concept of full compensation, but are a creature of statute. Jameson v Downtown Development Authority, 322 So.2d 510, 511 (Fla. 1975). Tessler did not disturb the holding of Capital Plaza regarding the application of the business damage statute to this case. Accordingly, with regard to Defendants’ claim of business damages arising from the construction of the median in Indiantown Road, Plaintiff’s motion for directed verdict is granted. It is\nORDERED AND ADJUDGED that the parties are directed to prepare proposed final judgments in conformity with this Order and with the verdict rendered by the jury on May 16, 1991.\nDONE AND ORDERED in West Palm Beach, Florida, this 21st day of May, 1991.",
+                                          "type":  "majority",
+                                          "author":  "ROBERT M. GROSS, Circuit Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Derick J. Roulhac, District IV Senior Attorney, Department of Transportation, for plaintiff.",
+                                       "Ronald E. Lee, Esquire, for defendants.",
+                                       "Paul A. Lehrman, Esquire, Lehrman \u0026 Denker, P.A., for defendants."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "STATE OF FLORIDA DEPARTMENT OF TRANSPORTATION v JTC JOINT VENTURE, et al.\nCase No. CL-89-11792-AD\nFifteenth Judicial Circuit, Palm Beach County\nMay 21, 1991\nAPPEARANCES OF COUNSEL\nDerick J. Roulhac, District IV Senior Attorney, Department of Transportation, for plaintiff.\nRonald E. Lee, Esquire, for defendants.\nPaul A. Lehrman, Esquire, Lehrman \u0026 Denker, P.A., for defendants."
+                 },
+    "file_name":  "1418-01",
+    "first_page_order":  165,
+    "last_page_order":  167
+}

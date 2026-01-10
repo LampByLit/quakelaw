@@ -1,0 +1,93 @@
+﻿{
+    "id":  8548183,
+    "name":  "David Gonzales v. State",
+    "name_abbreviation":  "Gonzales v. State",
+    "decision_date":  "1959-01-21",
+    "docket_number":  "No. 30,331",
+    "first_page":  "226",
+    "last_page":  "227",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 226"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "293 S.W. 2d 765",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10179608
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/293/0765-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 445",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2461186
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0445-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  199,
+                     "char_count":  2278,
+                     "ocr_confidence":  0.59,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.20585254198217734
+                                  },
+                     "sha256":  "3383606d88c6a40c49a5b138eabf6b5f638970527c3ebfecfe3bf07cf9a206a8",
+                     "simhash":  "1:3f160c94f5274013",
+                     "word_count":  378
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "David Gonzales v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is carrying a pistol; the punishment, a fine of $250.00.\nTrial was before the court without the intervention of a jury.\nOfficer Hill of the Houston police testified that, while on patrol, he observed a Cadillac sitting in the middle of the street blocking traffic and pulled in behind it, that the Cadillac drove off, and he pursued it and brought it to a halt. Appellant, who was the driver and was alone, stated that he had no operator’s license. Hill stated that, at this juncture, he noticed the resemblance of the Cadillac to a description of an automobile which was wanted in an aggrevated assault case and, after calling in to his headquarters, placed the appellant under arrest. He stated that as he and the appellant proceeded to headquarters in the police car he asked the appellant where he carried his pistol, and the appellant replied, “I carry it under the front seat.” As soon as his fellow officer brought the Cadillac to the station, Hill searched the same and found a pistol under the front seat.\nAppellant did not testify or offer any evidence in his own behalf.\nIn brief and argument, appellant contends that the arrest of the appellant was illegal because there is no showing in the record that the place where it occurred was within the corporate limits of the city of Houston, and therefore there was no showing that the officer was within his territorial jurisdiction. A similar contention was recently rejected by this court in Winfield v. State, 163 Texas Cr. Rep. 445, 293 S.W. 2d 765. In Winfield, we called attention to Article 803, Y.A.P.C., which authorizes any peace officer to arrest without a warrant any person found committing certain specified offenses. We here observe that Article 784 (Obstructing public road, street, etc.) is one of “the preceding articles of this Chapter,” as set forth in Article 803, supra.\nFinding the evidence sufficient to support the conviction and no reversible error appearing, the judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "M. Gabriel Nahas, Jr., Houston, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White and Monroe Northrwp, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "David Gonzales v. State.\nNo. 30,331.\nJanuary 21, 1959.\nM. Gabriel Nahas, Jr., Houston, for appellant.\nDan Walton, District Attorney, Thomas D. White and Monroe Northrwp, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1483-01",
+    "first_page_order":  244,
+    "last_page_order":  245
+}

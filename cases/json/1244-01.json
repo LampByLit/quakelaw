@@ -1,0 +1,159 @@
+﻿{
+    "id":  4563896,
+    "name":  "Jim Freeman v. The State",
+    "name_abbreviation":  "Freeman v. State",
+    "decision_date":  "1908-02-12",
+    "docket_number":  "No. 4161",
+    "first_page":  "500",
+    "last_page":  "504",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 500"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "94 S. W. Rep., 462",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "49 Texas Crim. Rep., 417",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4545565
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/49/0417-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "91 S. W. Rep., 791",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "49 Texas Crim. Rep., 219",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4548137
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/49/0219-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "86 S. W. Rep., 1025",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "48 Texas Crim. Rep., 70",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          178776
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/48/0070-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "37 Texas Crim. Rep., 5",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          161382
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/37/0005-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "31 Texas Crim. Rep., 119",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          156057
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/31/0119-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "39 Texas Crim. Rep., 13",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4493685
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/39/0013-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  579,
+                     "char_count":  14179,
+                     "ocr_confidence":  0.599,
+                     "pagerank":  {
+                                      "raw":  5.0683752477395414E-07,
+                                      "percentile":  0.9375826544327488
+                                  },
+                     "sha256":  "f971153c2a5989597fc4063f8d6c735e2f8c8d738ca0501ac2c383c59c555726",
+                     "simhash":  "1:c0cfee702f22da73",
+                     "word_count":  2463
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Jim Freeman v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\n—We deem it unnecessary from the view we take of the record to revise the action of the trial court in refusing application for continuance, as it may not arise upon another trial and should it do so, it will be presented in a different aspect.\nThe case as presented by the State’s evidence is, appellant called at the residence of prosecutrix and took her driving from Santa Anna to Coleman City, nine miles apart. En route and near the edge of Coleman City, he undertook to have carnal intercourse with her and against her protest and resistance; that after making an attempt finally desisted. The prosecutrix, a girl about twenty years of age, made considerable outcry at the time, which was heard at a distance of several hundred yards.\nThe defensive testimony, some of which was elicited from the girl on cross-examination, and much of it from other witnesses, as well as from himself, is substantially as follows: From the prosecutrix, on cross-examination, and by other witnesses, it is shown that they continued their journey from the place of the assault into the town of Coleman City, and remained there for some time; she finally getting out of his buggy and getting into the buggy occupied by her sister and a cousin, a young man named Gray, and appellant only intended to bring her from Santa Anna to Coleman City, when she was to get in the buggy with Gray and her sister and return home with them. They drove around the streets of Coleman City, were seen by parties, and questions were asked of appellant and the girl by one witness in particular, as to what the screaming meant. Appellant replied, in substance, that it was some young people fishing down on the creek. Prosecutrix made no statement in regard to the matter, either to the witness above mentioned or to anybody in Coleman City nor until she and her sister and Gray were en route home when she mentioned the matter to her sister, and also to her mother a day or so after reaching home. In regard to what occurred at the scene of the trouble where the assault was stated to have been committed, appellant states that en route from Santa Anna he was wearing a ring that belonged to another woman. Prosecutrix saw it and induced him to let her take it off of his hand and put it on her finger, and on reaching the designated spot appellant demanded the return of the ring which prosecutrix refused, and that he got into a struggle with her when the screaming occurred, and that she informed him that she had him now in her power and was going to send him to the penitentiary, and similar remarks. Appellant states that this- statement of hers, and her conduct grew out of another fact, to wit: that he had been having intercourse with her and that his employer had informed him that if he did not quit keeping her company, or going with her, he would discharge him, and that he had so informed the prosecutrix, and she took this occasion and advantage of these circumstances to charge him with the assault to rape. That the only purpose for which he had the scuffle with her was to secure the ring. His testimony also goes to the effect that he had had carnal intercourse with her on a number of occasions, and that her conduct towards him was- of that character which justified those with whom they mutually associated in so believing as some of their testimony shows. He also mentioned the fact that upon one occasion, upon the side of a certain mountain, prosecutrix and her sister had an appointment to meet appellant and another party and did meet them, and that he and the boy had intercourse with prosecturix and her sister on that occasion. The sister was under the rule as a witness but was not placed on the stand, nor did she testify in the case to contradict appellant in regard to. this meeting. Prosecutrix was contradicted in other matters which were developed along the line of the testimony. Without going into a statement of the facts further than mentioned, we think this is a sufficient statement of matters necessary to be discussed.\nThe court failed to charge the jury with reference to appellant’s defense; that is, the assault, if any, was made to secure the ring. Exceptions were reserved and a special instruction tendered covering this issue but was refused by the court. The charge is in the following language: “You are further instructed in this case that if you believe from the evidence that at the time of the alleged assault, the defendant, Jim Freeman, was attempting to take from the prosecutrix, Florence McAnelly, a ring that she had which he had turned over to her, which she had refused to turn over to him and in his efforts to secure the said ring, the said witness, Florence McAnelly, halloed and screamed for the purpose of preventing his getting possession of said ring, or because he had taken the ring, or if you have a reasonable doubt as to these matters, it will be your duty to acquit the defendant.” This was appellant’s affirmative defensive theory and one he supported by his testimony. We are of opinion this charge should have been given. It is fundamental in this State that the charge must distinctly set forth the law applicable to the case, and this must be determined by the evidence adduced. See White’s Ann. Code Crim. Proe., secs. 797-798, for collation of authorities; and also section 801 for a great number of cited cases. It is further a fundamental proposition of law that the charge must embrace the law applicable to every phase of the case made by the evidence and every legitimate deduction to be drawn therefrom. See same authorities. The fact that the evidence may be such as the court may believe untrue will not change this rule. Under our system the jury constitute the judges of the facts, credibility of the witnesses and the weight to be given their testimony. It is also equally as well settled \u0027in this State, that the accused is entitled to a distinct and affirmative, and not merely an implied-or negative, presentation of the issues which arise upon his evidence, in order to prevent the jury from ignoring his defense, and to conduct them to a proper verdict if they find his evidence to be true. See White’s Ann. Code Crim. Proc., sec. 801b, where numerous cases will be found collated. In fact, our decisions will not\" show a case to the contrary. Unquestionably if appellant made an assault upon the prosecutrix for the purpose of securing a ring, and not for the purpose of having intercourse with her, there could not possibly be an assault with intent to commit the crime of rape and the jury should have been plainly and affirmatively instructed with regard to this matter.\nThe following charge was given: “You are instructed that any testimony in this case of acts of illicit intercourse between the defendant and Florence McAnelly and any testimony, if any, of the general reputation of Florence McAnelly for virtue and chastity was admitted, not in justification of the offense, if any, but on the issues of the credibility of Florence McAnelly as a witness, the weight, if any, to be given her testimony, and as to whether or not it was necessary that she should be forced to the embraces of the defendant.” We think the exceptions to this charge were also well taken. Evidence impeaching the general reputation of a prosecutrix for chastity is always admissible, not to prove the offense, but to raise a presumption of her consent. See White’s Ann. Penal Code, sec. 1109, for collated authorities. If the reputation of the prosecutrix for chastity was bad, as shown by some of the testimony, and if she had been in the habit of having carnal intercourse with appellant, all such testimony was admissible for the purpose of showing her consent as well as bearing on appellant’s intent in malting the assault upon her, if one was made, and the jury should have been instructed as to the law applicable to this state of the case. There are two fundamental propositions always arising on a charge of rape by force; first, that the accused intended to have intercourse with the woman by using all necessary force to overcome any resistance that she might make; and second, that the woman must withhold her consent. It would make no difference, really, what force the accused party intended to use if the woman consented, nor would he be guilty of assault with intent to rape if she was willing, although she might not yield at first without some sort of force on the part of the accused. The force required by the statute is such as would overcome all resistance she might make if she had not consented. While the evidence of her want of chastity, sexual intercourse with appellant, or her general reputation for want of chastity might be used as a means of impeaching her credibility before the jury, still it serves another and more far reaching purpose favorable to the accused, than that of simply discrediting the veracity of the prosecutrix, for it directly bears upon appellant’s motive or intent as well as upon the question of her consent. If by the previous course of conduct between appellant and the girl, the jury should believe there had been intercourse between them, and appellant was led to believe, or thought at the time he should have made the assault upon her, that she would yield and he did it to obtain intercourse with her consent, and then desisted without accomplishing his purpose, it would tend to solve the question of his intent and the jury should have been instructed with regard to that phase of the case. The charge should not have limited this character of testimony simply to impeaching her credibility. This charge did not present, as they should have been presented, these questions.\nAgain, in regard to the question of aggravated assault, there are two theories upon which aggravated assault might be predicated under the testimony. First, from the standpoint that appellant did not intend to use sufficient force to overcome all resistance on the part of the girl and have intercourse with her, without her consent, as the assault was made not for the purpose of forcing her against her consent, but for the purpose of having intercourse with her with her consent, then the offense would be aggravated assault. Second, if the assault was made for the purpose of securing the ring and not for the purpose of having intercourse with her, either with or without her consent, then he could not be guilty of an assault to rape and the assault could be of no higher magnitude than an aggravated assault. The law of aggravated assault should have been given from both standpoints. The court did not sufficiently submit the issue of aggravated assault, confining it alone to that of assault with intent to have sexual intercourse with her. Under appellant’s theory of the ease, the aggravated assault occurred with reference to securing his ring. If the jury should believe the State’s testimony, then there was an assault to rape, but there might be an aggravated assault if they believed appellant’s testimony and the question of rape was not in the case and there could be no higher offense than aggravated assault. Appellant’s theory was not given at all and the special instruction requested was refused.\nWe have not taken up the other different questions in the case and so far as the charges excepted to, and those requested but refused are concerned, they have, we think, been sufficiently stated in the general view of the case, so that they may be properly submitted upon another trial.\nThe application for a continuance is not discussed, for it may not arise upon another trial.\nFor the errors indicated the judgment is reversed and the cause is remanded.\nReversed and remanded.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Ragsdale, Woodward \u0026 Baker, and Snodgrass \u0026 Dibbrell, for appellant.—On",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Jim Freeman v. The State.\nNo. 4161.\nDecided February 12, 1908.\n1. —Assault With Intent to Commit Rape—Charge of Court—Defensive Theory.\nWhere upon trial for assault with intent to commit rape, the testimony for the defense showed that the only purpose defendant had in having a scuffle with prosecutrix was to secure a ring from her, and not for the purpose of having carnal intercourse, it was error on. part of the court to fail to charge on this theory of the defense.\n2. —Same—Charge of Court—Want of Chastity—General Reputation of Prosecutrix.\nWhere upon trial for assault with intent to commit rape there was evidence attacking the general reputation of the prosecutrix for chastity and also acts of intercourse before the alleged assault, the jury should have been instructed that this testimony had a bearing on the question of the prosecutrix’ consent as well as of the intent of the defendant, and the charge practically limiting the same to the credibility of the prosecutrix, was error.\nIS.—Same—Aggravated Assault—Charge of Court.\nWhere upon trial for assault with intent to commit rape, the evidence showed for the State that the defendant desisted in his efforts to have carnal intercourse; and the testimony for the defense showed that it was not the purpose of defendant to have carnal intercourse with prosecutrix but that he was attempting to take a ring away from her, it was error to limit a charge on aggravated assault to defendant’s intent to have sexual intercourse with prosecutrix, and the court should have charged if the assault was made, to obtain the ring, that such would constitute aggravated assault.\nAppeal from the District Court of Coleman. Tried below before the Hon. John W. Goodwin.\nAppeal from a conviction of assault with intent to commit rape; penalty, two years imprisonment in the penitentiary.\nThe opinion states the case.\nRagsdale, Woodward \u0026 Baker, and Snodgrass \u0026 Dibbrell, for appellant.—On\nquestion of intent: Shields v. State, 39 Texas Crim. Rep., 13. On question of defensive theory, Maxwell v. State, 31 Texas Crim. Rep., 119; Wimbily v. State, 22 Texas Crim. App., 506; Mundine v. State, 37 Texas Crim. Rep., 5; Bollen v. State, 48 Texas Crim. Rep., 70, 86 S. W. Rep., 1025.\nF. J. McCord, Assistant Attorney-General, for the State.\n—On question of charge on aggravated assault: Neill v. State, 49 Texas Crim. Rep., 219; 91 S. W. Rep., 791; Bawcom v. State, 49 Texas Crim. Rep., 417; 94 S. W. Rep., 462."
+                 },
+    "file_name":  "1244-01",
+    "first_page_order":  518,
+    "last_page_order":  522
+}

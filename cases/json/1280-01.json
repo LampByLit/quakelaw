@@ -1,0 +1,81 @@
+﻿{
+    "id":  4563229,
+    "name":  "Carl Curtis v. The State",
+    "name_abbreviation":  "Curtis v. State",
+    "decision_date":  "1908-02-19",
+    "docket_number":  "No. 4287",
+    "first_page":  "607",
+    "last_page":  "608",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 607"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "50 Texas Crim. Rep., 368",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2372762
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/50/0368-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  186,
+                     "char_count":  2463,
+                     "ocr_confidence":  0.589,
+                     "pagerank":  {
+                                      "raw":  6.7708452639942112E-08,
+                                      "percentile":  0.4130138475254735
+                                  },
+                     "sha256":  "6a757605b59f01f479344974a43f20b9780022396f8c95608e5e769fea4ccc31",
+                     "simhash":  "1:f3b6768d2c2ac15b",
+                     "word_count":  432
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Carl Curtis v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BROOKS, Judge.\n—This conviction was for violating the local option law, and the punishment assessed at twenty days in the county jail, and a fine of $75.\nThe only complaint in the record is to the sufficiency of the testimony. The prosecuting witness testified, in substance, as follows: “I went to appellant and asked him if he knew where we could get some beer. He said he would see about it. He went away, and was gone for sometime, and returning said he could let us have it. I, together with one of the boys and appellant went down to the express office. I paid appellant for the beer about $13. It was a barrel of beer. We took it to Patrick’s coldstorage and stored it there. We drank some of it then and afterwards drank all. Yes, I think it was intoxicating. This was in Parker County, Texas.” There was no issue in this case as to the intoxicating character of the beer; appellant’s sole insistence being that the statement by the prosecuting witness that he thought the beer was intoxicating was not sufficient. We hold same is. It is always an opinion as to whether a given liquid is intoxicating, and where the witness says, “I think the beer was intoxicating,” he thereby gives his opinion to the effect that it was intoxicating. Certainly, if a witness thinks it is intoxicating that is bound to be his opinion that it is intoxicating. Furthermore, as stated, there was no issue made as to the beer being a non-intoxicant, and there could be no cavil over the sufficiency of the evidence.\nThe judgment, therefore, is affirmed.\nAffirmed.",
+                                          "type":  "majority",
+                                          "author":  "BROOKS, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Hood \u0026 Shadle, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Carl Curtis v. The State.\nNo. 4287.\nDecided February 19, 1908.\nlocal Option—Opinion of Witness—Intoxicants.\nUpon trial for a violation of the local option law, where the State’s witness testified that he thought the beer alleged to have been sold was intoxicating, the evidence was suflSeient to prove the intoxicating qualities of the beverage; besides there was no issue made upon this phase of the case.\n. Appeal from the County Court of Parker. Tried below before the Hon. E. L. Stennis.\nAppeal from a conviction of a violation of the local option law; penalty, $75 and twenty days confinement in the county jail.\nThe opinion states the case.\nHood \u0026 Shadle, for appellant.\n—On question of intoxicants: Potts v. State, 50 Texas Crim. Rep., 368; 17 Texas Ct. Rep., 226; Racer v. State, 7 Texas Ct. Rep., 1020; Faucett v. State, 7 Texas Ct. Rep., 1020.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1280-01",
+    "first_page_order":  625,
+    "last_page_order":  626
+}

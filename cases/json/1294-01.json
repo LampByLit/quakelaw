@@ -1,0 +1,96 @@
+﻿{
+    "id":  2021318,
+    "name":  "CITIBANK, N.A. v. MORIRA",
+    "name_abbreviation":  "Citibank, N.A. v. Morira",
+    "decision_date":  "1991-09-06",
+    "docket_number":  "Case No. 91-022AP",
+    "first_page":  "4",
+    "last_page":  "5",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 4"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "430 So.2d 13",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9516021
+                                      ],
+                         "year":  1983,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/430/0013-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "124 So.2d 708",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9874272
+                                      ],
+                         "year":  1960,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/124/0708-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  203,
+                     "char_count":  2490,
+                     "ocr_confidence":  0.878,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07305213547199084
+                                  },
+                     "sha256":  "1b3fa3d18143b5a9271e68f827319ea610180210803cf20ff16d3e3bbc9e16de",
+                     "simhash":  "1:53e7755e7852bc81",
+                     "word_count":  400
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before S. SHAPIRO, ROBINSON, POSTMAN, JJ."
+                                ],
+                     "parties":  [
+                                     "CITIBANK, N.A. v MORIRA"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nPER CURIAM.\nAppellant, Citibank, N.A., filed suit in the County Court of Dade County, seeking recovery of sums charged to appellee’s Visa credit card issued by Appellant. Appellee moved to change venue to Palm Beach County contending that that county was his place of residence. The lower court granted appellee’s motion. For the reasons set forth herein, that ruling is reversed.\nAfter suit was instituted and appellee served, appellee filed a verified motion to dismiss and for change of venue. The motion contains the assertion that appellee’s residence address is 14598 Halter Road, West Palm Beach, Palm Beach County, Florida, and has been since October, 1988. Based on this bald assertion, the lower court granted appellee’s motion and ordered venue changed to Palm Beach County.\nSection 47.011, Fla. Stats., provides, in part, as follows: “Actions shall be brought only in the county where the defendant resides, where the cause of action accrued, or where the property in litigation is located.”\nIn Florida, the election of venue rests solely with the plaintiff. Although it may be more convenient to the defendant and possibly to the plaintiff that an action be prosecuted in another county or circuit, nevertheless, the election rests with the plaintiff and cannot be dictated by the defendant. Greyhound Corp. v Rosart, 124 So.2d 708 (Fla. 3rd DCA 1960).\nIn the instant case, appellant alleged that appellee breached its contract with appellant by failing to make required payments. For venue purposes in a contract action, a cause of action accrues where the contract is breached. If the breach alleged is the failure to make payment due on the contract, the cause of action accrues where performance of the act of payment was to occur. Orange Blossom Ent., Inc. v Brumlik, 430 So.2d 13 (Fla. 5th DCA 1983).\nSince appellee’s verified motion in no way negates or brings into question the validity of appellant’s choice of venue, the lower court was clearly incorrect in granting appellee’s motion. Based on the foregoing, the trial court’s transfer of venue from Dade County to Palm Beach County was error. Accordingly, said matter is ordered transferred back to Dade County for further proceedings.\nREVERSED AND REMANDED.",
+                                          "type":  "majority",
+                                          "author":  "PER CURIAM."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Carol E. Chloupek, Esquire, for appellant.",
+                                       "Max Goldfarb, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "CITIBANK, N.A. v MORIRA\nCase No. 91-022AP\nEleventh Judicial Circuit, Dade County\nSeptember 6, 1991\nAPPEARANCES OF COUNSEL\nCarol E. Chloupek, Esquire, for appellant.\nMax Goldfarb, for appellee.\nBefore S. SHAPIRO, ROBINSON, POSTMAN, JJ."
+                 },
+    "file_name":  "1294-01",
+    "first_page_order":  24,
+    "last_page_order":  25
+}

@@ -1,0 +1,152 @@
+﻿{
+    "id":  8547567,
+    "name":  "Isaih Marks v. State",
+    "name_abbreviation":  "Marks v. State",
+    "decision_date":  "1958-11-26",
+    "docket_number":  "No. 30,126",
+    "first_page":  "167",
+    "last_page":  "169",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 167"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "42 S.W. 2d 1026",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10282392,
+                                          10282413
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/42/1026-01",
+                                            "/sw2d/42/1026-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "118 Texas Cr. Rep. 182",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5192281
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/118/0182-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "118 Texas Cr. Rep. 132",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5195106
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/118/0132-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "57 S.W. 2d 111",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10233035,
+                                          5213910
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/57/0111-01",
+                                            "/tex-crim/123/0016-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "123 Texas Cr. Rep. 16",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5213910
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/123/0016-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "42 S.W. 2d 1026",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10282392,
+                                          10282413
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/42/1026-01",
+                                            "/sw2d/42/1026-02"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  257,
+                     "char_count":  3766,
+                     "ocr_confidence":  0.582,
+                     "pagerank":  {
+                                      "raw":  4.5184616951709571E-08,
+                                      "percentile":  0.2834082218693059
+                                  },
+                     "sha256":  "f44a0675bd93735a94e3f097abb0f2853c9b60efbb5869dd67bb3229690af82b",
+                     "simhash":  "1:632ec882a6771f7e",
+                     "word_count":  624
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Isaih Marks v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Judge.\nThis is a conviction for the offense of forgery by endorsement, as denounced by Art. 992, P.C., with punishment assessed at two years in the penitentiary.\nThe question for determination is whether the allegation of the indictment is sufficient to allege forgery by endorsement.\nThe difficulty arises from the fact that the indictment alleges the forgery by appellant of the alleged-instrument set out therein and commonly known as a pension check, drawn against the treasurer of this state and payable to Tamer \"Williams and bearing the official signature of the State Treasurer and that of the Comptroller of Public Accounts.\nImmediately following the description of the instrument there appears in the indictment the following:\n“ENDORSED ON THE BACK: Tamer Williams, said endorsement being made wilfully, fraudulently and unlawfully, and with intent to injure and defraud, and purported to be a genuine signature, but was and is false * *\nAll the evidence shows that the pension check was in all things valid, bearing the true and genuine signatures of the makers thereof.\nThe allegation in the indictment, then, that appellant made the check is not sustained by the facts. The facts are to the exact contrary. The allegation as to the endorsement of the name of the payee on the back of the check goes no further than to allege that the name was forged thereon.\nThere is no allegation that appellant forged that endorsement. Such an allegation would be necessary in order to convict appellant therefor.\nThe case of Landrum v. State, 118 Texas Cr. Rep. 182, 42 S.W. 2d 1026, appears to be in point. In that case the check was valid, having been written by the accused. It was payable to •“Cash.” The indictment charged, however, that the accused •forged the check. The conviction was for forging the name of E. L. Henry as an endorsement on the back of the check, the allegation as to the endorsement being only: “On back thereof, E. L. Henry.”\nIn holding such allegation insufficient to charge forging by endorsement, we said, in that case:\n“There are no averments in the indictment which make it plain that it was the purpose and intent of the pleader to charge the forgery of said endorsement.”\nThe conviction was reversed and prosecution ordered dismissed for that reason.\nWillson’s Criminal Forms, 6th Edition, Sec. 1263, p. 275, suggests a form to be used in charging forgery by endorsement of a true and genuine instrument. Chief among the requirements there set forth is that there must be an allegation that the accused forged the endorsement.\nThe indictment in the instant case being insufficient in the particular pointed out, the judgment is reversed and the prosecution is ordered dismissed.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Judge."
+                                      },
+                                      {
+                                          "text":  "WOODLEY, Judge,\n(dissenting).\nThe indictment cannot be recommended as a model form but, considered in its entirety, should be held sufficient, the allegation that appellant made a false instrument in writing purporting to be the act of another referring to the forged endorsement of the name of the payee of the Treasury warrant.\nHancock v. State, 123 Texas Cr. Rep. 16, 57 S.W. 2d 111, is in point and under its holding the trial court did not err in overruling the motion to quash the indictment.\nLandrum v. State, 118 Texas Cr. Rep. 132, 42 S.W. 2d 1026, cited in the majority opinion is distinguished by the absence of any allegation that the endorsement was false or forged.\nI respectfully dissent.",
+                                          "type":  "dissent",
+                                          "author":  "WOODLEY, Judge,"
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "W. M. Hilliard, Caldwell, and Charles C. Smith, Jr., Cameron, for appellant.",
+                                       "John M. Barron, County Attorney, David B. Cofer, Jr., Assistant County Attorney, Bryan, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Isaih Marks v. State.\nNo. 30,126.\nNovember 26, 1958.\nAppellant’s Motion for Rehearing Overruled January 17, 1959.\nW. M. Hilliard, Caldwell, and Charles C. Smith, Jr., Cameron, for appellant.\nJohn M. Barron, County Attorney, David B. Cofer, Jr., Assistant County Attorney, Bryan, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1436-01",
+    "first_page_order":  185,
+    "last_page_order":  187
+}

@@ -1,0 +1,213 @@
+﻿{
+    "id":  4559082,
+    "name":  "Hut Spicer v. The State",
+    "name_abbreviation":  "Spicer v. State",
+    "decision_date":  "1907-06-26",
+    "docket_number":  "No. 3622",
+    "first_page":  "177",
+    "last_page":  "182",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 177"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "36 S. W. Rep., 88",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "37 Texas Crim. Rep., 441",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          161285
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/37/0441-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "44 S. W. Rep., 841",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "39 Texas Crim. Rep., 15",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4494911
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/39/0015-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "34 Texas Crim. Rep., 117",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4483146
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/34/0117-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "29 S. W. Rep., 478",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "weight":  2,
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "44 S. W. Rep., 1091",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "8 S. W. Rep., 463",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "39 Texas Crim. Rep., 80",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4493349
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/39/0080-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "34 Texas Crim. Rep., 117",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4483146
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/34/0117-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "29 S. W. Rep., 478",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "44 S. W. Rep., 1091",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "36 S. W. Rep., 88",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  1
+                     },
+                     {
+                         "cite":  "37 Texas Crim. Rep., 441",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          161285
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/37/0441-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "44 S. W. Rep., 841",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  1
+                     },
+                     {
+                         "cite":  "39 Texas Crim. Rep., 15",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4494911
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/39/0015-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  543,
+                     "char_count":  15083,
+                     "ocr_confidence":  0.563,
+                     "pagerank":  {
+                                      "raw":  6.5990499469233512E-07,
+                                      "percentile":  0.9617099298067184
+                                  },
+                     "sha256":  "35178ac312f90272d649ba86c2a0b837e99614e3a14d1429ed4a86aa4b95aa4f",
+                     "simhash":  "1:b0a43e488243a101",
+                     "word_count":  2615
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Hut Spicer v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\nAppellant was convicted of forgery, his punishment being assessed at three years confinement in the penitentiary.\nThe indictment contained two counts, the first charging forgery of the following instrument:\n“Abilene, Texas, Jan. 10th, 1907. No.....\n“The Citizens National Bank of Abilene.\n“Pay to Hut Spicer, or order, $15 (fifteen dollars)..........Dollars.\n“W. P. Caats, Abilene, Texas.”\nThe second count was for passing the same instrument with the further statement endorsed on the back:\n“Abilene, Texas, Jan. 10th, 1907. No....\n“The Citizens National Bank of Abilene,. Texas.\n“Pay to Hut Spicer, or order, $15 (fifteen dollars)..........Dollars.\n“W. P. Caats, Abilene (endorsed on back), Hut Spicer, Abilene.”\nThe conviction was under the first count for forgery. Motion in arrest of judgment was urged because the instrument was not endorsed and therefore not such a valid instrument as constituted the basis of forgery. This position is not correct. It is not necessary to constitute forgery that the instrument be a full and complete one; if it was complete so far as the maker is concerned, it is a sufficient basis for a charge on forgery.\nIt was contended below and urged here that there was a variance, first, as between the name W. P. Caats, signed to the instrument, and the name W. P. Coats intended to be signed. The other question of variance arises under the contention that the name Spicer appears to be Spice. There was testimony introduced in regard to both issues pro and con. The question was submitted as an issue to the jury for their decision as to the variance, and this was correct, in so far as the supposed variance between Spicer and Spice is concerned under the facts. See Nichols v. State, 39 Texas Crim. Rep., 80; 44 S. W. Rep., 1091. As to the supposed variance in the names of Caats and Coats, there is nothing in the contention. The precise question here raised was decided adversely to appellant in Davis v. State, 34 Texas Crim. Rep., 117; 29 S. W. Rep., 478. The two cases cited, supra, Nichols and Davis, are decisive of these questions adversely to appellant.\nThis portion of the charge is criticised: \"If the attorneys for the defendant or the attorney for the State during the argument of this case made any remarks or statements as to the defendant or any witness, you will not consider any such remarks, if any, as evidence of any fact in the case. Nor shall you consider same for any purpose whatsoever unless same was justified by the evidence or reasonable deductions therefrom.” The right of the defendant to be represented by counsel and be heard by counsel and by himself, is a right guaranteed by the Constitution, set forth in the Bill of Rights, and the court could not bar the accused of this right but should afford ample opportunity for his assertion of the right, and should be careful not to infringe this right in remarks or in a charge to the jury. See Roe v. State, 25 Texas Crim. App., 33; 8 S. W. Rep., 463, for a discussion of this subject. But an inspection of the charge by the court, in our judgment, does not show an infringment of the right of appellant. It only informs the jury that the remarks of counsel should not be considered by them as evidence of any fact in the case, nor for any purpose unless^ such argument or remark was justified by the evidence or reasonable deductions therefrom. We are of opinion that this was not calculated to impress the jury with the fact that the legitimate argument of appellant’s attorneys could not be considered by them. It is a correct statement, we think, that the argument shall not be considered evidence of a fact. But, as stated by the court, it is the deductions from the facts; that is, they were authorized to consider these arguments or remarks where justified by the evidence or deductions from the evidence.\nWe are of opinion that the evidence is sufficient. Appellant carried the forged check to the witness Clark, and stated that he secured it from Coats, a ranchman, who lived north of Abilene. Coats testified he did not sign the note or authorize his name signed to it. If it was intended to sign the name of Coats, of course, appellant knew that he had no such authority, and he knew that Coats had not signed it. If it was the name of a fictitious person, appellant knew that it was a forgery, because he stated that it was the signature of Coats. We are of opinion that this is sufficient evidence to show that this was a forgery. His contention was that he was drunk at the time, and so drunk that if he made or passed the instrument he had no recollection of it. This question was submitted to the jury by proper instruction. It may be further stated that shortly after passing the instrument, and during the same day, or that night, appellant left Abilene, going east on the T. \u0026\u0027 P. Railway, and was arrested in Collin County.\nAs the case is presented, we are of opinion there are no such errors in the record as would require a reversal of the judgment, and it is, therefore, affirmed.\nAffirmed.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      },
+                                      {
+                                          "text":  "ON REHEARING.\nDecember 4, 1907.\nDAVIDSON, Presiding Judge.\nWe affirmed this judgment at the recent Austin term. Among other grounds of the motion for rehearing appellant insists that we are in error in affirming the judgment wherein we held the evidence was sufficient. Upon a further and more critical examination of the record we are led to believe this contention is sound.\nThe check declared upon was a forgery. The question here is, was appellant guilty of the forgery ? If appellant committed the forgery, or if he was present and aided or assisted or advised another to write the instrument, he would be guilty. The State relied, as we now understand the record, mainly, if not almost exclusively, upon the testimony of experts in regard to handwriting. The evidence shows that appellant carried the instrument to the witness, Clark, and asked him to cash it. During the conversation between appellant and Clark, appellant told him that the instrument was signed by Coats. George W. P. Coats was placed upon the stand and testified that he did not sign the instrument or authorize his name to be placed to the document. It seems there were other people in that section bearing the name of Coats. However, it is shown that appellant stated to Clark that it was the Coats who lived north of Abilene and was a ranchman. No other man by the name of Coats was introduced as a witness. Coats stated the signature to the instrument was not in his handwriting. Appellant denied under oath that he signed or executed the instrument; denied all knowledge of the instrument; denied even any recollection of having the instrument or having passed it; that, he was drunk during the evening and had no recollection of the occurrence whatever; but he.states positively that he did not sign the name of Coats, and that the signature to the instrument was not in his handwriting. At the time appellant passed the instrument to Clark he wrote his name across the back of it. Five experts, in regard to handwriting, were introduced; after qualifying themselves, some of them stated that appellant’s handwriting as shown by his endorsement on the instrument was not the same as that in the body of the instrument; some of them testified that there was a similarity between the two, and two or three of them testified that in their opinion the same man that wrote appellant’s name on the back wrote the body of the instrument. This is about the substance of the case so far as the execution of the instrument is concerned.\nAppellant was convicted of forgery and not of passing a forged instrument. Before appellant could be convicted of forgery it must be shown \"that he either himself wrote the instrument or was a principal in some way connected with the execution. This, under the statute, cannot be done alone by comparison of the handwriting where the party denies the instrument under oath. Article 794 of the Code of Criminal Procedure, is as follows: “It is competent in every case to give evidence of handwriting by comparison made by experts or by the jury; but proof by comparison only shall not be sufficient to establish the handwriting of a witness who denies his signature under oath.” The evidence on the part of the experts, in regard to the handwriting, is about equally balanced that the same party who wrote appellant’s name on the back of the instrument wrote the body of the instrument, but if all of them had testified that in their opinion the handwriting was the same, it would not have been sufficient, under this statute, if this was the only evidence, because the statute says it would not be sufficient. There must be other evidence in order to show that appellant wrote the instrument. That he passed the instrument is conclusively shown by Clark; that appellant stated that it was a check given by Coats is testified to by Clark. It was shown with reasonable certainty that the instrument was a forgery by somebody. The fact of its being in appellant’s possession and the divided testimony of the experts in regard to the handwriting constitutes the State’s case, together with the further fact that Clark states appellant informed him that it was a check given by Coats.\nThere are some other questions in the case on very close lines not discussed in the former opinion; one was with reference to the action of the court examining a witness and the manner of it. It is contended this was error, especially in view of the fact and manner of the court in examining the witness. As we have said heretofore in other cases, the court should avoid this course of conduct. In some cases it may not be of sufficient importance to reverse the judgment, while in others it may be. Tor a discussion of these matters see Hopperwood v. State, 39 Texas Crim. Rep., 15; 44 S. W. Rep., 841, and Harris v. State, 37 Texas Crim. Rep., 441; 36 S. W. Rep., 88.\nAnother matter is urged, to wit: the action of the district attorney asking the witness in regard to the confessions of appellant. The matter in substance, as shown by the bill, is about as follows: When the officer was placed on the stand to lay a predicate for the introduction of the confessions, the jury was retired; after hearing the matter the court decided the confessions were inadmissible; that the jury were returned to the court room and the district attorney proceeded to ask the witness again in regard to the confessions of appellant after the court’s prior ruling excluded it, forcing the appellant to object in the presence of the jury to such conduct. This character of conduct should not be permitted. See Alexander v. State, 21-Texas Crim. App., 406. This may have had a serious bearing upon the minds of the jury, leading them to believe that appellant had made confessions and he was afraid to let the jury know the facts in regard to same. This will not arise upon another trial we apprehend, by reason of the late statute prohibiting such confessions unless reduced to writing, even if warning has been given.\nAfter a more careful revision of the record, and the suggestions in regard to the matters urged pro and con, we are led to believe that the former opinion was .erroneous in affirming this judgment in regard to the question of forgery.\nThe motion for rehearing is granted, and the judgment is reversed and the cause is remanded.\nReversed and remanded.\nHenderson, Judge, absent.\n[Motion for rehearing granted December 4, 1907.—Reporter.]",
+                                          "type":  "rehearing",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Hardwicke \u0026 Hardwicke, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-G-eneral, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Hut Spicer v. The State.\nNo. 3622.\nDecided June 26, 1907.\n1. —Forgery—Motion in Arrest of Judgment—Indictment—Endorsement.\nIn a prosecution for forgery it is not necessary to constitute this offense that the alleged forged instrument must be a full and complete one; if it be complete so far as the maker is concerned it is a sufficient basis for a charge on forgery, and the objection that the same bore no endorsement was untenable in a motion in arrest of judgment.\n2. —Same—Variance—Name of Party Injured. 0\nWhere upon trial for forgery the issue of variance in the name of the party injured was properly submitted to the jury, who found against defendant on the evidence submitted, there was no error. Following Nichols v. State, 39. Texas Grim. Rep., 80; 44 S. W. Rep., 1091; Davis v. State, 34 Texas Grim. Rep., 117; 29 S. W. Rep., 478.\n3. —Same—Charge of Court—Right to he Heard hy Counsel\nWhere upon trial for forgery, the court charged the jury that the remarks of counsel should not be considered by them as evidence of any fact in the case, nor for any purpose unless such arguments or remarks were justified by the evidence or a reasonable deduction therefrom, the same was not calculated to impress the jury with the fact that the legitimate argument of defendant’s attorney could not be considered by them.\n4. —Same—Comparison of Handwriting—Signature of Instrument.—Experts. Where upon trial for forgery the defendant positively denied under oath, that the\nsignature to the alleged forged instrument was made by him, and in his handwriting, and it was not shown that either he himself wrote the instrument or was the principal in some way connected with its execution, he could not be convicted under the statutes, article 749, Code Criminal Procedure, of forgery by evidence resting alone upon a comparison of the handwriting by testimony of experts; but other evidence was required to show that defendant wrote the instrument, and the passing of the same is not sufficient to sustain a conviction of forgery.\n5. —Same—Examination of Witnesses hy Court.\nSee opinion with reference to the practice of the court examining witnesses in the trial of criminal cases.\n6. —Same—Practice—Examination of Witnesses hy State’s Counsel.\nWhere upon trial for forgery the question of defendant’s confession was presented to the court by counsel, while the jury was retired, and the court ruled that there was not a sufficient predicate for the introduction of such testimony, it was improper, after the jury was returned, for State’s counsel to propound questions to the witnesses with reference to said confession, and causing defendant’s counsel to object in the presence of the jury. Following Alexander v. State, 21 Texas Grim. App., 406.\n7. —Same—Confessions Must he in Writing.\nUnder the late statutes, confessions cannot be introduced unless reduced to writing, even if warning has been given.\nAppeal from the District Court of Taylor. Tried below before the Hon. J. H. Calhoun.\nAppeal from a conviction of forgery; penalty, three years imprisonment in the penitentiary.\nThe opinion states the case.\nHardwicke \u0026 Hardwicke, for appellant.\nOn question of conduct of State’s counsel in propounding questions to witnesses: Alexander v. State, 21 Texas Crim. App., 406. On question of variance: Davis v. State, 34 Texas Crim. Rep., 117; 29 S. W. Rep., 478. On question of court interrogating witness: Hopperwood v. State, 39 Texas Crim. Rep., 15; 44 S. W. Rep., 841; Harris v. State, 37 Texas Crim. Rep., 441; 36 S. W. Rep., 88.\nF. J. McCord, Assistant Attorney-G-eneral, for the State."
+                 },
+    "file_name":  "1134-01",
+    "first_page_order":  195,
+    "last_page_order":  200
+}

@@ -1,0 +1,135 @@
+﻿{
+    "id":  8552285,
+    "name":  "Paul Ray Deming, alias Paul Demming v. State",
+    "name_abbreviation":  "Deming v. State",
+    "decision_date":  "1959-02-25",
+    "docket_number":  "No. 30,388",
+    "first_page":  "592",
+    "last_page":  "593",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 592"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "198 S.W. 309",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10317556
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/198/0309-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "82 Texas Cr. Rep. 154",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "194 S.W. 145",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8250229
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/194/0145-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "80 Texas Cr. Rep. 652",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4732771
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/80/0652-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "307 S.W. 2d 954",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10182691
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/307/0954-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "165 Texas Cr. Rep. 401",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2614280
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/165/0401-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  195,
+                     "char_count":  2486,
+                     "ocr_confidence":  0.567,
+                     "pagerank":  {
+                                      "raw":  1.6343475431493036E-07,
+                                      "percentile":  0.6899548969843415
+                                  },
+                     "sha256":  "904d8444462afdc0acf777a311f18edd20c4555a9586dfd0e079ff8a7d8ed7d9",
+                     "simhash":  "1:fb0a272689e5c37c",
+                     "word_count":  422
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Paul Ray Deming, alias Paul Demming v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BELCHER, Judge.\nThe conviction is for burglary; the punishment, five years.\nThe record on appeal reflects that appellant gave notice of appeal on November 13, 1958 during the term of court at which he had been convicted.\nThe record further reflects that the appellant is at large on an appeal bond approved and filed during the term of court at which notice of appeal was given.\nAn appeal bond entered into during the term of court at which notice of appeal is given does not comply with the statute, Art. 830, Vernon’s Ann. C.C.P., and does not confer jurisdiction upon this court to enter any order other than to dismiss the appeal. McCombs v. State, 165 Texas Cr. Rep. 401, 307 S.W. 2d 954.\nThe appeal is dismissed.\nOpinion approved by the Court.\nON APPELLANT’S MOTION TO REINSTATE APPEAL\nWOODLEY, Judge.\nSupplemental transcript has been filed which, as we understand it, certifies that appellant entered into recognizance, with Tom G. Smith and Sam Sausley as sureties, because there was entered in the minutes the appeal .bond filed on November 15, 1958, bearing the certification of the sheriff of Dallas County that the sureties whose names are signed thereto were solvent.\nThe certification by the clerk that such instrument was a recognizance is not deemed a sufficient substitute for showing that the sureties appeared in open court and bound themselves for the defendant’s appearance, as required by Arts. 816 and 817 C.C.P. “Recognizance” is defined in Art. 268 C.C.P.\nAn appeal bond filed and copied in the minutes during the term complies with neither Art. 817 nor 818 C.C.P. and confers no jurisdiction upon this court.\nThe necessity of the sureties upon a recognizance on appeal entering into the undertaking before the court is pointed out in Bennett v. State, 80 Texas Cr. Rep. 652, 194 S.W. 145, and Dickey v. State, 82 Texas Cr. Rep. 154, 198 S.W. 309.\nWe recognize the rule stated in the Dickey case, that where the appellant and his sureties appear in open court and enter into recognizance the fact that the sureties sign the recognizance so taken would not change the recognizance to a bail bond.\nThe rule has no application here for there is no showing that the sureties came into open court.\nThe motion to reinstate the appeal is overruled.",
+                                          "type":  "majority",
+                                          "author":  "BELCHER, Judge. WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Iola Barron, Bryan, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Paul Ray Deming, alias Paul Demming v. State.\nNo. 30,388.\nFebruary 25, 1959.\nMotion to Reinstate Appeal Overruled April 1, 1959.\nIola Barron, Bryan, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1592-01",
+    "first_page_order":  610,
+    "last_page_order":  611
+}

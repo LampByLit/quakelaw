@@ -1,0 +1,123 @@
+﻿{
+    "id":  4558610,
+    "name":  "Juan Cervantes v. The State",
+    "name_abbreviation":  "Cervantes v. State",
+    "decision_date":  "1907-11-13",
+    "docket_number":  "No. 3759",
+    "first_page":  "82",
+    "last_page":  "84",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 82"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "36 Ind., 536",
+                         "category":  "reporters:state",
+                         "reporter":  "Ind.",
+                         "case_ids":  [
+                                          1445104
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/ind/36/0536-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "54 Cal., 527",
+                         "category":  "reporters:state",
+                         "reporter":  "Cal.",
+                         "case_ids":  [
+                                          1918312
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/cal/54/0527-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "56 Cal., 119",
+                         "category":  "reporters:state",
+                         "reporter":  "Cal.",
+                         "case_ids":  [
+                                          2270281
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/cal/56/0119-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "169 Pac., 1063",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "P.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "137 Cal., 220",
+                         "category":  "reporters:state",
+                         "reporter":  "Cal.",
+                         "case_ids":  [
+                                          2083173
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/cal/137/0220-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  300,
+                     "char_count":  4833,
+                     "ocr_confidence":  0.581,
+                     "pagerank":  {
+                                      "raw":  1.2779390867303927E-07,
+                                      "percentile":  0.6162700991447764
+                                  },
+                     "sha256":  "ff12b97a5f8bdce75c85ac2112e42de5d2d0e6a32ffcb041395c59af46188822",
+                     "simhash":  "1:8e7344dcab561983",
+                     "word_count":  823
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Juan Cervantes v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\nThis conviction was for manslaughter, the punishment being assessed at five years in the penitentiary.\nThe witness Trevino was used as a witness for the State, and testified among other things that he was standing on the gallery of his home near the defendant and deceased on the occasion of their meeting at the time of the killing, and heard the deceased say to the defendant, “ You damned Mexican son-of-a-bitch, I am going to kill you”; that for the purpose of discrediting this statement of the witness, the State introduced T. H. Ligón, who was a member of the grand jury that investigated the circumstances of the homicide. Ligón was asked whether Trevino made such statement before the grand jury, and further as to what statement Trevino did make before that body. Ligón answered in substance, that as a member of the grand jury he was present and heard the witness Trevino give his testimony before that body through an interpreter, Jose Garcia; that they instructed the interpreter to ask Trevino what if anything the deceased said to the defendant on the occasion of the killing, and that the interpreter after holding a conversation with the witness in Spanish, reported to the grand jury Trevino’s answer to the effect that deceased did not say anything whatever to the defendant at the time of their meeting, and that no such testimony was reported to them as having been stated by Trevino that the deceased said, “you damned Mexican son-of-a-bitch I am going to kill you”; that he, Ligón did not understand a word of what the interpreter said to Trevino, nor a word of what Trevino said to the interpreter. That their conversation was in the Spanish language and that he did not understand Spanish, and that of his own personal knowledge he could not state what Trevino stated to the grand jury more than what Garcia the interpreter, told them, and that they took the interpreter’s word for his statements.\nException was reserved to this on the ground that it appeared that the answers of the witness Ligón disclosed he did not know what statements the witness Trevino made\u0027to the grand jury, and that the same was hearsay and as such inadmissible, and the defendant afterwards moved the court to exclude the same from the jury, which exceptions were by the court overruled, and his motion to exclude the same from the jury refused.\nWe believe the exception was well taken upon the grounds stated in the bill. If the witness himself had understood what Trevino stated, and the testimony was damaging to the State; and that the testimony was a surprise perhaps might have been admissible for discrediting this witness for the State. It will be noted that this exception was taken to Ligon’s testimony, who did not understand a word said between the parties, and his testimony in regard to the matter here, is only what he swears was stated to him by the interpreter. He didn’t know whether it was correct or not; didn’t know what occurred between the parties, except that they carried on a conversation in Spanish which the interpreter reported to him subsequently.\nWe do not believe that this testimony was admissible and the error is of sufficient importance to require a reversal, which is accordingly ordered.\nReversed and remanded.\nHenderson, Judge, absent.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "W. E. Rogers, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Juan Cervantes v. The State.\nNo. 3759.\nDecided November 13, 1907.\nManslaughter—Contradicting Witness—Hearsay—Interpreter.\nWhere upon trial for murder, a grand juror was placed upon the stand by the State to contradict another State’s witness with reference to a statement made by said last witness before the grand jury, and it developed that said grand juror did not understand the Spanish language in which the other witness had testified before said grand jury through an interpreter, and could not state of his own knowledge what said State’s witness had testified to, the same was hearsay and should have been excluded.\nAppeal from the District Court of Falls. Tried below before the Hon. Sam B. Scott.\nAppeal from a conviction of manslaughter; penalty, five years imprisonment in the penitentiary.\nThe opinion states the ease.\nW. E. Rogers, for appellant.\nOne who merely hears a conversation in a language which he does not understand, and hears the rendition or interpretation of it as given by the interpreter, can not be used to impeach the first witness, nor to strengthen the interpreter, wherein he does not remember the testimony, and this although there is no better evidence to be had. 17 Am. \u0026 Eng. Ency., p. 31, note 4; 1 Wigmore Ev., secs. 668 and 1810 (note 1); People v. John, 137 Cal., 220 (169 Pac., 1063); Reeves v. State, 7 Texas Crim. App., 276; People v. Ah Yute, 56 Cal., 119; People v. Lee Fat, 54 Cal., 527; Schearer v. Harber, 36 Ind., 536.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1107-01",
+    "first_page_order":  100,
+    "last_page_order":  102
+}

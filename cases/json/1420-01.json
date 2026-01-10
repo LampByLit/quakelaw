@@ -1,0 +1,298 @@
+﻿{
+    "id":  2021378,
+    "name":  "ENRIQUEZ, etc. v. MIAMI ELEVATOR COMPANY, etc., et al.",
+    "name_abbreviation":  "Enriquez v. Miami Elevator Co.",
+    "decision_date":  "1991-10-11",
+    "docket_number":  "Case No. 86-30032 CA 16",
+    "first_page":  "148",
+    "last_page":  "152",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 148"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "128 So.2d 594",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9885617
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/128/0594-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "488 So.2d 68",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "478 So.2d 368",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7591787
+                                      ],
+                         "weight":  5,
+                         "year":  1985,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "370",
+                                               "parenthetical":  "citations omitted"
+                                           },
+                                           {
+                                               "page":  "370, 371",
+                                               "parenthetical":  "dismissal ordered due to preemption doctrine, but abatement deemed appropriate as to primary jurisdiction"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/478/0368-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "563 So.2d 1080",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7535006
+                                      ],
+                         "weight":  3,
+                         "year":  1990,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "1081",
+                                               "parenthetical":  "court required to abstain from exercise of equitable jurisdiction"
+                                           },
+                                           {
+                                               "page":  "1082"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/563/1080-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "454 So.2d 672",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7621124
+                                      ],
+                         "weight":  2,
+                         "year":  1984,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "674"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/454/0672-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "513 So.2d 704",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7568867
+                                      ],
+                         "weight":  5,
+                         "year":  1987,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "706"
+                                           },
+                                           {
+                                               "page":  "706"
+                                           },
+                                           {
+                                               "page":  "708",
+                                               "parenthetical":  "dismissal affd for failure to exhaust"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/513/0704-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "128 So.2d 586",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9885391
+                                      ],
+                         "weight":  5,
+                         "year":  1961,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "593"
+                                           },
+                                           {
+                                               "page":  "593"
+                                           },
+                                           {
+                                               "page":  "593"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/128/0586-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "416 So.2d 813",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9563247
+                                      ],
+                         "year":  1961,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "816"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/416/0813-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "416 So.2d 816",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "weight":  2,
+                         "year":  1982,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "817"
+                                           }
+                                       ],
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "292 U.S. 254",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "year":  1970,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "42 CFR § 431.221",
+                         "category":  "laws:admin_compilation",
+                         "reporter":  "C.F.R.",
+                         "pin_cites":  [
+                                           {
+                                               "page":  "(b)"
+                                           }
+                                       ],
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "42 CFR §§ 431.205",
+                         "category":  "laws:admin_compilation",
+                         "reporter":  "C.F.R.",
+                         "weight":  2,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "(b)"
+                                           },
+                                           {
+                                               "page":  "(d)"
+                                           }
+                                       ],
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "42 CFR §§ 431.220",
+                         "category":  "laws:admin_compilation",
+                         "reporter":  "C.F.R.",
+                         "weight":  2,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "(a)(2)"
+                                           },
+                                           {
+                                               "page":  "(2)"
+                                           }
+                                       ],
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "42 CFR §§431.201",
+                         "category":  "laws:admin_compilation",
+                         "reporter":  "C.F.R.",
+                         "weight":  3,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "42 CFR §§433.135-433.154",
+                         "category":  "laws:admin_compilation",
+                         "reporter":  "C.F.R.",
+                         "opinion_index":  0
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  527,
+                     "char_count":  10512,
+                     "ocr_confidence":  0.918,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07305773425400477
+                                  },
+                     "sha256":  "b07c3699f97b0a542b589b2325528f1c765a8ff687d06557cbdea1d74c2430ea",
+                     "simhash":  "1:23fff263e3c7e86f",
+                     "word_count":  1606
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "ENRIQUEZ, etc. v MIAMI ELEVATOR COMPANY, etc., et al."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nCELESTE H. MUIR, Circuit Judge.\nThis action is before the Court on Plaintiff-Petitioner’s Petition for Equitable Distribution (“Plaintiffs Petition”) against the Respondent, the Florida Department of Health and Rehabilitative Services (the “Department”), and on the Department’s motions, inter alia, to dismiss or abate the action against it for lack of personal jurisdiction due to insufficiency of process, insufficiency of service of process, failure of Plaintiff-Petitioner to exhaust administrative remedies, and primary jurisdiction of an available administrative tribunal.\nPlaintiff-Petitioner is guardian for Maria Caridad Aguila, incompetent (“Maria Aguila”) and has obtained a judgment of $75,000 against Defendant Samari Lakes Condominium Association for injuries to Maria Aguila caused by negligence. The Department, which administers the Florida Medicaid program, has claimed full statutory recovery of reimbursement from the proceeds of this case under federal and state law, but has not sought affirmative relief on the merits. The Department claims full statutory recovery of all medical assistance provided by Medicaid on behalf of Maria Aguila pursuant § 409.910, Fla. Stat., as enacted by § 38, Ch. 91-282, Laws of Fla., Fla. Admin. Code Rule 10C-7.0301, §§ 1902(a)(25) and 1912 of the Social Security Act (42 U.S.C. §§ 1396a(a)(25) and 1396k), and 42 CFR §§433.135-433.154). Plaintiffs Petition seeks equitable pro-rata distribution to reduce recovery by the state.\nPlaintiffs Petition was furnished to the Department by U.S. Mail, together with a Notice of Hearing. No summons was issued, and neither a summons nor the petition were personally served on the Department by an officer. The Department has asserted that although receipt of Plaintiffs Petition or Notice of Hearing was legally insufficient to initiate an action against the Department in this case, the receipt of the petition or notice was sufficient to serve as a request for an administrative hearing for a Medicaid recipient under § 120.57(1) (a)4, Fla. Stat. (1989), pursuant to Fla. Admin. Code Rules 10-2.045, 10-2.044(7) and 10C-7.035, and 42 CFR §§431.201 and 431.221. As a result of receipt by the Department of Plaintiffs Petition, the administrative case of Maria Aguila, etc., v Department of Health and Rehabilitative Services, Appeal No.: 91F-1678 (HRS OPAAH) was initiated within the Department’s Office of Public Assistance Appeal Hearings.\nA hearing on pending motions in this case was heard in chambers on September 12, 1991.\nState and federal statutes, rules, and regulations have established a well defined and easily accessible system of administrative remedies, termed “Fair Hearings”, for Medicaid recipients to petition or appeal from decisions of the Department as stated Medicaid agency. See, e.g., §§ 120.57(l)(a)4 and 409.285, Fla. Stat. (1989); Fla. Admin. Code Rules 10-2.044 and 10-2.045; 42 CFR §§ 431.220(a)(2) and 431.221. Fair Hearings are presided over by hearing officers within the Department’s Office of Public Assistance Appeal Hearings. Fla. Admin. Code Rule 10-2.042(3). Federal Medicaid regulations require a state hearing before the state Medicaid agency. 42 CFR §§ 431.205(b) and 431.220(a)(2).\nThe purpose of the administrative remedies under the Fair Hearings system is to provide Medicaid recipients with a just, quick and inexpensive determination in a manner more readily accessible than most proceedings (whether judicial or administrative) for claims pertaining to decisions affecting medical assistance, or for any action or inaction by the Medicaid agency the recipient believes to be incorrect. See, Fla. Admin. Code Rules 28-5.101, 10-2.044(7), 10-2.045, and 10-2.066(5); 42 CFR §§431.220(2) and 431.244. The state Medicaid agency is not permitted to limit or interfere with a Medicaid recipient’s freedom to make a request for a hearing. 42 CFR § 431.221(b); Fla. Admin. Code Rule 10-2.045(1). Federal regulations require that the Fair Hearings system “must meet the due process standards of Goldberg v Kelly, 292 U.S. 254 (1970)” and additional standards required by regulation. 42 CFR § 431.205(d). Except where preempted by federal law, the Florida Administrative Procedure Act (“APA”) applies to Fair Hearings. Generally, “it would seem that the impressive array of APA procedures would provide a more timely and efficacious remedy than resort to the procedures of regular civil practice.” Communities Financial Corp. v Florida Department of Environmental Regulation, 416 So.2d 816, 817 (Fla. 1st DCA 1982).\nFederal and state rules provide Medicaid recipients easy and accessible entry to the Fair Hearings system. Although under federal regulations the state Medicaid agency may require that a request for hearing be in writing, in Florida, a request by an applicant or recipient can be either written or oral. 42 CFR 431.221(a); Fla. Admin. Code Rule 10-2.045(1). A “request for hearing” is “any clear written or oral statement to the Department that the applicant/recipient or his authorized representative wants an opportunity to present the case to a higher authority.” Fla. Admin. Code Rule 10-2.045(1); accord, 42 CFR §431.201 (although the terms “clear expression” and “reviewing authority” are used in §431.201, rather than “clear written or oral statement” and “higher authority”).\nThe Department has determined that upon receipt by the Department, Plaintiffs Petition, although directed toward obtaining a remedy from this Court, was a clear written statement provided to the Department and giving notice that the Plaintiff (as guardian for Maria Aguila) by and through her attorney, wanted the opportunity to present the case to a higher authority (or a reviewing authority). Accordingly, the Department determined that the Plaintiff’s Petition met the requirements for a request for hearing under Fla. Admin. Code Rule 10-2.045 and 42 CFR §431.201, and the Fair Hearing process was thereby initiated. The construction of Medicaid rules and regulations as to the initiation of administrative Fair Hearings is subject to review under § 120.68, Fla. Stat. (1989) after exhaustion of administrative remedies and the taking of final agency action on the merits.\n“It is now well settled that where adequate administrative remedies are available, it is improper to seek relief in the circuit court before the remedies are exhausted.” Communities Financial Corp., supra, 416 So.2d 813, 816; accord, Odham v Foremost Dairies, Inc., 128 So.2d 586, 593 (Fla. 1961); Gulf Coast Home Health Services v Department of Health and Rehabilitative Services, 513 So.2d 704, 706 (Fla. 1st DCA 1987); Lambert v Rogers, 454 So.2d 672, 674 (Fla. 5th DCA 1984). Parties who fail to exhaust adequate and available administrative remedies are barred from seeking relief in the circuit court. Gulf Coast Home Health Services, supra, 513 So.2d at 706.\nUnder the related doctrines of exhaustion of administrative remedies and primary jurisdiction, “judicial intervention with administrative action is justified only in those instances where the invalidity of the administrative act is not subject to reasonable differences of opinion”, especially when the applicable statute affords “adequate protection against any denial of due process or other constitutional guaranty by appropriate judicial review.” Odham, supra, 128 So.2d at 593; see, also, Florida Board of Regents v Armesto, 563 So.2d 1080, 1081 (Fla. 1st DCA 1990) (court required to abstain from exercise of equitable jurisdiction).\nUnder the doctrine of primary jurisdiction, when a statute permits a remedy in both court and an agency, the matter must first be adjudicated in the administrative agency. Odham v Foremost Dairies, Inc., 128 So.2d 586, 593 (Fla. 1961); Hill Top Developers v Holiday Pines Service Corp., 478 So.2d 368 (Fla. 2d DCA 1985), pet. for rev. den. 488 So.2d 68. The primary jurisdiction doctrine “is designed and intended to achieve a ‘proper relationship between the courts and administrative agencies charged with particular regulatory duties.’ ” Hill Top Developers, supra, 478 So.2d at 370 (citations omitted).\nIn cases in which administrative remedies are available, failure to exhaust the remedies requires dismissal of the complaint. Communities Financial Corp., supra, 416 So.2d at 816 (dismissal ordered for failure to exhaust); see, also, Odham, supra, 128 So.2d 594 (dismissal ordered for failure to exhaust and for primary jurisdiction); Florida Board of Regents, supra, 563 So.2d at 1082 (dismissal ordered for failure to exhaust and for primary jurisdiction; Gulf Coast Health Services, supra, 513 So.2d at 708 (dismissal affd for failure to exhaust); Lambert, supra, 454 SO. 2d at 675 (dismissal ordered due to availability of administrative remedies); but, cf., Hill Top Developers, supra, 478 So.2d at 370, 371 (dismissal ordered due to preemption doctrine, but abatement deemed appropriate as to primary jurisdiction).\nAbsent an exception to the general rule, the respective claims of Plaintiff and the Department to the proceeds of Plaintiff’s case against Defendants pursuant to §409.910, Fla. Stat. and relevant federal law must be adjudicated in the administrative Fair Hearings forum provided by state and federal law. The facts in this case establish no exception to the general rule. Plaintiff has failed to exhaust available administrative remedies and is barred from seeking relief in circuit court at this time. The Department, through the Fair Hearing system under state and federal law, has primary jurisdiction.\nThe Court’s resolution of the issues pertaining to exhaustion of administrative remedies and primary jurisdiction disposes of all other issues raised in the case by both the Plaintiff and the Department.\nAccordingly it is hereby\nORDERED and ADJUDGED, that Plaintiff’s Petition for Equitable Distribution is dismissed without prejudice.\nDONE and ORDERED at Miami, Florida, this 11th day of October, 1991.",
+                                          "type":  "majority",
+                                          "author":  "CELESTE H. MUIR, Circuit Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Robert K. Estes, Esquire, for plaintiff/petitioner.",
+                                       "Richard L. Rogers, Esquire, Department of Health and Rehabilitative Services, for respondent, Medicaid.",
+                                       "Thomas L. Ford, Esquire, Thomas J. McCausland, Esquire, Charles H. Sinclair, Esquire, Lawrence H. Rogovin, Esquire, for defendants."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "ENRIQUEZ, etc. v MIAMI ELEVATOR COMPANY, etc., et al.\nCase No. 86-30032 CA 16\nEleventh Judicial Circuit, Dade County\nOctober 11, 1991\nAPPEARANCES OF COUNSEL\nRobert K. Estes, Esquire, for plaintiff/petitioner.\nRichard L. Rogers, Esquire, Department of Health and Rehabilitative Services, for respondent, Medicaid.\nThomas L. Ford, Esquire, Thomas J. McCausland, Esquire, Charles H. Sinclair, Esquire, Lawrence H. Rogovin, Esquire, for defendants.\nAttorneys for defendants did not participate in the case of petitioner v respondent."
+                 },
+    "file_name":  "1420-01",
+    "first_page_order":  168,
+    "last_page_order":  172
+}

@@ -1,0 +1,93 @@
+﻿{
+    "id":  8546840,
+    "name":  "Robena Mary Watts v. State",
+    "name_abbreviation":  "Watts v. State",
+    "decision_date":  "1958-11-26",
+    "docket_number":  "No. 30,151",
+    "first_page":  "62",
+    "last_page":  "63",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 62"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "314 S.W. 2d 590",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10175662
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/314/0590-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "166 Texas Cr. Rep. 384",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2619393
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/166/0384-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  96,
+                     "char_count":  920,
+                     "ocr_confidence":  0.583,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.20583227053005793
+                                  },
+                     "sha256":  "4bc87a104664645a9e7ced143135e1fa6be9ad23d6d0350ea4c3c81f0d8edd1a",
+                     "simhash":  "1:0b9944cc590c639e",
+                     "word_count":  143
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Robena Mary Watts v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BELCHER, Judge.\nThe conviction is for the possession of amphetamine; the punishment, 100 days in jail.\nIn the disposition of an appeal from a conviction for the possession of amphetamine in Harrell v. State, 166 Texas Cr. Rep. 384, 314 S.W. 2d 590, we said:\n“We conclude that Art. 726c, Section 8, Y.A.P.C., insofar as it attempts to make the possession and delivery of amphetamine and desoxyephedrine and compounds thereof unlawful is void for indefiniteness and uncertainty.”\nThe disposition in the Harrell case is here applicable and controlling.\nThe judgment is reversed and the prosecution ordered dismissed.\nOpinion is approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "BELCHER, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "M. Gabriel Nahas, Jr., Houston, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White and Monroe Northrup, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Robena Mary Watts v. State.\nNo. 30,151.\nNovember 26, 1958.\nM. Gabriel Nahas, Jr., Houston, for appellant.\nDan Walton, District Attorney, Thomas D. White and Monroe Northrup, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1358-01",
+    "first_page_order":  80,
+    "last_page_order":  81
+}

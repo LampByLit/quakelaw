@@ -1,0 +1,70 @@
+﻿{
+    "id":  4565210,
+    "name":  "Jim Benge v. The State",
+    "name_abbreviation":  "Benge v. State",
+    "decision_date":  "1908-01-22",
+    "docket_number":  "No. 4192",
+    "first_page":  "361",
+    "last_page":  "362",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 361"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  210,
+                     "char_count":  3650,
+                     "ocr_confidence":  0.631,
+                     "pagerank":  {
+                                      "raw":  4.2141800639789962E-08,
+                                      "percentile":  0.26820849400872404
+                                  },
+                     "sha256":  "46caec4b99935c088209a418a8381f76c5e39acc32be08726d1b726474fba01e",
+                     "simhash":  "1:752a80245ba4d40f",
+                     "word_count":  642
+                 },
+    "last_updated":  "2023-07-14T19:59:32.944253+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Jim Benge v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "RAMSEY, Judge.\nAppellant was convicted in the county court of Grayson County of violating the local option law.\nThere is evidence in the record justifying the jury in finding appellant guilty. The errors relied on are presented by two bills of exception.\nIn bill of exceptions, No. 1, complaint is made that the court permitted the witness, W. A. Huggins, to testify that he had a warrant for appellant, at a time soon after the alleged violation and the same was for violation of the local option law. This testimony grew out of an effort on the part of the State to rebut the testimony of appellant, which had been introduced by him, tending to show an alibi, and as we gather from the record, the testimony here sought to be introduced was incidental and for the purpose of explaining the reason and occasion of the witness for making inquiry for appellant. Inasmuch as appellant was tried and convicted for a violation of the local option law, we cannot see, especially as here presented, how his case was or could be injured by the incidental statement of the witness that he had about this time a warrant for appellant’s arrest on a charge of a violation of the very law of which he was convicted.\nBy the second bill of exceptions, complaint is urged that the court erred in its charge upon the subject of alibi. The court’s charge on this subject is found in the fourth paragraph thereof, which is as follows: “In this case the defendant has interposed the defense of what in legal phraseology is termed an alibi; that is, that if an offense was committed at the time and place alleged, that the defendant was at said time at another and different place from that at -which said offense was committed and therefore was not and could not have been the person who committed said offense. Now, if you have a reasonable doubt as to the presence of the defendant at the place and at the time where said offense is alleged to have been committed you will return a verdict of not guilty.” We think this charge clearly presents the defense of alibi, and is not subject to objection.\nFinding no error in the record, the judgment is affirmed.\nAffirmed.",
+                                          "type":  "majority",
+                                          "author":  "RAMSEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Smith \u0026 Wall, for appellant",
+                                       "F. J. McCord, Assistant Attorney-General, for the .State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Jim Benge v. The State.\nNo. 4192.\nDecided January 22, 1908.\n1. —local Option—Sufficiency of Evidence.\nUpon trial for a violation of the local option law, where the evidence is sufficient to justify the jury in finding appellant guilty, the verdict is sustained.\n2. —Same—Evidence—Warrant of Arrest.\nWhere upon trial for a violation of the local option law, the sheriff was permitted to testify that he had a warrant of arrest for defendant on a charge of a violation of the local option law upon which defendant was convicted, about the time of said violation or soon thereafter, which testimony was offered in rebuttal to defendant’s alibi, and no injury was shown to defendant in this, there was no error.\n3. —Same—Charge of Court—Alibi.\nWhere upon trial for a violation of the local option law, the court’s charge defined an alibi, and instructed the jury, that if they had a reasonable doubt as to defendant’s presence at the time and place of the commission of the offense, to find him not guilty, there was no error.\nAppeal from the County Court of Grayson. Tried below before the Hon. J. W. Hassell.\nAppeal from a conviction of a violation of the local option law; penalty, a fine of $100 and sixty days confinement in the penitentiary.\nThe State’s testimony showed that prosecutor purchased whisky from defendant. The testimony of defendant’s witnesses tends to show an alibi.\nThe opinion states the case.\nSmith \u0026 Wall, for appellant\nF. J. McCord, Assistant Attorney-General, for the .State."
+                 },
+    "file_name":  "1192-01",
+    "first_page_order":  379,
+    "last_page_order":  380
+}

@@ -1,0 +1,102 @@
+﻿{
+    "id":  2020852,
+    "name":  "STATE OF FLORIDA v. RODRIGUEZ",
+    "name_abbreviation":  "State v. Rodriguez",
+    "decision_date":  "1991-07-12",
+    "docket_number":  "Case No. 90-209AC",
+    "first_page":  "8",
+    "last_page":  "9",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 8"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "386 So.2d 546",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9574843
+                                      ],
+                         "year":  1980,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/386/0546-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "408 So.2d 647",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9555517
+                                      ],
+                         "weight":  2,
+                         "year":  1982,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "649"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/408/0647-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  164,
+                     "char_count":  1680,
+                     "ocr_confidence":  0.889,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07304267546100178
+                                  },
+                     "sha256":  "d9936a8791e958f41789de387a2af45a320764e2b833e5bc7165a08b77c6ee95",
+                     "simhash":  "1:41b2d80968a90dc7",
+                     "word_count":  265
+                 },
+    "last_updated":  "2024-02-27T22:50:07.903550+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before KORNBLUM, GOLDMAN, RAMIREZ, JJ."
+                                ],
+                     "parties":  [
+                                     "STATE OF FLORIDA v RODRIGUEZ"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nPER CURIAM.\nWe hold that the trial court erred in suppressing breathalyzer test results. Section 322.261(l)(a) has a potential for unfair results, since non-English speaking defendants may never have their implied consent rights read to them by non-Spanish speaking police officers, as in the case at bar. However, precedent leaves us no alternative other than to reverse the lower court’s decision.\nIn State v Gunn, 408 So.2d 647 (Fla. 4th DCA 1982), the court stated that “. . . we find nothing in the Sambrine opinion which would preclude the conclusion that chemical test results are admissible where the driver does not affirmatively withdraw his consent even though the driver is not first informed of the consequences of his refusal to submit to the test.” Id. at 649.\nUnlike the defendant in Sambrine v State, 386 So.2d 546 (Fla. 1980), the appellee in the case at bar did not affirmatively withdraw his consent to taking the breathalyzer test. Under Gunn, although appellee’s driving privileges may not be suspended as a result of the officer’s failure to read him his implied consent rights, results of the breathalyzer test are still admissible into evidence.\nThis court, therefore, reverses and remands to the lower court for proceedings consistent with this opinion.\nJudge Murray Goldman ruling from Briefs — did not participate in Oral Argument.",
+                                          "type":  "majority",
+                                          "author":  "PER CURIAM."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Robert A. Butterworth, Attorney General and Jorge Espinosa, Assistant Attorney General, for appellant.",
+                                       "Luis Cruz, Esquire, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "STATE OF FLORIDA v RODRIGUEZ\nCase No. 90-209AC\nEleventh Judicial Circuit, Dade County\nJuly 12, 1991\nAPPEARANCES OF COUNSEL\nRobert A. Butterworth, Attorney General and Jorge Espinosa, Assistant Attorney General, for appellant.\nLuis Cruz, Esquire, for appellee.\nBefore KORNBLUM, GOLDMAN, RAMIREZ, JJ."
+                 },
+    "file_name":  "1302-01",
+    "first_page_order":  26,
+    "last_page_order":  27
+}

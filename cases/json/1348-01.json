@@ -1,0 +1,145 @@
+﻿{
+    "id":  8546767,
+    "name":  "Arnett Johnson v. State",
+    "name_abbreviation":  "Johnson v. State",
+    "decision_date":  "1958-11-26",
+    "docket_number":  "No. 30,161",
+    "first_page":  "53",
+    "last_page":  "54",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 53"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "285 S.W. 2d 225",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10171329
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/285/0225-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 365",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2462118
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/162/0365-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "271 S.W. 2d. 821",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10203752,
+                                          10203593,
+                                          10203510
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/271/0821-03",
+                                            "/sw2d/271/0821-02",
+                                            "/sw2d/271/0821-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "160 Texas Cr. Rep. 443",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2470804
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/160/0443-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 S.W. 2d 706",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10220157
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/162/0706-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "144 Texas Cr. Rep. 272",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5292809
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/144/0272-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  228,
+                     "char_count":  2490,
+                     "ocr_confidence":  0.587,
+                     "pagerank":  {
+                                      "raw":  4.1410018113846427E-08,
+                                      "percentile":  0.26697598971986397
+                                  },
+                     "sha256":  "20b25887d45ef1186d37100446373a1801f6606f13631e755b6da79ce226e279",
+                     "simhash":  "1:7feec8f4046c9191",
+                     "word_count":  416
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Arnett Johnson v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is robbery; the punishment, five years.\nProsecutrix testified that on the night in question, as she left the bus and started walking home, she observed a red pickup truck parked at the curb; that shortly thereafter a man grabbed her purse and said, “Don’t you holler, I’ll kill you;” that he ordered Jier to enter the truck, hit her with the pistol when she plead with him, and placed her forcibly in the truck. She stated that as the appellant went around the back in order to get on the driver’s side she took off her shoes and ran to a nearby house, where she gained admittance. Upon learning that there was no telephone there, she returned to the front door, saw the red truck being driven away, and observed that it had a flat tire on the right rear wheel. When the officers arrived, prosecutrix described the appellant, his attire, and the truck, and accompanied them until they found the truck parked some distance away with a flat tire on the right rear. Inquiries in the vicinity lead the officers to the appellant’s apartment, and he was identified by the prosecutrix. Her shoes and purse, minus its contents, were found in the truck.\nHer testimony was corroborated by the investigating officers.\nAppellant and his witnesses testified to an alibi, which testimony was by the jury rejected. We find the evidence sufficient to support the conviction and overrule the appellant’s contention in this regard.\nAppellant contends that his constitutional rights against incriminating himself were violated. On direct examination, the prosecutrix testified as stated above. On cross-examination, she stated, without objection, that the officers required the appellant to repeat the words he used at the time he took her purse for the purpose of assisting her in her identification. Having brought out this testimony by his own interrogation, the appellant may not now be heard to complain, and the holding in Beachem v. State, 144 Texas Cr. Rep. 272, 162 S.W. 2d 706, finds no application here. See Lucas v. State, 160 Texas Cr. Rep. 443, 271 S.W. 2d. 821, and Ramon v. State, 162 Texas Cr. Rep. 365, 285 S.W. 2d 225.\nFinding no reversible error, the judgment of the trial court is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Lloyd Rembert, Houston, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White and Howell Stone, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Arnett Johnson v. State.\nNo. 30,161.\nNovember 26, 1958.\nLloyd Rembert, Houston, for appellant.\nDan Walton, District Attorney, Thomas D. White and Howell Stone, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1348-01",
+    "first_page_order":  71,
+    "last_page_order":  72
+}

@@ -1,0 +1,117 @@
+﻿{
+    "id":  8546855,
+    "name":  "Robena Mary Watts v. State",
+    "name_abbreviation":  "Watts v. State",
+    "decision_date":  "1958-11-26",
+    "docket_number":  "No. 30,152",
+    "first_page":  "63",
+    "last_page":  "64",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 63"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "243 S.W. 2d 702",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10215228
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/243/0702-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "156 Texas Cr. Rep. 457",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2577471
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/156/0457-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "290 S.W. 2d 666",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10180470
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/290/0666-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 287",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2460175
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0287-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  168,
+                     "char_count":  1908,
+                     "ocr_confidence":  0.61,
+                     "pagerank":  {
+                                      "raw":  5.8332982893877249E-08,
+                                      "percentile":  0.3625829150657046
+                                  },
+                     "sha256":  "f67e9088f5f3d7ded30d26dcce0e23f9f02e82b5d72d820e2b1d144cbf9b4a39",
+                     "simhash":  "1:1d3de4444d41d336",
+                     "word_count":  320
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Robena Mary Watts v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BELCHER, Judge.\nThe conviction is for driving while intoxicated; the punishment, 200 days in jail and a fine of $250.\nThe disposition hereof makes a summary of the facts unnecessary other than to state that they present a direct issue of whether the appellant was intoxicated while driving the car upon a public highway.\nAppellant urges error because of the non-responsive statement volunteered by an officer while testifying before the jury that she refused to take a blood test.\nThe officer testified that there was a man in the car with appellant at the time they were apprehendéd. In answer to the state’s question whether it took two officers at the police station to carry the man, the officer said: “Yes, sir, and she (the appellant) refused to take a blood test.”\nAppellant objected to the officer’s answer because he volunteered information which was not admissible and was highly inflammatory. The appellant moved the court to declare a mistrial which was overruled and to such action of the court she excepted.\nIn Jordan v. State, 163 Texas Cr. Rep. 287, 290 S.W. 2d 666, a driving while intoxicated case, where the officer while testifying volunteered the same character of testimony as here complained of, we said:\n“While it is true that the jury were instructed not to consider the answer, we have concluded that this answer got before the jury the inadmissible evidence that the appellant had been offered a blood test and had refused to take it. See Cardwell v. State, 156 Texas Cr. Rep. 457, 243 S.W. 2d 702, and cases there cited.”\nFor the error pointed out, the judgment is reversed and the cause remanded.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "BELCHER, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "M. Gabriel Nahas, Jr., Houston, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White, Assistant District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Robena Mary Watts v. State.\nNo. 30,152.\nNovember 26, 1958.\nM. Gabriel Nahas, Jr., Houston, for appellant.\nDan Walton, District Attorney, Thomas D. White, Assistant District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1359-01",
+    "first_page_order":  81,
+    "last_page_order":  82
+}

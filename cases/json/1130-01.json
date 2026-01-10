@@ -1,0 +1,87 @@
+﻿{
+    "id":  4560871,
+    "name":  "E. A. Norris v. The State",
+    "name_abbreviation":  "Norris v. State",
+    "decision_date":  "1907-11-20",
+    "docket_number":  "No. 3897",
+    "first_page":  "166",
+    "last_page":  "167",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 166"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "101 S. W. Rep., 210",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "51 Texas Crim. Rep., 150",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4552606
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/51/0150-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  266,
+                     "char_count":  4210,
+                     "ocr_confidence":  0.547,
+                     "pagerank":  {
+                                      "raw":  9.11516285603474E-08,
+                                      "percentile":  0.5069108276196798
+                                  },
+                     "sha256":  "181c0f4ac2c0be8bf557894ce690214c6c7b2a3fef406929b017753024170e26",
+                     "simhash":  "1:b101f49c4f3af79d",
+                     "word_count":  698
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "E. A. Norris v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BROOKS, Judge.\nThis is a conviction for violating the local option law, the punishment assessed being a fine of $100 and twenty days imprisonment in the county jail.\nAppellant’s first hill of exceptions complains of the following: The prosecuting attorney offered in evidence a petition signed by a large number of the neighbors and friends of the witness, J. S. O’Neal, including the names of defendant’s witnesses, R. H. C. Butler and Bud Lawrence, petitioning the sheriff of Smith County, Texas, to appoint the prosecuting witness, Jas. S. O’Neal, deputy sheriff. The petition was signed some time in November or December, 1906. Defendant objected to the introduction of same for the reason that same was signed some seven or eight months prior to the trial of this cause, and the question at issue was the general reputation of the said O’Neal for truth and veracity in the community in which he lived at the time of the trial of said cause, and not some seven or eight months prior to said time. Furthermore, said petition was only the individual opinions of the signers of said petition and not the opinion and reputation as expressed by the community at large, and was, therefore, inadmissible. The court overruled the objections and permitted the introduction of the petition; at least that part of it showing that the above witnesses signed same. The bill, however, is approved with this explanation: “That defendant introduced T. H. C. Butler and Bud Lawrence as witnesses to impeach State’s witness, O’Neal, for truth and veracity, and covers some six or eight months of time prior to the alleged sale. And the county attorney then introduced a petition addressed to the sheriff of Smith County with witnesses Butler and Lawrence’s names, and said petition stated that O’Neal was well known to each of them, and he was a safe, reliable, truthful and honest man, and only Butler and Lawrence’s names were allowed to be shown to the jury, as impeaching them or show their attitude, it being also shown that recently Butler had fallen out with O’Neal and Lawrence was on defendant’s liquor dealer’s bond.” Clearly under the explanation of the court the testimony was entirely admissible. These witnesses were brought in by appellant to impeach the prosecuting witness. In substance that shows a lack of verity in their statement, against appellant; all that contradicts their statements is entirely admissible.\nAppellant complained of the failure of the court to quash the venire. There is no bill presenting the matter and, therefore, same cannot be reviewed.\nWe have carefully read the court’s charge, and in our opinion it is a proper presentation of the law of this case. As far as applicable the special charges were covered by the main charge.\nFinding no error in the record, the judgment is affirmed.\nAffirmed.\nHenderson, Judge, absent.\n[Motion for rehearing overruled without written opinion.—Beporter.]",
+                                          "type":  "majority",
+                                          "author":  "BROOKS, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Hanson \u0026 Robertson, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "E. A. Norris v. The State.\nNo. 3897.\nDecided November 20, 1907.\n1. —Local Option—Evidence—Impeaching Witness.\nWhere upon trial for a violation of the local option law the defendant introduced two witnesses for the purpose of impeaching the prosecuting witness; and it also developed that defendant’s said witnesses had recently fallen out with said prosecuting witness, there was no error in admitting in evidence a petition to the sheriff asking for the appointment of said prosecuting witness as deputy sheriff, and which petition stated that the prosecuting witness was a truthful and honest man, and among others was signed by the defendant’s said witnesses.\n2. —Same—Practice on Appeal—Bill of Exceptions.\nAn objection to the failure of the court to quash the venire, which was not - presented by a bill of exceptions cannot be reviewed on appeal.\nAppeal from the County Court of Smith. Tried below before the Hon. J. A. Bulloch.\nAppeal from a conviction of a violation of the local option law; penalty; a fine of $100 and twenty days confinement in the county jail.\nThe opinion states the case.\nHanson \u0026 Robertson, for appellant.\nOn question of quashing venire: Bickham v. State, 51 Texas Crim. Rep., 150; 101 S. W. Rep., 210.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1130-01",
+    "first_page_order":  184,
+    "last_page_order":  185
+}

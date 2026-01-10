@@ -1,0 +1,96 @@
+﻿{
+    "id":  2020862,
+    "name":  "MILLER v. AMERICAN BANKERS INSURANCE COMPANY OF FLORIDA, et al.",
+    "name_abbreviation":  "Miller v. American Bankers Insurance",
+    "decision_date":  "1991-09-13",
+    "docket_number":  "Case No. 90-102AP (Lower Court Case No. 86-2977 CC24)",
+    "first_page":  "66",
+    "last_page":  "68",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 66"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "486 So.2d 20",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7593210
+                                      ],
+                         "year":  1986,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/486/0020-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "391 So.2d 292",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9543304
+                                      ],
+                         "year":  1980,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/391/0292-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  234,
+                     "char_count":  3232,
+                     "ocr_confidence":  0.893,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07304441301404059
+                                  },
+                     "sha256":  "f282c9ef917da61687e5892931929f69122803b311fb90a260f5f16eecbaeea4",
+                     "simhash":  "1:b2dae8a88ef11a44",
+                     "word_count":  547
+                 },
+    "last_updated":  "2024-02-27T22:50:07.903550+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before KORNBLUM, RAMIREZ, GOLDMAN, JJ."
+                                ],
+                     "parties":  [
+                                     "MILLER v AMERICAN BANKERS INSURANCE COMPANY OF FLORIDA, et al."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nKORNBLUM, J.\nAppellant acquired two properties, one through the Bankruptcy Court and the other through foreclosure. One property was previously encumbered by a mortgage with a Federal Savings and Loan Association and the other with the Veterans Administration.\nBoth lenders were required by federal law to require flood insurance as a condition to the loan. Appellant’s predecessors in title did obtain and provide such insurance.\nWhen Appellant acquired the properties, he demanded that American Bankers, the insurer on both properties, cancel its policies and return the premiums paid by the bank and ultimately charged to him.\nThe mortgagee’s refused to consent to cancel the policies, which consent was required by the policy and by law.\nAppellant was advised, however, that he could substitute another policy from a qualified insurer if he did not want American Bankers. He did not do so. Instead, he filed an action to cancel the policies and for a refund of premiums.\nThe trial court entered a Summary Judgment for American Bankers on January 22, 1990. On January 26, 1990, Appellant filed his Motion for New Trial.\nOn March 12, 1990, the lower court entered its Final Judgment for costs and fees. Finding that there was no justiciable issue of law or fact, the Court awarded Appellee $29,701.00 under § 57.105 F.S. and other fees and costs. On the same date the Court entered its Order Denying The Motion For New Trial in connection with the Summary Judgment.\nOn March 15, 1990, Appellant paid the Judgment in full.\nOn March 21, 1990, the Appellant filed a Motion For New Trial in connection with the Judgment of March 12, 1990.\nAfter denial of the latter Motion For New Trial, this appeal ensued on April 6, 1990.\nUnder these facts, we find that the appeal was timely and the Appellee’s Motion To Dismiss on those grounds is denied.\nThere was no genuine issue of fact and the Summary Judgment is affirmed.\nThere was no justiciable issue of law or fact and the granting of fees under § 57.105 F.S. was appropriate.\nIn our review of the record, being mindful that we should not substitute our judgment for that of the trial court, we believe that the amount awarded was excessive and penal.\nWe believe that we are precluded, however, for two reasons:\nFirst, we cannot substitute our judgment for that of the trial court, Hernandez v Leiva, 391 So.2d 292 (Fla. 3rd DCA 1980).\nSecond, we believe the appeal of the award of fees is moot because of the voluntary payment by Appellant during the period of an Automatic Stay, Fla.R.Civ.P. 1.550(a) SCR 7.200; Frank Silvestri Investments, Inc. v Sullivan, 486 So.2d 20 (Fla. 5th DCA 1986). That part of the appeal is therefore dismissed.\nBecause we are of the opinion that the award of fees was excessive in the trial court, we do not believe that this appeal is without merit and the Appellee’s Motion For Fees On Appeal is therefore denied.",
+                                          "type":  "majority",
+                                          "author":  "KORNBLUM, J."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Elliot L. Miller, Esquire, for appellant.",
+                                       "John H. Hickey, Esquire, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "MILLER v AMERICAN BANKERS INSURANCE COMPANY OF FLORIDA, et al.\nCase No. 90-102AP (Lower Court Case No. 86-2977 CC24)\nEleventh Judicial Circuit, Dade County\nSeptember 13, 1991\nAPPEARANCES OF COUNSEL\nElliot L. Miller, Esquire, for appellant.\nJohn H. Hickey, Esquire, for appellee.\nBefore KORNBLUM, RAMIREZ, GOLDMAN, JJ."
+                 },
+    "file_name":  "1362-01",
+    "first_page_order":  84,
+    "last_page_order":  86
+}

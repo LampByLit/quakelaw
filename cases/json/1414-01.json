@@ -1,0 +1,153 @@
+﻿{
+    "id":  2020837,
+    "name":  "WARREN SEWELL CLOTHING COMPANY, etc. v. SILKWORTH, etc., et al.",
+    "name_abbreviation":  "Warren Sewell Clothing Co. v. Silkworth",
+    "decision_date":  "1991-04-05",
+    "docket_number":  "Case No. 90-1338-CA",
+    "first_page":  "139",
+    "last_page":  "141",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 139"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "11 U.S.C. § 1141",
+                         "category":  "laws:leg_statute",
+                         "reporter":  "U.S.C.",
+                         "pin_cites":  [
+                                           {
+                                               "page":  "(a)"
+                                           }
+                                       ],
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "11 U.S.C. § 524",
+                         "category":  "laws:leg_statute",
+                         "reporter":  "U.S.C.",
+                         "weight":  3,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "(e)"
+                                           },
+                                           {
+                                               "page":  "334"
+                                           },
+                                           {
+                                               "page":  "334",
+                                               "parenthetical":  "emphasis added"
+                                           }
+                                       ],
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "80 B.R. 324",
+                         "category":  "reporters:specialty",
+                         "reporter":  "B.R.",
+                         "case_ids":  [
+                                          6540251
+                                      ],
+                         "year":  1987,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/br/80/0324-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "305 U.S. 165",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          6139345
+                                      ],
+                         "year":  1938,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/305/0165-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "85 B.R. 905",
+                         "category":  "reporters:specialty",
+                         "reporter":  "B.R.",
+                         "case_ids":  [
+                                          6121507
+                                      ],
+                         "year":  1988,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/br/85/0905-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "731 F.Supp. 464",
+                         "category":  "reporters:federal",
+                         "reporter":  "F. Supp.",
+                         "case_ids":  [
+                                          7397016
+                                      ],
+                         "weight":  2,
+                         "year":  1989,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/f-supp/731/0464-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  312,
+                     "char_count":  4976,
+                     "ocr_confidence":  0.884,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07304093790796297
+                                  },
+                     "sha256":  "623e9bb86a805959837f0995e3473dd110bc6e27973318fabd63398d05b38b67",
+                     "simhash":  "1:b109cf7c010a4c67",
+                     "word_count":  809
+                 },
+    "last_updated":  "2024-02-27T22:50:07.903550+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "WARREN SEWELL CLOTHING COMPANY, etc. v SILKWORTH, etc., et al."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nWILLIAM A. WILKES, Circuit Judge.\nORDER GRANTING DEFENDANTS’ MOTION FOR SUMMAR Y JUDGMENT\nThis cause came on to be heard pursuant to a Motion for Summary Judgment filed by the Defendant, Robert Silkworth.\nPlaintiff, Warren Sewell Clothing Company alleges that Defendants Robert and Hildegard Silkworth as guarantors for HIS Stores for Men, Inc., owe Plaintiff $34,817.65 plus interest since September 30, 1989.\nHIS Stores for Men, Inc., filed a voluntary Chapter 11 bankruptcy petition in the United States Bankruptcy Court for the Middle District of Florida, Orlando Division. It filed a Third Amended Plan of Reorganization which was confirmed by the Bankruptcy Court despite Plaintiff’s vote to reject the plan. The plan released personal guarantors. Plaintiff did not seek to modify or revoke the Order confirming the plan nor did it appeal the Order. Plaintiff endorsed checks which were paid to it under the plan.\nWhether the Bankruptcy Judge’s Order confirming the debtor’s plan of reorganization relieved Defendants of their personal guarantee.\nPlaintiff argues that the Silkworths are obligated to pay under the guarantee agreement dated September 29, 1975. Plaintiff further argues that the reorganization plan does not release the Defendants from their obligation.\nOn June 14, 1989, HIS Stores for Men, Inc., filed its Third Amended Plan of Reorganization. The plan at page 3, paragraph 12, pertained to Class V creditors and provided in part as follows:\nPayments made under the Plan shall be in full satisfaction of any claims that Class V creditors may have under personal guarantees.\nAlthough the Plaintiff voted to reject the Third Amended Plan of Reorganization, the Bankruptcy Court entered an Order on August 28, 1989, confirming the plan of reorganization. The Order confirming the plan was never appealed by Plaintiff. In addition, Plaintiff accepted payment under the plan of reorganization.\nDefendants argue that the principles of res judicata and collateral estoppel preclude Plaintiff from relitigating their personal liability.\n“Res judicata” is a final judgment on the merits of an action which precludes the parties or their privies from relitigating claims that were or could have been raised in that action. Benline v City of Deland, 731 F.Supp. 464 (M.D. Fla. 1989).\n“Collateral estoppel” is a Court’s decision on an issue of fact or on law necessary to its judgment which precludes relitigation of the same issue in a different cause of action between the parties. Benline v City of Deland, 731 F.Supp. 464 (M.D. Fla. 1989).\nAn Order confirming a Chapter 11 plan that was not appealed is binding upon all parties. In re General Coffee Corp., 85 B.R. 905 (S.D. Fla. 1988). A Bankruptcy Court Order confirming a corporate debtor’s plan of reorganization which provides for the release of a guaranty is res judicata, it may not be collaterally attacked in a subsequent state court action on the issue of the guaranty. Stoll v Gottlieb, 305 U.S. 165 (1938).\nPlaintiff did reject the plan of reorganization. The issue of the Silkworths’ guaranty was probably given consideration by the Bankruptcy Court since the plan included guarantees. The Bankruptcy Court Order confirming the plan of reorganization was not appealed by the Plaintiff even though it was clearly stated in the plan that payments made under the plan shall be in full satisfaction of any claims that Class V creditors may have under personal guarantees. Further, Plaintiff accepted payments under the plan.\nAs support for its position Plaintiff cites In re Monroe Well Service, Inc., 80 B.R. 324 (E.D. Pa. 1987). The case relies on 11 U.S.C. § 524(e) which states:\nExcept as provided in subsection (a)(3) of this section, discharge of a debt of the debtor does not affect the liability of any other entity on, or the property of any other entity for, such debt. Id. at 334.\nIt is important to note that the Court went on to explain that issues raised by § 524(e) must be noted prior to confirmation as a final and unappealed order of confirmation may, by virtue of res judicata discharge a guarantor, if the plan so provides. Id. at 334 (emphasis added).\nThe provisions of a confirmed plan bind all creditors whether or not a particular creditor has voted to accept the plan. 11 U.S.C. § 1141(a). Therefore, Plaintiff is bound by the confirmed plan of reorganization and is barred from relitigating the liability of Defendants by the principles of res judicata and collateral estoppel.\nTherefore, upon consideration thereof, it is\nORDERED AND ADJUDGED:\nDefendants’ Motion for Summary Judgment is hereby granted.\nDONE AND ORDERED at Green Cove Springs, Clay County, Florida, this 5 th day of April, 1991.",
+                                          "type":  "majority",
+                                          "author":  "WILLIAM A. WILKES, Circuit Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Jeffrey G. Korn, Esquire, for plaintiffs.",
+                                       "John M. Brennan, Esquire, for defendant, Robert Silkworth."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "WARREN SEWELL CLOTHING COMPANY, etc. v SILKWORTH, etc., et al.\nCase No. 90-1338-CA\nFourth Judicial Circuit, Clay County\nApril 5, 1991\nAPPEARANCES OF COUNSEL\nJeffrey G. Korn, Esquire, for plaintiffs.\nJohn M. Brennan, Esquire, for defendant, Robert Silkworth."
+                 },
+    "file_name":  "1414-01",
+    "first_page_order":  157,
+    "last_page_order":  159
+}

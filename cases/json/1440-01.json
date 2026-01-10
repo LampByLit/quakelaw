@@ -1,0 +1,139 @@
+﻿{
+    "id":  2021367,
+    "name":  "AITKEN v. MARKHAM, etc., et al.",
+    "name_abbreviation":  "Aitken v. Markham",
+    "decision_date":  "1991-08-27",
+    "docket_number":  "Case No. 90-37720 (21)",
+    "first_page":  "171",
+    "last_page":  "175",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 171"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "20 U. Fla. L. Rev. 1",
+                         "category":  "journals:journal",
+                         "reporter":  "U. Fla. L. Rev.",
+                         "year":  1967,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "12"
+                                           }
+                                       ],
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "27 U. Fla. L. Rev. 142",
+                         "category":  "journals:journal",
+                         "reporter":  "U. Fla. L. Rev.",
+                         "year":  1974,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "347 So.2d 724",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9690452
+                                      ],
+                         "weight":  2,
+                         "year":  1979,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "726"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/347/0724-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "371 So.2d 496",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9594254
+                                      ],
+                         "year":  1979,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "500"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/371/0496-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "354 So.2d 368",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9703222
+                                      ],
+                         "year":  1977,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/354/0368-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  651,
+                     "char_count":  11053,
+                     "ocr_confidence":  0.9,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07305657588531224
+                                  },
+                     "sha256":  "b66d20e96f54c8dad165cc08344379e50c83463ac0aacebda9bc099883435ffa",
+                     "simhash":  "1:f6882ab307670879",
+                     "word_count":  1725
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "AITKEN v MARKHAM, etc., et al."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nMIETTE K. BURNSTEIN, Circuit Judge.\nTHIS ACTION having been tried de novo before this Court without a jury, and on the evidence presented by the parties the Court makes the following findings of fact and conclusions of law:\n1. This is an action contesting the assessment of an ad valorem property tax pursuant to F.S. 194.171.\n2. Plaintiffs, Timothy Aitken and Julie Aitken, as husband and wife, purchased the subject realty and personalty thereon in Broward County, Florida in late 1987 for $1,100,000.00. The property consists of 20.2 acres, described by the Property Appraiser under Folio No. 0026-00-001.\n3. The taxpayers’ residence is on 2.58 acres of the property, and the remaining 17.44 acres are primarily used for breeding dutch warm blood horses. Plaintiffs filed a timely request for agricultural classification for 17.44 acres of the property for the 1990 ad valorem tax year. The property appraiser denied the agricultural classification on two grounds: firstly, that the subject property was not a bona fide horse breeding operation on January 1, 1990, and secondly, that even if it were, this fact, standing alone, would be insufficient to accord an agricultural classification under F.S. 193.461\n4. Plaintiffs timely brought this action in the Circuit Court, to challenge the denial and have complied with all conditions precedent in order to bring this action.\n5. The taxpayer’s burden of proof in this type of action has been delineated by the Supreme Court in the case of Straughn v Tuck, 354 So.2d 368 (Fla. 1977):\nProperty appraisers are constitutional officers and as such their actions are clothed with a presumption of correctness. One asserting error on the part of the property appraiser must show by proof that every reasonable hypothesis has been excluded which would support the property appraiser. Straughn, at 371.\n6. This Court finds that Plaintiffs have met their burden of proof in showing to the Court, as finder of fact, that the subject property was being utilized for breeding purposes. Additionally, this Court determines, for the reasons delineated below, that horse breeding is a “bona fide” good faith commercial agricultural use of the land under the Florida Greenbelt law. F.S. 193.461.\n7. The testimony and evidence presented, irrefutably established the existence of a commercial dutch warm blood horse breeding farm on the premises. On December 6, 1988, Plaintiff, Julie Aitken, incorporated her horse breeding operation as Oakridge Farm, Inc. The property sustains exactly fifteen head of breeding stock of the dutch warm blood breed. The property is comprised of seven pastures which have been specially fertilized, seeded and cross-fenced. These pastures are essential to horse breeding operations. In addition, the property houses two barns which enclose fourteen stalls, three double-sized stalls and a breeding pen. As of January 1, 1990, two of the double-sized stalls were exclusively used for foaling. The breeding pen on the property is equipped with a teasing board, lower reinforced section and specially padded walls for breeding mares that are taller than the stallion. Moreover, the breeding pen is also used to house such breeding equipment as breeding hobbles, chiffney bits, breeding stocks, artificial vagina, special glass receptacles for semen, and special containers utilized to transport and store chilled semen.\n8. Although no income was derived from the breeding activity, under F.S. 193.461(3)(b), income is not a factor to be considered in the classification of property as agricultural. Furthermore, neither the realization of profit nor commercial success is required to classify property as agricultural. Fisher v Schooley, 371 So.2d 496, 500 (Fla. 2d DCA 1979). All that is necessary is for a “profit motive” to be present; a profit need not immediately be realized on the total investment. Straughn v K \u0026 K Land Management, 347 So.2d 724, 726 (Fla. 2d DCA 1979). Under Section 12D-5.001, Fla. Admin. Cd., an agricultural classification is a “reasonable expectation of meeting investment cost and realizing a reasonable profit.” This Court is satisfied that Plaintiffs have met their investment costs, and have reasonable expectations of profiting from their investment in the future.\n9. The Defendant contended that horse breeding is not a bona fide commercial agricultural use under the Greenbelt Law unless the horses are used for food and fiber purposes. The Greenbelt law defines agricultural purpose as:\nhorticulture; floriculture; viticulture; forestry; dairy; livestock; poultry; bee; pisciculture, when the land is used principally for the production of tropical fish; and all forms of farm products and farm production.\n10. It is suggested that the definition of livestock only includes horses if they are used in and for the preparation of food products. This definition, however, has no basis in Florida law and flies in the face of virtually every statutory definition of the term livestock. Chapter 588 Florida Statutes, Legal Fences and Livestock at Large, defines livestock as:\nlivestock shall include all animals of the equine, bovine, or swine class, including goats, sheep, mules, horses, hogs, cattle and other grazing animals. F.S. 588.13(1), emphasis added. Title 35 of the Florida Statutes entitled Agriculture, Horticulture, and Animal Industry, also contains a definition of livestock:\nlivestock means grazing animals, such as cattle, horses, sheep, swine, goats and other hoofed animals which are raised for private use or commercial purposes. F.S. 585.01(11), emphasis added. Income is an appropriate factor in the assessment determination under F.S. 183.461(6)(a).\nMoreover, Section 5(c)-5.001(l) Fla. Admin. Cd. (livestock markets; diseased animals) provides that “for the purpose of this Chapter the following words shall have the meaning indicated: (1) livestock — any equine or bovine animal, goat, sheep or swine.” emphasis added. Similarly, Section 5(c)-8.001(2) Fla. Admin. Cd. (screw worm) also states that for purposes of this Chapter the terms “livestock” or “other animals” signifies “any equine or bovine animal, goat, sheep, swine or other animal, wild or domesticated, subject to screw worm infestation.” In addition, Section 12(a)-1.050 Fla. Admin. Cd. (food for animals) states in part: “livestock shall include all animals of the equine, bovine or swine class including goats, sheep, mules, horses, hogs cattle and other grazing animals.” emphasis added.\n11. Finally, Defendant argued that the Legislature’s goal in enacting the Green Belt [sic] Law, was to preserve and protect those producing “food and other agricultural products.” While this goal is certainly a legitimate one, it cannot be construed to be the sole purpose behind granting agricultural classification. Florida’s current statutory scheme was born out of a legislative desire to protect the individual agriculturalist from prohibitive ad valorem taxation due to urban expansion. Davis, Florida Greenbelts: Preservation of Public and Private Interests, 27 U. Fla. L. Rev. 142 (1974-75). The preamble to the Green Belt law, contained in Chapter 72-181 speaks to the importance of preserving urban fringe areas from succumbing to development:\n. . . It is also declared the policy of the state to conserve and protect agricultural, outdoor recreational and park lands as valued natural and ecological resources which provide needed open spaces for clean air sheds, as well as for aesthetic purposes; and . . . agricultural and outdoor recreational lands in many parts of the state are under urban pressure from expanding metropolitan areas. This urban pressure takes the form of scattered development in wide belts around urban areas . . . It is the intent of this act to provide a means by which agricultural and outdoor recreational land may be protected and enhanced as a viable segment of the state’s economy and as an economic and environmental resource of major importance. Florida H.R. 3772 Preamble (Reg. Sess. 1972) A requirement that horses be used in the production of food products before their breeding can be classified as an agricultural use, is not supported by legislative definition or history.\n12. This Court recognizes the outstanding commercial and residential growth of this State and is sensitive to the Legislature’s desire to preserve agricultural and undeveloped lands. It is of particular interest to this Court that the Tax Assessors of both Dade and Palm Beach County accord horsebreeding an agricultural classification under the Greenbelt Statute. Although this fact is not dispositive of the issue before this Court, it is persuasive in recognizing the importance of promulgating the legislative goals of preserving agricultural, recreational and scenic lands against the rising tide of urban development.\nORDERED AND ADJUDGED that Judgment be and the same is hereby entered in favor of Plaintiffs and against Defendants. This Court finds that the subject property was used for horse breeding during the 1990 ad valorem tax year and that horse breeding is a bona fide commercial agricultural use of the property under F.S. 193.461.\nAs such, this case is hereby REMANDED for assessment of taxes under an agricultural classification for the 1990 ad valorem tax year.\nAs to the Property Appraiser’s Counterclaim, Judgment is hereby entered for the CounterDefendant.\nThe Court reserves jurisdiction of the cause for the purpose of enforcing this Final Judgment and for taxing costs on motion of Plaintiffs.\nDONE and ORDERED in Chambers at Fort Lauderdale, Broward County, Florida this 27th day of August, 1991.\nF.S. 193.461 is commonly known as the “Greenbelt Law”. See Straughn v K \u0026 K Management, Inc., 347 So.2d 724 (Fla. 2d DCA 1977). A “greenbelt” is an area of land which borders on an urban center that has deliberately been preserved in its undeveloped state. Wershow, Recent Developments in Ad Valorem Taxation, 20 U. Fla. L. Rev. 1, 12 (1967).\nUnder Section 193.461(3)(b), Florida Statutes, the following factors may be considered to determine agricultural classification of land: 1. the length of time the land has been so utilized; 2. whether the use has been continuous; 3. the purchase price paid; 4. size, as it relates to agricultural use; 5. whether an effort has been made to care sufficiently and adequately for the land in accordance with agricultural practices; 6. whether such land is under lease; and 7. other facts which may become applicable.\nInterestingly enough, F.S. 193.461 includes the breeding of tropical fish as an agricultural classification. This substantially detracts from the argument that an agricultural classification is only given to activities involved in producing food and agricultural products.",
+                                          "type":  "majority",
+                                          "author":  "MIETTE K. BURNSTEIN, Circuit Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Alan T. Dimond, Esquire and Pedro J. Martinez-Fraga, Esquire, Greenberg, Traurig, for plaintiffs.",
+                                       "Gaylord Wood, Esquire, for defendants."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "AITKEN v MARKHAM, etc., et al.\nCase No. 90-37720 (21)\nSeventeenth Judicial Circuit, Broward County\nAugust 27, 1991\nAPPEARANCES OF COUNSEL\nAlan T. Dimond, Esquire and Pedro J. Martinez-Fraga, Esquire, Greenberg, Traurig, for plaintiffs.\nGaylord Wood, Esquire, for defendants."
+                 },
+    "file_name":  "1440-01",
+    "first_page_order":  191,
+    "last_page_order":  195
+}

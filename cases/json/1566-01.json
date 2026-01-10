@@ -1,0 +1,159 @@
+﻿{
+    "id":  8551251,
+    "name":  "Juan Anaya v. State",
+    "name_abbreviation":  "Anaya v. State",
+    "decision_date":  "1959-03-11",
+    "docket_number":  "No. 30,441",
+    "first_page":  "509",
+    "last_page":  "511",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 509"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "316 S.W. 2d 757",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10174580
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/316/0757-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "166 Texas Cr. Rep. 556",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2619919
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/166/0556-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "273 S.W. 2d 878",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10210591
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/273/0878-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "160 Texas Cr. Rep. 622",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2470719
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/160/0622-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "45 S.W. 709",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "39 Texas Cr. Rep. 190",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4491018
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/39/0190-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "262 S.W. 2d 501",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10191152
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/262/0501-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "159 Texas Cr. Rep. 263",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2474885
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/159/0263-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  269,
+                     "char_count":  3166,
+                     "ocr_confidence":  0.58,
+                     "pagerank":  {
+                                      "raw":  1.6343475431493036E-07,
+                                      "percentile":  0.6899547039228928
+                                  },
+                     "sha256":  "924348fa978b39ff852ade5975cc9e9d4e1bae61f5367974392bc96f2108e7d8",
+                     "simhash":  "1:7d7e78c95c7994c0",
+                     "word_count":  553
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Juan Anaya v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is driving while intoxicated; the punishment, 6 months in jail and a fine of $150.00.\nOfficers Winstead and Reaves of the highway patrol testified that, while on patrol at midnight on the night in question, they observed the lights of an automobile approaching them from the rear and noticed that the automobile was weaving from one side of the traffic lane to the other and that it “almost hit the patrol car as it went by,” that it forced a truck off the highway, and that when they brought it to a halt they smelled a strong odor of alcohol on the breath of the appellant, who was the driver, that he staggered when he walked, and expressed the opinion that he was intoxicated.\nThe appellant called Mary Reynoza, who testified that the appellant had been in the club which she operated until 11:30, that he had drunk only one beer, and in her opinion that he was not intoxicated.\nOne DeLeon testified that he was at the club in question on the night charged in the information drinking beer, that the appellant took him home at about 11:30, and that in his opinion the appellant was not intoxicated.\nAppellant, testifying in his own behalf, stated that he had drunk only one beer on the night in question and denied that he was intoxicated.\nThe jury resolved the issue of the appellant’s intoxication against him, and we find the evidence sufficient to support the conviction. We shall discuss the contentions advanced by the appellant in his brief.\nWe overrule appellant’s contention that the verdict was fatally defective because it did not recite “upon a public highway.” Frazier v. State, 159 Texas Cr. Rep. 263, 262 S.W. 2d 501, and McGee v. State, 39 Texas Cr. Rep. 190, 45 S.W. 709.\nAppellant next seeks to complain about certain questions propounded to him on cross-examination. The statement of facts does not reveal that such questions were asked, nor do we find any bills of exception complaining of the same. These are the exclusive ways in which such a matter may be brought to this court for review. Article 759a, V.A.C.C.P.\nAppellant’s last complaint relates to alleged jury misconduct. We need not pass upon the correctness of the ruling of the court in refusing to permit the jurors to swear to the statements which he sought to use in lieu of affidavits at the time they appeared as witnesses because the same do not show misconduct and were therefore insufficient as a pleading, and the action of the court in overruling the same at any stage of the proceeding could not be assigned as error. Barnett v. State, 160 Texas Cr. Rep. 622, 273 S.W. 2d 878. In this connection, attention is directed to the rule that a juror will not be permitted to impeach or explain his or her verdict by showing the reason for the conclusion reached. Bridges v. State, 166 Texas Cr. Rep. 556, 316 S.W. 2d 757, and cases there cited.\nFinding no reversible error, the judgment of the trial court is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Will Hadden, Clyde C. Bishop, Odessa, (on appeal only) for appellant.",
+                                       "Leon Howell, County Attorney, Midland, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Juan Anaya v. State.\nNo. 30,441.\nMarch 11, 1959.\nWill Hadden, Clyde C. Bishop, Odessa, (on appeal only) for appellant.\nLeon Howell, County Attorney, Midland, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1566-01",
+    "first_page_order":  527,
+    "last_page_order":  529
+}

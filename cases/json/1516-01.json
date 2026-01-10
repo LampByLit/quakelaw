@@ -1,0 +1,153 @@
+﻿{
+    "id":  8549329,
+    "name":  "James David Green v. State",
+    "name_abbreviation":  "Green v. State",
+    "decision_date":  "1953-12-10",
+    "docket_number":  "No. 30,061",
+    "first_page":  "330",
+    "last_page":  "335",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 330"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "255 S.W. 180",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10301249
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/255/0180-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "95 Texas Cr. Rep. 541",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5062245
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/95/0541-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "59 S.W. 1119",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "42 Texas Cr. Rep. 286",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          171635
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/42/0286-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "198 S.W. 2d 98",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10187172
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/198/0098-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "148 Texas Cr. Rep. 624",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "303 S.W. 2d 392",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10166616
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/303/0392-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "165 Texas Cr. Rep. 46",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2611355
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/165/0046-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  455,
+                     "char_count":  8442,
+                     "ocr_confidence":  0.581,
+                     "pagerank":  {
+                                      "raw":  1.7920910046529459E-07,
+                                      "percentile":  0.7151413074661882
+                                  },
+                     "sha256":  "a0ae916e280b7e6b9dfd804e66ac5ddc611091f92203212886b6fd4968c902a8",
+                     "simhash":  "1:8dec37a72d2a7fa2",
+                     "word_count":  1467
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "James David Green v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DICE, Judge.\nAppellant was convicted under the first count of the indictment of the offense of robbery with firearms and his punishment assessed at confinement in the penitentiary for 35 years.\nThe indictment was returned in the Criminal District Court of Bexar County and, upon the court’s own motion, venue was changed to the 155th Judicial District Court of Hays County.\nThe record reflects that appellant had been twice previously tried upon an indictment charging the offense of robbery by assault which arose out of the identical transaction upon which the indictment in the present case is predicated, the first trial in the Criminal District Court of Bexar County in the month of August, 1956 resulting in a hung jury and the second trial in the same court resulting in appellant’s conviction, which upon appeal, to this court was reversed and the cause remanded. Green v. State, 165 Texas Cr. Rep. 46, 303 S.W. 2d 392.\nAppellant filed a plea of former jeopardy in which he alleged that he had been placed in jeopardy for the same offense upon his trial in August, 1956 in the Criminal District Court of Bexar County when the trial judge, without his consent, verbally discharged the jury from further consideration of the cause, before they had been kept together for such time as to render it altogether improbable that they could agree upon a verdict.\nThe trial court, after hearing evidence on the plea, overruled the same but later rescinded his order, permitted the evidence to be introduced before the jury and in his charge submitted the issue of former jeopardy to the jury and under appropriate instructions required the jury to find in its verdict whether the allegations of the plea were true or untrue.\nThe jury, in its verdict found that the allegations in the appellant’s plea of former jeopardy were untrue.\nAppellant’s main contention on appeal is that the court erred in not sustaining his plea of former jeopardy.\nUpon a hearing of the plea it was stipulated by and between the parties that at the former trial the jury was selected and evidence presented on the 27th and 28th day of August, 1956; that after the argument of counsel the jury retired to consider its verdict and deliberated between five and seven hours, except for a period of thirty to forty-five minutes during which time they were eating dinner; that the jury returned into open court and its foreman announced to the judge that they were hopelessly deadlocked, and after the judge inquired of the jury whether they could by further deliberation with additional time resolve the difference the foreman replied that they could not, whereupon the court dismissed the jury without consent of the appellant. It was further stipulated that the majority of the vote of the jury favored conviction and that eleven of the jurors would testify that they would not have changed their vote and that one juror would testify that he believed that he would not have changed his vote “no matter how long the jury was kept together deliberating on the case.”\nTwo of the jurors who served in the case were called to testify.\nGeorge B. Skinner, who served as foreman, testified that the jury retired to deliberate around 3:30 P.M., and after taking 3 or 4 ballots went to supper around 6:00 P.M.; that they returned to the jury room between 6:30 and 6:45 P.M. and deliberated until between 9:00 and 9:30 P.M. when they returned to the courtroom and reported to the judge in appellant’s presence that they were hopelessly deadlocked. He further testified that when they reported to the court the jury stood 8 to 4 for conviction and that one juror, who was for acquittal, and several who were for conviction took the position that they would not change their vote.\nThe juror Fred C. Byford testified that the jury retired to consider its verdict around 1:00 or 2:00 P.M., went to supper between 5:00 and 6:00 P.M. for 30 or 40 minutes and when they reported to the judge 2 or 3 hours later when they stood 11 to 1 for conviction they were of the unanimous opinion that they could not reach a verdict.\nJudge M. D. Jones, who presided at the trial, testified that he discharged the jury around 10:00 P.M. because they could not agree upon a verdict, after the foreman had stated that they could not reach a verdict and were hopelessly deadlocked, and each juror nodded an affirmative assent to his statement when questioned by the court.\nThe authority of a trial court to discharge a jury upon their disagreement is found in Art. 682 V.A.C.C.P. which provides:\n“After the cause is submitted to the jury, they may be discharged when they cannot agree and both parties consent to their discharge; or the court may in its discretion discharge them where they have been kept together for such time as to render it altogether improbable that they can agree.”\nBy the provisions of this statute the trial court, may in its discretion discharge the jury without the consent of the defendant when they have been kept together for such time as to render it altogether improbable that they can agree on a verdict.\nIt has been held that the exercise of this discretion by the trial court will not be revised on appeal and will not be held to constitute jeopardy, except when it is clearly made to appear that such discretion has been abused to the injury of the defendant’s rights. Schindler v. State, 17 Texas App. 408, and Varnes v. State, 20 Texas App. 107. The exercise of discretion is measured by the time the jury\u0027have been kept together, considered in the light of the nature of the case and the evidence. 42 Texas Jur. par. 352 at page 448.\nIn Murphy v. State, 148 Texas Cr. Rep. 624, 198 S.W. 2d 98, the action of a trial judge in discharging a jury in a murder case upon being unable to agree after deliberating\u0027 eight hours was held not to be an abuse of discretion. In the Murphy case as in the instant case the presentation of evidence consumed approximately one day of the trial and the jurors were unanimous in their statement to the trial judge that they were unable to agree upon a verdict.\nUnder the evidence presented we think that the trial court did not abuse his discretion in concluding that the jury could not agree upon a verdict and in discharging them at the former trial.\nIn view of this conclusion we overrule appellant’s contention that his plea of former jeopardy should have been sustained by the trial court as a matter of law.\nIn submitting the issue of former jeopardy to the jury the court did not err. Bland v. State, 42 Texas Cr. Rep. 286, 59 S.W. 1119, and Yantis v. State, 95 Texas Cr. Rep. 541, 255 S.W. 180. The jury’s verdict finding the allegations in the plea untrue is supported by the evidence.\nOn the issue of appellant’s guilt of the offense charged the state’s testimony shows that on the date alleged in the indictment two men appeared at the Broadway theatre in Alamo Heights, a suburb of the city of San Antonio, around 11 o’clock P.M. and by using and exhibiting pistols took from the possession of Eric Brendler, the theatre manager the sum of $798.20 in money. Appellant was identified by Brendler and by the assistant manager of the theatre and an usher who were present at the theatre on the night in question as one of the men who committed the robbery. The other man who participated in the robbery with appellant was identified by the witnesses as Eugene Nolan.\nAs a witness in his own behalf appellant denied having participated in the robbery and called as a witness Richard L. Mulkey, who testified that it was he who committed the robbery with Nolan.\nThe jury chose to accept the testimony of the state’s witnesses and reject that of the appellant and we find the evidence sufficient to support their verdict.\nWe have examined the informal bills of exception appearing in the statement of facts and find no reversible error.\nThe judgment is affirmed.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "DICE, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Oliver, Gillespie \u0026 Lacy, by James R. Gillespie (on appeal only), San Antonio, for appellant.",
+                                       "Wallace T. Barber, District Attorney, San Marcos, Hubert W. Green, Jr., Criminal District Attorney, Richard J. Woods, First Assistant Criminal District Attorney, Charles J. Leich, Jr., and Preston H. Dial, Jr., Assistants Criminal District Attorney, all of San Antonio, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "James David Green v. State.\nNo. 30,061.\nDecember 10, 1953.\nMotion for Rehearing Overruled February 4, 1959.\nOliver, Gillespie \u0026 Lacy, by James R. Gillespie (on appeal only), San Antonio, for appellant.\nWallace T. Barber, District Attorney, San Marcos, Hubert W. Green, Jr., Criminal District Attorney, Richard J. Woods, First Assistant Criminal District Attorney, Charles J. Leich, Jr., and Preston H. Dial, Jr., Assistants Criminal District Attorney, all of San Antonio, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1516-01",
+    "first_page_order":  348,
+    "last_page_order":  353
+}

@@ -1,0 +1,146 @@
+﻿{
+    "id":  8549361,
+    "name":  "J. E. McKinzie v. State",
+    "name_abbreviation":  "McKinzie v. State",
+    "decision_date":  "1959-02-04",
+    "docket_number":  "No. 30,260",
+    "first_page":  "335",
+    "last_page":  "339",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 335"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "158 S.W. 2d 796",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10225311
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/158/0796-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "143 Texas Cr. Rep. 521",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5289876
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/143/0521-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "109 S.W. 2d 1057",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10275881
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/109/1057-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "133 Texas Cr. Rep. 294",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5235247
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/133/0294-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "180 S.W. 2d 161",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10198871
+                                      ],
+                         "pin_cites":  [
+                                           {
+                                               "page":  "163"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/180/0161-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "147 Texas Cr. Rep. 316",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5300566
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/147/0316-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  429,
+                     "char_count":  9733,
+                     "ocr_confidence":  0.596,
+                     "pagerank":  {
+                                      "raw":  6.0870859663157229E-08,
+                                      "percentile":  0.379375979062872
+                                  },
+                     "sha256":  "7091ef2062e0ebe7d715439ec6c77caad6bfdff5ebc8022e01d5bfa8f8f69930",
+                     "simhash":  "1:41af758169f634c5",
+                     "word_count":  1718
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "J. E. McKinzie v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BELCHER, Judge.\nThe offense is theft by false pretext; the punishment, four years.\nThe indictment was in the ordinary form for felony theft, it being charged therein that the appellant took from J. B. Turner a check, dated August 2, 1957, of the value of $5,000.00, with the intent to deprive said Turner of the value thereof and to appropriate the same to his own benefit.\nJ. B. Turner testified that he attended a meeting with several other persons in July, 1957, in Snyder, Texas, where the appellant told them he owned 2,000 acres in the Rangely, Colorado, oil field; that he represented to them that he then had 18 wells producing an average of more than 50 barrels of oil per well per day; that he wanted to sell small interests in these wells, the interest could be under one well or five wells, so he could develop the property and that the monthly income from a $5,000 investment in them would be around $350 to $370; and that appellant didn’t speak of selling interests in any wells to be drilled, but only of those already drilled and producing oil at that time. Thereafter, on August 2, 1957, he handed Clyde Godwin, appellant’s personal representative in Snyder, his $5,000 check drawn on the West Texas State Bank of Snyder, Texas, and requested that an assignment of an interest under 5 of the 18 producing oil wells be attached to the check when it was presented for payment; and that he would not have delivered the $5,000 check, dated August 2, if it had not been for appellant’s representations made at the July meeting. On August 9, 1957, appellant deposited said check with an assignment attached thereto in a bank in Lubbock, Texas, and it was sent to the West Texas State Bank, the drawee. J. B. Turner further testified that he saw the assignment attached to the check at the bank and that the bank, without requiring him to pay the check permitted him to take the check and assignment to his attorney’s office where they obtained the description of the property set out in the assignment so it could be placed in a deed of trust with other property he owned to secure a loan of $5,000 with which to pay the check and thereby get the assignment. After the execution of the deed of trust, he received $5,000 with which he paid the check on August 2, 1957 and the bank delivered to him the assignment.\nThe state offered evidence that the appellant did not own 18 producing oil wells in the Rangely, Colorado, oil field which would produce an average of more than fifty barrels of oil per well per day.\nThe assignment which had been attached to the check given by Turner was introduced in evidence and it shows that it conveyed to J. B. Turner an interest under five certain numbered wells to be drilled.\n■ The court in submitting the false pretext to the jury, made appellant’s guilt depend upon their finding that he came into possession of the $5,000 check by fraudulently “representing to the said J. B. Turner that he, the said J. E. McKinzie, had eighteen producing oil wells in the Rangeley, Colorado, oil field which would produce an average of more than fifty barrels of oil per well per day, and that he, the said J. E. McKinzie would convey to the said J. B. Turner an interest in five of such producing oil wells or in five wells to be drilled in the area proven by such eighteen oil wells” knowing at the time, that such representations were untrue.\nThe sufficiency of the evidence to support the conviction is challenged.\nThe record shows that J. B. Turner did not rely upon any representations made by the appellant that he would convey to him an interest in five wells to be drilled as submitted in the court’s charge, because he testified that the appellant didn’t speak of selling any interest in any wells to be drilled, but spoke only of those already drilled and producing oil at that time. Therefore, this conviction cannot rest upon fraudulent representations made by appellant to Turner as to the conveyance of an interest in five wells to be drilled.\nIn considering the reliance upon representations made by the appellant that a check was valid for $87.50, where according to the figures on the check the sum payable was $87.50, whereas, according to the words written on the check, the sum was “TWO and NO/100 DOLLARS,” in Nickson v. State, 147 Texas Cr. Rep. 316, 180 S.W. 2d 161, 163, we said:\n“Under Art. 1413, P.C., where false pretext is relied upon to show the offense of theft, it is essentially necessary that the false pretext be the inducing cause for the surrender of possession of the property by the injured party. Nichols v. State, 133 Texas Cr. Rep. 294, 109 S.W. 2d 1057. Likewise, if the injured party knows, at the time he parts with the possession of his property, that the pretext is in fact false, he cannot rely thereon; and the offense of theft by false pretext cannot arise. McCain v. State, 143 Texas Cr. Rep. 521, 158 S.W. 2d 796. Touching thé question as to what caution or prudence is required of the injured party in a swindling case to detect falsity of the representations made and upon which he relies, this court early, in the case of Buckalew v. State, 11 Texas App. 352, announced the rule, as follows: ‘But, even though ordinary caution and common prudence are not required in the detection and avoidance of the imposition, yet we apprehend that there has been no change in the rule, so well founded in common sense and law, that, ‘where the pretense is absurd or irrational, or such as the party injured had at the very time the means of detecting at hand, it is not within the act.’\n“The legal effect of a false representation in swindling and of a false pretext in theft is the same, because each is the inducing cause upon which the injured party relies in parting with his property. The rule announced in the Buckalew case, supra, is, therefore, applicable in a case of theft by false pretext.\n“According to Malouf’s own testimony, he had the check in his possession and inspected it to the point of noticing the name of the payee thereon and of requiring an endorsement thereof — all before he accepted it and parted with his property. He, therefore, at the very time he parted with his property, had ‘the means of detecting at hand’ that the check was valid for $2 only, and that appellant’s representations to the contrary were false. This brings this case within the rule announced in the Buckalew case, supra. The conclusion is reached that the facts are insufficient to show theft by false pretext.”\nThe testimony of J. B. Turner shows that he saw at the bank the assignment which was attached to the check as he had directed and that the bank permitted him and the person who was lending him the $5,000 with which to pay the check, to take the assignment to his attorney’s office. The assignment, on its face, shows clearly and plainly, that it only conveyed an interest under five certain numbered wells to be drilled. J. B. Turner testified that they discussed the clause “wells to be drilled” which was in the assignment while in the attorney’s office. Therefore, Turner knew, as well as the person lending him to $5,000 that the assignment did not convey an interest under five wells already producing oil as he had requested when he handed the check to Godwin; and that the assignment was contrary to the representations he testified that the appellant made to him, and except for such statments he would not have delivered the $5,000 check.\nAfter a conference with an attorney and the person making the loan of $5,000, and with knowledge of the interest actually conveyed by the assignment, Turner parted with his money by paying the check to which the assignment conveying an interest in wells to be drilled was attached.\nNotwithstanding the fact that J. B. Turner testified that appellant did not speak of selling interests in any wells to be drilled, and hence could not have relied upon such representation, the court in his charge instructed the jury that if appellant intended to have conveyed to Turner an interest in five wells to be drilled in the future and intended to drill such wells, in accordance with said representation so made by appellant, to acquit.\nThis instruction qualified the charge authorizing a conviction upon a finding that the check was obtained upon the false and fraudulent representation by appellant that he had 18 producing oil wells, which would produce an average of more than 50 barrels of oil per day, and would convey an interest in five of such producing wells OR in five wells to be drilled in the area proven by such 18 oil wells.\nThe assignment attached to the check which Turner inspected and Turner’s testimony precludes a conviction upon the theory that appellant represented that he would convey an interest in producing wells.\nThe record will not support a conviction upon the theory that appellant did not intend to drill the wells in which he assigned an interest to Turner.\nThe instruction to the jury to acquit upon a finding that appellant intended to drill the five wells precluded a conviction upon the false representation that the 18 wells would produce an average of 50 barrels of oil per well per day, without regard to whether appellant was offering to convey an interest in some of the 18 producing wells or in wells to be drilled in the area proven by them.\nThe evidence fails to show the commission of the offense of theft by false pretext.\nThe judgment is reversed and the cause remanded.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "BELCHER, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Pat Beene, Snyder, E. W. Boedeker, Levelland, and Dewey Cox, Jr., Ranger, for appellant.",
+                                       "Wayland G. Holt, District Attorney, Snyder, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "J. E. McKinzie v. State.\nNo. 30,260.\nFebruary 4, 1959.\nPat Beene, Snyder, E. W. Boedeker, Levelland, and Dewey Cox, Jr., Ranger, for appellant.\nWayland G. Holt, District Attorney, Snyder, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1517-01",
+    "first_page_order":  353,
+    "last_page_order":  357
+}

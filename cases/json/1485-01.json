@@ -1,0 +1,147 @@
+﻿{
+    "id":  8548227,
+    "name":  "H. V. Hill v. State",
+    "name_abbreviation":  "Hill v. State",
+    "decision_date":  "1958-11-19",
+    "docket_number":  "No. 30,121",
+    "first_page":  "229",
+    "last_page":  "232",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 229"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "113 S.W. 2d 540",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10258776
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/113/0540-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "134 Texas Cr. Rep. 26",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5224312
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/134/0026-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "301 S.W. 2d 921",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10183799
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/301/0921-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 650",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2612151
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0650-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "253 S.W. 2d 701",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10217895
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/253/0701-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "158 Texas Cr. Rep. 16",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2481813
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/158/0016-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "77 U.S. 1007",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "opinion_index":  0
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  382,
+                     "char_count":  5433,
+                     "ocr_confidence":  0.601,
+                     "pagerank":  {
+                                      "raw":  5.3296071654106551E-08,
+                                      "percentile":  0.33571242956635694
+                                  },
+                     "sha256":  "676c00d60625d9dec9af60413d78d2c547f6351144e91554839b9b95c2868c98",
+                     "simhash":  "1:cfcea0c75f0044f9",
+                     "word_count":  945
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "H. V. Hill v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is murder; the punishment, two and one-half years.\nDeceased sustained the fatal injury in a rural section of Morris County; only two witnesses were present, the appellant, who testified in his own behalf, and a colored man named Weaver, who testified for the state. All the parties had been drinking-. Appellant’s confession was introduced in evidence without objection; the jury resolved the issue of self defense against the appellant, and we find the evidence sufficient to support its verdict. The evidence will be set out more fully in our discussion of appellant’s grounds for reversal as follows:\n1. Prior to announcement, appellant filed a motion seeking to require the state to produce for his examination a written statment of the witness Weaver, allegedly in the hands of the prosecution, which motion was by the court refused. Reliance is had upon Jencks v. U.S., 77 U.S. 1007. Since the rendition of the opinion in Jencks, Congress has enacted Section 3500 of Title 18, U.S.C.A., which requires the production of any statement in the hands of the government after the witness has testified, under the penalty of having the witness’ testimony stricken from the record or a mistrial ordered. Said section is not authority for pre-trial inspection of documents in the hands of the prosecution, and the holdings of this court in Lopez v. State, 158 Texas Cr. Rep. 16, 253 S.W. 2d 701, and Dowling v. State, 164 Texas Cr. Rep. 650, 301 S.W. 2d 921, dispose of appellant’s contention in this regard.\n2. Deputy Sheriff McCollum, a state’s witness, was recalled by appellant and testified that the witness Weaver had given several different accounts of the homicide on the following morning. On cross-examination by the prosecution, the following occurred:\n“Q. And you-all were talking to Will Weaver, I will ask you to state whether or not Will Weaver was scared to death when you were talking to him ?\n“MR. ROBISON: We object to that, your Honor, that’s the conclusion of the witness, as to whether that man was scared.\n“COURT: I overrule the objection.\n“MR. ROBISON: Note the exception.\n“A. He was.\n“Q. You say that he was?\n“A. He was scared.\n“Q. And you-all were talking to him merely trying to find out the straight of just exactly what he saw up there?\n“A. That’s right.\n“Q. And he actually was so scared he couldn’t hardly tell—\n“MR. ROBISON: Your Honor, we object to that.\n“COURT: I sustain the objection, and Gentlemen of the Jury you will not consider the remark that he was so scared he didn’t know what he was doing. That is withdrawn from your consideration.”\nIt will thus be seen that the trial court realized his error, immediately corrected it, and no injury is shown.\n3. The appellant requested the giving of the following charge, “That the pocket knife offered in evidence by the State herein is not of itself a Deadly Weapon,” and such request was refused. Reliance is had upon Dodd v. State, 134 Texas Cr. Rep. 26, 113 S.W. 2d 540. Dodd was an assault with intent to murder case, and no wounds were inflicted upon the injured party, and we said: “Hence the rule that the nature of the wounds might be looked to in determining whether or not the weapon, in the manner of its use, was deadly has no application.” In the case at bar, the court instructed the jury on the necessity of finding that the appellant attacked the deceased with a deadly weapon with the specific intent to kill, on aggravated assault, and, in the case of a reasonable doubt, to find the accused guilty of the lesser included offense.\nWe have concluded that the requested instruction would have been on the weight of the evidence, and hence improper, and that the court did not err in refusing it.\n4. Appellant in his confession recites, “I hit him, I don’t know whether I hit him with my fist or my knife. I had my knife in my hand and open but I thought I had put it in my pocket before I hit him.” Weaver testified as follows:\n“Q. Who struck him? A. Mr. Hill (the appellant) did, he struck the other man (the deceased).\n“Q. I will ask you before Mr. Hill struck the other man, Will, did you see anything in Mr. Hill’s hand? A. I saw a pocket knife.”\nDr. Smith testified that his autopsy revealed that the deceased had received a wound behind the left ear which had severed the vertical artery that comes into the base of the brain, causing massive brain hemorrhage, and resulted in death, and that the wound had been inflicted by a pointed instrument which was sharp on one side and dull on the other. He stated further that in his opinion the deceased had been dead approximately two hours at the time of his examination.\nConstable Williams testified that he went with the doctor, who did not know the deceased, to the funeral home where the deceased’s body, and none other, was being held and where the autopsy was performed.\nWe overrule appellant’s contention that the evidence is insufficient to show that the death of the deceased resulted from an act of the accused.\n5. Appellant’s contention that the court’s charge was fundamentally erroneous in that it limited the effect of impeaching testimony is overruled.\nFinding no reversible error, the judgment of the trial court is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Aubrey Robison, Daingerfield, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "H. V. Hill v. State.\nNo. 30,121.\nNovember 19, 1958.\nMotion for Rehearing Overruled January 21, 1959.\nAubrey Robison, Daingerfield, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1485-01",
+    "first_page_order":  247,
+    "last_page_order":  250
+}

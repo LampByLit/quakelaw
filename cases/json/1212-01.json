@@ -1,0 +1,70 @@
+﻿{
+    "id":  4565055,
+    "name":  "John Benton v. The State",
+    "name_abbreviation":  "Benton v. State",
+    "decision_date":  "1908-01-29",
+    "docket_number":  "No. 4251",
+    "first_page":  "422",
+    "last_page":  "423",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 422"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  268,
+                     "char_count":  4410,
+                     "ocr_confidence":  0.597,
+                     "pagerank":  {
+                                      "raw":  3.5032896234705034E-07,
+                                      "percentile":  0.8829088105136631
+                                  },
+                     "sha256":  "de10e5936c5b82e03726867a910316de85af3e22f3e44e1c597760a1e1b0e264",
+                     "simhash":  "1:95437cae042081df",
+                     "word_count":  753
+                 },
+    "last_updated":  "2023-07-14T19:59:32.944253+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "John Benton v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "RAMSEY, Judge.\nAppellant was convicted in the county court of Grayson County for unlawfully selling intoxicating liquors in violation of the local option law.\nThe information charged that appellant had unlawfully sold intoxicating liquors to one Ambrose Skipworth, on the 12th day of November, 1906. It appears from a recital of the judgment that the defendant interposed a plea of former conviction, in that, he had been theretofore convicted of a sale made at the same time and as a part of the same transaction as that growing out of the facts upon which the presen) charge is based. The facts briefly, in respect to this plea, are: That the witness Howard testified that on the 12th day of November, 1906, in company with one Gray, he bought intoxicating liquors from appellant, and that some hours after this a sale was made by appellant to the witness Skipworth at a time when Howard as well as Gray were present. Howard’s testimony distinctly and positively shows two sales by appellant at two separate and independent times. The testimony of Gray and Skipworth, while not agreeing in every detail, substantially affirms the fact to be that there was only one sale when either of them were present, and that, at a time when both were together with the witness Howard.\nAs stated above, in the case in which appellant was convicted, he was charged with a sale of intoxicating liquors to J. B. Howard. In the present case the charge is that he unlawfully sold intoxicating liquors to the witness, Ambrose Skipworth. In this state of the proof, the court instructed the jury as follows: “The defendant has pleaded specially that he has heretofore been tried and legally convicted upon the accusation as herein charged, in a court of competent jurisdiction, to wit: in the county court of Grayson County, Texas, and evidence has been introduced before you in regard to said plea. You are charged that in order to sustain said plea, you must be satisfied from the evidence that the offense for which the defendant was so formerly convicted grew out of the identical transaction involved in this case; that is, that the transaction growing out of which the defendant was prosecuted and convicted in said former case is the identical transaction upon which this prosecution is based, and the burden of proof is on the defendant to show by a preponderance of the evidence, by which is meant the greater weight and degree of credible testimony, that said transactions were one and the same. If you are so satisfied and so believe from the evidence, then the form of your verdict will be: £We, the jury, find that the matters alleged in the defendant’s plea of former conviction are true,’ and you need not inquire any further into nor render or return any further verdict in this case.” This was, as we believe, an accurate and sufficient submission of this issue. The proof in support of appellant’s plea is conflicting. The jury have found against him, and in deference to their finding, we must hold against his contention.\nThere were numerous bills of exception taken relating to matters of evidence, all of which have been carefully considered, and in our opinion there was no error in the action of the court in respect to any of them.\nFinding no error in the record, the judgment of the lower court is in all things affirmed.\nAffirmed.\n[Motion for rehearing overruled, February 19, 1908, without written opinion.—Beporter.]",
+                                          "type":  "majority",
+                                          "author":  "RAMSEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Smith \u0026 Wall, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "John Benton v. The State.\nNo. 4251.\nDecided January 29, 1908.\nLocal Option—Former Conviction—Charge of Court—Burden of Proof.\nWhere upon trial for a violation of the local option law defendant interposed a plea of former conviction, and the evidence showed that defendant sold to\" two different parties, and had been convicted for a sale to one of these parties, and the defense claimed that the two charges against him by different\u0027 complaints were part of the same transaction, the court correctly submitted this issue to the jury, and placed the burden of proof of former conviction upon the defendant. See charge of court in opinion held to be correct.\nAppeal from the County Court of Grayson. Tried below before the Hon. J. W. Hassell.\nAppeal from a conviction of a violation of the local option law; penalty, $25 and twenty days confinement in the county jail.\nThe opinion states the case.\nSmith \u0026 Wall, for appellant.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1212-01",
+    "first_page_order":  440,
+    "last_page_order":  441
+}

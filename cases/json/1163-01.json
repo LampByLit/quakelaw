@@ -1,0 +1,75 @@
+﻿{
+    "id":  4558368,
+    "name":  "C. A. Morris v. The State",
+    "name_abbreviation":  "Morris v. State",
+    "decision_date":  "1907-12-18",
+    "docket_number":  "No. 3837",
+    "first_page":  "288",
+    "last_page":  "289",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 288"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "34 S. W. Rep., 923",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  213,
+                     "char_count":  3316,
+                     "ocr_confidence":  0.538,
+                     "pagerank":  {
+                                      "raw":  1.688266847766236E-07,
+                                      "percentile":  0.6986527013737094
+                                  },
+                     "sha256":  "2432e40bacfd7fe8511c53ca60a6cc07605ec124af4c6bc2262c55d3e1e5ec6d",
+                     "simhash":  "1:2ce9ac814b120cb9",
+                     "word_count":  582
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "C. A. Morris v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\nAppellant was convicted for attempting to pass a forged instrument to one Webber. The evidence shows it was passed to Fisher. Webber and Fisher were both employed in the same business, one as sort of head clerk, and the other as a salesman. Appellant went into the house to make a purchase and dealt with Fisher; he passed the check to Fisher who was working down stairs. Fisher took it up to Webber, whose business, it seems, was to o. k. checks presented to their house.\nThe court charged the jury that if they should find beyond a reasonable doubt that the instrument was attempted to be passed to Frank Webber that it was incumbent upon the State to establish beyond a reasonable doubt that- said instrument was passed to Webber and if they should find from the evidence that appellant attempted to pass it to Fisher and also to Webber it would make no difference to which of said witnesses it was first offered, provided it was in fact attempted to be passed to Webber, and if they should have a reasonable doubt as to whether the said instrument was attempted to be passed to Webber, they should give appellant the benefit of the doubt and acquit.\nAppellant requested the court to charge the jury that inasmuch as the attempt was made to pass it to Webber and the testimony shows that if the defendant attempted to pass the instrument at all, it was on a different person and not on the person alleged, and for said reason they would not consider the second count. We believe that this charge should have been given, and that the court’s charge as given was confusing and authorized the jury to convict if he undertook to pass it upon either Webber or Fisher, but if there was a doubt as to whether he undertook to pass it to Webber they should acquit. The evidence shows that he did not undertake to pass the check to Webber but did to Fisher, and Fisher after receiving it carried it upstairs and delivered it to Webber. Under the authority of Huntly v. State, 34 S. W. Hep., 923, this judgment must be reversed. The proof did not sustain the allegation, for the State’s case is that appellant passed the instrument to Fisher, and Webber was not known, as far as appellant is\u0027 concerned, in the matter until after Fisher had given it to Webber.\nThe judgment is reversed and the cause is remanded.\njReversed and remanded.\nHenderson, Judge, absent.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "T. B. Ridgell, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "C. A. Morris v. The State.\nNo. 3837.\nDecided December 18, 1907.\nForgery—Charge of Court—Variance.\nWhere upon trial for passing a forged instrument the evidence showed that the \u0027 defendant did not pass said instrument to the party alleged in the indictment but ■to another not named therein, the prosecution must fail; and the charge of the court which authorized a conviction if defendant undertook to pass the instrument upon either the party alleged in the indictment or the one the proof showed he passed it to, was also reversible error.\nAppeal from the District Court of Jefferson. Tried below before the Hon. E. A. McDowell, Special Judge.\nAppeal from a conviction of passing a forged instrument; penalty, two years imprisonment in the penitentiary.\nThe opinion states the case.\nT. B. Ridgell, for appellant.\nOn question of variance State v. Huntley, 34 S. W. Rep., 923.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1163-01",
+    "first_page_order":  306,
+    "last_page_order":  307
+}

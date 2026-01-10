@@ -1,0 +1,68 @@
+﻿{
+    "id":  2020845,
+    "name":  "OROZCO v. STATE OF FLORIDA",
+    "name_abbreviation":  "Orozco v. State",
+    "decision_date":  "1991-08-09",
+    "docket_number":  "Case No. 90-112AC",
+    "first_page":  "51",
+    "last_page":  "52",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 51"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  145,
+                     "char_count":  1442,
+                     "ocr_confidence":  0.843,
+                     "sha256":  "5b79aac6b7c94f64ab7304396ecc5540b133838978230446296a00402a68690a",
+                     "simhash":  "1:836af4bc5aee92ad",
+                     "word_count":  227
+                 },
+    "last_updated":  "2023-07-14T21:34:53.334185+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before NADLER, WILSON and RAMIREZ, JJ."
+                                ],
+                     "parties":  [
+                                     "OROZCO v STATE OF FLORIDA"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nPER CURIAM.\nThe previous appellate opinion filed on December 31, 1990, is withdrawn. We hold that the trial court erred when it instructed the jury by reading the last portion of the information stating that the appellant unlawfully opposed the police officer in the performance of his legal duty, the issue in this case. Therefore, by removing from the jury the question of whether the appellant resisted, obstructed or opposed the officer, the court essentially removed from the jury the determination of an essential element of the offense charged. The trial court also erred in excluding evidence that the officer had struck the appellant about the head after his arrest. Such evidence should have been included since it bore directly on the officer’s credibility, the only witness against the appellant. We find grounds two and three without merit. The trial court was correct in denying appellant’s motion for discharge and appellant’s motion for mistrial. This court therefore reverses and remands with instructions to grant a new trial.\nOrozco v State of Florida, Official Record Book, 14849, Page 0700.",
+                                          "type":  "majority",
+                                          "author":  "PER CURIAM."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Jerrard B. Cutrone, Esquire, for appellant.",
+                                       "Robert A. Butterworth, Attorney General and Roberta G. Mandel,",
+                                       "Assistant Attorney General, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "OROZCO v STATE OF FLORIDA\nCase No. 90-112AC\nEleventh Judicial Circuit, Dade County\nAugust 9, 1991\nAPPEARANCES OF COUNSEL\nJerrard B. Cutrone, Esquire, for appellant.\nRobert A. Butterworth, Attorney General and Roberta G. Mandel,\nAssistant Attorney General, for appellee.\nBefore NADLER, WILSON and RAMIREZ, JJ."
+                 },
+    "file_name":  "1344-01",
+    "first_page_order":  69,
+    "last_page_order":  70
+}

@@ -1,0 +1,154 @@
+﻿{
+    "id":  4565494,
+    "name":  "Charley Peacock v. The State",
+    "name_abbreviation":  "Peacock v. State",
+    "decision_date":  "1908-01-29",
+    "docket_number":  "No. 4007",
+    "first_page":  "432",
+    "last_page":  "437",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 432"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "33 S. W. Rep., 356",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "35 Texas Crim. Rep., 304",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          158607
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/35/0304-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "48 Texas Crim. Rep., 576",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          178837
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/48/0576-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "50 Texas Crim. Rep., 392",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2372865
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/50/0392-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "33 S. W. Rep., 356",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "35 Texas Crim. Rep., 304",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          158607
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/35/0304-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "48 Texas Crim. Rep., 576",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          178837
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/48/0576-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "50 Texas Crim. Rep., 392",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2372865
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/50/0392-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  649,
+                     "char_count":  15949,
+                     "ocr_confidence":  0.588,
+                     "pagerank":  {
+                                      "raw":  1.7849636465088969E-07,
+                                      "percentile":  0.7140748360232585
+                                  },
+                     "sha256":  "602a9b9a37ec47a19e959192236664469d90ed53f55934623277f31fcaf49f93",
+                     "simhash":  "1:37ee9405c427d35b",
+                     "word_count":  2844
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Charley Peacock v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "RAMSEY, Judge.\n—Appellant in this case was charged by indictment with the offense of assault with intent to murder one 0. A. Bevill. The indictment did not set out the means, manner or instrument with which such assault was made. On trial the defendant was convicted of an aggravated assault and his punishment assessed at a fine of $25, and confinement in the county jail for a term of thirty days.\nMany errors are assigned and grounds advanced why this judgment should be set aside, but in view of the disposition we have concluded to make of the case, it seems unnecessary to notice more than the first, second and fifth assignments of error.\nIt appears from the evidence, briefly, that appellant was a barber living in the City of Cleburne, and that the prosecuting witness, Bevill, was engaged in said city in the meat market business, and in buying and trading cattle and other live stock. In December, 1905, Bevill sold to defendant some lard, etc., amounting in value to about the sum of $11. In January afterwards, the defendant sold to the witness Bevill a cow, as claimed, for the sum of $21, leaving a balance due appellant the sum of $9 or $10. On the day of the difficulty, and soon after the sale of the cow, defendant went to the market square, where the witness Bevill was, for the purpose, as claimed by him, of collecting the sum so due him, and accosted the witness with the suggestion that they settle up, which implied, if it was not by express request, that Bevill pay him the sum claimed to be due. From this point, the testimony is radically at variance. The defendant claimed that before he made any sort of an assault on the witness Bevill, that he, Bevill, had made a demonstration to assault him, appellant. Bevill’s contention was that the assault by appellant was wholly unprovoked; that he had made no demonstration to strike or injure appellant. The proof tends strongly to support the defendant’s contention that\u0027the shot which was fired resulted from a blow on the head of the witness by the pistol in the hands of appellant. It does not appear from the testimony that Bevill was seriously injured, nor is there any description of any kind anywhere in the record of the pistol being used by the accused. There was a sharp conflict on the issue of self-defense, appellant claiming that Bevill drew his knife from his pocket, and seeing it, and in self-defense he took his pistol from his pocket and struck Bevill over the head with it. This brief statement, we think, is sufficient to a proper understanding of the opinion.\nAppellant contends that the court erred in permitting the State to prove by the witness Souther that a knife which was found and picked up by said witness immediately after the difficulty, and near the place where the defendant and assaulted party were standing at the time thereof, was turned over to a boy by the name of Mosely, and that said Mosely, in the absence of defendant, claimed said knife as his own. The witness Souther testified, in effect, that he picked up the knife near where the parties were standing, and very shortly after that he turned the knife over to Mosely for the reason that said Mosely claimed the knife as his own. This was objected to because it was immaterial and was introducing hearsay testimony and an act of the witness Souther, which was, as to the defendant, an opinion and conclusion merely; that it was not a part of the res geste; and, in effect, introduced in evidence the assertions of the boy Mosely that the knife was his, when the witness Mosely had not been accounted for or produced on the trial. It is claimed that this is an indirect method of permitting the State to explain away the physical facts and circumstances corroborating the defendant, and which tended to establish his theory of the case, by purely hearsay and opinion evidence as to the ownership of the knife, consisting of the claim of Mosely and the act of the witness Souther in recognition of same, delivering up the knife as his (Mosely’s) property. That this testimony was not admissible as a part of the res gesta, under the case of Casey v. State, 50 Texas Crim. Rep., 392; 17 Texas Ct. Rep., 168, does not, we think, admit of doubt. In that case it was proposed to prove as a res gesta statement, the declarations of a boy, By Casey, occurring on the sidewalk in front of the building where the killing occurred, and within fifteen feet of the immediate place of the killing, and about one and a half minutes after the killing, while said boy was greatly agitated and crying. In that case the court say: “Declarations of the bystanders are not admissible as res gestee. There is no evidence that By Casey was a particeps criminis to the crime at all, but was merely present, and his father jerked the gun out of his hand and killed deceased with it.” See also Powers v. State, 23 Texas Crim. App., 42. On general principles, and in the light of these authorities, this testimony seems to have been clearly inadmissible, nor can we say that it could not and did not injure appellant.\nComplaint is made by appellant’s second assignment of error, that the court erred in the twentieth paragraph of his charge, in the second subdivision thereof, wherein the court instructs the jury with reference to the commission of assault with premeditated design by means calculated to inflict great bodily injury.\u0027 The twentieth paragraph of the court’s charge is as follows: “Now bearing in mind the foregoing instructions, you are charged that, if you have found from the evidence that the defendant is not guilty of an assault with an intent to murder, and you have not acquitted the defendant on his plea of self-defense against an unlawful attack reasonably producing a rational fear or expectation of death or seyious bodily injury, as hereinafter charged, and if you believe from the evidence beyond a reasonable doubt that the defendant on or about the time-alleged in the indictment, in the County of Johnson, and the State of Texas, unlawfully with a pistol, which was a deadly weapon and well calculated and likely to produce death from the manner of its use, and the defendant under the influence of sudden passion arising from an adequate cause, but neither justified nor excused by law, did make an assault upon C. A. Bevill with a pistol, under such circumstances as if said Bevill had been killed, the offense, if any, would have been manslaughter as hereinbefore defined and explained; or (2) If you believe from the evidence beyond a reasonable doubt that the defendant on or about the date alleged in the indictment, in the County of Johnson and the State of Texas, with a premeditated design, committed an unlawful assault and battery upon the said Bevill, by the use of means calculated to inflict great bodily injury, then in either event, if you so find you will find the defendant guilty of an aggravated assault and battery, and assess his punishment at a fine of not less than $25 and not more than $1,000, or by imprisonment in the county jail for any time not less than one month nor more than two years, or by both such fine and imprisonment.”\nThis in the second clause, clearly authorizes the jury to find the defendant guilty of an aggravated assault, if they believed that the attack on the witness Bevill was made by the use of means calculated to inflict great bodily injury. In view of the utter absence of any description at -all of the pistol, or that one might or could inflict serious bodily injury with it, used ás a bludgeon, this charge should not have been given. See- Branch v. State, 35 Texas Crim. Rep., 304; 33 S. W. Rep., 356; Pierce v. State, 21 Texas Crim. App., 540; and Kelley v. State, 12 Texas Crim. App., 245.\nIt is urged that the court erred in not charging and in failing, in the light of the evidence, to charge upon the issue of simple assault, for that there was no evidence that the pistol used by the defendant, when used as a bludgeon and not as a firearm, was a deadly weapon, or was calculated when so used to inflict great bodily injury. We think that this assignment must also be sustained. The great weight of the testimony tended strongly to show that appellant struck the witness Bevill on the head with the pistol, and that the pistol was discharged at the time as a result of the blow. The witness Bevill testified, in respect to this matter, as follows: “The pistol was laid on my head like that (indicating with his finger). It seemed to me that it fired about the time it struck me. I do not know what part of the gun struck me. It struck me right on my ear, on the right side of my head, near the front.” Appellant on this question testified as follows: “I did not fire the pistol at him. I hit him with it, because I thought he was going to try to cut me. I thought I could knock him óíf as he came at me. I was not trying to shoot him. I could have shot him if I wanted to.” As we interpret it, thf witnesses for both the State and defendant, who saw this part of the difficulty, testified that the defendant struck the witness Bevill over the head with the pistol, and that it fired at the time he struck him. There being no evidence in the record describing the pistol by weight or otherwise, and nothing to indicate whether when used as a bludgeon, it would be a deadly weapon or one calculated to inflict great bodily injury, it became the imperative duty of the court to submit the issue of simple assault. If the pistol when used as a weapon with which to strike was not a deadly weapon, or not one calculated when so used to inflict great bodily injury, certainly, in the absence of proof that serious bodily injury was in fact inflicted, the appellant would be guilty of no greater offense than that of simple assault. In the well considered case of Pierce v. State, 21 Texas Crim. App., 540, Judge Willson, in a case somewhat similar, says: “There, is evidence tending to show that defendant was striking or attempting to strike the injured party with a pistol, when the pistol was accidentally discharged, whereby the injury complained of was inflicted. If the pistol was used by the defendant to strike with only, the assault would not be aggravated unless the evidence showed that when used in that manner it was a deadly weapon; or that, by means of such use serious bodily injury had been inflicted; or that the assault was committed with premeditated design, and by the use of means calculated to inflict great bodily injury. (Penal Code, article 496.) There is no proof establishing either of these conditions. There is no proof that the pistol was a deadly weapon when used to strike with, and in the absence of such proof it would be presumed that it was not that character of weapon when so used. When a gun or pistol is used to strike with, it is not necessarily -a deadly weapon, but would be such or not, according to its size, or the manner of using it, and its character is usually to be determined by the jury. (Hunt v. State, 6 Texas Crim. App., 663; Wilson v. State, 15 Texas Crim. App., 150.) If, therefore, the pistol when used to strike with was not a deadly weapon, and while being so used was accidentally discharged, whereby serious bodily injury was inflicted, and if the assault was not committed with premeditated design and by the use of means calculated to inflict serious bodily injurj\u0027, and if no serious bodily injury was inflicted by striking with the pistol, then such assault would be of no higher grade than a simple assault.”\nWhile not referred to by name, the doctrine of the Pierce case is directly affirmed in the recent case of Hext v. State, 48 Texas Crim. Rep., 576; 14 Texas Ct. Rep., 252, wherein Judge Davidson, speaking for the court, uses the following language: “In the first difficulty in the house somebody had knocked appellant down. The conviction was aggravated assault. The indictment having charged the knife to be a deadly weapon, as the cause of aggravation by which the assault was raised above that of simple assault, it was necessary for the evidence to show that the knife was a deadly weapon; otherwise, the assault would be no more than a simple assault, if in fact an assault was committed. The evidence failing to show the knife was a deadly one, a conviction for the aggravated assault cannot be maintained. In this connection two things are patent from this testimony: (1) That no one.saw a knife in the hands of appellant, and (2) that no witness undertook to testify in regard to the kind of weapon appellant had. It may or may not have been a knife. If it was not a knife, then an acquittal should have followed, because the means of assault charged was not a lmife. If it was a deadly weapon, the aggravated nature of the case might have been sustained. If it was not a deadly weapon, but a knife, a simple assault might be sustained. But in order to sustain either phase of assault it must be shown ■that the knife was used, for this was the means by which the assault is alleged to have been committed. Appellant asked a special instruction to the effect that, unless the State could prove the assault was with a knife, even a simple assault could not be sustained. This was refused and erroneously so.”\nIn the light of these decisions and principles here announced, as applied to the testimony, appellant was entitled to a charge on simple assault.\nThere are a number of other matters criticised and complained of by appellant, but we think what we have said is all that is necessary to a proper trial of the case.\nThe judgment is reversed and the cause is remanded.\nReversed and remanded.",
+                                          "type":  "majority",
+                                          "author":  "RAMSEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Odell \u0026 Johnson, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Charley Peacock v. The State.\nNo. 4007.\nDecided January 29, 1908.\n1.—Assault to Murder—Evidence Ees Gestae—Declarations of Third Party.\nUpon trial for assault with intent to murder, the court erred in admitting in evidence the declarations of third parties not connected with the offense, with reference to a certain knife which was found immediately after the difficulty, and near (lie scene thereof, and which was claimed by one of the parties and handed to him. This was not res gestae. Following Casey v. State, 50 Texas Crim. Rep., 392; 17 Texas Ct. Rep., 168.\n2. —Same—Charge of Court—Aggravated Assault—Serious Bodily Injury.\nWhere upon trial for assault with intent to murder, there was no evidence of any description of the instrument used in the. assault, or that the same was so used as to inflict serious bodily injury, it was error in the court to charge that if defendant committed an unlawful assault upon prosecutor by the use of means calculated to inflict great bodily injury, to convict defendant of aggravated assault.\n3. —Same—Charge of Court—Simple Assault—Deadly Weapon.\nWhere upon trial for assault with intent to murder there was no evidence that the pistol used by the defendant, when used as\u0027 a bludgeon and not as a firearm, was a deadly weapon, or was calculated, when so used, to inflict great bodily injury, the court should have charged on simple assault, and a failure to do so was reversible error. Following Pierce v. State, 21 Texas Crim. App., 540; Hext v. State, 48 Texas Crim. Rep., 576; 14 Texas Ct. Rep., 252.\nAppeal from the District Court of Johnson. Tried below before the Hon. O. L. Lockett.\nAppeal from a conviction of aggravated assault; penalty, a fine of $25.\nThe opinion states the case.\nOdell \u0026 Johnson, for appellant.\nUpon question of admitting declaration of third parties, counsel cited cases mentioned in the opinion. Upon question óf deadly weapon: Branch v. State, 35 Texas Crim. Rep., 304; 33 S. W. Rep., 356; Pierce v. State, 21 Texas Crim. App., 540. On question of premeditated design, Kelley v. State, 12 Texas Crim. App., 245. On question of simple assault: Pierce v. State, 21 Texas Crim. App., 540; Wilson v. State, 15 Texas Crim. App., 150: Hext v. State, 48 Texas Crim. Rep., 576; 14 Texas Ct. Rep., 252.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1217-01",
+    "first_page_order":  450,
+    "last_page_order":  455
+}

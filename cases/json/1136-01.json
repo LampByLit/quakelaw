@@ -1,0 +1,153 @@
+﻿{
+    "id":  4560616,
+    "name":  "John Fay v. The State",
+    "name_abbreviation":  "Fay v. State",
+    "decision_date":  "1907-12-04",
+    "docket_number":  "No. 3756",
+    "first_page":  "185",
+    "last_page":  "189",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 185"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "44 Texas Crim. Rep., 380",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "17 S. W. Rep., 458",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "11 S. W. Rep., 444",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "35 Texas Crim. Rep., 33",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          158499
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/35/0033-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "35 Texas Crim. Rep., 545",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          158525
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/35/0545-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "34 S. W. Rep., 635",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "15 S. W. Rep., 735",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "11 S. W. Rep., 106",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "33 S. W. Rep., 534",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "35 Texas Crim. Rep., 116",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          158451
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/35/0116-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "5 S. W. Rep., 853",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  670,
+                     "char_count":  15295,
+                     "ocr_confidence":  0.564,
+                     "pagerank":  {
+                                      "raw":  1.208027297172023E-07,
+                                      "percentile":  0.5952453212523201
+                                  },
+                     "sha256":  "88c8286360b93a300a07fb171a39581495083a01576317cc0e16954a44fdebbd",
+                     "simhash":  "1:3a6dd5dee37e9dad",
+                     "word_count":  2753
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "John Fay v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSOU, Presiding Judge.\nAppellant was convicted for killing Melinda Lewis. The evidence shows that she was shot in the face with a pistol, and beaten with clubs, and wounds made by a sharp instrument of some sort were found upon her body. Her husband Doc Lewis was first assaulted by appellant at the barn, and his wife Melinda came running out and appellant turned upon her, and together with a pistol, club and other things took her life. He then, after shooting the deceased and beating her a while, ran to where Doc Lewis was and fired two shots at him, both of which Lewis testified took effect; that appellant then ran to where the deceased was and he (Doc Lewis) crawled ^ off and got into the bayou and after doing so, appellant sought him but he kept himself concealed under the water; that appellant after searching up and down the bayou for a while for him went away; that the witness then went to Capt. Smith’s residence, about a quarter of a mile away, and informed him of the matters. These matters were communicated to the officers, and appellant’s arrest followed the next morning. Doe Lewis and his wife were living on the property of appellant some five miles out from the City of Galveston. Under their contract Lewis was to occupy the premises and raise hogs, one half of the increase to be his, the other half the property of appellant. Appellant had some chickens on the place that Lewis bought; the chickens and increase whatever it brought belonged to Lewis, and in which appellant had no interest. After the contract with reference to the hogs was agreed upon, there came up some conversation in regard to appellant having given a mortgage on the hogs to one Johnson. Lewis interviewed appellant in regard to it. Appellant denied having given the mortgage, but said that he owed Johnson $63 and Johnson brought what appellant called a counterfeit bill for him to sign, and with it an attorney, but he declined to sign it, and told Johnson he would pay him the $63 on monthly installments as per their agreement. This seems to have disturbed Lewis to some extent, and he complained to appellant that Johnson was coming out to take away the hogs. Appellant on the evening of the homicide borrowed a horse and deliver wagon from the witness Benevides, and carried a sack of corn out to where Lewis was living, and upon his arrival Lewis opened the gate and went with him to the barn to put away his sack of corn. This corn was brought to feed stock or supposedly for that purpose. Appellant denied going out to the place on the night of the homicide, stating that he borrowed this delivery wagon and horse from Benevides and started, got out some distance, and his horse became frightened at a rapidly running automobile and pitched him out of the wagon, and he changed his mind about going to Lewis’ place and returned, put up the horse and went to bed. Appellant owned a delivery wagon and horse of his own; among the reasons he gives for not working his horse on this occasion was that the health physician had prohibited him working him on Sunday; so he borrowed a horse from Benevides to work on the fatal night. The witnesses for the State made a clear and unequivocal case of an unprovoked and unnecessary killing, and horrible in detail, much of which we deem it unnecessary to state. The defense relied on was alibi. Appellant asked a charge on alibi, which was refused. The court gave a sufficient charge upon this subject. It was, therefore, not error to refuse appellant’s charge.\nDr. Cox testifying for the State was asked: Were the wounds such as you found upon her body sufficient to have produced death? A. I think so. Q. In your opinion were they? A. I say yes.” Objection was urged to the questions and answers because they called for the conclusion of the witness when the jury was just as competent to judge from the evidence as to what caused the death of the deceased as was the witness. We have sufficiently stated perhaps the evidence in this connection to show that this testimony from the physician was admissible. He was called upon by the officers on the morning after the homicide and visited the body of the deceased at an undertaking establishment and before the jury described the wounds; one was a pistol shot in the face, which he probed far enough to discover the fact that it was sufficient to produce death. His statement is that the ball entered the face and went upward and backward, and he probed it some distance sufficient to satisfy himself that it would have caused death. He further stated that the wounds from the bludgeon and incised wounds would have produced death. There were two counts in the indictment charging different means by which the deceased came to her death. We are of opinion this testimony was admissible. The authorities that appellant cites, in our opinion, do not sustain him. This was an expert witness called upon to give an expert opinion after examining the wounds, to state whether or not they were sufficient to produce death. In no event could it have injured appellant even if inadmissible, because the death from these wounds was clearly proved independent of the evidence to which exception was reserved. Capt. Smith was permitted to testify as to the physical condition of the witness Doc Lewis, when he arrived at his house shortly after the homicide. The answer of the witness was that he ivas all wet like he had been in the water, and was bloody; he had some wounds on his head and on his shouder; his shirt was torn to pieces and he had a mark across the small of his back. Objection to this urged was that appellant could not be bound by any statement of Capt. Smith as to Lewis’ condition, and that the answer would be irrelevant to any issue in the case. We do not believe these grounds of objection are well taken. This ivas within a few moments of the homicide; within three or four hundred yards -of the scene of the homicide. Lewis had just succeeded in getting away from appellant who sought to kill him; he had killed Lewis’ wife, and this was but a statement as to the condition of Lewis ivhen Capt. Smith saw him immediately after the difficulty. The court did not permit Capt. Smith to tell what Lewis told him, but to state the condition of Lewis as to his appearance and wounds, etc. The deadly assault upon Lewis with the bludgeon and pistol was a part and parcel of the same transaction that brought about the death of Lewis’ wife. Appellant sought to prove an alibi, and under the-State’s ease this left Lewis and his wife alone at the place of the homicide. The condition of the surviving husband was more or less important under this condition of things.\nThe court permitted one of the officers, the Chief of Police, to state that the pistol traced to appellant’s possession appeared to have been freshly discharged. He had answered that he was not an expert in these matters, but had been a police officer for years and accustomed to the use of firearms, but was not an expert as to whether firearms had been recently discharged or not. We do not understand that a man must be an expert to know when a gun has been recently discharged. This witness handled firearms a great deal and had a great deal of experience with same, but in his opinion he was not an expert as to when they had been recently discharged. This character of evidence may or may not be opinion testimony; if the witness had examined the pistol and wiped it out with a rag or inserted his finger and had found freshly discharged powder, the mere fact that he may have stated that it was freshly discharged under those circumstances would not be injurious. As presented in the bill, no error is made to appear in the admission of this testimony, and in our judgment it was admissible, under the circumstances stated in the bill, even if it should be opinion evidence.\nA bill was reserved to the ruling of the court permitting the State to draw out from appellant, on cross-examination, the following: “Q. Didn’t you mortgage the whole business? A. I did not mortgage the whole business. Q. Do you know a man by the name of Johnson? You didn’t mortgage the hogs? A. Ho, sir. Q. Well, a man by the name of Johnson has a mortgage on them, hasn’t he? A. The agreement with Mr. Johnson was this: Mr. Johnson loaned me $63 and I told him I would pay so much a month until the $63 was paid up, and then he presented me with a bill that was a counterfeit. He got an attorney and came to me and wanted to make me believe it was all right, and that I had signed it, when I never had signed any such bill as that. Q. Didn’t Doc Lewis come to you and tell you that the party claimed a mortgage on those hogs, and that half of them were his? A. Ho, sir; Doc Lewis— Q. And you denied it and said you were coming down there, and threatened to come at night, and din’t Doc Lewis tell you that you had mortgaged the hogs and that the half of that stuff was his, belonged to him? A. Ho,-sir; he didn’t-. Doe Lewis told me that J ohnson was coming after those hogs, and I said what for, and he said he didn’t know. I said I will see Mr. Johnson and see whether he comes after the hogs or not, and I went and seen Mr. Johnson and said to him, Air. Johnson, I heard you were coming after those hogs.’ I said, ‘When your money is due I will pay you.’ I said, T will pay so much a month according to your agreement.’ ” It is contended this testimony was inadmissible for any purpose. We think it was admissible upon the question of motive on the part of the defendant to kill these negroes, Lewis and the deceased. Appellant and Lewis were partners in the hog business, and Johnson was threatening to take the hogs away and as Lewis understood appellant had given Johnson some sort of a lien On the property. This caused, apparently at least, some friction between appellant and Lewis; he told him he would come down at night, etc. That is, the threat to go down at night was in connection with Lewis’ trouble growing out of the supposed mortgage or lien of the hogs as against Lewis’ interest. The testimony shows that appellant did go down at night, and it was a fatal visit to Lewis’ wife, and nearly so to Lewis himself.\nThe remaining bill is rather lengthy, relating to the testimony of Doe Lewis wherein he narrated the acts and conduct of the defendant in making the assault upon himself and in killing his wife, and which covers practically all that part of the ease from the time appellant reached Lewis’ barn and knocked Lewis down, including all of the assaults and wounds, etc., upon both Lewis and his deceased wife, as well as appellant trying to locate Lewis in the bayou after he had escaped. This testimony was clearly admissible. It was a part of the res gestae, and part of the transaction itself, in which the slayer undertook to take the life of two persons at the same time, or nearly the same time, and was a part and parcel of the one transaction, and it developed, properly so, the acts, motive, intent and malice on the part of the slayer.\nAs we understand this record, there is no error of sufficient importance to require a reversal, and the judgment is affirmed.\nAffirmed.\nHenderson, Judge, absent.\n[Motion for rehearing overruled without written opinion, January 15, 1908. —Beporter.]",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSOU, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Geo. E. Coll and George Q. McCracken, for appellant.",
+                                       "F. J. McOord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "John Fay v. The State.\nNo. 3756.\nDecided December 4, 1907.\n1. —Murder—Alibi—Charge of Court.\nWhere upon trial for murder the defense was an alibi, and the court gave a sufficient charge upon this subject, there was no error in refusing a special charge on the same subject.\n2. —Same—Evidence—Expert Opinion.\nWhere upon trial for murder the evidence showed that a physician was called upon to visit the body of deceased, who made a post-mortem examination, and thereupon testified that according to his opinion, after examining the wounds on the body of deceased that they were the cause of the death of the deceased; and besides there was other evidence independent of this testimony as to the cause of the death of the deceased, there was no error.\n3. —Same—Evidence—Res Gestae.\nWhere upon trial for murder the evidence showed that deceased’s husband succeeded in getting away from defendant after being assaulted by him, and after defendant killed deceased, there was no error to permit testimony to show the condition and appearance of said husband a few minutes after the homicide and within three or four hundred yards of the scene thereof; the assault upon such husband by defendant with a pistol and bludgeon being a part and parcel of the same transaction that brought about the homicide.\n4. —Same—Evidence—Opinion of Witness.\nWhere upon trial for murder, the court permitted the chief of police to state that the pistol traced to defendant’s possession appeared to have been freshly discharged; that he was not an expert in these matters but had been accustomed for years to the use of firearms, there was no error.\n5. —Same—Evidence—Motive.\nWhere upon trial for murder the evidence showed that defendant and the husband of deceased were partners in the hog business, and that a third party was threatening to take the hogs away under a mortgage or lien given by defendant, and that this caused some friction between defendant and said husband of deceased, and that defendant said he would come to see said husband, which was the night of the homicide, there was no error in the cross-examination of defendant to interrogate him and force him to testify on this matter.\n6. —Same—Evidence—Res Gestae—Motive—Malice.\nWhere upon trial for murder the evidence showed that defendant had killed the wife of the witness who came to his rescue in a night attack of defendant upon witness, there was no error in permitting said witness to testify to the details of said assault by the defendant upon witness and his wife, as well as the pursuit of witness by the defendant after the witness escaped.\nAppeal from the Criminal District Court of Galveston. Tried below before the Hon. J. K. P. Gillaspie.\nAppeal from a conviction of murder in the first degree; penalty, life imprisonment in the penitentiary.\nThe opinion states the case.\nGeo. E. Coll and George Q. McCracken, for appellant.\nOn question of expert testimony of physician: Steagald v. State, 24 Texas Crim. App., 207; 5 S. W. Rep., 853; Campbell v. State, 10 Texas Crim. App., 560; Cooper v. State, 23 Texas Crim. App., 321. On question of admitting evidence as to mortgage: Chalk v. State, 35 Texas Crim. Rep., 116; 33 S. W. Rep., 534; Johnson v. State, 37 Texas Crim. App., 163; 11 S. W. Rep., 106; Drake v. State, 39 Texas Crim. App., 377; 15 S. W. Rep., 735. On question of permitting husband of deceased to testify as to assault upon him, etc.: Merrideth v. State, 40 Texas, 480; Harvey v. State, 34 S. W. Rep., 635; 35 Texas Crim. Rep., 545; Gonzales v. State, 35 Texas Crim. Rep., 33. On question of condition of husband after assault: Burke v. State, 15 Texas Crim. App., 156; Crook v. State, 37 Texas Crim. App., 198; 11 S. W. Rep., 444; Suit v. State, 30 Texas Crim. App., 319; 17 S. W. Rep., 458. On question of introducing testimony of officer with reference to recent discharge of pistol: Fredickson v. State, 44 Texas Crim. Rep., 380; Caveness v. State, 8 Texas Ct. Rep., 37.\nF. J. McOord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1136-01",
+    "first_page_order":  203,
+    "last_page_order":  207
+}

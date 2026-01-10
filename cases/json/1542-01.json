@@ -1,0 +1,332 @@
+﻿{
+    "id":  8550171,
+    "name":  "J. R. Bates v. State",
+    "name_abbreviation":  "Bates v. State",
+    "decision_date":  "1959-02-25",
+    "docket_number":  "No. 30,459",
+    "first_page":  "414",
+    "last_page":  "418",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 414"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "21 S.W. 925",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "31 Texas Cr. Rep. 609",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          156099
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/31/0609-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "5 S.W. 153",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "123 S.W. 2d 662",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10238360
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/123/0662-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "136 Texas Cr. Rep. 99",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5794288
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/136/0099-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "167 S.W. 2d 171",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10202379
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/167/0171-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "145 Texas Cr. Rep. 224",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5292886
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/145/0224-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "299 S.W. 408",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10294241
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw/299/0408-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "108 Texas Cr. Rep. 131",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5142389
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/108/0131-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "286 S.W. 1104",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10327828
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw/286/1104-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "105 Texas Cr. Rep. 119",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5131472
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/105/0119-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "261 S.W. 577",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10313533
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw/261/0577-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "97 Texas Cr. Rep. 365",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5078671
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/97/0365-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "98 S.W. 251",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  1
+                     },
+                     {
+                         "cite":  "51 Texas Cr. Rep. 211",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4555249
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/51/0211-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "13 S.W. 2d 874",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10310416
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/13/0874-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "111 Texas Cr. Rep. 570",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5161055
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/111/0570-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "287 S.W. 2d 665",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10182429
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/287/0665-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 513",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2462946
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/162/0513-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "123 S.W. 2d 662",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10238360
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/123/0662-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "136 Texas Cr. Rep. 99",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5794288
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/136/0099-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "167 S.W. 2d 171",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10202379
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/167/0171-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "145 Texas Cr. Rep. 224",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5292886
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/145/0224-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  501,
+                     "char_count":  9131,
+                     "ocr_confidence":  0.588,
+                     "pagerank":  {
+                                      "raw":  1.2397799484283408E-07,
+                                      "percentile":  0.6076545389325787
+                                  },
+                     "sha256":  "b18c3b79c61911d4730484852b51e76e1668ecf416c68ba2194b1adef13ee29c",
+                     "simhash":  "1:8ef3004165f5ddb4",
+                     "word_count":  1578
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "J. R. Bates v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Judge.\nThis is a conviction for drunken driving, with the minimum punishment of a fine of $50 and three days in jail assessed.\nThe record shows that this case was highly contested as to appellant’s intoxication at the time of his arrest.\nCartwright, a highway patrolman, saw the driver of an automobile violate traffic laws, among which violations was the running of a stop sign. Cartwright started in pursuit, overtook the automobile, and placed appellant under arrest. This occurred at 12:40 o’clock, a.m. Appellant was ordered out of his automobile and to the patrol car. According to Cartwright’s testimony, when appellant got out of his car and walked toward the patrol car he staggered and was under the influence of intoxicating liquor. To appellant’s inquiry as to whether Cartwright was placing him under arrest, Cartwright replied, “Yes, sir, I am.”\nIt appears that the witness Wolfington was with Cartwright at the time of the arrest and that Harris, a deputy sheriff, later joined them at the scene of the arrest, after which they drove to Dumas to the sheriff’s office. Harris drove appellant’s car; Wolfington drove Harris’; and appellant accompanied Cartwright in the patrol car.\nThe following conversation between Cartwright and appellant on the way to Dumas was introduced:\n[“Q. Billy, on your way to town was there any conversation about J. R. Bates wanting you to take him home?] A. Yes, sir, he asked me several times to take him home.\n[“Q. Do you remember one particular time that he asked you about taking him home?] A. Yes, sir, I remember all of them. Approximately three times coming in he said, Why can’t you take me home?’ And I said, ‘J. R., you have had too much to drink.’ And he said, Well, I know that, but you can still take me home.’ ”\nAppellant’s objection to this testimony, especially to the reference therein to his statement that he knew he had had too much to drink, as being made while under arrest and in violation of Art. 727, C.C.P., was overruled.\nThe state insists that the statement was part of the res gestae and seeks to justify its admission for that reason. Upon its face, appellant’s statement was inadmissible, because it was made while he was under arrest and was in violation of Art. 727, C.C.P.\nCartwright did not propose to give the length of time elapsing from the time of the arrest until the statement was made. He was definite as to the time he placed appellant under arrest but he made no effort to give the time the statement was made.\nTime — that is, the time within which res gestae statements are to be made — has never been considered as relating to any definite or fixed period of time. Time is always an element to be given consideration. 18 Texas Jur., Evidence, Criminal Cases, Sec. 183, p. 299.\nSpontaneity and instinctiveness are requisite and necessary to show res gestae, as excluding premeditation. 18 Texas Jur., Evidence, Criminal Cases, Sec. 182, p. 297.\nAll the evidence reflected that prior to and following the making of the statement and while appellant was in the office of the sheriff he (appellant) was endeavoring to get the arresting officer to take him home rather than to jail.\nMoreover, it was only after this request had been denied by Cartwright and he had charged appellant with being intoxicated that appellant made the statement, which had the effect of his admitting his intoxication but which admission was contrary to his testimony, and that of his witnesses upon the trial, that he was not intoxicated.\nThus is it demonstrated that the inculpatory statement was the result of the statement of Cartwright as to why he could not comply with appellant’s request to take him home rather than to jail. The idea of spontaneity of appellant’s statement is therefore disproven.\nThe conclusion is reached that the statement of appellant was lacking in the spontaneity required to constitute its admissibility as res gestae.\nInasmuch as the question turns upon the particular facts of each case, adjudicated cases are authoritative only as to the statement of the general rule and the facts of each case.\nIn Trammell v. State, 145 Texas Cr. Rep. 224, 167 S.W. 2d 171, a statement made some thirty minutes after the occurrence and after the witness had conversed with others prior to the conversation with the person to whom the objectionable statement was made was lacking in spontaneity and was therefore inadmissible. In that case it was the accused who sought to introduce his exculpatory statement as a part of the res gestae.\nThe Trammell case is authority for holding this appellant’s statement inadmissible.\nTo support its contention that the statement was a part of the res gestae, the state relies heavily upon Lamkin v. State, 136 Texas Cr. Rep. 99, 123 S.W. 2d 662.\nThe facts upon which the conclusion in that case rests are very limited. Certainly not enough facts are stated to warrant that case as being authoritative here, further than the general rule. The statement there appears to have been made immediately upon the accused’s arrest and while on the way to jail.\nThat such is the construction to be given to the Lamkin case is evidenced by the two cases which are cited as supporting the conclusion there expressed.\nIn the Powers case (23 Texas App. 42, 5 S.W. 153), cited therein, the statement was made “in a very few seconds after the fatal blows had been inflicted,” while in the Miller case (31 Texas Cr. Rep. 609, 21 S.W. 925), cited in the Lamkin case, the statement was made within fifteen minutes after the declar-ant was first informed of the death of the deceased.\nTo give to the Lamkin case the construction that it authorizes the admission in evidence of all statements and confessions of the accused while under arrest and being carried to jail would be to destroy Art. 727, C.C.P.\nSeveral bills of exception appear complaining of argument of state’s counsel. These will hardly arise upon another trial, and for that reason they will not be discussed.\nFor the error mentioned, the judgment is reversed and the cause is remanded.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Judge."
+                                      },
+                                      {
+                                          "text":  "WOODLEY, Judge\n(dissenting).\nThe majority opinion does not mention certain evidence which marks this case unusual, namely that the appellant testified that he had taken six drinks of whisky prior to his arrest from the practically empty bottle found in the glove compartment of his car, and did not deny that he failed to stop at the stop sign.\nAppellant and his witnesses testified, however, that he was sober and denied that he staggered or talked with a thick tongue, as the arresting officer said he did.\nThe statement attributed to appellant to the effect that he knew he had had too much to drink must be appraised in the light of his admission that he had consumed as many as six drinks of whisky during the afternoon and evening.\nLamkin v. State, 136 Texas Cr. Rep. 99, 123 S.W. 2d 662, is cited and relied upon by the state as supporting the view that the court did not err in admitting the statement as res gestae. Appellant argues that the Lamkin case should be overruled. It was cited with approval in Fowler v. State, 162 Texas Cr. Rep. 513, 287 S.W. 2d 665.\nIn the Lamkin case the arresting officer testified that Lamkin talked all the way to the jail and said he was “drunk as hell.” The objection was that Lamkin was under arrest. On appeal this court held that the statement was res gestae and found no error in its admission.\nTrammell v. State, 145 Texas Cr. Rep. 224, 167 S.W. 2d 171, is cited in the majority opinion. In that case Trammell sought to introduce a self-serving statement he claimed to have made to the doctor some 30 minutes after the killing. The opinion calls attention to the fact that prior to the statement to the doctor, Trammel had been with Pearse and had conversed with the doctor in his presence. The statement sought to be admitted this court found lacking in spontaneity, which they said was demonstrated by the studied conversation with the doctor prior to the making of the self-serving statement and his conversation with Pearse prior to their arrival at the hospital.\nThe rule is that the appellate court will presume any statements testified to were made at a time and place and under circumstances which render them admissible. Leahy v. State, 111 Texas Cr. Rep. 570, 13 S.W. 2d 874.\nOtherwise stated, the burden on appeal is upon the appellant to set out facts showing the inadmissibility of the evidence admitted over his objection, and in the absence of such showing it will be presumed that the trial court properly admitted evidence such as declarations admitted as res gestae statements. Manning v. State, 51 Texas Cr. Rep. 211, 98 S.W. 251; Gaunce v. State, 97 Texas Cr. Rep. 365; 261 S.W. 577; Thomason v. State, 105 Texas Cr. Rep. 119, 286 S.W. 1104; Thomas v. State, 108 Texas Cr. Rep. 131, 299 S.W. 408.\nThis record does not show that the trial court’s ruling admitting the statement as res gestae was erroneous.",
+                                          "type":  "dissent",
+                                          "author":  "WOODLEY, Judge"
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Samuel H. Wilds, Tom Lorance, Dumas, for appellant.",
+                                       "Eli Willis, County Attorney, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "J. R. Bates v. State.\nNo. 30,459.\nFbruary 25, 1959.\nSamuel H. Wilds, Tom Lorance, Dumas, for appellant.\nEli Willis, County Attorney, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1542-01",
+    "first_page_order":  432,
+    "last_page_order":  436
+}

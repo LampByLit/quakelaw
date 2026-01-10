@@ -1,0 +1,332 @@
+﻿{
+    "id":  8550683,
+    "name":  "Ercel King Bell v. State",
+    "name_abbreviation":  "Bell v. State",
+    "decision_date":  "1959-03-04",
+    "docket_number":  "No. 30,308",
+    "first_page":  "460",
+    "last_page":  "468",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 460"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "88 S.W. 217",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "48 Texas Cr. Rep. 363",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          178683
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/48/0363-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "102 S.W. 1134",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "51 Texas Cr. Rep. 361",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4554532
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/51/0361-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "198 S.W. 2d 270",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10190128,
+                                          10190053
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/198/0270-02",
+                                            "/sw2d/198/0270-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "149 Texas Cr. Rep. 639",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2605562
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/149/0639-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "118 S.W. 543",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  1
+                     },
+                     {
+                         "cite":  "56 Texas Cr. Rep. 10",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2369491
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/56/0010-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "117 S.W. 964",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  1
+                     },
+                     {
+                         "cite":  "55 Texas Cr. Rep. 414",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  1
+                     },
+                     {
+                         "cite":  "71 S.W. 965",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  1
+                     },
+                     {
+                         "cite":  "32 S.W. 537",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  1
+                     },
+                     {
+                         "cite":  "35 Texas Cr. Rep. 140",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          158576
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/35/0140-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "49 S.W. 2d 779",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10250057,
+                                          5207034
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/49/0779-01",
+                                            "/tex-crim/121/0596-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "121 Texas Cr. Rep. 596",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5207034
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/121/0596-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "134 S.W. 2d 298",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10230661
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/134/0298-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "138 Texas Cr. Rep. 55",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5274293
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/138/0055-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "199 S.W. 476",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10321449,
+                                          10321354
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw/199/0476-02",
+                                            "/sw/199/0476-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "82 Texas Cr. Rep. 238",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4747946
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/82/0238-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "171 S.W. 747",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8278058
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw/171/0747-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "74 Texas Cr. Rep. 306",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4687614
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/74/0306-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "37 Texas 362",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex.",
+                         "case_ids":  [
+                                          2133151
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex/37/0362-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "16 S.W. 98",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  1
+                     },
+                     {
+                         "cite":  "29 Texas Cr. Rep. 452",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  1
+                     },
+                     {
+                         "cite":  "25 S.W. 426",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  1
+                     },
+                     {
+                         "cite":  "32 Texas Cr. Rep. 568",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4471680
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/32/0568-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  800,
+                     "char_count":  17750,
+                     "ocr_confidence":  0.595,
+                     "pagerank":  {
+                                      "raw":  5.651486413740625E-08,
+                                      "percentile":  0.35258947529373336
+                                  },
+                     "sha256":  "a673d3806711a43401561ca80e662b98ffabf7d7ae392e4de3a7e237ade1305e",
+                     "simhash":  "1:bcfac826576823d2",
+                     "word_count":  3163
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ercel King Bell v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is robbery, as denounced by Articles 1559 and 1560, V.A.P.C., in that the robbery was alleged to have been committed in a foreign country and the fruits thereof brought into the State of Texas; the punishment, 5 years.\nThe laws of the State of Chihuahua were introduced in order to comply with the terms of Article 1560, supra.\nCantu, a 61-year-old Latin American railroad worker, took his savings in the form of fourteen one hundred dollar bills to Juarez, where he was to meet a friend for the purpose of purchasing a home in that city. Cantu arrived at the meeting place before five o’clock in the morning and waited for his friend. When he entered the bar he saw the bartender, several women, and the appellant, a colored man. After a time Cantu went to the toilet and, while he was relieving himself, felt a blunt object as it was forced into his back and his coin purse being taken from his pocket. He immediately announced that he had been robbed, gave chase, but after several blocks the appellant eluded him. Later that day Cantu came to El Paso, where he identified the appellant as his robber from a lineup consisting of white and colored men. He fixed the time of the robbery at six o’clock in the morning.\nWelch, a friend of appellant’s, testified that he resided in Juarez but worked in El Paso, that between six and seven o’clock in the morning on the day in question the appellant came to his home looking “like he had been running,” and told him that he had “just beat a guy for $14.00. According to Welch the appellant borrowed a change of clothes, borrowed his automobile, asked Welch to pick up his (the appellant’s) automobile across the street from the bar where the appellant had been robbed and meet him in El Paso.\nLater on in the day, the appellant was arrested, his home searched and taped to the back of a box of matches in a metal container hanging on the wall was found a coin purse containing nine one hundred dollar bills. It was established that the appellant made his living washing automobiles and had said that he was not making much money.\nWe have concluded that the conduct of\u0027 the appellant as reflected by the testimony of the witness Welch, taken with the other circumstances, was sufficient to support the jury’s finding that it was the appellant who brought the fruits of the robbery into Texas.\nThere remains, then, only the appellant’s contention that the evidence shows that the offense which occurred in Mexico constituted the crime of theft from the person rather than robbery. In this connection, we call attention to a portion of Cantu’s testimony on cross-examination:\n“Q. Could you feel your wallet leave your pocket? A. Yeah.\n“Q. And, as you just testified, I believe, that happened at exactly the same time that the object was stuck in your back? A. Well, it could have been — I don’t know — seconds, or what, but first I think I felt the object in my back and then this snatch of the pocketbook out of my pocket.”\nHe further testified :■\n“Q. Were you afraid? A. Sure, I was afraid. I was afraid that if I would move or try to fight, or something, I might get hurt.”\nThis court speaking through Judge Davidson in Van Arsdale v. State, 149 Texas Cr. Rep. 639, 198 S.W. 2d 270, said:\n“In robbery, actual or threatened violence to the person antecedent to the robbery must exist. Such is not an element of theft from the person. Therein lies the material distinction between the two offenses.”\nSee also Williams v. State, 51 Texas Cr. Rep. 361, 102 S.W. 1134, and Tones v. State, 48 Texas Cr. Rep. 363, 88 S.W. 217.\nThe case was submitted to the jury upon a charge on the law of circumstancial evidence, and we find the same sufficient to support the conviction.\nFinding no reversible error, the judgment of the trial court is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      },
+                                      {
+                                          "text":  "DAVIDSON, Judge,\n(dissenting)\nI have always been taught and steadfastly believed that it is a correct principle of law that one can not be convicted upon an inference based upon an inference. 18 Texas Jur., Sec. 5 at page 16, and Sec. 320, page 443.\nThis appellant’s guilt depends solely and alone upon inference upon inference, compounded.\nWhen my brethren affirm this conviction they either repeal or wholly ignore the above rule of law.\nIn order to convict this appellant the state was required to prove that he brought the property stolen in Mexico into Texas. The statutes, Arts. 1559 and 1560, P.C., expressly make such proof mandatory. See, also, McKenzie v. State, 32 Texas Cr. Rep. 568, 25 S.W. 426; Edwards v. State, 29 Texas Cr. Rep. 452, 16 S.W. 98; Carter v. State, 37 Texas 362, Zweig v. State, 74 Texas Cr. Rep. 306, 171 S.W. 747.\nIndeed, the indictment so alleged that appellant brought the property stolen in Mexico into Texas.\nSo when the statute said “If any person shall bring into this State any property so acquired [by theft] ” it did not say “any of” such property but, rather, said the stolen property must have been brought into this state.\nProof that the appellant brought into this state the fourteen one-hundred dollar bills which Cantu said appellant stole from his person was one of the essential elements of the offense here charged and necessary to be shown by the evidence. That essential consists of two primary parts: first, the identity of the fourteen stolen bills as being in Texas, and, second, that appellant transported or brought those stolen bills into Texas.\nNow how did the state make or attempt to make that proof? The answer is: “By inference upon inference, compounded.”\nNine one-hundred dollar bills were found in appellant’s home. The state says that these were part of the fourteen one-hundred-dollar bills that were stolen. The nine bills found in appellant’s home were not introduced in evidence. No description as to the number, condition, or appearance of the bills wás given or attempted to be given.\nAt no time did Cantu, the injured party, give or attempt to give any description of the fourteen bills taken from his person. At no time did he make any effort to identify the nine bills, or any of them, as having been taken from his person or as having ever belonged to him. His failure to identify the nine bills as having been a part of the fourteen taken from him is susceptible of but one construction — which is that he could not do so.\nThe state is therefore cast in the position of claiming that the nine bills belonged to Cantu, the owner, when he, himself, can not make that claim.\nProof that the nine bills were a part of the stolen property is shown only by inference, supposition, and what-might-have-been. The nine bills were not all of the property taken in the theft. The state must infer, therefore, that possession of a part of the stolen property authorizes the conclusion that all of the stolen property was possessed by appellant in Texas, an inference being again indulged upon an inference.\nSo to arrive at the conclusion that the nine bills were a part of the stolen property, inference upon inference must be utilized, without any tangible evidence to authorize either inference.\nBut the state has not made a case against this appellant if the inferences pointed out be accepted as sufficient to show that the nine bills found in the house were a part of the stolen property, because the state must show that appellant brought the nine bills into Texas and had them in his home. In other words, the state must show that the nine bills were in appellant’s possession.\nAll that the evidence does show is that the bills were found secreted in or hidden in appellant’s home. While this may show constructive possession, there were others present in the home who had opportunity equal to that of the appellant to possess, hide, and secrete the bills. Possession thereof by those other persons was not disproven. So possession of the nine bills by the appellant is shown only by inference.\n• But the finding of the nine bills in appellant’s home does not warrant his conviction, because to be guilty appellant must have brought the fourteen bills into Texas, which is shown only by the inference to be drawn from the inference that he possessed the nine bills in his home.\nTo reiterate, it is apparent that appellant’s guilt is shown only by inference upon inference, compounded, all in violation of the fundamental rule that an inference upon an inference can not be relied upon to establish guilt.\nMoreover, the rule prohibiting conviction upon circumstantial evidence which does not exclude every other reasonable hypothesis except the guilt of the accused is likewise ignored, or repealed.\nProof which amounts only to a strong suspicion of guilt is not sufficient to convict.\nThis appellant goes to the penitentiary without his guilt having been established in accordance with law.\nThe insufficiency of the evidence in the particular pointed out is not restricted, alone, to the matter just discussed. The evidence is insufficient to convict for another reason: I call attention to the fact that the indictment charged that appellant did by “assault and by violence and by putting the said\u0027 Carlos Anorga Cantu in fear of life and bodily injury” take from the person and possession of Cantu $1,400 in money.\nSuch allegation charged appellant with the crime of robbery by\u0027 assault under the laws of this state. Art. 1408, P.C.\nHaving so alleged the offense of robbery, the state was required to prove the commission by appellant of that crime and that he came into the posession of the $1,400 as a result of and in the perpetration of robbery.\nThis burden the state wholly failed to meet. The facts do not show the commission by appellant of robbery. To the contrary, the undisputed facts show that appellant committed the crime of theft from the person (Art. 1437, P.C.), which is a separate and distinct offense from that of robbery.\nHere are the facts — all the facts — relied upon to show the crime of robbery by assault by the appellant.\n. The Guaymas Club was a beer tavern in the city of Juarez in the State of Chihuahua, Mexico, across the river from El Paso, Texas. About 4:30 o’clock the morning of March 29, 1958, the injured party, Cantu, went to the club to await the arrival of another person, looking to the completion of a business transaction in Juarez. He had on his person in a purse fourteen one-hundred dollar bills.\nThe bartender, two or three women, and the appellant were in the club at the time. Cantu had noticed appellant “walk around over there where [he] was sitting on the chair * *\nAbout 6:30 o’clock, Cantu went to the restroom and, while he was engaged in the. act of urinating, his purse containing $1,400 was taken from his pocket by the appellant. As to how the money was taken we quote from Cantu’s testimony, upon direct examination, in describing the incident:\n[“Q. All right. I’ll ask you what happened that morning, sir.] A. Well, about 6:00 or 6:30; between 6:00 and 7:00 in the morning I went back to the restroom over there.\n[“Q. The restroom?] A. The restroom, yes, and when I went in there, a few seconds after I went in there I felt something stuck, some blunt object over here, you know, and then right quick snatch from my pocket, and I turned around and a man was running.\n[“Q. Now, what did the fellow stick in your back; this object that you talked about?] A. I couldn’t imagine. All I know it was a blunt object.”\nUpon cross-examination the witness testified:\n[“Q. Now, as you were standing there would you tell me again, please, what happened.] A. As I was standing there?\n[“Q. Yes, sir.] A. I heard steps kind of tiptoeing and all of a sudden I felt something blunt on my back over here (indicating), and right quick a snatch. My pants were unbuttoned. My pants didn’t have no button on this hip pocket and the purse was easy to snatch, easily snatched out, and it happened in about, I’d say, half a minute; just went in there and that’s it, turned back and run.\n[“Q. Well, let me clarify, if I may, one thing you said there ‘half a minute’. Tell me if I am wrong. Was it half a second?] A. Oh, well, it could be just one or two seconds because it happened just enough to put that thing over there and snatch the pocketbook out of my pocket.\n[“Q. It happened just exactly at the same time?] A. Well, I don’t know how long it may be for that to happen but that is as long as it did happen, just as long as he pushed that object on my back and went in my pocket and snatched the pocketbook out of my pocket.\n[“Q. Would you say that these two actions; one the placing of something in your back, the other taking something out of your pocket, occurred simultaneously?] A. Yes.”\nCantu further testified:\n[“Q. Did you have any real reason to be scared that anyone had come in there behind you and done more than perhaps accidentally hit you as he was walking past?] A. I was scared because when I felt that, and I knew I had money in my pocket, I just felt — it just came to me that-it was robbery.\n[“Q. There was never any other thought in your mind except that someone was about to rob you?] A. I didn’t — When I went in there I didn’t have that in my mind.”\nThe crime of robbery is committed in any or all of three ways: By assault, by violence, and by putting another in fear. The statute, Art. 1408, P.C., so provides.\nWhether one or all three of the elements be relied upon is immaterial so long as the act is the medium through which the robbery or the taking of the property occurs.\nCantu’s admission that appellant’s acts were simultaneous with the sudden taking of the money definitely and conclusively showed that the money was not taken by an assault, by violence, or by putting him in fear.\nIt must be remembered that the “putting in fear” as used in the robbery statute does not mean fear or scare from any reason or cause but rather the fear must be sustained by the evidence of acts or conduct or circumstances reasonably calculated to effect that result. Easley v. State, 82 Texas Cr. Rep. 238, 199 S.W. 476; Peebles et al v. State, 138 Texas Cr. Rep. 55, 134 S.W. 2d 298.\nAccording to Cantu’s testimony and admission, appellant at no time uttered a word, made a threat, or demanded any money of him. By no hypothesis of reasoning can it be said that those facts show that appellant committed the crime of robbery. See: Hammond v. State, 121 Texas Cr. Rep. 596, 49 S.W. 2d 779; Johnson v. State, 35 Texas Cr. Rep. 140, 32 S.W. 537.\nAll the facts show that in taking Cantu’s money, appellant committed the crime of theft from the person. Property taken from the person without violence to the person constitutes the crime of theft from the person. Art. 1438, P.C.; Burns v. State, 71 S.W. 965; Johnson v. State, 55 Texas Cr. Rep. 414, 117 S.W. 964; Walter v. State, 56 Texas Cr. Rep. 10, 118 S.W. 543.\nThe argument may be advanced that whether the money was taken from the person by robbery or by theft is here immaterial because, under Cantu’s testimony, appellant did take his money from him, which testimony is undenied. If what the majority of this court are here holding could be restricted to this case, alone, such argument might be indulged. But this court is here laying down a rule of law that is to serve and govern in all cases.\nWhat this court here says announces a rule of law by which prosecutors and defendants may know the difference between the crimes of robbery and theft from the person, under the statutes of this state.\nWhen my brethren hold that the instant facts show robbery and not theft from the person, they have destroyed the theft-from-the-person statute, because they have said that the elements of that statute are incorporated in and now constitute the crime of robbery.\nI now call attention to this further matter: The nine bills were found as a result of a search of appellant’s home. Without proof of that fact, the state’s case wholly fails. That search was not based upon or authorized by a search warrant. It was made because of the written consent of the appellant made and executed while he was under arrest and in custody of the arresting officers. That waiver reads as follows:\n“I, Ercel Bell, after having been first duly warned by Detective W. R. Barron and Joe Avalos, police officers of the City of El Paso, El Paso County, Texas, that I do not have to give a consent to a search of my house and surroundings, 1704 Wyoming Street, without a search warrant, and do voluntarily give my consent to a search of my house, 1704 Wyoming and outside surroundings without a search warrant, to the person who gave me the warning aforesaid.”\nI am not to be understood as insisting that one may not waive his constitutional guarantee against a search of his home. What I do insist upon is that one can not make or execute such a waiver while under arrest and in custody of the officers, because the statements and declarations of one while under arrest may be proven only when made in accordance with the confession statute, 727, C.C.P.\nProof of the fact that appellant authorized a search of his home while under arrest must show that such authorization was made in accordance with the law. If appellant could have made that waiver in writing, he could have given it verbally. It is what is done and said while under arrest that the law prohibits the state from proving.\nI point out this matter in order that I may not be cast in the position of having approved as valid a search made under the circumstances here presented.\nI dissent from the affirmance of this case.",
+                                          "type":  "dissent",
+                                          "author":  "DAVIDSON, Judge,"
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "B. E. ScMvarzbach, Jr., El Paso, for appellant.",
+                                       "William E. Clayton, District Attorney, Lawrence M. Welsch, James W. Mast, Assistants District Attorney, El Paso, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ercel King Bell v. State.\nNo. 30,308.\nMarch 4, 1959.\nB. E. ScMvarzbach, Jr., El Paso, for appellant.\nWilliam E. Clayton, District Attorney, Lawrence M. Welsch, James W. Mast, Assistants District Attorney, El Paso, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1553-01",
+    "first_page_order":  478,
+    "last_page_order":  486
+}

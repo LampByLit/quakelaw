@@ -1,0 +1,109 @@
+﻿{
+    "id":  2021356,
+    "name":  "STATE OF FLORIDA v. KUSIAK",
+    "name_abbreviation":  "State v. Kusiak",
+    "decision_date":  "1991-08-26",
+    "docket_number":  "Case No. 91-30AC10 (Lower Court Case No. 90-27208MM10)",
+    "first_page":  "24",
+    "last_page":  "25",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 24"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "357 So.2d 410",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9703848
+                                      ],
+                         "year":  1978,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/357/0410-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "569 So.2d 897",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          11302252
+                                      ],
+                         "year":  1990,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/569/0897-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "561 So.2d 278",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7518797
+                                      ],
+                         "year":  1990,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/561/0278-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  246,
+                     "char_count":  3020,
+                     "ocr_confidence":  0.875,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.0730558036395172
+                                  },
+                     "sha256":  "0ea29a39faf3047663382ee6da6f203f259fe401cef558ff4a8d6c53bf75174c",
+                     "simhash":  "1:a915c84e77db4bac",
+                     "word_count":  506
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before WILLIAM P. DIMITROULEAS, Circuit Judge."
+                                ],
+                     "parties":  [
+                                     "STATE OF FLORIDA v KUSIAK"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nThe State of Florida appeals the granting of a Motion in Limine preventing the introduction into evidence of the results of blood tests taken from the Appellee after an accident. This Court has jurisdiction pursuant to Rule 9.140(c)(1)(B). The order granting the Motion in Limine in effect was a suppression of evidence. Even if a right to appeal does not exist, the Court would treat this appeal as a petition for common-law certiorari. See, State v Sawyer, 561 So.2d 278 (Fla. 2d DCA 1990) and State v Weir, 569 So.2d 897 (Fla. 4th DCA 1990). The ruling of a trial court on an evidentiary hearing is clothed with the presumption of correctness. The evidence and reasonable inferences and deductions to be derived therefrom must be interpreted in a manner most favorable to sustain the trial court’s ruling. See, McNamara v State, 357 So.2d 410 (Fla. 1978). The record does not support an abuse of discretion, therefore; granting of the Motion in Limine is Affirmed.\nThe Appellee was involved in a car accident on June 25, 1990. Paramedics were called to the scene, and the Appellee, because his lower extremities were pinned in the vehicle, had to be cut out of the car. The Appellee complained of pain in his leg, but that pain ended upon his being freed. The paramedic reported that the Appellee’s skin condition, skin color, and skin temperature were normal. The paramedic indicated that one’s breathing rapidly may not indicate serious injury, and that he was unable to observe any serious bodily injury, outwardly.\nInitially, the paramedic indicated that he had smelled alcohol on the Appellee’s breath. However, on cross-examination the paramedic was impeached from a deposition where he admitted that the odor of alcohol was in the vehicle and not necessarily on the Appellee’s breath.\nFlorida Statute § 316.1933(1) authorizes blood to be taken from an individual when he is involved in an accident where serious bodily injury exists and where probable cause exists to believe that a motor vehicle was driven by the defendant while he was under the influence of an alcoholic beverage. Sufficient evidence existed upon which the lower court could have concluded that the blood was properly drawn. However, the credibility of the witnesses and weight to be given the testimony is a determination for the lower court. This court must defer to the factual findings of the trial court who observed the witnesses first hand. See, Bums v State, No. 90-1870 So.2d (Fla. 4th DCA August 7, 1991) [16 FLW D 2054]. There is no showing of an abuse of discretion.\nThe order granting the Motion in Limine is Affirmed.\nDONE AND ORDERED at Fort Lauderdale, Broward County, Florida, this 26th day of August, 1991.",
+                                          "type":  "majority",
+                                          "author":  null
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Dan Bass, Office of the State Attorney, for appellant.",
+                                       "Anthony R. Kusiak, pro se."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "STATE OF FLORIDA v KUSIAK\nCase No. 91-30AC10 (Lower Court Case No. 90-27208MM10)\nSeventeenth Judicial Circuit, Broward County\nAugust 26, 1991\nAPPEARANCES OF COUNSEL\nDan Bass, Office of the State Attorney, for appellant.\nAnthony R. Kusiak, pro se.\nBefore WILLIAM P. DIMITROULEAS, Circuit Judge."
+                 },
+    "file_name":  "1318-01",
+    "first_page_order":  44,
+    "last_page_order":  45
+}

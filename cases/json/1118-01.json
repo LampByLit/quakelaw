@@ -1,0 +1,93 @@
+﻿{
+    "id":  4560444,
+    "name":  "Thornton Foster v. The State",
+    "name_abbreviation":  "Foster v. State",
+    "decision_date":  "1907-11-13",
+    "docket_number":  "No. 3729",
+    "first_page":  "137",
+    "last_page":  "138",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 137"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "24 S. W. Rep., 39",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "45 S. W. Rep., 696",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "38 Texas Crim. Rep., 30",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2361187
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/38/0030-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  248,
+                     "char_count":  3931,
+                     "ocr_confidence":  0.578,
+                     "pagerank":  {
+                                      "raw":  4.9474871368515772E-08,
+                                      "percentile":  0.3114314772791773
+                                  },
+                     "sha256":  "01ba9eaf3ad15b1fcc3fe03aa2061b40cdb369c2ffaac311fce132a3cbefc5a7",
+                     "simhash":  "1:4192e57d1284802d",
+                     "word_count":  678
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Thornton Foster v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\nAppellant was convicted under the second count of the indictment charging him with assault to rape upon a girl under 15 years of age.\nThe first application for a continuance\u0027was overruled and exception reserved. The diligence was sufficient. The facts expected to be shown by the absent witness were in direct contradiction of the main facts testified by the witnesses, Alberta Peterson, prosecutrix, and Victoria Foster. The substance of their testimony was that Victoria Foster heard Alberta Peterson scream and went to the place where she heard the noise, and found her drawers pulled down around her ankles and she was greatly frightened; and that the defendant was on his knees in front of her in position as if intending to have carnal intercourse with the girl. By the absent witness, Napoleon Foster, it was expected to be shown that he was the first one to see and talk with Alberta Peterson, upon whom this assault is alleged to have been made, and that her drawers were not torn nor down about her ankles, nor in any other manner disturbed; that her clothing was in no manner torn, nor were there any marks of a violent character to be observed upon her or about her person, and when Victoria Foster reached the scene, Alberta was not down, and that this defendant did not have hold of her; and that she made no pretenses or statement that the defendant had anything to do with her more than to scare and to make her run. And in this connection, it may be further stated, the facts all show that there was no bruises or scratches, or any marks of violence upon the girl, and nothing for the State other than that she was on the ground, and her drawers down about her ankles, and defendant on his knees in front of her.\nThe testimony of the absent witness was ■ very material and would directly contradict the testimonjr of the prosecutrix and Victoria Foster, in regard to the condition of things when they arrived upon the scene.\nWe are of the opinion that the court erred in refusing this application. There was a contest as to diligence, filed in connection with the motion for a new trial to the effect that Napoleon Foster was living on the same place with the defendant and that the employer of both, was aiding, in some way, perhaps employing counsel to defend appellant. It was stated in the contest that it was thought that the witness was kept away by the procurement of appellant. There was no testimony offered in support of this contention, and as the matter is presented, we believe that the new trial should have been granted.\nThe judgment is reversed and the cause is remanded.\nReversed and remanded.\nHenderson, Judge, absent.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "A. G. Beard, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the .State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Thornton Foster v. The State.\nNo. 3729.\nDecided November 13, 1907.\n1. —Assault With Intent to Rape—Continuance.\nWhere upon trial for assault with intent to rape, the testimony of the absent witnesses, as set out in defendant’s first application for continuance, would directly contradict the testimony of the prosecutrix in regard to the condition of things when the witnesses arrived upon the scene, the continuance should have been granted.\n2. —Same—Motion for New Trial—Contest.\nUpon contest as to diligence, filed by the State, in connection with appellant’s motion for new trial, claiming that the absent witness was kept away by the procurement of appellant, no testimony being offered in support of this contention, and the testimony of the absent witness being material, a new trial should have been granted.\nAppeal from the District Court of Brazos. Tried below before the Hon. J. C. Scott.\nAppeal from a conviction of assault with intent to rape; penalty, two years imprisonment in the penitentiary.\nThe opinion states the case.\nA. G. Beard, for appellant.\nOn question of continuance: Clark v. State, 38 Texas Crim. Rep., 30; 45 S. W. Rep., 696; State v. Cubine, 24 S. W. Rep., 39.\nF. J. McCord, Assistant Attorney-General, for the .State."
+                 },
+    "file_name":  "1118-01",
+    "first_page_order":  155,
+    "last_page_order":  156
+}

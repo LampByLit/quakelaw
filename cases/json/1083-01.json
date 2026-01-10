@@ -1,0 +1,75 @@
+﻿{
+    "id":  4558745,
+    "name":  "Mat Lewis v. The State",
+    "name_abbreviation":  "Lewis v. State",
+    "decision_date":  "1907-10-16",
+    "docket_number":  "No. 3817",
+    "first_page":  "7",
+    "last_page":  "8",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 7"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "26 S. W. Rep., 197",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  212,
+                     "char_count":  3311,
+                     "ocr_confidence":  0.591,
+                     "pagerank":  {
+                                      "raw":  2.949118992685367E-07,
+                                      "percentile":  0.8487236128438376
+                                  },
+                     "sha256":  "bd843eb7cf10369cf90bc57a0146901edb9d61ad28a70d19a38f956b70369d83",
+                     "simhash":  "1:a0fc919c322e109f",
+                     "word_count":  604
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Mat Lewis v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "HENDERSON, Judge.\nAppellant was convicted for unlawfully carrying a pistol and prosecutes this appeal.\nThe statement of facts shows that appellant admitted carrying a pistol but set up as a defense that at the time he was alleged to have carried same, he was on the way to place said pistol in pawn for a loan of $5 theretofore extended to him by one Scott. The proof further shows that on the day before, he borrowed $5 from Scott and agreed to bring his pistol to Scott’s house as a pledge for security for the money; that he didn’t bring it on the evening when he promised to and he was reminded on the next day to bring it. That he went home and got the pistol and was on the direct route to Scott’s house with the pistol; that he stopped on the way and talked with a party and while there another person, to wit: Jim Coleman came up and he and appellant had an altercation and appellant shot Coleman with the pistol. He then went home with the pistol, not carrying it to Scott’s house. This is a sufficient statement of the case to present appellant’s assignments.\nOn this state of facts appellant contends that the court should have given his special requested instruction, as follows, to wit:\n\"If by previous arrangement between the defendant and Cal Scott the defendant was to deliver to said Scott a pistol owned by the defendant, and on the day he was alleged to have carried the pistol he was requested or instructed by said Scott to carry the pistol to Scott’s house, and if at the time he was seen with the pistol he was carrying it to Scott’s house or on the way from his house to Scott’s house on the usually traveled route, then he would not be guilty of unlawfully carrying a pistol and you will acquit him.”\nAn examination of the court’s charge shows that this defense set up by appellant, was not given by tire learned judge who tried the case. We think it was a legitimate defense and that the\u0027 jury should have had the right to have passed on it.\nFor the refusal of the court to give said requested instruction the judgment is reversed and the cause remanded.\nReversed and remanded.\nDavidson, Presiding Judge, absent.",
+                                          "type":  "majority",
+                                          "author":  "HENDERSON, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Davis \u0026 Davis, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Mat Lewis v. The State.\nNo. 3817.\nDecided October 16, 1907.\nCarrying Pistol—Requested Charge—Want of Criminal Intent.\nWhere upon trial for unlawfully carrying a pistol, there was evidence that the defendant was on his way to carry the pistol in question to the house of a friend from whom he had borrowed $5, and to be left there as a pledge or security for said money by request of said friend, and that defendant was on his way on the usually traveled route between his house and that of his friend when he got into an altercation with a third party and shot at him with the pistol; the court should have given defendant’s requested charge to acquit upon this phase of the case.\nAppeal from the County Court of San Augustine. Tried below before the Hon. W. B. Powell.\nAppeal from a conviction of unlawfully carrying a pistol; penalty, a fine of $100.\nThe opinion states the case.\nDavis \u0026 Davis, for appellant.\nOn question of refusing special charge: Sparks v. State, 23 Texas Crim. App., 447; Sanderson v. State, 23 Texas Crim. App., 520; Mays v. State, 19 Texas Ct. Rep., 99.\nF. J. McCord, Assistant Attorney-General, for the State.\nUpton v. State, 26 S. W. Rep., 197."
+                 },
+    "file_name":  "1083-01",
+    "first_page_order":  25,
+    "last_page_order":  26
+}

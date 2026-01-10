@@ -1,0 +1,93 @@
+﻿{
+    "id":  4562879,
+    "name":  "L. M. Dowd v. The State",
+    "name_abbreviation":  "Dowd v. State",
+    "decision_date":  "1908-02-19",
+    "docket_number":  "No. 4050",
+    "first_page":  "563",
+    "last_page":  "567",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 563"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "36 Texas Crim. Rep., 320",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2359840
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/36/0320-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "51 Texas Crim. Rep., 7",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4550695
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/51/0007-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  531,
+                     "char_count":  13378,
+                     "ocr_confidence":  0.584,
+                     "pagerank":  {
+                                      "raw":  2.7246084468201784E-07,
+                                      "percentile":  0.8304800781821643
+                                  },
+                     "sha256":  "cd23e5912c291a7eae8409eafcd0feaa5fc4b69b6062f6fe09276c11c1b96f30",
+                     "simhash":  "1:be688f3838a244e6",
+                     "word_count":  2382
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "L. M. Dowd v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BROOKS, Judge.\nAppellant was convicted of manslaughter, and his punishment assessed at -three years in the State penitentiary.\nWe find in this record but one bill of exceptions and only one question necessary to be reviewed. Appellant’s bill of exceptions is as follows: “The State, by Chas; F. Spencer, county attorney, offered in evidence the contents of the written testimony of Rube Benson, taken and reduced to writing, at an examining trial held before J. P. Sampson, a justice of the peace for justice precinct Ho. 2. Montague County, Texas, on April 18, 1904, and as a predicate for the introduction of secondary evidence of the contents of such written testimony, the State, before the introduction of the contents of said written testimony, introduced the following evidence, and none other, to wit: W. C. Newman testified: T was county attorney of Montague Count}1\u0027, Texas, in 1904, and represented the State on an examining trial held \"at St. Jo, before J. P. Sampson, justice of the peace for justice precinct No. 2, Montague County, Texas, •in which defendant, L. M. Dowd, and Edward Davenport were charged with murder. The testimony of several witnesses was introduced by the State and reduced to writing by me, one of them being Rube Benson. Defendant, Dowd, was present in person when Benson testified, and was afforded an opportunity to cross-examine him. I took down the testimony of all the witnesses on a typewriter. They were all sworn at the time they testified. Benson signed the testimony given by him. After the testimony of all the witnesses had been reduced to writing, I wrote out one certificate to the whole of the testimony, for the justice of the peace to sign. I did not write a certificate for each witness’ testimony, but one certificate for all. I remember Mr. Sampson asking me to write the certificate for him, but I do not remember seeing him sign it, and I do not remember what was on the paper with reference to his signature. I left this written testimony in the office of the county attorney when I went out of office. (The witness here identified the criminal docket of said justice of the peace used on the trial of said examination, and stated that he wrote the judgment up for the justice.)’\n“Sam Moore testified as follows: T was a witness on the examining trial of defendant, Dowd, at St. Jo, before Esquire Sampson. Rube Benson also testified as a witness. Our testimony was taken down in writing. I signed my statement and Benson signed his. The papers containing our testimony were handed over to Mr. Sampson, the justice, by Mr. Newman, who wrote down the statements, and I saw Mr. Sampson write on each of them as though he was signing them, and then he put his seal on each of them. I did not see what he wrote.’\n“Ed Moore, being sworn, testified: T was a witness at defendant’s examining trial at St. Jo and testified, but my testimony was not taken down. The testimony of my brother, Sam Moore, and Rube Benson was taken down, and I saw the justice, Mr. Sampson, write on each statement and put his seal on it; but I did not see what he wrote.’\n“H. W. Hunt, being sworn, testified: \u0027During the last two years prior to November of last year, I was county attorney of Montague County. I had in my possession part of the written testimony taken at the examining trial of the defendant, Dowd, at St. Jo. There was a statement in the office, of Rube Benson’s testimony, and part of the testimony of another witness; that is all there was to it. There was no certificate of the justice of the peace, but there was Rube Benson’s signature ■ subscribed and sworn to, is my recollection of it. It was not signed by any one else besides Rube Benson. There was no justice of the peace’s signature to it; it seemed like a part of the testimony had been taken off, and there was only his testimony and a part of the testimony of another witness. I never did see the certificate of the justice of the peace to all of the testimony. That statement was in your office (addressing Mr, Spencer) when I went out of the office. I have never seen it since then. I made a search for that statement. I helped Mr. Spencer (the county attorney) look for it. When I went out of office I told him about it. When we looked for the statement we did not find it. It was recently that we made the search, a few weeks or month or such matter, I do not know where I got that paper. Mr. Newman turned the office over to me, and I found it in a drawer. I said that that paper purported to be a statement of the testimony of Rube Benson. I know nothing about whether it was Rube Benson’s signature or not. I do not know whether it was his testimony taken on the examining trial. I don’t know anything about that. I only know that I found the paper in the office; that it purported to be the testimony of Benson, and that his name was signed there, and that is all I know about it.’\n“J. M. Benson testified: T am the father of Rube Benson, who testified at the examining trial in St. Jo. He is dead. He died in January, 1905.’ ”\nThe State offered in evidence “The justice’s criminal docket, for pre1 cinct No. 2, Montague County, Texas,” the same being the docket referred to and identified by Mr. Newman, page 139, of said docket, reading as follows:\n“The State of Texas ] v. I 138A Lem Dowd and E. D. Davenport. J\n“Complaint filed the 15th of April, A. D., 1904. Made by J. W. \u0027Raines against Lem Dowd and E. D. Davenport: charged with murder. Warrant issued the 15th of April, 1904, placed in the hands of sheriff, J. W. Raines.\nApril 18, 1904.\n“This cause this day coming on to be heard and the examination having been completed, it is ordered and adjudged by the court that said offense is a bailable one. It is therefore ordered that the defendant, E. D. Davenport, be admitted to bail in the sum of $100; and that said defendant, Lem Dowd, be admitted to bail in the sum of $1,000, and upon giving their respective bonds with good and sufficient sureties conditioned as required by law to answer at the next term of the Honorable District Court of Montague County, Texas, for the offense of murder, said defendant shall be permitted to go out of charge; but if said defendants or either of them shall fail to make- his respective bond, the sheriff of said county is ordered to commit said defendant so failing to the county jail of said county, to be there safely kept to answer said charge before said court until he shall have accepted said bond.\n“R. P. Sampson, J. P\n“After the introduction of the foregoing predicative testimony, the witness, W. 0. Newman, was recalled by the State, and was asked to state the contents of the said written testimony of the said witness, Rube Benson. To the admission of the offered testimony the defendant then and there objected upon the following grounds: 1. Because it has not been shown that the defendant was charged, before said examining magistrate, with any offense and it has not been shown that he was then charged with the murder of E. Tuck, the offense for which he is now on trial. 3. Because it has not been shown that any proper certificate was made by the examining magistrate, to the written testimony of the witness Bube Benson, but on the contrary it has been shown by the State, by the witness, H. W. Hunt, that no certificate was on the testimony of said Bube Benson, if the writing he found in the county attorney’s office was the written statement of said witness. 3. Because the testimony now offered is hearsay. 4. Because the defendant is entitled to be confronted at this trial by the witness whose testimony is to be used against him. 5. Because the testimony offered is secondary and no sufficient predicate has been laid for the introduction of secondary evidence of the contents of such written statement. Its loss has not been shown. All of which objections were by the court overruled, and the witness, W. 0. Newman, was permitted to and testified before the jury as follows, to wit: ‘As shown by the said written statement of said Bube Benson, he said that he went with Mr. Tuck on the morning of the killing; left Mr. Tuck’s place and went to Sam Moore’s to talk with Mr. Moore about some trouble that was reported to exist between Mr. Tuck and Mr. Davenport. They got to Mr. Moore’s about 10 o’clock, and talked with him awhile in the field, and went from there across east to Mr. Embrey’s and talked with Mr. Embrey awhile; and that while talking with Mr. Embrey, Mr. Dowd and Mr. Davenport were-plowing in the field west of Embrey’s field, and btween them and Dowd’s house. They left Embrey’s field and went back west and intercepted the Illinois Bend and Saint Jo road, about fifty yards north of Dowd’s house, and then turned south there on the road in front of the house. After-going a few steps south of the house some one holloed, \"Look out,” or \"Get out of the way,” I think it was \"Look out,” and Benson and Tuck turned, looking back towards the house and the remark was repeated again, \"Look out,” or \"Get out of the way,” and the Benson boy stepped to one side, and Tuck held up his hands, and the shot was fired. Tuck fell, fell across the road, and Dowd emptied his gun. Dowd was standing at the northwest corner, right close to the northwest corner of the house, when the shot was fired. The Benson boy went on down the road toward Saint Jo, and on the way between the place where the shooting occurred and Sam Moore’s house, he met Sam Moore going towards Dowd’s house. Sam went on to the house and the boy went on to some other place down the road, I don’t remember where. The testimony I have just repeated was in the written statement. He said that the defendant in this case did the shooting, and that the deceased was E. Tuck. He stated this occurred in Montague County, Texas.’\n\"To the action of the court in overruling each and all of said objections, and in admitting the testimony of said witness, W. C. Newman, as to the contents of the said written statement of said witness, Buhe Benson, the defendant then and there excepted, etc.”\nWe do not think from the above bill of exceptions there was a proper predicate for the introduction of the examining-trial-testimony. While under the Porch case, 51 Texas Crim. Rep., 7; 18 Texas Ct. Rep., 761; we overruled the Cline case, 36 Texas Crim. Rep., 320, and reasserted the decisions of this court theretofore with reference to a dead witness’ testimony, none of these decisions contravene the rule, that the proper predicate for the testimony must be laid before the same can be legally admitted. Here no witness positively identifies the testimony as disclosed by this bill of exceptions as the testimony of the deceased witness and no authentication thereof is shown in a manner required by law for the reproduction of said testimony. If a party is present at an examining trial and heard the testimony of a witness, said party having taken said testimony down, would be authorized to swear to the accuracy of said statement after identifying the paper upon which said testimony was taken down regardless of a certificate; but if the only means of identification of the testimony is a certificate, then the certificate must be shown. Furthermore, where an instrument is lost, the proper predicate must be made by proving that the utmost diligence has been used to find the lost paper in those places where it was or should be kept, and usually where it ought to be kept. The evidence does not show with reasonable certainty that the paper was left in the county attorney’s office by the outgoing county\u0027 attorney, but only part of the examining trial evidence was produced, and the burden is on the county attorney to show search for same, and inability to produce it; and that part, as suggested above, is not sufficiently identified as the testimony of the deceased witness.\nWe accordingly hold that the proper predicate in this case was not laid as shown by this bill of exceptions, for the introduction of this testimony. In failing to lay the proper predicate, the court committed reversible error in admitting same.\nThe judgment is accordingly reversed and the cause remanded.\nReversed and remanded.",
+                                          "type":  "majority",
+                                          "author":  "BROOKS, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "J. M. Chambers, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "L. M. Dowd v. The State.\nNo. 4050.\nDecided February 19, 1908.\nManslaughter—Examining Trial Testimony—Deceased Witness—Certificate.\nWhere upon trial for murder, the only means of identifying the examining trial testimony, was by the certificate of the justice of the peace, which certificate was lacking, and there was no attempt to reproduce the said testimony by a witness who heard the same and had written it down; and it did not appear with reasonable certainty that the paper alleged to contain the examining trial evidence of the dead witness, was the same as that taken upon the examining trial, and upon the whole, said written testimony was not sufficiently identified as the testimony of the deceased witness, it was reversible error to admit the same in evidence against the defendant, the proper predicate not having been laid. Distinguishing Porch v. State, 51 Texas Grim. Rep., 7.\nAppeal from the District Court of Montague. Tried below before the Hon. Clem B. Potter.\nAppeal from a conviction of manslaughter; penalty, three years imprisonment in the penitentiary.\nThe opinion states the case.\nJ. M. Chambers, for appellant.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1269-01",
+    "first_page_order":  581,
+    "last_page_order":  585
+}

@@ -1,0 +1,123 @@
+﻿{
+    "id":  8547004,
+    "name":  "Ex Parte Roy F. Doyal",
+    "name_abbreviation":  "Ex parte Doyal",
+    "decision_date":  "1958-12-10",
+    "docket_number":  "No. 30,215",
+    "first_page":  "83",
+    "last_page":  "84",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 83"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "308 S.W. 2d 22",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10157595
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/308/0022-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "295 S.W. 2d 906",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10181452
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/295/0906-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 642",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2462275
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0642-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "264 S.W. 2d 125",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10186509
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/264/0125-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "159 Texas Cr. Rep. 865",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  0
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  122,
+                     "char_count":  1230,
+                     "ocr_confidence":  0.576,
+                     "pagerank":  {
+                                      "raw":  1.142692048151915E-07,
+                                      "percentile":  0.5794021195830336
+                                  },
+                     "sha256":  "4989780293dc7ddd40b617cadda889be488dc6da3dd0bcbe6adc3ef998b32f74",
+                     "simhash":  "1:c62a89252c47a719",
+                     "word_count":  212
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte Roy F. Doyal."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BELCHER, Judge.\nAppellant gave notice of appeal from an order of the district court of McLennan County remanding him to the custody of the sheriff of said county for delivery to an agent of the State of Arkansas.\nThe governor’s warrant introduced in evidence shows that the extradition sought of the appellant is based upon an information.\nThe Arkansas statute pertaining to the crime charged herein was introduced in evidence and it shows such crime to be a felony.\nThere is no evidence in the record showing that a felony offense in Arkansas may be prosecuted upon an information. In the absence of such proof, it is assumed that the prosecution upon an information for the felony offense therein charged is not authorized by Arkansas law. Ex parte Gardner, 159 Texas Cr. Rep. 865, 264 S.W. 2d 125; Ex parte Cooper, 163 Texas Cr. Rep. 642, 295 S.W. 2d 906; on second appeal, 308 S.W. 2d 22. The information under the record here presented does not authorize extradition.\nThe judgment is reversed and the cause remanded.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "BELCHER, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "W. M. Zachry, Samuel R. Jones, and C. S. Farmer, Waco, for relator.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte Roy F. Doyal.\nNo. 30,215.\nDecember 10, 1958.\nW. M. Zachry, Samuel R. Jones, and C. S. Farmer, Waco, for relator.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1377-01",
+    "first_page_order":  101,
+    "last_page_order":  102
+}

@@ -1,0 +1,93 @@
+﻿{
+    "id":  8549443,
+    "name":  "Juan Moralez v. State",
+    "name_abbreviation":  "Moralez v. State",
+    "decision_date":  "1959-02-04",
+    "docket_number":  "No. 30,396",
+    "first_page":  "346",
+    "last_page":  "347",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 346"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "254 S.W. 2d 1004",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10224237
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/254/1004-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "158 Texas Cr. Rep. 266",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2482940
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/158/0266-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  108,
+                     "char_count":  977,
+                     "ocr_confidence":  0.609,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.20587648160182312
+                                  },
+                     "sha256":  "e216526254af689cfcad5784403555fd2eccf05f841107a708fdabdf07485493",
+                     "simhash":  "1:af04d80a63a022fe",
+                     "word_count":  169
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Juan Moralez v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nThe offense is operating a motor vehicle upon a public road while intoxicated; the punishment, seven days in jail and a fine of $100.\nMotion to quash the array of jurors was filed, alleging that the members thereof had not been drawn and summoned in the manner required by Art. 2109 R.C.S.\nA second motion to quash was filed alleging discrimination in the selection of the jury panel by the deliberate failure to include any of Mexican or Latin American extraction.\nException was reserved to the overruling of these motions.\nIn the absence of a formal bill of exception or a statement of facts adduced on the trial or upon the motion to quash, the correctness of the court’s ruling on the motions cannot be appraised. Fernandez v. State, 158 Texas Cr. Rep. 266, 254 S.W. 2d 1004.\nThe judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "No attorney for appellant of record on appeal.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Juan Moralez v. State.\nNo. 30,396.\nFebruary 4, 1959.\nNo attorney for appellant of record on appeal.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1520-01",
+    "first_page_order":  364,
+    "last_page_order":  365
+}

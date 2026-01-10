@@ -1,0 +1,166 @@
+﻿{
+    "id":  4562303,
+    "name":  "Bud Wade v. The State",
+    "name_abbreviation":  "Wade v. State",
+    "decision_date":  "1908-02-19",
+    "docket_number":  "No. 4038",
+    "first_page":  "608",
+    "last_page":  "610",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 608"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "35 Texas Crim. Rep., 392",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "50 Texas Crim. Rep., 282",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2368664
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/50/0282-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "35 Texas Crim. Rep., 578",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "50 Texas Crim. Rep., 238",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2373335
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/50/0238-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "52 Texas Crim. Rep., 548",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4562641
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/52/0548-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "51 Texas Crim. Rep., 539",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4553186
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/51/0539-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "37 Texas Crim. Rep., 77",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          161358
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/37/0077-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "51 Texas Crim. Rep., 539",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4553186
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/51/0539-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "37 Texas Crim. Rep., 77",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          161358
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/37/0077-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  312,
+                     "char_count":  7075,
+                     "ocr_confidence":  0.612,
+                     "pagerank":  {
+                                      "raw":  2.1117358528011934E-07,
+                                      "percentile":  0.7632493245745215
+                                  },
+                     "sha256":  "9156a622317ee7e005121428ffe0a71ff248ba1a6dc4171d72e6a90e69822bc3",
+                     "simhash":  "1:5bc60e96c5a5dcbf",
+                     "word_count":  1218
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Bud Wade v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "RAMSEY, Judge.\nAppellant was charged in the county court of Montague County with unlawfully selling intoxicating liquors in violation of the local option law, and on trial was convicted, and his punishment assessed at a fine of $50 and forty days confinement in the county jail.\nThe evidence is sufficient beyond doubt to sustain the conviction. The errors relied upon relate mainly to the sufficiency of the indictment and the validity of the local option law in Montague County.\nComplaint is made that the information filed in the case is insufficient, in that: the necessary steps precedent to putting local option in force in Montague County were not in terms averred. This question has been frequently passed on in this court, as has been held in the case of Key v. State, 37 Texas Crim. Rep., 77, and other cases, that it is sufficient in general terms to aver the adoption of the local option election, and the due publication of same. While it is conceded that all the statutory provisions precedent to putting the local option law into operation must be complied with and that unless this is shown the law will not be operative, it is not required in an indictment charging local option that the evidence constituting a performance of such preliminary steps shall in all respects be specifically pleaded. It is averred in the information in this case that at the time of the unlawful sale charged in the indictment, that the sale of intoxicating liquor had been previously prohibited under the laws of said county, and that said local option laws were at that time in full force and effect, and that the sale in question was made after the qualified voters of said county had at a legal election held for that purpose, in accordance with law determined that the sale of intoxicating liquor should be prohibited in said county; that the commissioners court had declared the result of such election and had legally passed an order to that effect, which order had been duly published in a newspaper selected by the county judge of said county. This we think is sufficient under the strictest rule ever adopted by this court.\nMany objections are made to orders of the commissioners court of Montague County, for the reason, as claimed, that the complaint is insufficient to admit them. Having held the complaint sufficient and that same charges an offense against the law, it follows that these objections must be overruled.\nAgain, complaint is made that in submitting the local option law to the voters of the people of Montague County, that it should state that the election was held to determine “whether or not” the sale of intoxicating liquors should be prohibited, and that where it appears, as in this case, that the election was to determine whether the sale of such liquor should be prohibited, that there is an omission of the alternative which invalidates the entire election. With all due respect to counsel for appellant, it seems to us that this objection is not serious. It is true that the statute provides that an order shall be made by the commissioners court to determine whether or not the sale of intoxicating liquors should be prohibited, yet it does not occur to us that the omission of the words “or not” could vitiate the election. In order to vitiate the election it would have to be manifest that the order misled or deceived the voters and we believe no one reading the order could have been misled or deceived thereby. Whether the order stated it was to determine whether or not the sale should be prohibited or whether the sale should be prohibited is immaterial. The substance of the statute was incorporated in the order, and we cannot conceive that the omission of the words “or not” complained of could or should have the effect to invalidate the entire proceedings.\nThe last point made by appellant is, that where there had been a prohibition election held subsequent to the election under which appellant was prosecuted, which had resulted in prohibition in said county, that this had the effect to invalidate and set aside the prior election, and that no conviction can be had on an information charging a violation of such first election. Reliance to support this contention is had on the case of Byrd v. State, 51 Texas Crim. Rep., 539, 19 Texas Ct. Rep., 300, which, it should be stated, does support appellant’s contention. We have held, however, in the case of Dick Massey v. State, decided at this term of the court, that the Byrd case does not decide the correct rule, and have overruled that case. On the authority of the Massie case, this contention must be held adversely to appellant’s contention.\nFinding no error in the record the judgment is affirmed.\nAffirmed.",
+                                          "type":  "majority",
+                                          "author":  "RAMSEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "J. W. Chancellor, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State.—On"
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Bud Wade v. The State.\nNo. 4038.\nDecided February 19, 1908.\n1.—Local Option—Information.\nWhere in a prosecution of a violation of the local option law, the information alleged that at the time of the unlawful sale of the intoxicating liquor, the same had been previously prohibited under the laws of said county; that said local option laws were at that time in full force and effect; that said sale was made after the qualified voters of said county bad at a legal election for that purpose, in accordance with law determined that the sale of intoxicating liquor should be prohibited therein; that the commissioners court had declared the result of such election, and had legally passed an order to that effect, which order had been duly published in a newspaper selected by the county judge of said county, the same was sufficient. Following Key v. State, 37 Texas Crim. Rep., 77.\nSt.—Same—Elections—Words and Phrases.\nUpon trial for a violation of the local option law, it was immaterial whether the order submitting the question of local option stated it was to determine “whether or not” the sale of intoxicating liquors should be prohibited, or “whether” the sale should be prohibited, as the substance of the statute was incorporated in the order.\n3.—Same—Different Elections.\nWhere upon trial for a violation of the local option law, the record showed two separate elections, both of which resulted in local option, there was no error in basing the prosecution on the first election. Overruling Byrd v. State, 51 Texas Crim. Rep., 539; 19 Texas Ct. Rep., 300. Approving Massie v. State, 52 Texas Crim. Rep., 548.\nAppeal from the County Court of Montague. Tried below before the Hon. George S. March.\nAppeal from a conviction of a violation of the local option law; penalty, a fine of $50 and forty days confinement in the county jail.\nThe opinion states the case.\nJ. W. Chancellor, for appellant.\nOn question of sufficiency of information: Chenowith v. State, 50 Texas Crim. Rep., 238; 16. Texas Ct. Rep., 695. On question of language in order submitting local option: Dreschil v. State, 35 Texas Crim. Rep., 578; Carnes v. State, 50 Texas Crim. Rep., 282; 17 Texas Ct. Rep., 526.\nF. J. McCord, Assistant Attorney-General, for the State.—On\nquestion of information: Stewart v. State, 35 Texas Crim. Rep., 392; Key v. State, 37 Texas Crim. Rep., 77."
+                 },
+    "file_name":  "1281-01",
+    "first_page_order":  626,
+    "last_page_order":  628
+}

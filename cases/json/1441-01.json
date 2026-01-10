@@ -1,0 +1,139 @@
+﻿{
+    "id":  8547603,
+    "name":  "Robert Reyes v. State",
+    "name_abbreviation":  "Reyes v. State",
+    "decision_date":  "1959-01-07",
+    "docket_number":  "No. 30,269",
+    "first_page":  "171",
+    "last_page":  "172",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 171"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "290 S.W. 2d 897",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10182887
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/290/0897-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "168 Texas Cr. Rep. 279",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "212 S.W. 2d 177",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10189921,
+                                          10189851
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/212/0177-02",
+                                            "/sw2d/212/0177-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "152 Texas Cr. Rep. 229",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2592250
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/152/0229-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "255 S.W. 2d 219",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10197864,
+                                          10197692
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/255/0219-02",
+                                            "/sw2d/255/0219-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "158 Texas Cr. Rep. 296",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2477265
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/158/0296-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  216,
+                     "char_count":  2705,
+                     "ocr_confidence":  0.566,
+                     "pagerank":  {
+                                      "raw":  4.6218874712903922E-08,
+                                      "percentile":  0.2901601599166592
+                                  },
+                     "sha256":  "bf3dab6af73cf47bf048af4e9339fa7b466945fd7a499e7bf7cb5836e33964f3",
+                     "simhash":  "1:6a3e0c96c7be3af2",
+                     "word_count":  466
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Robert Reyes v. State"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is the possession of beer for the purpose of sale in a dry area; the punishment, a fine of $175.00.\nOfficers King and Browning made application for a search warrant, were later joined by Officer Bratcher, and the three of them repaired to the address set forth in the warrant, where they saw the appellant and members of his family, served the search warrant on the appellant, and found a large quantity of beer and gin at various places about the premises. The appellant ¡did not testify or offer any evidence in his own behalf. We shall discuss the contentions raised in the appellant’s brief.\nHe first contends that the search warrant was invalid because it recites that the premises described in the warrant were occupied by persons to the affiants unknown while the officers knew that the appellant lived at such address. While the record does reveal that Officer Bratcher knew that the appellant resided at such address with his father, the record does not support appellant’s contention that the two affiants to the search warrant knew at the time they applied for the warrant that the appellant lived at the address about which they had received their information. Even if this were not so, the holding of Hernandez v. State, 158 Texas Cr. Rep. 296, 255 S.W. 2d 219, would defeat the appellant’s contention in this regard.\nWe find no merit in the appellant’s contention that the warrant was void because one of the affiants said that he had read the “search warrant” rather than the affidavit before signing it.\nHe next contends that the court erred in failing to grant a mistrial when a witness stated that the search warrant began with the words, “In the Name and by the Authority of the State of Texas.” We find nothing in this testimony which is objectionable under the hearsay rule.\nIn addition to the beer, which was charged in the information, the state introduced in evidence a quantity of gin which was also found on the premises. Such was offered and by the court received on the grounds that it shed light upon the purpose for which the beer was possessed and supported the prima facie presumption that it was possessed for the purpose of sale. We hold further that the same was admissible as part of the res-gestae, Wideman v. State, 152 Texas Cr. Rep. 229, 212 S.W. 2d 177, and Fite v. State, 168 Texas Cr. Rep. 279, 290 S.W. 2d 897.\nFinding the evidence sufficient to sustain the conviction and no reversible error appearing, the judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Clyde Boose, Sweetwater, for appellant.",
+                                       "Weldon Kirk, County Attorney, Sweetwater, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Robert Reyes v. State\nNo. 30,269.\nJanuary 7, 1959.\nClyde Boose, Sweetwater, for appellant.\nWeldon Kirk, County Attorney, Sweetwater, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1441-01",
+    "first_page_order":  189,
+    "last_page_order":  190
+}

@@ -1,0 +1,66 @@
+﻿{
+    "id":  4562606,
+    "name":  "Oscar Jones v. The State",
+    "name_abbreviation":  "Jones v. State",
+    "decision_date":  "1908-01-29",
+    "docket_number":  "No. 4174",
+    "first_page":  "418",
+    "last_page":  "419",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 418"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  220,
+                     "char_count":  3481,
+                     "ocr_confidence":  0.609,
+                     "sha256":  "2cba33df40ace515f01ecebe643d56e240c6b71494cc7970c1d5eed84f698045",
+                     "simhash":  "1:92267626520e9458",
+                     "word_count":  639
+                 },
+    "last_updated":  "2023-07-14T19:59:32.944253+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Oscar Jones v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "RAMSEY, Judge.\nAppellant was convicted in the county court of Johnson County for unlawfully carrying on and about his person a pistol.\nThe testimony shows, without doubt or question, that the defendant had on and about his person a pistol on the 22nd day of April, 1907, in the town of Cleburne at the residence of one Stella Welborn, in the eastern part of said city. Defendant undertook to justify his possession of the pistol from the fact that he was carrying same on and about his person, because that, as he claims, at the time he was charged with said offense he was working for the Wells-Fargo \u0026 Co. Express, and that one Hope Durham asked him to take the pistol and clean it up. That he took it home, where he had some oil to clean it, and not finding any oil there, he took the pistol to the residence of Stella Welborn, who had some oil; that he had the pistol wrapped up in a newspaper, and that he got in a conversation while there with the witnesses Dodley and Watkins, and was talking and joking with them and forgot all about cleaning the pistol until it was too late, and he had to go back to work. There was some testimony that appellant drew the pistol on one Laura Clark, and at the time he had the pistol in his hand and said to the witness, Laura Clark, that he was boss of the place. This, however, was denied by appellant.\nThe court submitted the defense of the appellant in the following language: “If, however, you believe from the evidence in the case that the defendant at the time he was so carrying the said pistol on and about his person, if in fact he so carried said pistol, was carrying it because he had been directed by his employer to clean the same, and that the defendant at the time he was so carrying the said pistol, if in fact he was so carrying it, had no intent to violate the law, then, he, the said defendant, would be entitled to an acquittal; but in this connection you are charged that if the defendant, at the time of so carrying the pistol, if in fact he did so carry the said pistol, was not carrying the same for the purpose of cleaning it or had abandoned such purpose, if he ever had had such purpose, then defendant would not be entitled to an acquittal on the ground that he was so carrying it for such purpose; but you are especially instructed in this and all other connections that the defendant ought not to be found guilty unless under all the instructions given you by the court, you believe from the evidence beyond a reasonable doubt that the defendant is guilty, as charged in the information.” This is an admirable presentation of his defense, and quite as favorable as he could have had any right to expect.\nHo other question is presented, worthy of notice. In view of the evidence and the light of the charge of the court, we find no error in the record, and the judgment is in all things affirmed.\nAffirmed.",
+                                          "type":  "majority",
+                                          "author":  "RAMSEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "No brief on file for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Oscar Jones v. The State.\nNo. 4174.\nDecided January 29, 1908.\nCarrying Pistol—Charge of Court—Criminal Intent.\nWhere upon trial for unlawfully carrying a pistol the court submitted in his charge the question of criminal and innocent intent as applied to the facts, there was no error, and the conviction was sustained.\nAppeal from the County Court of Johnson. Tried below before the Hon. F. E. Adams.\nAppeal from a conviction of unlawfully carrying a pistol; penalty, a fine of $100.\nThe opinion states the case.\nNo brief on file for appellant.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1210-01",
+    "first_page_order":  436,
+    "last_page_order":  437
+}

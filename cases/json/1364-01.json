@@ -1,0 +1,89 @@
+﻿{
+    "id":  2021310,
+    "name":  "JESPERSON v. STATE OF FLORIDA",
+    "name_abbreviation":  "Jesperson v. State",
+    "decision_date":  "1991-10-16",
+    "docket_number":  "Case No. 89-67AC10 (Lower Court Case No. 89-11080MM10)",
+    "first_page":  "69",
+    "last_page":  "70",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 69"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "491 So.2d 1129",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7597225
+                                      ],
+                         "weight":  2,
+                         "year":  1986,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "1135"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/491/1129-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  212,
+                     "char_count":  2595,
+                     "ocr_confidence":  0.923,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07305155628764456
+                                  },
+                     "sha256":  "99ff7da23e33ef7eb56e0a0fd98cdcbdc9dffa9c7d5aa29a6bfbe55285cfbffa",
+                     "simhash":  "1:f888b69f921ac010",
+                     "word_count":  412
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before FRUSCIANTE, J., Circuit Judge."
+                                ],
+                     "parties":  [
+                                     "JESPERSON v STATE OF FLORIDA"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nTHIS CAUSE comes before the court upon the appeal of a conviction entered against appellant, Neil Jesperson. After a jury trial, Mr. Jesperson was convicted of driving under the influence and sentenced to twelve months probation and fined $500.00. On appeal, appellant raises two issues, one of which has some validity.\nAppellant contends that the prosecutor improperly commented on Mr. Jesperson’s failure to testify. In her closing argument, the prosecutor stated as follows:\nYou have to use your common sense and don’t (sic) believe the excuse of not feeling good, being on medication and having an ulcer. These are excuses, he would not talk. The prosecutor’s statement, “he would not talk,” was fairly susceptible of being interpreted as a comment on Mr. Jesperson’s failure to testify. As such, it was a violation of Mr. Jesperson’s fifth amendment guarantee against self incrimination. See State v DiGuilio, 491 So.2d 1129 (Fla. 1986).\n“The harmless error test . . . places the burden on the state ... to prove beyond a reasonable doubt that the error complained of did not contribute to the verdict or, alternatively stated, that there is no reasonable possibility that the error contributed to the conviction.” Id. at 1135. The court concludes that the state has met the burden in this case.\nEven with the improper statement, the facts in this case leave no reasonable doubt as to the appellant’s guilt. Mr. Jesperson failed more than one of the roadside tests administered by the officer. Additionally, Mr. Jesperson had two elevated readings on the breath test. There was no evidence presented as to the type of denture adhesive Mr. Jesperson used. There was no evidence presented as to the specifics of Mr. Jesperson’s exposure to printing chemicals. Finally, there was no medical evidence presented as to the effects of any medication Mr. Jesperson was using. Thus, the possible effects of these factors does not create a reasonable doubt. Given these facts, the state has shown beyond a reasonable doubt that the error did not contribute to the verdict.\nAccordingly, the judgment of the lower court is affirmed.\nDONE AND ORDERED this 16th day of October, 1991, in chambers, at Broward County, Fort Láuderdale, Florida.",
+                                          "type":  "majority",
+                                          "author":  null
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Mardi Levey Cohen, Esquire, and Lynn Barrett, Esquire, for appellant.",
+                                       "Lewis Michael, Esquire, Assistant State Attorney, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "JESPERSON v STATE OF FLORIDA\nCase No. 89-67AC10 (Lower Court Case No. 89-11080MM10)\nSeventeenth Judicial Circuit, Broward County\nOctober 16, 1991\nAPPEARANCES OF COUNSEL\nMardi Levey Cohen, Esquire, and Lynn Barrett, Esquire, for appellant.\nLewis Michael, Esquire, Assistant State Attorney, for appellee.\nBefore FRUSCIANTE, J., Circuit Judge."
+                 },
+    "file_name":  "1364-01",
+    "first_page_order":  89,
+    "last_page_order":  90
+}

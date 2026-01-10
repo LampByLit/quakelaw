@@ -1,0 +1,169 @@
+﻿{
+    "id":  8550588,
+    "name":  "George Lee Smith v. State",
+    "name_abbreviation":  "Smith v. State",
+    "decision_date":  "1959-01-14",
+    "docket_number":  "No. 30,251",
+    "first_page":  "454",
+    "last_page":  "456",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 454"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "157 S.W. 2d 924",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10226128
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/157/0924-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "143 Texas Cr. Rep. 252",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5289152
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/143/0252-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "116 S.W. 2d 1081",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10252996,
+                                          10253127
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/116/1081-01",
+                                            "/sw2d/116/1081-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "134 Texas Cr. Rep. 515",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5232816
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/134/0515-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "238 S.W. 2d 193",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10193226
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/238/0193-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "156 Texas Cr. Rep. 6",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2577976
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/156/0006-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "259 S.W. 2d 225",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10202089,
+                                          10202221
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/259/0225-01",
+                                            "/sw2d/259/0225-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "158 Texas Cr. Rep. 623",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2478961
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/158/0623-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  247,
+                     "char_count":  3062,
+                     "ocr_confidence":  0.602,
+                     "pagerank":  {
+                                      "raw":  1.2818679894082498E-07,
+                                      "percentile":  0.6177072485693181
+                                  },
+                     "sha256":  "23f773f6ae9cb0f496ea8533253a52c5cee86a0e7d2d84e7e29cc1bc7563c39f",
+                     "simhash":  "1:6afa4b954608e2da",
+                     "word_count":  533
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "George Lee Smith v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nTried upon an indictment charging the offense of assault with intent to murder with malice, the jury found appellant guilty of assault with intent to murder without malice, and assessed his punishment at two years.\nAppellant’s plea of self-defense, absence of intent to kill, and his application for suspended sentence Were rejected by the jury.\nIt is urged that the evidence is not sufficient to sustain the jury’s finding that the assault was made with intent to murder.\nAllen, the injured party, was cut across the abdomen with a knife having a blade three inches in length. The wound was some eleven inches in length and of sufficient depth to cause the intestines to fall out. Medical expert testimony was to the effect that the wound was such as would have caused death if Allen had not had proper medical treatment.\nAfter inflicting this wound, appellant was restrained from further attacking Allen by one Gilpin who was also cut by appellant with the knife.\nFrom the manner in which the knife was used, the jury was warranted in finding an intention to take life. Moseley v. State, 158 Texas Cr. Rep. 623, 259 S.W. 2d 225.\nThree points of error are assigned to the overruling of appellant’s motion for new trial.\nIt is contended that the juror John Dunn was disqualified in that he had formed an opinion and had stated before he was taken on the jury that the defendant would be convicted.\nThe Juror Dunn testified at the hearing on appellant’s motion for new trial and denied the statement attributed to him by one Hambrick. Dunn testified that he had no opinion and knew nothing about the case before the day of the trial.\nThe trial judge heard the testimony relating to the Juror Dunn and it was his province to decide the disputed issue of fact relating to the question of his disqualification. He resolved the issue against appellant and this court is bound thereby.\nFor like reason appellant’s remaining complaints as to the receipt of other evidence by the jury during its deliberation cannot be sustained. The statements which appellant urges were made in the jury room and constituted reversible error were, according to the testimony of several jurors, not made. We would not be warranted in holding that the trial judge abused his discretion in overruling the motion for new trial. To do so would require that we substitute our judgment for that of the trial judge who heard and observed the jurors who testified at the hearing. Robinson v. State, 156 Texas Cr. Rep. 6, 238 S.W. 2d 193; Branch’s Ann. P.C., 2d Ed., Sec. 594.\nWe find no abuse of discretion in the overruling of the motion for new trial. Friedsam v. State, 134 Texas Cr. Rep. 515, 116 S.W. 2d 1081; Autry v. State, 143 Texas Cr. Rep. 252, 157 S.W. 2d 924; Branch’s Ann. P.C., 2d Ed., Sec. 585.\nThe judgment is aifirmed.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "T. R. Florey, Jr. Mt. Pleasant, and R. T. Wilkinson, Mt. Vernon, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "George Lee Smith v. State.\nNo. 30,251.\nJanuary 14, 1959.\nMotion for Rehearing Overruled February 25, 1959.\nT. R. Florey, Jr. Mt. Pleasant, and R. T. Wilkinson, Mt. Vernon, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1551-01",
+    "first_page_order":  472,
+    "last_page_order":  474
+}

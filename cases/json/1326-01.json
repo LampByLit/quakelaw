@@ -1,0 +1,68 @@
+﻿{
+    "id":  2020885,
+    "name":  "STATE OF FLORIDA v. BROWN",
+    "name_abbreviation":  "State v. Brown",
+    "decision_date":  "1991-08-21",
+    "docket_number":  "Case No. AP 90-0085 AC (A) 02",
+    "first_page":  "31",
+    "last_page":  "32",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 31"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  131,
+                     "char_count":  1207,
+                     "ocr_confidence":  0.882,
+                     "sha256":  "0d6bcdcf2443b624e1d6163c29a8b5067e7e208bc950e654fdf2ef4f066b6b3c",
+                     "simhash":  "1:1dfeddc71948dc3f",
+                     "word_count":  188
+                 },
+    "last_updated":  "2023-07-14T21:34:53.334185+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before STEWART, COLBATH, LUPO, JJ.",
+                                    "REVERSED AND REMANDED. STEWART, COLBATH and LUPO, JJ., concur."
+                                ],
+                     "parties":  [
+                                     "STATE OF FLORIDA v BROWN"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nPER CURIAM.\nReversed. James Curtis Brown was cited with driving under the influence in violation of Florida Statutes §316.193 by Officer Hill of the Lake Clarke Shores Police Department. Brown filed a motion to suppress the breathalyzer test results, etc., on the grounds that the arresting officer’s attempt to stop did not take place until after defendant and the officer exited the officer’s jurisdiction.\nAlthough Officer Hill could have stopped defendant while he was still in Lake Clarke Shores, he did not do so because department procedures require a tag check before pulling a vehicle over. We reverse in that the reason for the hesitation was reasonable. We decline to set forth any guidelines, however, because reasonableness is an elementary principle of law.\nREVERSED AND REMANDED. STEWART, COLBATH and LUPO, JJ., concur.",
+                                          "type":  "majority",
+                                          "author":  "PER CURIAM."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "David Bludworth, State Attorney, and Robert S. Jaegers, Assistant State Attorney, for appellant.",
+                                       "Richard W. Springer and Catherine Mazzullo, Springer \u0026 Springer, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "STATE OF FLORIDA v BROWN\nCase No. AP 90-0085 AC (A) 02\nFifteenth Judicial Circuit, Palm Beach County\nAugust 21, 1991\nAPPEARANCES OF COUNSEL\nDavid Bludworth, State Attorney, and Robert S. Jaegers, Assistant State Attorney, for appellant.\nRichard W. Springer and Catherine Mazzullo, Springer \u0026 Springer, for appellee.\nBefore STEWART, COLBATH, LUPO, JJ."
+                 },
+    "file_name":  "1326-01",
+    "first_page_order":  49,
+    "last_page_order":  50
+}

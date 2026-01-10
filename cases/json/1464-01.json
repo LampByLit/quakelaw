@@ -1,0 +1,176 @@
+﻿{
+    "id":  2020886,
+    "name":  "NORTHWESTERN NATIONAL LIFE INSURANCE v. DAVID",
+    "name_abbreviation":  "Northwestern National Life Insurance v. David",
+    "decision_date":  "1991-04-22",
+    "docket_number":  "Case No. CL-89-13408-AD",
+    "first_page":  "205",
+    "last_page":  "206",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 205"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "733 F. Supp. 342",
+                         "category":  "reporters:federal",
+                         "reporter":  "F. Supp.",
+                         "case_ids":  [
+                                          7395138
+                                      ],
+                         "year":  1990,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/f-supp/733/0342-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "811 F. 2d 1249",
+                         "category":  "reporters:federal",
+                         "reporter":  "F.2d",
+                         "case_ids":  [
+                                          1165013
+                                      ],
+                         "year":  1987,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "1251, n. 2"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/f2d/811/1249-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "553 F. Supp. 300",
+                         "category":  "reporters:federal",
+                         "reporter":  "F. Supp.",
+                         "case_ids":  [
+                                          5690926
+                                      ],
+                         "year":  1981,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/f-supp/553/0300-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "449 U.S. 1112",
+                         "category":  "reporters:federal",
+                         "reporter":  "U.S.",
+                         "case_ids":  [
+                                          11862208,
+                                          11861856,
+                                          11861666,
+                                          11862152,
+                                          11861930,
+                                          11862064,
+                                          11862000,
+                                          11861909,
+                                          11861721,
+                                          11861787,
+                                          11862173
+                                      ],
+                         "year":  1981,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/449/1112-11",
+                                            "/us/449/1112-04",
+                                            "/us/449/1112-01",
+                                            "/us/449/1112-09",
+                                            "/us/449/1112-06",
+                                            "/us/449/1112-08",
+                                            "/us/449/1112-07",
+                                            "/us/449/1112-05",
+                                            "/us/449/1112-02",
+                                            "/us/449/1112-03",
+                                            "/us/449/1112-10"
+                                        ]
+                     },
+                     {
+                         "cite":  "627 F. 2d 820",
+                         "category":  "reporters:federal",
+                         "reporter":  "F.2d",
+                         "case_ids":  [
+                                          1287816
+                                      ],
+                         "year":  1980,
+                         "pin_cites":  [
+                                           {
+                                               "page":  "829"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/f2d/627/0820-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "906 F. 2d 1525",
+                         "category":  "reporters:federal",
+                         "reporter":  "F.2d",
+                         "case_ids":  [
+                                          1812433
+                                      ],
+                         "year":  1990,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/f2d/906/1525-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  196,
+                     "char_count":  2251,
+                     "ocr_confidence":  0.904,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07304827424301572
+                                  },
+                     "sha256":  "b9dc53f31ebec2d0d07947682d9e0492acc4dffc7877d7c90317641654531aa9",
+                     "simhash":  "1:f6f8d3edd72c8922",
+                     "word_count":  362
+                 },
+    "last_updated":  "2024-02-27T22:50:07.903550+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "NORTHWESTERN NATIONAL LIFE INSURANCE v DAVID"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nROBERT M. GROSS, Circuit Judge.\nORDER DENYING PLAINTIFF’S MOTION TO STRIKE DEFENDANT’S DEMAND FOR JURY TRIAL\nThis case came before the Court on April 11, 1991 on Plaintiff’s Motion to Strike Defendant’s Demand for Jury Trial. Both sides were present through counsel. In this case, Plaintiff sued Defendant to recover payments made pursuant to her husband’s disability insurance policy. Plaintiff contends that Defendant cashed checks which it erroneously sent to Defendant’s husband after his death. Defendant answered the complaint and filed a counterclaim. The counterclaim concerned a life insurance policy which had been provided to her husband as an incident of. his employment. In her counterclaim, Defendant contends that her husband was an “executive officer” of his company entitled to a life insurance death benefit of $150,000. Plaintiff contends that Defendant’s husband’s job status was that of an “employee” such that the $75,000 policy benefit which Defendant received was appropriate. Thus, the narrow factual issue of the counterclaim is the job classification of Defendant’s husband at the time he became disabled. Unlike a claim on a medical insurance plan issued pursuant to ERISA, which is equitable in nature, e.g., Blake v Union-Mutual Stock Life Ins. Co. of America, 906 F. 2d 1525 (11th Cir. 1990), the issue in this case is a narrow factual issue typical of actions at law. If Defendant prevails on the disputed factual issue, her right to payment will be immediate and unconditional. See, Wardle v Central States Pension Fund, 627 F. 2d 820, 829 (7th Cir. 1980), cert. denied, 449 U.S. 1112 (1981); Ovitz v Jefferies \u0026 Co., 553 F. Supp. 300 (N.D. Ill. 1981). Accordingly, a right to a jury trial exists. Transamerica Occidental Life Insurance Co. v DiGregorio, 811 F. 2d 1249, 1251, n. 2 (9th Cir. 1987); Gangitano v NN Investors Life Ins. Co., 733 F. Supp. 342 (S.D. Fla. 1990). Accordingly, it is\nORDERED AND ADJUDGED that Plaintiffs Motion to Strike Defendant’s Demand for Jury Trial is denied.\nDONE AND ORDERED in West Palm Beach, Florida this 22nd day of April, 1991.",
+                                          "type":  "majority",
+                                          "author":  "ROBERT M. GROSS, Circuit Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "NORTHWESTERN NATIONAL LIFE INSURANCE v DAVID\nCase No. CL-89-13408-AD\nFifteenth Judicial Circuit, Palm Beach County\nApril 22, 1991"
+                 },
+    "file_name":  "1464-01",
+    "first_page_order":  223,
+    "last_page_order":  224
+}

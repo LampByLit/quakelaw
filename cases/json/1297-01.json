@@ -1,0 +1,68 @@
+﻿{
+    "id":  2020875,
+    "name":  "ROSE v. GAGLIOTI, et al.",
+    "name_abbreviation":  "Rose v. Gaglioti",
+    "decision_date":  "1991-07-12",
+    "docket_number":  "Case No. 90-083AP",
+    "first_page":  "6",
+    "last_page":  "7",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "49 Fla. Supp. 2d 6"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  149,
+                     "char_count":  1873,
+                     "ocr_confidence":  0.896,
+                     "sha256":  "1968a7d56f8ca79d5ecb23e535afcc86753f30be97ca98c59d1b892140c1382d",
+                     "simhash":  "1:274acaa683ffdc2f",
+                     "word_count":  316
+                 },
+    "last_updated":  "2023-07-14T21:34:53.334185+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before HENDERSON, LEVINE, GREEN, JJ.",
+                                    "HENDERSON and LEVINE, JJ., concur."
+                                ],
+                     "parties":  [
+                                     "ROSE v GAGLIOTI, et al."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nGREEN, J.\nTHIS CAUSE having come before this Court on a Motion for Appellate Attorneys Fees and Costs filed on behalf of Appellant, STEFAN ROSE, M.D. and the Court having reviewed the same as well as the applicable law, it is hereby:\nORDERED AND ADJUDGED that:\nThe said Motion be and the same is hereby GRANTED and the Court’s previous May 6, 1991, Order denying the same is hereby vacated based upon the following findings:\n1. In its opinion dated March 8, 1991, this Court held appellant to be the prevailing party for purposes of awarding attorneys fees pursuant to Florida Statute § 83.49(3)(c) (1989).\n2. Thereafter, appellant timely filed his motion for appellate attorneys fees and costs pursuant to Florida Statute § 59.46 (1989). This statute absolutely entitles appellant to appellate attorneys fees and costs absent any explicit legislative intent to the contrary in § 83.49(3)(c) (1989). We find that there is no such legislative intent in § 83.49(3)(c) to deny appellant his appellate attorneys fees and costs.\nAccordingly, this cause is remanded to the trial court for a determination of the amount of attorneys fees and costs to be awarded to appellant for both the trial and appeal of this cause.\nIT IS SO ORDERED.\nHENDERSON and LEVINE, JJ., concur.\n59.46 Attorney’s fees. — In the absence of an expressed contrary intent, any provision of a statute or of a contract entered into after October 1, 1977, providing for the payment of attorney’s fees to the prevailing party shall be construed to include the payment of attorney’s fees to the prevailing party on appeal.",
+                                          "type":  "majority",
+                                          "author":  "GREEN, J."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Douglas H. Stein, Esquire and Charles M. Pasco, Esquire, for appellant.",
+                                       "Jeffrey R. Roth, Esquire, for appellees."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "ROSE v GAGLIOTI, et al.\nCase No. 90-083AP\nEleventh Judicial Circuit, Dade County\nJuly 12, 1991\nAPPEARANCES OF COUNSEL\nDouglas H. Stein, Esquire and Charles M. Pasco, Esquire, for appellant.\nJeffrey R. Roth, Esquire, for appellees.\nBefore HENDERSON, LEVINE, GREEN, JJ."
+                 },
+    "file_name":  "1297-01",
+    "first_page_order":  24,
+    "last_page_order":  25
+}

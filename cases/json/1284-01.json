@@ -1,0 +1,66 @@
+﻿{
+    "id":  4564334,
+    "name":  "Walker Bunton v. The State",
+    "name_abbreviation":  "Bunton v. State",
+    "decision_date":  "1908-02-19",
+    "docket_number":  "No. 4237",
+    "first_page":  "618",
+    "last_page":  "619",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 618"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  146,
+                     "char_count":  2179,
+                     "ocr_confidence":  0.595,
+                     "sha256":  "1a06c61e2a648070a36debdec2a1e509bf80e700c6ae025ab5d2b42b82591bec",
+                     "simhash":  "1:c356b28985745c0c",
+                     "word_count":  383
+                 },
+    "last_updated":  "2023-07-14T19:59:32.944253+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Walker Bunton v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "RAMSEY, Judge.\nAppellant was convicted in the justice’s court of Erath County on April 6, 1905, and undertook to prosecute an appeal from such conviction to the county court of his county. In that court motion was made and sustained to dismiss the appeal on the ground, among others, that the appeal bond was not conditioned as required by law. On inspection of the record, we find that the appeal bond was conditioned that the defendant “would well and truly make his personal appearance before the county court of said county at its next regular term, beginning on the third Monday in May, A. I). 1905, and there remain from day to day and term to term and answer in said cause on trial in said court.” The law provides, that a defendant convicted in the justice court, who shall desire to appeal to the county court, shall enter into a bond, conditioned that he shall prosecute his appeal with effect and pay such fine and costs as shall be adjudged against him by the county court as well as other costs that may have been adjudged against him in the court below. Article 889, Code of Criminal Procedure.\nThe bond given in this case was fatally defective, and the court below did not err in dismissing the appeal. It is, therefore, ordered that the judgment of the court below is in all things affirmed.\nAffirmed.",
+                                          "type":  "majority",
+                                          "author":  "RAMSEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "No brief on file for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Walker Bunton v. The State.\nNo. 4237.\nDecided February 19, 1908.\nDisturbing the Peace—Appeal Bond—Appeal From Justice to County Court.\nAn appeal bond in an appeal from the justice to the county court which was conditioned that defendant would well and truly make his appearance, etc., and there remain from day to day and term to term and answer in said cause on trial in said court, instead of following article 889, Code Criminal Procedure, that he would prosecute his appeal with effect, etc., was fatally defective.\nAppeal from the County Court of Erath. Tried below before the Hon. M. J. Thompson.\nAppeal from a conviction of disturbing the peace; penalty, a fine of $5 and a judgment dismissing appeal bond from justice to county court.\nThe opinion states the case.\nNo brief on file for appellant.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1284-01",
+    "first_page_order":  636,
+    "last_page_order":  637
+}

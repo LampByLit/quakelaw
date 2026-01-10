@@ -1,0 +1,521 @@
+﻿{
+    "id":  8550788,
+    "name":  "Beatrice Pevey Brinkley v. State",
+    "name_abbreviation":  "Brinkley v. State",
+    "decision_date":  "1958-06-11",
+    "docket_number":  "No. 29,926",
+    "first_page":  "472",
+    "last_page":  "483",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 472"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "77 S.W. 2d 1031",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10270531,
+                                          2300405
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/77/1031-01",
+                                            "/tex/124/0315-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "124 Texas 815",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "272 S.W. 435",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10306213
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/272/0435-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "114 Texas 511",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex.",
+                         "case_ids":  [
+                                          2279826
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex/114/0511-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "285 S.W. 1079",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10325399,
+                                          2276550,
+                                          10325535
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/285/1079-01",
+                                            "/tex/116/0029-01",
+                                            "/sw/285/1079-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "116 Texas 29",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex.",
+                         "case_ids":  [
+                                          2276550
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex/116/0029-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "246 S.W. 2d 707",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10215503
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/246/0707-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "233 S.W. 2d 202",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10195715
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/233/0202-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "123 S.W. 2d 715",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10240619
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/123/0715-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "82 S.W. 2d 627",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10248458,
+                                          2298356
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/82/0627-01",
+                                            "/tex/125/0474-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "125 Texas 474",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex.",
+                         "case_ids":  [
+                                          2298356
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex/125/0474-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "59 S.W. 2d 264",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10240482
+                                      ],
+                         "pin_cites":  [
+                                           {
+                                               "page":  "265"
+                                           }
+                                       ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/59/0264-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "320 S.W. 2d 817",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10179764
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/320/0817-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "299 S.W. 2d 951",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10183523
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/299/0951-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 421",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2611610
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0421-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "310 S.W. 2d 338",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10169026
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/310/0338-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "165 Texas Cr. Rep. 641",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2612554
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/165/0641-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "310 S.W. 2d 90",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10161011,
+                                          10160918
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/310/0090-02",
+                                            "/sw2d/310/0090-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 36",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2461759
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0036-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "295 S.W. 2d 659",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10177720
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/295/0659-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 634",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2459935
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0634-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "294 S.W. 2d 401",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10171916
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/294/0401-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 516",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2461341
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0516-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "288 S.W. 2d 508",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10175120,
+                                          10175229
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/288/0508-01",
+                                            "/sw2d/288/0508-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 361",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2461802
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0361-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "124 Texas 315",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex.",
+                         "case_ids":  [
+                                          2300405
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex/124/0315-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "229 S.W. 502",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10317267
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw/229/0502-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "89 Texas Cr. Rep. 111",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4804735
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/89/0111-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "199 S.W. 291",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10313238
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw/199/0291-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "82 Texas Cr. Rep. 231",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4745858,
+                                          4746172
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/82/0231-02",
+                                            "/tex-crim/82/0231-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "201 S.W. 2d 42",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10186399
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/201/0042-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "150 Texas Cr. Rep. 332",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2598291
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/150/0332-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "77 S.W. 2d 1031",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10270531,
+                                          2300405
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/77/1031-01",
+                                            "/tex/124/0315-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 36",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2461759
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/163/0036-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "288 S.W. 2d 508",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10175120,
+                                          10175229
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/288/0508-01",
+                                            "/sw2d/288/0508-02"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  809,
+                     "char_count":  22731,
+                     "ocr_confidence":  0.593,
+                     "pagerank":  {
+                                      "raw":  3.5166215636871519E-07,
+                                      "percentile":  0.8835822088469251
+                                  },
+                     "sha256":  "7aeae84ea24635da1ad6db532166983a69482b26db991dc85ccff333a034e325",
+                     "simhash":  "1:c80ae93d335d01fb",
+                     "word_count":  4034
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Beatrice Pevey Brinkley v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BELCHER, Judge.\nThe conviction is for driving while intoxicated; the punishment, 3 days in jail and $100 fine.\nThis case was tried in the County Court at Law No. 4, of Harris County, during the December term, 1957, which expired February 1, 1958.\nThe jury returned its verdict on January 9, 1958, and judgment was entered thereon on the same date. The original motion for a new trial was filed on January 9, 1958, and it was never amended.\nNo action was taken by the trial court on the original motion for a new trial within twenty days after it was filed. Therefore, it was overruled by operation of law within the term in which the judgment of conviction was rendered. Art. 755, Vernon’s A.C.C.P. Mahan v. State, 163 Texas Cr. Rep. 361, 288 S.W. 2d 508; Dehay v. State, 163 Texas Cr. Rep. 516, 294 S.W. 2d 401. No notice of appeal was given at the December term, 1957, of said court. Therefore, the judgment became final upon the expiration of the December term. Notice of appeal during said term was requisite in order to confer jurisdiction of the appeal upon this court. Art. 827, Vernon’s A.C.C.P. Woodward v. State, 163 Texas Cr. Rep. 634, 295 S.W. 2d 659.\nThe appeal is dismissed.\nOpinion approved by the Court.\nON MOTION TO REINSTATE APPEAL\nWOODLEY, Judge.\nWe are urged to reconsider our holdings in Mahan v. State, 163 Texas Cr. Rep. 36, 288 S.W. 2d 508; DeHay v. State, 163 Texas Cr. Rep. 516, 294 S.W. 2d 401; Barton v: State, 310 S.W. 2d 90; Pruitt v. State, 165 Texas Cr. Rep. 641, 310 S.W. 2d 338; Atkinson v. State, 164 Texas Cr. Rep. 421, 299 S.W. 2d 951; and Torrez v. State, No. 29,947 (page 25, this volume), 320 S.W. 2d 817. Therein, in construing Art. 755 V.A.C.C.P., we held that a motion for new trial was overruled by operation of law upon the expiration of twenty days from the time it was filed.\nWe are now asked to hold that the provision of Art. 755 V.A.C.C.P., that the motion for new trial or amended motion “shall be determined by the court within twenty (20) days after the filing of the original or amended motion,” should be held to be discretionary and not mandatory.\nWe agree that the word “shall” when used in a statute may sometimes be construed as permissive or directory, but we understand the rule to be that “shall” must be given that meaning which will best express the legislative intent. Schlemmer et al v. Board of Trustees of Limestone County, (Civ. App.) 59 S.W. 2d 264, 265.\n“Must” and “shall” are synonymous and are usually mandatory when used in statutes.\nThe conclusion appears inescapable that the requirement that the motion for new trial or amended motion be disposed of promptly is in the public interest, and that it was the intent of the legislature that the motion or amended motion be determined by the court within twenty days after the filing thereof.\nTo say that the legislature intended by the provision in question to permit the court to determine the motion or amended motion within twenty days, or direct the court to do so if he found it convenient, would make the provision a useless and meaningless thing.\nThe case of Atkinson v. State, 164 Texas Cr. Rep. 421, 299 S.W. 2d 951, is but one illustration of how a judgment may become final when the court enters his order on the motion rather than at the expiration of the twenty days. In that case leave to amend was granted, and the amended motion was disposed of the day it was filed.\nWe may have been in error in so holding, but we concluded that the fact that the order granting leave to amend was dated after the expiration of twenty days was not fatal, the statute (Art. 755 V.A.C.C.P.) providing that for good cause shown the time for filing or amending may be extended by the court; that a motion may be filed after the expiration of the term at which the conviction resulted and there being no requirement that the order extending the time for filing or amending be in writing.\nWith the possible exception of Atkinson v. State, the decisions of this court under Art. 755 V.A.C.C.P. are to the effect that the motion for new trial or amended motion for new trial is overruled by operation of law at the expiration of the period of twenty days within which the statute requires it be determined by the court.\nThese holdings are consistent with the decisions of our courts of civil jurisdiction construing present Rule of Civil Procedure 329b, Secs. 3 and 4, and the prior statute, Art. 2092 V.C.S.\nRule 329b applies only to motions for new trial in the district court. Art. 2092 applied in certain district courts only. The rule provides, among other things, that the motion for new trial must be determined within not exceeding forty-five days after its filing (unless by written agreement of the parties in the case, the decision of the motion is postponed to a later date).\nThis provision is held to be mandatory. (Highland Farms Corp. et al v. Fidelity Trust Co., of Houston, 125 Texas 474, 82 S.W. 2d 627, holding that a motion for new trial not determined within such forty-five days will be overruled by operation of law forty-five days after the same is filed; Christner v. Mayer, Texas Civ. App., 123 S.W. 2d 715, where the court took the motion under advisement the day it was filed; Senter v. Shanafelt, Texas Civ. App., 233 S.W. 2d 202, where judge set hearing for May 12 and overruled motion that day, but Court of Civil Appeals held that the motion had been overruled by operation of law; Martinez v. Stephens, Texas Civ. App., 246 S.W. 2d 707, where the court’s order overruling the motion made after the forty-five days had expired was a nullity, the motion having been overruled by operation of law at the expiration of the forty-five days.)\nNevitt v. Wilson, 116 Texas 29, 285 S.W. 1079, and Townes v. Lattimore, 114 Texas 511, 272 S.W. 435, construed Sec. 28 of Art. 2092 V.C.S. as directory wherein it provided that the motion for new trial “shall” be presented within thirty days and “shall” be determined within not exceeding forty-five days.\nAfter the opinions in these two cases the legislature, in the emergency clause of an amendment of Art. 2092 in 1930, changed the word “shall” to “must” as pointed out in Dallas •Storage and Warehouse Co. et al v. Taylor, 124 Texas 815, 77 S.W. 2d 1031.\n“From the change of the word ‘shall’ to ‘must’ and from the recitals in the emergency clause, it unmistakably appears that the Legislature intended to make mandatory rules * * 77 S.W. 2d p. 1033.\nNothing is found in the opinion of the court to suggest that the decision was based in any way upon a distinction between the word “shall” and the word “must.”\nThe decisions of this court are consistent with the Nevitt v. Wilson case as to the inherent power of the court to correct its judgments nunc pro tunc.\nOur conclusion is that the use of the word “shall” rather than “must,” in Art. 755 Y.A.C.C.P., will not support a holding that Art. 755 is directory only.\nMotion to reinstate the appeal is overruled.",
+                                          "type":  "majority",
+                                          "author":  "BELCHER, Judge. WOODLEY, Judge."
+                                      },
+                                      {
+                                          "text":  "DAVIDSON, Judge\n(dissenting).\nWhen my brethren dispose of this case upon the theory that the overruling of the motion for new trial denied to appellant the right of appeal, I do not know whether they are leading me, or themselves, up a blind alley.\nNo one is complaining, here, of the overruling of the motion for new trial. Appellant is not complaining of any error committed in the overruling of the motion for new trial because of matters alleged therein.\nIn so far as this record is concerned, the only purpose served by the motion for new trial was to keep the conviction from becoming final.\nThe sole and only matter now before this court is whether we were correct in dismissing appellant’s appeal in this case because of the absence of a valid notice of appeal.\nA motion for new trial has never been required as a condition precedent to the right of appeal.\nAn appeal may be given in the absence of and without a motion for new trial. Harvey v. State, 150 Texas Cr. Rep. 332, 201 S.W. 2d 42; Daumery v. State, 82 Texas Cr. Rep. 231, 199 S.W. 291; Connell v. State, 89 Texas Cr. Rep. 111, 229 S.W. 502.\nThe giving of notice of appeal to this court in a criminal case is a very simple matter. All that is required is that the accused or his counsel give notice of appeal in open court at the term of court at which the conviction is had and have it entered in the minutes of the trial court. Arts. 826 and 827, C.C.P.\nThere is in this record a judgment of the trial court which shows that on the 28th day of February, 1958, appellant’s original motion for new trial was overruled, and that appellant in open court gave notice of appeal to this court, which notice of appeal was at such term “entered of record upon the minutes of [the trial] Court.”\nSuch order meets all the requirements of law relative to a notice of appeal.\nBut my brethren say that the trial court had no authority or jurisdiction to allow the notice of appeal and order it entered of record in the minutes of the court, because prior thereto appellant’s motion for new trial had been overruled by operation of law and the term of court had expired. Such holding shows that my brethren permit the motion for new trial to govern the right of appeal, in direct conflict with the prior decisions of this court and the statutes which authorize an appeal to this court.\nThe trial court was acting within his judicial authority to allow the notice of appeal without reference to the motion for new trial. He was equally authorized to allow the filing of a motion for new trial at any time he deemed advisable.\nI call attention to that part of Art. 755, V.A.C.C.P., which says that:\n“A Motion for new trial may be filed after the expiration of the term at which said conviction resulted, either during a hew term of court or during vacation, and a Motion for new trial may be determined in vacation or at a new term of court, and need not be determined during the term at which filed.”\nIn view of that language it is inconceivable to me how it can be said that a trial court is precluded from permitting a motion for new trial to be filed or from hearing and determining a motion for new trial when he deems it advisable to do so. It is immaterial whether the motion for new trial, which the trial court heard and overruled in this case, was filed at the term at which the case was tried, or at a subsequent term, or .during vacation, or whether it was one and the same motion originally filed or a different and subsequent motion. The trial court had the judicial power and discretion to hear the motion and, upon overruling it, to accord to the appellant the right of appeal.\nSuch being true, the construction to be given that part of Art. 755, V.A.C.C.P., which requires that a motion for new trial be determined by the court within twenty days after the filing of the original or amended motion is that such determination within that time is directory and not mandatory. It is only by that construction that any effect whatsoever can be given to the above quoted language.\nI call attention to the fact that the legislature has no authority to direct a judge as to when or how he shall reach a conclusion in a case before him or how he shall conduct the trial thereof or as to the conclusion to be reached or any other matter calling for the exercise of judicial discretion. The Constitution prohibits the legislature from encroaching upon the judicial function.\nWhen my brethren conclude that under Art. 755, V.A.C.C.P., it is the mandatory duty of a trial judge to determine a motion for new trial within a specified time, they necessarily declare the statute void as being in violation of the Constitution, Art. 2.\nIf the legislature can tell a trial judge that he must determine a motion for new trial in a criminal case within a specified time or the motion will be overruled by act of the legislature, then our Constitution is meaningless in saying that our three branches of government shall be separate, one from the other.\nI wonder just how much attention the legislature would give to the order of some district judge or judge of this court which said to that body that any bills introduced in the legislature must be determined within twenty days after introduction or they will be declared overruled or defeated. In contemplation of such order, the legislature would be expected to say that the length of time a bill is considered by it is a matter coming within the discretion of that body and not happening to come under the jurisdiction or power of the courts.\nThe courts would no more have the right to tell the legislature how long it should consider a bill before it than would the legislature have the right to tell the courts how long they shall consider a motion for new trial.\nOther reasons exist why the appeal in this case should not be dismissed:\nThe state made no objection whatsoever to the trial court’s consideration of the motion for new trial at the time he overruled it. In so far as this record is concerned, the state did not challenge the right of the trial court to grant the notice of appeal. What right, then, does the state have to challenge the trial court’s action the first time in this court?\nIf consideration is to be given to the doctrine of waiver— that is, that errors committed in the trial of a criminal case not objected to in the trial court are waived — the state has no such right.\nIf the state had objected, claiming that the trial court was without authority to consider the motion, the appellant would at least have had the opportunity of correcting the matter or of filing a new motion for new trial, as authorized by the above quoted portion of Art. 755, V.A.C.C.P. But, no, the state registers no objection and seeks to take advantage, here, of its failure to object.\nUnder the multiplied holdings of this court, an accused similarly situated would be held to have waived any objection.\nIf that is a good rule for the accused, then why is it not a good rule for the state?\nOne of the well-established canons of law relative to appeals in criminal cases is that the ruling of the trial court is presumed tó be correct and regular unless the contrary is made to appear. 13A, Texas Digest, Criminal Law, Keys 1140 and 1142, and authorities there cited.\nUnder the rule above, the presumption attains that the action of the trial court in this case was in all things regular and authorized. There is an absence of any showing that such is not the case or that the trial court did not intend to accept the notice of appeal.\nUnder such circumstances it appears that the above rule is for the benefit and use of the state but that when the same rule is sought to be used against the state and for the benefit of the appellant it ceases to be effective. If it is a good rule for the state, it ought to be a good rule for the appellant.\nBefore one should be denied his right of appeal there ought to exist some definite, positive, and inflexible rule that so decrees. No such rule exists in this case.\nIn not being allowed a review of his conviction on appeal, this appellant has suffered an injustice, for the evidence upon which this conviction rests wholly fails to establish guilt.\nThe motion to reinstate the appeal should be granted and this case disposed of upon its merits.\nI dissent.\nSECOND MOTION TO REINSTATE APPEAL\nMORRISON, Presiding Judge.\nIn a forceful second motion to reinstate her appeal, appellant questions the soundness of that portion of our opinion on motion to reinstate the appeal in which we said: “Nothing is found in the opinion of the Court (Dallas Storage and Warehouse Co. et al v. Taylor, 124 Texas 315, 77 S.W. 2d 1031) to suggest that the decision was based in any way upon a distinction between the word ‘shall’ and the word ‘must’.” Upon further study, I do not find myself in agreement with the expression quoted above, but do remain convinced of the soundness of the holding which we originally reached. In the words of the Texas Supreme Court in the case cited, “A statute which like this * * * would give the trial court jurisdiction of indefinite duration over its judgments unless some certain time was fixed within which the motion must be heard and determined * * * . Thus the postponement of hearing and determining the motion would result in intolerable delay.” The very situation there criticized by our Texas Supreme Court is the one which appellant here desires this court to create by granting her motion on the grounds stated therein.\nIn Mahan v. State, 163 Texas Cr. Rep. 36, 288 S.W. 2d 508, we were first called upon to pass upon this question, and in that case the motion for new trial “remained on file without being acted upon by the court for almost a year”; and we there said: “To consider the matters raised by this motion for new trial * * * would do violence to the command of the legislature that the motion for new trial be presented to the judge * * * and be determined by the judge within 20 days after it is filed.” That decision was handed down in February of 1956, and the legislature of this state has met and adjourned since that time and has not seen fit to alter such holding by further amending Article 755, V.A.C.C.P. The legislature is again in session, and it is within its power to alter this holding as well as that in Mahan if they care to do so.\nIf we held that the word “shall,” as used in Article 755, supra, is directory only, then the statute would be meaningless and “intolerable delay” would result. This is a question of procedure and, once passed upon, should remain settled. We have in the cases cited held that the motion not acted upon within the 20 days provided for in the statute was overruled by operation of law, and the majority remains convinced of the soundness of such holding.\nAppellant’s motion to reinstate the appeal is overruled.",
+                                          "type":  "dissent",
+                                          "author":  "DAVIDSON, Judge MORRISON, Presiding Judge."
+                                      },
+                                      {
+                                          "text":  "DAVIDSON, Judge\n(dissenting) on Appellant’s Second Motion to Reinstate Appeal.\nIn their opinion on second motion for rehearing, my brethren in endeavoring to justify the dismissal of the appeal in this case and thereby denying to this appellant the right to a hearing have but confounded the issue. Such compels me to write further.\nThe majority of this court now place stress upon the fact that, though the opportunity has been afforded, the legislature has not seen fit to amend or change Art. 755, Vernon’s C.C.P., since the opinion of this court in Mahan v. State, supra, holding that the failure of a trial court to determine a motion for new trial within twenty days operates to automatically, and as a matter of law, overrule the motion for new trial.\nThe failure of the legislature to amend or change Art. 755, Vernon’s C.C.P., lends support to the contention that such failure evidences the legislature’s intent to transgress upon the judicial function and to take from the judiciary of this state the right of control over its judgments, orders, and decrees and to deny the exercise of judicial discretion — all of which renders Art. 755, Vernon’s C.C.P., void and contrary to the Constitution, which prohibits interference by any of our three branches of government with the functions of the others.\nIts failure to rebel against the construction this court placed upon Art. 755, Vernon’s C.C.P., shows that the legislature intended that such article have the effect given it by this court.\nThe failure of the legislature to repeal, change, or modify an unconstitutional statute does not give validity to a void statute.\nThere is this further defect in the construction given to Art. 755, Vernon’s C.C.P., by my brethren:\nBy what authority is the right given to this court to construe what my brethren say is the unequivocal mandate of the legislature that motions for new trial must be determined within twenty days to mean that it is the overruling of the motion that is thereby made mandatory? That is exactly what my brethren hold. Would it not be just as reasonable a construction to say that the motion was to be granted because of the failure of the trial court to determine it within twenty days as it is to say that the motion was to be overruled?\nThe statute, Art. 755, Vernon’s C.C.P., provides merely that the motion shall be determined in twenty days. Yet, by their decision, my brethren enter into the field of legislation and rewrite the statute so that the word “determination” really means “overruled.”\nAs so rewritten by this court, then, Art. 755, Vernon’s C.C.P., provides nothing more or less than that a motion for new trial in a criminal case is automatically overruled by the act of the legislature within twenty days after the filing of the motion unless the trial court grants or overrules the motion prior to the expiration of the twenty-day period.\nThe act of the legislature, Art. 755, Vernon’s C.C.P., is susceptible of no such construction. The legislature has not said it was susceptible of that construction. There is just as much reason to say that the word “determined,” as used in the statute, means “granted” as there is that it means “overruled.” Is there any more reason to penalize the accused because of the failure of the trial court to act on the motion within twenty days by automatically overruling it than there would be, for the same reason, to penalize the state by automatically granting the motion? I can see no difference and submit that there is none. Then why penalize either party to the lawsuit?\nWhat Art. 755, Vernon’s C.C.P., means and the construction that should be given thereto is that such article is a suggestion from the legislature to the courts of this state that it believes it to be feasible and advisable that motions for new trial in criminal cases be decided and a conclusion reached thereon within twenty days, but that in no event is it the purpose or intent of the legislature to take from the courts the exercise of their judicial discretion and control over their judgments, orders, and decrees.\nSuch construction gives validity to Art. 755, Vernon’s C.C.P., and preserves the constitutional inhibition against interference by one branch of government with the functions of another branch of government.\nI insist that the appellant, here, was entitled to have her appeal determined by this court.",
+                                          "type":  "dissent",
+                                          "author":  "DAVIDSON, Judge"
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "W. H. Hill, W. E. Martin, King C. Haynie (on Appellant’s Motion for Rehearing to Reinstate Appeal), all of Houston, for appellant.",
+                                       "Dan Walton, District Attorney, Thomas D. White, Sam H. Robertson, Jr., Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Beatrice Pevey Brinkley v. State.\nNo. 29,926.\nJune 11, 1958.\nMotion to Reinstate Appeal Overruled January 7, 1959.\nSecond Motion to Reinstate Appeal Overruled February 4, 1959.\nThird Motion to Reinstate the Appeal Overruled March 4, 1959.\nW. H. Hill, W. E. Martin, King C. Haynie (on Appellant’s Motion for Rehearing to Reinstate Appeal), all of Houston, for appellant.\nDan Walton, District Attorney, Thomas D. White, Sam H. Robertson, Jr., Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1555-01",
+    "first_page_order":  490,
+    "last_page_order":  501
+}

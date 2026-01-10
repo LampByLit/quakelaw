@@ -1,0 +1,275 @@
+﻿{
+    "id":  8550063,
+    "name":  "Jesse Pena v. State",
+    "name_abbreviation":  "Pena v. State",
+    "decision_date":  "1959-01-07",
+    "docket_number":  "No. 30,274",
+    "first_page":  "406",
+    "last_page":  "409",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 406"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "169 S.W. 899",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8280719
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/169/0899-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "75 Texas Cr. Rep. 22",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4704286
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/75/0022-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "271 S.W. 2d 643",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10197713
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/271/0643-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "160 Texas Cr. Rep. 387",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2469435
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/160/0387-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "59 S.W. 2d 117",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          5214567,
+                                          10234977,
+                                          5216553,
+                                          10234903
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/123/0357-01",
+                                            "/sw2d/59/0117-02",
+                                            "/tex-crim/123/0343-01",
+                                            "/sw2d/59/0117-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "123 Texas Cr. Rep. 343",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5216553
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/123/0343-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "41 Texas 626",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex.",
+                         "case_ids":  [
+                                          2127559
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex/41/0626-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "248 S.W. 2d 487",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10204640,
+                                          10204745
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/248/0487-01",
+                                            "/sw2d/248/0487-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "157 Texas Cr. Rep. 283",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2577319
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/157/0283-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "259 S.W. 575",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          10310489
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw/259/0575-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "96 Texas Cr. Rep. 627",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5075168
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/96/0627-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "29 S.W. 2d 349",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          5179418,
+                                          10282101,
+                                          10282134
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/115/0132-01",
+                                            "/sw2d/29/0349-01",
+                                            "/sw2d/29/0349-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "117 S.W. 2d 76",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10229720,
+                                          10229696
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/117/0076-02",
+                                            "/sw2d/117/0076-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "135 Texas Cr. Rep. 76",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5219287
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/135/0076-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "314 S.W. 2d 581",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10175153
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/314/0581-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "166 Texas Cr. Rep. 433",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2620365
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/166/0433-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  382,
+                     "char_count":  5423,
+                     "ocr_confidence":  0.577,
+                     "pagerank":  {
+                                      "raw":  2.1989430250482391E-07,
+                                      "percentile":  0.7749260671181988
+                                  },
+                     "sha256":  "7a7216005130da813eeab17ca57092b2be7643c131343fb3c0e562f9da15c1e4",
+                     "simhash":  "1:9d74ba4942384421",
+                     "word_count":  936
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Jesse Pena v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nThe indictment returned January 16, 1958, charged appellant with the murder of Frank Garcia on or about November 6, 1957, by cutting and stabbing him with a knife and by shooting him with a pistol.\nUpon motion supported by affidavits that he was not mentally competent to make a rational defense to the charge, a jury was impaneled to pass upon the insanity issues, and on March 8, 1958 the jury, having heard the evidence, found that appellant was sane at that time and was sane on November 6, 1957, the time of the commission of the alleged offense. Judgment was entered on the jury’s finding adjudging that appellant was sane on the dates mentioned.\nOn May 12, 1958, a jury was impaneled and the case tried on the charge in the indictment, and on May 16, 1958, verdict was returned finding appellant guilty of murder with malice and assessing his punishment at confinement in the penitentiary for life.\nJudgment was entered upon the verdict, motion for new trial was overruled, notice of appeal entered and sentence pronounced.\nNo evidence was introduced at the main trial on the question of insanity and no issue was submitted or requested.\nThe ground upon which reversal is sought relates entirely to the preliminary trial on the insanity issues, the complaints being principally addressed to the charge as it related to insanity at the time of the killing. Appellant’s counsel requested a number of special charges appropriate to the defense theory of insanity by reason of an insane delusion which caused appellant to believe he was acting in self-defense, and complains that they were not given.\nThe preliminary trial on the insanity issues was not the trial now before this court for review, but another separate trial, not strictly criminal in nature, from which no appeal lies. See Ex Parte Hodges, 166 Texas Cr. Rep. 433, 314 S.W. 2d 581; Morgan v. State, 135 Texas Cr. Rep. 76, 117 S.W. 2d 76; Griffin v. State, 29 S.W. 2d 349; Warren v. State, 96 Texas Cr. Rep. 627, 259 S.W. 575; Hardin v. State, 157 Texas Cr. Rep. 283, 248 S.W. 2d 487.\nIn this connection it is well to note that though the legislature has provided, in Art. 932b V.A.C.C.P., and its predecessor Art. 932a Y.A.C.C.P., for the submission at the preliminary trial of the issue of insanity at the time of the act charged, that trial and the right thereto rests alone upon the decisions of this court and its predecessors construing the provision of Art. 34 P.C.: “No person who becomes insane after he committed an offense shall be tried for the same while in such condition.” Guagando v. State, 41 Texas 626.\nHaving been adjudged sane at the preliminary trial, appellant’s status was fixed as that of a sane person. When later placed on trial he had the right to defend on the ground of insanity at the time of the killing as though the preliminary trial had not been held. Emerson v. State, 123 Texas Cr. Rep. 343, 59 S.W. 2d 117; Parsons v. State, 160 Texas Cr. Rep. 387, 271 S.W. 2d 643.\nTo agree that he may complain upon appeal from a conviction of procedural errors at the preliminary trial on the insanity issues would be to say that an appeal does lie from the judgment in the preliminary trial, but is postponed until after a conviction upon the trial on the issue of guilt or innocence.\nWe hold that appellant may not here complain of the refusal of his requested charges at the insanity trial.\nThe killing occurred at the tavern of the deceased, who joined appellant’s party at appellant’s request.\nAn argument ensued which culminated in appellant putting a knife to the deceased’s throat and stabbing him a number of times, continuing to do so while his companion Joe De Los Santos, with pistol in hand, was ordering everyone to stand back.\nThe deceased then crawled to the bar and Joe De Los Santos, after appellant came to his side, fired three shots as the deceased was holding on to the bar.\nThe autopsy disclosed 21 stab wounds on the body of the deceased, nine of which could have been fatal; and three bullet\u0027 wounds, one of which penetrated the aorta and was identified by the medical examiner as the direct cause of death.\nThe jury rejected appellant’s plea of self-defense and found appellant guilty as a principal \u0027with Joe De Los Santos in the murder of the deceased by shooting him with a pistol.\nThere was other evidence, not necessary to here state, showing the guilt of appellant as charged.\nSeverance was granted, both De Los Santos and appellant having filed motion to sever. There being no agreement as to the order of trial, the court ordered appellant tried first. We find no abuse of discretion. Art. 652 V.A.C.C.P.; Millner v. State, 75 Texas Cr. Rep. 22, 169 S.W. 899.\nThe remaining claim of error relates to the exclusion of a picture of the deceased. If error, it was harmless and could not have affected the verdict.\nThe judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Trueheart, McMillan, Russell \u0026 Westbrook (Joel W. West-brook, of Counsel), San Antonio, for appellant.",
+                                       "Hubert W. Green, Jr., Criminal District Attorney, Edward R. Finek, Jr., Assistant Criminal District Attorney (on appellant’s motion for rehearing only: Charles J. Lieclc, Jr., Criminal District Attorney and James E. Barlow, Assistant Criminal District Attorney,) all of San Antonio, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Jesse Pena v. State.\nNo. 30,274.\nJanuary 7, 1959.\nMotion for Rehearing Overruled February 18, 1959.\nTrueheart, McMillan, Russell \u0026 Westbrook (Joel W. West-brook, of Counsel), San Antonio, for appellant.\nHubert W. Green, Jr., Criminal District Attorney, Edward R. Finek, Jr., Assistant Criminal District Attorney (on appellant’s motion for rehearing only: Charles J. Lieclc, Jr., Criminal District Attorney and James E. Barlow, Assistant Criminal District Attorney,) all of San Antonio, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1539-01",
+    "first_page_order":  424,
+    "last_page_order":  427
+}

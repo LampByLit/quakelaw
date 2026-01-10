@@ -1,0 +1,285 @@
+﻿{
+    "id":  8552730,
+    "name":  "Jim Oakley v. State",
+    "name_abbreviation":  "Oakley v. State",
+    "decision_date":  "1959-01-21",
+    "docket_number":  "No. 30,177",
+    "first_page":  "630",
+    "last_page":  "633",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 630"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "1 S.W. 2d 619",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10298172,
+                                          10298087
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/1/0619-02",
+                                            "/sw2d/1/0619-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "108 Texas Cr. Rep. 455",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5145737
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/108/0455-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "310 S.W. 2d 70",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10159487
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/310/0070-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "165 Texas Cr. Rep. 563",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2612664
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/165/0563-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "305 S.W. 2d 362",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10165978
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/305/0362-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "165 Texas Cr. Rep. 147",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2615520
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/165/0147-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "285 S.W. 2d 952",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10183923
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/285/0952-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 338",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "236 S.W. 2d 817",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10217357,
+                                          10217431
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/236/0817-01",
+                                            "/sw2d/236/0817-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "155 Texas Cr. Rep. 478",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2583759
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/155/0478-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "135 S.W. 2d 719",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10239315
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/135/0719-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "138 Texas Cr. Rep. 275",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5272542
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/138/0275-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "87 S.W. 2d 1040",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "opinion_index":  1
+                     },
+                     {
+                         "cite":  "125 Texas Cr. Rep. 396",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5259557
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/125/0396-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "224 S.W. 1095",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8272112
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw/224/1095-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "88 Texas Cr. Rep. 46",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4798018,
+                                          4796979
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/88/0046-01",
+                                            "/tex-crim/88/0046-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "305 S.W. 2d 362",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10165978
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/305/0362-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "165 Texas Cr. Rep. 147",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2615520
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/165/0147-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  401,
+                     "char_count":  6280,
+                     "ocr_confidence":  0.586,
+                     "pagerank":  {
+                                      "raw":  2.3595187918410598E-07,
+                                      "percentile":  0.7941379980068336
+                                  },
+                     "sha256":  "82b359892ced93daa756cf354afe971b618441d765f728a84e2683b37f7f52dd",
+                     "simhash":  "1:933e00116646cf9e",
+                     "word_count":  1097
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Jim Oakley v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BELCHER, Judge.\nThe conviction is for the theft of seed of the value of more than $50; the punishment, eight years.\nErnest L. Kilgore testified that during his absence from home on April 7, 1957, some one without his consent took from his garage two sacks containing a total of 110 pounds of sorghum almum seed belonging to him. He further testified that he had told the appellant, who lived about “a third or a half mile” from him, about the seed being in his garage on the day before the night they were missed. Joe D. Rash testified that appellant brought the 110 pounds of sorghum almum seed in two sacks to his house in the night; that he purchased the seed, and they went to the agricultural office so he could sign papers so the government would pay for part of the seed. Testimony was offered that a certificate in the agricultural office, dated April 8, 1957, showing the sale of 110 pounds of sorghum almum seed by Jim Oakley to Joe D. Rash bore the signature of Jim Oakley, who is the same person as the appellant herein. Rash further testified that appellant remained at his home two or three days and the check introduced in evidence from Rash to appellant in payment of the seed shows that it was dated April 10, 1957, but Rash was uncertain as to the day he gave the check with reference to the day appellant arrived or left. Shortly thereafter the sheriff asked him about the seed and he delivered the two sacks to him. Both the purchaser of the seed from the appellant and the sheriff identified the two sacks of seed at the trial. The witness Kilgore while testifying identified certain marks and wire on the sacks and stated that they were the same sacks and contained about the same quantity of seed as taken from his garage.\nThe proof shows that on April 7, 1957, the 110 pounds of sorghum almum seed had a market value of three dollars per pound.\nAppellant did not testify but recalled two of the state’s witnesses whose testimony raised no affirmative defense.\nThe evidence is sufficient to sustain the conviction.\nAppellant contends that the indictment is insufficient because it fails to describe the seed that he is charged with taking and appropriating to his own use.\nThe indictment alleges that the appellant did “fraudulently take seed of the value in excess of $50.”\nNo motion to quash the indictment is shown in the record.\nThe complaint of the failure to describe the seed alleged in the indictment is not of such nature as would require a reversal when raised for the first time on appeal. Donahoo v. State, 162 Texas Cr. Rep. 338, 285 S.W. 2d 952; Crawford v. State, 165 Texas Cr. Rep. 147, 305 S.W. 2d 362; Johnson v. State, 165 Texas Cr. Rep. 563, 310 S.W. 2d 70.\nIn his motion for a new trial appellant for the first time complains of the court’s action in recalling a jury panel which had been previously called to try the case; and in arbitrarily excusing fifteen members of the panel from jury service.\nIn support of the motion it was stipulated that appellant had not exhausted his peremptory challenges when the jury was completed.\nThere is no showing that appellant was required to take any objectionable juror.\nAppellant’s objection to the jury panel for the first time after conviction comes too late. He cannot take his chances of a jury reaching a verdict satisfactory to him and later complain if the verdict offends. No error is shown in the court’s action in securing the jury. Knauf v. State, 108 Texas Cr. Rep. 455, 1 S.W. 2d 619.\nAppellant urges error because of the state’s action in abandoning that portion of the indictment charging a prior conviction of an offense of the same nature for the purpose of enhancement.\nAfter both sides had rested their case, the state announced that it was abandoning the allegation of the prior conviction in the indictment. The court in its charge submitted only the primary offense to the jury.\nWithout objection, the proof shows, the prior conviction as alleged and that the appellant was the same person so convicted. No request was made to have such testimony limited to the proof of the prior conviction at the time it was offered; and no objection was made to the failure of the court to instruct the jury that the prior conviction alleged had been abandoned by the state and that they could not consider such pleadings or the evidence in support thereof for any purpose.\nThe state’s abandonment of the prior conviction shows no injury to the appellant. No error is perceived in such action.\nThe judgment is affirmed.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "BELCHER, Judge."
+                                      },
+                                      {
+                                          "text":  "ON APPELLANT’S SECOND MOTION FOR REHEARING\nMORRISON, Presiding Judge.\nJudge Davidson dissented on original submission, and, since I now agree with him, his opinion is withdrawn, as is the opinion which I prepared on appellant’s motion for rehearing.\nI have now concluded that the description of the property contained in the indictment is insufficient to meet the requirements of Article 403, V.A.C.C.P., and, in line with the holdings of this court in Luce v. State, 88 Texas Cr. Rep. 46, 224 S.W. 1095; Scott v. State, 125 Texas Cr. Rep. 396, 87 S.W. 2d 1040; Howk v. State, 138 Texas Cr. Rep. 275, 135 S.W. 2d 719; and Leos v. State, 155 Texas Cr. Rep. 478, 236 S.W. 2d 817, is so fundamentally defective as to require a reversal even though there was no motion to quash.\nThe recent case of Crawford v. State 165 Texas Cr. Rep. 147, 305 S.W. 2d 362, caused the writer of this opinion great concern, but in that case the description was “two inch upset tubing,” while here the description is only “seed.”\nI express my gratitude to counsel for the appellant as well as the authors of the studious amicus curiae briefs.\nHaving concluded that the description is insufficient, the appellant’s second motion for rehearing is granted, the judgment of affirmance is set aside, and the judgment is now reversed and the prosecution is ordered dismissed.",
+                                          "type":  "rehearing",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Allen Harp, Childress, for appellant.",
+                                       "Robert C. Benavides, Dallas, and Simpson, Adkins, Fulling-im \u0026 Hankins, Amarillo amicus curiae.",
+                                       "John T. Forbis, District Attorney, Childress, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Jim Oakley v. State.\nNo. 30,177.\nJanuary 21, 1959.\nMotion for Rehearing Overruled March 4, 1959.\nSecond Motion for Rehearing Granted April 8, 1959.\nAllen Harp, Childress, for appellant.\nRobert C. Benavides, Dallas, and Simpson, Adkins, Fulling-im \u0026 Hankins, Amarillo amicus curiae.\nJohn T. Forbis, District Attorney, Childress, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1603-01",
+    "first_page_order":  648,
+    "last_page_order":  651
+}

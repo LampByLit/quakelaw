@@ -1,0 +1,421 @@
+﻿{
+    "id":  8549295,
+    "name":  "Katherine Deason v. State",
+    "name_abbreviation":  "Deason v. State",
+    "decision_date":  "1959-02-04",
+    "docket_number":  "No. 30,343",
+    "first_page":  "324",
+    "last_page":  "330",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 324"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "298 S.W. 2d 146",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10168388
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/298/0146-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 230",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2608861
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0230-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "98 S.W. 2d 806",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10261972,
+                                          10262061
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/98/0806-01",
+                                            "/sw2d/98/0806-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "131 Texas Cr. Rep. 322",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5239947
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/131/0322-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "297 S.W. 2d 845",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10183026
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/297/0845-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 173",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2607859
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/164/0173-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "252 S.W. 2d 941",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10224428,
+                                          10224477
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw2d/252/0941-01",
+                                            "/sw2d/252/0941-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "158 Texas Cr. Rep. 24",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2483389
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/158/0024-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "124 S.W. 944",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  1
+                     },
+                     {
+                         "cite":  "58 Texas Cr. Rep. 152",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4583244
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/58/0152-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "293 S.W. 2d 659",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10176416
+                                      ],
+                         "opinion_index":  2,
+                         "case_paths":  [
+                                            "/sw2d/293/0659-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 472",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2459980
+                                      ],
+                         "opinion_index":  2,
+                         "case_paths":  [
+                                            "/tex-crim/163/0472-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "255 S.W. 2d 519",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10208583
+                                      ],
+                         "opinion_index":  2,
+                         "case_paths":  [
+                                            "/sw2d/255/0519-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "158 Texas Cr. Rep. 311",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2478259
+                                      ],
+                         "opinion_index":  2,
+                         "case_paths":  [
+                                            "/tex-crim/158/0311-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "284 S.W. 2d 359",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10179829,
+                                          10179757
+                                      ],
+                         "opinion_index":  2,
+                         "case_paths":  [
+                                            "/sw2d/284/0359-02",
+                                            "/sw2d/284/0359-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 48",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2461167
+                                      ],
+                         "opinion_index":  2,
+                         "case_paths":  [
+                                            "/tex-crim/162/0048-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "310 S.W. 2d 331",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10168447
+                                      ],
+                         "opinion_index":  2,
+                         "case_paths":  [
+                                            "/sw2d/310/0331-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "166 Texas Cr. Rep. 34",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2620020
+                                      ],
+                         "opinion_index":  2,
+                         "case_paths":  [
+                                            "/tex-crim/166/0034-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "227 S.W. 2d 564",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10202357,
+                                          10202518
+                                      ],
+                         "opinion_index":  2,
+                         "case_paths":  [
+                                            "/sw2d/227/0564-01",
+                                            "/sw2d/227/0564-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "154 Texas Cr. Rep. 417",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2586534
+                                      ],
+                         "opinion_index":  2,
+                         "case_paths":  [
+                                            "/tex-crim/154/0417-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "243 S.W. 2d 582",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10208739,
+                                          10208614
+                                      ],
+                         "opinion_index":  2,
+                         "case_paths":  [
+                                            "/sw2d/243/0582-02",
+                                            "/sw2d/243/0582-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "156 Texas Cr. Rep. 452",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2581195
+                                      ],
+                         "opinion_index":  2,
+                         "case_paths":  [
+                                            "/tex-crim/156/0452-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "81 S.W. 2d 698",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10257432
+                                      ],
+                         "opinion_index":  2,
+                         "case_paths":  [
+                                            "/sw2d/81/0698-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "128 Texas Cr. Rep. 519",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5255274
+                                      ],
+                         "opinion_index":  2,
+                         "case_paths":  [
+                                            "/tex-crim/128/0519-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "307 S.W. 2d 808",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10181056
+                                      ],
+                         "opinion_index":  2,
+                         "case_paths":  [
+                                            "/sw2d/307/0808-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "165 Texas Cr. Rep. 374",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2615382
+                                      ],
+                         "opinion_index":  2,
+                         "case_paths":  [
+                                            "/tex-crim/165/0374-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "98 S.W. 2d 806",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10261972,
+                                          10262061
+                                      ],
+                         "opinion_index":  2,
+                         "case_paths":  [
+                                            "/sw2d/98/0806-01",
+                                            "/sw2d/98/0806-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "131 Texas Cr. Rep. 322",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          5239947
+                                      ],
+                         "opinion_index":  2,
+                         "case_paths":  [
+                                            "/tex-crim/131/0322-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  565,
+                     "char_count":  11883,
+                     "ocr_confidence":  0.593,
+                     "pagerank":  {
+                                      "raw":  5.5276465409424152E-08,
+                                      "percentile":  0.34793862499319456
+                                  },
+                     "sha256":  "9ce0699a0e9775d31b5e1d690125b4b29e745ee0f65a01e4a6d8613a9fff48bb",
+                     "simhash":  "1:d2ce884d73ca852a",
+                     "word_count":  2046
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Katherine Deason v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is passing as true a forged instrument; the punishment, 2 years.\nIn view of our disposition of this cause, a recitation of the facts will not be deemed necessary other than to observe that the appellant did not testify. The prosecutor in his argument, in part, said:\n“* * * but I do not think he brought you any testimony, nor did he show you in explanation as to what you were doing, Katharine Deason, with this check which was made out to Barbara Kenyon. The Defense has never hinted at an explanation as to how she would have a check payable to Barbara Kenyon, and under what right or what authority * *\nIn Smith v. State, 131 Texas Cr. Rep. 322, 98 S.W. 2d 806, the prosecutor said:\n“They have not brought you any frank explanation of this defendant’s possession of the fruits of this robbery. It has been unexplained to you, gentlemen, where this defendant came into possession of this pistol.”\nThis court held that this constituted a violation of the mandatory terms of Article 710, V.A.C.C.P., was a comment upon the defendant’s failure to testify, and called for a reversal of the conviction.\nIn the case at bar, the trial court agreed that the argument violated the statute because the bill certifies, without qualification, the follownig:\n“* * * That such argument on the part of the Prosecuting Attorney was a comment on the Defendant’s failure to take the witness stand in her own behalf, which was so highly prejudicial and manifestly improper that the effect could not be withdrawn from the jury and no other instruction by the Court could cure the effect of this type of argument.”\nRecently, in Richard v. State, 164 Texas Cr. Rep. 230, 298 S.W. 2d 146, we said:\n“Bill of Exception No. 5 complains of a similar remark in the opening argument for the State: ‘Nobody denies the burglary.’\n“The court certifies in this bill: ‘And such statement and argument on behalf of the State of Texas by the Assistant •Criminal District Attorney constituted a comment on the failure of the defendant to testify in said cause * * *.’\n“We are not in position to say from the record that the trial court’s certification is incorrect, and hence we are unable to agree with the State’s position.”\nLikewise, in the case at bar, we are not in a position to say from the record that the trial court’s certificate is incorrect.\nThe judgment is reversed and the cause remanded.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      },
+                                      {
+                                          "text":  "DAVIDSON, Judge\n(concurring).\nI concur in the reversal of this case for the reasons assigned by my brother Morrison, Presiding Judge.\nThere is, however, in my opinion, a far more compelling reason for reversing the conviction than that assigned: The facts are insufficient to support this conviction and the reversal should be predicated upon that error.\nThe reasons for that statement follow:\nThe indictment alleged that the check was a forgery because the name of the payee, Barbara H. Kenyon, had been endorsed upon the back of a genuine check of Braniff Airways, Incorporated, and that appellant passed the forged check to Madeline Swor, knowing that the endorsement was forged.\nUnder such allegations it was the burden of the state to prove that the endorsement was a forgery and that appellant knew it was a forgery when she passed the check to Madeline Swor.\nThe state proved by Mrs. R. W. Louis, who at the time of the alleged offense was Barbara H. Kenyon, that she had not endorsed her name on the check. The witness further testified that Brainiff Airways was neither indebted to nor owed her the amount for which the check was drawn. Thus was it shown that someone forged the endorsement.\nIn order to convict appellant it was the burden of the state not only to prove that the endorsement was a forgery but that appellant knew it was a forgery when she passed the check. Feeney v. State, 58 Texas Cr. Rep. 152, 124 S.W. 944.\nHow did the state make proof of appellant’s knowledge? The state took the position that appellant knew the endorsement was a forgery because she forged it. To sustain such position the state proved that knowledge on the part of appellant by the witness Martin, a handwriting expert from the Texas Department of Public Safety, who, after an examination of the allegedly forged endorsement with known and established specimens of appellant’s handwriting, expressed the opinion that appellant forged the endorsement.\nOther than the testimony of the expert there is no evidence in this case that appellant forged the endorsement.\nWhen the case was called for trial, appellant filed her sworn affidavit denying “that the signature, Barbara H. Kenyon, alleged to have been forged in the above entitled and numbered cause was signed or forged by her or made under her authority.”\nAs we held in Caldwell v. State, 158 Texas Cr. Rep. 24, 252 S.W. 2d 941, the filing of such an affidavit invoked the provisions of Art. 731, C.C.P., which reads as follows:\n“Evidence of handwriting.\n“It is competent to give evidence of handwriting by comparison, made by experts or by the jury. Proof by comparison only shall not be sufficient to establish the handwriting of a witness who denies his signature under oath.”\nThat statute is directly controlling here, under the facts. See: Davis v. State, 164 Texas Cr. Rep. 173, 297 S.W. 2d 845.\nThe provisions of the statute have not been met, here.\nTo affirm this conviction under the facts would be either to destroy that statute or wholly ignore it. This court may not lawfully do either.",
+                                          "type":  "concurrence",
+                                          "author":  "DAVIDSON, Judge"
+                                      },
+                                      {
+                                          "text":  "WOODLEY, Judge\n(dissenting)\nThe argument complained of in Bill of Exception No. 3 shows upon its face that it was made in reply to the argument of Mr. Booth, counsel for appellant.\nThe remarks preceding the portion set out in the majority opinion read: “Now, Mr. Booth did not need to put on any testimony at all. He didn’t have to offer any testimony, but he did put on testimony, and I say that he has gotten up here and complained about the quality of the State’s testimony * * * .”\nObjection being made, the court made no ruling except to instruct the attorney for the state to “make no reference to the Defendant.”\nIt is in the light of the foregoing that we should determine the effect of the language of the bill which appears to be a certification by the trial judg\u0027e that the complained of argument was a comment on the defendant’s failure to testify, and was so prejudicial and manifestly improper that the effect thereof could not be withdrawn from the jury and no instruction could cure.\nAppellant passed to Mrs. Swor, Teller at Citizens State Bank in Richardson, Texas, the $159.10 check set out in the indictment, and received the proceeds thereof.\nThe check was drawn by Braniff Airways Incorporated to be charged to Flight Crew Expense. Appellant was a Braniff employee and was responsible for expense voucher claims including that upon which the check was issued.\nBarbara H. Kenyon, formerly a hostess of Braniff, was the payee in the check, and the endorsement of her name on the back thereof was alleged to have been forged.\nBarbara H. Knyon, who became Mrs. R. W. Louis upon resigning her position with Braniff several months before the check in question was issued, testified that she did not receive the check; did not present an expense claim or voucher; was due nothing from Braniff; was not acquainted with appellant; did not endorse her name on the check or authorize anyone to do so for her and that her endorsement was forged.\nThe indictment charged that appellant forged the endorsement, and in a second count that she passed the check to Mrs. Swor, knowing the endorsement to be forged.\nAppellant did not testify, but filed her affidavit denying that the signature “Barbara H. Kenyon” was signed or forged by her or made under her authority. The state’s evidence that she did forge the endorsement was circumstantial, and included opinion evidence of an expert witness based upon comparison of the endorsement with specimens of appellant’s handwriting.\nIt was upon this evidence and the charge of the court submitting both counts to the jury upon circumstantial evidence that the attorney for the state, in reply to the argument of defense counsel “about the quality of the State’s evidence,” pointed out that appellant’s counsel had offered no hint or explanation as to how or under what authority or right appellant would have possession of the check payable to Barbara H. Kenyon.\nIt is now well settled that this court will not be bound by a certification of the trial judge of a conclusion of law or fact, where this court is in as favorable position as was the trial court to draw a proper conclusion. Free v. State, 165 Texas Cr. Rep. 374, 307 S.W. 2d 808, and cases cited; Pounds v. State, 128 Texas Cr. Rep. 519, 81 S.W. 2d 698; Taylor v. State, 156 Texas Cr. Rep. 452, 243 S.W. 2d 582.\nIn order to be entitled to a reversal because the trial court certified error there must be no reasonable construction of the language used in the bill other than that reversible error was committed. Moore v. State, 154 Texas Cr. Rep. 417, 227 S.W. 2d 564.\nAssuming that the trial judge reached the conclusion indicated by the language of the bill and intentionally certified such conclusion (rather violent assumptions in view of the well recognized courage, ability and experience of the trial judge who declined to grant a new trial despite such conclusions) under the rule stated, this court is not bound by such certification of the trial judge.\nNo evidence was offered to meet the prima facie effect of the state’s evidence that appellant cashed the check issued by her employer under the circumstances mentioned, but not delivered to the payee, with the forged endorsement thereon. The attorney for the state directed attention to this. How did she come into possession of the cheek with a forged endorsement thereon if she did not know it was forged?\nIf she acquired the check in some manner consistent with her innocence, without knowledge that it was forged, it does not follow that her counsel could explain or furnish evidence as to how she came into such possession only by calling his client as a witness.\nThe rule is well settled that to constitute a reference to the failure of the defendant to testify the complained of remarks must be held to have had reference to the defendant and not to the absence of testimony other than that of the defendant. Byers v. State, 166 Texas Cr. Rep. 34, 310 S.W. 2d 331; French v. State, 162 Texas Cr. Rep. 48, 284 S.W. 2d 359; Alford v. State, 158 Texas Cr. Rep. 311, 255 S.W. 2d 519. It is not sufficient that the language might be construed as an indirect allusion to the defendant’s failure to testify. Hart v. State, 163 Texas Cr. Rep. 472, 293 S.W. 2d 659.\nIn Smith v. State, 131 Texas Cr. Rep. 322, 98 S.W. 2d 806, cited in the majority opinion, it was shown in the bill of exception and noted in the opinion that Smith, the defendant, was the only person who could have given an explanation of his possession of the stolen pistol. There is no such showing here.\nAs to the certification that the remarks were prejudicial, attention is directed to the fact that the minimum punishment was assessed.\nThe concurring opinion completely overlooks the evidence showing that the check bearing the forged endorsement was issued upon a false voucher or claim for which appellant was responsible.\nThe state did not rely only upon evidence based upon comparison of handwriting. In fact, excluding the testimony of the handwriting expert, the evidence is sufficient to sustain the conviction for passing the forged check.\nI respectfully dissent.",
+                                          "type":  "dissent",
+                                          "author":  "WOODLEY, Judge"
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Shelton W. Booth, by Thomas J. Cook, Dallas, for appellant.",
+                                       "Henry Wade, Criminal District Attorney, Frank W. Watts, Thomas B. Thorye and Merle Flagg, Assistants District Attorney, Dallas, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Katherine Deason v. State.\nNo. 30,343.\nFebruary 4, 1959.\nShelton W. Booth, by Thomas J. Cook, Dallas, for appellant.\nHenry Wade, Criminal District Attorney, Frank W. Watts, Thomas B. Thorye and Merle Flagg, Assistants District Attorney, Dallas, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1515-01",
+    "first_page_order":  342,
+    "last_page_order":  348
+}

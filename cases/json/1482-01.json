@@ -1,0 +1,66 @@
+﻿{
+    "id":  8548162,
+    "name":  "Jack Edmiston v. State",
+    "name_abbreviation":  "Edmiston v. State",
+    "decision_date":  "1959-01-21",
+    "docket_number":  "No. 30,310",
+    "first_page":  "225",
+    "last_page":  "226",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 225"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  179,
+                     "char_count":  1829,
+                     "ocr_confidence":  0.592,
+                     "sha256":  "2746d53ddd067faa302be2459609f071e489ea391e1ca5824de175d86bf8d176",
+                     "simhash":  "1:2c6e047b294b6510",
+                     "word_count":  321
+                 },
+    "last_updated":  "2023-07-14T16:09:04.443318+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Jack Edmiston v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON. Presiding Judge.\nThe offense is the sale of whiskey in a dry area; the punishment 90 days in jail and a fine of $500.00.\nAppellant plead guilty before a jury, and no evidence was introduced in behalf of either the state or the accused.\nOur able state’s attorney confesses error because of jury misconduct, and we agree.\nIt was established at the hearing on the motion for new trial that during their deliberations a minister of the gospel, who was a member of the panel, stated to his fellow jurors that he had read a news account of a recent public meeting held in Brownwood at which Judge Breedlove (the county judge who tried the case) had stated that henceforward in all liquor cases coming before him on pleas of guilty he would assess a certain fixed punishment in every case, and stated further that\u0027 he believed that if the jury assessed a lighter punishment he would not accept their verdict but would set it aside. This statement was made after some of the panel had suggested the appellant’s punishment be assessed at a certain number of days in jail and a fine of one or two hundred dollars, and thereafter the jury agreed upon the verdict which they did return. It was further discussed that in the news account of the meeting Brownwood was referred to as the bootlegging capítol of the world.\nReference is made to the cases cited in Erisman, Manuel of Reversible Errors, Sec. 572, p. 556, as holding that the receipt by the jury of other testimony during its deliberations calls for a reversal of the conviction under Articles 753 and 754, V.A.C.C.P. See also 31 Texas Juris. 231, sec. 39; p. 232, sec. 40.\nThe judgment is reversed and the cause remanded.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON. Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Gib Callaway, Brownwood, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Jack Edmiston v. State.\nNo. 30,310.\nJanuary 21, 1959.\nGib Callaway, Brownwood, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1482-01",
+    "first_page_order":  243,
+    "last_page_order":  244
+}

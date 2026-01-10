@@ -1,0 +1,70 @@
+﻿{
+    "id":  4565436,
+    "name":  "Ed Bush v. The State",
+    "name_abbreviation":  "Bush v. State",
+    "decision_date":  "1908-01-22",
+    "docket_number":  "No. 4021",
+    "first_page":  "398",
+    "last_page":  "399",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 398"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  213,
+                     "char_count":  2977,
+                     "ocr_confidence":  0.593,
+                     "pagerank":  {
+                                      "raw":  2.5441434086549422E-07,
+                                      "percentile":  0.8137068995142188
+                                  },
+                     "sha256":  "2f7506f33a0bdf269a2538956d80be0403c19e1ac9e431ae7779e37e0a9741d0",
+                     "simhash":  "1:57d5d0cdf1c982b5",
+                     "word_count":  546
+                 },
+    "last_updated":  "2023-07-14T19:59:32.944253+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ed Bush v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BROOKS, Judge.\nAppellant was convicted of aggravated assault, and his punishment assessed at a fine of $25.\nThe State’s case, as made out by the prosecuting witness,. is as follows: “That shortly thereafter the defendant cut the wire with an ax; that I then, went down to the gate from my house and started to nail up the wire again across the gateway, and the defendant drew back an ax on me, holding the handle in said ax with both hands, and said, T am going to drive this ax through you/ I looked at him a few minutes, and walked away from him. He was standing about eight or ten feet from me, and was standing on his side of the fence, and I was standing on the inside of the pasture. When I walked away he walked along behind me; sometimes he was as near as ten feet from me, and at other times he was fifty or one hundred feet from me. He never was nearer than eight feet. When he walked across the pasture he held an ax in his hand that had no handle in it. He never did strike me with the ax; all he did was to draw the ax back by his side,\u0027 and say, T am going to drive this ax through you’; that was down at the gate. The ax used in the assault was a common ordinary ax.” These facts do not show either simple or aggravated assault. The same do not evidence an immediate purpose to do any violence to prosecuting witness. We therefore hold the evidence is insufficient to support the verdict.\nThere is another reason, however, why this case could not be affirmed for aggravated assault. The proof must show that the weapon used is a deadly weapon. This court has frequently held that we will not take judicial knowledge of the fact that an ax is a deadly weapon. See Melton v. State, 30 Texas Crim. App., 273; Flournoy v. State, 25 Texas Crim. App., 244.\nThe evidence being insufficient to support the verdict, the judgment is reversed and the cause is remanded.\nReversed and remanded.",
+                                          "type":  "majority",
+                                          "author":  "BROOKS, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Ho brief on file for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ed Bush v. The State.\nNo. 4021.\nDecided January 22, 1908.\n1. —Aggravated Assault—Insufficiency of Evidence.\nWhere upon trial for aggravated assault the evidence showed that the weapon used was an ax which defendant held in his hand, saying he would drive it through prosecutor; that there was a wire fence between the parties; that defendant was never nearer to prosecutor than eight or ten feet; that defendant never struck with the ax, the same did not show an immediate purpose to do any violence to prosecutor, and did not support a simple or an aggravated assault.\n2. —Same—Deadly Weapon.\nWhere in a prosecution for aggravated assault with an ax, alleged to be a deadly weapon, the evidence did not show that said ax was a deadly weapon, a conviction for aggravated assault could not be sustained.\nAppeal from the County Court of Dallas. Tried below before the Hon. Hiram F. Lively.\nAppeal from a conviction of aggravated assault; penalty, a fine of $25.\nThe opinion states the case. .\nHo brief on file for appellant.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1201-01",
+    "first_page_order":  416,
+    "last_page_order":  417
+}

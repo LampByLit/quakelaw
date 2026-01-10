@@ -1,0 +1,81 @@
+﻿{
+    "id":  2021294,
+    "name":  "NAQUI v. STATE OF FLORIDA",
+    "name_abbreviation":  "Naqui v. State",
+    "decision_date":  "1991-10-03",
+    "docket_number":  "Case No. CJAP91-28 (Lower Court Case No. MO90-15104)",
+    "first_page":  "32",
+    "last_page":  "33",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 32"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "553 So2d 312",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7524257,
+                                          7524191
+                                      ],
+                         "year":  1989,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/553/0312-02",
+                                            "/so2d/553/0312-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  144,
+                     "char_count":  1474,
+                     "ocr_confidence":  0.894,
+                     "sha256":  "80a973b36100e4caa78e91fcfa8eedbc6a6adab98b965c6af8c24e19078887ee",
+                     "simhash":  "1:a90bd60771565dea",
+                     "word_count":  245
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before WALTER KOMANSKI, Circuit Judge."
+                                ],
+                     "parties":  [
+                                     "NAQUI v STATE OF FLORIDA"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nThis Appeal is limited to the issue as to whether or not the Trial Court abused its discretion in denying the appellant’s Motion for a Modification of Sentence. The appellant has a difficult burden to overturn the presumption of correctness of the lower Court’s ruling. The original sentence of a $250.00 fine and 25 hours of community service are clearly allowed by Florida Statutes. The legal question is whether or not this sentence is an abuse of discretion for the crime of solicitation to commit prostitution. The historical and cultural background of the defendant certainly may be taken into consideration by the Trial Court as factors in mitigation, but such a sentence is clearly within the province of the Trial Court. Thus, if it is within the discretion of the Trial Court, then the decision will not be disturbed upon appellate review. Alexander v State, 553 So2d 312 (Fla. 1st DCA 1989); Adams v State, 487 So2nd 1209 (Fla. 4th DCA 1986); Lori v State, 482 So2nd 562 (Fla. 2nd DCA 1986); Section 924.06(1), Fla. Stat. (1989); Fla.R.App.P. 9.140(b)(1). THE DECISION OF THE TRIAL COURT IS AFFIRMED.\nDONE and ORDERED this 3rd day of October, 1991.",
+                                          "type":  "majority",
+                                          "author":  null
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Charles B. Tiffany, Esquire, for appellant.",
+                                       "Paula Coffman, Assistant State Attorney, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "NAQUI v STATE OF FLORIDA\nCase No. CJAP91-28 (Lower Court Case No. MO90-15104)\nNinth Judicial Circuit, Orange County\nOctober 3, 1991\nAPPEARANCES OF COUNSEL\nCharles B. Tiffany, Esquire, for appellant.\nPaula Coffman, Assistant State Attorney, for appellee.\nBefore WALTER KOMANSKI, Circuit Judge."
+                 },
+    "file_name":  "1327-01",
+    "first_page_order":  52,
+    "last_page_order":  53
+}

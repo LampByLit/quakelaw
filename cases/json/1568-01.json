@@ -1,0 +1,66 @@
+﻿{
+    "id":  8551329,
+    "name":  "Clarence Noel Hill v. State",
+    "name_abbreviation":  "Hill v. State",
+    "decision_date":  "1959-03-11",
+    "docket_number":  "No. 30,528",
+    "first_page":  "512",
+    "last_page":  "513",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 512"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  163,
+                     "char_count":  1749,
+                     "ocr_confidence":  0.578,
+                     "sha256":  "713b2033008e31dbad36af9b4bc4f46bdae66fa32b4d3a23a81ae76c5b02c5d8",
+                     "simhash":  "1:25ae58c67d1804d2",
+                     "word_count":  293
+                 },
+    "last_updated":  "2023-07-14T16:09:04.443318+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Clarence Noel Hill v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThe offense is driving while intoxicated; the punishment, 3 days in jail and a fine of $50.00.\nOfficer Aufleger of the Amarillo police testified that on the night in question he saw a pickup truck run a red light and collide with another pickup, that he saw the appellant get out on the driver’s side and walk around to the front, that he staggered when he walked, spoke incoherently and his breath smelled of intoxicants. He stated that he asked the appellant several questions concerning the filling out of an accident report and that he could not understand the appellant’s answers and carried him to jail. A sample of blood was taken with the appellant’s consent, and the laboratory test indicated that appellant was intoxicated.\nSergeant Kolwell also saw the appellant at the scene of the collision, and, from the manner of his walk, expressed the opinion that the appellant was intoxicated.\nAppellant, testifying in his own behalf, stated that he had drunk only two beers on the day in question, admitted running the red light, but denied that he was intoxicated. He also called a number of witnesses who saw him earlier in the afternoon and evening, and they testified that he bore no indication of intoxicants.\nThe jury resolved this conflict in the evidence as to the appellant’s intoxication against him, and we find the evidence sufficient to support the conviction.\nThere are no formal bills of exception, and no brief has been filed.\nFinding no reversible error, the judgment of the trial court is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "No attorney for appellant of record on appeal.",
+                                       "_Lon Moser, County Attorney, Amarillo, and Leon Douglas State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Clarence Noel Hill v. State.\nNo. 30,528.\nMarch 11, 1959.\nNo attorney for appellant of record on appeal.\n_Lon Moser, County Attorney, Amarillo, and Leon Douglas State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1568-01",
+    "first_page_order":  530,
+    "last_page_order":  531
+}

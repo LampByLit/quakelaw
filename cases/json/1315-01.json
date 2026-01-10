@@ -1,0 +1,157 @@
+﻿{
+    "id":  8546545,
+    "name":  "Charley Richard Thurman v. State",
+    "name_abbreviation":  "Thurman v. State",
+    "decision_date":  "1958-11-12",
+    "docket_number":  "No. 30,034",
+    "first_page":  "21",
+    "last_page":  "24",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 21"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "289 S.W. 2d 942",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10183251,
+                                          10183223
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/289/0942-02",
+                                            "/sw2d/289/0942-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 170",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2461773
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0170-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "311 S.W. 2d 828",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10179568
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/311/0828-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "166 Texas Cr. Rep. 89",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2617428
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/166/0089-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "186 S.W. 201",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "case_ids":  [
+                                          8245026,
+                                          8244989,
+                                          8244966
+                                      ],
+                         "pin_cites":  [
+                                           {
+                                               "page":  "202"
+                                           }
+                                       ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/sw/186/0201-03",
+                                            "/sw/186/0201-02",
+                                            "/sw/186/0201-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "79 Texas Cr. Rep. 483",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4723211
+                                      ],
+                         "opinion_index":  1,
+                         "case_paths":  [
+                                            "/tex-crim/79/0483-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  361,
+                     "char_count":  6441,
+                     "ocr_confidence":  0.588,
+                     "pagerank":  {
+                                      "raw":  1.7830926138956187E-07,
+                                      "percentile":  0.7137697989342235
+                                  },
+                     "sha256":  "12a9c8c683175d5ba02493b0d590188608635592f785020c00d6fe71ac37da5a",
+                     "simhash":  "1:286e21db41a5e5c9",
+                     "word_count":  1084
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Charley Richard Thurman v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DICE, Judge.\nThe conviction is for the subsequent offense of driving while intoxicated; the punishment, a fine of $750.\nThe sufficiency of the evidence to support the conviction is challenged.\nThe evidence was undisputed that on the occasion in question, the appellant, while driving his automobile on a by-pass road west of the city of Abilene drove into the rear of an automobile in which Mr. and Mrs. Aswell Walker were riding. In the collision, appellant received certain injuries and was carried from the scene to a hospital in an unconscious condition.\nMr. and Mrs. Walker were called as witnesses by the state, but neither testified that appellant was intoxicated. Both testified that they did not get close enough to the appellant to smell his breath.\nAppellant did not testify.\nThe only evidence in the record that appellant was intoxicated is found in the testimony of Dr. Sol. B. Estes who treated appellant for his injuries after he was brought to the hospital.\nDr. Estes testified that appellant had a laceration on his head 214 inches long and multiple abrasions on his body; that he treated the injuries and was with appellant for about an hour and a half during which time the appellant was unconscious and did nothing. He further testified that he found a bottle of whiskey in appellant’s coat, about half of which was gone, and expressed his opinion that appellant was on such occasion intoxicated.\nAppellant insists that his conviction upon the testimony of Dr. Estes cannot be sustained because it was shown that the doctor’s opinion was based upon facts which were as consistent with his injury as with intoxication.\nWith appellant’s contention we agree.\nRecently in Vasquez v. State, 166 Texas Cr. Rep. 89, 311 S.W. 2d 828 we held the evidence insufficient to sustain a-conviction for driving a motor vehicle while intoxicated where the only witness who expressed his opinion that the accused was intoxicated based his opinion upon facts which were as consistent with injury as with intoxication.\nWhile Dr. Estes expressed the opinion that appellant was intoxicated it appears that his opinion was based upon facts as consistent with injury to appellant as with intoxication.\nIt was undisputed that appellant was unconscious after the collision and according to the doctor’s own testimony did nothing while the doctor was observing him. It appears that the only fact ascertained by Dr. Estes which was indicative of intoxication was finding the whiskey bottle in appellant’s coat. This fact alone was insufficient to predicate an opinion that appellant was intoxicated.\nUnder the record presented we deem the evidence insufficient to support the conviction.\nWe overrule appellant’s contention that the evidence failed to show that he was driving his automobile upon a public road or highway.\nThe evidence shows that the collision occurred while appellant was driving his automobile upon a by-pass road which was at the time under construction. While the road was closed to through traffic and was not open to the public generally the record reflects that it was used by persons other than those connected with the contractor and the Highway Department. On the day in question automobiles other than those involved in the collision were being driven on the road. In Brown v. State, 163 Texas Cr. Rep. 170, 289 S.W. 2d 942, it was held that the portion of a beach used for traffic as a street or road was a public road.\nFor the reason stated the judgment of conviction is reversed and the cause remanded.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "DICE, Judge."
+                                      },
+                                      {
+                                          "text":  "WOODLEY, Judge,\ndissenting.\nAbout 3:45 P.M. on a bright Sunday afternoon Aswell Walker and his wife were out for a drive. They were traveling about thirty-five miles per hour on a paved by-pass road that ■was open ahead to “the Old Anson Road” where they intended to turn off. They were driving on their right hand side of this paved by-pass road when the automobile driven by appellant, traveling the same road in the same direction, struck the Walker car from the rear and on the left side with such force that Mr. Walker, the driver, was thrown into the back seat of his car.\nPatrolman Smith did not talk to appellant until the next day, at which time appellant stated that he was driving at the time of the accident, but did not know just how it happened.\nDr. Estes was the attending physician when appellant was brought to the hospital. He testified that there was some whisky in appellant’s coat, a bottle about half full.\nDr. Estes was shown to be a practicing medical doctor in Abilene, and his qualifications were stipulated. He treated appellant at the hospital for his injuries, and was with him for about one and a half hours, leaving him at about 7 or 7:15 P.M. He expressed the opinion that appellant was intoxicated.\nThe rule that the witness must first state the facts applies only to non-experts, and rests upon the theory that the opinion of the witness is entitled to no greater weight than the facts which form its basis.\nEven as to non-expert witnesses, the rule has been criticized because the facts upon which the opinion is based are matters which affect the weight of the testimony rather than its admissibility. McCormick \u0026 Ray, Texas Law of Evidence, p. 790, Sec. 628.\nThat observation alone is a fact sufficient to form the basis of the expert opinion of a physician as to the condition of his patient was recognized in Hazelwood v. State, 79 Texas Cr. Rep. 483, 186 S.W. 201, 202.\nIf the testimony of the doctor was admissible, then the evidence is sufficient to sustain the jury’s finding that appellant was intoxicated.\nIt will be observed that Dr. Estes was not asked on direct or cross-examination the basis of his opinion as to appellant’s intoxication; and in appellant’s motion for directed verdict questioning the sufficiency of the evidence in other particulars, no question as to the sufficiency of the evidence to show appellant’s intoxication was raised or suggested.\nThe weight of the doctor’s opinion was for the jury. It, coupled with the manner in which appellant was operating his automobile, with a partly consumed bottle of whisky in his pocket, sustains the jury’s finding that appellant was intoxicated. The verdict should not be disturbed.",
+                                          "type":  "dissent",
+                                          "author":  "WOODLEY, Judge,"
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Scarborough, Black \u0026 Tarpley, by James K. Graham, Abilene, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Charley Richard Thurman v. State.\nNo. 30,034.\nNovember 12, 1958.\nScarborough, Black \u0026 Tarpley, by James K. Graham, Abilene, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1315-01",
+    "first_page_order":  39,
+    "last_page_order":  42
+}

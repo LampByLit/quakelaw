@@ -1,0 +1,135 @@
+﻿{
+    "id":  8550548,
+    "name":  "James Croft Ong v. State",
+    "name_abbreviation":  "Ong v. State",
+    "decision_date":  "1959-02-25",
+    "docket_number":  "No. 30,453",
+    "first_page":  "452",
+    "last_page":  "454",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 452"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "280 S.W. 2d 747",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10184622
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/280/0747-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 222",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "271 S.W. 2d 643",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10197713
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/271/0643-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "160 Texas Cr. Rep. 387",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2469435
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/160/0387-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "255 S.W. 2d 870",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10218276
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/255/0870-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "158 Texas Cr. Rep. 337",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2478281
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/158/0337-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  268,
+                     "char_count":  3742,
+                     "ocr_confidence":  0.597,
+                     "pagerank":  {
+                                      "raw":  6.7292793492417187E-08,
+                                      "percentile":  0.4083446563873029
+                                  },
+                     "sha256":  "1bd3d8835f22a7145610b08ff0fb5ece5339edca318af11ca2c0b22f418fd926",
+                     "simhash":  "1:93950c910e7d0117",
+                     "word_count":  638
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "James Croft Ong v. State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DICE, Judge.\nThe conviction is for the subsequent offense of driving while intoxicated; the punishment, a fine of $500.\nHighway Patrolman Paul Busby testified that on the evening in question around 3 P.M. he observed the appellant driving an automobile on Highway 67 in the city of Alvarado; that he proceeded to follow the automobile as it was weaving on the road for about two blocks until the appellant drove off on the shoulder and stopped; that he then went to the automobile where appellant was seated alone under the steering wheel and after observing him, placed him in the patrol car and carried him to jail. Officer Busby testified that he found a half-pint bottle of vodka one-third full in appellant’s automobile and in describing the appellant’s appearance and conduct at the time testified that he could smell whiskey on the appellant, that his words were slurred, and his eyes were “red and glassy;” that he stumbled when he got out of the automobile and expressed his opinion that appellant was on such occasion under the influence of intoxicating liquor.\nDeputy Sheriff Luke Johnson testified that he observed the appellant when he was brought to jail by Patrolman Busby and based upon his observations expressed his opinion that appellant was on such occasion under the influence of intoxicating liquor.\nProof was made by the, state of appellant’s prior misdemeanor conviction as alleged in the indictment.\nAppellant did not testify but called two witnesses who testified in his behalf.\nThe witness, Johnny Johnson, testified that he was in jail at the time appellant was incarcerated and that he did not think he was intoxicated. Appellant’s wife testified that on the day in question appellant left their home in Dallas around noon and as far as she knew he had not drunk any alcoholic beverages that day but that he had taken two equanil tablets for a nervous condition before he left home.\nThe jury chose to accept the testimony of the state’s witness and reject that of the appellant and we find the evidence sufficient to support its verdict.\nAppellant’s sole contention is that the court erred in overruling his subsequent motion for a continuance because of the absence of certain witnesses.\nThe matter is presented by formal Bill of Exception No. One.\nNo motion for new trial is shown in the record and the record contains no affidavits from the missing witnesses or any showing under oath from some other source that the witnesses would have actually testified to the facts alleged in the motion for continuance. In Carr v. State, 158 Texas Cr. Rep. 337, 255 S.W. 2d 870, it was held that such a bill fails to reflect error. See also Parsons v. State, 160 Texas Cr. Rep. 387, 271 S.W. 2d 643, and Davis v. State, 162 Texas Cr. Rep. 222, 280 S.W. 2d 747.\nAppellant insists that he was relieved of the necessity of attaching the affidavits of the witnesses to a motion for new trial because the bill of exception approved by the court certified that the witnesses would have testified to the facts alleged. We do not construe the bill of exception as certifying that the witnesses would have, in fact, so testified. While the bill contains a recitation that appellant “would show” that the witnesses would have testified to the facts alleged in the motion for continuance, such recitation was tantamount to nothing more than a statement of the appellant’s contention, the truth of which is not verified by the bill.\nUnder the record, no error is shown in the court’s refusal of the motion for continuance.\nThe judgment is affirmed.\nOpinion approved by the Court.",
+                                          "type":  "majority",
+                                          "author":  "DICE, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Gean B. Turner, Cleburne, for appellant.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "James Croft Ong v. State.\nNo. 30,453.\nFebruary 25, 1959.\nGean B. Turner, Cleburne, for appellant.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1550-01",
+    "first_page_order":  470,
+    "last_page_order":  472
+}

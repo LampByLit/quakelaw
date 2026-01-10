@@ -1,0 +1,236 @@
+﻿{
+    "id":  2021326,
+    "name":  "STATE OF FLORIDA v. WALCZAK",
+    "name_abbreviation":  "State v. Walczak",
+    "decision_date":  "1991-10-17",
+    "docket_number":  "Case No. 90-73 AC (Lower Court Case No. 90-16708 MM)",
+    "first_page":  "71",
+    "last_page":  "73",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "50 Fla. Supp. 2d 71"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Fla. Cir. Ct.",
+                  "id":  11646,
+                  "name":  "Florida Circuit Court"
+              },
+    "jurisdiction":  {
+                         "id":  28,
+                         "name_long":  "Florida",
+                         "name":  "Fla."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "391 So.2d 783",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9567393
+                                      ],
+                         "year":  1980,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/391/0783-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "451 So.2d 882",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7625516
+                                      ],
+                         "year":  1984,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/451/0882-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "364 So.2d 542",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9588722
+                                      ],
+                         "year":  1978,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/364/0542-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "112 So.2d 864",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9900503
+                                      ],
+                         "year":  1959,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/112/0864-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "536 So.2d 1125",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7555552
+                                      ],
+                         "weight":  2,
+                         "year":  1988,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/536/1125-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "387 So.2d 405",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "year":  1980,
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "549 So.2d 735",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7545817
+                                      ],
+                         "year":  1989,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/549/0735-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "561 So.2d 638",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7531142
+                                      ],
+                         "year":  1990,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/561/0638-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "520 So.2d 696",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          7580523
+                                      ],
+                         "year":  1988,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/520/0696-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "398 So.2d 820",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9576772
+                                      ],
+                         "year":  1981,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/398/0820-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "110 S.Ct. 2412",
+                         "category":  "reporters:federal",
+                         "reporter":  "S. Ct.",
+                         "case_ids":  [
+                                          12122945
+                                      ],
+                         "weight":  2,
+                         "year":  1990,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/us/496/0325-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "387 So.2d 963",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9588305
+                                      ],
+                         "year":  1980,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/387/0963-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "363 So.2d 862",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "So. 2d",
+                         "case_ids":  [
+                                          9605869
+                                      ],
+                         "weight":  2,
+                         "year":  1978,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/so2d/363/0862-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  403,
+                     "char_count":  6110,
+                     "ocr_confidence":  0.906,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.07305290771778586
+                                  },
+                     "sha256":  "40935deec07a0357534d6bdb462481fa40d55a68166a2bc185d863196711d69c",
+                     "simhash":  "1:286f4eb60db034d0",
+                     "word_count":  1065
+                 },
+    "last_updated":  "2024-02-27T22:18:48.619006+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+                                    "Before ARTHUR J. FRANZA, Circuit Judge."
+                                ],
+                     "parties":  [
+                                     "STATE OF FLORIDA v WALCZAK"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "OPINION OF THE COURT\nTHIS CAUSE having come before the Court on Appellant’s, the State’s appeal from a judgment entered in the county court, and the court having reviewed both Appellant’s Brief and Appellee’s Brief hereby finds the following conclusion of fact and law.\nSTATEMENTS OF FACT\nAppellee was charged with DUI, driving with a suspended license and for not having proof of his automobile registration or insurance, on May 30, 1990. The arresting officer was dispatched to a shopping square mall, on the basis of an anonymous tip that a white male sitting inside a gold colored Pontiac in the parking lot appeared intoxicated. The officer arrived at the mall within a minute or so and stopped the car. The officer did not observe any improper driving on the part of the defendant, and did not attempt to examine any of the other cars in the parking lot to ascertain if they fit the description of the caller. (R.8) No other facts indicated that the person sitting in the Pontiac was intoxicated. (R.10).\nAppellee filed a motion to suppress the physical evidence before the trial court. The court heard testimony from the arresting officer, and based on the case law cited granted the motion.\nSTATEMENTS OF LAW\nThe sole issue on appeal is whether the trial court erred in suppressing the evidence, in this case on the basis that the officer had probable cause or reasonable suspicion to stop defendant.\nThe state contends that Appellee relied primarily on the case of St. John v State, 363 So.2d 862 (Fla. 4th DCA 1978), for the proposition that the BOLO did not create a founded suspicion for the stop. The State went on to note that St. John, supra, was disapproved of by the Florida Supreme Court in Hetland v State, 387 So.2d 963 (Fla. 1980). However, Appellee contends that St. John, was only one case amongst other cases relied upon and cited as precedent to the trial court, and as defendant’s stop by the officer was unlawful per se this resulted in tainting all the evidence obtained, making it subject to suppression. The St. John case was cited for the principal that there must be some degree of reliability when utilizing a BOLO for initiating a stop, and not for the authority that you can rely on a BOLO from an unknown tipster. See Alabama v White, — U.S. —, 110 S.Ct. 2412, 110 L.Ed.2d 301 (1990).\nIt is a well established principle that in initiating a stop of any individual the police must have a founded suspicion that the individual has committed a crime, is committing or is about to commit a crime. F.S. 901.151(2); State v Webb, 398 So.2d 820, (Fla. 1981); State v Hoover, 520 So.2d 696 (Fla. 4th DCA 1988). Specific and articulable facts must justify the stop, and information obtained from an anonymous tip must appear sufficiently reliable based on the totality and/or surrounding circumstances. See Steele v State, 561 So.2d 638 (Fla. 1st DCA 1990); Sharpless v State, 549 So.2d 735 (Fla. 2nd DCA 1989), where the Court held an anonymous tip may be sufficiently reliable to support founded suspicion for a stop, citing to Heltand, supra, [sic] but the tip should be corroborated by personal observations of the officer.\nIn The Interest of G.A.R. III, 387 So.2d 405 (Fla. 4th DCA 1980), the Court held that while an anonymous tip can provide the basis for a valid investigatory stop, the tip must contain sufficient indicia of reliability enabling a reasonable prudent person to infer that its contents are accurate. In the case at bar, the trial court was correct in finding that a founded suspicion had not been established to warrant stopping defendant, based on the case law cited above. The facts in this case did not rise to the level of “articulable facts” that led to reasonable suspicion that a crime had been committed. See R.E. v State, 536 So.2d 1125 (Fla. 1st DCA 1988). Moreover, the vehicle was not driven in a manner that would render credibility to the tip that the appellee was in fact impaired. (R. 15, 17).\nFurthermore, it is not the province of the reviewing court to reweigh evidence or reevaluate the facts of the case, or substitute its judgment for that of the trier of fact. On a motion to suppress the evidence the trial judge acts as trier of both fact and law, and as such “his” conclusions come clothed with the presumption of correctness. See Camerson v State, 112 So.2d 864 (Fla. 1st DCA 1959).\nBased on the foregoing, it is\nORDERED AND ADJUDGED that the decision of the trial court is hereby affirmed.\nDONE AND ORDERED in chambers at Ft. Lauderdale, Florida on this 17th day of October, 1991.\nThe other cases cited by the defendant included Delp v State, 364 So.2d 542 (Fla. 4th DCA 1978); R.E. v State, 536 So.2d 1125 (Fla. 1st DCA 1988); State v Beja, 451 So.2d 882 (Fla. 4th DCA 1984).\nIn this case the United States Supreme Court held that some degree of reliability is required in permitting the use of an anonymous tip to justify a stop.\nIn Sharpless v State, supra, at page 736, 737, the suspect had not been described in any way, and the activities reported by the anonymous caller were not illegal. Furthermore, the officer only “felt” the defendant was about to commit a crime. The Court held that such a hunch and the information furnished by the tip were insufficient to justify the stop.\nThe case of Romanoff v State, 391 So.2d 783 (Fla. 4th DCA 1980), can be distinguished from the above cases in that in Romanoff there existed articulable facts which amounted to founded suspicion justifying a stop. An officer had been advised that an unidentified subject had pulled a gun on someone at a hotel, and then exited in a white chevrolet[sic]. The officer saw the car and observed the driver lean over as if to place something under the front passenger seat. The court found the tip to be reliable in light of the surrounding circumstances.",
+                                          "type":  "majority",
+                                          "author":  null
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "APPEARANCES OF COUNSEL",
+                                       "Office of the State Attorney, for appellant.",
+                                       "Michael J. Doddo, Esquire, for appellee."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "STATE OF FLORIDA v WALCZAK\nCase No. 90-73 AC (Lower Court Case No. 90-16708 MM)\nSeventeenth Judicial Circuit, Broward County\nOctober 17, 1991\nAPPEARANCES OF COUNSEL\nOffice of the State Attorney, for appellant.\nMichael J. Doddo, Esquire, for appellee.\nBefore ARTHUR J. FRANZA, Circuit Judge."
+                 },
+    "file_name":  "1366-01",
+    "first_page_order":  91,
+    "last_page_order":  93
+}

@@ -1,0 +1,221 @@
+﻿{
+    "id":  8547363,
+    "name":  "Hubert Brantley v. State",
+    "name_abbreviation":  "Brantley v. State",
+    "decision_date":  "1959-01-07",
+    "docket_number":  "No. 30,263",
+    "first_page":  "145",
+    "last_page":  "146",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 145"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "163 Texas Cr. Rep. 513",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "288 S.W. 2d 508",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10175120,
+                                          10175229
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/288/0508-01",
+                                            "/sw2d/288/0508-02"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 36",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2461759
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0036-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "294 S.W. 2d 401",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10171916
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/294/0401-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "163 Texas Cr. Rep. 516",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2461341
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/163/0516-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "299 S.W. 2d 951",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10183523
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/299/0951-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 421",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2611610
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0421-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "310 S.W. 2d 90",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10161011,
+                                          10160918
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/310/0090-02",
+                                            "/sw2d/310/0090-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "165 Texas Cr. Rep. 582",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2613839
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/165/0582-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "310 S.W. 2d 338",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10169026
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/310/0338-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "165 Texas Cr. Rep. 641",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2612554
+                                      ],
+                         "weight":  2,
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/165/0641-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "320 S.W. 2d 855",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10181071
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/320/0855-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  177,
+                     "char_count":  2164,
+                     "ocr_confidence":  0.578,
+                     "pagerank":  {
+                                      "raw":  7.29396715551348E-08,
+                                      "percentile":  0.4339420946935516
+                                  },
+                     "sha256":  "546f5afc17364fe309aed1db04a50cac2a8c78634b4c962fada4481b097f5306",
+                     "simhash":  "1:d57ccbb0310cc3fa",
+                     "word_count":  384
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Hubert Brantley v. State"
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "WOODLEY, Judge.\nJudgment was rendered on April 10, 1958, finding appellant guilty of driving a motor vehicle upon a public highway while intoxicated and assessing as punishment thirty days in jail and a fine of $250.\nMotion for new trial was filed the same day, alleging that the judgment was contrary to the law and the evidence.\nThe term of court adjourned on May 31, 1958, without any ruling on the motion for new trial and with no notice of appeal having been given.\nOn June 20, 1958, during the next succeeding term, an order was entered overruling appellant’s original motion for new trial and containing notice of appeal.\nThe motion for new trial filed April 10, 1958, not having been acted upon was overruled by operation of law on April 30, 1958. Art. 755, V.A.C.C.P.; Brinkley v. State, No. 29,926, (page 472, this volume), 320 S.W. 2d 855; Pruitt v. State, 165 Texas Cr. Rep. 641, 310 S.W. 2d 338; Barton v. State, 165 Texas Cr. Rep. 582, 310 S.W. 2d 90; Atkinson v. State, 164 Texas Cr. Rep. 421, 299 S.W. 2d 951; DeHay v. State, 163 Texas Cr. Rep. 516, 294 S.W. 2d 401; Mahan v. State, 163 Texas Cr. Rep. 36, 288 S.W. 2d 508.\nThis court having held that Art. 768 V.A.C.C.P. as amended in 1957, requiring a sentence to be pronounced in a misdemeanor case, is invalid, the conviction herein became final when the motion for new trial was overruled. Barton v. State, 165 Texas Cr. Rep. 582, 310 S.W. 2d 90.\nTo confer jurisdiction upon this court notice of appeal must be given during the term at which the conviction occurred. Art. 826 C.C.P.; DeHay v. State, 163 Texas Cr. Rep. 513 294 S.W. 2d 401; Pruitt v. State, 165 Texas Cr. Rep. 641, 310 S.W. 2d 338.\nThe appeal is dismissed.",
+                                          "type":  "majority",
+                                          "author":  "WOODLEY, Judge."
+                                      },
+                                      {
+                                          "text":  "DAVIDSON, Judge\n(dissenting).\nI dissent to the dismissal of the appeal in this case for the reason stated in the dissenting opinion in Brinkley v. State, No. 29,926, this day decided. (Page 472 this volume.)",
+                                          "type":  "dissent",
+                                          "author":  "DAVIDSON, Judge"
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "No attorney for appellant of record on appeal.",
+                                       "Dan Walton, District Attorney, Thomas D. White and Carol Vance, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Hubert Brantley v. State\nNo. 30,263.\nJanuary 7, 1959.\nNo attorney for appellant of record on appeal.\nDan Walton, District Attorney, Thomas D. White and Carol Vance, Assistants District Attorney, Houston, and Leon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1417-01",
+    "first_page_order":  163,
+    "last_page_order":  164
+}

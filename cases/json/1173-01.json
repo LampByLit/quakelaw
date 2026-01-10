@@ -1,0 +1,75 @@
+﻿{
+    "id":  4559587,
+    "name":  "Bill Walker v. The State",
+    "name_abbreviation":  "Walker v. State",
+    "decision_date":  "1907-12-18",
+    "docket_number":  "No. 3727",
+    "first_page":  "314",
+    "last_page":  "316",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 314"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+
+                 ],
+    "analysis":  {
+                     "cardinality":  257,
+                     "char_count":  5333,
+                     "ocr_confidence":  0.58,
+                     "pagerank":  {
+                                      "raw":  1.2240919645422112E-07,
+                                      "percentile":  0.60231600375157
+                                  },
+                     "sha256":  "5fbb3573abf7552ece0a6d6fb7eb5d07b16931d48d5804856d41b0cb6205dc55",
+                     "simhash":  "1:b5775ed912344205",
+                     "word_count":  899
+                 },
+    "last_updated":  "2023-07-14T19:59:32.944253+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Bill Walker v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\nAppellant was convicted for carrying a pistol. The evidence shows that quite a crowd of negroes had gathered at a frolic or festival of some sort on Christmas; that among others present was the defendant and a negro named Billups; that Billups was standing in the yard at night talking to a negro woman and appellant shot him with a pistol. On this evidence the State relied for a conviction.\nIt is contended that as there was a public gathering in the house near which this trouble occurred, appellant should have been charged with carrying a pistol at a public assembly, or in a place where people had assembled, and that as he was convicted under an ordinary indictment charging unlawfully carrying on and about his person a pistol, that there is a variance between the evidence and the allegation. There is no merit in this proposition. It is no reason appellant should have been acquitted under the charge in this indictment that he was seen with a pistol at the place where people were assembled under the circumstances detailed in this record. He was not charged with carrying a pistol at a public assembly and convicted under the other statute prohibiting carrying pistols, but was charged directly with carrying a pistol, omitting the allegation with reference to assemblies, places of amusement, etc. Appellant cannot complain that the State sought to obtain a conviction with the less punishment. In regard to the application for continuance, in our opinion, there is no merit in it.\nThe judgment is affirmed.\nAffirmed.\nHenderson, Judge, absent.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      },
+                                      {
+                                          "text":  "MOTION FOR REHEARING.\nJanuary 22, 1908.\nDAVIDSON, Presiding Judge.\n—The judgment in this case was affirmed at Tyler, and is before us now on motion for rehearing. The original opinion, we think, sufficiently states the case.\nAppellant now claims that his contention was misunderstood, and makes this excerpt from the closing of the opinion, as the basis of his contention: “Appellant cannot complain that the State sought to obtain a conviction with the less punishment.” That was rather an incidental remark at the close of the opinion. We understood then, as we understand now, that appellant’s contention was that there was a variance between the evidence and the allegations, and the basis of this contention is, that he should have been charged with carrying a pistol at a public assembly, or in a place where people had assembled, etc., and that he was convicted under an ordinary indictment charging him with unlawfully carrying on and about his person a pistol, and the original opinion so states the proposition. Appellant’s contention may be stated in another form in this manner: That inasmuch as the State showed that he had the pistol in the yard, or somewhere in the neighborhood of the house at the time people were assembled in the house, that, therefore, he should have been charged under the statute with reference to carrying a pistol into such house, etc., where people were assembled; and that inasmuch as he was charged under the other statute, simply for carrying a pistol on and about his person, that he was entitled to an acquittal because the facts showed, in his judgment, that he was at a place where people were assembled. We do not believe this contention is correct. The fact that the State charged under one statute for carrying a pistol, does not necessarily prevent a conviction, because appellant may have had the pistol at a public assembly, under the doctrine of carving. Where the State sought to punish for simply carrying the pistol, and where the punishment may have been much greater for carrying it at a house where people were assembled, would not afford a ground, in our judgment, for setting aside the conviction. The court was not finessing on the exact amount of punishment that might be prescribed under either statute, in the original opinion, but was simply holding that where the State charged carrying a pistol, appellant could be convicted under such charge, although he may have carried it near or at a place where people had assembled; even if the State could have punished him under a proper pleading for having carried the pistol to the public assembly.\nWe see no legal reason why this motion should be granted, and it is, therefore, overruled.\nOverruled.",
+                                          "type":  "rehearing",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "V. B. Hudson, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Bill Walker v. The State.\nNo. 3727.\nDecided December 18, 1907.\nCarrying Pistol—Variance—Public Assembly.\nOn trial for unlawfully carrying a pistol where the evidence showed that defendant carried the pistol near or at a place where people had assembled, there was no variance between the allegation and the proof, and appellant could be convicted under the charge in the indictment of unlawfully carrying on and about his person a pistol; although he could have been punished under a proper pleading for having carried the pistol at a public assembly.\nAppeal from the County Court of Brazos. Tried below before the Hon. A. G. Board.\nAppeal from a conviction of unlawfully carrying a pistol on and about his person; penalty, a fine of $100.\nThe opinion states the case.\nV. B. Hudson, for appellant.\n—On question of variance: Harris v. State, 17 Texas Crim. App., 132; Payne v. State, 17 Texas Crim. App., 40.\nF. J. McCord, Assistant Attorney-General, for the State.\nOn question of variance: Pickett v. State, 10 Texas Crim. App., 290."
+                 },
+    "file_name":  "1173-01",
+    "first_page_order":  332,
+    "last_page_order":  334
+}

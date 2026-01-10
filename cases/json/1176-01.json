@@ -1,0 +1,117 @@
+﻿{
+    "id":  4560191,
+    "name":  "C. Mercer v. The State",
+    "name_abbreviation":  "Mercer v. State",
+    "decision_date":  "1907-12-18",
+    "docket_number":  "No. 3930",
+    "first_page":  "321",
+    "last_page":  "322",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 321"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "20 S. W. Rep., 552",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "11 S. W. Rep., 482",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "34 S. W. Rep., 113",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "35 Texas Crim. Rep., 615",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          158608
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/35/0615-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "31 Texas Crim. Rep., 294",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          156001
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/31/0294-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "20 S. W. Rep., 552",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  0
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  327,
+                     "char_count":  5148,
+                     "ocr_confidence":  0.575,
+                     "pagerank":  {
+                                      "raw":  2.8938258675440669E-07,
+                                      "percentile":  0.8445243332719398
+                                  },
+                     "sha256":  "44ceb4cd182de488846254cc3b3a633e6781179640ca549b9c894241d2ddc8da",
+                     "simhash":  "1:d41a667c6f7fc293",
+                     "word_count":  908
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "C. Mercer v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "DAVIDSON, Presiding Judge.\nThe affidavit and information contain two counts, the first of which charges appellant with going into and near a private place, to wit: the private house of Dan Maloney, and did then and there curse and swear and yell and shriek and use loud, abusive, vulgar, obscene and indecent language in a manner calculated to disturb the inhabitants of said private house. The second count charges appellant with using abusive language to and concerning the said Dan Maloney under circumstances then and there reasonably calculated to provoke a breach of the peace against the peace and dignity of the State.\nIt is contended by appellant that the information is defective in that the first count and that upon which appellant was convicted, is insufficient, because it fails to conclude, “against the peace and dignity of the State.” An inspection of the complaint and information shows that the first count does not conclude, “against the peace and dignity of the State,” but at the end of the second count- that expression is used. This is sufficient. It is not necessary that each count conclude, “against the peace and dignity of the State.” See Stebbins v. State, 31 Texas Crim. Rep., 294; 20 S. W. Rep., 552; Dancey v. State, 35 Texas Crim. Rep., 615; 34 S. W. Rep., 113; Alexander v. State, 27 Texas Crim. App., 533; West v. State, 27 Texas Crim. App., 472; 11 S. W. Rep., 482.\nThe second ground of the motion is that the court misdirected the jury as to the law of the case. This is too general; ho particular portion of the charge is pointed out and no error is designated; nor, did the pleader undertake to show wherein or in what part of the charge the jury were misdirected as to the law.\nThe third and fourth grounds of the motion aver that the verdict is contrary to the law and evidence and insufficient to support the verdict. We are of opinion that the evidence is sufficient. Maloney- was in his yard working on a scraper when appellant and Hughes came up and spoke to him. After conversing awhile upon different subjects, appellant asked Maloney something about why the camp was at its present location and not closer to the work. It seems that Maloney and others were working on the county road. Maloney replied that they were stationed there because the teams would not have to go over the fresh-worked road every day, but would have hard road to travel in going to and from the work. Appellant said the county teams are about as good as any in the county, and if they could not go over the road, how did Maloney or anyone else expect other people’s teams to travel over the road. Maloney replied, that a person had better work anywhere else for 50 cents a day than work for the county and have everybody monkeying with his business, and that he, Maloney, had heard what appellant had been saying. Appellant replied, “I have never monkeyed with your business and whoever says I did tells a God damned lie.” Maloney then replied, “I say you have.” Appellant then said, “I have not, and if you will come out here in the road I will make a white man out of you.” Maloney declined to go. Appellant then left.\nMrs, Maloney said she .heard loud talking and stepped to the door and heard appellant say, “Whoever says I have monkeyed with your business tells a God damned lie,” that Maloney said, “I don’t want you cursing here in the presence of my children.” Appellant then said, “I have not cursed,” and then told her husband if he would come out in the road, he would make a white man out of him.\nHughes testified practically as did Maloney, but he says that appellant’s statement to Maloney was, that whoever said that he, appellant, had had anything to do with his, Maloney’s business, “is a liar and a damn liar.” This is practically the testimony of the case.\nWe think the evidence is sufficient and the judgment is affirmed.\nAffirmed.\nHenderson, Judge, absent.",
+                                          "type":  "majority",
+                                          "author":  "DAVIDSON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "Ho brief on file for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, for the State."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "C. Mercer v. The State.\nNo. 3930.\nDecided December 18, 1907.\n1. —Disturbing Peace—Affidavit—Information—Constitutional Law.\nWhere upon trial for disturbing the peace, the affidavit and information contained two separate counts and the first count did not conclude against the peace and dignity of the State, but at the end of the second count that expression was used, the same was sufficient. Following Stebbins v. State, 31 Texas Grim. Rep.,\u0027294 ; 20 S. W. Rep., 552.\n2. —Same—Motion for Hew Trial.\nAn objection to the court’s charge, in a motion for new trial, that the court misdirected the jury as to the law of the case, is too general.\n3. —Same—Sufficiency of the Evidence.\nWhere upon trial for disturbing the peace the evidence showed that defendant called the prosecutor a damned liar, and asked him to come out and fight him and so forth, the allegations in the information that the defendant cursed and swore, and used abusive language, etc., were sustained.\nAppeal from the County Court of Harrison. Tried below before the Hon. H. T. Lytleton.\nAppeal from a conviction of disturbing the peace; penalty, a fine of $5.\nThe opinion states the case.\nHo brief on file for appellant.\nF. J. McCord, Assistant Attorney-General, for the State."
+                 },
+    "file_name":  "1176-01",
+    "first_page_order":  339,
+    "last_page_order":  340
+}

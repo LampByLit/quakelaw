@@ -1,0 +1,183 @@
+﻿{
+    "id":  4564920,
+    "name":  "Jesse Human v. The State",
+    "name_abbreviation":  "Human v. State",
+    "decision_date":  "1908-02-05",
+    "docket_number":  "No. 4183",
+    "first_page":  "474",
+    "last_page":  "475",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "52 Tex. Crim. 474"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "96 S. W. Rep., 19",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "50 Texas Crim. Rep., 638",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "47 Texas Crim. Rep., 582",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4538260
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/47/0582-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "95 S. W. Rep., 518",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "49 Texas Crim. Rep., 610",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4544971
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/49/0610-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "96 S. W. Rep., 790",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "49 Texas Crim. Rep., 600",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4546613
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/49/0600-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "92 S. W. Rep., 839",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.",
+                         "opinion_index":  -1
+                     },
+                     {
+                         "cite":  "49 Texas Crim. Rep., 335",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4549087
+                                      ],
+                         "opinion_index":  -1,
+                         "case_paths":  [
+                                            "/tex-crim/49/0335-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "47 Texas Crim. Rep., 149",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4534635
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/47/0149-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "47 Texas Crim. Rep., 500",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4542462
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/47/0500-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "52 Texas Crim. Rep., 368",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          4565625
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/52/0368-01"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  250,
+                     "char_count":  3049,
+                     "ocr_confidence":  0.619,
+                     "pagerank":  {
+                                      "raw":  4.03580807328026E-08,
+                                      "percentile":  0.15169378600837347
+                                  },
+                     "sha256":  "78ae47ec380e1f9a336e5840c7affe476bbb27d60c4236d2c6c3982da48d1958",
+                     "simhash":  "1:9d0784ed51a88957",
+                     "word_count":  563
+                 },
+    "last_updated":  "2024-02-27T21:28:05.591437+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Jesse Human v. The State."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "BROOKS, Judge.\n—Appellant was convicted for violating the local option law and received the minimum punishment.\nAppellant filed a motion to quash the indictment. The indictment is in the form frequently approved by this court, and several times passed upon during this sitting.\nThe only other insistence we deem necessary to pass upon is the sufficiency of the evidence. The State’s ease shows the following facts: Prosecuting witness, Walter Cochran, testified as follows: “I have known the defendant all of his life. I knew him in Ellis County before he moved to Johnson County. We are related. His mother and my wife are sisters. About the first of September, 1906, I went to the drugstore where the defendant was at work. I got a pint of whisky from him; that is, he let me have the pint of whisky. I went behind the prescription counter and told the defendant what I wanted. He got a pint of whisky and set it on the counter in front of me. I took 50 cents out of my pocket and laid it on the counter. I put the whisky in my pocket and walked up to the front end of the drugstore to where the defendant was standing. He asked me if I did not want a drink of soda water. I told him yes. He drew a glass and handed it to me. I drank it and then went out. This was in Johnson County, Texas.” The defendant denies these facts, but insists that he gave the prosecuting witness the pint of whisky. The facts in this case were submitted to the court, without a jury, and upon same he found appellant guilty. The facts are very much similar to the following cases: Fred Potts v. State, 52 Texas Crim. Rep., 368; Roach v. State, 47 Texas Crim. Rep., 500; 11 Texas Ct. Rep., 985; Hays v. State, 47 Texas Crim. Rep., 149; 11 Texas Ct. Rep., 439; and Hollar v. State, 7 Texas Ct. Rep., 552.\nFinding no error in the record, the judgment is affirmed.\nAffirmed.",
+                                          "type":  "majority",
+                                          "author":  "BROOKS, Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "A. S. Bledsoe and II. P. Brown, for appellant.",
+                                       "F. J. McCord, Assistant Attorney-General, and J. E. Kugle, County Attorney, and J. E. Warren, and W. E. Myers, Assistants, for the State. —Citing cases in opinion."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Jesse Human v. The State.\nNo. 4183.\nDecided February 5, 1908.\n1. —Local Option—Indictment.\n\u0027 Where upon trial for a violation of the local option law, the indictment followed approved precedent, there was no error.\n2. —Same—Sufficiency of Evidence.\nWhere upon trial for a violation of the local option law there was a conflict of testimony as to the sale, the verdict will not be disturbed.\nAppeal from the County Court of Johnson. Tried below before the Hon. F. E. Adams.\nAppeal from a conviction of a violation of the local option law; penalty, a fine of $25 and twenty days confinement in the county jail.\nThe opinion states the case.\nA. S. Bledsoe and II. P. Brown, for appellant.\n—On question of sale, Lane v. State, 49 Texas Crim. Rep., 335; 92 S. W. Rep., 839; Oshennessey v. State, 49 Texas Crim. Rep., 600; 96 S. W. Rep., 790; Isom v. State, 49 Texas Crim. Rep., 610; 95 S. W. Rep., 518; Blasingame v. State, 47 Texas Crim. Rep., 582; 12 Texas Ct. Rep., 305; Chenowith v. State, 50 Texas Crim. Rep., 638; 96 S. W. Rep., 19.\nF. J. McCord, Assistant Attorney-General, and J. E. Kugle, County Attorney, and J. E. Warren, and W. E. Myers, Assistants, for the State. —Citing cases in opinion."
+                 },
+    "file_name":  "1234-01",
+    "first_page_order":  492,
+    "last_page_order":  493
+}

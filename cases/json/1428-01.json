@@ -1,0 +1,149 @@
+﻿{
+    "id":  8547466,
+    "name":  "Ex Parte Salvador Garcia",
+    "name_abbreviation":  "Ex parte Garcia",
+    "decision_date":  "1959-01-07",
+    "docket_number":  "No. 30,254",
+    "first_page":  "159",
+    "last_page":  "159",
+    "citations":  [
+                      {
+                          "type":  "official",
+                          "cite":  "167 Tex. Crim. 159"
+                      }
+                  ],
+    "court":  {
+                  "name_abbreviation":  "Tex. Crim. App.",
+                  "id":  8990,
+                  "name":  "Texas Court of Criminal Appeals"
+              },
+    "jurisdiction":  {
+                         "id":  32,
+                         "name_long":  "Texas",
+                         "name":  "Tex."
+                     },
+    "cites_to":  [
+                     {
+                         "cite":  "288 S.W. 2d 773",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10180740
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/288/0773-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "162 Texas Cr. Rep. 689",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "opinion_index":  0
+                     },
+                     {
+                         "cite":  "261 S.W. 2d 844",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10185867
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/261/0844-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "159 Texas Cr. Rep. 161",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2475194
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/159/0161-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "299 S.W. 2d 942",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10183295
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/299/0942-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "164 Texas Cr. Rep. 462",
+                         "category":  "reporters:state",
+                         "reporter":  "Tex. Crim.",
+                         "case_ids":  [
+                                          2610340
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/tex-crim/164/0462-01"
+                                        ]
+                     },
+                     {
+                         "cite":  "289 S.W. 2d 278",
+                         "category":  "reporters:state_regional",
+                         "reporter":  "S.W.2d",
+                         "case_ids":  [
+                                          10167754,
+                                          10167838
+                                      ],
+                         "opinion_index":  0,
+                         "case_paths":  [
+                                            "/sw2d/289/0278-01",
+                                            "/sw2d/289/0278-02"
+                                        ]
+                     }
+                 ],
+    "analysis":  {
+                     "cardinality":  118,
+                     "char_count":  1146,
+                     "ocr_confidence":  0.61,
+                     "pagerank":  {
+                                      "raw":  2.0856286796171055E-07,
+                                      "percentile":  0.7596562579517184
+                                  },
+                     "sha256":  "90509c98afd31105a3d1318aebcd4d03d69d7b72b274e8307bef148a3280f889",
+                     "simhash":  "1:55410d2961e5b617",
+                     "word_count":  202
+                 },
+    "last_updated":  "2024-02-27T19:50:47.566748+00:00",
+    "provenance":  {
+                       "date_added":  "2019-08-29",
+                       "source":  "Harvard",
+                       "batch":  "2018"
+                   },
+    "casebody":  {
+                     "judges":  [
+
+                                ],
+                     "parties":  [
+                                     "Ex Parte Salvador Garcia."
+                                 ],
+                     "opinions":  [
+                                      {
+                                          "text":  "MORRISON, Presiding Judge.\nThis is an appeal from an order of the district court of Tom Green County remanding relator to the custody of the sheriff of said county for delivery to an agent of the State of Montana.\nThe state introduced in evidence the executive warrant of the Governor of this state which made out a prima facie case authorizing the return of relator. Ex parte Wiggins, 289 S.W. 2d 278, and case there cited.\nThe demand of the Governor of Montana and the supporting papers which were introduced did not defeat this prima facie case. Ex parte Robinson, 164 Texas Cr. Rep. 462, 299 S.W. 2d 942.\nRelator testified that the check which he gave to the injured party in Montana was evidence of a debt. The question of guilt or innocence may not be inquired into in an extradition proceedings. Article 1008a, Sec. 20, V.A.C.C.P.; Ex parte Thompson, 159 Texas Cr. Rep. 161, 261 S.W. 2d 844; and Ex parte Cuttrell, 162 Texas Cr. Rep. 689, 288 S.W. 2d 773.\nThe judgment is affirmed.",
+                                          "type":  "majority",
+                                          "author":  "MORRISON, Presiding Judge."
+                                      }
+                                  ],
+                     "attorneys":  [
+                                       "No attorney for appellant of record on appeal.",
+                                       "Leon Douglas, State’s Attorney, Austin, for the state."
+                                   ],
+                     "corrections":  "",
+                     "head_matter":  "Ex Parte Salvador Garcia.\nNo. 30,254.\nJanuary 7, 1959.\nNo attorney for appellant of record on appeal.\nLeon Douglas, State’s Attorney, Austin, for the state."
+                 },
+    "file_name":  "1428-01",
+    "first_page_order":  177,
+    "last_page_order":  177
+}

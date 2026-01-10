@@ -733,6 +733,8 @@ function Update()
     if (player && !player.IsDead() && playerData && playerData.coins < 0)
     {
         console.log('[GAME OVER] Player money went below $0. Triggering game over.');
+        // Set coins to 0 so HUD displays $0 instead of negative value
+        playerData.coins = 0;
         player.Kill();
         if (typeof ShowErrorNotification !== 'undefined') {
             ShowErrorNotification('You ran out of money. Game Over.');
@@ -1199,7 +1201,11 @@ function PostRender()
         mainCanvasContext.strokeRect(coinDisplayX - coinDisplayWidth/2, coinDisplayY - coinDisplayHeight/2, coinDisplayWidth, coinDisplayHeight);
         
         // Draw coin count as "$x" format
+        // If player is dead and coins are negative, display $0 instead
         let coinCount = playerData ? playerData.coins : 0;
+        if (player && player.IsDead() && coinCount < 0) {
+            coinCount = 0;
+        }
         let coinText = '$' + coinCount.toString();
         DrawText(coinText, coinDisplayX, coinDisplayY, 12, 'center', 1, '#4F4', '#000');
     }
@@ -1999,6 +2005,8 @@ class Player extends MyGameObject
     {  
         this.BloodSplat(2);
         PlaySound(2);
+        // Set health to 0 so IsDead() returns true (but don't call super.Kill() to avoid destroying player object)
+        this.health = 0;
     }
 }
 

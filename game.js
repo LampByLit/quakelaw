@@ -4824,7 +4824,7 @@ function DropItem(slotIndex, item) {
     
     SaveGameState();
     
-    // Clone the item object to avoid reference issues
+    // Clone the item object to avoid reference issues - preserve ALL properties including metadata
     let clonedItem = {
         type: item.type,
         name: item.name,
@@ -4832,6 +4832,18 @@ function DropItem(slotIndex, item) {
         tileY: item.tileY !== undefined ? item.tileY : 5,
         quantity: item.quantity !== undefined ? item.quantity : 1
     };
+    
+    // Preserve metadata if it exists (critical for recordings, documents, bonuses, case files)
+    if (item.metadata) {
+        clonedItem.metadata = JSON.parse(JSON.stringify(item.metadata)); // Deep clone metadata
+    }
+    
+    // Preserve any other properties that might exist
+    for (let key in item) {
+        if (!clonedItem.hasOwnProperty(key) && key !== 'metadata') {
+            clonedItem[key] = item[key];
+        }
+    }
     
     // Create dropped item on ground in front of player (thrown forward)
     let dropPos = player.pos.Clone();
@@ -4880,6 +4892,7 @@ class DroppedEvidence extends MyGameObject
         this.timeOffset = Rand(9);
         this.pickupDelay = new Timer();
         this.pickupDelay.Set(0.3); // Prevent pickup for 0.3 seconds after dropping
+        this.isPickedUp = false; // Guard flag to prevent multiple pickups
         // Note: Not setting isSmallPickup so it appears both indoors and outdoors
     }
     
@@ -4905,8 +4918,8 @@ class DroppedEvidence extends MyGameObject
         // Bob up and down like pickups
         this.height = .1 + .1 * Math.sin(2 * time + this.timeOffset);
         
-        // Let player pick it up (only after delay has elapsed)
-        if (player && !player.IsDead() && this.pickupDelay.Elapsed() && player.IsTouching(this)) {
+        // Let player pick it up (only after delay has elapsed and not already picked up)
+        if (!this.isPickedUp && player && !player.IsDead() && this.pickupDelay.Elapsed() && player.IsTouching(this)) {
             this.Pickup();
         }
         
@@ -4915,6 +4928,14 @@ class DroppedEvidence extends MyGameObject
     
     Pickup()
     {
+        // CRITICAL: Prevent multiple pickups - return immediately if already picked up
+        if (this.isPickedUp) {
+            return;
+        }
+        
+        // Set flag immediately to prevent any duplicate pickups
+        this.isPickedUp = true;
+        
         // Coins cannot be picked up from dropped items - they go directly to coin count
         if (this.item.type === 'coin') {
             // Add to coin count instead of inventory
@@ -4924,16 +4945,22 @@ class DroppedEvidence extends MyGameObject
                 SaveGameState();
                 PlaySound(10); // Use coin pickup sound
                 this.Destroy();
+            } else {
+                // playerData is null - reset flag so pickup can be attempted again
+                this.isPickedUp = false;
             }
             return;
         }
         
         // Add back to inventory if there's space
-        if (playerData && playerData.inventory.length < 16) {
+        if (playerData && playerData.inventory && playerData.inventory.length < 16) {
             playerData.inventory.push(this.item);
             SaveGameState();
             PlaySound(10); // Use coin pickup sound
             this.Destroy();
+        } else {
+            // Inventory full or playerData missing - reset flag so player can try again later
+            this.isPickedUp = false;
         }
     }
     

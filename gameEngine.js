@@ -113,20 +113,82 @@ class GameObject
         // check collision
         let size = this.collisionSize;
         let clear = level.IsAreaClear(newPos,size,this);
+        
         if (!clear)
         {
-            // test which side we bounced off of (or both)
-            let isClearX = level.IsAreaClear(new Vector2(newPos.x,oldPos.y),size);
-            let isClearY = level.IsAreaClear(new Vector2(oldPos.x,newPos.y),size);
-            if (!isClearX || isClearY)
+            // Check if there are solid objects (rocks/bushes) - these block movement
+            let hasObjects = level.HasSolidObjects(newPos,size,this);
+            
+            if (hasObjects)
             {
-                newPos.x = oldPos.x;
-                this.velocity.x *= -.5;
+                // Solid objects block movement completely (current behavior)
+                let isClearX = level.IsAreaClear(new Vector2(newPos.x,oldPos.y),size,this);
+                let isClearY = level.IsAreaClear(new Vector2(oldPos.x,newPos.y),size,this);
+                if (!isClearX || isClearY)
+                {
+                    newPos.x = oldPos.x;
+                    this.velocity.x *= -.5;
+                }
+                if (!isClearY || isClearX)
+                {
+                    newPos.y = oldPos.y;
+                    this.velocity.y *= -.5;
+                }
             }
-            if (!isClearY || isClearX)
+            else
             {
-                newPos.y = oldPos.y;
-                this.velocity.y *= -.5;
+                // Solid terrain (type=0) - allow slow movement (5% speed)
+                // Check X and Y axes separately for proper sliding behavior
+                let moveX = newPos.x - oldPos.x;
+                let moveY = newPos.y - oldPos.y;
+                
+                // Check if X movement would hit solid terrain (but not objects)
+                let testX = new Vector2(newPos.x, oldPos.y);
+                let hasTerrainX = level.HasSolidTerrain(testX, size);
+                let hasObjectsX = level.HasSolidObjects(testX, size, this);
+                
+                if (hasObjectsX)
+                {
+                    // Object blocks X movement completely
+                    newPos.x = oldPos.x;
+                    this.velocity.x *= -.5;
+                }
+                else if (hasTerrainX)
+                {
+                    // Solid terrain allows 5% of X movement
+                    newPos.x = oldPos.x + moveX * 0.05;
+                    this.velocity.x *= 0.05;
+                }
+                else if (!level.IsAreaClear(testX, size, this))
+                {
+                    // Something else blocks X (fallback)
+                    newPos.x = oldPos.x;
+                    this.velocity.x *= -.5;
+                }
+                
+                // Check if Y movement would hit solid terrain (but not objects)
+                let testY = new Vector2(oldPos.x, newPos.y);
+                let hasTerrainY = level.HasSolidTerrain(testY, size);
+                let hasObjectsY = level.HasSolidObjects(testY, size, this);
+                
+                if (hasObjectsY)
+                {
+                    // Object blocks Y movement completely
+                    newPos.y = oldPos.y;
+                    this.velocity.y *= -.5;
+                }
+                else if (hasTerrainY)
+                {
+                    // Solid terrain allows 5% of Y movement
+                    newPos.y = oldPos.y + moveY * 0.05;
+                    this.velocity.y *= 0.05;
+                }
+                else if (!level.IsAreaClear(testY, size, this))
+                {
+                    // Something else blocks Y (fallback)
+                    newPos.y = oldPos.y;
+                    this.velocity.y *= -.5;
+                }
             }
         }
         this.pos = newPos;
@@ -730,6 +792,8 @@ class LevelData
     
     Clear() { this.type=this.object=this.road=0; }
     IsSolid() { return !this.type || this.object; }
+    IsSolidTerrain() { return !this.type && !this.object; } // Solid terrain (type=0) but no objects
+    HasSolidObject() { return this.object != 0; } // Has rock or bush
 }
 
 class Level
@@ -784,6 +848,72 @@ class Level
                 yo = y+size;
         }
         return 1;
+    }
+
+    // Check if area has solid objects (rocks/bushes) that should block movement
+    HasSolidObjects(pos,size,gameObject=0)
+    {
+        let y = pos.y;
+        let x = pos.x;
+        for(let yo = y - size; yo <= y + size; )
+        {
+            for(let xo = x - size; xo <= x + size;)
+            {
+                let p = new Vector2(Math.floor(xo)+.5,Math.floor(yo)+.5);
+                let data = this.GetDataFromPos(p);
+                if (gameObject)
+                {
+                    // Check if gameObject collides with objects (rocks/bushes)
+                    if (gameObject.CollideLevel(data,p) && data.HasSolidObject())
+                        return 1;
+                }
+                else if (data.HasSolidObject())
+                    return 1;
+
+                if (xo==x+size)
+                    break;
+                ++xo;
+                if (xo > x+size)
+                    xo = x+size;
+            }
+
+            if (yo==y+size)
+                break;
+            ++yo;
+            if (yo > y+size)
+                yo = y+size;
+        }
+        return 0;
+    }
+
+    // Check if area has solid terrain (type=0) but no objects
+    HasSolidTerrain(pos,size)
+    {
+        let y = pos.y;
+        let x = pos.x;
+        for(let yo = y - size; yo <= y + size; )
+        {
+            for(let xo = x - size; xo <= x + size;)
+            {
+                let p = new Vector2(Math.floor(xo)+.5,Math.floor(yo)+.5);
+                let data = this.GetDataFromPos(p);
+                if (data.IsSolidTerrain())
+                    return 1;
+
+                if (xo==x+size)
+                    break;
+                ++xo;
+                if (xo > x+size)
+                    xo = x+size;
+            }
+
+            if (yo==y+size)
+                break;
+            ++yo;
+            if (yo > y+size)
+                yo = y+size;
+        }
+        return 0;
     }
 
     FillCircleObject(pos,r,object) { this.FillCircleCallback(pos,r,d=>d.object=d.type?object:d.object); }

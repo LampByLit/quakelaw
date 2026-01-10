@@ -1678,6 +1678,13 @@ class Player extends MyGameObject
     
     Update() 
     {
+        // Check if player has left town bounds - kill them if so
+        if (this.pos.x < 0 || this.pos.x >= levelSize || this.pos.y < 0 || this.pos.y >= levelSize)
+        {
+            this.Kill();
+            return;
+        }
+        
         // keep player data updated
         playerData.health = this.health;
         if (this.IsDead() || this.IsIntro())

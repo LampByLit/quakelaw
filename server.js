@@ -1815,6 +1815,44 @@ app.post('/api/npc/generate-document/:surname', async (req, res) => {
         const job = npcData.job || '';
         const characteristic = npcData.characteristic || '';
         
+        // Load NPC's known facts from gossip network
+        let knownFactsText = '';
+        try {
+            const gossipNetwork = await loadGossipNetwork(sessionId);
+            if (gossipNetwork && gossipNetwork.npcKnowledge && gossipNetwork.npcKnowledge[surname]) {
+                const npcKnowledge = gossipNetwork.npcKnowledge[surname];
+                if (npcKnowledge && npcKnowledge.knownFacts && Array.isArray(npcKnowledge.knownFacts) && npcKnowledge.knownFacts.length > 0) {
+                    // Get last 10 facts to keep context relevant and manage token usage
+                    const factsList = npcKnowledge.knownFacts
+                        .filter(fact => fact && fact.content) // Filter out invalid facts
+                        .slice(-10) // Last 10 facts
+                        .map((fact, idx) => `${idx + 1}. "${fact.content}"`)
+                        .join('\n');
+                    if (factsList) {
+                        knownFactsText = `\n\nYou know the following information from conversations and gossip:\n${factsList}\n`;
+                    }
+                }
+            }
+        } catch (gossipError) {
+            console.error(`[DOCUMENT] Error loading gossip network for ${surname}:`, gossipError);
+            // Continue without known facts - don't fail document generation
+        }
+        
+        // Extract recent conversation history (last 8 messages for context)
+        let conversationContext = '';
+        if (conversation && conversation.conversation && Array.isArray(conversation.conversation) && conversation.conversation.length > 0) {
+            const recentMessages = conversation.conversation.slice(-8); // Last 8 messages
+            const conversationHistory = recentMessages
+                .map(msg => {
+                    const role = msg.role === 'player' ? 'Player' : surname;
+                    return `${role}: ${msg.message}`;
+                })
+                .join('\n');
+            if (conversationHistory) {
+                conversationContext = `\n\nRecent conversation with the player:\n${conversationHistory}\n`;
+            }
+        }
+        
         // Determine document type based on job
         let documentType = 'document';
         let documentContext = '';
@@ -1850,10 +1888,10 @@ app.post('/api/npc/generate-document/:surname', async (req, res) => {
             basePrice = Math.min(50, Math.floor(basePrice * 1.2)); // 20% markup
         }
         
-        // Create prompt for document generation
-        const systemPrompt = `You are ${surname}, a ${characteristic} ${job}. Generate a unique, original ${documentContext} that reflects your profession and personality. The document should be professional, detailed, and appropriate for your job. Make it interesting and specific - not generic.`;
+        // Create prompt for document generation with context
+        const systemPrompt = `You are ${surname}, a ${characteristic} ${job}. Generate a unique, original ${documentContext} that reflects your profession and personality. The document should be professional, detailed, and appropriate for your job. Make it interesting and specific - not generic.${knownFactsText}${conversationContext}\n\nIMPORTANT: The document you create should be relevant to the conversation you've been having with the player and reflect the information you know. It should feel like a natural continuation of your discussion, incorporating topics, themes, or specific details from your conversation and your knowledge.`;
         
-        const userPrompt = `Create a unique ${documentType} document. It should be approximately 100 words (maximum 100 words), professional, and reflect your work as a ${job}. Be creative and specific - this is an original document you've created.`;
+        const userPrompt = `Create a unique ${documentType} document that is relevant to your recent conversation with the player and reflects your knowledge. It should be approximately 100 words (maximum 100 words), professional, and reflect your work as a ${job}. Be creative and specific - this is an original document you've created that relates to what you and the player have been discussing.`;
         
         const requestBody = {
             model: process.env.DEEPSEEK_MODEL || 'deepseek-chat',
@@ -1897,7 +1935,9 @@ app.post('/api/npc/generate-document/:surname', async (req, res) => {
         // Generate a title for the document
         let documentTitle = `${surname}'s ${documentType.charAt(0).toUpperCase() + documentType.slice(1)} Document`;
         try {
-            const titlePrompt = `Generate a short, professional title (3-8 words) for this ${documentType} document created by a ${job}. Just return the title, nothing else.`;
+            // Include context in title generation
+            const titleContext = conversationContext ? `\n\nContext from recent conversation:\n${conversationContext}` : '';
+            const titlePrompt = `Generate a short, professional title (3-8 words) for this ${documentType} document created by a ${job}. The title should reflect the document's content and be relevant to your conversation with the player. Just return the title, nothing else.${titleContext}`;
             
             const titleResponse = await fetch('https://api.deepseek.com/v1/chat/completions', {
                 method: 'POST',
@@ -1910,7 +1950,7 @@ app.post('/api/npc/generate-document/:surname', async (req, res) => {
                     messages: [
                         {
                             role: 'system',
-                            content: `You are ${surname}, a ${characteristic} ${job}.`
+                            content: `You are ${surname}, a ${characteristic} ${job}.${knownFactsText}`
                         },
                         {
                             role: 'user',

@@ -1179,7 +1179,7 @@ function PostRender()
     // Display calendar-style time and date (top-left, center-aligned)
     if (gameTime)
     {
-        let x = 50; // Fixed left position
+        let x = 40; // Fixed left position
         let y = 10; // Start from top
         
         // Time at top (small) - center-aligned with other elements
@@ -1192,7 +1192,7 @@ function PostRender()
         DrawText(gameTime.dayOfMonth.toString(), x, y + 42, 28, 'center', 1, '#FFF', '#000');
         
         // Day of week at bottom (medium) - same distance from date as month, center-aligned
-        DrawText(gameTime.GetDayName().toUpperCase(), x, y + 66, 12, 'center', 1, '#FFF', '#000');
+        DrawText(gameTime.GetDayName().substring(0, 3).toUpperCase(), x, y + 66, 12, 'center', 1, '#FFF', '#000');
     }
     
     // Coin display HUD (below time/date, above inventory button)

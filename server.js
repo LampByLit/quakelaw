@@ -32,11 +32,21 @@ const conversationsDir = path.join(dataDir, 'conversations');
 
 // Helper function to sanitize session ID for directory names
 function sanitizeSessionId(sessionId) {
-    if (!sessionId || typeof sessionId !== 'string') {
-        throw new Error('Session ID is required and must be a string');
+    if (!sessionId) {
+        throw new Error('Session ID is required');
+    }
+    if (typeof sessionId !== 'string') {
+        throw new Error(`Session ID must be a string, got ${typeof sessionId}`);
+    }
+    if (sessionId.trim().length === 0) {
+        throw new Error('Session ID cannot be empty');
     }
     // Only allow alphanumeric, hyphens, and underscores, remove any path traversal attempts
-    return sessionId.replace(/[^a-zA-Z0-9\-_]/g, '').substring(0, 100);
+    const sanitized = sessionId.replace(/[^a-zA-Z0-9\-_]/g, '').substring(0, 100);
+    if (sanitized.length === 0) {
+        throw new Error('Session ID became empty after sanitization');
+    }
+    return sanitized;
 }
 
 // Helper function to sanitize NPC surname for file names
@@ -1456,14 +1466,24 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
         // Load NPC's known facts from gossip network (for non-judge NPCs)
         let knownFactsText = '';
         if (!isJudge) {
-            const gossipNetwork = await loadGossipNetwork(sessionId);
-            const npcKnowledge = gossipNetwork.npcKnowledge[surname];
-            if (npcKnowledge && npcKnowledge.knownFacts && npcKnowledge.knownFacts.length > 0) {
-                const factsList = npcKnowledge.knownFacts
-                    .slice(-10) // Last 10 facts to avoid token bloat
-                    .map((fact, idx) => `${idx + 1}. "${fact.content}"`)
-                    .join('\n');
-                knownFactsText = `\n\nYou know the following information from conversations and gossip:\n${factsList}\n\nYou can naturally reference this knowledge when talking to the player.`;
+            try {
+                const gossipNetwork = await loadGossipNetwork(sessionId);
+                if (gossipNetwork && gossipNetwork.npcKnowledge && gossipNetwork.npcKnowledge[surname]) {
+                    const npcKnowledge = gossipNetwork.npcKnowledge[surname];
+                    if (npcKnowledge && npcKnowledge.knownFacts && Array.isArray(npcKnowledge.knownFacts) && npcKnowledge.knownFacts.length > 0) {
+                        const factsList = npcKnowledge.knownFacts
+                            .filter(fact => fact && fact.content) // Filter out invalid facts
+                            .slice(-10) // Last 10 facts to avoid token bloat
+                            .map((fact, idx) => `${idx + 1}. "${fact.content}"`)
+                            .join('\n');
+                        if (factsList) {
+                            knownFactsText = `\n\nYou know the following information from conversations and gossip:\n${factsList}\n\nYou can naturally reference this knowledge when talking to the player.`;
+                        }
+                    }
+                }
+            } catch (gossipError) {
+                console.error(`[CONVERSATION] Error loading gossip network for ${surname}:`, gossipError);
+                // Continue without known facts - don't fail the entire conversation
             }
         }
         
@@ -2177,6 +2197,12 @@ app.post('/api/npc/gossip/process', async (req, res) => {
         const locationGroups = {};
         
         for (const npc of npcLocations) {
+            // Skip NPCs without valid surnames
+            if (!npc || !npc.surname || typeof npc.surname !== 'string' || npc.surname.trim().length === 0) {
+                console.warn(`[GOSSIP] Skipping NPC with invalid surname:`, npc);
+                continue;
+            }
+            
             // Group by currentInterior (same building)
             const interiorKey = `interior:${npc.currentInterior || 'exterior'}`;
             if (!locationGroups[interiorKey]) {
@@ -2220,41 +2246,54 @@ app.post('/api/npc/gossip/process', async (req, res) => {
                     const npcA = group[i];
                     const npcB = group[j];
                     
+                    // Skip if either NPC has invalid data
+                    if (!npcA || !npcA.surname || !npcB || !npcB.surname) {
+                        continue;
+                    }
+                    
                     // Get their knowledge
                     const knowledgeA = network.npcKnowledge[npcA.surname];
                     const knowledgeB = network.npcKnowledge[npcB.surname];
                     
                     // NPC A shares with NPC B
-                    if (knowledgeA && knowledgeA.knownFacts) {
-                        const spreadRate = getSpreadRate(npcA.characteristic);
+                    if (knowledgeA && knowledgeA.knownFacts && Array.isArray(knowledgeA.knownFacts)) {
+                        const spreadRate = getSpreadRate(npcA.characteristic || 'friendly');
                         for (const fact of knowledgeA.knownFacts) {
-                            if (Math.random() < spreadRate) {
-                                // NPC B learns the fact (addFactToNPC handles deduplication and limit)
-                                const newFact = {
-                                    ...fact,
-                                    learnedFrom: npcA.surname,
-                                    type: 'gossip'
-                                };
-                                if (await addFactToNPC(sessionId, npcB.surname, newFact)) {
-                                    gossipCount++;
+                            if (fact && fact.content && Math.random() < spreadRate) {
+                                try {
+                                    // NPC B learns the fact (addFactToNPC handles deduplication and limit)
+                                    const newFact = {
+                                        ...fact,
+                                        learnedFrom: npcA.surname,
+                                        type: 'gossip'
+                                    };
+                                    if (await addFactToNPC(sessionId, npcB.surname, newFact)) {
+                                        gossipCount++;
+                                    }
+                                } catch (factError) {
+                                    console.error(`[GOSSIP] Error adding fact from ${npcA.surname} to ${npcB.surname}:`, factError);
                                 }
                             }
                         }
                     }
                     
                     // NPC B shares with NPC A
-                    if (knowledgeB && knowledgeB.knownFacts) {
-                        const spreadRate = getSpreadRate(npcB.characteristic);
+                    if (knowledgeB && knowledgeB.knownFacts && Array.isArray(knowledgeB.knownFacts)) {
+                        const spreadRate = getSpreadRate(npcB.characteristic || 'friendly');
                         for (const fact of knowledgeB.knownFacts) {
-                            if (Math.random() < spreadRate) {
-                                // NPC A learns the fact (addFactToNPC handles deduplication and limit)
-                                const newFact = {
-                                    ...fact,
-                                    learnedFrom: npcB.surname,
-                                    type: 'gossip'
-                                };
-                                if (await addFactToNPC(sessionId, npcA.surname, newFact)) {
-                                    gossipCount++;
+                            if (fact && fact.content && Math.random() < spreadRate) {
+                                try {
+                                    // NPC A learns the fact (addFactToNPC handles deduplication and limit)
+                                    const newFact = {
+                                        ...fact,
+                                        learnedFrom: npcB.surname,
+                                        type: 'gossip'
+                                    };
+                                    if (await addFactToNPC(sessionId, npcA.surname, newFact)) {
+                                        gossipCount++;
+                                    }
+                                } catch (factError) {
+                                    console.error(`[GOSSIP] Error adding fact from ${npcB.surname} to ${npcA.surname}:`, factError);
                                 }
                             }
                         }
@@ -2274,9 +2313,13 @@ app.post('/api/npc/gossip/process', async (req, res) => {
         
     } catch (error) {
         console.error('Error processing gossip:', error);
+        console.error('Error stack:', error.stack);
+        console.error('Session ID:', req.query.sessionId);
+        console.error('NPC Locations:', JSON.stringify(req.body.npcLocations, null, 2));
         res.status(500).json({ 
             error: 'Failed to process gossip',
-            message: error.message 
+            message: error.message,
+            details: process.env.NODE_ENV === 'development' ? error.stack : undefined
         });
     }
 });

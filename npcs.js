@@ -266,26 +266,26 @@ let npcEmojis = ['1F608', '1F609', '1F618', '1F619', '1F620', '1F621', '1F622', 
 // Each NPC will be assigned one of these jobs to help shape their dialogue
 let npcJobs = [
     'judge', 'clerk', 'bailiff', 'court reporter', 'paralegal', 'secretary', 'receptionist', 'legal assistant',
-    'accountant', 'bookkeeper', 'auditor', 'tax preparer', 'financial advisor',
+    'accountant', 'bookkeeper', 'auditor', 'tax preparer', 'financial advisor', 'jewish banker',
     'shopkeeper', 'cashier', 'store manager', 'sales associate', 'retail worker', 'merchant',
     'cook', 'waiter', 'bartender', 'chef', 'barista', 'server', 'restaurant manager',
-    'teacher', 'principal', 'student', 'librarian', 'professor', 'tutor',
-    'nurse', 'doctor', 'dentist', 'pharmacist', 'veterinarian', 'therapist',
+    'teacher', 'principal', 'student', 'librarian', 'professor', 'tutor', 'expert', 'scientist',
+    'nurse', 'doctor', 'dentist', 'pharmacist', 'veterinarian', 'therapist', 'surgeon',
     'mechanic', 'carpenter', 'plumber', 'electrician', 'contractor', 'handyman',
     'police officer', 'security guard', 'firefighter', 'detective', 'sheriff',
     'mail carrier', 'delivery driver', 'taxi driver', 'truck driver', 'bus driver',
     'architect', 'engineer', 'designer', 'artist', 'musician', 'writer', 'journalist',
-    'farmer', 'rancher', 'fisherman', 'gardener', 'landscaper',
+    'farmer', 'rancher', 'fisherman', 'gardener', 'landscaper', 'crackpot',
     'real estate agent', 'insurance agent', 'banker', 'loan officer',
     'hairdresser', 'barber', 'cosmetologist', 'tailor', 'seamstress',
-    'baker', 'butcher', 'grocer', 'florist', 'fishmonger',
-    'construction worker', 'roofer', 'painter', 'welder', 'mason',
-    'janitor', 'custodian', 'cleaner', 'maintenance worker',
+    'baker', 'butcher', 'grocer', 'florist', 'drug dealer', 'hitman',
+    'construction worker', 'roofer', 'painter', 'welder', 'mason', 'sex worker',
+    'janitor', 'custodian', 'cleaner', 'maintenance worker', 'street hooker',
     'office manager', 'administrative assistant', 'data entry clerk', 'file clerk',
     'photographer', 'videographer', 'filmmaker', 'graphic designer',
-    'coach', 'trainer', 'athlete', 'referee',
+    'coach', 'trainer', 'athlete', 'soldier', 'homeless pederast',
     'social worker', 'counselor', 'psychologist', 'psychiatrist',
-    'pilot', 'flight attendant', 'concierge', 'pornographer', 'maid', 'groundskeeper'
+    'pilot', 'unemployed', 'concierge', 'pornographer', 'maid', 'groundskeeper'
 ];
 
 // Load NPC sprite images

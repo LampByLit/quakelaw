@@ -1876,6 +1876,183 @@ function InitRentModal() {
 }
 
 ///////////////////////////////////////////////////////////////////////////////
+// Penalty Modal
+
+let penaltyModalOpen = false;
+let currentPenaltyAmount = 0;
+
+// Array of 40 silly legalese penalty descriptions
+const PENALTY_DESCRIPTIONS = [
+    "Violation of Municipal Ordinance 7.05(a)(iii): Improper sidewalk traversal methodology",
+    "Administrative fee for non-compliance with local zoning regulation subsection 12.8.4",
+    "Civil penalty assessed per Section 12.8.4 of the Town Code: Unauthorized public space utilization",
+    "Late filing fee for Form 7.05-B: Daily Activity Report (mandatory submission)",
+    "Regulatory compliance assessment: Failure to maintain proper pedestrian traffic patterns",
+    "Municipal fine pursuant to Code Section 23.7.2: Inadequate documentation of daily movements",
+    "Penalty under Ordinance 4.11(c): Violation of municipal timekeeping standards",
+    "Administrative surcharge per Regulation 9.3.1: Non-standard business hour compliance",
+    "Civil assessment per Town Code 15.6.8: Improper use of public thoroughfares",
+    "Fee assessed under Municipal Rule 8.2.4: Failure to observe proper decorum in public spaces",
+    "Penalty pursuant to Section 11.9.3: Violation of local business conduct standards",
+    "Administrative penalty per Ordinance 6.5.7: Non-compliance with municipal scheduling protocols",
+    "Fine assessed under Code Section 13.4.2: Improper maintenance of professional appearance standards",
+    "Civil penalty per Regulation 7.8.1: Violation of municipal noise abatement guidelines",
+    "Fee pursuant to Town Code 10.2.5: Failure to maintain adequate professional documentation",
+    "Penalty under Ordinance 5.12.9: Non-standard interaction protocols with municipal entities",
+    "Administrative assessment per Section 14.7.3: Violation of municipal communication standards",
+    "Fine assessed under Code 9.1.6: Improper utilization of public infrastructure resources",
+    "Civil surcharge per Regulation 16.4.8: Non-compliance with local professional conduct rules",
+    "Penalty pursuant to Ordinance 3.8.2: Violation of municipal time management requirements",
+    "Fee assessed under Section 18.5.7: Failure to observe proper public space etiquette",
+    "Administrative penalty per Code 2.9.4: Non-standard compliance with municipal reporting obligations",
+    "Fine under Regulation 19.6.1: Violation of local professional service delivery standards",
+    "Civil assessment per Town Code 20.3.9: Improper documentation of professional activities",
+    "Penalty pursuant to Ordinance 1.7.5: Non-compliance with municipal record-keeping requirements",
+    "Fee assessed under Section 21.8.2: Violation of local business operation protocols",
+    "Administrative surcharge per Code 22.4.6: Failure to maintain adequate professional standards",
+    "Penalty under Regulation 17.2.8: Non-standard adherence to municipal conduct guidelines",
+    "Fine assessed per Town Code 6.1.3: Violation of municipal professional licensing requirements",
+    "Civil penalty pursuant to Ordinance 8.9.7: Improper utilization of public service resources",
+    "Fee under Section 12.5.4: Non-compliance with local professional ethics standards",
+    "Administrative assessment per Code 15.3.1: Violation of municipal client interaction protocols",
+    "Penalty pursuant to Regulation 4.7.9: Failure to observe proper professional boundaries",
+    "Fine assessed under Town Code 7.2.6: Non-standard compliance with municipal disclosure requirements",
+    "Civil surcharge per Ordinance 11.6.8: Violation of local professional responsibility standards",
+    "Fee assessed under Section 13.9.5: Improper documentation of professional service delivery",
+    "Administrative penalty per Code 5.4.2: Non-compliance with municipal conflict of interest rules",
+    "Penalty under Regulation 9.8.7: Violation of municipal professional competency standards",
+    "Fine pursuant to Town Code 14.1.4: Failure to maintain adequate professional development records",
+    "Civil assessment per Ordinance 16.7.3: Non-standard adherence to municipal professional conduct codes"
+];
+
+// Check if penalty modal is open
+function IsPenaltyModalOpen() {
+    return penaltyModalOpen;
+}
+
+// Show penalty modal
+function ShowPenaltyModal() {
+    if (penaltyModalOpen || typeof playerData === 'undefined') {
+        return;
+    }
+    
+    penaltyModalOpen = true;
+    
+    const modal = document.getElementById('penaltyModal');
+    const messageEl = document.getElementById('penaltyMessage');
+    const balanceEl = document.getElementById('penaltyBalance');
+    const okButton = document.getElementById('okPenaltyModal');
+    
+    // Random penalty amount between $10 and $100
+    currentPenaltyAmount = Math.floor(Math.random() * 91) + 10;
+    
+    // Random penalty description
+    const randomDescription = PENALTY_DESCRIPTIONS[Math.floor(Math.random() * PENALTY_DESCRIPTIONS.length)];
+    
+    const currentCoins = playerData.coins || 0;
+    const canAfford = currentCoins >= currentPenaltyAmount;
+    
+    // Set message based on whether player can afford penalty
+    if (canAfford) {
+        messageEl.textContent = `${randomDescription}\n\nPENALTY: $${currentPenaltyAmount}\n\nYou have enough money to pay the penalty.`;
+        messageEl.style.color = '#fff';
+    } else {
+        messageEl.textContent = `${randomDescription}\n\nPENALTY: $${currentPenaltyAmount}\n\nYou cannot afford this penalty!\n\nGAME OVER`;
+        messageEl.style.color = '#ff4444';
+    }
+    
+    // Show current balance
+    balanceEl.textContent = `Current Balance: $${currentCoins}`;
+    
+    // Show modal
+    modal.classList.add('open');
+    
+    // Wire up OK button (only once, on first call)
+    if (!okButton.hasAttribute('data-wired')) {
+        okButton.setAttribute('data-wired', 'true');
+        okButton.addEventListener('click', () => {
+            HandlePenaltyPayment();
+        });
+    }
+    
+    console.log(`[PENALTY] Penalty modal shown. Amount: $${currentPenaltyAmount}, Can afford: ${canAfford}, Balance: $${currentCoins}`);
+}
+
+// Handle penalty payment
+function HandlePenaltyPayment() {
+    if (!penaltyModalOpen || typeof playerData === 'undefined') {
+        return;
+    }
+    
+    const currentCoins = playerData.coins || 0;
+    const canAfford = currentCoins >= currentPenaltyAmount;
+    
+    if (canAfford) {
+        // Deduct penalty
+        playerData.coins = Math.max(0, currentCoins - currentPenaltyAmount);
+        
+        // Save game state
+        if (typeof SaveGameState === 'function') {
+            SaveGameState();
+        }
+        
+        console.log(`[PENALTY] Penalty paid. Deducted $${currentPenaltyAmount}. New balance: $${playerData.coins}`);
+        
+        // Close modal
+        ClosePenaltyModal();
+    } else {
+        // Cannot afford penalty - trigger game over
+        console.log('[PENALTY] Cannot afford penalty - triggering game over');
+        
+        // Close modal first
+        ClosePenaltyModal();
+        
+        // Trigger game over after a short delay
+        setTimeout(() => {
+            if (typeof player !== 'undefined' && player) {
+                player.Kill();
+            }
+            // Show game over message
+            if (typeof ShowErrorNotification !== 'undefined') {
+                ShowErrorNotification('You cannot afford the penalty. Game Over.');
+            }
+        }, 500);
+    }
+}
+
+// Close penalty modal
+function ClosePenaltyModal() {
+    if (!penaltyModalOpen) {
+        return;
+    }
+    
+    penaltyModalOpen = false;
+    
+    const modal = document.getElementById('penaltyModal');
+    if (modal) {
+        modal.classList.remove('open');
+    }
+    
+    console.log('[PENALTY] Penalty modal closed');
+}
+
+// Initialize penalty modal
+function InitPenaltyModal() {
+    const modal = document.getElementById('penaltyModal');
+    
+    // Prevent closing by clicking outside modal
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            // Don't close - player must click OK button
+            e.stopPropagation();
+        }
+    });
+    
+    // Prevent closing by ESC key
+    // The modal can only be closed via OK button
+}
+
+///////////////////////////////////////////////////////////////////////////////
 // Claim Modal Functions
 
 let claimModalOpen = false;
@@ -2370,12 +2547,14 @@ if (document.readyState === 'loading') {
         InitDialogueModal();
         InitJudgmentRulingModal();
         InitRentModal();
+        InitPenaltyModal();
         InitClaimRulingModal();
     });
 } else {
     InitDialogueModal();
     InitJudgmentRulingModal();
     InitRentModal();
+    InitPenaltyModal();
     InitClaimRulingModal();
 }
 

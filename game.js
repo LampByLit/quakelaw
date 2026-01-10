@@ -20,6 +20,7 @@ let levelColor = new Color();
 let levelFrame;
 let playerHomePos;
 let buildingSprites = {};
+let purchasedItemSprites = {};
 let currentInterior = null;
 let exteriorLevel = null;
 let playerExteriorPos = null;
@@ -48,6 +49,8 @@ let gameOverTimer = new Timer();
 let resetButtonHover = 0;
 let lawSchoolButtonHover = false;
 let lawSchoolModalOpen = false;
+let storeButtonHover = false;
+let storeModalOpen = false;
 let isLoadingWorld = false;
 let loadingProgress = 0;
 let loadingMessage = '';
@@ -356,6 +359,13 @@ function Reset()
                     }
                 }
             }
+            
+            // Load purchased items (after level is created)
+            if (saved.purchasedItems && Array.isArray(saved.purchasedItems))
+            {
+                // Store for loading after world is generated
+                window._savedPurchasedItems = saved.purchasedItems;
+            }
         }
         catch(e)
         {
@@ -538,6 +548,13 @@ function GenerateWorldAsync()
                                     {
                                         RestoreBanishedNPCs(window._savedBanishedNPCs);
                                         window._savedBanishedNPCs = null; // Clear temporary storage
+                                    }
+                                    
+                                    // Restore purchased items from save data (must be after level is created)
+                                    if (typeof window !== 'undefined' && window._savedPurchasedItems && typeof LoadPurchasedItems !== 'undefined')
+                                    {
+                                        LoadPurchasedItems(window._savedPurchasedItems);
+                                        window._savedPurchasedItems = null; // Clear temporary storage
                                     }
                                     
                                     // Initialize calendar tasks (Sunday Coffee and Case of the Mondays)
@@ -781,6 +798,24 @@ function Update()
         }
     }
     
+    // Check for Store button hover and click
+    {
+        let buttonX = mainCanvasSize.x - 50;
+        let buttonY = 25 + 32 + 32; // Position below law school button
+        let buttonWidth = 80;
+        let buttonHeight = 24;
+        
+        // Check if mouse is hovering over button
+        storeButtonHover = (mousePos.x >= buttonX - buttonWidth/2 && mousePos.x <= buttonX + buttonWidth/2 &&
+                            mousePos.y >= buttonY - buttonHeight/2 && mousePos.y <= buttonY + buttonHeight/2);
+        
+        // Check for Store button click
+        if (MouseWasPressed() && storeButtonHover)
+        {
+            OpenStoreModal();
+        }
+    }
+    
     // Check for inventory button hover and click
     // Don't allow inventory to open if dialogue modal is open
     if (!inventoryOpen && !(typeof IsDialogueModalOpen !== 'undefined' && IsDialogueModalOpen()))
@@ -949,6 +984,44 @@ function Update()
             if (typeof ShowRentModal !== 'undefined')
             {
                 ShowRentModal();
+            }
+        }
+    }
+    
+    // Check for random penalty at 07:05 (1/20 chance daily)
+    // Initialize flag if not exists
+    if (typeof penaltyCheckDoneToday === 'undefined')
+    {
+        window.penaltyCheckDoneToday = false;
+        window.lastPenaltyCheckDay = -1;
+    }
+    
+    // Reset flag when day changes
+    if (gameTime && window.lastPenaltyCheckDay !== gameTime.dayOfMonth)
+    {
+        window.penaltyCheckDoneToday = false;
+        window.lastPenaltyCheckDay = gameTime.dayOfMonth;
+    }
+    
+    // Check for random penalty
+    if (gameTime && playerData && 
+        gameTime.gameHour >= 7.05 && 
+        gameTime.gameHour < 7.06 &&
+        !window.penaltyCheckDoneToday)
+    {
+        // Only trigger if penalty modal is not already open and rent modal is not open
+        if ((typeof IsPenaltyModalOpen === 'undefined' || !IsPenaltyModalOpen()) &&
+            (typeof IsRentModalOpen === 'undefined' || !IsRentModalOpen()))
+        {
+            window.penaltyCheckDoneToday = true;
+            
+            // 1/20 chance (5%)
+            if (Math.random() < 0.05)
+            {
+                if (typeof ShowPenaltyModal !== 'undefined')
+                {
+                    ShowPenaltyModal();
+                }
             }
         }
     }
@@ -1173,6 +1246,27 @@ function PostRender()
         
         // Draw button text
         DrawText('Law School', buttonX, buttonY, 8, 'center', 1, '#FFF', '#000');
+    }
+    
+    // Store button (below law school button)
+    {
+        let buttonX = mainCanvasSize.x - 50;
+        let buttonY = 25 + 32 + 32; // Position below law school button
+        let buttonWidth = 80;
+        let buttonHeight = 24;
+        
+        // Draw button background (hover state is set in Update())
+        let bgColor = storeButtonHover ? '#4A4' : '#484';
+        mainCanvasContext.fillStyle = bgColor;
+        mainCanvasContext.fillRect(buttonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
+        
+        // Draw button border
+        mainCanvasContext.strokeStyle = '#FFF';
+        mainCanvasContext.lineWidth = 2;
+        mainCanvasContext.strokeRect(buttonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
+        
+        // Draw button text
+        DrawText('Store', buttonX, buttonY, 8, 'center', 1, '#FFF', '#000');
     }
     
     // centered hud text
@@ -3889,6 +3983,17 @@ function SaveGameState()
         gameState.banishedNPCs = GetBanishedNPCs();
     }
     
+    // Save purchased items
+    let purchasedItems = [];
+    for (let obj of gameObjects)
+    {
+        if (obj.isPurchasedItem && obj.Save)
+        {
+            purchasedItems.push(obj.Save());
+        }
+    }
+    gameState.purchasedItems = purchasedItems;
+    
     try
     {
         localStorage.lawyer_gameState = JSON.stringify(gameState);
@@ -4670,6 +4775,189 @@ class DroppedEvidence extends MyGameObject
         }
         
         mainCanvasContext.restore();
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// purchased items system
+
+function LoadPurchasedItemSprites(callback)
+{
+    // Load all purchased item sprite images
+    let spriteFiles = ['fridge.png', 'boat.png', 'car.png', 'jet.png'];
+    let loaded = 0;
+    let total = spriteFiles.length;
+    
+    spriteFiles.forEach(file => {
+        let img = new Image();
+        img.onload = () => {
+            purchasedItemSprites[file] = img;
+            loaded++;
+            if (loaded === total && callback)
+                callback();
+        };
+        img.onerror = () => {
+            // If sprite fails to load, still count it and proceed
+            console.warn(`Failed to load purchased item sprite: ${file}`);
+            loaded++;
+            if (loaded === total && callback)
+                callback();
+        };
+        img.src = file;
+    });
+}
+
+class PurchasedItem extends MyGameObject
+{
+    constructor(pos, itemType)
+    {
+        // Define item properties
+        let size, collisionSize, spriteFile;
+        switch(itemType)
+        {
+            case 'fridge':
+                size = 1.0;
+                collisionSize = 0.8;
+                spriteFile = 'fridge.png';
+                break;
+            case 'boat':
+                size = 2.5;
+                collisionSize = 2.0;
+                spriteFile = 'boat.png';
+                break;
+            case 'car':
+                size = 1.8;
+                collisionSize = 1.5;
+                spriteFile = 'car.png';
+                break;
+            case 'jet':
+                size = 3.5;
+                collisionSize = 3.0;
+                spriteFile = 'jet.png';
+                break;
+            default:
+                size = 1.0;
+                collisionSize = 0.8;
+                spriteFile = 'fridge.png';
+        }
+        
+        super(pos, 0, 0, size, collisionSize);
+        this.itemType = itemType;
+        this.spriteFile = spriteFile;
+        this.sprite = purchasedItemSprites[spriteFile];
+        this.isPurchasedItem = 1;
+        
+        // Create unique ID based on position
+        this.id = `purchased_${itemType}_${Math.round(pos.x * 100)}_${Math.round(pos.y * 100)}`;
+        
+        // Clear area around item and make it solid
+        level.FillCircleType(pos, size * 1.2, 1); // grass
+        level.FillCircleObject(pos, size * 1.5, 0); // clear objects
+        
+        // Make item area solid (impassable)
+        level.FillCircleCallback(pos, size * 0.9, (data) => {
+            if (!data.road) // Don't make roads solid
+                data.type = 0; // solid
+        });
+    }
+    
+    Render()
+    {
+        // Purchased items don't cast shadows - skip shadow render pass
+        if (shadowRenderPass)
+            return;
+        
+        // Check for sprite dynamically (in case it loads after item is created)
+        let sprite = purchasedItemSprites[this.spriteFile];
+        
+        // Custom transform for purchased items - no skewing, only proportional scaling
+        mainCanvasContext.save();
+        let drawPos = this.pos.Clone();
+        drawPos.y -= this.height; // Apply height offset
+        drawPos.Subtract(cameraPos).Multiply(tileSize*cameraScale);
+        drawPos.Add(mainCanvasSize.Clone(.5));
+        mainCanvasContext.translate(drawPos.x|0, drawPos.y|0);
+        
+        // Proportional scaling only (no skew)
+        let s = this.size.Clone(tileSize * cameraScale);
+        
+        if (sprite)
+        {
+            // Draw custom sprite with proportional scaling
+            mainCanvasContext.drawImage(sprite, -s.x, -s.y, s.x * 2, s.y * 2);
+        }
+        else
+        {
+            // Draw placeholder (gray rectangle)
+            mainCanvasContext.fillStyle = '#888';
+            mainCanvasContext.fillRect(-s.x, -s.y, s.x * 2, s.y * 2);
+            mainCanvasContext.strokeStyle = '#000';
+            mainCanvasContext.lineWidth = 2;
+            mainCanvasContext.strokeRect(-s.x, -s.y, s.x * 2, s.y * 2);
+        }
+        
+        mainCanvasContext.restore();
+    }
+    
+    Save()
+    {
+        return {
+            itemType: this.itemType,
+            pos: { x: this.pos.x, y: this.pos.y }
+        };
+    }
+}
+
+// Place purchased item at position
+function PlacePurchasedItem(itemType, pos)
+{
+    // Check if position is valid (not on road, not overlapping with other objects)
+    if (!level.IsAreaClear(pos, 1.0))
+    {
+        // Try to find a nearby valid position
+        let attempts = 0;
+        let found = false;
+        while (attempts < 10 && !found)
+        {
+            let angle = (attempts / 10) * Math.PI * 2;
+            let distance = 1.0 + attempts * 0.5;
+            let testPos = pos.Clone().AddXY(Math.cos(angle) * distance, Math.sin(angle) * distance);
+            
+            if (level.IsAreaClear(testPos, 1.0))
+            {
+                pos = testPos;
+                found = true;
+            }
+            attempts++;
+        }
+        
+        if (!found)
+        {
+            console.warn(`Could not find valid position for ${itemType}`);
+            return null;
+        }
+    }
+    
+    // Create the purchased item
+    let item = new PurchasedItem(pos, itemType);
+    gameObjects.push(item);
+    
+    return item;
+}
+
+// Load purchased items from save data
+function LoadPurchasedItems(itemsData)
+{
+    if (!itemsData || !Array.isArray(itemsData))
+        return;
+    
+    for (let itemData of itemsData)
+    {
+        if (itemData.itemType && itemData.pos)
+        {
+            let pos = new Vector2(itemData.pos.x, itemData.pos.y);
+            PlacePurchasedItem(itemData.itemType, pos);
+        }
     }
 }
 
@@ -5840,6 +6128,130 @@ function PlaySound(sound, p=0)
 }
 
 ///////////////////////////////////////////////////////////////////////////////
+// Store Modal
+
+// Initialize Store modal
+function InitStoreModal() {
+    const modal = document.getElementById('storeModal');
+    const closeBtn = document.getElementById('closeStoreModal');
+    
+    if (!modal || !closeBtn) {
+        console.warn('Store modal elements not found');
+        return;
+    }
+    
+    closeBtn.addEventListener('click', CloseStoreModal);
+    
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            CloseStoreModal();
+        }
+    });
+    
+    // ESC key to close
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && storeModalOpen) {
+            CloseStoreModal();
+        }
+    });
+    
+    // Purchase button handlers
+    const purchaseButtons = document.querySelectorAll('.store-item-button');
+    purchaseButtons.forEach(button => {
+        button.addEventListener('click', (e) => {
+            const itemType = button.getAttribute('data-item');
+            const price = parseInt(button.getAttribute('data-price'));
+            PurchaseItem(itemType, price);
+        });
+    });
+}
+
+// Open Store modal
+function OpenStoreModal() {
+    if (storeModalOpen) return;
+    
+    storeModalOpen = true;
+    const modal = document.getElementById('storeModal');
+    if (modal) {
+        UpdateStoreBalance();
+        UpdatePurchaseButtons();
+        modal.classList.add('open');
+    }
+}
+
+// Close Store modal
+function CloseStoreModal() {
+    if (!storeModalOpen) return;
+    
+    storeModalOpen = false;
+    const modal = document.getElementById('storeModal');
+    if (modal) {
+        modal.classList.remove('open');
+    }
+}
+
+// Update store balance display
+function UpdateStoreBalance() {
+    const balanceEl = document.getElementById('storeBalance');
+    if (balanceEl && typeof playerData !== 'undefined' && playerData) {
+        const coins = playerData.coins || 0;
+        balanceEl.textContent = `Balance: $${coins}`;
+    }
+}
+
+// Update purchase buttons based on available funds
+function UpdatePurchaseButtons() {
+    if (typeof playerData === 'undefined' || !playerData) return;
+    
+    const coins = playerData.coins || 0;
+    const purchaseButtons = document.querySelectorAll('.store-item-button');
+    
+    purchaseButtons.forEach(button => {
+        const price = parseInt(button.getAttribute('data-price'));
+        if (coins >= price) {
+            button.disabled = false;
+        } else {
+            button.disabled = true;
+        }
+    });
+}
+
+// Purchase item
+function PurchaseItem(itemType, price) {
+    if (typeof playerData === 'undefined' || !playerData) {
+        console.warn('Player data not available');
+        return;
+    }
+    
+    const coins = playerData.coins || 0;
+    if (coins < price) {
+        PlaySound(15); // Error sound
+        return;
+    }
+    
+    // Deduct coins
+    playerData.coins = coins - price;
+    
+    // Place item at player position
+    if (player && player.pos) {
+        PlacePurchasedItem(itemType, player.pos.Clone());
+    }
+    
+    // Update UI
+    UpdateStoreBalance();
+    UpdatePurchaseButtons();
+    
+    // Save game state
+    SaveGameState();
+    
+    // Play purchase sound
+    PlaySound(10); // Coin sound
+    
+    // Close modal after purchase
+    CloseStoreModal();
+}
+
+///////////////////////////////////////////////////////////////////////////////
 // Law School Modal
 
 // Initialize Law School modal
@@ -5920,17 +6332,21 @@ tileImage2.src = 'tiles2.png';
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
         InitLawSchoolModal();
+        InitStoreModal();
     });
 } else {
     InitLawSchoolModal();
+    InitStoreModal();
 }
 
 // Set up callback after both tiles load
 tilesLoadedCallback = () => {
-    // After all tiles load, load NPC sprites, then building sprites, then init
+    // After all tiles load, load NPC sprites, then building sprites, then purchased item sprites, then init
     LoadNPCSprites(() => {
         LoadBuildingSprites(() => {
-            Init();
+            LoadPurchasedItemSprites(() => {
+                Init();
+            });
         });
     });
 };

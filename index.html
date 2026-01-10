@@ -704,6 +704,84 @@ font-family: 'Press Start 2P', monospace;
 .rent-button:hover {
 background: #6ab3ff;
 }
+
+/* Penalty Modal Styles */
+#penaltyModal {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.95);
+z-index: 1003;
+font-family: 'Press Start 2P', monospace;
+}
+#penaltyModal.open {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.penalty-modal-content {
+background: #2a2a2a;
+border: 4px solid #ff6b6b;
+border-radius: 8px;
+width: 90%;
+max-width: 500px;
+display: flex;
+flex-direction: column;
+box-shadow: 0 0 20px rgba(255, 107, 107, 0.3);
+}
+.penalty-header {
+background: #1a1a1a;
+padding: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-bottom: 2px solid #ff6b6b;
+}
+.penalty-header h2 {
+color: #ff6b6b;
+font-size: 14px;
+margin: 0;
+}
+.penalty-body {
+padding: 30px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+align-items: center;
+}
+.penalty-message {
+color: #fff;
+font-size: 12px;
+text-align: center;
+line-height: 1.8;
+}
+.penalty-balance {
+color: #aaa;
+font-size: 10px;
+text-align: center;
+}
+.penalty-actions {
+padding: 15px;
+display: flex;
+justify-content: center;
+border-top: 2px solid #444;
+}
+.penalty-button {
+background: #ff6b6b;
+color: #fff;
+border: none;
+padding: 10px 30px;
+font-size: 10px;
+cursor: pointer;
+font-family: 'Press Start 2P', monospace;
+}
+.penalty-button:hover {
+background: #ff8888;
+}
+
 /* Law School Modal Styles */
 #lawSchoolModal {
 display: none;
@@ -735,6 +813,89 @@ text-align: left;
 }
 .law-school-text br {
 margin-bottom: 10px;
+}
+
+/* Store Modal Styles */
+#storeModal {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.8);
+z-index: 1000;
+font-family: 'Press Start 2P', monospace;
+}
+#storeModal.open {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.store-body {
+padding: 30px;
+max-height: 80vh;
+overflow-y: auto;
+background: #1a1a1a;
+min-width: 500px;
+}
+.store-item {
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+padding: 15px;
+background: #2a2a2a;
+border: 2px solid #444;
+border-radius: 4px;
+}
+.store-item-image {
+width: 64px;
+height: 64px;
+margin-right: 20px;
+image-rendering: pixelated;
+border: 2px solid #666;
+background: #333;
+}
+.store-item-info {
+flex: 1;
+}
+.store-item-name {
+color: #fff;
+font-size: 12px;
+margin-bottom: 8px;
+}
+.store-item-price {
+color: #ffd700;
+font-size: 10px;
+margin-bottom: 8px;
+}
+.store-item-button {
+padding: 8px 16px;
+font-size: 10px;
+background: #4A4;
+color: #fff;
+border: 2px solid #6C6;
+border-radius: 4px;
+cursor: pointer;
+font-family: 'Press Start 2P', monospace;
+}
+.store-item-button:hover {
+background: #6C6;
+}
+.store-item-button:disabled {
+background: #666;
+border-color: #888;
+color: #aaa;
+cursor: not-allowed;
+}
+.store-balance {
+text-align: center;
+color: #ffd700;
+font-size: 12px;
+margin-bottom: 20px;
+padding: 10px;
+background: #2a2a2a;
+border: 2px solid #444;
 }
 </style>
 </head>
@@ -850,6 +1011,22 @@ margin-bottom: 10px;
 </div>
 </div>
 
+<!-- Penalty Modal -->
+<div id="penaltyModal">
+<div class="penalty-modal-content">
+<div class="penalty-header">
+<h2>PENALTY ASSESSED</h2>
+</div>
+<div class="penalty-body">
+<div id="penaltyMessage" class="penalty-message"></div>
+<div id="penaltyBalance" class="penalty-balance"></div>
+</div>
+<div class="penalty-actions">
+<button id="okPenaltyModal" class="penalty-button">OK</button>
+</div>
+</div>
+</div>
+
 <!-- Law School Modal -->
 <div id="lawSchoolModal">
 <div class="modal-content">
@@ -876,6 +1053,51 @@ The Judge has the ability to sentence anybody to anything for any reason during 
 Your rent is $50 and is due on the last day of every month.<br><br>
 
 Use the term 'Purchase' to inquire regarding any individual's wares for sale.
+</div>
+</div>
+</div>
+</div>
+
+<!-- Store Modal -->
+<div id="storeModal">
+<div class="modal-content">
+<div class="modal-header">
+<h2>STORE</h2>
+<button id="closeStoreModal">X</button>
+</div>
+<div class="store-body">
+<div class="store-balance" id="storeBalance">Balance: $0</div>
+<div class="store-item" data-item="fridge">
+<img class="store-item-image" src="fridge.png" alt="Fridge" id="fridgeImage">
+<div class="store-item-info">
+<div class="store-item-name">Fridge</div>
+<div class="store-item-price">$200</div>
+<button class="store-item-button" data-item="fridge" data-price="200">Purchase</button>
+</div>
+</div>
+<div class="store-item" data-item="boat">
+<img class="store-item-image" src="boat.png" alt="Boat" id="boatImage">
+<div class="store-item-info">
+<div class="store-item-name">Boat</div>
+<div class="store-item-price">$500</div>
+<button class="store-item-button" data-item="boat" data-price="500">Purchase</button>
+</div>
+</div>
+<div class="store-item" data-item="car">
+<img class="store-item-image" src="car.png" alt="Car" id="carImage">
+<div class="store-item-info">
+<div class="store-item-name">Car</div>
+<div class="store-item-price">$900</div>
+<button class="store-item-button" data-item="car" data-price="900">Purchase</button>
+</div>
+</div>
+<div class="store-item" data-item="jet">
+<img class="store-item-image" src="jet.png" alt="Jet" id="jetImage">
+<div class="store-item-info">
+<div class="store-item-name">Jet</div>
+<div class="store-item-price">$3900</div>
+<button class="store-item-button" data-item="jet" data-price="3900">Purchase</button>
+</div>
 </div>
 </div>
 </div>

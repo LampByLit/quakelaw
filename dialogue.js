@@ -471,10 +471,9 @@ async function SendMessage() {
     
     if (!message) return;
     
-    // Check for document-related requests
+    // Check for document-related requests (only trigger on "purchase")
     const messageLower = message.toLowerCase();
-    const documentKeywords = ['document', 'documents', 'writing', 'report', 'paper', 'work', 'create', 'sell', 'buy', 'purchase', 'price', 'cost'];
-    const hasDocumentKeyword = documentKeywords.some(keyword => messageLower.includes(keyword));
+    const hasDocumentKeyword = messageLower.includes('purchase');
     
     // Check if player is asking about documents and NPC can sell
     if (hasDocumentKeyword && currentDialogueNPC.canSellDocuments) {
@@ -583,8 +582,8 @@ async function SendMessage() {
             }
         }
         
-        // If asking about documents or price, generate/fetch document
-        if (isPriceQuery || isNegotiation || /document|writing|report|paper|work|create|sell/i.test(messageLower)) {
+        // If asking about purchase, generate/fetch document
+        if (messageLower.includes('purchase')) {
             try {
                 const sessionId = getSessionId();
                 

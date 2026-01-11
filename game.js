@@ -315,6 +315,16 @@ class PlayerData
 
 function Init()
 {
+    // Clear all game state from localStorage on page refresh to ensure fresh start
+    if (typeof localStorage !== 'undefined') {
+        delete localStorage.kbap_coins;
+        delete localStorage.lawyer_gameState;
+        delete localStorage.kbap_warp;
+        delete localStorage.kbap_won;
+        delete localStorage.kbap_bestTime;
+        // Note: lastSessionId is kept for session cleanup purposes
+    }
+    
     EngineInit();
     
     // clear canvas to black so transition starts on a black screen

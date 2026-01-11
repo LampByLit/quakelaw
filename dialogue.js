@@ -14,8 +14,8 @@ let completedCaseContext = null;
 // Document purchase state
 let pendingDocumentPurchase = null; // { document: {...}, npc: {...}, agreedPrice: number }
 
-// Claim filing state - track when judge has agreed to hear a claim
-let judgeAgreedToHearClaim = false;
+// Track if player is requesting to file a claim
+let playerRequestingClaim = false;
 
 // Initialize dialogue modal
 function InitDialogueModal() {
@@ -341,7 +341,6 @@ function CloseDialogueModal() {
     isRecording = false;
     recordingStartIndex = -1;
     pendingDocumentPurchase = null; // Clear pending purchase when closing dialogue
-    judgeAgreedToHearClaim = false; // Clear claim agreement state when closing dialogue
     
     const modal = document.getElementById('dialogueModal');
     modal.classList.remove('open');
@@ -478,6 +477,187 @@ async function SendMessage() {
     // Check for document-related requests (only trigger on "purchase")
     const messageLower = message.toLowerCase();
     const hasDocumentKeyword = messageLower.includes('purchase');
+    
+    // Check for claim request (only after Friday judgment when completedCaseContext exists)
+    if (currentDialogueNPC && currentDialogueNPC.isJudge && !isLoadingResponse && completedCaseContext) {
+        const claimRequestPatterns = [
+            /file.*claim/i,
+            /i.*want.*claim/i,
+            /i.*like.*claim/i,
+            /request.*claim/i,
+            /make.*claim/i,
+            /submit.*claim/i,
+            /claim/i
+        ];
+        
+        const isClaimRequest = claimRequestPatterns.some(pattern => pattern.test(messageLower));
+        
+        if (isClaimRequest && !playerRequestingClaim) {
+            // Player is requesting to file a claim
+            playerRequestingClaim = true;
+            // Add player message to conversation
+            conversationHistory.push({
+                role: 'player',
+                message: message,
+                timestamp: Date.now()
+            });
+            
+            // Judge asks for confirmation
+            conversationHistory.push({
+                role: 'npc',
+                message: "Are you sure you want to file a claim? It will cost $20.",
+                timestamp: Date.now()
+            });
+            
+            UpdateConversationDisplay();
+            input.value = '';
+            return;
+        }
+        
+        // Check if player is confirming claim (saying "yes" after request)
+        if (playerRequestingClaim) {
+            const isYes = /yes|yeah|yep|yup|ok|okay|sure|confirm|proceed|go ahead|do it/i.test(messageLower);
+            
+            if (isYes) {
+                // Check if player has enough coins
+                const playerCoins = typeof playerData !== 'undefined' && playerData ? (playerData.coins || 0) : 0;
+                
+                if (playerCoins >= 20) {
+                    // Add player message
+                    conversationHistory.push({
+                        role: 'player',
+                        message: message,
+                        timestamp: Date.now()
+                    });
+                    
+                    // Deduct $20 immediately
+                    playerData.coins = playerCoins - 20;
+                    if (typeof SaveGameState === 'function') {
+                        SaveGameState();
+                    }
+                    console.log('[CLAIM] Player confirmed claim. Deducted $20. New balance: $' + playerData.coins);
+                    
+                    // Close dialogue and process claim automatically
+                    CloseDialogueModal();
+                    
+                    // Process claim automatically
+                    if (typeof ProcessAutomaticClaim !== 'undefined') {
+                        (async () => {
+                            try {
+                                const result = await ProcessAutomaticClaim();
+                                
+                                if (result) {
+                                    // Store claim context for future judge dialogue
+                                    if (typeof completedCaseContext !== 'undefined' && completedCaseContext) {
+                                        completedCaseContext.hasClaim = true;
+                                        completedCaseContext.claimRuling = result.ruling;
+                                        completedCaseContext.claimGranted = result.playerWins;
+                                    }
+                                    
+                                    // Show results in judgment modal (reuse judgment modal)
+                                    if (typeof ShowJudgmentResults !== 'undefined') {
+                                        await ShowJudgmentResults(result, currentDialogueNPC);
+                                    }
+                                    
+                                    // Create judgment document in inventory
+                                    if (typeof CreateJudgmentEvidenceItem !== 'undefined') {
+                                        const evidenceItem = CreateJudgmentEvidenceItem(result);
+                                        
+                                        // Add to inventory
+                                        if (typeof playerData !== 'undefined' && playerData.inventory) {
+                                            if (playerData.inventory.length < 16) {
+                                                playerData.inventory.push(evidenceItem);
+                                                console.log('[CLAIM] Judgment document created and added to inventory:', evidenceItem.name);
+                                                
+                                                // Save game state
+                                                if (typeof SaveGameState === 'function') {
+                                                    SaveGameState();
+                                                }
+                                            } else {
+                                                console.warn('[CLAIM] Inventory is full! Cannot add judgment document.');
+                                            }
+                                        }
+                                    }
+                                    
+                                    // Show success notification
+                                    if (typeof ShowSuccessNotification !== 'undefined') {
+                                        let notificationText = result.playerWins ? 'Claim granted!' : 'Claim denied';
+                                        if (result.coinsAwarded > 0) {
+                                            notificationText += ` +$${result.coinsAwarded}`;
+                                        }
+                                        if (result.playerReprimanded) {
+                                            notificationText += ' | Reprimanded: -$20';
+                                        }
+                                        if (result.playerDisbarred) {
+                                            notificationText = 'DISBARRED - Game Over';
+                                        }
+                                        ShowSuccessNotification(notificationText);
+                                    }
+                                } else {
+                                    console.error('[CLAIM] ProcessAutomaticClaim returned null');
+                                    if (typeof ShowErrorNotification !== 'undefined') {
+                                        ShowErrorNotification('Error processing claim. Please try again.');
+                                    }
+                                }
+                            } catch (error) {
+                                console.error('[CLAIM] Error processing claim:', error);
+                                if (typeof ShowErrorNotification !== 'undefined') {
+                                    ShowErrorNotification('Error processing claim. Please try again.');
+                                }
+                            }
+                            
+                            // Reset claim request flag
+                            playerRequestingClaim = false;
+                        })();
+                    } else {
+                        console.error('[CLAIM] ProcessAutomaticClaim function not available');
+                        playerRequestingClaim = false;
+                    }
+                    
+                    return;
+                } else {
+                    // Player doesn't have enough coins - judge denies
+                    conversationHistory.push({
+                        role: 'player',
+                        message: message,
+                        timestamp: Date.now()
+                    });
+                    
+                    conversationHistory.push({
+                        role: 'npc',
+                        message: "I'm sorry, but you don't have enough coins to file a claim. You need $20, but you only have $" + playerCoins + ".",
+                        timestamp: Date.now()
+                    });
+                    
+                    playerRequestingClaim = false;
+                    UpdateConversationDisplay();
+                    input.value = '';
+                    return;
+                }
+            } else {
+                // Player said something other than yes - cancel claim request
+                const isNo = /no|nope|cancel|nevermind|forget it/i.test(messageLower);
+                if (isNo) {
+                    conversationHistory.push({
+                        role: 'player',
+                        message: message,
+                        timestamp: Date.now()
+                    });
+                    
+                    conversationHistory.push({
+                        role: 'npc',
+                        message: "Very well. Let me know if you change your mind.",
+                        timestamp: Date.now()
+                    });
+                    
+                    playerRequestingClaim = false;
+                    UpdateConversationDisplay();
+                    input.value = '';
+                    return;
+                }
+            }
+        }
+    }
     
     // Check if player is declining a pending purchase (must be checked before document keyword check)
     if (pendingDocumentPurchase && currentDialogueNPC && currentDialogueNPC.canSellDocuments) {
@@ -994,41 +1174,6 @@ async function SendMessage() {
     
     // Check if judge has already agreed to hear a claim and player is confirming
     // Only allow claims after a trial has been completed (when completedCaseContext exists)
-    if (judgeAgreedToHearClaim && currentDialogueNPC && currentDialogueNPC.isJudge && completedCaseContext) {
-        const messageLower = message.toLowerCase();
-        // Check if player is confirming (yes, yes sir, okay, etc.)
-        const isConfirmation = /^(yes|yeah|yep|yup|ok|okay|sure|alright|all right|fine|deal|agreed|proceed|go ahead|let's do it|i agree|i'll do it|i will|understood|got it|i understand)(\s+(sir|ma'am|judge|your honor))?[.!]*$/i.test(message.trim());
-        
-        // Also check for filing-related confirmations
-        const isFilingConfirmation = /(file|submit|pay|clerk|paperwork|forms|proceed|go ahead)/i.test(messageLower);
-        
-        if (isConfirmation || isFilingConfirmation) {
-            // Check if player has $20 (should already be deducted, but double-check)
-            const playerCoins = typeof playerData !== 'undefined' && playerData ? (playerData.coins || 0) : 0;
-            if (playerCoins >= 0) { // Allow even if they have 0, since $20 was already deducted
-                // Add player message to history
-                conversationHistory.push({
-                    role: 'player',
-                    message: message,
-                    timestamp: Date.now()
-                });
-                UpdateConversationDisplay();
-                
-                // Clear the flag
-                judgeAgreedToHearClaim = false;
-                
-                // Show claim input modal after a short delay
-                setTimeout(() => {
-                    ShowClaimInputModal();
-                }, 500);
-                
-                // Clear input
-                input.value = '';
-                return;
-            }
-        }
-    }
-    
     // Add player message to history immediately
     const playerMessage = {
         role: 'player',
@@ -1216,76 +1361,6 @@ async function SendMessage() {
                         pendingDocumentPurchase.agreedPrice = mentionedPrice;
                         console.log(`[DOCUMENT] Price negotiated to $${mentionedPrice}`);
                     }
-                }
-            }
-        }
-        
-        // Check if judge agreed to hear a claim (look for claim agreement indicators in response)
-        // Only allow claims after a trial has been completed (when completedCaseContext exists)
-        if (currentDialogueNPC && currentDialogueNPC.isJudge && !isLoadingResponse && completedCaseContext) {
-            const lastMessage = conversationHistory[conversationHistory.length - 1];
-            if (lastMessage && lastMessage.role === 'npc') {
-                const responseText = lastMessage.message.toLowerCase();
-                // Check if judge agreed to hear claim (look for keywords like "hear", "will hear", "accept", "$20", etc.)
-                const claimAgreementPatterns = [
-                    /will hear.*claim/i,
-                    /i.*hear.*claim/i,
-                    /accept.*claim/i,
-                    /\$20.*claim/i,
-                    /claim.*\$20/i,
-                    /fee.*\$20/i,
-                    /\$20.*fee/i
-                ];
-                
-                const hasAgreementPattern = claimAgreementPatterns.some(pattern => pattern.test(responseText));
-                
-                // Also check if response mentions $20 and seems positive about hearing
-                const mentionsFee = /\$20/.test(responseText);
-                const seemsPositive = /(will|can|shall|agree|accept|yes|okay|ok)/i.test(responseText);
-                
-                // Check for filing instructions (when judge tells player to file paperwork)
-                const filingInstructionPatterns = [
-                    /file.*paperwork/i,
-                    /file.*forms/i,
-                    /pay.*clerk/i,
-                    /file.*claim/i,
-                    /submit.*paperwork/i,
-                    /submit.*forms/i
-                ];
-                const hasFilingInstruction = filingInstructionPatterns.some(pattern => pattern.test(responseText));
-                
-                // Check if judge just agreed (first time)
-                const judgeJustAgreed = hasAgreementPattern || (mentionsFee && seemsPositive);
-                
-                // If judge just agreed, set flag and deduct $20
-                if (judgeJustAgreed && !judgeAgreedToHearClaim) {
-                    const playerCoins = typeof playerData !== 'undefined' && playerData ? (playerData.coins || 0) : 0;
-                    if (playerCoins >= 20) {
-                        // Deduct $20 immediately
-                        playerData.coins = playerCoins - 20;
-                        if (typeof SaveGameState === 'function') {
-                            SaveGameState();
-                        }
-                        console.log('[CLAIM] Judge agreed to hear claim. Deducted $20. New balance: $' + playerData.coins);
-                        
-                        // Set flag that judge has agreed (persists across messages)
-                        judgeAgreedToHearClaim = true;
-                        
-                        // If judge is also giving filing instructions in same message, open modal immediately
-                        if (hasFilingInstruction) {
-                            setTimeout(() => {
-                                ShowClaimInputModal();
-                            }, 500);
-                        }
-                    } else {
-                        console.log('[CLAIM] Judge agreed but player cannot afford $20 fee');
-                    }
-                }
-                // If judge is giving filing instructions after already agreeing, open modal
-                else if (hasFilingInstruction && judgeAgreedToHearClaim) {
-                    setTimeout(() => {
-                        ShowClaimInputModal();
-                    }, 500);
                 }
             }
         }
@@ -1841,10 +1916,20 @@ function FindJudgeNPC() {
 
 // Create evidence item from judgment results
 function CreateJudgmentEvidenceItem(result) {
-    // Get active case info for case number
+    // Get active case info for case number (or use completed case context for claims)
     let caseNumber = 'Unknown';
     let caseSummary = '';
-    if (typeof GetActiveCase !== 'undefined') {
+    const isClaim = result.isClaim || false;
+    
+    if (isClaim && typeof completedCaseContext !== 'undefined' && completedCaseContext) {
+        // For claims, use completed case context
+        if (completedCaseContext.caseNumber) {
+            caseNumber = completedCaseContext.caseNumber;
+        }
+        if (completedCaseContext.caseSummary) {
+            caseSummary = completedCaseContext.caseSummary;
+        }
+    } else if (typeof GetActiveCase !== 'undefined') {
         const activeCase = GetActiveCase();
         if (activeCase && activeCase.caseNumber) {
             caseNumber = activeCase.caseNumber;
@@ -1855,16 +1940,24 @@ function CreateJudgmentEvidenceItem(result) {
     }
     
     // Format judgment text
-    let judgmentText = 'COURT RULING\n';
+    let judgmentText = isClaim ? 'CLAIM RULING\n' : 'COURT RULING\n';
     judgmentText += '============\n\n';
     judgmentText += result.ruling + '\n\n';
     judgmentText += '--- VERDICT ---\n';
-    judgmentText += result.playerWins ? 'VERDICT: You WON the case!\n' : 'VERDICT: You LOST the case.\n';
+    if (isClaim) {
+        judgmentText += result.playerWins ? 'VERDICT: Claim GRANTED!\n' : 'VERDICT: Claim DENIED.\n';
+    } else {
+        judgmentText += result.playerWins ? 'VERDICT: You WON the case!\n' : 'VERDICT: You LOST the case.\n';
+    }
     
     // Show coin award
     if (result.coinsAwarded > 0) {
         judgmentText += `\n--- COIN AWARD ---\n`;
-        if (result.playerWins) {
+        if (isClaim) {
+            // For claims, there's no $20 win bonus
+            judgmentText += `The judge awarded you $${result.coinsAwarded} coins.\n`;
+        } else if (result.playerWins) {
+            // For regular judgments, there's a $20 win bonus
             const judgeAward = result.coinsAwarded - 20;
             if (judgeAward > 0) {
                 judgmentText += `Total coins awarded: $${result.coinsAwarded} ($${judgeAward} from judge + $20 win bonus)\n`;
@@ -1928,8 +2021,10 @@ function CreateJudgmentEvidenceItem(result) {
         judgmentText += result.prosecution + '\n';
     }
     
-    // Create evidence item name (format: "0001 - Ruling")
-    const evidenceName = `${String(caseNumber).padStart(4, '0')} - Ruling`;
+    // Create evidence item name (format: "0001 - Ruling" or "0001 - Claim Ruling")
+    const evidenceName = isClaim 
+        ? `${String(caseNumber).padStart(4, '0')} - Claim Ruling`
+        : `${String(caseNumber).padStart(4, '0')} - Ruling`;
     
     // Create evidence item (similar to conversation evidence)
     const evidenceItem = {
@@ -1977,7 +2072,13 @@ function ShowJudgmentRulingModal(result) {
     rulingTextEl.textContent = result.ruling || 'The judge has made a decision.';
     
     // Set verdict with reprimand/disbarment info
-    let verdictText = result.playerWins ? 'VERDICT: You WON the case!' : 'VERDICT: You LOST the case.';
+    const isClaim = result.isClaim || false;
+    let verdictText = '';
+    if (isClaim) {
+        verdictText = result.playerWins ? 'VERDICT: Claim GRANTED!' : 'VERDICT: Claim DENIED.';
+    } else {
+        verdictText = result.playerWins ? 'VERDICT: You WON the case!' : 'VERDICT: You LOST the case.';
+    }
     if (result.coinsAwarded > 0) {
         verdictText += `\n\n💰 COIN AWARD: +$${result.coinsAwarded}`;
     }
@@ -2078,6 +2179,7 @@ function CloseJudgmentRulingModal(result) {
         const activeCase = GetActiveCase();
         if (activeCase && result) {
             completedCaseContext = {
+                caseNumber: activeCase.caseNumber || 'Unknown',
                 caseSummary: activeCase.caseSummary || '',
                 prosecution: result.prosecution || '',
                 ruling: result.ruling || '',
@@ -2456,506 +2558,6 @@ function InitPenaltyModal() {
     // The modal can only be closed via OK button
 }
 
-///////////////////////////////////////////////////////////////////////////////
-// Claim Modal Functions
-
-let claimModalOpen = false;
-let claimProcessing = false;
-
-// Show claim input modal
-function ShowClaimInputModal() {
-    if (claimModalOpen) return;
-    
-    // Clear the agreement flag when modal opens
-    judgeAgreedToHearClaim = false;
-    
-    claimModalOpen = true;
-    
-    // Clear inputs
-    const descriptionInput = document.getElementById('claimDescription');
-    const outcomeInput = document.getElementById('claimDesiredOutcome');
-    if (descriptionInput) {
-        descriptionInput.value = '';
-        descriptionInput.disabled = false;
-    }
-    if (outcomeInput) {
-        outcomeInput.value = '';
-        outcomeInput.disabled = false;
-    }
-    
-    // Update word counts
-    UpdateClaimWordCount();
-    
-    // Enable submit button
-    const submitBtn = document.getElementById('submitClaim');
-    if (submitBtn) {
-        submitBtn.disabled = false;
-    }
-    
-    // Show modal
-    const modal = document.getElementById('claimModal');
-    if (modal) {
-        modal.classList.add('open');
-        
-        // Focus the description textarea after modal is rendered
-        requestAnimationFrame(() => {
-            setTimeout(() => {
-                if (descriptionInput) {
-                    descriptionInput.focus();
-                }
-            }, 50);
-        });
-    }
-    
-    // Initialize event handlers
-    InitClaimModal();
-}
-
-// Initialize claim modal handlers
-function InitClaimModal() {
-    const closeBtn = document.getElementById('closeClaimModal');
-    const cancelBtn = document.getElementById('cancelClaim');
-    const submitBtn = document.getElementById('submitClaim');
-    const descriptionInput = document.getElementById('claimDescription');
-    const outcomeInput = document.getElementById('claimDesiredOutcome');
-    
-    if (closeBtn) {
-        closeBtn.onclick = CloseClaimModal;
-    }
-    if (cancelBtn) {
-        cancelBtn.onclick = CloseClaimModal;
-    }
-    if (submitBtn) {
-        submitBtn.onclick = SubmitClaim;
-    }
-    if (descriptionInput) {
-        descriptionInput.oninput = UpdateClaimWordCount;
-        descriptionInput.onkeydown = (e) => {
-            if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
-                e.preventDefault();
-                SubmitClaim();
-            }
-        };
-    }
-    if (outcomeInput) {
-        outcomeInput.oninput = UpdateClaimWordCount;
-    }
-    
-    // ESC key to close
-    document.addEventListener('keydown', function escHandler(e) {
-        if (e.key === 'Escape' && claimModalOpen) {
-            CloseClaimModal();
-            document.removeEventListener('keydown', escHandler);
-        }
-    });
-}
-
-// Update word count for claim inputs
-function UpdateClaimWordCount() {
-    const descriptionInput = document.getElementById('claimDescription');
-    const outcomeInput = document.getElementById('claimDesiredOutcome');
-    const descriptionCountEl = document.getElementById('claimDescriptionWordCount');
-    const outcomeCountEl = document.getElementById('claimOutcomeWordCount');
-    const submitBtn = document.getElementById('submitClaim');
-    
-    if (!descriptionInput || !descriptionCountEl) return;
-    
-    const descriptionText = descriptionInput.value.trim();
-    const descriptionWords = descriptionText.split(/\s+/).filter(w => w.length > 0);
-    const descriptionWordCount = descriptionWords.length;
-    const maxWords = 100;
-    
-    descriptionCountEl.textContent = `${descriptionWordCount}/${maxWords} words`;
-    descriptionCountEl.classList.remove('warning', 'error');
-    if (descriptionWordCount > maxWords) {
-        descriptionCountEl.classList.add('error');
-        if (submitBtn) submitBtn.disabled = true;
-    } else if (descriptionWordCount > maxWords * 0.9) {
-        descriptionCountEl.classList.add('warning');
-        if (submitBtn) submitBtn.disabled = false;
-    } else {
-        if (submitBtn) submitBtn.disabled = false;
-    }
-    
-    if (outcomeInput && outcomeCountEl) {
-        const outcomeText = outcomeInput.value.trim();
-        const outcomeWords = outcomeText.split(/\s+/).filter(w => w.length > 0);
-        const outcomeWordCount = outcomeWords.length;
-        
-        outcomeCountEl.textContent = `${outcomeWordCount}/${maxWords} words`;
-        outcomeCountEl.classList.remove('warning', 'error');
-        if (outcomeWordCount > maxWords) {
-            outcomeCountEl.classList.add('error');
-            if (submitBtn) submitBtn.disabled = true;
-        } else if (outcomeWordCount > maxWords * 0.9) {
-            outcomeCountEl.classList.add('warning');
-            if (submitBtn && !descriptionCountEl.classList.contains('error')) {
-                submitBtn.disabled = false;
-            }
-        }
-    }
-}
-
-// Close claim modal
-function CloseClaimModal() {
-    if (!claimModalOpen) return;
-    
-    claimModalOpen = false;
-    
-    const modal = document.getElementById('claimModal');
-    if (modal) {
-        modal.classList.remove('open');
-    }
-}
-
-// Submit claim
-async function SubmitClaim() {
-    if (!claimModalOpen || claimProcessing) {
-        return;
-    }
-    
-    const descriptionInput = document.getElementById('claimDescription');
-    const outcomeInput = document.getElementById('claimDesiredOutcome');
-    const submitBtn = document.getElementById('submitClaim');
-    
-    if (!descriptionInput) return;
-    
-    const claimDescription = descriptionInput.value.trim();
-    const desiredOutcome = outcomeInput ? outcomeInput.value.trim() : '';
-    
-    // Validate word count
-    const descriptionWords = claimDescription.split(/\s+/).filter(w => w.length > 0);
-    const outcomeWords = desiredOutcome.split(/\s+/).filter(w => w.length > 0);
-    
-    if (descriptionWords.length === 0) {
-        alert('Please enter a claim description.');
-        return;
-    }
-    
-    if (descriptionWords.length > 100) {
-        alert('Claim description is too long! Maximum 100 words.');
-        return;
-    }
-    
-    if (outcomeWords.length > 100) {
-        alert('Desired outcome is too long! Maximum 100 words.');
-        return;
-    }
-    
-    console.log(`[CLAIM] Submitting claim. Description: ${descriptionWords.length} words, Outcome: ${outcomeWords.length} words`);
-    
-    // Prevent double submission
-    claimProcessing = true;
-    
-    // Disable inputs
-    if (descriptionInput) descriptionInput.disabled = true;
-    if (outcomeInput) outcomeInput.disabled = true;
-    if (submitBtn) submitBtn.disabled = true;
-    
-    // Close claim modal
-    CloseClaimModal();
-    
-    // Process claim
-    if (typeof ProcessClaim !== 'undefined') {
-        try {
-            console.log('[CLAIM] Starting ProcessClaim');
-            const result = await ProcessClaim(claimDescription, desiredOutcome);
-            
-            if (result) {
-                console.log(`[CLAIM] Claim complete. Granted: ${result.claimGranted}, Coins: ${result.coinsAwarded}, Punishments: ${result.punishments ? result.punishments.length : 0}`);
-                
-                // Show results in ruling modal
-                await ShowClaimResults(result);
-                
-                // Show success notification
-                if (typeof ShowSuccessNotification !== 'undefined') {
-                    let notificationText = result.claimGranted ? 'Claim granted!' : 'Claim denied';
-                    if (result.coinsAwarded > 0) {
-                        notificationText += ` +$${result.coinsAwarded}`;
-                    }
-                    if (result.playerReprimanded) {
-                        notificationText += ' | Reprimanded: -$20';
-                    }
-                    if (result.playerDisbarred) {
-                        notificationText = 'DISBARRED - Game Over';
-                    }
-                    ShowSuccessNotification(notificationText);
-                }
-            } else {
-                console.error('[CLAIM] ProcessClaim returned null');
-                alert('Error processing claim. Please try again.');
-                claimProcessing = false;
-            }
-        } catch (error) {
-            console.error('[CLAIM] Error processing claim:', error);
-            alert('Error processing claim. Please try again.');
-            claimProcessing = false;
-        }
-    } else {
-        claimProcessing = false;
-        console.log('[CLAIM] ProcessClaim function not available');
-    }
-}
-
-// Store current claim result for OK button
-let currentClaimResult = null;
-
-// Show claim ruling in dedicated modal
-function ShowClaimRulingModal(result) {
-    console.log('[CLAIM] ShowClaimRulingModal called');
-    
-    try {
-        // Validate result
-        if (!result) {
-            console.error('[CLAIM] ShowClaimRulingModal: No result provided');
-            alert('Error: No claim result to display. Please try again.');
-            return;
-        }
-        
-        // Store result for OK button handler
-        currentClaimResult = result;
-        
-        // Get DOM elements with null checks
-        const modal = document.getElementById('claimRulingModal');
-        const rulingTextEl = document.getElementById('claimRulingText');
-        const verdictEl = document.getElementById('claimVerdict');
-        const punishmentsEl = document.getElementById('claimPunishments');
-        const okButton = document.getElementById('okClaimRuling');
-        
-        // Validate all required DOM elements exist
-        if (!modal) {
-            console.error('[CLAIM] ShowClaimRulingModal: claimRulingModal element not found');
-            alert('Error: Claim ruling modal not found. Please refresh the page.');
-            return;
-        }
-        if (!rulingTextEl) {
-            console.error('[CLAIM] ShowClaimRulingModal: claimRulingText element not found');
-            alert('Error: Claim ruling text element not found. Please refresh the page.');
-            return;
-        }
-        if (!verdictEl) {
-            console.error('[CLAIM] ShowClaimRulingModal: claimVerdict element not found');
-            alert('Error: Claim verdict element not found. Please refresh the page.');
-            return;
-        }
-        if (!punishmentsEl) {
-            console.error('[CLAIM] ShowClaimRulingModal: claimPunishments element not found');
-            alert('Error: Claim punishments element not found. Please refresh the page.');
-            return;
-        }
-        if (!okButton) {
-            console.error('[CLAIM] ShowClaimRulingModal: okClaimRuling button not found');
-            alert('Error: Claim ruling OK button not found. Please refresh the page.');
-            return;
-        }
-        
-        // Set ruling text
-        rulingTextEl.textContent = result.ruling || 'The judge has made a decision.';
-        
-        // Set verdict with reprimand/disbarment info
-        let verdictText = result.claimGranted ? 'VERDICT: Claim GRANTED' : 'VERDICT: Claim DENIED';
-        if (result.coinsAwarded > 0) {
-            verdictText += `\n\n💰 COIN AWARD: +$${result.coinsAwarded}`;
-        }
-        if (result.playerReprimanded) {
-            verdictText += '\n\n⚠️ OFFICIAL REPRIMAND: -$20 coins';
-        }
-        if (result.playerDisbarred) {
-            verdictText += '\n\n🚫 DISBARRED: Game Over';
-            verdictEl.className = 'verdict-section disbarred';
-        } else {
-            verdictEl.className = 'verdict-section ' + (result.claimGranted ? 'win' : 'lose');
-        }
-        verdictEl.textContent = verdictText;
-        
-        // Set punishments and job changes
-        let punishmentsText = '';
-        if (result.punishments && result.punishments.length > 0) {
-            punishmentsText += 'PUNISHMENTS:\n';
-            for (const p of result.punishments) {
-                const npcSurname = p.npcSurname || p.witnessSurname || 'Unknown';
-                const reason = p.reason ? ` (${p.reason})` : '';
-                if (p.punishmentType === 'corporeal') {
-                    punishmentsText += `- ${npcSurname}: Corporeal punishment${reason}\n`;
-                } else if (p.punishmentType === 'banishment') {
-                    punishmentsText += `- ${npcSurname}: Permanently banished${reason}\n`;
-                } else if (p.punishmentType === 'death') {
-                    punishmentsText += `- ${npcSurname}: Sentenced to death${reason}\n`;
-                }
-            }
-        }
-        
-        if (result.jobChanges && result.jobChanges.length > 0) {
-            if (punishmentsText) punishmentsText += '\n';
-            punishmentsText += 'JOB CHANGES:\n';
-            for (const change of result.jobChanges) {
-                const reason = change.reason ? ` (${change.reason})` : '';
-                punishmentsText += `- ${change.npcSurname}: Changed to "${change.newJob}"${reason}\n`;
-            }
-        }
-        
-        if (result.nameChanges && result.nameChanges.length > 0) {
-            if (punishmentsText) punishmentsText += '\n';
-            punishmentsText += 'NAME CHANGES:\n';
-            for (const change of result.nameChanges) {
-                const reason = change.reason ? ` (${change.reason})` : '';
-                punishmentsText += `- ${change.npcSurname}: Renamed to "${change.newName}"${reason}\n`;
-            }
-        }
-        
-        punishmentsEl.textContent = punishmentsText;
-        
-        // Show modal
-        modal.classList.add('open');
-        
-        // Wire up OK button (only once, on first call)
-        if (!okButton.hasAttribute('data-wired')) {
-            okButton.setAttribute('data-wired', 'true');
-            okButton.addEventListener('click', () => {
-                if (currentClaimResult) {
-                    CloseClaimRulingModal(currentClaimResult);
-                }
-            });
-        }
-        
-        console.log('[CLAIM] Claim ruling modal displayed successfully');
-    } catch (error) {
-        console.error('[CLAIM] Error in ShowClaimRulingModal:', error);
-        alert('Error displaying claim ruling. Please check the console for details.');
-        // Reset claim processing flag so user can try again
-        if (typeof claimProcessing !== 'undefined') {
-            claimProcessing = false;
-        }
-    }
-}
-
-// Close claim ruling modal and create evidence item
-function CloseClaimRulingModal(result) {
-    console.log('[CLAIM] Closing claim ruling modal');
-    
-    try {
-        // Get modal element with null check
-        const modal = document.getElementById('claimRulingModal');
-        if (!modal) {
-            console.error('[CLAIM] CloseClaimRulingModal: claimRulingModal element not found');
-            // Continue anyway - clear flags and handle result
-        } else {
-            modal.classList.remove('open');
-        }
-        
-        // Validate result before processing
-        if (!result) {
-            console.warn('[CLAIM] CloseClaimRulingModal: No result provided, skipping evidence creation');
-            claimProcessing = false;
-            currentClaimResult = null;
-            return;
-        }
-        
-        // Create evidence item
-        let evidenceItem = null;
-        if (typeof CreateClaimEvidenceItem === 'function') {
-            try {
-                evidenceItem = CreateClaimEvidenceItem(result);
-            } catch (error) {
-                console.error('[CLAIM] Error creating claim evidence item:', error);
-            }
-        } else {
-            console.warn('[CLAIM] CreateClaimEvidenceItem function not available');
-        }
-        
-        // Add to inventory
-        if (evidenceItem && typeof playerData !== 'undefined' && playerData.inventory) {
-            if (playerData.inventory.length < 16) {
-                playerData.inventory.push(evidenceItem);
-                console.log('[CLAIM] Evidence item created and added to inventory:', evidenceItem.name);
-                
-                // Save game state
-                if (typeof SaveGameState === 'function') {
-                    SaveGameState();
-                }
-            } else {
-                console.warn('[CLAIM] Inventory is full! Cannot add claim evidence.');
-                alert('Inventory is full! Claim evidence could not be added.');
-            }
-        } else if (!evidenceItem) {
-            console.warn('[CLAIM] No evidence item to add to inventory');
-        } else {
-            console.error('[CLAIM] Cannot access playerData or inventory');
-        }
-        
-        // Handle disbarment (game over)
-        if (result.playerDisbarred) {
-            console.log('[CLAIM] Player disbarred - triggering game over');
-            setTimeout(() => {
-                if (typeof player !== 'undefined' && player) {
-                    player.Kill();
-                }
-                if (typeof ShowErrorNotification !== 'undefined') {
-                    ShowErrorNotification('You have been DISBARRED. Game Over.');
-                }
-            }, 1000);
-        }
-        
-        // Clear claim processing flag
-        claimProcessing = false;
-        
-        // Clear stored result
-        currentClaimResult = null;
-        
-        console.log('[CLAIM] Claim ruling modal closed successfully');
-    } catch (error) {
-        console.error('[CLAIM] Error in CloseClaimRulingModal:', error);
-        // Always clear flags even on error
-        claimProcessing = false;
-        currentClaimResult = null;
-    }
-}
-
-// Show claim results (redirects to ruling modal)
-async function ShowClaimResults(result) {
-    console.log('[CLAIM] ShowClaimResults called');
-    
-    try {
-        // Validate result
-        if (!result) {
-            console.error('[CLAIM] ShowClaimResults: No result provided');
-            alert('Error: No claim result to display. Please try again.');
-            return;
-        }
-        
-        // Show ruling in dedicated modal
-        ShowClaimRulingModal(result);
-        
-        console.log('[CLAIM] Claim results displayed.');
-    } catch (error) {
-        console.error('[CLAIM] Error in ShowClaimResults:', error);
-        alert('Error displaying claim results. Please check the console for details.');
-        // Reset claim processing flag so user can try again
-        if (typeof claimProcessing !== 'undefined') {
-            claimProcessing = false;
-        }
-    }
-}
-
-// Initialize claim ruling modal
-function InitClaimRulingModal() {
-    const modal = document.getElementById('claimRulingModal');
-    
-    if (!modal) {
-        console.error('[CLAIM] InitClaimRulingModal: claimRulingModal element not found');
-        return;
-    }
-    
-    // Prevent closing by clicking outside modal
-    modal.addEventListener('click', (e) => {
-        if (e.target === modal) {
-            // Don't close - player must click OK button
-            e.stopPropagation();
-        }
-    });
-    
-    console.log('[CLAIM] Claim ruling modal initialized');
-}
 
 // Initialize on page load
 if (document.readyState === 'loading') {
@@ -2964,7 +2566,6 @@ if (document.readyState === 'loading') {
         InitJudgmentRulingModal();
         InitRentModal();
         InitPenaltyModal();
-        InitClaimRulingModal();
     });
 } else {
     InitDialogueModal();

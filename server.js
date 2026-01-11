@@ -893,24 +893,25 @@ app.post('/api/claims/judgment', async (req, res) => {
         });
     }
 
-    const { claimDescription, desiredOutcome, evidence, completedCaseContext, judgePersona, allNPCs } = req.body;
+    const { claimDescription, desiredOutcome, evidence, bonuses, completedCaseContext, judgePersona, allNPCs } = req.body;
 
-    if (!claimDescription || claimDescription.trim() === '') {
-        return res.status(400).json({ error: 'Claim description is required' });
-    }
+    // claimDescription and desiredOutcome are now optional (for automatic claims)
+    // if (!claimDescription || claimDescription.trim() === '') {
+    //     return res.status(400).json({ error: 'Claim description is required' });
+    // }
 
     if (!judgePersona || !judgePersona.name || !judgePersona.characteristic) {
         return res.status(400).json({ error: 'Judge persona is required' });
     }
 
     try {
-        // Format evidence for AI
+        // Format evidence for AI (including recordings, documents, and casefiles)
         let evidenceText = 'No evidence presented.';
         if (evidence && evidence.length > 0) {
             evidenceText = evidence.map((e, idx) => {
                 const meta = e.metadata || {};
-                // Check for conversationText (recordings), documentText (documents), or content (other)
-                const text = meta.conversationText || meta.documentText || meta.content || JSON.stringify(meta);
+                // Check for conversationText (recordings), documentText (documents), caseFileText (casefiles), or content (other)
+                const text = meta.conversationText || meta.documentText || meta.caseFileText || meta.content || JSON.stringify(meta);
                 return `${idx + 1}. ${e.name || 'Evidence'}: ${text.substring(0, 500)}`;
             }).join('\n\n');
         }
@@ -939,18 +940,46 @@ app.post('/api/claims/judgment', async (req, res) => {
             }
         }
         
+        // Build bonus information for prompt
+        let bonusInfo = '';
+        if (bonuses) {
+            const bonusParts = [];
+            
+            if (bonuses.credibility > 0) {
+                const boost = bonuses.credibility * 10;
+                bonusParts.push(`${bonuses.credibility} Credibility bonus(es) - This should influence your decision in the player's favor by approximately ${boost}%. The player's credibility and case strength should be viewed more favorably.`);
+            }
+            
+            if (bonuses.countersuit > 0) {
+                const boost = bonuses.countersuit * 15;
+                bonusParts.push(`${bonuses.countersuit} Countersuit bonus(es) - This should influence your decision in the player's favor by approximately ${boost}%. The player's legal position and counter-arguments should be viewed more favorably.`);
+            }
+            
+            if (bonuses.exculpation > 0) {
+                bonusParts.push(`${bonuses.exculpation} Exculpation document(s) - CRITICAL: The presence of exculpation documents means there is DAMNING EVIDENCE in favor of the player's claim. This evidence strongly supports the player's position and should heavily influence your decision in their favor.`);
+            }
+            
+            if (bonusParts.length > 0) {
+                bonusInfo = '\n\nLEGAL BONUSES AND DOCUMENTS PRESENTED:\n' + bonusParts.join('\n\n') + '\n';
+            }
+        }
+        
         const systemPrompt = `You are Judge ${judgeName}, a ${judgeCharacteristic} judge. A lawyer is making a POST-TRIAL CLAIM to you.
 
 CRITICAL: This is a claim made AFTER a trial has concluded. The player has already paid $20 for you to hear this claim. You have FULL DISCRETION to grant or deny this claim, and your decisions will have REAL CONSEQUENCES in the game.
 
 Your task:
-1. Review the claim description and desired outcome
-2. Review all recording and document evidence presented
-3. Consider any previous case context (if provided)
-4. Evaluate whether the claim is SUBSTANTIVE (has merit and evidence) or UNSUBSTANTIVE (frivolous or lacking proof). The decision is ENTIRELY UP TO YOU - you may grant or deny based on your judgment of the claim's merit.
-5. Decide on any punishments, rewards, or other actions
-6. Do not hold the player in contempt just for filing the claim - do your job and make a fair decision based on the claim's merit
-7. Write a 50-word ruling explaining your decision in your character's voice
+1. Automatically read and review ALL evidence presented (recordings, documents, and casefiles) - the player does not provide a statement, you read everything yourself
+2. Consider any previous case context (if provided)
+3. Determine if a crime has taken place
+4. Determine if any NPCs require punishment or reward
+5. Determine what specific punishments or rewards are to any NPCs, if any
+6. Determine if the player requires reward
+7. Determine what specific rewards are to the player, if any
+8. Evaluate whether the claim is SUBSTANTIVE (has merit and evidence) or UNSUBSTANTIVE (frivolous or lacking proof). The decision is ENTIRELY UP TO YOU - you may grant or deny based on your judgment of the claim's merit.
+9. Decide on any punishments, rewards, or other actions
+10. Do not hold the player in contempt just for filing the claim - do your job and make a fair decision based on the claim's merit
+11. Write a 50-word ruling explaining your decision in your character's voice
 
 JUDGE POWERS: As the judge, you have the following FULL POWERS you may exercise:
 - You can GRANT or DENY the claim entirely at your discretion
@@ -964,10 +993,10 @@ JUDGE POWERS: As the judge, you have the following FULL POWERS you may exercise:
 
 IMPORTANT:
 - The player has already paid $20 to have you hear this claim
+- The player does NOT provide a statement - you automatically read all evidence (recordings, documents, and casefiles) yourself
 - Your decisions have REAL CONSEQUENCES - they will be executed in the game
-- You are not bound by the desired outcome - you can grant, deny, or modify it as you see fit
-- Consider the claim's merit, evidence quality, and your judicial character
-- Be creative and decisive - your rulings matter
+- Consider the claim's merit, evidence quality, bonuses presented, and your judicial character
+- Be creative and decisive - your rulings matter${bonusInfo}
 
 Return your response as a JSON object with this exact structure:
 {
@@ -1006,7 +1035,15 @@ Notes:
 - If no job changes are needed, return empty array for jobChanges
 - If no name changes are needed, return empty array for nameChanges`;
 
-        const userMessage = `Claim Description:\n${claimDescription}\n\n${desiredOutcome ? `Desired Outcome:\n${desiredOutcome}\n\n` : ''}Recording Evidence Presented:\n${evidenceText}${caseContextText}\n\nAll NPCs in Town:\n${allNPCsText}\n\nMake your claim decision and write your ruling. You have FULL DISCRETION to grant or deny this claim, and you may use all your judge powers to punish, reward, or take any action you deem appropriate. Your decisions will have real consequences in the game.`;
+        // Build user message - claim description and desired outcome are optional (for automatic claims)
+        let userMessage = '';
+        if (claimDescription && claimDescription.trim() !== '') {
+            userMessage += `Claim Description:\n${claimDescription}\n\n`;
+        }
+        if (desiredOutcome && desiredOutcome.trim() !== '') {
+            userMessage += `Desired Outcome:\n${desiredOutcome}\n\n`;
+        }
+        userMessage += `All Evidence Presented (Recordings, Documents, and Casefiles):\n${evidenceText}${caseContextText}\n\nAll NPCs in Town:\n${allNPCsText}\n\nMake your claim decision and write your ruling. You have FULL DISCRETION to grant or deny this claim, and you may use all your judge powers to punish, reward, or take any action you deem appropriate. Your decisions will have real consequences in the game.`;
 
         const response = await fetch('https://api.deepseek.com/v1/chat/completions', {
             method: 'POST',

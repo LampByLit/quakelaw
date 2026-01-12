@@ -2003,7 +2003,7 @@ class Player extends MyGameObject
             else if (hitRenderPass)
             {
                 // For hit effects (dash trail), use mask for default sprite
-                // Store skins skip the dash trail effect entirely (handled in Render method)
+                // Store skins should never reach here because hitRenderPass is cleared for them
                 if (image === tileImage)
                 {
                     drawImage = tileMaskCanvas;
@@ -2161,6 +2161,11 @@ class Player extends MyGameObject
                 }
                 hitRenderPass = hit;
                 mainCanvasContext.globalCompositeOperation = 'difference';
+            }
+            else
+            {
+                // Clear hitRenderPass for store skins so they render normally
+                hitRenderPass = 0;
             }
         }
     

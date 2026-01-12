@@ -841,12 +841,12 @@ app.post('/api/cases/judgment', async (req, res) => {
             
             if (bonuses.credibility > 0) {
                 const boost = bonuses.credibility * 10;
-                bonusParts.push(`${bonuses.credibility} Credibility bonus(es) - This should influence your decision in the player's favor by approximately ${boost}%. The player's credibility and case strength should be viewed more favorably.`);
+                bonusParts.push(`${bonuses.credibility} Circumstantial Evidence bonus(es) - This should influence your decision in the player's favor by approximately ${boost}%. The player's credibility and case strength should be viewed more favorably.`);
             }
             
             if (bonuses.countersuit > 0) {
                 const boost = bonuses.countersuit * 15;
-                bonusParts.push(`${bonuses.countersuit} Countersuit bonus(es) - This should influence your decision in the player's favor by approximately ${boost}%. The player's legal position and counter-arguments should be viewed more favorably.`);
+                bonusParts.push(`${bonuses.countersuit} Direct Evidence bonus(es) - This should influence your decision in the player's favor by approximately ${boost}%. The player's legal position and counter-arguments should be viewed more favorably.`);
             }
             
             if (bonuses.exculpation > 0) {
@@ -926,8 +926,8 @@ Notes:
         let bonusSummary = '';
         if (bonuses) {
             const bonusParts = [];
-            if (bonuses.credibility > 0) bonusParts.push(`Credibility: ${bonuses.credibility}`);
-            if (bonuses.countersuit > 0) bonusParts.push(`Countersuit: ${bonuses.countersuit}`);
+            if (bonuses.credibility > 0) bonusParts.push(`Circumstantial Evidence: ${bonuses.credibility}`);
+            if (bonuses.countersuit > 0) bonusParts.push(`Direct Evidence: ${bonuses.countersuit}`);
             if (bonuses.exculpation > 0) bonusParts.push(`Exculpation: ${bonuses.exculpation}`);
             if (bonusParts.length > 0) {
                 bonusSummary = `\n\nLegal Bonuses/Documents Presented:\n${bonusParts.join(', ')}\n`;
@@ -1085,12 +1085,12 @@ app.post('/api/claims/judgment', async (req, res) => {
             
             if (bonuses.credibility > 0) {
                 const boost = bonuses.credibility * 10;
-                bonusParts.push(`${bonuses.credibility} Credibility bonus(es) - This should influence your decision in the player's favor by approximately ${boost}%. The player's credibility and case strength should be viewed more favorably.`);
+                bonusParts.push(`${bonuses.credibility} Circumstantial Evidence bonus(es) - This should influence your decision in the player's favor by approximately ${boost}%. The player's credibility and case strength should be viewed more favorably.`);
             }
             
             if (bonuses.countersuit > 0) {
                 const boost = bonuses.countersuit * 15;
-                bonusParts.push(`${bonuses.countersuit} Countersuit bonus(es) - This should influence your decision in the player's favor by approximately ${boost}%. The player's legal position and counter-arguments should be viewed more favorably.`);
+                bonusParts.push(`${bonuses.countersuit} Direct Evidence bonus(es) - This should influence your decision in the player's favor by approximately ${boost}%. The player's legal position and counter-arguments should be viewed more favorably.`);
             }
             
             if (bonuses.exculpation > 0) {

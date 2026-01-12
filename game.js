@@ -6837,6 +6837,25 @@ tileImage2.src = 'tiles2.png';
 // Load tiles5.png for player skins
 tileImage5 = new Image();
 tileImage5.onload = () => {
+    // Create shadow mask for tiles5.png (same process as tileMaskCanvas)
+    tileMaskCanvas5 = document.createElement('canvas');
+    let ctx5 = tileMaskCanvas5.getContext('2d');
+    tileMaskCanvas5.display = 'none';
+    tileMaskCanvas5.width = tileImage5.width * 2;
+    tileMaskCanvas5.height = tileImage5.height;
+    
+    // draw white mask sprites
+    ctx5.fillStyle = '#FFF';
+    ctx5.fillRect(0, 0, tileMaskCanvas5.width, tileMaskCanvas5.height);
+    ctx5.globalCompositeOperation = 'destination-atop';
+    ctx5.drawImage(tileImage5, 0, 0);
+    
+    // draw black mask sprites
+    ctx5.globalCompositeOperation = 'source-over';
+    ctx5.drawImage(tileMaskCanvas5, tileImage5.width, 0);
+    ctx5.globalCompositeOperation = 'difference';
+    ctx5.drawImage(tileMaskCanvas5, tileImage5.width, 0);
+    
     tilesLoaded++;
     if (tilesLoaded >= totalTilesToLoad && tilesLoadedCallback)
     {
@@ -6848,6 +6867,25 @@ tileImage5.src = 'tiles5.png';
 // Load tiles6.png for player skins (6-11)
 tileImage6 = new Image();
 tileImage6.onload = () => {
+    // Create shadow mask for tiles6.png (same process as tileMaskCanvas)
+    tileMaskCanvas6 = document.createElement('canvas');
+    let ctx6 = tileMaskCanvas6.getContext('2d');
+    tileMaskCanvas6.display = 'none';
+    tileMaskCanvas6.width = tileImage6.width * 2;
+    tileMaskCanvas6.height = tileImage6.height;
+    
+    // draw white mask sprites
+    ctx6.fillStyle = '#FFF';
+    ctx6.fillRect(0, 0, tileMaskCanvas6.width, tileMaskCanvas6.height);
+    ctx6.globalCompositeOperation = 'destination-atop';
+    ctx6.drawImage(tileImage6, 0, 0);
+    
+    // draw black mask sprites
+    ctx6.globalCompositeOperation = 'source-over';
+    ctx6.drawImage(tileMaskCanvas6, tileImage6.width, 0);
+    ctx6.globalCompositeOperation = 'difference';
+    ctx6.drawImage(tileMaskCanvas6, tileImage6.width, 0);
+    
     tilesLoaded++;
     if (tilesLoaded >= totalTilesToLoad && tilesLoadedCallback)
     {

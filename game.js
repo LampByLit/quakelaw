@@ -1977,15 +1977,30 @@ class Player extends MyGameObject
             SetCanvasTransform(pos, size, angle, height);
             
             let drawImage = image;
+            let useMaskForHit = false;
+            
             if (shadowRenderPass)
             {
+                // For shadows, use the original tileMaskCanvas (works for all sprites)
                 drawImage = tileMaskCanvas;
                 mainCanvasContext.globalAlpha *= shadowAlpha;
-                tileX += tileImage.width / tileSize; // shift over to shadow position
+                // Only shift shadow position if using original tiles.png layout
+                // For skins, we'll use the same tileX/tileY but from the mask canvas
+                if (image === tileImage)
+                {
+                    tileX += tileImage.width / tileSize; // shift over to shadow position
+                }
             }
             else if (hitRenderPass)
             {
-                drawImage = tileMaskCanvas;
+                // For hit effects (dash trail, cooldown), use mask only for original tiles.png
+                // For skins, apply alpha directly to the skin image to avoid artifacts
+                if (image === tileImage)
+                {
+                    drawImage = tileMaskCanvas;
+                    useMaskForHit = true;
+                }
+                // For skins, we'll use the image directly and apply alpha below
                 mainCanvasContext.globalAlpha *= hitRenderPass;
             }
             

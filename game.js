@@ -49,10 +49,6 @@ let gameOverTimer = new Timer();
 let gameOverModalOpen = false;
 let gameOverFadeActive = false;
 let gameOverFadeTimer = new Timer();
-let resetButtonHover = 0;
-let resetInProgress = false; // Flag to prevent multiple simultaneous resets
-let resetCooldown = new Timer(); // Cooldown timer to prevent rapid successive resets
-let resetButtonPressed = false; // Flag to track if reset button has been pressed (to hide it)
 let lawSchoolButtonHover = false;
 let lawSchoolModalOpen = false;
 let storeButtonHover = false;
@@ -918,35 +914,10 @@ function Update()
         InitTown();
     }
     
-    // Check for reset button hover and click (only if button hasn't been pressed yet)
-    if (!resetButtonPressed)
-    {
-        let buttonX = mainCanvasSize.x - 50;
-        let buttonY = 25;
-        let buttonWidth = 80;
-        let buttonHeight = 24;
-        
-        // Check if mouse is hovering over button (only if not in progress and cooldown expired)
-        resetButtonHover = !resetInProgress && resetCooldown.Elapsed() && (mousePos.x >= buttonX - buttonWidth/2 && mousePos.x <= buttonX + buttonWidth/2 &&
-                           mousePos.y >= buttonY - buttonHeight/2 && mousePos.y <= buttonY + buttonHeight/2);
-        
-        // Check for reset button click (only if not in progress and cooldown expired)
-        if (MouseWasPressed() && resetButtonHover && !resetInProgress && resetCooldown.Elapsed())
-        {
-            resetButtonPressed = true; // Hide button after first press
-            FullReset();
-        }
-    }
-    else
-    {
-        // Reset hover state when button is hidden
-        resetButtonHover = false;
-    }
-    
     // Check for Law School button hover and click
     {
         let buttonX = mainCanvasSize.x - 50;
-        let buttonY = 25 + 32; // Position below reset button
+        let buttonY = 25; // Position at top
         let buttonWidth = 80;
         let buttonHeight = 24;
         
@@ -964,7 +935,7 @@ function Update()
     // Check for Store button hover and click
     {
         let buttonX = mainCanvasSize.x - 50;
-        let buttonY = 25 + 32 + 32; // Position below law school button
+        let buttonY = 25 + 32; // Position below law school button
         let buttonWidth = 80;
         let buttonHeight = 24;
         
@@ -1384,39 +1355,10 @@ function PostRender()
         DrawText('M', mapButtonX, mapButtonY, 16, 'center', 1, '#FFF', '#000');
     }
     
-    // Reset button (top-right) - only show if not pressed yet
-    if (!resetButtonPressed)
+    // Law School button (top-right)
     {
         let buttonX = mainCanvasSize.x - 50;
-        let buttonY = 25;
-        let buttonWidth = 80;
-        let buttonHeight = 24;
-        
-        // Draw button background (disabled state if reset in progress or on cooldown)
-        let bgColor;
-        if (resetInProgress || !resetCooldown.Elapsed()) {
-            bgColor = '#666'; // Gray when disabled
-        } else {
-            bgColor = resetButtonHover ? '#F44' : '#844';
-        }
-        mainCanvasContext.fillStyle = bgColor;
-        mainCanvasContext.fillRect(buttonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
-        
-        // Draw button border
-        mainCanvasContext.strokeStyle = (resetInProgress || !resetCooldown.Elapsed()) ? '#999' : '#FFF';
-        mainCanvasContext.lineWidth = 2;
-        mainCanvasContext.strokeRect(buttonX - buttonWidth/2, buttonY - buttonHeight/2, buttonWidth, buttonHeight);
-        
-        // Draw button text
-        let buttonText = 'RESET';
-        let textColor = (resetInProgress || !resetCooldown.Elapsed()) ? '#AAA' : '#FFF';
-        DrawText(buttonText, buttonX, buttonY, 12, 'center', 1, textColor, '#000');
-    }
-    
-    // Law School button (below reset button)
-    {
-        let buttonX = mainCanvasSize.x - 50;
-        let buttonY = 25 + 32; // Position below reset button
+        let buttonY = 25; // Position at top
         let buttonWidth = 80;
         let buttonHeight = 24;
         
@@ -1437,7 +1379,7 @@ function PostRender()
     // Store button (below law school button)
     {
         let buttonX = mainCanvasSize.x - 50;
-        let buttonY = 25 + 32 + 32; // Position below law school button
+        let buttonY = 25 + 32; // Position below law school button
         let buttonWidth = 80;
         let buttonHeight = 24;
         

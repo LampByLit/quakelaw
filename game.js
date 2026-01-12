@@ -2002,14 +2002,11 @@ class Player extends MyGameObject
             }
             else if (hitRenderPass)
             {
-                // For hit effects (dash trail), use mask only for original tiles.png
-                // For skins, apply alpha directly to the skin image to avoid artifacts
-                if (image === tileImage)
+                // For hit effects (dash trail), use mask for all images to work with 'difference' blend mode
+                if (image === tileImage || image === tileImage5 || image === tileImage6)
                 {
                     drawImage = tileMaskCanvas;
                 }
-                // For skins, we'll use the image directly and apply alpha below
-                mainCanvasContext.globalAlpha *= hitRenderPass;
             }
             
             let renderTileShrink = .25;

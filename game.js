@@ -27,6 +27,8 @@ let playerExteriorPos = null;
 let tileImage2 = null; // tiles2.png for furniture
 let tileImage5 = null; // tiles5.png for player skins (0-5)
 let tileImage6 = null; // tiles6.png for player skins (6-11)
+let tileMaskCanvas5 = null; // Shadow mask for tiles5.png
+let tileMaskCanvas6 = null; // Shadow mask for tiles6.png
 let interiorExitCooldown = new Timer();
 
 let boss;
@@ -1980,52 +1982,43 @@ class Player extends MyGameObject
             
             if (shadowRenderPass)
             {
-                // For shadows with original tiles.png, use tileMaskCanvas
+                // Use appropriate mask canvas for shadows
                 if (image === tileImage)
                 {
                     drawImage = tileMaskCanvas;
-                    mainCanvasContext.globalAlpha *= shadowAlpha;
                     tileX += tileImage.width / tileSize; // shift over to shadow position
                 }
-                else
+                else if (image === tileImage5 && tileMaskCanvas5)
                 {
-                    // For skins, we'll draw the sprite and darken it below
-                    mainCanvasContext.globalAlpha *= shadowAlpha;
+                    drawImage = tileMaskCanvas5;
+                    tileX += tileImage5.width / tileSize; // shift over to shadow position
                 }
+                else if (image === tileImage6 && tileMaskCanvas6)
+                {
+                    drawImage = tileMaskCanvas6;
+                    tileX += tileImage6.width / tileSize; // shift over to shadow position
+                }
+                mainCanvasContext.globalAlpha *= shadowAlpha;
             }
             else if (hitRenderPass)
             {
-                // For hit effects (dash trail), use mask only for original tiles.png
-                // For skins, apply alpha directly to the skin image to avoid artifacts
+                // For hit effects, use mask only for original tiles.png
+                // Skins should not have hit effects during dash
                 if (image === tileImage)
                 {
                     drawImage = tileMaskCanvas;
+                    mainCanvasContext.globalAlpha *= hitRenderPass;
                 }
-                // For skins, we'll use the image directly and apply alpha below
-                mainCanvasContext.globalAlpha *= hitRenderPass;
             }
             
             let renderTileShrink = .25;
             let s = size.Clone(2 * tileSize);
             mainCanvasContext.scale(mirror ? -s.x : s.x, s.y);
-            
-            // Draw the sprite
             mainCanvasContext.drawImage(drawImage,
                 tileX * tileSize + renderTileShrink,
                 tileY * tileSize + renderTileShrink,
                 tileSize - 2 * renderTileShrink,
                 tileSize - 2 * renderTileShrink, -.5, -.5, 1, 1);
-            
-            // For skin shadows, apply darkening effect
-            if (shadowRenderPass && image !== tileImage)
-            {
-                // Darken the shadow by using multiply blend mode with black
-                mainCanvasContext.globalCompositeOperation = 'multiply';
-                mainCanvasContext.fillStyle = 'rgba(0, 0, 0, 0.8)';
-                mainCanvasContext.fillRect(-.5, -.5, 1, 1);
-                mainCanvasContext.globalCompositeOperation = 'source-over';
-            }
-            
             mainCanvasContext.restore();
             mainCanvasContext.globalAlpha = 1;
         };
@@ -2142,7 +2135,8 @@ class Player extends MyGameObject
                 DrawTile(pos, size, tileX, tileY, angle, mirror, height);
         };
         
-        if (!shadowRenderPass && hit)
+        // Dash effects only for original sprite, not for skins
+        if (!shadowRenderPass && hit && !useSkin)
         {
             // draw the position buffer during the hit render pass when dashing
             mainCanvasContext.globalCompositeOperation = 'screen';

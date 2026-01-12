@@ -918,6 +918,8 @@ width: 64px;
 height: 64px;
 margin-right: 20px;
 image-rendering: pixelated;
+image-rendering: -moz-crisp-edges;
+image-rendering: crisp-edges;
 border: 2px solid #666;
 background: #333;
 }
@@ -1143,36 +1145,52 @@ Use the term 'Purchase' to inquire regarding any individual's wares for sale.
 </div>
 <div class="store-body">
 <div class="store-balance" id="storeBalance">Balance: $0</div>
-<div class="store-item" data-item="fridge">
-<img class="store-item-image" src="fridge.png" alt="Fridge" id="fridgeImage">
+<div class="store-item" data-item="skin0">
+<canvas class="store-item-image" id="skin0Image" width="16" height="16"></canvas>
 <div class="store-item-info">
-<div class="store-item-name">Fridge</div>
+<div class="store-item-name">Suit 1</div>
+<div class="store-item-price">$20</div>
+<button class="store-item-button" data-item="skin0" data-price="20">Purchase</button>
+</div>
+</div>
+<div class="store-item" data-item="skin1">
+<canvas class="store-item-image" id="skin1Image" width="16" height="16"></canvas>
+<div class="store-item-info">
+<div class="store-item-name">Suit 2</div>
 <div class="store-item-price">$200</div>
-<button class="store-item-button" data-item="fridge" data-price="200">Purchase</button>
+<button class="store-item-button" data-item="skin1" data-price="200">Purchase</button>
 </div>
 </div>
-<div class="store-item" data-item="boat">
-<img class="store-item-image" src="boat.png" alt="Boat" id="boatImage">
+<div class="store-item" data-item="skin2">
+<canvas class="store-item-image" id="skin2Image" width="16" height="16"></canvas>
 <div class="store-item-info">
-<div class="store-item-name">Boat</div>
-<div class="store-item-price">$500</div>
-<button class="store-item-button" data-item="boat" data-price="500">Purchase</button>
+<div class="store-item-name">Suit 3</div>
+<div class="store-item-price">$300</div>
+<button class="store-item-button" data-item="skin2" data-price="300">Purchase</button>
 </div>
 </div>
-<div class="store-item" data-item="car">
-<img class="store-item-image" src="car.png" alt="Car" id="carImage">
+<div class="store-item" data-item="skin3">
+<canvas class="store-item-image" id="skin3Image" width="16" height="16"></canvas>
 <div class="store-item-info">
-<div class="store-item-name">Car</div>
+<div class="store-item-name">Suit 4</div>
+<div class="store-item-price">$400</div>
+<button class="store-item-button" data-item="skin3" data-price="400">Purchase</button>
+</div>
+</div>
+<div class="store-item" data-item="skin4">
+<canvas class="store-item-image" id="skin4Image" width="16" height="16"></canvas>
+<div class="store-item-info">
+<div class="store-item-name">Suit 5</div>
 <div class="store-item-price">$900</div>
-<button class="store-item-button" data-item="car" data-price="900">Purchase</button>
+<button class="store-item-button" data-item="skin4" data-price="900">Purchase</button>
 </div>
 </div>
-<div class="store-item" data-item="jet">
-<img class="store-item-image" src="jet.png" alt="Jet" id="jetImage">
+<div class="store-item" data-item="skin5">
+<canvas class="store-item-image" id="skin5Image" width="16" height="16"></canvas>
 <div class="store-item-info">
-<div class="store-item-name">Jet</div>
-<div class="store-item-price">$3900</div>
-<button class="store-item-button" data-item="jet" data-price="3900">Purchase</button>
+<div class="store-item-name">Suit 6</div>
+<div class="store-item-price">$1500</div>
+<button class="store-item-button" data-item="skin5" data-price="1500">Purchase</button>
 </div>
 </div>
 </div>

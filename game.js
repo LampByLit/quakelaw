@@ -25,6 +25,7 @@ let currentInterior = null;
 let exteriorLevel = null;
 let playerExteriorPos = null;
 let tileImage2 = null; // tiles2.png for furniture
+let tileImage5 = null; // tiles5.png for player skins
 let interiorExitCooldown = new Timer();
 
 let boss;
@@ -268,6 +269,7 @@ class PlayerData
         this.coins = 20;
         this.inventory = []; // 16 slots (4x4 grid)
         this.rentPaidThisMonth = false; // Track if rent has been paid this month
+        this.currentSkin = null; // null = use original tiles.png, 0-5 = use skin from tiles5.png
     }
     
     // Add item to inventory (returns true if added, false if full)
@@ -362,6 +364,7 @@ function Reset()
                 if (saved.playerData.boomerangs !== undefined) playerData.boomerangs = saved.playerData.boomerangs;
                 if (saved.playerData.bigBoomerangs !== undefined) playerData.bigBoomerangs = saved.playerData.bigBoomerangs;
                 if (saved.playerData.rentPaidThisMonth !== undefined) playerData.rentPaidThisMonth = saved.playerData.rentPaidThisMonth;
+                if (saved.playerData.currentSkin !== undefined) playerData.currentSkin = saved.playerData.currentSkin;
                 
                 // Load inventory
                 if (saved.playerData.inventory && Array.isArray(saved.playerData.inventory))
@@ -1968,6 +1971,34 @@ class Player extends MyGameObject
     
     Render()
     {
+        // Helper function to draw tile from custom image
+        let DrawTileWithImage = (pos, size, tileX, tileY, angle, mirror, height, image) => {
+            SetCanvasTransform(pos, size, angle, height);
+            
+            let drawImage = image;
+            if (shadowRenderPass)
+            {
+                drawImage = tileMaskCanvas;
+                mainCanvasContext.globalAlpha *= shadowAlpha;
+                tileX += tileImage.width / tileSize; // shift over to shadow position
+            }
+            else if (hitRenderPass)
+            {
+                drawImage = tileMaskCanvas;
+                mainCanvasContext.globalAlpha *= hitRenderPass;
+            }
+            
+            let renderTileShrink = .25;
+            let s = size.Clone(2 * tileSize);
+            mainCanvasContext.scale(mirror ? -s.x : s.x, s.y);
+            mainCanvasContext.drawImage(drawImage,
+                tileX * tileSize + renderTileShrink,
+                tileY * tileSize + renderTileShrink,
+                tileSize - 2 * renderTileShrink,
+                tileSize - 2 * renderTileShrink, -.5, -.5, 1, 1);
+            mainCanvasContext.restore();
+            mainCanvasContext.globalAlpha = 1;
+        };
     
         if (this.IsDead() || this.IsIntro())
         {
@@ -1978,31 +2009,70 @@ class Player extends MyGameObject
             return;
         }   
         
+        // Check if using a skin
+        let useSkin = playerData.currentSkin !== null && playerData.currentSkin !== undefined && tileImage5 && tileImage5.complete;
+        let skinImage = useSkin ? tileImage5 : tileImage;
+        let skinBaseIndex = useSkin ? (playerData.currentSkin * 8) : 0; // Each skin has 8 sprites
+        
         // figure out the tile, rotation and mirror
-        this.tileY = 4;
-        if (this.rotation&1)
+        let baseTileX, baseTileY;
+        if (useSkin)
         {
-            // facing left or right
-            // walk by toggling betwen 2 frames and mirror to face direction
-            this.tileX = this.rotation==1?2:3;
-            this.mirror = this.walkFrame%2|0;
-            if (!this.throwTimer.Elapsed()||!this.dashTimer.Elapsed())
-                this.tileX += 3; // throw/dash frame
-            else if (this.inputTimer.Get() > 1 && this.rotation==1)
+            // For skins, tileY is the row (skin index), tileX is the column (0-7)
+            baseTileY = playerData.currentSkin;
+            if (this.rotation&1)
             {
-                // idle
-                this.tileX = 7;
-                this.mirror = (this.inputTimer.Get()/2|0)&1;
+                // facing left or right
+                baseTileX = this.rotation==1?2:3;
+                this.mirror = this.walkFrame%2|0;
+                if (!this.throwTimer.Elapsed()||!this.dashTimer.Elapsed())
+                    baseTileX += 3; // throw/dash frame
+                else if (this.inputTimer.Get() > 1 && this.rotation==1)
+                {
+                    // idle
+                    baseTileX = 7;
+                    this.mirror = (this.inputTimer.Get()/2|0)&1;
+                }
             }
+            else
+            {
+                // facing up or down
+                this.mirror = this.rotation!=2;
+                baseTileX = this.walkFrame%2|0;
+                if (!this.throwTimer.Elapsed()||!this.dashTimer.Elapsed())
+                    baseTileX = 4; // throw/dash frame
+            }
+            this.tileX = baseTileX;
+            this.tileY = baseTileY;
         }
         else
         {
-            // facing up or down
-            // walk by toggling mirror and select frame to face direction
-            this.mirror = this.rotation!=2;
-            this.tileX = this.walkFrame%2|0;
-            if (!this.throwTimer.Elapsed()||!this.dashTimer.Elapsed())
-                this.tileX = 4; // throw/dash frame
+            // Original behavior
+            this.tileY = 4;
+            if (this.rotation&1)
+            {
+                // facing left or right
+                // walk by toggling betwen 2 frames and mirror to face direction
+                this.tileX = this.rotation==1?2:3;
+                this.mirror = this.walkFrame%2|0;
+                if (!this.throwTimer.Elapsed()||!this.dashTimer.Elapsed())
+                    this.tileX += 3; // throw/dash frame
+                else if (this.inputTimer.Get() > 1 && this.rotation==1)
+                {
+                    // idle
+                    this.tileX = 7;
+                    this.mirror = (this.inputTimer.Get()/2|0)&1;
+                }
+            }
+            else
+            {
+                // facing up or down
+                // walk by toggling mirror and select frame to face direction
+                this.mirror = this.rotation!=2;
+                this.tileX = this.walkFrame%2|0;
+                if (!this.throwTimer.Elapsed()||!this.dashTimer.Elapsed())
+                    this.tileX = 4; // throw/dash frame
+            }
         }
            
         let hit = hitRenderPass;
@@ -2013,6 +2083,15 @@ class Player extends MyGameObject
             if (this.rotation&1)
                 this.mirror = this.rotation==1;
         }
+        
+        // Draw function that uses skin image if applicable
+        let DrawPlayerTile = (pos, size, tileX, tileY, angle, mirror, height) => {
+            if (useSkin)
+                DrawTileWithImage(pos, size, tileX, tileY, angle, mirror, height, skinImage);
+            else
+                DrawTile(pos, size, tileX, tileY, angle, mirror, height);
+        };
+        
         if (!shadowRenderPass && hit)
         {
             // draw the position buffer during the hit render pass when dashing
@@ -2020,7 +2099,7 @@ class Player extends MyGameObject
             for(let i=this.posBuffer.length;i--;)
             {
                 hitRenderPass = hit*(i/this.posBuffer.length + .01);
-                DrawTile(this.posBuffer[i],this.size,this.tileX,this.tileY,this.angle,this.mirror,this.height);
+                DrawPlayerTile(this.posBuffer[i],this.size,this.tileX,this.tileY,this.angle,this.mirror,this.height);
             }
             hitRenderPass = hit;
             mainCanvasContext.globalCompositeOperation = 'difference';
@@ -2031,11 +2110,19 @@ class Player extends MyGameObject
         {
             // show a white outline around the player when dash is charging
             hitRenderPass = d<this.dashWaitTime?d/this.dashWaitTime:Math.sin((d-this.dashWaitTime)*PI*4);
-            DrawTile(this.pos,this.size.Clone(1.1),this.tileX,this.tileY,this.angle,this.mirror,this.height);
+            DrawPlayerTile(this.pos,this.size.Clone(1.1),this.tileX,this.tileY,this.angle,this.mirror,this.height);
             hitRenderPass = hit;
         }
         
-        super.Render();
+        // Use custom render for skin, or default for original
+        if (useSkin)
+        {
+            DrawPlayerTile(this.pos, this.size, this.tileX, this.tileY, this.angle, this.mirror, this.height);
+        }
+        else
+        {
+            super.Render();
+        }
         
         if (playerData.boomerangs || playerData.bigBoomerangs)
         {
@@ -2750,18 +2837,8 @@ class Store extends MyGameObject
     {
         super(pos,7,1,.5,.5);
         
-        // spawn random items
-        this.count = 2 + RandInt(2);
-        let o = 1-this.count;
-        for(let i=this.count;i--;)
-        {
-            let item = RandInt(4);
-            if (i==0)
-                item = RandIntBetween(0,1);
-            else if (i==1)
-                item = RandIntBetween(2,3);
-            new StoreItem(pos.Clone().AddXY(i*2+o,0),item,this);
-        }
+        // Store no longer spawns physical items - skins are purchased through modal
+        this.count = 0;
             
         this.pos.y-=2;
         this.isStore = 1;
@@ -4128,7 +4205,8 @@ function SaveGameState()
             boomerangs: playerData.boomerangs,
             bigBoomerangs: playerData.bigBoomerangs,
             inventory: playerData.inventory,
-            rentPaidThisMonth: playerData.rentPaidThisMonth
+            rentPaidThisMonth: playerData.rentPaidThisMonth,
+            currentSkin: playerData.currentSkin
         }
     };
     
@@ -6355,6 +6433,35 @@ function InitStoreModal() {
     });
 }
 
+// Generate skin thumbnails from tiles5.png
+function GenerateSkinThumbnails() {
+    if (!tileImage5 || !tileImage5.complete) {
+        // If tiles5.png isn't loaded yet, try again after a short delay
+        setTimeout(GenerateSkinThumbnails, 100);
+        return;
+    }
+    
+    // Each skin's thumbnail is the last sprite (index 7, 15, 23, 31, 39, 47)
+    // tiles5.png is 8 columns × 6 rows, each sprite is 16×16
+    for (let skinIndex = 0; skinIndex < 6; skinIndex++) {
+        const canvas = document.getElementById(`skin${skinIndex}Image`);
+        if (!canvas) continue;
+        
+        const ctx = canvas.getContext('2d');
+        const thumbnailSpriteIndex = 7 + (skinIndex * 8); // Last sprite of each skin set
+        const tileX = thumbnailSpriteIndex % 8;
+        const tileY = Math.floor(thumbnailSpriteIndex / 8);
+        
+        // Clear and draw the sprite
+        ctx.clearRect(0, 0, 16, 16);
+        ctx.drawImage(
+            tileImage5,
+            tileX * 16, tileY * 16, 16, 16, // Source
+            0, 0, 16, 16 // Destination
+        );
+    }
+}
+
 // Open Store modal
 function OpenStoreModal() {
     if (storeModalOpen) return;
@@ -6362,6 +6469,7 @@ function OpenStoreModal() {
     storeModalOpen = true;
     const modal = document.getElementById('storeModal');
     if (modal) {
+        GenerateSkinThumbnails();
         UpdateStoreBalance();
         UpdatePurchaseButtons();
         modal.classList.add('open');
@@ -6494,6 +6602,33 @@ function PurchaseItem(itemType, price) {
         return;
     }
     
+    // Check if this is a skin purchase
+    if (itemType && itemType.startsWith('skin')) {
+        const skinIndex = parseInt(itemType.replace('skin', ''));
+        if (!isNaN(skinIndex) && skinIndex >= 0 && skinIndex <= 5) {
+            // Deduct coins
+            playerData.coins = coins - price;
+            
+            // Set the skin
+            playerData.currentSkin = skinIndex;
+            
+            // Update UI
+            UpdateStoreBalance();
+            UpdatePurchaseButtons();
+            
+            // Save game state
+            SaveGameState();
+            
+            // Play purchase sound
+            PlaySound(10); // Coin sound
+            
+            // Close modal after purchase
+            CloseStoreModal();
+            return;
+        }
+    }
+    
+    // Legacy item purchase (shouldn't happen with new store, but keep for compatibility)
     // Deduct coins
     playerData.coins = coins - price;
     
@@ -6570,7 +6705,7 @@ function CloseLawSchoolModal() {
 // load texture and building sprites, then kick off init!
 let tileImage = new Image();
 let tilesLoaded = 0;
-let totalTilesToLoad = 2;
+let totalTilesToLoad = 3;
 let tilesLoadedCallback = null;
 
 tileImage.onload = () => {
@@ -6592,6 +6727,17 @@ tileImage2.onload = () => {
     }
 };
 tileImage2.src = 'tiles2.png';
+
+// Load tiles5.png for player skins
+tileImage5 = new Image();
+tileImage5.onload = () => {
+    tilesLoaded++;
+    if (tilesLoaded >= totalTilesToLoad && tilesLoadedCallback)
+    {
+        tilesLoadedCallback();
+    }
+};
+tileImage5.src = 'tiles5.png';
 
 // Initialize Law School modal on page load
 if (document.readyState === 'loading') {

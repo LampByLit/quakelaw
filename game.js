@@ -5088,40 +5088,49 @@ class DroppedEvidence extends MyGameObject
 
 function LoadPurchasedItemSprites(callback)
 {
-    // Load all purchased item sprite images
+    // Load all purchased item sprite images with throttling and retry logic
     let spriteFiles = ['fridge.png', 'boat.png', 'car.png', 'jet.png'];
     let loaded = 0;
     let total = spriteFiles.length;
+    const maxRetries = 3;
+    const retryDelay = 1000; // Start with 1 second delay
     
-    spriteFiles.forEach(file => {
+    function loadSprite(file, retryCount = 0) {
         let img = new Image();
+        
+        // Add cache-busting query param on retries
+        const cacheBuster = retryCount > 0 ? `?retry=${retryCount}&t=${Date.now()}` : '?v=1';
+        img.src = file + cacheBuster;
+        
         img.onload = () => {
             purchasedItemSprites[file] = img;
             loaded++;
             if (loaded === total && callback)
                 callback();
         };
+        
         img.onerror = () => {
-            // Retry without cache-busting in case of cached 404
-            let retryImg = new Image();
-            retryImg.onload = () => {
-                purchasedItemSprites[file] = retryImg;
-                loaded++;
-                if (loaded === total && callback)
-                    callback();
-            };
-            retryImg.onerror = () => {
+            // Retry with exponential backoff if we haven't exceeded max retries
+            if (retryCount < maxRetries) {
+                const delay = retryDelay * Math.pow(2, retryCount); // Exponential backoff: 1s, 2s, 4s
+                setTimeout(() => {
+                    loadSprite(file, retryCount + 1);
+                }, delay);
+            } else {
                 // Final failure - will use placeholder in render
-                console.warn(`Failed to load purchased item sprite: ${file}`);
+                console.warn(`Failed to load purchased item sprite: ${file} after ${maxRetries} retries`);
                 loaded++;
                 if (loaded === total && callback)
                     callback();
-            };
-            // Retry with fresh request (no cache)
-            retryImg.src = file + '?nocache=' + Math.random();
+            }
         };
-        // Load with cache-busting to avoid browser-cached 404 responses
-        img.src = file + '?v=1';
+    }
+    
+    // Load sprites with small delay between each to avoid overwhelming server
+    spriteFiles.forEach((file, index) => {
+        setTimeout(() => {
+            loadSprite(file);
+        }, index * 50); // 50ms delay between each sprite load
     });
 }
 
@@ -5284,26 +5293,49 @@ function LoadPurchasedItems(itemsData)
 
 function LoadBuildingSprites(callback)
 {
-    // Load all building sprite images
+    // Load all building sprite images with throttling and retry logic
     let spriteFiles = ['home.png', 'house.png', 'court.png', 'firm.png', 'shop.png', 'store.png'];
     let loaded = 0;
     let total = spriteFiles.length;
+    const maxRetries = 3;
+    const retryDelay = 1000; // Start with 1 second delay
     
-    spriteFiles.forEach(file => {
+    function loadSprite(file, retryCount = 0) {
         let img = new Image();
+        
+        // Add cache-busting query param on retries
+        const cacheBuster = retryCount > 0 ? `?retry=${retryCount}&t=${Date.now()}` : '';
+        img.src = file + cacheBuster;
+        
         img.onload = () => {
             buildingSprites[file] = img;
             loaded++;
             if (loaded === total && callback)
                 callback();
         };
+        
         img.onerror = () => {
-            // If sprite fails to load, still count it and proceed
-            loaded++;
-            if (loaded === total && callback)
-                callback();
+            // Retry with exponential backoff if we haven't exceeded max retries
+            if (retryCount < maxRetries) {
+                const delay = retryDelay * Math.pow(2, retryCount); // Exponential backoff: 1s, 2s, 4s
+                setTimeout(() => {
+                    loadSprite(file, retryCount + 1);
+                }, delay);
+            } else {
+                // Final failure - still count it and proceed
+                console.warn(`Failed to load building sprite: ${file} after ${maxRetries} retries`);
+                loaded++;
+                if (loaded === total && callback)
+                    callback();
+            }
         };
-        img.src = file;
+    }
+    
+    // Load sprites with small delay between each to avoid overwhelming server
+    spriteFiles.forEach((file, index) => {
+        setTimeout(() => {
+            loadSprite(file);
+        }, index * 50); // 50ms delay between each sprite load
     });
 }
 

@@ -13,7 +13,7 @@ const rateLimit = require('express-rate-limit');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Rate limiting - 30 requests per minute per IP
+// Rate limiting - 30 requests per minute per IP (only for API routes)
 const limiter = rateLimit({
     windowMs: 60 * 1000, // 1 minute
     max: 30, // 30 requests per window
@@ -25,8 +25,10 @@ const limiter = rateLimit({
 // Middleware
 app.use(cors());
 app.use(express.json({ limit: '1mb' })); // Request size limit
-app.use(limiter); // Apply rate limiting to all routes
+// Serve static files WITHOUT rate limiting
 app.use(express.static(path.join(__dirname)));
+// Apply rate limiting only to API routes (not static files)
+app.use('/api', limiter);
 
 // Initialize data directory structure
 const dataDir = process.env.DATA_DIR || path.join(__dirname, 'data');

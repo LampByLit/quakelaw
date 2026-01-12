@@ -595,6 +595,7 @@ let emojiLoadingPromises = {};
 let emojiFailedCache = {}; // Cache for emojis that failed to load
 let availableEmojiFiles = []; // List of available emoji filenames
 let emojiFallbackMap = {}; // Map original emoji to fallback emoji filename
+let emojiRetryCount = {}; // Track retry attempts for each emoji
 
 // Convert emoji to Unicode code point for OpenMoji filename
 function getEmojiCodePoint(emoji) {
@@ -685,56 +686,108 @@ function loadEmojiImage(emoji) {
         return emojiLoadingPromises[emoji];
     }
     
-    // Create new loading promise
+    // Create new loading promise with retry logic
     const promise = new Promise((resolve, reject) => {
-        const img = new Image();
+        const maxRetries = 3;
+        const retryDelay = 1000; // Start with 1 second delay
         
-        // Use local OpenMoji files - 72x72 PNG images
-        img.src = `openmoji/${codePoint}.png`;
-        
-        img.onload = () => {
-            emojiCache[emoji] = img;
-            delete emojiLoadingPromises[emoji];
-            resolve(img);
-        };
-        
-        img.onerror = () => {
-            delete emojiLoadingPromises[emoji];
+        function attemptLoad(retryCount = 0) {
+            const img = new Image();
             
-            // Try random fallback emoji
-            const fallbackFile = getRandomFallbackEmoji(emoji);
-            if (fallbackFile) {
-                const fallbackImg = new Image();
-                fallbackImg.src = `openmoji/${fallbackFile}.png`;
-                
-                fallbackImg.onload = () => {
-                    emojiCache[emoji] = fallbackImg; // Cache the fallback for this emoji
-                    resolve(fallbackImg);
-                };
-                
-                fallbackImg.onerror = () => {
-                    // Mark as failed so we don't keep trying
-                    emojiFailedCache[emoji] = true;
-                    resolve(null);
-                };
-            } else {
-                // Mark as failed so we don't keep trying
-                emojiFailedCache[emoji] = true;
-                resolve(null);
-            }
-        };
+            // Use local OpenMoji files - 72x72 PNG images
+            // Add cache-busting query param on retries to avoid cached errors
+            const cacheBuster = retryCount > 0 ? `?retry=${retryCount}&t=${Date.now()}` : '';
+            img.src = `openmoji/${codePoint}.png${cacheBuster}`;
+            
+            img.onload = () => {
+                emojiCache[emoji] = img;
+                delete emojiLoadingPromises[emoji];
+                delete emojiRetryCount[emoji];
+                resolve(img);
+            };
+            
+            img.onerror = () => {
+                // Retry with exponential backoff if we haven't exceeded max retries
+                if (retryCount < maxRetries) {
+                    const delay = retryDelay * Math.pow(2, retryCount); // Exponential backoff: 1s, 2s, 4s
+                    emojiRetryCount[emoji] = (emojiRetryCount[emoji] || 0) + 1;
+                    
+                    setTimeout(() => {
+                        attemptLoad(retryCount + 1);
+                    }, delay);
+                } else {
+                    // Max retries exceeded, try fallback
+                    delete emojiLoadingPromises[emoji];
+                    delete emojiRetryCount[emoji];
+                    
+                    // Try random fallback emoji
+                    const fallbackFile = getRandomFallbackEmoji(emoji);
+                    if (fallbackFile) {
+                        const fallbackImg = new Image();
+                        fallbackImg.src = `openmoji/${fallbackFile}.png`;
+                        
+                        fallbackImg.onload = () => {
+                            emojiCache[emoji] = fallbackImg; // Cache the fallback for this emoji
+                            resolve(fallbackImg);
+                        };
+                        
+                        fallbackImg.onerror = () => {
+                            // Mark as failed so we don't keep trying
+                            emojiFailedCache[emoji] = true;
+                            resolve(null);
+                        };
+                    } else {
+                        // Mark as failed so we don't keep trying
+                        emojiFailedCache[emoji] = true;
+                        resolve(null);
+                    }
+                }
+            };
+        }
+        
+        attemptLoad();
     });
     
     emojiLoadingPromises[emoji] = promise;
     return promise;
 }
 
-// Preload multiple emojis
+// Preload multiple emojis with throttling to avoid overwhelming the server
 function preloadEmojis(emojis, callback) {
-    const promises = emojis.map(emoji => loadEmojiImage(emoji));
-    Promise.all(promises).then(() => {
+    if (!emojis || emojis.length === 0) {
         if (callback) callback();
-    });
+        return;
+    }
+    
+    // Throttle: load 10 emojis at a time with 100ms delay between batches
+    const batchSize = 10;
+    const batchDelay = 100; // ms between batches
+    let currentIndex = 0;
+    const allPromises = [];
+    
+    function loadBatch() {
+        const batch = emojis.slice(currentIndex, currentIndex + batchSize);
+        const batchPromises = batch.map(emoji => loadEmojiImage(emoji));
+        allPromises.push(...batchPromises);
+        
+        currentIndex += batchSize;
+        
+        if (currentIndex < emojis.length) {
+            // Load next batch after delay
+            setTimeout(loadBatch, batchDelay);
+        } else {
+            // All batches started, wait for all to complete
+            Promise.all(allPromises).then(() => {
+                if (callback) callback();
+            }).catch(() => {
+                // Even if some fail, call callback
+                if (callback) callback();
+            });
+        }
+    }
+    
+    // Start loading first batch
+    loadBatch();
 }
 
 // Draw emoji - emoji can be either an emoji character or a filename (like '1F608')

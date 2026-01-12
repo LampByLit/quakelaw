@@ -501,9 +501,9 @@ async function SendMessage() {
     
     if (!message) return;
     
-    // Check for document-related requests (only trigger on "purchase")
+    // Check for document-related requests (only trigger on "purchase document")
     const messageLower = message.toLowerCase();
-    const hasDocumentKeyword = messageLower.includes('purchase');
+    const hasDocumentKeyword = messageLower.includes('purchase document');
     
     // Check for claim request (only after Friday judgment when completedCaseContext exists)
     if (currentDialogueNPC && currentDialogueNPC.isJudge && !isLoadingResponse && completedCaseContext) {
@@ -975,14 +975,179 @@ async function SendMessage() {
         }
     }
     
+    // Check if player is responding "yes" to an NPC's proactive document offer
+    // This handles cases where NPC offers a document through AI conversation
+    if (!pendingDocumentPurchase && currentDialogueNPC && currentDialogueNPC.canSellDocuments) {
+        const isAffirmative = /yes|yeah|yep|yup|ok|okay|sure|i'd like|i want|show me|let me see|i'll take/i.test(messageLower);
+        
+        if (isAffirmative && conversationHistory.length > 0) {
+            // Check the last NPC message for document offer keywords
+            const lastNPCMessage = conversationHistory
+                .slice()
+                .reverse()
+                .find(msg => msg.role === 'npc');
+            
+            if (lastNPCMessage && lastNPCMessage.message) {
+                const lastMessageLower = lastNPCMessage.message.toLowerCase();
+                // Check if NPC mentioned offering/showing a document
+                const documentOfferPatterns = [
+                    /(?:would you like|want|interested).*?(?:see|view|look at|check out).*?(?:new|a|another).*?document/i,
+                    /(?:have|got|can show|can offer).*?(?:new|a|another).*?document/i,
+                    /(?:document|paper|documentation).*?(?:available|for you|to show|to see)/i,
+                    /(?:show|see|view|look at).*?(?:new|a|another).*?document/i
+                ];
+                
+                const hasDocumentOffer = documentOfferPatterns.some(pattern => pattern.test(lastMessageLower));
+                
+                if (hasDocumentOffer) {
+                    // NPC offered a document and player said yes - generate document
+                    try {
+                        // Check if dialogue is still open
+                        if (!currentDialogueNPC) {
+                            console.warn('Dialogue closed during document generation');
+                            return;
+                        }
+                        
+                        const sessionId = getSessionId();
+                        
+                        // Add player message
+                        conversationHistory.push({
+                            role: 'player',
+                            message: message,
+                            timestamp: Date.now()
+                        });
+                        UpdateConversationDisplay();
+                        
+                        // Show loading
+                        const loadingDiv = document.createElement('div');
+                        loadingDiv.className = 'loading-indicator';
+                        loadingDiv.textContent = `${currentDialogueNPC.surname} is preparing a document...`;
+                        document.getElementById('conversationHistory').appendChild(loadingDiv);
+                        ScrollToBottom();
+                        
+                        // Generate or fetch document
+                        const response = await fetch(`/api/npc/generate-document/${encodeURIComponent(currentDialogueNPC.surname)}?sessionId=${encodeURIComponent(sessionId)}`, {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({
+                                npcData: {
+                                    surname: currentDialogueNPC.surname,
+                                    characteristic: currentDialogueNPC.characteristic,
+                                    emoji: currentDialogueNPC.emoji,
+                                    job: currentDialogueNPC.job || ''
+                                }
+                            })
+                        });
+                        
+                        if (!response.ok) {
+                            // Try to get error details from response
+                            let errorMessage = 'Failed to generate document';
+                            let errorDetails = null;
+                            
+                            try {
+                                const errorData = await response.json();
+                                errorMessage = errorData.error || errorMessage;
+                                errorDetails = errorData;
+                            } catch (e) {
+                                // Response might not be JSON
+                                console.warn('Could not parse error response as JSON');
+                            }
+                            
+                            // Provide specific messages for common errors
+                            if (response.status === 502) {
+                                errorMessage = 'Server is not responding. Please make sure the server is running on port 3000.';
+                            } else if (response.status === 500) {
+                                errorMessage = errorMessage || 'Server error occurred while generating document.';
+                            } else if (response.status === 400) {
+                                errorMessage = errorMessage || 'Invalid request. Please check that the NPC has a valid job.';
+                            }
+                            
+                            console.error('Document generation failed:', {
+                                status: response.status,
+                                statusText: response.statusText,
+                                error: errorMessage,
+                                details: errorDetails
+                            });
+                            
+                            throw new Error(errorMessage);
+                        }
+                        
+                        const data = await response.json();
+                        const docData = data.document;
+                        
+                        // Remove loading
+                        const loading = document.querySelector('.loading-indicator');
+                        if (loading) loading.remove();
+                        
+                        // Check if dialogue is still open before storing purchase
+                        if (!currentDialogueNPC) {
+                            console.warn('Dialogue closed during document generation');
+                            return;
+                        }
+                        
+                        // Store pending purchase
+                        pendingDocumentPurchase = {
+                            document: docData,
+                            npc: currentDialogueNPC,
+                            agreedPrice: docData.price // Start with base price
+                        };
+                        
+                        // Add NPC response with document info and price
+                        const npcResponse = `I have a document available: "${docData.title}". The price is $${docData.price}. Would you like to buy it?`;
+                        
+                        conversationHistory.push({
+                            role: 'npc',
+                            message: npcResponse,
+                            timestamp: Date.now()
+                        });
+                        
+                        UpdateConversationDisplay();
+                        input.value = '';
+                        return;
+                        
+                    } catch (error) {
+                        console.error('Error generating document:', error);
+                        const loading = document.querySelector('.loading-indicator');
+                        if (loading) loading.remove();
+                        
+                        // Check if dialogue is still open
+                        if (!currentDialogueNPC) {
+                            console.warn('Dialogue closed during error handling');
+                            return;
+                        }
+                        
+                        // Use error message if available, otherwise use generic message
+                        let errorMessage = "I'm having trouble preparing a document right now. Please try again later.";
+                        if (error.message && error.message !== 'Failed to generate document') {
+                            errorMessage = error.message;
+                        } else if (error.message && error.message.includes('Server is not responding')) {
+                            errorMessage = "I'm having trouble connecting to my document system. Please make sure the server is running.";
+                        }
+                        
+                        conversationHistory.push({
+                            role: 'npc',
+                            message: errorMessage,
+                            timestamp: Date.now()
+                        });
+                        UpdateConversationDisplay();
+                        input.value = '';
+                        return;
+                    }
+                }
+            }
+        }
+    }
+    
     // Check if player is asking about documents and NPC can sell (for generating new documents)
     if (hasDocumentKeyword && currentDialogueNPC && currentDialogueNPC.canSellDocuments) {
         // Check if player is asking about price or negotiating
         const isPriceQuery = /price|cost|how much|pay|afford/i.test(messageLower);
         const isNegotiation = /negotiate|deal|discount|lower|cheaper|bargain/i.test(messageLower);
         
-        // If asking about purchase, generate/fetch document
-        if (messageLower.includes('purchase')) {
+        // If asking about purchase document, generate/fetch document
+        if (messageLower.includes('purchase document')) {
             try {
                 // Check if dialogue is still open
                 if (!currentDialogueNPC) {

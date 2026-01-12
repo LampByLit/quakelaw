@@ -5814,35 +5814,77 @@ function GenerateTown()
 // Render loading screen
 function RenderLoadingScreen()
 {
-    // Clear canvas to black
-    mainCanvasContext.fillStyle = '#000';
+    // Clear canvas to dark brown
+    mainCanvasContext.fillStyle = '#2A1A0A';
     mainCanvasContext.fillRect(0, 0, mainCanvasSize.x, mainCanvasSize.y);
     
-    // Draw title
+    // Calculate pulsing animation (sine wave for smooth pulse)
+    // Use performance.now() for reliable animation timing during loading
+    let animationTime = (typeof performance !== 'undefined' ? performance.now() : Date.now()) / 1000.0;
+    let pulseTime = animationTime * 2.0; // Speed of pulse
+    let pulseScale = 1.0 + Math.sin(pulseTime) * 0.05; // Scale from 1.0 to 1.05
+    let glowIntensity = 0.7 + Math.sin(pulseTime) * 0.3; // Glow intensity from 0.7 to 1.0
+    
+    // Draw title with glowing blue effect
     let titleY = mainCanvasSize.y / 2 - 60;
-    DrawText('QLAW', mainCanvasSize.x / 2, titleY, 32, 'center', 2, '#FFF', '#000');
+    let titleX = mainCanvasSize.x / 2;
+    let titleSize = 56;
     
-    // Draw loading message
-    let messageY = mainCanvasSize.y / 2;
-    DrawText(loadingMessage, mainCanvasSize.x / 2, messageY, 12, 'center', 1, '#FFF', '#000');
+    // Save context for transformations
+    mainCanvasContext.save();
+    mainCanvasContext.translate(titleX, titleY);
+    mainCanvasContext.scale(pulseScale, pulseScale);
+    mainCanvasContext.translate(-titleX, -titleY);
     
-    // Draw progress bar background
+    // Draw multiple glow layers for intense glow effect
+    mainCanvasContext.shadowBlur = 20 * glowIntensity;
+    mainCanvasContext.shadowColor = '#4A9EFF';
+    mainCanvasContext.fillStyle = '#4A9EFF';
+    mainCanvasContext.font = `900 ${titleSize}px "Press Start 2P"`;
+    mainCanvasContext.textAlign = 'center';
+    mainCanvasContext.textBaseline = 'middle';
+    mainCanvasContext.fillText('DOCKET', titleX, titleY);
+    
+    // Additional outer glow layer for more intensity
+    mainCanvasContext.shadowBlur = 30 * glowIntensity;
+    mainCanvasContext.shadowColor = '#5AB3FF';
+    mainCanvasContext.fillText('DOCKET', titleX, titleY);
+    
+    // Main text (bright blue)
+    mainCanvasContext.shadowBlur = 0;
+    mainCanvasContext.fillStyle = '#5AB3FF';
+    mainCanvasContext.fillText('DOCKET', titleX, titleY);
+    
+    mainCanvasContext.restore();
+    
+    // Draw loading message (light blue)
+    let messageY = mainCanvasSize.y / 2 + 10;
+    DrawText(loadingMessage, mainCanvasSize.x / 2, messageY, 12, 'center', 1, '#8AC4FF', '#000');
+    
+    // Draw progress bar background (dark brown)
     let barWidth = mainCanvasSize.x * 0.6;
-    let barHeight = 8;
+    let barHeight = 10;
     let barX = (mainCanvasSize.x - barWidth) / 2;
-    let barY = mainCanvasSize.y / 2 + 30;
+    let barY = mainCanvasSize.y / 2 + 40;
     
-    mainCanvasContext.fillStyle = '#333';
+    mainCanvasContext.fillStyle = '#3A2A1A';
     mainCanvasContext.fillRect(barX, barY, barWidth, barHeight);
     
-    // Draw progress bar fill
+    // Draw progress bar fill (glowing blue)
     let progressWidth = barWidth * Clamp(loadingProgress, 0, 1);
-    mainCanvasContext.fillStyle = '#FFF';
+    
+    // Glow effect for progress bar
+    mainCanvasContext.shadowBlur = 8;
+    mainCanvasContext.shadowColor = '#4A9EFF';
+    mainCanvasContext.fillStyle = '#4A9EFF';
     mainCanvasContext.fillRect(barX, barY, progressWidth, barHeight);
     
-    // Draw progress percentage
+    // Reset shadow
+    mainCanvasContext.shadowBlur = 0;
+    
+    // Draw progress percentage (light blue)
     let percentText = Math.floor(loadingProgress * 100) + '%';
-    DrawText(percentText, mainCanvasSize.x / 2, barY + barHeight + 15, 10, 'center', 0, '#FFF', '#000');
+    DrawText(percentText, mainCanvasSize.x / 2, barY + barHeight + 18, 10, 'center', 0, '#8AC4FF', '#000');
 }
 
 // Pre-generate all building interiors for NPCs

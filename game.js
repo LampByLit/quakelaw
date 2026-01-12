@@ -2002,11 +2002,13 @@ class Player extends MyGameObject
             }
             else if (hitRenderPass)
             {
-                // For hit effects (dash trail), use mask for all images to work with 'difference' blend mode
-                if (image === tileImage || image === tileImage5 || image === tileImage6)
+                // For hit effects (dash trail), use mask only for default sprite
+                // Store skins must use their actual image because tileMaskCanvas only contains masks for tileImage
+                if (image === tileImage)
                 {
                     drawImage = tileMaskCanvas;
                 }
+                // For tileImage5 and tileImage6, keep using the actual skin image (drawImage = image)
             }
             
             let renderTileShrink = .25;

@@ -2165,7 +2165,9 @@ class Player extends MyGameObject
             else
             {
                 // Clear hitRenderPass for store skins so they render normally
+                // Also reset globalCompositeOperation to ensure normal rendering (not black from 'difference' mode)
                 hitRenderPass = 0;
+                mainCanvasContext.globalCompositeOperation = 'source-over';
             }
         }
     

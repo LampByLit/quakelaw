@@ -2002,13 +2002,12 @@ class Player extends MyGameObject
             }
             else if (hitRenderPass)
             {
-                // For hit effects (dash trail), use mask only for default sprite
-                // Store skins must use their actual image because tileMaskCanvas only contains masks for tileImage
+                // For hit effects (dash trail), use mask for default sprite
+                // Store skins skip the dash trail effect entirely (handled in Render method)
                 if (image === tileImage)
                 {
                     drawImage = tileMaskCanvas;
                 }
-                // For tileImage5 and tileImage6, keep using the actual skin image (drawImage = image)
             }
             
             let renderTileShrink = .25;
@@ -2151,14 +2150,18 @@ class Player extends MyGameObject
         if (!shadowRenderPass && hit)
         {
             // draw the position buffer during the hit render pass when dashing
-            mainCanvasContext.globalCompositeOperation = 'screen';
-            for(let i=this.posBuffer.length;i--;)
+            // Skip dash trail effect for store skins - just render normally
+            if (!useSkin)
             {
-                hitRenderPass = hit*(i/this.posBuffer.length + .01);
-                DrawPlayerTile(this.posBuffer[i],this.size,this.tileX,this.tileY,this.angle,this.mirror,this.height);
+                mainCanvasContext.globalCompositeOperation = 'screen';
+                for(let i=this.posBuffer.length;i--;)
+                {
+                    hitRenderPass = hit*(i/this.posBuffer.length + .01);
+                    DrawPlayerTile(this.posBuffer[i],this.size,this.tileX,this.tileY,this.angle,this.mirror,this.height);
+                }
+                hitRenderPass = hit;
+                mainCanvasContext.globalCompositeOperation = 'difference';
             }
-            hitRenderPass = hit;
-            mainCanvasContext.globalCompositeOperation = 'difference';
         }
     
         let d = this.dashTimer.Get();

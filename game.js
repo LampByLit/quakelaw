@@ -3978,12 +3978,15 @@ function ExitInterior()
         if (building)
         {
             // Calculate preferred position (south of building, slightly further than stored position)
-            let preferredOffset = new Vector2(0, building.size.y + 0.5);
+            // Courthouse needs more clearance to avoid entry detection zone
+            let southOffset = building.buildingType === 'court' ? building.size.y + 1.5 : building.size.y + 0.5;
+            let preferredOffset = new Vector2(0, southOffset);
             if (playerExteriorPos)
             {
                 // Use stored position as base, but adjust slightly south
                 preferredOffset = playerExteriorPos.Clone().Subtract(building.pos);
-                preferredOffset.y += 0.5; // Push further south to avoid entry detection zone
+                // Push further south to avoid entry detection zone (more for courthouse)
+                preferredOffset.y += building.buildingType === 'court' ? 1.5 : 0.5;
             }
             
             // Find valid position near building
@@ -4019,8 +4022,9 @@ function ExitInterior()
             }
         }
         
-        // Set cooldown to prevent immediate re-entry (0.3 seconds)
-        interiorExitCooldown.Set(0.3);
+        // Set cooldown to prevent immediate re-entry (longer for courthouse to avoid loop)
+        let cooldownTime = building && building.buildingType === 'court' ? 0.6 : 0.3;
+        interiorExitCooldown.Set(cooldownTime);
         
         // Clear current interior reference (but keep it stored on the building for persistence)
         // The interior is still stored in building.interior, so it will be reused on next entry

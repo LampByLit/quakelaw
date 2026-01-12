@@ -27,8 +27,6 @@ let playerExteriorPos = null;
 let tileImage2 = null; // tiles2.png for furniture
 let tileImage5 = null; // tiles5.png for player skins (0-5)
 let tileImage6 = null; // tiles6.png for player skins (6-11)
-let tileMaskCanvas5 = null; // Shadow mask for tiles5.png
-let tileMaskCanvas6 = null; // Shadow mask for tiles6.png
 let interiorExitCooldown = new Timer();
 
 let boss;
@@ -1982,43 +1980,52 @@ class Player extends MyGameObject
             
             if (shadowRenderPass)
             {
-                // Use appropriate mask canvas for shadows
+                // For shadows with original tiles.png, use tileMaskCanvas
                 if (image === tileImage)
                 {
                     drawImage = tileMaskCanvas;
+                    mainCanvasContext.globalAlpha *= shadowAlpha;
                     tileX += tileImage.width / tileSize; // shift over to shadow position
                 }
-                else if (image === tileImage5 && tileMaskCanvas5)
+                else
                 {
-                    drawImage = tileMaskCanvas5;
-                    tileX += tileImage5.width / tileSize; // shift over to shadow position
+                    // For skins, we'll draw the sprite and darken it below
+                    mainCanvasContext.globalAlpha *= shadowAlpha;
                 }
-                else if (image === tileImage6 && tileMaskCanvas6)
-                {
-                    drawImage = tileMaskCanvas6;
-                    tileX += tileImage6.width / tileSize; // shift over to shadow position
-                }
-                mainCanvasContext.globalAlpha *= shadowAlpha;
             }
             else if (hitRenderPass)
             {
-                // For hit effects, use mask only for original tiles.png
-                // Skins should not have hit effects during dash
+                // For hit effects (dash trail), use mask only for original tiles.png
+                // For skins, apply alpha directly to the skin image to avoid artifacts
                 if (image === tileImage)
                 {
                     drawImage = tileMaskCanvas;
-                    mainCanvasContext.globalAlpha *= hitRenderPass;
                 }
+                // For skins, we'll use the image directly and apply alpha below
+                mainCanvasContext.globalAlpha *= hitRenderPass;
             }
             
             let renderTileShrink = .25;
             let s = size.Clone(2 * tileSize);
             mainCanvasContext.scale(mirror ? -s.x : s.x, s.y);
+            
+            // Draw the sprite
             mainCanvasContext.drawImage(drawImage,
                 tileX * tileSize + renderTileShrink,
                 tileY * tileSize + renderTileShrink,
                 tileSize - 2 * renderTileShrink,
                 tileSize - 2 * renderTileShrink, -.5, -.5, 1, 1);
+            
+            // For skin shadows, apply darkening effect
+            if (shadowRenderPass && image !== tileImage)
+            {
+                // Darken the shadow by using multiply blend mode with black
+                mainCanvasContext.globalCompositeOperation = 'multiply';
+                mainCanvasContext.fillStyle = 'rgba(0, 0, 0, 0.8)';
+                mainCanvasContext.fillRect(-.5, -.5, 1, 1);
+                mainCanvasContext.globalCompositeOperation = 'source-over';
+            }
+            
             mainCanvasContext.restore();
             mainCanvasContext.globalAlpha = 1;
         };
@@ -2135,8 +2142,7 @@ class Player extends MyGameObject
                 DrawTile(pos, size, tileX, tileY, angle, mirror, height);
         };
         
-        // Dash effects only for original sprite, not for skins
-        if (!shadowRenderPass && hit && !useSkin)
+        if (!shadowRenderPass && hit)
         {
             // draw the position buffer during the hit render pass when dashing
             mainCanvasContext.globalCompositeOperation = 'screen';
@@ -5088,49 +5094,40 @@ class DroppedEvidence extends MyGameObject
 
 function LoadPurchasedItemSprites(callback)
 {
-    // Load all purchased item sprite images with throttling and retry logic
+    // Load all purchased item sprite images
     let spriteFiles = ['fridge.png', 'boat.png', 'car.png', 'jet.png'];
     let loaded = 0;
     let total = spriteFiles.length;
-    const maxRetries = 3;
-    const retryDelay = 1000; // Start with 1 second delay
     
-    function loadSprite(file, retryCount = 0) {
+    spriteFiles.forEach(file => {
         let img = new Image();
-        
-        // Add cache-busting query param on retries
-        const cacheBuster = retryCount > 0 ? `?retry=${retryCount}&t=${Date.now()}` : '?v=1';
-        img.src = file + cacheBuster;
-        
         img.onload = () => {
             purchasedItemSprites[file] = img;
             loaded++;
             if (loaded === total && callback)
                 callback();
         };
-        
         img.onerror = () => {
-            // Retry with exponential backoff if we haven't exceeded max retries
-            if (retryCount < maxRetries) {
-                const delay = retryDelay * Math.pow(2, retryCount); // Exponential backoff: 1s, 2s, 4s
-                setTimeout(() => {
-                    loadSprite(file, retryCount + 1);
-                }, delay);
-            } else {
-                // Final failure - will use placeholder in render
-                console.warn(`Failed to load purchased item sprite: ${file} after ${maxRetries} retries`);
+            // Retry without cache-busting in case of cached 404
+            let retryImg = new Image();
+            retryImg.onload = () => {
+                purchasedItemSprites[file] = retryImg;
                 loaded++;
                 if (loaded === total && callback)
                     callback();
-            }
+            };
+            retryImg.onerror = () => {
+                // Final failure - will use placeholder in render
+                console.warn(`Failed to load purchased item sprite: ${file}`);
+                loaded++;
+                if (loaded === total && callback)
+                    callback();
+            };
+            // Retry with fresh request (no cache)
+            retryImg.src = file + '?nocache=' + Math.random();
         };
-    }
-    
-    // Load sprites with small delay between each to avoid overwhelming server
-    spriteFiles.forEach((file, index) => {
-        setTimeout(() => {
-            loadSprite(file);
-        }, index * 50); // 50ms delay between each sprite load
+        // Load with cache-busting to avoid browser-cached 404 responses
+        img.src = file + '?v=1';
     });
 }
 
@@ -5293,49 +5290,26 @@ function LoadPurchasedItems(itemsData)
 
 function LoadBuildingSprites(callback)
 {
-    // Load all building sprite images with throttling and retry logic
+    // Load all building sprite images
     let spriteFiles = ['home.png', 'house.png', 'court.png', 'firm.png', 'shop.png', 'store.png'];
     let loaded = 0;
     let total = spriteFiles.length;
-    const maxRetries = 3;
-    const retryDelay = 1000; // Start with 1 second delay
     
-    function loadSprite(file, retryCount = 0) {
+    spriteFiles.forEach(file => {
         let img = new Image();
-        
-        // Add cache-busting query param on retries
-        const cacheBuster = retryCount > 0 ? `?retry=${retryCount}&t=${Date.now()}` : '';
-        img.src = file + cacheBuster;
-        
         img.onload = () => {
             buildingSprites[file] = img;
             loaded++;
             if (loaded === total && callback)
                 callback();
         };
-        
         img.onerror = () => {
-            // Retry with exponential backoff if we haven't exceeded max retries
-            if (retryCount < maxRetries) {
-                const delay = retryDelay * Math.pow(2, retryCount); // Exponential backoff: 1s, 2s, 4s
-                setTimeout(() => {
-                    loadSprite(file, retryCount + 1);
-                }, delay);
-            } else {
-                // Final failure - still count it and proceed
-                console.warn(`Failed to load building sprite: ${file} after ${maxRetries} retries`);
-                loaded++;
-                if (loaded === total && callback)
-                    callback();
-            }
+            // If sprite fails to load, still count it and proceed
+            loaded++;
+            if (loaded === total && callback)
+                callback();
         };
-    }
-    
-    // Load sprites with small delay between each to avoid overwhelming server
-    spriteFiles.forEach((file, index) => {
-        setTimeout(() => {
-            loadSprite(file);
-        }, index * 50); // 50ms delay between each sprite load
+        img.src = file;
     });
 }
 
@@ -5840,77 +5814,35 @@ function GenerateTown()
 // Render loading screen
 function RenderLoadingScreen()
 {
-    // Clear canvas to dark brown
-    mainCanvasContext.fillStyle = '#2A1A0A';
+    // Clear canvas to black
+    mainCanvasContext.fillStyle = '#000';
     mainCanvasContext.fillRect(0, 0, mainCanvasSize.x, mainCanvasSize.y);
     
-    // Calculate pulsing animation (sine wave for smooth pulse)
-    // Use performance.now() for reliable animation timing during loading
-    let animationTime = (typeof performance !== 'undefined' ? performance.now() : Date.now()) / 1000.0;
-    let pulseTime = animationTime * 2.0; // Speed of pulse
-    let pulseScale = 1.0 + Math.sin(pulseTime) * 0.05; // Scale from 1.0 to 1.05
-    let glowIntensity = 0.7 + Math.sin(pulseTime) * 0.3; // Glow intensity from 0.7 to 1.0
-    
-    // Draw title with glowing blue effect
+    // Draw title
     let titleY = mainCanvasSize.y / 2 - 60;
-    let titleX = mainCanvasSize.x / 2;
-    let titleSize = 44; // Slightly smaller to fit "TINY DOCKET"
+    DrawText('Tiny Docket', mainCanvasSize.x / 2, titleY, 32, 'center', 2, '#FFF', '#000');
     
-    // Save context for transformations
-    mainCanvasContext.save();
-    mainCanvasContext.translate(titleX, titleY);
-    mainCanvasContext.scale(pulseScale, pulseScale);
-    mainCanvasContext.translate(-titleX, -titleY);
+    // Draw loading message
+    let messageY = mainCanvasSize.y / 2;
+    DrawText(loadingMessage, mainCanvasSize.x / 2, messageY, 12, 'center', 1, '#FFF', '#000');
     
-    // Draw multiple glow layers for intense glow effect
-    mainCanvasContext.shadowBlur = 20 * glowIntensity;
-    mainCanvasContext.shadowColor = '#4A9EFF';
-    mainCanvasContext.fillStyle = '#4A9EFF';
-    mainCanvasContext.font = `900 ${titleSize}px "Press Start 2P"`;
-    mainCanvasContext.textAlign = 'center';
-    mainCanvasContext.textBaseline = 'middle';
-    mainCanvasContext.fillText('TINY DOCKET', titleX, titleY);
-    
-    // Additional outer glow layer for more intensity
-    mainCanvasContext.shadowBlur = 30 * glowIntensity;
-    mainCanvasContext.shadowColor = '#5AB3FF';
-    mainCanvasContext.fillText('TINY DOCKET', titleX, titleY);
-    
-    // Main text (bright blue)
-    mainCanvasContext.shadowBlur = 0;
-    mainCanvasContext.fillStyle = '#5AB3FF';
-    mainCanvasContext.fillText('TINY DOCKET', titleX, titleY);
-    
-    mainCanvasContext.restore();
-    
-    // Draw loading message (light blue)
-    let messageY = mainCanvasSize.y / 2 + 10;
-    DrawText(loadingMessage, mainCanvasSize.x / 2, messageY, 12, 'center', 1, '#8AC4FF', '#000');
-    
-    // Draw progress bar background (dark brown)
+    // Draw progress bar background
     let barWidth = mainCanvasSize.x * 0.6;
-    let barHeight = 10;
+    let barHeight = 8;
     let barX = (mainCanvasSize.x - barWidth) / 2;
-    let barY = mainCanvasSize.y / 2 + 40;
+    let barY = mainCanvasSize.y / 2 + 30;
     
-    mainCanvasContext.fillStyle = '#3A2A1A';
+    mainCanvasContext.fillStyle = '#333';
     mainCanvasContext.fillRect(barX, barY, barWidth, barHeight);
     
-    // Draw progress bar fill (glowing blue)
+    // Draw progress bar fill
     let progressWidth = barWidth * Clamp(loadingProgress, 0, 1);
-    
-    // Glow effect for progress bar
-    mainCanvasContext.shadowBlur = 8;
-    mainCanvasContext.shadowColor = '#4A9EFF';
-    mainCanvasContext.fillStyle = '#4A9EFF';
+    mainCanvasContext.fillStyle = '#FFF';
     mainCanvasContext.fillRect(barX, barY, progressWidth, barHeight);
     
-    // Reset shadow
-    mainCanvasContext.shadowBlur = 0;
-    
-    // Draw progress percentage (light blue)
+    // Draw progress percentage
     let percentText = Math.floor(loadingProgress * 100) + '%';
-    DrawText(percentText, mainCanvasSize.x / 2, barY + barHeight + 18, 10, 'center', 0, '#8AC4FF', '#000');
+    DrawText(percentText, mainCanvasSize.x / 2, barY + barHeight + 15, 10, 'center', 0, '#FFF', '#000');
 }
 
 // Pre-generate all building interiors for NPCs
@@ -6869,25 +6801,6 @@ tileImage2.src = 'tiles2.png';
 // Load tiles5.png for player skins
 tileImage5 = new Image();
 tileImage5.onload = () => {
-    // Create shadow mask for tiles5.png (same process as tileMaskCanvas)
-    tileMaskCanvas5 = document.createElement('canvas');
-    let ctx5 = tileMaskCanvas5.getContext('2d');
-    tileMaskCanvas5.display = 'none';
-    tileMaskCanvas5.width = tileImage5.width * 2;
-    tileMaskCanvas5.height = tileImage5.height;
-    
-    // draw white mask sprites
-    ctx5.fillStyle = '#FFF';
-    ctx5.fillRect(0, 0, tileMaskCanvas5.width, tileMaskCanvas5.height);
-    ctx5.globalCompositeOperation = 'destination-atop';
-    ctx5.drawImage(tileImage5, 0, 0);
-    
-    // draw black mask sprites
-    ctx5.globalCompositeOperation = 'source-over';
-    ctx5.drawImage(tileMaskCanvas5, tileImage5.width, 0);
-    ctx5.globalCompositeOperation = 'difference';
-    ctx5.drawImage(tileMaskCanvas5, tileImage5.width, 0);
-    
     tilesLoaded++;
     if (tilesLoaded >= totalTilesToLoad && tilesLoadedCallback)
     {
@@ -6899,25 +6812,6 @@ tileImage5.src = 'tiles5.png';
 // Load tiles6.png for player skins (6-11)
 tileImage6 = new Image();
 tileImage6.onload = () => {
-    // Create shadow mask for tiles6.png (same process as tileMaskCanvas)
-    tileMaskCanvas6 = document.createElement('canvas');
-    let ctx6 = tileMaskCanvas6.getContext('2d');
-    tileMaskCanvas6.display = 'none';
-    tileMaskCanvas6.width = tileImage6.width * 2;
-    tileMaskCanvas6.height = tileImage6.height;
-    
-    // draw white mask sprites
-    ctx6.fillStyle = '#FFF';
-    ctx6.fillRect(0, 0, tileMaskCanvas6.width, tileMaskCanvas6.height);
-    ctx6.globalCompositeOperation = 'destination-atop';
-    ctx6.drawImage(tileImage6, 0, 0);
-    
-    // draw black mask sprites
-    ctx6.globalCompositeOperation = 'source-over';
-    ctx6.drawImage(tileMaskCanvas6, tileImage6.width, 0);
-    ctx6.globalCompositeOperation = 'difference';
-    ctx6.drawImage(tileMaskCanvas6, tileImage6.width, 0);
-    
     tilesLoaded++;
     if (tilesLoaded >= totalTilesToLoad && tilesLoadedCallback)
     {

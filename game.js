@@ -5822,7 +5822,7 @@ function RenderLoadingScreen()
     // Draw title with glowing blue effect
     let titleY = mainCanvasSize.y / 2 - 60;
     let titleX = mainCanvasSize.x / 2;
-    let titleSize = 56;
+    let titleSize = 44; // Slightly smaller to fit "TINY DOCKET"
     
     // Save context for transformations
     mainCanvasContext.save();
@@ -5837,17 +5837,17 @@ function RenderLoadingScreen()
     mainCanvasContext.font = `900 ${titleSize}px "Press Start 2P"`;
     mainCanvasContext.textAlign = 'center';
     mainCanvasContext.textBaseline = 'middle';
-    mainCanvasContext.fillText('DOCKET', titleX, titleY);
+    mainCanvasContext.fillText('TINY DOCKET', titleX, titleY);
     
     // Additional outer glow layer for more intensity
     mainCanvasContext.shadowBlur = 30 * glowIntensity;
     mainCanvasContext.shadowColor = '#5AB3FF';
-    mainCanvasContext.fillText('DOCKET', titleX, titleY);
+    mainCanvasContext.fillText('TINY DOCKET', titleX, titleY);
     
     // Main text (bright blue)
     mainCanvasContext.shadowBlur = 0;
     mainCanvasContext.fillStyle = '#5AB3FF';
-    mainCanvasContext.fillText('DOCKET', titleX, titleY);
+    mainCanvasContext.fillText('TINY DOCKET', titleX, titleY);
     
     mainCanvasContext.restore();
     

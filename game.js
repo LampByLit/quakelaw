@@ -3696,7 +3696,9 @@ function EnterInterior(building)
         }
         
         // Position player at entrance (bottom center, but slightly inside to avoid immediate exit)
-        player.pos.Set(currentInterior.size / 2, currentInterior.size - 1.5); // Bottom center, 1 tile inside
+        // Courthouse needs more clearance due to larger size and exit detection sensitivity
+        let spawnY = building.buildingType === 'court' ? currentInterior.size - 2.5 : currentInterior.size - 1.5;
+        player.pos.Set(currentInterior.size / 2, spawnY); // Bottom center, further inside for courthouse
         player.rotation = 3; // Facing north (into room)
         
         // Set a brief cooldown to prevent immediate exit after entering
@@ -3890,7 +3892,8 @@ function EnterInterior(building)
             }
             
             // Position player at entrance (bottom center, but slightly inside to avoid immediate exit)
-            player.pos.Set(currentInterior.size / 2, currentInterior.size - 1.5); // Bottom center, 1 tile inside
+            // Courthouse needs more clearance due to larger size and exit detection sensitivity
+            player.pos.Set(currentInterior.size / 2, currentInterior.size - 2.5); // Bottom center, 2 tiles inside for courthouse
             player.rotation = 3; // Facing north (into room)
             
             // Set a brief cooldown to prevent immediate exit after entering

@@ -3319,7 +3319,7 @@ class Furniture extends MyGameObject
 
 class Interior
 {
-    constructor(size, floorTint)
+    constructor(size, floorTint, buildingType = null)
     {
         // size is in tiles (8x8)
         this.size = size;
@@ -3327,6 +3327,7 @@ class Interior
         this.furniture = [];
         this.exitPoint = new Vector2(size / 2, size - 0.5); // Middle of bottom edge (entry/exit point)
         this.bedPosition = null; // Bed position for sleep interaction
+        this.buildingType = buildingType; // Track building type to determine player spawn position
         
         // Create interior level with custom size
         this.interiorSize = size;
@@ -3664,10 +3665,17 @@ class Interior
     
     FindFurniturePosition(furnitureSize, existingFurniture)
     {
-        // Find a random position that doesn't overlap with existing furniture or exit area
+        // Find a random position that doesn't overlap with existing furniture, exit area, or player spawn
         let exitX = this.size / 2; // Exit is at middle of bottom edge
         let exitY = this.size - 0.5;
         let exitClearance = 1.5; // Keep furniture at least 1.5 tiles away from exit
+        
+        // Calculate player spawn position based on building type
+        // Courthouse uses size - 2.5, all others use size - 1.5
+        let playerSpawnY = (this.buildingType === 'court') ? this.size - 2.5 : this.size - 1.5;
+        let playerSpawnX = this.size / 2; // Always center
+        let playerSpawnPos = new Vector2(playerSpawnX, playerSpawnY);
+        let playerSpawnClearance = 1.2; // Keep furniture at least 1.2 tiles away from player spawn
         
         for(let attempt = 0; attempt < 50; attempt++)
         {
@@ -3680,6 +3688,11 @@ class Interior
             let distToExit = pos.Distance(new Vector2(exitX, exitY));
             if (distToExit < exitClearance)
                 continue; // Too close to exit, try again
+            
+            // Don't place furniture near the player spawn position
+            let distToPlayerSpawn = pos.Distance(playerSpawnPos);
+            if (distToPlayerSpawn < playerSpawnClearance)
+                continue; // Too close to player spawn, try again
             
             // Check if it overlaps with existing furniture
             let overlaps = false;
@@ -3697,7 +3710,7 @@ class Interior
                 return pos;
         }
         
-        // Fallback: place in corner if can't find space (but not near exit)
+        // Fallback: place in corner if can't find space (but not near exit or player spawn)
         return new Vector2(1, 1);
     }
     
@@ -3856,7 +3869,7 @@ function EnterInterior(building)
             // Set level size BEFORE creating interior (Level constructor uses levelSize)
             levelSize = 8;
             
-            currentInterior = new Interior(8, new Color(0.4, 0.25, 0.15)); // Dark brown
+            currentInterior = new Interior(8, new Color(0.4, 0.25, 0.15), 'home'); // Dark brown
             currentInterior.GenerateHome();
             
             // Store interior on building for persistence
@@ -3887,7 +3900,7 @@ function EnterInterior(building)
             // Set level size BEFORE creating interior (Level constructor uses levelSize)
             levelSize = 16;
             
-            currentInterior = new Interior(16, new Color(0.4, 0.25, 0.15)); // Dark brown
+            currentInterior = new Interior(16, new Color(0.4, 0.25, 0.15), 'house'); // Dark brown
             currentInterior.GenerateHouse();
             
             // Store interior on building for persistence
@@ -3918,7 +3931,7 @@ function EnterInterior(building)
             // Set level size BEFORE creating interior (Level constructor uses levelSize)
             levelSize = 16;
             
-            currentInterior = new Interior(16, new Color(0.2, 0.4, 0.8)); // Blue
+            currentInterior = new Interior(16, new Color(0.2, 0.4, 0.8), 'shop'); // Blue
             currentInterior.GenerateShop();
             
             // Store interior on building for persistence
@@ -3948,7 +3961,7 @@ function EnterInterior(building)
             // Set level size BEFORE creating interior (Level constructor uses levelSize)
             levelSize = 16;
             
-            currentInterior = new Interior(16, new Color(0.8, 0.4, 0.6)); // Pink
+            currentInterior = new Interior(16, new Color(0.8, 0.4, 0.6), 'store'); // Pink
             currentInterior.GenerateStore();
             
             // Store interior on building for persistence
@@ -3978,7 +3991,7 @@ function EnterInterior(building)
             // Set level size BEFORE creating interior (Level constructor uses levelSize)
             levelSize = 16;
             
-            currentInterior = new Interior(16, new Color(0.6, 0.5, 0.2)); // Yellow/Gold
+            currentInterior = new Interior(16, new Color(0.6, 0.5, 0.2), 'firm'); // Yellow/Gold
             currentInterior.GenerateFirm();
             
             // Store interior on building for persistence
@@ -4008,7 +4021,7 @@ function EnterInterior(building)
             // Set level size BEFORE creating interior (Level constructor uses levelSize)
             levelSize = 16;
             
-            currentInterior = new Interior(16, new Color(0.5, 0.3, 0.7)); // Purple
+            currentInterior = new Interior(16, new Color(0.5, 0.3, 0.7), 'court'); // Purple
             currentInterior.GenerateCourthouse();
             
             // Store interior on building for persistence
@@ -5919,7 +5932,7 @@ function GenerateAllInteriors(buildings)
         levelSize = interiorSize;
         
         // Create interior
-        let interior = new Interior(interiorSize, floorTint);
+        let interior = new Interior(interiorSize, floorTint, building.buildingType);
         
         // Generate interior based on building type
         if (building.buildingType === 'home')

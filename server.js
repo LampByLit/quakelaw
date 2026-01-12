@@ -1533,7 +1533,7 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
         }
         
         const surname = req.params.surname;
-        const { message, npcData } = req.body;
+        const { message, npcData, gameTime } = req.body;
         
         if (!message || typeof message !== 'string' || message.trim().length === 0) {
             return res.status(400).json({ error: 'Message is required and must be non-empty' });
@@ -1765,6 +1765,34 @@ ${isLawyer ? '- You ARE a lawyer and work in the legal system. You understand le
             jobChangeContext = `\n\nIMPORTANT - JOB CHANGE:\n- You previously worked as a ${previousJob}, but your job has been changed to ${job}.\n- You remember all your previous conversations with the player from when you were a ${previousJob}.\n- However, you now work as a ${job} and should talk about your current job going forward.\n- You can acknowledge your job change if the player brings it up, but focus on your current profession.\n- Your memories and past conversations are still valid - you just have a new job now.\n`;
         }
         
+        // Build date/time context
+        let dateTimeContext = '';
+        if (gameTime && typeof gameTime === 'object') {
+            const dayName = gameTime.dayName || ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][gameTime.dayOfWeek] || 'Unknown';
+            const monthName = gameTime.monthName || ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][gameTime.month - 1] || 'Unknown';
+            const dayOfMonth = gameTime.dayOfMonth || 1;
+            const formattedTime = gameTime.formattedTime || '';
+            const formattedDate = gameTime.formattedDate || `${dayName}, ${monthName} ${dayOfMonth}`;
+            
+            // Determine time of day
+            const hour = gameTime.gameHour || 12;
+            let timeOfDay = 'day';
+            if (hour >= 5 && hour < 12) {
+                timeOfDay = 'morning';
+            } else if (hour >= 12 && hour < 17) {
+                timeOfDay = 'afternoon';
+            } else if (hour >= 17 && hour < 21) {
+                timeOfDay = 'evening';
+            } else {
+                timeOfDay = 'night';
+            }
+            
+            // Determine if it's a weekend
+            const isWeekend = gameTime.dayOfWeek === 0 || gameTime.dayOfWeek === 6; // Sunday or Saturday
+            
+            dateTimeContext = `\n\nCURRENT DATE AND TIME:\n- Today is ${formattedDate}.\n- It is currently ${formattedTime} (${timeOfDay}).\n- ${isWeekend ? 'It is the weekend (Saturday or Sunday).' : `It is a weekday (${dayName}).`}\n- You are aware of the current date, day of the week, and time of day.\n- You can reference the date naturally in conversation when relevant (e.g., "Monday mornings are always busy", "Can't believe it's already ${monthName}", "Thank goodness it's Friday!").\n- Use date awareness naturally - don't force it into every conversation, but feel free to mention it when it makes sense.\n`;
+        }
+        
         const systemPrompt = `${systemPromptBase}
 
 ${professionInstructions}
@@ -1778,7 +1806,7 @@ Your personality traits:
 - Keep your responses brief and character-appropriate
 
 Context:
-${isJudge ? '' : jobContext}${isJudge ? 'You are a judge in the courthouse. ' : 'You may have witnessed events in town. Talk about your normal life and your job as a ' + (job || 'regular person') + '. '}You are on a schedule and do not have time to follow the player anywhere. Other characters may ask you questions as well, answer them naturally. This is the real world.${knownFactsText}${caseContextText}${jobChangeContext}${!isJudge ? '\n\nGENERAL LEGAL AWARENESS:\n- You live in a town where legal cases happen regularly.\n- You know that the player is a defense lawyer who works on legal cases.\n- You understand that you or others in town might become involved in legal cases at some point.\n- If you were to become a defendant in a case, you would need legal defense and representation.\n- The player could potentially help with legal matters if needed.\n- This is general knowledge - you don\'t need to bring it up unless relevant to the conversation.' : ''}
+${isJudge ? '' : jobContext}${isJudge ? 'You are a judge in the courthouse. ' : 'You may have witnessed events in town. Talk about your normal life and your job as a ' + (job || 'regular person') + '. '}You are on a schedule and do not have time to follow the player anywhere. Other characters may ask you questions as well, answer them naturally. This is the real world.${dateTimeContext}${knownFactsText}${caseContextText}${jobChangeContext}${!isJudge ? '\n\nGENERAL LEGAL AWARENESS:\n- You live in a town where legal cases happen regularly.\n- You know that the player is a defense lawyer who works on legal cases.\n- You understand that you or others in town might become involved in legal cases at some point.\n- If you were to become a defendant in a case, you would need legal defense and representation.\n- The player could potentially help with legal matters if needed.\n- This is general knowledge - you don\'t need to bring it up unless relevant to the conversation.' : ''}
 
 ${isJudge ? `REMEMBER: You are Judge ${surname}, a judge presiding over legal cases. Always stay in character as a judge. CRITICAL: The player ALWAYS represents the DEFENSE in all cases.` : `REMEMBER: Your job is ${job}. You are a ${job}.`}`;
         
@@ -2271,7 +2299,7 @@ app.post('/api/npc/greeting/:surname', async (req, res) => {
         }
         
         const surname = req.params.surname;
-        const { npcData } = req.body;
+        const { npcData, gameTime } = req.body;
         
         if (!npcData || !npcData.characteristic) {
             return res.status(400).json({ error: 'NPC data with characteristic is required' });
@@ -2290,6 +2318,34 @@ app.post('/api/npc/greeting/:surname', async (req, res) => {
         const job = npcData.job || '';
         const jobContext = job ? `You work as a ${job}. ` : '';
         const isLawyer = job === 'lawyer';
+        
+        // Build date/time context
+        let dateTimeContext = '';
+        if (gameTime && typeof gameTime === 'object') {
+            const dayName = gameTime.dayName || ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][gameTime.dayOfWeek] || 'Unknown';
+            const monthName = gameTime.monthName || ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][gameTime.month - 1] || 'Unknown';
+            const dayOfMonth = gameTime.dayOfMonth || 1;
+            const formattedTime = gameTime.formattedTime || '';
+            const formattedDate = gameTime.formattedDate || `${dayName}, ${monthName} ${dayOfMonth}`;
+            
+            // Determine time of day
+            const hour = gameTime.gameHour || 12;
+            let timeOfDay = 'day';
+            if (hour >= 5 && hour < 12) {
+                timeOfDay = 'morning';
+            } else if (hour >= 12 && hour < 17) {
+                timeOfDay = 'afternoon';
+            } else if (hour >= 17 && hour < 21) {
+                timeOfDay = 'evening';
+            } else {
+                timeOfDay = 'night';
+            }
+            
+            // Determine if it's a weekend
+            const isWeekend = gameTime.dayOfWeek === 0 || gameTime.dayOfWeek === 6; // Sunday or Saturday
+            
+            dateTimeContext = `\n\nCURRENT DATE AND TIME:\n- Today is ${formattedDate}.\n- It is currently ${formattedTime} (${timeOfDay}).\n- ${isWeekend ? 'It is the weekend (Saturday or Sunday).' : `It is a weekday (${dayName}).`}\n- You are aware of the current date, day of the week, and time of day.\n- You can reference the date naturally in your greeting if it feels appropriate (e.g., "Good morning" if it's morning, "Happy Friday!" if it's Friday, etc.).\n- Use date awareness naturally - don't force it, but feel free to mention it when it makes sense.\n`;
+        }
         
         // Build profession instructions - different for judge vs regular NPCs
         let professionInstructions = '';
@@ -2317,7 +2373,7 @@ You know the player is a defense lawyer in town, but you don't need to mention i
 
 ${professionInstructions}
 
-${greetingContext}
+${greetingContext}${dateTimeContext}
 
 ${isJudge ? `REMEMBER: You are Judge ${surname}, a judge presiding over legal cases. Always stay in character as a judge. CRITICAL: The player ALWAYS represents the DEFENSE in all cases.` : `REMEMBER: Your job is ${job}. You are a ${job}.`}`;
         

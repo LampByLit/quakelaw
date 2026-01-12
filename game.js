@@ -5827,7 +5827,7 @@ function RenderLoadingScreen()
     
     // Draw title
     let titleY = mainCanvasSize.y / 2 - 60;
-    DrawText('Tiny Docket', mainCanvasSize.x / 2, titleY, 32, 'center', 2, '#FFF', '#000');
+    DrawText('Pocket Docket', mainCanvasSize.x / 2, titleY, 32, 'center', 2, '#FFF', '#000');
     
     // Draw loading message
     let messageY = mainCanvasSize.y / 2;

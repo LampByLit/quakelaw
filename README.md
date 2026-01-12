@@ -1,12 +1,12 @@
-# Tiny Docket
+# Pocket Docket
 
-## [🎮 PLAY TINY DOCKET NOW](https://tinydocket.up.railway.app)
+## [🎮 PLAY POCKET DOCKET NOW](https://pocketdocket.up.railway.app)
 
 > **Note**: This game is a fork of [Bounce Back](https://js13kgames.com/entries/bounce-back) by Frank Force, a boomerang roguelite game for JS13k.
 
 ---
 
-**Tiny Docket** is a courtroom simulator where you play as a Defense Attorney in a community of varied denizens. Get assigned cases, gather real conversational testimony from witnesses, and present it to the judge. Make your case, and get rulings that have real community consequences. File claims against criminals in the neighborhood. Reach for **JUSTICE**.
+**Pocket Docket** is a courtroom simulator where you play as a Defense Attorney in a community of varied denizens. Get assigned cases, gather real conversational testimony from witnesses, and present it to the judge. Make your case, and get rulings that have real community consequences. File claims against criminals in the neighborhood. Reach for **JUSTICE**.
 
 This game uses **Deepseek** to simulate all NPCs. This game sources over **1000 real court cases** from across America, mostly criminal trials. Real cases are summarized, contextualized, and projected onto NPCs to simulate real practice and deliver continuous, dynamic, replayable gameplay.
 
@@ -259,7 +259,7 @@ After trials, you can file claims against NPCs:
 ### Deployment
 
 - **Platform**: Railway.app
-- **URL**: https://tinydocket.up.railway.app
+- **URL**: https://pocketdocket.up.railway.app
 - **Static Files**: Served via Express static middleware
 - **API**: RESTful endpoints for AI and case management
 

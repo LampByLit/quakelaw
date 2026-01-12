@@ -989,12 +989,13 @@ async function SendMessage() {
             
             if (lastNPCMessage && lastNPCMessage.message) {
                 const lastMessageLower = lastNPCMessage.message.toLowerCase();
-                // Check if NPC mentioned offering/showing a document
+                // Check if NPC mentioned offering/showing a document or offer
                 const documentOfferPatterns = [
-                    /(?:would you like|want|interested).*?(?:see|view|look at|check out).*?(?:new|a|another).*?document/i,
-                    /(?:have|got|can show|can offer).*?(?:new|a|another).*?document/i,
-                    /(?:document|paper|documentation).*?(?:available|for you|to show|to see)/i,
-                    /(?:show|see|view|look at).*?(?:new|a|another).*?document/i
+                    /(?:would you like|want|interested).*?(?:see|view|look at|check out).*?(?:new|a|another).*?(?:document|offer)/i,
+                    /(?:have|got|can show|can offer).*?(?:new|a|another).*?(?:document|offer)/i,
+                    /(?:document|paper|documentation|offer).*?(?:available|for you|to show|to see)/i,
+                    /(?:show|see|view|look at).*?(?:new|a|another).*?(?:document|offer)/i,
+                    /(?:would you like).*?(?:see|view|look at).*?(?:another|a|new).*?offer/i
                 ];
                 
                 const hasDocumentOffer = documentOfferPatterns.some(pattern => pattern.test(lastMessageLower));

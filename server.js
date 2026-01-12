@@ -138,10 +138,55 @@ function extractSentences(text) {
     if (!text || typeof text !== 'string') return [];
     
     // Split by sentence endings, filter out empty/very short sentences
-    return text
+    const sentences = text
         .split(/[.!?]+/)
         .map(s => s.trim())
         .filter(s => s.length > 10); // Only meaningful sentences (at least 10 chars)
+    
+    // Filter out common small talk and non-informative sentences
+    const smallTalkPatterns = [
+        /^(hi|hello|hey|greetings|good morning|good afternoon|good evening|howdy)/i,
+        /^(thanks|thank you|thx|appreciate it)/i,
+        /^(ok|okay|sure|yeah|yep|yup|alright|fine)/i,
+        /^(bye|goodbye|see you|later|farewell)/i,
+        /^(yes|no|maybe|perhaps|probably)/i,
+        /^(i see|i understand|got it|makes sense)/i,
+        /^(that's|that is) (interesting|cool|nice|good|bad|sad|funny)/i,
+        /^well[, ]/i,
+        /^um[, ]|^uh[, ]/i,
+        /^(hmm|huh|oh)/i,
+        /^(i|i'm|i am) (fine|good|ok|okay|well|doing well)/i,
+        /^(have a|have an) (good|nice|great|wonderful) (day|evening|night)/i,
+        /^(nice to|good to|pleasure to) (meet|see|talk to) you/i,
+        /^(what|how) (about|do you think)/i,
+        /^(i|i'll|i will) (be|see you) (back|later|soon)/i
+    ];
+    
+    // Filter out sentences that are just small talk
+    return sentences.filter(sentence => {
+        // Skip if it's just small talk
+        if (smallTalkPatterns.some(pattern => pattern.test(sentence))) {
+            return false;
+        }
+        
+        // Skip very short sentences (less than 15 chars after filtering)
+        if (sentence.length < 15) {
+            return false;
+        }
+        
+        // Skip sentences that are just questions without substance
+        if (sentence.endsWith('?') && sentence.length < 25) {
+            return false;
+        }
+        
+        // Keep sentences that contain actual information (names, places, actions, facts)
+        // Look for capital letters (likely names/places), numbers, or longer descriptive content
+        const hasCapitalLetters = /[A-Z]/.test(sentence);
+        const hasNumbers = /\d/.test(sentence);
+        const isDescriptive = sentence.length > 30;
+        
+        return hasCapitalLetters || hasNumbers || isDescriptive;
+    });
 }
 
 // Get gossip network file path
@@ -161,43 +206,109 @@ async function loadGossipNetwork(sessionId) {
             // File doesn't exist, return empty network
             return { npcKnowledge: {} };
         }
+        // JSON parse error - file is corrupted, try to recover
+        if (error instanceof SyntaxError) {
+            console.error(`[GOSSIP] Corrupted gossip network file for session ${sessionId}, recovering...`);
+            try {
+                // Try to backup corrupted file
+                const backupPath = filePath + '.corrupted.' + Date.now();
+                await fs.copyFile(filePath, backupPath).catch(() => {});
+                // Delete corrupted file and return empty network
+                await fs.unlink(filePath).catch(() => {});
+                console.log(`[GOSSIP] Recovered from corrupted file, starting fresh`);
+            } catch (recoverError) {
+                console.error(`[GOSSIP] Error during recovery:`, recoverError);
+            }
+            return { npcKnowledge: {} };
+        }
         throw error;
     }
 }
 
-// Save gossip network
+// Save gossip network (atomic write to prevent corruption)
 async function saveGossipNetwork(sessionId, networkData) {
     await ensureSessionDir(sessionId);
     const filePath = getGossipNetworkFilePath(sessionId);
-    await fs.writeFile(filePath, JSON.stringify(networkData, null, 2), 'utf8');
+    const tempPath = filePath + '.tmp';
+    
+    try {
+        // Write to temp file first
+        await fs.writeFile(tempPath, JSON.stringify(networkData, null, 2), 'utf8');
+        // Atomic rename (replaces old file atomically)
+        await fs.rename(tempPath, filePath);
+    } catch (error) {
+        // Clean up temp file if rename failed
+        await fs.unlink(tempPath).catch(() => {});
+        throw error;
+    }
+}
+
+// Simple in-memory lock to prevent concurrent writes (per session)
+const gossipLocks = new Map();
+
+// Get or create lock for a session
+function getGossipLock(sessionId) {
+    if (!gossipLocks.has(sessionId)) {
+        gossipLocks.set(sessionId, { locked: false, queue: [] });
+    }
+    return gossipLocks.get(sessionId);
+}
+
+// Acquire lock (returns a release function)
+async function acquireGossipLock(sessionId) {
+    const lock = getGossipLock(sessionId);
+    
+    return new Promise((resolve) => {
+        const tryAcquire = () => {
+            if (!lock.locked) {
+                lock.locked = true;
+                resolve(() => {
+                    lock.locked = false;
+                    if (lock.queue.length > 0) {
+                        const next = lock.queue.shift();
+                        next();
+                    }
+                });
+            } else {
+                lock.queue.push(tryAcquire);
+            }
+        };
+        tryAcquire();
+    });
 }
 
 // Add a fact to an NPC's knowledge (with deduplication and 100-fact limit)
 async function addFactToNPC(sessionId, npcSurname, fact) {
-    const network = await loadGossipNetwork(sessionId);
-    const MAX_FACTS_PER_NPC = 100;
+    const release = await acquireGossipLock(sessionId);
     
-    // Initialize NPC knowledge if it doesn't exist
-    if (!network.npcKnowledge[npcSurname]) {
-        network.npcKnowledge[npcSurname] = { knownFacts: [] };
-    }
-    
-    // Check for duplicates (by fact ID)
-    const existingFactIds = network.npcKnowledge[npcSurname].knownFacts.map(f => f.id);
-    if (!existingFactIds.includes(fact.id)) {
-        network.npcKnowledge[npcSurname].knownFacts.push(fact);
+    try {
+        const network = await loadGossipNetwork(sessionId);
+        const MAX_FACTS_PER_NPC = 100;
         
-        // Enforce 100-fact limit: remove oldest facts (FIFO) if exceeded
-        if (network.npcKnowledge[npcSurname].knownFacts.length > MAX_FACTS_PER_NPC) {
-            const excessCount = network.npcKnowledge[npcSurname].knownFacts.length - MAX_FACTS_PER_NPC;
-            network.npcKnowledge[npcSurname].knownFacts.splice(0, excessCount);
+        // Initialize NPC knowledge if it doesn't exist
+        if (!network.npcKnowledge[npcSurname]) {
+            network.npcKnowledge[npcSurname] = { knownFacts: [] };
         }
         
-        await saveGossipNetwork(sessionId, network);
-        return true; // Fact added
+        // Check for duplicates (by fact ID)
+        const existingFactIds = network.npcKnowledge[npcSurname].knownFacts.map(f => f.id);
+        if (!existingFactIds.includes(fact.id)) {
+            network.npcKnowledge[npcSurname].knownFacts.push(fact);
+            
+            // Enforce 100-fact limit: remove oldest facts (FIFO) if exceeded
+            if (network.npcKnowledge[npcSurname].knownFacts.length > MAX_FACTS_PER_NPC) {
+                const excessCount = network.npcKnowledge[npcSurname].knownFacts.length - MAX_FACTS_PER_NPC;
+                network.npcKnowledge[npcSurname].knownFacts.splice(0, excessCount);
+            }
+            
+            await saveGossipNetwork(sessionId, network);
+            return true; // Fact added
+        }
+        
+        return false; // Fact already exists
+    } finally {
+        release();
     }
-    
-    return false; // Fact already exists
 }
 
 // Extract facts from a conversation message and add them to NPC knowledge
@@ -1832,9 +1943,14 @@ ${isJudge ? `REMEMBER: You are Judge ${surname}, a judge presiding over legal ca
         };
         conversation.conversation.push(npcMessage);
         
-        // Extract facts from player message and NPC response
-        await extractAndAddFacts(sessionId, surname, message, 'player');
-        await extractAndAddFacts(sessionId, surname, npcResponse.trim(), surname);
+        // Extract facts from player message and NPC response (non-blocking)
+        // Don't fail conversation if fact extraction fails
+        extractAndAddFacts(sessionId, surname, message, 'player').catch(error => {
+            console.error(`[CONVERSATION] Error extracting facts from player message for ${surname}:`, error);
+        });
+        extractAndAddFacts(sessionId, surname, npcResponse.trim(), surname).catch(error => {
+            console.error(`[CONVERSATION] Error extracting facts from NPC response for ${surname}:`, error);
+        });
         
         // Update metadata
         conversation.metadata.lastInteraction = Date.now();

@@ -3935,7 +3935,7 @@ function ExitInterior()
     
     // Check if player is at exit point (middle of bottom edge)
     let exitDist = player.pos.Distance(currentInterior.exitPoint);
-    if (exitDist < 0.5) // Within 0.5 tiles of exit
+    if (exitDist < 1.0) // Within 1.0 tiles of exit
     {
         // Remove ALL furniture from game objects (filter by isFurniture to catch any duplicates)
         gameObjects = gameObjects.filter(o => !o.isFurniture);

@@ -2054,7 +2054,7 @@ app.post('/api/npc/generate-document/:surname', async (req, res) => {
         }
         
         const surname = req.params.surname;
-        const { npcData } = req.body;
+        const { npcData, forceNew } = req.body;
         
         if (!npcData || !npcData.job) {
             return res.status(400).json({ error: 'NPC data with job is required' });
@@ -2087,7 +2087,8 @@ app.post('/api/npc/generate-document/:surname', async (req, res) => {
         }
         
         // Check if document already exists (documents never change)
-        if (conversation.metadata.documents.length > 0) {
+        // UNLESS forceNew is true, in which case generate a new document
+        if (!forceNew && conversation.metadata.documents.length > 0) {
             // Return existing document
             const existingDoc = conversation.metadata.documents[0];
             return res.json({

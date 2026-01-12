@@ -1027,6 +1027,7 @@ async function SendMessage() {
                         ScrollToBottom();
                         
                         // Generate or fetch document
+                        // Pass forceNew: true to generate a new document instead of returning existing one
                         const response = await fetch(`/api/npc/generate-document/${encodeURIComponent(currentDialogueNPC.surname)}?sessionId=${encodeURIComponent(sessionId)}`, {
                             method: 'POST',
                             headers: {
@@ -1038,7 +1039,8 @@ async function SendMessage() {
                                     characteristic: currentDialogueNPC.characteristic,
                                     emoji: currentDialogueNPC.emoji,
                                     job: currentDialogueNPC.job || ''
-                                }
+                                },
+                                forceNew: true // Force generation of new document for "another offer"
                             })
                         });
                         

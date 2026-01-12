@@ -8,6 +8,23 @@ let isLoadingResponse = false;
 let isRecording = false;
 let recordingStartIndex = -1;
 
+// Helper function to get current game time data for NPCs
+function GetGameTimeData() {
+    if (typeof gameTime === 'undefined' || !gameTime) {
+        return null;
+    }
+    return {
+        dayOfWeek: gameTime.dayOfWeek,
+        dayName: gameTime.GetDayName(),
+        month: gameTime.month,
+        monthName: gameTime.GetMonthName(),
+        dayOfMonth: gameTime.dayOfMonth,
+        gameHour: gameTime.gameHour,
+        formattedTime: gameTime.FormatTime(),
+        formattedDate: gameTime.FormatDate()
+    };
+}
+
 // Store completed case context for judge discussion after ruling
 let completedCaseContext = null;
 
@@ -295,6 +312,11 @@ async function OpenDialogueModal(npc) {
     currentDialogueNPC = npc;
     dialogueModalOpen = true;
     
+    // Play dialogue open sound
+    if (typeof PlaySound !== 'undefined') {
+        PlaySound(16); // Dodge recharge sound
+    }
+    
     // Update modal header
     document.getElementById('npcName').textContent = npc.surname;
     document.getElementById('npcEmoji').textContent = npc.emoji ? GetEmojiCharacter(npc.emoji) : '⚖️'; // Default to scales emoji for judge if no emoji
@@ -412,6 +434,10 @@ async function GenerateGreeting(npc) {
     
     try {
         const sessionId = getSessionId();
+        
+        // Get game time data
+        const gameTimeData = GetGameTimeData();
+        
         const response = await fetch(`/api/npc/greeting/${encodeURIComponent(npc.surname)}?sessionId=${encodeURIComponent(sessionId)}`, {
             method: 'POST',
             headers: {
@@ -424,7 +450,8 @@ async function GenerateGreeting(npc) {
                     emoji: npc.emoji,
                     job: npc.job || '', // Ensure job is always a string
                     isJudge: npc.isJudge || false
-                }
+                },
+                gameTime: gameTimeData
             })
         });
         
@@ -854,6 +881,9 @@ async function SendMessage() {
                         throw new Error('Dialogue closed');
                     }
                     
+                    // Get game time data
+                    const gameTimeData = GetGameTimeData();
+                    
                     // Call conversation API to get AI response
                     const response = await fetch(`/api/npc/conversation/${encodeURIComponent(currentDialogueNPC.surname)}?sessionId=${encodeURIComponent(sessionId)}`, {
                         method: 'POST',
@@ -870,7 +900,8 @@ async function SendMessage() {
                                 isJudge: currentDialogueNPC.isJudge || false
                             },
                             activeCase: activeCase,
-                            completedCase: completedCase
+                            completedCase: completedCase,
+                            gameTime: gameTimeData
                         })
                     });
                     
@@ -1271,6 +1302,9 @@ async function SendMessage() {
             throw new Error('Dialogue closed');
         }
         
+        // Get game time data
+        const gameTimeData = GetGameTimeData();
+        
         const response = await fetch(`/api/npc/conversation/${encodeURIComponent(currentDialogueNPC.surname)}?sessionId=${encodeURIComponent(sessionId)}`, {
             method: 'POST',
             headers: {
@@ -1286,7 +1320,8 @@ async function SendMessage() {
                     isJudge: currentDialogueNPC.isJudge || false
                 },
                 activeCase: activeCase,
-                completedCase: completedCase
+                completedCase: completedCase,
+                gameTime: gameTimeData
             })
         });
         

@@ -25,7 +25,8 @@ let currentInterior = null;
 let exteriorLevel = null;
 let playerExteriorPos = null;
 let tileImage2 = null; // tiles2.png for furniture
-let tileImage5 = null; // tiles5.png for player skins
+let tileImage5 = null; // tiles5.png for player skins (0-5)
+let tileImage6 = null; // tiles6.png for player skins (6-11)
 let interiorExitCooldown = new Timer();
 
 let boss;
@@ -269,7 +270,7 @@ class PlayerData
         this.coins = 20;
         this.inventory = []; // 16 slots (4x4 grid)
         this.rentPaidThisMonth = false; // Track if rent has been paid this month
-        this.currentSkin = null; // null = use original tiles.png, 0-5 = use skin from tiles5.png
+        this.currentSkin = null; // null = use original tiles.png, 0-5 = tiles5.png, 6-11 = tiles6.png
     }
     
     // Add item to inventory (returns true if added, false if full)
@@ -2010,16 +2011,36 @@ class Player extends MyGameObject
         }   
         
         // Check if using a skin
-        let useSkin = playerData.currentSkin !== null && playerData.currentSkin !== undefined && tileImage5 && tileImage5.complete;
-        let skinImage = useSkin ? tileImage5 : tileImage;
-        let skinBaseIndex = useSkin ? (playerData.currentSkin * 8) : 0; // Each skin has 8 sprites
+        let useSkin = playerData.currentSkin !== null && playerData.currentSkin !== undefined;
+        let skinImage = tileImage;
+        let skinRow = 0;
+        if (useSkin)
+        {
+            if (playerData.currentSkin >= 0 && playerData.currentSkin <= 5 && tileImage5 && tileImage5.complete)
+            {
+                // Skins 0-5 from tiles5.png
+                skinImage = tileImage5;
+                skinRow = playerData.currentSkin;
+            }
+            else if (playerData.currentSkin >= 6 && playerData.currentSkin <= 11 && tileImage6 && tileImage6.complete)
+            {
+                // Skins 6-11 from tiles6.png
+                skinImage = tileImage6;
+                skinRow = playerData.currentSkin - 6;
+            }
+            else
+            {
+                // Skin image not loaded yet, fall back to original
+                useSkin = false;
+            }
+        }
         
         // figure out the tile, rotation and mirror
         let baseTileX, baseTileY;
         if (useSkin)
         {
-            // For skins, tileY is the row (skin index), tileX is the column (0-7)
-            baseTileY = playerData.currentSkin;
+            // For skins, tileY is the row (within the tileset), tileX is the column (0-7)
+            baseTileY = skinRow;
             if (this.rotation&1)
             {
                 // facing left or right
@@ -6433,32 +6454,51 @@ function InitStoreModal() {
     });
 }
 
-// Generate skin thumbnails from tiles5.png
+// Generate skin thumbnails from tiles5.png and tiles6.png
 function GenerateSkinThumbnails() {
-    if (!tileImage5 || !tileImage5.complete) {
-        // If tiles5.png isn't loaded yet, try again after a short delay
-        setTimeout(GenerateSkinThumbnails, 100);
-        return;
+    // Generate thumbnails for skins 0-5 (tiles5.png)
+    if (tileImage5 && tileImage5.complete) {
+        for (let skinIndex = 0; skinIndex < 6; skinIndex++) {
+            const canvas = document.getElementById(`skin${skinIndex}Image`);
+            if (!canvas) continue;
+            
+            const ctx = canvas.getContext('2d');
+            const tileX = 7; // Last sprite (column 7)
+            const tileY = skinIndex; // Row matches skin index
+            
+            // Clear and draw the sprite
+            ctx.clearRect(0, 0, 16, 16);
+            ctx.drawImage(
+                tileImage5,
+                tileX * 16, tileY * 16, 16, 16, // Source
+                0, 0, 16, 16 // Destination
+            );
+        }
     }
     
-    // Each skin's thumbnail is the last sprite (index 7, 15, 23, 31, 39, 47)
-    // tiles5.png is 8 columns × 6 rows, each sprite is 16×16
-    for (let skinIndex = 0; skinIndex < 6; skinIndex++) {
-        const canvas = document.getElementById(`skin${skinIndex}Image`);
-        if (!canvas) continue;
-        
-        const ctx = canvas.getContext('2d');
-        const thumbnailSpriteIndex = 7 + (skinIndex * 8); // Last sprite of each skin set
-        const tileX = thumbnailSpriteIndex % 8;
-        const tileY = Math.floor(thumbnailSpriteIndex / 8);
-        
-        // Clear and draw the sprite
-        ctx.clearRect(0, 0, 16, 16);
-        ctx.drawImage(
-            tileImage5,
-            tileX * 16, tileY * 16, 16, 16, // Source
-            0, 0, 16, 16 // Destination
-        );
+    // Generate thumbnails for skins 6-11 (tiles6.png)
+    if (tileImage6 && tileImage6.complete) {
+        for (let skinIndex = 6; skinIndex < 12; skinIndex++) {
+            const canvas = document.getElementById(`skin${skinIndex}Image`);
+            if (!canvas) continue;
+            
+            const ctx = canvas.getContext('2d');
+            const tileX = 7; // Last sprite (column 7)
+            const tileY = skinIndex - 6; // Row within tiles6.png
+            
+            // Clear and draw the sprite
+            ctx.clearRect(0, 0, 16, 16);
+            ctx.drawImage(
+                tileImage6,
+                tileX * 16, tileY * 16, 16, 16, // Source
+                0, 0, 16, 16 // Destination
+            );
+        }
+    }
+    
+    // If images aren't loaded yet, try again after a short delay
+    if ((!tileImage5 || !tileImage5.complete) || (!tileImage6 || !tileImage6.complete)) {
+        setTimeout(GenerateSkinThumbnails, 100);
     }
 }
 
@@ -6605,7 +6645,7 @@ function PurchaseItem(itemType, price) {
     // Check if this is a skin purchase
     if (itemType && itemType.startsWith('skin')) {
         const skinIndex = parseInt(itemType.replace('skin', ''));
-        if (!isNaN(skinIndex) && skinIndex >= 0 && skinIndex <= 5) {
+        if (!isNaN(skinIndex) && skinIndex >= 0 && skinIndex <= 11) {
             // Deduct coins
             playerData.coins = coins - price;
             
@@ -6705,7 +6745,7 @@ function CloseLawSchoolModal() {
 // load texture and building sprites, then kick off init!
 let tileImage = new Image();
 let tilesLoaded = 0;
-let totalTilesToLoad = 3;
+let totalTilesToLoad = 4;
 let tilesLoadedCallback = null;
 
 tileImage.onload = () => {
@@ -6738,6 +6778,17 @@ tileImage5.onload = () => {
     }
 };
 tileImage5.src = 'tiles5.png';
+
+// Load tiles6.png for player skins (6-11)
+tileImage6 = new Image();
+tileImage6.onload = () => {
+    tilesLoaded++;
+    if (tilesLoaded >= totalTilesToLoad && tilesLoadedCallback)
+    {
+        tilesLoadedCallback();
+    }
+};
+tileImage6.src = 'tiles6.png';
 
 // Initialize Law School modal on page load
 if (document.readyState === 'loading') {

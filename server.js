@@ -8,13 +8,24 @@ const path = require('path');
 const fs = require('fs').promises;
 const fsSync = require('fs');
 const crypto = require('crypto');
+const rateLimit = require('express-rate-limit');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Rate limiting - 30 requests per minute per IP
+const limiter = rateLimit({
+    windowMs: 60 * 1000, // 1 minute
+    max: 30, // 30 requests per window
+    message: 'Too many requests, please try again later.',
+    standardHeaders: true,
+    legacyHeaders: false,
+});
+
 // Middleware
 app.use(cors());
-app.use(express.json());
+app.use(express.json({ limit: '1mb' })); // Request size limit
+app.use(limiter); // Apply rate limiting to all routes
 app.use(express.static(path.join(__dirname)));
 
 // Initialize data directory structure
@@ -371,14 +382,12 @@ app.get('/api/cases/load/:filename', async (req, res) => {
         }
         
         const casePath = path.join(__dirname, 'cases', 'json', safeFilename);
-        console.log(`[CASE LOAD] Attempting to load case file: ${safeFilename}`);
-        console.log(`[CASE LOAD] Full path: ${casePath}`);
+        // Removed sensitive path logging
         
         // Check if file exists
         try {
             await fs.access(casePath);
         } catch (accessError) {
-            console.error(`[CASE LOAD] File does not exist: ${casePath}`);
             return res.status(404).json({ 
                 error: 'Case file not found',
                 message: `File ${safeFilename} does not exist`,
@@ -388,12 +397,11 @@ app.get('/api/cases/load/:filename', async (req, res) => {
         
         const fileContent = await fs.readFile(casePath, 'utf8');
         const caseData = JSON.parse(fileContent);
-        console.log(`[CASE LOAD] Successfully loaded case: ${safeFilename}`);
+        // Case loaded successfully (removed sensitive logging)
         res.json({ caseData });
     } catch (error) {
-        console.error('[CASE LOAD] Error loading case:', error);
-        console.error('[CASE LOAD] Error stack:', error.stack);
-        console.error('[CASE LOAD] Requested filename:', req.params.filename);
+        console.error('[CASE LOAD] Error loading case');
+        // Removed sensitive error details (stack trace, filename) from logs
         
         // Provide more specific error messages
         let errorMessage = error.message;
@@ -423,8 +431,12 @@ app.post('/api/cases/parse', async (req, res) => {
 
     const { caseData } = req.body;
 
+    // Input validation
     if (!caseData) {
         return res.status(400).json({ error: 'Case data is required' });
+    }
+    if (typeof caseData !== 'object' || Array.isArray(caseData)) {
+        return res.status(400).json({ error: 'Case data must be an object' });
     }
 
     try {
@@ -523,8 +535,21 @@ app.post('/api/cases/summary', async (req, res) => {
 
     const { caseData, individuals, witnesses, nameMapping } = req.body;
 
+    // Input validation
     if (!caseData) {
         return res.status(400).json({ error: 'Case data is required' });
+    }
+    if (typeof caseData !== 'object' || Array.isArray(caseData)) {
+        return res.status(400).json({ error: 'Case data must be an object' });
+    }
+    if (individuals !== undefined && !Array.isArray(individuals)) {
+        return res.status(400).json({ error: 'Individuals must be an array' });
+    }
+    if (witnesses !== undefined && !Array.isArray(witnesses)) {
+        return res.status(400).json({ error: 'Witnesses must be an array' });
+    }
+    if (nameMapping !== undefined && (typeof nameMapping !== 'object' || Array.isArray(nameMapping))) {
+        return res.status(400).json({ error: 'Name mapping must be an object' });
     }
 
     try {
@@ -1323,7 +1348,7 @@ app.post('/api/npc/update-name/:surname', async (req, res) => {
                     const oldFilePath = getConversationFilePath(sessionId, oldSurname);
                     if (fsSync.existsSync(oldFilePath)) {
                         fsSync.unlinkSync(oldFilePath);
-                        console.log(`[SERVER] Deleted old conversation file for ${oldSurname}`);
+                        // Removed sensitive logging (conversation file operations)
                     }
                 } catch (deleteError) {
                     // Non-critical - old file might not exist or be in use
@@ -1398,8 +1423,21 @@ app.post('/api/deepseek', async (req, res) => {
 
     const { message, systemPrompt, options = {} } = req.body;
 
-    if (!message) {
-        return res.status(400).json({ error: 'Message is required' });
+    // Input validation
+    if (!message || typeof message !== 'string') {
+        return res.status(400).json({ error: 'Message is required and must be a string' });
+    }
+    if (message.trim().length === 0) {
+        return res.status(400).json({ error: 'Message cannot be empty' });
+    }
+    if (message.length > 5000) {
+        return res.status(400).json({ error: 'Message too long (max 5000 characters)' });
+    }
+    if (systemPrompt !== undefined && typeof systemPrompt !== 'string' && !Array.isArray(systemPrompt)) {
+        return res.status(400).json({ error: 'System prompt must be a string or array' });
+    }
+    if (options !== undefined && (typeof options !== 'object' || Array.isArray(options))) {
+        return res.status(400).json({ error: 'Options must be an object' });
     }
 
     const messages = [];
@@ -1551,9 +1589,7 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
         let conversation = await loadConversation(sessionId, surname);
         const isFirstInteraction = !conversation;
         
-        // Debug: Log job data received
-        console.log(`[SERVER] Message from ${surname}: npcData.job="${npcData.job}", existing conversation.job="${conversation?.job || 'none'}"`);
-        
+        // Load or create conversation
         if (!conversation) {
             // Create new conversation
             conversation = {
@@ -1568,7 +1604,7 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
                     messageCount: 0
                 }
             };
-            console.log(`[SERVER] Created new conversation for ${surname} with job="${conversation.job}"`);
+            // Removed sensitive logging (conversation creation details)
         } else {
             // Update NPC data if provided (in case it changed)
             // Always update job if provided - this ensures old conversations get jobs assigned
@@ -1579,7 +1615,6 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
                 const oldJob = conversation.job;
                 conversation.job = npcData.job || '';
                 if (oldJob !== conversation.job) {
-                    console.log(`[SERVER] Updated job for ${surname}: "${oldJob}" -> "${conversation.job}"`);
                     // Track previous job in metadata to preserve memory while updating context
                     if (oldJob && oldJob !== '' && conversation.job && conversation.job !== '' && oldJob !== conversation.job) {
                         // Store previous job in metadata for context in future conversations
@@ -1587,13 +1622,13 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
                             conversation.metadata = {};
                         }
                         conversation.metadata.previousJob = oldJob;
-                        console.log(`[SERVER] Job changed for ${surname} from "${oldJob}" to "${conversation.job}". Preserving conversation history.`);
+                        // Removed sensitive logging (job change details)
                     }
                 }
             } else if (!conversation.job) {
                 // If conversation has no job and npcData doesn't provide one, set empty
                 conversation.job = '';
-                console.log(`[SERVER] Warning: ${surname} has no job in conversation and npcData.job is missing!`);
+                console.warn(`[SERVER] Warning: NPC missing job data`);
             }
         }
         
@@ -1718,12 +1753,9 @@ app.post('/api/npc/conversation/:surname', async (req, res) => {
             }
         }
         
-        // Debug: Log what job is being used in prompt
-        console.log(`[SERVER] ===== Building prompt for ${surname} =====`);
-        console.log(`[SERVER] npcData.job="${npcData.job}", conversation.job="${conversation.job}", final job="${job}"`);
-        console.log(`[SERVER] isLawyer=${isLawyer}, jobContext="${jobContext}"`);
+        // Removed sensitive debug logging (job details, prompt building info)
         if (!job || job === '') {
-            console.error(`[SERVER] ERROR: ${surname} has NO JOB assigned!`);
+            console.error(`[SERVER] ERROR: NPC has no job assigned`);
         }
         
         // Build system prompt - special handling for judge
@@ -1834,7 +1866,7 @@ ${isJudge ? `REMEMBER: You are Judge ${surname}, a judge presiding over legal ca
                         lowerMsg.includes("i practice law") || lowerMsg.includes("i work in law") ||
                         lowerMsg.includes("i'm a paralegal") || lowerMsg.includes("i work at a law firm")) {
                         hasContradictoryHistory = true;
-                        console.log(`[SERVER] WARNING: ${surname} has contradictory history claiming legal work. Clearing conversation.`);
+                        console.warn(`[SERVER] WARNING: Contradictory conversation history detected. Clearing.`);
                         break;
                     }
                 }
@@ -1844,7 +1876,7 @@ ${isJudge ? `REMEMBER: You are Judge ${surname}, a judge presiding over legal ca
         // If contradictory history found, clear it
         if (hasContradictoryHistory) {
             conversation.conversation = [];
-            console.log(`[SERVER] Cleared contradictory conversation history for ${surname}`);
+            // Removed sensitive logging (conversation clearing details)
         }
         
         // Add conversation history (convert to API format)
@@ -1877,16 +1909,6 @@ ${isJudge ? `REMEMBER: You are Judge ${surname}, a judge presiding over legal ca
                 role: 'system', 
                 content: `FINAL REMINDER: You are responding as a ${job}. Your job is ${job}. Focus on your actual profession.` 
             });
-        }
-        
-        // Debug: Log what we're sending to AI
-        console.log(`[SERVER] Sending ${messages.length} messages to AI. Job="${job}", isLawyer=${isLawyer}`);
-        if (messages.length > 0 && messages[0].role === 'system') {
-            const hasJob = messages[0].content.includes(job);
-            console.log(`[SERVER] First system message contains job "${job}": ${hasJob ? 'YES' : 'NO'}`);
-            if (!hasJob && job) {
-                console.error(`[SERVER] CRITICAL: Job "${job}" NOT FOUND in system prompt!`);
-            }
         }
         
         // Call DeepSeek API

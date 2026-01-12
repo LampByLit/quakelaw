@@ -1987,9 +1987,16 @@ class Player extends MyGameObject
                     mainCanvasContext.globalAlpha *= shadowAlpha;
                     tileX += tileImage.width / tileSize; // shift over to shadow position
                 }
+                else if (image === tileImage5 || image === tileImage6)
+                {
+                    // For custom skins, use tileMaskCanvas (same as default skin) instead of drawing sprite
+                    drawImage = tileMaskCanvas;
+                    mainCanvasContext.globalAlpha *= shadowAlpha;
+                    tileX += tileImage.width / tileSize; // shift over to shadow position
+                }
                 else
                 {
-                    // For skins, we'll draw the sprite and darken it below
+                    // For other custom images, we'll draw the sprite and darken it below
                     mainCanvasContext.globalAlpha *= shadowAlpha;
                 }
             }
@@ -2016,8 +2023,8 @@ class Player extends MyGameObject
                 tileSize - 2 * renderTileShrink,
                 tileSize - 2 * renderTileShrink, -.5, -.5, 1, 1);
             
-            // For skin shadows, apply darkening effect
-            if (shadowRenderPass && image !== tileImage)
+            // For skin shadows, apply darkening effect (only for non-mask custom images)
+            if (shadowRenderPass && image !== tileImage && image !== tileImage5 && image !== tileImage6)
             {
                 // Darken the shadow by using multiply blend mode with black
                 mainCanvasContext.globalCompositeOperation = 'multiply';

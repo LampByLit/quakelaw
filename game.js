@@ -1977,28 +1977,29 @@ class Player extends MyGameObject
             SetCanvasTransform(pos, size, angle, height);
             
             let drawImage = image;
-            let useMaskForHit = false;
             
             if (shadowRenderPass)
             {
-                // For shadows, use the original tileMaskCanvas (works for all sprites)
-                drawImage = tileMaskCanvas;
-                mainCanvasContext.globalAlpha *= shadowAlpha;
-                // Only shift shadow position if using original tiles.png layout
-                // For skins, we'll use the same tileX/tileY but from the mask canvas
+                // For shadows with original tiles.png, use tileMaskCanvas
                 if (image === tileImage)
                 {
+                    drawImage = tileMaskCanvas;
+                    mainCanvasContext.globalAlpha *= shadowAlpha;
                     tileX += tileImage.width / tileSize; // shift over to shadow position
+                }
+                else
+                {
+                    // For skins, we'll draw the sprite and darken it below
+                    mainCanvasContext.globalAlpha *= shadowAlpha;
                 }
             }
             else if (hitRenderPass)
             {
-                // For hit effects (dash trail, cooldown), use mask only for original tiles.png
+                // For hit effects (dash trail), use mask only for original tiles.png
                 // For skins, apply alpha directly to the skin image to avoid artifacts
                 if (image === tileImage)
                 {
                     drawImage = tileMaskCanvas;
-                    useMaskForHit = true;
                 }
                 // For skins, we'll use the image directly and apply alpha below
                 mainCanvasContext.globalAlpha *= hitRenderPass;
@@ -2007,11 +2008,24 @@ class Player extends MyGameObject
             let renderTileShrink = .25;
             let s = size.Clone(2 * tileSize);
             mainCanvasContext.scale(mirror ? -s.x : s.x, s.y);
+            
+            // Draw the sprite
             mainCanvasContext.drawImage(drawImage,
                 tileX * tileSize + renderTileShrink,
                 tileY * tileSize + renderTileShrink,
                 tileSize - 2 * renderTileShrink,
                 tileSize - 2 * renderTileShrink, -.5, -.5, 1, 1);
+            
+            // For skin shadows, apply darkening effect
+            if (shadowRenderPass && image !== tileImage)
+            {
+                // Darken the shadow by using multiply blend mode with black
+                mainCanvasContext.globalCompositeOperation = 'multiply';
+                mainCanvasContext.fillStyle = 'rgba(0, 0, 0, 0.8)';
+                mainCanvasContext.fillRect(-.5, -.5, 1, 1);
+                mainCanvasContext.globalCompositeOperation = 'source-over';
+            }
+            
             mainCanvasContext.restore();
             mainCanvasContext.globalAlpha = 1;
         };
@@ -2142,7 +2156,8 @@ class Player extends MyGameObject
         }
     
         let d = this.dashTimer.Get();
-        if (!shadowRenderPass && d<this.dashWaitTime+.5)
+        // Only show cooldown outline for original sprite, not for skins
+        if (!shadowRenderPass && d<this.dashWaitTime+.5 && !useSkin)
         {
             // show a white outline around the player when dash is charging
             hitRenderPass = d<this.dashWaitTime?d/this.dashWaitTime:Math.sin((d-this.dashWaitTime)*PI*4);

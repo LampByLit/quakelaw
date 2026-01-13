@@ -1847,10 +1847,10 @@ function ShowJudgmentStatementModal(activeCase, event, npc) {
         const bonusParts = [];
         
         if (bonuses.credibility > 0) {
-            bonusParts.push(`Circumstantial Evidence: ${bonuses.credibility}`);
+            bonusParts.push(`Credibility: ${bonuses.credibility}`);
         }
         if (bonuses.countersuit > 0) {
-            bonusParts.push(`Direct Evidence: ${bonuses.countersuit}`);
+            bonusParts.push(`Circumstantial Evidence: ${bonuses.countersuit}`);
         }
         if (bonuses.exculpation > 0) {
             bonusParts.push(`Exculpation: ${bonuses.exculpation}`);

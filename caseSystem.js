@@ -1276,7 +1276,7 @@ async function ProcessFridayJudgment(playerStatement, isMissedEvent = false) {
         // 3. Collect and consume bonuses from inventory (must happen before judgment)
         console.log('[JUDGMENT] Step 3: Collecting and consuming bonuses from inventory');
         const bonuses = CollectBonusesFromInventory();
-        console.log(`[JUDGMENT] Step 3: Bonuses found - Circumstantial Evidence: ${bonuses.credibility}, Direct Evidence: ${bonuses.countersuit}, Exculpation: ${bonuses.exculpation}`);
+        console.log(`[JUDGMENT] Step 3: Bonuses found - Credibility: ${bonuses.credibility}, Circumstantial Evidence: ${bonuses.countersuit}, Exculpation: ${bonuses.exculpation}`);
         
         // Consume all bonuses immediately on submission
         ConsumeBonusesFromInventory();
@@ -1470,7 +1470,7 @@ async function ProcessAutomaticClaim() {
         // 2. Collect and consume bonuses from inventory
         console.log('[CLAIM] Step 2: Collecting and consuming bonuses from inventory');
         const bonuses = CollectBonusesFromInventory();
-        console.log(`[CLAIM] Step 2: Bonuses found - Circumstantial Evidence: ${bonuses.credibility}, Direct Evidence: ${bonuses.countersuit}, Exculpation: ${bonuses.exculpation}`);
+        console.log(`[CLAIM] Step 2: Bonuses found - Credibility: ${bonuses.credibility}, Circumstantial Evidence: ${bonuses.countersuit}, Exculpation: ${bonuses.exculpation}`);
         
         // Consume all bonuses immediately
         ConsumeBonusesFromInventory();

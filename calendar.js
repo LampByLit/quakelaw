@@ -285,7 +285,7 @@ function GiveEventReward()
     {
         // Countersuit (less common) - sprite index 19
         rewardType = 'countersuit';
-        rewardName = 'Countersuit';
+        rewardName = 'Circumstantial Evidence';
         tileX = 19 % 8; // 3
         tileY = Math.floor(19 / 8); // 2
     }

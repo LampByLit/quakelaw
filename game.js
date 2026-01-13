@@ -1141,8 +1141,9 @@ function Update()
         window.lastPenaltyCheckDay = gameTime.dayOfMonth;
     }
     
-    // Check for random penalty
+    // Check for random penalty (only after first week)
     if (gameTime && playerData && 
+        gameTime.daysElapsed >= 7 &&
         gameTime.gameHour >= 7.05 && 
         gameTime.gameHour < 7.06 &&
         !window.penaltyCheckDoneToday)
